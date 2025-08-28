@@ -29,7 +29,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: TEXT
   Program: Internal Revenue Service - Additional Child Tax Credit
-  SortOrder: 39
+  SortOrder: 0
 - Answers:
   - Agency: TREASURY
     Answer: The IRS will continue to educate tax professionals on their due diligence
@@ -52,7 +52,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: TEXT
   Program: Internal Revenue Service - American Opportunity Tax Credit
-  SortOrder: 40
+  SortOrder: 1
 - Answers:
   - Agency: TREASURY
     Answer: The IRS will continue to hold the annual Dependent Database (DDb) meetings
@@ -82,7 +82,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: TEXT
   Program: Internal Revenue Service - Earned Income Tax Credit
-  SortOrder: 41
+  SortOrder: 2
 - Answers:
   - Agency: TREASURY
     Answer: The IRS will continue to hold the annual Dependent Database (DDb) meetings
@@ -106,7 +106,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: TEXT
   Program: Internal Revenue Service - Refundable Premium Assistance Tax Credit
-  SortOrder: 42
+  SortOrder: 3
 Report_Id: '2'
 Requirements:
 - Indent: 0

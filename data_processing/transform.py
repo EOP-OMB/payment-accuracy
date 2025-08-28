@@ -381,55 +381,6 @@ QUARTERLY_SCORECARD_LINKS_CREATE_VIEW_SQL = """
     );
 """
 
-ACTIONS_TAKEN_DROP_VIEW_SQL = [
-    "DROP VIEW IF EXISTS actions_taken_2024"
-]
-
-ACTIONS_TAKEN_CREATE_VIEW_SQL = [
-    """
-    CREATE VIEW actions_taken_2024 AS
-    SELECT
-        [action_data].[Fiscal_Year],
-        [action_data].[Agency],
-        [action_data].[Program_Name],
-        [action_data].[Column_names] AS [Mitigation_Strategy],
-        [action_data].[Column_values] AS [Description_Action_Taken],
-        CASE
-            WHEN [action_data].Column_names LIKE 'app%\\_1' ESCAPE '\\' AND [date_lookup].[Column_values] NOT LIKE 'The corrective action was not fully completed%' THEN 'Planned'
-            WHEN ([action_data].Column_names LIKE 'atp%\\_1' ESCAPE '\\' OR [action_data].Column_names LIKE 'app%\\_1' ESCAPE '\\') AND [date_lookup].[Column_values] LIKE 'The corrective action was not fully completed%' THEN 'Not Completed'
-            ELSE 'Completed'
-        END as [Action_Taken],
-        [date_lookup].[Column_values] AS [Completion_Date],
-        COALESCE([type_lookup].[Type], [action_data].Column_names) AS [Action_Type]
-    FROM [principal_table_columns] [action_data]
-    LEFT JOIN [actions_date_mapping] ON
-        [action_data].[Column_names] = [actions_date_mapping].[Action]
-    LEFT JOIN (
-        SELECT
-            [Fiscal_Year],
-            [Agency],
-            [Program_Name],
-            [Column_names],
-            [Column_values]
-        FROM [principal_table_columns]
-    ) [date_lookup] ON
-        [action_data].[Fiscal_Year] = [date_lookup].[Fiscal_Year] AND
-        [action_data].[Agency] = [date_lookup].[Agency] AND
-        [action_data].[Program_Name] = [date_lookup].[Program_Name] AND
-        [actions_date_mapping].[Date] = [date_lookup].[Column_names]
-    LEFT JOIN (
-        SELECT
-            [Type],
-            [Action]
-        FROM [actions_date_mapping]
-    ) [type_lookup] ON [action_data].Column_names = [type_lookup].[Action]
-    WHERE [action_data].Column_values <> ''
-        AND ([action_data].Column_names LIKE 'atp%\\_1' ESCAPE '\\' OR [action_data].Column_names LIKE 'app%\\_1' ESCAPE '\\')
-        -- not showing on old site
-        AND [action_data].Column_names <> 'atp17_1'
-        AND [action_data].Column_names <> 'app17_1'"""
-]
-
 CONGRESSIONAL_REPORTS_DROP_VIEW_SQL = [
     "DROP VIEW IF EXISTS congressional_report_1_2024",
     "DROP VIEW IF EXISTS congressional_report_1_2025",
@@ -695,9 +646,9 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
     """
     CREATE VIEW congressional_report_2_2024_programs AS
     SELECT
-        [agency] AS [Agency],
-        [Program Name] AS [Program_Name],
-        [Fiscal_Year],
+        [congressional_reports_program].[agency] AS [Agency],
+        [congressional_reports_program].[Program Name] AS [Program_Name],
+        [congressional_reports_program].[Fiscal_Year],
         [key] AS [Key],
         [Title] AS [Question],
         [value] AS [Answer],
@@ -716,6 +667,18 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
             WHEN 'app8_1' THEN 11
         END AS [SortOrder]
     FROM [congressional_reports_program]
+    INNER JOIN (
+        SELECT
+            [Agency],
+            [Fiscal_Year],
+            [Program_Name]
+        FROM [all_programs_data_aggregation]
+        WHERE [High_Priority_Program] = '1'
+    ) [high_priority]
+    ON
+        [high_priority].[Agency] = [congressional_reports_program].[agency] AND
+        [high_priority].[Program_Name] = [congressional_reports_program].[Program Name] AND
+        [high_priority].[Fiscal_Year] = [congressional_reports_program].[Fiscal_Year]
     WHERE [Key] IN (
         'cyp21_app1_8',
         'cyp5_app1_8',
@@ -734,9 +697,9 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
     """
     CREATE VIEW congressional_report_2_2025_programs AS
     SELECT
-        [agency] AS [Agency],
-        [Program Name] AS [Program_Name],
-        [Fiscal_Year],
+        [congressional_reports_program].[agency] AS [Agency],
+        [congressional_reports_program].[Program Name] AS [Program_Name],
+        [congressional_reports_program].[Fiscal_Year],
         [key] AS [Key],
         [Title] AS [Question],
         [value] AS [Answer],
@@ -748,6 +711,18 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
             WHEN 'atpapp30_1' THEN 4
         END AS [SortOrder]
     FROM [congressional_reports_program]
+    INNER JOIN (
+        SELECT
+            [Agency],
+            [Fiscal_Year],
+            [Program_Name]
+        FROM [all_programs_data_aggregation]
+        WHERE [High_Priority_Program] = '1'
+    ) [high_priority]
+    ON
+        [high_priority].[Agency] = [congressional_reports_program].[agency] AND
+        [high_priority].[Program_Name] = [congressional_reports_program].[Program Name] AND
+        [high_priority].[Fiscal_Year] = [congressional_reports_program].[Fiscal_Year]
     WHERE [Key] IN (
         'cyp21_app1_8',
         'cyp5_app1_8',
@@ -819,8 +794,6 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
             WHEN 'cyp1' THEN 1
             WHEN 'cyp27' THEN 2
             WHEN 'cyp28' THEN 3
-            WHEN 'cyp7' THEN 4
-            WHEN 'cyp24' THEN 5
             WHEN 'cyp30' THEN 6
             WHEN 'cyp29' THEN 7
             WHEN 'cyp21' THEN 8
@@ -845,17 +818,14 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
             WHEN 'cyp7' THEN 27
             WHEN 'cyp24' THEN 28
             WHEN 'cyp8' THEN 29
-            WHEN 'ucp3' THEN 30
-            WHEN 'ucp2' THEN 31
-            WHEN 'ucp2_1' THEN 32
-            WHEN 'ucp1' THEN 33
-            WHEN 'ucp1_1' THEN 34
-            WHEN 'ucp4' THEN 35
-            WHEN 'ucp4_1' THEN 36
-            WHEN 'rnp3' THEN 37
-            WHEN 'rnp4' THEN 38
-            WHEN 'rap5' THEN 39
-            WHEN 'rap6' THEN 40
+            WHEN 'cyp7_ucp3' THEN 30
+            WHEN 'cyp7_ucp3_1' THEN 31
+            WHEN 'cyp7_ucp2' THEN 32
+            WHEN 'cyp7_ucp2_1' THEN 33
+            WHEN 'cyp7_ucp1' THEN 34
+            WHEN 'cyp7_ucp1_1' THEN 35
+            WHEN 'cyp7_ucp4' THEN 36
+            WHEN 'cyp7_ucp4_1' THEN 37
         END AS [SortOrder]
     FROM [congressional_reports_program]
     WHERE [Key] IN (
@@ -863,8 +833,6 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         'cyp1',
         'cyp27',
         'cyp28',
-        'cyp7',
-        'cyp24',
         'cyp30',
         'cyp29',
         'cyp20_1',
@@ -888,17 +856,14 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         'cyp7',
         'cyp24',
         'cyp8',
-        'ucp3',
-        'ucp2',
-        'ucp2_1',
-        'ucp1',
-        'ucp1_1',
-        'ucp4',
-        'ucp4_1',
-        'rnp3',
-        'rnp4',
-        'rap5',
-        'rap6'
+        'cyp7_ucp3',
+        'cyp7_ucp3_1',
+        'cyp7_ucp2',
+        'cyp7_ucp2_1',
+        'cyp7_ucp1',
+        'cyp7_ucp1_1',
+        'cyp7_ucp4',
+        'cyp7_ucp4_1'
     )
     """,
     """
@@ -915,8 +880,6 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
             WHEN 'cyp1' THEN 1
             WHEN 'cyp27' THEN 2
             WHEN 'cyp28' THEN 3
-            WHEN 'cyp7' THEN 4
-            WHEN 'cyp24' THEN 5
             WHEN 'cyp30' THEN 6
             WHEN 'cyp29' THEN 7
             WHEN 'cyp20_1' THEN 8
@@ -935,10 +898,6 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
             WHEN 'cyp25' THEN 21
             WHEN 'cyp7' THEN 22
             WHEN 'cyp24' THEN 23
-            WHEN 'rnp3' THEN 24
-            WHEN 'rnp4' THEN 25
-            WHEN 'rap5' THEN 26
-            WHEN 'rap6' THEN 27
         END AS [SortOrder]
     FROM [congressional_reports_program]
     WHERE [Key] IN (
@@ -946,8 +905,6 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         'cyp1',
         'cyp27',
         'cyp28',
-        'cyp7',
-        'cyp24',
         'cyp30',
         'cyp29',
         'cyp20_1',
@@ -965,11 +922,7 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         'cyp6',
         'cyp25',
         'cyp7',
-        'cyp24',
-        'rnp3',
-        'rnp4',
-        'rap5',
-        'rap6'
+        'cyp24'
     )
     """
 ]
@@ -1125,12 +1078,6 @@ def recreate_year_mapped_views():
         cur.execute(drop_query)
 
     for create_query in CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL:
-        cur.execute(create_query)
-
-    for drop_query in ACTIONS_TAKEN_DROP_VIEW_SQL:
-        cur.execute(drop_query)
-
-    for create_query in ACTIONS_TAKEN_CREATE_VIEW_SQL:
         cur.execute(create_query)
 
     conn.commit()

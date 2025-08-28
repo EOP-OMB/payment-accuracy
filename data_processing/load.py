@@ -11,6 +11,7 @@ import shutil
 import sqlite3
 import re
 import hashlib
+from load_tools import query, congressional_reports
 import yaml
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -62,8 +63,6 @@ compliance_survey_to_criterion_mapping_2022 = {
 }
 
 SLUGIFIED_PROGRAM_NAME_MAPPINGS = {}
-
-agency_survey_details_cache = {}
 
 def getThemeDescription(theme):
     theme_description = ""
@@ -385,22 +384,11 @@ def map_program_compliance_2022(program):
 
     return mappedProgram
 
-def map_risk(risk):
-    return {
-        "Program_Name": risk["Program_Name"],
-        "Susceptible": risk["Susceptible"],
-        "Fiscal_Year": risk["Fiscal_Year"],
-        "Slug": SLUGIFIED_PROGRAM_NAME_MAPPINGS[risk["Program_Name"]] if risk["Program_Name"] in SLUGIFIED_PROGRAM_NAME_MAPPINGS else None
-    }
-
-def group_and_map_risks(risks):
-    return list(map(map_risk, risks))
-
 def extract_column_from_results(fieldName, results):
     return list(map(lambda x: x[fieldName], results))
 
 def generate_agency_specific_pages_for_year(cursor: sqlite3.Cursor, year):
-    query = f"""
+    pageQuery = f"""
         SELECT
             a.[Agency],
             a.[Agency_Name],
@@ -412,7 +400,7 @@ def generate_agency_specific_pages_for_year(cursor: sqlite3.Cursor, year):
         WHERE a.[Fiscal_Year] = ?
     """
 
-    cursor.execute(query, (year,))
+    cursor.execute(pageQuery, (year,))
 
     agencies = cursor.fetchall()
 
@@ -443,7 +431,7 @@ def generate_agency_specific_pages_for_year(cursor: sqlite3.Cursor, year):
             "Is_Placeholder": False
         }
 
-        details = get_agency_survey_details(cursor, year, agency["Agency"])
+        details = query.get_agency_survey_details(cursor, year, agency["Agency"])
 
         # this relies on the assumption that there is one record per year-agency-key 
         # if multiselect values are ever needed, use a separate extract file and table
@@ -689,66 +677,22 @@ def generate_agency_specific_pages_for_year(cursor: sqlite3.Cursor, year):
 
     print("Successfully generated agency-specific markup files for FY " + str(year))
 
-def get_agency_survey_details(cursor, year, agency):
-    if agency not in agency_survey_details_cache or year not in agency_survey_details_cache[agency]:
-        agencyQuery = f"""
-            SELECT
-                [agency],
-                [Key],
-                [Title],
-                [value],
-                [Fiscal_Year]
-            FROM [agency_data_raw]
-            WHERE [Fiscal_Year] = ? AND [Agency] = ?
-        """
-        cursor.execute(agencyQuery, (year, agency))
-        details = cursor.fetchall()
-        if agency not in agency_survey_details_cache:
-            agency_survey_details_cache[agency] = {}
-        agency_survey_details_cache[agency][year] = {row["Key"]: row for row in details}
-    return agency_survey_details_cache[agency][year]
-
-def get_agency_survey_answer(cursor, year, agency, key):
-    details = get_agency_survey_details(cursor, year, agency)
-    row = details.get(key, None)
-    value = None
-    if row is not None:
-        value = row["value"]
-    return value
-
 def get_risks(cursor, year, agency):
-    risksQuery = f"""
-        SELECT
-            a.[Agency],
-            a.[Fiscal_Year],
-            a.[Program_Name],
-            CASE WHEN
-                (upper([Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_]) = 'NO' OR upper([raa7_2]) = 'NO') THEN 'No'
-                ELSE 'Yes' END AS [Susceptible]
-        FROM [risks] a
-        JOIN (
-            SELECT
-                [Agency],
-                MAX([Fiscal_Year]) AS [LastRiskAssessment],
-                [Program_Name]
-            FROM [risks]
-            WHERE (upper([raa6_2]) = 'YES' OR [Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_] IS NOT NULL)
-                AND (
-                    (upper([Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_]) = 'NO' OR upper([raa7_2]) = 'NO') OR
-                    (upper([Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_]) = 'YES' OR upper([raa7_2]) = 'YES')
-                )
-                AND ([Agency] = ? AND [Fiscal_Year] <= ?)
-            GROUP BY [Agency], [Program_Name]
-        ) b ON a.[Agency] = b.[Agency] AND UPPER(a.[Program_Name]) = UPPER(b.[Program_Name]) AND a.[Fiscal_Year] = b.[LastRiskAssessment]
-        ORDER BY a.[Program_Name]
-    """
-    cursor.execute(risksQuery, (agency, year))
-    riskDetails = cursor.fetchall()
+    assessments = query.fetch_all(
+        cursor,
+        query.QUERY_TYPES.RISK_ASSESSMENTS, (agency, year),
+        year
+    )
 
     return {
-        "Assessments": group_and_map_risks(riskDetails),
-        "AdditionalInformation": get_agency_survey_answer(cursor, year, agency, "raa9"),
-        "SubstantialChangesMade": get_agency_survey_answer(cursor, year, agency, "raa8")
+        "Assessments": list(map(lambda risk: {
+            "Program_Name": risk["Program_Name"],
+            "Susceptible": risk["Susceptible"],
+            "Fiscal_Year": risk["Fiscal_Year"],
+            "Slug": SLUGIFIED_PROGRAM_NAME_MAPPINGS[risk["Program_Name"]] if risk["Program_Name"] in SLUGIFIED_PROGRAM_NAME_MAPPINGS else None
+        }, assessments)),
+        "AdditionalInformation": query.get_agency_survey_answer(cursor, year, agency, query.KEY_TYPES.RISKS_ADDITIONAL_INFORMATION),
+        "SubstantialChangesMade": query.get_agency_survey_answer(cursor, year, agency, query.KEY_TYPES.RISKS_SUBSTANTIAL_CHANGES_MADE)
     }
 
 def hide_agency_specific_sections(agencyObj):
@@ -2118,34 +2062,13 @@ def generate_program_specific_pages(cursor: sqlite3.Cursor):
 
 def add_actions_taken(cursor, years, program, data_by_year_dict):
     for fiscal_year in years:
-        actionsView = config.QUERY_MAPPING_BY_YEAR[fiscal_year][config.MAPPED_QUERY_NAME_ACTIONS_TAKEN]
-        actionsQuery = f"""
-            SELECT * FROM {actionsView} WHERE [Program_Name] = ? AND [Fiscal_Year] = ?
-            """
-        cursor.execute(actionsQuery, (program, fiscal_year))
-        actionsTaken = cursor.fetchall()
+        actions_taken = query.fetch_all(cursor, query.QUERY_TYPES.ACTIONS_TAKEN, (program, fiscal_year), fiscal_year)
 
-        for row in actionsTaken:
-            mitigation_strategy = row["Mitigation_Strategy"]
-            description_action_taken = row["Description_Action_Taken"]
-            action_taken = row["Action_Taken"]
-            completion_date = row["Completion_Date"]
-            action_type = row["Action_Type"]
-
+        if len(actions_taken) > 0:
             if fiscal_year not in data_by_year_dict:
                 data_by_year_dict[fiscal_year] = {}
 
-            data_by_year_dict[fiscal_year].setdefault("Actions_Taken", [])
-
-            data_by_year_dict[fiscal_year]["Actions_Taken"].append({
-                    key: value for key, value in {
-                        "Mitigation_Strategy": mitigation_strategy,
-                        "Description_Action_Taken": description_action_taken,
-                        "Action_Taken": action_taken,
-                        "Completion_Date": completion_date,
-                        "Action_Type": action_type
-                    }.items() if value is not None
-                })
+            data_by_year_dict[fiscal_year]["Actions_Taken"] = actions_taken
 
 def generate_congressional_reports_pages(cursor: sqlite3.Cursor):
     if os.path.exists(CONGRESSIONAL_REPORTS_DIR):
@@ -2153,28 +2076,20 @@ def generate_congressional_reports_pages(cursor: sqlite3.Cursor):
 
     os.makedirs(CONGRESSIONAL_REPORTS_DIR, exist_ok=True)
 
-    reportLookup = { str(report["Id"]): report for report in config.CONGRESSIONAL_REPORTS }
     yearsToGenerate = list(range(config.FISCAL_YEAR - config.COUNT_CONGRESSIONAL_REPORTS_YEARS_DISPLAYED + 1, config.FISCAL_YEAR + 1))
-    yearPlaceholders = ','.join(['?'] * len(yearsToGenerate))
 
-    agencyNameLookupQuery = """
-            SELECT DISTINCT
-                Agency_Acronym,
-                Agency_Name
-            FROM ip_agency_pocs
-            WHERE [Fiscal_Year] = ?
-            """
-    cursor.execute(agencyNameLookupQuery, (config.FISCAL_YEAR,))
-    agencyNameRows = cursor.fetchall()
+    agencyNameRows = query.fetch_all(
+        cursor,
+        query.QUERY_TYPES.AGENCY_NAMES,
+        (config.FISCAL_YEAR,)
+    )
     agencyNameRowsLookup = { agencyNameRow["Agency_Acronym"]: agencyNameRow["Agency_Name"] for agencyNameRow in agencyNameRows }
-    agencyQuery = f"""
-        SELECT DISTINCT agency FROM congressional_reports
-        UNION
-        SELECT DISTINCT agency FROM congressional_reports_program
-        WHERE [Fiscal_Year] IN ({yearPlaceholders})
-    """
-    cursor.execute(agencyQuery, yearsToGenerate)
-    agencyRows = cursor.fetchall()
+
+    agencyRows = query.fetch_all(
+        cursor,
+        query.QUERY_TYPES.AGENCIES_HAVING_CONGRESSIONAL_DATA,
+        yearsToGenerate
+    )
 
     generate_congressional_shared_data(yearsToGenerate, agencyNameRowsLookup, agencyRows)
 
@@ -2189,184 +2104,28 @@ def generate_congressional_reports_pages(cursor: sqlite3.Cursor):
         yaml.dump(yamlData, file, allow_unicode=True)
         file.write('---\n')
 
-    # Setup pages for all dropdown combinations (so user always lands on something)
-    yamlLookup = {}
-    for yearConfig in config.CONGRESSIONAL_REPORTS_YEAR_TO_VIEW_MAPPING:
-        year = yearConfig["Year"]
-        idsToGenerate = list(map(lambda x: x['Id'], config.CONGRESSIONAL_REPORTS))
+    # Generate and write reports
+    for year in yearsToGenerate:
+        for report in [report for report in config.CONGRESSIONAL_REPORTS if not report["IsGovernmentWide"]]:
+            for agency in agencyRows:
+                agency_report = congressional_reports.AgencyReport(
+                    cursor,
+                    year,
+                    agency["agency"],
+                    report["Id"],
+                    SLUGIFIED_PROGRAM_NAME_MAPPINGS
+                )
+                agency_report.to_yaml(CONGRESSIONAL_REPORTS_DIR)
 
-        for agency in agencyRows:
-            agencyCode = agency["agency"]
-            agencyName = agencyNameRowsLookup[agencyCode]
-            for year in yearsToGenerate:
-                for id in idsToGenerate:
-                    pageName = str(year) + "_" + agencyCode + "_" + str(id)
-                    title = reportLookup[str(id)]["Name"]
-                    if year not in yamlLookup:
-                        yamlLookup[year] = {}
-
-                    if agencyCode not in yamlLookup[year]:
-                        yamlLookup[year][agencyCode] = {}
-
-                    # Legal Requirements
-                    requirements = []
-                    if str(id) in config.CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING[str(year)]:
-                        requirements = list(map(lambda x: {
-                            "Indent": x["indent"],
-                            "Type": x["type"].name,
-                            "Text": x["text"]
-                        }, config.CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING[str(year)][str(id)]))
-
-                    yamlLookup[year][agencyCode][str(id)] = {
-                        'title': title,
-                        'layout': 'congressional-reports',
-                        'permalink': '/resources/congressional-reports/' + pageName,
-                        'Agency': agencyCode,
-                        'Agency_Name': agencyName,
-                        'Fiscal_Year': year,
-                        'Report_Id': str(id),
-                        'Page_Name': pageName,
-                        'Requirements': requirements
-                    }
-
-    # Add agency and program survey data
-    for yearConfig in config.CONGRESSIONAL_REPORTS_YEAR_TO_VIEW_MAPPING:
-        year = yearConfig["Year"]
-        # Skip future years
-        if year > config.FISCAL_YEAR:
-            continue
-
-        for id, view in yearConfig["AgencyReports"].items():
-            reportConfig = next((report for report in config.CONGRESSIONAL_REPORTS if str(report["Id"]) == id), None)
-            cursor.execute(f"SELECT * FROM {view} WHERE [Fiscal_Year] = ? AND [Answer] IS NOT NULL ORDER BY [Agency], [SortOrder]", (year,))
-            viewResults = cursor.fetchall()
-            fieldsByAgency = groupby(viewResults, key=lambda x: x["Agency"])
-
-            for agency, fields in fieldsByAgency:
-                yamlLookup[year][agency][id]["SurveyName"] = reportConfig["SurveyName"] if reportConfig is not None and "SurveyName" in reportConfig else config.DEFAULT_SURVEY_NAME
-                yamlLookup[year][agency][id]["SurveyData"] = list(map(lambda row: {
-                    "Heading": config.CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING[str(year)][id][row["Key"]]["heading"],
-                    "Subheading": config.CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING[str(year)][id][row["Key"]]["subheading"],
-                    "Answer": format_answer(row["Answer"], config.CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING[str(year)][id][row["Key"]]),
-                    "SortOrder": row["SortOrder"],
-                    "Key": row["Key"],
-                    "Type": config.CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING[str(year)][id][row["Key"]]["type"].name
-                }, fields))
-
-                # Additional report sections
-                match id:
-                    case '1':
-                        yamlLookup[year][agency][id]["Risks"] = get_risks(cursor, year, agency)
-                        yamlLookup[year][agency][id]["Hide_Survey"] = True
-                    case '2':
-                        yamlLookup[year][agency][id]["High_Priority_Links"] = get_latest_high_priority_program_links(cursor, year, agency)
-
-        for id, view in yearConfig["ProgramReports"].items():
-            cursor.execute(f"SELECT * FROM {view} WHERE [Fiscal_Year] = ? AND [Answer] IS NOT NULL ORDER BY [Agency], [Program_Name], [SortOrder]", (year,))
-            viewResults = cursor.fetchall()
-            fieldsByProgramGroup = groupby(viewResults, key=lambda x: x["Program_Name"])
-            fieldsByProgram = { key: list(group) for key, group in fieldsByProgramGroup}
-            programSortOrder = 0
-            cursor.execute(f"SELECT * FROM [significant_or_high_priority_programs]")
-            programs = cursor.fetchall()
-            for programAgency in programs:
-                program = programAgency["Program_Name"]
-                agencyCode = programAgency["Agency"]
-                fields = fieldsByProgram[program] if program in fieldsByProgram.keys() else []
-                answers = list(map(lambda row: {
-                    "Agency": row["Agency"],
-                    "Heading": config.CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING_PROGRAMS[str(year)][id][row["Key"]]["heading"],
-                    "Subheading": config.CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING_PROGRAMS[str(year)][id][row["Key"]]["subheading"],
-                    "Answer": format_answer(row["Answer"], config.CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING_PROGRAMS[str(year)][id][row["Key"]]),
-                    "SortOrder": row["SortOrder"],
-                    "Key": row["Key"],
-                    "Type": config.CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING_PROGRAMS[str(year)][id][row["Key"]]["type"].name
-                }, fields))
-
-                actionsTakenResult = {}
-
-                # Additional report sections
-                match id:
-                    case '4':
-                        add_actions_taken(cursor, [year], program, actionsTakenResult)
-
-                if "ProgramSurveyData" not in yamlLookup[year][agencyCode][id]:
-                    yamlLookup[year][agencyCode][id]["ProgramSurveyData"] = []
-
-                actionsTaken = []
-                if (year in actionsTakenResult and "Actions_Taken" in actionsTakenResult[year]):
-                    actionsTaken = actionsTakenResult[year]["Actions_Taken"]
-
-                hideProgram = len(answers) == 0 and len(actionsTaken) == 0
-
-                if not hideProgram:
-                    programYaml = {
-                        "Program": program,
-                        "Answers": answers,
-                        "SortOrder": programSortOrder
-                    }
-
-                    if (len(actionsTaken) > 0):
-                        programYaml["ActionsTaken"] = actionsTaken
-
-                    yamlLookup[year][agencyCode][id]["ProgramSurveyData"].append(programYaml)
-
-                    programSortOrder = programSortOrder + 1
-
-    # Write the data
-    for year, yearData in yamlLookup.items():
-        for agency, agencyData in yearData.items():
-            for id, reportData in agencyData.items():
-                with open(os.path.join(CONGRESSIONAL_REPORTS_DIR, reportData["Page_Name"] + ".md"), 'w', encoding='utf-8') as file:
-                    file.write('---\n')
-                    yaml.dump(reportData, file, allow_unicode=True)
-                    file.write('---\n')
+        for report in [report for report in config.CONGRESSIONAL_REPORTS if report["IsGovernmentWide"]]:
+            governmentwide_report = congressional_reports.GovernmentWideReport(
+                cursor,
+                year,
+                report["Id"]
+            )
+            governmentwide_report.to_yaml(CONGRESSIONAL_REPORTS_DIR)
 
     print("Successfully generated congressional reports markup files")
-
-def get_latest_high_priority_program_links(cursor, agency, year):
-    linksQuery = """
-        SELECT
-	        [Link],
-	        [Agency],
-            agency.[Program_Name]
-        FROM (
-	        SELECT
-		        [Link],
-		        [Program_Name]
-	        FROM program_scorecard_links
-            WHERE [Year] = ?
-	        GROUP BY [Program_Name]
-	        HAVING MAX(CONCAT([Year],'-',[Quarter]))
-        ) links
-        JOIN [significant_or_high_priority_programs] agency ON
-	        links.[Program_Name] = agency.[Program_Name]
-        WHERE [Agency] = ?
-    """
-    cursor.execute(linksQuery, (agency, year))
-    links = cursor.fetchall()
-    return list(map(lambda x: {
-        "Link": x["Link"],
-        "Program_Name": x["Program_Name"]
-    }, links))
-
-def format_question(question, type):
-    # override question text if specified in config
-    if ("question" in type):
-        question = type["question"]
-
-    # strip out bracketed key and parenthesized answer format
-    match = re.search(r"(?<=\])[^(]+", question)
-    if match:
-        question = match.group()
-    return question.strip()
-
-def format_answer(answer, type):
-    if type["type"] == config.CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT:
-        parts = re.split(r'(?<!\\),', answer)
-        # unescape commas that were previously escaped in extract queries
-        answer = [re.sub(r'\\\\,', ',', part) for part in parts]
-    return answer
 
 def generate_shared_data():
     with open(SHARED_DATA_PATH, 'w', encoding='utf-8') as file:
@@ -2393,7 +2152,8 @@ def generate_congressional_shared_data(yearsToGenerate, agencyNameRowsLookup, ag
         yearsDropdown = [ year for year in yearsToGenerate ]
         reportsDropdown = [ {
             "Id": str(report["Id"]),
-            "Name": report["Name"]
+            "Name": report["Name"],
+            "IsGovernmentWide": report["IsGovernmentWide"]
         } for report in config.CONGRESSIONAL_REPORTS ]
 
         yamlData = {

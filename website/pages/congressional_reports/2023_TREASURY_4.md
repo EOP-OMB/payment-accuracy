@@ -44,6 +44,29 @@ ProgramSurveyData:
       \ information, updates and training on various tax-related topics, such as tax\
       \ law changes to refundable tax credits.\t"
     Mitigation_Strategy: atp4_1
+  ActionsTakenAdditionalData:
+    Needs1: The IRS has what is needed with respect to internal control, human capital
+      and information system and other infrastructure to reduce Additional Child Tax
+      Credit (ACTC) Improper Payments and Unknown Payments to a tolerable rate. The
+      issue with ACTC is statutory program design and reliance on taxpayer self-certification.
+      The IRS has a strong internal control environment around ACTC and makes decisions
+      based on overall cost-benefit considerations, with a well-trained, technically
+      capable program staff.
+    Needs2: The IRS is realigning resources internally to accelerate progress against
+      its strategic priorities. The IRS will substantially be reducing the number
+      of correspondence audits focused specifically on certain refundable credits,
+      including the Additional Child Tax Credit (ACTC). Focusing on helping taxpayers
+      submit accurate filings upfront will increase payment accuracy while reducing
+      administrative burdens for the IRS and the tax filer.
+    Sufficiency: The IRS has the ability to identify Additional Child Tax Credit (ACTC)
+      errors by type. Correlating remediation efforts to success is challenging. Given
+      its limited authority to directly prevent and stop these errors, the IRS focuses
+      on positively influencing taxpayer behavior and working with paid preparers
+      and tax preparation software/online filing service providers. Further, the IRS
+      has sought legislative authority to enhance verification procedures for taxpayers
+      claiming ACTC and penalties for individuals or entities found guilty of abusing
+      RTCs. Taxpayer education and outreach efforts, such as the IRS's annual Dependent
+      Database (DDb) meetings, inform taxpayers about program eligibility requirements.
   Answers:
   - Agency: TREASURY
     Answer: '3771.62'
@@ -65,20 +88,6 @@ ProgramSurveyData:
     Key: cyp28
     SortOrder: 3
     Subheading: Improper Payment Estimate
-    Type: PERCENTAGE
-  - Agency: TREASURY
-    Answer: '0'
-    Heading: Causes of Improper Payments
-    Key: cyp7
-    SortOrder: 4
-    Subheading: Unknown Payments
-    Type: MILLIONS_OF_DOLLARS
-  - Agency: TREASURY
-    Answer: '0'
-    Heading: Causes of Improper Payments
-    Key: cyp24
-    SortOrder: 5
-    Subheading: Unknown Payments
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: '546.13'
@@ -184,48 +193,21 @@ ProgramSurveyData:
     Subheading: Technically Improper Payments
     Type: PERCENTAGE
   - Agency: TREASURY
-    Answer: The IRS has the ability to identify Additional Child Tax Credit (ACTC)
-      errors by type. Correlating remediation efforts to success is challenging. Given
-      its limited authority to directly prevent and stop these errors, the IRS focuses
-      on positively influencing taxpayer behavior and working with paid preparers
-      and tax preparation software/online filing service providers. Further, the IRS
-      has sought legislative authority to enhance verification procedures for taxpayers
-      claiming ACTC and penalties for individuals or entities found guilty of abusing
-      RTCs. Taxpayer education and outreach efforts, such as the IRS's annual Dependent
-      Database (DDb) meetings, inform taxpayers about program eligibility requirements.
-    Heading: Description of How the Level of Actions Matches the Level of Improper
-      Payments
-    Key: rnp3
-    SortOrder: 37
-    Subheading: ''
-    Type: TEXT
+    Answer: '0'
+    Heading: Causes of Improper Payments
+    Key: cyp7
+    SortOrder: 27
+    Subheading: Unknown Payments
+    Type: MILLIONS_OF_DOLLARS
   - Agency: TREASURY
-    Answer: The IRS has what is needed with respect to internal control, human capital
-      and information system and other infrastructure to reduce Additional Child Tax
-      Credit (ACTC) Improper Payments and Unknown Payments to a tolerable rate. The
-      issue with ACTC is statutory program design and reliance on taxpayer self-certification.
-      The IRS has a strong internal control environment around ACTC and makes decisions
-      based on overall cost-benefit considerations, with a well-trained, technically
-      capable program staff.
-    Heading: Program Needs
-    Key: rap5
-    SortOrder: 39
-    Subheading: ''
-    Type: TEXT
-  - Agency: TREASURY
-    Answer: The IRS is realigning resources internally to accelerate progress against
-      its strategic priorities. The IRS will substantially be reducing the number
-      of correspondence audits focused specifically on certain refundable credits,
-      including the Additional Child Tax Credit (ACTC). Focusing on helping taxpayers
-      submit accurate filings upfront will increase payment accuracy while reducing
-      administrative burdens for the IRS and the tax filer.
-    Heading: Program Needs
-    Key: rap6
-    SortOrder: 40
-    Subheading: ''
-    Type: TEXT
+    Answer: '0'
+    Heading: Causes of Improper Payments
+    Key: cyp24
+    SortOrder: 28
+    Subheading: Unknown Payments
+    Type: PERCENTAGE
   Program: Internal Revenue Service - Additional Child Tax Credit
-  SortOrder: 47
+  SortOrder: 0
 - ActionsTaken:
   - Action_Taken: Planned
     Action_Type: Training
@@ -263,6 +245,33 @@ ProgramSurveyData:
       information, updates and training on various tax-related topics, such as tax
       law changes to refundable tax credits.
     Mitigation_Strategy: atp3_1
+  ActionsTakenAdditionalData:
+    Needs1: The IRS has what is needed with respect to internal control, human capital
+      and information system and other infrastructure to reduce American Opportunity
+      Tax Credit (AOTC) Improper Payments and Unknown Payments to a tolerable rate.
+      The issue with AOTC is statutory program design and reliance on taxpayer self-certification.
+      The IRS has a strong internal control environment around AOTC and makes decisions
+      based on overall cost-benefit considerations, with a well-trained, technically
+      capable program staff.
+    Needs2: The IRS is realigning resources internally to accelerate progress against
+      its strategic priorities. The IRS will substantially be reducing the number
+      of correspondence audits focused specifically on certain refundable credits,
+      including the American Opportunity Tax Credit (AOTC). Focusing on helping taxpayers
+      submit accurate filings upfront will increase payment accuracy while reducing
+      administrative burdens for the IRS and the tax filer.
+    Sufficiency: The annual Dependent Database (DDb) meetings, collaborations/data
+      sharing with other federal agencies and outreach/education efforts are adequate
+      measures because they will continue to aid the Service in mitigating the impact
+      of the root causes. Much of the difficulty administering the American Opportunity
+      Tax Credit (AOTC) derives from the complexity of its statutory eligibility requirements,
+      many of which are known only to the taxpayer and cannot be independently confirmed
+      using third-party corroborating data. Likewise, the primary root causes of improper
+      payments of the AOTC are the  inability to authenticate eligibility at return
+      filing because the data needed does not exist, and taxpayer income misreporting
+      related to self-employment income and other income where the income is not reported
+      to the IRS by a third party. Nevertheless, the IRS has a strong and effective
+      internal control environment around refundable tax credit programs and makes
+      decisions based on overall cost-benefit considerations.
   Answers:
   - Agency: TREASURY
     Answer: '5220.92'
@@ -284,20 +293,6 @@ ProgramSurveyData:
     Key: cyp28
     SortOrder: 3
     Subheading: Improper Payment Estimate
-    Type: PERCENTAGE
-  - Agency: TREASURY
-    Answer: '0'
-    Heading: Causes of Improper Payments
-    Key: cyp7
-    SortOrder: 4
-    Subheading: Unknown Payments
-    Type: MILLIONS_OF_DOLLARS
-  - Agency: TREASURY
-    Answer: '0'
-    Heading: Causes of Improper Payments
-    Key: cyp24
-    SortOrder: 5
-    Subheading: Unknown Payments
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: '1651.38'
@@ -402,52 +397,21 @@ ProgramSurveyData:
     Subheading: Technically Improper Payments
     Type: PERCENTAGE
   - Agency: TREASURY
-    Answer: The annual Dependent Database (DDb) meetings, collaborations/data sharing
-      with other federal agencies and outreach/education efforts are adequate measures
-      because they will continue to aid the Service in mitigating the impact of the
-      root causes. Much of the difficulty administering the American Opportunity Tax
-      Credit (AOTC) derives from the complexity of its statutory eligibility requirements,
-      many of which are known only to the taxpayer and cannot be independently confirmed
-      using third-party corroborating data. Likewise, the primary root causes of improper
-      payments of the AOTC are the  inability to authenticate eligibility at return
-      filing because the data needed does not exist, and taxpayer income misreporting
-      related to self-employment income and other income where the income is not reported
-      to the IRS by a third party. Nevertheless, the IRS has a strong and effective
-      internal control environment around refundable tax credit programs and makes
-      decisions based on overall cost-benefit considerations.
-    Heading: Description of How the Level of Actions Matches the Level of Improper
-      Payments
-    Key: rnp3
-    SortOrder: 37
-    Subheading: ''
-    Type: TEXT
+    Answer: '0'
+    Heading: Causes of Improper Payments
+    Key: cyp7
+    SortOrder: 27
+    Subheading: Unknown Payments
+    Type: MILLIONS_OF_DOLLARS
   - Agency: TREASURY
-    Answer: The IRS has what is needed with respect to internal control, human capital
-      and information system and other infrastructure to reduce American Opportunity
-      Tax Credit (AOTC) Improper Payments and Unknown Payments to a tolerable rate.
-      The issue with AOTC is statutory program design and reliance on taxpayer self-certification.
-      The IRS has a strong internal control environment around AOTC and makes decisions
-      based on overall cost-benefit considerations, with a well-trained, technically
-      capable program staff.
-    Heading: Program Needs
-    Key: rap5
-    SortOrder: 39
-    Subheading: ''
-    Type: TEXT
-  - Agency: TREASURY
-    Answer: The IRS is realigning resources internally to accelerate progress against
-      its strategic priorities. The IRS will substantially be reducing the number
-      of correspondence audits focused specifically on certain refundable credits,
-      including the American Opportunity Tax Credit (AOTC). Focusing on helping taxpayers
-      submit accurate filings upfront will increase payment accuracy while reducing
-      administrative burdens for the IRS and the tax filer.
-    Heading: Program Needs
-    Key: rap6
-    SortOrder: 40
-    Subheading: ''
-    Type: TEXT
+    Answer: '0'
+    Heading: Causes of Improper Payments
+    Key: cyp24
+    SortOrder: 28
+    Subheading: Unknown Payments
+    Type: PERCENTAGE
   Program: Internal Revenue Service - American Opportunity Tax Credit
-  SortOrder: 48
+  SortOrder: 1
 - ActionsTaken:
   - Action_Taken: Planned
     Action_Type: Cross Enterprise Sharing
@@ -490,6 +454,31 @@ ProgramSurveyData:
       selection of returns claiming the Earned Income Tax Credit (EITC) and identify
       improvement opportunities for the filing season.
     Mitigation_Strategy: atp4_1
+  ActionsTakenAdditionalData:
+    Needs1: The IRS has what is needed with respect to internal control, human capital
+      and information system and other infrastructure to reduce Earned Income Tax
+      Credit (EITC) Improper Payments and Unknown Payments to a tolerable rate. The
+      issue with EITC is statutory program design and reliance on taxpayer self-certification.
+      The IRS has a strong internal control environment around EITC and makes decisions
+      based on overall cost-benefit considerations, with a well-trained, technically
+      capable program staff. The Inspector General of Tax Administration (TIGTA) has
+      traditionally reported that the issue with improper payments is not an internal
+      control deficiency.
+    Needs2: The IRS is realigning resources internally to accelerate progress against
+      its strategic priorities. The IRS will substantially be reducing the number
+      of correspondence audits focused specifically on certain refundable credits,
+      including the Earned Income Tax Credit (EITC). Focusing on helping taxpayers
+      submit accurate filings upfront will increase payment accuracy while reducing
+      administrative burdens for the IRS and the tax filer.
+    Sufficiency: The regulatory structure of the Earned Income Tax Credit (EITC),
+      to include the lack of a preapproval process and IRS reliance on taxpayer self-certification
+      that tax returns are accurate, is the primary root cause of EITC improper payments.
+      While the IRS has the ability to identify EITC errors by type, correlating remediation
+      efforts to success is challenging. Given its limited authority to directly prevent
+      and stop these errors, the IRS focuses on positively influencing taxpayer behavior
+      and working with paid preparers and tax preparation software/online filing service
+      providers. Further, the IRS has sought legislative authority to enhance verification
+      procedures for taxpayers claiming EITC.
   Answers:
   - Agency: TREASURY
     Answer: '65375.28'
@@ -511,20 +500,6 @@ ProgramSurveyData:
     Key: cyp28
     SortOrder: 3
     Subheading: Improper Payment Estimate
-    Type: PERCENTAGE
-  - Agency: TREASURY
-    Answer: '0'
-    Heading: Causes of Improper Payments
-    Key: cyp7
-    SortOrder: 4
-    Subheading: Unknown Payments
-    Type: MILLIONS_OF_DOLLARS
-  - Agency: TREASURY
-    Answer: '0'
-    Heading: Causes of Improper Payments
-    Key: cyp24
-    SortOrder: 5
-    Subheading: Unknown Payments
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: '21881.11'
@@ -630,50 +605,21 @@ ProgramSurveyData:
     Subheading: Technically Improper Payments
     Type: PERCENTAGE
   - Agency: TREASURY
-    Answer: The regulatory structure of the Earned Income Tax Credit (EITC), to include
-      the lack of a preapproval process and IRS reliance on taxpayer self-certification
-      that tax returns are accurate, is the primary root cause of EITC improper payments.
-      While the IRS has the ability to identify EITC errors by type, correlating remediation
-      efforts to success is challenging. Given its limited authority to directly prevent
-      and stop these errors, the IRS focuses on positively influencing taxpayer behavior
-      and working with paid preparers and tax preparation software/online filing service
-      providers. Further, the IRS has sought legislative authority to enhance verification
-      procedures for taxpayers claiming EITC.
-    Heading: Description of How the Level of Actions Matches the Level of Improper
-      Payments
-    Key: rnp3
-    SortOrder: 37
-    Subheading: ''
-    Type: TEXT
+    Answer: '0'
+    Heading: Causes of Improper Payments
+    Key: cyp7
+    SortOrder: 27
+    Subheading: Unknown Payments
+    Type: MILLIONS_OF_DOLLARS
   - Agency: TREASURY
-    Answer: The IRS has what is needed with respect to internal control, human capital
-      and information system and other infrastructure to reduce Earned Income Tax
-      Credit (EITC) Improper Payments and Unknown Payments to a tolerable rate. The
-      issue with EITC is statutory program design and reliance on taxpayer self-certification.
-      The IRS has a strong internal control environment around EITC and makes decisions
-      based on overall cost-benefit considerations, with a well-trained, technically
-      capable program staff. The Inspector General of Tax Administration (TIGTA) has
-      traditionally reported that the issue with improper payments is not an internal
-      control deficiency.
-    Heading: Program Needs
-    Key: rap5
-    SortOrder: 39
-    Subheading: ''
-    Type: TEXT
-  - Agency: TREASURY
-    Answer: The IRS is realigning resources internally to accelerate progress against
-      its strategic priorities. The IRS will substantially be reducing the number
-      of correspondence audits focused specifically on certain refundable credits,
-      including the Earned Income Tax Credit (EITC). Focusing on helping taxpayers
-      submit accurate filings upfront will increase payment accuracy while reducing
-      administrative burdens for the IRS and the tax filer.
-    Heading: Program Needs
-    Key: rap6
-    SortOrder: 40
-    Subheading: ''
-    Type: TEXT
+    Answer: '0'
+    Heading: Causes of Improper Payments
+    Key: cyp24
+    SortOrder: 28
+    Subheading: Unknown Payments
+    Type: PERCENTAGE
   Program: Internal Revenue Service - Earned Income Tax Credit
-  SortOrder: 49
+  SortOrder: 2
 - ActionsTaken:
   - Action_Taken: Planned
     Action_Type: Change Process
@@ -712,6 +658,29 @@ ProgramSurveyData:
       (CMS) through the Premium Tax Credit Workgroup and Sub-Workgroup on issues related
       to improper payments of the  Premium Tax Credit (PTC).
     Mitigation_Strategy: app5_1
+  ActionsTakenAdditionalData:
+    Needs1: The IRS has support with respect to internal control, human capital and
+      information system and other infrastructure to reduce Net Premium Tax Credit
+      (PTC) Improper Payments and Unknown Payments to a tolerable rate. The issue
+      with PTC is statutory program design and reliance on taxpayer self-certification.
+      The IRS has a strong internal control environment around PTC  and makes decisions
+      based on overall cost-benefit considerations, with a well-trained, technically
+      capable program staff.
+    Needs2: The IRS is realigning resources internally to accelerate progress against
+      its strategic priorities. The IRS will substantially be reducing the number
+      of correspondence audits focused specifically on certain refundable credits,
+      including the Net Premium Tax Credit (PTC). Focusing on helping taxpayer submit
+      accurate filings upfront will increase payment accuracy while reducing administrative
+      burdens for the IRS and the tax filer.
+    Sufficiency: The IRS has the ability to identify Net Premium Tax Credit (PTC)
+      errors by type. Correlating remediation efforts to success is challenging. Given
+      its limited authority to directly prevent and stop these errors, the IRS focuses
+      on positively influencing taxpayer behavior and working with paid preparers
+      and tax preparation software/online filing service providers. Further, the IRS
+      has sought legislative authority to enhance verification procedures for taxpayers
+      claiming the PTC. Taxpayer education and outreach efforts, such as the IRS's
+      annual Dependent Database (DDb) meetings, inform taxpayers about program eligibility
+      requirements.
   Answers:
   - Agency: TREASURY
     Answer: '3679.55'
@@ -733,20 +702,6 @@ ProgramSurveyData:
     Key: cyp28
     SortOrder: 3
     Subheading: Improper Payment Estimate
-    Type: PERCENTAGE
-  - Agency: TREASURY
-    Answer: '0'
-    Heading: Causes of Improper Payments
-    Key: cyp7
-    SortOrder: 4
-    Subheading: Unknown Payments
-    Type: MILLIONS_OF_DOLLARS
-  - Agency: TREASURY
-    Answer: '0'
-    Heading: Causes of Improper Payments
-    Key: cyp24
-    SortOrder: 5
-    Subheading: Unknown Payments
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: '958.15'
@@ -850,56 +805,32 @@ ProgramSurveyData:
     Subheading: Technically Improper Payments
     Type: PERCENTAGE
   - Agency: TREASURY
-    Answer: The IRS has the ability to identify Net Premium Tax Credit (PTC) errors
-      by type. Correlating remediation efforts to success is challenging. Given its
-      limited authority to directly prevent and stop these errors, the IRS focuses
-      on positively influencing taxpayer behavior and working with paid preparers
-      and tax preparation software/online filing service providers. Further, the IRS
-      has sought legislative authority to enhance verification procedures for taxpayers
-      claiming the PTC. Taxpayer education and outreach efforts, such as the IRS's
-      annual Dependent Database (DDb) meetings, inform taxpayers about program eligibility
-      requirements.
-    Heading: Description of How the Level of Actions Matches the Level of Improper
-      Payments
-    Key: rnp3
-    SortOrder: 37
-    Subheading: ''
-    Type: TEXT
+    Answer: '0'
+    Heading: Causes of Improper Payments
+    Key: cyp7
+    SortOrder: 27
+    Subheading: Unknown Payments
+    Type: MILLIONS_OF_DOLLARS
   - Agency: TREASURY
-    Answer: The IRS has support with respect to internal control, human capital and
-      information system and other infrastructure to reduce Net Premium Tax Credit
-      (PTC) Improper Payments and Unknown Payments to a tolerable rate. The issue
-      with PTC is statutory program design and reliance on taxpayer self-certification.
-      The IRS has a strong internal control environment around PTC  and makes decisions
-      based on overall cost-benefit considerations, with a well-trained, technically
-      capable program staff.
-    Heading: Program Needs
-    Key: rap5
-    SortOrder: 39
-    Subheading: ''
-    Type: TEXT
-  - Agency: TREASURY
-    Answer: The IRS is realigning resources internally to accelerate progress against
-      its strategic priorities. The IRS will substantially be reducing the number
-      of correspondence audits focused specifically on certain refundable credits,
-      including the Net Premium Tax Credit (PTC). Focusing on helping taxpayer submit
-      accurate filings upfront will increase payment accuracy while reducing administrative
-      burdens for the IRS and the tax filer.
-    Heading: Program Needs
-    Key: rap6
-    SortOrder: 40
-    Subheading: ''
-    Type: TEXT
+    Answer: '0'
+    Heading: Causes of Improper Payments
+    Key: cyp24
+    SortOrder: 28
+    Subheading: Unknown Payments
+    Type: PERCENTAGE
   Program: Internal Revenue Service - Refundable Premium Assistance Tax Credit
-  SortOrder: 50
+  SortOrder: 3
 Report_Id: '4'
 Requirements:
+- Indent: 0
+  Text: Summary of Report Requirements from 31 U.S.C. § 3352(d)
+  Type: BOLD
 - Indent: 0
   Text: (d) REPORTS ON ACTIONS TO REDUCE IMPROPER PAYMENTS.—(For each program that
     is susceptible to significant improper payments),...the head of the executive
     agency shall provide...a report on what actions the executive agency is taking
     to reduce improper payments, including—
-  Type: BOLD
+  Type: REGULAR
 - Indent: 1
   Text: (1) a description of the causes of the improper payments, actions planned
     or taken to correct those causes, and the planned or actual completion date of

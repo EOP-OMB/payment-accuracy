@@ -20,47 +20,56 @@ CONGRESSIONAL_REPORTS = [
     {
         "Id": 1,
         "Name": "Agency Risk Assessments Report",
-        "SurveyName": "Survey Responses"
+        "SurveyName": "Survey Responses",
+        "IsGovernmentWide": False
     },
     {
         "Id": 2,
         "Name": "Agency High-Priority Program Report",
-        "SurveyName": "Actions to Recover Improper Payments"
+        "SurveyName": "Actions to Recover Improper Payments",
+        "IsGovernmentWide": False
     },
     {
         "Id": 3,
         "Name": "Improper Payment and Unknown Payment Estimation Report",
-        "SurveyName": "Survey Responses"
+        "SurveyName": "Survey Responses",
+        "IsGovernmentWide": False
     },
     {
         "Id": 4,
         "Name": "Agency Actions to Reduce Improper Payments Report",
-        "SurveyName": "Survey Responses"
+        "SurveyName": "Survey Responses",
+        "IsGovernmentWide": False
     },
     {
         "Id": 5,
         "Name": "Agency Actions to Recover Improper Payments Identified in a Recovery Audit Report",
-        "SurveyName": "Survey Responses"
+        "SurveyName": "Survey Responses",
+        "IsGovernmentWide": False
     },
     {
         "Id": 6,
         "Name": "OMB Government Wide Improper Payment Report",
-        "SurveyName": "Survey Responses"
+        "SurveyName": "Survey Responses",
+        "IsGovernmentWide": True
     },
     {
         "Id": 7,
         "Name": "Agency Compliance Plan",
-        "SurveyName": "Survey Responses"
+        "SurveyName": "Survey Responses",
+        "IsGovernmentWide": False
     },
     {
         "Id": 8,
         "Name": "Agency Noncompliance Report",
-        "SurveyName": "Survey Responses"
+        "SurveyName": "Survey Responses",
+        "IsGovernmentWide": False
     },
     {
         "Id": 9,
         "Name": "OMB Do Not Pay Initiative Report",
-        "SurveyName": "Survey Responses"
+        "SurveyName": "Survey Responses",
+        "IsGovernmentWide": True
     }
 ]
 
@@ -695,6 +704,11 @@ CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING = {
             {
                 "indent": 0,
                 "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3352(d)",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
                 "text": "(d) REPORTS ON ACTIONS TO REDUCE IMPROPER PAYMENTS.—(For each program that is susceptible to significant improper payments),...the head of the executive agency shall provide...a report on what actions the executive agency is taking to reduce improper payments, including—",
             },
             {
@@ -767,6 +781,11 @@ CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING = {
             {
                 "indent": 0,
                 "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3352(e)",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
                 "text": "e) REPORTS ON ACTIONS TO RECOVER IMPROPER PAYMENTS.—... the head of the executive agency shall provide ...a report on all actions the executive agency is taking to recover the improper payments (identified in a recovery audit) ..including—",
             },
             {
@@ -805,10 +824,52 @@ CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING = {
                 "text": "(7) if the executive agency has determined ...that performing recovery audits for any applicable program or activity is not cost-effective, a justification for that determination.",
             }
         ],
+        "6": [
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3352(f)",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "f) GOVERNMENTWIDE REPORTING OF IMPROPER PAYMENTS AND ACTIONS TO RECOVER IMPROPER PAYMENTS.—Each fiscal year, the Director of the Office of Management and Budget shall submit a report with respect to the preceding fiscal year on actions that executive agencies have taken to report information regarding improper payments and actions to recover improper payments....Each report ...shall include—",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(A) a summary of the reports of each executive agency on improper payments and recovery actions submitted...;",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(B) an identification of the compliance status of each executive agency, as determined by the Inspector General of the executive agency ...;",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(C) Governmentwide improper payment reduction targets;",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(D) a Governmentwide estimate of improper payments; and",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(E) a discussion of progress made towards meeting Governmentwide improper payment reduction targets.",
+            }
+        ],
         "7": [
             {
                 "indent": 0,
                 "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3353(b)(1)",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
                 "text": "(1) NONCOMPLIANCE.—If an executive agency is determined by the Inspector General of that executive agency not to be in compliance ...in a fiscal year with respect to a program or activity, the head of the executive agency shall submit to the appropriate authorizing and appropriations committees of Congress a plan describing the actions that the executive agency will take to come into compliance. The plan...shall include—",
             },
             {
@@ -831,6 +892,11 @@ CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING = {
             {
                 "indent": 0,
                 "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3353(b)5",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
                 "text": "(5) ANNUAL REPORT.—Each executive agency shall submit to the appropriate authorizing and appropriations committees of Congress and the Comptroller General of the United States—",
             },
             {
@@ -842,6 +908,28 @@ CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING = {
                 "indent": 1,
                 "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
                 "text": "(B) actions that are planned to bring the program or activity into compliance.",
+            }
+        ],
+        "9": [
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3354",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(5) ANNUAL REPORT.—The Director of the Office of Management and Budget shall submit to Congress an annual report, which may be included as part of another report submitted to Congress by the Director, regarding the operation of the Do Not Pay Initiative, which shall—",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(A) include an evaluation of whether the Do Not Pay Initiative has reduced improper payments or improper awards; and",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(B) provide the frequency of corrections or identification of incorrect information.",
             }
         ]
     },
@@ -926,6 +1014,11 @@ CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING = {
             {
                 "indent": 0,
                 "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3352(d)",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
                 "text": "(d) REPORTS ON ACTIONS TO REDUCE IMPROPER PAYMENTS.—(For each program that is susceptible to significant improper payments),...the head of the executive agency shall provide...a report on what actions the executive agency is taking to reduce improper payments, including—",
             },
             {
@@ -998,6 +1091,11 @@ CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING = {
             {
                 "indent": 0,
                 "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3352(e)",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
                 "text": "e) REPORTS ON ACTIONS TO RECOVER IMPROPER PAYMENTS.—... the head of the executive agency shall provide ...a report on all actions the executive agency is taking to recover the improper payments (identified in a recovery audit) ..including—",
             },
             {
@@ -1036,10 +1134,52 @@ CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING = {
                 "text": "(7) if the executive agency has determined ...that performing recovery audits for any applicable program or activity is not cost-effective, a justification for that determination.",
             }
         ],
+        "6": [
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3352(f)",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "f) GOVERNMENTWIDE REPORTING OF IMPROPER PAYMENTS AND ACTIONS TO RECOVER IMPROPER PAYMENTS.—Each fiscal year, the Director of the Office of Management and Budget shall submit a report with respect to the preceding fiscal year on actions that executive agencies have taken to report information regarding improper payments and actions to recover improper payments....Each report ...shall include—",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(A) a summary of the reports of each executive agency on improper payments and recovery actions submitted...;",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(B) an identification of the compliance status of each executive agency, as determined by the Inspector General of the executive agency ...;",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(C) Governmentwide improper payment reduction targets;",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(D) a Governmentwide estimate of improper payments; and",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(E) a discussion of progress made towards meeting Governmentwide improper payment reduction targets.",
+            }
+        ],
         "7": [
             {
                 "indent": 0,
                 "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3353(b)(1)",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
                 "text": "(1) NONCOMPLIANCE.—If an executive agency is determined by the Inspector General of that executive agency not to be in compliance ...in a fiscal year with respect to a program or activity, the head of the executive agency shall submit to the appropriate authorizing and appropriations committees of Congress a plan describing the actions that the executive agency will take to come into compliance. The plan...shall include—",
             },
             {
@@ -1062,6 +1202,11 @@ CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING = {
             {
                 "indent": 0,
                 "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3353(b)5",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
                 "text": "(5) ANNUAL REPORT.—Each executive agency shall submit to the appropriate authorizing and appropriations committees of Congress and the Comptroller General of the United States—",
             },
             {
@@ -1073,6 +1218,28 @@ CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING = {
                 "indent": 1,
                 "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
                 "text": "(B) actions that are planned to bring the program or activity into compliance.",
+            }
+        ],
+        "9": [
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3354",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(5) ANNUAL REPORT.—The Director of the Office of Management and Budget shall submit to Congress an annual report, which may be included as part of another report submitted to Congress by the Director, regarding the operation of the Do Not Pay Initiative, which shall—",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(A) include an evaluation of whether the Do Not Pay Initiative has reduced improper payments or improper awards; and",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(B) provide the frequency of corrections or identification of incorrect information.",
             }
         ]
     },
@@ -1157,6 +1324,11 @@ CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING = {
             {
                 "indent": 0,
                 "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3352(d)",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
                 "text": "(d) REPORTS ON ACTIONS TO REDUCE IMPROPER PAYMENTS.—(For each program that is susceptible to significant improper payments),...the head of the executive agency shall provide...a report on what actions the executive agency is taking to reduce improper payments, including—",
             },
             {
@@ -1229,6 +1401,11 @@ CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING = {
             {
                 "indent": 0,
                 "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3352(e)",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
                 "text": "e) REPORTS ON ACTIONS TO RECOVER IMPROPER PAYMENTS.—... the head of the executive agency shall provide ...a report on all actions the executive agency is taking to recover the improper payments (identified in a recovery audit) ..including—",
             },
             {
@@ -1267,10 +1444,52 @@ CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING = {
                 "text": "(7) if the executive agency has determined ...that performing recovery audits for any applicable program or activity is not cost-effective, a justification for that determination.",
             }
         ],
+        "6": [
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3352(f)",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "f) GOVERNMENTWIDE REPORTING OF IMPROPER PAYMENTS AND ACTIONS TO RECOVER IMPROPER PAYMENTS.—Each fiscal year, the Director of the Office of Management and Budget shall submit a report with respect to the preceding fiscal year on actions that executive agencies have taken to report information regarding improper payments and actions to recover improper payments....Each report ...shall include—",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(A) a summary of the reports of each executive agency on improper payments and recovery actions submitted...;",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(B) an identification of the compliance status of each executive agency, as determined by the Inspector General of the executive agency ...;",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(C) Governmentwide improper payment reduction targets;",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(D) a Governmentwide estimate of improper payments; and",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(E) a discussion of progress made towards meeting Governmentwide improper payment reduction targets.",
+            }
+        ],
         "7": [
             {
                 "indent": 0,
                 "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3353(b)(1)",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
                 "text": "(1) NONCOMPLIANCE.—If an executive agency is determined by the Inspector General of that executive agency not to be in compliance ...in a fiscal year with respect to a program or activity, the head of the executive agency shall submit to the appropriate authorizing and appropriations committees of Congress a plan describing the actions that the executive agency will take to come into compliance. The plan...shall include—",
             },
             {
@@ -1293,6 +1512,11 @@ CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING = {
             {
                 "indent": 0,
                 "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3353(b)5",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
                 "text": "(5) ANNUAL REPORT.—Each executive agency shall submit to the appropriate authorizing and appropriations committees of Congress and the Comptroller General of the United States—",
             },
             {
@@ -1304,6 +1528,28 @@ CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING = {
                 "indent": 1,
                 "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
                 "text": "(B) actions that are planned to bring the program or activity into compliance.",
+            }
+        ],
+        "9": [
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.BOLD,
+                "text": "Summary of Report Requirements from 31 U.S.C. § 3354",
+            },
+            {
+                "indent": 0,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(5) ANNUAL REPORT.—The Director of the Office of Management and Budget shall submit to Congress an annual report, which may be included as part of another report submitted to Congress by the Director, regarding the operation of the Do Not Pay Initiative, which shall—",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(A) include an evaluation of whether the Do Not Pay Initiative has reduced improper payments or improper awards; and",
+            },
+            {
+                "indent": 1,
+                "type": CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES.REGULAR,
+                "text": "(B) provide the frequency of corrections or identification of incorrect information.",
             }
         ]
     }
@@ -1611,65 +1857,45 @@ CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING_PROGRAMS = {
                 "subheading": "Unknown Payments",
                 "heading": "Causes of Improper Payments"
             },
-            "ucp3": {
+            "cyp7_ucp3": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the States",
                 "heading": "Causes of Improper Payments"
             },
-            "ucp3_1": {
+            "cyp7_ucp3_1": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the States",
                 "heading": "Causes of Improper Payments"
             },
-            "ucp2": {
+            "cyp7_ucp2": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the Applicants",
                 "heading": "Causes of Improper Payments"
             },
-            "ucp2_1": {
+            "cyp7_ucp2_1": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the Applicants",
                 "heading": "Causes of Improper Payments"
             },
-            "ucp1": {
+            "cyp7_ucp1": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the Vendors or Providers",
                 "heading": "Causes of Improper Payments"
             },
-            "ucp1_1": {
+            "cyp7_ucp1_1": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the Vendors or Providers",
                 "heading": "Causes of Improper Payments"
             },
-            "ucp4": {
+            "cyp7_ucp4": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from A Specific Scenario",
                 "heading": "Causes of Improper Payments"
             },
-            "ucp4_1": {
+            "cyp7_ucp4_1": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from A Specific Scenario",
                 "heading": "Causes of Improper Payments"
-            },
-            "rnp3": {
-                "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
-                "subheading": "",
-                "heading": "Description of How the Level of Actions Matches the Level of Improper Payments"
-            },
-            "rnp4": {
-                "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
-                "subheading": "",
-                "heading": "Accountability For Payment Integrity Through Performance Appraisal Criteria"
-            },
-            "rap5": {
-                "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
-                "subheading": "",
-                "heading": "Program Needs"
-            },
-            "rap6": {
-                "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
-                "subheading": "",
-                "heading": "Program Needs"
             }
         }
     },
@@ -1974,65 +2200,45 @@ CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING_PROGRAMS = {
                 "subheading": "Unknown Payments",
                 "heading": "Causes of Improper Payments"
             },
-            "ucp3": {
+            "cyp7_ucp3": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the States",
                 "heading": "Causes of Improper Payments"
             },
-            "ucp3_1": {
+            "cyp7_ucp3_1": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the States",
                 "heading": "Causes of Improper Payments"
             },
-            "ucp2": {
+            "cyp7_ucp2": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the Applicants",
                 "heading": "Causes of Improper Payments"
             },
-            "ucp2_1": {
+            "cyp7_ucp2_1": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the Applicants",
                 "heading": "Causes of Improper Payments"
             },
-            "ucp1": {
+            "cyp7_ucp1": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the Vendors or Providers",
                 "heading": "Causes of Improper Payments"
             },
-            "ucp1_1": {
+            "cyp7_ucp1_1": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the Vendors or Providers",
                 "heading": "Causes of Improper Payments"
             },
-            "ucp4": {
+            "cyp7_ucp4": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from A Specific Scenario",
                 "heading": "Causes of Improper Payments"
             },
-            "ucp4_1": {
+            "cyp7_ucp4_1": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from A Specific Scenario",
                 "heading": "Causes of Improper Payments"
-            },
-            "rnp3": {
-                "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
-                "subheading": "",
-                "heading": "Description of How the Level of Actions Matches the Level of Improper Payments"
-            },
-            "rnp4": {
-                "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
-                "subheading": "",
-                "heading": "Accountability For Payment Integrity Through Performance Appraisal Criteria"
-            },
-            "rap5": {
-                "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
-                "subheading": "",
-                "heading": "Program Needs"
-            },
-            "rap6": {
-                "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
-                "subheading": "",
-                "heading": "Program Needs"
             }
         }
     },
@@ -2271,47 +2477,7 @@ CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING_PROGRAMS = {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Unknown Payments",
                 "heading": "Causes of Improper Payments"
-            },
-            "rnp3": {
-                "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
-                "subheading": "",
-                "heading": "Description of How the Level of Actions Matches the Level of Improper Payments"
-            },
-            "rnp4": {
-                "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
-                "subheading": "",
-                "heading": "Accountability For Payment Integrity Through Performance Appraisal Criteria"
-            },
-            "rap5": {
-                "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
-                "subheading": "",
-                "heading": "Program Needs"
-            },
-            "rap6": {
-                "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
-                "subheading": "",
-                "heading": "Program Needs"
             }
         }
-    }
-}
-
-MAPPED_QUERY_NAME_ACTIONS_TAKEN = "ActionsTaken"
-
-QUERY_MAPPING_BY_YEAR = {
-    2021: {
-        MAPPED_QUERY_NAME_ACTIONS_TAKEN: "actions_taken_2024"
-    },
-    2022: {
-        MAPPED_QUERY_NAME_ACTIONS_TAKEN: "actions_taken_2024"
-    },
-    2023: {
-        MAPPED_QUERY_NAME_ACTIONS_TAKEN: "actions_taken_2024"
-    },
-    2024: {
-        MAPPED_QUERY_NAME_ACTIONS_TAKEN: "actions_taken_2024"
-    },
-    2025: {
-        MAPPED_QUERY_NAME_ACTIONS_TAKEN: "actions_taken_2024"
     }
 }

@@ -476,22 +476,13 @@ SurveyData:
   Subheading: ''
   Type: TEXT
 - Answer:
-  - Office of International Assistance - Contribution to African Development Fund
-  - Office of International Assistance - Contribution to European Bank for Reconstruction
-  - Office of International Assistance - Contribution to International Development
-    Association
-  - Office of International Assistance - Contribution to the Asian Development Fund
-  - Office of International Assistance - Global Environment Facility
-  - Office of International Assistance - International Fund for Agriculture Development
-  - Office of the Comptroller of the Currency - Assessment Funds
-  - Office of the Inspector General - Salaries and Expenses
-  - Treasury Franchise Fund - Treasury Franchise Fund
-  - Treasury Inspector General for Tax Administration
   - Alcohol and Tobacco Tax and Trade Bureau - Internal Revenue Collection Puerto
     Rico
   - Community Development Financial Institutions - Minority Lending Program
-  - Community Development Financial Institutions Fund - Capital Magnet Fund
   - Community Development Financial Institutions Fund - CDFI BGP Financing Fund
+  - Community Development Financial Institutions Fund - Capital Magnet Fund
+  - Departmental Offices - Contributions of the International Monetary Fund Facilities
+    and Trust Funds
   - Departmental Offices - Coronavirus Capital Projects Fund
   - Departmental Offices - Emergency Capital Investment Fund
   - Departmental Offices - Homeowners Assistance Fund
@@ -503,12 +494,21 @@ SurveyData:
   - Fiscal Service - Federal Reserve Bank Reimbursement Fund
   - Fiscal Service - Reimbursements to Federal Reserve Banks
   - Fiscal Service - Travel Promotion Fund, Corp for Travel Promotion
-  - Office of International Assistance - Global Food Security
-  - Departmental Offices - Contributions of the International Monetary Fund Facilities
-    and Trust Funds
+  - Internal Revenue Service - Child and Dependent Care Tax Credit
   - Office of International Affairs - Global Food Security, Fiscal Service - Restitution
     of Foregone Interest
-  - Internal Revenue Service - Child and Dependent Care Tax Credit
+  - Office of International Assistance - Contribution to African Development Fund
+  - Office of International Assistance - Contribution to European Bank for Reconstruction
+  - Office of International Assistance - Contribution to International Development
+    Association
+  - Office of International Assistance - Contribution to the Asian Development Fund
+  - Office of International Assistance - Global Environment Facility
+  - Office of International Assistance - Global Food Security
+  - Office of International Assistance - International Fund for Agriculture Development
+  - Office of the Comptroller of the Currency - Assessment Funds
+  - Office of the Inspector General - Salaries and Expenses
+  - Treasury Franchise Fund - Treasury Franchise Fund
+  - Treasury Inspector General for Tax Administration
   Heading: ''
   Key: raa6_2
   SortOrder: 1

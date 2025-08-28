@@ -80,6 +80,8 @@ Agencies_Dropdown:
   Name: Nuclear Regulatory Commission
 - Code: NSF
   Name: National Science Foundation
+- Code: NTSB
+  Name: National Transportation Safety Board
 - Code: OGE
   Name: Office of Government Ethics
 - Code: OPM
@@ -124,23 +126,32 @@ Agencies_Dropdown:
   Name: Department of Veterans Affairs
 Reports_Dropdown:
 - Id: '1'
+  IsGovernmentWide: false
   Name: Agency Risk Assessments Report
 - Id: '2'
+  IsGovernmentWide: false
   Name: Agency High-Priority Program Report
 - Id: '3'
+  IsGovernmentWide: false
   Name: Improper Payment and Unknown Payment Estimation Report
 - Id: '4'
+  IsGovernmentWide: false
   Name: Agency Actions to Reduce Improper Payments Report
 - Id: '5'
+  IsGovernmentWide: false
   Name: Agency Actions to Recover Improper Payments Identified in a Recovery Audit
     Report
 - Id: '6'
+  IsGovernmentWide: true
   Name: OMB Government Wide Improper Payment Report
 - Id: '7'
+  IsGovernmentWide: false
   Name: Agency Compliance Plan
 - Id: '8'
+  IsGovernmentWide: false
   Name: Agency Noncompliance Report
 - Id: '9'
+  IsGovernmentWide: true
   Name: OMB Do Not Pay Initiative Report
 Years_Dropdown:
 - 2023

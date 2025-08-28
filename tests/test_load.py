@@ -636,6 +636,16 @@ def congressional_reports_sample_data():
                 "agency": "AG2"
             }
         ],
+        "agency_names_2": [
+            {
+                "Agency_Acronym": "AG1",
+                "Agency_Name": "Agency 1"
+            },
+            {
+                "Agency_Acronym": "AG2",
+                "Agency_Name": "Agency 2"
+            }
+        ],
         "report_results_2023": [
             {
                 "Agency": "AG1",
@@ -930,6 +940,7 @@ def test_generate_congressional_reports_pages(mock_cursor, congressional_reports
     mock_cursor.fetchall.side_effect = [
         congressional_reports_sample_data["agency_names"],
         congressional_reports_sample_data["agencies_with_data"],
+        congressional_reports_sample_data["agency_names_2"],
         congressional_reports_sample_data["report_results_2023"],
         congressional_reports_sample_data["risks_2023_AG1"],
         congressional_reports_sample_data["AG1_raw_data_points_2023"],
@@ -946,7 +957,8 @@ def test_generate_congressional_reports_pages(mock_cursor, congressional_reports
         {
             "Id": 1,
             "Name": "Agency Risk Assessments Report",
-            "SurveyName": "Survey Responses"
+            "SurveyName": "Survey Responses",
+            "IsGovernmentWide": False
         }
     ]
 

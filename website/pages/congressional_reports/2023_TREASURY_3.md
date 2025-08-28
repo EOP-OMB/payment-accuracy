@@ -118,7 +118,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: PERCENTAGE
   Program: Internal Revenue Service - Additional Child Tax Credit
-  SortOrder: 47
+  SortOrder: 0
 - Answers:
   - Agency: TREASURY
     Answer: '5220.92'
@@ -233,7 +233,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: PERCENTAGE
   Program: Internal Revenue Service - American Opportunity Tax Credit
-  SortOrder: 48
+  SortOrder: 1
 - Answers:
   - Agency: TREASURY
     Answer: '65375.28'
@@ -348,7 +348,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: PERCENTAGE
   Program: Internal Revenue Service - Earned Income Tax Credit
-  SortOrder: 49
+  SortOrder: 2
 - Answers:
   - Agency: TREASURY
     Answer: '3679.55'
@@ -463,7 +463,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: PERCENTAGE
   Program: Internal Revenue Service - Refundable Premium Assistance Tax Credit
-  SortOrder: 50
+  SortOrder: 3
 Report_Id: '3'
 Requirements:
 - Indent: 0

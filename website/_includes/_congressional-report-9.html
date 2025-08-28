@@ -1,0 +1,59 @@
+<div class="grid-row">
+    <div class="grid-col-12">
+        <div class="usa-accordion congressional-reports-accordion">
+            <div class="usa-accordion__item">
+                <h4 class="usa-accordion__heading">
+                    <button class="usa-accordion__button" aria-expanded="true" aria-controls="dnp-accordion">
+                        Evaluation of Whether the Do Not Pay Initiative has Reduced Improper Payments
+                    </button>
+                </h4>
+                <div id="dnp-accordion" class="usa-accordion__content usa-prose">
+                    <p class="heading-text">Agency use of the Do Not Pay Working System operated by the Department of the Treasury</p>
+                    <p class="subheading-text">Percentage of Agencies Using The Do Not Pay Working System</p>
+                    <p class="answer-text">{{ include.DoNotPayData.Stats.dpa1_yes | round: 2 | thousands_separator }} %</p>
+                    <p class="subheading-text">Percentage of Agencies Not Using The Do Not Pay Working System</p>
+                    <p class="answer-text">{{ include.DoNotPayData.Stats.dpa1_no | round: 2 | thousands_separator }} %</p>
+
+                    <p class="heading-text">Do Not Pay Working System Reduction/Prevention of Improper Payments</p>
+                    <p class="subheading-text">Percentage of Agencies Using The Do Not Pay Working System That Have Reduced/Prevented Improper Payments</p>
+                    <p class="answer-text">{{ include.DoNotPayData.Stats.dpa2_yes | round: 2 | thousands_separator }} %</p>
+                    <p class="subheading-text">Percentage of Agencies Using The Do Not Pay Working System That Have Not Reduced/Prevented Improper Payments</p>
+                    <p class="answer-text">{{ include.DoNotPayData.Stats.dpa2_no | round: 2 | thousands_separator }} %</p>
+
+                    <p class="heading-text">Agency Evaluations of Whether the Do Not Pay Working System has Reduced Improper Payments</p>
+                    {% assign sorted_evaluations = include.DoNotPayData.Evaluations | sort:"Agency_Name" %}
+                    {% for agency in sorted_evaluations %}
+                        <p class="subheading-text">{{ agency.Agency_Name }}</p>
+                        <p class="answer-text">{{ agency.Answer | newline_to_br }}</p><br />
+                    {% endfor %}
+
+                    <p class="heading-text">Frequency of Mistakes With The Results that The Do Not Pay Working System Provides To Agencies</p>
+                    {% if include.DoNotPayData.Stats.dpa3_daily > 0 %}
+                        <p class="subheading-text">Percentage of Agencies Using The Do Not Pay Working System That Have Found Mistakes With The Results that The Do Not Pay Working System Provides Daily</p>
+                        <p class="answer-text">{{ include.DoNotPayData.Stats.dpa3_daily | round: 2 | thousands_separator }} %</p>
+                    {% endif %}
+                    {% if include.DoNotPayData.Stats.dpa3_weekly > 0 %}
+                        <p class="subheading-text">Percentage of Agencies Using The Do Not Pay Working System That Have Found Mistakes With The Results that The Do Not Pay Working System Provides Weekly</p>
+                        <p class="answer-text">{{ include.DoNotPayData.Stats.dpa3_weekly | round: 2 | thousands_separator }} %</p>
+                    {% endif %}
+                    {% if include.DoNotPayData.Stats.dpa3_monthly > 0 %}
+                        <p class="subheading-text">Percentage of Agencies Using The Do Not Pay Working System That Have Found Mistakes With The Results that The Do Not Pay Working System Provides Monthly</p>
+                        <p class="answer-text">{{ include.DoNotPayData.Stats.dpa3_monthly | round: 2 | thousands_separator }} %</p>
+                    {% endif %}
+                    {% if include.DoNotPayData.Stats.dpa3_quarterly > 0 %}
+                        <p class="subheading-text">Percentage of Agencies Using The Do Not Pay Working System That Have Found Mistakes With The Results that The Do Not Pay Working System Provides Quarterly</p>
+                        <p class="answer-text">{{ include.DoNotPayData.Stats.dpa3_quarterly | round: 2 | thousands_separator }} %</p>
+                    {% endif %}
+                    {% if include.DoNotPayData.Stats.dpa3_annually > 0 %}
+                        <p class="subheading-text">Percentage of Agencies Using The Do Not Pay Working System That Have Found Mistakes With The Results that The Do Not Pay Working System Provides Annually</p>
+                        <p class="answer-text">{{ include.DoNotPayData.Stats.dpa3_annually | round: 2 | thousands_separator }} %</p>
+                    {% endif %}
+                    {% if include.DoNotPayData.Stats.dpa3_na > 0 %}
+                        <p class="subheading-text">Percentage of Agencies Using The Do Not Pay Working System That Have Not Found Mistakes With The Results that The Do Not Pay Working System Provides</p>
+                        <p class="answer-text">{{ include.DoNotPayData.Stats.dpa3_na | round: 2 | thousands_separator }} %</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

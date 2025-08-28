@@ -30,7 +30,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: TEXT
   Program: Departmental Offices - Emergency Rental Assistance
-  SortOrder: 49
+  SortOrder: 0
 - Answers:
   - Agency: TREASURY
     Answer: 'In May 2024, the Pandemic Relief for Aviation Workers Program, also known
@@ -57,7 +57,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: TEXT
   Program: Departmental Offices - Pandemic Relief for Aviation Workers
-  SortOrder: 50
+  SortOrder: 1
 - Answers:
   - Agency: TREASURY
     Answer: '32120.77'
@@ -172,7 +172,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: PERCENTAGE
   Program: Internal Revenue Service - Additional Child Tax Credit
-  SortOrder: 51
+  SortOrder: 2
 - Answers:
   - Agency: TREASURY
     Answer: '5176.49'
@@ -287,7 +287,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: PERCENTAGE
   Program: Internal Revenue Service - American Opportunity Tax Credit
-  SortOrder: 52
+  SortOrder: 3
 - Answers:
   - Agency: TREASURY
     Answer: The Child and Dependent Care Tax Credit (CDCTC) became refundable only
@@ -314,7 +314,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: TEXT
   Program: Internal Revenue Service - Child and Dependent Care Tax Credit
-  SortOrder: 53
+  SortOrder: 4
 - Answers:
   - Agency: TREASURY
     Answer: '58436.98'
@@ -429,7 +429,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: PERCENTAGE
   Program: Internal Revenue Service - Earned Income Tax Credit
-  SortOrder: 54
+  SortOrder: 5
 - Answers:
   - Agency: TREASURY
     Answer: '2304.58'
@@ -544,7 +544,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: PERCENTAGE
   Program: Internal Revenue Service - Refundable Premium Assistance Tax Credit
-  SortOrder: 55
+  SortOrder: 6
 - Answers:
   - Agency: TREASURY
     Answer: In FY 21, the Internal Revenue Service- US Coronavirus Payments was determined
@@ -563,7 +563,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: TEXT
   Program: Internal Revenue Service - US Coronavirus Payments
-  SortOrder: 56
+  SortOrder: 7
 - Answers:
   - Agency: TREASURY
     Answer: 'In FY 21, the Internal Revenue Service- US Coronavirus Refundable Credits
@@ -590,7 +590,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: TEXT
   Program: Internal Revenue Service - US Coronavirus Refundable Credits
-  SortOrder: 57
+  SortOrder: 8
 Report_Id: '3'
 Requirements:
 - Indent: 0

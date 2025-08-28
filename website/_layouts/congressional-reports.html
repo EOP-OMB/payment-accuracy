@@ -70,7 +70,7 @@ permalink: /
 
                                 {% assign sorted_reports = site.data.congressional_reports.Reports_Dropdown | sort:"Id" %}
                                 {% for report in sorted_reports %}
-                                    <option value="{{ report.Id }}" {% if report.Id == page.Report_Id %}selected{% endif %}>{{ report.Name }}</option>
+                                    <option value="{{ report.Id }}" {% if report.Id == page.Report_Id %}selected{% endif %} data-government-wide="{{ report.IsGovernmentWide }}">{{ report.Name }}</option>
                                 {% endfor %}
                             </select>
                         </div>
@@ -96,10 +96,6 @@ permalink: /
                         </div>
                         <div class="desktop:grid-col-10 tablet:grid-col-12 padding-x-0 desktop:padding-x-2 padding-y-2 desktop:padding-y-0">
                             <select class="usa-select" name="year" id="year" onchange="enableGenerateReportsButtonIfPossible()">
-                                {% unless report_chosen %}
-                                    <option value="" selected>-Select-</option>
-                                {% endunless %}
-
                                 {% assign sorted_years = site.data.congressional_reports.Years_Dropdown | sort | reverse %}
                                 {% for year in sorted_years %}
                                     <option value="{{ year }}" {% if year == page.Fiscal_Year %}selected{% endif %}>{{ year }}</option>
@@ -149,6 +145,7 @@ permalink: /
                 </div>
 
                 {% if page.Risks != nil %}
+                    <!-- Additional Section for CR #1 -->
                     <div class="grid-row">
                         <div class="grid-col-12">
                             <div class="usa-accordion congressional-reports-accordion">
@@ -180,6 +177,7 @@ permalink: /
                                             {{ page.SurveyName }}
                                         </button>
                                     </h4>
+                                    <!-- Agency Survey Data -->
                                     <div id="survey-data-accordion" class="usa-accordion__content usa-prose">
                                         {% assign last_heading = "" %}
                                         {% assign last_subheading = "" %}
@@ -237,6 +235,8 @@ permalink: /
                                                 {{ program.Program }}
                                             </button>
                                         </h4>
+
+                                        <!-- Program Survey Data -->
                                         <div id="survey-data-accordion-{{ program.SortOrder }}" class="usa-accordion__content usa-prose">
                                             {% assign last_heading = "" %}
                                             {% assign last_subheading = "" %}
@@ -278,10 +278,41 @@ permalink: /
                                             {% endfor %}
 
                                             {% if program.ActionsTaken != nil and program.ActionsTaken.size > 0 %}
+                                                <!-- Additional Section for CR #4 -->
                                                 <p class="heading-text">Actions to Reduce Improper Payments</p>
                                                 {% include _actions-taken-table.html
                                                     Actions_Taken = program.ActionsTaken
                                                 %}
+                                            {% endif %}
+
+                                            {% if program.ActionsTakenAdditionalData != nil and program.ActionsTakenAdditionalData.size > 0 %}
+                                                <!-- Additional Section for CR #4 -->
+                                                {% if program.ActionsTakenAdditionalData.Sufficiency != nil and program.ActionsTakenAdditionalData.Sufficiency != '' %}
+                                                    <p class="heading-text">Description of How the Level of Actions Matches the Level of Improper Payments</p>
+                                                    <p class="answer-text">{{ program.ActionsTakenAdditionalData.Sufficiency | newline_to_br }}</p>
+                                                {% endif %}
+                                                {% if program.ActionsTakenAdditionalData.Accountability != nil and program.ActionsTakenAdditionalData.Accountability != '' %}
+                                                    <p class="heading-text">Accountability For Payment Integrity Through Performance Appraisal Criteria</p>
+                                                    <p class="answer-text">{{ program.ActionsTakenAdditionalData.Accountability | newline_to_br }}</p>
+                                                {% endif %}
+
+                                                {% assign program_needs1_set = false %}
+                                                {% if program.ActionsTakenAdditionalData.Needs1 != nil and program.ActionsTakenAdditionalData.Needs1 != '' %}
+                                                    {% assign program_needs1_set = true %}
+                                                {% endif %}
+                                                {% assign program_needs2_set = false %}
+                                                {% if program.ActionsTakenAdditionalData.Needs2 != nil and program.ActionsTakenAdditionalData.Needs2 != '' %}
+                                                    {% assign program_needs2_set = true %}
+                                                {% endif %}
+                                                {% if program_needs1_set or program_needs2_set %}
+                                                    <p class="heading-text">Program Needs</p>
+                                                    {% if program_needs1_set %}
+                                                        <p class="answer-text">{{ program.ActionsTakenAdditionalData.Needs1 | newline_to_br }}</p>
+                                                    {% endif %}
+                                                    {% if program_needs2_set %}
+                                                        <p class="answer-text">{{ program.ActionsTakenAdditionalData.Needs2 | newline_to_br }}</p>
+                                                    {% endif %}
+                                                {% endif %}
                                             {% endif %}
                                         </div>
                                     </div>
@@ -292,6 +323,7 @@ permalink: /
                 {% endif %}
 
                 {% if page.High_Priority_Links != nil and page.High_Priority_Links.size > 0 %}
+                    <!-- Additional Section for CR #2 -->
                     <div class="grid-row">
                         <div class="grid-col-12">
                             <div class="usa-accordion congressional-reports-accordion">
@@ -313,6 +345,20 @@ permalink: /
                             </div>
                         </div>
                     </div>
+                {% endif %}
+
+                {% if page.IPData != nil %}
+                    <!-- Additional Section for CR #6 -->
+                    {% include _congressional-report-6.html
+                        IPData = page.IPData
+                    %}
+                {% endif %}
+
+                {% if page.DoNotPayData != nil %}
+                        <!-- Additional Section for CR #9 -->
+                    {% include _congressional-report-9.html
+                        DoNotPayData = page.DoNotPayData
+                    %}
                 {% endif %}
 
                 <div class="grid-row no-print">

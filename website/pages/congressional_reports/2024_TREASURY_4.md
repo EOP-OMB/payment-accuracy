@@ -4,7 +4,12 @@ Agency_Name: Department of the Treasury
 Fiscal_Year: 2024
 Page_Name: 2024_TREASURY_4
 ProgramSurveyData:
-- Answers:
+- ActionsTakenAdditionalData:
+    Accountability: null
+    Needs1: null
+    Needs2: null
+    Sufficiency: null
+  Answers:
   - Agency: TREASURY
     Answer: 'In May 2024, the Emergency Rental Assistance (ERA) Program was determined
       to be susceptible to significant improper payments for the fiscal year 2023
@@ -30,8 +35,13 @@ ProgramSurveyData:
     Subheading: ''
     Type: TEXT
   Program: Departmental Offices - Emergency Rental Assistance
-  SortOrder: 49
-- Answers:
+  SortOrder: 0
+- ActionsTakenAdditionalData:
+    Accountability: null
+    Needs1: null
+    Needs2: null
+    Sufficiency: null
+  Answers:
   - Agency: TREASURY
     Answer: 'In May 2024, the Pandemic Relief for Aviation Workers Program, also known
       as the Payroll Support Program (PSP), was determined to be susceptible to significant
@@ -57,7 +67,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: TEXT
   Program: Departmental Offices - Pandemic Relief for Aviation Workers
-  SortOrder: 50
+  SortOrder: 1
 - ActionsTaken:
   - Action_Taken: Completed
     Action_Type: Change Process
@@ -154,6 +164,94 @@ ProgramSurveyData:
       of this approach is enhanced targeting of resources to areas in which errors
       are most likely to occur.
     Mitigation_Strategy: app4_1
+  ActionsTakenAdditionalData:
+    Accountability: "The IRS has a strong internal control environment around refundable\
+      \ credit programs administered and makes decisions based on overall cost-benefit\
+      \ considerations.  The IRS annually reviews and enhances its refundable credits\
+      \ compliance plan that addresses erroneous claims.  Each year the IRS updates\
+      \ its strategy using the most recent research findings, prior year audit results,\
+      \ TIGTA/GAO audit findings and legislative updates.  The IRS also submits legislative\
+      \ proposals which, if approved by Congress, may further enhance efforts to address\
+      \ areas of risk and reduce improper payments. \n \nThe IRS reviews and updates\
+      \ Internal Revenue Manuals throughout the year and ensures that IRS employees\
+      \ who administer refundable credits receive annual training and have the requisite\
+      \ knowledge to address the evolving nature of improper payments and fraud. \
+      \ Employees are also encouraged to recommend changes that may further strengthen\
+      \ the IRS's internal controls and procedures.\n \nThe IRS performance plans\
+      \ also balance the outreach and awareness component with its examination program.\
+      \ Again, the IRS looks to find ways to enhance the taxpayer experience and improve\
+      \ the knowledge of taxpayers and paid return preparers of the eligibility and\
+      \ criteria for RTCs.\n\nReducing the improper payment rate to less than 10 percent\
+      \ would require significant restructuring of the RTC programs, to include legislative\
+      \ action."
+    Needs1: 'The IRS has what is needed with respect to internal control, human capital
+      and information system and other infrastructure to reduce Refundable Tax Credits
+      (RTCs) Improper Payments and Unknown Payments to a tolerable rate. The issue
+      with RTCs is statutory program design and reliance on taxpayer self-certification.
+      The IRS has a strong internal control environment around RTCs and makes decisions
+      based on overall cost-benefit considerations, with a well-trained, technically
+      capable program staff whose tenure far exceeds that of other agencies. The Inspector
+      General of Tax Administration (TIGTA) has traditionally reported that the issue
+      with improper payments is not an internal control deficiency.
+
+
+      Reducing the improper payment rate to less than 10 percent would require significant
+      restructuring of the RTC programs, to include legislative action.'
+    Needs2: "Further improving the integrity of RTC programs will take actions beyond\
+      \ the Internal Revenue Service's (IRS's) control. The IRS has proposed various\
+      \ legislative changes over the years aimed at providing more effective tools\
+      \ for managing RTCs.  For the FY 2025 budget submission, the Administration\
+      \ included the following proposals in its Budget submission: \n\n1. Expand and\
+      \ increase Penalties for Return Preparation and E-filing - The proposal would\
+      \ increase and expand the IRS’s authority to address noncompliance or inappropriate\
+      \ behavior by paid tax return preparers and e-file providers.  First, it would\
+      \ increase the penalty amounts that apply to paid tax return preparers for willful,\
+      \ reckless or unreasonable understatements, as well as for forms of noncompliance\
+      \ that do not involve an understatement of tax.  Second, the proposal would\
+      \ establish new penalties for the appropriation of Preparer Tax Identification\
+      \ Numbers (PTINs) and Electronic Filing Identification Numbers (EFINs) and for\
+      \ failing to disclose the use of a paid tax return preparer.  Third, the proposal\
+      \ would increase the limitations period during which the penalty for a failure\
+      \ to furnish the preparer’s identifying number may be assessed from three years\
+      \ to six years.  Fourth, the proposal would clarify the Secretary’s authority\
+      \ to regulate the conduct and suitability of persons who participate in the\
+      \ authorized e-file program, including setting standards and imposing sanctions\
+      \ to protect the integrity of the e-file program.  \n\n2. Increase Oversight\
+      \ of Paid Tax Return Preparers - The proposal would amend Title 31, U.S. Code\
+      \ (Money and Finance) to provide the Secretary with explicit authority to regulate\
+      \ all paid preparers of federal tax returns, including by establishing mandatory\
+      \ minimum competency standards. \n\nThese statutory changes may help reduce\
+      \ RTC errors to some degree.  However, a meaningful reduction in the estimated\
+      \ error rate is unlikely without independent data sources through which the\
+      \ IRS can verify taxpayer-provided information and additional time and resources\
+      \ for the IRS to address any issues identified."
+    Sufficiency: 'The primary challenge in administering refundable tax credits (RTCs),
+      such as the Additional Child Tax Credit (ACTC), is the complexity of the credits''
+      statutory eligibility requirements.  The fundamental root causes of the Additional
+      Child Tax Credit improper payments are as follows: (1) there is a statutory
+      lack of a required pre-approval process; (2) an inability to wholesale deny
+      payments (refunds) and (3) the information needed to verify taxpayer claims
+      of eligibility belongs primarily to the taxpayer without any third-party data
+      source available at the time of filing, thus requiring the IRS to rely on taxpayer
+      self-certification that all return information is accurate. RTCs are managed
+      within and follow the regulatory scheme of tax administration and enforcement.
+      At a lower level, the root causes are that, at the time of filing/payment: (a)
+      there is an inability to authenticate eligibility (typically due to a series
+      of complex eligibility rules, many with relationship and residency tests containing
+      many nuances); (b) there are instances where taxpayer income is misreported,
+      particularly related to self-employment income and other income not reported
+      to the IRS by a third party; and (c) there is turnover of taxpayer who receive
+      certain credits for the first time and fail to understand the complex requirements
+      of claiming the credit. Pursuant to federal statute, the IRS generally does
+      not have the capability to deny even incorrect claims, given the lack of math
+      authority. However, the IRS''s information technology platform includes a number
+      of filters that the IRS uses to monitor the accuracy of compliance with eligibility
+      rules and payment certification. The annual Dependent Database (DDb) meetings,
+      collaborations/data sharing with other federal agencies and outreach/education
+      efforts aid the IRS in mitigating the impact of these root causes. Lastly, the
+      IRS has a number of outreach and education programs in place, to help taxpayers
+      and tax preparers understand the program eligibility rules and file accurate
+      returns claiming RTCs.'
   Answers:
   - Agency: TREASURY
     Answer: '32120.77'
@@ -175,20 +273,6 @@ ProgramSurveyData:
     Key: cyp28
     SortOrder: 3
     Subheading: Improper Payment Estimate
-    Type: PERCENTAGE
-  - Agency: TREASURY
-    Answer: '0.0'
-    Heading: Causes of Improper Payments
-    Key: cyp7
-    SortOrder: 4
-    Subheading: Unknown Payments
-    Type: MILLIONS_OF_DOLLARS
-  - Agency: TREASURY
-    Answer: '0.0'
-    Heading: Causes of Improper Payments
-    Key: cyp24
-    SortOrder: 5
-    Subheading: Unknown Payments
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: '3446.56'
@@ -285,119 +369,21 @@ ProgramSurveyData:
     Subheading: Technically Improper Payments
     Type: PERCENTAGE
   - Agency: TREASURY
-    Answer: 'The primary challenge in administering refundable tax credits (RTCs),
-      such as the Additional Child Tax Credit (ACTC), is the complexity of the credits''
-      statutory eligibility requirements.  The fundamental root causes of the Additional
-      Child Tax Credit improper payments are as follows: (1) there is a statutory
-      lack of a required pre-approval process; (2) an inability to wholesale deny
-      payments (refunds) and (3) the information needed to verify taxpayer claims
-      of eligibility belongs primarily to the taxpayer without any third-party data
-      source available at the time of filing, thus requiring the IRS to rely on taxpayer
-      self-certification that all return information is accurate. RTCs are managed
-      within and follow the regulatory scheme of tax administration and enforcement.
-      At a lower level, the root causes are that, at the time of filing/payment: (a)
-      there is an inability to authenticate eligibility (typically due to a series
-      of complex eligibility rules, many with relationship and residency tests containing
-      many nuances); (b) there are instances where taxpayer income is misreported,
-      particularly related to self-employment income and other income not reported
-      to the IRS by a third party; and (c) there is turnover of taxpayer who receive
-      certain credits for the first time and fail to understand the complex requirements
-      of claiming the credit. Pursuant to federal statute, the IRS generally does
-      not have the capability to deny even incorrect claims, given the lack of math
-      authority. However, the IRS''s information technology platform includes a number
-      of filters that the IRS uses to monitor the accuracy of compliance with eligibility
-      rules and payment certification. The annual Dependent Database (DDb) meetings,
-      collaborations/data sharing with other federal agencies and outreach/education
-      efforts aid the IRS in mitigating the impact of these root causes. Lastly, the
-      IRS has a number of outreach and education programs in place, to help taxpayers
-      and tax preparers understand the program eligibility rules and file accurate
-      returns claiming RTCs.'
-    Heading: Description of How the Level of Actions Matches the Level of Improper
-      Payments
-    Key: rnp3
-    SortOrder: 37
-    Subheading: ''
-    Type: TEXT
+    Answer: '0.0'
+    Heading: Causes of Improper Payments
+    Key: cyp7
+    SortOrder: 27
+    Subheading: Unknown Payments
+    Type: MILLIONS_OF_DOLLARS
   - Agency: TREASURY
-    Answer: "The IRS has a strong internal control environment around refundable credit\
-      \ programs administered and makes decisions based on overall cost-benefit considerations.\
-      \  The IRS annually reviews and enhances its refundable credits compliance plan\
-      \ that addresses erroneous claims.  Each year the IRS updates its strategy using\
-      \ the most recent research findings, prior year audit results, TIGTA/GAO audit\
-      \ findings and legislative updates.  The IRS also submits legislative proposals\
-      \ which, if approved by Congress, may further enhance efforts to address areas\
-      \ of risk and reduce improper payments. \n \nThe IRS reviews and updates Internal\
-      \ Revenue Manuals throughout the year and ensures that IRS employees who administer\
-      \ refundable credits receive annual training and have the requisite knowledge\
-      \ to address the evolving nature of improper payments and fraud.  Employees\
-      \ are also encouraged to recommend changes that may further strengthen the IRS's\
-      \ internal controls and procedures.\n \nThe IRS performance plans also balance\
-      \ the outreach and awareness component with its examination program. Again,\
-      \ the IRS looks to find ways to enhance the taxpayer experience and improve\
-      \ the knowledge of taxpayers and paid return preparers of the eligibility and\
-      \ criteria for RTCs.\n\nReducing the improper payment rate to less than 10 percent\
-      \ would require significant restructuring of the RTC programs, to include legislative\
-      \ action."
-    Heading: Accountability For Payment Integrity Through Performance Appraisal Criteria
-    Key: rnp4
-    SortOrder: 38
-    Subheading: ''
-    Type: TEXT
-  - Agency: TREASURY
-    Answer: 'The IRS has what is needed with respect to internal control, human capital
-      and information system and other infrastructure to reduce Refundable Tax Credits
-      (RTCs) Improper Payments and Unknown Payments to a tolerable rate. The issue
-      with RTCs is statutory program design and reliance on taxpayer self-certification.
-      The IRS has a strong internal control environment around RTCs and makes decisions
-      based on overall cost-benefit considerations, with a well-trained, technically
-      capable program staff whose tenure far exceeds that of other agencies. The Inspector
-      General of Tax Administration (TIGTA) has traditionally reported that the issue
-      with improper payments is not an internal control deficiency.
-
-
-      Reducing the improper payment rate to less than 10 percent would require significant
-      restructuring of the RTC programs, to include legislative action.'
-    Heading: Program Needs
-    Key: rap5
-    SortOrder: 39
-    Subheading: ''
-    Type: TEXT
-  - Agency: TREASURY
-    Answer: "Further improving the integrity of RTC programs will take actions beyond\
-      \ the Internal Revenue Service's (IRS's) control. The IRS has proposed various\
-      \ legislative changes over the years aimed at providing more effective tools\
-      \ for managing RTCs.  For the FY 2025 budget submission, the Administration\
-      \ included the following proposals in its Budget submission: \n\n1. Expand and\
-      \ increase Penalties for Return Preparation and E-filing - The proposal would\
-      \ increase and expand the IRS’s authority to address noncompliance or inappropriate\
-      \ behavior by paid tax return preparers and e-file providers.  First, it would\
-      \ increase the penalty amounts that apply to paid tax return preparers for willful,\
-      \ reckless or unreasonable understatements, as well as for forms of noncompliance\
-      \ that do not involve an understatement of tax.  Second, the proposal would\
-      \ establish new penalties for the appropriation of Preparer Tax Identification\
-      \ Numbers (PTINs) and Electronic Filing Identification Numbers (EFINs) and for\
-      \ failing to disclose the use of a paid tax return preparer.  Third, the proposal\
-      \ would increase the limitations period during which the penalty for a failure\
-      \ to furnish the preparer’s identifying number may be assessed from three years\
-      \ to six years.  Fourth, the proposal would clarify the Secretary’s authority\
-      \ to regulate the conduct and suitability of persons who participate in the\
-      \ authorized e-file program, including setting standards and imposing sanctions\
-      \ to protect the integrity of the e-file program.  \n\n2. Increase Oversight\
-      \ of Paid Tax Return Preparers - The proposal would amend Title 31, U.S. Code\
-      \ (Money and Finance) to provide the Secretary with explicit authority to regulate\
-      \ all paid preparers of federal tax returns, including by establishing mandatory\
-      \ minimum competency standards. \n\nThese statutory changes may help reduce\
-      \ RTC errors to some degree.  However, a meaningful reduction in the estimated\
-      \ error rate is unlikely without independent data sources through which the\
-      \ IRS can verify taxpayer-provided information and additional time and resources\
-      \ for the IRS to address any issues identified."
-    Heading: Program Needs
-    Key: rap6
-    SortOrder: 40
-    Subheading: ''
-    Type: TEXT
+    Answer: '0.0'
+    Heading: Causes of Improper Payments
+    Key: cyp24
+    SortOrder: 28
+    Subheading: Unknown Payments
+    Type: PERCENTAGE
   Program: Internal Revenue Service - Additional Child Tax Credit
-  SortOrder: 51
+  SortOrder: 2
 - ActionsTaken:
   - Action_Taken: Planned
     Action_Type: Change Process
@@ -494,6 +480,92 @@ ProgramSurveyData:
       improper payments. The primary result of this approach is enhanced targeting
       of resources to areas in which errors are most likely to occur.
     Mitigation_Strategy: atp4_1
+  ActionsTakenAdditionalData:
+    Accountability: "The IRS has a strong internal control environment around refundable\
+      \ credit programs administered and makes decisions based on overall cost-benefit\
+      \ considerations.  The IRS annually reviews and enhances its refundable credits\
+      \ compliance plan that addresses erroneous claims.  Each year the IRS updates\
+      \ its strategy using the most recent research findings, prior year audit results,\
+      \ TIGTA/GAO audit findings and legislative updates.  The IRS also submits legislative\
+      \ proposals which, if approved by Congress, may further enhance efforts to address\
+      \ areas of risk and reduce improper payments. \n \nThe IRS reviews and updates\
+      \ Internal Revenue Manuals throughout the year and ensures that IRS employees\
+      \ who administer refundable credits receive annual training and have the requisite\
+      \ knowledge to address the evolving nature of improper payments and fraud. \
+      \ Employees are also encouraged to recommend changes that may further strengthen\
+      \ the IRS's internal controls and procedures.\n \nThe IRS performance plans\
+      \ also balance the outreach and awareness component with its examination program.\
+      \ Again, the IRS looks to find ways to enhance the taxpayer experience and improve\
+      \ the knowledge of taxpayers and paid return preparers of the eligibility and\
+      \ criteria for RTCs.\n\nReducing the improper payment rate to less than 10 percent\
+      \ would require significant restructuring of the RTC programs, to include legislative\
+      \ action."
+    Needs1: 'The IRS has what is needed with respect to internal control, human capital
+      and information system and other infrastructure to reduce Refundable Tax Credits
+      (RTCs) Improper Payments and Unknown Payments to a tolerable rate. The issue
+      with RTCs is statutory program design and reliance on taxpayer self-certification.
+      The IRS has a strong internal control environment around RTCs and makes decisions
+      based on overall cost-benefit considerations, with a well-trained, technically
+      capable program staff whose tenure far exceeds that of other agencies. The Treasury
+      Inspector General for Tax Administration (TIGTA) has traditionally reported
+      that the issue with improper payments is not an internal control deficiency.
+
+
+      Reducing the improper payment rate to less than 10 percent would require significant
+      restructuring of the RTC programs, to include legislative action.'
+    Needs2: "Further improving the integrity of refundable tax credit (RTC) programs\
+      \ will take actions beyond our control.  We have proposed various legislative\
+      \ changes over the years aimed at providing more effective tools for managing\
+      \ RTCs.  For the FY 2025 budget submission, the Administration included the\
+      \ following proposals: \n\n1. Expand and increase Penalties for Return Preparation\
+      \ and E-filing - The proposal would increase and expand the IRS’s authority\
+      \ to address noncompliance or inappropriate behavior by paid tax return preparers\
+      \ and e-file providers.  First, it would increase the penalty amounts that apply\
+      \ to paid tax return preparers for willful, reckless or unreasonable understatements,\
+      \ as well as for forms of noncompliance that do not involve an understatement\
+      \ of tax.  Second, the proposal would establish new penalties for the appropriation\
+      \ of Preparer Tax Identification Numbers (PTINs) and Electronic Filing Identification\
+      \ Numbers (EFINs) and for failing to disclose the use of a paid tax return preparer.\
+      \  Third, the proposal would increase the limitations period during which the\
+      \ penalty for a failure to furnish the preparer’s identifying number may be\
+      \ assessed from three years to six years.  Fourth, the proposal would clarify\
+      \ the Secretary’s authority to regulate the conduct and suitability of persons\
+      \ who participate in the authorized e-file program, including setting standards\
+      \ and imposing sanctions to protect the integrity of the e-file program.  \n\
+      \n2. Increase Oversight of Paid Tax Return Preparers - The proposal would amend\
+      \ Title 31, U.S. Code (Money and Finance) to provide the Secretary with explicit\
+      \ authority to regulate all paid preparers of federal tax returns, including\
+      \ by establishing mandatory minimum competency standards. \n\nThese statutory\
+      \ changes may help reduce RTC errors to some degree.  However, a meaningful\
+      \ reduction in the estimated error rate is unlikely without independent data\
+      \ sources through which the IRS can verify taxpayer-provided information and\
+      \ additional time and resources for the IRS to address any issues identified."
+    Sufficiency: 'The challenge in administering refundable tax credits (RTCs) is
+      that RTCs do not have the characteristics of a typical payment program. The
+      fundamental root cause of RTC improper payments are as follows: (1) there is
+      a statutory lack of a required pre-approval process; (2) an inability to wholesale
+      deny payments (refunds) and (3) the information needed to verify taxpayer claims
+      of eligibility belongs primarily to the taxpayer without any third-party data
+      source available at the time of filing, thus requiring the IRS to rely on taxpayer
+      self-certification that all return information is accurate. RTCs are managed
+      within and follow the regulatory scheme of tax administration and enforcement.
+      At a lower level, the root causes are that, at the time of filing/payment: (a)
+      there is an inability to authenticate eligibility (typically due to a series
+      of complex eligibility rules, many with relationship and residency tests containing
+      with many nuances); (b) there are instances where taxpayer income is misreported,
+      particularly related to self-employment income and other income not reported
+      to the IRS by a third party; and (c) there is turnover of taxpayers who receive
+      certain credits for the first time and fail to understand the complex requirements
+      of claiming the credit. Pursuant to federal statute, the IRS generally does
+      not have the capability to deny even incorrect claims, given the lack of math
+      authority. However, the IRS''s information technology platform includes a number
+      of filters that the IRS uses to monitor the accuracy of compliance with eligibility
+      rules and payment certification. The annual Dependent Database (DDb) meetings,
+      collaborations/data sharing with other federal agencies, and outreach/education
+      efforts aid the IRS in mitigating the impact of these root causes. Lastly, the
+      IRS has a number of outreach and education programs in place, to help taxpayers
+      and tax preparers understand the program eligibility rules and file accurate
+      returns claiming RTCs.'
   Answers:
   - Agency: TREASURY
     Answer: '5176.49'
@@ -515,20 +587,6 @@ ProgramSurveyData:
     Key: cyp28
     SortOrder: 3
     Subheading: Improper Payment Estimate
-    Type: PERCENTAGE
-  - Agency: TREASURY
-    Answer: '0.0'
-    Heading: Causes of Improper Payments
-    Key: cyp7
-    SortOrder: 4
-    Subheading: Unknown Payments
-    Type: MILLIONS_OF_DOLLARS
-  - Agency: TREASURY
-    Answer: '0.0'
-    Heading: Causes of Improper Payments
-    Key: cyp24
-    SortOrder: 5
-    Subheading: Unknown Payments
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: '1431.3'
@@ -626,118 +684,27 @@ ProgramSurveyData:
     Subheading: Technically Improper Payments
     Type: PERCENTAGE
   - Agency: TREASURY
-    Answer: 'The challenge in administering refundable tax credits (RTCs) is that
-      RTCs do not have the characteristics of a typical payment program. The fundamental
-      root cause of RTC improper payments are as follows: (1) there is a statutory
-      lack of a required pre-approval process; (2) an inability to wholesale deny
-      payments (refunds) and (3) the information needed to verify taxpayer claims
-      of eligibility belongs primarily to the taxpayer without any third-party data
-      source available at the time of filing, thus requiring the IRS to rely on taxpayer
-      self-certification that all return information is accurate. RTCs are managed
-      within and follow the regulatory scheme of tax administration and enforcement.
-      At a lower level, the root causes are that, at the time of filing/payment: (a)
-      there is an inability to authenticate eligibility (typically due to a series
-      of complex eligibility rules, many with relationship and residency tests containing
-      with many nuances); (b) there are instances where taxpayer income is misreported,
-      particularly related to self-employment income and other income not reported
-      to the IRS by a third party; and (c) there is turnover of taxpayers who receive
-      certain credits for the first time and fail to understand the complex requirements
-      of claiming the credit. Pursuant to federal statute, the IRS generally does
-      not have the capability to deny even incorrect claims, given the lack of math
-      authority. However, the IRS''s information technology platform includes a number
-      of filters that the IRS uses to monitor the accuracy of compliance with eligibility
-      rules and payment certification. The annual Dependent Database (DDb) meetings,
-      collaborations/data sharing with other federal agencies, and outreach/education
-      efforts aid the IRS in mitigating the impact of these root causes. Lastly, the
-      IRS has a number of outreach and education programs in place, to help taxpayers
-      and tax preparers understand the program eligibility rules and file accurate
-      returns claiming RTCs.'
-    Heading: Description of How the Level of Actions Matches the Level of Improper
-      Payments
-    Key: rnp3
-    SortOrder: 37
-    Subheading: ''
-    Type: TEXT
+    Answer: '0.0'
+    Heading: Causes of Improper Payments
+    Key: cyp7
+    SortOrder: 27
+    Subheading: Unknown Payments
+    Type: MILLIONS_OF_DOLLARS
   - Agency: TREASURY
-    Answer: "The IRS has a strong internal control environment around refundable credit\
-      \ programs administered and makes decisions based on overall cost-benefit considerations.\
-      \  The IRS annually reviews and enhances its refundable credits compliance plan\
-      \ that addresses erroneous claims.  Each year the IRS updates its strategy using\
-      \ the most recent research findings, prior year audit results, TIGTA/GAO audit\
-      \ findings and legislative updates.  The IRS also submits legislative proposals\
-      \ which, if approved by Congress, may further enhance efforts to address areas\
-      \ of risk and reduce improper payments. \n \nThe IRS reviews and updates Internal\
-      \ Revenue Manuals throughout the year and ensures that IRS employees who administer\
-      \ refundable credits receive annual training and have the requisite knowledge\
-      \ to address the evolving nature of improper payments and fraud.  Employees\
-      \ are also encouraged to recommend changes that may further strengthen the IRS's\
-      \ internal controls and procedures.\n \nThe IRS performance plans also balance\
-      \ the outreach and awareness component with its examination program. Again,\
-      \ the IRS looks to find ways to enhance the taxpayer experience and improve\
-      \ the knowledge of taxpayers and paid return preparers of the eligibility and\
-      \ criteria for RTCs.\n\nReducing the improper payment rate to less than 10 percent\
-      \ would require significant restructuring of the RTC programs, to include legislative\
-      \ action."
-    Heading: Accountability For Payment Integrity Through Performance Appraisal Criteria
-    Key: rnp4
-    SortOrder: 38
-    Subheading: ''
-    Type: TEXT
-  - Agency: TREASURY
-    Answer: 'The IRS has what is needed with respect to internal control, human capital
-      and information system and other infrastructure to reduce Refundable Tax Credits
-      (RTCs) Improper Payments and Unknown Payments to a tolerable rate. The issue
-      with RTCs is statutory program design and reliance on taxpayer self-certification.
-      The IRS has a strong internal control environment around RTCs and makes decisions
-      based on overall cost-benefit considerations, with a well-trained, technically
-      capable program staff whose tenure far exceeds that of other agencies. The Treasury
-      Inspector General for Tax Administration (TIGTA) has traditionally reported
-      that the issue with improper payments is not an internal control deficiency.
-
-
-      Reducing the improper payment rate to less than 10 percent would require significant
-      restructuring of the RTC programs, to include legislative action.'
-    Heading: Program Needs
-    Key: rap5
-    SortOrder: 39
-    Subheading: ''
-    Type: TEXT
-  - Agency: TREASURY
-    Answer: "Further improving the integrity of refundable tax credit (RTC) programs\
-      \ will take actions beyond our control.  We have proposed various legislative\
-      \ changes over the years aimed at providing more effective tools for managing\
-      \ RTCs.  For the FY 2025 budget submission, the Administration included the\
-      \ following proposals: \n\n1. Expand and increase Penalties for Return Preparation\
-      \ and E-filing - The proposal would increase and expand the IRS’s authority\
-      \ to address noncompliance or inappropriate behavior by paid tax return preparers\
-      \ and e-file providers.  First, it would increase the penalty amounts that apply\
-      \ to paid tax return preparers for willful, reckless or unreasonable understatements,\
-      \ as well as for forms of noncompliance that do not involve an understatement\
-      \ of tax.  Second, the proposal would establish new penalties for the appropriation\
-      \ of Preparer Tax Identification Numbers (PTINs) and Electronic Filing Identification\
-      \ Numbers (EFINs) and for failing to disclose the use of a paid tax return preparer.\
-      \  Third, the proposal would increase the limitations period during which the\
-      \ penalty for a failure to furnish the preparer’s identifying number may be\
-      \ assessed from three years to six years.  Fourth, the proposal would clarify\
-      \ the Secretary’s authority to regulate the conduct and suitability of persons\
-      \ who participate in the authorized e-file program, including setting standards\
-      \ and imposing sanctions to protect the integrity of the e-file program.  \n\
-      \n2. Increase Oversight of Paid Tax Return Preparers - The proposal would amend\
-      \ Title 31, U.S. Code (Money and Finance) to provide the Secretary with explicit\
-      \ authority to regulate all paid preparers of federal tax returns, including\
-      \ by establishing mandatory minimum competency standards. \n\nThese statutory\
-      \ changes may help reduce RTC errors to some degree.  However, a meaningful\
-      \ reduction in the estimated error rate is unlikely without independent data\
-      \ sources through which the IRS can verify taxpayer-provided information and\
-      \ additional time and resources for the IRS to address any issues identified."
-    Heading: Program Needs
-    Key: rap6
-    SortOrder: 40
-    Subheading: ''
-    Type: TEXT
+    Answer: '0.0'
+    Heading: Causes of Improper Payments
+    Key: cyp24
+    SortOrder: 28
+    Subheading: Unknown Payments
+    Type: PERCENTAGE
   Program: Internal Revenue Service - American Opportunity Tax Credit
-  SortOrder: 52
-- Answers:
+  SortOrder: 3
+- ActionsTakenAdditionalData:
+    Accountability: null
+    Needs1: null
+    Needs2: null
+    Sufficiency: null
+  Answers:
   - Agency: TREASURY
     Answer: The Child and Dependent Care Tax Credit (CDCTC) became refundable only
       for Tax Year (TY) 2021, under the American Rescue Plan Act of 2021 (ARPA), as
@@ -763,7 +730,7 @@ ProgramSurveyData:
     Subheading: ''
     Type: TEXT
   Program: Internal Revenue Service - Child and Dependent Care Tax Credit
-  SortOrder: 53
+  SortOrder: 4
 - ActionsTaken:
   - Action_Taken: Planned
     Action_Type: Change Process
@@ -815,6 +782,90 @@ ProgramSurveyData:
       The primary result of this approach is enhanced targeting of resources to areas
       in which errors are most likely to occur.
     Mitigation_Strategy: atp4_1
+  ActionsTakenAdditionalData:
+    Accountability: "The IRS has a strong internal control environment around refundable\
+      \ credit programs administered and makes decisions based on overall cost-benefit\
+      \ considerations.  The IRS annually reviews and enhances its refundable credits\
+      \ compliance plan that addresses erroneous claims.  Each year the IRS updates\
+      \ its strategy using the most recent research findings, prior year audit results,\
+      \ TIGTA/GAO audit findings and legislative updates.  The IRS also submits legislative\
+      \ proposals which, if approved by Congress, may further enhance efforts to address\
+      \ areas of risk and reduce improper payments. \n \nThe IRS reviews and updates\
+      \ Internal Revenue Manuals throughout the year and ensures that IRS employees\
+      \ who administer refundable credits receive annual training and have the requisite\
+      \ knowledge to address the evolving nature of improper payments and fraud. \
+      \ Employees are also encouraged to recommend changes that may further strengthen\
+      \ the IRS's internal controls and procedures.\n \nThe IRS performance plans\
+      \ also balance the outreach and awareness component with its examination program.\
+      \ Again, the IRS looks to find ways to enhance the taxpayer experience and improve\
+      \ the knowledge of taxpayers and paid return preparers of the eligibility and\
+      \ criteria for RTCs."
+    Needs1: 'The IRS has what is needed with respect to internal control, human capital
+      and information system and other infrastructure to reduce Refundable Tax Credits
+      (RTCs) Improper Payments and Unknown Payments to a tolerable rate. The issue
+      with RTCs is statutory program design and reliance on taxpayer self-certification.
+      The IRS has a strong internal control environment around RTCs and makes decisions
+      based on overall cost-benefit considerations, with a well-trained, technically
+      capable program staff whose tenure far exceeds that of other agencies. The Inspector
+      General for Tax Administration (TIGTA) has traditionally reported that the issue
+      with improper payments is not an internal control deficiency.
+
+
+      Reducing the improper payment rate to less than 10 percent would require significant
+      restructuring of the RTC programs, to include legislative action. Accordingly,
+      the IRS does not have a current target date to report the tolerable rate.'
+    Needs2: "The IRS has proposed various legislative changes over the years aimed\
+      \ at providing more effective tools for managing RTCs.  For the FY 2025 budget\
+      \ submission, the Administration included the following proposals in its Budget\
+      \ submission: \n\nA. Expand and increase Penalties for Return Preparation and\
+      \ E-filing - The proposal would increase and expand the IRS’s authority to address\
+      \ noncompliance or inappropriate behavior by paid tax return preparers and e-file\
+      \ providers.  First, it would increase the penalty amounts that apply to paid\
+      \ tax return preparers for willful, reckless or unreasonable understatements,\
+      \ as well as for forms of noncompliance that do not involve an understatement\
+      \ of tax.  Second, the proposal would establish new penalties for the appropriation\
+      \ of Preparer Tax Identification Numbers (PTINs) and Electronic Filing Identification\
+      \ Numbers (EFINs) and for failing to disclose the use of a paid tax return preparer.\
+      \  Third, the proposal would increase the limitations period during which the\
+      \ penalty for a failure to furnish the preparer’s identifying number may be\
+      \ assessed from three years to six years.  Fourth, the proposal would clarify\
+      \ the Secretary’s authority to regulate the conduct and suitability of persons\
+      \ who participate in the authorized e-file program, including setting standards\
+      \ and imposing sanctions to protect the integrity of the e-file program.  \n\
+      \nB. Increase Oversight of Paid Tax Return Preparers - The proposal would amend\
+      \ Title 31, U.S. Code (Money and Finance) to provide the Secretary with explicit\
+      \ authority to regulate all paid preparers of federal tax returns, including\
+      \ by establishing mandatory minimum competency standards. \n\nThese statutory\
+      \ changes may help reduce RTC errors to some degree.  However, a meaningful\
+      \ reduction in the estimated error rate is unlikely without independent data\
+      \ sources through which the IRS can verify taxpayer-provided information and\
+      \ additional time and resources for the IRS to address any issues identified."
+    Sufficiency: 'The challenge in administering refundable tax credits (RTCs) is
+      that RTCs do not have the characteristics of a typical payment program. The
+      fundamental root causes of the Earned Income Tax Credit improper payments are
+      as follows: (1) there is a statutory lack of a required pre-approval process;
+      (2) an inability to wholesale deny payments (refunds) and (3) the information
+      needed to verify taxpayer claims of eligibility belongs primarily to the taxpayer
+      without any third-party data source available at the time of filing, thus requiring
+      the IRS to rely on taxpayer self-certification that all return information is
+      accurate. RTCs are managed within and follow the regulatory scheme of tax administration
+      and enforcement. At a lower level, the root causes are that, at the time of
+      filing/payment: (a) there''s an inability to authenticate eligibility (typically
+      due to a series of complex eligibility rules, many with relationship and residency
+      tests containing with many nuances); (b) there''s instances where taxpayer income
+      is misreported, particularly related to self-employment income and other income
+      not reported to the IRS by a third party; and (c) there''s a turnover of taxpayer
+      who receive certain credits for the first time and fail to understand the complex
+      requirements of claiming the credit. Pursuant to federal statute, the IRS generally
+      does not have the capability to deny even incorrect claims, given the lack of
+      math authority. However, the IRS''s information technology platform includes
+      a number of filters that the IRS uses to monitor the accuracy of eligibility
+      rules compliance and payment certification. The annual Dependent Database (DDb)
+      meetings, collaborations/data sharing with other federal agencies and outreach/education
+      efforts aid the Service in mitigating the impact of these root causes. Lastly,
+      the IRS has a number of outreach and education programs in place, to help taxpayers
+      and tax preparers understand the program eligibility rules and file accurate
+      returns claiming RTCs.'
   Answers:
   - Agency: TREASURY
     Answer: '58436.98'
@@ -836,20 +887,6 @@ ProgramSurveyData:
     Key: cyp28
     SortOrder: 3
     Subheading: Improper Payment Estimate
-    Type: PERCENTAGE
-  - Agency: TREASURY
-    Answer: '0.0'
-    Heading: Causes of Improper Payments
-    Key: cyp7
-    SortOrder: 4
-    Subheading: Unknown Payments
-    Type: MILLIONS_OF_DOLLARS
-  - Agency: TREASURY
-    Answer: '0.0'
-    Heading: Causes of Improper Payments
-    Key: cyp24
-    SortOrder: 5
-    Subheading: Unknown Payments
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: '15941.61'
@@ -946,115 +983,21 @@ ProgramSurveyData:
     Subheading: Technically Improper Payments
     Type: PERCENTAGE
   - Agency: TREASURY
-    Answer: 'The challenge in administering refundable tax credits (RTCs) is that
-      RTCs do not have the characteristics of a typical payment program. The fundamental
-      root causes of the Earned Income Tax Credit improper payments are as follows:
-      (1) there is a statutory lack of a required pre-approval process; (2) an inability
-      to wholesale deny payments (refunds) and (3) the information needed to verify
-      taxpayer claims of eligibility belongs primarily to the taxpayer without any
-      third-party data source available at the time of filing, thus requiring the
-      IRS to rely on taxpayer self-certification that all return information is accurate.
-      RTCs are managed within and follow the regulatory scheme of tax administration
-      and enforcement. At a lower level, the root causes are that, at the time of
-      filing/payment: (a) there''s an inability to authenticate eligibility (typically
-      due to a series of complex eligibility rules, many with relationship and residency
-      tests containing with many nuances); (b) there''s instances where taxpayer income
-      is misreported, particularly related to self-employment income and other income
-      not reported to the IRS by a third party; and (c) there''s a turnover of taxpayer
-      who receive certain credits for the first time and fail to understand the complex
-      requirements of claiming the credit. Pursuant to federal statute, the IRS generally
-      does not have the capability to deny even incorrect claims, given the lack of
-      math authority. However, the IRS''s information technology platform includes
-      a number of filters that the IRS uses to monitor the accuracy of eligibility
-      rules compliance and payment certification. The annual Dependent Database (DDb)
-      meetings, collaborations/data sharing with other federal agencies and outreach/education
-      efforts aid the Service in mitigating the impact of these root causes. Lastly,
-      the IRS has a number of outreach and education programs in place, to help taxpayers
-      and tax preparers understand the program eligibility rules and file accurate
-      returns claiming RTCs.'
-    Heading: Description of How the Level of Actions Matches the Level of Improper
-      Payments
-    Key: rnp3
-    SortOrder: 37
-    Subheading: ''
-    Type: TEXT
+    Answer: '0.0'
+    Heading: Causes of Improper Payments
+    Key: cyp7
+    SortOrder: 27
+    Subheading: Unknown Payments
+    Type: MILLIONS_OF_DOLLARS
   - Agency: TREASURY
-    Answer: "The IRS has a strong internal control environment around refundable credit\
-      \ programs administered and makes decisions based on overall cost-benefit considerations.\
-      \  The IRS annually reviews and enhances its refundable credits compliance plan\
-      \ that addresses erroneous claims.  Each year the IRS updates its strategy using\
-      \ the most recent research findings, prior year audit results, TIGTA/GAO audit\
-      \ findings and legislative updates.  The IRS also submits legislative proposals\
-      \ which, if approved by Congress, may further enhance efforts to address areas\
-      \ of risk and reduce improper payments. \n \nThe IRS reviews and updates Internal\
-      \ Revenue Manuals throughout the year and ensures that IRS employees who administer\
-      \ refundable credits receive annual training and have the requisite knowledge\
-      \ to address the evolving nature of improper payments and fraud.  Employees\
-      \ are also encouraged to recommend changes that may further strengthen the IRS's\
-      \ internal controls and procedures.\n \nThe IRS performance plans also balance\
-      \ the outreach and awareness component with its examination program. Again,\
-      \ the IRS looks to find ways to enhance the taxpayer experience and improve\
-      \ the knowledge of taxpayers and paid return preparers of the eligibility and\
-      \ criteria for RTCs."
-    Heading: Accountability For Payment Integrity Through Performance Appraisal Criteria
-    Key: rnp4
-    SortOrder: 38
-    Subheading: ''
-    Type: TEXT
-  - Agency: TREASURY
-    Answer: 'The IRS has what is needed with respect to internal control, human capital
-      and information system and other infrastructure to reduce Refundable Tax Credits
-      (RTCs) Improper Payments and Unknown Payments to a tolerable rate. The issue
-      with RTCs is statutory program design and reliance on taxpayer self-certification.
-      The IRS has a strong internal control environment around RTCs and makes decisions
-      based on overall cost-benefit considerations, with a well-trained, technically
-      capable program staff whose tenure far exceeds that of other agencies. The Inspector
-      General for Tax Administration (TIGTA) has traditionally reported that the issue
-      with improper payments is not an internal control deficiency.
-
-
-      Reducing the improper payment rate to less than 10 percent would require significant
-      restructuring of the RTC programs, to include legislative action. Accordingly,
-      the IRS does not have a current target date to report the tolerable rate.'
-    Heading: Program Needs
-    Key: rap5
-    SortOrder: 39
-    Subheading: ''
-    Type: TEXT
-  - Agency: TREASURY
-    Answer: "The IRS has proposed various legislative changes over the years aimed\
-      \ at providing more effective tools for managing RTCs.  For the FY 2025 budget\
-      \ submission, the Administration included the following proposals in its Budget\
-      \ submission: \n\nA. Expand and increase Penalties for Return Preparation and\
-      \ E-filing - The proposal would increase and expand the IRS’s authority to address\
-      \ noncompliance or inappropriate behavior by paid tax return preparers and e-file\
-      \ providers.  First, it would increase the penalty amounts that apply to paid\
-      \ tax return preparers for willful, reckless or unreasonable understatements,\
-      \ as well as for forms of noncompliance that do not involve an understatement\
-      \ of tax.  Second, the proposal would establish new penalties for the appropriation\
-      \ of Preparer Tax Identification Numbers (PTINs) and Electronic Filing Identification\
-      \ Numbers (EFINs) and for failing to disclose the use of a paid tax return preparer.\
-      \  Third, the proposal would increase the limitations period during which the\
-      \ penalty for a failure to furnish the preparer’s identifying number may be\
-      \ assessed from three years to six years.  Fourth, the proposal would clarify\
-      \ the Secretary’s authority to regulate the conduct and suitability of persons\
-      \ who participate in the authorized e-file program, including setting standards\
-      \ and imposing sanctions to protect the integrity of the e-file program.  \n\
-      \nB. Increase Oversight of Paid Tax Return Preparers - The proposal would amend\
-      \ Title 31, U.S. Code (Money and Finance) to provide the Secretary with explicit\
-      \ authority to regulate all paid preparers of federal tax returns, including\
-      \ by establishing mandatory minimum competency standards. \n\nThese statutory\
-      \ changes may help reduce RTC errors to some degree.  However, a meaningful\
-      \ reduction in the estimated error rate is unlikely without independent data\
-      \ sources through which the IRS can verify taxpayer-provided information and\
-      \ additional time and resources for the IRS to address any issues identified."
-    Heading: Program Needs
-    Key: rap6
-    SortOrder: 40
-    Subheading: ''
-    Type: TEXT
+    Answer: '0.0'
+    Heading: Causes of Improper Payments
+    Key: cyp24
+    SortOrder: 28
+    Subheading: Unknown Payments
+    Type: PERCENTAGE
   Program: Internal Revenue Service - Earned Income Tax Credit
-  SortOrder: 54
+  SortOrder: 5
 - ActionsTaken:
   - Action_Taken: Planned
     Action_Type: Cross Enterprise Sharing
@@ -1145,6 +1088,92 @@ ProgramSurveyData:
       the IRS can verify key elements of returns. This is especially important given
       the lack of a pre-approval process for these credits.
     Mitigation_Strategy: atp5_1
+  ActionsTakenAdditionalData:
+    Accountability: "The IRS has a strong internal control environment around refundable\
+      \ credit programs administered and makes decisions based on overall cost-benefit\
+      \ considerations.  The IRS annually reviews and enhances its refundable credits\
+      \ compliance plan that addresses erroneous claims.  Each year the IRS updates\
+      \ its strategy using the most recent research findings, prior year audit results,\
+      \ TIGTA/GAO audit findings and legislative updates.  The IRS also submits legislative\
+      \ proposals which, if approved by Congress, may further enhance efforts to address\
+      \ areas of risk and reduce improper payments. \n \nThe IRS reviews and updates\
+      \ Internal Revenue Manuals throughout the year and ensures that IRS employees\
+      \ who administer refundable credits receive annual training and have the requisite\
+      \ knowledge to address the evolving nature of improper payments and fraud. \
+      \ Employees are also encouraged to recommend changes that may further strengthen\
+      \ the IRS's internal controls and procedures.\n \nThe IRS performance plans\
+      \ also balance the outreach and awareness component with its examination program.\
+      \ Again, the IRS looks to find ways to enhance the taxpayer experience and improve\
+      \ the knowledge of taxpayers and paid return preparers of the eligibility and\
+      \ criteria for RTCs.\n\nReducing the improper payment rate to less than 10 percent\
+      \ would require significant restructuring of the RTC programs, to include legislative\
+      \ action."
+    Needs1: 'The IRS has what is needed with respect to internal control, human capital
+      and information system and other infrastructure to reduce Refundable Tax Credits
+      (RTCs) Improper Payments and Unknown Payments to a tolerable rate. The issue
+      with RTCs is statutory program design and reliance on taxpayer self-certification.
+      The IRS has a strong internal control environment around RTCs and makes decisions
+      based on overall cost-benefit considerations, with a well-trained, technically
+      capable program staff whose tenure far exceeds that of other agencies. The Treasury
+      Inspector General for Tax Administration (TIGTA) has traditionally reported
+      that the issue with improper payments is not an internal control deficiency.
+
+
+      Reducing the improper payment rate to less than 10 percent would require significant
+      restructuring of the RTC programs, to include legislative action.'
+    Needs2: "Further improving the integrity of refundable tax credit (RTC) programs\
+      \ will take actions beyond our control.  We have proposed various legislative\
+      \ changes over the years aimed at providing more effective tools for managing\
+      \ RTCs.  For the FY 2025 budget submission, the Administration included the\
+      \ following proposals:\n\n1. Expand and increase Penalties for Return Preparation\
+      \ and E-filing - The proposal would increase and expand the IRS’s authority\
+      \ to address noncompliance or inappropriate behavior by paid tax return preparers\
+      \ and e-file providers.  First, it would increase the penalty amounts that apply\
+      \ to paid tax return preparers for willful, reckless or unreasonable understatements,\
+      \ as well as for forms of noncompliance that do not involve an understatement\
+      \ of tax.  Second, the proposal would establish new penalties for the appropriation\
+      \ of Preparer Tax Identification Numbers (PTINs) and Electronic Filing Identification\
+      \ Numbers (EFINs) and for failing to disclose the use of a paid tax return preparer.\
+      \  Third, the proposal would increase the limitations period during which the\
+      \ penalty for a failure to furnish the preparer’s identifying number may be\
+      \ assessed from three years to six years.  Fourth, the proposal would clarify\
+      \ the Secretary’s authority to regulate the conduct and suitability of persons\
+      \ who participate in the authorized e-file program, including setting standards\
+      \ and imposing sanctions to protect the integrity of the e-file program.  \n\
+      \n2. Increase Oversight of Paid Tax Return Preparers - The proposal would amend\
+      \ Title 31, U.S. Code (Money and Finance) to provide the Secretary with explicit\
+      \ authority to regulate all paid preparers of federal tax returns, including\
+      \ by establishing mandatory minimum competency standards. \n\nThese statutory\
+      \ changes may help reduce RTC errors to some degree.  However, a meaningful\
+      \ reduction in the estimated error rate is unlikely without independent data\
+      \ sources through which the IRS can verify taxpayer-provided information and\
+      \ additional time and resources for the IRS to address any issues identified."
+    Sufficiency: 'The challenge in administering refundable tax credits (RTCs) is
+      that RTCs do not have the characteristics of a typical payment program. The
+      fundamental root causes of the Premium Tax Credit improper payments are as follows:
+      (1) there is a statutory lack of a required pre-approval process; (2) an inability
+      to wholesale deny payments (refunds) and (3) the information needed to verify
+      taxpayer claims of eligibility belongs primarily to the taxpayer without any
+      third-party data source available at the time of filing, thus requiring the
+      IRS to rely on taxpayer self-certification that all return information is accurate.
+      RTCs are managed within and follow the regulatory scheme of tax administration
+      and enforcement. At a lower level, the root causes are that, at the time of
+      filing/payment: (a) there''s an inability to authenticate eligibility (typically
+      due to a series of complex eligibility rules, many with relationship and residency
+      tests containing with many nuances); (b) there''s instances where taxpayer income
+      is misreported, particularly related to self-employment income and other income
+      not reported to the IRS by a third party; and (c) there''s a turnover of taxpayer
+      who receive certain credits for the first time and fail to understand the complex
+      requirements of claiming the credit. Pursuant to federal statute, the IRS generally
+      does not have the capability to deny even incorrect claims, given the lack of
+      math authority. However, the IRS''s information technology platform includes
+      a number of filters that the IRS uses to monitor the accuracy of eligibility
+      rules compliance and payment certification. The annual Dependent Database (DDb)
+      meetings, collaborations/data sharing with other federal agencies and outreach/education
+      efforts aid the Service in mitigating the impact of these root causes. Lastly,
+      the IRS has a number of outreach and education programs in place, to help taxpayers
+      and tax preparers understand the program eligibility rules and file accurate
+      returns claiming RTCs.'
   Answers:
   - Agency: TREASURY
     Answer: '2304.58'
@@ -1166,20 +1195,6 @@ ProgramSurveyData:
     Key: cyp28
     SortOrder: 3
     Subheading: Improper Payment Estimate
-    Type: PERCENTAGE
-  - Agency: TREASURY
-    Answer: '0.0'
-    Heading: Causes of Improper Payments
-    Key: cyp7
-    SortOrder: 4
-    Subheading: Unknown Payments
-    Type: MILLIONS_OF_DOLLARS
-  - Agency: TREASURY
-    Answer: '0.0'
-    Heading: Causes of Improper Payments
-    Key: cyp24
-    SortOrder: 5
-    Subheading: Unknown Payments
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: '657.73'
@@ -1277,118 +1292,27 @@ ProgramSurveyData:
     Subheading: Technically Improper Payments
     Type: PERCENTAGE
   - Agency: TREASURY
-    Answer: 'The challenge in administering refundable tax credits (RTCs) is that
-      RTCs do not have the characteristics of a typical payment program. The fundamental
-      root causes of the Premium Tax Credit improper payments are as follows: (1)
-      there is a statutory lack of a required pre-approval process; (2) an inability
-      to wholesale deny payments (refunds) and (3) the information needed to verify
-      taxpayer claims of eligibility belongs primarily to the taxpayer without any
-      third-party data source available at the time of filing, thus requiring the
-      IRS to rely on taxpayer self-certification that all return information is accurate.
-      RTCs are managed within and follow the regulatory scheme of tax administration
-      and enforcement. At a lower level, the root causes are that, at the time of
-      filing/payment: (a) there''s an inability to authenticate eligibility (typically
-      due to a series of complex eligibility rules, many with relationship and residency
-      tests containing with many nuances); (b) there''s instances where taxpayer income
-      is misreported, particularly related to self-employment income and other income
-      not reported to the IRS by a third party; and (c) there''s a turnover of taxpayer
-      who receive certain credits for the first time and fail to understand the complex
-      requirements of claiming the credit. Pursuant to federal statute, the IRS generally
-      does not have the capability to deny even incorrect claims, given the lack of
-      math authority. However, the IRS''s information technology platform includes
-      a number of filters that the IRS uses to monitor the accuracy of eligibility
-      rules compliance and payment certification. The annual Dependent Database (DDb)
-      meetings, collaborations/data sharing with other federal agencies and outreach/education
-      efforts aid the Service in mitigating the impact of these root causes. Lastly,
-      the IRS has a number of outreach and education programs in place, to help taxpayers
-      and tax preparers understand the program eligibility rules and file accurate
-      returns claiming RTCs.'
-    Heading: Description of How the Level of Actions Matches the Level of Improper
-      Payments
-    Key: rnp3
-    SortOrder: 37
-    Subheading: ''
-    Type: TEXT
+    Answer: '0.0'
+    Heading: Causes of Improper Payments
+    Key: cyp7
+    SortOrder: 27
+    Subheading: Unknown Payments
+    Type: MILLIONS_OF_DOLLARS
   - Agency: TREASURY
-    Answer: "The IRS has a strong internal control environment around refundable credit\
-      \ programs administered and makes decisions based on overall cost-benefit considerations.\
-      \  The IRS annually reviews and enhances its refundable credits compliance plan\
-      \ that addresses erroneous claims.  Each year the IRS updates its strategy using\
-      \ the most recent research findings, prior year audit results, TIGTA/GAO audit\
-      \ findings and legislative updates.  The IRS also submits legislative proposals\
-      \ which, if approved by Congress, may further enhance efforts to address areas\
-      \ of risk and reduce improper payments. \n \nThe IRS reviews and updates Internal\
-      \ Revenue Manuals throughout the year and ensures that IRS employees who administer\
-      \ refundable credits receive annual training and have the requisite knowledge\
-      \ to address the evolving nature of improper payments and fraud.  Employees\
-      \ are also encouraged to recommend changes that may further strengthen the IRS's\
-      \ internal controls and procedures.\n \nThe IRS performance plans also balance\
-      \ the outreach and awareness component with its examination program. Again,\
-      \ the IRS looks to find ways to enhance the taxpayer experience and improve\
-      \ the knowledge of taxpayers and paid return preparers of the eligibility and\
-      \ criteria for RTCs.\n\nReducing the improper payment rate to less than 10 percent\
-      \ would require significant restructuring of the RTC programs, to include legislative\
-      \ action."
-    Heading: Accountability For Payment Integrity Through Performance Appraisal Criteria
-    Key: rnp4
-    SortOrder: 38
-    Subheading: ''
-    Type: TEXT
-  - Agency: TREASURY
-    Answer: 'The IRS has what is needed with respect to internal control, human capital
-      and information system and other infrastructure to reduce Refundable Tax Credits
-      (RTCs) Improper Payments and Unknown Payments to a tolerable rate. The issue
-      with RTCs is statutory program design and reliance on taxpayer self-certification.
-      The IRS has a strong internal control environment around RTCs and makes decisions
-      based on overall cost-benefit considerations, with a well-trained, technically
-      capable program staff whose tenure far exceeds that of other agencies. The Treasury
-      Inspector General for Tax Administration (TIGTA) has traditionally reported
-      that the issue with improper payments is not an internal control deficiency.
-
-
-      Reducing the improper payment rate to less than 10 percent would require significant
-      restructuring of the RTC programs, to include legislative action.'
-    Heading: Program Needs
-    Key: rap5
-    SortOrder: 39
-    Subheading: ''
-    Type: TEXT
-  - Agency: TREASURY
-    Answer: "Further improving the integrity of refundable tax credit (RTC) programs\
-      \ will take actions beyond our control.  We have proposed various legislative\
-      \ changes over the years aimed at providing more effective tools for managing\
-      \ RTCs.  For the FY 2025 budget submission, the Administration included the\
-      \ following proposals:\n\n1. Expand and increase Penalties for Return Preparation\
-      \ and E-filing - The proposal would increase and expand the IRS’s authority\
-      \ to address noncompliance or inappropriate behavior by paid tax return preparers\
-      \ and e-file providers.  First, it would increase the penalty amounts that apply\
-      \ to paid tax return preparers for willful, reckless or unreasonable understatements,\
-      \ as well as for forms of noncompliance that do not involve an understatement\
-      \ of tax.  Second, the proposal would establish new penalties for the appropriation\
-      \ of Preparer Tax Identification Numbers (PTINs) and Electronic Filing Identification\
-      \ Numbers (EFINs) and for failing to disclose the use of a paid tax return preparer.\
-      \  Third, the proposal would increase the limitations period during which the\
-      \ penalty for a failure to furnish the preparer’s identifying number may be\
-      \ assessed from three years to six years.  Fourth, the proposal would clarify\
-      \ the Secretary’s authority to regulate the conduct and suitability of persons\
-      \ who participate in the authorized e-file program, including setting standards\
-      \ and imposing sanctions to protect the integrity of the e-file program.  \n\
-      \n2. Increase Oversight of Paid Tax Return Preparers - The proposal would amend\
-      \ Title 31, U.S. Code (Money and Finance) to provide the Secretary with explicit\
-      \ authority to regulate all paid preparers of federal tax returns, including\
-      \ by establishing mandatory minimum competency standards. \n\nThese statutory\
-      \ changes may help reduce RTC errors to some degree.  However, a meaningful\
-      \ reduction in the estimated error rate is unlikely without independent data\
-      \ sources through which the IRS can verify taxpayer-provided information and\
-      \ additional time and resources for the IRS to address any issues identified."
-    Heading: Program Needs
-    Key: rap6
-    SortOrder: 40
-    Subheading: ''
-    Type: TEXT
+    Answer: '0.0'
+    Heading: Causes of Improper Payments
+    Key: cyp24
+    SortOrder: 28
+    Subheading: Unknown Payments
+    Type: PERCENTAGE
   Program: Internal Revenue Service - Refundable Premium Assistance Tax Credit
-  SortOrder: 55
-- Answers:
+  SortOrder: 6
+- ActionsTakenAdditionalData:
+    Accountability: null
+    Needs1: null
+    Needs2: null
+    Sufficiency: null
+  Answers:
   - Agency: TREASURY
     Answer: In FY 21, the Internal Revenue Service- US Coronavirus Payments was determined
       to be susceptible to significant improper payments. In August 2022 Treasury
@@ -1406,8 +1330,13 @@ ProgramSurveyData:
     Subheading: ''
     Type: TEXT
   Program: Internal Revenue Service - US Coronavirus Payments
-  SortOrder: 56
-- Answers:
+  SortOrder: 7
+- ActionsTakenAdditionalData:
+    Accountability: null
+    Needs1: null
+    Needs2: null
+    Sufficiency: null
+  Answers:
   - Agency: TREASURY
     Answer: 'In FY 21, the Internal Revenue Service- US Coronavirus Refundable Credits
       was determined to be susceptible to significant improper payments. In August
@@ -1433,15 +1362,18 @@ ProgramSurveyData:
     Subheading: ''
     Type: TEXT
   Program: Internal Revenue Service - US Coronavirus Refundable Credits
-  SortOrder: 57
+  SortOrder: 8
 Report_Id: '4'
 Requirements:
+- Indent: 0
+  Text: Summary of Report Requirements from 31 U.S.C. § 3352(d)
+  Type: BOLD
 - Indent: 0
   Text: (d) REPORTS ON ACTIONS TO REDUCE IMPROPER PAYMENTS.—(For each program that
     is susceptible to significant improper payments),...the head of the executive
     agency shall provide...a report on what actions the executive agency is taking
     to reduce improper payments, including—
-  Type: BOLD
+  Type: REGULAR
 - Indent: 1
   Text: (1) a description of the causes of the improper payments, actions planned
     or taken to correct those causes, and the planned or actual completion date of
