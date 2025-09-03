@@ -208,6 +208,7 @@ Data_By_Year:
     cyp5: '0.00'
 - Actions_Taken:
   - Action_Taken: Not Completed
+    Action_Type: Training
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: Actions taken regarding training included working with
@@ -217,6 +218,7 @@ Data_By_Year:
       to statutory requirements of the program not met.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: Actions planned regarding change process include restructuring
       existing local and national contracts, requiring secondary level of approval
@@ -235,6 +237,7 @@ Data_By_Year:
       and mitigate risks within existing payment processes.
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'Actions taken regarding change process to address overpayments
       and technically improper payments included identifying remedies for improper
@@ -442,6 +445,7 @@ Data_By_Year:
     cyp5: '0.00'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: Actions planned include providing training to individuals
       who are incorrectly certifying invoices for payment. These actions are designed
@@ -450,6 +454,7 @@ Data_By_Year:
       in standard operating procedures.
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: Actions planned include notifying contracting personnel
       of incorrect procurement procedures for resolution and updating contract language
@@ -461,6 +466,7 @@ Data_By_Year:
       internal controls and mitigate risks within existing payment processes.
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: Actions taken included restructuring existing local
       and national contracts and rejecting invoices that do not comply with contract

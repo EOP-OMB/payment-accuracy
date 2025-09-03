@@ -258,6 +258,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: The IRS will continue to educate tax professionals on
       their due diligence requirements regarding the American Opportunity Tax Credit
@@ -265,6 +266,7 @@ Data_By_Year:
       Latino Tax Fest.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2022 Q4
     Description_Action_Taken: "The IRS held its annual Dependent Database (DDb) meetings\
       \ with stakeholders in the Wage & Investment, Small Business & Self Employed,\
@@ -273,6 +275,7 @@ Data_By_Year:
       \ and identify improvement opportunities for the filing season. \t"
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: The IRS will continue to hold the annual Dependent Database
       (DDb) meetings with stakeholders in the Wage & Investment, Small Business &
@@ -281,6 +284,7 @@ Data_By_Year:
       Tax Credit (AOTC) and identify improvement opportunities for next filing season.
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2022 Q4
     Description_Action_Taken: The IRS educated tax professionals on their due diligence
       requirements regarding the American Opportunity Tax Credit (AOTC), through venues
@@ -446,6 +450,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: The IRS will continue to hold the annual Dependent Database
       (DDb) meetings with stakeholders in Taxpayer Services, Small Business & Self
@@ -473,6 +478,7 @@ Data_By_Year:
       substantially increasing the burden on taxpayers and the IRS.
     Mitigation_Strategy: app4_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: The IRS will continue to educate tax professionals on
       their due diligence requirements regarding the American Opportunity Tax Credit
@@ -494,6 +500,7 @@ Data_By_Year:
       and the IRS.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The IRS educated tax professionals on their due diligence
       requirements regarding the American Opportunity Tax Credit (AOTC). This training
@@ -514,6 +521,7 @@ Data_By_Year:
       to claim RTCs accurately.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The IRS held its annual Dependent Database (DDb) meeting
       with stakeholders in Taxpayer Services, Small Business & Self Employed, and

@@ -27,7 +27,12 @@
             border: 1px solid $pa-lighter-grey;
         }
 
-        tbody > tr:first-child > td {
+        tbody > tr:nth-child(n+3) > th {
+            // indent non-total rows
+            padding-left: 20px;
+        }
+
+        tbody > tr:first-child > td, tbody > tr:nth-child(2) > td {
             background-color: $pa-bg-lightest;
         }
 

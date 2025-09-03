@@ -288,6 +288,7 @@ Data_By_Year:
     cyp5: '0.62'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: "The root cause of improper payments was statutory requirements\
       \ of program not met. The County Office Official did not follow program requirements\
@@ -306,6 +307,7 @@ Data_By_Year:
       \ is also planned.\n\n"
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q4
     Description_Action_Taken: District Directors reviewed the first five program applications
       received in the Service Center. The Farm Service Agency has implemented a SharePoint
@@ -313,6 +315,7 @@ Data_By_Year:
       any identified program weaknesses to the National Office.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: 'District Directors will continue to review the first
       five Livestock Forage Disaster Program applications received in the Service
@@ -331,6 +334,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: "National Payment Eligibility and Payment Limitation\
       \ training was provided at the National Training session held in Dallas, TX\
@@ -490,6 +494,7 @@ Data_By_Year:
     Value: '0.150000'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: The root cause of these improper payments was failure
       to access data information. Livestock Forage Disaster Program is currently part
@@ -504,6 +509,7 @@ Data_By_Year:
       standardization for Headquarters, State and County level training.
     Mitigation_Strategy: app6_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: The root cause of these improper payments was failure
       to access data information. Monthly livestock disaster trainings with State
@@ -514,6 +520,7 @@ Data_By_Year:
       SharePoint site.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The root cause of these improper payments was failure
       to access data information. Monthly livestock disaster trainings have been conducted
@@ -530,6 +537,7 @@ Data_By_Year:
       Training SharePoint site.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2026
     Description_Action_Taken: The root cause of these improper payments was failure
       to access data information. In order to fully mitigate these errors, program

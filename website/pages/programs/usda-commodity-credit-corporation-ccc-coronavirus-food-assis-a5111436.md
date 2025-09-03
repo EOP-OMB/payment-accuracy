@@ -234,6 +234,7 @@ Data_By_Year:
     cyp5: '0.00'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: The root cause of improper payments was failure to access
       data/information. Values entered in the system were not correct based on the
@@ -251,6 +252,7 @@ Data_By_Year:
       future similar programs.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q2
     Description_Action_Taken: "National Payment Eligibility and Payment Limitation\
       \ training was provided at the National Training session held in Dallas TX in\
@@ -392,6 +394,7 @@ Data_By_Year:
     cyp5: '0.00'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The root cause of these improper payments was failure
       to access data. This program has ended but the following corrective actions
@@ -406,6 +409,7 @@ Data_By_Year:
       would provide standardization for Headquarters, State and County level training.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: 'The root cause of these improper payments was failure
       to access data. The Farm Service Agency’s Internal Review Documentation and

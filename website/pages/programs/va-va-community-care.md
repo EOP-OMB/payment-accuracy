@@ -211,12 +211,14 @@ Data_By_Year:
     cyp5: '0.54'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: Actions planned regarding training include VA will provide
       training on claims processing requirements when required other health insurance
       documentation is missing.
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2024
     Description_Action_Taken: Actions planned regarding automation include VA will
       update the claims processing system, Electronic Claims Adjudication Management
@@ -228,6 +230,7 @@ Data_By_Year:
       to the Veterans Care Agreement.
     Mitigation_Strategy: app1_1
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2023 Q1
     Description_Action_Taken: Actions taken regarding automation include verified
       that the Electronic Claims Adjudication Management System is auto denying payments
@@ -238,6 +241,7 @@ Data_By_Year:
       System to auto-process correct rates.
     Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2023 Q4
     Description_Action_Taken: Actions taken regarding change process include updated
       internal policies, ensuring the correct rates are being paid, and timely filing
@@ -252,6 +256,7 @@ Data_By_Year:
       Renal Disease network reduction to VA dialysis claims.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: Actions planned regarding change process include clarifying
       payment methodology within VA and third party administrators to bill at the
@@ -444,6 +449,7 @@ Data_By_Year:
     Value: '5.360000'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: Actions planned include conducting post-payment reviews
       and establishing bills of collection for claims that were overpaid. These actions
@@ -452,6 +458,7 @@ Data_By_Year:
       a follow-up process.
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q3
     Description_Action_Taken: Actions taken included clarified payment methodology
       with VA and third-party administrators to bill at the correct allowable rates.
@@ -464,6 +471,7 @@ Data_By_Year:
       and mitigate risks within existing payment processes.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: Actions planned include ensuring contract language is
       clear and clarify any inconsistent payment methodology instances with third-party
@@ -475,6 +483,7 @@ Data_By_Year:
       payment processes.
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2024 Q3
     Description_Action_Taken: Actions taken included updating the claims processing
       system to identify and auto-deny Community Care Network claims that should be

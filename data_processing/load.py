@@ -11,6 +11,7 @@ import shutil
 import sqlite3
 import re
 import hashlib
+from load_tools import query, congressional_reports
 import yaml
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -21,6 +22,11 @@ HOME_MARKUP_FILE_PATH = os.path.join(WEBSITE_DIR, "pages", "home.md")
 AGENY_WIDE_FILE_PATH = os.path.join(WEBSITE_DIR, "pages", "agenciesPrograms.md")
 AGENCY_SPECIFIC_DIR = os.path.join(WEBSITE_DIR, "pages", "agencies")
 PROGRAM_SPECIFIC_DIR = os.path.join(WEBSITE_DIR, "pages", "programs")
+CONGRESSIONAL_REPORTS_MARKUP_PATH = os.path.join(WEBSITE_DIR, "pages", "congressional_reports.md")
+CONGRESSIONAL_REPORTS_DIR = os.path.join(WEBSITE_DIR, "pages", "congressional_reports")
+SHARED_DATA_DIR = os.path.join(WEBSITE_DIR, "_data")
+SHARED_DATA_PATH = os.path.join(SHARED_DATA_DIR, "shared.yml")
+CONGRESSIONAL_REPORTS_SHARED_DATA_PATH = os.path.join(SHARED_DATA_DIR, "congressional_reports.yml")
 AGENCY_DATA_POINTS_FILE_PATH = os.path.join(WEBSITE_DIR, "data", "agency_data_points.json")
 DB_FULL_PATH = os.path.join(BASE_DIR, DB_FILE_PATH)
 
@@ -307,7 +313,7 @@ def generate_agency_programs_page(cursor: sqlite3.Cursor):
                 WHERE Fiscal_Year = ?
                 GROUP BY [Agency], [Fiscal_Year]
             ) compliance ON reported_any_year.Agency = compliance.Agency
-        ORDER BY COALESCE(ROUND(cy.Outlays, 2),0) DESC
+        ORDER BY COALESCE(ROUND(cy.Outlays, 2),0) DESC, reported_any_year.Agency_Name ASC
     """
 
     cursor.execute(query, AGENCY_SPECIFIC_FISCAL_YEARS + [config.FISCAL_YEAR, config.FISCAL_YEAR-1, config.FISCAL_YEAR])
@@ -378,25 +384,11 @@ def map_program_compliance_2022(program):
 
     return mappedProgram
 
-def map_risk(risk):
-    return {
-        "Susceptible": risk["Susceptible"],
-        "Fiscal_Year": risk["Fiscal_Year"]
-    }
-
-def group_and_map_risks(risks):
-    groupedRiskDetails = {key: list(group) for key, group in groupby(risks, key=itemgetter("Program_Name"))}
-    return list(map(lambda x: {
-        "Program_Name": x[0],
-        "Slug": SLUGIFIED_PROGRAM_NAME_MAPPINGS[x[0]] if x[0] in SLUGIFIED_PROGRAM_NAME_MAPPINGS else None,
-        "Assessments": list(map(map_risk, x[1]))
-    }, groupedRiskDetails.items()))
-
 def extract_column_from_results(fieldName, results):
     return list(map(lambda x: x[fieldName], results))
 
 def generate_agency_specific_pages_for_year(cursor: sqlite3.Cursor, year):
-    query = f"""
+    pageQuery = f"""
         SELECT
             a.[Agency],
             a.[Agency_Name],
@@ -408,7 +400,7 @@ def generate_agency_specific_pages_for_year(cursor: sqlite3.Cursor, year):
         WHERE a.[Fiscal_Year] = ?
     """
 
-    cursor.execute(query, (year,))
+    cursor.execute(pageQuery, (year,))
 
     agencies = cursor.fetchall()
 
@@ -439,23 +431,11 @@ def generate_agency_specific_pages_for_year(cursor: sqlite3.Cursor, year):
             "Is_Placeholder": False
         }
 
-        agencyQuery = f"""
-            SELECT
-                [agency],
-                [Key],
-                [Title],
-                [value],
-                [Fiscal_Year]
-            FROM [agency_data_raw]
-            WHERE [Fiscal_Year] = ? AND [Agency] = ?
-        """
-        cursor.execute(agencyQuery, (year, agency["Agency"]))
-
-        details = cursor.fetchall()
+        details = query.get_agency_survey_details(cursor, year, agency["Agency"])
 
         # this relies on the assumption that there is one record per year-agency-key 
         # if multiselect values are ever needed, use a separate extract file and table
-        for detail in details:
+        for detail in details.values():
             key = "detail_" + detail["Key"]
             agencyObj[key] = detail["value"]
 
@@ -651,46 +631,7 @@ def generate_agency_specific_pages_for_year(cursor: sqlite3.Cursor, year):
             agencyObj["PIIA2019_NonCompliant_Programs"] = list(map(map_program_compliance_2022, nonCompliantProgramDetails))
             agencyObj["PIIA2019_Compliant_Programs"] = list(map(map_program_compliance_2022, compliantProgramDetails))
 
-        # This is a union of the letest 'YES' and 'NO' for each program
-        risksQuery = f"""
-            SELECT * FROM (SELECT
-                a.[Agency],
-                a.[Fiscal_Year],
-                a.[Program_Name],
-                'Yes' AS [Susceptible]
-            FROM [risks] a
-            JOIN (
-                SELECT
-                    [Agency],
-                    MAX([Fiscal_Year]) AS [LastRiskAssessment],
-                    [Program_Name]
-                FROM [risks]
-                WHERE (upper([raa7_2]) = 'YES' OR upper([Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_]) = 'YES') AND [Agency] = ? AND [Fiscal_Year] <= ?
-                GROUP BY [Agency], [Program_Name]
-            ) b ON a.[Agency] = b.[Agency] AND UPPER(a.[Program_Name]) = UPPER(b.[Program_Name]) AND a.[Fiscal_Year] = b.[LastRiskAssessment]
-            UNION
-            SELECT
-                c.[Agency],
-                c.[Fiscal_Year],
-                c.[Program_Name],
-                'No' AS [Susceptible]
-            FROM [risks] c
-            JOIN (
-                SELECT
-                    [Agency],
-                    MAX([Fiscal_Year]) AS [LastRiskAssessment],
-                    [Program_Name]
-                FROM [risks]
-                WHERE (upper([raa6_2]) = 'YES' OR [Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_] IS NOT NULL)
-                    AND (upper([Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_]) = 'NO' OR upper([raa7_2]) = 'NO')
-                    AND ([Agency] = ? AND [Fiscal_Year] <= ?)
-                GROUP BY [Agency], [Program_Name]
-            ) d ON c.[Agency] = d.[Agency] AND UPPER(c.[Program_Name]) = UPPER(d.[Program_Name]) AND c.[Fiscal_Year] = d.[LastRiskAssessment]) e
-            ORDER BY e.[Program_Name], e.[Fiscal_Year]
-        """
-        cursor.execute(risksQuery, (str(agency["Agency"]), year, str(agency["Agency"]), year))
-        riskDetails = cursor.fetchall()
-        agencyObj["Risks"] = group_and_map_risks(riskDetails)
+        agencyObj["Risks"] = get_risks(cursor, year, agency["Agency"])
 
         eligiblityThemesQuery = f"""
             SELECT
@@ -736,14 +677,34 @@ def generate_agency_specific_pages_for_year(cursor: sqlite3.Cursor, year):
 
     print("Successfully generated agency-specific markup files for FY " + str(year))
 
+def get_risks(cursor, year, agency):
+    assessments = query.fetch_all(
+        cursor,
+        query.QUERY_TYPES.RISK_ASSESSMENTS, (agency, year),
+        year
+    )
+
+    return {
+        "Assessments": list(map(lambda risk: {
+            "Program_Name": risk["Program_Name"],
+            "Susceptible": risk["Susceptible"],
+            "Fiscal_Year": risk["Fiscal_Year"],
+            "Slug": SLUGIFIED_PROGRAM_NAME_MAPPINGS[risk["Program_Name"]] if risk["Program_Name"] in SLUGIFIED_PROGRAM_NAME_MAPPINGS else None
+        }, assessments)),
+        "AdditionalInformation": query.get_agency_survey_answer(cursor, year, agency, query.KEY_TYPES.RISKS_ADDITIONAL_INFORMATION),
+        "SubstantialChangesMade": query.get_agency_survey_answer(cursor, year, agency, query.KEY_TYPES.RISKS_SUBSTANTIAL_CHANGES_MADE)
+    }
+
 def hide_agency_specific_sections(agencyObj):
     hasRecoveryKey = False
     for key in agencyObj.keys():
-        if key.startswith("recovery_"):
+        # 0 check added for cases where survey edits cause answers to be submitted unnecessarily
+        if key.startswith("recovery_") and agencyObj[key] > 0:
             hasRecoveryKey = True
             break
 
     recoveryAuditsSkipped = "detail_ara2" in agencyObj and agencyObj["detail_ara2"].upper() == 'NO'
+    recoveryAuditsNotAnswered = "detail_ara2" not in agencyObj
 
     agencyObj["Hide_Integrity_Results"] = "Improper_Payments_Data_Years" not in agencyObj or \
         agencyObj["Improper_Payments_Data_Years"] is None or \
@@ -752,15 +713,14 @@ def hide_agency_specific_sections(agencyObj):
     agencyObj["Hide_Sparklines"] = agencyObj["Hide_Integrity_Results"] or \
         "," not in agencyObj["Improper_Payments_Data_Years"]
 
-    agencyObj["Hide_Recovery_Details"] = recoveryAuditsSkipped or (not hasRecoveryKey and \
+    agencyObj["Hide_Recovery_Details"] = (recoveryAuditsSkipped or recoveryAuditsNotAnswered) and (not hasRecoveryKey and \
         ("detail_arp18" not in agencyObj or agencyObj["detail_arp18"] is None or agencyObj["detail_arp18"] == ''))
     agencyObj["Hide_Recovery_Audits"] = \
         ("detail_arp17" not in agencyObj or agencyObj["detail_arp17"] is None or agencyObj["detail_arp17"] == '') and \
         ("detail_ara2_1" not in agencyObj or agencyObj["detail_ara2_1"] is None or agencyObj["detail_ara2_1"] == '') and \
         ("detail_ara2_3" not in agencyObj or agencyObj["detail_ara2_3"] is None or agencyObj["detail_ara2_3"] == '') and \
         ("detail_ara2_3_2" not in agencyObj or agencyObj["detail_ara2_3_2"] is None or agencyObj["detail_ara2_3_2"] == '')
-    agencyObj["Hide_Recovery_Info"] = agencyObj["Hide_Recovery_Details"] and \
-        ("detail_ara2_1" not in agencyObj or agencyObj["detail_ara2_1"] is None or agencyObj["detail_ara2_1"] == '') and \
+    agencyObj["Hide_Recovery_Info"] = agencyObj["Hide_Recovery_Details"] and agencyObj["Hide_Recovery_Audits"] and \
         ("Overpayment_Years" not in agencyObj or agencyObj["Overpayment_Years"] is None or agencyObj["Overpayment_Years"] == '[]')
 
     agencyObj["Hide_Disposition_of_Funds"] = recoveryAuditsSkipped or (("recovery_Disposition_of_Funds_through_recovery_audit_Administer_Auditor" not in agencyObj or agencyObj["recovery_Disposition_of_Funds_through_recovery_audit_Administer_Auditor"] is None) and \
@@ -787,9 +747,12 @@ def hide_agency_specific_sections(agencyObj):
         ("detail_cap3" not in agencyObj or agencyObj["detail_cap3"] is None) and \
         ("detail_cap4" not in agencyObj or agencyObj["detail_cap4"] is None)
     agencyObj["Hide_Risk_Assessment_Results"] = \
-        ("detail_raa9" not in agencyObj or agencyObj["detail_raa9"] is None or agencyObj["detail_raa9"] == '') and \
-        ("detail_raa8" not in agencyObj or agencyObj["detail_raa8"] is None or agencyObj["detail_raa8"] == '') and \
-        ("Risks" not in agencyObj or agencyObj["Risks"] is None or len(agencyObj["Risks"]) == 0)
+        ("Risks" not in agencyObj or agencyObj["Risks"] is None) or \
+        (
+            (agencyObj["Risks"]["Assessments"] is None or len(agencyObj["Risks"]["Assessments"]) == 0) and \
+            agencyObj["Risks"]["AdditionalInformation"] is None and \
+            agencyObj["Risks"]["SubstantialChangesMade"] is None
+        )
     agencyObj["Hide_Eligibility_Criteria"] = \
         ("Eligibility_Themes" not in agencyObj or agencyObj["Eligibility_Themes"] is None or len(agencyObj["Eligibility_Themes"]) == 0)
     agencyObj["Hide_Supplemental_Payment_Integrity"] = \
@@ -1023,68 +986,7 @@ def generate_program_specific_pages(cursor: sqlite3.Cursor):
                     }.items() if value is not None
                 }
 
-        actionsQuery = f"""
-            SELECT
-                [action_data].[Fiscal_Year],
-                [action_data].[Agency],
-                [action_data].[Program_Name],
-                [action_data].[Column_names] AS [Mitigation_Strategy],
-                [action_data].[Column_values] AS [Description_Action_Taken],
-                CASE
-                    WHEN [action_data].Column_names LIKE 'app%\\_1' ESCAPE '\\' AND [date_lookup].[Column_values] NOT LIKE 'The corrective action was not fully completed%' THEN 'Planned'
-                    WHEN ([action_data].Column_names LIKE 'atp%\\_1' ESCAPE '\\' OR [action_data].Column_names LIKE 'app%\\_1' ESCAPE '\\') AND [date_lookup].[Column_values] LIKE 'The corrective action was not fully completed%' THEN 'Not Completed'
-                    ELSE 'Completed'
-                END as [Action_Taken],
-                [date_lookup].[Column_values] AS [Completion_Date]
-            FROM [principal_table_columns] [action_data]
-            LEFT JOIN [actions_date_mapping] ON
-                [action_data].[Column_names] = [actions_date_mapping].[Action]
-            LEFT JOIN (
-                SELECT
-                    [Fiscal_Year],
-                    [Agency],
-                    [Program_Name],
-                    [Column_names],
-                    [Column_values]
-                FROM [principal_table_columns]
-            ) [date_lookup] ON
-                [action_data].[Fiscal_Year] = [date_lookup].[Fiscal_Year] AND
-                [action_data].[Agency] = [date_lookup].[Agency] AND
-                [action_data].[Program_Name] = [date_lookup].[Program_Name] AND
-                [actions_date_mapping].[Date] = [date_lookup].[Column_names]
-            WHERE [action_data].Column_values <> ''
-                AND ([action_data].Column_names LIKE 'atp%\\_1' ESCAPE '\\' OR [action_data].Column_names LIKE 'app%\\_1' ESCAPE '\\')
-                -- not showing on old site
-                AND [action_data].Column_names <> 'atp17_1'
-                AND [action_data].Column_names <> 'app17_1'
-                AND [action_data].Program_Name = ?
-                AND [action_data].[Fiscal_Year] IN ({yearsCriteria})
-        """
-
-        cursor.execute(actionsQuery, [program["Program_Name"]] + PROGRAM_SPECIFIC_FISCAL_YEARS)
-
-        actionsTaken = cursor.fetchall()
-
-        for row in actionsTaken:
-            fiscal_year = row["Fiscal_Year"]
-            mitigation_strategy = row["Mitigation_Strategy"]
-            description_action_taken = row["Description_Action_Taken"]
-            action_taken = row["Action_Taken"]
-            completion_date = row["Completion_Date"]
-
-            if fiscal_year not in data_by_year_dict:
-                data_by_year_dict[fiscal_year] = {}
-
-            data_by_year_dict[fiscal_year].setdefault("Actions_Taken", [])
-
-            data_by_year_dict[fiscal_year]["Actions_Taken"].append({
-                key: value for key, value in {
-                    "Mitigation_Strategy": mitigation_strategy,
-                    "Description_Action_Taken": description_action_taken,
-                    "Action_Taken": action_taken,
-                    "Completion_Date": completion_date
-                }.items() if value is not None
-            })
+        add_actions_taken(cursor, PROGRAM_SPECIFIC_FISCAL_YEARS, program["Program_Name"], data_by_year_dict)
 
         # Ideally, visibility would use the same fields as overpayments, underpayments, etc.
         #   queries below.  For now, creating a separate query due to time constraints.
@@ -2158,6 +2060,111 @@ def generate_program_specific_pages(cursor: sqlite3.Cursor):
             file.write('---\n')
     print("Successfully generated program-specific markup files")
 
+def add_actions_taken(cursor, years, program, data_by_year_dict):
+    for fiscal_year in years:
+        actions_taken = query.fetch_all(cursor, query.QUERY_TYPES.ACTIONS_TAKEN, (program, fiscal_year), fiscal_year)
+
+        if len(actions_taken) > 0:
+            if fiscal_year not in data_by_year_dict:
+                data_by_year_dict[fiscal_year] = {}
+
+            data_by_year_dict[fiscal_year]["Actions_Taken"] = actions_taken
+
+def generate_congressional_reports_pages(cursor: sqlite3.Cursor):
+    if os.path.exists(CONGRESSIONAL_REPORTS_DIR):
+        shutil.rmtree(CONGRESSIONAL_REPORTS_DIR)
+
+    os.makedirs(CONGRESSIONAL_REPORTS_DIR, exist_ok=True)
+
+    yearsToGenerate = list(range(config.FISCAL_YEAR - config.COUNT_CONGRESSIONAL_REPORTS_YEARS_DISPLAYED + 1, config.FISCAL_YEAR + 1))
+
+    agencyNameRows = query.fetch_all(
+        cursor,
+        query.QUERY_TYPES.AGENCY_NAMES,
+        (config.FISCAL_YEAR,)
+    )
+    agencyNameRowsLookup = { agencyNameRow["Agency_Acronym"]: agencyNameRow["Agency_Name"] for agencyNameRow in agencyNameRows }
+
+    agencyRows = query.fetch_all(
+        cursor,
+        query.QUERY_TYPES.AGENCIES_HAVING_CONGRESSIONAL_DATA,
+        yearsToGenerate
+    )
+
+    generate_congressional_shared_data(yearsToGenerate, agencyNameRowsLookup, agencyRows)
+
+    # Landing page
+    with open(CONGRESSIONAL_REPORTS_MARKUP_PATH, 'w', encoding='utf-8') as file:
+        yamlData = {
+            'title': "Congressional Reports",
+            'layout': 'congressional-reports',
+            'permalink': '/resources/congressional-reports'
+        }
+        file.write('---\n')
+        yaml.dump(yamlData, file, allow_unicode=True)
+        file.write('---\n')
+
+    # Generate and write reports
+    for year in yearsToGenerate:
+        for report in [report for report in config.CONGRESSIONAL_REPORTS if not report["IsGovernmentWide"]]:
+            for agency in agencyRows:
+                agency_report = congressional_reports.AgencyReport(
+                    cursor,
+                    year,
+                    agency["agency"],
+                    report["Id"],
+                    SLUGIFIED_PROGRAM_NAME_MAPPINGS
+                )
+                agency_report.to_yaml(CONGRESSIONAL_REPORTS_DIR)
+
+        for report in [report for report in config.CONGRESSIONAL_REPORTS if report["IsGovernmentWide"]]:
+            governmentwide_report = congressional_reports.GovernmentWideReport(
+                cursor,
+                year,
+                report["Id"]
+            )
+            governmentwide_report.to_yaml(CONGRESSIONAL_REPORTS_DIR)
+
+    print("Successfully generated congressional reports markup files")
+
+def generate_shared_data():
+    with open(SHARED_DATA_PATH, 'w', encoding='utf-8') as file:
+        yamlData = {
+            'Fiscal_Year': config.FISCAL_YEAR
+        }
+        file.write('---\n')
+        yaml.dump(yamlData, file, allow_unicode=True)
+        file.write('---\n')
+
+def generate_congressional_shared_data(yearsToGenerate, agencyNameRowsLookup, agencyRows):
+    try:
+        os.remove(CONGRESSIONAL_REPORTS_SHARED_DATA_PATH)
+    except OSError:
+        pass
+    with open(CONGRESSIONAL_REPORTS_SHARED_DATA_PATH, 'w', encoding='utf-8') as file:
+        agencyDropdown = []
+        for row in agencyRows:
+            agencyDropdown.append({
+                'Code': row["agency"],
+                'Name': agencyNameRowsLookup[row["agency"]]
+            })
+
+        yearsDropdown = [ year for year in yearsToGenerate ]
+        reportsDropdown = [ {
+            "Id": str(report["Id"]),
+            "Name": report["Name"],
+            "IsGovernmentWide": report["IsGovernmentWide"]
+        } for report in config.CONGRESSIONAL_REPORTS ]
+
+        yamlData = {
+            'Years_Dropdown': yearsDropdown,
+            'Agencies_Dropdown': agencyDropdown,
+            'Reports_Dropdown': reportsDropdown
+        }
+        file.write('---\n')
+        yaml.dump(yamlData, file, allow_unicode=True)
+        file.write('---\n')
+
 def main():
     try:
         conn = sqlite3.connect(DB_FULL_PATH)
@@ -2165,10 +2172,12 @@ def main():
         cursor = conn.cursor()
 
         slugifyProgramNames(cursor)
+        generate_shared_data()
         generate_home_page(cursor)
         generate_agency_programs_page(cursor)
         generate_agency_specific_pages(cursor)
         generate_placeholder_agency_specific_pages(cursor)
+        generate_congressional_reports_pages(cursor)
         generate_program_specific_pages(cursor)
 
     except sqlite3.Error as e:

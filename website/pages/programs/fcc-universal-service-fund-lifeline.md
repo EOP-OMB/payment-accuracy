@@ -155,6 +155,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q1
     Description_Action_Taken: "Outreach includes updates to the website training materials,\
       \ conducting webinar(s) focused on common audit findings, prior PQA reviews\
@@ -165,6 +166,7 @@ Data_By_Year:
       \ update training materials and resources for manual reviews. \n"
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024
     Description_Action_Taken: "Through USAC's Risk Management Council meetings, the\
       \ different\nUSF program teams discussed strategic initiatives and risk that\
@@ -174,6 +176,7 @@ Data_By_Year:
       \ effective enterprise systems management. \n"
     Mitigation_Strategy: app5_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2023 Q1
     Description_Action_Taken: "Through USAC's Risk Management Council meetings, the\
       \ different\nUSF program teams discussed strategic initiatives and risk that\
@@ -183,6 +186,7 @@ Data_By_Year:
       \ management. \n"
     Mitigation_Strategy: atp5_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q1
     Description_Action_Taken: 'Monthly meetings are held between USAC’s Audit and
       Assurance Division (AAD) and USAC leadership to discuss findings identified
@@ -192,6 +196,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: 'USAC will continue to conduct outreach which includes
       updates to the website training materials, conducting webinar(s) focused on
@@ -203,6 +208,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: 'Monthly meetings are held between USAC’s Audit and
       Assurance Division (AAD) and USAC leadership to discuss findings identified
@@ -310,6 +316,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q1
     Description_Action_Taken: Monthly meetings are held between USAC’s Audit and Assurance
       Division (AAD) and USAC leadership to discuss findings identified by AAD. During
@@ -317,6 +324,7 @@ Data_By_Year:
       in the future.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2025
     Description_Action_Taken: 'Through USAC''s Risk Management Council meetings, the
 
@@ -328,6 +336,7 @@ Data_By_Year:
       enterprise systems management.'
     Mitigation_Strategy: app5_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: USAC will continue to hold monthly meetings between
       USAC’s Audit and Assurance Division (AAD) and USAC leadership to discuss findings
@@ -335,6 +344,7 @@ Data_By_Year:
       prevent similar findings in the future.
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q1
     Description_Action_Taken: USAC's Lifeline Program team continues to develop multiple
       outreach activities, including updates to the website training materials, conducting
@@ -344,6 +354,7 @@ Data_By_Year:
       tools that they can access at their convenience.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: 'USAC will continue to conduct outreach which includes
       updates to the
@@ -356,6 +367,7 @@ Data_By_Year:
       their convenience.'
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024 Q1
     Description_Action_Taken: 'Through USAC''s Risk Management Council meetings, the
       different

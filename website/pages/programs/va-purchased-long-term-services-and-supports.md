@@ -209,6 +209,7 @@ Data_By_Year:
     cyp5: '0.26'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: Actions planned regarding change process include working
       to ensure invoices are being validated per the contract pricing prior to payment.
@@ -224,6 +225,7 @@ Data_By_Year:
       processes.
     Mitigation_Strategy: app4_1
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2024
     Description_Action_Taken: Actions planned regarding automation include working
       to determine if a system update in the Electronic Claims Adjudication Management
@@ -238,6 +240,7 @@ Data_By_Year:
       and human error.
     Mitigation_Strategy: app1_1
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2023 Q3
     Description_Action_Taken: Actions taken regarding automation to address overpayments
       and underpayments included moving all future purchased care to be processed
@@ -250,6 +253,7 @@ Data_By_Year:
       implementation forward.
     Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2023 Q3
     Description_Action_Taken: Actions taken regarding change process included monitoring
       errors related to the legacy community care system, which were considered timing
@@ -463,6 +467,7 @@ Data_By_Year:
     Value: '0.570000'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: Actions planned include working internally with facilities
       to provide education and training to resolve missing documentation errors related
@@ -472,6 +477,7 @@ Data_By_Year:
       to communicate the importance of consistencies in standard operating procedures.
     Mitigation_Strategy: app3_1
   - Action_Taken: Not Completed
+    Action_Type: Change Process
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: Actions taken included working to ensure invoices are
@@ -489,6 +495,7 @@ Data_By_Year:
       stronger internal controls and mitigate risks within existing payment processes.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: Actions planned include moving to a standardized rate
       schedule for Community Nursing Home payments in order to transition payments
@@ -507,6 +514,7 @@ Data_By_Year:
       risks within existing payment processes.
     Mitigation_Strategy: app4_1
   - Action_Taken: Not Completed
+    Action_Type: Automation
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: Actions taken included updating the claims processing
@@ -521,6 +529,7 @@ Data_By_Year:
       improper and unknown payments resulted from manual processes and human error.
     Mitigation_Strategy: atp1_1
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2025
     Description_Action_Taken: Actions planned include updating the claims processing
       system to pay Bowel and Bladder and Community Nursing Home claims appropriately.

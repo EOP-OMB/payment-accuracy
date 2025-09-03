@@ -4,6 +4,7 @@ Agency_Name: Department of Defense
 Data_By_Year:
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'In May 2024, the Army, in a joint effort with the Defense
       Finance and Accounting Service (DFAS), briefed the Army travel pay program’s
@@ -24,6 +25,7 @@ Data_By_Year:
       more frequent training sessions are new for Review Year 2024.'
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: 'The Army Defense Travel System (DTS) statutory improper
       payments were attributed to Army travelers who failed to provide receipts or

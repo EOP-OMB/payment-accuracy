@@ -151,6 +151,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Not Completed
+    Action_Type: Training
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'The Department has worked internally to address accounting
@@ -281,6 +282,7 @@ Data_By_Year:
     Value: '0.003811'
 - Actions_Taken:
   - Action_Taken: Not Completed
+    Action_Type: Training
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: The Department continues to work internally to address

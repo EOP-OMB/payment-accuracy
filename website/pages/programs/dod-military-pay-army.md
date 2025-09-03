@@ -262,6 +262,7 @@ Data_By_Year:
     cyp5: '0.00'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: The Military Pay - Army program's corrective action
       plan describes the Army National Guard identifying each Soldier’s State and
@@ -273,6 +274,7 @@ Data_By_Year:
       key supporting documents are properly archived in the Soldier’s iPERMS account.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: The FY 2023 Corrective Action Plan for the Military
       Pay – Army Program was developed to address unknown payments due to the lack

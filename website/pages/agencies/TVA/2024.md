@@ -68,21 +68,22 @@ Payment_Accuracy_Rate_Max: 0
 Payment_Accuracy_Rate_Min: 0
 Payment_Accuracy_Rates: '[]'
 Risks:
-- Assessments:
+  AdditionalInformation: Tennessee Valley Authority programs undertake risk assessments
+    at least every three years.
+  Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Charge Card Program - Tennessee Valley Authority
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Charge Card Program - Tennessee Valley Authority
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Payroll Program - Tennessee Valley Authority
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Payroll Program - Tennessee Valley Authority
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Supply Chain
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Supply Chain
-  Slug: null
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'

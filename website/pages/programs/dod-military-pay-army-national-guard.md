@@ -4,6 +4,7 @@ Agency_Name: Department of Defense
 Data_By_Year:
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: The United States Army National Guard (ARNG) Financial
       Services will continue to host virtual trainings to the 50 States, Territories
@@ -15,6 +16,7 @@ Data_By_Year:
       monthly trainings that are already provided).
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: To continue to mitigate the risk of improper payments,
       virtual trainings are provided by the Army National Guard (ARNG) Financial Services
@@ -23,6 +25,7 @@ Data_By_Year:
       to be successful in reducing improper and unknown payments.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The Army National Guard (ARNG) established two memorandums
       of agreement (MOAs) between the US Army Financial Management Command and the

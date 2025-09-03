@@ -1,0 +1,159 @@
+---
+Agencies_Dropdown:
+- Code: CFTC
+  Name: Commodity Futures Trading Commission
+- Code: CNCS
+  Name: Corporation for National and Community Service
+- Code: CPSC
+  Name: Consumer Product Safety Commission
+- Code: CSOSA
+  Name: Court Services and Offender Supervision Agency for the District of Columbia
+- Code: DFC
+  Name: International Development Finance Corporation
+- Code: DHS
+  Name: Department of Homeland Security
+- Code: DNFSB
+  Name: Defense Nuclear Facilities Safety Board
+- Code: DOC
+  Name: Department of Commerce
+- Code: DOD
+  Name: Department of Defense
+- Code: DOE
+  Name: Department of Energy
+- Code: DOI
+  Name: Department of the Interior
+- Code: DOJ
+  Name: Department of Justice
+- Code: DOL
+  Name: Department of Labor
+- Code: DOT
+  Name: Department of Transportation
+- Code: EAC
+  Name: Election Assistance Commission
+- Code: ED
+  Name: Department of Education
+- Code: EEOC
+  Name: Equal Employment Opportunity Commission
+- Code: EPA
+  Name: Environmental Protection Agency
+- Code: EXIM
+  Name: Export-Import Bank of the United States
+- Code: FCA
+  Name: Farm Credit Administration
+- Code: FCC
+  Name: Federal Communications Commission
+- Code: FEC
+  Name: Federal Election Commission
+- Code: FERC
+  Name: Federal Energy Regulatory Commission
+- Code: FLRA
+  Name: Federal Labor Relations Authority
+- Code: FMC
+  Name: Federal Maritime Commission
+- Code: FTC
+  Name: Federal Trade Commission
+- Code: GCRC
+  Name: Gulf Coast Ecosystem Restoration Council
+- Code: GSA
+  Name: General Services Administration
+- Code: HHS
+  Name: Department of Health and Human Services
+- Code: HUD
+  Name: Department of Housing and Urban Development
+- Code: IMLS
+  Name: Institute of Museum and Library Services
+- Code: MCC
+  Name: Millennium Challenge Corporation
+- Code: MSPB
+  Name: Merit Systems Protection Board
+- Code: NARA
+  Name: National Archives and Records Administration
+- Code: NASA
+  Name: National Aeronautics and Space Administration
+- Code: NEA
+  Name: National Endowment for the Arts
+- Code: NEH
+  Name: National Endowment for the Humanities
+- Code: NLRB
+  Name: National Labor Relations Board
+- Code: NRC
+  Name: Nuclear Regulatory Commission
+- Code: NSF
+  Name: National Science Foundation
+- Code: NTSB
+  Name: National Transportation Safety Board
+- Code: OGE
+  Name: Office of Government Ethics
+- Code: OPM
+  Name: Office of Personnel Management
+- Code: OSC
+  Name: Office of Special Counsel
+- Code: OSHRC
+  Name: Occupational Safety and Health Review Commission
+- Code: PBGC
+  Name: Pension Benefit Guaranty Corporation
+- Code: PC
+  Name: Peace Corps
+- Code: PCLOB
+  Name: Privacy and Civil Liberties Oversight Board
+- Code: RRB
+  Name: Railroad Retirement Board
+- Code: SBA
+  Name: Small Business Administration
+- Code: SEC
+  Name: Securities and Exchange Commission
+- Code: SSA
+  Name: Social Security Administration
+- Code: SSS
+  Name: Selective Service System
+- Code: STATE
+  Name: Department of State
+- Code: STB
+  Name: Surface Transportation Board
+- Code: TREASURY
+  Name: Department of the Treasury
+- Code: TVA
+  Name: Tennessee Valley Authority
+- Code: USAGM
+  Name: United States Agency for Global Media
+- Code: USAID
+  Name: Agency for International Development
+- Code: USDA
+  Name: Department of Agriculture
+- Code: USITC
+  Name: US International Trade Commission
+- Code: VA
+  Name: Department of Veterans Affairs
+Reports_Dropdown:
+- Id: '1'
+  IsGovernmentWide: false
+  Name: Agency Risk Assessments Report
+- Id: '2'
+  IsGovernmentWide: false
+  Name: Agency High-Priority Program Report
+- Id: '3'
+  IsGovernmentWide: false
+  Name: Improper Payment and Unknown Payment Estimation Report
+- Id: '4'
+  IsGovernmentWide: false
+  Name: Agency Actions to Reduce Improper Payments Report
+- Id: '5'
+  IsGovernmentWide: false
+  Name: Agency Actions to Recover Improper Payments Identified in a Recovery Audit
+    Report
+- Id: '6'
+  IsGovernmentWide: true
+  Name: OMB Government Wide Improper Payment Report
+- Id: '7'
+  IsGovernmentWide: false
+  Name: Agency Compliance Plan
+- Id: '8'
+  IsGovernmentWide: false
+  Name: Agency Noncompliance Report
+- Id: '9'
+  IsGovernmentWide: true
+  Name: OMB Do Not Pay Initiative Report
+Years_Dropdown:
+- 2023
+- 2024
+---

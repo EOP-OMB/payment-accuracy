@@ -4,6 +4,7 @@ Agency_Name: Department of Defense
 Data_By_Year:
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2026
     Description_Action_Taken: The bot described previously will continue to run every
       two weeks until the proper internal controls are addressed in the Defense Travel
@@ -12,6 +13,7 @@ Data_By_Year:
       through their Compliance Tool (CT), but only applies this technology post-payment.
     Mitigation_Strategy: app1_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: 'The training corrective actions as described previously
       are continuous. They will continue on a monthly basis as long as there are DAF
@@ -33,6 +35,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2026
     Description_Action_Taken: The behavioral/psych influence corrective actions described
       in previously are continuous.  They began during FY24 and will continue on a
@@ -40,6 +43,7 @@ Data_By_Year:
       payments within DTS.
     Mitigation_Strategy: app2_1
   - Action_Taken: Not Completed
+    Action_Type: Automation
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: The Department of the Air Force (DAF) identified a material
@@ -56,6 +60,7 @@ Data_By_Year:
       not fulfilled all required training as indicated in FAMS.
     Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The behavioral/psych influence corrective actions taken
       by the Department of the Air Force (DAF) include the release of metrics by command
@@ -68,6 +73,7 @@ Data_By_Year:
       and failure to meet the requirements of a DAF approving official.
     Mitigation_Strategy: atp2_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "The Department of the Air Force (DAF) has implemented\
       \ the following initiatives to address training needs.  \n1.) Since February\

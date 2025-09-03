@@ -22,8 +22,8 @@
         role="img"
         aria-hidden="true"
     >
-        <circle cx="12" cy="12" r="10" fill="#005ea2" />
-        <rect x="11" y="10" width="2" height="6" fill="white" />
-        <circle cx="12" cy="7" r="1" fill="white" />
+        <circle cx="12" cy="12" r="10" fill='{{ include.fill_color | default: "#005ea2" }}' />
+        <rect x="11" y="10" width="2" height="6" fill='{{ include.color | default: "white" }}' />
+        <circle cx="12" cy="7" r="1" fill='{{ include.color | default: "white" }}' />
     </svg>
 </button>

@@ -265,6 +265,7 @@ Data_By_Year:
     cyp5: '13.57'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: The DoD Travel Pay Payment Integrity program will continue
       with collaborative  training sessions on the causes of improper payments, and
@@ -280,6 +281,7 @@ Data_By_Year:
       focused training, and accountability.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: Periodic training conducted at military bases and mandatory
       training provided to approving officials.  Every four months, the Army conducted

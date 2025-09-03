@@ -210,6 +210,7 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: Since the Supplemental Nutrition Assistance Program
       (SNAP) is administered by State agencies, who also determine the structure of
@@ -226,6 +227,7 @@ Data_By_Year:
       SNAP administering agencies on key strategies for improving payment accuracy.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: Since the Supplemental Nutrition Assistance Program
       (SNAP) is administered by State agencies, who also determine the structure of
@@ -442,6 +444,7 @@ Data_By_Year:
     Value: '0.129512'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The Food and Nutrition Service (FNS) entered into contracts
       to provide State Supplemental Nutrition Assistance Program (SNAP) administering
@@ -452,6 +455,7 @@ Data_By_Year:
       calculation, these efforts are expected to help improve payment accuracy.
     Mitigation_Strategy: atp1_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: The Food and Nutrition Service (FNS) will continue to
       conduct training for State agencies and will provide additional tools to conduct
@@ -460,6 +464,7 @@ Data_By_Year:
       analysis system.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: Since the Supplemental Nutrition Assistance Program
       (SNAP) is administered by State agencies, who also determine the structure of

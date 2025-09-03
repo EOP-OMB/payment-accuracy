@@ -20,7 +20,7 @@ Hide_Eligibility_Criteria: false
 Hide_Integrity_Results: false
 Hide_PIIA2019: false
 Hide_Recovery_Audits: false
-Hide_Recovery_Details: true
+Hide_Recovery_Details: false
 Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
@@ -211,73 +211,65 @@ Payment_Accuracy_Rate_Max: 99.2
 Payment_Accuracy_Rate_Min: 99.2
 Payment_Accuracy_Rates: '[99.23327772320106]'
 Risks:
-- Assessments:
+  AdditionalInformation: The EPA revised the weighting of the individual risk factors
+    in its qualitative risk assessment to reflect the relative importance of each
+    factor. In past two years, risk factors were placed in one of two weight tiers.
+    In FY 2024 the risk factors were given percentage weighting range from 5% to 15%
+    of the overall risk of 100%.
+  Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Clean School Bus
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Clean School Bus
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Clean Water State Revolving Fund (CWSRF)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Clean Water State Revolving Fund (CWSRF)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Commodities - Environmental Protection Agency
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodities - Environmental Protection Agency
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Contracts - Environmental Protection Agency
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Contracts - Environmental Protection Agency
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2021
+    Program_Name: Disaster Relief - Hurricane Sandy Fund (Sandy)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Disaster Relief - Hurricane Sandy Fund (Sandy)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
-    Susceptible: 'No'
-  Program_Name: Disaster Relief Funds (2018)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2023
-    Susceptible: 'No'
-  Program_Name: Drinking Water State Revolving Fund (DWSRF)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2021
+    Program_Name: Disaster Relief Funds (2018)
+    Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    Program_Name: Drinking Water State Revolving Fund (DWSRF)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2023
+    Program_Name: Grants - Environmental Protection Agency
+    Slug: epa-grants-environmental-protection-agency
     Susceptible: 'Yes'
-  Program_Name: Grants - Environmental Protection Agency
-  Slug: epa-grants-environmental-protection-agency
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Payroll - Environmental Protection Agency
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Payroll - Environmental Protection Agency
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Purchase Cards - Environmental Protection Agency
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Purchase Cards - Environmental Protection Agency
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Settlements - Environmental Protection Agency
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Settlements - Environmental Protection Agency
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Travel - Environmental Protection Agency
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Travel - Environmental Protection Agency
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: '[Water Infrastructure Finance and Innovation Act Program (WIFIA)]'
+    Slug: null
     Susceptible: 'No'
-  Program_Name: '[Water Infrastructure Finance and Innovation Act Program (WIFIA)]'
-  Slug: null
+  SubstantialChangesMade: 'Yes'
 Technically_Improper_Amounts: '[0]'
 Underpayment_Amounts: '[0]'
 Unknown_Amounts: '[0]'

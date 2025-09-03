@@ -1,0 +1,42 @@
+{% if include.Risks.AdditionalInformation != nil %}
+    <p>{{ include.Risks.AdditionalInformation | newline_to_br }}</p>
+{% endif %}
+
+{% if include.Risks.SubstantialChangesMade == 'Yes' %}
+    <p><strong>The Agency made substantial changes to the methodology of the review conducted for risk for improper payments for the reporting cycle.</strong></p>
+{% endif %}
+
+{% if include.Risks.Assessments.size > 0 %}
+    <table class="usa-table--borderless usa-table" id="risk-assessments-table">
+        <thead>
+            <tr>
+                <th data-sortable scope="col" role="columnheader" class="padding-2 cursor-pointer">Program Name</th>
+                <th data-sortable scope="col" role="columnheader" class="padding-2 cursor-pointer">When was the last improper payment Risk Assessment conducted?</th>
+                <th data-sortable scope="col" role="columnheader" class="padding-2 cursor-pointer">Likely to be susceptible to significant improper payments?</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for risk in include.Risks.Assessments %}
+                <tr>
+                    <td class="text-left" data-sort-value="{{ risk.Program_Name }}" style="border-bottom: none;">
+                        {% if risk.Slug == nil or risk.Slug == '' %}
+                            {{ risk.Program_Name }}
+                        {% else %}
+                            <a href="/program/{{ risk.Slug }}">{{ risk.Program_Name }}</a>
+                        {% endif %}
+                    </td>
+                    <td data-sort-value="{{ risk.Fiscal_Year }}">
+                        {{ risk.Fiscal_Year }}
+                    </td>
+                    <td data-sort-value="{{ risk.Susceptible }}">
+                        {% if risk.Susceptible == 'Yes' %}
+                            <img src="/assets/img/orange-check.svg" alt="No"> Yes
+                        {% else %}
+                            <img src="/assets/img/green-x.svg" alt="No"> No
+                        {% endif %}
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endif %}

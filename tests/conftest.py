@@ -43,6 +43,7 @@ def mock_csv_data(tmp_path):
     program_compliance = extracted_dir / "MY_OMB_ImproperPayment_Payment_Program_Compliance_vw.csv"
     survey_root_cause = extracted_dir / "KPI_ImproperPaymentSurveyRootCause_vw_IP.csv"
     ip_root_causes = extracted_dir / "MY_OMB_ImproperPayment_Payment_IP_Root_Causes_vw.csv"
+    congressional_reports = extracted_dir / "MY_OMB_ImproperPayment_PaymentAccuracy_AgencyData_raw_vw-Congressional.csv"
 
     all_programs_sample_csv_data = (
         "Agency,Program_Name,Fiscal_Year,Outlays_($M),IP_Amount($M),IP_Unknown_Amount_($M)"
@@ -134,6 +135,12 @@ def mock_csv_data(tmp_path):
         "\nAgency2,Program_Name2,2024,Overpayments,Program_Design_or_Structural_Issue2,Inability_to_Authenticate_Eligibility2,Inability_to_Authenticate_Eligibility_Inability_to_Access_Data2,Inability_to_Authenticate_Eligibility:_Data_Needed_Does_Not_Exis2,Insufficient_Documentation_to_Determine2,Failure_to_Access_Data2,Address_Location2,Contractor_or_Provider_Status2,Financial2"
     )
 
+    congressional_reports_sample_csv_data = (
+        "agency,Key,Title,value,Fiscal_Year"
+        "\nCFTC,raa6_1,[raa6_1]Did the agency perform any Improper Payment Risk Assessments for programs in Phase 1 in the current reporting period? (Unit - Yes/No),No,2023"
+        "\nCFTC,raa6_1,[raa6_1]Did the agency perform any Improper Payment Risk Assessments for programs in Phase 1 in the current reporting period? (Unit - Yes/No),No,2024"
+    )
+
     all_programs.write_text(all_programs_sample_csv_data, encoding="utf-8-sig")
     program_data_raw.write_text(program_data_raw_sample_csv_data, encoding="utf-8-sig")
     agency_data_raw.write_text(agency_data_raw_sample_csv_data, encoding="utf-8-sig")
@@ -148,6 +155,7 @@ def mock_csv_data(tmp_path):
     program_compliance.write_text(program_compliance_sample_csv_data, encoding="utf-8-sig")
     survey_root_cause.write_text(survey_root_cause_sample_csv_data, encoding="utf-8-sig")
     ip_root_causes.write_text(ip_root_causes_sample_csv_data, encoding="utf-8-sig")
+    congressional_reports.write_text(congressional_reports_sample_csv_data, encoding="utf-8-sig")
 
     return {
         "ALL_PROGRAMS_DATA_PATH": str(all_programs),
@@ -163,5 +171,6 @@ def mock_csv_data(tmp_path):
         "RECOVERY_AMOUNTS_PATH": str(recovery_amounts),
         "PROGRAM_COMPLIANCE_PATH": str(program_compliance),
         "SURVEY_ROOT_CAUSE_PATH": str(survey_root_cause),
-        "IP_ROOT_CAUSES_PATH": str(ip_root_causes)
+        "IP_ROOT_CAUSES_PATH": str(ip_root_causes),
+        "CONGRESSIONAL_REPORTS_PATH": str(congressional_reports),
     }

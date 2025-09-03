@@ -141,6 +141,7 @@ Data_By_Year:
     cyp5: '461.26'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2023
     Description_Action_Taken: As of January 1, 2022, the SBA stopped accepting applications
       for new COVID EIDL loans. As of May 6, 2022, the SBA was no longer processing
@@ -151,6 +152,7 @@ Data_By_Year:
       EIDL program.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q4
     Description_Action_Taken: The Audit corrective action(s) taken include the performance
       of ongoing quality assurance reviews of PDC Departments' loan origination and
@@ -162,6 +164,7 @@ Data_By_Year:
       loans or disbursing newly approved funds.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2023
     Description_Action_Taken: As of January 1, 2022, the SBA stopped accepting applications
       for new COVID EIDL loans. As of May 6, 2022, the SBA was no longer processing
@@ -172,6 +175,7 @@ Data_By_Year:
       EIDL program.
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: The Training corrective action(s) taken include quarterly
       training to Processing and Disbursement Center (PDC) staff on the causes and

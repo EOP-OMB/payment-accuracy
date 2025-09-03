@@ -111,6 +111,7 @@ Data_By_Year:
     cyp5: '19.69'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2027+
     Description_Action_Taken: Both the automated and the manual processes of the Exchanges
       are subject to rigorous annual testing of key internal controls as required
@@ -122,6 +123,7 @@ Data_By_Year:
       until the APTC Error Rate data analysis is complete.
     Mitigation_Strategy: app6_1
   - Action_Taken: Planned
+    Action_Type: Predictive Analytics
     Completion_Date: FY2027+
     Description_Action_Taken: The Marketplace Program Integrity Contractor implemented
       a risk model that incorporates many risk factors that may indicate potential
@@ -135,6 +137,7 @@ Data_By_Year:
       until the APTC Error Rate data analysis is complete.
     Mitigation_Strategy: app7_1
   - Action_Taken: Not Completed
+    Action_Type: Automation
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: HHS’s corrective actions include identifying and remediating
@@ -153,6 +156,7 @@ Data_By_Year:
       adjudication tasks.
     Mitigation_Strategy: atp1_1
   - Action_Taken: Not Completed
+    Action_Type: Audit
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: Both the automated and the manual processes of the Exchanges
@@ -163,6 +167,7 @@ Data_By_Year:
       by the Exchanges within the context of federal statute and regulations.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2027+
     Description_Action_Taken: HHS’s corrective actions include identifying and remediating
       system defects within the Exchanges that may impact APTC payments.  These defects
@@ -181,6 +186,7 @@ Data_By_Year:
       not finalize this decision until the APTC Error Rate data analysis is complete.
     Mitigation_Strategy: app1_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2027+
     Description_Action_Taken: As part of Eligibility Support Contractor Education,
       personnel undergo thorough onboarding training, annual refreshers, and quick
@@ -190,6 +196,7 @@ Data_By_Year:
       will not finalize this decision until the APTC Error Rate data analysis is complete.
     Mitigation_Strategy: app3_1
   - Action_Taken: Not Completed
+    Action_Type: Training
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: All personnel undergo a rigorous training when onboarded
@@ -200,6 +207,7 @@ Data_By_Year:
       outreach.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Not Completed
+    Action_Type: Predictive Analytics
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: The Marketplace Program Integrity Contractor implemented
@@ -357,6 +365,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2024 Q4
     Description_Action_Taken: HHS’s corrective actions include identifying and remediating
       system defects within the Exchanges that may impact APTC payments.  These defects
@@ -374,6 +383,7 @@ Data_By_Year:
       adjudication tasks.
     Mitigation_Strategy: atp1_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: All personnel undergo a rigorous training when onboarded
       to the workforce.  They also receive annual refreshers and quick training lessons
@@ -383,6 +393,7 @@ Data_By_Year:
       outreach. 
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: All personnel undergo a rigorous training when onboarded
       to the workforce.  They also receive annual refreshers and quick training lessons
@@ -392,6 +403,7 @@ Data_By_Year:
       outreach. 
     Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
+    Action_Type: Predictive Analytics
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The Marketplace Program Integrity Contractor implemented
       a risk model that incorporates many risk factors that may indicate potential
@@ -403,6 +415,7 @@ Data_By_Year:
       in overall case findings. 
     Mitigation_Strategy: atp7_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: Both the automated and the manual processes of the Exchanges
       are subject to rigorous annual testing of key internal controls as required
@@ -414,6 +427,7 @@ Data_By_Year:
       until the APTC Error Rate data analysis is complete.
     Mitigation_Strategy: app6_1
   - Action_Taken: Planned
+    Action_Type: Predictive Analytics
     Completion_Date: FY2025
     Description_Action_Taken: The Marketplace Program Integrity Contractor implemented
       a risk model that incorporates many risk factors that may indicate potential
@@ -426,6 +440,7 @@ Data_By_Year:
       will not finalize this decision until the APTC Error Rate data analysis is complete.
     Mitigation_Strategy: app7_1
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2025
     Description_Action_Taken: HHS’s corrective actions include identifying and remediating
       system defects within the Exchanges that may impact APTC payments.  These defects
@@ -444,6 +459,7 @@ Data_By_Year:
       not finalize this decision until the APTC Error Rate data analysis is complete.
     Mitigation_Strategy: app1_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: Both the automated and the manual processes of the Exchanges
       are subject to rigorous annual testing of key internal controls as required

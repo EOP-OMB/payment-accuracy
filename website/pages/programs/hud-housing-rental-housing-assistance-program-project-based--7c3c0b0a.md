@@ -204,6 +204,7 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "The identified Training corrective actions aim to reduce\
       \ the unknown payments. Eligibility Tier testing revealed significant difficulties\

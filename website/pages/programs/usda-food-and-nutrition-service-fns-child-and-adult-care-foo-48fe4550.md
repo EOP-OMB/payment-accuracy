@@ -385,6 +385,7 @@ Data_By_Year:
     cyp5: '0.00'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2025
     Description_Action_Taken: Non-competitive Technology Innovation Grants (nTIGs)
       - Food and Nutrition Service (FNS) released $25M in Fiscal Year (FY) 23 and
@@ -394,6 +395,7 @@ Data_By_Year:
       improve, maintain CN IT systems.
     Mitigation_Strategy: app1_1
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2024 Q4
     Description_Action_Taken: Non-competitive Technology Innovation Grants (nTIGs)
       - Food and Nutrition Service (FNS) released $25M in Fiscal Year (FY) 23 and
@@ -403,6 +405,7 @@ Data_By_Year:
       improve, maintain CN IT systems.
     Mitigation_Strategy: atp1_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: "Serious Deficiency Proposed Rule\nThe Food and Nutrition\
       \ Service (FNS) anticipates that the Serious Deficiency (SD) Proposed Rule and\
@@ -424,6 +427,7 @@ Data_By_Year:
       \ program management."
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q2
     Description_Action_Taken: "Serious Deficiency Proposed Rule\nThe Food and Nutrition\
       \ Service (FNS) proposed a revision to the Serious Deficiency (SD) process for\

@@ -4,6 +4,7 @@ Agency_Name: Department of Labor
 Data_By_Year:
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2023 Q4
     Description_Action_Taken: "The reporting period for the PUA program is the entire\
       \ life of the program (April 2020 through September 2021) therefore, actions\
@@ -53,6 +54,7 @@ Data_By_Year:
       \ to the pandemic and the UI system emergency response, includes over 400 resources.\n"
     Mitigation_Strategy: atp5_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'The Department-funded UI Integrity Center completed
       and published multiple lessons to the NASWA Learning Management System, which

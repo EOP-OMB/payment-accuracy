@@ -310,6 +310,7 @@ Data_By_Year:
     cyp5: '0.11'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: 'The root cause of improper payments was failure to
       access data/information.  Improper payment findings were related to the FSA-23
@@ -332,6 +333,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2022 Q1
     Description_Action_Taken: Farm Service Agency has developed new program payment
       scenarios which eliminates the County Office requirement to compute cost share
@@ -340,6 +342,7 @@ Data_By_Year:
       transition to this new method.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2023 Q4
     Description_Action_Taken: "The requirement to have an FSA-23 on file before the\
       \ cost share agreement is approved and included on the CCC-770 Checklist.  Farm\
@@ -349,6 +352,7 @@ Data_By_Year:
       \ the Internal Review Document Tracking System to track actions. \n"
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: The root cause of improper payments was failure to access
       data/information. Errors resulted from the payment calculations using old calculation
@@ -499,6 +503,7 @@ Data_By_Year:
     Value: '0.040000'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: "The root cause of these improper payments was failure\
       \ to access data information.  \n\nAdditional webinar/virtual training sessions\
@@ -509,6 +514,7 @@ Data_By_Year:
       \ deficiencies.  \n"
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2025
     Description_Action_Taken: "The root cause of these improper payments was failure\
       \ to access data.\nInternal Review Documentation and Tracking System - The integration\
@@ -526,6 +532,7 @@ Data_By_Year:
       \ at all levels to complete and track program audits and reviews. \n"
     Mitigation_Strategy: app1_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "The root cause for this category was related to not\
       \ following statutory requirements. Additional webinar/virtual training sessions\
@@ -544,6 +551,7 @@ Data_By_Year:
       \ Act findings, policy pain points, and software pain points.  \n\n"
     Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "The root cause for this category was related to not\
       \ following statutory requirements. A new CCC-770 ECP-3 was issued on Feb 12,\
@@ -599,6 +607,7 @@ Data_By_Year:
       \ practices within the lifespan of the practice.\n\n"
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: 'The root cause of these improper payments was failure
       to access data.
@@ -626,6 +635,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app6_1
   - Action_Taken: Planned
+    Action_Type: Predictive Analytics
     Completion_Date: FY2025
     Description_Action_Taken: "The root cause of these improper payments is failure\
       \ to access data. Utilizing the Internal Review Documentation and Tracking System\
@@ -646,6 +656,7 @@ Data_By_Year:
       \ finding.\n\n"
     Mitigation_Strategy: app7_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: "The root cause of these improper payments was failure\
       \ to access data.  New policy will be implemented to require:\n\nPrior to Approval,\
@@ -669,6 +680,7 @@ Data_By_Year:
       \ on result of 5% review.  \n"
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2024 Q1
     Description_Action_Taken: "The root cause for this category was related to not\
       \ following statutory requirements.\n\nNew Software Platform - The new Emergency\
@@ -689,6 +701,7 @@ Data_By_Year:
       \ and the old system is phased out."
     Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
+    Action_Type: Predictive Analytics
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "The root cause for this category was related to not\
       \ following statutory requirements. The new software will require time to adequately\
@@ -702,6 +715,7 @@ Data_By_Year:
       \ that they previously misunderstood handled incorrectly. \n"
     Mitigation_Strategy: atp7_1
   - Action_Taken: Completed
+    Action_Type: Statutory Change
     Completion_Date: FY2024 Q4
     Description_Action_Taken: Null.
     Mitigation_Strategy: atp8_1

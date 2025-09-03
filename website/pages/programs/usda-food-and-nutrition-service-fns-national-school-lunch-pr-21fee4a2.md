@@ -291,6 +291,7 @@ Data_By_Year:
     cyp5: '45.60'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2023
     Description_Action_Taken: "The National School Lunch Program (NSLP) plans to implement\
       \ the following Automation corrective actions:  1) Food and Nutrition Service\
@@ -308,6 +309,7 @@ Data_By_Year:
       \ processes at the local level."
     Mitigation_Strategy: app1_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: Food and Nutrition Service expects that the overall
       improvement of information technology systems by non-competitive Technology
@@ -317,6 +319,7 @@ Data_By_Year:
       outside of Agency control.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2022 Q4
     Description_Action_Taken: "The National School Lunch Program (NSLP) has taken\
       \ the following Automation corrective actions:  1) Direct Certification with\
@@ -331,6 +334,7 @@ Data_By_Year:
       \ Nutrition IT systems."
     Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2022 Q4
     Description_Action_Taken: 'The National School Lunch Program (NSLP) has taken
       the following Training corrective actions:  National training webinars:  Food
@@ -340,6 +344,7 @@ Data_By_Year:
       eligibility), claiming, and meal pattern.'
     Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2022 Q4
     Description_Action_Taken: 'The National School Lunch Program (NSLP) has taken
       the following Change Process corrective actions:  Community Eligibility Provision
@@ -553,6 +558,7 @@ Data_By_Year:
     Value: '15.113000'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: As the Food and Nutrition Service (FNS) receives the
       preliminary results, it will be able to review this first measure of program
@@ -565,6 +571,7 @@ Data_By_Year:
       to using pre-COVID improper payment baseline.
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'Non-competitive Technology Innovation Grants (nTIGs)
 
@@ -588,6 +595,7 @@ Data_By_Year:
       data to their States.'
     Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q3
     Description_Action_Taken: 'Community Eligibility Provision (CEP) Expansion
 
@@ -650,6 +658,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: "The Food and Nutrition Service (FNS) will provide guidance\
       \ and technical assistance to those states and local education agencies (LEA)\

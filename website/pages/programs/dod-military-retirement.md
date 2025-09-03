@@ -256,6 +256,7 @@ Data_By_Year:
     cyp5: '5.75'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2023 Q4
     Description_Action_Taken: Military Retirement Operations collaborated with the
       Disbursing office on a Lean 6 project, focused on refining and enhancing the
@@ -276,6 +277,7 @@ Data_By_Year:
       in reducing IP and UP. The Working Group was established during Q1 FY 2023.
     Mitigation_Strategy: atp5_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: "The Department's Military Retirement program will perform\
       \ the following corrective actions. \n1. Continue interagency collaborative\
@@ -290,6 +292,7 @@ Data_By_Year:
       \ to streamline compliance with the PIIA."
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2023 Q4
     Description_Action_Taken: DFAS Military Retirement Operations completed the final
       phase of Survivor Benefit Plan (SBP) - Dependency and Indemnity Compensation
@@ -299,6 +302,7 @@ Data_By_Year:
       payments to the member.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: "DFAS-Cleveland processes pay and account maintenance\
       \ transactions for both the population of Military retirees and annuitants for\
@@ -318,6 +322,7 @@ Data_By_Year:
       \ Monetary Loss and Underpayment issues."
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: The FY 2023 Corrective Action Plan (CAP) for the Military
       Retirement Program was developed to reduce the number of improper and unknown

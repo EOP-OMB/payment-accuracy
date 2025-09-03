@@ -32,16 +32,17 @@ Payment_Accuracy_Rate_Max: 0
 Payment_Accuracy_Rate_Min: 0
 Payment_Accuracy_Rates: '[]'
 Risks:
-- Assessments:
+  AdditionalInformation: null
+  Assessments:
   - Fiscal_Year: 2020
+    Program_Name: Office of Inspector General
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Office of Inspector General
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2020
+    Program_Name: Operations and Administration
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Operations and Administration
-  Slug: null
+  SubstantialChangesMade: null
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'

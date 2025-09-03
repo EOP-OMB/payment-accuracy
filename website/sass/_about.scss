@@ -85,22 +85,6 @@
             }
         }
     }
-
-    // Hero Image
-    .hero-image {
-        flex-shrink: 0;
-        max-width: 310px;
-        
-        img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-      
-        @media (max-width: $tablet) {
-            display: none;
-        }
-    }
 }
 
 .about-content {

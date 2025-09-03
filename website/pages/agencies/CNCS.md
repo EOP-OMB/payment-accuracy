@@ -34,7 +34,7 @@ Hide_Eligibility_Criteria: false
 Hide_Integrity_Results: false
 Hide_PIIA2019: false
 Hide_Recovery_Audits: false
-Hide_Recovery_Details: true
+Hide_Recovery_Details: false
 Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: false
@@ -254,53 +254,46 @@ Payment_Accuracy_Rate_Min: 85.9
 Payment_Accuracy_Rates: '[86.41797164566344, 85.85659131081962, 90.26732389223588,
   91.27540041067762]'
 Risks:
-- Assessments:
+  AdditionalInformation: The risk assessments for RSVP and SCP were optional but were
+    performed due to the history of required Phase 2 reporting.
+  Assessments:
   - Fiscal_Year: 2021
+    Program_Name: AmeriCorps National Civilian Community Corps (NCCC)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: AmeriCorps National Civilian Community Corps (NCCC)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: AmeriCorps State Service Commission Grants
+    Slug: null
     Susceptible: 'No'
-  Program_Name: AmeriCorps State Service Commission Grants
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: AmeriCorps State and National
+    Slug: cncs-americorps-state-and-national
     Susceptible: 'No'
-  Program_Name: AmeriCorps State and National
-  Slug: cncs-americorps-state-and-national
-- Assessments:
   - Fiscal_Year: 2022
-    Susceptible: 'No'
-  Program_Name: AmeriCorps Volunteers in Service to America (VISTA)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2022
+    Program_Name: AmeriCorps Volunteers in Service to America (VISTA)
+    Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    Program_Name: National Service Trust
+    Slug: cncs-national-service-trust
     Susceptible: 'Yes'
-  Program_Name: National Service Trust
-  Slug: cncs-national-service-trust
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Office of Human Capital (Payroll)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Office of Human Capital (Payroll)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Office of Procurement Services
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Office of Procurement Services
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: The Retired and Senior Volunteer Program (RSVP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: The Retired and Senior Volunteer Program (RSVP)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: The Senior Companion Program (SCP)
+    Slug: cncs-the-senior-companion-program-scp
     Susceptible: 'No'
-  Program_Name: The Senior Companion Program (SCP)
-  Slug: cncs-the-senior-companion-program-scp
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[0, 0, 0, 0]'
 Underpayment_Amounts: '[0.5919, 0.259, 0.212, 0.124]'
 Unknown_Amounts: '[46.602000000000004, 50.455, 21.137, 42.367]'

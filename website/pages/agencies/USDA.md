@@ -2509,721 +2509,595 @@ Payment_Accuracy_Rate_Min: 90.9
 Payment_Accuracy_Rates: '[96.03409359220693, 97.78785114411266, 91.87254893393646,
   90.8897529008691]'
 Risks:
-- Assessments:
+  AdditionalInformation: null
+  Assessments:
   - Fiscal_Year: 2019
+    Program_Name: APHIS Salaries and Expenses
+    Slug: null
     Susceptible: 'No'
-  Program_Name: APHIS Salaries and Expenses
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Agricultural Marketing Service (AMS) Commodity Purchase Program
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Agricultural Marketing Service (AMS) Commodity Purchase Program
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Agricultural Marketing Service (AMS) Grants Program
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Agricultural Marketing Service (AMS) Grants Program
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Agricultural Marketing Service (AMS) Salaries and Expenses
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Agricultural Marketing Service (AMS) Salaries and Expenses
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: Agricultural Research Service (ARS) Hurricane Harvey - Buildings
+      and Facilities
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Agricultural Research Service (ARS) Hurricane Harvey - Buildings and
-    Facilities
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Agriculture Research Service (ARS) Buildings and Facilities
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Agriculture Research Service (ARS) Buildings and Facilities
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: Animal and Plant Health Inspection Service (APHIS) Buildings and
+      Facilities
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Animal and Plant Health Inspection Service (APHIS) Buildings and Facilities
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Animal and Plant Health Inspection Service (APHIS) Cooperative Agreements
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Animal and Plant Health Inspection Service (APHIS) Cooperative Agreements
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Animal and Plant Health Inspection Service (APHIS) Indemnity Program
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Animal and Plant Health Inspection Service (APHIS) Indemnity Program
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Animal and Plant Health Inspection Service (APHIS) Salaries and
+      Expenses
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Animal and Plant Health Inspection Service (APHIS) Salaries and Expenses
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Animal and Plant Health Inspection Service (APHIS) Trust Funds
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Animal and Plant Health Inspection Service (APHIS) Trust Funds
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Commodity Credit Corporation (CCC) Administrative Contracts
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Administrative Contracts
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Commodity Credit Corporation (CCC) Agriculture Wool Apparel Manufacturers
+      Trust Fund
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Agriculture Wool Apparel Manufacturers
-    Trust Fund
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: Commodity Credit Corporation (CCC) Biomass Crop Assistance Program
+      (BCAP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Biomass Crop Assistance Program
-    (BCAP)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Commodity Credit Corporation (CCC) Conservation Reserve Program
+      (CRP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Conservation Reserve Program (CRP)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2021
+    Program_Name: Commodity Credit Corporation (CCC) Coronavirus Food Assistance Program
+      (CFAP)
+    Slug: usda-commodity-credit-corporation-ccc-coronavirus-food-assis-a5111436
     Susceptible: 'Yes'
-  Program_Name: Commodity Credit Corporation (CCC) Coronavirus Food Assistance Program
-    (CFAP)
-  Slug: usda-commodity-credit-corporation-ccc-coronavirus-food-assis-a5111436
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: Commodity Credit Corporation (CCC) Dairy Indemnity Payment Program
+      (DIPP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Dairy Indemnity Payment Program
-    (DIPP)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Commodity Credit Corporation (CCC) Dairy Margin Coverage Program
+      (DMC)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Dairy Margin Coverage Program (DMC)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Commodity Credit Corporation (CCC) Economic Adjustment Assistance
+      for Upland Cotton (EAAP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Economic Adjustment Assistance
-    for Upland Cotton (EAAP)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Commodity Credit Corporation (CCC) Emergency Assistance for Livestock,
+      Honeybees, and Farm-Raised Fish Program (ELAP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Emergency Assistance for Livestock,
-    Honeybees, and Farm-Raised Fish Program (ELAP)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: Commodity Credit Corporation (CCC) Emergency Forestry Conservation
+      Reserve Program (EFCRP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Emergency Forestry Conservation
-    Reserve Program (EFCRP)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Commodity Credit Corporation (CCC) Emergency Grain Storage Facility
+      Program
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Emergency Grain Storage Facility
-    Program
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Commodity Credit Corporation (CCC) Emergency Relief Program (ERP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Emergency Relief Program (ERP)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: Commodity Credit Corporation (CCC) Export 416 Ocean Transportation
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Export 416 Ocean Transportation
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Commodity Credit Corporation (CCC) Farm Storage Facility Loan (FSFL)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Farm Storage Facility Loan (FSFL)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Commodity Credit Corporation (CCC) Food for Progress Program
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Food for Progress Program
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: Commodity Credit Corporation (CCC) Hazardous Waste Activities
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Hazardous Waste Activities
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Commodity Credit Corporation (CCC) Livestock Indemnity Program (LIP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Livestock Indemnity Program (LIP)
-  Slug: null
-- Assessments:
+  - Fiscal_Year: 2022
+    Program_Name: Commodity Credit Corporation (CCC) Market Facilitation Program (MFP)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2023
+    Program_Name: Commodity Credit Corporation (CCC) Marketing Assistance Loan (MAL)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2024
+    Program_Name: Commodity Credit Corporation (CCC) Marketing Programs
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2022
+    Program_Name: Commodity Credit Corporation (CCC) Pima Agriculture Cotton Trust
+      Fund
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2022
+    Program_Name: Commodity Credit Corporation (CCC) Public Law 480
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2020
-    Susceptible: 'Yes'
-  - Fiscal_Year: 2022
-    Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Market Facilitation Program (MFP)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2023
-    Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Marketing Assistance Loan (MAL)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2024
-    Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Marketing Programs
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2022
-    Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Pima Agriculture Cotton Trust Fund
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2022
-    Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Public Law 480
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2020
-    Susceptible: 'Yes'
-  Program_Name: Commodity Credit Corporation (CCC) Trade Mitigation Program (TMP)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2024
-    Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation (CCC) Tree Assistance Program (TAP)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2022
-    Susceptible: 'No'
-  Program_Name: Commodity Credit Corporation Seafood Trade Relief Program (STRP)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2023
-    Susceptible: 'No'
-  Program_Name: Department Administration (DA) Agriculture Buildings and Facilities
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2019
-    Susceptible: 'No'
-  Program_Name: FNS Hurricane Harvey - Commodity Assistance Program
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2019
-    Susceptible: 'No'
-  Program_Name: FNS Hurricane Harvey - SNAP
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2019
-    Susceptible: 'No'
-  Program_Name: FNS Hurricane Harvey - WIC
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2019
-    Susceptible: 'No'
-  Program_Name: FS Hurricane Harvey - State and Private Forestry
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2019
-    Susceptible: 'No'
-  Program_Name: FS Wildland Fire Disaster Relief - Wildland Fire Management
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2019
-    Susceptible: 'No'
-  Program_Name: FS Wildland Fire Management - Suppression
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2024
-    Susceptible: 'No'
-  Program_Name: Farm Service Agency (FSA) Agricultural Credit Insurance Fund-Program
-    Account (ACIF)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2023
-    Susceptible: 'No'
-  Program_Name: Farm Service Agency (FSA) Emergency Forest Restoration Program (EFRP)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2022
-    Susceptible: 'No'
-  Program_Name: Farm Service Agency (FSA) Pandemic Livestock Indemnity Program (PLIP)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2024
-    Susceptible: 'No'
-  Program_Name: Farm Service Agency (FSA) Rice Production Program
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2024
-    Susceptible: 'No'
-  Program_Name: Farm Service Agency (FSA) Salaries and Expenses
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2019
-    Susceptible: 'No'
-  Program_Name: Farm Service Agency (FSA) State Mediation Grants
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2019
-    Susceptible: 'No'
-  Program_Name: Farm Service Agency (FSA) Wildfires and Hurricanes Indemnity Program
-    (WHIP)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2024
-    Susceptible: 'No'
-  Program_Name: Food Safety and Inspection Service (FSIS) Salaries and Expenses
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2019
-    Susceptible: 'No'
-  Program_Name: Food and Nutrition Service (FNS) American Samoa (AS)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2023
-    Susceptible: 'No'
-  Program_Name: Food and Nutrition Service (FNS) Commodity Supplemental Food Program
-    (CSFP)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2022
-    Susceptible: 'No'
-  Program_Name: Food and Nutrition Service (FNS) Commonwealth of the Northern Marianas
-    Islands (CNMI)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2023
-    Susceptible: 'No'
-  Program_Name: Food and Nutrition Service (FNS) Farmers' Market Nutrition Program
-    (FMNP)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2021
+    Program_Name: Commodity Credit Corporation (CCC) Trade Mitigation Program (TMP)
+    Slug: null
     Susceptible: 'Yes'
   - Fiscal_Year: 2024
+    Program_Name: Commodity Credit Corporation (CCC) Tree Assistance Program (TAP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Food and Nutrition Service (FNS) Food Distribution Program on Indian
-    Reservations (FDPIR)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2023
-    Susceptible: 'No'
-  Program_Name: Food and Nutrition Service (FNS) Nutrition Assistance Program - Puerto
-    Rico
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Commodity Credit Corporation Seafood Trade Relief Program (STRP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Food and Nutrition Service (FNS) Senior Farmers' Market Nutrition
-    Program (SFMNP)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2019
+  - Fiscal_Year: 2023
+    Program_Name: Department Administration (DA) Agriculture Buildings and Facilities
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Food and Nutrition Service (FNS) Special Milk Program (SMP)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: FNS Hurricane Harvey - Commodity Assistance Program
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2019
+    Program_Name: FNS Hurricane Harvey - SNAP
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2019
+    Program_Name: FNS Hurricane Harvey - WIC
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2019
+    Program_Name: FS Hurricane Harvey - State and Private Forestry
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2019
+    Program_Name: FS Wildland Fire Disaster Relief - Wildland Fire Management
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2019
+    Program_Name: FS Wildland Fire Management - Suppression
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2024
+    Program_Name: Farm Service Agency (FSA) Agricultural Credit Insurance Fund-Program
+      Account (ACIF)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2023
+    Program_Name: Farm Service Agency (FSA) Emergency Forest Restoration Program (EFRP)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2022
+    Program_Name: Farm Service Agency (FSA) Pandemic Livestock Indemnity Program (PLIP)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2024
+    Program_Name: Farm Service Agency (FSA) Rice Production Program
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2024
+    Program_Name: Farm Service Agency (FSA) Salaries and Expenses
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2019
+    Program_Name: Farm Service Agency (FSA) State Mediation Grants
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2019
+    Program_Name: Farm Service Agency (FSA) Wildfires and Hurricanes Indemnity Program
+      (WHIP)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2024
+    Program_Name: Food Safety and Inspection Service (FSIS) Salaries and Expenses
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2019
+    Program_Name: Food and Nutrition Service (FNS) American Samoa (AS)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2023
+    Program_Name: Food and Nutrition Service (FNS) Commodity Supplemental Food Program
+      (CSFP)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2022
+    Program_Name: Food and Nutrition Service (FNS) Commonwealth of the Northern Marianas
+      Islands (CNMI)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2023
+    Program_Name: Food and Nutrition Service (FNS) Farmers' Market Nutrition Program
+      (FMNP)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2024
+    Program_Name: Food and Nutrition Service (FNS) Food Distribution Program on Indian
+      Reservations (FDPIR)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2023
+    Program_Name: Food and Nutrition Service (FNS) Nutrition Assistance Program -
+      Puerto Rico
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2022
+    Program_Name: Food and Nutrition Service (FNS) Senior Farmers' Market Nutrition
+      Program (SFMNP)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2019
+    Program_Name: Food and Nutrition Service (FNS) Special Milk Program (SMP)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2019
+    Program_Name: Food and Nutrition Service (FNS) Summer Food Service Program (SFSP)
+    Slug: usda-food-and-nutrition-service-fns-summer-food-service-prog-919c7233
     Susceptible: 'Yes'
-  Program_Name: Food and Nutrition Service (FNS) Summer Food Service Program (SFSP)
-  Slug: usda-food-and-nutrition-service-fns-summer-food-service-prog-919c7233
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Food and Nutrition Service (FNS) The Emergency Food Assistance Program
+      (TEFAP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Food and Nutrition Service (FNS) The Emergency Food Assistance Program
-    (TEFAP)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Food and Nutrition Service (FNS)Nutrition Program Administration
+      (NPA)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Food and Nutrition Service (FNS)Nutrition Program Administration (NPA)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Foreign Agriculture Service (FAS) McGovern-Dole Food for Education
+      Grants
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Foreign Agriculture Service (FAS) McGovern-Dole Food for Education
-    Grants
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Foreign Agriculture Service (FAS) Salaries and Expenses
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Foreign Agriculture Service (FAS) Salaries and Expenses
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Forest Service (FS) Capital Improvement and Maintenance
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Forest Service (FS) Capital Improvement and Maintenance
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Forest Service (FS) FS Operations
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Forest Service (FS) FS Operations
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Forest Service (FS) Forest Service Trust Funds
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Forest Service (FS) Forest Service Trust Funds
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Forest Service (FS) Forest and Rangeland Research
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Forest Service (FS) Forest and Rangeland Research
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Forest Service (FS) Land Acquisition
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Forest Service (FS) Land Acquisition
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: Forest Service (FS) Management of National Forest Lands for Subsistence
+      Uses
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Forest Service (FS) Management of National Forest Lands for Subsistence
-    Uses
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Forest Service (FS) National Forest System
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Forest Service (FS) National Forest System
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Forest Service (FS) Permanent Appropriations
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Forest Service (FS) Permanent Appropriations
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: Forest Service (FS) Range Betterment Fund
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Forest Service (FS) Range Betterment Fund
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Forest Service (FS) State, Private, and Tribal Forestry
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Forest Service (FS) State, Private, and Tribal Forestry
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Forest Service (FS) Stewardship Contracting Product Sales
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Forest Service (FS) Stewardship Contracting Product Sales
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Forest Service (FS) Wildland Fire Management
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Forest Service (FS) Wildland Fire Management
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Forest Service (FS) Working Capital Fund
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Forest Service (FS) Working Capital Fund
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: N/A - REMOVE - Rolled into FS National Forest System
+    Slug: null
     Susceptible: 'No'
-  Program_Name: N/A - REMOVE - Rolled into FS National Forest System
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: National Institute of Food and Agriculture (NIFA) Community Food
+      Programs
+    Slug: null
     Susceptible: 'No'
-  Program_Name: National Institute of Food and Agriculture (NIFA) Community Food Programs
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: National Institute of Food and Agriculture (NIFA) Extension Activities
+    Slug: null
     Susceptible: 'No'
-  Program_Name: National Institute of Food and Agriculture (NIFA) Extension Activities
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: National Institute of Food and Agriculture (NIFA) Integrated Activities
+    Slug: null
     Susceptible: 'No'
-  Program_Name: National Institute of Food and Agriculture (NIFA) Integrated Activities
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: National Institute of Food and Agriculture (NIFA) Research and Education
+      Activities
+    Slug: null
     Susceptible: 'No'
-  Program_Name: National Institute of Food and Agriculture (NIFA) Research and Education
-    Activities
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Natural Resources Conservation Service (NRCS) Conservation Programs
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Natural Resources Conservation Service (NRCS) Conservation Programs
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Natural Resources Conservation Service (NRCS) Conservation Technical
+      Assistance
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Natural Resources Conservation Service (NRCS) Conservation Technical
-    Assistance
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Natural Resources Conservation Service (NRCS) Emergency Watershed
+      Protection Program
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Natural Resources Conservation Service (NRCS) Emergency Watershed
-    Protection Program
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: Natural Resources Conservation Service (NRCS) P.L. 115-20 Disasters
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Natural Resources Conservation Service (NRCS) P.L. 115-20 Disasters
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Natural Resources Conservation Service (NRCS) Partnership for Climate-Smart
+      Commodities
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Natural Resources Conservation Service (NRCS) Partnership for Climate-Smart
-    Commodities
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Natural Resources Conservation Service (NRCS) Plant Materials Centers
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Natural Resources Conservation Service (NRCS) Plant Materials Centers
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Natural Resources Conservation Service (NRCS) Snow Survey and Water
+      Supply Forecasting
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Natural Resources Conservation Service (NRCS) Snow Survey and Water
-    Supply Forecasting
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Natural Resources Conservation Service (NRCS) Soil Surveys
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Natural Resources Conservation Service (NRCS) Soil Surveys
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Natural Resources Conservation Service (NRCS) Watershed Programs
+      (excluding Emergency Watershed Program)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Natural Resources Conservation Service (NRCS) Watershed Programs (excluding
-    Emergency Watershed Program)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Office of Civil Rights (OCR) Salaries and Expenses
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Office of Civil Rights (OCR) Salaries and Expenses
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Office of Hearing (OHA) Salaries & Expenses
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Office of Hearing (OHA) Salaries & Expenses
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Office of Inspector General (OIG) Disaster Related Appropriations
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Office of Inspector General (OIG) Disaster Related Appropriations
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Office of the Chief Economist (OCE) Salaries and Expenses
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Office of the Chief Economist (OCE) Salaries and Expenses
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Office of the Chief Information Officer (OCIO) Salaries and Expenses
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Office of the Chief Information Officer (OCIO) Salaries and Expenses
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Office of the General Counsel (OGC) Salaries and Expenses
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Office of the General Counsel (OGC) Salaries and Expenses
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Office of the Inspector General (OIG) Salaries and Expenses
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Office of the Inspector General (OIG) Salaries and Expenses
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Office of the Secretary (OSEC) Salaries and Expenses
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Office of the Secretary (OSEC) Salaries and Expenses
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Research, Education, and Economics (REE) Salaries and Expenses
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Research, Education, and Economics (REE) Salaries and Expenses
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Rural Business-Cooperative Service (RBCS) Grant Programs and Cooperative
+      Agreement Programs
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Business-Cooperative Service (RBCS) Grant Programs and Cooperative
-    Agreement Programs
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Rural Business-Cooperative Service (RBCS) Guaranteed Loan Programs
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Business-Cooperative Service (RBCS) Guaranteed Loan Programs
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Rural Business-Cooperative Service (RBCS) Payment Assistance
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Business-Cooperative Service (RBCS) Payment Assistance
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Rural Business-Cooperative Service (RBCS) Relending Programs
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Business-Cooperative Service (RBCS) Relending Programs
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Rural Development (RD) Salaries and Expenses
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Development (RD) Salaries and Expenses
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Rural Housing Service (RHS) Community Facilities Community Program
+      Grants
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Housing Service (RHS) Community Facilities Community Program
-    Grants
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Rural Housing Service (RHS) Community Facilities Direct Loans
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Housing Service (RHS) Community Facilities Direct Loans
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Rural Housing Service (RHS) Farm Labor Housing Loans (Section 514)
+      and Grants (Section 516)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Housing Service (RHS) Farm Labor Housing Loans (Section 514)
-    and Grants (Section 516)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Rural Housing Service (RHS) Housing Loans and Grants - Other
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Housing Service (RHS) Housing Loans and Grants - Other
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Rural Housing Service (RHS) Multi Family Housing RD Voucher Program
+      (Section 542)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Housing Service (RHS) Multi Family Housing RD Voucher Program
-    (Section 542)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Rural Housing Service (RHS) Multi-Family Housing Preservation and
+      Revitalization Demo Program
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Housing Service (RHS) Multi-Family Housing Preservation and
-    Revitalization Demo Program
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Rural Housing Service (RHS) Multi-Family Housing Rental Assistance
+      Program
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Housing Service (RHS) Multi-Family Housing Rental Assistance
-    Program
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Rural Housing Service (RHS) Multi-Family Housing Rural Rental Housing
+      Direct Loans (Section 515)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Housing Service (RHS) Multi-Family Housing Rural Rental Housing
-    Direct Loans (Section 515)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: Rural Housing Service (RHS) Rural Community Development Initiative
+      Grants
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Housing Service (RHS) Rural Community Development Initiative
-    Grants
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Rural Housing Service (RHS) Single Family Housing Direct Loans
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Housing Service (RHS) Single Family Housing Direct Loans
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Rural Housing Service (RHS) Single Family Housing Guaranteed Loans
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Housing Service (RHS) Single Family Housing Guaranteed Loans
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Rural Utilities Service (RUS) Broadband Telecom Loans - Treasury
+      Rate
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) Broadband Telecom Loans - Treasury Rate
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Rural Utilities Service (RUS) Community Connect Grants
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) Community Connect Grants
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Rural Utilities Service (RUS) Congressional Earmarked Funds
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) Congressional Earmarked Funds
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Rural Utilities Service (RUS) Electric Loan Programs - Direct Treasury
+      Rate
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) Electric Loan Programs - Direct Treasury
-    Rate
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Rural Utilities Service (RUS) Electric Loan Programs FFB Guaranteed
+      Loans
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) Electric Loan Programs FFB Guaranteed
-    Loans
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Rural Utilities Service (RUS) Rural Energy Savings Program
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) Rural Energy Savings Program
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Rural Utilities Service (RUS) Rural Telecommunications - Distance
+      Learning and Telemedicine
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) Rural Telecommunications - Distance
-    Learning and Telemedicine
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Rural Utilities Service (RUS) Rural Telecommunications - Infrastructure
+      Investment and Jobs Act
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) Rural Telecommunications - Infrastructure
-    Investment and Jobs Act
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Rural Utilities Service (RUS) Rural Telecommunications - ReConnect
+      Program
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) Rural Telecommunications - ReConnect
-    Program
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: Rural Utilities Service (RUS) Rural Telecommunications Hardship
+      Loans - Direct Telecom Loans
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) Rural Telecommunications Hardship Loans
-    - Direct Telecom Loans
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Rural Utilities Service (RUS) Rural Telecommunications Loans - FFB
+      Telecom Loans
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) Rural Telecommunications Loans - FFB
-    Telecom Loans
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Rural Utilities Service (RUS) Rural Telecommunications Loans - Treasury
+      Telecom Loan
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) Rural Telecommunications Loans - Treasury
-    Telecom Loan
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: Rural Utilities Service (RUS) Rural Utilities Electric Program -
+      Direct 5%
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) Rural Utilities Electric Program - Direct
-    5%
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Rural Utilities Service (RUS) WEP Technical Assistance - Revolving
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) WEP Technical Assistance - Revolving
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Rural Utilities Service (RUS) Water and Waste Disposal Loans and
+      Grants Section 306C
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) Water and Waste Disposal Loans and Grants
-    Section 306C
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Rural Utilities Service (RUS) Water and Waste Disposal Systems for
+      Rural Communities Grants
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) Water and Waste Disposal Systems for
-    Rural Communities Grants
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Rural Utilities Service (RUS) Water and Waste Disposal Systems for
+      Rural Communities Loans
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Rural Utilities Service (RUS) Water and Waste Disposal Systems for
-    Rural Communities Loans
-  Slug: null
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[189.35999999999999, 1180.66, 312.13, 187.09]'
 Underpayment_Amounts: '[333.96, 86.53, 1584.61, 2077.92]'
 Unknown_Amounts: '[0, 0, 0, 0]'

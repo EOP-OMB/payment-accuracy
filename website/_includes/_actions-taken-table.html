@@ -1,0 +1,54 @@
+{% if include.Actions_Taken != nil and include.Actions_Taken.size > 0 %}
+    <table class="usa-table usa-table--borderless actions-table margin-y-0 margin-x-3">
+        <thead>
+            <tr>
+                <th scope="col" class="width-card-lg">Mitigation strategy</th>
+                <th scope="col">Description of the Corrective Action</th>
+                <th scope="col">Completion Date</th>
+                <th scope="col" class="status">Status</th>
+                <th scope="col" class="expand-col"></th>
+            </tr>
+        </thead>
+        <tbody>
+            {% assign sorted_action_taken = include.Actions_Taken | sort: "Action_Taken" %}
+            {% for action_taken in sorted_action_taken %}
+                <tr>
+                    <td scope="row" class="mitigation-strategy-col text-top">
+                        {{ action_taken.Action_Type }}
+                    </td>
+                    <td>
+                        <div class="truncated-cell-content" id="desc-{{ forloop.index }}-{{ year_data.Year }}">
+                            {{ action_taken.Description_Action_Taken }}
+                        </div>
+                    </td>
+                    <td>
+                        <div class="truncated-cell-content" id="date-{{ forloop.index }}-{{ year_data.Year }}">
+                            {{ action_taken.Completion_Date }}
+                        </div>
+                    </td>
+                    {% assign status_class = '' %}
+                    {% case action_taken.Action_Taken %}
+                        {% when 'Planned' %} {% assign status_class = 'planned' %}
+                        {% when 'Completed' %} {% assign status_class = 'completed' %}
+                        {% when 'Not Completed' %} {% assign status_class = 'not-completed' %}
+                        {% else %} {% assign status_class = 'unknown' %}
+                    {% endcase %}
+                    <td class="status text-top">
+                        <div class="{{ status_class }}">
+                            {{ action_taken.Action_Taken }}
+                        </div>
+                    </td>
+                    <td class="expand-col text-top">
+                        <button
+                            onclick="toggleClamp('{{ forloop.index }}-{{ year_data.Year }}')"
+                            class="square-3 padding-0 expand-btn"
+                            style="width:30px;"
+                        >
+                            <img src="/assets/img/expand.svg" />
+                        </button>
+                    </td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endif %}

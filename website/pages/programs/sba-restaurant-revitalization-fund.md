@@ -57,6 +57,7 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: "This program ended in June 2021.  There was no funding\
       \ for this program in FY2024, no disbursements will be made in FY2025.  SBA\
@@ -68,6 +69,7 @@ Data_By_Year:
       \ has ended."
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q1
     Description_Action_Taken: "This program ended in June 2021.  There was no funding\
       \ for this program in FY2024, no disbursements will be made in FY2025.  SBA\

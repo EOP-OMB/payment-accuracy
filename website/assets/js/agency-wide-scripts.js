@@ -1,7 +1,7 @@
 /**
  * Number of agencies per page in agency-wide table.
  */
-const Agencies_Per_Page = 10;
+const Agencies_Per_Page = 20;
 
 /**
  * Column index for improper payment rate within Agency-wide table.
@@ -439,4 +439,12 @@ document.addEventListener('DOMContentLoaded', () => {
             triggerSort.call(this, i);
         });
     });
+
+    // prevent tooltip from sorting on mobile
+    const tooltips = document.getElementsByClassName("usa-tooltip");
+    for (i = 0; i < tooltips.length; ++i) {
+        tooltips[i].addEventListener('click', (event) => {
+            event.stopPropagation();
+        })
+    }
 });

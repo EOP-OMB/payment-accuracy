@@ -160,6 +160,7 @@ Data_By_Year:
     cyp5: '2.66534820'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: SBA plans to continue its staff training in order to
       provide staff an understanding of the most common root causes of the improper
@@ -170,6 +171,7 @@ Data_By_Year:
       Assurance staff meet regularly to discuss issues common to all.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: SBA provided training at lender conferences in order
       to provide lenders an understanding of the most common root causes of the improper
@@ -294,6 +296,7 @@ Data_By_Year:
     Value: '11.057346'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: 'At this writing, SBA is in the process of issuing additional
       revisions to the 7(a) Servicing and Liquidation SOP.  SBA plans to provide training
@@ -309,6 +312,7 @@ Data_By_Year:
       for eligibility of reimbursement.'
     Mitigation_Strategy: app3_1
   - Action_Taken: Not Completed
+    Action_Type: Training
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'Internal training for purchase processors, reviewers,

@@ -162,6 +162,7 @@ Data_By_Year:
     cyp5: '15.21'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2023 Q3
     Description_Action_Taken: A large amount of RMA's improper payments resulting
       from the inability to access data/information are situations where policyholders
@@ -171,6 +172,7 @@ Data_By_Year:
       perennial producers.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: One type of error leading to improper payments for failure
       to access data/information resulted from policies established under a unit structure
@@ -182,6 +184,7 @@ Data_By_Year:
       applying unit structure requirements.
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q4
     Description_Action_Taken: Improper payments resulting from a failure to access
       data/information are often the result of process and/or administrative type
@@ -194,6 +197,7 @@ Data_By_Year:
       for completion.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2024
     Description_Action_Taken: A majority of the improper payments related to the inability
       to access data/information were the result of policyholders over-reporting insurable
@@ -331,6 +335,7 @@ Data_By_Year:
     Value: '8.120000'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: 'To address improper payment associated with the inability
       to access/data information, RMA will conduct a program assessment of the Spot
@@ -354,6 +359,7 @@ Data_By_Year:
       of the indemnities being issued.'
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2024 Q1
     Description_Action_Taken: 'A large amount of RMA''s improper payments were the
       result of insured not meeting insurability requirements and inaccurately reporting
@@ -364,6 +370,7 @@ Data_By_Year:
       to support acreage reported on the acreage report.'
     Mitigation_Strategy: atp2_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: Improper payments resulting from a failure to access
       data/information resulted from policies that were established using a unit structure

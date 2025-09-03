@@ -128,12 +128,14 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q1
     Description_Action_Taken: High Cost will conduct its annual Circle of Life webinars
       to address top common audit findings.  The webinar will provide common errors
       and best practices suggested to avoid these findings.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024
     Description_Action_Taken: 'Through USAC''s Risk Management Council meetings, the
       different
@@ -146,6 +148,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app5_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: Monthly meetings will continue to be held between USAC’s
       Audit and Assurance Division (AAD) and USAC leadership to discuss findings identified
@@ -153,6 +156,7 @@ Data_By_Year:
       findings in the future.
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2023 Q1
     Description_Action_Taken: 'Through USAC''s Risk Management Council meetings, the
       different
@@ -165,12 +169,14 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp5_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: High Cost will conduct its annual Circle of Life webinars
       to address top common audit findings.  The webinar will provide common errors
       and best practices suggested to avoid these findings.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q1
     Description_Action_Taken: Monthly meetings will continue to be held between USAC’s
       Audit and Assurance Division (AAD) and USAC leadership to discuss findings identified
@@ -282,6 +288,7 @@ Data_By_Year:
     Value: '11.040000'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q1
     Description_Action_Taken: Monthly meetings will continue to be held between USAC’s
       Audit and Assurance Division (AAD) and USAC leadership to discuss findings identified
@@ -289,6 +296,7 @@ Data_By_Year:
       findings in the future.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024 Q1
     Description_Action_Taken: Through USAC's Risk Management Council meetings, the
       different USF program teams discussed strategic initiatives and risk that may
@@ -297,6 +305,7 @@ Data_By_Year:
       to maintain an effective internal control system.
     Mitigation_Strategy: atp5_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2025
     Description_Action_Taken: 'Through USAC''s Risk Management Council meetings, the
       different
@@ -307,6 +316,7 @@ Data_By_Year:
       effective internal control system.'
     Mitigation_Strategy: app5_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: Monthly meetings will continue to be held between USAC’s
       Audit and Assurance Division (AAD) and USAC leadership to discuss findings identified
@@ -314,12 +324,14 @@ Data_By_Year:
       findings in the future.
     Mitigation_Strategy: app6_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: High Cost will conduct its annual Circle of Life webinars
       to address top common audit findings. The webinar will provide common errors
       and best practices suggested to avoid these findings.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q1
     Description_Action_Taken: High Cost will conduct its annual Circle of Life webinars
       to address top common audit findings. The webinar will provide common errors

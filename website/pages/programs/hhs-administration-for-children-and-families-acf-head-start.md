@@ -114,6 +114,7 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
 - Actions_Taken:
   - Action_Taken: Not Completed
+    Action_Type: Training
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: Errors are primarily attributed to failing to adhere
@@ -124,6 +125,7 @@ Data_By_Year:
       the Head Start monitoring tool to include transaction reviews.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: HHS plans to provide ongoing training to recipients
       on the issues that caused payment errors in the Head Start program.  Training
@@ -305,6 +307,7 @@ Data_By_Year:
     Value: '9.970000'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: HHS Change Process corrective actions planned include
       engaging expert consultant services to assess approaches to support Head Start
@@ -313,6 +316,7 @@ Data_By_Year:
       and operational requirements of the Head Start program.
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The training corrective actions taken by HHS included
       working with Head Start funding recipients to provide training through the Regional
@@ -321,6 +325,7 @@ Data_By_Year:
       cost and other common fiscal challenges that lead to payment errors.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: HHS will continue to utilize audits as a corrective
       action in the Head Start program. HHS will continue to review Head Start funding
@@ -330,6 +335,7 @@ Data_By_Year:
       and Single Audits.
     Mitigation_Strategy: app6_1
   - Action_Taken: Planned
+    Action_Type: Predictive Analytics
     Completion_Date: FY2025
     Description_Action_Taken: HHS plans to utilize Predictive Analytics as a corrective
       action in the Head Start program.  HHS will leverage modern technologies to
@@ -338,6 +344,7 @@ Data_By_Year:
       with policies and procedures.
     Mitigation_Strategy: app7_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: HHS plans to provide ongoing training to Head Start
       funding recipients on the issues that caused payment errors in the Head Start
@@ -350,6 +357,7 @@ Data_By_Year:
       and practical approaches to financial records management.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The change process corrective action taken by HHS was
       to enhance its oversight to include transaction reviews of Head Start funding

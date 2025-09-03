@@ -160,6 +160,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2023 Q1
     Description_Action_Taken: Through USAC's Risk Management Council meetings, the
       different Universal Service Fund (USF) program teams discussed strategic initiatives
@@ -169,6 +170,7 @@ Data_By_Year:
       well as effective enterprise systems management.
     Mitigation_Strategy: atp5_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: USAC will continue to hold monthly meetings between
       USAC’s Audit and Assurance Division (AAD) and USAC leadership to discuss findings
@@ -176,6 +178,7 @@ Data_By_Year:
       prevent similar audit findings from re-occurring in the future.
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q1
     Description_Action_Taken: Monthly meetings are held between USAC’s Audit and Assurance
       Division (AAD) and USAC leadership to discuss audit findings identified by AAD.
@@ -183,6 +186,7 @@ Data_By_Year:
       findings from re-occurring in the future.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: The Schools and Libraries program team will continue
       to enhance its outreach approach, providing customized and specific directions
@@ -194,6 +198,7 @@ Data_By_Year:
       participants with additional tools that they can access at their convenience.
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024
     Description_Action_Taken: The Schools and Libraries program team will continue
       to enhance its outreach approach, providing customized and specific directions
@@ -205,6 +210,7 @@ Data_By_Year:
       participants with additional tools that they can access at their convenience.
     Mitigation_Strategy: app5_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q1
     Description_Action_Taken: The Schools and Libraries program team has continued
       to enhance its outreach approach, providing customized and specific directions
@@ -219,6 +225,7 @@ Data_By_Year:
       invoicing requirements.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2025
     Description_Action_Taken: The FCC initiated a rulemaking proceeding in December
       2021 regarding the establishment of a USF Schools and Libraries Bidding Portal
@@ -352,6 +359,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2027
     Description_Action_Taken: The FCC initiated a rulemaking proceeding in December
       2021 regarding establishing a USF Schools and Libraries Bidding Portal to enhance
@@ -359,6 +367,7 @@ Data_By_Year:
       21-455) rulemaking proceeding remains open at this time.
     Mitigation_Strategy: app1_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q1
     Description_Action_Taken: The Schools and Libraries program team has continued
       to enhance its outreach approach, providing customized and specific directions
@@ -373,6 +382,7 @@ Data_By_Year:
       invoicing requirements.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q1
     Description_Action_Taken: With the transition of the Legacy Systems to the E-Rate
       Productivity Center (EPC), the Schools and Libraries program has established
@@ -380,6 +390,7 @@ Data_By_Year:
       more upfront data validations to mitigate improper payments.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024 Q1
     Description_Action_Taken: Through USAC's Risk Management Council meetings, the
       different Universal Service Fund (USF) program teams discussed strategic initiatives
@@ -389,6 +400,7 @@ Data_By_Year:
       well as effective enterprise systems management.
     Mitigation_Strategy: atp5_1
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2024 Q1
     Description_Action_Taken: The Schools and Libraries program team transitioned
       the invoicing process from the Legacy Systems to the E-Rate Productivity Center
@@ -397,6 +409,7 @@ Data_By_Year:
       of invoice filers.
     Mitigation_Strategy: atp1_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: The Schools and Libraries program team will continue
       to enhance its outreach approach, providing customized and specific directions
@@ -408,6 +421,7 @@ Data_By_Year:
       participants with additional tools that they can access at their convenience.
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2025
     Description_Action_Taken: Through USAC's Risk Management Council meetings, the
       different Universal Service Fund (USF) program teams discussed strategic initiatives
@@ -417,6 +431,7 @@ Data_By_Year:
       well as effective enterprise systems management.
     Mitigation_Strategy: app5_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: USAC will continue to hold monthly meetings between
       USAC’s Audit and Assurance Division (AAD) and USAC leadership to discuss findings
@@ -424,6 +439,7 @@ Data_By_Year:
       prevent similar audit findings from re-occurring in the future.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: USAC will continue to hold monthly meetings between
       USAC’s Audit and Assurance Division (AAD) and USAC leadership to discuss findings

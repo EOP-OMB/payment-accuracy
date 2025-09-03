@@ -268,6 +268,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: "The county office did not follow the documented program\
       \ requirements on findings.  Acreage reporting errors account for most of the\
@@ -285,6 +286,7 @@ Data_By_Year:
       \ to improve program integrity.\n"
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q2
     Description_Action_Taken: "National Payment Eligibility and Payment Limitation\
       \ training was provided at the National Training session held in Dallas, TX,\
@@ -449,6 +451,7 @@ Data_By_Year:
     cyp5: '0.00'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2026
     Description_Action_Taken: 'The root cause of these improper payments is failure
       to access data. Currently in development is an improper payment trend analysis
@@ -461,6 +464,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app1_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q3
     Description_Action_Taken: The root cause of these improper payments is failure
       to access data. In addition, an acreage reporting task force was formed to develop
@@ -468,6 +472,7 @@ Data_By_Year:
       2024.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: The root cause category for these findings is statutory
       requirements of program not met. A series of acreage reporting trainings are
@@ -476,6 +481,7 @@ Data_By_Year:
       at any time.
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: The root cause category for these findings is statutory
       requirements of program not met. The Agriculture Risk Coverage and Price Loss
@@ -491,6 +497,7 @@ Data_By_Year:
       training.
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'The root cause of Agriculture Risk Coverage and Price
       Loss Coverage’s findings was failure to access data and specifically related

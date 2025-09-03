@@ -263,6 +263,7 @@ Data_By_Year:
     cyp5: '0.05'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: 'Army Civilian Field Offices were unable to provide
       complete SF 1190s with authorizing signatures. Addressing the root causes for
@@ -292,6 +293,7 @@ Data_By_Year:
       upgrade, DoDEA will be adding the ability for CAC-enabled signatures and dates.'
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q3
     Description_Action_Taken: The FY 2023 Corrective Action Plan for the Civilian
       Pay Program was developed to address the technically improper payments due to
@@ -301,6 +303,7 @@ Data_By_Year:
       did not have an authorizing signature.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: 'DoDEA is in the process of completing a system modernization
       of the DoDEA Allowance Processing System (DAPS) which is to be housed on our

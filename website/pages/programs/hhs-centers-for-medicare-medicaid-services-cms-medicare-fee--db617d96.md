@@ -154,6 +154,7 @@ Data_By_Year:
     cyp5: '778.724454989542'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2024
     Description_Action_Taken: "Due to the high volume of Medicare claims processed\
       \ by HHS daily and the significant cost associated with conducting medical reviews\
@@ -164,12 +165,14 @@ Data_By_Year:
       \ payments of Medicare Part B claims and Medicaid claims. \n"
     Mitigation_Strategy: app1_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: "HHS will continue the Targeted Probe and Educate (TPE)\
       \ process , which consists of up to three rounds of review of 20-40 claims per\
       \ round, with one-on-one education provided at the end of each round. . \n"
     Mitigation_Strategy: app6_1
   - Action_Taken: Planned
+    Action_Type: Predictive Analytics
     Completion_Date: FY2024
     Description_Action_Taken: 'The Fraud Prevention System analyzes Medicare FFS claims
       using sophisticated algorithms to target investigative resources; generates
@@ -181,6 +184,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app7_1
   - Action_Taken: Not Completed
+    Action_Type: Predictive Analytics
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'The Fraud Prevention System analyzes Medicare FFS claims
@@ -191,6 +195,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp7_1
   - Action_Taken: Not Completed
+    Action_Type: Training
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'HHS educated providers and Durable Medical Equipment
@@ -205,6 +210,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp3_1
   - Action_Taken: Not Completed
+    Action_Type: Change Process
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'In FY 2023, HHS continued existing prior authorization
@@ -221,6 +227,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: 'HHS will educate providers and Durable Medical Equipment
       Prosthetics/Orthotics  & Supplies (DMEPOS) providers through Medicare Learning
@@ -233,6 +240,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: "HHS will continue existing prior authorization processes.\
       \ HHS will also continue to screen new and existing Medicare providers and suppliers.\
@@ -241,6 +249,7 @@ Data_By_Year:
       \ MACs. \n"
     Mitigation_Strategy: app4_1
   - Action_Taken: Not Completed
+    Action_Type: Automation
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: "Due to the high volume of Medicare claims processed\
@@ -252,6 +261,7 @@ Data_By_Year:
       \ Part B claims and Medicaid claims. \n"
     Mitigation_Strategy: atp1_1
   - Action_Taken: Not Completed
+    Action_Type: Audit
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: "HHS continued the Targeted Probe and Educate (TPE)\
@@ -412,6 +422,7 @@ Data_By_Year:
     Value: '995.033200'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2025
     Description_Action_Taken: 'Due to the high volume of Medicare claims processed
       by HHS daily and the significant cost associated with conducting medical reviews
@@ -425,6 +436,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app1_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: 'In FY 2025, HHS will continue the existing prior authorization
       processes for hospital outpatient, DMEPOS, and Repetitive, Scheduled Non-Emergent
@@ -442,6 +454,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "HHS educated providers and Durable Medical Equipment\
       \ Prosthetics/Orthotics  & Supplies (DMEPOS) providers through Medicare Learning\
@@ -452,6 +465,7 @@ Data_By_Year:
       \ if necessary.   \n"
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Predictive Analytics
     Completion_Date: FY2025
     Description_Action_Taken: 'The Fraud Prevention System analyzes Medicare FFS claims
       using sophisticated algorithms to target investigative resources; generates
@@ -463,6 +477,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app7_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'HHS continued the Targeted Probe and Educate (TPE)
       process, which consists of up to three rounds of review of 20-40 claims per
@@ -473,6 +488,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp6_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'In FY 2024, HHS continued existing prior authorization
       processes for hospital outpatient, DMEPOS, and Repetitive, Scheduled Non-Emergent
@@ -492,6 +508,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp4_1
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "Due to the high volume of Medicare claims processed\
       \ by HHS daily and the significant cost associated with conducting medical reviews\
@@ -502,6 +519,7 @@ Data_By_Year:
       \ Part B claims and Medicaid claims. \n"
     Mitigation_Strategy: atp1_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: 'HHS will continue the Targeted Probe and Educate (TPE)
       process , which consists of up to three rounds of review of 20-40 claims per
@@ -512,6 +530,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app6_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: 'HHS will educate providers and Durable Medical Equipment
       Prosthetics/Orthotics  & Supplies (DMEPOS) providers through Medicare Learning
@@ -524,6 +543,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Predictive Analytics
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "The Fraud Prevention System analyzes Medicare FFS claims\
       \ using sophisticated algorithms to target investigative resources; generates\

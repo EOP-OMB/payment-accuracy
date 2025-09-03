@@ -4,6 +4,7 @@ Agency_Name: Department of Defense
 Data_By_Year:
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: 'The Department’s unknown payments within the Civilian
       Pay Other Defense Organization were primarily a result of the lack of sufficient
@@ -31,6 +32,7 @@ Data_By_Year:
       samples in a timely manner based off of the deliverable schedule.'
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'Due to the delays with the system upgrades the DoD
       Education Activity (DoDEA) has implemented a manual compensating control since
@@ -52,6 +54,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp4_1
   - Action_Taken: Not Completed
+    Action_Type: Automation
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: A DoDEA employee must complete a Standard Form(SF)-1190
@@ -68,6 +71,7 @@ Data_By_Year:
       stalled and compensating controls were put in place.
     Mitigation_Strategy: atp1_1
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2026
     Description_Action_Taken: "During the FY 2023 and FY 2024 Payment Integrity Audits,\
       \ it was found that DoDEA did not have proper signatures on both the Standard\

@@ -274,6 +274,7 @@ Data_By_Year:
     cyp5: '6.89'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2025
     Description_Action_Taken: 'The Department''s Commercial Pay program cross enterprise
       sharing corrective actions will focus on the collaboration from various Components
@@ -287,6 +288,7 @@ Data_By_Year:
       Department''s Payment Integrity resources and available tools.'
     Mitigation_Strategy: app5_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: 'The Department''s Commercial Pay program will establish
       Defense
@@ -303,6 +305,7 @@ Data_By_Year:
       sample packages along with specific examples of acceptable documentation.'
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'The Department''s Commercial Pay program did not have
       a formal corrective action plan to maintain or improve based on prior year findings.
@@ -329,6 +332,7 @@ Data_By_Year:
       environment.'
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: The Department Commercial Pay Working Groups will collaborate
       to identify the repository systems for payments made under the Commercial Pay

@@ -110,6 +110,7 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2023
     Description_Action_Taken: TRSUI calculates the provider distribution amounts based
       upon the minutes submitted and the current rate in the database. Calculations
@@ -117,6 +118,7 @@ Data_By_Year:
       continue to rely on the system calculations unless errors arise.
     Mitigation_Strategy: app1_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q3
     Description_Action_Taken: A discussion took place with the process owner of the
       TRS Provider Distribution process in September 2023. The process owner was instructed
@@ -127,18 +129,21 @@ Data_By_Year:
       to ensure signers recalculate any calculations a 2nd and 3rd time.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q4
     Description_Action_Taken: Provider Distribution Process documentation was updated
       for the item discussed in ATP3_1. Future internal control audits and PIIA reporting
       will include this as a note for any manual calculations being performed.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2023
     Description_Action_Taken: Provider Distribution Process documentation was updated
       for the item discussed in ATP3_1. Future internal control audits and PIIA reporting
       will include this as a note for any manual calculations being performed.
     Mitigation_Strategy: app6_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2023
     Description_Action_Taken: A discussion took place with the process owner of the
       TRS Provider Distribution process in September 2023. The process owner was instructed

@@ -168,6 +168,7 @@ Data_By_Year:
     cyp5: '0.066'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: AmeriCorps plans to continue to provide training and
       resources to grantees to ensure proper utilization of grant funds. AmeriCorps
@@ -180,6 +181,7 @@ Data_By_Year:
       that currently exist in FY 2024.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: AmeriCorps had established a Payment Integrity Corrective
       Action Plan working group. Using improper and unknown payments information from

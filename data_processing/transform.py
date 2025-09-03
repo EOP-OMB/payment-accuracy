@@ -34,6 +34,8 @@ EXTRACTED_SURVEY_ROOT_CAUSE = "KPI_ImproperPaymentSurveyRootCause_vw_IP.csv"
 EXTRACTED_IP_ROOT_CAUSES = "MY_OMB_ImproperPayment_Payment_IP_Root_Causes_vw.csv"
 ACTIONS_DATE_MAPPING = "ActionsDateMapping.csv"
 EXTRACTED_MITIGATION_STRATEGIES_CSV_NAME = "MY_OMB_ImproperPayment_Mitigation_Strategies_vw.csv"
+EXTRACTED_CONGRESSIONAL_REPORTS_AGENCY_CSV_NAME = "MY_OMB_ImproperPayment_PaymentAccuracy_AgencyData_raw_vw-Congressional.csv"
+EXTRACTED_CONGRESSIONAL_REPORTS_PROGRAM_CSV_NAME = "MY_OMB_ImproperPayment_PaymentAccuracy_ProgramData_raw_vw-Congressional.csv"
 
 ALL_PROGRAMS_DATA_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_ALL_PROGRAMS_CSV_NAME)
 PROGRAM_DATA_RAW_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_PROGRAM_DATA_RAW_CSV_NAME)
@@ -50,6 +52,8 @@ SURVEY_ROOT_CAUSE_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRA
 IP_ROOT_CAUSES_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_IP_ROOT_CAUSES)
 ACTION_DATE_MAPPING_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, ACTIONS_DATE_MAPPING)
 MITIGATION_STRATEGIES_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_MITIGATION_STRATEGIES_CSV_NAME)
+CONGRESSIONAL_REPORTS_AGENCY_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_CONGRESSIONAL_REPORTS_AGENCY_CSV_NAME)
+CONGRESSIONAL_REPORTS_PROGRAM_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_CONGRESSIONAL_REPORTS_PROGRAM_CSV_NAME)
 
 ALL_PROGRAMS_DATA_AGGREGATION_DROP_TABLE_SQL = """
     DROP TABLE IF EXISTS all_programs_data_aggregation;
@@ -377,6 +381,552 @@ QUARTERLY_SCORECARD_LINKS_CREATE_VIEW_SQL = """
     );
 """
 
+CONGRESSIONAL_REPORTS_DROP_VIEW_SQL = [
+    "DROP VIEW IF EXISTS congressional_report_1_2024",
+    "DROP VIEW IF EXISTS congressional_report_1_2025",
+    "DROP VIEW IF EXISTS congressional_report_2_2024",
+    "DROP VIEW IF EXISTS congressional_report_2_2025",
+    "DROP VIEW IF EXISTS congressional_report_5_2024",
+    "DROP VIEW IF EXISTS congressional_report_5_2025",
+    "DROP VIEW IF EXISTS congressional_report_7_2024",
+    "DROP VIEW IF EXISTS congressional_report_8_2024",
+    "DROP VIEW IF EXISTS congressional_report_2_2024_programs",
+    "DROP VIEW IF EXISTS congressional_report_2_2025_programs",
+    "DROP VIEW IF EXISTS congressional_report_3_2024_programs",
+    "DROP VIEW IF EXISTS congressional_report_4_2024_programs",
+    "DROP VIEW IF EXISTS congressional_report_4_2025_programs",
+]
+
+# Each query needs an [Agency], [Fiscal_Year], [Key], [Question], [Answer], and [SortOrder]
+CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
+    """
+    CREATE VIEW congressional_report_1_2024 AS
+    SELECT
+        [agency] AS [Agency],
+        [Fiscal_Year],
+        [Key],
+        [Title] AS [Question],
+        [value] AS [Answer],
+        CASE [Key]
+            WHEN 'raa6_1' THEN 0
+            WHEN 'raa6_2' THEN 1
+            WHEN 'raa7_1' THEN 2
+            WHEN 'raa7_2' THEN 3
+            WHEN 'raa8' THEN 4
+            WHEN 'raa8_1' THEN 5
+        END AS [SortOrder]
+    FROM [congressional_reports]
+    WHERE [Key] IN (
+        'raa6_1',
+        'raa6_2',
+        'raa7_1',
+        'raa7_2',
+        'raa8',
+        'raa8_1'
+    )
+    """,
+    """
+    CREATE VIEW congressional_report_1_2025 AS
+    SELECT
+        [agency] AS [Agency],
+        [Fiscal_Year],
+        [Key],
+        [Title] AS [Question],
+        [value] AS [Answer],
+        CASE [Key]
+            WHEN 'raa6_1' THEN 0
+            WHEN 'raa6_2' THEN 1
+            WHEN 'raa7_1' THEN 2
+            WHEN 'raa7_2' THEN 3
+            WHEN 'raa8' THEN 4
+            WHEN 'raa8_1' THEN 5
+        END AS [SortOrder]
+    FROM [congressional_reports]
+    WHERE [Key] IN (
+        'raa6_1',
+        'raa6_2',
+        'raa7_1',
+        'raa7_2',
+        'raa8',
+        'raa8_1'
+    )
+    """,
+    """
+    CREATE VIEW congressional_report_2_2024 AS
+    SELECT
+        [agency] AS [Agency],
+        [Fiscal_Year],
+        [Key],
+        [Title] AS [Question],
+        [value] AS [Answer],
+        CASE [Key]
+            WHEN 'ara2_1' THEN 0
+        END AS [SortOrder]
+    FROM [congressional_reports]
+    WHERE [Key] IN (
+        'ara2_1'
+    )
+    """,
+    """
+    CREATE VIEW congressional_report_2_2025 AS
+    SELECT
+        [agency] AS [Agency],
+        [Fiscal_Year],
+        [Key],
+        [Title] AS [Question],
+        [value] AS [Answer],
+        CASE [Key]
+            WHEN 'arp17_1' THEN 0
+        END AS [SortOrder]
+    FROM [congressional_reports]
+    WHERE [Key] IN (
+        'arp17_1'
+    )
+    """,
+    """
+    CREATE VIEW congressional_report_5_2024 AS
+    SELECT
+        [congressional_reports].[agency] AS [Agency],
+        [congressional_reports].[Fiscal_Year],
+        [congressional_reports].[Key],
+        [congressional_reports].[Title] AS [Question],
+        CASE
+            --set calculated field to NULL when numerator is NULL
+            WHEN [congressional_reports].[Key] == 'arp4_1' AND [arp4].[value] IS NULL THEN NULL
+            ELSE [congressional_reports].[value] END AS [Answer],
+        CASE [congressional_reports].[Key]
+            WHEN 'arp17' THEN 0
+            WHEN 'ara2_1' THEN 1
+            WHEN 'arp6' THEN 2
+            WHEN 'arp3_1' THEN 3
+            WHEN 'arp7' THEN 4
+            WHEN 'arp8' THEN 5
+            WHEN 'arp9' THEN 6
+            WHEN 'arp10' THEN 7
+            WHEN 'arp11' THEN 8
+            WHEN 'arp12' THEN 9
+            WHEN 'arp5' THEN 10
+            WHEN 'arp5_1' THEN 11
+            WHEN 'arp14' THEN 12
+            WHEN 'arp15' THEN 13
+            WHEN 'arp4' THEN 14
+            WHEN 'arp4_1' THEN 15
+            WHEN 'ara2_2' THEN 16
+            WHEN 'ara2_3' THEN 17
+        END AS [SortOrder]
+    FROM [congressional_reports]
+    LEFT JOIN
+        (SELECT * FROM [congressional_reports] WHERE [Key] = 'arp4') [arp4]
+    ON
+        [congressional_reports].[agency] = [arp4].[agency] AND
+        [congressional_reports].[Fiscal_Year] = [arp4].[Fiscal_Year]
+    WHERE [congressional_reports].[Key] IN (
+        'arp17',
+        'ara2_1',
+        'arp6',
+        'arp3_1',
+        'arp7',
+        'arp8',
+        'arp9',
+        'arp10',
+        'arp11',
+        'arp12',
+        'arp5',
+        'arp5_1',
+        'arp14',
+        'arp15',
+        'arp4',
+        'arp4_1',
+        'ara2_2',
+        'ara2_3'
+    )
+    """,
+    """
+    CREATE VIEW congressional_report_5_2025 AS
+    SELECT
+        [congressional_reports].[agency] AS [Agency],
+        [congressional_reports].[Fiscal_Year],
+        [congressional_reports].[Key],
+        [congressional_reports].[Title] AS [Question],
+        CASE
+            --set calculated field to NULL when numerator is NULL
+            WHEN [congressional_reports].[Key] == 'arp4_1' AND [arp4].[value] IS NULL THEN NULL
+            ELSE [congressional_reports].[value] END AS [Answer],
+        CASE [congressional_reports].[Key]
+            WHEN 'arp17_1' THEN 0
+            WHEN 'arp6' THEN 1
+            WHEN 'arp3_1' THEN 2
+            WHEN 'dis1' THEN 3
+            WHEN 'arp5' THEN 4
+            WHEN 'arp5_1' THEN 5
+            WHEN 'arp14' THEN 6
+            WHEN 'arp15' THEN 7
+            WHEN 'arp4' THEN 8
+            WHEN 'arp4_1' THEN 9
+            WHEN 'ara2_2' THEN 10
+            WHEN 'ara2_3' THEN 11
+        END AS [SortOrder]
+    FROM [congressional_reports]
+    LEFT JOIN
+        (SELECT * FROM [congressional_reports] WHERE [Key] = 'arp4') [arp4]
+    ON
+        [congressional_reports].[agency] = [arp4].[agency] AND
+        [congressional_reports].[Fiscal_Year] = [arp4].[Fiscal_Year]
+    WHERE [congressional_reports].[Key] IN (
+        'arp17_1',
+        'arp6',
+        'arp3_1',
+        'dis1',
+        'arp5',
+        'arp5_1',
+        'arp14',
+        'arp15',
+        'arp4',
+        'arp4_1',
+        'ara2_2',
+        'ara2_3'
+    )
+    """,
+    """
+    CREATE VIEW congressional_report_7_2024 AS
+    SELECT
+        [congressional_reports].[agency] AS [Agency],
+        [congressional_reports].[Fiscal_Year],
+        [congressional_reports].[Key],
+        [congressional_reports].[Title] AS [Question],
+        [congressional_reports].[value] AS [Answer],
+        CASE [congressional_reports].[Key]
+            WHEN 'com1' THEN 0
+            WHEN 'pcp01_1' THEN 1
+            WHEN 'CAP5' THEN 2
+            WHEN 'cap3' THEN 3
+            WHEN 'cap4' THEN 4
+        END AS [SortOrder]
+    FROM [congressional_reports]
+    LEFT JOIN
+        (SELECT * FROM [congressional_reports] WHERE [Key] = 'com1') [com1]
+    ON
+        [congressional_reports].[agency] = [com1].[agency] AND
+        [congressional_reports].[Fiscal_Year] = [com1].[Fiscal_Year]
+    WHERE [congressional_reports].[Key] IN (
+        'com1',
+        'pcp01_1',
+        'CAP5',
+        'cap3',
+        'cap4'
+    -- only report non-compliant agencies
+    ) AND UPPER([com1].[value]) LIKE 'NON%'
+    """,
+    """
+    CREATE VIEW congressional_report_8_2024 AS
+    SELECT
+        [congressional_reports].[agency] AS [Agency],
+        [congressional_reports].[Fiscal_Year],
+        [congressional_reports].[Key],
+        [congressional_reports].[Title] AS [Question],
+        [congressional_reports].[value] AS [Answer],
+        CASE [congressional_reports].[Key]
+            WHEN 'com1' THEN 0
+            WHEN 'pcp01_1' THEN 1
+            WHEN 'CAP5' THEN 2
+        END AS [SortOrder]
+    FROM [congressional_reports]
+    LEFT JOIN
+        (SELECT * FROM [congressional_reports] WHERE [Key] = 'com1') [com1]
+    ON
+        [congressional_reports].[agency] = [com1].[agency] AND
+        [congressional_reports].[Fiscal_Year] = [com1].[Fiscal_Year]
+    WHERE [congressional_reports].[Key] IN (
+        'com1',
+        'pcp01_1',
+        'CAP5'
+    -- only report non-compliant agencies
+    ) AND UPPER([com1].[value]) LIKE 'NON%'
+    """,
+    """
+    CREATE VIEW congressional_report_2_2024_programs AS
+    SELECT
+        [congressional_reports_program].[agency] AS [Agency],
+        [congressional_reports_program].[Program Name] AS [Program_Name],
+        [congressional_reports_program].[Fiscal_Year],
+        [key] AS [Key],
+        [Title] AS [Question],
+        [value] AS [Answer],
+        CASE [Key]
+            WHEN 'cyp21_app1_8' THEN 0
+            WHEN 'cyp5_app1_8' THEN 1
+            WHEN 'cyp6_app1_8' THEN 2
+            WHEN 'cyp7_app1_8' THEN 3
+            WHEN 'app1_1' THEN 4
+            WHEN 'app2_1' THEN 5
+            WHEN 'app3_1' THEN 6
+            WHEN 'app4_1' THEN 7
+            WHEN 'app5_1' THEN 8
+            WHEN 'app6_1' THEN 9
+            WHEN 'app7_1' THEN 10
+            WHEN 'app8_1' THEN 11
+        END AS [SortOrder]
+    FROM [congressional_reports_program]
+    INNER JOIN (
+        SELECT
+            [Agency],
+            [Fiscal_Year],
+            [Program_Name]
+        FROM [all_programs_data_aggregation]
+        WHERE [High_Priority_Program] = '1'
+    ) [high_priority]
+    ON
+        [high_priority].[Agency] = [congressional_reports_program].[agency] AND
+        [high_priority].[Program_Name] = [congressional_reports_program].[Program Name] AND
+        [high_priority].[Fiscal_Year] = [congressional_reports_program].[Fiscal_Year]
+    WHERE [Key] IN (
+        'cyp21_app1_8',
+        'cyp5_app1_8',
+        'cyp6_app1_8',
+        'cyp7_app1_8',
+        'app1_1',
+        'app2_1',
+        'app3_1',
+        'app4_1',
+        'app5_1',
+        'app6_1',
+        'app7_1',
+        'app8_1'
+    )
+    """,
+    """
+    CREATE VIEW congressional_report_2_2025_programs AS
+    SELECT
+        [congressional_reports_program].[agency] AS [Agency],
+        [congressional_reports_program].[Program Name] AS [Program_Name],
+        [congressional_reports_program].[Fiscal_Year],
+        [key] AS [Key],
+        [Title] AS [Question],
+        [value] AS [Answer],
+        CASE [Key]
+            WHEN 'cyp21_app1_8' THEN 0
+            WHEN 'cyp5_app1_8' THEN 1
+            WHEN 'cyp6_app1_8' THEN 2
+            WHEN 'cyp7_app1_8' THEN 3
+            WHEN 'atpapp30_1' THEN 4
+        END AS [SortOrder]
+    FROM [congressional_reports_program]
+    INNER JOIN (
+        SELECT
+            [Agency],
+            [Fiscal_Year],
+            [Program_Name]
+        FROM [all_programs_data_aggregation]
+        WHERE [High_Priority_Program] = '1'
+    ) [high_priority]
+    ON
+        [high_priority].[Agency] = [congressional_reports_program].[agency] AND
+        [high_priority].[Program_Name] = [congressional_reports_program].[Program Name] AND
+        [high_priority].[Fiscal_Year] = [congressional_reports_program].[Fiscal_Year]
+    WHERE [Key] IN (
+        'cyp21_app1_8',
+        'cyp5_app1_8',
+        'cyp6_app1_8',
+        'cyp7_app1_8',
+        'atpapp30_1'
+    )
+    """,
+    """
+    CREATE VIEW congressional_report_3_2024_programs AS
+    SELECT
+        [agency] AS [Agency],
+        [Program Name] AS [Program_Name],
+        [Fiscal_Year],
+        [key] AS [Key],
+        [Title] AS [Question],
+        [value] AS [Answer],
+        CASE [Key]
+            WHEN 'rac3' THEN 0
+            WHEN 'cyp1' THEN 1
+            WHEN 'cyp27' THEN 2
+            WHEN 'cyp28' THEN 3
+            WHEN 'cyp21' THEN 4
+            WHEN 'cyp22' THEN 5
+            WHEN 'cyp2' THEN 6
+            WHEN 'cyp3' THEN 7
+            WHEN 'cyp26' THEN 8
+            WHEN 'cyp5' THEN 9
+            WHEN 'cyp23' THEN 10
+            WHEN 'cyp6' THEN 11
+            WHEN 'cyp25' THEN 12
+            WHEN 'cyp7' THEN 13
+            WHEN 'cyp24' THEN 14
+            WHEN 'cyp30' THEN 15
+            WHEN 'cyp29' THEN 16
+        END AS [SortOrder]
+    FROM [congressional_reports_program]
+    WHERE [Key] IN (
+        'rac3',
+        'cyp1',
+        'cyp27',
+        'cyp28',
+        'cyp21',
+        'cyp22',
+        'cyp2',
+        'cyp3',
+        'cyp26',
+        'cyp5',
+        'cyp23',
+        'cyp6',
+        'cyp25',
+        'cyp7',
+        'cyp24',
+        'cyp30',
+        'cyp29'
+    )
+    """,
+    """
+    CREATE VIEW congressional_report_4_2024_programs AS
+    SELECT
+        [agency] AS [Agency],
+        [Program Name] AS [Program_Name],
+        [Fiscal_Year],
+        [key] AS [Key],
+        [Title] AS [Question],
+        [value] AS [Answer],
+        CASE [Key]
+            WHEN 'rac3' THEN 0
+            WHEN 'cyp1' THEN 1
+            WHEN 'cyp27' THEN 2
+            WHEN 'cyp28' THEN 3
+            WHEN 'cyp30' THEN 6
+            WHEN 'cyp29' THEN 7
+            WHEN 'cyp21' THEN 8
+            WHEN 'cyp20_1' THEN 9
+            WHEN 'cyp22' THEN 10
+            WHEN 'cyp2_1' THEN 11
+            WHEN 'cyp4_1' THEN 12
+            WHEN 'cyp2_cop1' THEN 13
+            WHEN 'cyp3_cop4' THEN 14
+            WHEN 'cyp2_cop2' THEN 15
+            WHEN 'cyp3_cop5' THEN 16
+            WHEN 'cyp2_cop3' THEN 17
+            WHEN 'cyp3_cop6' THEN 18
+            WHEN 'cyp5' THEN 19
+            WHEN 'cyp23' THEN 20
+            WHEN 'cyp5_cup1' THEN 21
+            WHEN 'cyp5_cup2' THEN 22
+            WHEN 'cyp5_cup3' THEN 23
+            WHEN 'cyp6' THEN 24
+            WHEN 'cyp25' THEN 25
+            WHEN 'cyp6_1' THEN 26
+            WHEN 'cyp7' THEN 27
+            WHEN 'cyp24' THEN 28
+            WHEN 'cyp8' THEN 29
+            WHEN 'cyp7_ucp3' THEN 30
+            WHEN 'cyp7_ucp3_1' THEN 31
+            WHEN 'cyp7_ucp2' THEN 32
+            WHEN 'cyp7_ucp2_1' THEN 33
+            WHEN 'cyp7_ucp1' THEN 34
+            WHEN 'cyp7_ucp1_1' THEN 35
+            WHEN 'cyp7_ucp4' THEN 36
+            WHEN 'cyp7_ucp4_1' THEN 37
+        END AS [SortOrder]
+    FROM [congressional_reports_program]
+    WHERE [Key] IN (
+        'rac3',
+        'cyp1',
+        'cyp27',
+        'cyp28',
+        'cyp30',
+        'cyp29',
+        'cyp20_1',
+        'cyp22',
+        'cyp2_1',
+        'cyp4_1',
+        'cyp2_cop1',
+        'cyp3_cop4',
+        'cyp2_cop2',
+        'cyp3_cop5',
+        'cyp2_cop3',
+        'cyp3_cop6',
+        'cyp5',
+        'cyp23',
+        'cyp5_cup1',
+        'cyp5_cup2',
+        'cyp5_cup3',
+        'cyp6',
+        'cyp25',
+        'cyp6_1',
+        'cyp7',
+        'cyp24',
+        'cyp8',
+        'cyp7_ucp3',
+        'cyp7_ucp3_1',
+        'cyp7_ucp2',
+        'cyp7_ucp2_1',
+        'cyp7_ucp1',
+        'cyp7_ucp1_1',
+        'cyp7_ucp4',
+        'cyp7_ucp4_1'
+    )
+    """,
+    """
+    CREATE VIEW congressional_report_4_2025_programs AS
+    SELECT
+        [agency] AS [Agency],
+        [Program Name] AS [Program_Name],
+        [Fiscal_Year],
+        [key] AS [Key],
+        [Title] AS [Question],
+        [value] AS [Answer],
+        CASE [Key]
+            WHEN 'rac3' THEN 0
+            WHEN 'cyp1' THEN 1
+            WHEN 'cyp27' THEN 2
+            WHEN 'cyp28' THEN 3
+            WHEN 'cyp30' THEN 6
+            WHEN 'cyp29' THEN 7
+            WHEN 'cyp20_1' THEN 8
+            WHEN 'cyp30_1' THEN 9
+            WHEN 'cyp21' THEN 10
+            WHEN 'cyp22' THEN 11
+            WHEN 'cyp21_cop7' THEN 12
+            WHEN 'cyp21_cop8' THEN 13
+            WHEN 'cyp21_cop9' THEN 14
+            WHEN 'cyp5' THEN 15
+            WHEN 'cyp23' THEN 16
+            WHEN 'cyp5_cup1' THEN 17
+            WHEN 'cyp5_cup2' THEN 18
+            WHEN 'cyp5_cup3' THEN 19
+            WHEN 'cyp6' THEN 20
+            WHEN 'cyp25' THEN 21
+            WHEN 'cyp7' THEN 22
+            WHEN 'cyp24' THEN 23
+        END AS [SortOrder]
+    FROM [congressional_reports_program]
+    WHERE [Key] IN (
+        'rac3',
+        'cyp1',
+        'cyp27',
+        'cyp28',
+        'cyp30',
+        'cyp29',
+        'cyp20_1',
+        'cyp30_1',
+        'cyp21',
+        'cyp22',
+        'cyp21_cop7',
+        'cyp21_cop8',
+        'cyp21_cop9',
+        'cyp5',
+        'cyp23',
+        'cyp5_cup1',
+        'cyp5_cup2',
+        'cyp5_cup3',
+        'cyp6',
+        'cyp25',
+        'cyp7',
+        'cyp24'
+    )
+    """
+]
+
 # establish a database connection to store transformed data that is used
 # in the load / generate stage
 conn = sqlite3.connect(TRANSFORMED_DB_FILE_PATH)
@@ -442,6 +992,12 @@ def load_actions_date_mapping_file(conn):
 
 def load_mitigation_strategies_file(conn):
     load_csv_to_sqlite(MITIGATION_STRATEGIES_PATH, "mitigation_strategies", conn)
+
+def load_congressional_reports_files(conn):
+    load_csv_to_sqlite(CONGRESSIONAL_REPORTS_AGENCY_PATH, "congressional_reports", conn)
+
+def load_congressional_reports_files_program(conn):
+    load_csv_to_sqlite(CONGRESSIONAL_REPORTS_PROGRAM_PATH, "congressional_reports_program", conn)
 
 def transform_and_insert_all_programs_data_aggregation_data():
     """
@@ -517,6 +1073,15 @@ def transform_and_insert_quarterly_scorecards():
                 cur.execute(insertQuery)
     conn.commit()
 
+def recreate_year_mapped_views():
+    for drop_query in CONGRESSIONAL_REPORTS_DROP_VIEW_SQL:
+        cur.execute(drop_query)
+
+    for create_query in CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL:
+        cur.execute(create_query)
+
+    conn.commit()
+
 load_all_programs_file(conn)
 load_program_data_raw_file(conn)
 load_agency_data_raw_file(conn)
@@ -532,11 +1097,14 @@ load_survey_root_cause_file(conn)
 load_ip_root_causes_file(conn)
 load_actions_date_mapping_file(conn)
 load_mitigation_strategies_file(conn)
+load_congressional_reports_files(conn)
+load_congressional_reports_files_program(conn)
 transform_and_insert_all_programs_data_aggregation_data()
 transform_and_insert_all_agencies_data_aggregation_data()
 transform_and_insert_government_wide_data_aggregation_data()
 transform_and_insert_significant_or_high_priority_programs_data()
 transform_and_insert_all_agencies_years_data()
 transform_and_insert_quarterly_scorecards()
+recreate_year_mapped_views()
 
 conn.close()

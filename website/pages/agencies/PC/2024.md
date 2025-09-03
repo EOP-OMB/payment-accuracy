@@ -10,7 +10,7 @@ Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
 Hide_PIIA2019: false
 Hide_Recovery_Audits: false
-Hide_Recovery_Details: true
+Hide_Recovery_Details: false
 Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
@@ -44,11 +44,13 @@ Payment_Accuracy_Rate_Max: 0
 Payment_Accuracy_Rate_Min: 0
 Payment_Accuracy_Rates: '[]'
 Risks:
-- Assessments:
+  AdditionalInformation: null
+  Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Volunteer Service
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Volunteer Service
-  Slug: null
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'

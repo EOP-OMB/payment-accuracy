@@ -155,6 +155,7 @@ Data_By_Year:
     cyp5: '0.00'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2023 Q4
     Description_Action_Taken: "The National Emergency Management Information System\
       \ (NEMIS) is a database system used to track disaster data for FEMA and recipient\
@@ -174,6 +175,7 @@ Data_By_Year:
       \ Application Review and Approval, etc."
     Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2023 Q2
     Description_Action_Taken: Effective March 2023, FEMA released the updated Hazard
       Mitigation Assistance Program and Policy Guide (HMA Guide).  The purpose of
@@ -184,6 +186,7 @@ Data_By_Year:
       priorities.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: FEMA will continue to provide regular training opportunities
       for regional partners and state, local, tribal, and territorial governments.
@@ -196,6 +199,7 @@ Data_By_Year:
       is readily available.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'The Payment Integrity Information Act of 2019 (PIIA)
       requires agencies to review and assess all programs and activities they administer
@@ -219,6 +223,7 @@ Data_By_Year:
       arising related to HMGP.'
     Mitigation_Strategy: atp6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'Trainings are available and are designed to help FEMA
       regional partners and state, local, tribal, and territorial governments create

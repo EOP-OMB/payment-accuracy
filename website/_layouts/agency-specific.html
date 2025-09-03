@@ -6,7 +6,7 @@ permalink: /
     <section class="usa-hero agency-specific-hero" aria-label="Agencies & Programs">
         <div class="grid-container agency-specific-hero-content">
             <div class="grid-row">
-                <div class="grid-col-7 hero-text-container">
+                <div class="desktop:grid-col-7 tablet:grid-col-12 hero-text-container">
                     <div class="hero-text">
                         <h1>{{ page.Agency_Name }}</h1>
                         {% if page.detail_exs1 != nil %}
@@ -15,11 +15,6 @@ permalink: /
                             </p>
                             <a href="javascript:void(0)" onclick="unclampExecutiveSummary()" id="show-full-executive-summary">Show Full Executive Summary</a>
                         {% endif %}
-                    </div>
-                </div>
-                <div class="grid-col hero-image-container">
-                    <div class="hero-image">
-                        <img src="/assets/img/agency-specific-image.png" alt="Agency-Specific Image">
                     </div>
                 </div>
             </div>
@@ -47,16 +42,17 @@ permalink: /
                 {% unless page.Hide_Sparklines == true or page.Is_Placeholder == true %}
                     <ul class="usa-card-group grid-row grid-gap-6 spending-trends-cards">
                         <li class="usa-card mobile:grid-col-12 tablet:grid-col-6 desktop:grid-col-4">
-                            {% assign Chart_Caption = "(Based on federal funding spent by programs susceptible to improper payments within the agency)" %}
+                            {% assign Chart_Caption = "(Based on Federal funding spent by Programs determined by Agencies as susceptible to improper payments)" %}
                             {% include _sparklines-chart.html
                                 rate_min=page.Payment_Accuracy_Rate_Min
                                 rate_max=page.Payment_Accuracy_Rate_Max
                                 datapoints=page.Payment_Accuracy_Rates
                                 years=page.Improper_Payments_Data_Years
-                                min=80
+                                min=0
                                 max=100
                                 cy=page.Fiscal_Year
                                 color="rgba(84, 39, 143, 1)"
+                                background_color="rgba(157, 135, 190, 1)"
                                 title="Payment accuracy rate"
                                 caption=Chart_Caption %}
                         </li>
@@ -70,6 +66,7 @@ permalink: /
                                 max=10
                                 cy=page.Fiscal_Year
                                 color="rgba(84, 39, 143, 1)"
+                                background_color="rgba(157, 135, 190, 1)"
                                 title="Improper payments rate"
                                 caption=Chart_Caption %}
                         </li>
@@ -83,6 +80,7 @@ permalink: /
                                 max=10
                                 cy=page.Fiscal_Year
                                 color="rgba(84, 39, 143, 1)"
+                                background_color="rgba(157, 135, 190, 1)"
                                 title="Unknown payments rate"
                                 caption=Chart_Caption %}
                         </li>
@@ -597,69 +595,10 @@ permalink: /
                                 </button>
                             </h4>
                             <div id="accordion-4b" class="usa-accordion__content usa-prose">
-                                {% if page.detail_raa9 != nil %}
-                                    <p>{{ page.detail_raa9 | newline_to_br }}</p>
-                                {% endif %}
-
-                                {% if page.detail_raa8 == 'Yes' %}
-                                    <p><strong>The Agency made substantial changes to the methodology of the review conducted for risk for improper payments for the reporting cycle.</strong></p>
-                                {% endif %}
-
-                                {% if page.Risks != nil and page.Risks.size > 0 %}
-                                    <table class="usa-table--borderless usa-table" id="risk-assessments-table">
-                                        <thead>
-                                            <tr>
-                                                <th data-sortable scope="col" role="columnheader" class="padding-2 cursor-pointer">Program Name</th>
-                                                <th data-sortable scope="col" role="columnheader" class="padding-2 cursor-pointer">When was the last improper payment Risk Assessment conducted?</th>
-                                                <th data-sortable scope="col" role="columnheader" class="padding-2 cursor-pointer">Likely to be susceptible to significant improper payments?</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            {% assign rowHeaderRendered = false %}
-                                            {% for risk in page.Risks %}
-                                                {% assign firstAssessment = risk.Assessments | first %}
-                                                {% assign minAssessmentYear = firstAssessment.Fiscal_Year %}
-                                                {% for assessment in risk.Assessments %}
-                                                <tr>
-                                                    {% if rowHeaderRendered == false %}
-                                                        <!-- rowspan would be preferable, but it breaks uswds sorting -->
-                                                        <td class="text-left" data-sort-value="{{ risk.Program_Name }}" style="border-bottom: none;">
-                                                            {% if risk.Slug == nil or risk.Slug == '' %}
-                                                                {{ risk.Program_Name }}
-                                                            {% else %}
-                                                                <a href="/program/{{ risk.Slug }}">{{ risk.Program_Name }}</a>
-                                                            {% endif %}
-                                                        </td>
-                                                    {% else %}
-                                                        <td data-sort-value="{{ risk.Program_Name }}" style="border-top: none; border-bottom: none;"></td>
-                                                    {% endif %}
-                                                    {% assign rowHeaderRendered = true %}
-                                                    {% assign yearSortValue = assessment.Fiscal_Year %}
-                                                    {% if risk.Assessments.size > 1 %}
-                                                        <!-- this ensures that multi-row programs are sorted together -->
-                                                        {% assign yearSortValue = minAssessmentYear | append: risk.Program_Name %}
-                                                    {% endif %}
-                                                    <td data-sort-value="{{ yearSortValue }}">
-                                                        {{ assessment.Fiscal_Year }}
-                                                    </td>
-                                                    {% assign susceptibleSortValue = assessment.Susceptible %}
-                                                    {% if risk.Assessments.size > 1 %}
-                                                        <!-- this ensures that multi-row programs are sorted together -->
-                                                        {% assign susceptibleSortValue = 'Yes' | append: risk.Program_Name %}
-                                                    {% endif %}
-                                                    <td data-sort-value="{{ susceptibleSortValue }}">
-                                                        {% if assessment.Susceptible == 'Yes' %}
-                                                            <img src="/assets/img/orange-check.svg" alt="No"> Yes
-                                                        {% else %}
-                                                            <img src="/assets/img/green-x.svg" alt="No"> No
-                                                        {% endif %}
-                                                    </td>
-                                                </tr>
-                                                {% endfor %}
-                                                {% assign rowHeaderRendered = false %}
-                                            {% endfor %}
-                                        </tbody>
-                                    </table>
+                                {% if page.Risks != nil %}
+                                    {% include _risk-assessments-table.html
+                                        Risks = page.Risks
+                                    %}
                                 {% endif %}
                             </div>
                         </div>

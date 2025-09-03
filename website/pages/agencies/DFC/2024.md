@@ -80,16 +80,17 @@ Payment_Accuracy_Rate_Max: 0
 Payment_Accuracy_Rate_Min: 0
 Payment_Accuracy_Rates: '[]'
 Risks:
-- Assessments:
+  AdditionalInformation: null
+  Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Debt Financing Program
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Debt Financing Program
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Technical Assistance Program
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Technical Assistance Program
-  Slug: null
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'

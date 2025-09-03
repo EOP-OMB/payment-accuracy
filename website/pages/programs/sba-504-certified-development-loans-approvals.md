@@ -165,6 +165,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: "SBA plans to continue its training at Lender conferences\
       \ in order to provide lenders an understanding of the most common root causes\
@@ -176,6 +177,7 @@ Data_By_Year:
       \ to discuss issues common to all."
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: SBA provided training at lender conferences in order
       to provide lenders an understanding of the most common root causes of the improper
@@ -316,6 +318,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: Specific corrective actions are determined based upon
       the primary reason for the error, with the purpose of both remedying the error
@@ -324,6 +327,7 @@ Data_By_Year:
       approval and that policy requirements are met.
     Mitigation_Strategy: app3_1
   - Action_Taken: Not Completed
+    Action_Type: Training
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'External training for lenders to ensure that appropriate

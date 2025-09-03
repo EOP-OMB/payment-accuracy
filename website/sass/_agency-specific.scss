@@ -65,14 +65,6 @@ h3 {
             padding: 0 0 4rem;
         }
 
-        .hero-image {
-            margin-left: 3rem;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            height: 100%;
-        }
-
         #show-full-executive-summary {
             text-decoration: unset;
             @include default-text-styling($color: $white, $size: 16px, $weight: bold, $height: 24px);
@@ -85,9 +77,6 @@ h3 {
         @media (max-width: $mobile) {
             .hero-text-container {
                 width: 100%;
-            }
-            .hero-image-container {
-                display: none;
             }
         }
     }

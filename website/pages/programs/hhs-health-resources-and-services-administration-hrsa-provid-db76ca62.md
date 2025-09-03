@@ -118,6 +118,7 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q1
     Description_Action_Taken: HHS prioritized the need to gather historical records
       of policy and program decisions already made into accessible locations. HHS
@@ -125,6 +126,7 @@ Data_By_Year:
       internal adjudication or payment errors.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: Recipients of the UIP are subject to review as set forth
       in the UIP Terms and Conditions.  HHS conducts reviews of UIP claims reimbursement
@@ -132,12 +134,14 @@ Data_By_Year:
       and Conditions.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q1
     Description_Action_Taken: HHS offered training to personnel and contractors on
       conducting TIN matching, documentation retention to enable efficient assessments
       of UIP claims.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: HHS will continue to prioritize the need to gather historical
       records of policy and program decisions already made into accessible locations.

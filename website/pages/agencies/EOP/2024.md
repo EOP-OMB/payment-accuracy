@@ -56,7 +56,10 @@ Payment_Accuracy_Amounts: '[]'
 Payment_Accuracy_Rate_Max: 0
 Payment_Accuracy_Rate_Min: 0
 Payment_Accuracy_Rates: '[]'
-Risks: []
+Risks:
+  AdditionalInformation: null
+  Assessments: []
+  SubstantialChangesMade: null
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'

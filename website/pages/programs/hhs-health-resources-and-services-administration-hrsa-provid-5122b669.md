@@ -154,6 +154,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2024
     Description_Action_Taken: HHS continues making substantial updates to its manual
       validation results programmatically to ensure consistency in applying calculations
@@ -164,6 +165,7 @@ Data_By_Year:
       through ongoing internal controls.
     Mitigation_Strategy: app1_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024
     Description_Action_Taken: 'HHS employs a process of post-payment analysis for
       in-depth review and investigation to identify potential payment errors, including
@@ -175,12 +177,14 @@ Data_By_Year:
       and address post-payment review process issues.'
     Mitigation_Strategy: app5_1
   - Action_Taken: Planned
+    Action_Type: Predictive Analytics
     Completion_Date: FY2024
     Description_Action_Taken: HHS will continue to employ a system that flags anomalies
       for in-depth analysis and investigation to rectify potential errors or clarify
       why the anomaly is not an error.
     Mitigation_Strategy: app7_1
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2023 Q4
     Description_Action_Taken: HHS updated its manual validation to ensure consistency
       in applying calculations and determining outcomes. HHS worked on its robotic
@@ -190,12 +194,14 @@ Data_By_Year:
       internal controls.
     Mitigation_Strategy: atp1_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: HHS plans to offer training to personnel and contractors
       on conducting payment disbursement audits and reviews, including resolution,
       covering federal laws and internal policies.
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2023
     Description_Action_Taken: HHS went from asking for whole number percentages to
       dollar amounts, which led to greater precision by providers and is continuing
@@ -203,6 +209,7 @@ Data_By_Year:
       care revenue and were revisions are necessary.
     Mitigation_Strategy: app2_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: "HHS's establishment of standardized practices for calculating\
       \ payments and deductions, involving pay files, systems, and verifying recipient\
@@ -214,12 +221,14 @@ Data_By_Year:
       \ improper payments."
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Predictive Analytics
     Completion_Date: FY2023 Q4
     Description_Action_Taken: HHS employed a system that flags anomalies for in-depth
       analysis and investigation to rectify potential errors or clarify why the anomaly
       is not an error.
     Mitigation_Strategy: atp7_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2023 Q4
     Description_Action_Taken: "HHS established standardized practices for calculating\
       \ payments and deductions, involving pay files, systems, and verified recipient\
@@ -233,6 +242,7 @@ Data_By_Year:
       \ summed payments issued to the provider affected."
     Mitigation_Strategy: atp4_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q4
     Description_Action_Taken: "Recipients, in line with their fund receipt agreement,\
       \ committed to cooperating in audits by HHS, HHS OIG, or the Pandemic Response\
@@ -249,6 +259,7 @@ Data_By_Year:
       \ are identified and resolved."
     Mitigation_Strategy: atp6_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'HHS employed a process of post-payment analysis for
       in-depth review and investigation to identify potential payment errors, including
@@ -260,6 +271,7 @@ Data_By_Year:
       changes and addressed post-payment review process issues.'
     Mitigation_Strategy: atp5_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: "Recipients, in line with their fund receipt agreement,\
       \ commit to cooperating in audits by HHS, HHS OIG, or the Pandemic Response\
@@ -276,6 +288,7 @@ Data_By_Year:
       \ and OIG are other ways risks and issues are identified and resolved."
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: HHS offered training to personnel and contractors on
       conducting payment disbursement audits and reviews, including resolution, covering
@@ -400,6 +413,7 @@ Data_By_Year:
     Value: '22.310000'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: HRSA established standardized practices for calculating
       payments and deductions, involving pay files, systems, and verified recipient
@@ -413,6 +427,7 @@ Data_By_Year:
       to the provider affected.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'Recipients, in line with their fund receipt agreement,
       commit to cooperating in audits by HHS, HHS OIG, or the Pandemic Response Accountability
@@ -432,6 +447,7 @@ Data_By_Year:
       risks and issues are identified and resolved.'
     Mitigation_Strategy: atp6_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'HRSA employed a process of post-payment analysis for
       in-depth
@@ -443,6 +459,7 @@ Data_By_Year:
       issues.'
     Mitigation_Strategy: atp5_1
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'HRSA updated its manual validation to ensure consistency
       in applying
@@ -452,6 +469,7 @@ Data_By_Year:
       through internal controls.'
     Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'HRSA went from asking for whole number percentages
       to dollar
@@ -461,6 +479,7 @@ Data_By_Year:
       and were revisions are necessary.'
     Mitigation_Strategy: atp2_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'HRSA offered training to personnel and contractors
       on conducting payment
@@ -471,6 +490,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
+    Action_Type: Predictive Analytics
     Completion_Date: FY2024 Q4
     Description_Action_Taken: HRSA employed a system that flags anomalies for in-depth
       analysis and investigation to rectify potential errors or clarify why the anomaly

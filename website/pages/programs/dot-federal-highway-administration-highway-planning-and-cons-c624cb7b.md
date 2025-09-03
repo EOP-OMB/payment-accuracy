@@ -185,6 +185,7 @@ Data_By_Year:
     cyp5: '.105'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q2
     Description_Action_Taken: FHWA compared identified improper payments with prior
       year findings and addressed specific issues with relevant Federal-aid Division
@@ -192,6 +193,7 @@ Data_By_Year:
       the grant recipient.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: FHWA will work with grant recipients to improve project
       documentation and/or payment processes, or address training deficiencies as
@@ -355,6 +357,7 @@ Data_By_Year:
     Value: '3.106599'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: 'FHWA will work with grant recipients to improve project
       documentation and/or payment processes, or address training deficiencies as
@@ -369,6 +372,7 @@ Data_By_Year:
       FHWA will recover overpayments from the grant recipient.'
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q2
     Description_Action_Taken: FHWA compared identified improper payments with prior
       year findings and addressed specific issues with relevant Federal-aid Division

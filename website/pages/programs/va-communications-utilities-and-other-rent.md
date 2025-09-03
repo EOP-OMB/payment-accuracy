@@ -208,6 +208,7 @@ Data_By_Year:
     cyp5: '0.00000103'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: Actions planned regarding change process include restructuring
       existing local and national contracts, requiring secondary level of approval
@@ -223,6 +224,7 @@ Data_By_Year:
       existing payment processes.
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2023 Q4
     Description_Action_Taken: "Actions taken regarding change process to address overpayments\
       \ and underpayments included identifying remedies for improper and unknown payments.\
@@ -440,6 +442,7 @@ Data_By_Year:
     Value: '0.000266'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: Actions taken included restructuring existing local
       and national contracts and rejecting invoices that do not comply with contract

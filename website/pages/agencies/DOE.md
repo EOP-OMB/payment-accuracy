@@ -10,7 +10,7 @@ Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
 Hide_PIIA2019: false
 Hide_Recovery_Audits: false
-Hide_Recovery_Details: true
+Hide_Recovery_Details: false
 Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
@@ -104,36 +104,37 @@ Payment_Accuracy_Rate_Max: 0
 Payment_Accuracy_Rate_Min: 0
 Payment_Accuracy_Rates: '[]'
 Risks:
-- Assessments:
+  AdditionalInformation: "DOE evaluates eight of the Office of Management and Budget’s\
+    \ (OMB) suggested risk assessment factors per OMB Circular A-123, Appendix C,\
+    \ as applicable to DOE;  plus four other risk factors, as determined by DOE. The\
+    \ four other risk factors include 1) Internal Audit & A-123; 2) Contractor & Grantee\
+    \ Oversight; 3) Information & Data Systems; and 4) Supplemental Funding. \n"
+  Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Benefits - Payroll
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Benefits - Payroll
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Benefits - Travel
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Benefits - Travel
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Financial Assistance Awards
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Financial Assistance Awards
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Loans
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Loans
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Other - Department of Energy
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Other - Department of Energy
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Vendors/Contracts
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Vendors/Contracts
-  Slug: null
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'

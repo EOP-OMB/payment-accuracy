@@ -257,6 +257,7 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2025
     Description_Action_Taken: HHS will continue to utilize cross enterprise sharing
       as a corrective action in the Title IV-E Foster Care Program. HHS will continue
@@ -268,6 +269,7 @@ Data_By_Year:
       require a Program Improvement Plan for states not in substantial compliance.
     Mitigation_Strategy: app5_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: HHS will continue to utilize training as a corrective
       action in the Title IV-E Foster Care Program. HHS recorded a series of videos
@@ -277,12 +279,14 @@ Data_By_Year:
       agencies and federal staff.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: HHS utilized audits as a corrective action in the Title
       IV-E Foster Care Program. HHS continuously reviews Title IV-E quarterly claims
       to address and correct any errors or anomalies in state submissions.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: HHS utilized the Change Process as a corrective action
       for the Title IV-E Foster Care Program.  HHS updated the Title IV-E Review section
@@ -292,6 +296,7 @@ Data_By_Year:
       Title IV-E Foster Care payment regulations.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024 Q4
     Description_Action_Taken: HHS worked with state Title IV-E agencies to improve
       program compliance and share successful strategies. In addition, at the conclusion
@@ -301,12 +306,14 @@ Data_By_Year:
       not in substantial compliance.
     Mitigation_Strategy: atp5_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: HHS will continue to utilize audits as a corrective
       action in the Title IV-E Foster Care Program. HHS will continue to review states'
       Title IV-E quarterly claims to address and rectify claiming errors and anomalies.
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: HHS utilized training as a corrective action in the
       Title IV-E Foster Care Program.  HHS conducted trainings for federal and state

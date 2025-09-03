@@ -157,6 +157,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: FTA will advise grant recipients of requirements to
       correct future reimbursement requests and recover overpayments, if applicable.
@@ -164,6 +165,7 @@ Data_By_Year:
       to clarify that cost incurred prior to COVID-19 are ineligible.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q3
     Description_Action_Taken: 'FTA held payment integrity training with its regional
       offices and select transit authorities at the onset of the sampling and estimation
@@ -298,6 +300,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: FTA will work with grant recipients to improve project
       documentation and/or payment processes, or address training deficiencies as
@@ -305,6 +308,7 @@ Data_By_Year:
       from the grant recipient.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q3
     Description_Action_Taken: FTA held payment integrity training with its regional
       offices and select transit authorities at the onset of the sampling and estimation

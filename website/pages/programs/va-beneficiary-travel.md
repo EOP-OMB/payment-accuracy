@@ -212,6 +212,7 @@ Data_By_Year:
     cyp5: '0.47'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2024
     Description_Action_Taken: Actions planned regarding automation include continuing
       to implement new software that will provide a customized and enhanced tool to
@@ -230,6 +231,7 @@ Data_By_Year:
       and human error.
     Mitigation_Strategy: app1_1
   - Action_Taken: Not Completed
+    Action_Type: Automation
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: Actions taken regarding automation included continuing
@@ -240,6 +242,7 @@ Data_By_Year:
       of the beneficiary travel claims processing software and other systems.
     Mitigation_Strategy: atp1_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: Actions planned regarding change process include the
       Beneficiary Travel program office will submit proposed enterprise-wide infrastructure
@@ -469,6 +472,7 @@ Data_By_Year:
     Value: '0.560000'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: Actions planned include developing new and enhanced
       claims' processing training and deploying training resources across various
@@ -482,6 +486,7 @@ Data_By_Year:
       the importance of consistencies in standard operating procedures.
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2025
     Description_Action_Taken: Actions planned include continuing with the post-implementation
       modernization of beneficiary travel claims processing systems. VA enhanced automation
@@ -494,6 +499,7 @@ Data_By_Year:
       from manual processes and human error.
     Mitigation_Strategy: app1_1
   - Action_Taken: Not Completed
+    Action_Type: Automation
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: Actions taken included continuing to implement new software
@@ -515,6 +521,7 @@ Data_By_Year:
       from manual processes and human error.
     Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: Actions taken included establishing and deploying enterprise-wide
       infrastructure solutions to include quality assurance monitoring processes for

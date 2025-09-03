@@ -3,12 +3,12 @@
         <canvas
             data-series="{{ include.datapoints }}"
             data-color="{{ include.color }}"
+            data-background-color="{{ include.background_color }}"
             data-min="{{ include.min }}"
             data-max="{{ include.max }}"
             data-years="{{ include.years }}"
             class="sparklines-chart">
         </canvas>
-        <h4 class="margin-y-05">{{ include.rate_min }}% - {{ include.rate_max }}%</h4>
         <h5 class="margin-y-05">{{ include.title }}</h5>
         <p class="text-base margin-y-05">
             {{ include.caption }}

@@ -194,6 +194,7 @@ Data_By_Year:
     cyp5: '0.46'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2025
     Description_Action_Taken: Actions planned regarding automation include conducting
       quarterly matches with the Social Security Administration to identify variances
@@ -218,6 +219,7 @@ Data_By_Year:
       of data to validate beneficiary income and eligibility status prior to payment.
     Mitigation_Strategy: app1_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: Actions planned regarding audit include randomly reviewing
       claim processors’ work to ensure policies and procedures are properly applied
@@ -234,6 +236,7 @@ Data_By_Year:
       to policies and procedures to make accurate decisions prior to payment.
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2023 Q4
     Description_Action_Taken: Actions taken regarding automation include conducting
       quarterly matches with the Social Security Administration to identify variances
@@ -258,6 +261,7 @@ Data_By_Year:
       of data to validate beneficiary income and eligibility status prior to payment.
     Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q3
     Description_Action_Taken: Actions taken regarding audit include randomly reviewing
       claim processors’ work to ensure policies and procedures are properly applied
@@ -481,6 +485,7 @@ Data_By_Year:
     Value: '1.210000'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: Actions taken included randomly reviewing claims processors’
       work to ensure policies and procedures were properly applied in making accurate
@@ -495,6 +500,7 @@ Data_By_Year:
       accurate pension rate decisions prior to payment.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2024 Q4
     Description_Action_Taken: Actions taken included conducting quarterly matches
       with the Social Security Administration to identify variances between Social
@@ -521,6 +527,7 @@ Data_By_Year:
       prior to payment.
     Mitigation_Strategy: atp1_1
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2025
     Description_Action_Taken: Actions planned include conducting quarterly matches
       with the Social Security Administration to identify variances between Social
@@ -541,6 +548,7 @@ Data_By_Year:
       beneficiary income prior to payment.
     Mitigation_Strategy: app1_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: Actions planned include training staff to ensure policies
       and procedures are properly applied in making accurate pension rate decisions
@@ -553,6 +561,7 @@ Data_By_Year:
       increase skills to improve accurate pension rate decisions prior to payment.
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: Actions planned include randomly reviewing claims processors’
       work to ensure policies and procedures are properly applied in making accurate

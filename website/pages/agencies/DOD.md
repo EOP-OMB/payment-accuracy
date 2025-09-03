@@ -779,170 +779,168 @@ Payment_Accuracy_Rate_Min: 99.6
 Payment_Accuracy_Rates: '[99.62431026022188, 99.67386288085508, 99.76302926694459,
   99.57545664825867]'
 Risks:
-- Assessments:
-  - Fiscal_Year: 2019
+  AdditionalInformation: 'The Department conducts comprehensive risk assessments on
+    unique data characteristics and subpopulation groups.  Most of these groups are
+    not expected to be susceptible to significant improper and unknown payments due
+    to the strength of their internal controls which mitigate risk.  Programs deemed
+    susceptible to significant improper and unknown payments must transition to Phase
+    2.
+
+
+    Actions were initiated in FY 2022 and built upon in FY 2023 through the successful
+    restructuring of the Defense Health Agency Military Health Benefits portfolio.  The
+    restructuring involved dividing the large Military Health Benefits program into
+    six smaller, more manageable programs.  This strategic division allowed the Department
+    to concentrate on the unique risks and controls associated with each program.  As
+    a result of the restructure and targeted focus on program-specific risk factors
+    and mitigating controls, the Department achieved PIIA compliance for the first
+    time in the Military Health Benefits portfolio.  The Department then examined
+    all programs to understand the correlation between individual subgroup error rates
+    and their combined program error rates.  The Department found that robust internal
+    control processes directly contributed to the individual program’s lower projected
+    improper and unknown payment rates.  The Department-wide efforts in FY 2024 were
+    focused on performing comprehensive risk assessments to document, identify, and
+    classify the inherent risks and mitigating factors of payment types. As such,
+    the Department leveraged this reorganization (16 total programs in FY 2023; 8
+    Phase 1 and 8 Phase 2 to 42 Phase 1 and 6 Phase 2 programs in FY 2024) to develop
+    and implement appropriate internal controls to reduce improper and unknown payments
+    and uphold financial stewardship of taxpayer money. This strategy aligns with
+    the OMB’s Joint Financial Management Improvement Program and demonstrates that
+    PIIA compliance is achievable through the Department’s current internal control
+    environment.
+
+    '
+  Assessments:
+  - Fiscal_Year: 2020
+    Program_Name: Civilian Pay
+    Slug: dod-civilian-pay
+    Susceptible: 'Yes'
+  - Fiscal_Year: 2024
+    Program_Name: Civilian Pay – Department of Air Force (DAF)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2024
+    Program_Name: Civilian Pay – Navy
+    Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2020
+    Program_Name: Commercial Pay
+    Slug: dod-commercial-pay
     Susceptible: 'Yes'
-  Program_Name: Civilian Pay
-  Slug: dod-civilian-pay
-- Assessments:
-  - Fiscal_Year: 2024
-    Susceptible: 'No'
-  Program_Name: Civilian Pay – Department of Air Force (DAF)
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2024
-    Susceptible: 'No'
-  Program_Name: Civilian Pay – Navy
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2019
-    Susceptible: 'No'
-  - Fiscal_Year: 2020
-    Susceptible: 'Yes'
-  Program_Name: Commercial Pay
-  Slug: dod-commercial-pay
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Commercial Pay - U.S. Army Corps of Engineers (USACE)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Commercial Pay - U.S. Army Corps of Engineers (USACE)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2020
+    Program_Name: DoD Travel Pay
+    Slug: dod-dod-travel-pay
     Susceptible: 'Yes'
-  Program_Name: DoD Travel Pay
-  Slug: dod-dod-travel-pay
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Military Health Benefits - Administrative
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Military Health Benefits - Administrative
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2020
+    Program_Name: Military Health Benefits - Healthcare
+    Slug: dod-military-health-benefits-healthcare
     Susceptible: 'Yes'
-  Program_Name: Military Health Benefits - Healthcare
-  Slug: dod-military-health-benefits-healthcare
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Military Health Benefits – TRICARE East Region Program (East)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Military Health Benefits – TRICARE East Region Program (East)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Military Health Benefits – TRICARE Medicare Eligible Program (TMEP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Military Health Benefits – TRICARE Medicare Eligible Program (TMEP)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Military Health Benefits – TRICARE Overseas Program (TOP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Military Health Benefits – TRICARE Overseas Program (TOP)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Military Health Benefits – TRICARE Pharmacy Program (TPharm)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Military Health Benefits – TRICARE Pharmacy Program (TPharm)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Military Health Benefits – TRICARE West Region Program (West)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Military Health Benefits – TRICARE West Region Program (West)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2020
+    Program_Name: Military Pay - Army
+    Slug: dod-military-pay-army
     Susceptible: 'Yes'
-  Program_Name: Military Pay - Army
-  Slug: dod-military-pay-army
-- Assessments:
   - Fiscal_Year: 2020
+    Program_Name: Military Pay - Department of Air Force
+    Slug: null
     Susceptible: 'Yes'
-  Program_Name: Military Pay - Department of Air Force
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2020
+    Program_Name: Military Pay - Marine Corps
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Military Pay - Marine Corps
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2020
+    Program_Name: Military Pay - Navy
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Military Pay - Navy
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Military Pay Department of Air Force (DAF) – Active Duty
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Military Pay Department of Air Force (DAF) – Active Duty
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Military Pay Department of Air Force (DAF) – Air National Guard
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Military Pay Department of Air Force (DAF) – Air National Guard
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Military Pay Department of Air Force (DAF) – Reserve
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Military Pay Department of Air Force (DAF) – Reserve
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Military Pay Marine Corps – Active Duty
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Military Pay Marine Corps – Active Duty
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Military Pay Marine Corps – Reserve
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Military Pay Marine Corps – Reserve
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Military Pay Navy – Active Duty
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Military Pay Navy – Active Duty
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Military Pay Navy – Reserve
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Military Pay Navy – Reserve
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2020
+    Program_Name: Military Retirement
+    Slug: dod-military-retirement
     Susceptible: 'Yes'
-  Program_Name: Military Retirement
-  Slug: dod-military-retirement
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Travel Pay - U.S. Army Corps of Engineers (USACE)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Travel Pay - U.S. Army Corps of Engineers (USACE)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Travel Pay Department of Air Force (DAF) - Reserve Travel System
+      (RTS)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Travel Pay Department of Air Force (DAF) - Reserve Travel System (RTS)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Travel Pay Marine Corps - MARINE CORPS TOTAL FORCE SYSTEM (MCTFS)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Travel Pay Marine Corps - MARINE CORPS TOTAL FORCE SYSTEM (MCTFS)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Travel Pay Marine Corps – Defense Travel System (DTS)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Travel Pay Marine Corps – Defense Travel System (DTS)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Travel Pay Marine Corps – Integrated Automated Travel System (IATS)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Travel Pay Marine Corps – Integrated Automated Travel System (IATS)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Travel Pay Navy – Defense Travel System (DTS)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Travel Pay Navy – Defense Travel System (DTS)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Travel Pay Navy – Integrated Automated Travel System (IATS)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Travel Pay Navy – Integrated Automated Travel System (IATS)
-  Slug: null
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[246.60999999999999, 455.27, 765.32023, 405.33]'
 Underpayment_Amounts: '[113.6, 70.46000000000001, 71.53999999999999, 49.42]'
 Unknown_Amounts: '[1854.53, 821.65, 432.61, 451.43]'

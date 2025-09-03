@@ -236,63 +236,54 @@ Payment_Accuracy_Rate_Min: 93.7
 Payment_Accuracy_Rates: '[93.65751894621215, 95.73919712888194, 98.2801335251572,
   96.85280107795897]'
 Risks:
-- Assessments:
+  AdditionalInformation: null
+  Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Affordable Connectivity Program (ACP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Affordable Connectivity Program (ACP)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: COVID-19 Telehealth
+    Slug: null
     Susceptible: 'No'
-  Program_Name: COVID-19 Telehealth
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Emergency Connectivity Fund (ECF)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Emergency Connectivity Fund (ECF)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Federal Communications Commission Operating Expenses
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Federal Communications Commission Operating Expenses
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2020
+    Program_Name: North American Numbering Plan
+    Slug: null
     Susceptible: 'No'
-  Program_Name: North American Numbering Plan
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Secured & Trusted Communications Network Reimbursement Program (STCNRP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Secured & Trusted Communications Network Reimbursement Program (STCNRP)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
-    Susceptible: 'No'
-  Program_Name: TV Broadcasting Relocation Fund
-  Slug: null
-- Assessments:
-  - Fiscal_Year: 2021
+    Program_Name: TV Broadcasting Relocation Fund
+    Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2022
+    Program_Name: Telecommunications Relay Service
+    Slug: fcc-telecommunications-relay-service
     Susceptible: 'Yes'
-  Program_Name: Telecommunications Relay Service
-  Slug: fcc-telecommunications-relay-service
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Universal Service Administrative Company (USAC) - Administrative
+      Costs
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Universal Service Administrative Company (USAC) - Administrative Costs
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2021
+    Program_Name: Universal Service Fund - High Cost Legacy
+    Slug: fcc-universal-service-fund-high-cost-legacy
     Susceptible: 'Yes'
-  Program_Name: Universal Service Fund - High Cost Legacy
-  Slug: fcc-universal-service-fund-high-cost-legacy
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Universal Service Fund - Rural Health Care
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Universal Service Fund - Rural Health Care
-  Slug: null
+  SubstantialChangesMade: null
 Technically_Improper_Amounts: '[0, 0, 0, 0]'
 Underpayment_Amounts: '[0, 0, 11.040049999999999, 26.57]'
 Unknown_Amounts: '[18.33, 0, 0, 0]'

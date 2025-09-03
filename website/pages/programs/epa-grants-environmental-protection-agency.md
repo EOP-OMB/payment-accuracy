@@ -122,24 +122,28 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The agency now holds regular meetings will the full
       staff to discuss specific issues, Those issue along with implemented solutions
       are reviewed to see how broadly they can be applied.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: The Grants program along with the Office of the Controller
       will update its guidance documents. They are also developing more user friendly
       FAQs.
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: Staff reviewing payments meet once per week to discuss
       potential problems and lessons learned. The agency holds monthly online seminars
       for grantees that includes question and answer sessions.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2027
     Description_Action_Taken: Training held for all staff once per week. Plus online
       seminars for grantees monthly.

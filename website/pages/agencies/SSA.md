@@ -505,7 +505,7 @@ Hide_Eligibility_Criteria: false
 Hide_Integrity_Results: false
 Hide_PIIA2019: false
 Hide_Recovery_Audits: false
-Hide_Recovery_Details: true
+Hide_Recovery_Details: false
 Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: false
@@ -569,11 +569,78 @@ Payment_Accuracy_Rate_Min: 99.0
 Payment_Accuracy_Rates: '[99.27331916960917, 99.37514380816941, 98.97200505449239,
   99.25180722273066]'
 Risks:
-- Assessments:
+  AdditionalInformation: 'Our fiscal year (FY) 2024 improper payment risk assessment
+    of FY 2023 administrative payments included a review of Payroll and Benefits,
+    State Disability Determination Services (DDS), and Other Administrative Expenses.  We
+    will not have all FY 2024 data until January 2025.
+
+
+    Payroll and benefits account for a majority of our total administrative expenses.  For
+    FY 2023, we found approximately $3.35 million in improper payroll overpayments
+    out of $7,925 million payroll payments, which yielded a 0.04 percent improper
+    overpayment rate.
+
+
+    For State DDS payments, our 10 regional offices review amounts drawn against pre-approved
+    DDS spending plans.  For payment accuracy, our Office of the Inspector General
+    reviews the DDS payments on a rotational basis.  We use our Inspector General’s
+    findings, if any, to enhance our payment controls.
+
+
+    From the Other Administrative Expenses category, we review vendor and employee
+    travel payments using an existing internal recovery activities program with tools
+    to aid in the detection and recovery of improper overpayments, including:  an
+    automated query system to identify duplicate payments made to the same vendor,
+    with the same invoice date, and for the same amount; an annual payment accuracy
+    review examining select criteria on a random sample of payments to identify IPs
+    or a weakness in the internal payment recapture audit program; and a risk assessment
+    of administrative payment systems and recovery of any overpayments identified
+    in this process.
+
+
+    We identified total FY 2023 vendor and travel improper overpayments of $0.92 million,
+    approximately 0.05 percent of total payments subject to review.
+
+
+    As part of our review of Other Administrative Expenses, we reviewed our Inspector
+    General (IG) report, Fiscal Year 2023 Periodic Assessment of the Social Security
+    Administration’s Charge Card Programs, which was published in April 2024.  OIG
+    stated the following regarding the results of the assessment:  “We determined
+    the risk of illegal, improper, and erroneous purchases made through SSA’s charge
+    card programs is low.  SSA implemented safeguards and internal controls to prevent
+    waste, fraud, and abuse of purchase cards, travel cards, and CBAs by designing
+    its policies and procedures to address the requirements in the Act and OMB Circular
+    A-123, Appendix B.”
+
+
+    In addition, in May 2020, we performed administrative fraud risk assessments to
+    actively measure the effectiveness of the internal controls over the processing
+    of grants, large contracts, and travel and purchase cards.  These FY 2020 assessments
+    found that our management-related risks for these administrative payments fall
+    well below the OMB threshold.  In FY 2024, we conducted a maintenance assessment
+    in the administrative fraud program areas consistent with Government Accountability
+    Office guidance.
+
+
+    We also leveraged the results of an independent accounting firm’s FY 2018 residual
+    risk assessment in support of our FMFIA Internal Control Program.  This assessment
+    found that our administrative expenses, accounts payables, human resources, and
+    payroll management-related residual risks are low overall.  Testing over the years,
+    including our FY 2024 internal testing of controls in those areas confirmed that
+    the residual risk remains low.
+
+
+    Results from our comprehensive recovery activities program and quality review
+    process confirm that our administrative payments are well below the Office of
+    Management and Budget threshold for reporting IPs.
+
+    '
+  Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Administrative Payments - Social Security Administration
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Administrative Payments - Social Security Administration
-  Slug: null
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[0, 0, 0, 0]'
 Underpayment_Amounts: '[1453.9110081200001, 1392.21094062, 2503.75769942, 1711.23013231]'
 Unknown_Amounts: '[0, 0, 0, 0]'

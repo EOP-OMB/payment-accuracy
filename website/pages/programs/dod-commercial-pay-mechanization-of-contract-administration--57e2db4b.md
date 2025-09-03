@@ -4,6 +4,7 @@ Agency_Name: Department of Defense
 Data_By_Year:
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: 'The Department''s Commercial Pay MOCAS program does
       not have a formal corrective action plan to maintain or improve based on current
@@ -26,6 +27,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'The Department''s Commercial Pay MOCAS program in FY
       2024 did not have a formal corrective action plan based on current year findings.

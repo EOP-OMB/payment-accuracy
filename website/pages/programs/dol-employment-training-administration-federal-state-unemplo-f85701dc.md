@@ -182,6 +182,7 @@ Data_By_Year:
     Inability_to_Access_Data: 401.3
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2027+
     Description_Action_Taken: 'ETA will continue to encourage states to use SIDES
       and emphasize SIDES as a primary method to reduce improper payments and fraud
@@ -198,6 +199,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app1_1
   - Action_Taken: Planned
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2027+
     Description_Action_Taken: ETA will continue to provide BI recommendations to state
       UI programs through Tiger Team engagements and enhanced technical assistance
@@ -207,6 +209,7 @@ Data_By_Year:
       targeted BI technical assistance to states.
     Mitigation_Strategy: app2_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2027+
     Description_Action_Taken: 'ETA will continue to provide guidance and resources
       to alert states regarding new UI program requirements; provide updates to existing
@@ -227,6 +230,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app4_1
   - Action_Taken: Planned
+    Action_Type: Statutory Change
     Completion_Date: FY2025
     Description_Action_Taken: The Department of Labor will continue to provide legislative
       technical assistance on proposed UI Integrity legislation as needed. In addition,
@@ -235,6 +239,7 @@ Data_By_Year:
       the DOL-OIG with access to state UI data, including for investigations and audit.
     Mitigation_Strategy: app8_1
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2023 Q4
     Description_Action_Taken: "Employment and Training Administration (ETA) continued\
       \ to support expansion and updates to the State Information Data Exchange System\
@@ -337,6 +342,7 @@ Data_By_Year:
       \ in Unemployment Insurance Program Letter Number 11-23 in July 2023."
     Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2023 Q4
     Description_Action_Taken: "The Department-funded Unemployment Insurance Integrity\
       \ Center provides behavioral science information and expertise, evidence-based\
@@ -364,6 +370,7 @@ Data_By_Year:
       \ Insights to improve Unemployment Insurance systems, processes, and integrity.\n"
     Mitigation_Strategy: atp2_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2027+
     Description_Action_Taken: "ETA will continue to meet regularly with the DOL-OIG\
       \ to discuss emerging UI fraud issues, streamline communication with states,\
@@ -374,6 +381,7 @@ Data_By_Year:
       \ and add those resources to the UI Collection in the Library.\n"
     Mitigation_Strategy: app5_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: "Employment and Training Administration provided Unemployment\
       \ Insurance-related training to states administering the Unemployment Insurance\
@@ -467,6 +475,7 @@ Data_By_Year:
       \ conferences throughout FY 2023.\n"
     Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2023 Q4
     Description_Action_Taken: "Employment and Training Administration provided guidance\
       \ and resources to states to alert states regarding new Unemployment Insurance\
@@ -537,6 +546,7 @@ Data_By_Year:
       \ improper and fraudulent payments\n"
     Mitigation_Strategy: atp4_1
   - Action_Taken: Completed
+    Action_Type: Statutory Change
     Completion_Date: FY2023 Q4
     Description_Action_Taken: "In its FY 2024 budget submission, the Department proposed\
       \ a comprehensive package of provisions designed to provide new and expanded\
@@ -574,6 +584,7 @@ Data_By_Year:
       \ and audit purposes.\n"
     Mitigation_Strategy: atp8_1
   - Action_Taken: Planned
+    Action_Type: Predictive Analytics
     Completion_Date: FY2027+
     Description_Action_Taken: "ETA will continue to strongly encourage states to adopt\
       \ an array of solutions, tools, strategies, and techniques to prevent and detect\
@@ -585,6 +596,7 @@ Data_By_Year:
       \ payments.\n"
     Mitigation_Strategy: app7_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2027+
     Description_Action_Taken: 'ETA will continue to provide training to states on
       critical guidance, UI performance measures, ETA UI reporting requirements, and
@@ -604,6 +616,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2027+
     Description_Action_Taken: 'ETA will continue to conduct oversight and monitoring
       of state UI programs in line with the ETOs to ensure states’ conformity and
@@ -617,6 +630,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Predictive Analytics
     Completion_Date: FY2023 Q4
     Description_Action_Taken: "The Department continued to strongly encourages states\
       \ to adopt an array of strategies to detect and fight fraud, provide equitable\
@@ -721,6 +735,7 @@ Data_By_Year:
       \ use additional data sources, including government data sets. \n"
     Mitigation_Strategy: atp7_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q4
     Description_Action_Taken: "ETA National and Regional Office staff are collectively\
       \ responsible for federal oversight of state administration of UI programs.\
@@ -769,6 +784,7 @@ Data_By_Year:
       \ recommendations through Tiger Team engagements.\n"
     Mitigation_Strategy: atp6_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2023 Q4
     Description_Action_Taken: "Employment and Training Administration and the Department\
       \ of Labor's Office of Inspector General (DOL- OIG) continued to meet regularly\
@@ -1132,6 +1148,7 @@ Data_By_Year:
     Value: '21.635600'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2028+
     Description_Action_Taken: ETA will continue to provide BI recommendations to state
       UI programs and offer enhanced technical assistance activities in BI, plain
@@ -1141,6 +1158,7 @@ Data_By_Year:
       targeted BI technical assistance to states.
     Mitigation_Strategy: app2_1
   - Action_Taken: Planned
+    Action_Type: Predictive Analytics
     Completion_Date: FY2028+
     Description_Action_Taken: ETA will continue to strongly encourage states to employ
       a multi-layered to fraud prevention and detection, by adopting an array of solutions,
@@ -1151,6 +1169,7 @@ Data_By_Year:
       improve fraud prevention and detection and reduce UI improper payments.
     Mitigation_Strategy: app7_1
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "ETA continued to support expansion and updates to the\
       \ State Information Data Exchange System (SIDES). SIDES improves the timeliness\
@@ -1180,6 +1199,7 @@ Data_By_Year:
       \ UI program integrity.  \n"
     Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
+    Action_Type: Predictive Analytics
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "The Department continued to strongly encourages states\
       \ to employ a multi-layered approach to combat fraud, which requires states\
@@ -1213,6 +1233,7 @@ Data_By_Year:
       \  \n"
     Mitigation_Strategy: atp7_1
   - Action_Taken: Completed
+    Action_Type: Statutory Change
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "In its FY 2025 budget submission, the Department proposed\
       \ a comprehensive package of provisions designed to provide new and expanded\
@@ -1256,6 +1277,7 @@ Data_By_Year:
       \ and audit purposes.\n\n"
     Mitigation_Strategy: atp8_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2028+
     Description_Action_Taken: 'ETA will continue to provide guidance and resources
       to alert states regarding new UI program requirements; provide updates to existing
@@ -1274,6 +1296,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "ETA provided UI-related training to states administering\
       \ the UI programs through webinars, meetings, and targeted technical assistance.\
@@ -1292,6 +1315,7 @@ Data_By_Year:
       \ UI program-related trainings and workshops during these events.  \n"
     Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "ETA and the Department’s Office of Inspector General\
       \ (DOL- OIG) continued to meet regularly to discuss emerging UI fraud issues\
@@ -1325,6 +1349,7 @@ Data_By_Year:
       \ in FY 2024.\n"
     Mitigation_Strategy: atp5_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "ETA National and Regional Office staff are collectively\
       \ responsible for federal oversight of state administration of UI programs.\
@@ -1355,6 +1380,7 @@ Data_By_Year:
       \ can be shared back with the broader UI system.\n"
     Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
+    Action_Type: Statutory Change
     Completion_Date: FY2028+
     Description_Action_Taken: The Department will continue to provide legislative
       technical assistance on proposed UI Integrity legislation as needed and promote
@@ -1365,6 +1391,7 @@ Data_By_Year:
       for investigations and audit.
     Mitigation_Strategy: app8_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2028+
     Description_Action_Taken: 'ETA will continue to invest in and provide training
       to states on critical guidance, UI performance measures, ETA UI reporting requirements,
@@ -1382,6 +1409,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2028+
     Description_Action_Taken: "ETA will continue to meet regularly with the DOL-OIG\
       \ to discuss emerging UI fraud issues, streamline communication with states,\
@@ -1401,6 +1429,7 @@ Data_By_Year:
       \ resources to the UI Collection in the Library.\n"
     Mitigation_Strategy: app5_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2028+
     Description_Action_Taken: 'ETA will continue to conduct oversight and monitoring
       of state UI programs in line with the ETOs to ensure states’ conformity and
@@ -1418,6 +1447,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "The Department-funded UI Integrity Center provides\
       \ behavioral science information and expertise, evidence-based insights, and\
@@ -1435,6 +1465,7 @@ Data_By_Year:
       \ and CX.  \n"
     Mitigation_Strategy: atp2_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "ETA provided guidance and resources to states to alert\
       \ states regarding new UI program requirements; provided updates to existing\
@@ -1460,6 +1491,7 @@ Data_By_Year:
       \ payments.\n"
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2028+
     Description_Action_Taken: "ETA will continue to encourage states to use SIDES\
       \ and emphasize SIDES as a primary method to reduce improper payments and fraud\

@@ -167,18 +167,21 @@ Data_By_Year:
     cyp5: '6.6'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2025
     Description_Action_Taken: SBA is currently in the process of developing a new
       unified lending platform, which is heavily based on automation of the loan making
       process.
     Mitigation_Strategy: app1_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: "Per Numbered Memo 22-04, the Disaster Internal Controls\
       \ Division is required to perform quality control and quality assurance audits\
       \ on an ongoing basis. \n"
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: Corrective actions may include but is not limited to
       obtaining supporting documentation from the borrower, completing a loan modification,
@@ -187,11 +190,13 @@ Data_By_Year:
       training to PDC staff on the causes and prevention of, improper payments.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: Per Numbered Memo 22-04, training specific to Improper
       Payment Audit findings is required on an ongoing basis.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q4
     Description_Action_Taken: The Disaster Internal Control Division (DICD) conducts
       quality assurance reviews on an ongoing basis to identify areas where additional
@@ -314,11 +319,13 @@ Data_By_Year:
     Value: '1.160000'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: Quarterly training on the causes and prevention of improper
       payments will continue into FY2025
     Mitigation_Strategy: app3_1
   - Action_Taken: Not Completed
+    Action_Type: Training
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: SBA provides quarterly training to loan approval staff

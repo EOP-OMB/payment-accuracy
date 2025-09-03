@@ -34,6 +34,7 @@
 }
 
 .resources-content {
+    padding-bottom: 6rem;
 
     .resources-dataset-title {
         padding: 0px 6rem;
@@ -61,24 +62,6 @@
 
     @media (max-width: 768px) {
         padding: 0 1rem;
-    }
-}
-
-.gray-box {
-    background-color: #f0f0f0;
-    padding: 3rem 8rem;
-    @media (max-width: $mobile) {
-        padding: 2rem;
-    }
-
-    @media (max-width: $tablet) {
-        padding: 3rem;
-    }
-    width: 100%;
-    border-radius: 20px;
-
-    p {
-        margin-bottom: 20px;
     }
 }
 

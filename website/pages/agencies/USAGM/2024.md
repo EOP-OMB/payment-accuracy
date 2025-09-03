@@ -10,7 +10,7 @@ Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
 Hide_PIIA2019: false
 Hide_Recovery_Audits: false
-Hide_Recovery_Details: true
+Hide_Recovery_Details: false
 Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
@@ -140,51 +140,60 @@ Payment_Accuracy_Rate_Max: 0
 Payment_Accuracy_Rate_Min: 0
 Payment_Accuracy_Rates: '[]'
 Risks:
-- Assessments:
+  AdditionalInformation: "USAGM made a change to our Improper Payment methodology\
+    \ for the FY 24 reporting period.  In prior years, USAGM's risk assessment methodology\
+    \ included a comprehensive quantitative risk assessment of 145 sampled payments\
+    \ per program on a three-year rotational cycle of all agency programs with annual\
+    \ outlays of $10M or more during the assessment cycle.  USAGM uses an alternative\
+    \ assessment cycle from Quarter 4 of the prior fiscal year through Quarter 3 of\
+    \ the current fiscal year. \n\nUSAGM conducted an analysis of identified improper\
+    \ payments from sampling testing between FY20 and FY23, showing consistently low\
+    \ error rates. The quarterly self-reported data on improper payments ranged from\
+    \ about 2% to 4% annually, primarily linked to payroll deductions (reviewed through\
+    \ self-reported program review).\n\nGiven the low rates in previous years, USAGM\
+    \ reduced testing to forty samples per year for each entity as part of a three-year\
+    \ risk assessment cycle, in line with the Payment Integrity Information Act of\
+    \ 2019. We will continue to implement thorough controls for self-reporting and\
+    \ program reviews, demonstrating a commitment to strengthening oversight and ensuring\
+    \ compliance with regulations to minimize the risk of improper payments."
+  Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Domestic Payroll
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Domestic Payroll
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: International Broadcasting Bureau (IBB)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: International Broadcasting Bureau (IBB)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Middle East Broadcasting Networks (MBN/MN)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Middle East Broadcasting Networks (MBN/MN)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2019
+    Program_Name: Office of Cuba Broadcasting (OCB)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Office of Cuba Broadcasting (OCB)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Open Technology Fund (OTF)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Open Technology Fund (OTF)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Radio Free Asia (RFA)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Radio Free Asia (RFA)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Radio Free Europe (RFE/RL)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Radio Free Europe (RFE/RL)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Technology, Services and Innovation (TSI)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Technology, Services and Innovation (TSI)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Voice of America (VOA)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Voice of America (VOA)
-  Slug: null
+  SubstantialChangesMade: 'Yes'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'

@@ -264,6 +264,19 @@ def test_MY_OMB_ImproperPayment_PaymentAccuracy_AgencyData_raw_vw(get_agency_cod
     # if multiselect data is ever needed, ETL using a new query, file, and sqllite table
     assert_no_duplicates(df, ['agency','Key','Fiscal_Year'])
 
+def test_MY_OMB_ImproperPayment_PaymentAccuracy_AgencyData_raw_vw_Congressional(get_agency_codes):
+    path = get_csv_path("MY_OMB_ImproperPayment_PaymentAccuracy_AgencyData_raw_vw-Congressional.csv")
+    assert_file_exists(path)
+
+    df = csv_to_dataframe(path)
+    assert_has_rows(df)
+    assert_column_count(df, 5)
+    assert_column_count_is_consistent(path)
+    assert_fiscal_year_found(df, 4)
+    assert_all_agencies_mapped(df, 0, get_agency_codes)
+    # multiselect data is flattened here, so key should never be duplicated for a given year-agency
+    assert_no_duplicates(df, ['agency','Key','Fiscal_Year'])
+
 def test_MY_OMB_ImproperPayment_PaymentAccuracy_ProgramData_raw_vw(get_agency_codes):
     path = get_csv_path("MY_OMB_ImproperPayment_PaymentAccuracy_ProgramData_raw_vw.csv")
     assert_file_exists(path)
@@ -275,6 +288,19 @@ def test_MY_OMB_ImproperPayment_PaymentAccuracy_ProgramData_raw_vw(get_agency_co
     assert_fiscal_year_found(df, 5)
     assert_all_agencies_mapped(df, 0, get_agency_codes)
     assert_no_duplicates(df, ['agency','Program Name', 'key','Fiscal_Year'])
+
+def test_MY_OMB_ImproperPayment_PaymentAccuracy_ProgramData_raw_vw_Congressional(get_agency_codes):
+    path = get_csv_path("MY_OMB_ImproperPayment_PaymentAccuracy_ProgramData_raw_vw-Congressional.csv")
+    assert_file_exists(path)
+
+    df = csv_to_dataframe(path)
+    assert_has_rows(df)
+    assert_column_count(df, 6)
+    assert_column_count_is_consistent(path)
+    assert_fiscal_year_found(df, 5)
+    assert_all_agencies_mapped(df, 0, get_agency_codes)
+    # multiselect data is flattened here, so key should never be duplicated for a given year-program
+    assert_no_duplicates(df, ['agency','Program Name','key','Fiscal_Year'])
 
 def test_ActionsDateMapping():
     path = get_csv_path("ActionsDateMapping.csv")

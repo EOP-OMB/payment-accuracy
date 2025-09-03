@@ -234,6 +234,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: A prime example of Food and Nutrition Service (FNS)
       Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)
@@ -260,6 +261,7 @@ Data_By_Year:
       could result in improper payments.
     Mitigation_Strategy: app6_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: Food and Nutrition Service (FNS) has implemented several
       opportunities of training for the Special Supplemental Nutrition Program for
@@ -284,6 +286,7 @@ Data_By_Year:
       for assessing WIC Vendor Cost Neutrality.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q4
     Description_Action_Taken: A prime example of Food and Nutrition Service (FNS)
       Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)
@@ -310,6 +313,7 @@ Data_By_Year:
       could result in improper payments.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: Food and Nutrition Service (FNS) has implemented several
       opportunities of training for the Special Supplemental Nutrition Program for
@@ -474,6 +478,7 @@ Data_By_Year:
     cyp5: '0.00'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: A prime example of the Food and Nutrition Service (FNS)
       Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)
@@ -501,6 +506,7 @@ Data_By_Year:
       could result in improper payments.
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: A prime example of the Food and Nutrition Service (FNS)
       Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)
@@ -527,6 +533,7 @@ Data_By_Year:
       could result in improper payments.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The Food and Nutrition Service (FNS) has implemented
       several opportunities of training for the Special Supplemental Nutrition Program
@@ -551,6 +558,7 @@ Data_By_Year:
       an updated tool for assessing WIC Vendor Cost Neutrality.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: The Food and Nutrition Service (FNS) has implemented
       several opportunities of training for the Special Supplemental Nutrition Program

@@ -1,0 +1,159 @@
+@use 'mixins' as *;
+@use 'variables' as *;
+
+.congressional-reports-container {
+    --primary-color: #3D4551;
+    --secondary-color: #FFFFFF;
+
+    .congressional-reports-hero {
+        background-color: var(--primary-color);
+        background-image: url('/assets/img/arrows.png');
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        padding: 2rem 2rem 0 2rem;
+
+        .congressional-reports-hero-content {
+            .grid-row {
+                padding: 0vh 5vw;
+            }
+
+            h1 {
+                @include default-text-styling($color: $white, $size: 40px, $weight: 400, $height: 48px);
+                @media (max-width: $tablet) {
+                    @include default-text-styling($color: $white, $size: 32px, $height: 40px);
+                }
+            }
+
+            p {
+                @include default-text-styling($color: $white, $size: 16px, $weight: 400, $height: 24px);
+            }
+
+            .hero-text {
+                padding: 0 0 4rem;
+            }
+
+            @media (max-width: $tablet) {
+                padding: 2rem 0;
+            }
+            @media (max-width: $mobile) {
+                .hero-text-container {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .congressional-reports-content > .grid-container {
+        margin-bottom: 32px;
+    }
+
+    .congressional-reports-content > .grid-container > .grid-row:not(.nav-row,.gray-box) {
+        padding: 0vh 5vw;
+    }
+
+    .congressional-reports-content {
+        h3 {
+            @include default-text-styling($color: black, $size: 32px, $weight: 600, $height: 40px);
+        }
+
+        p {
+            @include default-text-styling($color: black, $size: 16px, $weight: 400, $height: 24px);
+        }
+
+        .requirement-line {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        .requirement-bold {
+            font-weight: 600;
+        }
+
+        .requirement-italicized {
+            font-style: italic;
+        }
+
+        .requirement-indent-1 {
+            margin-left: 10px;
+        }
+
+        .requirement-indent-2 {
+            margin-left: 20px;
+        }
+
+        .requirement-indent-3 {
+            margin-left: 30px;
+        }
+
+        .requirement-indent-4 {
+            margin-left: 40px;
+        }
+
+        .requirement-indent-5 {
+            margin-left: 50px;
+        }
+
+        .heading-text {
+            @include default-text-styling($color: black, $size: 20px, $weight: 600, $height: 30px);
+            margin-bottom: 10px;
+        }
+
+        .subheading-text {
+            @include default-text-styling($color: black, $size: 16px, $weight: 400, $height: 24px);
+            font-style: italic;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .answer-text {
+            margin-top: 10px;
+        }
+
+        #generate-congressional-report-button,
+        .download-congressional-report-button,
+        .print-congressional-report-button {
+            background-color: #005EA2;
+            color: white;
+        }
+
+        .gray-box {
+            .grid-container {
+                padding: 0;
+                margin: 0;
+            }
+
+            .grid-row {
+                margin-bottom: 20px;
+            }
+
+            p {
+                margin-bottom: 0;
+            }
+        }
+
+        .usa-accordion__button {
+            background-color: var(--primary-color);
+            @include default-text-styling($color: var(--secondary-color), $size: 20px, $weight: 600, $height: 30px);
+        }
+
+        .usa-accordion__content {
+            padding: 16px 20px;
+            border: 2px solid #F0F0F0;
+        }
+
+        & > .grid-container > .grid-row {
+            margin-bottom: 20px;
+        }
+
+        .usa-accordion__content p {
+            max-width: unset;
+        }
+
+        .actions-table {
+            .expand-col {
+                display: none;
+            }
+        }
+    }
+}

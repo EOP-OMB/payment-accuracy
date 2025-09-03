@@ -50,21 +50,12 @@
             padding: 0 0 4rem;
         }
 
-        .hero-image {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            height: 100%;
-        }
         @media (max-width: $tablet) {
             padding: 2rem 0;
         }
         @media (max-width: $mobile) {
             .hero-text-container {
                 width: 100%;
-            }
-            .hero-image-container {
-                display: none;
             }
         }
 
@@ -281,6 +272,14 @@
             border-radius: 20px;
             border: 1px solid $pa-card-border-grey;
         }
+        .actions-taken-header-container {
+            overflow-x: auto;
+            width: 100%;
+            h2, table {
+                min-width: 800px;
+                width: 100%;
+            }
+        }
         h2 {
             background-color: $pa-light-blue;
             padding: 1.2rem;
@@ -446,6 +445,9 @@
             background-color: $pa-dark-blue;
             @include default-text-styling($color: white, $size: 16px, $weight: 600, $height: 24px);
         }
+    }
+    .unknown-payments-description-container p {
+        min-width: 800px;
     }
 }
 

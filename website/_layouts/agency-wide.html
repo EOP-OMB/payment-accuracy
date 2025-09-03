@@ -9,16 +9,7 @@ permalink: /
                 <div class="grid-col-7 hero-text-container">
                     <div class="hero-text">
                         <h1>Agencies & Programs</h1>
-                        <p>
-                            The Payment Integrity Information Act of 2019 requires an annual publication to fulfill multiple statutory
-                            reporting requirements for both agency and OMB. The agency and program profiles below lets you explore and
-                            compare payment integrity data trends over time through interactive visualizations.
-                        </p>
-                    </div>
-                </div>
-                <div class="grid-col hero-image-container">
-                    <div class="hero-image">
-                        <img src="/assets/img/agencies-programs-image.png" alt="Agencies Programs Image">
+                        <p>The Payment Integrity Information Act of 2019 requires an annual publication to fulfill multiple statutory reporting requirements for both Agencies and the Office of Management and Budget. The Agency and Program profiles below lets users explore and compare payment integrity data through interactive visualizations.</p>
                     </div>
                 </div>
             </div>
@@ -36,53 +27,8 @@ permalink: /
                     recovering improper payments.
                 </h5>
                 <p class="content-description margin-top-1">
-                    Data shown on this page outlines the total dollar amount spent by programs
-                    susceptible to improper payments within each agency. Not all programs an Agency
-                    administers are susceptible to improper payments. To understand the
-                    breakdown in the table, refer to the list below:
+                    Data shown on this page outlines the total dollar amount spent by programs determined by Agencies to be susceptible to improper payments. Not all Programs an Agency administers are susceptible to improper payments and therefore the outlays listed below and throughout the site do not include all Federal spending.
                 </p>
-            </div>
-            <div class="content-cards">
-                <div class="grid-row grid-gap">
-                    <div class="tablet:grid-col-4 margin-bottom-4">
-                        {% include _agency-wide-card.html
-                            icon="$"
-                            headline="Susceptible Program Outlays"
-                            text="Amount an agency has spend in federal funding across all programs" %}
-                    </div>
-                    <div class="tablet:grid-col-4 margin-bottom-4">
-                        {% include _agency-wide-card.html 
-                            icon="#"
-                            headline="Total Programs" 
-                            text="Total number of programs administered by the agency" %}
-                    </div>
-                    <div class="tablet:grid-col-4 margin-bottom-4">
-                        {% include _agency-wide-card.html 
-                            icon="#"
-                            headline="Susceptible Programs" 
-                            text="Number of programs reported to be susceptible to improper payments" %}
-                    </div>
-                </div>
-                <div class="grid-row grid-gap">
-                    <div class="tablet:grid-col-4 margin-bottom-4">
-                        {% include _agency-wide-card.html 
-                            icon="#"
-                            headline="High-priority Programs" 
-                            text="Number of programs an agency has reported to be a higher risk" %}
-                    </div>
-                    <div class="tablet:grid-col-4 margin-bottom-4">
-                        {% include _agency-wide-card.html 
-                            icon="#"
-                            headline="Improper Payment Rate" 
-                            text="Percentage of funding reported to have been improperly spent" %}
-                    </div>
-                    <div class="tablet:grid-col-4 margin-bottom-4">
-                        {% include _agency-wide-card.html 
-                            icon="%"
-                            headline="Relative Change" 
-                            text="Percentage change based on the previous fiscal year reporting" %}
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -123,12 +69,30 @@ permalink: /
                 <thead class="agencies-programs-table-header">
                     <tr class="height-10">
                         <th scope="col" role="columnheader" class="name-col text-bottom text-left padding-2 cursor-pointer">Agency Name</th>
-                        <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">Susceptible Program Outlays</th>
-                        <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">Total Programs</th>
-                        <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">Susceptible Programs</th>
-                        <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">High-priority Programs</th>
-                        <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">Improper Payment Rate</th>
-                        <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">Relative Change</th>
+                        <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">
+                            FY {{ site.data.shared.Fiscal_Year }} Susceptible Program Outlays<br />
+                            {% include _info-button.html title="Amount of funding agency spent in susceptible programs reporting an improper payment rate" fill_color="white" color="#005ea2" %}
+                        </th>
+                        <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">
+                            Total Programs<br />
+                            {% include _info-button.html title="Total number of programs administered by the agency" fill_color="white" color="#005ea2" %}
+                        </th>
+                        <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">
+                            Susceptible Programs<br />
+                            {% include _info-button.html title="Number of programs reported to be susceptible to improper payments" fill_color="white" color="#005ea2" %}
+                        </th>
+                        <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">
+                            High-priority Programs<br />
+                            {% include _info-button.html title="Number of programs an agency has reported to be a higher risk" fill_color="white" color="#005ea2" %}
+                        </th>
+                        <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">
+                            Improper Payment Rate<br />
+                            {% include _info-button.html title="Percentage of funding reported to have been improperly spent" position="left" fill_color="white" color="#005ea2" %}
+                        </th>
+                        <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">
+                            Relative Change<br />
+                            {% include _info-button.html title="Percentage change based on the previous fiscal year reporting" position="left" fill_color="white" color="#005ea2" %}
+                        </th>
                         <th class="expand-col text-bottom text-right padding-2"></th>
                     </tr>
                 </thead>
@@ -136,7 +100,7 @@ permalink: /
                     {% for agency in page.agencies %}
                         <tr class="agency-row {{ row_class }}" data-agency-name="{{ agency.agency_name }}">
                             <td data-sort-value="{{ agency.agency_name }}" class="name-col text-middle text-left padding-2"><a href="/agency/{{ agency.agency }}"`>{{ agency.agency_name }}</a></td>
-                            <td data-sort-value="{{ agency.total_spent_federal_funding }}" class="total-spent-col text-middle text-right padding-2">${{ agency.total_spent_federal_funding | thousands_separator }} M</td>
+                            <td data-sort-value="{{ agency.total_spent_federal_funding }}" class="total-spent-col text-middle text-right padding-2">${{ agency.total_spent_federal_funding | round | thousands_separator }} M</td>
                             <td data-sort-value="{{ agency.num_programs }}" class="num-programs-col text-middle text-right padding-2">{{ agency.num_programs }}</td>
                             <td data-sort-value="{{ agency.susceptible_programs }}" class="susceptible-col text-middle text-right padding-2">{{ agency.susceptible_programs }}</td>
                             <td data-sort-value="{{ agency.high_priority_programs }}" class="high-priority-col text-middle text-right padding-2">{{ agency.high_priority_programs }}</td>
@@ -245,7 +209,7 @@ permalink: /
     </section>
     <section class="agencies-programs-table-pagination margin-bottom-15" aria-label="Agencies & Programs Pagination">
         <div class="grid-container padding-x-0">
-            <nav class="usa-pagination overflow-x-scroll" aria-label="Pagination">
+            <nav class="usa-pagination" aria-label="Pagination">
                 <ul id="pagination-container" class="usa-pagination__list">
                     <!-- Buttons are dynamically inserted in scripts.js -->
                 </ul>

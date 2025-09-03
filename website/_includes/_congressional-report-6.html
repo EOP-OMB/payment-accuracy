@@ -1,0 +1,89 @@
+<div class="grid-row">
+    <div class="grid-col-12">
+        <div class="usa-accordion congressional-reports-accordion">
+            <div class="usa-accordion__item">
+                <h4 class="usa-accordion__heading">
+                    <button class="usa-accordion__button" aria-expanded="true" aria-controls="ip-accordion">
+                        Governmentwide Report
+                    </button>
+                </h4>
+                <div id="ip-accordion" class="usa-accordion__content usa-prose">
+                    <p class="heading-text">Governmentwide Estimates</p>
+                    <p class="subheading-text">Total Outlay Amount</p>
+                    <p class="answer-text">${{ include.IPData.Stats.total_outlays_current_year | round: 2 | thousands_separator }} M</p>
+
+                    <p class="subheading-text">Proper Payment Estimate</p>
+                    <p class="answer-text">${{ include.IPData.Stats.total_proper_current_year | round: 2 | thousands_separator }} M</p>
+                    <p class="answer-text">{{ include.IPData.Stats.proper_rate_current_year | round: 2 | thousands_separator }} %</p>
+
+                    <p class="subheading-text">Improper Payment Estimate</p>
+                    <p class="answer-text">${{ include.IPData.Stats.total_improper_current_year | round: 2 | thousands_separator }} M</p>
+                    <p class="answer-text">{{ include.IPData.Stats.improper_rate_current_year | round: 2 | thousands_separator }} %</p>
+
+                    <p class="subheading-text">Unknown Payment Estimate</p>
+                    <p class="answer-text">${{ include.IPData.Stats.total_unknown_current_year | round: 2 | thousands_separator }} M</p>
+                    <p class="answer-text">{{ include.IPData.Stats.unknown_rate_current_year | round: 2 | thousands_separator }} %</p>
+
+                    <p class="subheading-text">Improper and Unknown Payment Estimate</p>
+                    <p class="answer-text">${{ include.IPData.Stats.total_unknown_and_improper_amount | round: 2 | thousands_separator }} M</p>
+                    <p class="answer-text">{{ include.IPData.Stats.unknown_and_improper_rate_current_year | round: 2 | thousands_separator }} %</p>
+
+                    <p class="heading-text">Governmentwide Improper Payment Reduction Target</p>
+                    <p class="answer-text">{{ include.IPData.Stats.reduction_target_rate_current_year | round: 2 | thousands_separator }} %</p>
+
+                    <p class="heading-text">Progress Made Towards Meeting Improper Payment Reduction Target</p>
+                    <p class="subheading-text">Previous Fiscal Year Reduction Target Rate</p>
+                    <p class="answer-text">{{ include.IPData.Stats.reduction_target_rate_prior_year | round: 2 | thousands_separator }} %</p>
+
+                    <p class="subheading-text">Current Fiscal Year Improper Payment and Unknown Payment Rate</p>
+                    <p class="answer-text">{{ include.IPData.Stats.unknown_and_improper_rate_current_year | round: 2 | thousands_separator }} %</p>
+
+                    <p class="subheading-text">Difference</p>
+                    <p class="answer-text">{{ include.IPData.Stats.reduction_target_rate_prior_year | minus: include.IPData.Stats.unknown_and_improper_rate_current_year | round: 2 | thousands_separator }} %</p>
+
+                    <p class="heading-text">Governmentwide Summary of Actions Taken</p>
+                    <p class="subheading-text">Percent of time Automation was used during the fiscal reporting period to improve prevention of improper payments</p>
+                    <p class="answer-text">{{ include.IPData.Stats.response_rate_automation | round: 2 | thousands_separator }} %</p>
+
+                    <p class="subheading-text">Percent of time Behavioral/Psychological Influence was used during the fiscal reporting period to improve prevention of improper payments</p>
+                    <p class="answer-text">{{ include.IPData.Stats.response_rate_behavioral | round: 2 | thousands_separator }} %</p>
+
+                    <p class="subheading-text">Percent of time Training was used during the fiscal reporting period to improve prevention of improper payments</p>
+                    <p class="answer-text">{{ include.IPData.Stats.response_rate_training | round: 2 | thousands_separator }} %</p>
+
+                    <p class="subheading-text">Percent of time Change Process was used during the fiscal reporting period to improve prevention of improper payments</p>
+                    <p class="answer-text">{{ include.IPData.Stats.response_rate_change | round: 2 | thousands_separator }} %</p>
+
+                    <p class="subheading-text">Percent of time Cross Enterprise Sharing was used during the fiscal reporting period to improve prevention of improper payments</p>
+                    <p class="answer-text">{{ include.IPData.Stats.response_rate_sharing | round: 2 | thousands_separator }} %</p>
+
+                    <p class="subheading-text">Percent of time Audit was used during the fiscal reporting period to improve prevention of improper payments</p>
+                    <p class="answer-text">{{ include.IPData.Stats.response_rate_audit | round: 2 | thousands_separator }} %</p>
+
+                    <p class="subheading-text">Percent of time Predictive Analytics was used during the fiscal reporting period to improve prevention of improper payments</p>
+                    <p class="answer-text">{{ include.IPData.Stats.response_rate_analytics | round: 2 | thousands_separator }} %</p>
+
+                    <p class="subheading-text">Percent of time Statutory Change was used during the fiscal reporting period to improve prevention of improper payments</p>
+                    <p class="answer-text">{{ include.IPData.Stats.response_rate_statutory | round: 2 | thousands_separator }} %</p>
+
+                    <p class="heading-text">Governmentwide Summary of Actions to Recover Improper Payments</p>
+                    <p class="subheading-text">Governmentwide Overpayment Amount Identified For Recovery</p>
+                    <p class="answer-text">${{ include.IPData.Stats.identified_for_recovery | round: 2 | thousands_separator }} M</p>
+
+                    <p class="subheading-text">Governmentwide Overpayment Amount Recovered</p>
+                    <p class="answer-text">${{ include.IPData.Stats.recovered | round: 2 | thousands_separator }} M</p>
+
+                    <p class="subheading-text">Governmentwide Recovery Rate</p>
+                    <p class="answer-text">{{ include.IPData.Stats.recovery_rate | round: 2 | thousands_separator }} %</p>
+
+                    <p class="heading-text">Agency Compliance With the Payment Integrity Information Act of 2019 in the Most Recent OIG Review</p>
+                    {% assign sorted_compliance = include.IPData.Compliance | sort:"Agency_Name" %}
+                    {% for agency in sorted_compliance %}
+                        <p class="subheading-text">{{ agency.Agency_Name }}</p>
+                        <p class="answer-text">{{ agency.Answer | newline_to_br }}</p><br />
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

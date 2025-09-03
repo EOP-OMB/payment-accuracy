@@ -220,6 +220,7 @@ Data_By_Year:
     cyp5: '7.54'
 - Actions_Taken:
   - Action_Taken: Not Completed
+    Action_Type: Training
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'The agency has a robust training program in place to
@@ -231,6 +232,7 @@ Data_By_Year:
       to staff - it is never complete'
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2027+
     Description_Action_Taken: 'The program will continue to use training corrective
       action plans. As a result of staff
@@ -418,6 +420,7 @@ Data_By_Year:
     Value: '0.896800'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2028+
     Description_Action_Taken: The program will continue to use training corrective
       action plans.  As a result of staff turnover training continues through the
@@ -425,6 +428,7 @@ Data_By_Year:
       ensure issues are identified on the case level.
     Mitigation_Strategy: app3_1
   - Action_Taken: Not Completed
+    Action_Type: Training
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: The agency has a robust training program in place to

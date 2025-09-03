@@ -252,6 +252,7 @@ Data_By_Year:
     cyp5: '0.03'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: Farm Service Agency has introduced many new ad hoc programs
       post Coronavirus Disease of 2019.  There are multiple acreage reporting deadlines
@@ -261,6 +262,7 @@ Data_By_Year:
       tentatively scheduled for fiscal year 2024.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q2
     Description_Action_Taken: 'The majority of incorrect acreage findings were related
       to grazing acres. Many factors determine animal units and if determined incorrectly,
@@ -423,6 +425,7 @@ Data_By_Year:
     Value: '0.180000'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: The root cause of these improper payments was failure
       to access data. Noninsured Crop Disaster Assistance Program is currently part
@@ -437,6 +440,7 @@ Data_By_Year:
       standardization for Headquarters, State and County level training.
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "The root cause of these improper payments was failure\
       \ to access data and specifically, acreage reporting findings related to late\

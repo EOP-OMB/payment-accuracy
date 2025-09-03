@@ -7,15 +7,10 @@ permalink: /
   <section class="index-header-section pa-blue-background border-bottom-205 border-blue border-width-105">
     <div class="grid-container position-relative z-0">
       <div class="grid-row position-relative">
-        <img 
-            class="home-header-graphic position-absolute top-2 display-none desktop:display-block"
-            src="/assets/img/home-header.png" 
-            alt="home header graphic"
-          />
         <div class="mobile:grid-col-12 desktop:grid-col-6 z-top index-header-text">
-          <h1 class="text-light-blue margin-0">A gateway into federal spending of taxpayers dollars.</h1>
+          <h1 class="text-light-blue margin-0">A gateway to data on the accuracy of Federal payments.</h1>
           <div class="divider width-card height-1 margin-y-2"></div>
-          <h2 class="text-white margin-0">Ensuring federal funding reaches the right recipients, preventing improper payments, and reducing fraud, waste, and abuse.</h2>
+          <h2 class="text-white margin-0">PaymentAccuracy.gov compiles and synthesizes Agency-reported information on improper payments to help Taxpayers, policymakers, and oversight bodies track progress and identify risks across Agencies and Programs.</h2>
         </div>
       </div>
     </div>
@@ -24,21 +19,22 @@ permalink: /
     <div class="grid-container">
       <div class="grid-row">
         <div class="grid-col-12">
-          <h3 class="spending-trends-header">Government-wide Spending Trends</h3>
+          <h3 class="spending-trends-header">Government-wide Trends</h3>
         </div>
       </div>
       <ul class="usa-card-group grid-row spending-trends-cards">
         <li class="usa-card mobile:grid-col-12 tablet:grid-col-6 desktop:grid-col-4">
-          {% assign Chart_Caption = "(Based on reported Government-wide spending in FY " | append: page.fiscal_year | append: ")" %}
+          {% assign Chart_Caption = "(Based on Federal funding spent by Programs identified as susceptible to improper payments)" %}
           {% include _sparklines-chart.html
             rate_min=page.payment_accuracy_rate_min
             rate_max=page.payment_accuracy_rate_max
             datapoints=page.payment_accuracy_rates
             years=page.improper_payments_years
-            min=80
+            min=0
             max=100
             cy=page.fiscal_year
             color="rgba(0, 118, 214, 1)"
+            background_color="rgba(232, 245, 255, 1)"
             title="Payment accuracy rate"
             caption=Chart_Caption %}
         </li>
@@ -52,6 +48,7 @@ permalink: /
             max=10
             cy=page.fiscal_year
             color="rgba(0, 118, 214, 1)"
+            background_color="rgba(232, 245, 255, 1)"
             title="Improper payments rate"
             caption=Chart_Caption %}
         </li>
@@ -65,6 +62,7 @@ permalink: /
             max=10
             cy=page.fiscal_year
             color="rgba(0, 118, 214, 1)"
+            background_color="rgba(232, 245, 255, 1)"
             title="Unknown payments rate"
             caption=Chart_Caption %}
         </li>
@@ -97,7 +95,7 @@ permalink: /
         </div>
         <div class="grid-col-12 desktop:grid-col-6">
           <h5 class="text-ink margin-y-1">Highest Performing Agencies</h5>
-          <div class="overflow-x-scroll">
+          <div class="trend-table">
             <table class="usa-table usa-table--borderless margin-0 top-performing-table">
               <thead>
                 <tr>
@@ -138,7 +136,7 @@ permalink: /
         </div>
         <div class="grid-col-12 desktop:grid-col-6">
           <h5 class="text-ink margin-y-1">Lowest Performing Agencies</h5>
-          <div class="overflow-x-scroll">
+          <div class="trend-table">
             <table class="usa-table usa-table--borderless margin-0 declining-table">
               <thead>
                 <tr>
@@ -183,9 +181,8 @@ permalink: /
   <section class="about-data-section">
     <div class="grid-container">
       <div class="grid-row grid-gap">
-        <div class="tablet:grid-col-8">
+        <div class="desktop:grid-col-8 desktop:grid-offset-2 tablet:grid-col-12">
           <h4 class="margin-y-105">About The Data</h4>
-          <h5 class="text-ink margin-y-105">A gateway to Federal payment accuracy</h5>
           <p class="text-ink margin-y-105">
             The <a href="https://www.congress.gov/116/plaws/publ117/PLAW-116publ117.pdf" target="_blank">
             Payment Integrity Information Act of 2019 (PIIA) (P.L. 116-117)</a> and
@@ -206,16 +203,6 @@ permalink: /
             information published on this website. All data displayed
             on this site can be downloaded <a href="/resources">Here</a>.
           </p>
-          <p class="margin-y-105">
-            <a href="/resources" class="resource-link text-no-underline">Learn more about PaymentAccuracy.gov</a>
-          </p>
-        </div>
-        <div class="grid-col-fill display-flex">
-          <img
-            class="home-about-graphic flex-align-self-end"
-            src="/assets/img/home-about-graphic.png"
-            alt="about graphic"
-          />
         </div>
       </div>
     </div>

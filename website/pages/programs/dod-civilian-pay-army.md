@@ -4,6 +4,7 @@ Agency_Name: Department of Defense
 Data_By_Year:
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: The U.S. Army Civilian Human Resource Agency directed
       civilian pay personnel offices to ensure that all Standard Form (SF) 1190s are
@@ -12,6 +13,7 @@ Data_By_Year:
       prior year SF1190s that are not being properly signed.
     Mitigation_Strategy: app3_1
   - Action_Taken: Not Completed
+    Action_Type: Training
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'The majority of the technically improper and unknown

@@ -57,6 +57,7 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "The Payment Integrity Information Act of 2019 (PIIA)\
       \ requires agencies to review and assess all programs and activities they administer\
@@ -88,6 +89,7 @@ Data_By_Year:
       \ contractor performance."
     Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: The Federal Emergency Management Agency (FEMA) is strengthening
       the insurance verification process to assist in the review for a potential duplication
@@ -106,6 +108,7 @@ Data_By_Year:
       of changes to the operating procedures and program requirements.
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Predictive Analytics
     Completion_Date: FY2024 Q1
     Description_Action_Taken: Due to the expanded nature of COVID-19 Funeral assistance,
       the Federal Emergency Management Agency (FEMA) implemented additional reports
@@ -121,6 +124,7 @@ Data_By_Year:
       of guidance and procedure changes with the Individual Assistance (IA) program.
     Mitigation_Strategy: atp7_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q1
     Description_Action_Taken: "The Federal Emergency Management Agency (FEMA) acquired\
       \ the services of a call center service provider contractor to assist with processing\
@@ -145,6 +149,7 @@ Data_By_Year:
       \ pre-paid arrangements, and other voluntary or government agencies."
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: "The Payment Integrity Information Act of 2019 (PIIA)\
       \ requires agencies to review and assess all programs and activities they administer\
@@ -162,6 +167,7 @@ Data_By_Year:
       \ a review over Grants Management."
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Automation
     Completion_Date: FY2024 Q1
     Description_Action_Taken: "The National Emergency Management Information System\
       \ (NEMIS) is the information technology system that houses the survivor case\
@@ -198,6 +204,7 @@ Data_By_Year:
       \ include manually reviewing NEMIS flags."
     Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q1
     Description_Action_Taken: "The Federal Emergency Management Agency (FEMA) acquired\
       \ the services of a call center service provider contractor to assist with processing\
@@ -222,6 +229,7 @@ Data_By_Year:
       \ to improve contractor performance."
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: The Federal Emergency Management Agency (FEMA) Individual
       Assistance (IA) Division provided refresher training in March 2023 to staff
@@ -242,6 +250,7 @@ Data_By_Year:
       a valid business and confirming the death occurred by locating an obituary.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024 Q1
     Description_Action_Taken: A COVID-19 Funeral Assistance Task Force was created
       and led by a Federal Coordinating Officer (FCO). The task force coordinated

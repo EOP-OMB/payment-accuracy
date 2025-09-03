@@ -11,7 +11,7 @@ Hide_Integrity_Results: true
 Hide_PIIA2019: false
 Hide_Recovery_Audits: false
 Hide_Recovery_Details: true
-Hide_Recovery_Info: true
+Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: true
 Hide_Sparklines: true
 Hide_Supplemental_Info: false
@@ -31,7 +31,10 @@ Payment_Accuracy_Amounts: '[]'
 Payment_Accuracy_Rate_Max: 0
 Payment_Accuracy_Rate_Min: 0
 Payment_Accuracy_Rates: '[]'
-Risks: []
+Risks:
+  AdditionalInformation: null
+  Assessments: []
+  SubstantialChangesMade: null
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'

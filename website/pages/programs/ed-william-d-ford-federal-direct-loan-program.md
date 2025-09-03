@@ -222,6 +222,7 @@ Data_By_Year:
     cyp5: '17.30'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2025
     Description_Action_Taken: 'FSA will continue to work with Treasury to implement
       the authorities provided in the FUTURE Act that will allow FSA to obtain income
@@ -231,6 +232,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app5_1
   - Action_Taken: Completed
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'FSA performs a variety of general public awareness
       campaigns, training, and other outreach to the community including to prospective
@@ -241,6 +243,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp2_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: 'FSA will also continue to review the annual Single
       Audit Act compliance audits of schools performed by independent auditors to
@@ -254,6 +257,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app6_1
   - Action_Taken: Planned
+    Action_Type: Predictive Analytics
     Completion_Date: FY2024
     Description_Action_Taken: 'The FSA Central Processing System performs analytics
       to determine which applicants should be flagged for verification prior to receiving
@@ -263,6 +267,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app7_1
   - Action_Taken: Planned
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2024
     Description_Action_Taken: 'FSA will continue to perform a variety of general public
       awareness campaigns, training, and other outreach to the community including
@@ -273,6 +278,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app2_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'FSA publishes and delivers various free trainings,
       guidance, and resources for school financial aid administrators to target the
@@ -284,6 +290,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
+    Action_Type: Predictive Analytics
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'The FSA Central Processing System performs analytics
       to determine which applicants should be flagged for verification prior to receiving
@@ -299,6 +306,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp7_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: "FSA will continue to publish and deliver various free\
       \ trainings, guidance, and resources for school financial aid administrators\
@@ -313,6 +321,7 @@ Data_By_Year:
       \ objects and milestones are met.\n"
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'FSA reviews the annual Single Audit Act compliance
       audits of schools performed by independent auditors to evaluate schools’ administration
@@ -325,6 +334,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp6_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'FSA is committed to improving the access, use, and
       dissemination of meaningful education data to inform decision making. Through
@@ -358,6 +368,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp4_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'FSA continues to work with Treasury to implement the
       authorities provided in the FUTURE Act that will allow FSA to obtain income
@@ -367,6 +378,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp5_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: 'Through the Student Aid and Borrower Eligibility (SABER)
       Initiative, FSA will continue to implement the Fostering Undergraduate Talent
@@ -562,6 +574,7 @@ Data_By_Year:
     Value: '18.000000'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: 'FSA will also continue to review the annual Single
       Audit Act compliance audits of schools performed by independent auditors to
@@ -575,6 +588,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app6_1
   - Action_Taken: Planned
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2025
     Description_Action_Taken: 'FSA will continue to perform a variety of general public
       awareness campaigns, training, and other outreach to the community including
@@ -585,6 +599,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app2_1
   - Action_Taken: Planned
+    Action_Type: Predictive Analytics
     Completion_Date: FY2025
     Description_Action_Taken: 'The FAFSA Processing System performs analytics to determine
       which applicants should be flagged for verification prior to receiving financial
@@ -594,6 +609,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app7_1
   - Action_Taken: Completed
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'FSA performs a variety of general public awareness
       campaigns, training, and other outreach to the community including to prospective
@@ -604,6 +620,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp2_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'FSA is committed to improving the access, use, and
       dissemination of meaningful education data to inform decision making. Through
@@ -640,6 +657,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp4_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'FSA worked with Treasury to implement the authorities
       provided in the FUTURE Act that will allow FSA to obtain income data directly
@@ -651,6 +669,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp5_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'FSA reviews the annual Single Audit Act compliance
       audits of schools performed by independent auditors to evaluate schools’ administration
@@ -663,6 +682,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2025
     Description_Action_Taken: 'FSA will continue to work with Treasury to implement
       the authorities provided in the FUTURE Act that will allow FSA to obtain income
@@ -672,6 +692,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app5_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'FSA publishes and delivers various free trainings,
       guidance, and resources for school financial aid administrators to target the
@@ -683,6 +704,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
+    Action_Type: Predictive Analytics
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'The FAFSA Processing System performs analytics to determine
       which applicants should be flagged for verification prior to receiving financial
@@ -698,6 +720,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp7_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: 'FSA will continue to publish and deliver various free
       trainings, guidance, and resources for school financial aid administrators to
@@ -716,6 +739,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: Through the Student Aid and Borrower Eligibility (SABER)
       Initiative, FSA has implemented the Fostering Undergraduate Talent by Unlocking

@@ -1,3 +1,5 @@
+@use 'mixins' as *;
+@use 'variables' as *;
 @forward "uswds-theme";
 @forward "uswds";
 @forward "uswds-theme-custom-styles";
@@ -12,7 +14,7 @@
 @forward "agency-wide";
 @forward "agency-specific";
 @forward "program-specific";
-@forward "agency-wide-card";
+@forward "congressional-reports";
 @forward "improper-payment-estimates-chart";
 @forward "identification-and-recovery-chart";
 @forward "years-dropdown";
@@ -238,4 +240,30 @@ th.gridjs-th {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.gray-box {
+    background-color: #f0f0f0;
+    padding: 3rem 8rem;
+    @media (max-width: $mobile) {
+        padding: 2rem;
+    }
+
+    @media (max-width: $tablet) {
+        padding: 3rem;
+    }
+    width: 100%;
+    border-radius: 20px;
+
+    p {
+        margin-bottom: 20px;
+    }
+}
+
+@media print
+{
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
 }

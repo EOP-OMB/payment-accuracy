@@ -206,6 +206,7 @@ Data_By_Year:
     cyp5: '0.002'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: Actions planned regarding change process include restructuring
       existing local and national contracts, requiring secondary level of approval
@@ -221,6 +222,7 @@ Data_By_Year:
       controls and mitigate risks within existing payment processes.
     Mitigation_Strategy: app4_1
   - Action_Taken: Not Completed
+    Action_Type: Change Process
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: Actions taken regarding change process included identifying
@@ -418,6 +420,7 @@ Data_By_Year:
     cyp5: '0.00'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: Actions taken included restructuring existing local
       and national contracts and rejecting invoices that do not comply with contract
@@ -431,6 +434,7 @@ Data_By_Year:
       processes.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: Actions planned include improving contract processes
       for the Medical Supplies Prime Vendor payments and the Nutrition and Food Services

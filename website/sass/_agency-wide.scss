@@ -27,20 +27,11 @@
             padding: 0 0 4rem;
         }
 
-        .hero-image {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-end;
-            height: 100%;
-        }
         @media (max-width: $tablet) {
             padding: 2rem 0;
 
             .hero-text-container {
                 width: 100%;
-            }
-            .hero-image-container {
-                display: none;
             }
         }
     }
@@ -55,7 +46,7 @@
             text-decoration: none;
         }
     }
-    .content-description-section, .content-cards {
+    .content-description-section {
         padding: 0 6rem;
         @media (max-width: $tablet) {
             padding: 0 2rem;
@@ -203,6 +194,7 @@
 
         @media (max-width: $tablet) {
             justify-content: flex-start;
+            overflow-x: scroll;
         }
 
     }

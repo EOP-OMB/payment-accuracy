@@ -63,7 +63,7 @@ Hide_Eligibility_Criteria: false
 Hide_Integrity_Results: false
 Hide_PIIA2019: false
 Hide_Recovery_Audits: false
-Hide_Recovery_Details: true
+Hide_Recovery_Details: false
 Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: false
@@ -505,101 +505,85 @@ Payment_Accuracy_Rate_Min: 78.3
 Payment_Accuracy_Rates: '[97.29562044717102, 95.80447179816824, 78.32275223823234,
   81.48595456966767]'
 Risks:
-- Assessments:
+  AdditionalInformation: null
+  Assessments:
   - Fiscal_Year: 2021
+    Program_Name: COVID-Economic Injury Disaster Loan (EIDL)
+    Slug: sba-covid-economic-injury-disaster-loan-eidl
     Susceptible: 'Yes'
-  Program_Name: COVID-Economic Injury Disaster Loan (EIDL)
-  Slug: sba-covid-economic-injury-disaster-loan-eidl
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Community Navigator Pilot Program
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Community Navigator Pilot Program
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Congressional Grants
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Congressional Grants
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Growth Accelerator Fund Competition
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Growth Accelerator Fund Competition
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2020
+    Program_Name: Microloan Program
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Microloan Program
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: OED Resource Partners Training Portal (RPTP)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: OED Resource Partners Training Portal (RPTP)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2020
+    Program_Name: Office of Women's Business Ownership (OWBO)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Office of Women's Business Ownership (OWBO)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Restaurant Revitalization Fund
+    Slug: sba-restaurant-revitalization-fund
     Susceptible: 'No'
-  Program_Name: Restaurant Revitalization Fund
-  Slug: sba-restaurant-revitalization-fund
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: SBA Administrative Contracts
+    Slug: null
     Susceptible: 'No'
-  Program_Name: SBA Administrative Contracts
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: SBA Administrative Payroll
+    Slug: null
     Susceptible: 'No'
-  Program_Name: SBA Administrative Payroll
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: SBA Administrative Travel
+    Slug: null
     Susceptible: 'No'
-  Program_Name: SBA Administrative Travel
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2024
+    Program_Name: Section 1112 Payments
+    Slug: null
     Susceptible: 'Yes'
-  Program_Name: Section 1112 Payments
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Shuttered Venue Operators Grant Program
+    Slug: sba-shuttered-venue-operators-grant-program
     Susceptible: 'No'
-  Program_Name: Shuttered Venue Operators Grant Program
-  Slug: sba-shuttered-venue-operators-grant-program
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Small Business Development Center (SBDC)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Small Business Development Center (SBDC)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Small Business Investment Companies Advances
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Small Business Investment Companies Advances
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: State Trade Expansion Program
+    Slug: null
     Susceptible: 'No'
-  Program_Name: State Trade Expansion Program
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2020
+    Program_Name: Surety Bond Guarantees (SBG)
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Surety Bond Guarantees (SBG)
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Veterans Outreach Program
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Veterans Outreach Program
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2022
+    Program_Name: Women's Business Ownership Assistance
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Women's Business Ownership Assistance
-  Slug: null
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[547.7049686987, 3867.86, 459.443964, 1340.078154]'
 Underpayment_Amounts: '[43.652565089999996, 470.5253482, 668.71343461, 53.255629840000005]'
 Unknown_Amounts: '[31.47027, 16500.454117, 21810.652554, 8799.107861280001]'

@@ -643,12 +643,17 @@ agencies:
   relative_change: -2.46
   susceptible_programs: 3
   total_spent_federal_funding: 608.75
-- agency: AB
-  agency_name: United States Access Board
+- agency: USAID
+  agency_name: Agency for International Development
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 0
-  programs: []
+  num_programs: 483
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
@@ -686,20 +691,6 @@ agencies:
   high_priority_programs: 0
   improper_payments_rate: 0
   num_programs: 2
-  programs:
-  - high_priority_program: false
-    ip_rate: 0
-    program_name: null
-    relative_change: null
-    total_spent_federal_funding: 0
-  relative_change: null
-  susceptible_programs: 0
-  total_spent_federal_funding: 0
-- agency: DFC
-  agency_name: International Development Finance Corporation
-  high_priority_programs: 0
-  improper_payments_rate: 0
-  num_programs: 4
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -751,11 +742,11 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
-- agency: DOI
-  agency_name: Department of the Interior
+- agency: DOJ
+  agency_name: Department of Justice
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 43
+  num_programs: 5
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -765,11 +756,25 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
-- agency: DOJ
-  agency_name: Department of Justice
+- agency: STATE
+  agency_name: Department of State
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 5
+  num_programs: 42
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: DOI
+  agency_name: Department of the Interior
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 43
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -919,11 +924,11 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
-- agency: GCRC
-  agency_name: Gulf Coast Ecosystem Restoration Council
+- agency: GSA
+  agency_name: General Services Administration
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 3
+  num_programs: 25
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -933,11 +938,11 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
-- agency: GSA
-  agency_name: General Services Administration
+- agency: GCRC
+  agency_name: Gulf Coast Ecosystem Restoration Council
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 25
+  num_programs: 3
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -961,11 +966,11 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
-- agency: MCC
-  agency_name: Millennium Challenge Corporation
+- agency: DFC
+  agency_name: International Development Finance Corporation
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 5
+  num_programs: 4
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -989,11 +994,11 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
-- agency: NARA
-  agency_name: National Archives and Records Administration
+- agency: MCC
+  agency_name: Millennium Challenge Corporation
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 7
+  num_programs: 5
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1008,6 +1013,20 @@ agencies:
   high_priority_programs: 0
   improper_payments_rate: 0
   num_programs: 110
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: NARA
+  agency_name: National Archives and Records Administration
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 7
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1068,20 +1087,6 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
-- agency: NRC
-  agency_name: Nuclear Regulatory Commission
-  high_priority_programs: 0
-  improper_payments_rate: 0
-  num_programs: 4
-  programs:
-  - high_priority_program: false
-    ip_rate: 0
-    program_name: null
-    relative_change: null
-    total_spent_federal_funding: 0
-  relative_change: null
-  susceptible_programs: 0
-  total_spent_federal_funding: 0
 - agency: NSF
   agency_name: National Science Foundation
   high_priority_programs: 0
@@ -1098,6 +1103,29 @@ agencies:
   total_spent_federal_funding: 0
 - agency: NTSB
   agency_name: National Transportation Safety Board
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 0
+  programs: []
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: NRC
+  agency_name: Nuclear Regulatory Commission
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 4
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: OSHRC
+  agency_name: Occupational Safety and Health Review Commission
   high_priority_programs: 0
   improper_payments_rate: 0
   num_programs: 0
@@ -1133,20 +1161,11 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
-- agency: OSHRC
-  agency_name: Occupational Safety and Health Review Commission
+- agency: PC
+  agency_name: Peace Corps
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 0
-  programs: []
-  relative_change: null
-  susceptible_programs: 0
-  total_spent_federal_funding: 0
-- agency: PBGC
-  agency_name: Pension Benefit Guaranty Corporation
-  high_priority_programs: 0
-  improper_payments_rate: 0
-  num_programs: 6
+  num_programs: 1
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1156,11 +1175,11 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
-- agency: PC
-  agency_name: Peace Corps
+- agency: PBGC
+  agency_name: Pension Benefit Guaranty Corporation
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 1
+  num_programs: 6
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1226,20 +1245,6 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
-- agency: STATE
-  agency_name: Department of State
-  high_priority_programs: 0
-  improper_payments_rate: 0
-  num_programs: 42
-  programs:
-  - high_priority_program: false
-    ip_rate: 0
-    program_name: null
-    relative_change: null
-    total_spent_federal_funding: 0
-  relative_change: null
-  susceptible_programs: 0
-  total_spent_federal_funding: 0
 - agency: STB
   agency_name: Surface Transportation Board
   high_priority_programs: 0
@@ -1268,39 +1273,34 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
-- agency: USAGM
-  agency_name: United States Agency for Global Media
-  high_priority_programs: 0
-  improper_payments_rate: 0
-  num_programs: 9
-  programs:
-  - high_priority_program: false
-    ip_rate: 0
-    program_name: null
-    relative_change: null
-    total_spent_federal_funding: 0
-  relative_change: null
-  susceptible_programs: 0
-  total_spent_federal_funding: 0
-- agency: USAID
-  agency_name: Agency for International Development
-  high_priority_programs: 0
-  improper_payments_rate: 0
-  num_programs: 483
-  programs:
-  - high_priority_program: false
-    ip_rate: 0
-    program_name: null
-    relative_change: null
-    total_spent_federal_funding: 0
-  relative_change: null
-  susceptible_programs: 0
-  total_spent_federal_funding: 0
 - agency: USITC
   agency_name: US International Trade Commission
   high_priority_programs: 0
   improper_payments_rate: 0
   num_programs: 1
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: AB
+  agency_name: United States Access Board
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 0
+  programs: []
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: USAGM
+  agency_name: United States Agency for Global Media
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 9
   programs:
   - high_priority_program: false
     ip_rate: 0

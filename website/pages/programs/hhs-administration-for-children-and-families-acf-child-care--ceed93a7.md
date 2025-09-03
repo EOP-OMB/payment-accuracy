@@ -203,6 +203,7 @@ Data_By_Year:
     cyp5: '23.13'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: HHS's planned corrective action for states reporting
       in FY 2023 Child Care and Development Fund program include continuing to provide
@@ -215,6 +216,7 @@ Data_By_Year:
       and continuing audit, monitoring, and review efforts.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: HHS utilized training as a corrective action in the
       Child Care and Development Fund program.  HHS conducted site visits with states
@@ -404,6 +406,7 @@ Data_By_Year:
     Value: '17.910000'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: HHS utilized training as a corrective action in the
       Child Care and Development Fund program. HHS conducted site visits with states
@@ -418,6 +421,7 @@ Data_By_Year:
       technical assistance to states to support reauthorization requirements.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2026
     Description_Action_Taken: HHS's planned corrective action for states reporting
       in FY 2024 Child Care and Development Fund program include continuing to provide

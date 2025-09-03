@@ -214,6 +214,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: The IRS will continue to hold the annual Dependent Database
       (DDb) meetings with stakeholders in the Wage & Investment, Small Business &
@@ -222,6 +223,7 @@ Data_By_Year:
       and identify improvement opportunities for next filing season.
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2022 Q4
     Description_Action_Taken: The IRS held its annual Dependent Database (DDb) meetings
       with stakeholders in the Wage & Investment, Small Business & Self Employed,
@@ -230,6 +232,7 @@ Data_By_Year:
       opportunities for the filing season.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2022 Q4
     Description_Action_Taken: "The IRS collaborated with the Department of Health\
       \ and Human Services (HHS), Centers for Medicare and Medicaid Services (CMS)\
@@ -240,6 +243,7 @@ Data_By_Year:
       \ to refundable tax credits.\t"
     Mitigation_Strategy: atp5_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024
     Description_Action_Taken: The IRS will continue to collaborate with the Department
       of Health and Human Services (HHS), Centers for Medicare and Medicaid Services
@@ -408,6 +412,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2025
     Description_Action_Taken: The IRS will continue to leverage data-sharing agreements
       with the Department of Health and Human Services (HHS), Centers for Medicare
@@ -428,6 +433,7 @@ Data_By_Year:
       of a pre-approval process for these credits.
     Mitigation_Strategy: app5_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: The IRS will continue to hold the annual Dependent Database
       (DDb) meetings with stakeholders in Taxpayer Services, Small Business & Self
@@ -450,6 +456,7 @@ Data_By_Year:
       issues without substantially increasing the burden on taxpayers and the IRS.
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The IRS held its annual Dependent Database (DDb) meeting
       with stakeholders in Taxpayer Services, Small Business & Self Employed, and
@@ -473,6 +480,7 @@ Data_By_Year:
       errors are most likely to occur.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The IRS leveraged data-sharing agreements with the Department
       of Health and Human Services (HHS), Centers for Medicare and Medicaid Services

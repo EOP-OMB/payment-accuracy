@@ -4,11 +4,13 @@ Agency_Name: Small Business Administration
 Data_By_Year:
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: SBA will continue to provide training to review staff
       on topics and issues related to PPP Guaranty Purchase.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'Training was provided to SBA review staff on the following
       topics and issues related to PPP Guaranty purchase.
@@ -167,6 +169,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: 'None of the choices provided apply to SBA''s corrective
       actions related to this program.  Nevertheless, a choice of action and a date
@@ -179,6 +182,7 @@ Data_By_Year:
       demanding repayment from the lender.'
     Mitigation_Strategy: app4_1
   - Action_Taken: Not Completed
+    Action_Type: Change Process
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: "None of the choices provided apply to SBA's corrective\

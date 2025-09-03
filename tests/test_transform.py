@@ -128,6 +128,16 @@ def test_ip_root_causes_file(mock_csv_data, in_memory_db):
 
     assert len(df) == 2
 
+def test_load_congressional_reports_files(mock_csv_data, in_memory_db):
+    transform.CONGRESSIONAL_REPORTS_AGENCY_PATH = mock_csv_data["CONGRESSIONAL_REPORTS_PATH"]
+    transform.load_congressional_reports_files(in_memory_db)
+
+    df = pd.read_sql("SELECT * FROM congressional_reports", in_memory_db)
+    assert not df.empty
+    assert list(df.columns) == ["agency","Key","Title","value","Fiscal_Year"]
+
+    assert len(df) == 2
+
 @patch("data_processing.transform.conn", new_callable=MagicMock)
 @patch("data_processing.transform.cur", new_callable=MagicMock)
 def test_transform_and_insert_all_programs_data_aggregation_data_mocks(mock_cur, mock_conn):
@@ -167,4 +177,19 @@ def test_transform_and_insert_government_wide_data_aggregation_data_mocks(mock_c
     ]
 
     mock_cur.execute.assert_has_calls(expected_sql_calls, any_order=False)
+    mock_conn.commit.assert_called_once()
+
+@patch("data_processing.transform.conn", new_callable=MagicMock)
+@patch("data_processing.transform.cur", new_callable=MagicMock)
+def test_recreate_congressional_report_views_mocks(mock_cur, mock_conn):
+    transform.recreate_year_mapped_views()
+
+    expected_sql_calls = []
+    for drop_query in transform.CONGRESSIONAL_REPORTS_DROP_VIEW_SQL:
+        expected_sql_calls.append(call(drop_query))
+
+    for create_query in transform.CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL:
+        expected_sql_calls.append(call(create_query))
+
+    mock_cur.execute.assert_has_calls(expected_sql_calls, any_order=True)
     mock_conn.commit.assert_called_once()

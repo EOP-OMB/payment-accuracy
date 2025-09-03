@@ -311,6 +311,7 @@ Data_By_Year:
     cyp5: '873.49255433'
 - Actions_Taken:
   - Action_Taken: Not Completed
+    Action_Type: Change Process
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'Our Agency Strategic Plan for Fiscal Years (FY) 2022-2026
@@ -357,6 +358,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2027+
     Description_Action_Taken: 'To address improper payments caused by failure to access
       data or information needed, we are developing a Consolidated Claims Experience
@@ -399,6 +401,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app1_1
   - Action_Taken: Planned
+    Action_Type: Predictive Analytics
     Completion_Date: FY2027+
     Description_Action_Taken: 'To address improper payments caused by inability to
       access the data or information needed and failure to access data or information
@@ -425,6 +428,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app7_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: To address improper payments caused by failure to access
       data or information needed, we released updated guidance.  In June 2022, and
@@ -439,6 +443,7 @@ Data_By_Year:
       to pandemic-related disaster assistance.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Not Completed
+    Action_Type: Predictive Analytics
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'To address improper payments caused by inability to
@@ -483,6 +488,7 @@ Data_By_Year:
       million SSI RZs and LIs in FY 2024.'
     Mitigation_Strategy: atp7_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2027+
     Description_Action_Taken: 'To address improper payments caused by inability to
       access the data or information needed and failure to access data or information
@@ -557,6 +563,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app5_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: 'Our Agency Strategic Plan for Fiscal Years (FY) 2022-2026
       established the goal to improve access to our programs.  To address improper
@@ -602,6 +609,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app4_1
   - Action_Taken: Not Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'To address improper payments caused by inability to
@@ -687,6 +695,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp5_1
   - Action_Taken: Planned
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2027+
     Description_Action_Taken: 'To address improper payments caused by inability to
       access the data or information needed, we inform Supplemental Security Income
@@ -723,6 +732,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app2_1
   - Action_Taken: Not Completed
+    Action_Type: Automation
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'To address improper payments caused by failure to access
@@ -785,6 +795,7 @@ Data_By_Year:
       can be uploaded and signed electronically.'
     Mitigation_Strategy: atp1_1
   - Action_Taken: Not Completed
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'To address improper payments caused by inability to
@@ -820,6 +831,7 @@ Data_By_Year:
       responsibilities.'
     Mitigation_Strategy: atp2_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q4
     Description_Action_Taken: To address improper payments caused by data or information
       needed does not exist, inability to access the data or information needed, and
@@ -1139,6 +1151,7 @@ Data_By_Year:
     Value: '136.159372'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2028+
     Description_Action_Taken: 'To address improper payments caused by failure to access
       data or information needed, we are developing a Consolidated Claims Experience
@@ -1216,6 +1229,7 @@ Data_By_Year:
       support to our mutual customers.'
     Mitigation_Strategy: app1_1
   - Action_Taken: Planned
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2028+
     Description_Action_Taken: 'To address improper payments caused by inability to
       access the data or information needed, we inform Supplemental Security Income
@@ -1278,6 +1292,7 @@ Data_By_Year:
       language that people can read and understand.'
     Mitigation_Strategy: app2_1
   - Action_Taken: Not Completed
+    Action_Type: Training
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: To address improper payments caused by failure to access
@@ -1300,6 +1315,7 @@ Data_By_Year:
       year 2025.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Not Completed
+    Action_Type: Change Process
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'To address improper payments caused by inability to
@@ -1363,6 +1379,7 @@ Data_By_Year:
       a production release of the expanded iSSI.'
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: 'To address improper payments caused by inability to
       access the data or information needed, we are working to reduce the complexity
@@ -1394,6 +1411,7 @@ Data_By_Year:
       a production release of the expanded iSSI.'
     Mitigation_Strategy: app4_1
   - Action_Taken: Planned
+    Action_Type: Predictive Analytics
     Completion_Date: FY2028+
     Description_Action_Taken: 'To address improper payments caused by inability to
       access the data or information needed, we looked for Old-Age, Survivors, and
@@ -1430,6 +1448,7 @@ Data_By_Year:
       LIs in FY 2025.'
     Mitigation_Strategy: app7_1
   - Action_Taken: Not Completed
+    Action_Type: Behavioral/Psych Influence
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'To address improper payments caused by inability to
@@ -1493,6 +1512,7 @@ Data_By_Year:
       language that people can read and understand.'
     Mitigation_Strategy: atp2_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: To address improper payments caused by failure to access
       data or information needed, we released updated guidance.  In June 2022, and
@@ -1514,6 +1534,7 @@ Data_By_Year:
       year 2025.
     Mitigation_Strategy: app3_1
   - Action_Taken: Not Completed
+    Action_Type: Automation
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'To address improper payments caused by failure to access
@@ -1603,6 +1624,7 @@ Data_By_Year:
       support to our mutual customers.'
     Mitigation_Strategy: atp1_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2028+
     Description_Action_Taken: 'To address improper payments caused by inability to
       access the data or information needed and failure to access data or information
@@ -1696,6 +1718,7 @@ Data_By_Year:
       from the NPRM public comment period.'
     Mitigation_Strategy: app5_1
   - Action_Taken: Not Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'To address improper payments caused by inability to
@@ -1790,6 +1813,7 @@ Data_By_Year:
       the NPRM public comment period.'
     Mitigation_Strategy: atp5_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: To address improper payments caused by data or information
       needed does not exist, inability to access the data or information needed, and
@@ -1807,6 +1831,7 @@ Data_By_Year:
       support and maintenance.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Not Completed
+    Action_Type: Predictive Analytics
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'To address improper payments caused by inability to

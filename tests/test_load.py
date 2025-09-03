@@ -1,3 +1,4 @@
+import config
 import os
 import pytest
 import yaml
@@ -329,7 +330,7 @@ def program_specific_sample_data():
                 "CY_Margin_of_Error": "+/-4.34"
             }
         ],
-        "program_actions_data_points": [
+        "program_actions_data_points_2023": [
             {
                 "Fiscal_Year": 2023,
                 "Agency": "A1",
@@ -337,8 +338,11 @@ def program_specific_sample_data():
                 "Mitigation_Strategy": "Mitigation Strategy 1",
                 "Description_Action_Taken": "Description Action Taken 1",
                 "Action_Taken": "Action Taken 1",
-                "Completion_Date": "FY2028+"
-            },
+                "Completion_Date": "FY2028+",
+                "Action_Type": "Automation"
+            }
+        ],
+        "program_actions_data_points_2024": [
             {
                 "Fiscal_Year": 2024,
                 "Agency": "A1",
@@ -346,7 +350,8 @@ def program_specific_sample_data():
                 "Mitigation_Strategy": "Mitigation Strategy 2",
                 "Description_Action_Taken": "Description Action Taken 2",
                 "Action_Taken": "Action Taken 2",
-                "Completion_Date": "FY2028+"
+                "Completion_Date": "FY2028+",
+                "Action_Type": "Automation"
             }
         ],
         "visibility_data_points": [{
@@ -610,6 +615,163 @@ def program_specific_sample_data():
         ]
     }
 
+@pytest.fixture
+def congressional_reports_sample_data():
+    return {
+        "agency_names": [
+            {
+                "Agency_Acronym": "AG1",
+                "Agency_Name": "Agency 1"
+            },
+            {
+                "Agency_Acronym": "AG2",
+                "Agency_Name": "Agency 2"
+            }
+        ],
+        "agencies_with_data": [
+            {
+                "agency": "AG1"
+            },
+            {
+                "agency": "AG2"
+            }
+        ],
+        "agency_names_2": [
+            {
+                "Agency_Acronym": "AG1",
+                "Agency_Name": "Agency 1"
+            },
+            {
+                "Agency_Acronym": "AG2",
+                "Agency_Name": "Agency 2"
+            }
+        ],
+        "report_results_2023": [
+            {
+                "Agency": "AG1",
+                "Fiscal_Year": 2023,
+                "Key": "key1",
+                "Question": "question1",
+                "Answer": "answer1_2023",
+                "SortOrder": 0
+            },
+            {
+                "Agency": "AG2",
+                "Fiscal_Year": 2023,
+                "Key": "key1",
+                "Question": "question1",
+                "Answer": "answer1a_2023",
+                "SortOrder": 0
+            }
+        ],
+        "risks_2023_AG1": [{
+            "Agency": "AG1",
+            "Fiscal_Year": 2023,
+            "Program_Name": "PR1",
+            "Susceptible": "No"
+        }],
+        "AG1_raw_data_points_2023": [
+            {
+                "agency": "AG1",
+                "Key": "raa9",
+                "Title": "title_1",
+                "value": "value_1",
+                "Fiscal_Year": 2023
+            },
+            {
+                "agency": "AG1",
+                "Key": "raa8",
+                "Title": "title_2",
+                "value": "value_2",
+                "Fiscal_Year": 2023
+            }
+        ],
+        "risks_2023_AG2": [{
+            "Agency": "AG2",
+            "Fiscal_Year": 2023,
+            "Program_Name": "PR2",
+            "Susceptible": "No"
+        }],
+        "AG2_raw_data_points_2023": [
+            {
+                "agency": "AG2",
+                "Key": "raa9",
+                "Title": "title_1",
+                "value": "value_1",
+                "Fiscal_Year": 2023
+            },
+            {
+                "agency": "AG2",
+                "Key": "raa8",
+                "Title": "title_2",
+                "value": "value_2",
+                "Fiscal_Year": 2023
+            }
+        ],
+        "report_results_2024": [
+            {
+                "Agency": "AG1",
+                "Fiscal_Year": 2024,
+                "Key": "key1",
+                "Question": "question1",
+                "Answer": "answer1_2024",
+                "SortOrder": 0
+            },
+            {
+                "Agency": "AG2",
+                "Fiscal_Year": 2024,
+                "Key": "key2",
+                "Question": "question2",
+                "Answer": "answer2_2024",
+                "SortOrder": 0
+            }
+        ],
+        "risks_2024_AG1": [{
+            "Agency": "AG1",
+            "Fiscal_Year": 2024,
+            "Program_Name": "PR1",
+            "Susceptible": "No"
+        }],
+        "AG1_raw_data_points_2024": [
+            {
+                "agency": "AG1",
+                "Key": "raa9",
+                "Title": "title_1",
+                "value": "value_1",
+                "Fiscal_Year": 2024
+            },
+            {
+                "agency": "A1",
+                "Key": "raa8",
+                "Title": "title_2",
+                "value": "value_2",
+                "Fiscal_Year": 2024
+            }
+        ],
+        "risks_2024_AG2": [{
+            "Agency": "AG2",
+            "Fiscal_Year": 2024,
+            "Program_Name": "PR2",
+            "Susceptible": "No"
+        }],
+        "AG2_raw_data_points_2024": [
+            {
+                "agency": "AG2",
+                "Key": "raa9",
+                "Title": "title_1",
+                "value": "value_1",
+                "Fiscal_Year": 2024
+            },
+            {
+                "agency": "AG2",
+                "Key": "raa8",
+                "Title": "title_2",
+                "value": "value_2",
+                "Fiscal_Year": 2024
+            }
+        ]
+    }
+
 def test_generate_agency_programs_page(mock_cursor, agency_programs_sample_data):
     mock_cursor.fetchall.side_effect = [
         agency_programs_sample_data["program_specific_data_points"],
@@ -680,8 +842,8 @@ def test_generate_agency_specific_pages(mock_cursor, agency_specific_sample_data
             assert len(yaml_data["PIIA2019_Compliant_Programs"]) == 1
             assert yaml_data["PIIA2019_Compliant_Programs"][0]["Name"] == "program1"
             assert len(yaml_data["PIIA2019_NonCompliant_Programs"]) == 1
-            assert len(yaml_data["Risks"]) == 2
-            assert yaml_data["Risks"][1]["Assessments"][0]["Fiscal_Year"] == 2022
+            assert len(yaml_data["Risks"]["Assessments"]) == 2
+            assert yaml_data["Risks"]["Assessments"][1]["Fiscal_Year"] == 2022
             assert len(yaml_data["Eligibility_Themes"]) == 2
             assert len(yaml_data["Eligibility_Themes"][0]["Themes"]) == 2
             assert len(yaml_data["Eligibility_Themes"][1]["Themes"]) == 1
@@ -689,12 +851,15 @@ def test_generate_agency_specific_pages(mock_cursor, agency_specific_sample_data
             assert not yaml_data["Is_Placeholder"]
 
 def test_generate_program_specific_pages(mock_cursor, program_specific_sample_data):
+    load.PROGRAM_SPECIFIC_FISCAL_YEARS = [2023, 2024]
+
     mock_cursor.fetchall.side_effect = [
         program_specific_sample_data["all_agency_program_names"],
         program_specific_sample_data["program_data_points"],
         program_specific_sample_data["program_chart_data_points_A1"],
         program_specific_sample_data["program_improper_payment_estimates_data_points"],
-        program_specific_sample_data["program_actions_data_points"],
+        program_specific_sample_data["program_actions_data_points_2023"],
+        program_specific_sample_data["program_actions_data_points_2024"],
         program_specific_sample_data["visibility_data_points"],
         program_specific_sample_data["program_overpayments_data_points"],
         program_specific_sample_data["program_overpayments_outside_data_points"],
@@ -770,3 +935,98 @@ def test_generate_program_specific_pages(mock_cursor, program_specific_sample_da
                     assert year_data["Unknown_Curent_Year_Plus_1_Amount"] == "Value28"
                     assert year_data["pro1"] == "Value21"
                     assert year_data["rnp4"] == "Value22"
+
+def test_generate_congressional_reports_pages(mock_cursor, congressional_reports_sample_data):
+    mock_cursor.fetchall.side_effect = [
+        congressional_reports_sample_data["agency_names"],
+        congressional_reports_sample_data["agencies_with_data"],
+        congressional_reports_sample_data["agency_names_2"],
+        congressional_reports_sample_data["report_results_2023"],
+        congressional_reports_sample_data["risks_2023_AG1"],
+        congressional_reports_sample_data["AG1_raw_data_points_2023"],
+        congressional_reports_sample_data["risks_2023_AG2"],
+        congressional_reports_sample_data["AG2_raw_data_points_2023"],
+        congressional_reports_sample_data["report_results_2024"],
+        congressional_reports_sample_data["risks_2024_AG1"],
+        congressional_reports_sample_data["AG1_raw_data_points_2024"],
+        congressional_reports_sample_data["risks_2024_AG2"],
+        congressional_reports_sample_data["AG2_raw_data_points_2024"]
+    ]
+
+    config.CONGRESSIONAL_REPORTS = [
+        {
+            "Id": 1,
+            "Name": "Agency Risk Assessments Report",
+            "SurveyName": "Survey Responses",
+            "IsGovernmentWide": False
+        }
+    ]
+
+    config.CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING = {
+        "2023": {
+            "1": {
+                "key1": {
+                    "type": config.CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
+                    "heading": "",
+                    "subheading": ""
+                }
+            }
+        },
+        "2024": {
+            "1": {
+                "key1": {
+                    "type": config.CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
+                    "heading": "",
+                    "subheading": ""
+                },
+                "key2": {
+                    "type": config.CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
+                    "heading": "",
+                    "subheading": ""
+                }
+            }
+        }
+    }
+
+    config.CONGRESSIONAL_REPORTS_YEAR_TO_VIEW_MAPPING = [
+        {
+            "Year": 2023,
+            "AgencyReports": {
+                "1": "example_view"
+            },
+            "ProgramReports": {}
+        },
+        {
+            "Year": 2024,
+            "AgencyReports": {
+                "1": "example_view"
+            },
+            "ProgramReports": {}
+        }
+    ]
+
+    with patch("builtins.open", mock_open()) as mocked_file:
+        with patch("os.makedirs") as mocked_makedirs:
+            load.generate_congressional_reports_pages(mock_cursor)
+
+            mocked_file.assert_called_with(os.path.join(load.CONGRESSIONAL_REPORTS_DIR, "2024_AG2_1.md"), 'w', encoding='utf-8')
+            handle = mocked_file()
+            written_content = ''.join(call.args[0] for call in handle.write.call_args_list)
+
+            # calls don't store the file that was written to, so testing for the existence of different strings
+
+            # last report page written
+            assert "title: Agency Risk Assessments Report" in written_content
+            assert "permalink: /resources/congressional-reports/2024_AG2_1" in written_content
+            assert "Years_Dropdown:" in written_content
+            assert "SurveyData:" in written_content
+            assert "Answer: answer2_2024" in written_content
+            assert "Agency_Name: Agency 2" in written_content
+
+            # first report page written
+            assert "permalink: /resources/congressional-reports/2023_AG1_1" in written_content
+            assert "Answer: answer1_2023" in written_content
+            assert "Agency_Name: Agency 1" in written_content
+
+            # landing page file
+            assert "title: Congressional Reports" in written_content

@@ -95,6 +95,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: 'Per Numbered Memo 22-04, the Disaster Internal Controls
       Division is required to
@@ -103,6 +104,7 @@ Data_By_Year:
       should be noted, there is no additional funding for this program.'
     Mitigation_Strategy: app6_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: 'Per Numbered Memo 22-04, training specific to Improper
       Payment Audit
@@ -113,6 +115,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'The Disaster Internal Control Division (DICD) conducts
       quality assurance reviews on
@@ -122,6 +125,7 @@ Data_By_Year:
       payments.'
     Mitigation_Strategy: atp6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'Corrective actions may include but is not limited to
       obtaining supporting

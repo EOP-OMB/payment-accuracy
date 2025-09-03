@@ -238,6 +238,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024
     Description_Action_Taken: The IRS will continue to collaborate with the Department
       of Health and Human Services (HHS) Office of Child Support enforcement (OCSE),
@@ -246,6 +247,7 @@ Data_By_Year:
       more effectively
     Mitigation_Strategy: app5_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2022 Q4
     Description_Action_Taken: The IRS leveraged data sharing pursuant to various interagency
       agreements, e.g., Department of Health and Human Services (HHS) Office of Child
@@ -254,6 +256,7 @@ Data_By_Year:
       IRS to enforce laws passed by Congress more effectively.
     Mitigation_Strategy: atp5_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: The IRS will continue to hold the annual Dependent Database
       (DDb) meetings with stakeholders in the Wage & Investment, Small Business &
@@ -262,6 +265,7 @@ Data_By_Year:
       Tax Credit (ACTC) and identify improvement opportunities for next filing season.
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2022 Q4
     Description_Action_Taken: "The IRS held its annual Dependent Database (DDb) meetings\
       \ with stakeholders in the Wage & Investment, Small Business & Self Employed,\
@@ -453,6 +457,7 @@ Data_By_Year:
     cyp5: '0'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The IRS held its annual Dependent Database (DDb) meeting
       with stakeholders in Taxpayer Services, Small Business & Self Employed, and
@@ -477,6 +482,7 @@ Data_By_Year:
       are most likely to occur.
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2025
     Description_Action_Taken: The IRS will continue to leverage data-sharing agreements
       with the Office of Child Support Enforcement (OCSE) and the Social Security
@@ -503,6 +509,7 @@ Data_By_Year:
       burden on taxpayers and the IRS.
     Mitigation_Strategy: app5_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The IRS leveraged data-sharing agreements with the Office
       of Child Support Enforcement (OCSE) and the Social Security Administration (SSA)
@@ -523,6 +530,7 @@ Data_By_Year:
       for these credits.
     Mitigation_Strategy: atp5_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: The IRS will continue to hold the annual Dependent Database
       (DDb) meetings with stakeholders in Taxpayer Services, Small Business & Self

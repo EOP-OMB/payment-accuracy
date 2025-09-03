@@ -10,27 +10,6 @@ function addThousandsSeparator(num) {
     return num.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
-function displaySignificance(num) {
-    let significance = ' M';
-
-    if (num > 1000) {
-        significance = ' B';
-        num /= 1000;
-    }
-
-    if (num > 1000) {
-        significance = ' T';
-        num /= 1000;
-    }
-
-    if (num > 1000) {
-        significance = ' Q';
-        num /= 1000;
-    }
-
-    return addThousandsSeparator(roundTwoPlaces(num)) + significance;
-}
-
 function downloadCsvFromString(csvString, filename = 'data.csv') {
     const blob = new Blob([csvString], { type: 'text/csv;charset=utf-8;' });
     const url = URL.createObjectURL(blob);
@@ -73,7 +52,7 @@ function renderTable(tableId, columnHeaders, rowHeaders, dataSeries, showPercent
         for (let j = 0; j < dataSeries[i].length; j++) {
             const cell = document.createElement('td');
             const rate = totals[j] == 0 ? 0 : dataSeries[i][j] / totals[j];
-            let textContent = displaySignificance(dataSeries[i][j]);
+            let textContent = addThousandsSeparator(roundTwoPlaces(dataSeries[i][j])) + ' M';
             if (showPercentages === true) {
                 textContent += ' (' + Math.round(rate * 100) + '%)'
             }
@@ -261,43 +240,69 @@ function initSparklines() {
 
         // use the min/max as specified in the attributes,
         //   unless a datapoint would fall outside that range
-        // padding prevents cutting off points at extremes of range
-        const padding = 0.5
         let max = Math.max(...datapoints);
         max = Math.max(max, parseInt(sparklinesCharts[i].getAttribute('data-max')));
-        max += padding;
         let min = Math.min(...datapoints);
         min = Math.min(min, parseInt(sparklinesCharts[i].getAttribute('data-min')));
-        min -= padding;
 
-        if (years.length > 1) {
-            for (let i = 1; i < (years.length - 1); ++i) {
-                labels.push('')
+        // fix gaps
+        let fixedYears = [];
+        for (j = 0; j <= (years[years.length - 1] - years[0]); ++j) {
+            fixedYears.push(years[0] + j);
+
+            if (!years.includes(years[0] + j)) {
+                datapoints.splice(j, 0, null);
             }
-            labels.push('FY ' + years[years.length - 1]);
         }
 
-        const color = sparklinesCharts[i].getAttribute('data-color')
+        // set intermediate labels to blank
+        if (fixedYears.length > 1) {
+            for (let j = 1; j < (fixedYears.length - 1); ++j) {
+                labels.push('')
+            }
+            labels.push('FY ' + fixedYears[fixedYears.length - 1]);
+        }
+
+        const color = sparklinesCharts[i].getAttribute('data-color');
+        const backgroundColor = sparklinesCharts[i].getAttribute('data-background-color');
 
         const myChart = new Chart(ctx, {
-            type: 'line',
+            type: 'bar',
             data: {
                     labels: labels,
                     datasets: [{
                         label: '',
                         data: datapoints,
                         borderColor: color,
-                        borderWidth: 3,
+                        backgroundColor: backgroundColor,
+                        borderWidth: 2,
                         pointRadius: 0
                     }]
             },
             options: {
+                interaction: {
+                    mode: 'index',
+                    includeInvisible: true,
+                    intersect: false
+                },
                 plugins: {
                     legend: {
                         display: false
                     },
                     tooltip: {
-                        enabled: false
+                        enabled: true,
+                        callbacks: {
+                            title: function() {
+                                return '';
+                            },
+                            label: function(context) {
+                                if (context.parsed.y === null) {
+                                    return 'No data';
+                                } else {
+                                    return (Math.round(context.parsed.y * 10) / 10) + ' %';
+                                }
+                            }
+                        }
                     }
                 },
                 scales: {
@@ -316,16 +321,12 @@ function initSparklines() {
                         max: max,
                         display: true,
                         ticks: {
-                            display: false
+                            display: true,
+                            count: 2
                         },
                         grid: {
                             display: false
                         }
-                    }
-                },
-                elements: {
-                    line: {
-                        fill: false
                     }
                 }
             }
@@ -349,6 +350,16 @@ function initImproperPayments() {
     const years = JSON.parse(chartElement.getAttribute('data-years'));
     const showPercentages = chartElement.getAttribute('data-show-percentages') === "true";
 
+    let improperPaymentSeries = [];
+    for (i = 0; i < overpaymentSeries.length; ++i) {
+        improperPaymentSeries.push(
+            overpaymentSeries[i] +
+            underpaymentSeries[i] +
+            technicallyImproperSeries[i] +
+            unknownSeries[i]
+        )
+    }
+
     const datasets = [
         // light blue
         getStackedLineSeries('Unknown', unknownSeries, '#00BDE3', '#84D6ED'),
@@ -359,7 +370,7 @@ function initImproperPayments() {
         // purple
         getStackedLineSeries('Overpayment', overpaymentSeries, '#54278F', '#9D87BE'),
         // dark-green
-        getStackedLineSeries('Payment Accuracy', paymentAccuracySeries, '#146947', '#83AA99')
+        getStackedLineSeries('Proper Payments', paymentAccuracySeries, '#146947', '#83AA99')
     ];
 
     const downloadCsv = document.getElementById('download-improper-payment-estimates-chart-csv');
@@ -370,7 +381,8 @@ function initImproperPayments() {
         'improper-payment-estimates-table',
         ['', ...years],
         [
-            'Payment Accuracy',
+            'Proper Payments Total',
+            'Improper Payments Total',
             'Overpayment',
             'Underpayment',
             'Technically Improper',
@@ -378,6 +390,7 @@ function initImproperPayments() {
         ],
         [
             paymentAccuracySeries,
+            improperPaymentSeries,
             overpaymentSeries,
             underpaymentSeries,
             technicallyImproperSeries,

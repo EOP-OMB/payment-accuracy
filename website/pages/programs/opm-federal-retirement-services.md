@@ -180,6 +180,7 @@ Data_By_Year:
     cyp5: '81.13'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: "RS plans to continue receiving the robust and comprehensive\
       \ Death Master File under a separate agreement with SSA (checking). RS uses\
@@ -193,6 +194,7 @@ Data_By_Year:
       \ governing the determination and payment of benefits.\n"
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: Regular quality assurance audits were used to assess
       the accuracy of annuity payments. These audits were used to identify specific
@@ -202,6 +204,7 @@ Data_By_Year:
       increased their knowledge base which impacts internal accuracy goals.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: 'OPM’s annuity calculations have automated and manual
       components. The manual components are subject to human error. Errors can include
@@ -212,6 +215,7 @@ Data_By_Year:
       improves accuracy which affects improper payments.'
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'RS is aware of the improper payments; however, systemic
       limitations prevent RS from providing the needed level of specificity. OPM’s
@@ -392,6 +396,7 @@ Data_By_Year:
     Value: '113.220000'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: OPM’s annuity calculations involve both automated and
       manual components, the latter being susceptible to human error. Mistakes can
@@ -400,6 +405,7 @@ Data_By_Year:
       developing targeted training can enhance accuracy and reduce improper payments.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: RS acknowledges the occurrence of improper payments;
       however, systemic limitations hinder the provision of detailed specificity.
@@ -420,6 +426,7 @@ Data_By_Year:
       Do Not Pay Portal to identify annuitants who should have been reported deceased.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: 'RS plans to use Death Record Confidence Scoring Tool
       (DRCST).  Which is an automated process that matches data from the Death Master
@@ -439,6 +446,7 @@ Data_By_Year:
       potential impact for at-risk dollars.'
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: Regular quality assurance audits assess the accuracy
       of annuity payments, identifying training needs and systemic deficiencies. For

@@ -11,7 +11,7 @@ Hide_Integrity_Results: true
 Hide_PIIA2019: false
 Hide_Recovery_Audits: false
 Hide_Recovery_Details: true
-Hide_Recovery_Info: true
+Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
 Hide_Supplemental_Info: false
@@ -56,46 +56,41 @@ Payment_Accuracy_Rate_Max: 0
 Payment_Accuracy_Rate_Min: 0
 Payment_Accuracy_Rates: '[]'
 Risks:
-- Assessments:
+  AdditionalInformation: null
+  Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Accountability
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Accountability
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Continued Pretrial Release
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Continued Pretrial Release
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Fair Administration of Justice
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Fair Administration of Justice
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Integration
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Integration
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Judicial Concurrence with PSA Recommendations
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Judicial Concurrence with PSA Recommendations
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Maximize Court Appearance
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Maximize Court Appearance
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Minimize Rearrest
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Minimize Rearrest
-  Slug: null
-- Assessments:
   - Fiscal_Year: 2023
+    Program_Name: Reduce Recidivism
+    Slug: null
     Susceptible: 'No'
-  Program_Name: Reduce Recidivism
-  Slug: null
+  SubstantialChangesMade: null
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'

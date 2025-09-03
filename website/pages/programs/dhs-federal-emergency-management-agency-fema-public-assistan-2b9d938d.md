@@ -207,6 +207,7 @@ Data_By_Year:
     cyp5: '0.00'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: The Federal Emergency Management Agency (FEMA) will
       continue to train staff on proper procedures for reviewing submitted package
@@ -226,6 +227,7 @@ Data_By_Year:
       the Public Assistance program leading to successful VAYGo results.
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
+    Action_Type: Automation
     Completion_Date: FY2025
     Description_Action_Taken: The Federal Emergency Management Agency (FEMA) developed
       a Validate as You Go (VAYGo) Module within the FEMA Grants Manager / Grants
@@ -237,6 +239,7 @@ Data_By_Year:
       VAYGo stakeholders. This is an ongoing effort.
     Mitigation_Strategy: app1_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: The Federal Emergency Management Agency (FEMA) will
       continue to train staff on proper procedures for reviewing submitted package
@@ -256,6 +259,7 @@ Data_By_Year:
       stakeholders.
     Mitigation_Strategy: app4_1
   - Action_Taken: Not Completed
+    Action_Type: Automation
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: "The National Delivery Model has increased simplicity\
@@ -291,6 +295,7 @@ Data_By_Year:
       \ This is an ongoing effort."
     Mitigation_Strategy: atp1_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: 'The Payment Integrity Information Act of 2019 (PIIA)
       requires agencies to review and assess all programs and activities they administer
@@ -315,6 +320,7 @@ Data_By_Year:
       of the Inspector General (OIG) and the Government Accountability Office (GAO).'
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q1
     Description_Action_Taken: "To help meet the goals of the 2022-2026 Strategic Plan,\
       \ the Federal Emergency Management Agency (FEMA) reestablished the Public Assistance\
@@ -372,6 +378,7 @@ Data_By_Year:
       \ guide and a new closeout benefit for qualifying recipients."
     Mitigation_Strategy: atp4_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "In 2022, the Federal Emergency Management Agency (FEMA)\
       \ Public Assistance Task Force (PATF) engaged an independent review to objectively\
@@ -405,6 +412,7 @@ Data_By_Year:
       \ “Assessment of FEMA’s Public Assistance Alternative Procedures Program”."
     Mitigation_Strategy: atp6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q1
     Description_Action_Taken: "Readily available on the FEMA.gov website, the Federal\
       \ Emergency Management Agency (FEMA) supplies training guides related to the\

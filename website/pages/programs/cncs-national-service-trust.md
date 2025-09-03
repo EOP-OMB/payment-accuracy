@@ -110,6 +110,7 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: "•\tAmeriCorps had previously established a Payment\
       \ Integrity Corrective Action Plan working group. This group will be revived\
@@ -119,6 +120,7 @@ Data_By_Year:
       \ terms and conditions."
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "•\tAmeriCorps had previously established a Payment\
       \ Integrity Corrective Action Plan working group to address improper payment\

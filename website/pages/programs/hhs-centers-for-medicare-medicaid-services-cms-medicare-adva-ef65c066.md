@@ -172,6 +172,7 @@ Data_By_Year:
     cyp5: '1254.76'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: 'HHS plans to continue conducting Risk Adjustment Data
       Validation (RADV) audits to address improper payments.
@@ -179,6 +180,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app6_1
   - Action_Taken: Not Completed
+    Action_Type: Audit
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'Conducted contract-level RADV audits to verify the
@@ -189,6 +191,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: 'HHS plans to hold additiional training on Medicare
       Part C Fraud, Waste, and Abuse  covering the latest schemes, trends, data analysis,
@@ -197,6 +200,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q2
     Description_Action_Taken: In March 2023, HHS held a Medicare Part C Fraud, Waste,
       and Abuse webinar covering the latest schemes, trends, data analysis, and investigations.
@@ -329,6 +333,7 @@ Data_By_Year:
     Value: '1902.040000'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: 'HHS plans to hold additional trainings on Medicare
       Part C Fraud, Waste, and Abuse covering the latest schemes, trends, data analysis,
@@ -337,6 +342,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'In March 2024, HHS held a Medicare Part C Fraud, Waste,
       and Abuse webinar covering the latest schemes, trends, data analysis, and investigations.  The
@@ -358,6 +364,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: 'HHS plans to continue conducting RADV audits to address
       improper payments. HHS will also continue to develop a Part C strategy.
@@ -365,6 +372,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "HHS conducts contract-level RADV audits to verify the\
       \ accuracy of enrollee diagnoses submitted by MAOs for risk-adjusted payments.\

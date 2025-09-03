@@ -164,6 +164,7 @@ Data_By_Year:
     cyp5: '37.87'
 - Actions_Taken:
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q3
     Description_Action_Taken: 'HHS conducted Opioid Education Mission webinars in
       November 2022 and May 2023. In September 2023, an in-person Opioid Education
@@ -177,6 +178,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: 'CMS will continue to conduct training sessions for
       Part D plan sponsors on program integrity initiatives, investigations, data
@@ -187,6 +189,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app3_1
   - Action_Taken: Not Completed
+    Action_Type: Audit
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: "CMS conducted audits of Part D plan sponsors, with\
@@ -199,6 +202,7 @@ Data_By_Year:
       \  \n"
     Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: "CMS will continue to conduct audits of Part D plan\
       \ sponsors, with a focus on drugs that are at high-risk for improper payments. \
@@ -336,6 +340,7 @@ Data_By_Year:
     Value: '1019.840000'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: CMS will continue to conduct training sessions for Part
       D plan sponsors on program integrity initiatives, investigations, data analyses,
@@ -344,6 +349,7 @@ Data_By_Year:
       invalid or incomplete documentation.
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: HHS audits Part D plan sponsors to address high-risk
       drugs and educate sponsors on fraud, waste, and abuse.  These audits have varying
@@ -357,6 +363,7 @@ Data_By_Year:
       to educate plan sponsors about fraud, waste, and abuse issues.
     Mitigation_Strategy: atp6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: In June 2024, HHS held a Part C and Part D Fraud, Waste,
       and Abuse training that covered information about current MAO and PDP fraud
@@ -371,6 +378,7 @@ Data_By_Year:
       participating sponsors.
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: CMS will continue to conduct audits of Part D plan sponsors,
       with a focus on drugs that are at high-risk for improper payments.  Each type

@@ -159,6 +159,7 @@ Data_By_Year:
     cyp5: '1.52'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: 'Under the Medicaid Eligibility Quality Control (MEQC)
       Program, states design and conduct pilots to evaluate the processes that determine
@@ -178,6 +179,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app6_1
   - Action_Taken: Not Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: "HHS shares Medicare data to assist states and territories\
@@ -190,6 +192,7 @@ Data_By_Year:
       \ the completeness and quality of state MSIS submissions in real-time. \n"
     Mitigation_Strategy: atp5_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: 'HHS offers training, technical assistance, and support
       to state Medicaid program integrity officials through the Medicaid Integrity
@@ -198,6 +201,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'In FY 2023, HHS continued working with states to implement
       a robust state-specific Corrective Action Plan process that provides enhanced
@@ -215,6 +219,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp4_1
   - Action_Taken: Not Completed
+    Action_Type: Audit
     Completion_Date: The corrective action was not fully completed this reporting
       period
     Description_Action_Taken: 'Under the Medicaid Eligibility Quality Control (MEQC)
@@ -235,12 +240,14 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: "HHS will continue working with states to implement\
       \ a robust state-specific Corrective Action Plan process that provides enhanced\
       \ technical assistance and guidance to states. \n"
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2023 Q4
     Description_Action_Taken: 'HHS offers training, technical assistance, and support
       to state Medicaid program integrity officials through the Medicaid Integrity
@@ -251,6 +258,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024
     Description_Action_Taken: "HHS will share Medicare data to assist states and territories\
       \ with meeting Medicaid screening and enrollment requirements. To help alleviate\
@@ -404,6 +412,7 @@ Data_By_Year:
     Value: '0.329800'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: 'HHS will continue working with states to implement
       a robust state-specific Corrective Action Plan process that provides enhanced
@@ -412,6 +421,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'In FY 2024, HHS continued working with states to implement
       a robust state-specific Corrective Action Plan process that provides enhanced
@@ -428,6 +438,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
+    Action_Type: Training
     Completion_Date: FY2025
     Description_Action_Taken: 'HHS offers training, technical assistance, and support
       to state Medicaid program integrity officials through the Medicaid Integrity
@@ -436,6 +447,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app3_1
   - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'HHS shares Medicare data to assist states and territories
       with meeting Medicaid screening and enrollment requirements. To help alleviate
@@ -449,6 +461,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp5_1
   - Action_Taken: Planned
+    Action_Type: Audit
     Completion_Date: FY2025
     Description_Action_Taken: 'Under the Medicaid Eligibility Quality Control program,
       states design and conduct pilots to evaluate the processes that determine an
@@ -468,6 +481,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'HHS offers training, technical assistance, and support
       to state Medicaid program integrity officials through the Medicaid Integrity
@@ -478,6 +492,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2025
     Description_Action_Taken: 'HHS will continue to share Medicare data to assist
       states and territories with meeting Medicaid screening and enrollment requirements.
@@ -488,6 +503,7 @@ Data_By_Year:
       '
     Mitigation_Strategy: app5_1
   - Action_Taken: Completed
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'Under the Medicaid Eligibility Quality Control program,
       states design and conduct pilots to evaluate the processes that determine an
