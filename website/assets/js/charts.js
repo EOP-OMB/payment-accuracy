@@ -355,8 +355,7 @@ function initImproperPayments() {
         improperPaymentSeries.push(
             overpaymentSeries[i] +
             underpaymentSeries[i] +
-            technicallyImproperSeries[i] +
-            unknownSeries[i]
+            technicallyImproperSeries[i]
         )
     }
 

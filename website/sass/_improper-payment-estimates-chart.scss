@@ -27,13 +27,21 @@
             border: 1px solid $pa-lighter-grey;
         }
 
-        tbody > tr:nth-child(n+3) > th {
-            // indent non-total rows
-            padding-left: 20px;
+        tbody > tr > td {
+            background-color: $pa-bg-lightest;
         }
 
-        tbody > tr:first-child > td, tbody > tr:nth-child(2) > td {
-            background-color: $pa-bg-lightest;
+        // non-total rows
+        tbody > tr:nth-child(3),
+        tbody > tr:nth-child(4),
+        tbody > tr:nth-child(5) {
+            &  > th {
+                padding-left: 20px;
+            }
+
+            &  > td {
+                background-color: white;
+            }
         }
 
         th {
