@@ -1,23 +1,61 @@
 import config
+import hashlib
+import os
+import re
 import sqlite3
 from enum import Enum
 
-class QUERY_TYPES(Enum):
-    AGENCY_NAMES = 1
-    AGENCIES_HAVING_CONGRESSIONAL_DATA = 2
-    SIGNIFICANT_OR_HIGH_PRIORITY_PROGRAMS = 3
-    ACTIONS_TAKEN = 4
-    RISK_ASSESSMENTS = 5
-    HIGH_PRIORITY_SCORECARD_LINKS = 6
-    DNP_SURVEY_RESULTS = 7
-    DNP_GW_STATS = 8
-    IP_GW_SURVEY_RESULTS = 9
-    IP_GW_STATS = 10
-    ACTIONS_TAKEN_ADDITIONAL_INFO = 11
+QUERY_TYPES = Enum('QUERY_TYPES', [
+    'ACTIONS_TAKEN',
+    'ACTIONS_TAKEN_ADDITIONAL_INFO',
+    'AGENCIES_HAVING_CONGRESSIONAL_DATA',
+    'AGENCY_NAMES',
+    'AGENCY_RATE_EXTREMES',
+    'AGENCY_SURVEY_KEY_AGNOSTIC',
+    'AGENCY_WIDE_TABLE_AGENCIES',
+    'AGENCY_WIDE_TABLE_PROGRAMS',
+    'ALL_AGENCIES_YEARS',
+    'ALL_AGENCIES_YEARS_AVAILABLE',
+    'ALL_PROGRAMS',
+    'DISTINCT_AGENCIES',
+    'DNP_GW_STATS',
+    'DNP_SURVEY_RESULTS',
+    'ELIGIBILITY_THEME_DETAILS',
+    'FPI_LINK',
+    'HIGH_PRIORITY_SCORECARD_LINKS',
+    'IP_HIGHEST_PERFORMING_AGENCIES',
+    'IP_GW_RATE_EXTREMES',
+    'IP_GW_RATES',
+    'IP_GW_STATS',
+    'IP_GW_SURVEY_RESULTS',
+    'IP_WORST_PERFORMING_AGENCIES',
+    'PAYMENT_RECOVERY_AMOUNTS',
+    'PAYMENT_RECOVERY_DETAILS',
+    'PIIA_NON_COMPLIANT_PROGRAMS',
+    'PROGRAM_ADDITIONAL_INFORMATION',
+    'PROGRAM_CORRECTIVE_ACTIONS',
+    'PROGRAM_DATA_POINTS',
+    'PROGRAM_ELIGIBILITY_INFORMATION',
+    'PROGRAM_ELIGIBILITY_INFORMATION_AGGREGATED',
+    'PROGRAM_FUTURE_OUTLOOK',
+    'PROGRAM_IP_ESTIMATES',
+    'PROGRAM_OVERPAYMENTS',
+    'PROGRAM_OVERPAYMENTS_OUTSIDE',
+    'PROGRAM_PAYMENTS_VISIBILITY',
+    'PROGRAM_SCORECARD_LINKS',
+    'PROGRAM_SURVEY_KEY_AGNOSTIC',
+    'PROGRAM_TECHNICIALLY_IMPROPER_PAYMENTS',
+    'PROGRAM_UNDERPAYMENTS',
+    'PROGRAM_UNKNOWN_PAYMENTS',
+    'PROGRAM_UNKNOWN_PAYMENTS_BREAKDOWN',
+    'RISK_ASSESSMENTS',
+    'SIGNIFICANT_OR_HIGH_PRIORITY_PROGRAMS',
+])
 
-class KEY_TYPES(Enum):
-    RISKS_ADDITIONAL_INFORMATION = 1
-    RISKS_SUBSTANTIAL_CHANGES_MADE = 2
+KEY_TYPES = Enum('KEY_TYPES', [
+    'Risks_Additional_Information',
+    'Risks_Substantial_Changes_Made'
+])
 
 class query():
     def __init__(self, cursor: sqlite3.Cursor, query_type: QUERY_TYPES, year = config.FISCAL_YEAR):
@@ -33,9 +71,12 @@ class query():
     def exec(self, params):
         self.cursor.execute(self.query["query"], params)
         results = self.cursor.fetchall()
-        return self.query["mapper"](self.cursor, results)
 
-def fetch_all(cursor: sqlite3.Cursor, query_type: QUERY_TYPES, params, year = config.FISCAL_YEAR):
+        mapper = self.query.get("mapper", default_mapper)
+
+        return mapper(self.cursor, results)
+
+def fetch_all(cursor: sqlite3.Cursor, query_type: QUERY_TYPES, params = (), year = config.FISCAL_YEAR):
     query_instance = query(cursor, query_type, year)
     return query_instance.exec(params)
 
@@ -65,42 +106,19 @@ def fetch_cr_survey_program_results(cursor: sqlite3.Cursor, view_name, year):
         program_results_cache[year][view_name] = [dict(row) for row in results]
     return program_results_cache[year][view_name]
 
-cr_years_to_generate = list(range(config.FISCAL_YEAR - config.COUNT_CONGRESSIONAL_REPORTS_YEARS_DISPLAYED + 1, config.FISCAL_YEAR + 1))
-cr_years_to_generate_placeholder = ','.join(['?'] * len(cr_years_to_generate))
-
 agency_survey_details_cache = {}
 def get_agency_survey_details(cursor, year, agency):
     global agency_survey_details_cache
     if agency not in agency_survey_details_cache or year not in agency_survey_details_cache[agency]:
-        agencyQuery = f"""
-            SELECT
-                [agency],
-                [Key],
-                [Title],
-                [value],
-                [Fiscal_Year]
-            FROM [agency_data_raw]
-            WHERE [Fiscal_Year] = ? AND [Agency] = ?
-        """
-        cursor.execute(agencyQuery, (year, agency))
-        details = cursor.fetchall()
+        details = fetch_all(cursor, QUERY_TYPES.AGENCY_SURVEY_KEY_AGNOSTIC, (year, agency), year)
         if agency not in agency_survey_details_cache:
             agency_survey_details_cache[agency] = {}
-        agency_survey_details_cache[agency][year] = {row["Key"]: row for row in details}
+        agency_survey_details_cache[agency][year] = {row["Name"]: row for row in details}
     return agency_survey_details_cache[agency][year]
 
-def get_agency_survey_answer(cursor, year, agency, key_type: KEY_TYPES):
+def get_agency_survey_answer(cursor, year, agency, key: KEY_TYPES):
     details = get_agency_survey_details(cursor, year, agency)
-
-    key_config = keys_by_year[key_type]
-    key = ''
-    # some keys have never changed
-    if isinstance(key_config, str):
-        key = key_config
-    else:
-        key = key_config[year]
-
-    row = details.get(key, None)
+    row = details.get(key.name, None)
     value = None
     if row is not None:
         value = row["value"]
@@ -110,161 +128,230 @@ agency_names_lookup = {}
 def get_agency_name(cursor, agency_code, year = config.FISCAL_YEAR):
     global agency_names_lookup
     if not agency_names_lookup:
-        agencies = fetch_all(cursor, QUERY_TYPES.AGENCY_NAMES, (year,), year)
+        agencies = fetch_all(cursor, QUERY_TYPES.AGENCY_NAMES, (), year)
         agency_names_lookup = { agencyNameRow["Agency_Acronym"]: agencyNameRow["Agency_Name"] for agencyNameRow in agencies }
     if agency_code in agency_names_lookup:
         return agency_names_lookup[agency_code]
     else:
         return None
 
+def slugify(name, max_length=60):
+    slug = re.sub(r'[^a-zA-Z0-9]+', '-', name.lower()).strip('-')
+    if len(slug) > max_length:
+        # Truncate and add hash to preserve uniqueness
+        slug = slug[:max_length] + '-' + hashlib.md5(name.encode()).hexdigest()[:8]
+    return slug
+
+slugs_lookup = {}
+def slugifyProgramNames(cursor: sqlite3.Cursor):
+    programs = fetch_all(cursor, QUERY_TYPES.SIGNIFICANT_OR_HIGH_PRIORITY_PROGRAMS, ())
+    for program in programs:
+        slugs_lookup[program["Program_Name"]] = slugify(program["Agency"] + "-" + program["Program_Name"])
+    print("Successfully slugified program names")
+
+def get_slug(cursor, name):
+    if not slugs_lookup:
+        slugifyProgramNames(cursor)
+    return slugs_lookup.get(name, None)
+
+def get_sql_file(filename):
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    full_path = os.path.join(current_directory, 'sql',filename)
+    file_content = ''
+    try:
+        with open(full_path, 'r', encoding='utf-8') as file:
+            file_content = file.read()
+    except FileNotFoundError:
+        print(f"Error: The file '{full_path}' was not found.")
+        raise
+
+    return file_content
+
 def default_mapper(cursor, results):
     return [dict(row) for row in results]
 
-keys_by_year = {
-    KEY_TYPES.RISKS_ADDITIONAL_INFORMATION: "raa9",
-    KEY_TYPES.RISKS_SUBSTANTIAL_CHANGES_MADE: "raa8"
-}
+def agency_wide_table_programs_mapper(cursor, programs):
+    mapped_programs = []
+    for program in programs:
+        mapped_program = {
+            "program_name": program["Program_Name"],
+            "total_spent_federal_funding": program["Total_Spent_Federal_Funding"],
+            "high_priority_program": bool(program["High_Priority_Program"]),
+            "ip_rate": program["IP_Rate"],
+            "relative_change": program["Relative_Change"],
+            "agency": program["Agency"]
+        }
+        slug = get_slug(cursor, program["Program_Name"])
+        if slug:
+            mapped_program["slug"] = slug
+        mapped_programs.append(mapped_program)
+
+    return mapped_programs
+
+def agency_wide_table_agencies_mapper(cursor, agencies):
+    mapped_agencies = []
+    for row in agencies:
+        mapped_agency = {
+            "agency": row["Agency"],
+            "agency_name": row["Agency_Name"],
+            "total_spent_federal_funding": row["Total_Spent_Federal_Funding"],
+            "num_programs": row["Num_Programs"],
+            "susceptible_programs": row["Susceptible_Programs"],
+            "high_priority_programs": row["High_Priority_Programs"],
+            "improper_payments_rate": row["Improper_Payments_Rate"],
+            "relative_change": row["Relative_Change"]
+        }
+        mapped_agencies.append(mapped_agency)
+
+    return mapped_agencies
+
+def risk_assessments_mapper(cursor, assessments):
+    assessments = default_mapper(cursor, assessments)
+    for assessment in assessments:
+        assessment["Slug"] = get_slug(cursor, assessment["Program_Name"])
+        del assessment["Agency"]
+
+    return assessments
+
+def actions_taken_mapper(cursor, actions):
+    return list(map(lambda x: {
+        "Mitigation_Strategy": x["Mitigation_Strategy"],
+        "Description_Action_Taken": x["Description_Action_Taken"],
+        "Action_Taken": x["Action_Taken"],
+        "Completion_Date": x["Completion_Date"],
+        "Action_Type": x["Action_Type"]
+    }, actions))
+
+def return_nothing(cursor, actions):
+    return []
+
+def all_programs_mapper(cursor, programs):
+    programs = default_mapper(cursor, programs)
+    for program in programs:
+        program["Slug"] = str(get_slug(cursor, program["Program_Name"]))
+
+    return programs
+
+def piia_programs_compliance_mapper_2019(cursor, results):
+    compliance_survey_to_criterion_mapping = {
+        'pcp01': 'Overall',
+        'pcp2': '1A',
+        'pcp3': '1B',
+        'pcp4': '2A',
+        'pcp5': '2B',
+        'pcp6': '3',
+        'pcp7': '4',
+        'pcp8': '5A',
+        'pcp9': '5B',
+        'pcp10': '5C',
+        'pcp11': '6'
+    }
+
+    mappedPrograms = []
+    for result in results:
+        mappedProgram = { 'Name': result['Program_Name'] }
+        slug = get_slug(cursor, result['Program_Name'])
+        if slug:
+            mappedProgram['Slug'] = slug
+
+        for key, value in compliance_survey_to_criterion_mapping.items():
+            mappedProgram['Compliant_' + value] = str(result[key]).upper() != 'NON-COMPLIANT'
+        mappedPrograms.append(mappedProgram)
+
+    return mappedPrograms
+
+def piia_programs_compliance_mapper_2023(cursor, results):
+    compliance_survey_to_criterion_mapping = {
+        'pcp01_1': 'Overall',
+        'pcp2_2': '1A',
+        'pcp3_2': '1B',
+        'pcp4_2': '2A',
+        'pcp5_2': '2B',
+        'pcp6_2': '3',
+        'pcp7_2': '4',
+        'pcp8_2': '5A',
+        'pcp9_2': '5B',
+        'pcp10_2': '5C',
+        'pcp11_2': '6'
+    }
+
+    mappedPrograms = []
+    for result in results:
+        mappedProgram = { 'Name': result['Program_Name'] }
+        slug = get_slug(cursor, result['Program_Name'])
+        if slug:
+            mappedProgram['Slug'] = slug
+
+        for key, value in compliance_survey_to_criterion_mapping.items():
+            mappedProgram['Compliant_' + value] = str(result[key]).upper() == 'YES'
+        mappedPrograms.append(mappedProgram)
+
+    return mappedPrograms
+
+def piia_programs_compliance_mapper_2025(cursor, results):
+    mappedPrograms = []
+    for result in results:
+        mappedProgram = {
+            'Name': result['Program_Name'],
+            'Hide_Compliance_Section': True
+        }
+        slug = get_slug(cursor, result['Program_Name'])
+        if slug:
+            mappedProgram['Slug'] = slug
+
+        mappedPrograms.append(mappedProgram)
+
+    return mappedPrograms
 
 query_type_by_year = {
     QUERY_TYPES.AGENCY_NAMES: {
-        "query": """
-            SELECT DISTINCT
-                Agency_Acronym,
-                Agency_Name
-            FROM ip_agency_pocs
-            WHERE [Fiscal_Year] = ?
-        """,
-        "mapper": default_mapper
+        "query": get_sql_file("AGENCY_NAMES.sql")
     },
     QUERY_TYPES.AGENCIES_HAVING_CONGRESSIONAL_DATA: {
-        "query": f"""
-            SELECT DISTINCT agency FROM congressional_reports
-            UNION
-            SELECT DISTINCT agency FROM congressional_reports_program
-            WHERE [Fiscal_Year] IN ({cr_years_to_generate_placeholder})
-        """,
-        "mapper": default_mapper
+        "query": get_sql_file("AGENCIES_HAVING_CONGRESSIONAL_DATA.sql")
     },
     QUERY_TYPES.SIGNIFICANT_OR_HIGH_PRIORITY_PROGRAMS: {
-        "query": f"SELECT * FROM [significant_or_high_priority_programs]",
-        "mapper": default_mapper
+        "query": get_sql_file("SIGNIFICANT_OR_HIGH_PRIORITY_PROGRAMS.sql")
     },
     QUERY_TYPES.ACTIONS_TAKEN: {
-        "query": """
-            SELECT
-                [action_data].[Fiscal_Year],
-                [action_data].[Agency],
-                [action_data].[Program_Name],
-                [action_data].[Column_names] AS [Mitigation_Strategy],
-                [action_data].[Column_values] AS [Description_Action_Taken],
-                CASE
-                    WHEN [action_data].Column_names LIKE 'app%\\_1' ESCAPE '\\' AND [date_lookup].[Column_values] NOT LIKE 'The corrective action was not fully completed%' THEN 'Planned'
-                    WHEN ([action_data].Column_names LIKE 'atp%\\_1' ESCAPE '\\' OR [action_data].Column_names LIKE 'app%\\_1' ESCAPE '\\') AND [date_lookup].[Column_values] LIKE 'The corrective action was not fully completed%' THEN 'Not Completed'
-                    ELSE 'Completed'
-                END as [Action_Taken],
-                [date_lookup].[Column_values] AS [Completion_Date],
-                COALESCE([type_lookup].[Type], [action_data].Column_names) AS [Action_Type]
-            FROM [principal_table_columns] [action_data]
-            LEFT JOIN [actions_date_mapping] ON
-                [action_data].[Column_names] = [actions_date_mapping].[Action]
-            LEFT JOIN (
-                SELECT
-                    [Fiscal_Year],
-                    [Agency],
-                    [Program_Name],
-                    [Column_names],
-                    [Column_values]
-                FROM [principal_table_columns]
-            ) [date_lookup] ON
-                [action_data].[Fiscal_Year] = [date_lookup].[Fiscal_Year] AND
-                [action_data].[Agency] = [date_lookup].[Agency] AND
-                [action_data].[Program_Name] = [date_lookup].[Program_Name] AND
-                [actions_date_mapping].[Date] = [date_lookup].[Column_names]
-            LEFT JOIN (
-                SELECT
-                    [Type],
-                    [Action]
-                FROM [actions_date_mapping]
-            ) [type_lookup] ON [action_data].Column_names = [type_lookup].[Action]
-            WHERE [action_data].Column_values <> ''
-                AND ([action_data].Column_names LIKE 'atp%\\_1' ESCAPE '\\' OR [action_data].Column_names LIKE 'app%\\_1' ESCAPE '\\')
-                -- not showing on old site
-                AND [action_data].Column_names <> 'atp17_1'
-                AND [action_data].Column_names <> 'app17_1'
-                AND [action_data].[Program_Name] = ? AND [action_data].[Fiscal_Year] = ?""",
-        "mapper": lambda cursor, actions: list(map(lambda x: {
-            "Mitigation_Strategy": x["Mitigation_Strategy"],
-            "Description_Action_Taken": x["Description_Action_Taken"],
-            "Action_Taken": x["Action_Taken"],
-            "Completion_Date": x["Completion_Date"],
-            "Action_Type": x["Action_Type"]
-        }, actions))
+        2019: {
+            "query": get_sql_file("ACTIONS_TAKEN.sql"),
+            "mapper": actions_taken_mapper
+        },
+        2020: {
+            "query": get_sql_file("ACTIONS_TAKEN.sql"),
+            "mapper": actions_taken_mapper
+        },
+        2021: {
+            "query": get_sql_file("ACTIONS_TAKEN.sql"),
+            "mapper": actions_taken_mapper
+        },
+        2022: {
+            "query": get_sql_file("ACTIONS_TAKEN.sql"),
+            "mapper": actions_taken_mapper
+        },
+        2023: {
+            "query": get_sql_file("ACTIONS_TAKEN.sql"),
+            "mapper": actions_taken_mapper
+        },
+        2024: {
+            "query": get_sql_file("ACTIONS_TAKEN.sql"),
+            "mapper": actions_taken_mapper
+        },
+        2025: {
+            "query": get_sql_file("ACTIONS_TAKEN.sql"),
+            "mapper": return_nothing
+        }
     },
     QUERY_TYPES.RISK_ASSESSMENTS: {
-        "query": f"""
-            SELECT
-                a.[Agency],
-                a.[Fiscal_Year],
-                a.[Program_Name],
-                CASE WHEN
-                    (upper([Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_]) = 'NO' OR upper([raa7_2]) = 'NO') THEN 'No'
-                    ELSE 'Yes' END AS [Susceptible]
-            FROM [risks] a
-            JOIN (
-                SELECT
-                    [Agency],
-                    MAX([Fiscal_Year]) AS [LastRiskAssessment],
-                    [Program_Name]
-                FROM [risks]
-                WHERE (upper([raa6_2]) = 'YES' OR [Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_] IS NOT NULL)
-                    AND (
-                        (upper([Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_]) = 'NO' OR upper([raa7_2]) = 'NO') OR
-                        (upper([Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_]) = 'YES' OR upper([raa7_2]) = 'YES')
-                    )
-                    AND ([Agency] = ? AND [Fiscal_Year] <= ?)
-                GROUP BY [Agency], [Program_Name]
-            ) b ON a.[Agency] = b.[Agency] AND UPPER(a.[Program_Name]) = UPPER(b.[Program_Name]) AND a.[Fiscal_Year] = b.[LastRiskAssessment]
-            ORDER BY a.[Program_Name]
-        """,
-        "mapper": default_mapper
+        "query": get_sql_file("RISK_ASSESSMENTS.sql"),
+        "mapper": risk_assessments_mapper
     },
     QUERY_TYPES.HIGH_PRIORITY_SCORECARD_LINKS: {
-        "query": """
-            SELECT
-                [Link],
-                agency.[Program_Name]
-            FROM (
-                SELECT
-                    [Link],
-                    [Program_Name]
-                FROM program_scorecard_links
-                WHERE [Year] = ?
-                GROUP BY [Program_Name]
-                HAVING MAX(CONCAT([Year],'-',[Quarter]))
-            ) links
-            JOIN [significant_or_high_priority_programs] agency ON
-                links.[Program_Name] = agency.[Program_Name]
-            WHERE [Agency] = ?
-        """,
-        "mapper": default_mapper
+        "query": get_sql_file("HIGH_PRIORITY_SCORECARD_LINKS.sql")
     },
     QUERY_TYPES.DNP_SURVEY_RESULTS: {
-        "query": """
-            SELECT
-                [agency] AS [Agency],
-                [Fiscal_Year],
-                [Key],
-                [Title] AS [Question],
-                [value] AS [Answer],
-                CASE [Key]
-                    WHEN 'dpa5' THEN 0
-                END AS [SortOrder]
-            FROM [congressional_reports]
-            WHERE [Key] IN (
-                'dpa5'
-            )
-            AND [Fiscal_Year] = ?
-        """,
+        "query": get_sql_file("DNP_SURVEY_RESULTS.sql"),
         "mapper": lambda cursor, answers: list(map(lambda x: {
             "Answer": x["Answer"],
             "Agency": x["Agency"],
@@ -272,56 +359,10 @@ query_type_by_year = {
         }, answers))
     },
     QUERY_TYPES.DNP_GW_STATS: {
-        "query": """
-            SELECT
-                CAST([counts].[dpa1_yes] as REAL) * 100 / [counts].[dpa1_all] AS dpa1_yes,
-                CAST([counts].[dpa1_no] as REAL) * 100 / [counts].[dpa1_all] AS dpa1_no,
-                CAST([counts].[dpa2_yes] as REAL) * 100 / [counts].[dpa2_all] AS dpa2_yes,
-                CAST([counts].[dpa2_no] as REAL) * 100 / [counts].[dpa2_all] AS dpa2_no,
-                CAST([counts].[dpa3_daily] as REAL) * 100 / [counts].[dpa3_all] AS dpa3_daily,
-                CAST([counts].[dpa3_weekly] as REAL) * 100 / [counts].[dpa3_all] AS dpa3_weekly,
-                CAST([counts].[dpa3_monthly] as REAL) * 100 / [counts].[dpa3_all] AS dpa3_monthly,
-                CAST([counts].[dpa3_quarterly] as REAL) * 100 / [counts].[dpa3_all] AS dpa3_quarterly,
-                CAST([counts].[dpa3_annually] as REAL) * 100 / [counts].[dpa3_all] AS dpa3_annually,
-                CAST([counts].[dpa3_na] as REAL) * 100 / [counts].[dpa3_all] AS dpa3_na
-            FROM (
-                SELECT
-                    SUM(CASE WHEN [Key] = 'dpa1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS dpa1_all,
-                    SUM(CASE WHEN [Key] = 'dpa1' AND LOWER([value]) = 'yes' THEN 1 ELSE 0 END) AS dpa1_yes,
-                    SUM(CASE WHEN [Key] = 'dpa1' AND LOWER([value]) = 'no' THEN 1 ELSE 0 END) AS dpa1_no,
-                    SUM(CASE WHEN [Key] = 'dpa2' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS dpa2_all,
-                    SUM(CASE WHEN [Key] = 'dpa2' AND LOWER([value]) = 'yes' THEN 1 ELSE 0 END) AS dpa2_yes,
-                    SUM(CASE WHEN [Key] = 'dpa2' AND LOWER([value]) = 'no' THEN 1 ELSE 0 END) AS dpa2_no,
-                    SUM(CASE WHEN [Key] = 'dpa3' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS dpa3_all,
-                    SUM(CASE WHEN [Key] = 'dpa3' AND LOWER([value]) = 'daily' THEN 1 ELSE 0 END) AS dpa3_daily,
-                    SUM(CASE WHEN [Key] = 'dpa3' AND LOWER([value]) = 'weekly' THEN 1 ELSE 0 END) AS dpa3_weekly,
-                    SUM(CASE WHEN [Key] = 'dpa3' AND LOWER([value]) = 'monthly' THEN 1 ELSE 0 END) AS dpa3_monthly,
-                    SUM(CASE WHEN [Key] = 'dpa3' AND LOWER([value]) = 'quarterly' THEN 1 ELSE 0 END) AS dpa3_quarterly,
-                    SUM(CASE WHEN [Key] = 'dpa3' AND LOWER([value]) = 'annually' THEN 1 ELSE 0 END) AS dpa3_annually,
-                    SUM(CASE WHEN [Key] = 'dpa3' AND LOWER([value]) LIKE '%did not identify any incorrect information%' THEN 1 ELSE 0 END) AS dpa3_na,
-                    [Fiscal_Year]
-                FROM [congressional_reports]
-                WHERE [Fiscal_Year] = ?
-                GROUP BY [Fiscal_Year]) [counts]
-        """,
-        "mapper": default_mapper
+        "query": get_sql_file("DNP_GW_STATS.sql")
     },
     QUERY_TYPES.IP_GW_SURVEY_RESULTS: {
-        "query": """
-            SELECT
-                [agency] AS [Agency],
-                [Fiscal_Year],
-                [Key],
-                [Title] AS [Question],
-                [value] AS [Answer],
-                CASE [Key]
-                    WHEN 'com1' THEN 0
-                END AS [SortOrder]
-            FROM [congressional_reports]
-            WHERE [Key] IN (
-                'com1'
-            ) AND [Fiscal_Year] = ?
-        """,
+        "query": get_sql_file("IP_GW_SURVEY_RESULTS.sql"),
         "mapper": lambda cursor, answers: list(map(lambda x: {
             "Answer": x["Answer"],
             "Agency": x["Agency"],
@@ -330,442 +371,187 @@ query_type_by_year = {
     },
     QUERY_TYPES.IP_GW_STATS: {
         2023: {
-            "query": """
-                SELECT
-                    [sums].[total_outlays_current_year],
-                    [sums].[total_outlays_current_year] - [sums].[total_improper_current_year] - [sums].[total_unknown_current_year] AS [total_proper_current_year],
-                    100 * ([sums].[total_outlays_current_year] - [sums].[total_improper_current_year] - [sums].[total_unknown_current_year]) / CAST([sums].[total_outlays_current_year] AS REAL) AS [proper_rate_current_year],
-                    [sums].[total_improper_current_year],
-                    100 * ([sums].[total_improper_current_year]) / CAST([sums].[total_outlays_current_year] AS REAL) AS [improper_rate_current_year],
-                    [sums].[total_unknown_current_year],
-                    100 * ([sums].[total_unknown_current_year]) / CAST([sums].[total_outlays_current_year] AS REAL) AS [unknown_rate_current_year],
-                    [sums].[total_improper_current_year] + [sums].[total_unknown_current_year] AS [total_unknown_and_improper_amount],
-                    100 * ([sums].[total_improper_current_year] + [sums].[total_unknown_current_year]) / CAST([sums].[total_outlays_current_year] AS REAL) AS [unknown_and_improper_rate_current_year],
-                    100 * ([cy_target].[total_unknown_and_improper_next_year]) / CAST([sums].[total_outlays_next_year] AS REAL) AS [reduction_target_rate_current_year],
-                    100 * ([py_target].[total_unknown_and_improper_next_year]) / CAST([py_sums].[total_outlays_next_year] AS REAL) AS [reduction_target_rate_prior_year],
-                    100 * [sums].[total_automation_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_automation],
-                    100 * [sums].[total_behavioral_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_behavioral],
-                    100 * [sums].[total_training_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_training],
-                    100 * [sums].[total_change_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_change],
-                    100 * [sums].[total_sharing_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_sharing],
-                    100 * [sums].[total_audit_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_audit],
-                    100 * [sums].[total_analytics_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_analytics],
-                    100 * [sums].[total_statutory_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_statutory],
-                    [agency_sums].[total_arp1] + [agency_sums].[total_arp3] AS [identified_for_recovery],
-                    [agency_sums].[total_arp2] + [agency_sums].[total_arp6] AS [recovered],
-                    100 * ([agency_sums].[total_arp2] + [agency_sums].[total_arp6]) / CAST(([agency_sums].[total_arp1] + [agency_sums].[total_arp3]) AS REAL) AS [recovery_rate],
-                    [sums].[Fiscal_Year]
-                FROM (
-                    SELECT
-                            SUM(CASE WHEN [Key] = 'cyp1' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp27' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_improper_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp7' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_unknown_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp16' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_next_year,
-                            SUM(CASE WHEN [Key] = 'atp1_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_automation_responses,
-                            SUM(CASE WHEN [Key] = 'atp2_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_behavioral_responses,
-                            SUM(CASE WHEN [Key] = 'atp3_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_training_responses,
-                            SUM(CASE WHEN [Key] = 'atp4_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_change_responses,
-                            SUM(CASE WHEN [Key] = 'atp5_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_sharing_responses,
-                            SUM(CASE WHEN [Key] = 'atp6_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_audit_responses,
-                            SUM(CASE WHEN [Key] = 'atp7_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_analytics_responses,
-                            SUM(CASE WHEN [Key] = 'atp8_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_statutory_responses,
-                            [Fiscal_Year]
-                        FROM [congressional_reports_program]
-                        GROUP BY [Fiscal_Year]) [sums]
-                LEFT JOIN (
-                    SELECT
-                            SUM(CASE WHEN [Key] = 'cyp1' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp27' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_improper_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp7' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_unknown_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp16' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_next_year,
-                            [Fiscal_Year]
-                        FROM [congressional_reports_program]
-                        GROUP BY [Fiscal_Year]) [py_sums]
-                ON [sums].[Fiscal_Year] = [py_sums].[Fiscal_Year] + 1
-                LEFT JOIN (
-                    SELECT
-                        [Fiscal_Year],
-                        SUM([value]) AS [total_unknown_and_improper_next_year]
-                    FROM (
-                        SELECT
-                            [cyp20].[agency],
-                            [cyp20].[Program Name],
-                            [cyp20].[Fiscal_Year],
-                            ([cyp16].[value]/ 100.0) * [cyp20].[value] AS [value]
-                        FROM [congressional_reports_program] [cyp20]
-                        LEFT JOIN (
-                            SELECT
-                                *
-                            FROM [congressional_reports_program]
-                            WHERE [key] = 'cyp16' AND [value] IS NOT NULL
-                        ) [cyp16]
-                        ON
-                            [cyp20].[agency] = [cyp16].[agency] AND
-                            [cyp20].[Program Name] = [cyp16].[Program Name] AND
-                            [cyp20].[Fiscal_Year] = [cyp16].[Fiscal_Year]
-                        WHERE
-                            [cyp20].[key] = 'cyp20_1' AND
-                            [cyp20].[value] IS NOT NULL AND
-                            [cyp16].[value] IS NOT NULL) [cy_targets]
-                    GROUP BY [Fiscal_Year]
-                ) [cy_target]
-                ON [sums].[Fiscal_Year] = [cy_target].[Fiscal_Year]
-                LEFT JOIN (
-                    SELECT
-                            SUM(CASE WHEN [key] = 'arp1' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp1,
-                            SUM(CASE WHEN [key] = 'arp2' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp2,
-                            SUM(CASE WHEN [key] = 'arp3' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp3,
-                            SUM(CASE WHEN [key] = 'arp6' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp6,
-                            [Fiscal_Year]
-                        FROM [congressional_reports]
-                        GROUP BY [Fiscal_Year]) [agency_sums]
-                ON [sums].[Fiscal_Year] = [agency_sums].[Fiscal_Year]
-                LEFT JOIN (
-                    SELECT
-                        [Fiscal_Year],
-                        SUM([value]) AS [total_unknown_and_improper_next_year]
-                    FROM (
-                        SELECT
-                            [cyp20].[agency],
-                            [cyp20].[Program Name],
-                            [cyp20].[Fiscal_Year],
-                            ([cyp16].[value]/ 100.0) * [cyp20].[value] AS [value]
-                        FROM [congressional_reports_program] [cyp20]
-                        LEFT JOIN (
-                            SELECT
-                                *
-                            FROM [congressional_reports_program]
-                            WHERE [key] = 'cyp16' AND [value] IS NOT NULL
-                        ) [cyp16]
-                        ON
-                            [cyp20].[agency] = [cyp16].[agency] AND
-                            [cyp20].[Program Name] = [cyp16].[Program Name] AND
-                            [cyp20].[Fiscal_Year] = [cyp16].[Fiscal_Year]
-                        WHERE
-                            [cyp20].[key] = 'cyp20_1' AND
-                            [cyp20].[value] IS NOT NULL AND
-                            [cyp16].[value] IS NOT NULL) [cy_targets]
-                    GROUP BY [Fiscal_Year]
-                ) [py_target]
-                ON [sums].[Fiscal_Year] = [py_target].[Fiscal_Year] + 1
-                -- count of programs that provided estimates
-                --  (denominator for actions taken response rates)
-                LEFT JOIN (
-                    SELECT
-                        COUNT(*) AS [unique_program_count],
-                        [Fiscal_Year]
-                    FROM (
-                        SELECT
-                            [Program Name],
-                            [Fiscal_Year]
-                        FROM [congressional_reports_program]
-                        WHERE [key] = 'cyp1' AND [value] IS NOT NULL and [value] > 0) [programs]
-                    GROUP BY [Fiscal_Year]
-                ) [program]
-                ON [sums].[Fiscal_Year] = [program].[Fiscal_Year]
-                WHERE [sums].[Fiscal_Year] = ?
-            """,
-            "mapper": default_mapper
+            "query": get_sql_file("IP_GW_STATS_2023.sql")
         },
         2024: {
-            "query": """
-                SELECT
-                    [sums].[total_outlays_current_year],
-                    [sums].[total_outlays_current_year] - [sums].[total_improper_current_year] - [sums].[total_unknown_current_year] AS [total_proper_current_year],
-                    100 * ([sums].[total_outlays_current_year] - [sums].[total_improper_current_year] - [sums].[total_unknown_current_year]) / CAST([sums].[total_outlays_current_year] AS REAL) AS [proper_rate_current_year],
-                    [sums].[total_improper_current_year],
-                    100 * ([sums].[total_improper_current_year]) / CAST([sums].[total_outlays_current_year] AS REAL) AS [improper_rate_current_year],
-                    [sums].[total_unknown_current_year],
-                    100 * ([sums].[total_unknown_current_year]) / CAST([sums].[total_outlays_current_year] AS REAL) AS [unknown_rate_current_year],
-                    [sums].[total_improper_current_year] + [sums].[total_unknown_current_year] AS [total_unknown_and_improper_amount],
-                    100 * ([sums].[total_improper_current_year] + [sums].[total_unknown_current_year]) / CAST([sums].[total_outlays_current_year] AS REAL) AS [unknown_and_improper_rate_current_year],
-                    100 * ([cy_target].[total_unknown_and_improper_next_year]) / CAST([sums].[total_outlays_next_year] AS REAL) AS [reduction_target_rate_current_year],
-                    100 * ([py_target].[total_unknown_and_improper_next_year]) / CAST([py_sums].[total_outlays_next_year] AS REAL) AS [reduction_target_rate_prior_year],
-                    100 * [sums].[total_automation_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_automation],
-                    100 * [sums].[total_behavioral_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_behavioral],
-                    100 * [sums].[total_training_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_training],
-                    100 * [sums].[total_change_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_change],
-                    100 * [sums].[total_sharing_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_sharing],
-                    100 * [sums].[total_audit_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_audit],
-                    100 * [sums].[total_analytics_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_analytics],
-                    100 * [sums].[total_statutory_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_statutory],
-                    [agency_sums].[total_arp1] + [agency_sums].[total_arp3] AS [identified_for_recovery],
-                    [agency_sums].[total_arp2] + [agency_sums].[total_arp6] AS [recovered],
-                    100 * ([agency_sums].[total_arp2] + [agency_sums].[total_arp6]) / CAST(([agency_sums].[total_arp1] + [agency_sums].[total_arp3]) AS REAL) AS [recovery_rate],
-                    [sums].[Fiscal_Year]
-                FROM (
-                    SELECT
-                            SUM(CASE WHEN [Key] = 'cyp1' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp27' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_improper_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp7' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_unknown_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp16' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_next_year,
-                            SUM(CASE WHEN [Key] = 'atp1_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_automation_responses,
-                            SUM(CASE WHEN [Key] = 'atp2_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_behavioral_responses,
-                            SUM(CASE WHEN [Key] = 'atp3_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_training_responses,
-                            SUM(CASE WHEN [Key] = 'atp4_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_change_responses,
-                            SUM(CASE WHEN [Key] = 'atp5_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_sharing_responses,
-                            SUM(CASE WHEN [Key] = 'atp6_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_audit_responses,
-                            SUM(CASE WHEN [Key] = 'atp7_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_analytics_responses,
-                            SUM(CASE WHEN [Key] = 'atp8_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_statutory_responses,
-                            [Fiscal_Year]
-                        FROM [congressional_reports_program]
-                        GROUP BY [Fiscal_Year]) [sums]
-                LEFT JOIN (
-                    SELECT
-                            SUM(CASE WHEN [Key] = 'cyp1' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp27' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_improper_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp7' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_unknown_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp16' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_next_year,
-                            [Fiscal_Year]
-                        FROM [congressional_reports_program]
-                        GROUP BY [Fiscal_Year]) [py_sums]
-                ON [sums].[Fiscal_Year] = [py_sums].[Fiscal_Year] + 1
-                LEFT JOIN (
-                    SELECT
-                        [Fiscal_Year],
-                        SUM([value]) AS [total_unknown_and_improper_next_year]
-                    FROM (
-                        SELECT
-                            [cyp20].[agency],
-                            [cyp20].[Program Name],
-                            [cyp20].[Fiscal_Year],
-                            ([cyp16].[value]/ 100.0) * [cyp20].[value] AS [value]
-                        FROM [congressional_reports_program] [cyp20]
-                        LEFT JOIN (
-                            SELECT
-                                *
-                            FROM [congressional_reports_program]
-                            WHERE [key] = 'cyp16' AND [value] IS NOT NULL
-                        ) [cyp16]
-                        ON
-                            [cyp20].[agency] = [cyp16].[agency] AND
-                            [cyp20].[Program Name] = [cyp16].[Program Name] AND
-                            [cyp20].[Fiscal_Year] = [cyp16].[Fiscal_Year]
-                        WHERE
-                            [cyp20].[key] = 'cyp20_1' AND
-                            [cyp20].[value] IS NOT NULL AND
-                            [cyp16].[value] IS NOT NULL) [cy_targets]
-                    GROUP BY [Fiscal_Year]
-                ) [cy_target]
-                ON [sums].[Fiscal_Year] = [cy_target].[Fiscal_Year]
-                LEFT JOIN (
-                    SELECT
-                            SUM(CASE WHEN [key] = 'arp1' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp1,
-                            SUM(CASE WHEN [key] = 'arp2' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp2,
-                            SUM(CASE WHEN [key] = 'arp3' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp3,
-                            SUM(CASE WHEN [key] = 'arp6' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp6,
-                            [Fiscal_Year]
-                        FROM [congressional_reports]
-                        GROUP BY [Fiscal_Year]) [agency_sums]
-                ON [sums].[Fiscal_Year] = [agency_sums].[Fiscal_Year]
-                LEFT JOIN (
-                    SELECT
-                        [Fiscal_Year],
-                        SUM([value]) AS [total_unknown_and_improper_next_year]
-                    FROM (
-                        SELECT
-                            [cyp20].[agency],
-                            [cyp20].[Program Name],
-                            [cyp20].[Fiscal_Year],
-                            ([cyp16].[value]/ 100.0) * [cyp20].[value] AS [value]
-                        FROM [congressional_reports_program] [cyp20]
-                        LEFT JOIN (
-                            SELECT
-                                *
-                            FROM [congressional_reports_program]
-                            WHERE [key] = 'cyp16' AND [value] IS NOT NULL
-                        ) [cyp16]
-                        ON
-                            [cyp20].[agency] = [cyp16].[agency] AND
-                            [cyp20].[Program Name] = [cyp16].[Program Name] AND
-                            [cyp20].[Fiscal_Year] = [cyp16].[Fiscal_Year]
-                        WHERE
-                            [cyp20].[key] = 'cyp20_1' AND
-                            [cyp20].[value] IS NOT NULL AND
-                            [cyp16].[value] IS NOT NULL) [cy_targets]
-                    GROUP BY [Fiscal_Year]
-                ) [py_target]
-                ON [sums].[Fiscal_Year] = [py_target].[Fiscal_Year] + 1
-                -- count of programs that provided estimates
-                --  (denominator for actions taken response rates)
-                LEFT JOIN (
-                    SELECT
-                        COUNT(*) AS [unique_program_count],
-                        [Fiscal_Year]
-                    FROM (
-                        SELECT
-                            [Program Name],
-                            [Fiscal_Year]
-                        FROM [congressional_reports_program]
-                        WHERE [key] = 'cyp1' AND [value] IS NOT NULL and [value] > 0) [programs]
-                    GROUP BY [Fiscal_Year]
-                ) [program]
-                ON [sums].[Fiscal_Year] = [program].[Fiscal_Year]
-                WHERE [sums].[Fiscal_Year] = ?
-            """,
-            "mapper": default_mapper
+            "query": get_sql_file("IP_GW_STATS_2023.sql")
         },
         2025: {
-            "query": """
-                SELECT
-                    [sums].[total_outlays_current_year],
-                    [sums].[total_outlays_current_year] - [sums].[total_improper_current_year] - [sums].[total_unknown_current_year] AS [total_proper_current_year],
-                    100 * ([sums].[total_outlays_current_year] - [sums].[total_improper_current_year] - [sums].[total_unknown_current_year]) / CAST([sums].[total_outlays_current_year] AS REAL) AS [proper_rate_current_year],
-                    [sums].[total_improper_current_year],
-                    100 * ([sums].[total_improper_current_year]) / CAST([sums].[total_outlays_current_year] AS REAL) AS [improper_rate_current_year],
-                    [sums].[total_unknown_current_year],
-                    100 * ([sums].[total_unknown_current_year]) / CAST([sums].[total_outlays_current_year] AS REAL) AS [unknown_rate_current_year],
-                    [sums].[total_improper_current_year] + [sums].[total_unknown_current_year] AS [total_unknown_and_improper_amount],
-                    100 * ([sums].[total_improper_current_year] + [sums].[total_unknown_current_year]) / CAST([sums].[total_outlays_current_year] AS REAL) AS [unknown_and_improper_rate_current_year],
-                    100 * ([cy_target].[total_unknown_and_improper_next_year]) / CAST((
-                        CASE WHEN [sums].[total_outlays_next_year] IS NULL OR [sums].[total_outlays_next_year] = 0 THEN [sums].[total_outlays_current_year] ELSE [sums].[total_outlays_next_year] END
-                    ) AS REAL) AS [reduction_target_rate_current_year],
-                    100 * ([py_target].[total_unknown_and_improper_next_year]) / CAST((
-                        CASE WHEN [py_sums].[total_outlays_next_year] IS NULL OR [py_sums].[total_outlays_next_year] = 0 THEN [py_sums].[total_outlays_current_year] ELSE [py_sums].[total_outlays_next_year] END
-                    ) AS REAL) AS [reduction_target_rate_prior_year],
-                    100 * [sums].[total_automation_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_automation],
-                    100 * [sums].[total_behavioral_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_behavioral],
-                    100 * [sums].[total_training_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_training],
-                    100 * [sums].[total_change_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_change],
-                    100 * [sums].[total_sharing_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_sharing],
-                    100 * [sums].[total_audit_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_audit],
-                    100 * [sums].[total_analytics_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_analytics],
-                    100 * [sums].[total_statutory_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_statutory],
-                    [agency_sums].[total_arp1] + [agency_sums].[total_arp3] AS [identified_for_recovery],
-                    [agency_sums].[total_arp2] + [agency_sums].[total_arp6] AS [recovered],
-                    100 * ([agency_sums].[total_arp2] + [agency_sums].[total_arp6]) / CAST(([agency_sums].[total_arp1] + [agency_sums].[total_arp3]) AS REAL) AS [recovery_rate],
-                    [sums].[Fiscal_Year]
-                FROM (
-                    SELECT
-                            SUM(CASE WHEN [Key] = 'cyp1' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp27' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_improper_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp7' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_unknown_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp16' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_next_year,
-                            SUM(CASE WHEN [Key] = 'atp1_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_automation_responses,
-                            SUM(CASE WHEN [Key] = 'atp2_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_behavioral_responses,
-                            SUM(CASE WHEN [Key] = 'atp3_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_training_responses,
-                            SUM(CASE WHEN [Key] = 'atp4_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_change_responses,
-                            SUM(CASE WHEN [Key] = 'atp5_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_sharing_responses,
-                            SUM(CASE WHEN [Key] = 'atp6_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_audit_responses,
-                            SUM(CASE WHEN [Key] = 'atp7_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_analytics_responses,
-                            SUM(CASE WHEN [Key] = 'atp8_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_statutory_responses,
-                            [Fiscal_Year]
-                        FROM [congressional_reports_program]
-                        GROUP BY [Fiscal_Year]) [sums]
-                LEFT JOIN (
-                    SELECT
-                            SUM(CASE WHEN [Key] = 'cyp1' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp27' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_improper_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp7' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_unknown_current_year,
-                            SUM(CASE WHEN [Key] = 'cyp16' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_next_year,
-                            [Fiscal_Year]
-                        FROM [congressional_reports_program]
-                        GROUP BY [Fiscal_Year]) [py_sums]
-                ON [sums].[Fiscal_Year] = [py_sums].[Fiscal_Year] + 1
-                LEFT JOIN (
-                    SELECT
-                        [Fiscal_Year],
-                        SUM([value]) AS [total_unknown_and_improper_next_year]
-                    FROM (
-                        SELECT
-                            [cyp20].[agency],
-                            [cyp20].[Program Name],
-                            [cyp20].[Fiscal_Year],
-                            ([cyp16].[value]/ 100.0) * [cyp20].[value] AS [value]
-                        FROM [congressional_reports_program] [cyp20]
-                        LEFT JOIN (
-                            SELECT
-                                *
-                            FROM [congressional_reports_program]
-                            WHERE [key] = 'cyp16' AND [value] IS NOT NULL
-                        ) [cyp16]
-                        ON
-                            [cyp20].[agency] = [cyp16].[agency] AND
-                            [cyp20].[Program Name] = [cyp16].[Program Name] AND
-                            [cyp20].[Fiscal_Year] = [cyp16].[Fiscal_Year]
-                        WHERE
-                            [cyp20].[key] = 'cyp20_1' AND
-                            [cyp20].[value] IS NOT NULL AND
-                            [cyp16].[value] IS NOT NULL) [cy_targets]
-                    GROUP BY [Fiscal_Year]
-                ) [cy_target]
-                ON [sums].[Fiscal_Year] = [cy_target].[Fiscal_Year]
-                LEFT JOIN (
-                    SELECT
-                            SUM(CASE WHEN [key] = 'arp1' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp1,
-                            SUM(CASE WHEN [key] = 'arp2' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp2,
-                            SUM(CASE WHEN [key] = 'arp3' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp3,
-                            SUM(CASE WHEN [key] = 'arp6' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp6,
-                            [Fiscal_Year]
-                        FROM [congressional_reports]
-                        GROUP BY [Fiscal_Year]) [agency_sums]
-                ON [sums].[Fiscal_Year] = [agency_sums].[Fiscal_Year]
-                LEFT JOIN (
-                    SELECT
-                        [Fiscal_Year],
-                        SUM([value]) AS [total_unknown_and_improper_next_year]
-                    FROM (
-                        SELECT
-                            [cyp20].[agency],
-                            [cyp20].[Program Name],
-                            [cyp20].[Fiscal_Year],
-                            ([cyp16].[value]/ 100.0) * [cyp20].[value] AS [value]
-                        FROM [congressional_reports_program] [cyp20]
-                        LEFT JOIN (
-                            SELECT
-                                *
-                            FROM [congressional_reports_program]
-                            WHERE [key] = 'cyp16' AND [value] IS NOT NULL
-                        ) [cyp16]
-                        ON
-                            [cyp20].[agency] = [cyp16].[agency] AND
-                            [cyp20].[Program Name] = [cyp16].[Program Name] AND
-                            [cyp20].[Fiscal_Year] = [cyp16].[Fiscal_Year]
-                        WHERE
-                            [cyp20].[key] = 'cyp20_1' AND
-                            [cyp20].[value] IS NOT NULL AND
-                            [cyp16].[value] IS NOT NULL) [cy_targets]
-                    GROUP BY [Fiscal_Year]
-                ) [py_target]
-                ON [sums].[Fiscal_Year] = [py_target].[Fiscal_Year] + 1
-                -- count of programs that provided estimates
-                --  (denominator for actions taken response rates)
-                LEFT JOIN (
-                    SELECT
-                        COUNT(*) AS [unique_program_count],
-                        [Fiscal_Year]
-                    FROM (
-                        SELECT
-                            [Program Name],
-                            [Fiscal_Year]
-                        FROM [congressional_reports_program]
-                        WHERE [key] = 'cyp1' AND [value] IS NOT NULL and [value] > 0) [programs]
-                    GROUP BY [Fiscal_Year]
-                ) [program]
-                ON [sums].[Fiscal_Year] = [program].[Fiscal_Year]
-                WHERE [sums].[Fiscal_Year] = ?
-            """,
-            "mapper": default_mapper
+            "query": get_sql_file("IP_GW_STATS_2025.sql")
         }
     },
     QUERY_TYPES.ACTIONS_TAKEN_ADDITIONAL_INFO: {
-        "query": """
-            SELECT
-                [value] AS [Answer],
-                CASE [Key]
-                    WHEN 'rnp3' THEN 'Sufficiency'
-                    WHEN 'rnp4' THEN 'Accountability'
-                    WHEN 'rap5' THEN 'Needs1'
-                    WHEN 'rap6' THEN 'Needs2'
-                END AS [ViewKey]
-            FROM [congressional_reports_program]
-            WHERE [Key] IN (
-                'rnp3',
-                'rnp4',
-                'rap5',
-                'rap6'
-            ) AND [Program Name] = ? AND [agency] = ? AND [Fiscal_Year] = ?
-        """,
+        "query": get_sql_file("ACTIONS_TAKEN_ADDITIONAL_INFO.sql"),
         "mapper": lambda cursor, answers: { ans["ViewKey"]: ans["Answer"] for ans in answers }
+    },
+    QUERY_TYPES.IP_GW_RATE_EXTREMES: {
+        "query": get_sql_file("IP_GW_RATE_EXTREMES.sql")
+    },
+    QUERY_TYPES.IP_HIGHEST_PERFORMING_AGENCIES: {
+        "query": get_sql_file("IP_HIGHEST_PERFORMING_AGENCIES.sql")
+    },
+    QUERY_TYPES.IP_WORST_PERFORMING_AGENCIES: {
+        "query": get_sql_file("IP_WORST_PERFORMING_AGENCIES.sql")
+    },
+    QUERY_TYPES.IP_GW_RATES: {
+        "query": get_sql_file("IP_GW_RATES.sql")
+    },
+    QUERY_TYPES.AGENCY_WIDE_TABLE_PROGRAMS: {
+        "query": get_sql_file("AGENCY_WIDE_TABLE_PROGRAMS.sql"),
+        "mapper": agency_wide_table_programs_mapper
+    },
+    QUERY_TYPES.AGENCY_WIDE_TABLE_AGENCIES: {
+        "query": get_sql_file("AGENCY_WIDE_TABLE_AGENCIES.sql"),
+        "mapper": agency_wide_table_agencies_mapper
+    },
+    QUERY_TYPES.ALL_AGENCIES_YEARS: {
+        "query": get_sql_file("ALL_AGENCIES_YEARS.sql")
+    },
+    QUERY_TYPES.ALL_AGENCIES_YEARS_AVAILABLE: {
+        "query": get_sql_file("ALL_AGENCIES_YEARS_AVAILABLE.sql")
+    },
+    # prior to 2021, no null record was created for summarization
+    QUERY_TYPES.PAYMENT_RECOVERY_DETAILS: {
+        2019: {
+            "query": get_sql_file("PAYMENT_RECOVERY_DETAILS_2019.sql")
+        },
+        2020: {
+            "query": get_sql_file("PAYMENT_RECOVERY_DETAILS_2019.sql")
+        },
+        2021: {
+            "query": get_sql_file("PAYMENT_RECOVERY_DETAILS_2019.sql")
+        },
+        2022: {
+            "query": get_sql_file("PAYMENT_RECOVERY_DETAILS_2022.sql")
+        },
+        2023: {
+            "query": get_sql_file("PAYMENT_RECOVERY_DETAILS_2022.sql")
+        },
+        2024: {
+            "query": get_sql_file("PAYMENT_RECOVERY_DETAILS_2022.sql")
+        },
+        2025: {
+            "query": get_sql_file("PAYMENT_RECOVERY_DETAILS_2022.sql")
+        }
+    },
+    QUERY_TYPES.PAYMENT_RECOVERY_AMOUNTS: {
+        "query": get_sql_file("PAYMENT_RECOVERY_AMOUNTS.sql")
+    },
+    QUERY_TYPES.AGENCY_RATE_EXTREMES: {
+        "query": get_sql_file("AGENCY_RATE_EXTREMES.sql")
+    },
+    QUERY_TYPES.PIIA_NON_COMPLIANT_PROGRAMS: {
+        2019: {
+            "query": get_sql_file("PIIA_NON_COMPLIANT_PROGRAMS_2019.sql"),
+            "mapper": piia_programs_compliance_mapper_2019
+        },
+        2020: {
+            "query": get_sql_file("PIIA_NON_COMPLIANT_PROGRAMS_2019.sql"),
+            "mapper": piia_programs_compliance_mapper_2019
+        },
+        2021: {
+            "query": get_sql_file("PIIA_NON_COMPLIANT_PROGRAMS_2019.sql"),
+            "mapper": piia_programs_compliance_mapper_2019
+        },
+        2022: {
+            "query": get_sql_file("PIIA_NON_COMPLIANT_PROGRAMS_2019.sql"),
+            "mapper": piia_programs_compliance_mapper_2019
+        },
+        2023: {
+            "query": get_sql_file("PIIA_NON_COMPLIANT_PROGRAMS_2023.sql"),
+            "mapper": piia_programs_compliance_mapper_2023
+        },
+        2024: {
+            "query": get_sql_file("PIIA_NON_COMPLIANT_PROGRAMS_2023.sql"),
+            "mapper": piia_programs_compliance_mapper_2023
+        },
+        2025: {
+            "query": get_sql_file("PIIA_NON_COMPLIANT_PROGRAMS_2023.sql"),
+            "mapper": piia_programs_compliance_mapper_2025
+        }
+    },
+    QUERY_TYPES.ELIGIBILITY_THEME_DETAILS: {
+        "query": get_sql_file("ELIGIBILITY_THEME_DETAILS.sql")
+    },
+    QUERY_TYPES.DISTINCT_AGENCIES: {
+        "query": get_sql_file("DISTINCT_AGENCIES.sql")
+    },
+    QUERY_TYPES.ALL_PROGRAMS: {
+        "query": get_sql_file("ALL_PROGRAMS.sql"),
+        "mapper": all_programs_mapper
+    },
+    QUERY_TYPES.PROGRAM_DATA_POINTS: {
+        "query": get_sql_file("PROGRAM_DATA_POINTS.sql")
+    },
+    QUERY_TYPES.PROGRAM_IP_ESTIMATES: {
+        "query": get_sql_file("PROGRAM_IP_ESTIMATES.sql")
+    },
+    QUERY_TYPES.PROGRAM_PAYMENTS_VISIBILITY: {
+        "query": get_sql_file("PROGRAM_PAYMENTS_VISIBILITY.sql")
+    },
+    QUERY_TYPES.PROGRAM_OVERPAYMENTS: {
+        "query": get_sql_file("PROGRAM_OVERPAYMENTS.sql")
+    },
+    QUERY_TYPES.PROGRAM_OVERPAYMENTS_OUTSIDE: {
+        "query": get_sql_file("PROGRAM_OVERPAYMENTS_OUTSIDE.sql")
+    },
+    QUERY_TYPES.PROGRAM_UNDERPAYMENTS: {
+        "query": get_sql_file("PROGRAM_UNDERPAYMENTS.sql")
+    },
+    QUERY_TYPES.PROGRAM_TECHNICIALLY_IMPROPER_PAYMENTS: {
+        "query": get_sql_file("PROGRAM_TECHNICIALLY_IMPROPER_PAYMENTS.sql")
+    },
+    QUERY_TYPES.PROGRAM_ELIGIBILITY_INFORMATION: {
+        "query": get_sql_file("PROGRAM_ELIGIBILITY_INFORMATION.sql")
+    },
+    QUERY_TYPES.PROGRAM_ELIGIBILITY_INFORMATION_AGGREGATED: {
+        "query": get_sql_file("PROGRAM_ELIGIBILITY_INFORMATION_AGGREGATED.sql")
+    },
+    QUERY_TYPES.PROGRAM_UNKNOWN_PAYMENTS: {
+        "query": get_sql_file("PROGRAM_UNKNOWN_PAYMENTS.sql")
+    },
+    QUERY_TYPES.PROGRAM_UNKNOWN_PAYMENTS_BREAKDOWN: {
+        "query": get_sql_file("PROGRAM_UNKNOWN_PAYMENTS_BREAKDOWN.sql")
+    },
+    QUERY_TYPES.PROGRAM_CORRECTIVE_ACTIONS: {
+        "query": get_sql_file("PROGRAM_CORRECTIVE_ACTIONS.sql")
+    },
+    QUERY_TYPES.PROGRAM_FUTURE_OUTLOOK: {
+        "query": get_sql_file("PROGRAM_FUTURE_OUTLOOK.sql")
+    },
+    QUERY_TYPES.PROGRAM_ADDITIONAL_INFORMATION: {
+        "query": get_sql_file("PROGRAM_ADDITIONAL_INFORMATION.sql")
+    },
+    QUERY_TYPES.PROGRAM_SCORECARD_LINKS: {
+        "query": get_sql_file("PROGRAM_SCORECARD_LINKS.sql")
+    },
+    QUERY_TYPES.AGENCY_SURVEY_KEY_AGNOSTIC: {
+        2019: {
+            "query": get_sql_file("AGENCY_SURVEY_KEY_AGNOSTIC_2019.sql")
+        },
+        2020: {
+            "query": get_sql_file("AGENCY_SURVEY_KEY_AGNOSTIC_2019.sql")
+        },
+        2021: {
+            "query": get_sql_file("AGENCY_SURVEY_KEY_AGNOSTIC_2019.sql")
+        },
+        2022: {
+            "query": get_sql_file("AGENCY_SURVEY_KEY_AGNOSTIC_2019.sql")
+        },
+        2023: {
+            "query": get_sql_file("AGENCY_SURVEY_KEY_AGNOSTIC_2019.sql")
+        },
+        2024: {
+            "query": get_sql_file("AGENCY_SURVEY_KEY_AGNOSTIC_2019.sql")
+        },
+        2025: {
+            "query": get_sql_file("AGENCY_SURVEY_KEY_AGNOSTIC_2019.sql")
+        }
+    },
+    QUERY_TYPES.PROGRAM_SURVEY_KEY_AGNOSTIC: {
+        "query": get_sql_file("PROGRAM_SURVEY_KEY_AGNOSTIC.sql")
+    },
+    QUERY_TYPES.FPI_LINK: {
+        "query": get_sql_file("FPI_LINK.sql")
     }
 }

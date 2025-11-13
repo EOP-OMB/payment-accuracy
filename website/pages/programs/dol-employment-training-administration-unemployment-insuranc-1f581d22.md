@@ -85,10 +85,41 @@ Data_By_Year:
 
       '
     Mitigation_Strategy: atp3_1
+  Agency_Needs_Satisfied: The PUA program is a temporary program. It was created to
+    address unemployment within the COVID-19 pandemic. This program ended September
+    2021 and no new program eligibility can be established after this date.
   Confidence_Level: 95% to <100%
+  Corrective_Actions_Proportion: 'PUA is a temporary program that ended by law in
+    September 2021. A contributing cause of the improper and unknown payments calculated
+    for the reporting period for the program was the result of a number of states
+    failing to perform or document performance of key data cross-matches. Training
+    was identified as one of the actions taken to address improper and unknown payments.
+    Through training opportunities such as ETA webinars that discussed its guidance,
+    training and instructions on using tools like the Integrity Data Hub and various
+    crossmatches, as well as individual technical assistance from regional offices,
+    states were able to improve identity verification activity. This improvement directly
+    impacts a state’s ability to ensure the social security numbers used in the UI
+    claims process by UI applicants, in fact belong to these applicants. In doing
+    so, states are able to reduce improper and unknown payments.
+
+    Additionally, the use of cross enterprise sharing helps states to gain access
+    to a more comprehensive pool of data that can assist as they attempt to verify
+    the identity to UI applicants in various categories such as, across agencies or
+    across states. This kind of access broadens the reach of the state verification
+    process and can help in its efforts to reduce improper and unknown payments due
+    to identity.
+
+    '
   End_Date: 09/2021
+  Future_Outlook_Has_Baseline: 'No'
   Hide_Improper_Payment_Estimates_Doughnut_Chart: false
   Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
   Hide_Program_Results_Additional_Information: false
   Hide_Program_Results_Corrective_Actions: false
   Hide_Program_Results_Future_Outlook: false
@@ -99,34 +130,50 @@ Data_By_Year:
   Hide_Program_Results_Improper_Payments: false
   Hide_Program_Results_Tabs: false
   Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
-  Hide_cyp3_cop4: true
-  Hide_cyp3_cop5: true
-  Hide_cyp3_cop6: true
   Improper_Payments_Rate: 18.53481595
   Insufficient_Documentation_to_Determine: 21086.4
+  Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '2.8'
+  Non_Monetary_Loss_Amount: '1820'
   Outlays_Current_Year_Plus_1_Amount: 0
+  Overpayment_Mitigations_Taken: Cross Enterprise Sharing, Training
   Payment_Accuracy_Rate: 64.06758483478905
+  Program_Additional_Information: The PUA program was unlike any program previously
+    administered by state UI agencies – the program had unique eligibility requirements
+    and served a population of workers not previously covered by unemployment compensation
+    programs.  States had to stand up the operations of this new and unique program
+    immediately. Many states lacked the basic IT infrastructure to implement PUA with
+    the full spectrum of integrity checks that would have been implemented at a time
+    when the world was not in a crisis. Due to a lack of funding or failure to invest
+    in modern systems, some states were using IT systems that had been obsolete for
+    decades.  In addition, the program, by statutory design relied heavily on claimant
+    self-attestation to key eligibility requirements for the first 10 months of the
+    program’s 18 months existence.  This exposed the program to significant fraud
+    activity.  As a result, DOL made major investments in enhancing the fraud detection
+    functionality of the UI Integrity Data Hub and has resulted in significant increases
+    in states participating and using the Integrity Data Hub and other integrity-related
+    tools and services.
   Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: None. The PUA program is a temporary program. It was
+    created to address unemployment within the COVID-19 pandemic. This program ended
+    September 2021 and no new program eligibility can be established after this date
   Start_Date: 04/2020
+  Technical_IP_Amount: '0'
+  Tolerable_Rate_Not_Determined_Reason: The PUA program was a temporary program. It
+    was created to address unemployment within the COVID-19 pandemic. This program
+    ended September 2021 and no new program eligibility can be established after this
+    date.
+  Underpayment_Mitigations_Taken: Cross Enterprise Sharing, Training
+  Unknown_Due_To_States_Amount: '21086.40'
+  Unknown_Mitigations_Taken: Cross Enterprise Sharing, Training
   Unknown_Payments_Rate: 17.397599216454587
-  Year: 2023
-  cyp15: 'No'
-  cyp26: '1820'
-  cyp2_atp1_8: Cross Enterprise Sharing, Training
-  cyp5_atp1_8: Cross Enterprise Sharing, Training
-  cyp6: '0'
-  cyp7_atp1_8: Cross Enterprise Sharing, Training
-  cyp7_ucp3: '21086.40'
-  cyp8: These payments are unknown since their accuracy could not be definitively
+  Unknown_Why: These payments are unknown since their accuracy could not be definitively
     established or refuted. For the PUA program, payment accuracy assessments were
     made by state Reviewers who were tasked with reviewing sampled PUA cases. However,
     in some of these cases, they could not carry out a full review since the information
     to determine payment accuracy was either unavailable or not sufficient to make
     a determination on the accuracy of the payment.
+  Year: 2023
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -134,18 +181,18 @@ Data_By_Year:
     Failure_to_Access_Data: 20644.74
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp2: '20644.74'
-    cyp2_1: State agencies were responsible for processing applications for PUA compensation
-      according to federal law and guidance. Part of this process involves a determination
-      of whether the applicant has eligibility for unemployment benefits under another
-      program and verification of the identity of the applicant, as well as the information
-      provided by the applicant at the time of application through the continued claim
-      process. To do this, state agencies utilize several tools and workflows such
-      as wage/earnings crossmatches, investigation of inconsistencies, obtaining and
-      maintaining claims documentation, or ensuring compliance with state law. These
-      tools and/or functions are exclusively available to state agencies for use throughout
-      the life of a claim. Therefore, inadequate use of these options/functions is
-      within the control of the state agency.
+    Overpayments_Within_Control_Amount: '20644.74'
+    Overpayments_Within_Control_Why: State agencies were responsible for processing
+      applications for PUA compensation according to federal law and guidance. Part
+      of this process involves a determination of whether the applicant has eligibility
+      for unemployment benefits under another program and verification of the identity
+      of the applicant, as well as the information provided by the applicant at the
+      time of application through the continued claim process. To do this, state agencies
+      utilize several tools and workflows such as wage/earnings crossmatches, investigation
+      of inconsistencies, obtaining and maintaining claims documentation, or ensuring
+      compliance with state law. These tools and/or functions are exclusively available
+      to state agencies for use throughout the life of a claim. Therefore, inadequate
+      use of these options/functions is within the control of the state agency.
   overpayments_eligibility:
   - Key: cyp2_dit9_1
     Payment_Type: Overpayments Within Agency Control
@@ -160,52 +207,7 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp3: '0'
-  pro1: The PUA program was unlike any program previously administered by state UI
-    agencies – the program had unique eligibility requirements and served a population
-    of workers not previously covered by unemployment compensation programs.  States
-    had to stand up the operations of this new and unique program immediately. Many
-    states lacked the basic IT infrastructure to implement PUA with the full spectrum
-    of integrity checks that would have been implemented at a time when the world
-    was not in a crisis. Due to a lack of funding or failure to invest in modern systems,
-    some states were using IT systems that had been obsolete for decades.  In addition,
-    the program, by statutory design relied heavily on claimant self-attestation to
-    key eligibility requirements for the first 10 months of the program’s 18 months
-    existence.  This exposed the program to significant fraud activity.  As a result,
-    DOL made major investments in enhancing the fraud detection functionality of the
-    UI Integrity Data Hub and has resulted in significant increases in states participating
-    and using the Integrity Data Hub and other integrity-related tools and services.
-  rap5: The PUA program is a temporary program. It was created to address unemployment
-    within the COVID-19 pandemic. This program ended September 2021 and no new program
-    eligibility can be established after this date.
-  rap6: None. The PUA program is a temporary program. It was created to address unemployment
-    within the COVID-19 pandemic. This program ended September 2021 and no new program
-    eligibility can be established after this date
-  rnp3: 'PUA is a temporary program that ended by law in September 2021. A contributing
-    cause of the improper and unknown payments calculated for the reporting period
-    for the program was the result of a number of states failing to perform or document
-    performance of key data cross-matches. Training was identified as one of the actions
-    taken to address improper and unknown payments. Through training opportunities
-    such as ETA webinars that discussed its guidance, training and instructions on
-    using tools like the Integrity Data Hub and various crossmatches, as well as individual
-    technical assistance from regional offices, states were able to improve identity
-    verification activity. This improvement directly impacts a state’s ability to
-    ensure the social security numbers used in the UI claims process by UI applicants,
-    in fact belong to these applicants. In doing so, states are able to reduce improper
-    and unknown payments.
-
-    Additionally, the use of cross enterprise sharing helps states to gain access
-    to a more comprehensive pool of data that can assist as they attempt to verify
-    the identity to UI applicants in various categories such as, across agencies or
-    across states. This kind of access broadens the reach of the state verification
-    process and can help in its efforts to reduce improper and unknown payments due
-    to identity.
-
-    '
-  rtp1: Unknown
-  rtp4_2: The PUA program was a temporary program. It was created to address unemployment
-    within the COVID-19 pandemic. This program ended September 2021 and no new program
-    eligibility can be established after this date.
+    Overpayments_Outside_Control_Amount: '0'
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -213,7 +215,7 @@ Data_By_Year:
     Failure_to_Access_Data: 1820.0
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp5: '1820.00'
+    Underpayments_Amount: '1820.00'
   underpayments_eligibility:
   - Key: cyp5_dit9_1
     Payment_Type: Underpayments
@@ -222,7 +224,7 @@ Data_By_Year:
       be
     Value: '1820.000000'
 Description: null
-Fiscal_Year: 2024
+Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
@@ -239,7 +241,7 @@ Scorecard_Links: []
 Technically_Improper_Amounts: '[0]'
 Underpayment_Amounts: '[1820]'
 Unknown_Amounts: '[21086.4]'
-fpi_link: https://fpi.omb.gov/
+detail_Reduction_Target: null
 layout: program-specific
 permalink: program/dol-employment-training-administration-unemployment-insuranc-1f581d22
 ---

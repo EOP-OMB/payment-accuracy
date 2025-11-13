@@ -9,7 +9,7 @@ permalink: /
                 <div class="grid-col-7 hero-text-container">
                     <div class="hero-text">
                         <h1>Agencies & Programs</h1>
-                        <p>The Payment Integrity Information Act of 2019 requires an annual publication to fulfill multiple statutory reporting requirements for both Agencies and the Office of Management and Budget. The Agency and Program profiles below lets users explore and compare payment integrity data through interactive visualizations.</p>
+                        <p>The Payment Integrity Information Act of 2019 requires an annual publication to fulfill multiple statutory reporting requirements for both agencies and the Office of Management and Budget. The Agency and Program profiles below let users explore and compare Payment Integrity data through interactive visualizations.</p>
                     </div>
                 </div>
             </div>
@@ -21,13 +21,13 @@ permalink: /
                 <p class="breadcrumbs"><a href="/" class="home-link">Home</a> > Agencies & Programs</p>
             </div>
             <div class="grid-row content-description-section margin-top-4">
-                <h4 class="content-header margin-y-2">Agency-wide Payment Integrity Overview</h4>
+                <h4 class="content-header margin-y-2">Agency-wide Payment Integrity overview</h4>
                 <h5 class="content-subtitle margin-y-1">
                     Take a closer look at the data and how federal agencies are managing susceptible programs and reducing and 
                     recovering improper payments.
                 </h5>
                 <p class="content-description margin-top-1">
-                    Data shown on this page outlines the total dollar amount spent by programs determined by Agencies to be susceptible to improper payments. Not all Programs an Agency administers are susceptible to improper payments and therefore the outlays listed below and throughout the site do not include all Federal spending.
+                    Data shown on this page outlines the total dollar amount spent by programs determined by agencies to be susceptible to improper payments. Not all programs an agency administers are susceptible to improper payments and therefore the outlays listed below and throughout the site do not include all federal spending.
                 </p>
             </div>
         </div>
@@ -36,12 +36,12 @@ permalink: /
         <div class="grid-container bg-base-lightest">
             <div class="grid-row">
                 <div class="grid-col">
-                    <h4 class="filter-header margin-y-105">Search and Filter by Agency or Program</h4>
+                    <h4 class="filter-header margin-y-105">Search and filter by Agency or Program</h4>
                 </div>
             </div>
             <div class="grid-row search-and-filter">
                 <div class="grid-col">
-                    <label class="usa-label margin-y-1 maxw-none" for="agencies-programs-combobox">Select Federal agencies and their programs susceptible to improper payments to view their agency/program profiles.</label>
+                    <label class="usa-label margin-y-1 maxw-none" for="agencies-programs-combobox">Select federal agencies and their programs susceptible to improper payments to view their agency/program profiles.</label>
                 </div>
             </div>
             <div class="grid-row">
@@ -68,29 +68,29 @@ permalink: /
             <table class="usa-table--borderless" id="agency-programs-table">
                 <thead class="agencies-programs-table-header">
                     <tr class="height-10">
-                        <th scope="col" role="columnheader" class="name-col text-bottom text-left padding-2 cursor-pointer">Agency Name</th>
+                        <th scope="col" role="columnheader" class="name-col text-bottom text-left padding-2 cursor-pointer">Agency name</th>
                         <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">
-                            FY {{ site.data.shared.Fiscal_Year }} Susceptible Program Outlays<br />
+                            FY {{ site.data.shared.Fiscal_Year }} susceptible program outlays<br />
                             {% include _info-button.html title="Amount of funding agency spent in susceptible programs reporting an improper payment rate" fill_color="white" color="#005ea2" %}
                         </th>
                         <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">
-                            Total Programs<br />
+                            Total programs<br />
                             {% include _info-button.html title="Total number of programs administered by the agency" fill_color="white" color="#005ea2" %}
                         </th>
                         <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">
-                            Susceptible Programs<br />
+                            Susceptible programs<br />
                             {% include _info-button.html title="Number of programs reported to be susceptible to improper payments" fill_color="white" color="#005ea2" %}
                         </th>
                         <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">
-                            High-priority Programs<br />
+                            High-priority programs<br />
                             {% include _info-button.html title="Number of programs an agency has reported to be a higher risk" fill_color="white" color="#005ea2" %}
                         </th>
                         <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">
-                            Improper Payment Rate<br />
+                            Improper payment rate<br />
                             {% include _info-button.html title="Percentage of funding reported to have been improperly spent" position="left" fill_color="white" color="#005ea2" %}
                         </th>
                         <th scope="col" role="columnheader" class="text-bottom text-right padding-2 cursor-pointer">
-                            Relative Change<br />
+                            Relative change<br />
                             {% include _info-button.html title="Percentage change based on the previous fiscal year reporting" position="left" fill_color="white" color="#005ea2" %}
                         </th>
                         <th class="expand-col text-bottom text-right padding-2"></th>
@@ -131,7 +131,7 @@ permalink: /
                                 </div>
                             </td>
                             <td class="expand-col text-middle text-right padding-2">
-                                <button class="usa-button expand-btn square-3 padding-0 {% if agency.susceptible_programs == 0 %}hide{% endif %}" aria-label="Expand Agency">
+                                <button class="usa-button expand-btn square-3 padding-0 {% if agency.susceptible_programs == 0 and agency.high_priority_programs == 0 %}hide{% endif %}" aria-label="Expand Agency">
                                     <div class="carrot-icon">
                                         <img src="/assets/img/expand.svg" alt="Expand" class="toggle-icon">
                                     </div>

@@ -8,6 +8,7 @@ import re
 
 # Import the module
 from data_processing import config
+from data_processing.load_tools import query
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 SCORECARDS_DIR = os.path.join(BASE_DIR, "..", "website", "assets", "scorecards")
@@ -77,3 +78,37 @@ class TestConstants:
 
     def test_last_quarter_scorecards_exist(self):
         assert os.path.isdir(os.path.join(SCORECARDS_DIR, config.LAST_QUARTERLY_SURVEY))
+
+    def test_query_mapping(self):
+        """
+        Test that all queries are mapped for the latest year.
+        """
+        latest_year = config.FISCAL_YEAR
+        for query_type in query.query_type_by_year:
+            mapping = query.query_type_by_year[query_type]
+            if "query" not in mapping:
+                max_key = max(mapping)
+                latest_year = max(latest_year, max_key)
+
+        for mapping in config.CONGRESSIONAL_REPORTS_YEAR_TO_VIEW_MAPPING:
+            latest_year = max(latest_year, mapping["Year"])
+
+        for year in config.CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING:
+            latest_year = max(latest_year, int(year))
+
+        for year in config.CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING_PROGRAMS:
+            latest_year = max(latest_year, int(year))
+
+        for year in config.CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING:
+            latest_year = max(latest_year, int(year))
+
+        for query_type in query.query_type_by_year:
+            mapping = query.query_type_by_year[query_type]
+            assert ("query" in mapping) or (latest_year in mapping)
+
+        assert len(list(filter(lambda x: x["Year"] == latest_year,
+            config.CONGRESSIONAL_REPORTS_YEAR_TO_VIEW_MAPPING))) > 0
+
+        assert str(latest_year) in config.CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING
+        assert str(latest_year) in config.CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING_PROGRAMS
+        assert str(latest_year) in config.CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING

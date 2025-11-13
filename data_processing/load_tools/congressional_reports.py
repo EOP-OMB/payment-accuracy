@@ -79,10 +79,9 @@ class GovernmentWideReport(Report):
         }
 
 class AgencyReport(Report):
-    def __init__(self, cursor: sqlite3.Cursor, year, agency_code, id, SLUGIFIED_PROGRAM_NAME_MAPPINGS):
+    def __init__(self, cursor: sqlite3.Cursor, year, agency_code, id):
         super().__init__(cursor, year, id)
         self.agency_code = agency_code
-        self.SLUGIFIED_PROGRAM_NAME_MAPPINGS = SLUGIFIED_PROGRAM_NAME_MAPPINGS
         self.filename = str(year) + '_' + str(agency_code) + '_' + str(self.id)
 
         self.data['permalink'] = '/resources/congressional-reports/' + self.filename
@@ -139,15 +138,16 @@ class AgencyReport(Report):
             self.data["SurveyData"] = []
 
         for survey_result in survey_results_filtered:
-            mapping = agency_survey_field_mapping[survey_result["Key"]]
-            self.data["SurveyData"].append({
-                "Heading": mapping["heading"],
-                "Subheading": mapping["subheading"],
-                "Answer": self.format_answer(survey_result["Answer"], mapping),
-                "SortOrder": survey_result["SortOrder"],
-                "Key": survey_result["Key"],
-                "Type": mapping["type"].name
-            })
+            if survey_result["Key"] in agency_survey_field_mapping:
+                mapping = agency_survey_field_mapping[survey_result["Key"]]
+                self.data["SurveyData"].append({
+                    "Heading": mapping["heading"],
+                    "Subheading": mapping["subheading"],
+                    "Answer": self.format_answer(survey_result["Answer"], mapping),
+                    "SortOrder": survey_result["SortOrder"],
+                    "Key": survey_result["Key"],
+                    "Type": mapping["type"].name
+                })
 
     def fetch_program_data(self):
         program_survey_view = self.get_program_survey_view()
@@ -190,7 +190,7 @@ class AgencyReport(Report):
 
         assessments = query.fetch_all(
             self.cursor,
-            query.QUERY_TYPES.RISK_ASSESSMENTS, (self.agency_code, self.year),
+            query.QUERY_TYPES.RISK_ASSESSMENTS, (self.year, self.agency_code, self.year),
             self.year
         )
 
@@ -201,10 +201,11 @@ class AgencyReport(Report):
                     "Program_Name": risk["Program_Name"],
                     "Susceptible": risk["Susceptible"],
                     "Fiscal_Year": risk["Fiscal_Year"],
-                    "Slug": self.SLUGIFIED_PROGRAM_NAME_MAPPINGS[risk["Program_Name"]] if risk["Program_Name"] in self.SLUGIFIED_PROGRAM_NAME_MAPPINGS else None
+                    "MethodologyChanged": risk["MethodologyChanged"],
+                    "Slug": query.get_slug(self.cursor, risk["Program_Name"])
                 }, assessments)),
-                "AdditionalInformation": query.get_agency_survey_answer(self.cursor, self.year, self.agency_code, query.KEY_TYPES.RISKS_ADDITIONAL_INFORMATION),
-                "SubstantialChangesMade": query.get_agency_survey_answer(self.cursor, self.year, self.agency_code, query.KEY_TYPES.RISKS_SUBSTANTIAL_CHANGES_MADE)
+                "AdditionalInformation": query.get_agency_survey_answer(self.cursor, self.year, self.agency_code, query.KEY_TYPES.Risks_Additional_Information),
+                "SubstantialChangesMade": query.get_agency_survey_answer(self.cursor, self.year, self.agency_code, query.KEY_TYPES.Risks_Substantial_Changes_Made)
             }
 
     # Special section for congressional report #2 only

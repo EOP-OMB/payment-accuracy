@@ -28,7 +28,9 @@ EXTRACTED_PAYMENT_RECOVERY_DETAILS_CSV_NAME = "MY_OMB_ImproperPayment_Payment_Re
 EXTRACTED_PAYMENT_CONFIRMED_FRAUD_CSV_NAME = "MY_OMB_ImproperPayment_Payment_Confirmed_Fraud_vw.csv"
 EXTRACTED_PROGRAM_COMPLIANCE_CSV_NAME = "MY_OMB_ImproperPayment_Payment_Program_Compliance_vw.csv"
 EXTRACTED_RISKS_CSV_NAME = "MY_OMB_ImproperPayment_Payment_Risk_Assessments_vw.csv"
+EXTRACTED_RISKS_METHODOLOGY_CHANGED_CSV_NAME = "RiskAssessmentMethodologyChanges.csv"
 ELIGIBILITY_THEMES_CSV_NAME = "Eligibility_Themes.csv"
+ELIGIBILITY_THEMES_DESCRIPTIONS_CSV_NAME = "Eligibility_Themes_Descriptions.csv"
 EXTRACTED_RECOVERY_AMOUNTS_CSV_NAME = "MY_OMB_ImproperPayment_Payment_Accuracy_Rate_and_Amt_of_Recovery_vw.csv"
 EXTRACTED_SURVEY_ROOT_CAUSE = "KPI_ImproperPaymentSurveyRootCause_vw_IP.csv"
 EXTRACTED_IP_ROOT_CAUSES = "MY_OMB_ImproperPayment_Payment_IP_Root_Causes_vw.csv"
@@ -36,6 +38,7 @@ ACTIONS_DATE_MAPPING = "ActionsDateMapping.csv"
 EXTRACTED_MITIGATION_STRATEGIES_CSV_NAME = "MY_OMB_ImproperPayment_Mitigation_Strategies_vw.csv"
 EXTRACTED_CONGRESSIONAL_REPORTS_AGENCY_CSV_NAME = "MY_OMB_ImproperPayment_PaymentAccuracy_AgencyData_raw_vw-Congressional.csv"
 EXTRACTED_CONGRESSIONAL_REPORTS_PROGRAM_CSV_NAME = "MY_OMB_ImproperPayment_PaymentAccuracy_ProgramData_raw_vw-Congressional.csv"
+FPI_MAPPING_CSV_NAME = "FPIMapping.csv"
 
 ALL_PROGRAMS_DATA_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_ALL_PROGRAMS_CSV_NAME)
 PROGRAM_DATA_RAW_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_PROGRAM_DATA_RAW_CSV_NAME)
@@ -46,7 +49,9 @@ PAYMENT_RECOVERY_DETAILS_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY
 PAYMENT_CONFIRMED_FRAUD_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_PAYMENT_CONFIRMED_FRAUD_CSV_NAME)
 PROGRAM_COMPLIANCE_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_PROGRAM_COMPLIANCE_CSV_NAME)
 RISKS_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_RISKS_CSV_NAME)
+RISKS_METHODOLOGY_CHANGED_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_RISKS_METHODOLOGY_CHANGED_CSV_NAME)
 ELIGIBILITY_THEMES_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, ELIGIBILITY_THEMES_CSV_NAME)
+ELIGIBILITY_THEMES_DESCRIPTIONS_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, ELIGIBILITY_THEMES_DESCRIPTIONS_CSV_NAME)
 RECOVERY_AMOUNTS_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_RECOVERY_AMOUNTS_CSV_NAME)
 SURVEY_ROOT_CAUSE_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_SURVEY_ROOT_CAUSE)
 IP_ROOT_CAUSES_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_IP_ROOT_CAUSES)
@@ -54,6 +59,7 @@ ACTION_DATE_MAPPING_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, ACT
 MITIGATION_STRATEGIES_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_MITIGATION_STRATEGIES_CSV_NAME)
 CONGRESSIONAL_REPORTS_AGENCY_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_CONGRESSIONAL_REPORTS_AGENCY_CSV_NAME)
 CONGRESSIONAL_REPORTS_PROGRAM_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_CONGRESSIONAL_REPORTS_PROGRAM_CSV_NAME)
+FPI_MAPPING_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, FPI_MAPPING_CSV_NAME)
 
 ALL_PROGRAMS_DATA_AGGREGATION_DROP_TABLE_SQL = """
     DROP TABLE IF EXISTS all_programs_data_aggregation;
@@ -932,7 +938,7 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
 conn = sqlite3.connect(TRANSFORMED_DB_FILE_PATH)
 cur = conn.cursor()
 
-def load_csv_to_sqlite(path: str, table_name: str, conn: sqlite3.Connection):
+def load_csv_to_sqlite(path: str, table_name: str, conn: sqlite3.Connection, drop_duplicates = False):
     """
     Loads a CSV file into a specified SQLite table.
     """
@@ -944,6 +950,10 @@ def load_csv_to_sqlite(path: str, table_name: str, conn: sqlite3.Connection):
         csv_data = f.read()
     
     df = pd.read_csv(StringIO(csv_data))
+
+    if drop_duplicates:
+        df = df.drop_duplicates()
+
     df.to_sql(table_name, conn, if_exists="replace", index=False)
     conn.commit()
     print(f"Successfully loaded data into '{table_name}'")
@@ -975,8 +985,14 @@ def load_program_compliance_file(conn):
 def load_risks_file(conn):
     load_csv_to_sqlite(RISKS_PATH, "risks", conn)
 
+def load_risks_methodology_changed_file(conn):
+    load_csv_to_sqlite(RISKS_METHODOLOGY_CHANGED_PATH, "risks_methodology_changed", conn)
+
 def load_eligibility_themes_file(conn):
     load_csv_to_sqlite(ELIGIBILITY_THEMES_PATH, "eligibility_themes", conn)
+
+def load_eligibility_themes_descriptions_file(conn):
+    load_csv_to_sqlite(ELIGIBILITY_THEMES_DESCRIPTIONS_PATH, "eligibility_themes_descriptions", conn)
 
 def load_recovery_amounts_file(conn):
     load_csv_to_sqlite(RECOVERY_AMOUNTS_PATH, "recovery_amounts", conn)
@@ -998,6 +1014,9 @@ def load_congressional_reports_files(conn):
 
 def load_congressional_reports_files_program(conn):
     load_csv_to_sqlite(CONGRESSIONAL_REPORTS_PROGRAM_PATH, "congressional_reports_program", conn)
+
+def load_fpi_mapping(conn):
+    load_csv_to_sqlite(FPI_MAPPING_PATH, "program_to_aln", conn, True)
 
 def transform_and_insert_all_programs_data_aggregation_data():
     """
@@ -1091,7 +1110,9 @@ load_payment_recovery_details_file(conn)
 load_payment_confirmed_fraud_file(conn)
 load_program_compliance_file(conn)
 load_risks_file(conn)
+load_risks_methodology_changed_file(conn)
 load_eligibility_themes_file(conn)
+load_eligibility_themes_descriptions_file(conn)
 load_recovery_amounts_file(conn)
 load_survey_root_cause_file(conn)
 load_ip_root_causes_file(conn)
@@ -1099,6 +1120,7 @@ load_actions_date_mapping_file(conn)
 load_mitigation_strategies_file(conn)
 load_congressional_reports_files(conn)
 load_congressional_reports_files_program(conn)
+load_fpi_mapping(conn)
 transform_and_insert_all_programs_data_aggregation_data()
 transform_and_insert_all_agencies_data_aggregation_data()
 transform_and_insert_government_wide_data_aggregation_data()

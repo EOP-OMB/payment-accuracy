@@ -245,6 +245,9 @@ th.gridjs-th {
 .gray-box {
     background-color: #f0f0f0;
     padding: 3rem 8rem;
+    width: 100%;
+    border-radius: 20px;
+
     @media (max-width: $mobile) {
         padding: 2rem;
     }
@@ -252,8 +255,6 @@ th.gridjs-th {
     @media (max-width: $tablet) {
         padding: 3rem;
     }
-    width: 100%;
-    border-radius: 20px;
 
     p {
         margin-bottom: 20px;

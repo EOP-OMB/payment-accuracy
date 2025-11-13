@@ -90,7 +90,7 @@ SurveyData:
   SortOrder: 3
   Subheading: ''
   Type: PERCENTAGE
-- Answer: '0.0'
+- Answer: '0'
   Heading: How Recovered Amounts Have Been Disposed Of
   Key: arp7
   SortOrder: 4
@@ -120,7 +120,7 @@ SurveyData:
   SortOrder: 8
   Subheading: Returned to Treasury
   Type: MILLIONS_OF_DOLLARS
-- Answer: '0.0'
+- Answer: '0'
   Heading: How Recovered Amounts Have Been Disposed Of
   Key: arp12
   SortOrder: 9
@@ -132,7 +132,7 @@ SurveyData:
   SortOrder: 10
   Subheading: ''
   Type: MILLIONS_OF_DOLLARS
-- Answer: '0.09090909090909091'
+- Answer: '0.090909091'
   Heading: Overpayment Amount Outstanding
   Key: arp5_1
   SortOrder: 11
@@ -144,7 +144,7 @@ SurveyData:
   SortOrder: 12
   Subheading: 0 to 6 Months Outstanding
   Type: MILLIONS_OF_DOLLARS
-- Answer: '0.0'
+- Answer: '0'
   Heading: Aging Schedule of the Amounts Outstanding
   Key: arp15
   SortOrder: 13

@@ -1,1222 +1,371 @@
 ---
 Agency: DOD
 Agency_Name: Department of Defense
-Confirmed_Fraud: 2371.64
-Eligibility_Themes:
-- Program_Name: Civilian Pay – Army
-  Themes:
-  - Barriers: Currently there are no known barriers for the Army's Civilian Pay Payment
-      Integrity program.  The improper payment errors for the Army were caused by
-      payments received from improperly signed Standard Forms (SF) 1190, “Foreign
-      Allowances Application, Grant and Report” that are required to authorize the
-      payment(s) for submission into the payroll system for processing.  The employees
-      were all entitled to receive the payments; however, because the SF1190 was not
-      signed by all required parties, the payment was improper.
-    Info: The travel orders document the employee is located in a foreign area and
-      entitled to receive overseas entitlement payments.  Travel Orders are submitted
-      at the time the SF1190 is submitted to HR for processing to the HR system.  The
-      program is unable to conclude if the payment is proper because HR can’t validate
-      the employee was located in the proper foreign area without the Travel Orders.  The
-      location needs to be validated with the Travel Orders.  The Travel Orders detail
-      the location of the employee in a foreign area and authorizes the payment.
-    Theme: Address/Location
-- Program_Name: Civilian Pay – Other Defense Organization (ODO)
-  Themes:
-  - Barriers: "For the DoD Education Activity (DoDEA) DoDEA Allowance Processing System\
-      \ (DAPS) (SF1190) and the Travel Order Processing System (TOPS)(DD1614), a DoDEA\
-      \ employee must complete an SF1190 to apply for authorization and payment for\
-      \ overseas allowances.  The DoDEA employee must also complete an DD-1614 to\
-      \ apply for Non-TDY Travel. \n\nCompletion of the SF-1190 and the DD-1614 provides\
-      \ the necessary information to determine the correct amount for all overseas\
-      \ and travel allowances.  DAPS and TOPS are older systems that do not have the\
-      \ ability to provide Common Access Card (CAC) signatures.  However, DAPS and\
-      \ TOPS are DoDEA systems that have official signature cards on file and can\
-      \ only be accessed with appropriate vetted access and a CAC.  It is important\
-      \ to note that DoDEA employees are being paid correctly and this is just a supporting\
-      \ documentation control finding.\n\nDAPS and TOPS are to be modernized in the\
-      \ coming years and will provide the capability to have CAC signatures on the\
-      \ SF1190 and DD1614.\n"
-    Info: The Department's Other Defense Organization Civilian Pay Payment Integrity
-      program Address/Location eligibility criteria is based primarily missing key
-      supporting documentation and/or documentation that is not properly signed in
-      accordance with applicable requirements.  These improper and unknown payments
-      are attributed to specific documentation that is a result of the incorrect Foreign
-      Post Allowance and Differential being applied incorrectly for the civilian employee.
-      Additionally, underpayments and overpayments were attributed to incorrect salary
-      calculation, geographic location, miscalculated Cost of Living Allowance rates
-      and Living Quarters Allowance.
-    Theme: Address/Location
-- Program_Name: Commercial Pay – Mechanization of Contract Administration Services
-    (MOCAS)
-  Themes:
-  - Barriers: The Department’s MOCAS Commercial pay program utilizes the Treasury’s
-      Do Not Pay system. One specific barrier is going past the eligibility of the
-      System of Award (SAM) contract module that tests of authorized vendors. If it
-      was possible to test the contract specific line-item eligibility that would
-      increase the potential to reduce the likelihood of reducing improper and unknown
-      payments. The specific contracts terms for each payment are also reviewed to
-      determine the dollar amount the contactor is eligible to receive upon meeting
-      the terms of the contract.  When contract terms are not properly entered in
-      the payment system the likelihood of improper payments is increased.  If it
-      was possible to ensure all contract terms are electronically interfaced to prevent
-      missing information used to determine a contractor’s eligibility for payment,
-      it would reduce improper and unknown payments.  Further, the Department mitigates
-      this risk by utilizing the Advana improper payment tool as the prepayment resource,
-      which detects potential improper payments until a subsequent review has been
-      conducted to confirm whether the proposed payment is proper.
-    Info: The Department’s Commercial Pay - MOCAS program PIIA objectives target the
-      Commercial Pay vendors who deliver the goods or perform the services to ensure
-      payment accuracy. The Contractor of Provider Status eligibility OMB theme is
-      the closest aligned theme that pertains to the Department’s Commercial Pay -
-      MOCAS program. Based on contractual law, the eligibility barriers are not usually
-      relevant if the vendor performed in accordance with their contract from a payment
-      perspective, because they are owed the compensation for either delivering the
-      goods or performing the service. This also applies to debarment where a vendor
-      may be debarred but could be the only source for the Department requirements,
-      which will supersede and allow that specific contractor or vendor to have and
-      to perform the contract accordingly.
-    Theme: Contractor of Provider Status
-- Program_Name: Military Pay Army – National Guard
-  Themes:
-  - Barriers: There is a potential for document retention and acquisition problems
-      in the Defense Enrollment Eligibility Reporting System (DEERS) for the Army
-      National Guard Military (ARNG) Pay program dependency criteria. To further mitigate
-      the risk of dependency related improper and unknown payment errors, the ARNG
-      has provided and will continue to provide virtual training to the 50 States,
-      Territories and the District of Columbia with over 200 attendees participating
-      monthly. These trainings have been instrumental in the overall reduction of
-      error rates from fiscal years (FY) 2023 to 2024.  Additionally, ARNG in conjunction
-      with the US Army Reserve will start a Military pay certification program in
-      quarter two of FY 2025 to provide baseline Military pay training to new state
-      pay technicians.
-    Info: Army National Guard Military (ARNG) Pay dependency criteria is aligned to
-      the Department of Defense Financial Management Regulation (DoD FMR). Specifically,
-      DoD FMR Volume 7A Chapter 26, "Housing Allowances" and DoD FMR Volume 7A 27,
-      "Family Separation Allowance (FSA)." The majority of the sampled improper and
-      unknown payments were attributed to dependency errors where the key supporting
-      documentation to properly substantiate the ARNG dependents was missing or incorrectly
-      signed.  For example the DA Form 5960, "Basic Allowance For Housing (BAH) Authorization
-      And Dependency Declaration," which is a required form for the BAH entitlement,
-      was not signed correctly and/or not made readily available for the review period.
-    Theme: Dependency
-  - Barriers: There is a potential for document retention and acquisition problems
-      in the Defense Enrollment Eligibility Reporting System (DEERS) for the Military
-      status criteria for the Military Pay - Army National Guard (ARNG) program. To
-      further mitigate the risk of Military status eligibility related improper and
-      unknown payment errors, the ARNG has provided and will continue to provide virtual
-      training to the 50 States, Territories and the District of Columbia with over
-      200 attendees participating monthly. These trainings have been instrumental
-      in the overall reduction of our error rates from fiscal years (FY) 2023 to 2024.  Additionally,
-      ARNG in conjunction with the US Army Reserve will start a Military pay certification
-      program in quarter two of FY 2025 to provide baseline Military pay training
-      to new state pay technicians.
-    Info: The Military status eligibility for the Military Pay - Army National Guard
-      program is determined by the service member's order issuing authority. The errors
-      identified were based on the basic pay entitlement, which is determined by the
-      validity of orders that cover the period of the entitlement. To continue to
-      resolve the error, further research is being conducted to obtain the proper
-      order to determine the validity of the entitlement.
-    Theme: Military Status
-- Program_Name: Travel Pay Army – Defense Travel System (DTS)
-  Themes:
-  - Barriers: The main causes of improper and unknown payments within the travel pay
-      program are missing or invalid receipts, miscalculation of reimbursement amount
-      (e.g. per diem, mileage, etc.), and reimbursement for unauthorized travel expenses
-      (e.g. laundry, excess baggage, rental car fuel, mail, etc.). As these are not
-      available categories in the questionnaire, "address/location" was selected because
-      they occurred while on official government travel outside their assigned duty
-      location. Decentralization of the travel pay program and inadequate review and
-      approval process on source documentation. Lack the understanding of Department
-      of Defense regulations, guides, and manuals and non-enforcement of accountability.
-      Travelers and approving officials not understanding official travel requirements
-      or failing to comply with official travel requirements.
-    Info: 'The main causes of improper and unknown payments within the Travel Pay
-      Army program are (1) missing or invalid receipts, (2) miscalculation of reimbursement
-      amount (e.g. per diem, mileage, etc.), and (3) reimbursement for unauthorized
-      travel expenses (e.g. laundry, excess baggage, rental car fuel, mail, etc.).
-      As these are not available categories in the questionnaire, "address/location"
-      was selected because they occurred while on official government travel outside
-      their assigned duty location.
-
-
-      Vendor receipts are required to evidence official travel expenses were incurred.
-      Reviewing and approving officials were not ensuring that travelers provide valid
-      documentations for authorized expenses for the performance of official travel,
-      and the rules for paying appropriate meal rates when authorized to procure commercial
-      meals instead of using a government dining facility. Organizations did not comply
-      with travel orders regulation and the Joint Travel Regulation (JTR) when travelers
-      were directed to perform travel before the issuance of actual travel orders.'
-    Theme: Address/Location
-- Program_Name: Travel Pay Department of Air Force (DAF) – Defense Travel System (DTS)
-  Themes:
-  - Barriers: The Department of the Air Force (DAF) Defense Travel System (DTS) vouchers
-      are ultimately the DAF’s responsibility, control . There is a known lack of
-      internal control associated with DTS itself which lends to an increase in improper
-      payments.  DTS does not have any internal systematic controls over the application
-      of permission levels within the system.  Therefore, anyone with a specific permission
-      level to include Approving Official (AO) may grant anyone else the same permission
-      level.  Unfortunately, this means there are AOs in the system approving improper
-      payments who have not been appropriately appointed and trained to perform the
-      duty.  The DAF created a BOT to cross-check all AOs who have been properly appointed
-      on a DD Form 577 and have completed the required training, then it removes all
-      AOs who are not in compliance.
-    Info: For Department of the Air Force Defense Travel System payments, the location
-      must be correctly identified to determine per diem authorizations for travel.  The
-      proper location and address on the supporting documentation is critical for
-      proper payments.
-    Theme: Address/Location
-Fiscal_Year: 2024
-Hide_Disposition_of_Funds: false
-Hide_Do_Not_Pay: false
-Hide_Eligibility_Criteria: false
+Confirmed_Fraud: null
+Eligibility_Themes: []
+Fiscal_Year: 2025
+Hide_Disposition_of_Funds: true
+Hide_Disposition_of_Funds_Table: true
+Hide_Do_Not_Pay: true
+Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: false
-Hide_PIIA2019: false
-Hide_Recovery_Audits: false
-Hide_Recovery_Details: false
+Hide_PIIA2019: true
+Hide_Recovery_Audits: true
+Hide_Recovery_Details: true
 Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: false
 Hide_Supplemental_Info: false
 Hide_Supplemental_Payment_Integrity: true
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024]'
 Improper_Payments_Rate_Max: 0.2
-Improper_Payments_Rate_Min: 0.1
-Improper_Payments_Rates: '[0.097686917521742, 0.19293903783276176, 0.16732727949417803,
-  0.24820659388460697]'
+Improper_Payments_Rate_Min: 0.2
+Improper_Payments_Rates: '[0.19293903783276176, 0.16732727949417803, 0.24820659388460697]'
 Is_Placeholder: false
-Overpayment_Amounts: '[291.45, 664.4399999999999, 202.54047, 180.67000000000002]'
-Overpayment_Amounts_Identified: '[856.03930203, 1362.56, 1483.69, 1735.66, 1827.42]'
-Overpayment_Amounts_Recovered: '[1000.07948692, 1287.08, 1412.97, 1711.09, 1684.0]'
-Overpayment_Years: '[2020, 2021, 2022, 2023, 2024]'
-PIIA2019_Compliant_Programs:
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Civilian Pay – Department of Air Force (DAF)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Civilian Pay – Navy
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Commercial Pay - U.S. Army Corps of Engineers (USACE)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Commercial Pay – Computerized Accounts Payable System (CAPS/ CAPS-W)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Commercial Pay – Defense Agencies Initiative (DAI)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Commercial Pay – Defense Enterprise Accounting Management System (DEAMS)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Commercial Pay – Enterprise Business System (EBS)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Commercial Pay – Financial Accounting and Budgetary System (FABS)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Commercial Pay – General Fund Enterprise Business System (GFEBS)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Commercial Pay – Integrated Accounts Payable System (IAPS)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Commercial Pay – Navy Enterprise and Resource Planning (NERP)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Commercial Pay – ONEPAY
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Commercial Pay – Standard Automated Voucher Examination System (SAVES)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Commercial Pay – Transportation Financial Management System (TFMS)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Health Benefits - Administrative
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Health Benefits – TRICARE East Region Program (East)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Health Benefits – TRICARE Medicare Eligible Program (TMEP)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Health Benefits – TRICARE Overseas Program (TOP)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Health Benefits – TRICARE Pharmacy Program (TPharm)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Health Benefits – TRICARE West Region Program (West)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Pay Army – Active Duty
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Pay Army – Reserve
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Pay Department of Air Force (DAF) – Active Duty
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Pay Department of Air Force (DAF) – Air National Guard
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Pay Department of Air Force (DAF) – Reserve
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Pay Marine Corps – Active Duty
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Pay Marine Corps – Reserve
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Pay Navy – Active Duty
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Pay Navy – Reserve
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Retirement – Annuitant Pay
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Retirement – Combat Related Special Compensation
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Military Retirement – Retired Pay
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Travel Pay - U.S. Army Corps of Engineers (USACE)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Travel Pay Army – Integrated Automated Travel System (IATS)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Travel Pay Department of Air Force (DAF) - Reserve Travel System (RTS)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Travel Pay Marine Corps - MARINE CORPS TOTAL FORCE SYSTEM (MCTFS)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Travel Pay Marine Corps – Defense Travel System (DTS)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Travel Pay Marine Corps – Integrated Automated Travel System (IATS)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Travel Pay Navy – Defense Travel System (DTS)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Travel Pay Navy – Integrated Automated Travel System (IATS)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Travel Pay Other Defense Organization (ODO) – Defense Travel System (DTS)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Travel Pay Other Defense Organization (ODO) – Integrated Automated Travel
-    System (IATS)
-PIIA2019_NonCompliant_Programs:
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: false
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: false
-  Name: Civilian Pay – Army
-  Slug: dod-civilian-pay-army
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: false
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: false
-  Name: Civilian Pay – Other Defense Organization (ODO)
-  Slug: dod-civilian-pay-other-defense-organization-odo
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: false
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: false
-  Name: Commercial Pay – Mechanization of Contract Administration Services (MOCAS)
-  Slug: dod-commercial-pay-mechanization-of-contract-administration--57e2db4b
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: false
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: false
-  Name: Military Pay Army – National Guard
-  Slug: dod-military-pay-army-national-guard
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: false
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: false
-  Name: Travel Pay Army – Defense Travel System (DTS)
-  Slug: dod-travel-pay-army-defense-travel-system-dts
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: false
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: false
-  Name: Travel Pay Department of Air Force (DAF) – Defense Travel System (DTS)
-  Slug: dod-travel-pay-department-of-air-force-daf-defense-travel-sy-4c65b680
-Payment_Accuracy_Amounts: '[664584.16, 614851.42, 619706.2593, 254917.63]'
+Overpayment_Amounts: '[664.4399999999999, 202.54047, 180.67000000000002]'
+Overpayment_Amounts_Identified: '[1362.56, 1483.69, 1735.66, 1827.42]'
+Overpayment_Amounts_Recovered: '[1287.08, 1412.97, 1711.09, 1684.0]'
+Overpayment_Years: '[2021, 2022, 2023, 2024]'
+PIIA2019_Compliant_Programs: []
+PIIA2019_NonCompliant_Programs: []
+Payment_Accuracy_Amounts: '[614851.42, 619706.2593, 254917.63]'
 Payment_Accuracy_Rate_Max: 99.8
 Payment_Accuracy_Rate_Min: 99.6
-Payment_Accuracy_Rates: '[99.62431026022188, 99.67386288085508, 99.76302926694459,
-  99.57545664825867]'
+Payment_Accuracy_Rates: '[99.67386288085508, 99.76302926694459, 99.57545664825867]'
 Risks:
-  AdditionalInformation: 'The Department conducts comprehensive risk assessments on
-    unique data characteristics and subpopulation groups.  Most of these groups are
-    not expected to be susceptible to significant improper and unknown payments due
-    to the strength of their internal controls which mitigate risk.  Programs deemed
-    susceptible to significant improper and unknown payments must transition to Phase
-    2.
-
-
-    Actions were initiated in FY 2022 and built upon in FY 2023 through the successful
-    restructuring of the Defense Health Agency Military Health Benefits portfolio.  The
-    restructuring involved dividing the large Military Health Benefits program into
-    six smaller, more manageable programs.  This strategic division allowed the Department
-    to concentrate on the unique risks and controls associated with each program.  As
-    a result of the restructure and targeted focus on program-specific risk factors
-    and mitigating controls, the Department achieved PIIA compliance for the first
-    time in the Military Health Benefits portfolio.  The Department then examined
-    all programs to understand the correlation between individual subgroup error rates
-    and their combined program error rates.  The Department found that robust internal
-    control processes directly contributed to the individual program’s lower projected
-    improper and unknown payment rates.  The Department-wide efforts in FY 2024 were
-    focused on performing comprehensive risk assessments to document, identify, and
-    classify the inherent risks and mitigating factors of payment types. As such,
-    the Department leveraged this reorganization (16 total programs in FY 2023; 8
-    Phase 1 and 8 Phase 2 to 42 Phase 1 and 6 Phase 2 programs in FY 2024) to develop
-    and implement appropriate internal controls to reduce improper and unknown payments
-    and uphold financial stewardship of taxpayer money. This strategy aligns with
-    the OMB’s Joint Financial Management Improvement Program and demonstrates that
-    PIIA compliance is achievable through the Department’s current internal control
-    environment.
-
-    '
+  AdditionalInformation: null
   Assessments:
   - Fiscal_Year: 2020
+    MethodologyChanged: 0
     Program_Name: Civilian Pay
     Slug: dod-civilian-pay
     Susceptible: 'Yes'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Civilian Pay – Army
+    Slug: dod-civilian-pay-army
+    Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Civilian Pay – Department of Air Force (DAF)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Civilian Pay – Navy
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Civilian Pay – Other Defense Organization (ODO)
+    Slug: dod-civilian-pay-other-defense-organization-odo
+    Susceptible: 'No'
   - Fiscal_Year: 2020
+    MethodologyChanged: 0
     Program_Name: Commercial Pay
     Slug: dod-commercial-pay
     Susceptible: 'Yes'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Commercial Pay - U.S. Army Corps of Engineers (USACE)
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Commercial Pay – Computerized Accounts Payable System (CAPS/ CAPS-W)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Commercial Pay – Defense Agencies Initiative (DAI)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Commercial Pay – Defense Enterprise Accounting Management System
+      (DEAMS)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Commercial Pay – Enterprise Business System (EBS)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Commercial Pay – Financial Accounting and Budgetary System (FABS)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Commercial Pay – General Fund Enterprise Business System (GFEBS)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Commercial Pay – Integrated Accounts Payable System (IAPS)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Commercial Pay – Mechanization of Contract Administration Services
+      (MOCAS)
+    Slug: dod-commercial-pay-mechanization-of-contract-administration--57e2db4b
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Commercial Pay – Navy Enterprise and Resource Planning (NERP)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Commercial Pay – ONEPAY
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Commercial Pay – Standard Automated Voucher Examination System (SAVES)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Commercial Pay – Transportation Financial Management System (TFMS)
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2020
+    MethodologyChanged: 0
     Program_Name: DoD Travel Pay
     Slug: dod-dod-travel-pay
     Susceptible: 'Yes'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Military Health Benefits - Administrative
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2020
+    MethodologyChanged: 0
     Program_Name: Military Health Benefits - Healthcare
     Slug: dod-military-health-benefits-healthcare
     Susceptible: 'Yes'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Military Health Benefits – TRICARE East Region Program (East)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Military Health Benefits – TRICARE Medicare Eligible Program (TMEP)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Military Health Benefits – TRICARE Overseas Program (TOP)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Military Health Benefits – TRICARE Pharmacy Program (TPharm)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Military Health Benefits – TRICARE West Region Program (West)
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Military Pay
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2020
+    MethodologyChanged: 0
     Program_Name: Military Pay - Army
     Slug: dod-military-pay-army
     Susceptible: 'Yes'
   - Fiscal_Year: 2020
+    MethodologyChanged: 0
     Program_Name: Military Pay - Department of Air Force
     Slug: null
     Susceptible: 'Yes'
   - Fiscal_Year: 2020
+    MethodologyChanged: 0
     Program_Name: Military Pay - Marine Corps
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2020
+    MethodologyChanged: 0
     Program_Name: Military Pay - Navy
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Military Pay Army – Active Duty
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Military Pay Army – National Guard
+    Slug: dod-military-pay-army-national-guard
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Military Pay Army – Reserve
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Military Pay Department of Air Force (DAF) – Active Duty
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Military Pay Department of Air Force (DAF) – Air National Guard
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Military Pay Department of Air Force (DAF) – Reserve
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Military Pay Marine Corps – Active Duty
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Military Pay Marine Corps – Reserve
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Military Pay Navy – Active Duty
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Military Pay Navy – Reserve
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2020
+    MethodologyChanged: 0
     Program_Name: Military Retirement
     Slug: dod-military-retirement
     Susceptible: 'Yes'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Military Retirement – Annuitant Pay
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Military Retirement – Combat Related Special Compensation
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Military Retirement – Retired Pay
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Travel Pay - U.S. Army Corps of Engineers (USACE)
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Travel Pay Army – Defense Travel System (DTS)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Travel Pay Army – Defense Travel System (DTS)
+    Slug: dod-travel-pay-army-defense-travel-system-dts
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Travel Pay Army – Integrated Automated Travel System (IATS)
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Travel Pay Department of Air Force (DAF) - Reserve Travel System
       (RTS)
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Travel Pay Department of Air Force (DAF) – Defense Travel System
+      (DTS)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Travel Pay Department of Air Force (DAF) – Defense Travel System
+      (DTS)
+    Slug: dod-travel-pay-department-of-air-force-daf-defense-travel-sy-00cfe2ec
+    Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Travel Pay Marine Corps - MARINE CORPS TOTAL FORCE SYSTEM (MCTFS)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Travel Pay Marine Corps – Defense Travel System (DTS)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Travel Pay Marine Corps – Integrated Automated Travel System (IATS)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Travel Pay Navy – Defense Travel System (DTS)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Travel Pay Navy – Integrated Automated Travel System (IATS)
     Slug: null
     Susceptible: 'No'
-  SubstantialChangesMade: 'No'
-Technically_Improper_Amounts: '[246.60999999999999, 455.27, 765.32023, 405.33]'
-Underpayment_Amounts: '[113.6, 70.46000000000001, 71.53999999999999, 49.42]'
-Unknown_Amounts: '[1854.53, 821.65, 432.61, 451.43]'
-Unknown_Payments_Rate_Max: 0.3
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Travel Pay Other Defense Organization (ODO) – Defense Travel System
+      (DTS)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Travel Pay Other Defense Organization (ODO) – Integrated Automated
+      Travel System (IATS)
+    Slug: null
+    Susceptible: 'No'
+  SubstantialChangesMade: null
+Technically_Improper_Amounts: '[455.27, 765.32023, 405.33]'
+Underpayment_Amounts: '[70.46000000000001, 71.53999999999999, 49.42]'
+Unknown_Amounts: '[821.65, 432.61, 451.43]'
+Unknown_Payments_Rate_Max: 0.2
 Unknown_Payments_Rate_Min: 0.1
-Unknown_Payments_Rates: '[0.2780028222563855, 0.133198081312156, 0.0696434535612458,
-  0.1763367578567375]'
+Unknown_Payments_Rates: '[0.133198081312156, 0.0696434535612458, 0.1763367578567375]'
 Years_Available:
+- 2025
 - 2024
 - 2023
 - 2022
-- 2021
-detail_CAP5: 'The DoD Office of Inspector General (OIG) evaluated the compliance of
-  the DoD’s 16 programs with the Payment Integrity Information Act of 2019 (PIIA).
-  The audit for fiscal year (FY) 2023 revealed that eight Phase 1 programs successfully
-  met the PIIA requirements. It also found that the eight Phase 2 programs were compliant
-  with only five out of the six PIIA requirements.  On the sixth requirement, the
-  DoD IG found the Department lacked an adequate methodology to ascertain the completeness
-  of the DoD’s universe of transactions. Consequently, the Department was unable to
-  publish reliable estimates.
-
-
-  To address this, the Department is adopting two strategic paths to achieve PIIA
-  compliance, incorporating the Office of Management and Budget (OMB) Circular A-123,
-  Appendix C, Phase 1 (Risk Assessments) and Phase 2 (Sampling & Estimation) approaches.
-  These phases are not necessarily sequential or obligatory. A program can achieve
-  and maintain PIIA compliance in either phase. This is accomplished by implementing
-  corrective actions aimed at reducing both improper payments and unknown payments.
-  The goal is to bring these payment rates below the PIIA statutory threshold or to
-  a tolerable level.
-
-
-  Path 1: Risk Assessments for PIIA Compliance (Phase 1)
-
-
-  This path involves conducting comprehensive risk assessments on unique data characteristics
-  and subpopulation groups. These groups are not expected to be susceptible to significant
-  improper and unknown payments due to their internal controls designed to mitigate
-  risk. In FY 2024, we restructured the department’s entire Payment Integrity portfolio
-  based on the results and recommendations from the DoD OIG’s previous audits and
-  interagency lessons learned.
-
-
-  Path 2: Sampling & Estimation for PIIA Compliance (Phase 2)
-
-
-  This path targets programs anticipated to exceed the OMB statutory threshold and
-  likely to have significant improper and unknown payments. In FY 2023, the DoD OIG
-  found that the Department produced unreliable improper payment and unknown payment
-  estimates for the 13th consecutive year. Despite having statistically valid sampling
-  plans, the Phase 2 programs failed due to the unsubstantiated payment population
-  used to create the test samples.
-
-
-  To rectify these deficiencies, the Department will establish a Payment Integrity
-  Universe of Transactions (UoT) working group. This group aims to report reliable
-  estimates by the FY 2025 reporting cycle, which will include a complete and reconciled
-  payment population along with the previous valid sampling methodology. The working
-  group’s goal is to develop and implement a standardized process to identify each
-  program’s UoT population data characteristics, validate the completeness of the
-  UoT payment population, and produce reliable improper and unknown payment estimates.
-
-  '
-detail_agy1: null
-detail_ara1: 'No'
-detail_ara2: 'Yes'
-detail_ara2_1: The main objective of the Department’s Payment Recovery Audit (PRA)
-  program is to identify, recapture, and reallocate overpayments made by Department
-  of Defense (DoD) Components in support of the DoD mission, while simultaneously
-  demonstrating financial stewardship of resources. The Department’s PRA program consists
-  of a combination of cost-effective internal controls implemented by DoD Components,
-  PIIA-related initiatives, and recoveries performed by TRICARE private sector contractors.
-  The Department’s PRA efforts are a synchronization of actions taken by DoD Components
-  with additional collection activities performed by the Defense Finance and Accounting
-  Service, Defense Health Agency, and US Army Corps of Engineers.
-detail_ara2_2: The Department’s uncollectable amounts is based primarily on a Military
-  Commander or Senior Executive Leader authorized forgiven amounts for a particular
-  Service Member, Civilian or Veteran. Overarching reasons include debt processing
-  error, Veteran Affairs waiver, erroneous payments, financial hardship, injustice,
-  and deceased Service Members.
-detail_ara2_3: null
-detail_ara2_3_2: null
-detail_arp10: '0.0'
-detail_arp11: '59.21'
-detail_arp12: '0.0'
-detail_arp14: '12.15'
-detail_arp15: '95.98'
-detail_arp16: null
-detail_arp16_5: null
-detail_arp17: The DoD Payment Recovery Audit (PRA) program is the Department’s overall
-  plan for risk analysis and the performance of payment recovery audits. PRAs are
-  reviews and analyses of program accounting and financial records, supporting documentation,
-  and other pertinent information supporting its payments; and it is designed specifically,
-  to identify overpayments. It is through this system of internal controls surrounding
-  the payments that assists in resolving the erroneous non-intentional monetary loss
-  of Department dollars. The Department also utilizes collaborative working groups
-  and enhanced specific reports that are disseminated to the responsible DoD Component
-  for the identification, validation, and potential corrective actions for the trends
-  of overpayment types, if necessary.
-detail_arp18: null
-detail_arp4: '12.15'
-detail_arp4_1: '0.66487178645303213'
-detail_arp5: '108.13000000000001'
-detail_arp5_1: '5.917085289643322'
-detail_arp7: '0.0'
-detail_arp8: '0.0'
-detail_arp9: '1624.79'
-detail_cap3: Mr. Edson Barbosa, Director, Financial Management Policy and Reporting
-detail_cap4: 'The Department has appointed Senior Accountable Officials (SAO) who
-  are collectively responsible for bringing the Payment Integrity programs into compliance
-  with the Payment Integrity Information Act of 2019 (PIIA). The Department’s Payment
-  Integrity SAO Steering Committee (the Committee) is chaired by the Office of the
-  Under Secretary of Defense (Comptroller)/Deputy Chief Financial Officer and co-chaired
-  by the Defense Finance and Accounting Service, Deputy Director of Operations. The
-  Committee also includes Senior Executive Service and Primary Action Officer Representatives
-  from the Military Services and defense agencies. Officials with a direct role in
-  the annual financial statement audit are incentivized and face consequences of program
-  compliance through their performance agreements, which include compliance with policy
-  and regulations, documenting transactions, identifying process and system weaknesses
-  / reportable conditions, identifying root cause(s) of issues, and continuous process
-  and internal control improvement. Officials with an indirect role in the annual
-  financial statement audit are incentivized and face consequences of program compliance
-  through their performance agreements which include: performing quarterly testing,
-  reporting weaknesses, implementing timely corrective action plans and maintaining
-  documentation to support financial transactions, implementing internal controls
-  to ensure proper business procedures, supporting business improvement and accountability,
-  and ensuring the workforce is trained on business effectiveness and accountability.'
-detail_com1: Non-Compliant
-detail_dpa1: 'Yes'
-detail_dpa2: 'No'
-detail_dpa3: Weekly
-detail_dpa5: 'Within the Department of Defense (DoD), the Do Not Pay (DNP) database
-  is used on a regular basis for the following payments: Military Health Benefits
-  (issued by the Defense Health Agency; Commercial Pay (issued by the Defense Finance
-  and Accounting Service (DFAS)); and USACE (U.S. Army Corps of Engineers) Commercial
-  Pay (issued by USACE), comprising the majority of the payments issued by the Department.
-  Retirement & Annuitant Pay (issued by DFAS) is currently in the process of enrolling
-  into DNP with the anticipated implementation in fiscal year 2024. Amongst the three
-  DoD agencies currently enrolled in DNP, the Department uses the online search, payment
-  integration, and batch matching features of DNP on a daily, weekly, or monthly basis.
-  The majority of the flagged payees are based on the Death Master File and the name
-  match results from the rest of the DNP databases (e.g., System for Award Management).
-  The Department researches all payments that are identified to be potentially improper.
-
-
-  Research has determined that the majority of these match results are false positives
-  (e.g., a vendor’s tax identification number is matched to a deceased individual’s
-  social security number, and the payment is erroneously flagged). The remaining matches
-  are almost always deemed proper based on established business rules related to contracts
-  terms and vendor performance (as payments cannot be stopped to vendors who performed
-  properly under contractual agreements). The Department has historically adjudicated
-  and deemed proper all potential improper payments identified using the DNP Portal.
-  To date, the DNP initiative has not reduced the Department’s improper payments.'
-detail_exs1: "The Department of Defense (DoD or the Department) met the overarching\
-  \ intent of the Payment Integrity Information Act of 2019 (PIIA) and Office of Management\
-  \ and Budget (OMB) Circular A-123, Appendix C.  Payment Integrity has been a top\
-  \ management priority, with the development of effective methodologies to identify,\
-  \ prevent, and recover improper payments. \n\nIn the fiscal year (FY) 2023 PIIA\
-  \ compliance audit, the Department successfully met five out of six compliance criteria.\
-  \  To achieve full PIIA compliance, the Department has adopted two strategic paths,\
-  \ incorporating the OMB Circular A-123, Appendix C, Phase 1 (Risk Assessments) and\
-  \ Phase 2 (Sampling & Estimation) approaches. \n\nIn FY 2024, the Department restructured\
-  \ its entire Payment Integrity portfolio, integrating the results and recommendations\
-  \ from the DoD Office of Inspector General’s (OIG) previous audit findings and interagency\
-  \ lessons learned.  The aim was to bring improper payment (IP) and unknown payment\
-  \ (UP) rates below the PIIA statutory threshold.  The Department established these\
-  \ Payment Integrity programs to enhance the accuracy and efficiency of Payment Integrity\
-  \ reporting while streamlining Department resources and striving towards achieving\
-  \ compliance with the PIIA and OMB guidance. \n\nThe Department’s current payment\
-  \ integrity portfolio consists of 48 separate programs, including 42 Phase 1 programs\
-  \ and six Phase 2 programs.  In FY 2023, three Phase 1 programs completed their\
-  \ risk assessments and achieved PIIA compliance, moving them to a three-year cycle.\
-  \  In FY 2024, 20 programs completed improper payment risk assessments and determined\
-  \ that they were not likely to be susceptible to significant improper and unknown\
-  \ payments.  The Department aims to complete risk assessments for the remaining\
-  \ 19 programs in FY 2025.  By identifying low-risk programs and placing them in\
-  \ Phase 1 reporting, the Department can allocate resources more efficiently and\
-  \ focus on high-risk Phase 2 programs. \n\nIn FY 2024, the Department’s six Phase\
-  \ 2 programs identified $256.0 billion in payments or outlays subject to testing\
-  \ under the PIIA and estimated a proper payment rate of 99.58 percent ($255.9 billion).\
-  \  The IP rate was approximately 0.25 percent ($635.3 million), and the UP rate\
-  \ was approximately 0.17 percent ($451.4 million).  The Department employed a statistical\
-  \ methodology recommended by the DoD OIG to develop these FY 2024 IP and UP results,\
-  \ which tested more high-risk payment samples.  The overarching goal is to achieve\
-  \ PIIA compliance, specifically compliance criteria #3, by publishing IP and UP\
-  \ estimates for programs susceptible to significant IPs and UPs in the accompanying\
-  \ materials to the annual financial statement.  \n\nThe Department prevented all\
-  \ the Phase 2 programs from becoming a high priority program in FY 2024 through\
-  \ its continued efforts to identify error root causes, focus on controls that detect\
-  \ and prevent overpayments, implement or reinforce applicable processes and procedures,\
-  \ and train staff on policy guidance and best practices.\n\nThe Department has dedicated\
-  \ considerable effort to identifying and recovering $1,827.4 million in monetary\
-  \ losses, successfully recovering $1,684.0 million through its Payment Recovery\
-  \ Audits and Activities program.  This achievement underscores the Department’s\
-  \ commitment to proper stewardship of funding and demonstrates the effectiveness\
-  \ of its recovery initiatives.  \n\n                                        Edson\
-  \ N. Barbosa \n\t\t\t\t\tDirector \n\t\t\t\t\tFinancial Management Policy and Reporting\
-  \ \n"
-detail_pcp12_1: '3.0'
-detail_pcp14: "The overarching intent of the DoD Office of Inspector General (OIG)\
-  \ Payment Integrity recommendations is geared towards particular actions to bring\
-  \ the programs in alignment with achieving compliance with the Payment Integrity\
-  \ Information Act of 2019 (PIIA), specifically with requirement #3, the reliability\
-  \ of the estimates, instead of specific recommendations to prevent and or to reduce\
-  \ improper and/or unknown payments. In the FY 2023 DoD OIG PIIA Compliance audit\
-  \ it was stated that while the DoD complied with five of the six PIIA requirements,\
-  \ it did not comply with the requirement to publish reliable improper payment estimates.\
-  \ This was due to DoD personnel not having a sufficient methodology for determining\
-  \ the completeness of the DoD’s universe of payment transactions (UoTs) used to\
-  \ produce its improper and unknown payment estimates. The DoD OIG has issued recommendations\
-  \ for the statistical formula used to calculate the sample size for improper and\
-  \ unknown payment projections, sample population Universe of Transactions, reconciliation\
-  \ to the disbursement systems, payment type exclusions, and internal controls surrounding\
-  \ the current processes. Since the publication of the FY 2023 PIIA Compliance audit\
-  \ report, the Department has taken specific and deliberate steps to implement numerous\
-  \ DoD OIG recommendations to bring the programs in alignment with the PIIA compliance\
-  \ requirements. These steps include creating working groups and additional Senior\
-  \ Executive level meetings to determine the most advantageous route forward in developing\
-  \ UoT’s and substantiating the slight variances between the entitlement and disbursement\
-  \ systems. These ongoing efforts are geared towards achieving PIIA compliance with\
-  \ the last remaining requirement. \n\nBackground: In FY 2023, all eight of the DoD’s\
-  \ Phase 2 programs were found non-compliant with PIIA Requirement #3: Published\
-  \ IP and UP estimates for programs susceptible to significant IPs and UPs in the\
-  \ accompanying materials to the annual financial statement. As stated in the Agency\
-  \ Executive Summary: In FY 2024, the Department restructured its entire Payment\
-  \ Integrity portfolio, integrating the results and recommendations from the DoD\
-  \ OIG’s previous audit findings and interagency lessons learned.\n\nAs a result\
-  \ of this restructuring, the following eight FY 2023 non-compliant programs no longer\
-  \ exist in FY 2024:\n\n•\tCivilian Pay\n•\tCommercial Pay\n•\tDoD Travel Pay\n•\t\
-  Military Pay – Army\n•\tMilitary Pay – Navy\n•\tMilitary Pay – Air Force\n•\tMilitary\
-  \ Pay – Marine Corps\n•\tMilitary Retirement\n"
-detail_raa8: 'No'
-detail_raa9: 'The Department conducts comprehensive risk assessments on unique data
-  characteristics and subpopulation groups.  Most of these groups are not expected
-  to be susceptible to significant improper and unknown payments due to the strength
-  of their internal controls which mitigate risk.  Programs deemed susceptible to
-  significant improper and unknown payments must transition to Phase 2.
-
-
-  Actions were initiated in FY 2022 and built upon in FY 2023 through the successful
-  restructuring of the Defense Health Agency Military Health Benefits portfolio.  The
-  restructuring involved dividing the large Military Health Benefits program into
-  six smaller, more manageable programs.  This strategic division allowed the Department
-  to concentrate on the unique risks and controls associated with each program.  As
-  a result of the restructure and targeted focus on program-specific risk factors
-  and mitigating controls, the Department achieved PIIA compliance for the first time
-  in the Military Health Benefits portfolio.  The Department then examined all programs
-  to understand the correlation between individual subgroup error rates and their
-  combined program error rates.  The Department found that robust internal control
-  processes directly contributed to the individual program’s lower projected improper
-  and unknown payment rates.  The Department-wide efforts in FY 2024 were focused
-  on performing comprehensive risk assessments to document, identify, and classify
-  the inherent risks and mitigating factors of payment types. As such, the Department
-  leveraged this reorganization (16 total programs in FY 2023; 8 Phase 1 and 8 Phase
-  2 to 42 Phase 1 and 6 Phase 2 programs in FY 2024) to develop and implement appropriate
-  internal controls to reduce improper and unknown payments and uphold financial stewardship
-  of taxpayer money. This strategy aligns with the OMB’s Joint Financial Management
-  Improvement Program and demonstrates that PIIA compliance is achievable through
-  the Department’s current internal control environment.
-
-  '
+detail_Additional_IP_Information: null
+detail_Compliance_Status: null
+detail_DNP_Discussion: null
+detail_DNP_Frequency_Identify: null
+detail_DNP_Reduced: null
+detail_Executive_Summary: null
+detail_PIIA_Incentives: null
+detail_PIIA_Official: null
+detail_Recovery_Audits_Skipped: null
+detail_Recovery_Justifications_Audits: null
+detail_Recovery_Not_Cost_Effective_Justification: null
+detail_Risks_Substantial_Changes_Made: null
 layout: agency-specific
 permalink: agency/DOD.html
-recovery_Aging_of_Outstanding_OP_Identified_Amt_0_-_6_months: 12.15
-recovery_Aging_of_Outstanding_OP_Identified_Amt_6_months_to_1_year: 95.98
-recovery_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: 108.13
-recovery_Aging_of_Outstanding_OP_Identified_determined_not_collectable: 12.15
-recovery_Disposition_of_Funds_Through_Office_of_Inspector_General: 0.0
-recovery_Disposition_of_Funds_Through_Original_Purpose: 1624.79
-recovery_Disposition_of_Funds_Through_Returned_to_Treasury: 59.21
-recovery_Disposition_of_Funds_through_FM_Improvement_Activities: 0.0
-recovery_Disposition_of_Funds_through_recovery_audit_Administer_Auditor: 0.0
-recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 1827.42
-recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 1684.0
-recovery_OP_Next_FY_Recapture_Rate_Target_through_Payment_Recapture_Audit: 0.85
-recovery_Recovery_Audit_Amount_Identified_This_Reporting_Period_Determined_Not_Collectable_Rate: 0.6648717865
-recovery_Recovery_Audit_Amount_Outstanding_Rate: 5.9170852896
-recovery_Returned_to_Original_Account: 0.0
 ---

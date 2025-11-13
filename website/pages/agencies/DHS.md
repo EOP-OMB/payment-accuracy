@@ -1,81 +1,13 @@
 ---
 Agency: DHS
 Agency_Name: Department of Homeland Security
-Confirmed_Fraud: 28.89322608
-Eligibility_Themes:
-- Program_Name: Federal Emergency Management Agency (FEMA) - Funeral Assistance
-  Themes:
-  - Barriers: As the Federal Emergency Management Agency (FEMA) does not have readily
-      available access to datasets with information regarding applicant expense incurred
-      information, the FEMA Funeral Assistance program is required to rely upon applicant
-      submitted required documentation. This barrier serves as a limitation to FEMA
-      in improving the prevention of improper payments due to the inability to readily
-      match data and information related to Financial eligibility.
-    Info: "Per program policy requirements, applicants may only receive financial\
-      \ assistance for eligible funeral expenses incurred on or after January 20,\
-      \ 2020 and applicants may only receive financial assistance for expenses incurred\
-      \ that have not already been covered, paid, and/or reimbursed by other sources.\
-      \ As noted in the required documentation, applicants for Funeral Assistance\
-      \ must provide the Federal Emergency Management Agency (FEMA) with documentation\
-      \ demonstrating that funeral expenses had been incurred for the decedent. The\
-      \ documentation, such as receipts or funeral home contract, must include all\
-      \ of the following information: \na)\tThe applicant’s name indicated as the\
-      \ responsible party for the expenses; \nb)\tThe total amount of the funeral\
-      \ expenses; \nc)\tThe decedent’s name; and \nd)\tThe date funeral expenses were\
-      \ incurred."
-    Theme: Financial
-  - Barriers: As the Federal Emergency Management Agency (FEMA) does not have readily
-      available access to datasets with information regarding benefits received from
-      other sources, the FEMA Funeral Assistance program is required to rely upon
-      applicant submitted required documentation. This barrier serves as a limitation
-      to FEMA in improving the prevention of improper payments due to the inability
-      to readily match data and information to Other Sources that may have provided
-      similar or duplicate benefits.
-    Info: Per program policy requirements, applicants may only receive financial assistance
-      for expenses incurred that have not already been covered, paid, and/or reimbursed
-      by other sources. As noted in the required documentation, applicants for the
-      Federal Emergency Management Agency (FEMA) Funeral Assistance must provide FEMA
-      with proof of funds received from other sources specifically designated for
-      funeral costs. COVID-19 Funeral Assistance may not duplicate burial or funeral
-      insurance proceeds, pre-planned or pre-paid funeral contracts, pre-paid trust
-      for funeral expenses, irrevocable trust for Medicaid, financial assistance from
-      voluntary organizations, government programs or agencies, or any other sources
-      specifically designated for funeral expenses. Any eligible COVID-19 Funeral
-      Assistance is to be reduced by the amount of other assistance that the applicant
-      received for the same expenses.
-    Theme: Receiving Benefits from Other Sources
-- Program_Name: Federal Emergency Management Agency (FEMA) - Public Assistance - Validate
-    as You Go
-  Themes:
-  - Barriers: Errors, primarily related to administrative processing issues, were
-      aligned to the "Failure to Access Data / Information Needed" in accordance with
-      the Office of Management and Budget (OMB) provided guidance. As of October 2024,
-      the Federal Emergency Management Agency (FEMA) reported obligations of $85.2
-      billion for COVID-19 public assistance. This is spread to cover over 33,900
-      projects and over another 4,000 projects in the review process. For Public Assistance,
-      FEMA continues to review and make obligations for applications submitted by
-      November 7, 2023, the deadline for project applications, as well as for applicants
-      that have received an approved extension beyond this date. As this specific
-      disaster, which included 59 disaster declarations over a three-year incident
-      period, was so wide reaching and impacted so many individuals, the span of the
-      public assistance provided is extensive. In order to sufficiently assess the
-      appropriateness of these payments, the request for information is broad and
-      often takes a substantial amount of time to obtain the necessary documentation
-      of adequate quality and completeness to enable auditability. This barrier related
-      to the expansive disaster size and the level of burden to collect the necessary
-      supporting documentation serves as a limitation to FEMA in improving the prevention
-      of improper payments due to the inability to readily match data and information
-      related to Financial eligibility.
-    Info: Errors, primarily related to administrative processing issues, were aligned
-      to the "Failure to Access Data / Information Needed" in accordance with the
-      Office of Management and Budget (OMB) provided guidance. Data needed would primarily
-      relate to the financial position or status of a beneficiary, recipient, applicant,
-      or their family.
-    Theme: Financial
-Fiscal_Year: 2024
-Hide_Disposition_of_Funds: true
+Confirmed_Fraud: 330
+Eligibility_Themes: []
+Fiscal_Year: 2025
+Hide_Disposition_of_Funds: false
+Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
-Hide_Eligibility_Criteria: false
+Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: false
 Hide_PIIA2019: false
 Hide_Recovery_Audits: false
@@ -84,2233 +16,1122 @@ Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: false
 Hide_Supplemental_Info: false
-Hide_Supplemental_Payment_Integrity: true
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024]'
+Hide_Supplemental_Payment_Integrity: false
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
 Improper_Payments_Rate_Max: 1.7
 Improper_Payments_Rate_Min: 0
-Improper_Payments_Rates: '[1.6810573614565822, 1.0519212717568602, 0, 0.4725063313461335]'
+Improper_Payments_Rates: '[1.0519212717568602, 0, 0.4725063313461335, 1.6752254779268976]'
 Is_Placeholder: false
-Overpayment_Amounts: '[67.643382, 52.9424877, 0, 188.76319071999998]'
-Overpayment_Amounts_Identified: '[72.17505971, 79.0104851, 496.36, 205.04601462, 75.7723]'
-Overpayment_Amounts_Recovered: '[64.61534168, 37.11151453, 144.22, 7.923343, 25.38493]'
-Overpayment_Years: '[2020, 2021, 2022, 2023, 2024]'
-PIIA2019_Compliant_Programs:
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Countering Weapons of Mass Destruction Office (CWMD) - Federal Assistance
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Countering Weapons of Mass Destruction Office (CWMD) - Operations & Support
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Countering Weapons of Mass Destruction Office (CWMD) - Procurement, Construction,
-    and Improvement
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Countering Weapons of Mass Destruction Office (CWMD) - Research & Development
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Cybersecurity and Infrastructure Security Agency (CISA) - All Other
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Cybersecurity and Infrastructure Security Agency (CISA) - Payroll
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Assistance to Firefighter Grants
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: 'Federal Emergency Management Agency (FEMA) - Assistance to Firefighter Grants:
-    Fire Prevention Program'
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: 'Federal Emergency Management Agency (FEMA) - Assistance to Firefighter Grants:
-    SAFER Program'
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Building Resilient Infrastructure
-    and Communities (BRIC) Grants
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Commercial Bill of Lading
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Disaster Case Management
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: 'Federal Emergency Management Agency (FEMA) - Disaster Relief Fund (DRF):
-    Individuals and Households Program'
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Emergency Food & Shelter Program
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Emergency Management Performance
-    Grants
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - FRM Risk Map
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: 'Federal Emergency Management Agency (FEMA) - Federal Insurance & Mitigation
-    Administration: Claims and Non-Claims'
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: 'Federal Emergency Management Agency (FEMA) - Federal Insurance & Mitigation
-    Administration: Grants'
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Flood Hazard Map and Risk Analysis
-    Program
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Funeral Assistance
-  Slug: dhs-federal-emergency-management-agency-fema-funeral-assista-16e39bc0
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Hazard Mitigation Grant Program
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Hazard Mitigation Grant Program
-    - Disaster Supplemental Funds
-  Slug: dhs-federal-emergency-management-agency-fema-hazard-mitigati-2c8e3e80
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Hermit's Peak
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Homeland Security Grant Program
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Nonprofit Security Grant Program
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Payroll
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Payroll - Disaster Supplemental
-    Funds
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Port Security Grant Program
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Pre-Disaster Mitigation
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Public Assistance
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Purchase Card
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Training Grants
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Transit Security Grant Program
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Travel
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - U.S. Fire Administration
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Urban Search and Rescue
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Vendor Pay
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Emergency Management Agency (FEMA) - Vendor Pay - Disaster Supplemental
-    Funds
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Law Enforcement Training Centers (FLETC) - Law Enforcement Training
-    (LET)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Federal Law Enforcement Training Centers (FLETC) - Mission Support
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Immigration and Customs Enforcement (ICE) - CARES Act Funds
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Immigration and Customs Enforcement (ICE) - Enforcement and Removal Operations
-    (ERO)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Immigration and Customs Enforcement (ICE) - Fleet Card
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Immigration and Customs Enforcement (ICE) - Homeland Security Investigations
-    (HSI)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Immigration and Customs Enforcement (ICE) - Management
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Immigration and Customs Enforcement (ICE) - Office of the Assistant Secretary
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Immigration and Customs Enforcement (ICE) - Payroll
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Immigration and Customs Enforcement (ICE) - Procurement, Construction, and
-    Improvements - Disaster Supplemental Funds
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Immigration and Customs Enforcement (ICE) - Purchase Card
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Immigration and Customs Enforcement (ICE) - Travel
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Management Directorate (MGMT) - Federal Protective Service
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Management Directorate (MGMT) - Management & Administration
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Office of Inspector General (OIG) - Audits, Inspections, & Investigations
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Office of Intelligence, Analysis, and Situational Awareness - Analysis and
-    Operations
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Science and Technology Directorate (S&T) - Operations & Support
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Science and Technology Directorate (S&T) - Research & Development
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: 'Transportation Security Administration (TSA) - Operations & Support: Aviation
-    Screening Operations'
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: 'Transportation Security Administration (TSA) - Operations & Support: Mission
-    Support'
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: 'Transportation Security Administration (TSA) - Operations & Support: Other
-    Operations and Enforcement'
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Transportation Security Administration (TSA) - Payroll, Compensation, & Benefits
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: 'Transportation Security Administration (TSA) - Procurement, Construction,
-    and Improvements: Aviation Screening Infrastructure'
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: Transportation Security Administration (TSA) - Research & Development
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Citizenship and Immigration Services (USCIS) - Adjudication Services
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Citizenship and Immigration Services (USCIS) - Administration
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Citizenship and Immigration Services (USCIS) - Application Processing
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Citizenship and Immigration Services (USCIS) - Employment Status Verifications
-    (E-Verify)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Citizenship and Immigration Services (USCIS) - Federal Assistance
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Citizenship and Immigration Services (USCIS) - Immigrant Examinations
-    Fee Account
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Citizenship and Immigration Services (USCIS) - Information Customer Services
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Citizenship and Immigration Services (USCIS) - Systemic Alien Verification
-    for Entitlements (SAVE)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Customs and Border Protection (CBP) - Border Security Fencing
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Customs and Border Protection (CBP) - Operations and Support
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Customs and Border Protection (CBP) - PR and VI Programs
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Customs and Border Protection (CBP) - Procurement, Construction, and
-    Improvements
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Customs and Border Protection (CBP) - Procurement, Construction, and
-    Improvements - Disaster Supplemental Funds
-  Slug: dhs-u-s-customs-and-border-protection-cbp-procurement-constr-75cbfdad
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Customs and Border Protection (CBP) - Refund and Drawback
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Secret Service (USSS) - Contribution for Annuity Benefits
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Secret Service (USSS) - Field Operations
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Secret Service (USSS) - Procurement, Construction, & Improvement
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Secret Service (USSS) - Protection
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: U.S. Secret Service (USSS) - Training
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Aviation Logistics Command
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Aviation Logistics Command - Disaster Supplemental
-    Funds
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Coast Guard Boat Safety
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Environmental Compliance and Restoration
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Environmental Compliance and Restoration
-    - Disaster Supplemental Funds
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Gift Fund
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Housing Funds
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Maritime Oil Spill Program
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Medicare Retiree Health
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Operations & Support
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Operations & Support - Disaster Supplemental
-    Funds
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: 'United States Coast Guard (USCG) - Payroll: Civilian'
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: 'United States Coast Guard (USCG) - Payroll: Military'
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Procurement, Construction, & Improvement
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Procurements, Construction, and Improvement
-    - Disaster Supplemental Funds
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Research & Development
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Retired Pay
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Supply Fund
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Surface Forces Logistics Command
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Surface Forces Logistics Command - Disaster
-    Supplemental Funds
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Name: United States Coast Guard (USCG) - Yard Fund
-PIIA2019_NonCompliant_Programs:
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: false
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: false
-  Name: Federal Emergency Management Agency (FEMA) - Public Assistance - Validate
-    as You Go
-  Slug: dhs-federal-emergency-management-agency-fema-public-assistan-2b9d938d
-Payment_Accuracy_Amounts: '[4434.476069, 5433.8439331399995, 70.27236640000001, 39849.32696784]'
+Overpayment_Amounts: '[52.9424877, 0, 188.76319071999998, 0.39]'
+Overpayment_Amounts_Identified: '[79.0104851, 496.36, 205.04601462, 75.7723, 1300.0]'
+Overpayment_Amounts_Recovered: '[37.11151453, 144.22, 7.923343, 25.38493, 750.0]'
+Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
+PIIA2019_Compliant_Programs: []
+PIIA2019_NonCompliant_Programs: []
+Payment_Accuracy_Amounts: '[5433.8439331399995, 70.27236640000001, 39849.32696784,
+  1112.93]'
 Payment_Accuracy_Rate_Max: 99.3
-Payment_Accuracy_Rate_Min: 93.3
-Payment_Accuracy_Rates: '[93.30752227905074, 95.47928651904044, 99.25309744375816,
-  96.15853375748283]'
+Payment_Accuracy_Rate_Min: 95.5
+Payment_Accuracy_Rates: '[95.47928651904044, 99.25309744375816, 96.15853375748283,
+  96.054028395115]'
 Risks:
-  AdditionalInformation: "The Department performs risk assessments to determine susceptibility\
-    \ to improper payments, testing to estimate the rates and amounts of improper\
-    \ payment, establishes improper payment reduction targets in accordance with the\
-    \ Office of Management and Budget (OMB) guidance, and develops and implements\
-    \ corrective actions. In previous years, the Department established a two-part\
-    \ process comprised of a preliminary assessment followed by a comprehensive assessment\
-    \ if necessary. The preliminary risk assessment process is used on all programs\
-    \ not already reporting an improper payment estimate and that meet the minimum\
-    \ disbursement threshold of $10 million. The comprehensive risk assessment process\
-    \ is required based on the preliminary risk assessment results and the program’s\
-    \ three-year risk assessment cycle. In conducting the comprehensive risk assessments,\
-    \ Component personnel held meetings with program managers, key personnel, and\
-    \ other stakeholders to discuss the inherent risk of improper payments. The Department’s\
-    \ comprehensive risk assessment involves evaluating attributes that directly or\
-    \ indirectly affect the likelihood of improper payments using the Government Accountability\
-    \ Office (GAO) Standards for Internal Control (\"Green Book\") framework as well\
-    \ as OMB Circular No. A-123, Appendix C guidance. \n\nAdditionally, the Department\
-    \ conducts independent reviews of Component submissions to identify significant\
-    \ changes in the program compared to last year and assess the reasonableness of\
-    \ the risk ratings. In accordance with OMB Circular No. A-123, Appendix C guidance,\
-    \ programs that are in Phase 2 and are preforming statistical testing and reporting\
-    \ do not need to be subject to a risk assessment process and will continue to\
-    \ be considered susceptible to significant improper payments until the program\
-    \ can be reverted to Phase 1. Once reverted to Phase 1, programs would then be\
-    \ subject to the three-year minimum requirement to undergo a DHS comprehensive\
-    \ risk assessment."
+  AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2019
-    Program_Name: CBP - User Fees
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: CBP - Hurricane Sandy
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Countering Weapons of Mass Destruction
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2019
-    Program_Name: CISA - NPPD Legacy
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2019
-    Program_Name: 'CISA - Payroll: NPPD Legacy and OBIM'
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2019
+    MethodologyChanged: 0
     Program_Name: 'Countering Weapons of Mass Destruction Office (CWMD) - Chemical
       and Biological Readiness: Biological'
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Countering Weapons of Mass Destruction Office (CWMD) - Federal Assistance
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Countering Weapons of Mass Destruction Office (CWMD) - Health and
+      Medical Readiness
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Countering Weapons of Mass Destruction Office (CWMD) - Integrated
+      Operations
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2019
+    MethodologyChanged: 0
     Program_Name: Countering Weapons of Mass Destruction Office (CWMD) - Mission Support
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Countering Weapons of Mass Destruction Office (CWMD) - Operations
       & Support
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Countering Weapons of Mass Destruction Office (CWMD) - Procurement,
       Construction, and Improvement
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Countering Weapons of Mass Destruction Office (CWMD) - Research
       & Development
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Customs and Border Protection
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Cybersecurity and Infrastructure Security Agency
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Cybersecurity and Infrastructure Security Agency (CISA) - All Other
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Cybersecurity and Infrastructure Security Agency (CISA) - Payroll
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
-    Program_Name: FEMA - Community Disaster Loans
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: DNDO - Hurricane Sandy
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: FEMA - Disaster Case Management - Hurricane Sandy
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: 'FEMA - Disaster Relief Fund: Hazard Mitigation Grant - Hurricane
+      Sandy'
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: 'FEMA - Disaster Relief Fund: Travel - Hurricane Sandy'
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: 'FEMA - Disaster Relief Fund: Vendor Payments'
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: FEMA - Hazard Mitigation Grant Program - Hurricane Sandy
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: FEMA - Individuals and Households Program
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: FEMA - Individuals and Households Program - Hurricane Sandy
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: FEMA - National Flood Insurance Program
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: FEMA - Payroll - Hurricane Sandy
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: FEMA - Purchase and Fleet Card - Hurricane Sandy
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: FEMA - Travel - Hurricane Sandy
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: FEMA - Urban Search and Rescue - Hurricane Sandy
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - American Red Cross
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - American Red Cross
+      - Disaster Supplemental Funds
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Assistance to Firefighter
       Grants
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: 'Federal Emergency Management Agency (FEMA) - Assistance to Firefighter
       Grants: Fire Prevention Program'
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: 'Federal Emergency Management Agency (FEMA) - Assistance to Firefighter
       Grants: SAFER Program'
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Building Resilient
       Infrastructure and Communities (BRIC) Grants
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - Case Management
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Commercial Bill of
       Lading
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - Commercial Bill of
+      Lading - Disaster Supplemental Funds
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Disaster Case Management
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - Disaster Case Management
+      - Disaster Supplemental Funds
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Disaster Direct Loan
       Program
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: 'Federal Emergency Management Agency (FEMA) - Disaster Relief Fund
       (DRF): Individuals and Households Program'
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: 'Federal Emergency Management Agency (FEMA) - Disaster Relief Fund
+      (DRF): Individuals and Households Program - Disaster Supplemental Funds'
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Emergency Food & Shelter
       Program
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - Emergency Management
+      Baseline Assessment Grant Program
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Emergency Management
       Performance Grants
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - FRM Risk Map
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - FRM Risk Map - Disaster
+      Supplemental Funds
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: 'Federal Emergency Management Agency (FEMA) - Federal Insurance
       & Mitigation Administration: Claims and Non-Claims'
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: 'Federal Emergency Management Agency (FEMA) - Federal Insurance
       & Mitigation Administration: Grants'
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: 'Federal Emergency Management Agency (FEMA) - Federal Insurance
       & Mitigation Administration: Non-Claims'
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - Fleet Card
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - Fleet Card - Disaster
+      Supplemental Funds
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Flood Hazard Map and
       Risk Analysis Program
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Funeral Assistance
     Slug: dhs-federal-emergency-management-agency-fema-funeral-assista-16e39bc0
     Susceptible: 'Yes'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Hazard Mitigation Grant
       Program
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2021
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Hazard Mitigation Grant
       Program - Disaster Supplemental Funds
     Slug: dhs-federal-emergency-management-agency-fema-hazard-mitigati-2c8e3e80
     Susceptible: 'Yes'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Hermit's Peak
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Homeland Security Grant
       Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
-    Program_Name: Federal Emergency Management Agency (FEMA) - Lost Wages
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - Homeland Security Preparedness
+      Technical Assistance Program
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - Intercity Bus Security
+      Grant Program
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - Intragovernmental Personnel
+      Act (IPA)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - Lost Wages
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - National Dam Safety
+      Program
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - National Earthquake
+      Hazards Reduction Program
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - National Incident Management
+      System
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Nonprofit Security
       Grant Program
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Payroll
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Payroll - Disaster
       Supplemental Funds
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Port Security Grant
       Program
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Pre-Disaster Mitigation
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Public Assistance
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - Public Assistance -
+      Validate as You Go
+    Slug: dhs-federal-emergency-management-agency-fema-public-assistan-2b9d938d
+    Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Purchase Card
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - Purchase Card - Disaster
+      Supplemental Funds
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2019
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Reinsurance
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Training Grants
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Transit Security Grant
       Program
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Travel
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - Travel - Disaster Supplemental
+      Funds
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - U.S. Fire Administration
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Urban Search and Rescue
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Emergency Management Agency (FEMA) - Urban Search and Rescue
+      - Disaster Supplemental Funds
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Vendor Pay
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Federal Emergency Management Agency (FEMA) - Vendor Pay - Disaster
       Supplemental Funds
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
-    Program_Name: Federal Emergency Management Agency (FEMA)- Funeral Assistance
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Law Enforcement Training Centers
     Slug: null
-    Susceptible: 'Yes'
+    Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: Federal Law Enforcement Training Centers (FLETC) - Law Enforcement
       Training (LET)
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Law Enforcement Training Centers (FLETC) - Law Enforcement
+      Training (LET) - Disaster Supplemental Funds
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: Federal Law Enforcement Training Centers (FLETC) - Mission Support
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
-    Program_Name: ICE - Hurricane Other
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Immigration and Customs Enforcement
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Immigration and Customs Enforcement (ICE) - CARES Act Funds
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Immigration and Customs Enforcement (ICE) - Debit Card
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Immigration and Customs Enforcement (ICE) - Enforcement and Removal
       Operations (ERO)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Immigration and Customs Enforcement (ICE) - Fleet Card
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Immigration and Customs Enforcement (ICE) - Homeland Security Investigations
       (HSI)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: Immigration and Customs Enforcement (ICE) - Management
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: Immigration and Customs Enforcement (ICE) - Office of the Assistant
       Secretary
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Immigration and Customs Enforcement (ICE) - Operations & Support
+      - Disaster Supplemental Funds
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Immigration and Customs Enforcement (ICE) - Payroll
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Immigration and Customs Enforcement (ICE) - Procurement, Construction,
       and Improvements - Disaster Supplemental Funds
     Slug: null
     Susceptible: 'Yes'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Immigration and Customs Enforcement (ICE) - Procurements, Construction,
+      and Improvement - Disaster Supplemental Funds
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Immigration and Customs Enforcement (ICE) - Purchase Card
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2019
+    MethodologyChanged: 0
     Program_Name: Immigration and Customs Enforcement (ICE) - Servicewide Agreements
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Immigration and Customs Enforcement (ICE) - Travel
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Immigration and Customs Enforcement - Procurement, Construction,
+      and Improvements - Disaster Supplemental Funds
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Management Directorate
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Management Directorate (MGMT) - Federal Protective Service
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Management Directorate (MGMT) - Management & Administration
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: NPPD - Hurricane Sandy
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: OIG - Hurricane Sandy
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: Office of Inspector General (OIG) - Audits, Inspections, & Investigations
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Office of Inspector General (OIG) - Audits, Inspections, & Investigations
+      - Disaster Supplemental Funds
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Office of Intelligence, Analysis, and Operations
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: Office of Intelligence, Analysis, and Situational Awareness - Analysis
       and Operations
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Office of the Inspector General
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: S&T - Hurricane Sandy
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Science and Technology Directorate
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Science and Technology Directorate (S&T) - Operations & Support
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Science and Technology Directorate (S&T) - Research & Development
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: 'Transportation Security Administration (TSA) - Operations & Support:
       Aviation Screening Operations'
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2019
+    MethodologyChanged: 0
     Program_Name: 'Transportation Security Administration (TSA) - Operations & Support:
       Aviation Screening Operations - Disaster Supplemental Funds'
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: 'Transportation Security Administration (TSA) - Operations & Support:
       Mission Support'
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: 'Transportation Security Administration (TSA) - Operations & Support:
       Other Operations and Enforcement'
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: 'Transportation Security Administration (TSA) - Operations & Support:
       Other Operations and Enforcement - Disaster Supplemental Funds'
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: Transportation Security Administration (TSA) - Payroll, Compensation,
       & Benefits
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: Transportation Security Administration (TSA) - Payroll, Compensation,
       & Benefits - Disaster Supplemental Funds
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: 'Transportation Security Administration (TSA) - Procurement, Construction,
       and Improvements: Aviation Screening Infrastructure'
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: 'Transportation Security Administration (TSA) - Procurement, Construction,
+      and Improvements: Mission Support Infrastructure'
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: 'Transportation Security Administration (TSA) - Procurement, Construction,
+      and Improvements: Other Operations and Enforcement'
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: Transportation Security Administration (TSA) - Research & Development
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Transportation and Security Administration
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: U.S. Citizenship and Immigration Services (USCIS) - Adjudication
       Services
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: U.S. Citizenship and Immigration Services (USCIS) - Administration
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: U.S. Citizenship and Immigration Services (USCIS) - Application
       Processing
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: U.S. Citizenship and Immigration Services (USCIS) - Employment Status
       Verifications (E-Verify)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2021
+    MethodologyChanged: 0
     Program_Name: U.S. Citizenship and Immigration Services (USCIS) - Employment Status
       Verifications (E-Verify) Three Year
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: U.S. Citizenship and Immigration Services (USCIS) - Federal Assistance
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: U.S. Citizenship and Immigration Services (USCIS) - Immigrant Examinations
       Fee Account
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: U.S. Citizenship and Immigration Services (USCIS) - Information
       Customer Services
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: U.S. Citizenship and Immigration Services (USCIS) - Systemic Alien
       Verification for Entitlements (SAVE)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2019
+    MethodologyChanged: 0
     Program_Name: U.S. Customs and Border Protection (CBP) - Automation and Modernization
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: U.S. Customs and Border Protection (CBP) - Border Security Fencing
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2021
+    MethodologyChanged: 0
     Program_Name: U.S. Customs and Border Protection (CBP) - Miscellaneous
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: U.S. Customs and Border Protection (CBP) - Operations & Support
+      - Disaster Supplemental Funds
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2019
+    MethodologyChanged: 0
     Program_Name: U.S. Customs and Border Protection (CBP) - Operations and Maintenance
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: U.S. Customs and Border Protection (CBP) - Operations and Support
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: U.S. Customs and Border Protection (CBP) - PR and VI Programs
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: U.S. Customs and Border Protection (CBP) - Procurement, Construction,
       and Improvements
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: U.S. Customs and Border Protection (CBP) - Procurement, Construction,
       and Improvements - Disaster Supplemental Funds
     Slug: dhs-u-s-customs-and-border-protection-cbp-procurement-constr-75cbfdad
     Susceptible: 'Yes'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: U.S. Customs and Border Protection (CBP) - Refund and Drawback
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: U.S. Secret Service (USSS) - Administration
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: U.S. Secret Service (USSS) - Contribution for Annuity Benefits
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: U.S. Secret Service (USSS) - Field Operations
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: U.S. Secret Service (USSS) - Procurement, Construction, & Improvement
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: U.S. Secret Service (USSS) - Protection
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: U.S. Secret Service (USSS) - Research & Development
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: U.S. Secret Service (USSS) - Training
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
-    Program_Name: United States Coast Guard (USCG) - Aviation Logistics Command
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: USCG - Contract Payments
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: USCG - Hurricane Sandy
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: USCG - Procurement, Construction, & Improvement - Hurricane Sandy
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: United States Citizenship and Immigration Services
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: United States Coast Guard
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
+    Program_Name: United States Coast Guard (USCG) - Aviation Logistics Command
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: United States Coast Guard (USCG) - Aviation Logistics Command -
+      Disaster Supplemental Funds
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: United States Coast Guard (USCG) - Coast Guard Boat Safety
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2020
+    MethodologyChanged: 0
     Program_Name: United States Coast Guard (USCG) - Environmental Compliance & Restoration
       (EC&R)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
-    Program_Name: United States Coast Guard (USCG) - Maritime Oil Spill Program
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: United States Coast Guard (USCG) - Environmental Compliance & Restoration
+      (EC&R) - Disaster Supplemental Funds
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: United States Coast Guard (USCG) - Environmental Compliance and
+      Restoration
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: United States Coast Guard (USCG) - Environmental Compliance and
+      Restoration - Disaster Supplemental Funds
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: United States Coast Guard (USCG) - Gift Fund
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: United States Coast Guard (USCG) - Housing Funds
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
+    Program_Name: United States Coast Guard (USCG) - Maritime Oil Spill Program
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: United States Coast Guard (USCG) - Medicare Retiree Health
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: United States Coast Guard (USCG) - Operations & Support
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: United States Coast Guard (USCG) - Operations & Support - Disaster
       Supplemental Funds
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: 'United States Coast Guard (USCG) - Payroll: Civilian'
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: 'United States Coast Guard (USCG) - Payroll: Military'
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: United States Coast Guard (USCG) - Procurement, Construction, &
       Improvement
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: United States Coast Guard (USCG) - Procurements, Construction, and
       Improvement - Disaster Supplemental Funds
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: United States Coast Guard (USCG) - Research & Development
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: United States Coast Guard (USCG) - Reserve Training
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: 2022
+    MethodologyChanged: 0
     Program_Name: United States Coast Guard (USCG) - Retired Pay
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2024
+    MethodologyChanged: 0
     Program_Name: United States Coast Guard (USCG) - Supply Fund
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: 2023
+    MethodologyChanged: 0
     Program_Name: United States Coast Guard (USCG) - Surface Forces Logistics Command
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: United States Coast Guard (USCG) - Surface Forces Logistics Command
+      - Disaster Supplemental Funds
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: United States Coast Guard (USCG) - Yard Fund
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: United States Secret Service
+    Slug: null
+    Susceptible: 'No'
   SubstantialChangesMade: 'No'
-Technically_Improper_Amounts: '[12.057269999999999, 6.851401149999999, 0, 0]'
-Underpayment_Amounts: '[0.192249, 0.07224787, 0, 7.04947984]'
-Unknown_Amounts: '[238.16969, 197.41324206000002, 0.52881584, 1396.1401011]'
-Unknown_Payments_Rate_Max: 5.0
+Technically_Improper_Amounts: '[6.851401149999999, 0, 0, 19.02]'
+Underpayment_Amounts: '[0.07224787, 0, 7.04947984, 0]'
+Unknown_Amounts: '[197.41324206000002, 0.52881584, 1396.1401011, 26.31]'
+Unknown_Payments_Rate_Max: 3.5
 Unknown_Payments_Rate_Min: 0.7
-Unknown_Payments_Rates: '[5.011420359492668, 3.468792209202707, 0.7469025562418349,
-  3.3689599111710367]'
+Unknown_Payments_Rates: '[3.468792209202707, 0.7469025562418349, 3.3689599111710367,
+  2.2707461269580977]'
 Years_Available:
+- 2025
 - 2024
 - 2023
 - 2022
-- 2021
-detail_CAP5: "The DHS Office of the Inspector General (OIG) determined that DHS complied\
-  \ with 9 out of 10 Payment Integrity Information Act of 2019 (PIIA) requirements.\
-  \ The OIG noted a non-compliance related to the requirement to publish improper\
-  \ payment (IP) and unknown payment (UP) estimates for programs susceptible to significant\
-  \ improper payments. Specifically, DHS did not comply with the requirement to publish\
-  \ IP and UP estimates for the Federal Emergency Management Agency (FEMA) Public\
-  \ Assistance – Validate as You Go (VAYGo) program in fiscal year (FY) 2023. \n\n\
-  The DHS OIG made two recommendations to improve DHS's compliance with the PIIA related\
-  \ to 1) ensuring the testing and reporting of improper payments and unknown payments\
-  \ of the FEMA Public Assistance – VAYGo program and 2) ensuring that DHS follows\
-  \ the Office of Management and Budget (OMB) reporting requirements for programs\
-  \ determined to be noncompliant with PIIA as stated in Appendix C of OMB Circular\
-  \ No. A-123. DHS concurred with both recommendations and at the time of the OIG\
-  \ compliance report publication, the recommendations were considered open and resolved.\
-  \ Overall, DHS, at a summary level, is taking the following actions to resolve the\
-  \ OIG recommendations:\n•\tDHS will complete the PIIA Phase 2 assessment over the\
-  \ FY 2021 disbursements made by the FEMA Public Assistance – VAYGo program and publish\
-  \ an error estimate as part of the Department’s FY 2024 reporting. \n•\tDHS will\
-  \ follow the OMB requirements for a first-year noncompliant program, to include\
-  \ describing the actions that FEMA will take to achieve compliance for the FEMA\
-  \ Public Assistance – VAYGo program as part of the OMB annual data call for publication\
-  \ on PaymentAccuracy.gov. \n\nTo date, DHS has completed assessment over the FY\
-  \ 2021 and FY 2022 disbursement activity for the FEMA Public Assistance – VAYGo\
-  \ program and is publishing improper payment error estimates for this 24-month disbursement\
-  \ period in the 2024 reporting cycle. As part of the 2024 reporting cycle requirements,\
-  \ DHS is providing information describing the actions that the agency has taken\
-  \ and/or will take to come into compliance as required per OMB Circular No. A-123,\
-  \ Appendix C requirements for a first-year noncompliant program.  Based on the timeline\
-  \ for actions to come into compliance, the majority of the associated activities\
-  \ are expected to be fully completed in 2024."
-detail_agy1: null
-detail_ara1: 'Yes'
-detail_ara2: 'No'
-detail_ara2_1: null
-detail_ara2_2: null
-detail_ara2_3: "DHS performs regular monitoring and conducts recovery activities throughout\
-  \ the year. As such, historical recovery audit efforts indicated that many identified\
-  \ overpayments had already been identified by the agency and thus were not applicable\
-  \ for recovery audit vendor commission. Given the low return on value for the recovery\
-  \ audit vendors, DHS was unsuccessful in keeping a vendor in place for this effort\
-  \ in previous years due to cost inefficiency for the vendor and for DHS. \n\nBased\
-  \ on additional cost-benefit analysis, DHS has examined the program structures,\
-  \ payment types and transaction volume, success rates in recoupment, as well as\
-  \ the expected cost incurred examining labor costs, clearance and equipment costs,\
-  \ commission payments, etc. Cost analysis reviews conducted to date have not successfully\
-  \ determined that any of the programs would be cost beneficial for recovery audit\
-  \ efforts. DHS continues to refine the information within the analysis, and if determined\
-  \ to be cost effective, will work through procurement channels to move forward with\
-  \ establishing a recovery audit mechanism going forward."
-detail_ara2_3_2: Based on cost benefit analysis conducted in previous year, the recovery
-  audit efforts were halted for all DHS programs. In recent years, DHS has worked
-  to refresh the cost benefit analysis to ensure that prior decision that recovery
-  audits are not cost effective for the Department, or specific entities within the
-  Department, remains an accurate position. Cost analysis reviews conducted to date
-  have not successfully determined that any of the programs would be cost beneficial
-  for recovery audit efforts. DHS continues to refine the information within the analysis,
-  and if determined to be cost effective, will work through procurement channels to
-  move forward with establishing a recovery audit mechanism going forward. Analysis
-  has covered all DHS Components, applicable payment types, and programs. Generalized
-  results show that given the cost to enter into a recovery audit contract, support
-  and administer the contract, provide applicable and necessary documentation, and
-  payment of the vendor commission in comparison to the DHS recoupment timeline and
-  success rate, the cost to perform the recovery audit efforts has outweighed the
-  benefit to the agency for all DHS programs. Please refer to the program listings
-  provided related to programs over the $10 million disbursement value and/or related
-  to annual risk assessments conducted for additional detail regarding the specific
-  DHS programs subject to Payment Integrity Information Act of 2019 (PIIA) reporting.
-detail_arp10: null
-detail_arp11: null
-detail_arp12: null
-detail_arp14: null
-detail_arp15: null
-detail_arp16: null
-detail_arp16_5: null
-detail_arp17: null
-detail_arp18: Internal recovery activities performed by DHS include, but are not limited
-  to, grant and contract closeout processes, Payment Integrity Information Act of
-  2019 (PIIA) testing, self-reporting by vendors, duplicate payment reviews, usage
-  of Do Not Pay capabilities and monitoring, etc. Although collection methods vary
-  by Components and programs, DHS utilizes a broad array of approaches and tools to
-  recover overpayments once identified. For programs that utilized Treasury’s Invoice
-  Payment Processing (IPP) system, the payment off-set can be utilized to off-set
-  the overpayment amount against a to-be paid invoice to the same vendor in the system.
-  In addition, the Treasury reclamation process is used once a receivable established
-  to recover an overpayment has aged and can be referred for Treasury collection processing.
-  DHS widely utilizes the accounts receivable process to generate a receivable that
-  then prompts a collection notification process. Notifications and/or dunning letters
-  are sent on a prescribed frequency in an attempt to recover the overpayment amount.
-  When the above approaches are unsuccessful, there are occasions where legal involvement
-  is required that may include a judgement collection and/or a contract suspension.
-detail_arp4: null
-detail_arp4_1: '0.0'
-detail_arp5: null
-detail_arp5_1: null
-detail_arp7: null
-detail_arp8: null
-detail_arp9: null
-detail_cap3: Ultimately, the DHS Chief Financial Officer (CFO) is the accountable
-  official for the progress of the agency coming into compliance with the Payment
-  Integrity Information Act of 2019 (PIIA). As DHS currently does not have a politically
-  appointed and confirmed CFO, the accountable official is currently the Deputy Chief
-  Financial Officer, Ms. Stacy Marcott.
-detail_cap4: "The goals and requirements of the Payment Integrity Information Act\
-  \ of 2019 (PIIA) are communicated to all levels of staff throughout the Office of\
-  \ the Chief Financial Officer and to relevant program office and procurement staff.\
-  \ The Department has taken extensive measures to ensure that managers, accountable\
-  \ officers – including Component Chief Financial Officers (CFOs) – programs, and\
-  \ states and localities are held accountable for reducing and recapturing improper\
-  \ payments. \n\nIn addition, the Department’s CFO, Deputy CFO, and senior staff\
-  \ have performance expectations related to payment integrity and financial stewardship\
-  \ incorporated into their annual performance plans. As a strong internal control\
-  \ environment is the best way to prevent and detect improper payments, Component\
-  \ managers are responsible for completing internal control work on payment processing\
-  \ as part of the Department’s Office of Management and Budget (OMB) Circular No.\
-  \ A-123 efforts. They are further responsible for establishing and maintaining sufficient\
-  \ internal controls, including a control environment that prevents improper payments\
-  \ from being made, effectively managing improper payment risks, and promptly detecting\
-  \ and recovering improper payments that may occur.\n\nPerformance requirements related\
-  \ to PIIA requirements are included in each DHS Component CFO annual performance\
-  \ plan. Execution against these requirements is evaluated and measured as part of\
-  \ the end of year performance review. Per this review, the performance against established\
-  \ requirements, each Component CFO is evaluated to determine whether he/she did\
-  \ not meet, met, or exceeded performance expectations which then attributes to annual\
-  \ incentives (i.e., awards, recognition, etc.) or consequences (i.e., improvement\
-  \ plan, reassignment, etc.) if there are repeated instances where performance deficiencies\
-  \ are noted."
-detail_com1: Non-Compliant
-detail_dpa1: 'Yes'
-detail_dpa2: 'Yes'
-detail_dpa3: Monthly
-detail_dpa5: "Across the Department, many DHS Components utilize the Do Not Pay (DNP)\
-  \ Initiative to assist in preventing and detecting improper payments. Primary use\
-  \ is focused during the “At the Time of Payment” stage in the payment lifecycle.\
-  \ Any funds disbursed by the Department of Treasury go through Payment Integration,\
-  \ in which the DNP Portal automatically matches all payment files against the established\
-  \ DNP datasets. Current DHS usage of the DNP Initiative is more heavily focused\
-  \ on detecting potential payment issues versus prevention. \n\nBased on the DHS\
-  \ usage of DNP in fiscal year (FY) 2024, there were 12 DHS Components had their\
-  \ payment data reviewed against the DNP datasets which have been vetted against\
-  \ Social Security Administration (SSA) Death Master File (DMF), American InfoSource\
-  \ (AIS) Obituary and Probate, Department of Defense, and Department of State data\
-  \ sources during Payment Integration (or at the time of payment). Overall, in FY\
-  \ 2024 (note that due to the timing of this reporting, all September 2024 activity\
-  \ may not yet have been included on the Payment Activity Report) there were approximately\
-  \ 3.8 million DHS payments reviewed totaling to over $45.6 billion in disbursement\
-  \ activity. For the data reported:\n•\tApproximately 89 percent of DHS payments\
-  \ had no issues noted during the review.\n•\tApproximately 10 percent of DHS payments\
-  \ were noted as having incomplete or invalid data elements (i.e., social security\
-  \ number, first / last name, etc.) that resulted in the payment transaction being\
-  \ deemed as ‘unmatchable’ to the standardized DNP datasets.\n•\tLess than 1 percent\
-  \ of payments were “matched” to the standardized DNP datasets and thus required\
-  \ further DHS review and adjudication to determine the appropriateness of the payment."
-detail_exs1: "In the wake of the September 11, 2001, terrorist attacks, Congress passed\
-  \ the Homeland Security Act (P.L. 107-296), which established the Department of\
-  \ Homeland Security (DHS) and combined the functions of 22 Federal departments and\
-  \ agencies with broad responsibilities to secure the Nation from threats. Since\
-  \ its inception, the Department has evolved into the third largest Cabinet agency\
-  \ and has matured its mission areas to collectively prevent attacks, mitigate threats,\
-  \ respond to national emergencies, and preserve economic security. The threats to\
-  \ our homeland have evolved over the 21 years of the Department of Homeland Security.\
-  \ One constant is the legacy of service of our workforce. They’ve delivered results\
-  \ for America every day since 2003 and continue to contribute to a safer tomorrow\
-  \ for all Americans. \n\nWhile we continue to face the threat of international terrorism,\
-  \ new threats and challenges have emerged, including increasing incidents of targeted\
-  \ violence, cyberattacks and several natural disasters, as well as the unprecedented\
-  \ level of transnational organized crime in our hemisphere. The 260,000-strong DHS\
-  \ workforce uses its skills and expertise to meet the challenges of today’s world\
-  \ and prepare for the threats of tomorrow, responding with new programs and capabilities,\
-  \ cross-Component collaboration, and unflinching dedication to the mission: to secure\
-  \ the nation from the many threats we face. Today, DHS spans over two dozen agencies\
-  \ and offices that work collaboratively to protect the American public in the air\
-  \ by securing air travel; on land by securing the border, responding to natural\
-  \ disasters, protecting critical infrastructure, and administering our nation’s\
-  \ legal immigration system; at sea by protecting our coastline and waterways; and\
-  \ in cyberspace by bolstering America’s cyber defense and investigating cybercrime.\
-  \ As the complex threat environment continues to evolve and loom, the Department\
-  \ will embody the relentless resilience of the American people to ensure a safe,\
-  \ secure, and prosperous Homeland supported by the six overarching homeland security\
-  \ missions that make up our strategic plan: \n\n1.\tCounter Terrorism and Homeland\
-  \ Security Threats \n2.\tSecure United States (U.S.) Borders and Approaches \n3.\t\
-  Secure Cyberspace and Critical Infrastructure \n4.\tPreserve and Uphold the Nation's\
-  \ Prosperity and Economic Security \n5.\tStrengthen Preparedness and Resilience\
-  \ \n6.\tChampion the DHS Workforce and Strengthen the Department \n\nWe face more\
-  \ serious threats from nation states now than at any time in the Department's history.\
-  \ DHS is bringing together its authorities and capabilities across DHS Component\
-  \ agencies to counter those threats, including enforcing U.S. trade laws banning\
-  \ the importation of goods made, wholly or in part, with forced labor, strengthening\
-  \ maritime governance, and increasing awareness of nation state threats with our\
-  \ federal, state, local, tribal, territorial, and private sector partners. The nation\
-  \ also faces threats from the impacts of climate change causing more frequent and\
-  \ severe weather events, and from emerging infectious diseases. \n\nIn 2017, the\
-  \ nation faced a historic Atlantic hurricane season. The effects from consecutive\
-  \ hurricanes Harvey, Irma and Maria were widespread, causing long-lasting damage\
-  \ across the southern continental U.S. and surrounding islands, as well as Puerto\
-  \ Rico and the U.S. Virgin Islands. Supplemental appropriations were designated\
-  \ as an emergency requirement in the Supplemental Appropriations for Disaster Relief\
-  \ Requirements, 2017 (P.L. 115-56), the Additional Supplemental Appropriations for\
-  \ Disaster Relief Requirements Act of 2017 (P.L. 115-72), and the Further Additional\
-  \ Supplemental Appropriations for Disaster Relief Requirements Act, 2018 (P.L. 115-123)\
-  \ were issued to specific agencies to provide the resources needed to recover and\
-  \ rebuild following recent hurricanes and other applicable natural disasters. Within\
-  \ these supplemental appropriations, DHS received a total supplemental appropriation\
-  \ amount of $50.72 billion. Per the language of the supplemental appropriations,\
-  \ once disaster supplemental funded programs initially met or exceeded the $10 million\
-  \ disbursement threshold for payments applicable for Payment Integrity Information\
-  \ Act of 2019 (PIIA) review for the 12-month reporting period, the program was deemed\
-  \ susceptible to significant improper payments and thus applicable for statistical\
-  \ sampling and reporting. Since the Supplemental Appropriations for Disaster Relief\
-  \ Requirements disbursement activity began, the Department has identified and monitored\
-  \ programs that have expended more than $10 million in applicable outlays in any\
-  \ given fiscal year (FY). \n\nIn 2020, our Nation faced one of the biggest threats\
-  \ in recent history—the COVID-19 pandemic. In a swift response, Congress provided\
-  \ $2 trillion in supplemental funding through the Coronavirus Aid, Relief, and Economic\
-  \ Security (CARES) Act, an economic relief package. As the executer of over $45\
-  \ billion in CARES Act funding, DHS was at the epicenter in the Federal Government’s\
-  \ response to the pandemic and worked closely with other federal agencies, state,\
-  \ local, tribal, and territorial governments to distribute the much-needed funding.\
-  \ In FY 2020, the Federal Emergency Management Agency (FEMA) activated the National\
-  \ Response Coordination Center (NRCC) in the wake of the Coronavirus outbreak in\
-  \ the United States. The NRCC is a multi-agency center that coordinates the overall\
-  \ federal support for major incidents and emergencies. NRCC also provides a clearinghouse\
-  \ of resources and policies for local and state governments in impacted regions.\
-  \ \n\nIn FY 2021, DHS Components received over $50 billion in funding from the American\
-  \ Rescue Plan Act (ARPA) with the majority allotted to the FEMA Disaster Relief\
-  \ Fund (DRF). The DRF is an appropriation used to direct, coordinate, manage, and\
-  \ fund eligible response and recovery efforts associated with domestic major disasters\
-  \ and emergencies. In addition, the FEMA DRF received over $19 billion from the\
-  \ Consolidated Appropriations Act (CAA) to carry out disaster relief activity, including\
-  \ COVID-19 related activity. \n\nFEMA provided front-line support for the U.S. response\
-  \ to the pandemic through mass vaccination sites and providing coordination across\
-  \ the FEMA regions. The COVID-19 Pandemic Operational Guidance issued during the\
-  \ 2020 Hurricane Season, outlines how FEMA has adapted its response and recovery\
-  \ operations in a COVID-19 environment. At the same time, this guidance has other\
-  \ implications moving forward, for example, providing a workforce mix for any future\
-  \ scenarios similar to the response during this pandemic. The Pandemic Operational\
-  \ Guidance also helps to shape a shared understanding among local and regional emergency\
-  \ managers and FEMA about roles and expectations in such deployments. The pandemic\
-  \ impacts current and future requirements for response and recovery logistics and\
-  \ products, such as determining eligible work and costs for non- congregate sheltering\
-  \ in response to a Presidentially declared emergency or major disaster, processing\
-  \ grants, how to manage communications, and training during such responses, and\
-  \ employing tools requiring limited on-site presence—such as satellite imagery—to\
-  \ assess damage. \n\nThe Office of Management and Budget (OMB) Circular No. A-123,\
-  \ Appendix C, “Requirements for Payment Integrity Improvement”, serves as the implementing\
-  \ guidance to ensure that legislative requirements within PIIA are sufficiently\
-  \ addressed. Per OMB Circular No. A-123, Appendix C, agencies should assess all\
-  \ programs with annual outlays greater than $10 million for improper payment risk\
-  \ at least once every three years to determine whether the total annual Improper\
-  \ Payments (IPs) plus Unknown Payments (UPs) collectively for each program are likely\
-  \ to be above or below the statutory threshold for the given year. As part of the\
-  \ DHS risk assessment process, all programs are subject to a preliminary risk assessment\
-  \ which serves to determine if the program has been subject to significant changes,\
-  \ fluctuations, new requirements, etc. that could have substantially altered the\
-  \ program’s susceptibility to making significant improper payments, even in off-cycle\
-  \ years. If the preliminary risk assessment indicates a need to reassess the risk\
-  \ of the program or if the program is due for an updated assessment due to the three-year\
-  \ frequency cycle, DHS will then move the program into the comprehensive risk assessment\
-  \ process. In 2024, DHS completed a comprehensive risk assessment for 48 programs\
-  \ out of the over 90 programs that exceeded $10 million in annual outlays. Upon\
-  \ completion of the comprehensive risk assessment process, only one program was\
-  \ determined to be newly susceptible to significant improper payments and will be\
-  \ converted to Phase 2 for statistical testing and reporting in 2025. \n\nDue to\
-  \ the burden of testing and reporting for the programs impacted heavily by disaster\
-  \ supplemental appropriation disbursements, DHS is generally reporting statistical\
-  \ testing results two years in arrears. While supporting the mission, DHS remains\
-  \ strongly committed to ensuring our agency’s transparency and accountability to\
-  \ the American taxpayer and achieving the most cost-effective strategy on the reduction\
-  \ of improper payments. For specifics regarding changes in reporting for specific\
-  \ programs as well as program results, please refer to the program level reporting.\
-  \ In comparison to prior year reporting, DHS has: \n\na)\tRemoved one program from\
-  \ PIIA Phase 2 reporting as the program has been adequately baselined under PIIA\
-  \ requirements and has been determined to not be susceptible to significant improper\
-  \ payments and thus reverted to PIIA Phase 1, effective for the 2024 reporting period.\n\
-  •\tFEMA Hazard Mitigation Grant Program (HMGP) – Disaster Supplemental Funds \n\n\
-  b)\tContinued PIIA Phase 2 reporting for one program, based on FY 2022 disbursement\
-  \ activity, effective for the 2024 reporting period.\n•\tU.S. Customs and Border\
-  \ Protection (CBP) Procurement, Construction, and Improvements (PC&I) – Disaster\
-  \ Supplemental Funds\n\nc)\tAdded one program into PIIA Phase 2 reporting based\
-  \ on FY 2022 disbursement activity, effective for the 2024 reporting period.\n•\t\
-  FEMA Funeral Assistance \n\nd)\tInitiated catch-up PIIA Phase 2 reporting for one\
-  \ program, to cover FY 2021 and FY 2022 disbursement activity, effective for the\
-  \ 2024 reporting period. \n•\tFEMA Public Assistance – Validate as You Go (VAYGo)\
-  \ \n\ne)\tDetermined one program has met the criteria per the agency’s risk assessment\
-  \ process to be deemed susceptible to significant improper payments and thus will\
-  \ be moved to Phase 2 for the 2025 reporting period.\n•\tImmigration and Customs\
-  \ Enforcement (ICE) PC&I – Disaster Supplemental Funds\n\nFor the 2024 reporting\
-  \ of Phase 2 programs, DHS is publishing an improper payment estimates for a total\
-  \ of three programs. All program disbursement activity subject to assessment and\
-  \ reporting in 2024 included outlay activity from FY 2022 but due to the delay in\
-  \ FEMA Public Assistance – VAYGo reporting in the prior year, that program is publishing\
-  \ 24-month assessment coverage and error reporting to also include coverage for\
-  \ disbursements made in FY 2021. Overall, DHS conducted assessments over more than\
-  \ $41.4 billion in disbursement activity with over 96 percent of disbursements being\
-  \ deemed proper. As such, DHS is reporting an agency-wide error rate of approximately\
-  \ 3.84 percent in 2024. As highlighted in the program specific reporting, the FEMA\
-  \ Public Assistance – VAYGo program accounts for just under 96 percent of the disbursement\
-  \ amount that was reviewed by the agency and contributed to just over 96 percent\
-  \ of the DHS total IP and UP reported totals. The primary root causes for errors\
-  \ identified during the 2024 assessment and reporting period were:\n•\tUnable to\
-  \ Determine whether the Payment is Proper or Improper due to Insufficient Documentation\
-  \ (categorized as Unknown Payments) – estimated error amount of just under $1.4\
-  \ billion accounting for over 87 percent of the total DHS reported error rate\n\
-  •\tFailure to Access Data or Information (categorized as Improper Payments) – estimated\
-  \ error amount of just under $195.3 million accounting for over 12 percent of the\
-  \ total DHS reported error rate \n\nTo address the issues surrounding insufficient\
-  \ documentation, FEMA continues to work with recipients and applicants on obtaining\
-  \ additional information and missing documentation for the UPs. FEMA remains committed\
-  \ to streamlining and automating the program processes, training relevant parties\
-  \ and stakeholders, ensuring that policy and process documentation is current and\
-  \ available, and maintaining consistent and regular oversight through internal reviews\
-  \ and audit activity while not overburdening grant recipients and assistance applicants.\
-  \ With the two major programs contributing solely to the 2024 estimated error rates\
-  \ for the agency, please refer to the program level reporting for the FEMA Public\
-  \ Assistance – VAYGo program and the FEMA Funeral Assistance program for additional\
-  \ detail regarding granular root causes, corrective actions taken, corrective actions\
-  \ planned, and for additional context related to the payment environment and integrity\
-  \ of the program. \n\nFinally, in 2024 the DHS Office of the Inspector General (OIG)\
-  \ completed its evaluation to determine the Department’s compliance with PIIA requirements\
-  \ based off of the FY 2023 reporting. The DHS OIG determined that DHS complied with\
-  \ 9 out of 10 PIIA requirements and did not have any programs reporting above the\
-  \ statutory threshold. The OIG noted a non-compliance related to the requirement\
-  \ to publish IP and UP estimates for programs susceptible to significant improper\
-  \ payments. Specifically, DHS did not comply with the requirement to publish IP\
-  \ and UP estimates for the FEMA Public Assistance – VAYGo program in FY 2023 due\
-  \ to the delay in PIIA reporting, highlighted above. \n\nThe DHS OIG made two recommendations\
-  \ to improve DHS's compliance with the PIIA related to 1) ensuring the testing and\
-  \ reporting of improper payments and unknown payments of the FEMA Public Assistance\
-  \ – VAYGo program and 2) ensuring that DHS follows the OMB reporting requirements\
-  \ for programs determined to be noncompliant with PIIA as stated in Appendix C of\
-  \ OMB Circular No. A-123. DHS concurred with both recommendations and at the time\
-  \ of the OIG compliance report publication, the recommendations were considered\
-  \ open and resolved. Overall, DHS, at a summary level, is taking the following actions\
-  \ to resolve the OIG recommendations: \n•\tDHS will complete the PIIA Phase 2 assessment\
-  \ over the FY 2021 disbursements made by the FEMA Public Assistance – VAYGo program\
-  \ and publish an error estimate as part of the Department’s FY 2024 reporting.\n\
-  •\tDHS will follow the OMB requirements for a first-year noncompliant program, to\
-  \ include describing the actions that FEMA will take to achieve compliance for the\
-  \ FEMA Public Assistance – VAYGo program as part of the OMB annual data call for\
-  \ publication on PaymentAccuracy.gov. \n\nBased on the timeline for actions to come\
-  \ into compliance, the majority of the associated activities are expected to be\
-  \ fully completed in the FY 2024 PIIA reporting cycle."
-detail_pcp12_1: '4.0'
-detail_pcp14: "The DHS Office of the Inspector General (OIG) determined that DHS complied\
-  \ with 9 out of 10 Payment Integrity Information Act of 2019 (PIIA) requirements.\
-  \ The OIG noted a non-compliance related to the requirement to publish Improper\
-  \ Payment (IP) and Unknown Payment (UP) estimates for programs susceptible to significant\
-  \ improper payments. Specifically, DHS did not comply with the requirement to publish\
-  \ IP and UP estimates for the Federal Emergency Management Agency (FEMA) Public\
-  \ Assistance – Validate as You Go (VAYGo) program in FY 2023. \n\nThe DHS OIG made\
-  \ two recommendations to improve DHS’s compliance with the PIIA related to 1) ensuring\
-  \ the testing and reporting of improper payments and unknown payments of the FEMA\
-  \ Public Assistance – VAYGo program and 2) ensuring that DHS follows the Office\
-  \ of Management and Budget (OMB) reporting requirements for programs determined\
-  \ to be noncompliant with PIIA as stated in Appendix C of OMB Circular No. A-123.\
-  \ The DHS OIG did not provide any recommendations to further improve prevention\
-  \ and reduction of IPs and UPs for the DHS programs subject to the compliance review\
-  \ in the most recent PIIA Compliance report. In addition, the OIG determined that\
-  \ all DHS programs subject to the compliance review were not applicable to be assessed\
-  \ as to whether the program had demonstrated improvement to payment integrity or\
-  \ reached a tolerable IP and UP rate."
-detail_raa8: 'No'
-detail_raa9: "The Department performs risk assessments to determine susceptibility\
-  \ to improper payments, testing to estimate the rates and amounts of improper payment,\
-  \ establishes improper payment reduction targets in accordance with the Office of\
-  \ Management and Budget (OMB) guidance, and develops and implements corrective actions.\
-  \ In previous years, the Department established a two-part process comprised of\
-  \ a preliminary assessment followed by a comprehensive assessment if necessary.\
-  \ The preliminary risk assessment process is used on all programs not already reporting\
-  \ an improper payment estimate and that meet the minimum disbursement threshold\
-  \ of $10 million. The comprehensive risk assessment process is required based on\
-  \ the preliminary risk assessment results and the program’s three-year risk assessment\
-  \ cycle. In conducting the comprehensive risk assessments, Component personnel held\
-  \ meetings with program managers, key personnel, and other stakeholders to discuss\
-  \ the inherent risk of improper payments. The Department’s comprehensive risk assessment\
-  \ involves evaluating attributes that directly or indirectly affect the likelihood\
-  \ of improper payments using the Government Accountability Office (GAO) Standards\
-  \ for Internal Control (\"Green Book\") framework as well as OMB Circular No. A-123,\
-  \ Appendix C guidance. \n\nAdditionally, the Department conducts independent reviews\
-  \ of Component submissions to identify significant changes in the program compared\
-  \ to last year and assess the reasonableness of the risk ratings. In accordance\
-  \ with OMB Circular No. A-123, Appendix C guidance, programs that are in Phase 2\
-  \ and are preforming statistical testing and reporting do not need to be subject\
-  \ to a risk assessment process and will continue to be considered susceptible to\
-  \ significant improper payments until the program can be reverted to Phase 1. Once\
-  \ reverted to Phase 1, programs would then be subject to the three-year minimum\
-  \ requirement to undergo a DHS comprehensive risk assessment."
+detail_Additional_IP_Information: 'We did not conduct any risk assessments because
+  all of our programs are already reporting in Phase 0
+
+  '
+detail_Compliance_Status: Non-Compliant
+detail_DNP_Discussion: aergazf test
+detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
+detail_DNP_Reduced: 'Yes'
+detail_Executive_Summary: 'ACME’s Inspector General concluded that the agency was
+  non-compliant with the Payment Integrity Information Act of 2019 (PIIA) in the most
+  recent compliance audit.  The agency is non-compliant because the improper payment
+  and unknown payment rate in B163 was greater than 10%. ACME will be deploying a
+  new applicant interface that relies on behavioral influence in FY2023.  The agency
+  anticipates that the improper payment and unknown payment rate will be below 10%
+  in FY2025 once the interface is fully implemented. PIIA requires agencies to review
+  and assess all programs and activities with annual outlays greater than $10,000,000
+  for improper payment risk at least once every three years to identify those susceptible
+  to significant improper payments. ACME conducts improper payment risk assessments
+  one-third of their programs every year on a three-year cycle. In FY 2023, ACME conducted
+  improper payment risk assessments for 5 programs and determined they were not susceptible
+  to significant improper payments.  In addition, risk assessments evaluating programs
+  that experience any significant legislative changes and/or significant increase
+  in funding will be done to determine if the agency continues to be at low risk for
+  making significant improper payments at or above the threshold levels set by PIIA.
+  In FY 2023 ACME reported improper payment and unknown payment estimates for 1 program
+  susceptible to significant improper payments which experienced an increased improper
+  payment and unknown payment rate.  In particular, the B136 rate in FY 2023 was 1.5%
+  higher than the FY 2022 improper payment and unknown payment rate.  The increase
+  in the B136 improper payment and unknown payment rate from last year to this year
+  is largely attributed the program being unable to backfill over 20% of the positions
+  vacated by recent retirees, specifically the payment review controls in the payment
+  processing center were reliant on humans to succeed. When positions were not backfilled,
+  the controls were unable to function, and payment errors occurred.  The majority,
+  $1M, of B136’s improper payments are caused by failure to access data/information,
+  lack of documentation from vendors. These actions include improper calculation of
+  annual income amounts by not conducting those calculations in accordance with established
+  guidelines, using an outdated version of a pricing schedule, and accepting documentation
+  that does not meet requirements to resolve data matching issues.  The B136 is not
+  able to prevent these improper payments from occurring because Federal funds are
+  dispersed to states for administration and states are responsible for determining
+  beneficiary eligibility and ensuring that claims are adjudicated properly. Statute
+  prohibits ACME from interfering with the funds once they are transferred to the
+  state.  In FY 2023, B136 trained its employees and implemented changes processes.
+  B136 plans to pursue additional training and changes processes to further prevent
+  improper payments.  To address overpayment causes that the agency currently does
+  not have the direct ability to prevent, U.S.C 26 would require an amendment to allow
+  ACME the authority to implement and directly oversee additional controls in the
+  existing payment process of the state agency administering payments on behalf of
+  ACME and to allow additional time for states to review applications before they
+  are required to issue a payment.  This would provide ACME the ability to stop potentially
+  improper payments and allow the state disbursing authority the additional time needed
+  to review potentially fraudulent applications.
+
+  '
+detail_PIIA_Incentives: yaerrfgaeraEryg
+detail_PIIA_Official: Joe
+detail_Recovery_Audits_Skipped: 'Yes'
+detail_Recovery_Justifications_Audits: 'The overpayments are not collectable because
+  XXX
+
+  '
+detail_Recovery_Not_Cost_Effective_Justification: 'It is not cost effective because
+  it costs more to conduct the recapture audit than the amount of overpayments that
+  are identified and returned.
+
+  '
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/DHS.html
-recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 75.7723
-recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 25.38493
-recovery_Recovery_Audit_Amount_Identified_This_Reporting_Period_Determined_Not_Collectable_Rate: 0.0
 ---

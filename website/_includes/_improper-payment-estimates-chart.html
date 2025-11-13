@@ -2,7 +2,11 @@
     <div class="usa-card__body">
         <div class="grid-container">
             <div class="grid-row">
-                <h5>{{ include.title_prefix }} Improper Payment Estimates Over Time</h5>
+                {% if include.title_prefix != nil and include.include.title_prefix != "" %}
+                    <h5>{{ include.title_prefix }} improper payment estimates over time</h5>
+                {% else %}
+                    <h5>Improper payment estimates over time</h5>
+                {% endif %}
             </div>
             <div class="grid-row grid-gap-2">
                 <div class="desktop:grid-col-3 tablet:grid-col-6">
@@ -19,12 +23,12 @@
                     <div class="grid-container legend">
                         <div class="grid-row">
                              <div class="grid-col-10">
-                                <strong>Chart Toggle Amounts:</strong>
+                                <strong>Chart toggle amounts:</strong>
                             </div>
                         </div>
                         <div class="grid-row">
                             <div class="grid-col-10">
-                                <div class="legend-circle dark-green"></div>Proper Payments
+                                <div class="legend-circle dark-green"></div>Proper payments
                             </div>
                             <div class="grid-col-2">
                                 <label class="switch">
@@ -57,7 +61,7 @@
                         </div>
                         <div class="grid-row">
                             <div class="grid-col-10">
-                                <div class="legend-circle red"></div>Technically Improper
+                                <div class="legend-circle red"></div>Technically improper
                             </div>
                             <div class="grid-col-2">
                                 <label class="switch">
