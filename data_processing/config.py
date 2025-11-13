@@ -4,15 +4,15 @@ from enum import Enum
 Store various constants used across the data processing process.
 """
 
-FISCAL_YEAR = 2024
+FISCAL_YEAR = 2025
 
 # expected format:  Q<1-4> YYYY
-LAST_QUARTERLY_SURVEY = "Q1 2025"
+LAST_QUARTERLY_SURVEY = "Q2 2025"
 COUNT_GOVERNMENT_WIDE_YEARS_DISPLAYED = 5
 COUNT_AGENCY_SPECIFIC_YEARS_DISPLAYED = 4
 COUNT_AGENCY_SPECIFIC_YEARS_DISPLAYED_FOR_RECOVERY = 5
 COUNT_PROGRAM_SPECIFIC_YEARS_DISPLAYED = 4
-COUNT_CONGRESSIONAL_REPORTS_YEARS_DISPLAYED = 2
+COUNT_CONGRESSIONAL_REPORTS_YEARS_DISPLAYED = 3
 
 DEFAULT_SURVEY_NAME = "Survey Responses"
 
@@ -67,7 +67,7 @@ CONGRESSIONAL_REPORTS = [
     },
     {
         "Id": 9,
-        "Name": "OMB Do Not Pay Initiative Report",
+        "Name": "OMB Do Not Pay Working System Report",
         "SurveyName": "Survey Responses",
         "IsGovernmentWide": True
     }

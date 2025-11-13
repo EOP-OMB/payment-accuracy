@@ -2,77 +2,19 @@
 Agency: HUD
 Agency_Name: Department of Housing and Urban Development
 Data_By_Year:
-- Confidence_Level: '>90%'
-  End_Date: 09/2020
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: true
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp2_cop1: true
-  Hide_cyp2_cop2: true
-  Hide_cyp2_cop3: true
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
-  Hide_cyp3_cop4: true
-  Hide_cyp3_cop5: true
-  Hide_cyp3_cop6: true
-  Hide_cyp5_cup1: true
-  Hide_cyp5_cup2: true
-  Hide_cyp5_cup3: true
-  Improper_Payments_Rate: 0
-  Insufficient_Documentation_to_Determine: 0.0
-  Margin_of_Error: '0.0'
-  Payment_Accuracy_Rate: 100
-  Program_Design_or_Structural_Issue: 0.0
-  Start_Date: 10/2019
-  Unknown_Payments_Rate: 0
-  Year: 2021
-  cyp15: 'No'
-  cyp26: '0.0'
-  cyp6: '0.0'
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    cyp2: '0.0'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    cyp3: '0.0'
-  rap5: "Testing at the Tier 1 level showed an IP and UP rate under the Tolerable\
-    \ Rate. However, HUD relies on many manual processes that put the sustainability\
-    \ of this position at risk. The current tolerable rate was met with HUD’s internal\
-    \ controls, human capital and information system and other infrastructure. \n"
-  rnp3: 'The success of any planned actions will be determined by reviewing the annual
-    IP and UP rate and the root cause of any improper payment identified.
-
-    '
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    cyp5: '0.0'
 - Hide_Improper_Payment_Estimates_Doughnut_Chart: true
   Hide_Improper_Payment_Estimates_Doughnut_Stats: true
+  Hide_Overpayments_Outside_Control_Amount: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Control_Amount: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
   Hide_Program_Results_Additional_Information: false
   Hide_Program_Results_Corrective_Actions: true
   Hide_Program_Results_Future_Outlook: true
@@ -83,24 +25,24 @@ Data_By_Year:
   Hide_Program_Results_Improper_Payments: false
   Hide_Program_Results_Tabs: false
   Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp2: true
-  Hide_cyp2_cop1: true
-  Hide_cyp2_cop2: true
-  Hide_cyp2_cop3: true
-  Hide_cyp3: true
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
-  Hide_cyp3_cop4: true
-  Hide_cyp3_cop5: true
-  Hide_cyp3_cop6: true
-  Hide_cyp5: true
-  Hide_cyp5_cup1: true
-  Hide_cyp5_cup2: true
-  Hide_cyp5_cup3: true
-  Hide_cyp6: true
+  Hide_Technical_IP_Amount: true
+  Hide_Underpayments_Amount: true
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
+  Program_Additional_Information: "Rental Assistance Story\n•\tPayment Integrity requires\
+    \ comprehensive testing of the full payment life cycle.  (i.e., HUD, recipient,\
+    \ & tenant levels) \n             •\tCompliance is dependent on being able to\
+    \ access, collect, and store data \n             from internal and external sources\
+    \ that is covered by privacy requirements\n             •\tSpecifically, supporting\
+    \ documentation necessary to complete testing of \n             the full payment\
+    \ life cycle for the rental assistance program includes \n             Personally\
+    \ Identifiable Information (PII) and Protected Health Information \n         \
+    \   (PHI)\n•\tHUD is developing an IT solution to electronically collect, store,\
+    \ disseminate, review, analyze, and safeguard payment evidence from internal and\
+    \ external sources that contains PII and PHI."
   Program_Design_or_Structural_Issue: 0.0
   Year: 2022
   overpayments:
@@ -117,17 +59,6 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-  pro1: "Rental Assistance Story\n•\tPayment Integrity requires comprehensive testing\
-    \ of the full payment life cycle.  (i.e., HUD, recipient, & tenant levels) \n\
-    \             •\tCompliance is dependent on being able to access, collect, and\
-    \ store data \n             from internal and external sources that is covered\
-    \ by privacy requirements\n             •\tSpecifically, supporting documentation\
-    \ necessary to complete testing of \n             the full payment life cycle\
-    \ for the rental assistance program includes \n             Personally Identifiable\
-    \ Information (PII) and Protected Health Information \n            (PHI)\n•\t\
-    HUD is developing an IT solution to electronically collect, store, disseminate,\
-    \ review, analyze, and safeguard payment evidence from internal and external sources\
-    \ that contains PII and PHI."
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -137,6 +68,17 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
 - Hide_Improper_Payment_Estimates_Doughnut_Chart: true
   Hide_Improper_Payment_Estimates_Doughnut_Stats: true
+  Hide_Overpayments_Outside_Control_Amount: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Control_Amount: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
   Hide_Program_Results_Additional_Information: false
   Hide_Program_Results_Corrective_Actions: true
   Hide_Program_Results_Future_Outlook: true
@@ -147,27 +89,31 @@ Data_By_Year:
   Hide_Program_Results_Improper_Payments: false
   Hide_Program_Results_Tabs: false
   Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp2: true
-  Hide_cyp2_cop1: true
-  Hide_cyp2_cop2: true
-  Hide_cyp2_cop3: true
-  Hide_cyp3: true
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
-  Hide_cyp3_cop4: true
-  Hide_cyp3_cop5: true
-  Hide_cyp3_cop6: true
-  Hide_cyp5: true
-  Hide_cyp5_cup1: true
-  Hide_cyp5_cup2: true
-  Hide_cyp5_cup3: true
-  Hide_cyp6: true
+  Hide_Technical_IP_Amount: true
+  Hide_Underpayments_Amount: true
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
+  Non_Monetary_Loss_Amount: '0'
+  Program_Additional_Information: 'Based on guidance from OMB on 10/25/2022, HUD did
+    not report improper payment estimates for rental assistance programs TBRA and
+    PBRA as the full payment lifecycle could not be verified and testing was unable
+    to be completed. HUD was unable to produce estimates due to limitations in obtaining
+    supporting documentation needed for testing in a timely manner for FY 2022 disbursements.
+    Without estimates, HUD could not determine whether its improper payment plus unknown
+    payment estimate was below or above the statutory threshold. As a result, HUD
+    could not implement corrective actions and other OMB requirements for programs
+    above the statutory threshold. HUD did not perform testing of the full payment
+    cycle for RHAP - TBRA and PBRA related to FY 2022 payments due to lack of compliance
+    readiness, including: need of further training of personnel at all levels of the
+    payment cycle, resource limitations, key person dependencies, and the delay of
+    full implementation of corrective actions around privacy and security concerns.
+    Due to this scope limitation, HUD is not reporting an error rate for PBRA and
+    TBRA for the FY 2023 reporting cycle. Target date is FY2027, dependent on funding.'
   Program_Design_or_Structural_Issue: 0.0
   Year: 2023
-  cyp26: '0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -182,21 +128,6 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-  pro1: 'Based on guidance from OMB on 10/25/2022, HUD did not report improper payment
-    estimates for rental assistance programs TBRA and PBRA as the full payment lifecycle
-    could not be verified and testing was unable to be completed. HUD was unable to
-    produce estimates due to limitations in obtaining supporting documentation needed
-    for testing in a timely manner for FY 2022 disbursements. Without estimates, HUD
-    could not determine whether its improper payment plus unknown payment estimate
-    was below or above the statutory threshold. As a result, HUD could not implement
-    corrective actions and other OMB requirements for programs above the statutory
-    threshold. HUD did not perform testing of the full payment cycle for RHAP - TBRA
-    and PBRA related to FY 2022 payments due to lack of compliance readiness, including:
-    need of further training of personnel at all levels of the payment cycle, resource
-    limitations, key person dependencies, and the delay of full implementation of
-    corrective actions around privacy and security concerns. Due to this scope limitation,
-    HUD is not reporting an error rate for PBRA and TBRA for the FY 2023 reporting
-    cycle. Target date is FY2027, dependent on funding.'
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -206,6 +137,17 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
 - Hide_Improper_Payment_Estimates_Doughnut_Chart: true
   Hide_Improper_Payment_Estimates_Doughnut_Stats: true
+  Hide_Overpayments_Outside_Control_Amount: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Control_Amount: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
   Hide_Program_Results_Additional_Information: true
   Hide_Program_Results_Corrective_Actions: true
   Hide_Program_Results_Future_Outlook: true
@@ -216,48 +158,21 @@ Data_By_Year:
   Hide_Program_Results_Improper_Payments: false
   Hide_Program_Results_Tabs: false
   Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp2: true
-  Hide_cyp2_cop1: true
-  Hide_cyp2_cop2: true
-  Hide_cyp2_cop3: true
-  Hide_cyp3: true
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
-  Hide_cyp3_cop4: true
-  Hide_cyp3_cop5: true
-  Hide_cyp3_cop6: true
-  Hide_cyp5: true
-  Hide_cyp5_cup1: true
-  Hide_cyp5_cup2: true
-  Hide_cyp5_cup3: true
-  Hide_cyp6: true
+  Hide_Technical_IP_Amount: true
+  Hide_Underpayments_Amount: true
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
-  Program_Design_or_Structural_Issue: 0.0
-  Year: 2024
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-  rac3: 'During FY 2024, HUD assessed existing technology solutions and planned improvements
-    to establish effective controls within the Tenant Based Rental Assistance (TBRA)
-    program. The goal is to prevent and detect improper payments, as outlined in the
-    Public and Indian Housing IT modernization plan. Currently, HUD’s Office of Public
-    and Indian Housing (PIH) Office of Field Operations (OFO) uses the Compliance
-    Monitoring Review (CMR) tool and the Enterprise Income Verification (EIV) system
-    to verify and validate information, such as accurate payment standards, income
-    eligibility, eligibility determination, in PHA tenant files for accuracy.  Public
+  No_Estimates_Why: 'During FY 2024, HUD assessed existing technology solutions and
+    planned improvements to establish effective controls within the Tenant Based Rental
+    Assistance (TBRA) program. The goal is to prevent and detect improper payments,
+    as outlined in the Public and Indian Housing IT modernization plan. Currently,
+    HUD’s Office of Public and Indian Housing (PIH) Office of Field Operations (OFO)
+    uses the Compliance Monitoring Review (CMR) tool and the Enterprise Income Verification
+    (EIV) system to verify and validate information, such as accurate payment standards,
+    income eligibility, eligibility determination, in PHA tenant files for accuracy.  Public
     housing agenciey’s (PHAs) subject to reviews are selected at random and performed
     both on site and in the virtual environment.  HUD evaluated existing reports for
     estimating improper payment rates but found they did not meet the stringent requirements
@@ -317,6 +232,22 @@ Data_By_Year:
     a strong commitment to payment integrity.
 
     '
+  Program_Design_or_Structural_Issue: 0.0
+  Year: 2024
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -325,25 +256,25 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
 Description: null
-Fiscal_Year: 2024
+Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024]'
 Outlays: 0
-Overpayment_Amounts: '[0, 0, 0, 0]'
-Payment_Accuracy_Amounts: '[24645.6, 0, 0, 0]'
+Overpayment_Amounts: '[0, 0, 0]'
+Payment_Accuracy_Amounts: '[0, 0, 0]'
 Payment_Accuracy_Rate: 0
-Phase_2_Program: 1
+Phase_2_Program: 0
 Program_Name: Public and Indian Housing - Rental Housing Assistance Program - Tenant
   Based Rental Assistance - Section 8 - Housing Certificate Fund & Tenant Based Rental
   Assistance
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[0, 0, 0, 0]'
-Unknown_Amounts: '[0, 0, 0, 0]'
-fpi_link: https://fpi.omb.gov/
+Technically_Improper_Amounts: '[0, 0, 0]'
+Underpayment_Amounts: '[0, 0, 0]'
+Unknown_Amounts: '[0, 0, 0]'
+detail_Reduction_Target: null
 layout: program-specific
 permalink: program/hud-public-and-indian-housing-rental-housing-assistance-prog-eaeacd55
 ---

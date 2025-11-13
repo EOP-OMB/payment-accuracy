@@ -109,6 +109,12 @@ h3 {
 .usa-accordion__item {
     margin-top: 20px;
     margin-bottom: 20px;
+
+    &.warning {
+        .usa-accordion__button {
+            background-color: #faf3d1;
+        }
+    }
 }
 
 .recovery-audits-and-activites {
@@ -164,6 +170,11 @@ h3 {
     tr:last-child {
         border-bottom: 1px solid $pa-bg-lightest;
     }
+}
+
+#risk-assessments-footnote, #risk-assessments-footnote-bullets > li {
+    font-style: italic;
+    max-width: 100%;
 }
 
 .eligibility-theme-table {

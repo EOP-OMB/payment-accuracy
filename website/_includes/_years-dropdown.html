@@ -3,7 +3,7 @@
         <svg class="usa-icon" aria-hidden="true" focusable="false" role="img">
             <use href="/assets/img/sprite.svg#calendar_today"></use>
         </svg>
-        Select Fiscal Year (FY):
+        Select fiscal year (FY):
     </label>
     <select class="usa-select" name="options" id="options" onchange="{{ include.on_change }}('{{ include.url_prefix }}', this.value)">
         {% unless include.years_available contains include.fiscal_year %}

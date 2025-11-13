@@ -2,104 +2,19 @@
 Agency: USDA
 Agency_Name: Department of Agriculture
 Data_By_Year:
-- Confidence_Level: '>95%'
-  End_Date: 09/2020
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: true
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: true
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp2_cop1: true
-  Hide_cyp2_cop2: true
-  Hide_cyp2_cop3: true
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
-  Hide_cyp3_cop4: true
-  Hide_cyp3_cop5: true
-  Hide_cyp3_cop6: true
-  Hide_cyp5_cup1: true
-  Hide_cyp5_cup2: true
-  Hide_cyp5_cup3: true
-  IP_Current_Year_Plus_1_Amount: 0
-  IP_Unknown_Current_Year_Plus_1_Rate: 0
-  Improper_Payments_Rate: 0
-  Insufficient_Documentation_to_Determine: 0.0
-  Margin_of_Error: '0.0'
-  Outlays_Current_Year_Plus_1_Amount: 82505.06
-  Program_Design_or_Structural_Issue: 0.0
-  Start_Date: 10/2019
-  Unknown_Curent_Year_Plus_1_Amount: 0
-  Year: 2021
-  cyp15: 'Yes'
-  cyp26: '0.0'
-  cyp6: '0.0'
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    cyp2: '0.0'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    cyp3: '0.0'
-  rap5: "The following barriers apply to the Supplemental Nutrition Assistance Program\
-    \ (SNAP) program: \n\nSNAP benefits are processed and administered by State agencies,\
-    \ with FNS oversight. State policy options, organizational structures, and use\
-    \ of technology vary from State to State, resulting in different root causes contributing\
-    \ to payment errors. The Food and Nutrition Act of 2008, as amended, provides\
-    \ disincentives in the form of financial penalties to encourage States to accurately\
-    \ issue SNAP benefits and maintain low improper payment rates. The liability process\
-    \ to establish financial penalties against State agencies is statutory. In addition,\
-    \ FNS has a regulatory process that requires States to enter into corrective actions\
-    \ at the State level to address payment error rates that exceed six percent, a\
-    \ standard established by law. FNS provides oversight and technical assistance,\
-    \ to States in measuring and reporting improper payments. Because FNS does not\
-    \ provide benefits directly to recipients, the Program must work through its State\
-    \ administering agencies to measure, monitor, and address improper payments. SNAP\
-    \ will not issue an error rate for Fiscal Year (FY) 2020 and (FY) 2021 due to\
-    \ a lack of information. Specifically, COVID-19 related flexibilities provided\
-    \ to the Sstate agencies that administer SNAP, and provisions in both 2021 continuing\
-    \ appropriations acts (P.L. 116-159 and 116-260) suspended the quality control\
-    \ system SNAP uses to collect error rate data for significant portions of FY 2020\
-    \ and FY2021.\n"
-  rnp3: 'Develop training for FNS RO staff to leverage the expanded Model Notice Toolkit
-    for State technical assistance. The trainings were provided on March 18 and March
-    23.
-
-
-    Conduct evaluation, in partnership with three States, to determine best practices
-    and effects of State SNAP agency usage of commercially available third-party income
-    databases to verify household earned income.  Background: State agencies are required
-    to verify a household’s gross non-exempt income prior to certification in all
-    cases. States typically meet this requirement for earned income by requesting
-    that the household provide documentary evidence, such as pay stubs. In addition,
-    many States consult a third-party income database to request documentation of
-    the household''s income. '
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    cyp5: '0.0'
 - Hide_Improper_Payment_Estimates_Doughnut_Chart: true
   Hide_Improper_Payment_Estimates_Doughnut_Stats: true
+  Hide_Overpayments_Outside_Control_Amount: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Control_Amount: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
   Hide_Program_Results_Additional_Information: false
   Hide_Program_Results_Corrective_Actions: true
   Hide_Program_Results_Future_Outlook: true
@@ -110,50 +25,23 @@ Data_By_Year:
   Hide_Program_Results_Improper_Payments: false
   Hide_Program_Results_Tabs: false
   Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp2: true
-  Hide_cyp2_cop1: true
-  Hide_cyp2_cop2: true
-  Hide_cyp2_cop3: true
-  Hide_cyp3: true
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
-  Hide_cyp3_cop4: true
-  Hide_cyp3_cop5: true
-  Hide_cyp3_cop6: true
-  Hide_cyp5: true
-  Hide_cyp5_cup1: true
-  Hide_cyp5_cup2: true
-  Hide_cyp5_cup3: true
-  Hide_cyp6: true
+  Hide_Technical_IP_Amount: true
+  Hide_Underpayments_Amount: true
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
-  Program_Design_or_Structural_Issue: 0.0
-  Year: 2022
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-  pro1: "Supplemental Nutrition Assistance Program (SNAP) will not issue an error\
-    \ rate for FY 2021 due to a lack of information. Specifically, COVID-19 related\
-    \ flexibilities provided to the State agencies that administer SNAP, and provisions\
-    \ in both 2021 continuing appropriations acts (P.L. 116-159 and 116-260), suspended\
-    \ the quality control system SNAP uses to collect error rate data for significant\
-    \ portions of FY 2020 and FY 2021. Quality control activities have resumed for\
-    \ FY 2022 and as a Phase 2 program, SNAP will submit official improper payment\
-    \ rates in 2023.\nAlthough SNAP is unable to report an improper payment estimate\
-    \ for the current reporting year, certain payment integrity activities continue,\
-    \ including the following:\nThere are a number of recovery-related activities\
+  Program_Additional_Information: "Supplemental Nutrition Assistance Program (SNAP)\
+    \ will not issue an error rate for FY 2021 due to a lack of information. Specifically,\
+    \ COVID-19 related flexibilities provided to the State agencies that administer\
+    \ SNAP, and provisions in both 2021 continuing appropriations acts (P.L. 116-159\
+    \ and 116-260), suspended the quality control system SNAP uses to collect error\
+    \ rate data for significant portions of FY 2020 and FY 2021. Quality control activities\
+    \ have resumed for FY 2022 and as a Phase 2 program, SNAP will submit official\
+    \ improper payment rates in 2023.\nAlthough SNAP is unable to report an improper\
+    \ payment estimate for the current reporting year, certain payment integrity activities\
+    \ continue, including the following:\nThere are a number of recovery-related activities\
     \ to identify and recover overpayments. Recipient claims are established against\
     \ households that receive more Supplemental Nutrition Assistance Program (SNAP)\
     \ benefits than they are entitled to receive or households that have trafficked\
@@ -201,6 +89,22 @@ Data_By_Year:
     \ verify household earned income. States participated in interviews and submitted\
     \ two datasets designed to systematically measure variations in usage and impacts.\
     \ FNS is still reviewing that data."
+  Program_Design_or_Structural_Issue: 0.0
+  Year: 2022
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -255,10 +159,44 @@ Data_By_Year:
       administrative flexibilities back to normal processes while keeping a focus
       on payment accuracy.
     Mitigation_Strategy: atp3_1
+  Agency_Needs_Satisfied: Supplemental Nutrition Assistance Program (SNAP) benefits
+    are processed and administered by State agencies, with FNS oversight. State policy
+    options, organizational structures, and use of technology vary from State to State.
+    FNS provides oversight and technical assistance to States in measuring and reporting
+    improper payments. Because FNS does not provide benefits directly to recipients,
+    the Program must work through its State administering agencies to measure, monitor,
+    and address improper payments and is not positioned to determine or control each
+    State agency's internal controls, human capital, or information systems.
   Confidence_Level: 95% to <100%
+  Corrective_Actions_Proportion: "The Food and Nutrition Service (FNS) Supplemental\
+    \ Nutrition Assistance Program (SNAP) will conduct training to assist State agencies\
+    \ in identifying the specific corrective actions needed to address the root causes\
+    \ of error found in their States. FNS will also utilize its payment error report\
+    \ and dashboard tools to provide technical support to State agencies as they implement\
+    \ corrective actions to ensure the root causes being addressed are properly targeted.\
+    \ \n\nIn addition, FNS has contracted for support to help update the Keys to Payment\
+    \ Accuracy, a guidance document for State SNAP administering agencies on key strategies\
+    \ for improving payment accuracy. As part of the development of the update, FNS\
+    \ is focused on solutions that incorporate caseload size and administrative characteristics\
+    \ to address variations in SNAP administration across all 53 SNAP State and Territorial\
+    \ agencies. \n\nIn Fiscal Year (FY) 2024, FNS will provide third-party income\
+    \ verification services for all State SNAP agencies. Errors related to earned\
+    \ income regularly account for the top three causes of error nationally and within\
+    \ State agencies. This is expected to provide States with improved resources to\
+    \ accurately determine income for the SNAP benefit calculation. FNS plans to make\
+    \ an official announcement about the vendor(s) awarded the contract in October\
+    \ 2023 and then make the income verification resource available to all States\
+    \ shortly thereafter."
   End_Date: 09/2022
+  Future_Outlook_Has_Baseline: 'No'
   Hide_Improper_Payment_Estimates_Doughnut_Chart: false
   Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
   Hide_Program_Results_Additional_Information: true
   Hide_Program_Results_Corrective_Actions: false
   Hide_Program_Results_Future_Outlook: false
@@ -269,29 +207,35 @@ Data_By_Year:
   Hide_Program_Results_Improper_Payments: false
   Hide_Program_Results_Tabs: false
   Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp2_cop1: true
-  Hide_cyp2_cop2: true
-  Hide_cyp2_cop3: true
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
   IP_Current_Year_Plus_1_Amount: 12793.69
   IP_Unknown_Current_Year_Plus_1_Rate: 0.1154540122
   Improper_Payments_Rate: 11.54548804
   Insufficient_Documentation_to_Determine: 0.0
+  Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '0.49'
+  Non_Monetary_Loss_Amount: '1295.12'
   Outlays_Current_Year_Plus_1_Amount: 110812
   Payment_Accuracy_Rate: 88.45451195599247
   Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: Food and Nutrition Service (FNS) Supplemental Nutrition
+    Assistance Program (SNAP) has not determined a tolerable rate for the program.
   Start_Date: 10/2021
+  Technical_IP_Amount: '0.00'
+  Tolerable_Rate_Not_Determined_Reason: Supplemental Nutrition Assistance Program
+    (SNAP) benefits are processed and administered by State agencies, with Food and
+    Nutrition Service (FNS) oversight. State policy options, organizational structures,
+    and use of technology vary from State to State, resulting in different root causes
+    contributing to payment errors. FNS provides oversight and technical assistance
+    to States in measuring and reporting improper payments. Because FNS does not provide
+    benefits directly to recipients, the Program must work through its State administering
+    agencies to measure, monitor, and address improper payments. As a result of this
+    statutory structure, establishing a tolerable rate that would apply to each State
+    agency has proved difficult.
+  Underpayment_Mitigations_Planned: Training
+  Underpayment_Mitigations_Taken: Training
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
-  cyp15: 'No'
-  cyp26: '1295.12'
-  cyp5_app1_8: Training
-  cyp5_atp1_8: Training
-  cyp6: '0.00'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -299,7 +243,7 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp2: '0.00'
+    Overpayments_Within_Control_Amount: '0.00'
   overpayments_eligibility:
   - Key: cyp3_dit4_1
     Payment_Type: Overpayments Outside Agency Control
@@ -326,7 +270,7 @@ Data_By_Year:
   - Key: cyp3_dit17_1
     Payment_Type: Overpayments Outside Agency Control
     Theme: Household Size
-    Theme_Description: Number of family mmembers in a household
+    Theme_Description: Number of family members in a household
     Value: '835.287015'
   - Key: cyp3_dit9_1
     Payment_Type: Overpayments Outside Agency Control
@@ -346,55 +290,16 @@ Data_By_Year:
     Failure_to_Access_Data: 7477.95
     Financial: 6469.92234
     Inability_to_Access_Data: 0.0
-    cyp3: '7477.95'
-    cyp4_1: Overpayments related to Supplemental Nutrition Assistance Program (SNAP)
-      are outside of FNS' control because SNAP benefits are processed and administered
-      by State agencies. FNS provides State agencies with guidance related to eligibility
-      determinations, provides oversight and technical assistance to States, and measures
-      and reports improper payments. State agencies make decisions about how to administer
-      the program amongst various policy options, waivers, and demonstration projects;
-      directly determines eligibility for SNAP; and provides benefits to recipients.
-      Therefore, FNS must work with its State agency partners to measure, monitor,
-      and address improper payments.
-  rap5: Supplemental Nutrition Assistance Program (SNAP) benefits are processed and
-    administered by State agencies, with FNS oversight. State policy options, organizational
-    structures, and use of technology vary from State to State. FNS provides oversight
-    and technical assistance to States in measuring and reporting improper payments.
-    Because FNS does not provide benefits directly to recipients, the Program must
-    work through its State administering agencies to measure, monitor, and address
-    improper payments and is not positioned to determine or control each State agency's
-    internal controls, human capital, or information systems.
-  rap6: Food and Nutrition Service (FNS) Supplemental Nutrition Assistance Program
-    (SNAP) has not determined a tolerable rate for the program.
-  rnp3: "The Food and Nutrition Service (FNS) Supplemental Nutrition Assistance Program\
-    \ (SNAP) will conduct training to assist State agencies in identifying the specific\
-    \ corrective actions needed to address the root causes of error found in their\
-    \ States. FNS will also utilize its payment error report and dashboard tools to\
-    \ provide technical support to State agencies as they implement corrective actions\
-    \ to ensure the root causes being addressed are properly targeted. \n\nIn addition,\
-    \ FNS has contracted for support to help update the Keys to Payment Accuracy,\
-    \ a guidance document for State SNAP administering agencies on key strategies\
-    \ for improving payment accuracy. As part of the development of the update, FNS\
-    \ is focused on solutions that incorporate caseload size and administrative characteristics\
-    \ to address variations in SNAP administration across all 53 SNAP State and Territorial\
-    \ agencies. \n\nIn Fiscal Year (FY) 2024, FNS will provide third-party income\
-    \ verification services for all State SNAP agencies. Errors related to earned\
-    \ income regularly account for the top three causes of error nationally and within\
-    \ State agencies. This is expected to provide States with improved resources to\
-    \ accurately determine income for the SNAP benefit calculation. FNS plans to make\
-    \ an official announcement about the vendor(s) awarded the contract in October\
-    \ 2023 and then make the income verification resource available to all States\
-    \ shortly thereafter."
-  rtp1: Unknown
-  rtp4_2: Supplemental Nutrition Assistance Program (SNAP) benefits are processed
-    and administered by State agencies, with Food and Nutrition Service (FNS) oversight.
-    State policy options, organizational structures, and use of technology vary from
-    State to State, resulting in different root causes contributing to payment errors.
-    FNS provides oversight and technical assistance to States in measuring and reporting
-    improper payments. Because FNS does not provide benefits directly to recipients,
-    the Program must work through its State administering agencies to measure, monitor,
-    and address improper payments. As a result of this statutory structure, establishing
-    a tolerable rate that would apply to each State agency has proved difficult.
+    Overpayments_Outside_Control_Amount: '7477.95'
+    Overpayments_Outside_Control_Why: Overpayments related to Supplemental Nutrition
+      Assistance Program (SNAP) are outside of FNS' control because SNAP benefits
+      are processed and administered by State agencies. FNS provides State agencies
+      with guidance related to eligibility determinations, provides oversight and
+      technical assistance to States, and measures and reports improper payments.
+      State agencies make decisions about how to administer the program amongst various
+      policy options, waivers, and demonstration projects; directly determines eligibility
+      for SNAP; and provides benefits to recipients. Therefore, FNS must work with
+      its State agency partners to measure, monitor, and address improper payments.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -402,7 +307,7 @@ Data_By_Year:
     Failure_to_Access_Data: 1295.12
     Financial: 1115.486856
     Inability_to_Access_Data: 0.0
-    cyp5: '1295.12'
+    Underpayments_Amount: '1295.12'
   underpayments_eligibility:
   - Key: cyp5_dit4_1
     Payment_Type: Underpayments
@@ -429,7 +334,7 @@ Data_By_Year:
   - Key: cyp5_dit17_1
     Payment_Type: Underpayments
     Theme: Household Size
-    Theme_Description: Number of family mmembers in a household
+    Theme_Description: Number of family members in a household
     Value: '142.333688'
   - Key: cyp5_dit9_1
     Payment_Type: Underpayments
@@ -484,10 +389,86 @@ Data_By_Year:
       discuss how to use the Keys as they develop their payment accuracy related corrective
       action plans.
     Mitigation_Strategy: atp3_1
+  Agency_Needs_Satisfied: Supplemental Nutrition Assistance Program (SNAP) benefits
+    are processed and administered by State agencies, with Food and Nutrition Service
+    (FNS) oversight. State policy options, organizational structures, and use of technology
+    vary from State to State. FNS provides oversight and technical assistance to States
+    in measuring and reporting improper payments. Because FNS does not provide benefits
+    directly to recipients, the Program must work through its State administering
+    agencies to measure, monitor, and address improper payments and is not positioned
+    to determine or control each State agency's internal controls, human capital,
+    or information systems.
   Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy: "Since the Supplemental Nutrition Assistance Program\
+    \ (SNAP) is administered by State agencies, who also determine the structure of\
+    \ SNAP amongst numerous policy options, waivers, and demonstration projects, corrective\
+    \ actions must originate in and be tailored to each individual State agency's\
+    \ circumstances and particular root cause of payment error. As such, the Food\
+    \ and Nutrition Service (FNS) is primarily focused on providing training and equipping\
+    \ State agencies with the knowledge and tools needed to individually develop meaningful\
+    \ root cause analysis and corrective action plans, including through the issuance\
+    \ of policy guidance. By equipping all 53 State agencies with the ability to identify\
+    \ root causes of error and develop corrective action plans, FNS is adequately\
+    \ supporting  efforts in improving payment accuracy. The Keys to Payment Accuracy\
+    \ are a critical resource for States that has proved beneficial over the years\
+    \ and the updates to this document will ensure its continued usefulness. Additionally,\
+    \ third party income verification grants directly target certain income-based\
+    \ payment errors. \n"
+  Corrective_Actions_Association: In Fiscal Year (FY) 2024, the Food and Nutrition
+    Service (FNS) conducted additional training and provided resources aimed at equipping
+    State agencies with the knowledge needed to improve their own specific causes
+    of payment error. This is critical since each State agency will vary in terms
+    of causes of error and approaches/options to reduce error. At a higher level,
+    the Keys to Payment Accuracy also provide additional, updated guidance on how
+    State agencies can improve payment accuracy. Additionally, by providing grants
+    for third-party income verification resources to all State agencies, FNS is addressing
+    a common cause of payment errors in the Supplemental Nutrition Assistance Program
+    (SNAP) related to accurate income determinations in the financial criteria element.
+  Corrective_Actions_Implementation: The Food and Nutrition Service (FNS) continues
+    to place an emphasis in assisting State agencies in conducting robust root causes
+    of error analysis and in providing tools to assist states with this analysis.
+    Training and guidance will be implemented with the assistance of FNS regional
+    offices and prioritized by leadership at all levels of the Supplemental Nutrition
+    Assistance Program (SNAP) but specific implementation details will vary based
+    on the training and guidance needed. Both the Keys to Payment Accuracy and grants
+    for third party income verification systems will be implemented following a specific
+    communications and implementation strategy for each.
+  Corrective_Actions_Proportion: "\"The Food and Nutrition Service (FNS) will continue\
+    \ to conduct training to assist State agencies in identifying the specific corrective\
+    \ actions needed to address the root causes of error found in their States. FNS\
+    \ will also utilize its payment error report and dashboard tools to provide technical\
+    \ support to State agencies as they implement corrective actions to ensure the\
+    \ root causes being addressed are properly targeted. \n\nIn addition, FNS has\
+    \ updated the Keys to Payment Accuracy, a document for State Supplemental Nutrition\
+    \ Assistance Program (SNAP) administering agencies on key strategies for improving\
+    \ payment accuracy. As part of the development of the update, FNS focused on solutions\
+    \ that incorporate caseload size and administrative characteristics to address\
+    \ variations in SNAP administration across all 53 SNAP State and Territorial agencies.\
+    \ \n\nIn Fiscal Year (FY) 2024, FNS provided non-competitive grants for third\
+    \ party income verification services for all State SNAP agencies based on state\
+    \ population size. Errors related to earned income regularly account for the top\
+    \ three causes of error nationally and within State agencies. These third party\
+    \ income verification services provide States with improved resources to accurately\
+    \ determine income for the SNAP benefit calculation. FNS  awarded the contract\
+    \ in October 2023 and then made the income verification resource available to\
+    \ all States shortly thereafter. \""
   End_Date: 09/2023
+  Future_Outlook_Has_Baseline: 'Yes'
+  Future_Outlook_Reduction_Vs_Estimated: "The CY+1 improper payment targeted reduction\
+    \ rate is based on available state reported data for the in-progress program year.\
+    \ This is based on the best available data at the time. While the state provided\
+    \ data shows a downward trend for the improper payment rate, historically the\
+    \ improper payment rate based on state and federal data is greater than the rate\
+    \ based on state data alone. The agency therefore gives a more conservative estimate\
+    \ of 11 percent. \n"
   Hide_Improper_Payment_Estimates_Doughnut_Chart: false
   Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
   Hide_Program_Results_Additional_Information: false
   Hide_Program_Results_Corrective_Actions: false
   Hide_Program_Results_Future_Outlook: false
@@ -498,70 +479,45 @@ Data_By_Year:
   Hide_Program_Results_Improper_Payments: false
   Hide_Program_Results_Tabs: false
   Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp2_cop1: true
-  Hide_cyp2_cop2: true
-  Hide_cyp2_cop3: true
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
+  IP_Accountability_Description: The Food and Nutrition Act of 2008, as amended, provides
+    disincentives in the form of financial penalties to encourage States to accurately
+    issue Supplemental Nutrition Assistance Program (SNAP) benefits and maintain low
+    improper payment rates. The liability process to establish financial penalties
+    against State agencies is statutory. In addition, the Food and Nutrition Service
+    (FNS) has a regulatory process that requires States to enter into corrective actions
+    at the State level to address payment error rates that exceed six percent, a standard
+    established by law.
   IP_Current_Year_Plus_1_Amount: 10901.48
   IP_Unknown_Current_Year_Plus_1_Rate: 0.116762993769
   IP_Unknown_Target_Rate: 0.11
   Improper_Payments_Rate: 11.6763389333
   Insufficient_Documentation_to_Determine: 0.0
+  Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
+    the tolerable rate for this program
   Margin_of_Error: '0.48'
+  Non_Monetary_Loss_Amount: '1480.51'
   Outlays_Current_Year_Plus_1_Amount: 93364.17
   Payment_Accuracy_Rate: 88.32366106672298
   Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: "The Food and Nutrition Service (FNS) has not determined\
+    \ a tolerable rate for the Supplemental Nutrition Assistance Program (SNAP). \n"
   Start_Date: 10/2022
+  Technical_IP_Amount: '0.0'
+  Tolerable_Rate_Not_Determined_Reason: Supplemental Nutrition Assistance Prgoram
+    (SNAP) benefits are processed and administered by State agencies, with Food and
+    Nutrition Service (FNS) oversight. State policy options, organizational structures,
+    and use of technology vary from State to State, resulting in different root causes
+    contributing to payment errors. FNS provides oversight and technical assistance
+    to States in measuring and reporting improper payments. Because FNS does not provide
+    benefits directly to recipients, the Program must work through its State administering
+    agencies to measure, monitor, and address improper payments. As a result of this
+    statutory structure, establishing a tolerable rate that would apply to each State
+    agency has proved difficult.
+  Underpayment_Mitigations_Planned: Training
+  Underpayment_Mitigations_Taken: Training
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
-  act17_1: In Fiscal Year (FY) 2024, the Food and Nutrition Service (FNS) conducted
-    additional training and provided resources aimed at equipping State agencies with
-    the knowledge needed to improve their own specific causes of payment error. This
-    is critical since each State agency will vary in terms of causes of error and
-    approaches/options to reduce error. At a higher level, the Keys to Payment Accuracy
-    also provide additional, updated guidance on how State agencies can improve payment
-    accuracy. Additionally, by providing grants for third-party income verification
-    resources to all State agencies, FNS is addressing a common cause of payment errors
-    in the Supplemental Nutrition Assistance Program (SNAP) related to accurate income
-    determinations in the financial criteria element.
-  act17_2: "Since the Supplemental Nutrition Assistance Program (SNAP) is administered\
-    \ by State agencies, who also determine the structure of SNAP amongst numerous\
-    \ policy options, waivers, and demonstration projects, corrective actions must\
-    \ originate in and be tailored to each individual State agency's circumstances\
-    \ and particular root cause of payment error. As such, the Food and Nutrition\
-    \ Service (FNS) is primarily focused on providing training and equipping State\
-    \ agencies with the knowledge and tools needed to individually develop meaningful\
-    \ root cause analysis and corrective action plans, including through the issuance\
-    \ of policy guidance. By equipping all 53 State agencies with the ability to identify\
-    \ root causes of error and develop corrective action plans, FNS is adequately\
-    \ supporting  efforts in improving payment accuracy. The Keys to Payment Accuracy\
-    \ are a critical resource for States that has proved beneficial over the years\
-    \ and the updates to this document will ensure its continued usefulness. Additionally,\
-    \ third party income verification grants directly target certain income-based\
-    \ payment errors. \n"
-  act17_3: The Food and Nutrition Service (FNS) continues to place an emphasis in
-    assisting State agencies in conducting robust root causes of error analysis and
-    in providing tools to assist states with this analysis. Training and guidance
-    will be implemented with the assistance of FNS regional offices and prioritized
-    by leadership at all levels of the Supplemental Nutrition Assistance Program (SNAP)
-    but specific implementation details will vary based on the training and guidance
-    needed. Both the Keys to Payment Accuracy and grants for third party income verification
-    systems will be implemented following a specific communications and implementation
-    strategy for each.
-  cyp15: 'Yes'
-  cyp20_2: "The CY+1 improper payment targeted reduction rate is based on available\
-    \ state reported data for the in-progress program year. This is based on the best\
-    \ available data at the time. While the state provided data shows a downward trend\
-    \ for the improper payment rate, historically the improper payment rate based\
-    \ on state and federal data is greater than the rate based on state data alone.\
-    \ The agency therefore gives a more conservative estimate of 11 percent. \n"
-  cyp26: '1480.51'
-  cyp5_app1_8: Training
-  cyp5_atp1_8: Training
-  cyp6: '0.0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -569,7 +525,7 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp2: '0.0'
+    Overpayments_Within_Control_Amount: '0.0'
   overpayments_eligibility:
   - Key: cyp3_dit4_1
     Payment_Type: Overpayments Outside Agency Control
@@ -596,7 +552,7 @@ Data_By_Year:
   - Key: cyp3_dit17_1
     Payment_Type: Overpayments Outside Agency Control
     Theme: Household Size
-    Theme_Description: Number of family mmembers in a household
+    Theme_Description: Number of family members in a household
     Value: '717.409966'
   - Key: cyp3_dit9_1
     Payment_Type: Overpayments Outside Agency Control
@@ -616,65 +572,17 @@ Data_By_Year:
     Failure_to_Access_Data: 9035.39
     Financial: 8032.46171
     Inability_to_Access_Data: 0.0
-    cyp3: '9035.39'
-    cyp4_1: Overpayments related to Supplemental Nutrition Assistance Program (SNAP)
-      are outside of the Food and Nutrition Service's control because SNAP benefits
-      are processed and administered by State agencies. FNS provides State agencies
-      with guidance related to eligibility determinations, provides oversight and
-      technical assistance to States, and measures and reports improper payments.
-      State agencies make decisions about how to administer the program amongst various
-      policy options, waivers, and demonstration projects; directly determines eligibility
-      for SNAP; and provides benefits to recipients. Therefore, FNS must work with
-      its State agency partners to measure, monitor, and address improper payments.
-  rap5: Supplemental Nutrition Assistance Program (SNAP) benefits are processed and
-    administered by State agencies, with Food and Nutrition Service (FNS) oversight.
-    State policy options, organizational structures, and use of technology vary from
-    State to State. FNS provides oversight and technical assistance to States in measuring
-    and reporting improper payments. Because FNS does not provide benefits directly
-    to recipients, the Program must work through its State administering agencies
-    to measure, monitor, and address improper payments and is not positioned to determine
-    or control each State agency's internal controls, human capital, or information
-    systems.
-  rap6: "The Food and Nutrition Service (FNS) has not determined a tolerable rate\
-    \ for the Supplemental Nutrition Assistance Program (SNAP). \n"
-  rnp3: "\"The Food and Nutrition Service (FNS) will continue to conduct training\
-    \ to assist State agencies in identifying the specific corrective actions needed\
-    \ to address the root causes of error found in their States. FNS will also utilize\
-    \ its payment error report and dashboard tools to provide technical support to\
-    \ State agencies as they implement corrective actions to ensure the root causes\
-    \ being addressed are properly targeted. \n\nIn addition, FNS has updated the\
-    \ Keys to Payment Accuracy, a document for State Supplemental Nutrition Assistance\
-    \ Program (SNAP) administering agencies on key strategies for improving payment\
-    \ accuracy. As part of the development of the update, FNS focused on solutions\
-    \ that incorporate caseload size and administrative characteristics to address\
-    \ variations in SNAP administration across all 53 SNAP State and Territorial agencies.\
-    \ \n\nIn Fiscal Year (FY) 2024, FNS provided non-competitive grants for third\
-    \ party income verification services for all State SNAP agencies based on state\
-    \ population size. Errors related to earned income regularly account for the top\
-    \ three causes of error nationally and within State agencies. These third party\
-    \ income verification services provide States with improved resources to accurately\
-    \ determine income for the SNAP benefit calculation. FNS  awarded the contract\
-    \ in October 2023 and then made the income verification resource available to\
-    \ all States shortly thereafter. \""
-  rnp4: The Food and Nutrition Act of 2008, as amended, provides disincentives in
-    the form of financial penalties to encourage States to accurately issue Supplemental
-    Nutrition Assistance Program (SNAP) benefits and maintain low improper payment
-    rates. The liability process to establish financial penalties against State agencies
-    is statutory. In addition, the Food and Nutrition Service (FNS) has a regulatory
-    process that requires States to enter into corrective actions at the State level
-    to address payment error rates that exceed six percent, a standard established
-    by law.
-  rtp1: Unknown because the agency has not yet determined the tolerable rate for this
-    program
-  rtp4_2: Supplemental Nutrition Assistance Prgoram (SNAP) benefits are processed
-    and administered by State agencies, with Food and Nutrition Service (FNS) oversight.
-    State policy options, organizational structures, and use of technology vary from
-    State to State, resulting in different root causes contributing to payment errors.
-    FNS provides oversight and technical assistance to States in measuring and reporting
-    improper payments. Because FNS does not provide benefits directly to recipients,
-    the Program must work through its State administering agencies to measure, monitor,
-    and address improper payments. As a result of this statutory structure, establishing
-    a tolerable rate that would apply to each State agency has proved difficult.
+    Overpayments_Outside_Control_Amount: '9035.39'
+    Overpayments_Outside_Control_Why: Overpayments related to Supplemental Nutrition
+      Assistance Program (SNAP) are outside of the Food and Nutrition Service's control
+      because SNAP benefits are processed and administered by State agencies. FNS
+      provides State agencies with guidance related to eligibility determinations,
+      provides oversight and technical assistance to States, and measures and reports
+      improper payments. State agencies make decisions about how to administer the
+      program amongst various policy options, waivers, and demonstration projects;
+      directly determines eligibility for SNAP; and provides benefits to recipients.
+      Therefore, FNS must work with its State agency partners to measure, monitor,
+      and address improper payments.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -682,7 +590,7 @@ Data_By_Year:
     Failure_to_Access_Data: 1480.51
     Financial: 1236.670003
     Inability_to_Access_Data: 0.0
-    cyp5: '1480.51'
+    Underpayments_Amount: '1480.51'
   underpayments_eligibility:
   - Key: cyp5_dit4_1
     Payment_Type: Underpayments
@@ -709,7 +617,7 @@ Data_By_Year:
   - Key: cyp5_dit17_1
     Payment_Type: Underpayments
     Theme: Household Size
-    Theme_Description: Number of family mmembers in a household
+    Theme_Description: Number of family members in a household
     Value: '198.240289'
   - Key: cyp5_dit9_1
     Payment_Type: Underpayments
@@ -723,26 +631,26 @@ Data_By_Year:
     Theme_Description: Status of recipient's living location or arrangement
     Value: '0.148051'
 Description: SNAP provides food benefits to low-income families to supplement their
-  grocery budgets. It is the largest domestic nutrition assistance program. SNAP is
-  a Federal program administered by States (All 50 States, D.C., Guam, and the Virgin
-  Islands). States are responsible for determining a SNAP applicant's eligibility
+  grocery budgets.  It is the largest domestic nutrition assistance program. SNAP
+  is a Federal program administered by States (All 50 States, D.C., Guam, and the
+  Virgin Islands). States are responsible for determining a SNAP applicant's eligibility
   and issuing benefits to eligible residents following Federal requirements. Within
   those requirements, State agencies have flexibility to tailor the program to meet
   the needs of their residents through various policy options, waivers, and demonstration
   projects. As a result, corrective actions to address payment errors must originate
   in and be tailored to each individual State agency's circumstances/particular root
-  cause of error.
-Fiscal_Year: 2024
+  cause of error
+Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
-High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024]'
-Outlays: 90061.62
-Overpayment_Amounts: '[0, 0, 7477.95, 9035.39]'
-Payment_Accuracy_Amounts: '[0, 0, 67213.93000000001, 79545.72]'
-Payment_Accuracy_Rate: 88.32366106672298
-Phase_2_Program: 1
+High_Priority_Program: 0
+Improper_Payments_Data_Years: '[2022, 2023, 2024]'
+Outlays: 0
+Overpayment_Amounts: '[0, 7477.95, 9035.39]'
+Payment_Accuracy_Amounts: '[0, 67213.93000000001, 79545.72]'
+Payment_Accuracy_Rate: 0
+Phase_2_Program: 0
 Program_Name: Food and Nutrition Service (FNS) Supplemental Nutrition Assistance Program
   (SNAP)
 Scorecard_Links:
@@ -761,10 +669,10 @@ Scorecard_Links:
 - Link: assets/scorecards/Q2 2025/Food and Nutrition Service (FNS) Supplemental Nutrition
     Assistance Program (SNAP).pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[0, 0, 1295.12, 1480.51]'
-Unknown_Amounts: '[0, 0, 0, 0]'
-fpi_link: https://fpi.omb.gov/
+Technically_Improper_Amounts: '[0, 0, 0]'
+Underpayment_Amounts: '[0, 1295.12, 1480.51]'
+Unknown_Amounts: '[0, 0, 0]'
+detail_Reduction_Target: null
 layout: program-specific
 permalink: program/usda-food-and-nutrition-service-fns-supplemental-nutrition-a-8824f439
 ---

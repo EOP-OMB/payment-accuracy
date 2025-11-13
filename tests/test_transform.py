@@ -81,6 +81,15 @@ def test_eligibility_themes_file(mock_csv_data, in_memory_db):
     assert list(df.columns) == ["key","theme"]
     assert len(df) == 2
 
+def test_eligibility_themes_descriptions_file(mock_csv_data, in_memory_db):
+    transform.ELIGIBILITY_THEMES_DESCRIPTIONS_PATH = mock_csv_data["ELIGIBILITY_THEMES_DESCRIPTIONS_PATH"]
+    transform.load_eligibility_themes_descriptions_file(in_memory_db)
+
+    df = pd.read_sql("SELECT * FROM eligibility_themes_descriptions", in_memory_db)
+    assert not df.empty
+    assert list(df.columns) == ["theme","description"]
+    assert len(df) == 2
+
 def test_risks_file(mock_csv_data, in_memory_db):
     transform.RISKS_PATH = mock_csv_data["RISKS_PATH"]
     transform.load_risks_file(in_memory_db)
@@ -88,6 +97,15 @@ def test_risks_file(mock_csv_data, in_memory_db):
     df = pd.read_sql("SELECT * FROM risks", in_memory_db)
     assert not df.empty
     assert list(df.columns) == ["Agency","Fiscal_Year","Program_Name","in_draft","Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_","raa6_2","raa7_2","Updated_Program_Name","Original_Program_Name"]
+    assert len(df) == 2
+
+def test_risks_methodology_changed_file(mock_csv_data, in_memory_db):
+    transform.RISKS_METHODOLOGY_CHANGED_PATH = mock_csv_data["RISKS_METHODOLOGY_CHANGED_PATH"]
+    transform.load_risks_methodology_changed_file(in_memory_db)
+
+    df = pd.read_sql("SELECT * FROM risks_methodology_changed", in_memory_db)
+    assert not df.empty
+    assert list(df.columns) == ["Agency","Program_Name","Fiscal_Year"]
     assert len(df) == 2
 
 def test_program_compliance_file(mock_csv_data, in_memory_db):
@@ -135,6 +153,16 @@ def test_load_congressional_reports_files(mock_csv_data, in_memory_db):
     df = pd.read_sql("SELECT * FROM congressional_reports", in_memory_db)
     assert not df.empty
     assert list(df.columns) == ["agency","Key","Title","value","Fiscal_Year"]
+
+    assert len(df) == 2
+
+def test_load_fpi_mapping_files(mock_csv_data, in_memory_db):
+    transform.FPI_MAPPING_PATH = mock_csv_data["FPI_MAPPING_PATH"]
+    transform.load_fpi_mapping(in_memory_db)
+
+    df = pd.read_sql("SELECT * FROM program_to_aln", in_memory_db)
+    assert not df.empty
+    assert list(df.columns) == ["Agency","Program Name","Assistance Listing Number"]
 
     assert len(df) == 2
 

@@ -1,19 +1,19 @@
 ﻿key,theme
-"dit1","Address/Location"
-"dit10","Marital Status"
-"dit11","Military Status"
-"dit12","Prisoner Status"
-"dit13","Receiving Benefits from Other Sources"
-"dit14","Residency"
-"dit15","Employment"
-"dit16","Financial"
-"dit17","Household Size"
-"dit18","Medical Status"
-"dit2","Affiliation"
-"dit3","Age"
-"dit4","Citizenship"
-"dit5","Contractor of Provider Status"
-"dit6","Deceased"
-"dit7","Dependency"
-"dit8","Education"
-"dit9","Identity"
+dit1,Address/Location
+dit10,Marital Status
+dit11,Military Status
+dit12,Prisoner Status
+dit13,Receiving Benefits from Other Sources
+dit14,Residency
+dit15,Employment
+dit16,Financial
+dit17,Household Size
+dit18,Medical Status
+dit2,Affiliation
+dit3,Age
+dit4,Citizenship
+dit5,Contractor or Provider Status
+dit6,Deceased
+dit7,Dependency
+dit8,Education
+dit9,Identity
