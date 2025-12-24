@@ -110,6 +110,7 @@ Data_By_Year:
     missing documentation related to residency; verification of parent care; hours/type
     of care; age/citizenship; and guardianship.
   Year: 2022
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -135,6 +136,19 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '23.13'
 - Actions_Taken:
+  - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2025
+    Description_Action_Taken: HHS's planned corrective action for states reporting
+      in FY 2023 Child Care and Development Fund program include continuing to provide
+      targeted technical assistance based on the reported specific causes of errors
+      for the states.  Some states reporting in FY 2023 have planned corrective actions
+      that include fixing system errors and implementing new, enhanced systems; providing
+      guidance, training, and technical assistance to eligibility staff; reviewing
+      and updating policies and procedures manuals and providing policy clarifications
+      to eligibility staff;  meeting with state eligibility agencies to discuss errors;
+      and continuing audit, monitoring, and review efforts.
+    Mitigation_Strategy: app3_1
   - Action_Taken: Completed
     Action_Type: Training
     Completion_Date: FY2023 Q4
@@ -150,19 +164,6 @@ Data_By_Year:
       states and territories on program integrity and accountability, including targeting
       technical assistance to states to support reauthorization requirements.
     Mitigation_Strategy: atp3_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2025
-    Description_Action_Taken: HHS's planned corrective action for states reporting
-      in FY 2023 Child Care and Development Fund program include continuing to provide
-      targeted technical assistance based on the reported specific causes of errors
-      for the states.  Some states reporting in FY 2023 have planned corrective actions
-      that include fixing system errors and implementing new, enhanced systems; providing
-      guidance, training, and technical assistance to eligibility staff; reviewing
-      and updating policies and procedures manuals and providing policy clarifications
-      to eligibility staff;  meeting with state eligibility agencies to discuss errors;
-      and continuing audit, monitoring, and review efforts.
-    Mitigation_Strategy: app3_1
   Agency_Needs_Satisfied: The Child Care and Development Block Grant Act of 2014 and
     Child Care and Development Fund regulations (2016) required states to create and
     adopt new policies and procedures. State recipients have been implementing large-scale
@@ -292,6 +293,7 @@ Data_By_Year:
     where the paystub is missing and there are no other mechanisms in place to verify
     income, it cannot be determined if the payment was proper or improper.
   Year: 2023
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -479,7 +481,7 @@ Data_By_Year:
   IP_Current_Year_Plus_1_Amount: 1012.75
   IP_Unknown_Current_Year_Plus_1_Rate: 0.05
   IP_Unknown_Target_Rate: 0.0491
-  Improper_Payments_Rate: 4.9339026673
+  Improper_Payments_Rate: 4.933902669999999
   Insufficient_Documentation_to_Determine: 0.0
   Is_Lowest_IP_And_Unknown_Rate: 'Yes'
   Is_Tolerable_Why: The Child Care and Development Fund program knows that the Improper
@@ -527,6 +529,8 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '4.91'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -576,25 +580,226 @@ Data_By_Year:
     Theme_Description: "Status or standing of contractor or provider, including recipient\
       \ eligibility to \r\nprovide medical services"
     Value: '67.450000'
+- Agency_Needs_Satisfied: HHS has the internal controls, human capital, information
+    systems, and related infrastructure needed to reduce improper and unknown payments
+    to a level at which further reductions would exceed the cost of additional corrective
+    actions. The agency leverages dedicated federal administrative funds to support
+    a skilled workforce, maintain and modernize IT and data systems, and strengthen
+    program oversight and accountability functions. Additionally, HHS invests in comprehensive
+    training and technical assistance for Child Care and Development Fund (CCDF) recipients—funded
+    at up to one-half of one percent of the program’s appropriation—to improve state
+    and territory capacity to implement effective prevention, detection, and reporting
+    practices. These combined resources and supports ensure that HHS can monitor program
+    integrity efficiently and cost-effectively, maintaining improper payments at a
+    tolerable rate consistent with statutory and administrative requirements.
+  Confidence_Level: 90% to <95%
+  Corrective_Actions_Adequacy_Association_Implementation: "HHS implements and prioritizes\
+    \ corrective actions for the Child Care and Development Fund (CCDF) program through\
+    \ a structured, root-cause–driven approach that ensures interventions directly\
+    \ address the underlying sources of Improper Payments and Unknown Payments. Each\
+    \ reporting state is required to identify specific causes of errors based on its\
+    \ own policies and administrative processes, allowing HHS to tailor corrective\
+    \ actions to the state’s needs. These corrective actions are further strengthened\
+    \ by federal–state collaboration, including ongoing oversight and technical assistance\
+    \ activities and joint case reviews, which provide opportunities for real-time\
+    \ feedback, and clarification of policy questions. \n\nCorrective actions are\
+    \ also prioritized based on risk, particularly for states with improper payment\
+    \ rates exceeding the statutory 10-percent threshold. These states must submit\
+    \ a formal Corrective Action Plan, triggering heightened federal oversight and\
+    \ targeted technical assistance from HHS. This prioritization model ensures resources\
+    \ are directed to areas where noncompliance or systemic weaknesses pose the greatest\
+    \ risk. The adequacy of these corrective actions is reflected in the CCDF program’s\
+    \ consistently low improper payment rate and HHS’s ability to sustain performance\
+    \ below statutory limits."
+  Corrective_Actions_Appropriateness: "HHS has planned and implemented a series of\
+    \ corrective actions to address the root causes of improper payments and unknown\
+    \ payments in the FY 2025 Child Care and Development Fund (CCDF) program. Over\
+    \ the course of FY 2025 and extending into FY 2026, HHS will continue providing\
+    \ targeted technical assistance (TA) to states based on the specific causes of\
+    \ errors identified in their reporting. \n\nStates reporting in FY 2025 plan to\
+    \ initiate corrective measures including the development or enhancement of eligibility\
+    \ and case-management systems and the issuance of updated guidance and training\
+    \ to eligibility staff. Several states also plan to review and update their policy\
+    \ and procedures manuals to address identified vulnerabilities and ensure clearer\
+    \ guidance for front-line staff. In addition, some states are holding structured\
+    \ meetings with eligibility agencies to discuss errors, clarify requirements,\
+    \ and develop sustainable approaches to eliminating repeat error types. States\
+    \ also conduct ongoing monitoring, audit activities, and quality-assurance reviews\
+    \ as part of their long-term strategy for preventing improper and unknown payments.\
+    \ These state-level corrective actions are expected to continue into FY 2026.\n\
+    \nAt the federal level, HHS employed training as a central corrective action throughout\
+    \ FY 2025. In addition, HHS conducted virtual site visits with states needing\
+    \ targeted support to address identified root causes of errors. These oversight\
+    \ and technical assistance activities will continue through FY 2026 based on state\
+    \ needs. During these activities, HHS provided technical assistance on policy\
+    \ and procedural changes required to meet the Child Care and Development Block\
+    \ Grant (CCDBG) Act of 2014, ensuring that states understand and implement the\
+    \ statutory requirements that reduce improper payment risks. \n\nTo further strengthen\
+    \ accountability and program integrity, HHS conducted joint case reviews with\
+    \ reporting states during FY 2025, bringing together both state and federal partners\
+    \ to identify process weaknesses and ensure consistent interpretation of eligibility\
+    \ requirements. Additionally, HHS funded the Office of Child Care’s National Center\
+    \ on Subsidy Innovation and Accountability, which continues to provide focused\
+    \ TA to states and territories on program integrity. This federal support is ongoing\
+    \ and is expected to continue through FY 2026, ensuring that states have continuous\
+    \ access to expertise and resources to prevent future improper and unknown payments."
+  Corrective_Actions_Proportion: HHS’s planned actions for the Child Care and Development
+    Fund program are adequate because the agency receives detailed information from
+    each reporting state on the root causes of errors and the corresponding corrective
+    actions taken under state-specific policies. Using this information, HHS has provided—and
+    will continue to provide—targeted technical assistance tailored to the identified
+    causes of errors in each state. Historically, training and targeted technical
+    assistance have been the primary strategies for reducing improper and unknown
+    payments in the program. The program has consistently maintained an error rate
+    below the statutory threshold, demonstrating that this approach is effective.
+  End_Date: 09/2024
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: 'HHS employs a multilayered approach to ensure that
+    executive managers, program officials, and, where appropriate, state and local
+    governments are held accountable for meeting improper payment reduction goals.
+    Each year, HHS conducts a comprehensive assessment of internal controls in accordance
+    with OMB Circular A-123, Management’s Responsibility for Enterprise Risk Management
+    and Internal Controls, including Appendix C, which specifically addresses payment
+    integrity improvement. As part of this process, senior officials in each HHS office
+    must complete and sign an Internal Control and Risk Management Certification,
+    affirming their responsibility for maintaining effective controls that prevent,
+    detect, and reduce improper payments. Operating Divisions also submit annual assurance
+    statements, which require leadership to evaluate and attest to the adequacy of
+    internal controls over operations, financial reporting, and compliance—including
+    controls related to payment accuracy.
+
+
+    Beyond federal leadership accountability, HHS ensures that states, local governments,
+    tribes, and nonprofit organizations receiving federal funds meet accountability
+    standards through the Single Audit process. Entities that expend at least $1,000,000
+    in federal awards are required to undergo an annual Single Audit. These audits
+    evaluate if recipients have effective controls in place and if federal funds,
+    including Child Care grants, are spent in accordance with applicable requirements.
+    Findings from Single Audits and HHS Office of Inspector General (OIG) audits are
+    used to identify overpayments and may result in the repayment of disallowed costs,
+    complementing enforcement mechanisms for improper payment recovery.
+
+    HHS further reinforces accountability by using audit results, monitoring activities,
+    and internal reviews to guide corrective action expectations for both internal
+    leadership and external recipients. Executive managers and program offices are
+    expected to address identified weaknesses promptly, and failure to do so can influence
+    performance evaluations and oversight decisions. Collectively, these steps create
+    a robust framework that emphasizes oversight, prevention, and timely recovery
+    of overpayments, ensuring all levels of program administration are responsible
+    for maintaining strong payment integrity.'
+  IP_Unknown_Target_Rate: 0.0467
+  Improper_Payments_Rate: 4.9279651567
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '5.0'
+  Non_Monetary_Loss_Amount: '75.99'
+  Overpayment_Combined_Mitigations_Planned: Training
+  Overpayment_Combined_Mitigations_Taken: Training
+  Payment_Accuracy_Rate: 95.07203484326894
+  Program_Additional_Information: "The Child Care and Development Fund (CCDF) program\
+    \ is a federally funded, state-administered block grant program that gives states\
+    \ flexibility to design programs and policies that best suit the needs of children\
+    \ and families in their states. States tailor their review of errors to reflect\
+    \ the policies and procedures unique to their state and therefore, states have\
+    \ varying requirements for establishing and verifying a client’s eligibility.\
+    \ \n\nFor this reason, there is not a common lexicon for root cause data/eligibility\
+    \ themes across states and current CCDF program regulations do not require states\
+    \ to collect and report the root cause of errors in pre-determined categories.\
+    \ The data used to calculate and report improper payments data is collected by\
+    \ the states and aggregated at the federal level, and states are not required\
+    \ to report dollar amounts associated with individual root causes. Therefore,\
+    \ while the specific root causes of errors and associated corrective actions are\
+    \ identified by each reporting state under the policies unique to the state, the\
+    \ errors are consolidated into one control cause category for this aggregate reporting\
+    \ at the federal level. Although this approach limits the level of detail available\
+    \ in nationwide reporting, it preserves state flexibility and supports targeted\
+    \ corrective actions that reflect each state’s program design."
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: The most recent budget submissions request will maintain
+    current resources to support  payment integrity efforts within CCDF. Funding is
+    directed toward maintaining the capacity to detect, prevent, and reduce improper
+    payments, as well as to support states in implementing stronger eligibility verification
+    and program integrity controls. The budget also emphasizes investments in technical
+    assistance and training for states to improve compliance with federal requirements.
+    These resources aim to ensure that CCDF funds are used appropriately and reach
+    the families and providers for whom they are intended.
+  Start_Date: 10/2023
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: Training
+  Underpayment_Mitigations_Taken: Training
+  Unknown_Payments_Rate: 0
+  Year: 2025
+  detail_IP_Causes: "The primary root causes of the improper payments and unknown\
+    \ payments in the FY 2025 Child Care and Development Fund (CCDF) program were\
+    \ missing or insufficient documentation in case records and administrative errors\
+    \ in applying eligibility policies. CCDF did not have any unknown payments in\
+    \ FY 2025.  \n\nIn some sampled cases, required eligibility verification materials—such\
+    \ as income documentation, employment or education verification, and provider\
+    \ authorization records—were either incomplete, outdated, or not retained in the\
+    \ file. When case records lacked the documentation needed to confirm eligibility,\
+    \ payments could not be validated during the review process, resulting in improper\
+    \ or unknown payments. \n\nAdministrative errors in applying eligibility policies\
+    \ were an additional contributor to improper payments. Errors included incorrect\
+    \ calculations of family income, calculation of care needed, and incorrect assessment\
+    \ of family copayments."
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '845.47'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '4.67'
+  eligibility_aggregated:
+  - Theme: Contractor or Provider Status
+    Theme_Description: "Status or standing of contractor or provider, including recipient\
+      \ eligibility to \r\nprovide medical services"
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 845.47
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '845.47'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 75.99
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '75.99'
 Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
-High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[91.04, 81.74, 776.05]'
-Payment_Accuracy_Amounts: '[8354.4, 8390.060000000001, 16252.5]'
-Payment_Accuracy_Rate: 0
+High_Priority_Program: 1
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 18698.59
+Overpayment_Amounts: '[91.04, 81.74, 776.05, 845.47]'
+Payment_Accuracy_Amounts: '[8354.4, 8390.060000000001, 16252.5, 17777.129999999997]'
+Payment_Accuracy_Rate: 95.07203484326894
 Phase_2_Program: 0
 Program_Name: Administration for Children and Families (ACF) - Child Care and Development
   Fund
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0]'
-Underpayment_Amounts: '[23.13, 17.91, 67.45]'
-Unknown_Amounts: '[230.53, 209.39, 0]'
-detail_Reduction_Target: '4.91'
+Technically_Improper_Amounts: '[0, 0, 0, 0]'
+Underpayment_Amounts: '[23.13, 17.91, 67.45, 75.99]'
+Unknown_Amounts: '[230.53, 209.39, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/93.575
 layout: program-specific
 permalink: program/hhs-administration-for-children-and-families-acf-child-care--ceed93a7

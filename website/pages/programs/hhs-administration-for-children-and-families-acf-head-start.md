@@ -39,6 +39,7 @@ Data_By_Year:
     for this program in FY 2023.
   Program_Design_or_Structural_Issue: 0.0
   Year: 2022
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -61,17 +62,6 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
 - Actions_Taken:
-  - Action_Taken: Not Completed
-    Action_Type: Training
-    Completion_Date: The corrective action was not fully completed this reporting
-      period
-    Description_Action_Taken: Errors are primarily attributed to failing to adhere
-      to the statutory requirements of the Head Start program.  The training corrective
-      actions taken by HHS include working with grant recipients in areas such as
-      procurement, source documentation, cost allocation, allowability of cost and
-      other common fiscal challenges that lead to payment errors.  HHS also enhanced
-      the Head Start monitoring tool to include transaction reviews.
-    Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
     Action_Type: Training
     Completion_Date: FY2024
@@ -87,6 +77,17 @@ Data_By_Year:
       on errors discovered through HHS Office of Inspector General audits, HHS program
       reviews, and Single Audits.
     Mitigation_Strategy: app3_1
+  - Action_Taken: Not Completed
+    Action_Type: Training
+    Completion_Date: The corrective action was not fully completed this reporting
+      period
+    Description_Action_Taken: Errors are primarily attributed to failing to adhere
+      to the statutory requirements of the Head Start program.  The training corrective
+      actions taken by HHS include working with grant recipients in areas such as
+      procurement, source documentation, cost allocation, allowability of cost and
+      other common fiscal challenges that lead to payment errors.  HHS also enhanced
+      the Head Start monitoring tool to include transaction reviews.
+    Mitigation_Strategy: atp3_1
   Agency_Needs_Satisfied: HHS has not determined a tolerable rate for the Head Start
     program as this is the first year for calculating and reporting an Improper and
     Unknown Payment estimate for the program under the new methodology.   HHS anticipates
@@ -218,6 +219,7 @@ Data_By_Year:
     other instance, the Head Start recipient failed to provide sufficient documentation
     at the level of detail necessary to conduct the review.
   Year: 2023
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -265,33 +267,6 @@ Data_By_Year:
       or their family
     Value: '9.970000'
 - Actions_Taken:
-  - Action_Taken: Completed
-    Action_Type: Change Process
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: The change process corrective action taken by HHS was
-      to enhance its oversight to include transaction reviews of Head Start funding
-      recipients.  This enhanced oversight resulted in process changes or targeted
-      training where needed based on deficiencies and weaknesses found during the
-      Head Start funding recipients' transaction reviews.
-    Mitigation_Strategy: atp4_1
-  - Action_Taken: Planned
-    Action_Type: Change Process
-    Completion_Date: FY2025
-    Description_Action_Taken: HHS Change Process corrective actions planned include
-      engaging expert consultant services to assess approaches to support Head Start
-      funding recipients' processes and HHS internal oversight procedures in the Head
-      Start program.  HHS also plans to issue sub-regulatory guidance to clarify fiscal
-      and operational requirements of the Head Start program.
-    Mitigation_Strategy: app4_1
-  - Action_Taken: Completed
-    Action_Type: Training
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: The training corrective actions taken by HHS included
-      working with Head Start funding recipients to provide training through the Regional
-      Technical Assistance Networks and National Centers.  The training was in areas
-      such as procurement, source documentation, cost allocation, allowability of
-      cost and other common fiscal challenges that lead to payment errors.
-    Mitigation_Strategy: atp3_1
   - Action_Taken: Planned
     Action_Type: Training
     Completion_Date: FY2025
@@ -305,6 +280,15 @@ Data_By_Year:
       to conduct training specific to financial record keeping, sharing comprehensive
       and practical approaches to financial records management.
     Mitigation_Strategy: app3_1
+  - Action_Taken: Planned
+    Action_Type: Change Process
+    Completion_Date: FY2025
+    Description_Action_Taken: HHS Change Process corrective actions planned include
+      engaging expert consultant services to assess approaches to support Head Start
+      funding recipients' processes and HHS internal oversight procedures in the Head
+      Start program.  HHS also plans to issue sub-regulatory guidance to clarify fiscal
+      and operational requirements of the Head Start program.
+    Mitigation_Strategy: app4_1
   - Action_Taken: Planned
     Action_Type: Audit
     Completion_Date: FY2025
@@ -324,6 +308,24 @@ Data_By_Year:
       performance and alerting HHS when a recipient may be moving towards non-compliance
       with policies and procedures.
     Mitigation_Strategy: app7_1
+  - Action_Taken: Completed
+    Action_Type: Training
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: The training corrective actions taken by HHS included
+      working with Head Start funding recipients to provide training through the Regional
+      Technical Assistance Networks and National Centers.  The training was in areas
+      such as procurement, source documentation, cost allocation, allowability of
+      cost and other common fiscal challenges that lead to payment errors.
+    Mitigation_Strategy: atp3_1
+  - Action_Taken: Completed
+    Action_Type: Change Process
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: The change process corrective action taken by HHS was
+      to enhance its oversight to include transaction reviews of Head Start funding
+      recipients.  This enhanced oversight resulted in process changes or targeted
+      training where needed based on deficiencies and weaknesses found during the
+      Head Start funding recipients' transaction reviews.
+    Mitigation_Strategy: atp4_1
   Agency_Needs_Satisfied: HHS has not determined if they have in place what is needed
     with respect to internal controls, human capital, information systems, and other
     infrastructure to reduce Improper Payments and Unknown Payments to the tolerable
@@ -425,9 +427,9 @@ Data_By_Year:
     are subject to disallowances for any expenditures not made in accordance with
     program regulations.
   IP_Current_Year_Plus_1_Amount: 893.31
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.07339961382
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0733996138
   IP_Unknown_Target_Rate: 0.0734
-  Improper_Payments_Rate: 3.5288364005000004
+  Improper_Payments_Rate: 3.5288364000000003
   Insufficient_Documentation_to_Determine: 933.24
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -504,6 +506,8 @@ Data_By_Year:
     conduct the review. In other instances, the documentation provided was insufficient
     to support the calculations related to the payments.
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '7.34'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -552,6 +556,196 @@ Data_By_Year:
     Theme_Description: The financial position or status of a beneficiary, recipient,
       or their family
     Value: '9.190000'
+- Agency_Needs_Satisfied: HHS has not yet assessed whether its current internal controls,
+    human capital resources, information systems, and related infrastructure are sufficient
+    to reduce improper and unknown payments in the Head Start program to a level where
+    the cost of further reductions would outweigh the benefits. Because this is only
+    the second year of reporting improper and unknown payment estimates under the
+    new methodology, HHS has not established a tolerable error rate against which
+    to measure the adequacy of its existing infrastructure. As additional years of
+    performance data become available, HHS expects to define a tolerable rate and
+    conduct a more informed evaluation of whether current systems and capacities are
+    adequate. This future assessment will help determine whether further investments
+    are warranted or whether existing controls are appropriately cost-effective in
+    managing improper and unknown payments.
+  Confidence_Level: 90% to <95%
+  Corrective_Actions_Adequacy_Association_Implementation: 'HHS’s planned and completed
+    actions to address Improper and Unknown Payments in the Head Start program are
+    based on the specific errors identified during the improper payment review. Targeted
+    technical assistance will be provided to funding recipients to address the underlying
+    causes of these errors. Corrective actions will also focus on strengthening federal-level
+    policies, processes, and procedures that support recipients. HHS will monitor
+    the implementation and interim effectiveness of these actions to determine whether
+    they are adequate or if further steps are needed.
+
+
+    To ensure accountability, HHS will issue Information Memoranda and Program Instructions
+    as necessary and will follow up directly with funding recipients to confirm corrective
+    action has been taken. An official has been designated to oversee progress in
+    reducing Improper and Unknown Payments across the program. While the impact of
+    corrective actions cannot be immediately measured, HHS will evaluate their effectiveness
+    over time and adjust as needed. These actions reflect a coordinated approach at
+    both the federal and recipient levels to strengthen fiscal integrity and reduce
+    future errors.'
+  Corrective_Actions_Appropriateness: HHS is taking both planned and completed actions
+    to address the causes of Improper and Unknown Payments in the Head Start program.
+    These efforts not only respond to specific errors identified during the improper
+    payment review but also examine policies, processes, and procedures that could
+    contribute to future errors. A key component of the strategy is providing targeted
+    technical assistance to Head Start funding recipients to address underlying issues.
+    Corrective actions are designed to strengthen operations at both the recipient
+    level and within HHS itself.
+  Corrective_Actions_Proportion: HHS will closely monitor how corrective actions are
+    implemented and assess their interim effectiveness. This monitoring will help
+    determine whether further steps are needed to ensure stronger controls. The approach
+    is intended to be responsive and adaptable as results are evaluated over time.
+    Importantly, HHS’s corrective actions are proportional to the severity and rate
+    of errors identified. They are also carefully aligned with the root causes of
+    errors at both the federal and recipient levels to strengthen overall program
+    integrity.
+  End_Date: 09/2024
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: 'HHS employs a multilayered approach to ensure that
+    executive managers, program officials, and, where appropriate, state and local
+    governments are held accountable for meeting improper payment reduction goals.
+    Each year, HHS conducts a comprehensive assessment of internal controls in accordance
+    with OMB Circular A-123, Management’s Responsibility for Enterprise Risk Management
+    and Internal Controls, including Appendix C, which specifically addresses payment
+    integrity improvement. As part of this process, senior officials in each HHS office
+    must complete and sign an Internal Control and Risk Management Certification,
+    affirming their responsibility for maintaining effective controls that prevent,
+    detect, and reduce improper payments. Operating Divisions also submit annual assurance
+    statements, which require leadership to evaluate and attest to the adequacy of
+    internal controls over operations, financial reporting, and compliance—including
+    controls related to payment accuracy.
+
+    Beyond federal leadership accountability, HHS ensures that states, local governments,
+    tribes, and nonprofit organizations receiving federal funds meet accountability
+    standards through the Single Audit process. Entities that expend at least $1,000,000
+    in federal awards are required to undergo an annual Single Audit. These audits
+    evaluate if recipients have effective controls in place and if federal funds,
+    including Head Start grants, are spent in accordance with applicable requirements.
+    Findings from Single Audits and HHS Office of Inspector General (OIG) audits are
+    used to identify overpayments and may result in the repayment of disallowed costs,
+    complementing enforcement mechanisms for improper payment recovery.
+
+    HHS further reinforces accountability by using audit results, monitoring activities,
+    and internal reviews to guide corrective action expectations for both internal
+    leadership and external recipients. Executive managers and program offices are
+    expected to address identified weaknesses promptly, and failure to do so can influence
+    performance evaluations and oversight decisions. Collectively, these steps create
+    a robust framework that emphasizes oversight, prevention, and timely recovery
+    of overpayments, ensuring all levels of program administration are responsible
+    for maintaining strong payment integrity.'
+  IP_Unknown_Target_Rate: 0.0987
+  Improper_Payments_Rate: 1.6760043320000002
+  Insufficient_Documentation_to_Determine: 1010.33
+  Margin_of_Error: '3.59'
+  Non_Monetary_Loss_Amount: '193.85'
+  Overpayment_Combined_Mitigations_Planned: Audit, Change Process, Cross Enterprise
+    Sharing, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Change Process, Cross Enterprise
+    Sharing, Training
+  Payment_Accuracy_Rate: 89.70835785003455
+  Program_Additional_Information: 'In addition to the actions already described, the
+    Head Start program continues to strengthen its overall payment integrity posture
+    by fostering a culture of accountability, transparency, and continuous improvement.
+    Head Start’s long-standing emphasis on fiscal responsibility is reflected in its
+    integrated system of financial oversight, which combines recipient self-monitoring,
+    federal monitoring reviews, and periodic independent audits. These layers of oversight
+    help ensure that federal funds are used effectively to support children and families,
+    while also enabling HHS to identify patterns, share best practices, and target
+    assistance to recipients that need additional support.
+
+    Another important element of the program’s payment integrity story is its investment
+    in building recipient capacity. Many Head Start recipients operate in underserved
+    communities with limited administrative resources, and HHS works to mitigate these
+    challenges by offering ongoing training, technical assistance, and tools designed
+    to strengthen local financial systems. These capacity-building efforts not only
+    help reduce improper and unknown payments but also enhance long-term organizational
+    stability and fiscal stewardship among recipients.
+
+    Finally, Head Start’s commitment to continuous learning and improvement extends
+    to the development of new methodologies for estimating improper and unknown payments.
+    As the program now enters its second year under a revised methodology, HHS is
+    using these early results to refine processes, improve data quality, and enhance
+    future reporting. This iterative approach ensures that the agency’s understanding
+    of payment risks evolves over time and supports informed decision-making. Collectively,
+    these efforts underscore Head Start’s dedication to protecting taxpayer resources
+    while maintaining its mission to promote school readiness and support the well-being
+    of children and families.'
+  Program_Design_or_Structural_Issue: 188.38
+  Resources_Requested_For_IP: In the most recent budget submission, HHS requested
+    resources that support the agency’s broader effort to strengthen payment integrity
+    within the Head Start program. The FY 2026 Justification of Estimates includes
+    reform principles focused on improving efficiency and modernizing program operations,
+    which indirectly enhance the agency’s capacity to prevent and detect improper
+    and unknown payments. By maintaining the $21 million set-aside to supplement federal
+    administrative costs and evaluation activities, the budget request ensures continued
+    support for oversight functions, data analysis, and financial management systems
+    that contribute to payment integrity. These requested resources help sustain the
+    infrastructure needed to monitor program performance and ensure that federal funds
+    are used appropriately and effectively.
+  Start_Date: 10/2023
+  Technical_IP_Actions_Planned: Audit, Change Process, Cross Enterprise Sharing, Training
+  Technical_IP_Actions_Taken: Audit, Change Process, Cross Enterprise Sharing, Training
+  Technical_IP_Amount: '188.38'
+  Underpayment_Mitigations_Planned: Audit, Change Process, Cross Enterprise Sharing,
+    Training
+  Underpayment_Mitigations_Taken: Audit, Change Process, Cross Enterprise Sharing,
+    Training
+  Unknown_Mitigations_Planned: Audit, Change Process, Cross Enterprise Sharing, Training
+  Unknown_Mitigations_Taken: Audit, Change Process, Cross Enterprise Sharing, Training
+  Unknown_Payments_Rate: 8.615637817970955
+  Year: 2025
+  detail_IP_Causes: The causes of the improper payments and unknown payments in the
+    Head Start program were primarily accounting related errors and missing required
+    documentation in the records of the sampled Head Start funding recipients. In
+    several instances, payments were made from the incorrect account at the time of
+    payment for which the allocation was corrected in a subsequent period. Additionally,
+    while the validity of some payments could be determined, all of the required supporting
+    documentation was not provided at the time of the review.
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '2.69'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '9.87'
+  eligibility_aggregated:
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 2.69
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '2.69'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 5.47
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '5.47'
 Description: The Child Care and Development Fund program is a federally funded, state-administered
   block grant program with each state having maximum flexibility in developing the
   Child Care and Development Fund programs and policies that best suit the needs of
@@ -563,11 +757,11 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[0, 187.96, 15.72]'
-Payment_Accuracy_Amounts: '[0, 10290.580000000002, 9718.720000000001]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 11726.7
+Overpayment_Amounts: '[0, 187.96, 15.72, 2.69]'
+Payment_Accuracy_Amounts: '[0, 10290.580000000002, 9718.720000000001, 10519.830000000002]'
+Payment_Accuracy_Rate: 89.70835785003455
 Phase_2_Program: 0
 Program_Name: Administration for Children and Families (ACF) - Head Start
 Scorecard_Links:
@@ -580,10 +774,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q2 2025/Administration for Children and Families (ACF) -
     Head Start.pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[0, 0, 364.73]'
-Underpayment_Amounts: '[0, 9.97, 9.19]'
-Unknown_Amounts: '[0, 355.59, 933.24]'
-detail_Reduction_Target: '7.34'
+Technically_Improper_Amounts: '[0, 0, 364.73, 188.38]'
+Underpayment_Amounts: '[0, 9.97, 9.19, 5.47]'
+Unknown_Amounts: '[0, 355.59, 933.24, 1010.33]'
 fpi_link: https://fpi.omb.gov/program/93.6
 layout: program-specific
 permalink: program/hhs-administration-for-children-and-families-acf-head-start

@@ -50,6 +50,7 @@ Data_By_Year:
     \ efforts."
   Program_Design_or_Structural_Issue: 0.0
   Year: 2022
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -139,6 +140,7 @@ Data_By_Year:
     \ payments in their programs."
   Program_Design_or_Structural_Issue: 0.0
   Year: 2023
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -190,8 +192,10 @@ Data_By_Year:
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
-  No_Estimates_Why: 'The HHS Temporary Assistance for Needy Families program is in
-    Phase 2 but is not reporting an improper payment and unknown payment estimate
+  Program_Design_or_Structural_Issue: 0.0
+  Year: 2024
+  detail_No_Estimates_Why: 'The HHS Temporary Assistance for Needy Families program
+    is in Phase 2 but is not reporting an improper payment and unknown payment estimate
     for the current reporting year.  Statutory limitations preclude HHS from collecting
     the required information needed to develop a Temporary Assistance for Needy Families
     improper payment measurement or corrective action plans.  Specifically, section
@@ -205,8 +209,7 @@ Data_By_Year:
     to report an estimate.
 
     '
-  Program_Design_or_Structural_Issue: 0.0
-  Year: 2024
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -257,42 +260,40 @@ Data_By_Year:
   Hide_Underpayments_Failure_to_Access_Data: true
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
-  Program_Additional_Information: "\"Temporary Assistance for Needy Families is a\
-    \ $16.5 billion block grant program that fosters family economic security and\
-    \ stability. Temporary Assistance for Needy Families funds a wide range of services\
-    \ that address the program’s four broad purposes, which are to:\n \n-Provide assistance\
-    \ to needy families so that children can be cared for in their own homes;\n-Reduce\
-    \ the dependency of needy parents by promoting job preparation, work and marriage;\n\
-    -Prevent and reduce the incidence of out-of-wedlock pregnancies; and\n-Encourage\
-    \ the formation and maintenance of two-parent families.\n\nTemporary Assistance\
-    \ for Needy Families' broad use of funds policy, established under section 401\
-    \ of the Social Security Act ensures states have the flexibility to be innovative\
-    \ and intentional in designing and administering programs that are intended to\
-    \ move families from poverty to self-sufficiency.  The flexibility within the\
-    \ Social Security Act allows states to design programming specific to the unique\
-    \ needs of the children and families within their state.  HHS remains committed\
-    \ to ensuring all funds are used in accordance with the statute, as authorized\
-    \ by Congress, however, statutory limitations preclude HHS from collecting the\
-    \ required information needed to develop a Temporary Assistance for Needy Families\
-    \ improper payment measurement or corrective action plans. \nSection 411 of the\
-    \ Social Security Act lists the exact data elements that HHS can collect from\
-    \ Temporary Assistance for Needy Families  agencies and therefore limits the agency’s\
-    \ ability to measure and oversee payment integrity.  Under section 417 of the\
-    \ Social Security Act, HHS cannot collect data elements other than those listed.\
-    \  \n\nDespite these limitations, HHS is committed to ensuring all Temporary Assistance\
-    \ for Needy Families funds are expended in accordance with federal requirements,\
-    \ and that fiscal and programmatic aspects of administering the program are strengthened.\
-    \  HHS is exploring  strategies to use data reporting and technical assistance\
-    \ to monitor and support Temporary Assistance for Needy Families agencies in this\
-    \ effort.  For example, HHS  proposed new statutory authority, included in the\
-    \ FY 2024 President’s Budget request, that would allow Temporary Assistance for\
-    \ Needy Families  to collect information from states needed to calculate and report\
-    \ an improper payment estimate, identify root causes of improper payments, and\
-    \ develop and monitor corrective actions.  States also utilize data sources such\
-    \ as the Public Assistance Reporting Information System, the National Directory\
-    \ of New Hires, and the Income and Eligibility Verification System to reduce improper\
-    \ payments in their programs.\"\n"
+  Program_Additional_Information: "The following information provides context on the\
+    \ statutory limits that prevent HHS from calculating and reporting an improper\
+    \ or unknown payment error rate for the Temporary Assistance for Needy Families\
+    \ (TANF) program, as well as HHS’ efforts to strengthen payment integrity.\nTANF\
+    \ is a $16.5 billion block grant program that promotes family economic security\
+    \ and stability. It funds services that support four broad purposes:\n•\tAssisting\
+    \ needy families so children can be cared for in their own homes;\n•\tReducing\
+    \ dependency by promoting job preparation, work, and marriage;\n•\tPreventing\
+    \ and reducing out-of-wedlock pregnancies; and\n•\tEncouraging the formation and\
+    \ maintenance of two-parent families.\nEstablished under section 401 of the Social\
+    \ Security Act, TANF’s broad use-of-funds policy gives states flexibility to design\
+    \ programs tailored to their populations’ needs. However, sections 411 and 417\
+    \ of the Act limit the data HHS can collect, excluding information needed to calculate\
+    \ an improper or unknown payment error rate.\nDespite these limitations, HHS is\
+    \ committed to ensuring TANF funds are used as authorized by Congress and to strengthening\
+    \ fiscal and program integrity. HHS continues to use data reporting and technical\
+    \ assistance to support states.  In addition, HHS encourages states to leverage\
+    \ existing data sources, such as the Public Assistance Reporting Information System,\
+    \ the National Directory of New Hires, and the Income and Eligibility Verification\
+    \ System, to help reduce improper payments."
   Year: 2025
+  detail_IP_Causes: null
+  detail_No_Estimates_Why: The HHS Temporary Assistance for Needy Families (TANF)
+    program is in Phase 2 but cannot report an improper or unknown payment estimate
+    for the current year. Statutory limits prevent HHS from collecting the necessary
+    data, as section 411 of the Social Security Act only permits specified data elements
+    that exclude case and payment accuracy. In addition, section 417 restricts HHS
+    from regulating states without express congressional authority. Until the law
+    is amended to allow a national error rate, HHS cannot project when TANF will be
+    able to provide such estimates.
+  detail_Overpayments_Due_To_Data_DNE: null
+  detail_Overpayments_Due_To_Failure: null
+  detail_Overpayments_Due_To_Inability: null
+  detail_Reduction_Target: null
 Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
@@ -311,11 +312,6 @@ Scorecard_Links: []
 Technically_Improper_Amounts: '[0, 0, 0, 0]'
 Underpayment_Amounts: '[0, 0, 0, 0]'
 Unknown_Amounts: '[0, 0, 0, 0]'
-detail_IP_Causes: null
-detail_Overpayments_Due_To_Data_DNE: null
-detail_Overpayments_Due_To_Failure: null
-detail_Overpayments_Due_To_Inability: null
-detail_Reduction_Target: null
 fpi_link: https://fpi.omb.gov/program/93.558
 layout: program-specific
 permalink: program/hhs-administration-for-children-and-families-acf-temporary-a-7b2a86d9

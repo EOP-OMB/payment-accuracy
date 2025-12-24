@@ -124,6 +124,7 @@ Data_By_Year:
     have sufficient supporting documentation to make a determination as to whether
     the guaranty purchase payments were proper or improper.
   Year: 2023
+  detail_Reduction_Target: '1.42'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -252,7 +253,7 @@ Data_By_Year:
   IP_Current_Year_Plus_1_Amount: 198.2097938
   IP_Unknown_Current_Year_Plus_1_Rate: 0.1
   IP_Unknown_Target_Rate: 0.1
-  Improper_Payments_Rate: 24.474157811300003
+  Improper_Payments_Rate: 24.47415781
   Insufficient_Documentation_to_Determine: 16.70071071
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -307,6 +308,8 @@ Data_By_Year:
   Unknown_Why: One loan in the PPP Guaranty Purchase sample was categorized as Unknown.  The
     Lender failed to return documentation to support the guaranty purchase.
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '10.0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -345,6 +348,56 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
+- Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: true
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: true
+  Hide_Program_Results_Future_Outlook_Baseline_Table: true
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: true
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  Improper_Payments_Rate: 5.1705370361
+  Insufficient_Documentation_to_Determine: 113.443
+  Non_Monetary_Loss_Amount: '0'
+  Payment_Accuracy_Rate: 86.71613396937558
+  Program_Design_or_Structural_Issue: 0.0
+  Technical_IP_Amount: '0.0'
+  Unknown_Payments_Rate: 8.113328994514493
+  Year: 2025
+  detail_IP_Causes: null
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: null
+  detail_Overpayments_Due_To_Failure: null
+  detail_Overpayments_Due_To_Inability: null
+  detail_Reduction_Target: null
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '72.296'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.0'
 Description: 'The CARES Act established the Paycheck Protection Program to provide
   economic
 
@@ -363,11 +416,11 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[125.770037, 1662.3041176]'
-Payment_Accuracy_Amounts: '[4207.712389999999, 5113.07410823]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2023, 2024, 2025]'
+Outlays: 1398.23
+Overpayment_Amounts: '[125.770037, 1662.3041176, 72.296]'
+Payment_Accuracy_Amounts: '[4207.712389999999, 5113.07410823, 1212.491]'
+Payment_Accuracy_Rate: 86.71613396937558
 Phase_2_Program: 0
 Program_Name: Paycheck Protection Program (PPP) Loan Guaranty Purchases
 Scorecard_Links:
@@ -386,10 +439,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q1 2025/Paycheck Protection Program (PPP) Loan Guaranty
     Purchases.pdf
   QuarterYear: Q1 2025
-Technically_Improper_Amounts: '[0, 0]'
-Underpayment_Amounts: '[0, 0]'
-Unknown_Amounts: '[3940.713556, 16.70071071]'
-detail_Reduction_Target: '1.42'
+Technically_Improper_Amounts: '[0, 0, 0]'
+Underpayment_Amounts: '[0, 0, 0]'
+Unknown_Amounts: '[3940.713556, 16.70071071, 113.443]'
 fpi_link: https://fpi.omb.gov/program/59.073
 layout: program-specific
 permalink: program/sba-paycheck-protection-program-ppp-loan-guaranty-purchases

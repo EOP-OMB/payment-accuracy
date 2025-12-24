@@ -7,7 +7,10 @@ import csv
 import os
 import pandas as pd
 import pytest
+import sys
 from io import StringIO
+
+csv.field_size_limit(sys.maxsize)
 
 EXTRACTED_FILES_DIRECTORY = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data_processing", "extracted")
 FISCAL_YEAR = config.FISCAL_YEAR
@@ -44,8 +47,6 @@ def assert_column_count_is_consistent(path):
     assert verify_csv_columns(path)
 
 def assert_fiscal_year_found(df, columnIndex):
-    # force dummy data to pass
-    return True
     assert FISCAL_YEAR in df.iloc[:, columnIndex].values
 
 def assert_last_quarter_found(df, columnIndex):
@@ -62,9 +63,15 @@ def all_agencies_mapped(df, columnIndex, codes):
     return True
 
 def assert_no_duplicates(df, keysList):
-    grouped = df.groupby(keysList).size().reset_index(name='counts')
-    condition = grouped['counts'] == 1
-    assert condition.all()
+    duplicates = df.groupby(keysList).filter(lambda x: len(x) > 1)
+    if (duplicates.size > 0):
+        print('*** Duplicates found for fields ' + str(keysList))
+        pd.set_option('display.max_rows', None)
+        pd.set_option('display.max_columns', None)
+        print(duplicates[keysList])
+        pd.reset_option('display.max_rows')
+        pd.reset_option('display.max_columns')
+    assert duplicates.size == 0
 
 def verify_csv_columns(path):
     """
@@ -184,7 +191,7 @@ def test_RiskAssessmentMethodologyChanges(get_agency_codes):
     assert_has_rows(df)
     assert_column_count(df, 3)
     assert_column_count_is_consistent(path)
-    assert_fiscal_year_found(df, 1)
+    assert_fiscal_year_found(df, 2)
     assert_all_agencies_mapped(df, 0, get_agency_codes)
 
 def test_MY_OMB_ImproperPayment_Payment_Accuracy_All_Program_vw(get_agency_codes):
@@ -355,3 +362,14 @@ def test_FPIMapping(get_agency_codes):
     assert_column_count_is_consistent(path)
     # spreadsheet contains duplicate entries - they will be ignored during transform
     assert_all_agencies_mapped(df, 0, get_agency_codes)
+
+def test_ActivePrograms(get_agency_codes):
+    path = get_csv_path("ActiveProgramsByYear.csv")
+    assert_file_exists(path)
+
+    df = csv_to_dataframe(path)
+    assert_has_rows(df)
+    assert_column_count(df, 3)
+    assert_column_count_is_consistent(path)
+    assert_all_agencies_mapped(df, 0, get_agency_codes)
+    assert_no_duplicates(df, ['agency', 'Program Name', 'Fiscal_Year'])

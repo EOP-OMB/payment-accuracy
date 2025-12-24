@@ -10,7 +10,7 @@ SELECT * FROM (
 			1 AS position
 		FROM program_data_raw 
 		WHERE
-			[key] = 'cyp30_dit1_19' AND
+			LOWER([key]) = 'cyp30_dit1_19' AND
 			[value] != ''
 		UNION ALL
 		-- remaining
@@ -25,7 +25,7 @@ SELECT * FROM (
 	)
 	SELECT [Fiscal_Year], [Program Name], [split_values].[theme], [description] FROM split_values
 	LEFT JOIN eligibility_themes_descriptions e ON [split_values].[theme] = e.[theme]
-	WHERE [split_values].[theme] != 'Other'
+	WHERE [split_values].[theme] != 'Other (please explain)'
 	UNION
 	SELECT
 		[Fiscal_Year],
@@ -34,7 +34,7 @@ SELECT * FROM (
 		program_data_raw.[value] AS [description]
 	FROM program_data_raw
 	WHERE
-		[key] = 'cyp30_dit19' AND
+		LOWER([key]) = 'cyp30_dit19' AND
 		[value] IS NOT NULL
 ) themes WHERE
 [Program Name] = ? AND

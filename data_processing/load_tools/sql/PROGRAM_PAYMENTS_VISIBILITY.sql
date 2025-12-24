@@ -34,5 +34,5 @@ LEFT JOIN principal_table_columns b
     ON a.[Agency] = b.[Agency]
     AND a.[Program_Name] = b.[Program_Name]
     AND a.[Fiscal_Year] = b.[Fiscal_Year]
-    AND c.[Key] = b.Column_names
+    AND LOWER(c.[Key]) = LOWER(b.Column_names)
 WHERE b.[Column_values] IS NULL

@@ -42,6 +42,7 @@ Data_By_Year:
     payment estimate for this program in FY 2023.
   Program_Design_or_Structural_Issue: 0.0
   Year: 2022
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -71,6 +72,13 @@ Data_By_Year:
       records of policy and program decisions already made into accessible locations.
     Mitigation_Strategy: app4_1
   - Action_Taken: Completed
+    Action_Type: Training
+    Completion_Date: FY2024 Q1
+    Description_Action_Taken: HHS offered training to personnel and contractors on
+      conducting TIN matching, documentation retention to enable efficient assessments
+      of UIP claims.
+    Mitigation_Strategy: atp3_1
+  - Action_Taken: Completed
     Action_Type: Change Process
     Completion_Date: FY2024 Q1
     Description_Action_Taken: HHS prioritized the need to gather historical records
@@ -78,13 +86,6 @@ Data_By_Year:
       reprocessed claims incorrectly paid due to federal government error, such as
       internal adjudication or payment errors.
     Mitigation_Strategy: atp4_1
-  - Action_Taken: Completed
-    Action_Type: Training
-    Completion_Date: FY2024 Q1
-    Description_Action_Taken: HHS offered training to personnel and contractors on
-      conducting TIN matching, documentation retention to enable efficient assessments
-      of UIP claims.
-    Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
     Action_Type: Audit
     Completion_Date: FY2024 Q4
@@ -154,7 +155,7 @@ Data_By_Year:
     to identify and address weaknesses to ensure recovery of improper payments and
     to reduce the number of improper payments made by the Department.
   IP_Current_Year_Plus_1_Amount: 0
-  Improper_Payments_Rate: 0.9004950364
+  Improper_Payments_Rate: 0.9004950399999999
   Insufficient_Documentation_to_Determine: 2.285
   Is_Lowest_IP_And_Unknown_Rate: 'Yes'
   Is_Tolerable_Why: Unknown because the agency has not yet determined the tolerable
@@ -200,6 +201,8 @@ Data_By_Year:
     not matching the TINs in the supporting documentation, and HRSA could not determine
     if the payments were made the right health-care providers.
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 92.141
@@ -262,7 +265,6 @@ Scorecard_Links: []
 Technically_Improper_Amounts: '[0, 0]'
 Underpayment_Amounts: '[0, 81.378]'
 Unknown_Amounts: '[0, 2.285]'
-detail_Reduction_Target: null
 layout: program-specific
 permalink: program/hhs-health-resources-and-services-administration-hrsa-provid-db76ca62
 ---

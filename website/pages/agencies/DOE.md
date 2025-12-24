@@ -10,8 +10,8 @@ Hide_Do_Not_Pay: false
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
 Hide_PIIA2019: false
-Hide_Recovery_Audits: true
-Hide_Recovery_Details: true
+Hide_Recovery_Audits: false
+Hide_Recovery_Details: false
 Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
@@ -23,10 +23,82 @@ Improper_Payments_Rate_Min: 0
 Improper_Payments_Rates: '[]'
 Is_Placeholder: false
 Overpayment_Amounts: '[]'
-Overpayment_Amounts_Identified: '[81.28, 52.39, 55.49, 56.21, 3.0]'
-Overpayment_Amounts_Recovered: '[77.42, 47.16, 48.97, 42.82, 4.0]'
+Overpayment_Amounts_Identified: '[81.28, 52.39, 55.49, 56.21, 69.17]'
+Overpayment_Amounts_Recovered: '[77.42, 47.16, 48.97, 42.82, 65.12]'
 Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
-PIIA2019_Compliant_Programs: []
+PIIA2019_Compliant_Programs:
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Benefits - Payroll
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Benefits - Travel
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Financial Assistance Awards
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Loans
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Other
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Vendors/Contracts
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
 Payment_Accuracy_Rate_Max: 0
@@ -35,17 +107,17 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2024
+  - Fiscal_Year: 2025
     MethodologyChanged: 0
     Program_Name: Benefits - Payroll
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: 2025
     MethodologyChanged: 0
     Program_Name: Benefits - Travel
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: 2025
     MethodologyChanged: 0
     Program_Name: Financial Assistance Awards
     Slug: null
@@ -55,17 +127,17 @@ Risks:
     Program_Name: Loans
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: 2025
     MethodologyChanged: 0
-    Program_Name: Other - Department of Energy
+    Program_Name: Other
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: 2025
     MethodologyChanged: 0
     Program_Name: Vendors/Contracts
     Slug: null
     Susceptible: 'No'
-  SubstantialChangesMade: 'Yes'
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -77,18 +149,123 @@ Years_Available:
 - 2024
 - 2023
 - 2022
-detail_Additional_IP_Information: aergaertf
+detail_Additional_IP_Information: The Department is unique to the federal government
+  in that payments are processed across 47 payment sites, many operated by the integrated
+  contractors at the 17 National laboratories, and 8 cleanup sites. This arrangement
+  was first set up by Congress for the Manhattan Project during World War 2. The goal
+  was to increase production speed and agility by reducing the bureaucracy inherent
+  in the rules and regulations of the Federal Government. DOE has oversight responsibilities
+  for these programs. Robust controls are mandated to detect and correct overpayments.
+  These controls include contracting officers providing final approval for contract
+  compliance, annual review and analysis of financial records and supporting documentation
+  by financial management personal, and independent audits.
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: It helped I think
-detail_DNP_Frequency_Identify: Weekly
+detail_DNP_Discussion: 'DOE uses the Do Not Pay portal within the Treasury Working
+  System to review payment eligibility for purposes of identifying and preventing
+  improper payments and fraud.
+
+
+  Where the system identifies exclusion matches for supplier records of POs with funding
+  exhausted, DOE would close such records. A note is then added in the DBA name field
+  that the vendor has an active exclusion. A request to reopen the supplier would
+  alert the supplier team to perform mandatory validation checks before reopening.
+  This ensures no new awards are granted to suppliers with active exclusions. DOE
+  also send a daily file to DNP for Batch Matching to ensure that there are no missed
+  data source matches in the Continuous Monitoring process that would result from
+  any timing issues.
+
+
+  DOE utilizes DNP as a proactive solution for reducing/preventing improper payments
+  as opposed to being reactive. During FY 2024, there were 5 supplier records closed
+  due to active SAM Exclusion matches in DNP. Closing of supplier records prevents
+  procurement offices from entering into any new contracts with the vendors which
+  could result in improper payments. Since DNP is a proactive solution to preventing
+  improper payments, quantitative amount of the dollar or number of improper payments
+  prevented by the use of DNP cannot be made; otherwise, the cost of tracking would
+  outweigh the benefit.
+
+  DOE utilizes the below data sources within DNP:
+
+  - American InfoSource Death Data – Obituary (AIS-OBIT)
+
+  - Dept of Defense Death Data (DOD)
+
+  - SAM Entity Registration Records (SAMENT)
+
+  - TOP Debt Check (DBCK)
+
+  - American InfoSource Death Data – Probate (AIS-PROB)
+
+  - Dept of State Death Data (DOS)
+
+  - Office of Foreign Assets Control (OFAC)
+
+  - SAM Exclusion Records – Restricted (SAM-EXCL-RES)
+
+  - SSA Death Master File (DMF)
+
+
+  For FY 2024, there were 122,151 electronic payments screened through Do Not Pay
+  totaling $12.4 billion. DOE is currently screening 42,086 “OPEN” supplier site records
+  which includes ASAP sites.
+
+
+  '
+detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
-detail_Executive_Summary: I don't really know
+detail_Executive_Summary: DOE’s Inspector General concluded that the agency was compliant
+  with the Payment Integrity Information Act of 2019 (PIIA) in the most recent compliance
+  audit for FY 2024 Agency Financial Report (AFR). PIIA requires agencies to review
+  and assess all programs and activities with annual outlays greater than $10,000,000
+  for improper payment risk at least once every three years to identify those susceptible
+  to significant improper payments. Currently, the Department is reporting under the
+  requirements of Phase 1 for improper payment reporting. DOE is considered one program
+  for improper payment reporting and assesses its program by the payment type. DOE
+  conducts risk assessments on a three-year cycle for all payment types with outlays
+  over $10M. The last on-cycle year risk assessment was conducted in FY 2024. DOE
+  also conducts site-specific reviews and analysis of accounting and financial records,
+  supporting documentation, and other pertinent information supporting payments. These
+  activities are detective and corrective in nature, and are designed to identify
+  and recapture overpayments. In FY 2025, payment reporting sites that met the PIIA
+  criteria for an interim risk assessment performed a risk assessment, as required.
+  The DOE Risk Assessments identified DOE as low risk. However, DOE will continue
+  to scrutinize improper payment activity and controls through its internal control
+  program by emphasizing, evaluating, and strengthening controls as needed to maintain
+  the Department’s record of low payment errors and to continue the effective stewardship
+  of public funds. The next on-cycle risk assessments will take place in FY 2027.
+  Confirmed fraud-related improper payments increased by over 500% compared to the
+  prior reporting cycle. While fluctuations in annual fraud numbers are typical—as
+  these figures are supplied by the OIG following an adjudication process—the $20.04M
+  reported in FY 2025 comprises fraudulent transactions spanning more than a decade,
+  only now being adjudicated. Despite a significant percentage increase, the confirmed
+  fraud amount remains immaterial, representing only 0.004% of the $513.77 billion
+  in total outlays over the eleven-year period (2014-2024) during which these fraudulent
+  transactions occurred. The DOE mandates that sites utilize findings from risk assessments
+  and internal control evaluations, detailed in DOE's Fraud Risk Management Guidance
+  and the Internal Controls section of the Department’s Enterprise Risk Management
+  Guidance to ensure that risks indicating heightened fraud susceptibility are prevented
+  and that existing controls effectively mitigate identified risks. Corrective Action
+  Plans have been implemented to prevent further recurrence of most of the fraud.
+detail_OIG_Recommendations: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
 detail_Recovery_Justifications_Audits: null
-detail_Recovery_Not_Cost_Effective_Justification: null
-detail_Risks_Substantial_Changes_Made: 'Yes'
+detail_Recovery_Not_Cost_Effective_Justification: "\"The Department's FY 2024 outlays\
+  \ were $64.95B, of which $52.98M was determined to be improper resulting in an improper\
+  \ payment rate of 0.08%. For payments made in FY 2024, the Department recaptured\
+  \ $31.79M of the $33.74M of the improper payments identified for recapture, resulting\
+  \ in a recapture rate of 94.22%. Due to the Department's low improper payment rate,\
+  \ and high recapture rate, the determination was made that it is not cost-effective\
+  \ to conduct recovery audits. \n\nDOE conducts recovery activities including but\
+  \ not limited to performing quarterly prompt-payment reviews, post-payment reviews,\
+  \ and contractor internal audits; leveraging the results of cost allowability audits\
+  \ of integrated contractors and interim and close-out reviews of contracts and grants,\
+  \ reviews of grant credits in the Automated Standard Application for Payments (ASAP),\
+  \ and results from travel audits.\"\n"
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/DOE.html
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 69.17
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 65.12
 ---

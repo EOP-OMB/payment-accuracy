@@ -47,6 +47,7 @@ def mock_csv_data(tmp_path):
     ip_root_causes = extracted_dir / "MY_OMB_ImproperPayment_Payment_IP_Root_Causes_vw.csv"
     congressional_reports = extracted_dir / "MY_OMB_ImproperPayment_PaymentAccuracy_AgencyData_raw_vw-Congressional.csv"
     fpi_mapping = extracted_dir / "FPIMapping.csv"
+    active_programs = extracted_dir / "ActiveProgramsByYear.csv"
 
     all_programs_sample_csv_data = (
         "Agency,Program_Name,Fiscal_Year,Outlays_($M),IP_Amount($M),IP_Unknown_Amount_($M)"
@@ -162,6 +163,12 @@ def mock_csv_data(tmp_path):
         "\nDOD,Program 2,22.000"
     )
 
+    active_programs_sample_csv_data = (
+        "agency,Program Name,Fiscal_Year"
+        "\nDOD,Program 1,2024"
+        "\nDOD,Program 1,2025"
+    )
+
     all_programs.write_text(all_programs_sample_csv_data, encoding="utf-8-sig")
     program_data_raw.write_text(program_data_raw_sample_csv_data, encoding="utf-8-sig")
     agency_data_raw.write_text(agency_data_raw_sample_csv_data, encoding="utf-8-sig")
@@ -180,6 +187,7 @@ def mock_csv_data(tmp_path):
     ip_root_causes.write_text(ip_root_causes_sample_csv_data, encoding="utf-8-sig")
     congressional_reports.write_text(congressional_reports_sample_csv_data, encoding="utf-8-sig")
     fpi_mapping.write_text(fpi_mapping_sample_csv_data, encoding="utf-8-sig")
+    active_programs.write_text(active_programs_sample_csv_data, encoding="utf-8-sig")
 
     return {
         "ALL_PROGRAMS_DATA_PATH": str(all_programs),
@@ -199,5 +207,6 @@ def mock_csv_data(tmp_path):
         "SURVEY_ROOT_CAUSE_PATH": str(survey_root_cause),
         "IP_ROOT_CAUSES_PATH": str(ip_root_causes),
         "CONGRESSIONAL_REPORTS_PATH": str(congressional_reports),
-        "FPI_MAPPING_PATH": str(fpi_mapping)
+        "FPI_MAPPING_PATH": str(fpi_mapping),
+        "ACTIVE_PROGRAMS_PATH": str(active_programs)
     }

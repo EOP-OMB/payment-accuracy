@@ -70,6 +70,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2022
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -101,128 +102,6 @@ Data_By_Year:
     Underpayments_Amount: '0'
 - Actions_Taken:
   - Action_Taken: Planned
-    Action_Type: Change Process
-    Completion_Date: FY2024
-    Description_Action_Taken: "HHS's establishment of standardized practices for calculating\
-      \ payments and deductions, involving pay files, systems, and verifying recipient\
-      \ eligibility and payment history through exploratory analysis remains.  Additionally,\
-      \ as the program matures, HHS continues to record and track standards and guidelines\
-      \ throughout the program lifecycle to avoid confusion and alleviate discrepancies.\
-      \ \n\nHHS has a robust risk management process to help identify threats, risks,\
-      \ vulnerabilities to the PRF program and implement controls to detect or prevent\
-      \ improper payments."
-    Mitigation_Strategy: app4_1
-  - Action_Taken: Planned
-    Action_Type: Audit
-    Completion_Date: FY2024
-    Description_Action_Taken: "Recipients, in line with their fund receipt agreement,\
-      \ commit to cooperating in audits by HHS, HHS OIG, or the Pandemic Response\
-      \ Accountability Committee. They must also comply with audit requirements in\
-      \ 45 CFR 75 Subpart F. \n\nHHS has post-payment reviews, audit strategies, reporting,\
-      \ and system implementation and enhancements to support detective measures and\
-      \ payment integrity through repayment of inaccurate and improper payments. \
-      \  HHS is currently conducting audits of PRF payments using a risk-based approach\
-      \ and expects to complete the 35 pilot audits by January 2024.  HHS continues\
-      \ to resolve single and commercial audit findings associated with PRF and recover\
-      \ disallowed costs.\n\nHHS plans to undergo reviews as part of the OMB Circular\
-      \ A–123 requirement in an effort to continue to establish and maintain proper\
-      \ internal controls and that requirements are met.  External audits by the GAO\
-      \ and OIG are other ways risks and issues are identified and resolved."
-    Mitigation_Strategy: app6_1
-  - Action_Taken: Completed
-    Action_Type: Training
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: HHS offered training to personnel and contractors on
-      conducting payment disbursement audits and reviews, including resolution, covering
-      federal laws and internal policies.
-    Mitigation_Strategy: atp3_1
-  - Action_Taken: Planned
-    Action_Type: Cross Enterprise Sharing
-    Completion_Date: FY2024
-    Description_Action_Taken: 'HHS employs a process of post-payment analysis for
-      in-depth review and investigation to identify potential payment errors, including
-      incorrect payment issued. This will help to enable the identification of potential
-      improper payments prior to testing.
-
-
-      HHS enhances records management to accommodate future payment methodology changes
-      and address post-payment review process issues.'
-    Mitigation_Strategy: app5_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2024
-    Description_Action_Taken: HHS plans to offer training to personnel and contractors
-      on conducting payment disbursement audits and reviews, including resolution,
-      covering federal laws and internal policies.
-    Mitigation_Strategy: app3_1
-  - Action_Taken: Completed
-    Action_Type: Cross Enterprise Sharing
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: 'HHS employed a process of post-payment analysis for
-      in-depth review and investigation to identify potential payment errors, including
-      incorrect payment issued. This helped enable the identification of potential
-      improper payments prior to testing.
-
-
-      HHS enhanced records management that accommodated future payment methodology
-      changes and addressed post-payment review process issues.'
-    Mitigation_Strategy: atp5_1
-  - Action_Taken: Planned
-    Action_Type: Predictive Analytics
-    Completion_Date: FY2024
-    Description_Action_Taken: HHS will continue to employ a system that flags anomalies
-      for in-depth analysis and investigation to rectify potential errors or clarify
-      why the anomaly is not an error.
-    Mitigation_Strategy: app7_1
-  - Action_Taken: Completed
-    Action_Type: Audit
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: "Recipients, in line with their fund receipt agreement,\
-      \ committed to cooperating in audits by HHS, HHS OIG, or the Pandemic Response\
-      \ Accountability Committee. They must also comply with audit requirements in\
-      \ 45 CFR 75 Subpart F. \n\nHHS established post-payment reviews, audit strategies,\
-      \ reporting, and system implementation and enhancements to support detective\
-      \ measures and payment integrity through repayment of inaccurate and improper\
-      \ payments.  HHS conducted audits of PRF payments using a risk-based approach\
-      \ and, to date, completed 11 audits.  HHS continued to resolve single and commercial\
-      \ audit findings associated with PRF and recovered disallowed costs.\n\nHHS\
-      \ underwent reviews as part of the OMB Circular A–123 requirement in effort\
-      \ to continue established and maintained proper internal control and that requirements\
-      \ are met.  External audits by the GAO and OIG are other ways risks and issues\
-      \ are identified and resolved."
-    Mitigation_Strategy: atp6_1
-  - Action_Taken: Completed
-    Action_Type: Automation
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: HHS updated its manual validation to ensure consistency
-      in applying calculations and determining outcomes. HHS worked on its robotic
-      process automation to enhance program integrity in post-payment reviews of PRF
-      applications that reduced manual data review and boosted efficiency, accuracy,
-      and quality that minimized human errors and identified improper payments through
-      internal controls.
-    Mitigation_Strategy: atp1_1
-  - Action_Taken: Completed
-    Action_Type: Predictive Analytics
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: HHS employed a system that flags anomalies for in-depth
-      analysis and investigation to rectify potential errors or clarify why the anomaly
-      is not an error.
-    Mitigation_Strategy: atp7_1
-  - Action_Taken: Completed
-    Action_Type: Change Process
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: "HHS established standardized practices for calculating\
-      \ payments and deductions, involving pay files, systems, and verified recipient\
-      \ eligibility and payment history through exploratory analysis.  HHS continued\
-      \ to implement means to record and track standards and guidelines throughout\
-      \ the program lifecycle to avoid confusion and alleviate discrepancies. \n\n\
-      HHS introduced pre-payment controls, including manual validation of high-dollar\
-      \ payments and additional peer reviewers, that identified and corrected errors\
-      \ before making payments.\n\nHHS made payment to a provider affected by the\
-      \ improper payment utilizing the correct data that resulted in correct total\
-      \ summed payments issued to the provider affected."
-    Mitigation_Strategy: atp4_1
-  - Action_Taken: Planned
     Action_Type: Automation
     Completion_Date: FY2024
     Description_Action_Taken: HHS continues making substantial updates to its manual
@@ -241,6 +120,128 @@ Data_By_Year:
       to monitor change in the application portal regarding provider-reported patient
       care revenue and were revisions are necessary.
     Mitigation_Strategy: app2_1
+  - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2024
+    Description_Action_Taken: HHS plans to offer training to personnel and contractors
+      on conducting payment disbursement audits and reviews, including resolution,
+      covering federal laws and internal policies.
+    Mitigation_Strategy: app3_1
+  - Action_Taken: Planned
+    Action_Type: Change Process
+    Completion_Date: FY2024
+    Description_Action_Taken: "HHS's establishment of standardized practices for calculating\
+      \ payments and deductions, involving pay files, systems, and verifying recipient\
+      \ eligibility and payment history through exploratory analysis remains.  Additionally,\
+      \ as the program matures, HHS continues to record and track standards and guidelines\
+      \ throughout the program lifecycle to avoid confusion and alleviate discrepancies.\
+      \ \n\nHHS has a robust risk management process to help identify threats, risks,\
+      \ vulnerabilities to the PRF program and implement controls to detect or prevent\
+      \ improper payments."
+    Mitigation_Strategy: app4_1
+  - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
+    Completion_Date: FY2024
+    Description_Action_Taken: 'HHS employs a process of post-payment analysis for
+      in-depth review and investigation to identify potential payment errors, including
+      incorrect payment issued. This will help to enable the identification of potential
+      improper payments prior to testing.
+
+
+      HHS enhances records management to accommodate future payment methodology changes
+      and address post-payment review process issues.'
+    Mitigation_Strategy: app5_1
+  - Action_Taken: Planned
+    Action_Type: Audit
+    Completion_Date: FY2024
+    Description_Action_Taken: "Recipients, in line with their fund receipt agreement,\
+      \ commit to cooperating in audits by HHS, HHS OIG, or the Pandemic Response\
+      \ Accountability Committee. They must also comply with audit requirements in\
+      \ 45 CFR 75 Subpart F. \n\nHHS has post-payment reviews, audit strategies, reporting,\
+      \ and system implementation and enhancements to support detective measures and\
+      \ payment integrity through repayment of inaccurate and improper payments. \
+      \  HHS is currently conducting audits of PRF payments using a risk-based approach\
+      \ and expects to complete the 35 pilot audits by January 2024.  HHS continues\
+      \ to resolve single and commercial audit findings associated with PRF and recover\
+      \ disallowed costs.\n\nHHS plans to undergo reviews as part of the OMB Circular\
+      \ A–123 requirement in an effort to continue to establish and maintain proper\
+      \ internal controls and that requirements are met.  External audits by the GAO\
+      \ and OIG are other ways risks and issues are identified and resolved."
+    Mitigation_Strategy: app6_1
+  - Action_Taken: Planned
+    Action_Type: Predictive Analytics
+    Completion_Date: FY2024
+    Description_Action_Taken: HHS will continue to employ a system that flags anomalies
+      for in-depth analysis and investigation to rectify potential errors or clarify
+      why the anomaly is not an error.
+    Mitigation_Strategy: app7_1
+  - Action_Taken: Completed
+    Action_Type: Automation
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: HHS updated its manual validation to ensure consistency
+      in applying calculations and determining outcomes. HHS worked on its robotic
+      process automation to enhance program integrity in post-payment reviews of PRF
+      applications that reduced manual data review and boosted efficiency, accuracy,
+      and quality that minimized human errors and identified improper payments through
+      internal controls.
+    Mitigation_Strategy: atp1_1
+  - Action_Taken: Completed
+    Action_Type: Training
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: HHS offered training to personnel and contractors on
+      conducting payment disbursement audits and reviews, including resolution, covering
+      federal laws and internal policies.
+    Mitigation_Strategy: atp3_1
+  - Action_Taken: Completed
+    Action_Type: Change Process
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: "HHS established standardized practices for calculating\
+      \ payments and deductions, involving pay files, systems, and verified recipient\
+      \ eligibility and payment history through exploratory analysis.  HHS continued\
+      \ to implement means to record and track standards and guidelines throughout\
+      \ the program lifecycle to avoid confusion and alleviate discrepancies. \n\n\
+      HHS introduced pre-payment controls, including manual validation of high-dollar\
+      \ payments and additional peer reviewers, that identified and corrected errors\
+      \ before making payments.\n\nHHS made payment to a provider affected by the\
+      \ improper payment utilizing the correct data that resulted in correct total\
+      \ summed payments issued to the provider affected."
+    Mitigation_Strategy: atp4_1
+  - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: 'HHS employed a process of post-payment analysis for
+      in-depth review and investigation to identify potential payment errors, including
+      incorrect payment issued. This helped enable the identification of potential
+      improper payments prior to testing.
+
+
+      HHS enhanced records management that accommodated future payment methodology
+      changes and addressed post-payment review process issues.'
+    Mitigation_Strategy: atp5_1
+  - Action_Taken: Completed
+    Action_Type: Audit
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: "Recipients, in line with their fund receipt agreement,\
+      \ committed to cooperating in audits by HHS, HHS OIG, or the Pandemic Response\
+      \ Accountability Committee. They must also comply with audit requirements in\
+      \ 45 CFR 75 Subpart F. \n\nHHS established post-payment reviews, audit strategies,\
+      \ reporting, and system implementation and enhancements to support detective\
+      \ measures and payment integrity through repayment of inaccurate and improper\
+      \ payments.  HHS conducted audits of PRF payments using a risk-based approach\
+      \ and, to date, completed 11 audits.  HHS continued to resolve single and commercial\
+      \ audit findings associated with PRF and recovered disallowed costs.\n\nHHS\
+      \ underwent reviews as part of the OMB Circular A–123 requirement in effort\
+      \ to continue established and maintained proper internal control and that requirements\
+      \ are met.  External audits by the GAO and OIG are other ways risks and issues\
+      \ are identified and resolved."
+    Mitigation_Strategy: atp6_1
+  - Action_Taken: Completed
+    Action_Type: Predictive Analytics
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: HHS employed a system that flags anomalies for in-depth
+      analysis and investigation to rectify potential errors or clarify why the anomaly
+      is not an error.
+    Mitigation_Strategy: atp7_1
   Agency_Needs_Satisfied: "HHS expects the tolerable rate to remain the same due to\
     \ internal controls, corrective actions and mitigations put in place, and the\
     \ reduction to future outlays as the program progressed.\n\nHHS established standardized\
@@ -332,6 +333,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: '0.32'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -365,26 +367,6 @@ Data_By_Year:
     Value: '22.310000'
 - Actions_Taken:
   - Action_Taken: Completed
-    Action_Type: Audit
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: 'Recipients, in line with their fund receipt agreement,
-      commit to cooperating in audits by HHS, HHS OIG, or the Pandemic Response Accountability
-      Committee. They must also comply with audit requirements in 45 CFR 75 Subpart
-      F.
-
-      HHS has post-payment reviews, audit strategies, reporting, and system implementation
-      and enhancements to support detective measures and payment integrity through
-      repayment of inaccurate and improper payments. HHS is currently conducting audits
-      of PRF payments using a risk-based approach and expects to complete the 35 pilot
-      audits by January 2024. HHS continues to resolve single and commercial audit
-      findings associated with PRF and recover disallowed costs.
-
-      HHS plans to undergo reviews as part of the OMB Circular A–123 requirement in
-      an effort to continue to establish and maintain proper internal controls and
-      that requirements are met. External audits by the GAO and OIG are other ways
-      risks and issues are identified and resolved.'
-    Mitigation_Strategy: atp6_1
-  - Action_Taken: Completed
     Action_Type: Automation
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'HRSA updated its manual validation to ensure consistency
@@ -416,13 +398,6 @@ Data_By_Year:
       '
     Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
-    Action_Type: Predictive Analytics
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: HRSA employed a system that flags anomalies for in-depth
-      analysis and investigation to rectify potential errors or clarify why the anomaly
-      is not an error.
-    Mitigation_Strategy: atp7_1
-  - Action_Taken: Completed
     Action_Type: Change Process
     Completion_Date: FY2024 Q4
     Description_Action_Taken: HRSA established standardized practices for calculating
@@ -448,6 +423,33 @@ Data_By_Year:
       future payment methodology changes and addressed post-payment review process
       issues.'
     Mitigation_Strategy: atp5_1
+  - Action_Taken: Completed
+    Action_Type: Audit
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: 'Recipients, in line with their fund receipt agreement,
+      commit to cooperating in audits by HHS, HHS OIG, or the Pandemic Response Accountability
+      Committee. They must also comply with audit requirements in 45 CFR 75 Subpart
+      F.
+
+      HHS has post-payment reviews, audit strategies, reporting, and system implementation
+      and enhancements to support detective measures and payment integrity through
+      repayment of inaccurate and improper payments. HHS is currently conducting audits
+      of PRF payments using a risk-based approach and expects to complete the 35 pilot
+      audits by January 2024. HHS continues to resolve single and commercial audit
+      findings associated with PRF and recover disallowed costs.
+
+      HHS plans to undergo reviews as part of the OMB Circular A–123 requirement in
+      an effort to continue to establish and maintain proper internal controls and
+      that requirements are met. External audits by the GAO and OIG are other ways
+      risks and issues are identified and resolved.'
+    Mitigation_Strategy: atp6_1
+  - Action_Taken: Completed
+    Action_Type: Predictive Analytics
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: HRSA employed a system that flags anomalies for in-depth
+      analysis and investigation to rectify potential errors or clarify why the anomaly
+      is not an error.
+    Mitigation_Strategy: atp7_1
   Agency_Needs_Satisfied: 'Compared to FY 2022, FY 2024 represents a substantial reduction
     both in terms of the improper payment rate (from 0.32% in to 0.06%) and the actual
     dollar amount of improper payments (from $409.48 million to $3.78 million). The
@@ -536,9 +538,9 @@ Data_By_Year:
     to identify and address weaknesses to ensure recovery of improper payments and
     to reduce the number of improper payments made by the Department.'
   IP_Current_Year_Plus_1_Amount: 1.03
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.000941470054
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0009414701
   IP_Unknown_Target_Rate: 0.0009
-  Improper_Payments_Rate: 0.0004861291
+  Improper_Payments_Rate: 0.00048613000000000004
   Insufficient_Documentation_to_Determine: 3.78
   Is_Lowest_IP_And_Unknown_Rate: 'Yes'
   Is_Tolerable_Why: HRSA expects the tolerable rate to remain the same due to internal
@@ -579,6 +581,8 @@ Data_By_Year:
     HRSA provider relief portal. HRSA DPI has reviewed Datamart and Salesforce to
     confirm the provider failed to report and are not in compliance.
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '0.09'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -628,7 +632,6 @@ Scorecard_Links: []
 Technically_Improper_Amounts: '[0, 0, 0]'
 Underpayment_Amounts: '[0, 22.31, 0.03]'
 Unknown_Amounts: '[0, 0, 3.78]'
-detail_Reduction_Target: '0.32'
 layout: program-specific
 permalink: program/hhs-health-resources-and-services-administration-hrsa-provid-5122b669
 ---

@@ -1,12 +1,260 @@
 ---
 Agency: SSA
 Agency_Name: Social Security Administration
+Confirmed_Fraud: null
+Eligibility_Themes: []
 Fiscal_Year: 2025
-Is_Placeholder: true
+Hide_Disposition_of_Funds: true
+Hide_Disposition_of_Funds_Table: true
+Hide_Do_Not_Pay: true
+Hide_Eligibility_Criteria: true
+Hide_Integrity_Results: false
+Hide_PIIA2019: false
+Hide_Recovery_Audits: true
+Hide_Recovery_Details: true
+Hide_Recovery_Info: false
+Hide_Risk_Assessment_Results: false
+Hide_Sparklines: false
+Hide_Supplemental_Info: false
+Hide_Supplemental_Payment_Integrity: true
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Improper_Payments_Rate_Max: 1.0
+Improper_Payments_Rate_Min: 0.6
+Improper_Payments_Rates: '[0.6248561918305873, 1.0279949455076165, 0.7481927772693413,
+  0.7551713963564128]'
+Is_Placeholder: false
+Overpayment_Amounts: '[6004.77487898, 11139.59845568, 8864.28466567, 9325.99178432]'
+Overpayment_Amounts_Identified: '[20132.22, 20670.31746522, 10049.0, 10491.0]'
+Overpayment_Amounts_Recovered: '[4073.59, 4279.44459147, 4922.0, 4940.0]'
+Overpayment_Years: '[2021, 2022, 2023, 2024]'
+PIIA2019_Compliant_Programs:
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Administrative Payments - Social Security Administration
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Analyzing Relationships between Disability, Rehabilitation, and Work
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Disability Insurance (DI)
+  Slug: ssa-disability-insurance-di
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Interventional Cooperative Agreement Program
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Old-Age and Survivors Insurance (OASI)
+  Slug: ssa-old-age-and-survivors-insurance-oasi
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Social Security - Work Incentives Planning and Assistance Program
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Social Security Research and Demonstration
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Social Security State Grants for Work Incentives Assistance to Disabled Beneficiaries
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Special Benefits for Certain World War II Veterans
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Strengthening Protections for Social Security Beneficiaries
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Supplemental Security Income (SSI)
+  Slug: ssa-supplemental-security-income-ssi
+PIIA2019_NonCompliant_Programs: []
+Payment_Accuracy_Amounts: '[1176393.1272190001, 1313537.8926168, 1402899.07614597,
+  1482928.2874917302]'
+Payment_Accuracy_Rate_Max: 99.4
+Payment_Accuracy_Rate_Min: 99.0
+Payment_Accuracy_Rates: '[99.37514380816941, 98.97200505449239, 99.25180722273066,
+  99.24482860364358]'
+Risks:
+  AdditionalInformation: null
+  Assessments:
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Administrative Payments - Social Security Administration
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Analyzing Relationships between Disability, Rehabilitation, and
+      Work
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Disability Insurance (DI)
+    Slug: ssa-disability-insurance-di
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Interventional Cooperative Agreement Program
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Old-Age and Survivors Insurance (OASI)
+    Slug: ssa-old-age-and-survivors-insurance-oasi
+    Susceptible: null
+  - Fiscal_Year: 2024
+    MethodologyChanged: 0
+    Program_Name: Social Security - Work Incentives Planning and Assistance Program
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Social Security Research and Demonstration
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Social Security State Grants for Work Incentives Assistance to Disabled
+      Beneficiaries
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Special Benefits for Certain World War II Veterans
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Strengthening Protections for Social Security Beneficiaries
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Supplemental Security Income (SSI)
+    Slug: ssa-supplemental-security-income-ssi
+    Susceptible: null
+  SubstantialChangesMade: null
+Technically_Improper_Amounts: '[0, 0, 0, 0]'
+Underpayment_Amounts: '[1392.21094062, 2503.75769942, 1711.23013231, 1957.87097526]'
+Unknown_Amounts: '[0, 0, 0, 0]'
+Unknown_Payments_Rate_Max: 0
+Unknown_Payments_Rate_Min: 0
+Unknown_Payments_Rates: '[0, 0, 0, 0]'
 Years_Available:
+- 2025
 - 2024
 - 2023
 - 2022
+detail_Additional_IP_Information: null
+detail_Compliance_Status: null
+detail_DNP_Discussion: null
+detail_DNP_Frequency_Identify: null
+detail_DNP_Reduced: null
+detail_Executive_Summary: null
+detail_OIG_Recommendations: null
+detail_PIIA_Incentives: null
+detail_PIIA_Official: null
+detail_Recovery_Audits_Skipped: null
+detail_Recovery_Justifications_Audits: null
+detail_Recovery_Not_Cost_Effective_Justification: null
+detail_Risks_Substantial_Changes_Made: null
 layout: agency-specific
 permalink: agency/SSA.html
 ---

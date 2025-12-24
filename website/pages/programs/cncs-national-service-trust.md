@@ -34,6 +34,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 0.0
   Program_Design_or_Structural_Issue: 0.0
   Year: 2022
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -166,7 +167,7 @@ Data_By_Year:
     action planning. Reduction in improper payments may be included in performance
     conversations for those accountable for the reduction.
   IP_Current_Year_Plus_1_Amount: 0
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.031511616969
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.031511617
   IP_Unknown_Target_Rate: 0
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 3.35
@@ -230,6 +231,8 @@ Data_By_Year:
     \ determination as to whether the payment was proper or improper was not able\
     \ to be made.\n"
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '0.0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -271,7 +274,6 @@ Scorecard_Links: []
 Technically_Improper_Amounts: '[0, 0]'
 Underpayment_Amounts: '[0, 0]'
 Unknown_Amounts: '[0, 3.35]'
-detail_Reduction_Target: null
 layout: program-specific
 permalink: program/cncs-national-service-trust
 ---

@@ -69,31 +69,6 @@ ProgramSurveyData:
   Program: Departmental Offices - Pandemic Relief for Aviation Workers
   SortOrder: 1
 - ActionsTaken:
-  - Action_Taken: Completed
-    Action_Type: Change Process
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: The IRS held its annual Dependent Database (DDb) meeting
-      with stakeholders in Taxpayer Services, Small Business & Self Employed, and
-      IT divisions, to evaluate the effectiveness of prior-year compliance filters
-      and enhance future filters for audit selection of returns claiming the Additional
-      Child Tax Credit (ACTC) and to identify improvement opportunities for next filing
-      season. This process involves analyzing data from prior years to fine-tune criteria
-      used to flag potentially erroneous returns. For example, patterns from prior
-      filing seasons can reveal common errors, and by refining the IRS filters, the
-      IRS can better prioritize returns with higher likelihoods of errors and prevent
-      improper payments by intervening earlier in the process. Due to the taxpayer’s
-      misrepresentation or misunderstanding of key points of eligibility requirements,
-      especially for self-employment or other income not reported to the IRS by third-parties,
-      and reliance on taxpayer self-certification, errors (both unintentional and
-      intentional) can occur. The annual Dependent Database (DDb) meeting helps to
-      mitigate the refundable tax credits improper payment primary root causes (1)
-      data/information needed does not exist at the point of return filing and (2)
-      inability to access data/information at the time the return is filed. Improved
-      compliance filters can identify non-compliance issues after returns are filed
-      but before payments are issued, helping to reduce improper payments. The primary
-      result of this effort enhances allocating resources to areas in which errors
-      are most likely to occur.
-    Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
     Action_Type: Change Process
     Completion_Date: FY2025
@@ -143,6 +118,31 @@ ProgramSurveyData:
       IRS will correct payment accuracy issues without substantially increasing the
       burden on taxpayers and the IRS.
     Mitigation_Strategy: app5_1
+  - Action_Taken: Completed
+    Action_Type: Change Process
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: The IRS held its annual Dependent Database (DDb) meeting
+      with stakeholders in Taxpayer Services, Small Business & Self Employed, and
+      IT divisions, to evaluate the effectiveness of prior-year compliance filters
+      and enhance future filters for audit selection of returns claiming the Additional
+      Child Tax Credit (ACTC) and to identify improvement opportunities for next filing
+      season. This process involves analyzing data from prior years to fine-tune criteria
+      used to flag potentially erroneous returns. For example, patterns from prior
+      filing seasons can reveal common errors, and by refining the IRS filters, the
+      IRS can better prioritize returns with higher likelihoods of errors and prevent
+      improper payments by intervening earlier in the process. Due to the taxpayer’s
+      misrepresentation or misunderstanding of key points of eligibility requirements,
+      especially for self-employment or other income not reported to the IRS by third-parties,
+      and reliance on taxpayer self-certification, errors (both unintentional and
+      intentional) can occur. The annual Dependent Database (DDb) meeting helps to
+      mitigate the refundable tax credits improper payment primary root causes (1)
+      data/information needed does not exist at the point of return filing and (2)
+      inability to access data/information at the time the return is filed. Improved
+      compliance filters can identify non-compliance issues after returns are filed
+      but before payments are issued, helping to reduce improper payments. The primary
+      result of this effort enhances allocating resources to areas in which errors
+      are most likely to occur.
+    Mitigation_Strategy: atp4_1
   - Action_Taken: Completed
     Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024 Q4
@@ -385,51 +385,6 @@ ProgramSurveyData:
   Program: Internal Revenue Service - Additional Child Tax Credit
   SortOrder: 2
 - ActionsTaken:
-  - Action_Taken: Completed
-    Action_Type: Training
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: The IRS educated tax professionals on their due diligence
-      requirements regarding the American Opportunity Tax Credit (AOTC). This training
-      was delivered through prominent venues, including the annual IRS Nationwide
-      Tax Forums and the Latino Tax Fest. These events provided a platform for the
-      IRS to reach a broad audience of tax preparers, helping them understand their
-      obligations when assisting taxpayers in claiming the AOTC. The training focused
-      on specific key due diligence requirements, such as verifying that educational
-      expenses being claimed were eligible for the credit, ensuring that the taxpayer
-      or their dependent was enrolled in a qualifying educational institution and
-      understanding the income limits associated with the credit. The IRS is investing
-      in outreach and education of tax preparers and taxpayers, in lieu of conducting
-      additional pre-refund audits. An additional root cause of AOTC improper payments
-      is misunderstanding of the eligibility criteria for the credit. Because tax
-      preparers assist in filing returns claiming RTCs, any lack of awareness or lack
-      of oversight at the preparer level has a cascading effect on improper payments.
-      Training addresses this root cause by equipping tax professionals with knowledge
-      to claim RTCs accurately.
-    Mitigation_Strategy: atp3_1
-  - Action_Taken: Completed
-    Action_Type: Change Process
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: The IRS held its annual Dependent Database (DDb) meeting
-      with stakeholders in Taxpayer Services, Small Business & Self Employed, and
-      IT divisions, to evaluate the effectiveness of prior-year compliance filters
-      and enhance future filters for audit selection of returns claiming the American
-      Opportunity Tax Credit (AOTC) and to identify improvement opportunities for
-      next filing season. This process involves analyzing data from prior years to
-      fine-tune criteria used to flag potentially erroneous returns. For example,
-      patterns from prior filing seasons can reveal common errors, and by refining
-      the IRS filters the IRS can better prioritize returns with higher likelihoods
-      of errors and prevent improper payments by intervening earlier in the process.
-      As mentioned throughout the IRS's history of refundable tax credit management,
-      the primary root causes of improper payments of refundable tax credits (RTCs)
-      are reliance on taxpayer self-certification of an accurate return and the lack
-      of a pre-approval process. Because taxpayers are not required to prove their
-      eligibility for RTCs upfront (as would be the case with a traditional payment
-      program), errors can occur due to taxpayer misrepresentation or misunderstanding
-      of key point of eligibility. Improved audit selection filters can catch these
-      issues after returns are filed but before payments are issued, helping to reduce
-      improper payments. The primary result of this approach is enhanced targeting
-      of resources to areas in which errors are most likely to occur.
-    Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
     Action_Type: Training
     Completion_Date: FY2025
@@ -480,6 +435,51 @@ ProgramSurveyData:
       which they are eligible, the IRS will correct payment accuracy issues without
       substantially increasing the burden on taxpayers and the IRS.
     Mitigation_Strategy: app4_1
+  - Action_Taken: Completed
+    Action_Type: Training
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: The IRS educated tax professionals on their due diligence
+      requirements regarding the American Opportunity Tax Credit (AOTC). This training
+      was delivered through prominent venues, including the annual IRS Nationwide
+      Tax Forums and the Latino Tax Fest. These events provided a platform for the
+      IRS to reach a broad audience of tax preparers, helping them understand their
+      obligations when assisting taxpayers in claiming the AOTC. The training focused
+      on specific key due diligence requirements, such as verifying that educational
+      expenses being claimed were eligible for the credit, ensuring that the taxpayer
+      or their dependent was enrolled in a qualifying educational institution and
+      understanding the income limits associated with the credit. The IRS is investing
+      in outreach and education of tax preparers and taxpayers, in lieu of conducting
+      additional pre-refund audits. An additional root cause of AOTC improper payments
+      is misunderstanding of the eligibility criteria for the credit. Because tax
+      preparers assist in filing returns claiming RTCs, any lack of awareness or lack
+      of oversight at the preparer level has a cascading effect on improper payments.
+      Training addresses this root cause by equipping tax professionals with knowledge
+      to claim RTCs accurately.
+    Mitigation_Strategy: atp3_1
+  - Action_Taken: Completed
+    Action_Type: Change Process
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: The IRS held its annual Dependent Database (DDb) meeting
+      with stakeholders in Taxpayer Services, Small Business & Self Employed, and
+      IT divisions, to evaluate the effectiveness of prior-year compliance filters
+      and enhance future filters for audit selection of returns claiming the American
+      Opportunity Tax Credit (AOTC) and to identify improvement opportunities for
+      next filing season. This process involves analyzing data from prior years to
+      fine-tune criteria used to flag potentially erroneous returns. For example,
+      patterns from prior filing seasons can reveal common errors, and by refining
+      the IRS filters the IRS can better prioritize returns with higher likelihoods
+      of errors and prevent improper payments by intervening earlier in the process.
+      As mentioned throughout the IRS's history of refundable tax credit management,
+      the primary root causes of improper payments of refundable tax credits (RTCs)
+      are reliance on taxpayer self-certification of an accurate return and the lack
+      of a pre-approval process. Because taxpayers are not required to prove their
+      eligibility for RTCs upfront (as would be the case with a traditional payment
+      program), errors can occur due to taxpayer misrepresentation or misunderstanding
+      of key point of eligibility. Improved audit selection filters can catch these
+      issues after returns are filed but before payments are issued, helping to reduce
+      improper payments. The primary result of this approach is enhanced targeting
+      of resources to areas in which errors are most likely to occur.
+    Mitigation_Strategy: atp4_1
   ActionsTakenAdditionalData:
     Accountability: "The IRS has a strong internal control environment around refundable\
       \ credit programs administered and makes decisions based on overall cost-benefit\

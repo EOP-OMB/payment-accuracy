@@ -16,7 +16,7 @@ SELECT DISTINCT
     Column_values,
     [key_map].[Name]
 FROM principal_table_columns
-JOIN key_map ON principal_table_columns.Column_names = key_map.[Key]
+JOIN key_map ON LOWER(principal_table_columns.Column_names) = LOWER(key_map.[Key])
 WHERE Program_Name = ? AND Fiscal_Year <= ? AND Fiscal_Year >= ? AND
     Column_values IS NOT NULL AND
     Column_values <> '' AND

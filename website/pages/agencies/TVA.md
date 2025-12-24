@@ -1,11 +1,150 @@
 ---
 Agency: TVA
 Agency_Name: Tennessee Valley Authority
+Confirmed_Fraud: null
+Eligibility_Themes: []
 Fiscal_Year: 2025
-Is_Placeholder: true
+Hide_Disposition_of_Funds: false
+Hide_Disposition_of_Funds_Table: true
+Hide_Do_Not_Pay: false
+Hide_Eligibility_Criteria: true
+Hide_Integrity_Results: true
+Hide_PIIA2019: false
+Hide_Recovery_Audits: false
+Hide_Recovery_Details: false
+Hide_Recovery_Info: false
+Hide_Risk_Assessment_Results: false
+Hide_Sparklines: true
+Hide_Supplemental_Info: false
+Hide_Supplemental_Payment_Integrity: false
+Improper_Payments_Data_Years: '[]'
+Improper_Payments_Rate_Max: 0
+Improper_Payments_Rate_Min: 0
+Improper_Payments_Rates: '[]'
+Is_Placeholder: false
+Overpayment_Amounts: '[]'
+Overpayment_Amounts_Identified: '[3.5, 11.37, 1.45]'
+Overpayment_Amounts_Recovered: '[3.42, 11.18, 1.41]'
+Overpayment_Years: '[2023, 2024, 2025]'
+PIIA2019_Compliant_Programs:
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Charge Card Program– Tennessee Valley Authority
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Payroll Program – Tennessee Valley Authority
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Supply Chain
+PIIA2019_NonCompliant_Programs: []
+Payment_Accuracy_Amounts: '[]'
+Payment_Accuracy_Rate_Max: 0
+Payment_Accuracy_Rate_Min: 0
+Payment_Accuracy_Rates: '[]'
+Risks:
+  AdditionalInformation: null
+  Assessments:
+  - Fiscal_Year: 2024
+    MethodologyChanged: 0
+    Program_Name: Charge Card Program - Tennessee Valley Authority
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Charge Card Program– Tennessee Valley Authority
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: 2024
+    MethodologyChanged: 0
+    Program_Name: Payroll Program - Tennessee Valley Authority
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Payroll Program – Tennessee Valley Authority
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: 2025
+    MethodologyChanged: 0
+    Program_Name: Supply Chain
+    Slug: null
+    Susceptible: 'No'
+  SubstantialChangesMade: 'No'
+Technically_Improper_Amounts: '[]'
+Underpayment_Amounts: '[]'
+Unknown_Amounts: '[]'
+Unknown_Payments_Rate_Max: 0
+Unknown_Payments_Rate_Min: 0
+Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2025
 - 2024
 - 2023
+detail_Additional_IP_Information: Tennessee Valley Authority is subject to Sarbanes-Oxley
+  requirements and maintains an extensive control environment which is audited regularly
+  by internal and external auditors. Our financial statements are filed with the Securities
+  and Exchange Commission, and our external auditor provides an opinion on whether
+  the financial statements are presented in conformity with U.S. GAAP.  Additionally,
+  the Office of Inspector General audits the work of the external auditor.
+detail_Compliance_Status: Compliant
+detail_DNP_Discussion: The Tennessee Valley Authority currently does not utilize the
+  Do Not Pay Initiative as part of its processes.
+detail_DNP_Frequency_Identify: null
+detail_DNP_Reduced: null
+detail_Executive_Summary: Consistent with the Payment Integrity Information Act of
+  2019, the Tennessee Valley Authority has determined that none of its programs or
+  activities are susceptible to significant improper payments.
+detail_OIG_Recommendations: null
+detail_PIIA_Incentives: null
+detail_PIIA_Official: null
+detail_Recovery_Audits_Skipped: 'Yes'
+detail_Recovery_Justifications_Audits: null
+detail_Recovery_Not_Cost_Effective_Justification: For Payroll, management reviews
+  and approves all time changes prior to payments being made. Additionally, the program's
+  strong control environment precludes significant overpayments. Regarding the Credit
+  Card Program, the agency leverages controls to help prevent overpayments. Merchant
+  Category Codes manage where the credit card can be utilized. The credit card also
+  maintains two different spend controls. The first is on the transaction, and the
+  second is on the card's total available spend. Finally, the agency's account has
+  a maximum spend threshold at the contract level, which is managed by the credit
+  card merchant.
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/TVA.html
+recovery_Aging_of_Outstanding_OP_Identified_Amt_0_-_6_months: 0.0
+recovery_Aging_of_Outstanding_OP_Identified_Amt_6_months_to_1_year: 0.02
+recovery_Aging_of_Outstanding_OP_Identified_determined_not_collectable: 0.0
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.52
+recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 0.93
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.51
+recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.9
+recovery_Total_Overpayment_Amount_Identified: 1.45
+recovery_Total_Overpayment_Amount_Recovered: 1.41
 ---

@@ -34,6 +34,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 0.0
   Program_Design_or_Structural_Issue: 0.0
   Year: 2022
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -57,6 +58,14 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
+    Completion_Date: FY2023
+    Description_Action_Taken: TRSUI calculates the provider distribution amounts based
+      upon the minutes submitted and the current rate in the database. Calculations
+      are randomly checked by signers when reviewing distribution documents. TRS will
+      continue to rely on the system calculations unless errors arise.
+    Mitigation_Strategy: app1_1
+  - Action_Taken: Planned
     Action_Type: Training
     Completion_Date: FY2023
     Description_Action_Taken: A discussion took place with the process owner of the
@@ -68,13 +77,12 @@ Data_By_Year:
       to ensure signers recalculate any calculations a 2nd and 3rd time.
     Mitigation_Strategy: app3_1
   - Action_Taken: Planned
-    Action_Type: Automation
+    Action_Type: Audit
     Completion_Date: FY2023
-    Description_Action_Taken: TRSUI calculates the provider distribution amounts based
-      upon the minutes submitted and the current rate in the database. Calculations
-      are randomly checked by signers when reviewing distribution documents. TRS will
-      continue to rely on the system calculations unless errors arise.
-    Mitigation_Strategy: app1_1
+    Description_Action_Taken: Provider Distribution Process documentation was updated
+      for the item discussed in ATP3_1. Future internal control audits and PIIA reporting
+      will include this as a note for any manual calculations being performed.
+    Mitigation_Strategy: app6_1
   - Action_Taken: Completed
     Action_Type: Training
     Completion_Date: FY2023 Q3
@@ -93,13 +101,6 @@ Data_By_Year:
       for the item discussed in ATP3_1. Future internal control audits and PIIA reporting
       will include this as a note for any manual calculations being performed.
     Mitigation_Strategy: atp6_1
-  - Action_Taken: Planned
-    Action_Type: Audit
-    Completion_Date: FY2023
-    Description_Action_Taken: Provider Distribution Process documentation was updated
-      for the item discussed in ATP3_1. Future internal control audits and PIIA reporting
-      will include this as a note for any manual calculations being performed.
-    Mitigation_Strategy: app6_1
   Agency_Needs_Satisfied: The error found was a result of manual intervention which
     is rare in the regular course business. TRS has adequate systems, human capital
     and internal controls over this process. The changes implemented will help to
@@ -161,6 +162,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: '0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -209,7 +211,6 @@ Scorecard_Links: []
 Technically_Improper_Amounts: '[0, 0]'
 Underpayment_Amounts: '[0, 5e-05]'
 Unknown_Amounts: '[0, 0]'
-detail_Reduction_Target: '0'
 layout: program-specific
 permalink: program/fcc-telecommunications-relay-service
 ---

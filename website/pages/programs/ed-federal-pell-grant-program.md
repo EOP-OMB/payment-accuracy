@@ -118,6 +118,7 @@ Data_By_Year:
 
     '
   Year: 2022
+  detail_Reduction_Target: '2.24'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -152,18 +153,6 @@ Data_By_Year:
     Underpayments_Amount: '147.49'
 - Actions_Taken:
   - Action_Taken: Planned
-    Action_Type: Audit
-    Completion_Date: FY2024
-    Description_Action_Taken: FSA will also continue to review the annual Single Audit
-      Act compliance audits of schools performed by independent auditors to evaluate
-      schools’ administration of FSA programs. For deficiencies identified by the
-      auditors, schools are required to develop corrective action plans. FSA will
-      continue to review and evaluate the effectiveness of schools’ corrective actions
-      and mitigation efforts for noted exceptions. When an improper payment is detected
-      and deemed collectable, FSA will establish an account receivable and pursue
-      collection.
-    Mitigation_Strategy: app6_1
-  - Action_Taken: Planned
     Action_Type: Automation
     Completion_Date: FY2025
     Description_Action_Taken: To prevent IPs and UPs, FSA will continue to maintain
@@ -175,47 +164,6 @@ Data_By_Year:
       data directly from the IRS. Obtaining this data will prevent improper payments
       resulting from the applicant misreporting their income on the FAFSA.
     Mitigation_Strategy: app1_1
-  - Action_Taken: Completed
-    Action_Type: Automation
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: To prevent IPs and UPs, FSA maintains a robust internal
-      control framework which includes computer matches performed in FSA systems against
-      external sources during the aid delivery process and promoting the IRS Data
-      Retrieval Tool (DRT) which remains the fastest, most accurate way to input tax
-      return information into the FAFSA form. FSA also continues to pursue long term
-      corrective actions. For example, FSA is working to implement the authorities
-      provided in the FUTURE Act to obtain federal tax information data directly from
-      the IRS. Obtaining this data will prevent improper payments resulting from the
-      applicant misreporting their income on the FAFSA.
-    Mitigation_Strategy: atp1_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2024
-    Description_Action_Taken: 'FSA will continue to publish and deliver various free
-      trainings, guidance, and resources for school financial aid administrators to
-      target the root causes of IPs and UPs and other frequently identified compliance
-      issues. For example, FSA will continue to publish updates to questions and answers
-      about verification requirements to help clarify verification requirements and
-      reduce the risk of verification deficiencies.
-
-
-      FSA will also continue to annually host the FSA Training Conference and analyze
-      the attendance patterns of institutions and their stakeholders, which will allow
-      FSA to understand attendance trends and develop training content accordingly.
-      FSA will ensure many offices within FSA continue to collectively participate
-      to ensure key objects and milestones are met.'
-    Mitigation_Strategy: app3_1
-  - Action_Taken: Completed
-    Action_Type: Audit
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: FSA reviews the annual Single Audit Act compliance audits
-      of schools performed by independent auditors to evaluate schools’ administration
-      of FSA programs. For deficiencies identified by the auditors, schools are required
-      to develop corrective action plans. FSA reviews and evaluates the effectiveness
-      of schools’ corrective actions and mitigation efforts for noted exceptions.
-      When an improper payment is detected and deemed collectable, FSA establishes
-      an account receivable and pursues collection.
-    Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
     Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2024
@@ -233,13 +181,22 @@ Data_By_Year:
       this outreach.'
     Mitigation_Strategy: app2_1
   - Action_Taken: Planned
-    Action_Type: Cross Enterprise Sharing
-    Completion_Date: FY2025
-    Description_Action_Taken: FSA will continue to work with Treasury to implement
-      the authorities provided in the FUTURE Act that will allow FSA to obtain income
-      data directly from the IRS. The cross-enterprise sharing of data will improve
-      verification of applicants’ and borrowers’ income data.
-    Mitigation_Strategy: app5_1
+    Action_Type: Training
+    Completion_Date: FY2024
+    Description_Action_Taken: 'FSA will continue to publish and deliver various free
+      trainings, guidance, and resources for school financial aid administrators to
+      target the root causes of IPs and UPs and other frequently identified compliance
+      issues. For example, FSA will continue to publish updates to questions and answers
+      about verification requirements to help clarify verification requirements and
+      reduce the risk of verification deficiencies.
+
+
+      FSA will also continue to annually host the FSA Training Conference and analyze
+      the attendance patterns of institutions and their stakeholders, which will allow
+      FSA to understand attendance trends and develop training content accordingly.
+      FSA will ensure many offices within FSA continue to collectively participate
+      to ensure key objects and milestones are met.'
+    Mitigation_Strategy: app3_1
   - Action_Taken: Planned
     Action_Type: Change Process
     Completion_Date: FY2025
@@ -260,13 +217,25 @@ Data_By_Year:
       student aid eligibility.
     Mitigation_Strategy: app4_1
   - Action_Taken: Planned
-    Action_Type: Statutory Change
+    Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2025
-    Description_Action_Taken: FSA will continue to implement the authorities provided
-      in the FUTURE Act to obtain federal tax information data directly from the IRS.
-      Obtaining this data will prevent improper payments resulting from the applicant
-      misreporting their income on the FAFSA.
-    Mitigation_Strategy: app8_1
+    Description_Action_Taken: FSA will continue to work with Treasury to implement
+      the authorities provided in the FUTURE Act that will allow FSA to obtain income
+      data directly from the IRS. The cross-enterprise sharing of data will improve
+      verification of applicants’ and borrowers’ income data.
+    Mitigation_Strategy: app5_1
+  - Action_Taken: Planned
+    Action_Type: Audit
+    Completion_Date: FY2024
+    Description_Action_Taken: FSA will also continue to review the annual Single Audit
+      Act compliance audits of schools performed by independent auditors to evaluate
+      schools’ administration of FSA programs. For deficiencies identified by the
+      auditors, schools are required to develop corrective action plans. FSA will
+      continue to review and evaluate the effectiveness of schools’ corrective actions
+      and mitigation efforts for noted exceptions. When an improper payment is detected
+      and deemed collectable, FSA will establish an account receivable and pursue
+      collection.
+    Mitigation_Strategy: app6_1
   - Action_Taken: Planned
     Action_Type: Predictive Analytics
     Completion_Date: FY2024
@@ -275,23 +244,27 @@ Data_By_Year:
       financial aid. In FY24, FSA will assess and revise as necessary its verification
       model and guidance.
     Mitigation_Strategy: app7_1
-  - Action_Taken: Completed
-    Action_Type: Cross Enterprise Sharing
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: FSA continues to work with Treasury to implement the
-      authorities provided in the FUTURE Act that will allow FSA to obtain income
-      data directly from the IRS. The cross-enterprise sharing of data will improve
-      verification of applicants’ and borrowers’ income data.
-    Mitigation_Strategy: atp5_1
-  - Action_Taken: Completed
+  - Action_Taken: Planned
     Action_Type: Statutory Change
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: FSA is working to implement the authorities provided
+    Completion_Date: FY2025
+    Description_Action_Taken: FSA will continue to implement the authorities provided
       in the FUTURE Act to obtain federal tax information data directly from the IRS.
       Obtaining this data will prevent improper payments resulting from the applicant
-      misreporting their income on the FAFSA as FSA will be able to populate income
-      data on the FAFSA with the federal tax information obtained by the IRS.
-    Mitigation_Strategy: atp8_1
+      misreporting their income on the FAFSA.
+    Mitigation_Strategy: app8_1
+  - Action_Taken: Completed
+    Action_Type: Automation
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: To prevent IPs and UPs, FSA maintains a robust internal
+      control framework which includes computer matches performed in FSA systems against
+      external sources during the aid delivery process and promoting the IRS Data
+      Retrieval Tool (DRT) which remains the fastest, most accurate way to input tax
+      return information into the FAFSA form. FSA also continues to pursue long term
+      corrective actions. For example, FSA is working to implement the authorities
+      provided in the FUTURE Act to obtain federal tax information data directly from
+      the IRS. Obtaining this data will prevent improper payments resulting from the
+      applicant misreporting their income on the FAFSA.
+    Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
     Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2023 Q4
@@ -311,18 +284,6 @@ Data_By_Year:
       to help clarify verification requirements and reduce the risk of verification
       deficiencies.
     Mitigation_Strategy: atp3_1
-  - Action_Taken: Completed
-    Action_Type: Predictive Analytics
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: "The FSA Central Processing System performs analytics\
-      \ to determine which applicants should be flagged for verification prior to\
-      \ receiving financial aid. FSA annually assesses and revises its verification\
-      \ model. \nFSA estimates IPs and UPs for the Pell Grant program by using R Code.\
-      \ As part of using R, FSA is able to perform analysis on prior year results\
-      \ to better understand expected IP and UP results. Further, FSA uses logarithmic\
-      \ analysis to predict future rates and establish a tolerable rate and reduction\
-      \ target in accordance with OMB Circular A- 123, Appendix C guidance."
-    Mitigation_Strategy: atp7_1
   - Action_Taken: Completed
     Action_Type: Change Process
     Completion_Date: FY2023 Q4
@@ -352,6 +313,46 @@ Data_By_Year:
       \ that schools continue to stay compliant with these requirements. For any deficiencies\
       \ identified, FSA monitors corrective actions taken by schools."
     Mitigation_Strategy: atp4_1
+  - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: FSA continues to work with Treasury to implement the
+      authorities provided in the FUTURE Act that will allow FSA to obtain income
+      data directly from the IRS. The cross-enterprise sharing of data will improve
+      verification of applicants’ and borrowers’ income data.
+    Mitigation_Strategy: atp5_1
+  - Action_Taken: Completed
+    Action_Type: Audit
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: FSA reviews the annual Single Audit Act compliance audits
+      of schools performed by independent auditors to evaluate schools’ administration
+      of FSA programs. For deficiencies identified by the auditors, schools are required
+      to develop corrective action plans. FSA reviews and evaluates the effectiveness
+      of schools’ corrective actions and mitigation efforts for noted exceptions.
+      When an improper payment is detected and deemed collectable, FSA establishes
+      an account receivable and pursues collection.
+    Mitigation_Strategy: atp6_1
+  - Action_Taken: Completed
+    Action_Type: Predictive Analytics
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: "The FSA Central Processing System performs analytics\
+      \ to determine which applicants should be flagged for verification prior to\
+      \ receiving financial aid. FSA annually assesses and revises its verification\
+      \ model. \nFSA estimates IPs and UPs for the Pell Grant program by using R Code.\
+      \ As part of using R, FSA is able to perform analysis on prior year results\
+      \ to better understand expected IP and UP results. Further, FSA uses logarithmic\
+      \ analysis to predict future rates and establish a tolerable rate and reduction\
+      \ target in accordance with OMB Circular A- 123, Appendix C guidance."
+    Mitigation_Strategy: atp7_1
+  - Action_Taken: Completed
+    Action_Type: Statutory Change
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: FSA is working to implement the authorities provided
+      in the FUTURE Act to obtain federal tax information data directly from the IRS.
+      Obtaining this data will prevent improper payments resulting from the applicant
+      misreporting their income on the FAFSA as FSA will be able to populate income
+      data on the FAFSA with the federal tax information obtained by the IRS.
+    Mitigation_Strategy: atp8_1
   Agency_Needs_Satisfied: 'FSA has the internal controls, human capital, and information
     systems and other infrastructure needed to reduce IPs and UPs to the tolerable
     rate. FSA continues to implement a multi-year corrective action plan to implement
@@ -523,6 +524,7 @@ Data_By_Year:
     supplemental compliance audit information, which reduced the possibility of unknown
     payments in audits for fiscal years ending in 2020 and later.'
   Year: 2023
+  detail_Reduction_Target: '2.82'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -597,6 +599,50 @@ Data_By_Year:
     Value: '229.200000'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
+    Completion_Date: FY2025
+    Description_Action_Taken: 'To prevent IPs and UPs, FSA will continue to maintain
+      a robust internal control framework which includes computer matches performed
+      in FSA systems against external sources during the aid delivery process. FSA
+      will also continue to pursue long term corrective actions. For example, FSA
+      will continue to work to implement the authorities provided in the FUTURE Act
+      to obtain federal tax information data directly from the IRS. Obtaining this
+      data will prevent improper payments resulting from the applicant misreporting
+      their income on the FAFSA.
+
+      '
+    Mitigation_Strategy: app1_1
+  - Action_Taken: Planned
+    Action_Type: Behavioral/Psych Influence
+    Completion_Date: FY2025
+    Description_Action_Taken: 'FSA will continue to perform a variety of general public
+      awareness campaigns, training, and other outreach to the community including
+      to prospective students and parents to help ensure applicants are aware of the
+      importance of completing the FAFSA and correctly reporting all relevant information.
+      FSA will continue to consider Behavioral/Psych Influence in designing this outreach.
+
+      '
+    Mitigation_Strategy: app2_1
+  - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2025
+    Description_Action_Taken: 'FSA will continue to publish and deliver various free
+      trainings, guidance, and resources for school financial aid administrators to
+      target the root causes of IPs and UPs and other frequently identified compliance
+      issues. For example, FSA will continue to publish updates to questions and answers
+      about verification requirements to help clarify verification requirements and
+      reduce the risk of verification deficiencies.
+
+
+      FSA will also continue to annually host the FSA Training Conference and analyze
+      the attendance patterns of institutions and their stakeholders, which will allow
+      FSA to understand attendance trends and develop training content accordingly.
+      FSA will ensure many offices within FSA continue to collectively participate
+      to ensure key objects and milestones are met.
+
+      '
+    Mitigation_Strategy: app3_1
+  - Action_Taken: Planned
     Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: Through the Student Aid and Borrower Eligibility (SABER)
@@ -614,6 +660,82 @@ Data_By_Year:
       families have to answer on the FAFSA form and requiring ED to conduct early
       awareness and outreach of student aid eligibility.
     Mitigation_Strategy: app4_1
+  - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
+    Completion_Date: FY2025
+    Description_Action_Taken: FSA will continue to work with Treasury to implement
+      the authorities provided in the FUTURE Act that will allow FSA to obtain income
+      data directly from the IRS. The cross-enterprise sharing of data will continue
+      to improve verification of applicants’ and borrowers’ income data.
+    Mitigation_Strategy: app5_1
+  - Action_Taken: Planned
+    Action_Type: Audit
+    Completion_Date: FY2025
+    Description_Action_Taken: 'FSA will also continue to review the annual Single
+      Audit Act compliance audits of schools performed by independent auditors to
+      evaluate schools’ administration of FSA programs. For deficiencies identified
+      by the auditors, schools are required to develop corrective action plans. FSA
+      will continue to review and evaluate the effectiveness of schools’ corrective
+      actions and mitigation efforts for noted exceptions. When an improper payment
+      is detected and deemed collectable, FSA will establish an account receivable
+      and pursue collection.
+
+      '
+    Mitigation_Strategy: app6_1
+  - Action_Taken: Planned
+    Action_Type: Predictive Analytics
+    Completion_Date: FY2025
+    Description_Action_Taken: 'The FAFSA Processing System performs analytics to determine
+      which applicants should be flagged for verification prior to receiving financial
+      aid. In FY25, FSA will assess and revise as necessary its verification model
+      and guidance.
+
+      '
+    Mitigation_Strategy: app7_1
+  - Action_Taken: Planned
+    Action_Type: Statutory Change
+    Completion_Date: FY2025
+    Description_Action_Taken: FSA will continue to implement the authorities provided
+      in the FUTURE Act to obtain federal tax information data directly from the IRS.
+      Obtaining this data will prevent improper payments resulting from the applicant
+      misreporting their income on the FAFSA.
+    Mitigation_Strategy: app8_1
+  - Action_Taken: Completed
+    Action_Type: Automation
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: 'To prevent IPs and UPs, FSA maintains a robust internal
+      control framework which includes computer matches performed in FSA systems against
+      external sources during the aid delivery process. FSA also continues to pursue
+      long term corrective actions. For example, FSA is working to implement the authorities
+      provided in the FUTURE Act to obtain federal tax information data directly from
+      the IRS. Obtaining this data will prevent improper payments resulting from the
+      applicant misreporting their income on the FAFSA.
+
+      '
+    Mitigation_Strategy: atp1_1
+  - Action_Taken: Completed
+    Action_Type: Behavioral/Psych Influence
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: 'FSA performs a variety of general public awareness
+      campaigns, training, and other outreach to the community including to prospective
+      students and parents to help ensure applicants are aware of the importance of
+      completing the FAFSA and correctly reporting all relevant information. FSA considers
+      Behavioral/Psych Influence in designing this outreach.
+
+      '
+    Mitigation_Strategy: atp2_1
+  - Action_Taken: Completed
+    Action_Type: Training
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: 'FSA publishes and delivers various free trainings,
+      guidance, and resources for school financial aid administrators to target the
+      root causes of IPs and UPs and other frequently identified compliance issues.
+      For example, FSA publishes updates to questions and answers about verification
+      requirements to help clarify verification requirements and reduce the risk of
+      verification deficiencies.
+
+      '
+    Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
     Action_Type: Change Process
     Completion_Date: FY2024 Q4
@@ -652,111 +774,6 @@ Data_By_Year:
 
       '
     Mitigation_Strategy: atp4_1
-  - Action_Taken: Planned
-    Action_Type: Automation
-    Completion_Date: FY2025
-    Description_Action_Taken: 'To prevent IPs and UPs, FSA will continue to maintain
-      a robust internal control framework which includes computer matches performed
-      in FSA systems against external sources during the aid delivery process. FSA
-      will also continue to pursue long term corrective actions. For example, FSA
-      will continue to work to implement the authorities provided in the FUTURE Act
-      to obtain federal tax information data directly from the IRS. Obtaining this
-      data will prevent improper payments resulting from the applicant misreporting
-      their income on the FAFSA.
-
-      '
-    Mitigation_Strategy: app1_1
-  - Action_Taken: Planned
-    Action_Type: Cross Enterprise Sharing
-    Completion_Date: FY2025
-    Description_Action_Taken: FSA will continue to work with Treasury to implement
-      the authorities provided in the FUTURE Act that will allow FSA to obtain income
-      data directly from the IRS. The cross-enterprise sharing of data will continue
-      to improve verification of applicants’ and borrowers’ income data.
-    Mitigation_Strategy: app5_1
-  - Action_Taken: Planned
-    Action_Type: Statutory Change
-    Completion_Date: FY2025
-    Description_Action_Taken: FSA will continue to implement the authorities provided
-      in the FUTURE Act to obtain federal tax information data directly from the IRS.
-      Obtaining this data will prevent improper payments resulting from the applicant
-      misreporting their income on the FAFSA.
-    Mitigation_Strategy: app8_1
-  - Action_Taken: Planned
-    Action_Type: Predictive Analytics
-    Completion_Date: FY2025
-    Description_Action_Taken: 'The FAFSA Processing System performs analytics to determine
-      which applicants should be flagged for verification prior to receiving financial
-      aid. In FY25, FSA will assess and revise as necessary its verification model
-      and guidance.
-
-      '
-    Mitigation_Strategy: app7_1
-  - Action_Taken: Completed
-    Action_Type: Predictive Analytics
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: 'The FAFSA Processing System performs analytics to determine
-      which applicants should be flagged for verification prior to receiving financial
-      aid. FSA annually assesses and revises its verification model.
-
-
-      FSA estimates IPs and UPs for the Direct Loan program by using R Code. As part
-      of using R, FSA is able to perform analysis on prior year results to better
-      understand expected IP and UP results. Further, FSA uses logarithmic analysis
-      to predict future rates and establish a tolerable rate and reduction target
-      in accordance with OMB Circular A-123, Appendix C guidance.
-
-      '
-    Mitigation_Strategy: atp7_1
-  - Action_Taken: Planned
-    Action_Type: Behavioral/Psych Influence
-    Completion_Date: FY2025
-    Description_Action_Taken: 'FSA will continue to perform a variety of general public
-      awareness campaigns, training, and other outreach to the community including
-      to prospective students and parents to help ensure applicants are aware of the
-      importance of completing the FAFSA and correctly reporting all relevant information.
-      FSA will continue to consider Behavioral/Psych Influence in designing this outreach.
-
-      '
-    Mitigation_Strategy: app2_1
-  - Action_Taken: Planned
-    Action_Type: Audit
-    Completion_Date: FY2025
-    Description_Action_Taken: 'FSA will also continue to review the annual Single
-      Audit Act compliance audits of schools performed by independent auditors to
-      evaluate schools’ administration of FSA programs. For deficiencies identified
-      by the auditors, schools are required to develop corrective action plans. FSA
-      will continue to review and evaluate the effectiveness of schools’ corrective
-      actions and mitigation efforts for noted exceptions. When an improper payment
-      is detected and deemed collectable, FSA will establish an account receivable
-      and pursue collection.
-
-      '
-    Mitigation_Strategy: app6_1
-  - Action_Taken: Completed
-    Action_Type: Automation
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: 'To prevent IPs and UPs, FSA maintains a robust internal
-      control framework which includes computer matches performed in FSA systems against
-      external sources during the aid delivery process. FSA also continues to pursue
-      long term corrective actions. For example, FSA is working to implement the authorities
-      provided in the FUTURE Act to obtain federal tax information data directly from
-      the IRS. Obtaining this data will prevent improper payments resulting from the
-      applicant misreporting their income on the FAFSA.
-
-      '
-    Mitigation_Strategy: atp1_1
-  - Action_Taken: Completed
-    Action_Type: Behavioral/Psych Influence
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: 'FSA performs a variety of general public awareness
-      campaigns, training, and other outreach to the community including to prospective
-      students and parents to help ensure applicants are aware of the importance of
-      completing the FAFSA and correctly reporting all relevant information. FSA considers
-      Behavioral/Psych Influence in designing this outreach.
-
-      '
-    Mitigation_Strategy: atp2_1
   - Action_Taken: Completed
     Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024 Q4
@@ -780,37 +797,22 @@ Data_By_Year:
 
       '
     Mitigation_Strategy: atp6_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2025
-    Description_Action_Taken: 'FSA will continue to publish and deliver various free
-      trainings, guidance, and resources for school financial aid administrators to
-      target the root causes of IPs and UPs and other frequently identified compliance
-      issues. For example, FSA will continue to publish updates to questions and answers
-      about verification requirements to help clarify verification requirements and
-      reduce the risk of verification deficiencies.
-
-
-      FSA will also continue to annually host the FSA Training Conference and analyze
-      the attendance patterns of institutions and their stakeholders, which will allow
-      FSA to understand attendance trends and develop training content accordingly.
-      FSA will ensure many offices within FSA continue to collectively participate
-      to ensure key objects and milestones are met.
-
-      '
-    Mitigation_Strategy: app3_1
   - Action_Taken: Completed
-    Action_Type: Training
+    Action_Type: Predictive Analytics
     Completion_Date: FY2024 Q4
-    Description_Action_Taken: 'FSA publishes and delivers various free trainings,
-      guidance, and resources for school financial aid administrators to target the
-      root causes of IPs and UPs and other frequently identified compliance issues.
-      For example, FSA publishes updates to questions and answers about verification
-      requirements to help clarify verification requirements and reduce the risk of
-      verification deficiencies.
+    Description_Action_Taken: 'The FAFSA Processing System performs analytics to determine
+      which applicants should be flagged for verification prior to receiving financial
+      aid. FSA annually assesses and revises its verification model.
+
+
+      FSA estimates IPs and UPs for the Direct Loan program by using R Code. As part
+      of using R, FSA is able to perform analysis on prior year results to better
+      understand expected IP and UP results. Further, FSA uses logarithmic analysis
+      to predict future rates and establish a tolerable rate and reduction target
+      in accordance with OMB Circular A-123, Appendix C guidance.
 
       '
-    Mitigation_Strategy: atp3_1
+    Mitigation_Strategy: atp7_1
   - Action_Taken: Completed
     Action_Type: Statutory Change
     Completion_Date: FY2024 Q4
@@ -992,9 +994,9 @@ Data_By_Year:
     \ made by schools. FSA has worked with fund recipients to resolve audit findings\
     \ timely. \n"
   IP_Current_Year_Plus_1_Amount: 996.15
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.026332088675
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0263320887
   IP_Unknown_Target_Rate: 0.0263
-  Improper_Payments_Rate: 2.6110037235
+  Improper_Payments_Rate: 2.61100372
   Insufficient_Documentation_to_Determine: 10.63
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '0.47'
@@ -1095,6 +1097,8 @@ Data_By_Year:
 
     '
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '2.63'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -1173,6 +1177,240 @@ Data_By_Year:
     Theme_Description: The financial position or status of a beneficiary, recipient,
       or their family
     Value: '263.675100'
+- Agency_Needs_Satisfied: The Pell program achieved its tolerable rate. FSA has the
+    internal controls, human capital, and information systems and other infrastructure
+    needed to continue to maintain IP and UP estimates within the tolerable rate band.
+    FSA must also continue to rely on controls established by external entities that
+    receive funds and make payments on behalf of FSA for programs including Pell Grants.
+    These entities are outside of FSA’s operational control. FSA will continue to
+    leverage data from program reviews and Single Audit Act compliance audits to identify
+    and address root causes of IPs and UPs made by external entities.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: 'The agency has demonstrated
+    a strategic and targeted approach to implementing corrective actions, prioritizing
+    those that directly address significant root causes of improper payments, such
+    as misreported income on the FAFSA, which has been FSA''s most impactful root
+    cause of improper payments over the last five years. By leveraging the authorities
+    provided in the FUTURE Act, FSA developed and executed a corrective action plan
+    to obtain federal tax information directly from the IRS. This initiative, including
+    the rollout of the FAFSA Processing System (FPS) and Federal Tax Information (FTI)
+    systems, automates the transfer of accurate income data for students and families
+    directly from the IRS, significantly reducing the likelihood of misreported information
+    on the FAFSA form. The expansion of these solutions to include individuals with
+    taxpayer identification numbers further strengthens the agency’s efforts to minimize
+    errors and unknown payments. This is a prime example of how FSA’s corrective actions
+    are prioritized for payment integrity and how FSA implements continuous improvement
+    to address emerging risks and populations.
+
+
+    The adequacy of these corrective actions is reinforced by the agency''s comprehensive
+    support and oversight mechanisms. FSA maintains a robust internal control framework,
+    including program risk assessments and reviews, which help to identify and address
+    vulnerabilities in payment processes. The agency also provides ongoing training,
+    guidance, and resources to school financial aid administrators, which specifically
+    target the root causes of improper payments at the institutional level. Activities
+    such as clarifying verification requirements, responding to administrator questions,
+    and utilizing compliance audits under the Single Audit Act ensure that corrective
+    actions are not only well-implemented but also effective in reducing both improper
+    and unknown payments. Timely resolution of audit findings and cross-enterprise
+    sharing of best practices further contribute to sustained improvement in payment
+    integrity, indicating that the agency’s actions are both adequate and successful
+    in reducing payment errors.'
+  Corrective_Actions_Appropriateness: "FSA undertook a broad range of corrective actions\
+    \ throughout FY 2025 to target the root causes of improper and unknown payments.\
+    \ A cornerstone of FSA’s corrective actions was the continued implementation of\
+    \ the FUTURE Act, in partnership with the Treasury, which enabled secure cross-enterprise\
+    \ sharing of federal tax information directly from the IRS. Actions continued\
+    \ to occur through FY 2025 Q4 and dramatically improved the verification of income\
+    \ data for applicants and borrowers, particularly those involved in income-driven\
+    \ repayment (IDR) plans. Access to real-time tax data has eased the administrative\
+    \ burden for borrowers, facilitated accurate validation of IDR payments, and allowed\
+    \ FSA and loan servicers to track changes and address discrepancies.\n\nAdditional\
+    \ efforts included the implementation of behavioral and process-driven strategies,\
+    \ such as outreach campaigns to raise applicant awareness of accurate FAFSA completion\
+    \ and adjustments to the FAFSA form itself based on the FAFSA Simplification Act.\
+    \ By modifying application questions and emphasizing early outreach about student\
+    \ aid eligibility, FSA worked to reduce errors and omissions that may contribute\
+    \ improper or unknown payments. These measures, completed by Q4 of FY 2025, leveraged\
+    \ both behavioral insights and process improvements to ensure applicants provide\
+    \ correct and complete information.\n\nTo further safeguard payment accuracy,\
+    \ FSA relied on predictive analytics, automation, and ongoing training. The FAFSA\
+    \ Processing System used advanced analytics to flag applicants for verification.\
+    \ Additionally, FSA employed R programming and logarithmic analysis to estimate\
+    \ and predict rates of improper and unknown payments. These models are reviewed\
+    \ and updated annually to set reduction targets and maintain compliance with federal\
+    \ guidance. Simultaneously, FSA delivered a suite of free trainings and updated\
+    \ guidance for school financial aid administrators, helping institutions stay\
+    \ current on verification requirements and compliance issues. This information\
+    \ was published in the FSA Handbook and made available to the public. \n\nAudit\
+    \ and oversight functions formed the final layer of FSA’s approach. Throughout\
+    \ FY 2025, FSA performed program reviews of selected schools and monitored annual\
+    \ Single Audit Act compliance audits conducted by independent auditors. Schools\
+    \ with identified deficiencies were required to develop corrective action plans,\
+    \ which FSA then monitored and evaluated for effectiveness. When improper payments\
+    \ were traced and deemed recoverable, FSA established accounts receivable and\
+    \ pursued collections. All oversight and corrective actions were completed by\
+    \ the end of FY 2025 Q4."
+  Corrective_Actions_Proportion: "Preventing IPs is a top Administration and agency\
+    \ priority. To effectively prevent IPs and UPs from occurring, FSA evaluates the\
+    \ root causes of IPs and UPs identified. This root cause analysis is used to help\
+    \ formulate effective correction actions and prioritize efforts to prevent IPs\
+    \ and UPs from occurring. For example, FSA's most impactful root cause over the\
+    \ last five years for total IP in aggregate across all programs has been improper\
+    \ payments due to misreported income. FSA has invested significant resources and\
+    \ worked cross-agency with the IRS to implement the authorities provided in the\
+    \ FUTURE Act to obtain federal tax information data directly from the IRS. Significant\
+    \ work has been accomplished, and was fully implemented in FY 2025, and this corrective\
+    \ action has shown a significant reduction in misreported income on the FAFSA.\
+    \ \n\nFSA relies on the expertise of its subject matter experts and owners of\
+    \ the corrective actions to identify any changes for its corrective actions. FSA\
+    \ monitors the status of the corrective actions through periodic outreach to corrective\
+    \ action owners and collects closure evidence to evaluate the effectiveness and\
+    \ progress of each individual mitigation strategy. This process informs whether\
+    \ the corrective action can be refined, intensified, expanded, or should be discontinued\
+    \ or replaced."
+  End_Date: 09/2024
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: 'FSA managers and staff are held accountable for
+    maintaining effective controls and payment integrity. FSA performs an annual assessment
+    of the effectiveness of its internal controls, including those controls designed
+    to prevent or detect improper payments. Any deficiencies identified are remediated
+    and retested within the next assessment cycle.
+
+
+    FSA has an integrated system of complementary oversight functions to help prevent,
+    detect, and recover improper payments, and ensure compliance by all participating
+    parties. This includes routinely conducting program reviews to confirm that schools
+    meet requirements for institutional eligibility, financial responsibility, and
+    administrative capability. Program reviews evaluate schools’ compliance with federal
+    requirements, assess monetary liabilities for errors in performance which are
+    calculated based on program review findings, and identify actions schools must
+    take to make whole the Higher Education Act’s Title IV programs or recipients
+    for any funds that were improperly managed and prevent the same problems from
+    recurring. FSA also uses Single Audit Act compliance audits as a key source of
+    identifying risks and potential improper payments made by schools. FSA has worked
+    with fund recipients to resolve audit findings timely.'
+  IP_Unknown_Target_Rate: 0.0107
+  Improper_Payments_Rate: 1.0534276213
+  Insufficient_Documentation_to_Determine: 5.91
+  Margin_of_Error: '1.78'
+  Non_Monetary_Loss_Amount: '83.00999999999999'
+  Overpayment_Combined_Mitigations_Planned: Audit, Behavioral/Psych Influence, Change
+    Process, Cross Enterprise Sharing, Predictive Analytics, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence,
+    Change Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change,
+    Training
+  Payment_Accuracy_Rate: 98.93177310789694
+  Program_Additional_Information: 'FSA places the highest value on maintaining the
+    integrity of all types of payments made to ensure that the billions of dollars
+    in federal funds it disburses annually reach intended recipients in the right
+    amount and for the right purpose, including for the Direct Loan program. FSA ensures
+    payment integrity by establishing effective policies, business processes, systems,
+    and controls over key payment activities, including those pertaining to: payment
+    data quality, cash management, third-party oversight, assessments of audit reports,
+    and financial reporting. Accordingly, FSA maintains a robust internal control
+    framework that includes controls designed to help prevent, detect, and recover
+    improper payments. In designing controls, FSA strives to strike the right balance
+    between making timely and accurate payments and ensuring that controls put in
+    place are not too costly or overly burdensome and thereby deter intended beneficiaries
+    from obtaining funds they are entitled to receive.'
+  Program_Design_or_Structural_Issue: 76.88
+  Resources_Requested_For_IP: The FY 2026 budget provides $2.06 billion for the Student
+    Aid Administration, which is straight lined from the fiscal year 2024 appropriation.
+    This funding is essential to support students and student loan borrowers. The
+    funding would allow FSA to continue to operate the student aid programs, implement
+    critical improvements to student loan servicing, continue to modernize its digital
+    infrastructure, and provide for the administration of the financial aid programs
+    through a simplified and streamlined application process for students and borrowers.
+  Start_Date: 10/2023
+  Technical_IP_Actions_Planned: Audit, Behavioral/Psych Influence, Change Process,
+    Cross Enterprise Sharing, Predictive Analytics, Training
+  Technical_IP_Actions_Taken: Audit, Automation, Behavioral/Psych Influence, Change
+    Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change, Training
+  Technical_IP_Amount: '76.88'
+  Underpayment_Mitigations_Planned: Audit, Behavioral/Psych Influence, Change Process,
+    Cross Enterprise Sharing, Predictive Analytics, Training
+  Underpayment_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence, Change
+    Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change, Training
+  Unknown_Mitigations_Planned: Audit, Behavioral/Psych Influence, Change Process,
+    Cross Enterprise Sharing, Predictive Analytics, Training
+  Unknown_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence, Change
+    Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change, Training
+  Unknown_Payments_Rate: 0.014799270804118754
+  Year: 2025
+  detail_IP_Causes: "FSA diligently works to identify the causes of improper payments\
+    \ and unknown payments, adhering to the guidance outlined in the Office of Management\
+    \ and Budget (OMB) Circular A-123, Appendix C (OMB A-123C). According to this\
+    \ guidance, causes of improper and unknown payments are classified into five cause\
+    \ categories. Historically, FSA has identified such payments in three of these\
+    \ categories: (1) Failure to access data or information needed to verify payments;\
+    \ (2) Statutory requirements of the program not being met; and (3) Unable to determine\
+    \ whether proper or improper (i.e., unknown payments). \n\nIn addition to using\
+    \ the OMB A-123C framework for identifying the causes of improper and unknown\
+    \ payments, FSA takes a detailed approach to identifying the root causes for its\
+    \ Phase 2 programs. This is accomplished through the Sampling and Estimation Methodology\
+    \ Plan (S&EMP), which leverages data from compliance audits. By analyzing these\
+    \ data sources, FSA is able to pinpoint specific root causes that contribute to\
+    \ improper payments and unknown payments within its programs.\n\nFor fiscal year\
+    \ (FY) 2025, FSA’s fieldwork revealed that the most impactful root causes of improper\
+    \ and unknown payments stemmed from several distinct areas. First, payments were\
+    \ linked to ineligible institutions, programs, or locations, indicating that funds\
+    \ were disbursed in violation of Title IV eligibility criteria. Second, documentation\
+    \ deficiencies played a critical role, particularly instances where required notifications,\
+    \ such as informing students of impending disbursements, were not provided prior\
+    \ to the release of Title IV funds. Third, errors related to student withdrawal,\
+    \ such as mistakes in the calculation or processing of Return of Title IV Funds\
+    \ (R2T4), contributed to improper payments. Finally, failure to meet Satisfactory\
+    \ Academic Progress (SAP) requirements resulted in funds being disbursed to students\
+    \ who did not maintain the academic standards mandated by federal regulations.\n\
+    \nFSA's commitment to understanding and mitigating improper payments extends beyond\
+    \ identification of root causes as described above. The agency actively coordinates\
+    \ with its stakeholders to ensure that all potential root causes are considered\
+    \ during its testing procedures. Through extensive fieldwork and stakeholder collaboration,\
+    \ FSA has currently identified more than 45 program-specific root cause categories\
+    \ for improper payments and unknown payments. This comprehensive approach enables\
+    \ FSA to continually refine its processes and reduce the risk of improper payments\
+    \ across its portfolio. \n"
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '337.67'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '1.07'
+  eligibility_aggregated:
+  - Theme: Education
+    Theme_Description: The education level or enrollment status of the recipient/beneficiary
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 337.67
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '337.67'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 6.13
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '6.13'
 Description: 'The Pell Grant program provides need-based grants to low-income undergraduate
   and certain post baccalaureate students to promote access to postsecondary education.
   Root causes of Pell overpayments include incorrect calculation of Return of Title
@@ -1188,12 +1426,12 @@ Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
-High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[240.61, 403.92, 458.55]'
-Payment_Accuracy_Amounts: '[25543.469999999998, 27876.86, 32123.589999999997]'
-Payment_Accuracy_Rate: 0
+High_Priority_Program: 1
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 39934.4
+Overpayment_Amounts: '[240.61, 403.92, 458.55, 337.67]'
+Payment_Accuracy_Amounts: '[25543.469999999998, 27876.86, 32123.589999999997, 39507.810000000005]'
+Payment_Accuracy_Rate: 98.93177310789694
 Phase_2_Program: 0
 Program_Name: Federal Pell Grant Program
 Scorecard_Links:
@@ -1209,10 +1447,9 @@ Scorecard_Links:
   QuarterYear: Q1 2025
 - Link: assets/scorecards/Q2 2025/Federal Pell Grant Program.pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[190.86, 166.48, 131.14]'
-Underpayment_Amounts: '[147.49, 238.75, 271.83]'
-Unknown_Amounts: '[7.03, 3.15, 10.63]'
-detail_Reduction_Target: '2.24'
+Technically_Improper_Amounts: '[190.86, 166.48, 131.14, 76.88]'
+Underpayment_Amounts: '[147.49, 238.75, 271.83, 6.13]'
+Unknown_Amounts: '[7.03, 3.15, 10.63, 5.91]'
 fpi_link: https://fpi.omb.gov/program/84.063
 layout: program-specific
 permalink: program/ed-federal-pell-grant-program

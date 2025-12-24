@@ -106,6 +106,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2022
+  detail_Reduction_Target: '0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -131,6 +132,58 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0'
 - Actions_Taken:
+  - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2024
+    Description_Action_Taken: Food and Nutrition Service (FNS) has implemented several
+      opportunities of training for the Special Supplemental Nutrition Program for
+      Women, Infants, and Children (WIC). Annual training is provided on FNS’ National
+      Management Evaluation (ME) guidance to regional office staff who conduct MEs.
+      The goal of this training to establish standards for FNS to effectively communicate
+      findings and corrective action expectations to State agencies, to provide necessary
+      technical assistance, and to support State agency program improvements. Additional
+      WIC specific ME training is conducted throughout the year to support regional
+      staff by holding bi-monthly meetings to discuss best practices and provide technical
+      assistance, as well as specific technical assistance as needed to improve understanding
+      and compliance of ME activities. Additional training is provided to state agencies
+      through specific technical assistance during oversight activities. Training
+      activities for State agency staff are further identified through the results
+      of an annual target area report. This report looks at national trends of program
+      integrity issues as well as programmatic deficiencies across all State agencies
+      to issue technical assistance, policy memos, and training as needed. FNS has
+      also recently released several resources for WIC State agencies that target
+      improvement in the areas of vendor management and certification. These resources
+      include the WIC Vendor Management and Food Delivery Handbook, a new toolkit
+      on assessing and developing WIC Vendor Peer Group Systems, and an updated tool
+      for assessing WIC Vendor Cost Neutrality.
+    Mitigation_Strategy: app3_1
+  - Action_Taken: Planned
+    Action_Type: Audit
+    Completion_Date: FY2024
+    Description_Action_Taken: A prime example of Food and Nutrition Service (FNS)
+      Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)
+      implementing corrective actions are through WIC oversight. FNS uses management
+      evaluations (MEs) as its primary oversight tool. MEs assure program integrity
+      by assessing WIC State agency compliance with Program requirements, evaluating
+      the accomplishment of WIC Program objectives, and providing technical assistance
+      to State Agencies and supporting efforts to improve and innovate. In FY 2020-2024,
+      FNS' ME target area for WIC is Nutrition Services. Delivering high quality nutrition
+      services is essential to carrying out the Program's mission. The Nutrition Services
+      ME examines how State agencies plan for and deliver nutrition services, including
+      nutrition and breastfeeding education. In addition to the ME target area, FNS
+      also conducts a national risk-based ME assessment to identify State agencies
+      with known program integrity issues. Program integrity issues include issues
+      relating to improper payments, vendor management, certification/eligibility,
+      fraud, or any other issue that poses a high monetary values risk to the Program.
+      The FY 2020-2024 Target Area also include a focus on updating existing ME materials
+      and technology. The target area supports the United States Department of Agriculture
+      (USDA) and FNS priorities related to providing high quality customer service
+      to WIC State agency partners, as well as ensuring integrity in the WIC Program
+      through the timely resolution of issues identified through MEs. FNS continues
+      to analyze ME data to identify opportunities to improve program administration
+      and integrity. This includes addressing certification and vendor issues that
+      could result in improper payments.
+    Mitigation_Strategy: app6_1
   - Action_Taken: Completed
     Action_Type: Training
     Completion_Date: FY2023 Q4
@@ -183,58 +236,6 @@ Data_By_Year:
       and integrity. This includes addressing certification and vendor issues that
       could result in improper payments.
     Mitigation_Strategy: atp6_1
-  - Action_Taken: Planned
-    Action_Type: Audit
-    Completion_Date: FY2024
-    Description_Action_Taken: A prime example of Food and Nutrition Service (FNS)
-      Special Supplemental Nutrition Program for Women, Infants, and Children (WIC)
-      implementing corrective actions are through WIC oversight. FNS uses management
-      evaluations (MEs) as its primary oversight tool. MEs assure program integrity
-      by assessing WIC State agency compliance with Program requirements, evaluating
-      the accomplishment of WIC Program objectives, and providing technical assistance
-      to State Agencies and supporting efforts to improve and innovate. In FY 2020-2024,
-      FNS' ME target area for WIC is Nutrition Services. Delivering high quality nutrition
-      services is essential to carrying out the Program's mission. The Nutrition Services
-      ME examines how State agencies plan for and deliver nutrition services, including
-      nutrition and breastfeeding education. In addition to the ME target area, FNS
-      also conducts a national risk-based ME assessment to identify State agencies
-      with known program integrity issues. Program integrity issues include issues
-      relating to improper payments, vendor management, certification/eligibility,
-      fraud, or any other issue that poses a high monetary values risk to the Program.
-      The FY 2020-2024 Target Area also include a focus on updating existing ME materials
-      and technology. The target area supports the United States Department of Agriculture
-      (USDA) and FNS priorities related to providing high quality customer service
-      to WIC State agency partners, as well as ensuring integrity in the WIC Program
-      through the timely resolution of issues identified through MEs. FNS continues
-      to analyze ME data to identify opportunities to improve program administration
-      and integrity. This includes addressing certification and vendor issues that
-      could result in improper payments.
-    Mitigation_Strategy: app6_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2024
-    Description_Action_Taken: Food and Nutrition Service (FNS) has implemented several
-      opportunities of training for the Special Supplemental Nutrition Program for
-      Women, Infants, and Children (WIC). Annual training is provided on FNS’ National
-      Management Evaluation (ME) guidance to regional office staff who conduct MEs.
-      The goal of this training to establish standards for FNS to effectively communicate
-      findings and corrective action expectations to State agencies, to provide necessary
-      technical assistance, and to support State agency program improvements. Additional
-      WIC specific ME training is conducted throughout the year to support regional
-      staff by holding bi-monthly meetings to discuss best practices and provide technical
-      assistance, as well as specific technical assistance as needed to improve understanding
-      and compliance of ME activities. Additional training is provided to state agencies
-      through specific technical assistance during oversight activities. Training
-      activities for State agency staff are further identified through the results
-      of an annual target area report. This report looks at national trends of program
-      integrity issues as well as programmatic deficiencies across all State agencies
-      to issue technical assistance, policy memos, and training as needed. FNS has
-      also recently released several resources for WIC State agencies that target
-      improvement in the areas of vendor management and certification. These resources
-      include the WIC Vendor Management and Food Delivery Handbook, a new toolkit
-      on assessing and developing WIC Vendor Peer Group Systems, and an updated tool
-      for assessing WIC Vendor Cost Neutrality.
-    Mitigation_Strategy: app3_1
   Agency_Needs_Satisfied: Food and Nutrition Service (FNS) Special Supplemental Nutrition
     Program for Women, Infants, and Children (WIC) has what is needed with respect
     to internal controls, human capital and information system and other infrastructure
@@ -320,6 +321,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -381,31 +383,31 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.00'
 - Actions_Taken:
-  - Action_Taken: Completed
+  - Action_Taken: Planned
     Action_Type: Training
-    Completion_Date: FY2024 Q4
+    Completion_Date: FY2025
     Description_Action_Taken: The Food and Nutrition Service (FNS) has implemented
       several opportunities of training for the Special Supplemental Nutrition Program
       for Women, Infants, and Children (WIC). Annual training is provided on FNS’
       National Management Evaluation (ME) guidance to regional office staff who conduct
       MEs. The goal of this training is to establish standards for FNS to effectively
-      communicate findings and corrective action expectations to State agencies, provide
-      necessary technical assistance, and support State agency program improvements.
-      Additional WIC specific ME training is conducted throughout the year to support
-      regional staff by holding bi-monthly meetings to discuss best practices and
-      provide technical assistance, as well as specific technical assistance as needed
-      to improve understanding and compliance of ME activities. Additional training
-      is provided to state agencies through specific technical assistance during oversight
-      activities. Training activities for State agency staff are further identified
-      through the results of an annual target area report. This report looks at national
-      trends of program integrity issues as well as programmatic deficiencies across
-      all State agencies to issue technical assistance, policy memos, and training
-      as needed. FNS has also recently released several resources for WIC State agencies
-      that target improvement in the areas of vendor management and certification.
-      These resources include the WIC Vendor Management and Food Delivery Handbook,
-      a new toolkit on assessing and developing WIC Vendor Peer Group Systems, and
-      an updated tool for assessing WIC Vendor Cost Neutrality.
-    Mitigation_Strategy: atp3_1
+      communicate findings and corrective action expectations to State agencies, to
+      provide necessary technical assistance, and to support State agency program
+      improvements. Additional WIC specific ME training is conducted throughout the
+      year to support regional staff by holding bi-monthly meetings to discuss best
+      practices and provide technical assistance, as well as specific technical assistance
+      as needed to improve understanding and compliance of ME activities. Additional
+      training is provided to State agencies through specific technical assistance
+      during oversight activities. Training activities for State agency staff are
+      further identified through the results of an annual target area report. This
+      report looks at national trends of program integrity issues as well as programmatic
+      deficiencies across all State agencies to issue technical assistance, policy
+      memos, and training as needed. FNS has also recently released several resources
+      for WIC State agencies that target improvement in the areas of vendor management
+      and certification. These resources include the WIC Vendor Management and Food
+      Delivery Handbook, a new toolkit on assessing and developing WIC Vendor Peer
+      Group Systems, and an updated tool for assessing WIC Vendor Cost Neutrality.
+    Mitigation_Strategy: app3_1
   - Action_Taken: Planned
     Action_Type: Audit
     Completion_Date: FY2025
@@ -435,6 +437,31 @@ Data_By_Year:
       could result in improper payments.
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
+    Action_Type: Training
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: The Food and Nutrition Service (FNS) has implemented
+      several opportunities of training for the Special Supplemental Nutrition Program
+      for Women, Infants, and Children (WIC). Annual training is provided on FNS’
+      National Management Evaluation (ME) guidance to regional office staff who conduct
+      MEs. The goal of this training is to establish standards for FNS to effectively
+      communicate findings and corrective action expectations to State agencies, provide
+      necessary technical assistance, and support State agency program improvements.
+      Additional WIC specific ME training is conducted throughout the year to support
+      regional staff by holding bi-monthly meetings to discuss best practices and
+      provide technical assistance, as well as specific technical assistance as needed
+      to improve understanding and compliance of ME activities. Additional training
+      is provided to state agencies through specific technical assistance during oversight
+      activities. Training activities for State agency staff are further identified
+      through the results of an annual target area report. This report looks at national
+      trends of program integrity issues as well as programmatic deficiencies across
+      all State agencies to issue technical assistance, policy memos, and training
+      as needed. FNS has also recently released several resources for WIC State agencies
+      that target improvement in the areas of vendor management and certification.
+      These resources include the WIC Vendor Management and Food Delivery Handbook,
+      a new toolkit on assessing and developing WIC Vendor Peer Group Systems, and
+      an updated tool for assessing WIC Vendor Cost Neutrality.
+    Mitigation_Strategy: atp3_1
+  - Action_Taken: Completed
     Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: A prime example of the Food and Nutrition Service (FNS)
@@ -461,31 +488,6 @@ Data_By_Year:
       and integrity. This includes addressing certification and vendor issues that
       could result in improper payments.
     Mitigation_Strategy: atp6_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2025
-    Description_Action_Taken: The Food and Nutrition Service (FNS) has implemented
-      several opportunities of training for the Special Supplemental Nutrition Program
-      for Women, Infants, and Children (WIC). Annual training is provided on FNS’
-      National Management Evaluation (ME) guidance to regional office staff who conduct
-      MEs. The goal of this training is to establish standards for FNS to effectively
-      communicate findings and corrective action expectations to State agencies, to
-      provide necessary technical assistance, and to support State agency program
-      improvements. Additional WIC specific ME training is conducted throughout the
-      year to support regional staff by holding bi-monthly meetings to discuss best
-      practices and provide technical assistance, as well as specific technical assistance
-      as needed to improve understanding and compliance of ME activities. Additional
-      training is provided to State agencies through specific technical assistance
-      during oversight activities. Training activities for State agency staff are
-      further identified through the results of an annual target area report. This
-      report looks at national trends of program integrity issues as well as programmatic
-      deficiencies across all State agencies to issue technical assistance, policy
-      memos, and training as needed. FNS has also recently released several resources
-      for WIC State agencies that target improvement in the areas of vendor management
-      and certification. These resources include the WIC Vendor Management and Food
-      Delivery Handbook, a new toolkit on assessing and developing WIC Vendor Peer
-      Group Systems, and an updated tool for assessing WIC Vendor Cost Neutrality.
-    Mitigation_Strategy: app3_1
   Agency_Needs_Satisfied: The agency has what is needed with respect to internal controls,
     human capital and information system and other infrastructure to reduce Improper
     Payments and Unknown Payments to the tolerable rate. The Special Supplemental
@@ -602,9 +604,9 @@ Data_By_Year:
     \ and timely data that they can use to monitor food costs and identify suspect\
     \ transactions, in turn reducing the risk of payment errors."
   IP_Current_Year_Plus_1_Amount: 67.72
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.014199684638
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0141996846
   IP_Unknown_Target_Rate: 0
-  Improper_Payments_Rate: 1.4199892004
+  Improper_Payments_Rate: 1.4199892
   Insufficient_Documentation_to_Determine: 0.0
   Is_Lowest_IP_And_Unknown_Rate: 'Yes'
   Is_Tolerable_Why: 'The Special Supplemental Nutrition Program for Women, Infants
@@ -644,6 +646,8 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '0.0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -722,7 +726,6 @@ Scorecard_Links: []
 Technically_Improper_Amounts: '[0, 0, 0]'
 Underpayment_Amounts: '[0, 0, 0]'
 Unknown_Amounts: '[0, 0, 0]'
-detail_Reduction_Target: null
 layout: program-specific
 permalink: program/usda-food-and-nutrition-service-fns-special-supplemental-nut-937321d1
 ---

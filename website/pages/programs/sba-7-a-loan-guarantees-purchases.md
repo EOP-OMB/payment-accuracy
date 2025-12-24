@@ -67,6 +67,7 @@ Data_By_Year:
   Unknown_Why: Overpayment to a lender is questioned.  Lender is currently in discussions
     with the agency to determine validity of this payment.
   Year: 2022
+  detail_Reduction_Target: '4.05'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -182,6 +183,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: '6.05'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -234,6 +236,22 @@ Data_By_Year:
       or their family
     Value: '11.057346'
 - Actions_Taken:
+  - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2025
+    Description_Action_Taken: 'At this writing, SBA is in the process of issuing additional
+      revisions to the 7(a) Servicing and Liquidation SOP.  SBA plans to provide training
+      to staff and lenders on the revised SOP.
+
+
+      SBA will  also provide internal training for purchase processors, reviewers,
+      and approvers to determine proper recommendation of guaranty purchase or denial:
+      ensuring that borrower and loan eligibility requirements are met; ensuring that
+      liquidation expenses are appropriate and/or approved, verifying the documentation
+      and accuracy of calculations, ensuring that documentation for account reconciliation
+      is complete, and verifying the proper use of proceeds and reviewing expenses
+      for eligibility of reimbursement.'
+    Mitigation_Strategy: app3_1
   - Action_Taken: Not Completed
     Action_Type: Training
     Completion_Date: The corrective action was not fully completed this reporting
@@ -251,22 +269,6 @@ Data_By_Year:
 
       '
     Mitigation_Strategy: atp3_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2025
-    Description_Action_Taken: 'At this writing, SBA is in the process of issuing additional
-      revisions to the 7(a) Servicing and Liquidation SOP.  SBA plans to provide training
-      to staff and lenders on the revised SOP.
-
-
-      SBA will  also provide internal training for purchase processors, reviewers,
-      and approvers to determine proper recommendation of guaranty purchase or denial:
-      ensuring that borrower and loan eligibility requirements are met; ensuring that
-      liquidation expenses are appropriate and/or approved, verifying the documentation
-      and accuracy of calculations, ensuring that documentation for account reconciliation
-      is complete, and verifying the proper use of proceeds and reviewing expenses
-      for eligibility of reimbursement.'
-    Mitigation_Strategy: app3_1
   Agency_Needs_Satisfied: The agency has what is needed with respect to internal controls,
     human capital and information system and other infrastructure to reduce improper
     payments and unknown payments to the tolerable rate.
@@ -328,9 +330,9 @@ Data_By_Year:
     applicable reduction targets, preventing improper payments, and promptly detecting
     and recovering overpayments.
   IP_Current_Year_Plus_1_Amount: 51.535696
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.053400000336
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0534000003
   IP_Unknown_Target_Rate: 0.0534
-  Improper_Payments_Rate: 5.3431654908
+  Improper_Payments_Rate: 5.34316549
   Insufficient_Documentation_to_Determine: 0.0
   Is_Lowest_IP_And_Unknown_Rate: 'Yes'
   Is_Tolerable_Why: Management established this tolerable rate range mindful of the
@@ -370,6 +372,8 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '5.34'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -419,24 +423,73 @@ Data_By_Year:
     Theme_Description: The financial position or status of a beneficiary, recipient,
       or their family
     Value: '9.737249'
+- Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: true
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: true
+  Hide_Program_Results_Future_Outlook_Baseline_Table: true
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: true
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  Improper_Payments_Rate: 1.0663356974
+  Insufficient_Documentation_to_Determine: 9.312
+  Non_Monetary_Loss_Amount: '5.42'
+  Payment_Accuracy_Rate: 98.49338061465721
+  Program_Design_or_Structural_Issue: 0.0
+  Technical_IP_Amount: '0.0'
+  Unknown_Payments_Rate: 0.4402836879432624
+  Year: 2025
+  detail_IP_Causes: null
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: null
+  detail_Overpayments_Due_To_Failure: null
+  detail_Overpayments_Due_To_Inability: null
+  detail_Reduction_Target: null
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '17.133'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '5.42'
 Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[26.65934114, 37.75160298, 64.78617681]'
-Payment_Accuracy_Amounts: '[677.0832646599999, 744.84143322, 1320.21954975]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 2115
+Overpayment_Amounts: '[26.65934114, 37.75160298, 64.78617681, 17.133]'
+Payment_Accuracy_Amounts: '[677.0832646599999, 744.84143322, 1320.21954975, 2083.135]'
+Payment_Accuracy_Rate: 98.49338061465721
 Phase_2_Program: 0
 Program_Name: 7(a) Loan Guarantees Purchases
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0]'
-Underpayment_Amounts: '[2.6653482, 11.05734561, 9.73724852]'
-Unknown_Amounts: '[0.46249, 0, 0]'
-detail_Reduction_Target: '5.34'
+Technically_Improper_Amounts: '[0, 0, 0, 0]'
+Underpayment_Amounts: '[2.6653482, 11.05734561, 9.73724852, 5.42]'
+Unknown_Amounts: '[0.46249, 0, 0, 9.312]'
 fpi_link: https://fpi.omb.gov/program/59.012
 layout: program-specific
 permalink: program/sba-7-a-loan-guarantees-purchases

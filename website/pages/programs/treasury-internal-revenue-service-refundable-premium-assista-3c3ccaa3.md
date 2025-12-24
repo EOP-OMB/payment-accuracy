@@ -136,6 +136,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2022
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -305,6 +306,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: '26.04'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -622,9 +624,9 @@ Data_By_Year:
     \ to less than 10 percent would require significant restructuring of the RTC programs,\
     \ to include legislative action."
   IP_Current_Year_Plus_1_Amount: 713.49
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.285400566409
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.2854005664
   IP_Unknown_Target_Rate: 0.2854
-  Improper_Payments_Rate: 28.540124447800004
+  Improper_Payments_Rate: 28.540124449999997
   Insufficient_Documentation_to_Determine: 0.0
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -677,6 +679,8 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '28.54'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -728,6 +732,231 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
+- Agency_Needs_Satisfied: 'The IRS has built a strong foundation of internal controls,
+    data-driven compliance filters, and targeted outreach strategies to address improper
+    and unknown payments. However, its ability to further reduce these payments is
+    constrained by statutory limitations, such as the narrow scope of math error authority
+    and the absence of regulatory oversight over unenrolled paid return preparers.
+    These constraints limit the agency’s capacity to prevent errors before refunds
+    are issued, despite having the human capital and information systems in place
+    to act more proactively.
+
+
+    If provided with additional legislative authority in these areas, the IRS could
+    more effectively leverage its existing infrastructure to achieve greater reductions
+    in improper payments. At that point, further investments in compliance systems,
+    staffing, and enforcement tools would likely yield benefits that outweigh their
+    costs by increasing the accuracy of payments and reducing the volume of recoveries
+    needed after issuance.'
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: 'The IRS implements and
+    prioritizes corrective actions for RTCs through a comprehensive, data-informed
+    strategy that addresses both the structural and behavioral root causes of improper
+    and unknown payments. The primary challenge stems from the statutory and regulatory
+    framework of RTCs, which does not include a pre-approval process and instead relies
+    heavily on taxpayer self-certification at the time of filing. This fundamental
+    limitation restricts the IRS’s ability to proactively prevent erroneous payments
+    and instead requires a strategy focused on influencing taxpayer behavior, improving
+    compliance through outreach and education, and leveraging third-party partners,
+    such as paid preparers and tax software providers.
+
+
+    Corrective actions are prioritized based on a combination of improper payment
+    risk, return error trends, and the systemic challenges associated with verifying
+    eligibility at the time of filing. Efforts such as annual DDb meetings allow the
+    IRS to refine audit selection filters and compliance criteria based on past return
+    data. In parallel, the agency collaborates with external partners—such as the
+    HHS, CMS—to validate key eligibility data. While the IRS has the capability to
+    identify errors by type, correlating those with specific remedies is complex due
+    to limited statutory authority to deny or suspend claims before refunds are issued.
+    As such, the agency places heavy emphasis on preventative efforts, such as educating
+    taxpayers and tax preparers, and improving accuracy within return preparation
+    software.
+
+
+    This multipronged approach allows the IRS to maximize limited resources by addressing
+    improper payments through taxpayer education, preparer engagement, and systemic
+    data validation. While statutory targets have not yet been met, the IRS continues
+    to refine its strategies and remains transparent about the structural barriers—such
+    as the lack of pre-approval authority and reliance on self-certification—that
+    limit its ability to fully prevent errors at filing. The corrective actions in
+    place reflect a long-term commitment to reducing improper and unknown payments.'
+  Corrective_Actions_Appropriateness: 'The IRS has undertaken several targeted corrective
+    actions across its refundable tax credit programs to address and reduce improper
+    and unknown payments. These actions, all scheduled for completion by Q4 of FY
+    2026, reflect the agency’s cross-functional collaboration and data-driven process
+    improvement strategy.
+
+
+    For Net Premium Tax Credit (PTC), the IRS conducted its annual Dependent Database
+    (DDb) meeting with stakeholders from Taxpayer Services (TS), Small Business &
+    Self-Employed (SBSE), and IT divisions. These meetings were designed to recalibrate
+    prior-year compliance filters to better target audit selection of returns claiming
+    refundable tax credits (RTCs). By refining these filters based on past data, the
+    IRS aims to increase the precision of its audit selections. This strategic change
+    process helps to mitigate erroneous RTC payments.
+
+
+    In addition, the IRS utilized cross-enterprise data sharing to validate eligibility
+    and reduce improper payments. For example, for the Net PTC, collaboration with
+    the Department of Health and Human Services (HHS) and the Centers for Medicare
+    & Medicaid Services (CMS) allowed the IRS to leverage data through the PTC Workgroup
+    and Sub-Workgroup, addressing systemic issues related to improper PTC payments.
+
+
+    To further strengthen compliance, the IRS continued its annual training efforts
+    for tax professionals focused on IRC 6695(g) due diligence requirements. This
+    training was disseminated via national venues selected for the IRS Nationwide
+    Tax Forums and filing season readiness webinars. These efforts are intended to
+    improve taxpayer and preparer understanding of RTC eligibility rules, thereby
+    addressing root causes of improper payments due to preparer error or misunderstanding.
+    All actions outlined were completed or are planned for completion in Q4 FY 2026,
+    consistent with IRS’s commitment to continuous improvement.'
+  Corrective_Actions_Proportion: 'RTCs present unique challenges in payment integrity
+    because they are administered within the tax system and do not operate like traditional
+    payment programs with upfront eligibility determinations. The fundamental root
+    cause of RTC improper and unknown payments is the statutory lack of a required
+    pre-approval process, coupled with the IRS’s limited authority to deny claims
+    outright prior to refund issuance. As a result, the IRS must largely rely on taxpayer
+    self-certification of eligibility at the time of filing, which increases the risk
+    of error.
+
+
+    The IRS has identified several contributing factors to improper payments: (a)
+    the inability to verify eligibility criteria at the time of filing—particularly
+    those involving complex relationship and residency tests; (b) the misreporting
+    of income, especially self-employment income or earnings not reported by third
+    parties; and (c) the lack of taxpayer understanding, particularly among first-time
+    claimants unfamiliar with the rules governing RTC eligibility. These factors significantly
+    increase both the rate and dollar amount of improper payments across RTC programs.
+
+
+    To address these risks proportionally, the IRS has implemented a layered and data-informed
+    corrective action plan. This includes annual optimization of compliance filters
+    through the Dependent Database (DDb) meetings, which involve cross-functional
+    IRS teams to refine audit selection algorithms based on evolving taxpayer behavior.
+    Additionally, cross-agency data sharing efforts—such as collaborations with HHS,
+    CMS—help the IRS verify key eligibility data outside its traditional systems.
+    These initiatives directly target the root causes by improving the IRS’s ability
+    to validate claims without requiring pre-payment denials.
+
+
+    Recognizing that education is a critical tool in preventing errors, the IRS also
+    invests in extensive taxpayer and tax professional outreach. These combined efforts—including
+    systemic filter recalibration, interagency data matching, and taxpayer education—reflect
+    a comprehensive and proportional approach to the severity of the improper payment
+    risks inherent in RTC administration.'
+  End_Date: 12/2023
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Accountability_Description: 'The IRS has implemented multiple measures to ensure
+    executive leaders, program managers, and key personnel are held accountable for
+    reducing improper payments, detecting and recovering overpayments, and improving
+    overall program integrity. Specifically, the Directors of Refund Integrity and
+    Compliance Services (RICS) and Refundable Credits Program Management (RCPM) have
+    performance plan commitments tied to reducing improper payments and improving
+    return accuracy for RTCs. These performance metrics are reviewed through quarterly
+    operational reviews between RICS, RCPM, and Refundable Credits Examination Operations
+    (RCEO), ensuring ongoing accountability and progress tracking. Program goals focus
+    on both pre-refund compliance and proactive outreach and include steps to improve
+    audit response rates and influence taxpayer and preparer behavior.
+
+
+    In coordination with external stakeholders, such as paid preparers and software
+    developers, the IRS emphasizes shared responsibility in advancing accurate return
+    filing. While the agency continues to explore enhancements, meeting statutory
+    targets remains a challenge without additional legislative authority and program
+    restructuring. Nonetheless, leadership is held accountable through defined appraisal
+    criteria to drive progress toward long-term improper payment reduction goals.'
+  IP_Unknown_Target_Rate: 0.3161
+  Improper_Payments_Rate: 31.611292198
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '4.06'
+  Non_Monetary_Loss_Amount: '0'
+  Overpayment_Combined_Mitigations_Planned: Change Process, Cross Enterprise Sharing
+  Overpayment_Combined_Mitigations_Taken: Change Process, Cross Enterprise Sharing
+  Payment_Accuracy_Rate: 68.38870780198624
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: 'The IRS has requested targeted investments to support
+    payment integrity through enhancing compliance tools and technology modernization.
+    The agency is prioritizing technology upgrades aimed at expanding automation,
+    improving data integration, and enhancing system uniformity to better support
+    audit selections and taxpayer data validation. These modernization efforts are
+    designed to standardize data across the enterprise, strengthen analytics and reporting,
+    and accelerate the delivery of digital services, which will ultimately improve
+    the agency’s ability to prevent and detect improper and unknown payments.
+
+
+    A key initiative is the continued expansion of the Enterprise Case Management
+    (ECM) system. The IRS projects that by the end of calendar year 2025, approximately
+    15,000 staff will be using ECM to reduce time and cost associated with critical
+    compliance functions. Furthermore, during the 2025 filing season, the IRS used
+    new identity theft filters that successfully identified and prevented issuance
+    of approximately $1?billion in fraudulent refunds across more than 84,000 tax
+    returns. These resource allocations reflect a strategic, data-driven approach
+    to improving payment integrity while maximizing return on investment.'
+  Start_Date: 01/2023
+  Technical_IP_Amount: '0.0'
+  Unknown_Payments_Rate: 0
+  Year: 2025
+  detail_IP_Causes: These overpayments include the inability to authenticate data,
+    primarily because the data does not exist.  Authentication is difficult because
+    the IRS relies primarily on self-reported information from taxpayers that cannot
+    be verified at the time of filing, and there is a lack of comprehensive internal
+    or external databases available with information that would help the IRS determine
+    eligibility.  These overpayments also include the inability to authenticate data
+    due to program design and statutory limitations. Barriers caused by program design
+    occur when information needed to confirm payment accuracy is not available at
+    the time the return is processed. Statutory limitations include statutory requirements,
+    such as issuing refunds within 45 days of the filing deadline without paying interest.
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '721.39'
+  detail_Overpayments_Due_To_Failure: '0.0'
+  detail_Overpayments_Due_To_Inability: '107.79'
+  detail_Reduction_Target: '31.61'
+  eligibility_aggregated:
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  - Theme: Household
+    Theme_Description: Number of family members in a household
+  - Theme: Marital Status
+    Theme_Description: A person's state of being single, married, separated, divorced,
+      or widowed
+  overpayments:
+    Data_Needed_Does_Not_Exist: 721.39
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 107.79
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '829.18'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.0'
 Description: The Net Premium Tax Credit (PTC) is a refundable credit that helps eligible
   individuals and families cover the premiums for their health insurance purchased
   through the Marketplace. Approximately $0.57B of Net PTC overclaims are from the
@@ -741,12 +970,12 @@ Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
-High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[577.94, 958.15, 657.73]'
-Payment_Accuracy_Amounts: '[1529.04, 2721.4, 1646.85]'
-Payment_Accuracy_Rate: 0
+High_Priority_Program: 1
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 2623.05
+Overpayment_Amounts: '[577.94, 958.15, 657.73, 829.18]'
+Payment_Accuracy_Amounts: '[1529.04, 2721.4, 1646.85, 1793.8700000000003]'
+Payment_Accuracy_Rate: 68.38870780198624
 Phase_2_Program: 0
 Program_Name: Internal Revenue Service - Refundable Premium Assistance Tax Credit
 Scorecard_Links:
@@ -765,10 +994,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q2 2025/Internal Revenue Service - Refundable Premium Assistance
     Tax Credit.pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[0, 0, 0]'
-Underpayment_Amounts: '[0, 0, 0]'
-Unknown_Amounts: '[0, 0, 0]'
-detail_Reduction_Target: '26.04'
+Technically_Improper_Amounts: '[0, 0, 0, 0]'
+Underpayment_Amounts: '[0, 0, 0, 0]'
+Unknown_Amounts: '[0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/TC.135
 layout: program-specific
 permalink: program/treasury-internal-revenue-service-refundable-premium-assista-3c3ccaa3

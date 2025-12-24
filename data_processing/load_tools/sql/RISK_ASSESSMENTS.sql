@@ -2,7 +2,7 @@ SELECT
     [programs].[Agency],
     [programs].[Program_Name],
     [risks].[Fiscal_Year],
-    COALESCE([risks].[Susceptible], 'No') AS [Susceptible],
+    [risks].[Susceptible],
     CASE WHEN [risks_methodology_changed].[Program_Name] IS NULL THEN 0 ELSE 1 END AS [MethodologyChanged]
 FROM (
     SELECT DISTINCT [Agency], [Program_Name] FROM [all_programs_data_aggregation]
@@ -14,6 +14,8 @@ FROM (
     SELECT DISTINCT [Agency], [Program_Name] FROM [principal_table_columns]
     UNION
     SELECT DISTINCT [Agency], [Program Name] FROM [program_data_raw]
+    UNION
+    SELECT DISTINCT [agency], [Program Name] FROM [active_programs] WHERE [Fiscal_Year] = ?
 ) [programs]
 LEFT JOIN (
     SELECT

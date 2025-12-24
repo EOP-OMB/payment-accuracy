@@ -126,12 +126,12 @@ permalink: /
                                                     <h2 class="margin-y-0 text-middle">FY {{ year_data.Year }} improper payment estimates</h2>
                                                     <div class="grid-container">
                                                         <div class="grid-row">
-                                                            {% if year_data.Hide_Improper_Payment_Estimates_Doughnut_Stats != true %}
-                                                                <div class="desktop:grid-col-6 mobile:grid-col-12 legend">
-                                                                    <h5>Chart legend and breakdown</h5>
-                                                                    <p class="legend-entry"><span class="legend-circle dark-green"></span>Payment accuracy rate</p>
-                                                                    <p class="legend-entry"><span class="legend-circle orange"></span>Improper payment rate</p>
-                                                                    <p class="legend-entry"><span class="legend-circle light-blue"></span>Unknown payment rate</p>
+                                                            <div class="desktop:grid-col-6 mobile:grid-col-12 legend">
+                                                                <h5>Chart legend and breakdown</h5>
+                                                                <p class="legend-entry"><span class="legend-circle dark-green"></span>Payment accuracy rate</p>
+                                                                <p class="legend-entry"><span class="legend-circle orange"></span>Improper payment rate</p>
+                                                                <p class="legend-entry"><span class="legend-circle light-blue"></span>Unknown payment rate</p>
+                                                                {% if year_data.Hide_Improper_Payment_Estimates_Doughnut_Stats != true %}
                                                                     <br />
                                                                     <h5>Sampling & estimation methodology details</h5>
                                                                     <br />
@@ -149,8 +149,8 @@ permalink: /
                                                                         <h5>Margin of error:</h5>
                                                                         <p>+/-{{ year_data.Margin_of_Error }}</p>
                                                                     {% endif %}
-                                                                </div>
-                                                            {% endif %}
+                                                                {% endif %}
+                                                            </div>
 
                                                             <div class="desktop:grid-col-6 mobile:grid-col-12">
                                                                 <canvas
@@ -249,7 +249,7 @@ permalink: /
                             {% endif %}
 
                             {% assign hide_aiip_section = false %}
-                            {% if year_data.No_Estimates_Why == nil and year_data.Non_Monetary_Loss_Amount == nil %}
+                            {% if year_data.detail_No_Estimates_Why == nil and year_data.Non_Monetary_Loss_Amount == nil %}
                                 {% assign hide_aiip_section = true %}
                             {% endif %}
 
@@ -281,7 +281,7 @@ permalink: /
                                     {% if year_data.Year >= 2025 %}
                                         <!-- Cause tab variables -->
                                         {% assign hide_causes_description_accordion = false %}
-                                        {% if year_data.IP_Causes == nil or year_data.IP_Causes == "" %}
+                                        {% if year_data.detail_IP_Causes == nil or year_data.detail_IP_Causes == "" %}
                                             {% assign hide_causes_description_accordion = true %}
                                         {% endif %}
 
@@ -296,7 +296,7 @@ permalink: /
                                         {% endif %}
 
                                         {% assign hide_overpayments_amount_by_cause_accordion = false %}
-                                        {% if overpayments_outside_missing == true and overpayments_within_missing == true and year_data.detail_Overpayments_Due_To_Data_DNE == nil and year_data.Overpayments_Due_To_Inability == nil and year_data.Overpayments_Due_To_Failure == nil %}
+                                        {% if overpayments_outside_missing == true and overpayments_within_missing == true and year_data.detail_Overpayments_Due_To_Data_DNE == nil and year_data.detail_Overpayments_Due_To_Inability == nil and year_data.detail_Overpayments_Due_To_Failure == nil %}
                                             {% assign hide_overpayments_amount_by_cause_accordion = true %}
                                         {% endif %}
 
@@ -362,7 +362,7 @@ permalink: /
                                         {% endif %}
 
                                         {% assign hide_mitigations_accordion = false %}
-                                        {% if hide_overpayment_combined_mitigations == true and hide_overpayment_combined_mitigations == true and hide_overpayment_combined_mitigations == true and hide_overpayment_combined_mitigations == true %}
+                                        {% if hide_overpayment_combined_mitigations == true %}
                                             {% assign hide_mitigations_accordion = true %}
                                         {% endif %}
 
@@ -372,7 +372,7 @@ permalink: /
                                         {% endif %}
 
                                         {% assign hide_prevention_tab = false %}
-                                        {% if hide_prevention_description_accordion == true and hide_mitigations_accordion == true and hide_eligibility_information_accordion == true %}
+                                        {% if hide_prevention_description_accordion == true and hide_mitigations_accordion == true and hide_eligibility_information_aggregated_accordion == true %}
                                             {% assign hide_prevention_tab = true %}
                                         {% endif %}
 
@@ -405,7 +405,7 @@ permalink: /
                                         {% endif %}
 
                                         {% assign hide_missing_ip_reason_accordion = false %}
-                                        {% if year_data.No_Estimates_Why == nil or year_data.No_Estimates_Why == '' %}
+                                        {% if year_data.detail_No_Estimates_Why == nil or year_data.detail_No_Estimates_Why == '' %}
                                             {% assign hide_missing_ip_reason_accordion = true %}
                                         {% endif %}
 
@@ -523,7 +523,7 @@ permalink: /
                                                                     </button>
                                                                 </h4>
                                                                 <div id="accordion-1-{{ year_data.Year }}" class="usa-accordion__content usa-prose">
-                                                                    {{ year_data.IP_Causes | newline_to_br }}
+                                                                    {{ year_data.detail_IP_Causes | newline_to_br }}
                                                                 </div>
                                                             </div>
                                                         {% endunless %}
@@ -536,20 +536,54 @@ permalink: /
                                                                     </button>
                                                                 </h4>
                                                                 <div id="accordion-2-{{ year_data.Year }}" class="usa-accordion__content usa-prose">
-                                                                    <p><strong>Amount of overpayments within the agency's control</strong></p>
-                                                                    ${{ year_data.overpayments.Overpayments_Within_Control_Amount | round: 2 | thousands_separator }} M
-
-                                                                    <p><strong>Amount of overpayments outside the agency's control</strong></p>
-                                                                    ${{ year_data.overpayments_outside.Overpayments_Outside_Control_Amount | round: 2 | thousands_separator }} M
-
-                                                                    <p><em>Amount of overpayments that occurred because the data/information needed to validate payment accuracy prior to making a payment does not exist</em></p>
-                                                                    ${{ year_data.detail_Overpayments_Due_To_Data_DNE | round: 2 | thousands_separator }} M
-
-                                                                    <p><em>Amount of overpayments that occurred because of an inability to access the data/information needed to validate payment accuracy prior to making a payment</em></p>
-                                                                    ${{ year_data.Overpayments_Due_To_Inability | round: 2 | thousands_separator }} M
-
-                                                                    <p><em>Amount of overpayments that occurred because of a failure to access data/information needed to validate payment accuracy prior to making a payment</em></p>
-                                                                    ${{ year_data.Overpayments_Due_To_Failure | round: 2 | thousands_separator }} M
+                                                                    <table class="usa-table usa-table--borderless overpayments-table">
+                                                                        <thead>
+                                                                            <th>Overpayment root cause</th>
+                                                                            <th>Overpayment amount</th>
+                                                                        </thead>
+                                                                        <tbody>
+                                                                            {% if year_data.overpayments.Overpayments_Within_Control_Amount != nil %}
+                                                                                <tr>
+                                                                                    <td><strong>Amount of overpayments within the agency's control</strong></td>
+                                                                                    <td class="amount-col"><strong>
+                                                                                        ${{ year_data.overpayments.Overpayments_Within_Control_Amount | round: 2 | thousands_separator }} M
+                                                                                    </strong></td>
+                                                                                </tr>
+                                                                            {% endif %}
+                                                                            {% if year_data.overpayments_outside.Overpayments_Outside_Control_Amount != nil %}
+                                                                                <tr>
+                                                                                    <td><strong>Amount of overpayments outside the agency's control</strong></td>
+                                                                                    <td class="amount-col"><strong>
+                                                                                        ${{ year_data.overpayments_outside.Overpayments_Outside_Control_Amount | round: 2 | thousands_separator }} M
+                                                                                    </strong></td>
+                                                                                </tr>
+                                                                            {% endif %}
+                                                                            {% if year_data.detail_Overpayments_Due_To_Data_DNE != nil %}
+                                                                                <tr>
+                                                                                    <td>Amount of overpayments that occurred because the data/information needed to validate payment accuracy prior to making a payment does not exist</td>
+                                                                                    <td class="amount-col">
+                                                                                        ${{ year_data.detail_Overpayments_Due_To_Data_DNE | round: 2 | thousands_separator }} M
+                                                                                    </td>
+                                                                                </tr>
+                                                                            {% endif %}
+                                                                            {% if year_data.detail_Overpayments_Due_To_Inability != nil %}
+                                                                                <tr>
+                                                                                    <td>Amount of overpayments that occurred because of an inability to access the data/information needed to validate payment accuracy prior to making a payment</td>
+                                                                                    <td class="amount-col">
+                                                                                        ${{ year_data.detail_Overpayments_Due_To_Inability | round: 2 | thousands_separator }} M
+                                                                                    </td>
+                                                                                </tr>
+                                                                            {% endif %}
+                                                                            {% if year_data.detail_Overpayments_Due_To_Failure != nil %}
+                                                                                <tr>
+                                                                                    <td>Amount of overpayments that occurred because of a failure to access data/information needed to validate payment accuracy prior to making a payment</td>
+                                                                                    <td class="amount-col">
+                                                                                        ${{ year_data.detail_Overpayments_Due_To_Failure | round: 2 | thousands_separator }} M
+                                                                                    </td>
+                                                                                </tr>
+                                                                            {% endif %}
+                                                                        </tbody>
+                                                                    </table>
                                                                 </div>
                                                             </div>
                                                         {% endunless %}
@@ -642,8 +676,18 @@ permalink: /
                                                                     </button>
                                                                 </h4>
                                                                 <div id="accordion-5-{{ year_data.Year }}" class="usa-accordion__content usa-prose">
-                                                                    <p><em>The amount that could either be proper or improper but the agency is unable to determine whether it was proper or improper as a result of insufficient or lack of documentation</em></p>
-                                                                    ${{ year_data.Insufficient_Documentation_to_Determine | round: 2 | thousands_separator }} M
+                                                                    <table class="usa-table usa-table--borderless overpayments-table">
+                                                                        <tbody>
+                                                                            {% if year_data.Insufficient_Documentation_to_Determine != nil %}
+                                                                                <tr>
+                                                                                    <td>The amount that could either be proper or improper but the agency is unable to determine whether it was proper or improper as a result of insufficient or lack of documentation</td>
+                                                                                    <td class="amount-col">
+                                                                                        ${{ year_data.Insufficient_Documentation_to_Determine | round: 2 | thousands_separator }} M
+                                                                                    </td>
+                                                                                </tr>
+                                                                            {% endif %}
+                                                                        </tbody>
+                                                                    </table>
                                                                 </div>
                                                             </div>
                                                         {% endunless %}
@@ -863,7 +907,7 @@ permalink: /
                                                                     </button>
                                                                 </h4>
                                                                 <div id="accordion-14-{{ year_data.Year }}" class="usa-accordion__content usa-prose">
-                                                                    {{ year_data.No_Estimates_Why }}
+                                                                    {{ year_data.detail_No_Estimates_Why | newline_to_br }}
                                                                 </div>
                                                             </div>
                                                         {% endunless %}
@@ -1280,7 +1324,7 @@ permalink: /
                                                     <div class="grid-container ip-additional-information-section">
                                                         <h3>Additional information</h3>
                                                         <div class="usa-accordion program-specific-accordion">
-                                                            {% if year_data.No_Estimates_Why != nil and year_data.No_Estimates_Why != "" %}
+                                                            {% if year_data.detail_No_Estimates_Why != nil and year_data.detail_No_Estimates_Why != "" %}
                                                                 <div class="usa-accordion__item">
                                                                     <h4 class="usa-accordion__heading">
                                                                         <button class="usa-accordion__button" aria-expanded="false" aria-controls="accordion-9-{{ year_data.Year }}">
@@ -1288,7 +1332,7 @@ permalink: /
                                                                         </button>
                                                                     </h4>
                                                                     <div id="accordion-9-{{ year_data.Year }}" class="usa-accordion__content usa-prose">
-                                                                        {{ year_data.No_Estimates_Why }}
+                                                                        {{ year_data.detail_No_Estimates_Why }}
                                                                         <br />
                                                                     </div>
                                                                 </div>

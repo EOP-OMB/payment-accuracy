@@ -63,6 +63,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2022
+  detail_Reduction_Target: '4.40'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -102,18 +103,17 @@ Data_By_Year:
       program. Therefore,   no Training corrective action(s) are planned for the COVID
       EIDL program.
     Mitigation_Strategy: app3_1
-  - Action_Taken: Completed
+  - Action_Taken: Planned
     Action_Type: Audit
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: The Audit corrective action(s) taken include the performance
-      of ongoing quality assurance reviews of PDC Departments' loan origination and
-      disbursement activities to identify improper and potentially improper payments,
-      and to identify areas  in which the PDC Departments may require additional training
-      to reduce the possibility of future improper payments, The Disaster Internal
-      Control Division (DICD) are not conducting quality assurance reviews for COVID
-      EIDL program going forward, as the program has ended and is no longer originating
-      loans or disbursing newly approved funds.
-    Mitigation_Strategy: atp6_1
+    Completion_Date: FY2023
+    Description_Action_Taken: As of January 1, 2022, the SBA stopped accepting applications
+      for new COVID EIDL loans. As of May 6, 2022, the SBA was no longer processing
+      COVID EIDL increase requests or requests for reconsideration of previously declined
+      loan applications. As of May 16, 2022, the COVID EIDL portal was closed.  SBA
+      is no longer originating loans or disbursing newly approved funds under this
+      program. Therefore, no Auditing corrective action(s) are planned for the COVID
+      EIDL program.
+    Mitigation_Strategy: app6_1
   - Action_Taken: Completed
     Action_Type: Training
     Completion_Date: FY2023 Q4
@@ -130,17 +130,18 @@ Data_By_Year:
       applications and therefore are no longer originating loans or disbursing newly
       approved funds.
     Mitigation_Strategy: atp3_1
-  - Action_Taken: Planned
+  - Action_Taken: Completed
     Action_Type: Audit
-    Completion_Date: FY2023
-    Description_Action_Taken: As of January 1, 2022, the SBA stopped accepting applications
-      for new COVID EIDL loans. As of May 6, 2022, the SBA was no longer processing
-      COVID EIDL increase requests or requests for reconsideration of previously declined
-      loan applications. As of May 16, 2022, the COVID EIDL portal was closed.  SBA
-      is no longer originating loans or disbursing newly approved funds under this
-      program. Therefore, no Auditing corrective action(s) are planned for the COVID
-      EIDL program.
-    Mitigation_Strategy: app6_1
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: The Audit corrective action(s) taken include the performance
+      of ongoing quality assurance reviews of PDC Departments' loan origination and
+      disbursement activities to identify improper and potentially improper payments,
+      and to identify areas  in which the PDC Departments may require additional training
+      to reduce the possibility of future improper payments, The Disaster Internal
+      Control Division (DICD) are not conducting quality assurance reviews for COVID
+      EIDL program going forward, as the program has ended and is no longer originating
+      loans or disbursing newly approved funds.
+    Mitigation_Strategy: atp6_1
   Agency_Needs_Satisfied: As of January 1, 2022, the SBA stopped accepting applications
     for new COVID EIDL loans. As of May 6, 2022, the SBA was no longer processing
     COVID EIDL increase requests or requests for reconsideration of previously declined
@@ -219,6 +220,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: '0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -301,7 +303,6 @@ Scorecard_Links:
 Technically_Improper_Amounts: '[3855.42, 0]'
 Underpayment_Amounts: '[461.26, 634.38]'
 Unknown_Amounts: '[0, 0]'
-detail_Reduction_Target: '0'
 layout: program-specific
 permalink: program/sba-covid-economic-injury-disaster-loan-eidl
 ---

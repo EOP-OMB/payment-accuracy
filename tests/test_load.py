@@ -603,7 +603,6 @@ def program_specific_sample_data():
                 "Unknown_Documentation_Why": "Value13",
                 "Unknown_Mitigations_Taken": "Value14",
                 "Unknown_Mitigations_Planned": "Value15",
-                "No_Estimates_Why": "rac3",
                 "Non_Monetary_Loss_Amount": "cyp26"
             },
             {
@@ -614,7 +613,6 @@ def program_specific_sample_data():
                 "Unknown_Documentation_Why": "Value23",
                 "Unknown_Mitigations_Taken": "Value24",
                 "Unknown_Mitigations_Planned": "Value25",
-                "No_Estimates_Why": "rac3",
                 "Non_Monetary_Loss_Amount": "cyp26"
             },
             {
@@ -625,7 +623,6 @@ def program_specific_sample_data():
                 "Unknown_Documentation_Why": "Value23",
                 "Unknown_Mitigations_Taken": "Value26",
                 "Unknown_Mitigations_Planned": "Value27",
-                "No_Estimates_Why": "rac3",
                 "Non_Monetary_Loss_Amount": "cyp26"
             }
         ],
@@ -988,8 +985,9 @@ def test_generate_program_specific_pages(mock_cursor, program_specific_sample_da
         program_specific_sample_data["program_data_points"],
         program_specific_sample_data["program_fpi_links"],
         program_specific_sample_data["program_chart_data_points_A1"],
-        program_specific_sample_data["program_survey_details"],
         program_specific_sample_data["program_improper_payment_estimates_data_points"],
+        program_specific_sample_data["program_survey_details"],
+        program_specific_sample_data["program_survey_details"],
         program_specific_sample_data["program_actions_data_points_2023"],
         program_specific_sample_data["program_actions_data_points_2024"],
         program_specific_sample_data["visibility_data_points"],

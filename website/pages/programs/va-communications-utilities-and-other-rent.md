@@ -110,6 +110,7 @@ Data_By_Year:
     reason, we are unable to conclude whether the payment is proper or improper without
     that documentation.
   Year: 2022
+  detail_Reduction_Target: '2.50'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 6.46
@@ -336,6 +337,7 @@ Data_By_Year:
     Without documentation supporting the appropriate contract rate information, the
     program is unable to determine whether the amount paid is proper or improper.
   Year: 2023
+  detail_Reduction_Target: '2.45'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.72
@@ -525,7 +527,7 @@ Data_By_Year:
   IP_Current_Year_Plus_1_Amount: 0
   IP_Unknown_Current_Year_Plus_1_Rate: 0
   IP_Unknown_Target_Rate: 0
-  Improper_Payments_Rate: 0.5389375967
+  Improper_Payments_Rate: 0.5389376
   Insufficient_Documentation_to_Determine: 0.73
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -606,6 +608,8 @@ Data_By_Year:
     information, the program is unable to determine whether the amount paid is proper
     or improper.
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '0.0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 3.55
@@ -667,7 +671,6 @@ Scorecard_Links: []
 Technically_Improper_Amounts: '[27.68, 23.3, 8.57]'
 Underpayment_Amounts: '[1.03e-06, 1.33, 0.42]'
 Unknown_Amounts: '[14.97, 27.74, 0.73]'
-detail_Reduction_Target: '2.50'
 layout: program-specific
 permalink: program/va-communications-utilities-and-other-rent
 ---

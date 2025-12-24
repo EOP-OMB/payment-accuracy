@@ -1,7 +1,7 @@
 ---
 Agencies_Dropdown:
-- Code: BEP
-  Name: Bureau of Engraving and Printing
+- Code: BGSF
+  Name: Barry Goldwater Scholarship and Excellence in Education Fund
 - Code: CFTC
   Name: Commodity Futures Trading Commission
 - Code: CNCS
@@ -18,8 +18,6 @@ Agencies_Dropdown:
   Name: Defense Nuclear Facilities Safety Board
 - Code: DOC
   Name: Department of Commerce
-- Code: DOD
-  Name: Department of Defense
 - Code: DOE
   Name: Department of Energy
 - Code: DOI
@@ -30,6 +28,8 @@ Agencies_Dropdown:
   Name: Department of Labor
 - Code: DOT
   Name: Department of Transportation
+- Code: DOW
+  Name: Department of War
 - Code: EAC
   Name: Election Assistance Commission
 - Code: ED
@@ -68,10 +68,15 @@ Agencies_Dropdown:
   Name: Millennium Challenge Corporation
 - Code: MSPB
   Name: Merit Systems Protection Board
+- Code: MUSP
+  Name: Morris K. Udall Scholarship and Excellence in National Environmental Policy
+    Foundation
 - Code: NARA
   Name: National Archives and Records Administration
 - Code: NASA
   Name: National Aeronautics and Space Administration
+- Code: NCUA
+  Name: National Credit Union Administration
 - Code: NEA
   Name: National Endowment for the Arts
 - Code: NEH
@@ -98,6 +103,8 @@ Agencies_Dropdown:
   Name: Peace Corps
 - Code: PCLOB
   Name: Privacy and Civil Liberties Oversight Board
+- Code: PISC
+  Name: Permitting Council
 - Code: RRB
   Name: Railroad Retirement Board
 - Code: SBA
@@ -122,6 +129,10 @@ Agencies_Dropdown:
   Name: International Assistance Programs (USAID)
 - Code: USDA
   Name: Department of Agriculture
+- Code: USHMM
+  Name: United States Holocaust memorial Museum
+- Code: USIP
+  Name: United States Institute of Peace
 - Code: USITC
   Name: US International Trade Commission
 - Code: VA

@@ -11,19 +11,19 @@ SELECT
     CAST([counts].[dpa3_na] as REAL) * 100 / [counts].[dpa3_all] AS frequency_na
 FROM (
     SELECT
-        SUM(CASE WHEN [Key] = 'dpa1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS dpa1_all,
-        SUM(CASE WHEN [Key] = 'dpa1' AND LOWER([value]) = 'yes' THEN 1 ELSE 0 END) AS dpa1_yes,
-        SUM(CASE WHEN [Key] = 'dpa1' AND LOWER([value]) = 'no' THEN 1 ELSE 0 END) AS dpa1_no,
-        SUM(CASE WHEN [Key] = 'dpa2' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS dpa2_all,
-        SUM(CASE WHEN [Key] = 'dpa2' AND LOWER([value]) = 'yes' THEN 1 ELSE 0 END) AS dpa2_yes,
-        SUM(CASE WHEN [Key] = 'dpa2' AND LOWER([value]) = 'no' THEN 1 ELSE 0 END) AS dpa2_no,
-        SUM(CASE WHEN [Key] = 'dpa3' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS dpa3_all,
-        SUM(CASE WHEN [Key] = 'dpa3' AND LOWER([value]) = 'daily' THEN 1 ELSE 0 END) AS dpa3_daily,
-        SUM(CASE WHEN [Key] = 'dpa3' AND LOWER([value]) = 'weekly' THEN 1 ELSE 0 END) AS dpa3_weekly,
-        SUM(CASE WHEN [Key] = 'dpa3' AND LOWER([value]) = 'monthly' THEN 1 ELSE 0 END) AS dpa3_monthly,
-        SUM(CASE WHEN [Key] = 'dpa3' AND LOWER([value]) = 'quarterly' THEN 1 ELSE 0 END) AS dpa3_quarterly,
-        SUM(CASE WHEN [Key] = 'dpa3' AND LOWER([value]) = 'annually' THEN 1 ELSE 0 END) AS dpa3_annually,
-        SUM(CASE WHEN [Key] = 'dpa3' AND LOWER([value]) LIKE '%did not identify any incorrect information%' THEN 1 ELSE 0 END) AS dpa3_na,
+        SUM(CASE WHEN LOWER([Key]) = 'dpa1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS dpa1_all,
+        SUM(CASE WHEN LOWER([Key]) = 'dpa1' AND LOWER([value]) = 'yes' THEN 1 ELSE 0 END) AS dpa1_yes,
+        SUM(CASE WHEN LOWER([Key]) = 'dpa1' AND LOWER([value]) = 'no' THEN 1 ELSE 0 END) AS dpa1_no,
+        SUM(CASE WHEN LOWER([Key]) = 'dpa2' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS dpa2_all,
+        SUM(CASE WHEN LOWER([Key]) = 'dpa2' AND LOWER([value]) = 'yes' THEN 1 ELSE 0 END) AS dpa2_yes,
+        SUM(CASE WHEN LOWER([Key]) = 'dpa2' AND LOWER([value]) = 'no' THEN 1 ELSE 0 END) AS dpa2_no,
+        SUM(CASE WHEN LOWER([Key]) = 'dpa3' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS dpa3_all,
+        SUM(CASE WHEN LOWER([Key]) = 'dpa3' AND LOWER([value]) = 'daily' THEN 1 ELSE 0 END) AS dpa3_daily,
+        SUM(CASE WHEN LOWER([Key]) = 'dpa3' AND LOWER([value]) = 'weekly' THEN 1 ELSE 0 END) AS dpa3_weekly,
+        SUM(CASE WHEN LOWER([Key]) = 'dpa3' AND LOWER([value]) = 'monthly' THEN 1 ELSE 0 END) AS dpa3_monthly,
+        SUM(CASE WHEN LOWER([Key]) = 'dpa3' AND LOWER([value]) = 'quarterly' THEN 1 ELSE 0 END) AS dpa3_quarterly,
+        SUM(CASE WHEN LOWER([Key]) = 'dpa3' AND LOWER([value]) = 'annually' THEN 1 ELSE 0 END) AS dpa3_annually,
+        SUM(CASE WHEN LOWER([Key]) = 'dpa3' AND LOWER([value]) LIKE '%did not identify any incorrect information%' THEN 1 ELSE 0 END) AS dpa3_na,
         [Fiscal_Year]
     FROM [congressional_reports]
     WHERE [Fiscal_Year] = ?

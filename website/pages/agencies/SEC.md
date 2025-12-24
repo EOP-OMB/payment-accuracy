@@ -1,12 +1,228 @@
 ---
 Agency: SEC
 Agency_Name: Securities and Exchange Commission
+Confirmed_Fraud: null
+Eligibility_Themes: []
 Fiscal_Year: 2025
-Is_Placeholder: true
+Hide_Disposition_of_Funds: true
+Hide_Disposition_of_Funds_Table: true
+Hide_Do_Not_Pay: false
+Hide_Eligibility_Criteria: true
+Hide_Integrity_Results: true
+Hide_PIIA2019: false
+Hide_Recovery_Audits: false
+Hide_Recovery_Details: true
+Hide_Recovery_Info: false
+Hide_Risk_Assessment_Results: false
+Hide_Sparklines: true
+Hide_Supplemental_Info: false
+Hide_Supplemental_Payment_Integrity: false
+Improper_Payments_Data_Years: '[]'
+Improper_Payments_Rate_Max: 0
+Improper_Payments_Rate_Min: 0
+Improper_Payments_Rates: '[]'
+Is_Placeholder: false
+Overpayment_Amounts: '[]'
+Overpayment_Amounts_Identified: '[]'
+Overpayment_Amounts_Recovered: '[]'
+Overpayment_Years: '[]'
+PIIA2019_Compliant_Programs:
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Disgorgement & Penalty Distributions
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Filing Fee deposit refunds
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Salaries & Benefits
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Travel Payments
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Vendor Payments
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Whistleblower Payments
+PIIA2019_NonCompliant_Programs: []
+Payment_Accuracy_Amounts: '[]'
+Payment_Accuracy_Rate_Max: 0
+Payment_Accuracy_Rate_Min: 0
+Payment_Accuracy_Rates: '[]'
+Risks:
+  AdditionalInformation: null
+  Assessments:
+  - Fiscal_Year: 2025
+    MethodologyChanged: 0
+    Program_Name: Disgorgement & Penalty Distributions
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2025
+    MethodologyChanged: 0
+    Program_Name: Filing Fee deposit refunds
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Purchase Card - Securities and Exchange Commission
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: 2025
+    MethodologyChanged: 0
+    Program_Name: Salaries & Benefits
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Securities and Exchange Commission Agency Reporting
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Student Loan Repayments - Securities and Exchange Commission
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: 2022
+    MethodologyChanged: 0
+    Program_Name: Supplemental Retirement - Securities and Exchange Commission
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2025
+    MethodologyChanged: 0
+    Program_Name: Travel Payments
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2025
+    MethodologyChanged: 0
+    Program_Name: Vendor Payments
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2025
+    MethodologyChanged: 0
+    Program_Name: Whistleblower Payments
+    Slug: null
+    Susceptible: 'No'
+  SubstantialChangesMade: 'No'
+Technically_Improper_Amounts: '[]'
+Underpayment_Amounts: '[]'
+Unknown_Amounts: '[]'
+Unknown_Payments_Rate_Max: 0
+Unknown_Payments_Rate_Min: 0
+Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2025
 - 2024
 - 2023
 - 2022
+detail_Additional_IP_Information: 'The SEC conducted its latest full improper payments
+  risk assessment in FY 2025 and an additional assessment on one additional program
+  in FY 2023. The SEC’s
+
+  determination that all of its evaluated programs are low risk is based upon the
+  results of these assessments, in which none of its programs/activities were deemed
+  susceptible to significant improper payments at or above the threshold levels set
+  by OMB. These programs have historically had low volumes and risks of improper payments
+  given the controls and processes in place.'
+detail_Compliance_Status: Compliant
+detail_DNP_Discussion: 'The SEC utilizes the Do Not Pay (DNP) Initiative by evaluating
+  possible improper
+
+  payments flagged by the DNP Portal to ascertain whether flagged payments are
+
+  actual improper payments. Historically, the agency has had very few improper
+
+  payments, and this has continued during FY2025.  After payment has been sent, the
+  SEC monitors the system once a week to be proactive if DNP marks a payment as possibly
+  improper in order to research and request return of a payment, if needed.'
+detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
+detail_DNP_Reduced: 'Yes'
+detail_Executive_Summary: The SEC assesses its payment integrity in a number of ways
+  each fiscal year. During FY2025, the agency conducted internal controls activities
+  to assess its financial reporting processes including assessment of the strength
+  and accuracy of its payment processes. During FY 2025, the agency conducted its
+  triannual improper payments risk assessment as directed by the Payment Integrity
+  Information Act of 2019 (PIIA). The results of this assessment validated that the
+  SEC's six major programs were still at low risk for improper payments.  Assessments
+  during the year showed a very low level of improper payments and the agency’s processes
+  for self-identification of these payments were well developed. In addition, during
+  FY 2025 the agency underwent the Office of the Inspector General (OIG) annual audit
+  which evaluated the SEC’s FY 2024 Compliance with the Payment Integrity Information
+  Act of 2019 (PIIA) as required by this legislation. Based on this evaluation, the
+  OIG concluded that the SEC complied with the PIIA in FY 2024 and reported efforts
+  to prevent and reduce improper payments.
+detail_OIG_Recommendations: null
+detail_PIIA_Incentives: null
+detail_PIIA_Official: null
+detail_Recovery_Audits_Skipped: 'No'
+detail_Recovery_Justifications_Audits: null
+detail_Recovery_Not_Cost_Effective_Justification: The benefits of recaptured amounts
+  associated with implementing and overseeing the program do not exceed the costs—
+  including staff time and payments to contractors— of a payment recapture audit program.
+  In making this determination, the SEC considered its low improper payment rate based
+  on testing conducted over several years. The SEC also considered whether sophisticated
+  software and other cost efficient techniques could be used to identify significant
+  overpayments at a low cost per overpayment, or if labor intensive manual reviews
+  of paper documentation would be required. In addition, the SEC considered the availability
+  of tools to efficiently perform the payment recapture audit and minimize payment
+  recapture audit costs.  The SEC will continue to monitor its improper payments across
+  all programs and activities it administers and assess whether implementing payment
+  recapture audits for each program is cost-effective.
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/SEC.html
 ---

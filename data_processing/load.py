@@ -200,7 +200,7 @@ def generate_agency_specific_pages_for_year(cursor: sqlite3.Cursor, year):
 def get_risks(cursor, year, agency):
     assessments = query.fetch_all(
         cursor,
-        query.QUERY_TYPES.RISK_ASSESSMENTS, (year, agency, year),
+        query.QUERY_TYPES.RISK_ASSESSMENTS, (year, year, agency, year),
         year
     )
 
@@ -369,14 +369,6 @@ def generate_program_specific_pages(cursor: sqlite3.Cursor):
         programObj["Technically_Improper_Amounts"] = str(extract_column_from_results("Technically_Improper_Amount", dataPointsDetails))
         programObj["Unknown_Amounts"] = str(extract_column_from_results("Unknown_Amount", dataPointsDetails))
         programObj["Improper_Payments_Data_Years"] = str(extract_column_from_results("Fiscal_Year", dataPointsDetails))
-        
-        details = query.fetch_all(cursor, query.QUERY_TYPES.PROGRAM_SURVEY_KEY_AGNOSTIC, [program["Program_Name"]] + programFiscalYearRange)
-
-        # this relies on the assumption that there is one record per year-agency-key
-        # if multiselect values are ever needed, use a separate extract file and table
-        for detail in details:
-            key = "detail_" + detail["Name"]
-            programObj[key] = detail["value"]
 
         data_by_year_dict = {}
         improperPaymentEstimates = query.fetch_all(cursor, query.QUERY_TYPES.PROGRAM_IP_ESTIMATES, [program["Program_Name"]] + programFiscalYearRange)
@@ -409,6 +401,16 @@ def generate_program_specific_pages(cursor: sqlite3.Cursor):
                         "Hide_Improper_Payment_Estimates_Doughnut_Stats": hide_improper_payment_estimates_doughnut_stats
                     }.items() if value is not None
                 }
+
+            details = query.fetch_all(cursor, query.QUERY_TYPES.PROGRAM_SURVEY_KEY_AGNOSTIC, [program["Program_Name"], fiscal_year])
+
+            # this relies on the assumption that there is one record per year-agency-key
+            # if multiselect values are ever needed, use a separate extract file and table
+            for detail in details:
+                if fiscal_year not in data_by_year_dict:
+                    data_by_year_dict[fiscal_year] = {}
+                key = "detail_" + detail["Name"]
+                data_by_year_dict[fiscal_year][key] = detail["value"]
 
         program_specific_fiscal_years = list(range(config.FISCAL_YEAR - config.COUNT_PROGRAM_SPECIFIC_YEARS_DISPLAYED + 1, config.FISCAL_YEAR + 1))
         add_actions_taken(cursor, program_specific_fiscal_years, program["Program_Name"], data_by_year_dict)
@@ -621,7 +623,6 @@ def generate_program_specific_pages(cursor: sqlite3.Cursor):
             Unknown_Documentation_Why = row["Unknown_Documentation_Why"]
             Unknown_Mitigations_Taken = row["Unknown_Mitigations_Taken"]
             Unknown_Mitigations_Planned = row["Unknown_Mitigations_Planned"]
-            No_Estimates_Why = row["No_Estimates_Why"]
             Non_Monetary_Loss_Amount = row["Non_Monetary_Loss_Amount"]
 
             if fiscal_year not in data_by_year_dict:
@@ -637,7 +638,6 @@ def generate_program_specific_pages(cursor: sqlite3.Cursor):
                 "Unknown_Why" : Unknown_Why,
                 "Insufficient_Documentation_to_Determine" : insufficient_documentation_to_determine,
                 "Unknown_Documentation_Why" : Unknown_Documentation_Why,
-                "No_Estimates_Why": No_Estimates_Why,
                 "Non_Monetary_Loss_Amount": Non_Monetary_Loss_Amount
             }.items():
                 if value is not None:

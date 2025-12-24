@@ -66,6 +66,7 @@ Data_By_Year:
     by an AmeriCorps program. Without timekeeping information, AmeriCorps is unable
     to determine if the charges to the award are correct.
   Year: 2022
+  detail_Reduction_Target: '1'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -91,6 +92,19 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.066'
 - Actions_Taken:
+  - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2024
+    Description_Action_Taken: AmeriCorps plans to continue to provide training and
+      resources to grantees to ensure proper utilization of grant funds. AmeriCorps
+      has a Payment Integrity Corrective Action Plan working group that includes accountable
+      program officials and key agency stakeholders. The working group has created
+      training and resources targeted at the root cause drivers of improper payments
+      which are available on the agency’s website or grantee training platform (LITMOS).
+      The working group plans to analyze the FY 2023 improper payments root cause
+      drivers and explore opportunities to create new resources or expand on those
+      that currently exist in FY 2024.
+    Mitigation_Strategy: app3_1
   - Action_Taken: Completed
     Action_Type: Training
     Completion_Date: FY2023 Q4
@@ -105,19 +119,6 @@ Data_By_Year:
       cause drivers of improper payments to the corresponding applicable statute,
       regulation, and available training. This will continue for the FY 2023 assessment.
     Mitigation_Strategy: atp3_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2024
-    Description_Action_Taken: AmeriCorps plans to continue to provide training and
-      resources to grantees to ensure proper utilization of grant funds. AmeriCorps
-      has a Payment Integrity Corrective Action Plan working group that includes accountable
-      program officials and key agency stakeholders. The working group has created
-      training and resources targeted at the root cause drivers of improper payments
-      which are available on the agency’s website or grantee training platform (LITMOS).
-      The working group plans to analyze the FY 2023 improper payments root cause
-      drivers and explore opportunities to create new resources or expand on those
-      that currently exist in FY 2024.
-    Mitigation_Strategy: app3_1
   Agency_Needs_Satisfied: As part of its strategic plan, AmeriCorps is prioritizing
     effective stewardship of federal resources. This goal includes the objective of
     reducing the agency’s improper payments via a five-pronged approach. The agency
@@ -220,6 +221,7 @@ Data_By_Year:
     adequately documented information a determination regarding the payment as either
     proper or improper could have been made.
   Year: 2023
+  detail_Reduction_Target: '1'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -281,7 +283,6 @@ Scorecard_Links: []
 Technically_Improper_Amounts: '[0, 0]'
 Underpayment_Amounts: '[0.066, 0.046]'
 Unknown_Amounts: '[8.275, 3.305]'
-detail_Reduction_Target: '1'
 fpi_link: https://fpi.omb.gov/program/94.016
 layout: program-specific
 permalink: program/cncs-the-senior-companion-program-scp

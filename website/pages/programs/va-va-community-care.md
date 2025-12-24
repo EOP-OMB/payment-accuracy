@@ -106,6 +106,7 @@ Data_By_Year:
     missing documentation contained information such as the final pricing methodology
     related to the correct payment amount.
   Year: 2022
+  detail_Reduction_Target: '7.50'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 686.0921
@@ -137,44 +138,6 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.54'
 - Actions_Taken:
-  - Action_Taken: Completed
-    Action_Type: Automation
-    Completion_Date: FY2023 Q1
-    Description_Action_Taken: Actions taken regarding automation include verified
-      that the Electronic Claims Adjudication Management System is auto denying payments
-      appropriately based on authorization logic. VA worked with appropriate offices
-      to correct system logic so the Electronic Claims Adjudication Management System
-      auto-calculates the accurate allowable amount. In addition, VA migrated National
-      Dialysis Contract claims processing to Electronic Claims Adjudication Management
-      System to auto-process correct rates.
-    Mitigation_Strategy: atp1_1
-  - Action_Taken: Planned
-    Action_Type: Change Process
-    Completion_Date: FY2024
-    Description_Action_Taken: Actions planned regarding change process include clarifying
-      payment methodology within VA and third party administrators to bill at the
-      correct allowable rates.  VA will also implement system checks for non-contract
-      payments to suspend specific institutional inpatient and ambulance claims for
-      manual review prior to payment. In addition, VA will instruct third party administrators
-      to follow standard billing practices as defined in the contract. VA will communicate
-      to claims processing agents to not process claims when timely filing requirements
-      are not met.
-    Mitigation_Strategy: app4_1
-  - Action_Taken: Completed
-    Action_Type: Change Process
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: Actions taken regarding change process include updated
-      internal policies, ensuring the correct rates are being paid, and timely filing
-      requirements are accurately enforced in the Electronic Claims Adjudication Management
-      System. VA also improved pre-payment checks in the authorization system to improve
-      claims processing accuracy. In addition, VA researched why Veteran's other health
-      insurance information was not present in the payment system to correct and prevent
-      future deficiencies. VA also continued with the post-implementation of the MISSION
-      Act. This includes moving previous non-contract claims into compliant purchasing
-      vehicles such as agreements and contracts. Finally, VA documented the decision
-      of whether or not to apply the Centers for Medicare and Medicaid Services End-Stage
-      Renal Disease network reduction to VA dialysis claims.
-    Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
     Action_Type: Automation
     Completion_Date: FY2024
@@ -194,6 +157,44 @@ Data_By_Year:
       training on claims processing requirements when required other health insurance
       documentation is missing.
     Mitigation_Strategy: app3_1
+  - Action_Taken: Planned
+    Action_Type: Change Process
+    Completion_Date: FY2024
+    Description_Action_Taken: Actions planned regarding change process include clarifying
+      payment methodology within VA and third party administrators to bill at the
+      correct allowable rates.  VA will also implement system checks for non-contract
+      payments to suspend specific institutional inpatient and ambulance claims for
+      manual review prior to payment. In addition, VA will instruct third party administrators
+      to follow standard billing practices as defined in the contract. VA will communicate
+      to claims processing agents to not process claims when timely filing requirements
+      are not met.
+    Mitigation_Strategy: app4_1
+  - Action_Taken: Completed
+    Action_Type: Automation
+    Completion_Date: FY2023 Q1
+    Description_Action_Taken: Actions taken regarding automation include verified
+      that the Electronic Claims Adjudication Management System is auto denying payments
+      appropriately based on authorization logic. VA worked with appropriate offices
+      to correct system logic so the Electronic Claims Adjudication Management System
+      auto-calculates the accurate allowable amount. In addition, VA migrated National
+      Dialysis Contract claims processing to Electronic Claims Adjudication Management
+      System to auto-process correct rates.
+    Mitigation_Strategy: atp1_1
+  - Action_Taken: Completed
+    Action_Type: Change Process
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: Actions taken regarding change process include updated
+      internal policies, ensuring the correct rates are being paid, and timely filing
+      requirements are accurately enforced in the Electronic Claims Adjudication Management
+      System. VA also improved pre-payment checks in the authorization system to improve
+      claims processing accuracy. In addition, VA researched why Veteran's other health
+      insurance information was not present in the payment system to correct and prevent
+      future deficiencies. VA also continued with the post-implementation of the MISSION
+      Act. This includes moving previous non-contract claims into compliant purchasing
+      vehicles such as agreements and contracts. Finally, VA documented the decision
+      of whether or not to apply the Centers for Medicare and Medicaid Services End-Stage
+      Renal Disease network reduction to VA dialysis claims.
+    Mitigation_Strategy: atp4_1
   Agency_Needs_Satisfied: 'VA has not determined a tolerable rate due to all requirements
     for establishing a tolerable rate not yet being met. In March 2023, GAO acknowledged
     VA’s substantial reduction in improper and unknown payments using effective mitigation
@@ -326,6 +327,7 @@ Data_By_Year:
     non-contract related payments, the program is unable to determine whether the
     amount paid is proper or improper.
   Year: 2023
+  detail_Reduction_Target: '4.80'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 590.726647
@@ -399,19 +401,6 @@ Data_By_Year:
       in order to develop stronger internal controls and mitigate risks within existing
       payment processes.
     Mitigation_Strategy: app4_1
-  - Action_Taken: Completed
-    Action_Type: Change Process
-    Completion_Date: FY2024 Q3
-    Description_Action_Taken: Actions taken included clarified payment methodology
-      with VA and third-party administrators to bill at the correct allowable rates.
-      Additionally, for non-network payments, VA implemented system checks to suspend
-      institutional inpatient, and ambulance claims for manual review prior to payment.
-      In addition, VA instructed third-party administrators to follow standard billing
-      practices as defined in the contract and communicated to claims processing agents
-      to not process claims when timely filing requirements were not met. Change process
-      was the best mitigation strategy in order to develop stronger internal controls
-      and mitigate risks within existing payment processes.
-    Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
     Action_Type: Audit
     Completion_Date: FY2025
@@ -435,6 +424,19 @@ Data_By_Year:
       was the best mitigation strategy because improper and unknown payments resulted
       from manual processes and human error.
     Mitigation_Strategy: atp1_1
+  - Action_Taken: Completed
+    Action_Type: Change Process
+    Completion_Date: FY2024 Q3
+    Description_Action_Taken: Actions taken included clarified payment methodology
+      with VA and third-party administrators to bill at the correct allowable rates.
+      Additionally, for non-network payments, VA implemented system checks to suspend
+      institutional inpatient, and ambulance claims for manual review prior to payment.
+      In addition, VA instructed third-party administrators to follow standard billing
+      practices as defined in the contract and communicated to claims processing agents
+      to not process claims when timely filing requirements were not met. Change process
+      was the best mitigation strategy in order to develop stronger internal controls
+      and mitigate risks within existing payment processes.
+    Mitigation_Strategy: atp4_1
   Agency_Needs_Satisfied: 'VA has not determined a tolerable rate due to all requirements
     for establishing a tolerable rate not yet being met. In March 2023, the Government
     Accountability Office acknowledged VA’s substantial reduction in improper and
@@ -582,9 +584,9 @@ Data_By_Year:
     efforts for known causes of improper and unknown payments. State and local governments
     are not involved in the execution of this program.
   IP_Current_Year_Plus_1_Amount: 475.97
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.017999841924
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0179998419
   IP_Unknown_Target_Rate: 0.018
-  Improper_Payments_Rate: 1.8953346553
+  Improper_Payments_Rate: 1.89533466
   Insufficient_Documentation_to_Determine: 0.0
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -619,6 +621,8 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '1.8'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 92.49186
@@ -669,6 +673,192 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
+- Agency_Needs_Satisfied: VA continues to prioritize implementing appropriate corrective
+    actions and mitigation strategies and has adequate funding to implement improvements
+    planned to internal controls, human capital, information systems and other infrastructure,
+    as needed, over VA’s payment processing and procurement systems to continue reducing
+    improper and unknown payments. VA is still actively reducing improper and unknown
+    payments within its existing budget authority. VA considers the reduction of improper
+    and unknown payments a critical part of its financial stewardship efforts.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: VA updates corrective action
+    plans annually based on testing results, and no less than quarterly throughout
+    the fiscal year, to ensure actions taken and planned are appropriately prioritized
+    and designed to mitigate risks of improper and unknown payments. VA monitors progress
+    and results of implementation on a quarterly basis. Additionally, an effectiveness
+    review is performed annually to measure if an action planned has reduced or is
+    properly designed to reduce improper and unknown payments for a specific root
+    cause based on a set benchmark. The annual effectiveness review process allows
+    VA to create or update actions as necessary to ensure continued progress in the
+    remediation of improper and unknown payments. If areas for improvement are identified,
+    VA conducts a root cause analysis to refine the program's mitigation strategies
+    to ensure they addressed and reduced root cause(s) of error. VA’s process for
+    development of corrective actions and mitigation strategies ensures the severity
+    of the error is considered and the action is adequate. VA’s corrective actions
+    and mitigation strategies were evaluated by the Office of Inspector General during
+    their FY 2025 annual audit and determined reasonable with no recommendations for
+    improvement. The increase in the VA Community Care program's improper and unknown
+    payment rate from 1.90% in FY 2024 to 2.39% in FY 2025, and the $191.04 million
+    increase in improper and unknown payments supports that improvements are needed
+    to the program's corrective actions in place in FY 2025. As part of the established
+    corrective action process, the program reported improved corrective action and
+    mitigation strategies planned for FY 2026.
+  Corrective_Actions_Appropriateness: Actions taken regarding audit included conducting
+    post-payment reviews to identify errors in automated adjudication logic to prevent
+    future improper payments and issuing additional payments or establishing bills
+    of collection for claims that were overpaid. These actions were designed to reduce
+    overpayments attributed to failure to access data/information. Audit was the best
+    mitigation strategy to help identify overpayments and perform a follow-up process.
+    VA completed these audit actions on July 22, 2025. Actions taken regarding change
+    process included VA ensuring contract language was clear and clarifying any inconsistent
+    payment methodology instances with third-party administrators regarding payment
+    discrepancies. VA also ensured timely filing criteria was clear and proper monitoring
+    was in place. These actions were designed to reduce overpayments attributed to
+    failure to access data/information. Change process was the best mitigation strategy
+    in order to develop stronger internal controls and mitigate risks within existing
+    payment processes. The completion date was June 11, 2025. Actions planned regarding
+    audit include conducting post-payment reviews to identify errors in automated
+    adjudication logic to prevent future improper payments and issue additional payments
+    or establish bills of collection for claims that were paid in the incorrect amount.
+    These actions are designed to reduce overpayments and underpayments attributed
+    to failure to access data/information. Audit was the best mitigation strategy
+    to help identify overpayments and perform a follow-up process. The estimated completion
+    date is September 30, 2025. Actions planned regarding change process include ensuring
+    contract language is clear and clarifying any instances of inconsistent payment
+    methodology when third-party administrators bill at incorrect rates, do not follow
+    clean claim requirements, or when providers do not meet the requirements for reimbursement.
+    Additionally, VA is entering into a contract modification to clarify the claims
+    processing for standard episodes of care. These actions are designed to reduce
+    overpayments attributed to failure to access data/information, and unknown payments
+    attributed to being unable to determine whether proper or improper. Change process
+    was the best mitigation strategy in order to develop stronger internal controls
+    and mitigate risks within existing payment processes. The estimated completion
+    date is January 1, 2026.
+  Corrective_Actions_Proportion: The VA Community Care program continues to prioritize
+    and implement effective corrective actions and mitigation strategies that reduce
+    improper and unknown payments. In FY 2025, VA performed an effectiveness review
+    of the actions developed and implemented in FY 2024. The purpose of this review
+    was to assess the appropriateness of corrective actions and mitigation strategies
+    and whether the actions were effectively implemented and prioritized within the
+    agency. The results for the VA Community Care program indicated that of the seven
+    actions assessed, all seven were effective. If improvements could be made, VA
+    conducted a root cause analysis to refine the program's mitigation strategies
+    to ensure they address and reduce root cause(s) of error. For FY 2025, the VA
+    Community Care program errors increased or remained unchanged in all cause categories
+    and the program experienced a $3.46 billion increase in outlays. VA has increased
+    the sample size in this program area to gain additional insight into these errors
+    and continues to expand and enhance corrective actions to address high risk program
+    areas to ensure they address the root cause(s) of each error. VA will perform
+    an effectiveness review in FY 2026 of the corrective action plans developed and
+    implemented in FY 2025 due to the time needed to develop and implement actions
+    as well as to impact the payment process. Results of this review will be reported
+    in FY 2026.
+  End_Date: 09/2024
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: This program was determined compliant in FY 2025
+    by the Office of Inspector General and reported improper and unknown payments
+    below required thresholds for a compliance determination in FY 2026. In FY 2026,
+    VA executive managers and program personnel will be focused on prevention and
+    recovery of overpayments as appropriate. This will include various mitigation
+    strategies such as change process and audit. These actions address the root causes
+    of errors found in FY 2025 payment integrity testing. VA’s executive managers
+    to include the Executive Director of Integrated Veteran Care and Integrated External
+    Networks and program personnel will be held accountable through annual performance
+    criteria contained within their performance plans. Performance criteria will be
+    unique to and inclusive of all their duties. Depending on each employees’ responsibilities,
+    duties can include preventing improper and unknown payments through effective
+    internal controls, recovering overpayments if appropriate, and implementing remediation
+    efforts for known causes of improper and unknown payments. State and local governments
+    are not involved in the execution of this program.
+  IP_Unknown_Target_Rate: 0.0225
+  Improper_Payments_Rate: 2.2303332235999997
+  Insufficient_Documentation_to_Determine: 40.19
+  Margin_of_Error: '1.26'
+  Non_Monetary_Loss_Amount: '15.34'
+  Overpayment_Combined_Mitigations_Planned: Audit, Change Process
+  Overpayment_Combined_Mitigations_Taken: Audit, Change Process
+  Payment_Accuracy_Rate: 97.61171316977007
+  Program_Additional_Information: The VA Community Care program continues to prioritize
+    and implement corrective actions and mitigation strategies that reduce improper
+    and unknown payments. VA Community Care remains under the 10% compliance threshold
+    established by the Payment Integrity Information Act of 2019 for the fourth consecutive
+    year. The program remains compliant and underwent improvements in FY 2025 that
+    will improve its ability to reduce improper payments in the future. VA has increased
+    the sample size in this program area to gain additional insight into these errors
+    and continues to update, expand and enhance corrective actions to address high
+    risk program areas to ensure they address the root cause(s) of each error. This
+    included conducting post-payment reviews and establishing bills of collection
+    for claims that were overpaid; clarifying contract language, payment methodology,
+    and timely filing criteria; and improving corrective actions and mitigation strategies
+    planned for FY 2026.
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: At this time, VA is not aware of additional program
+    needs. Therefore, VA has not requested additional resources to establish and maintain
+    payment integrity.
+  Start_Date: 10/2023
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: Audit
+  Underpayment_Mitigations_Taken: Audit
+  Unknown_Mitigations_Planned: Change Process
+  Unknown_Mitigations_Taken: Change Process
+  Unknown_Payments_Rate: 0.15795360667940567
+  Year: 2025
+  detail_IP_Causes: VA overpayments are within the agency's control and occurred when
+    the program failed to access the data/information needed to validate that a payment
+    was made in accordance with the contract rate, or that a correct amount to pay
+    was returned by the payment system used to process the claim. In addition, the
+    program did not confirm health care providers were eligible per the contract or
+    agreement covering the billed dates of services or whether billed services were
+    within the authorized care, all of which are required prior to issuing payment.
+    VA underpayments occurred when the program failed to access the data/information
+    needed to deny claims which returned an incorrect amount to pay in the payment
+    system. VA unknown payments occurred when VA had missing or insufficient documentation
+    related to submission from health care providers, which resulted in clean claim
+    requirements not being met.
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '552.15'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '2.25'
+  eligibility_aggregated:
+  - Theme: Contractor or Provider Status
+    Theme_Description: "Status or standing of contractor or provider, including recipient\
+      \ eligibility to \r\nprovide medical services"
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 552.15
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '552.15'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 15.34
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '15.34'
 Description: The VA Community Care program allows VA to authorize Veteran care at
   non-VA health care facilities when the needed services are not available through
   the VA, or when the Veteran is unable to travel to a VA facility. The program was
@@ -682,12 +872,12 @@ Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
-High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[770.89, 954.17, 416.63]'
-Payment_Accuracy_Amounts: '[16018.87, 19160.200000000004, 21565.239999999998]'
-Payment_Accuracy_Rate: 0
+High_Priority_Program: 1
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 25444.18
+Overpayment_Amounts: '[770.89, 954.17, 416.63, 552.15]'
+Payment_Accuracy_Amounts: '[16018.87, 19160.200000000004, 21565.239999999998, 24836.5]'
+Payment_Accuracy_Rate: 97.61171316977007
 Phase_2_Program: 0
 Program_Name: VA Community Care
 Scorecard_Links:
@@ -703,10 +893,9 @@ Scorecard_Links:
   QuarterYear: Q1 2025
 - Link: assets/scorecards/Q2 2025/VA Community Care.pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[311.13, 0, 0]'
-Underpayment_Amounts: '[0.54, 5.36, 0]'
-Unknown_Amounts: '[280.57, 32.85, 0]'
-detail_Reduction_Target: '4.80'
+Technically_Improper_Amounts: '[311.13, 0, 0, 0]'
+Underpayment_Amounts: '[0.54, 5.36, 0, 15.34]'
+Unknown_Amounts: '[280.57, 32.85, 0, 40.19]'
 layout: program-specific
 permalink: program/va-va-community-care
 ---

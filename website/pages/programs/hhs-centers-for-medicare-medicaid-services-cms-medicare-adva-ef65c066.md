@@ -81,6 +81,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2022
+  detail_Reduction_Target: '5.77'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -107,6 +108,15 @@ Data_By_Year:
     Underpayments_Amount: '1254.76'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2024
+    Description_Action_Taken: 'HHS plans to hold additiional training on Medicare
+      Part C Fraud, Waste, and Abuse  covering the latest schemes, trends, data analysis,
+      and investigations.
+
+      '
+    Mitigation_Strategy: app3_1
+  - Action_Taken: Planned
     Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: 'HHS plans to continue conducting Risk Adjustment Data
@@ -114,6 +124,14 @@ Data_By_Year:
 
       '
     Mitigation_Strategy: app6_1
+  - Action_Taken: Completed
+    Action_Type: Training
+    Completion_Date: FY2023 Q2
+    Description_Action_Taken: In March 2023, HHS held a Medicare Part C Fraud, Waste,
+      and Abuse webinar covering the latest schemes, trends, data analysis, and investigations.
+      The training featured presentations by law enforcement, plan sponsors, and program
+      integrity contractors.
+    Mitigation_Strategy: atp3_1
   - Action_Taken: Not Completed
     Action_Type: Audit
     Completion_Date: The corrective action was not fully completed this reporting
@@ -125,23 +143,6 @@ Data_By_Year:
 
       '
     Mitigation_Strategy: atp6_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2024
-    Description_Action_Taken: 'HHS plans to hold additiional training on Medicare
-      Part C Fraud, Waste, and Abuse  covering the latest schemes, trends, data analysis,
-      and investigations.
-
-      '
-    Mitigation_Strategy: app3_1
-  - Action_Taken: Completed
-    Action_Type: Training
-    Completion_Date: FY2023 Q2
-    Description_Action_Taken: In March 2023, HHS held a Medicare Part C Fraud, Waste,
-      and Abuse webinar covering the latest schemes, trends, data analysis, and investigations.
-      The training featured presentations by law enforcement, plan sponsors, and program
-      integrity contractors.
-    Mitigation_Strategy: atp3_1
   Agency_Needs_Satisfied: 'A tolerable rate has not been established for this program.
     The tolerable rate will be identified when the methodology is developed. Once
     the tolerable rate is developed, the agency can determine if we have what is needed
@@ -224,6 +225,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: '6.38'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -288,14 +290,6 @@ Data_By_Year:
       '
     Mitigation_Strategy: app6_1
   - Action_Taken: Completed
-    Action_Type: Audit
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: "HHS conducts contract-level RADV audits to verify the\
-      \ accuracy of enrollee diagnoses submitted by MAOs for risk-adjusted payments.\
-      \ In FY24, HHS began developing a strategy to accelerate new RADV audits and\
-      \ finalizing previous audits. \n"
-    Mitigation_Strategy: atp6_1
-  - Action_Taken: Completed
     Action_Type: Training
     Completion_Date: FY2024 Q4
     Description_Action_Taken: 'In March 2024, HHS held a Medicare Part C Fraud, Waste,
@@ -317,6 +311,14 @@ Data_By_Year:
 
       '
     Mitigation_Strategy: atp3_1
+  - Action_Taken: Completed
+    Action_Type: Audit
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: "HHS conducts contract-level RADV audits to verify the\
+      \ accuracy of enrollee diagnoses submitted by MAOs for risk-adjusted payments.\
+      \ In FY24, HHS began developing a strategy to accelerate new RADV audits and\
+      \ finalizing previous audits. \n"
+    Mitigation_Strategy: atp6_1
   Agency_Needs_Satisfied: A tolerable rate has not been established for this program.
     The tolerable rate will be identified when the methodology is developed. Once
     the tolerable rate is developed, the agency can determine if we have what is needed
@@ -393,9 +395,9 @@ Data_By_Year:
     \ the quarterly scorecard process for high-priority programs, providing a level\
     \ of public oversight over these efforts. \n"
   IP_Current_Year_Plus_1_Amount: 32243.17
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.059500001845
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0595000018
   IP_Unknown_Target_Rate: 0.0595
-  Improper_Payments_Rate: 5.6090363482
+  Improper_Payments_Rate: 5.609036349999999
   Insufficient_Documentation_to_Determine: 0.0
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -421,6 +423,8 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '5.95'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -466,6 +470,118 @@ Data_By_Year:
     Theme: Medical Status
     Theme_Description: Identifies whether a person is sick/healthy
     Value: '1862.680000'
+- Agency_Needs_Satisfied: A tolerable rate has not been established for this program.
+    The tolerable rate will be identified when the methodology is developed. Once
+    the tolerable rate is developed, the agency can determine if we have what is needed
+    with respect to internal controls, human capital and information system and other
+    infrastructure to reduce Improper Payments and Unknown Payments to the tolerable
+    rate.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: As part of its efforts to
+    ensure that the corrective actions are adequate, HHS continues to provide direction
+    to MAOs on appropriate documentation and submission practices to increase compliance
+    with program requirements.  These efforts will reduce medical record discrepancies.
+    The error rate for Medicare Part C is 6.09%, which demonstrates the adequacy of
+    HHS' corrective actions. 
+  Corrective_Actions_Appropriateness: HHS is implementing corrective actions including
+    health plan training, expanded  and accelerated contract-specific Risk Adjustment
+    Data Validation (RADV) audits, and investigations to identify potential fraud
+    and recover overpayments.
+  Corrective_Actions_Proportion: HHS continues to prioritize and implement effective
+    corrective actions and mitigation strategies that reduce improper payments.  The
+    actions taken and planned to address the root causes of error, failure to access
+    data, are proportional to the amount of improper payments in the Medicare Advantage
+    program. Contract-level RADV audits are HHS's primary strategy to recover Part
+    C overpayments. RADV uses medical record reviews to confirm the accuracy of diagnoses
+    submitted by Medicare Advantage Organizations (MAOs) for risk-adjusted payments.
+    HHS also performs audits of MAOs to detect non-compliance with program integrity
+    requirements, which can lead to additional improper payments. HHS also maintained
+    formal outreach to MAOs for incomplete or invalid documentation to address potential
+    improper payments during the sample submission period. HHS also plans to develop
+    a Part C strategy.
+  End_Date: 12/2023
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: HHS reports the agency’s improper payment targets
+    annually in the AFR. In addition, HHS sets annual Government Performance and Results
+    Act (GPRA) goals tied to reducing the improper payments. HHS executive officials
+    are held accountable for assessing improper payment rates and taking meaningful
+    steps to address the root causes of error. These efforts are reflected in each
+    executive’s performance plan, as appropriate. HHS also reports quarterly on the
+    specific actions taken to address the improper payment rates through the quarterly
+    scorecard process for high-priority programs, providing a level of public oversight
+    over these efforts. 
+  IP_Unknown_Target_Rate: 0.0643
+  Improper_Payments_Rate: 6.0880099765999995
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '0.69'
+  Non_Monetary_Loss_Amount: '2230.78'
+  Overpayment_Combined_Mitigations_Planned: Audit, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Training
+  Payment_Accuracy_Rate: 93.91199002338051
+  Program_Additional_Information: 'The Reporting Year (RY) 2025 Medicare Part C improper
+    payment rate is statistically similar to the RY 2024 Medicare Part C improper
+    payment rate.
+
+    '
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: "To establish and maintain payment integrity internal\
+    \ controls in HHS included the following program integrity proposals in its FY\
+    \ 2027 Budget request: \n\n- Expand Tools to Identify and Investigate Fraud in\
+    \ the Medicare Advantage Program\n"
+  Start_Date: 01/2023
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: Audit, Training
+  Underpayment_Mitigations_Taken: Audit, Training
+  Unknown_Payments_Rate: 0
+  Year: 2025
+  detail_IP_Causes: The primary causes of Medicare Advantage (Part C) improper payments
+    are medical record discrepancies and insufficient documentation to determine whether
+    payment was proper or improper.  Medicare Advantage Organizations are the entities
+    responsible for the maintenance and submission of accurate data for payment determinations,
+    and attest to this upon submission.  The MAO is also responsible for collecting
+    and maintaining the source documentation (medical records) necessary to validate
+    the data used in payment determinations. Medical records, the source document,
+    are not submitted to the agency at the time of making payment determinations.
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '21434.34'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '6.43'
+  eligibility_aggregated:
+  - Theme: Medical Status
+    Theme_Description: Identifies whether a person is sick/healthy
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 21434.34
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '21434.34'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 2230.78
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '2230.78'
 Description: Under the Medicare Advantage Program, also known as Medicare Part C,
   beneficiaries can opt to receive their Medicare benefits through a private health
   plan. Approximately half of all Medicare beneficiaries are enrolled in Medicare
@@ -478,12 +594,12 @@ Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
-High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[12686.06, 14648.72, 17204.23]'
-Payment_Accuracy_Amounts: '[243233.3, 259055.2, 320865.10000000003]'
-Payment_Accuracy_Rate: 0
+High_Priority_Program: 1
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 388716.84
+Overpayment_Amounts: '[12686.06, 14648.72, 17204.23, 21434.34]'
+Payment_Accuracy_Amounts: '[243233.3, 259055.2, 320865.10000000003, 365051.72]'
+Payment_Accuracy_Rate: 93.91199002338051
 Phase_2_Program: 0
 Program_Name: Centers for Medicare & Medicaid Services (CMS) - Medicare Advantage
   (Part C)
@@ -494,10 +610,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q2 2025/Centers for Medicare & Medicaid Services (CMS) -
     Medicare Advantage (Part C).pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[0, 0, 0]'
-Underpayment_Amounts: '[1254.76, 1902.04, 1862.68]'
-Unknown_Amounts: '[0, 0, 0]'
-detail_Reduction_Target: '5.77'
+Technically_Improper_Amounts: '[0, 0, 0, 0]'
+Underpayment_Amounts: '[1254.76, 1902.04, 1862.68, 2230.78]'
+Unknown_Amounts: '[0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/93.774
 layout: program-specific
 permalink: program/hhs-centers-for-medicare-medicaid-services-cms-medicare-adva-ef65c066

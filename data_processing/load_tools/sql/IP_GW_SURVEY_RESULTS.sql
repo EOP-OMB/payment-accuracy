@@ -4,10 +4,10 @@ SELECT
     [Key],
     [Title] AS [Question],
     [value] AS [Answer],
-    CASE [Key]
+    CASE LOWER([Key])
         WHEN 'com1' THEN 0
     END AS [SortOrder]
 FROM [congressional_reports]
-WHERE [Key] IN (
+WHERE LOWER([Key]) IN (
     'com1'
 ) AND [Fiscal_Year] = ?

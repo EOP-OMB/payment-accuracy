@@ -34,6 +34,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 0.0
   Program_Design_or_Structural_Issue: 0.0
   Year: 2022
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -128,7 +129,7 @@ Data_By_Year:
     and recovering overpayments.  Nevertheless, this program ended in June 2021.
   IP_Current_Year_Plus_1_Amount: 0
   IP_Unknown_Target_Rate: 0
-  Improper_Payments_Rate: 0.0002507316
+  Improper_Payments_Rate: 0.00025073
   Insufficient_Documentation_to_Determine: 8670.720341
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -207,6 +208,8 @@ Data_By_Year:
     is likely.  For 31 of the 122 Awards, the error stemmed from an Award calculation
     error.  For 20 of the 122 Awards, the error stemmed from an eligibility issue.
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '0.0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -259,7 +262,6 @@ Scorecard_Links: []
 Technically_Improper_Amounts: '[0, 0]'
 Underpayment_Amounts: '[0, 0]'
 Unknown_Amounts: '[0, 8670.720341]'
-detail_Reduction_Target: null
 fpi_link: https://fpi.omb.gov/program/59.078
 layout: program-specific
 permalink: program/sba-restaurant-revitalization-fund
