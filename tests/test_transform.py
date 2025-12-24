@@ -166,6 +166,16 @@ def test_load_fpi_mapping_files(mock_csv_data, in_memory_db):
 
     assert len(df) == 2
 
+def test_active_program_files(mock_csv_data, in_memory_db):
+    transform.ACTIVE_PROGRAMS_PATH = mock_csv_data["ACTIVE_PROGRAMS_PATH"]
+    transform.load_active_programs(in_memory_db)
+
+    df = pd.read_sql("SELECT * FROM active_programs", in_memory_db)
+    assert not df.empty
+    assert list(df.columns) == ["agency","Program Name","Fiscal_Year"]
+
+    assert len(df) == 2
+
 @patch("data_processing.transform.conn", new_callable=MagicMock)
 @patch("data_processing.transform.cur", new_callable=MagicMock)
 def test_transform_and_insert_all_programs_data_aggregation_data_mocks(mock_cur, mock_conn):

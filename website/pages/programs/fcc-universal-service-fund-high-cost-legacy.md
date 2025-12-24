@@ -53,6 +53,7 @@ Data_By_Year:
     with the new testing procedures.
   Program_Design_or_Structural_Issue: 0.0
   Year: 2022
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -75,13 +76,13 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
 - Actions_Taken:
-  - Action_Taken: Completed
+  - Action_Taken: Planned
     Action_Type: Training
-    Completion_Date: FY2023 Q1
+    Completion_Date: FY2024
     Description_Action_Taken: High Cost will conduct its annual Circle of Life webinars
       to address top common audit findings.  The webinar will provide common errors
       and best practices suggested to avoid these findings.
-    Mitigation_Strategy: atp3_1
+    Mitigation_Strategy: app3_1
   - Action_Taken: Planned
     Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024
@@ -103,13 +104,13 @@ Data_By_Year:
       by AAD. During these meetings, corrective actions are discussed to prevent similar
       findings in the future.
     Mitigation_Strategy: app6_1
-  - Action_Taken: Planned
+  - Action_Taken: Completed
     Action_Type: Training
-    Completion_Date: FY2024
+    Completion_Date: FY2023 Q1
     Description_Action_Taken: High Cost will conduct its annual Circle of Life webinars
       to address top common audit findings.  The webinar will provide common errors
       and best practices suggested to avoid these findings.
-    Mitigation_Strategy: app3_1
+    Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
     Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2023 Q1
@@ -193,6 +194,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: '2.8'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -238,14 +240,6 @@ Data_By_Year:
       or their family
     Value: '11.040000'
 - Actions_Taken:
-  - Action_Taken: Completed
-    Action_Type: Audit
-    Completion_Date: FY2024 Q1
-    Description_Action_Taken: Monthly meetings will continue to be held between USAC’s
-      Audit and Assurance Division (AAD) and USAC leadership to discuss findings identified
-      by AAD. During these meetings, corrective actions are discussed to prevent similar
-      findings in the future.
-    Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
     Action_Type: Training
     Completion_Date: FY2025
@@ -253,22 +247,6 @@ Data_By_Year:
       to address top common audit findings. The webinar will provide common errors
       and best practices suggested to avoid these findings.
     Mitigation_Strategy: app3_1
-  - Action_Taken: Completed
-    Action_Type: Training
-    Completion_Date: FY2024 Q1
-    Description_Action_Taken: High Cost will conduct its annual Circle of Life webinars
-      to address top common audit findings. The webinar will provide common errors
-      and best practices suggested to avoid these findings.
-    Mitigation_Strategy: atp3_1
-  - Action_Taken: Completed
-    Action_Type: Cross Enterprise Sharing
-    Completion_Date: FY2024 Q1
-    Description_Action_Taken: Through USAC's Risk Management Council meetings, the
-      different USF program teams discussed strategic initiatives and risk that may
-      impact USAC’s goals. The Risk Management Council meetings will continue to provide
-      an opportunity to analyze and respond to identified changes and related risks
-      to maintain an effective internal control system.
-    Mitigation_Strategy: atp5_1
   - Action_Taken: Planned
     Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2025
@@ -288,6 +266,30 @@ Data_By_Year:
       by AAD. During these meetings, corrective actions are discussed to prevent similar
       findings in the future.
     Mitigation_Strategy: app6_1
+  - Action_Taken: Completed
+    Action_Type: Training
+    Completion_Date: FY2024 Q1
+    Description_Action_Taken: High Cost will conduct its annual Circle of Life webinars
+      to address top common audit findings. The webinar will provide common errors
+      and best practices suggested to avoid these findings.
+    Mitigation_Strategy: atp3_1
+  - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
+    Completion_Date: FY2024 Q1
+    Description_Action_Taken: Through USAC's Risk Management Council meetings, the
+      different USF program teams discussed strategic initiatives and risk that may
+      impact USAC’s goals. The Risk Management Council meetings will continue to provide
+      an opportunity to analyze and respond to identified changes and related risks
+      to maintain an effective internal control system.
+    Mitigation_Strategy: atp5_1
+  - Action_Taken: Completed
+    Action_Type: Audit
+    Completion_Date: FY2024 Q1
+    Description_Action_Taken: Monthly meetings will continue to be held between USAC’s
+      Audit and Assurance Division (AAD) and USAC leadership to discuss findings identified
+      by AAD. During these meetings, corrective actions are discussed to prevent similar
+      findings in the future.
+    Mitigation_Strategy: atp6_1
   Agency_Needs_Satisfied: The High Cost program has the internal controls, human capital,
     information systems, and other infrastructure it requires to reduce improper payments
     to the target levels.  USAC continues to evaluate to ensure the proper infrastructure
@@ -366,9 +368,9 @@ Data_By_Year:
     collectible and USAC has either recovered or is in the process of recovering the
     improper payments.'
   IP_Current_Year_Plus_1_Amount: 69.44
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.035997926387
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0359979264
   IP_Unknown_Target_Rate: 0.036
-  Improper_Payments_Rate: 4.4548223792999995
+  Improper_Payments_Rate: 4.45482238
   Insufficient_Documentation_to_Determine: 0.0
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '2.83'
@@ -387,6 +389,8 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '3.6'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -431,51 +435,50 @@ Data_By_Year:
     Theme_Description: The financial position or status of a beneficiary, recipient,
       or their family
     Value: '26.570000'
-- Agency_Needs_Satisfied: "\"Internal Controls:\nThe Department has internal controls\
-    \ in place to support the reduction of improper payments in the Military Retirement\
-    \ program to the levels the Department has targeted. As part of the internal control\
-    \ framework for this program, the Defense Finance and Accounting Service (DFAS)\
-    \ Director of Retired and Annuitant (R&A) Pay has identified and documented known\
-    \ risks associated with the processes for providing pay services to the customers\
-    \ of the Military Retirement program. Along with identifying these risks by process,\
-    \ the Director of R&A Pay instituted key controls and control activities over\
-    \ pre-review of payments and certifying officer legislation and developed an internal\
-    \ post-payment review process to mitigate the documented risks. The Director also\
-    \ tests the controls to ensure their effectiveness and documents the test results.\
-    \ \n\nHuman Capital:\nCurrently, the Department has the appropriate human capital,\
-    \ specifically within the DFAS Military Retirement Operations section, it needs\
-    \ to reduce improper and unknown payments in the Military Retirement program to\
-    \ the levels the Department has targeted. \n\nInformation Systems and Other Infrastructure:\n\
-    The Department has the information systems and other infrastructure it needs to\
-    \ reduce improper payments in the Military Retirement program to the levels the\
-    \ Department has targeted. Moreover, the Disbursing Service for the Department,\
-    \ is projected to receive an unmodified System and Organizational Control (SOC)\
-    \ 1 Type 2 report under Statement on Standards for Attestation Engagements (SSAE)\
-    \ No. 18 in FY 2023. As technology advances, the Department continues to consider\
-    \ improving the accuracy and efficiency of Military Retirement through implementation\
-    \ of new retiree and annuitant pay systems and enhancements to existing systems.\"\
-    \n"
+- Agency_Needs_Satisfied: The High Cost program has the internal controls, human capital,
+    information systems, and other infrastructure it requires to reduce improper payments
+    to the target levels. The FCC and USAC will continue to expand internal controls
+    as necessary and will develop the human capital to ensure it meets its goals.
   Confidence_Level: 95% to <100%
-  Corrective_Actions_Proportion: 'The Department''s Military Retirement program program
-    has significantly decreased Improper (IP) and Unknown payments (UP). The combined
-    projected IP and UP amounts in Fiscal Year (FY) 2022 was $418.83 Million and decreased
-    to $146.36 Million in FY 2023. Specifically, the greatest reduction was realized
-    in Monetary loss (both inside and outside the Agency control designation). In
-    FY 2022, there was a combined $318.10 Million in monetary losses, which was reduced
-    to $75.49 Million in FY 2023. The reduction of IP and UP is a clear indication
-    of more than adequate corrective actions taken coupled with successfully removing
-    the Military Retirement program from the OMB High Priority list going into FY
-    2024. Furthermore, the Department, through deliberate synchronized efforts with
-    the subject matter experts within the DFAS Military Retirement Operations, have
-    strategically crafted additional corrective actions that are highly anticipated
-    to continue to reduce IP and UP to the tolerable levels underneath the OMB statutory
-    threshold in FY 2024. Once the corrective actions are fully implemented mainly
-    the increase in data integrity both in scope and timeliness, continued evolvement
-    and enhancement of systems coupled with the strategic mission area realignment,
-    the Department is confident that the Military Retirement portfolio will achieve
-    PIIA Compliance during the FY 2024 audit.
-
-    '
+  Corrective_Actions_Adequacy_Association_Implementation: "The Risk Management Council\
+    \ Meeting provides a collaborative space for programs to discuss efforts used\
+    \ to mitigate improper payments.  During the Risk Management Council Meeting,\
+    \ management will continue to review the improper payments and prioritize the\
+    \ largest monetary impact findings accordingly.  \n\nDuring the meetings, management\
+    \ has an opportunity to discuss effective improper payment mitigation strategies.\
+    \ This process has enabled USAC management to institutionalize corrective actions\
+    \ as part of its program integrity efforts, which will prevent future instances\
+    \ of improper payments.  USAC leadership is implementing a quarterly review process\
+    \ to discuss progress\ntowards executing these corrective actions."
+  Corrective_Actions_Appropriateness: "High Cost will introduce a new compliance layer\
+    \ by developing additional Program Integrity Assurance (PIA) procedures leveraging\
+    \ enhanced analytics and testing capabilities on a sample basis to identify potential\
+    \ violations.  The new compliance layer will be implemented by December 31, 2026.\n\
+    \nHigh Cost continue to take the following corrective actions.  Through USAC's\
+    \ Risk Management Council meetings, the different USF program teams discussed\
+    \ strategic initiatives and risk that may impact USAC’s goals. The Risk Management\
+    \ Council meetings will continue to provide an opportunity to analyze and respond\
+    \ to identified changes and related risks to maintain an effective internal control\
+    \ system.  The meetings are completed on an ongoing quarterly basis. \n\nHigh\
+    \ Cost will conduct its annual Circle of Life webinars to address top common audit\
+    \ findings. The webinar will provide common errors and best practices suggested\
+    \ to avoid these findings. The webinars are completed on an ongoing annual basis.\n\
+    \nMonthly meetings will continue to be held between USAC’s Audit and Assurance\n\
+    Division (AAD) and USAC leadership to discuss findings identified by AAD. During\n\
+    these meetings, corrective actions are discussed to prevent similar findings in\
+    \ the\nfuture.  The meetings occur on a monthly basis.\n"
+  Corrective_Actions_Proportion: The High Cost Program will continue to focus on PIA
+    activities to mitigate improper payments.  The results of the program integrity
+    will have a major impact on the root cause related to the improper payment rate.
+    The PIA activities include collaborating with USAC's Audit and Assurance Division
+    partners to provide the annual Circle of Life webinars, meeting with NECA monthly,
+    and continue existing analysis and data validation for legacy funds. The annual
+    Circle of Life webinar references FCC rules and provides common error examples
+    and recommends best practices to avoid these findings. The monthly NECA meeting
+    is used by High Cost to evaluate processes based on audit finding feedback. With
+    the annual data validation, High Cost compares projected and actual cost study
+    data that determines carriers' support.
+  End_Date: 12/2023
   Hide_Improper_Payment_Estimates_Doughnut_Chart: false
   Hide_Improper_Payment_Estimates_Doughnut_Stats: false
   Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
@@ -497,61 +500,68 @@ Data_By_Year:
   Hide_Program_Results_Improper_Payments: false
   Hide_Program_Results_Tabs: false
   Hide_Program_Results_Unknown_Payments: false
-  IP_Accountability_Description: 'The Defense Payment Integrity Senior Accountable
-    Officials Steering Committee (the Committee) was created in FY 2018 and it institutionalized
-    a forum of accountability to oversee and guide the Department’s actions required
-    by Appendix C of the OMB Circular Number A-123 to achieve full compliance with
-    the Payment Integrity Information Act of 2019 (PIIA). The Committee is chaired
-    by the Office of the Under Secretary of Defense (Comptroller)/Deputy Chief Financial
-    Officer and co-chaired by the Defense Finance and Accounting Service, Deputy Director,
-    Operations. It also includes Senior Executive Service representatives from the
-    Military Services and defense agencies. The Committee provides oversight to the
-    DoD Payment Integrity program and drives action for compliance with the PIIA.
-    More specifically, the Committee evaluates the status of improper payments testing,
-    the root causes of improper payments and appropriate actions to reduce them, payment
-    recovery activities, and solutions to resolve DoD-wide audit findings and recommendations
-    related to improper payments. Additionally, it supports audits related to improper
-    payments, reviews audit recommendations, and oversees the identification of root
-    cause(s) and the development and implementation of corrective actions to address
-    areas of noncompliance.
+  IP_Accountability_Description: 'The FCC works through its program administrator,
+    USAC to complete payment
 
-    '
-  IP_Unknown_Target_Rate: 0.0015
-  Improper_Payments_Rate: 0.2083706712
-  Insufficient_Documentation_to_Determine: 23.12
-  Margin_of_Error: '0.13'
-  Non_Monetary_Loss_Amount: '47.75'
-  Overpayment_Combined_Mitigations_Planned: Change Process, Training
-  Overpayment_Combined_Mitigations_Taken: Training
-  Payment_Accuracy_Rate: 99.7525386933042
-  Program_Design_or_Structural_Issue: 3.52
-  Resources_Requested_For_IP: 'For the Department''s Military Retirement Payment Integrity
-    program, Retired and Annuitant (R&A) pay is unaware of any specific budget requests
-    related to Payment Integrity. R&A is confident in the ability of the current workforce
-    and available information systems to continue reducing improper and unknown payments.
-
-    '
-  Technical_IP_Actions_Planned: Change Process
-  Technical_IP_Actions_Taken: Training
-  Technical_IP_Amount: '3.52'
-  Underpayment_Mitigations_Planned: Change Process
-  Underpayment_Mitigations_Taken: Training
-  Unknown_Mitigations_Planned: Change Process, Cross Enterprise Sharing
-  Unknown_Mitigations_Taken: Change Process, Training
-  Unknown_Payments_Rate: 0.0390906354933502
+    recapture audits known as Beneficiary and Contributor Audit Program (BCAP).  BCAP
+    audits are designed to identify overpayments that must be recaptured, assess compliance
+    with FCC rules, and deter waste, fraud, and abuse. USAC’s improper payment testing
+    program is known as Payment Quality Assurance (PQA). Through PQA, USAC utilizes
+    a statistical sampling methodology to estimate the annual amount of improper payments
+    in the USF-HC, USF-LL, USF-RHC, and USF-S&L programs. The goal of the PQA assessment
+    plan is to estimate an improper payment error rate based on non-compliance with
+    FCC rules. To recover improper payments, USAC has implemented an enterprise recovery
+    policy to standardize the reporting and recovery of improper payments. All USAC
+    improper payments are deemed collectible and USAC has either recovered or is in
+    the process of recovering the improper payments.'
+  IP_Unknown_Target_Rate: 0.03
+  Improper_Payments_Rate: 3.2568603342999998
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '1.89'
+  Non_Monetary_Loss_Amount: '29.59'
+  Overpayment_Combined_Mitigations_Planned: Audit, Cross Enterprise Sharing, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Cross Enterprise Sharing, Training
+  Payment_Accuracy_Rate: 96.74313966568133
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: The High Cost program team did not identify additional
+    resources needed to improve the overall structure of the program in its most current
+    budget submission. The FCC and USAC continues to work to determine the gaps in
+    its overall requirements.
+  Start_Date: 01/2023
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: Audit, Cross Enterprise Sharing, Training
+  Underpayment_Mitigations_Taken: Audit, Cross Enterprise Sharing, Training
+  Unknown_Payments_Rate: 0
   Year: 2025
+  detail_IP_Causes: "The major causes of the High Cost improper payments are incorrect\
+    \ depreciation method and inadequate documentation.  The major causes make up\
+    \ 80% of the improper payment rate. The minor causes range from lack of documentation\
+    \ to inaccurate loop. \n  \nIncorrect depreciation method could be caused by the\
+    \ following: 1) used the ending balance instead of the average monthly balance,\
+    \ 2) used an incorrect rate or 3) there was an error in the calculation.  Inadequate\
+    \ documentation - assets could be caused by the following: 1) missing invoices\
+    \ or inventory documents OR documentation didn't support the spread of overhead."
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '0.0'
+  detail_Overpayments_Due_To_Inability: '32.66'
+  detail_Reduction_Target: '3.0'
+  eligibility_aggregated:
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
   overpayments:
     Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 75.23
-    Inability_to_Access_Data: 0.26
-    Overpayments_Within_Control_Amount: '75.23'
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 32.66
+    Overpayments_Within_Control_Amount: '0.0'
   overpayments_outside:
-    Overpayments_Outside_Control_Amount: '0.26'
+    Overpayments_Outside_Control_Amount: '32.66'
   underpayments:
     Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 43.97
-    Inability_to_Access_Data: 0.26
-    Underpayments_Amount: '44.23'
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 29.59
+    Underpayments_Amount: '29.59'
 Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
@@ -559,51 +569,16 @@ Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 59144.6
-Overpayment_Amounts: '[0, 40.67, 55.18, 75.49]'
-Payment_Accuracy_Amounts: '[0, 1744.29, 1753.34, 58998.24]'
-Payment_Accuracy_Rate: 99.7525386933042
+Outlays: 1911.35
+Overpayment_Amounts: '[0, 40.67, 55.18, 32.66]'
+Payment_Accuracy_Amounts: '[0, 1744.29, 1753.34, 1849.1]'
+Payment_Accuracy_Rate: 96.74313966568133
 Phase_2_Program: 0
 Program_Name: Universal Service Fund - High Cost Legacy
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0, 3.52]'
-Underpayment_Amounts: '[0, 11.04, 26.57, 44.23]'
-Unknown_Amounts: '[0, 0, 0, 23.12]'
-detail_IP_Causes: 'The majority of overpayments within agency control are due to calculation
-  errors, data entry errors, or incorrect processing. Elimination of human error altogether
-  is unrealistic. However, closer attention to details could prevent certain errors.
-  Reduction in human errors would prevent and reduce overall improper payments. Furthermore,
-  the corrective actions employed by the Defense Finance and Accounting Service Military
-  Retirement Operations team in Fiscal Year (FY) 2023 significantly reduced monetary
-  loss errors resulted in the program''s removal from the previous OMB High Priority
-  program status going into FY 2024.For the Department''s Military Retirement Payment
-  Integrity program, the Retired and Annuitant (R&A) Operations Team has no control
-  over when they receive notification of a member’s death. There are controls in place
-  to try to prevent paying deceased members including monthly SSA death match. It
-  is still nearly impossible to prevent every payment to a deceased member due to
-  timing of death and method of notification. Significant progress in lowering Monetary
-  Loss outside of the Agency control was realized in FY 2023 through the corrective
-  actions employed and the partnership with the Veterans Affairs Administration. In
-  FY 2022, there was a projected Monetary Loss outside of the Agency control of $318.10
-  million; however, in FY 2023 that amount was reduced down to $264 thousand.The Defense
-  Finance and Accounting Service Military Retirement Operations team had relatively
-  minor technically improper payment problems. One example was when an Operations
-  team technician made an error in establishing a new account. The document in question
-  was not processed until roughly seven weeks after receipt. The processing technician
-  needed to review all of the available resources when establishing the account to
-  prevent this error.Out of 2,114 samples reviewed, the Military Retirement program
-  had two Unknown payment samples in FY 2023, which were related to insufficient documentation.
-  In both cases, the errors were attributable to not having complete retirement packages
-  available. However, the errors are different in that the first sample required documentation
-  from the payee, while the other account required documentation from the Branch of
-  Service. In both cases, the Military Retirement Operations has requested the documentation
-  from the appropriate parties and will continue to track until documentation is received.
-
-  '
-detail_Overpayments_Due_To_Data_DNE: '0.0'
-detail_Overpayments_Due_To_Failure: '75.23'
-detail_Overpayments_Due_To_Inability: '0.26'
-detail_Reduction_Target: '0.15'
+Technically_Improper_Amounts: '[0, 0, 0, 0]'
+Underpayment_Amounts: '[0, 11.04, 26.57, 29.59]'
+Unknown_Amounts: '[0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/32.002
 layout: program-specific
 permalink: program/fcc-universal-service-fund-high-cost-legacy

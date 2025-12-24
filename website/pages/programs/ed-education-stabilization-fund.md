@@ -69,6 +69,7 @@ Data_By_Year:
     documentation prior to the conclusion of the study and/or not receiving sufficient
     documentation to support the payment as being proper or improper.
   Year: 2022
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -179,6 +180,7 @@ Data_By_Year:
   Underpayment_Mitigations_Taken: Training
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: '0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -309,7 +311,7 @@ Data_By_Year:
   IP_Current_Year_Plus_1_Amount: 0
   IP_Unknown_Current_Year_Plus_1_Rate: 0
   IP_Unknown_Target_Rate: 0
-  Improper_Payments_Rate: 0.0001546776
+  Improper_Payments_Rate: 0.00015468
   Insufficient_Documentation_to_Determine: 0.0
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -329,6 +331,8 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '0.0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -368,24 +372,130 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
+- Agency_Needs_Satisfied: 'The program''s reported improper and unknown payment estimate
+    is below the
+
+    statutory threshold; therefore, the program is not required to establish and publish
+    a reduction target for the next Fiscal Year. With no reduction target established,
+    the tolerable rate cannot be determined. While the tolerable rate for the Education
+    Stabilization Fund program has not been identified, the program has the internal
+    controls, human capital, information systems and other infrastructure to maintain
+    low improper payments and unknown payments.'
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: The Department continues
+    to reinforce correct accounting practices to reduce rounding errors by funds recipients.
+    Additionally, the Department reinforces guidance for submitting adequate expenditure
+    data that emphasizes clear and concise documentation submissions. The small amounts
+    identified relative to the program outlays does not normally present an opportunity
+    to efficiently use resources to attempt to recover.
+  Corrective_Actions_Appropriateness: In FY2026, the Department will continue to reinforce
+    correct accounting practices to reduce rounding errors by funds recipients. Additionally,
+    the Department will reinforce guidance for submitting adequate expenditure data
+    that emphasizes clear and concise documentation submissions. The small amounts
+    identified relative to the program outlays does not normally present an opportunity
+    to efficiently use resources to attempt to recover.
+  Corrective_Actions_Proportion: The small amounts identified relative to the program
+    outlays does not normally present an opportunity to efficiently use resources
+    to attempt to recover.
+  End_Date: 09/2024
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: true
+  Hide_Program_Results_Future_Outlook_Baseline_Table: true
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Accountability_Description: Department personnel, including executive managers
+    and staff, are held accountable for promoting payment integrity and maintaining
+    effective internal controls in their day-to-day jobs. Key management officials
+    have specific expectations related to payment integrity included in their annual
+    performance plans. Program officials who administer programs deemed susceptible
+    to significant improper payments are highly engaged in developing and implementing
+    corrective actions as well as providing technical assistance for grantees to prevent
+    improper payments for being made and to ensure payments are supported by sufficient
+    documentation. Due to the improper payment and unknown payment estimate being
+    below the statutory threshold, a reduction target is not required for this program.
+  IP_Unknown_Target_Rate: 0
+  Improper_Payments_Rate: 0.0042468752
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '0.01'
+  Non_Monetary_Loss_Amount: '0'
+  Overpayment_Combined_Mitigations_Planned: Training
+  Overpayment_Combined_Mitigations_Taken: Training
+  Payment_Accuracy_Rate: 99.99575312482736
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: The Department did not request additional resources.
+    This program has well-designed and effective internal controls in place.
+  Start_Date: 10/2023
+  Technical_IP_Amount: '0.0'
+  Unknown_Payments_Rate: 0
+  Year: 2025
+  detail_IP_Causes: 'The ESF program experienced overpayments that were beyond the
+    agency’s control, due to automatic rounding errors and inadequate expenditure
+    data. These discrepancies occurred within Excel and within other system-based
+    processes. Preventing rounding within system-based processes is inherently challenging.
+    When rounding occurs in a system and is subsequently recalculated in Excel, discrepancies
+    can arise, resulting in minor differences in amounts. Consequently, it is difficult
+    for states to prevent these rounding errors, which is why these errors are classified
+    as beyond the agency’s control.
+
+    Additionally, some grantees did not have clear documentation readily available
+    to support the full sampled amount.'
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '2.36'
+  detail_Overpayments_Due_To_Failure: '0.0'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '0.0'
+  eligibility_aggregated:
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  overpayments:
+    Data_Needed_Does_Not_Exist: 2.36
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '2.36'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.0'
 Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[0.00117, 0.136454, 0.1]'
-Payment_Accuracy_Amounts: '[43324.12883, 79713.769735, 64650.520000000004]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 55570.27
+Overpayment_Amounts: '[0.00117, 0.136454, 0.1, 2.36]'
+Payment_Accuracy_Amounts: '[43324.12883, 79713.769735, 64650.520000000004, 55567.909999999996]'
+Payment_Accuracy_Rate: 99.99575312482736
 Phase_2_Program: 0
 Program_Name: Education Stabilization Fund
 Scorecard_Links: []
-Technically_Improper_Amounts: '[15.04, 0, 0]'
-Underpayment_Amounts: '[0, 0.003811, 0]'
-Unknown_Amounts: '[5941.38, 0, 0]'
-detail_Reduction_Target: null
+Technically_Improper_Amounts: '[15.04, 0, 0, 0]'
+Underpayment_Amounts: '[0, 0.003811, 0, 0]'
+Unknown_Amounts: '[5941.38, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/84.425
 layout: program-specific
 permalink: program/ed-education-stabilization-fund

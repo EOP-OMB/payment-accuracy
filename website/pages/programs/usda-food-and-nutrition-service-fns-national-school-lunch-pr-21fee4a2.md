@@ -164,6 +164,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2022
+  detail_Reduction_Target: '1.50'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -190,6 +191,24 @@ Data_By_Year:
     Underpayments_Amount: '45.60'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
+    Completion_Date: FY2023
+    Description_Action_Taken: "The National School Lunch Program (NSLP) plans to implement\
+      \ the following Automation corrective actions:  1) Food and Nutrition Service\
+      \ (FNS) continues to work with State agencies to develop automation and enhanced\
+      \ integrity features of electronic NSLP meal benefit applications that will\
+      \ enhance the overall goal of fiscal integrity through Administrative Review\
+      \ and Technology grants. These features continue to improve fiscal accuracy\
+      \ and eligibility determinations to certify children for free or reduced price\
+      \ NSLP meals. \n2) As a part of the overall strategy to improve processes and\
+      \ technology for State agencies, FNS continues to distribute funding to improve\
+      \ State systems and support payment accuracy. These efforts continue to take\
+      \ place either through appropriations or the grant funds available. Efforts\
+      \ will include technological advancements, direct certification improvements,\
+      \ and improved opportunities to support streamlined automation and efficient\
+      \ processes at the local level."
+    Mitigation_Strategy: app1_1
+  - Action_Taken: Planned
     Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: Food and Nutrition Service expects that the overall
@@ -214,24 +233,6 @@ Data_By_Year:
       \ work with grant recipients using funds to develop, improve, and maintain Child\
       \ Nutrition IT systems."
     Mitigation_Strategy: atp1_1
-  - Action_Taken: Planned
-    Action_Type: Automation
-    Completion_Date: FY2023
-    Description_Action_Taken: "The National School Lunch Program (NSLP) plans to implement\
-      \ the following Automation corrective actions:  1) Food and Nutrition Service\
-      \ (FNS) continues to work with State agencies to develop automation and enhanced\
-      \ integrity features of electronic NSLP meal benefit applications that will\
-      \ enhance the overall goal of fiscal integrity through Administrative Review\
-      \ and Technology grants. These features continue to improve fiscal accuracy\
-      \ and eligibility determinations to certify children for free or reduced price\
-      \ NSLP meals. \n2) As a part of the overall strategy to improve processes and\
-      \ technology for State agencies, FNS continues to distribute funding to improve\
-      \ State systems and support payment accuracy. These efforts continue to take\
-      \ place either through appropriations or the grant funds available. Efforts\
-      \ will include technological advancements, direct certification improvements,\
-      \ and improved opportunities to support streamlined automation and efficient\
-      \ processes at the local level."
-    Mitigation_Strategy: app1_1
   - Action_Taken: Completed
     Action_Type: Training
     Completion_Date: FY2022 Q4
@@ -386,6 +387,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: '8.02'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -841,9 +843,9 @@ Data_By_Year:
     level, senior executives are held responsible for program oversight and integrity
     via the annual strategic planning process and performance system.
   IP_Current_Year_Plus_1_Amount: 1353.47
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.073665688064
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0736656881
   IP_Unknown_Target_Rate: 0.0737
-  Improper_Payments_Rate: 7.3665976706
+  Improper_Payments_Rate: 7.36659767
   Insufficient_Documentation_to_Determine: 0.0
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -914,6 +916,8 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '7.37'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -1026,7 +1030,6 @@ Scorecard_Links:
 Technically_Improper_Amounts: '[0, 0, 0]'
 Underpayment_Amounts: '[45.6, 215.9, 362.84]'
 Unknown_Amounts: '[0, 0, 0]'
-detail_Reduction_Target: '8.02'
 layout: program-specific
 permalink: program/usda-food-and-nutrition-service-fns-national-school-lunch-pr-21fee4a2
 ---

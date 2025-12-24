@@ -110,6 +110,7 @@ Data_By_Year:
     proper or improper. The missing documentation contained information such as the
     contract price list, authorization, or valid payment data.
   Year: 2022
+  detail_Reduction_Target: '45.00'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 40.196
@@ -155,19 +156,6 @@ Data_By_Year:
       strategy because improper and unknown payments resulted from manual processes
       and human error.
     Mitigation_Strategy: app1_1
-  - Action_Taken: Completed
-    Action_Type: Automation
-    Completion_Date: FY2023 Q3
-    Description_Action_Taken: Actions taken regarding automation to address overpayments
-      and underpayments included moving all future purchased care to be processed
-      through the Electronic Claims Adjudication Management System or by third party
-      administrators. This will ensure correct authorization, amount of care, and
-      correct rate. These actions were taken to address overpayments and underpayments
-      attributed to failure to access data/information. Although the overall corrective
-      actions were not fully implemented/completed during FY 2023 for actions addressing
-      underpayments, tasks within the actions were completed to move the overall action
-      implementation forward.
-    Mitigation_Strategy: atp1_1
   - Action_Taken: Planned
     Action_Type: Change Process
     Completion_Date: FY2024
@@ -184,6 +172,19 @@ Data_By_Year:
       to develop stronger internal controls and mitigate risks within existing payment
       processes.
     Mitigation_Strategy: app4_1
+  - Action_Taken: Completed
+    Action_Type: Automation
+    Completion_Date: FY2023 Q3
+    Description_Action_Taken: Actions taken regarding automation to address overpayments
+      and underpayments included moving all future purchased care to be processed
+      through the Electronic Claims Adjudication Management System or by third party
+      administrators. This will ensure correct authorization, amount of care, and
+      correct rate. These actions were taken to address overpayments and underpayments
+      attributed to failure to access data/information. Although the overall corrective
+      actions were not fully implemented/completed during FY 2023 for actions addressing
+      underpayments, tasks within the actions were completed to move the overall action
+      implementation forward.
+    Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
     Action_Type: Change Process
     Completion_Date: FY2023 Q3
@@ -354,6 +355,7 @@ Data_By_Year:
     the appropriate reimbursement amount, the program is unable to determine whether
     the amount paid is proper or improper.
   Year: 2023
+  detail_Reduction_Target: '35.00'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 161.108914
@@ -413,16 +415,6 @@ Data_By_Year:
     Value: '0.570000'
 - Actions_Taken:
   - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2025
-    Description_Action_Taken: Actions planned include working internally with facilities
-      to provide education and training to resolve missing documentation errors related
-      to authorization, payment or Veteran level of care to support the payment process.
-      These actions are designed to reduce unknown payments attributed to being unable
-      to determine whether proper or improper. Training was the best mitigation strategy
-      to communicate the importance of consistencies in standard operating procedures.
-    Mitigation_Strategy: app3_1
-  - Action_Taken: Planned
     Action_Type: Automation
     Completion_Date: FY2025
     Description_Action_Taken: Actions planned include updating the claims processing
@@ -433,24 +425,16 @@ Data_By_Year:
       strategy because improper payments resulted from manual processes and human
       error.
     Mitigation_Strategy: app1_1
-  - Action_Taken: Not Completed
-    Action_Type: Change Process
-    Completion_Date: The corrective action was not fully completed this reporting
-      period
-    Description_Action_Taken: Actions taken included working to ensure invoices are
-      being validated per the contract pricing prior to payment. Additionally, VA
-      worked to implement short- and long-term contracting options for Community Nursing
-      Home payments to improve compliance with procurement requirements. Finally,
-      VA clarified payment methodology with third-party administrators to bill at
-      the correct rates. These actions were taken to address overpayments and underpayments
-      attributed to failure to access data/information, technically improper payments
-      attributed to statutory requirements of the program not met, and unknown payments
-      attributed to being unable to determine whether proper or improper. Although
-      the overall corrective actions were not fully implemented/completed during FY
-      2024, tasks within the actions were completed to move the overall action implementation
-      forward. Change process was the best mitigation strategy in order to develop
-      stronger internal controls and mitigate risks within existing payment processes.
-    Mitigation_Strategy: atp4_1
+  - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2025
+    Description_Action_Taken: Actions planned include working internally with facilities
+      to provide education and training to resolve missing documentation errors related
+      to authorization, payment or Veteran level of care to support the payment process.
+      These actions are designed to reduce unknown payments attributed to being unable
+      to determine whether proper or improper. Training was the best mitigation strategy
+      to communicate the importance of consistencies in standard operating procedures.
+    Mitigation_Strategy: app3_1
   - Action_Taken: Planned
     Action_Type: Change Process
     Completion_Date: FY2025
@@ -485,6 +469,24 @@ Data_By_Year:
       action implementation forward. Automation was the best mitigation strategy because
       improper and unknown payments resulted from manual processes and human error.
     Mitigation_Strategy: atp1_1
+  - Action_Taken: Not Completed
+    Action_Type: Change Process
+    Completion_Date: The corrective action was not fully completed this reporting
+      period
+    Description_Action_Taken: Actions taken included working to ensure invoices are
+      being validated per the contract pricing prior to payment. Additionally, VA
+      worked to implement short- and long-term contracting options for Community Nursing
+      Home payments to improve compliance with procurement requirements. Finally,
+      VA clarified payment methodology with third-party administrators to bill at
+      the correct rates. These actions were taken to address overpayments and underpayments
+      attributed to failure to access data/information, technically improper payments
+      attributed to statutory requirements of the program not met, and unknown payments
+      attributed to being unable to determine whether proper or improper. Although
+      the overall corrective actions were not fully implemented/completed during FY
+      2024, tasks within the actions were completed to move the overall action implementation
+      forward. Change process was the best mitigation strategy in order to develop
+      stronger internal controls and mitigate risks within existing payment processes.
+    Mitigation_Strategy: atp4_1
   Agency_Needs_Satisfied: 'VA has not determined a tolerable rate due to all requirements
     for establishing a tolerable rate not yet being met. In March 2023, the Government
     Accountability Office acknowledged VA’s substantial reduction in improper and
@@ -639,9 +641,9 @@ Data_By_Year:
     efforts for known causes of improper and unknown payments. State and local governments
     are not involved in the execution of this program.
   IP_Current_Year_Plus_1_Amount: 829.22
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.12999984009
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.1299998401
   IP_Unknown_Target_Rate: 0.13
-  Improper_Payments_Rate: 11.6920432832
+  Improper_Payments_Rate: 11.69204328
   Insufficient_Documentation_to_Determine: 102.93
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -733,6 +735,8 @@ Data_By_Year:
     claim elements, the program is unable to determine whether the amount paid is
     proper or improper.
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '13.0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 135.95724
@@ -791,6 +795,234 @@ Data_By_Year:
     Theme_Description: The financial position or status of a beneficiary, recipient,
       or their family
     Value: '6.410000'
+- Agency_Needs_Satisfied: VA continues to prioritize implementing appropriate corrective
+    actions and mitigation strategies and has adequate funding to implement improvements
+    planned to internal controls, human capital, information systems and other infrastructure,
+    as needed, over VA’s payment processing and procurement systems to continue reducing
+    improper and unknown payments. VA is still actively reducing improper and unknown
+    payments within its existing budget authority. VA considers the reduction of improper
+    and unknown payments a critical part of its financial stewardship efforts.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: VA updates corrective action
+    plans annually based on testing results, and no less than quarterly throughout
+    the fiscal year, to ensure actions planned are appropriately prioritized and designed
+    to mitigate risks of improper and unknown payments. VA monitors progress and results
+    of implementation on a quarterly basis. Additionally, an effectiveness review
+    is performed annually to measure if an action has reduced or is properly designed
+    to reduce improper and unknown payments for a specific root cause based on a set
+    benchmark. The annual effectiveness review process allows VA to create or update
+    actions as necessary to ensure continued progress in the remediation of improper
+    and unknown payments. If areas for improvement were identified, VA conducted a
+    root cause analysis to refine the program's mitigation strategies to ensure they
+    address and reduce root cause(s) of error. VA’s process for development of corrective
+    actions and mitigation strategies ensures the severity of the error is considered
+    and the action is adequate. VA’s corrective actions and mitigation strategies
+    were evaluated by the Office of Inspector General during their FY 2025 annual
+    audit and determined reasonable with no recommendations for improvement. Through
+    implementation of effective corrective actions and mitigation strategies, Purchased
+    Long Term Services and Supports reduced the improper and unknown payment rate
+    from 13.52% in FY 2024 to 4.74% in FY 2025 and the $412.68 million reduction in
+    improper and unknown payments supports the effective implementation and prioritization
+    of action within the agency.
+  Corrective_Actions_Appropriateness: Actions taken regarding automation included
+    VA updating the claims processing system to pay Bowel and Bladder and Community
+    Nursing Home claims appropriately. This action was designed to reduce underpayments
+    attributed to failure to access data/information and technically improper payments
+    attributed to statutory requirements of program not met. Automation was the best
+    mitigation strategy because improper and unknown payments resulted from manual
+    processes and human error. The completion date was January 22, 2025. Actions taken
+    regarding change process included VA moving to a standardized rate schedule for
+    Community Nursing Home payments in order to transition payments from a legacy
+    system to an automated claims adjudication system. In addition, VA continued clarifying
+    appropriate payment methodology with third-party administrators to bill at the
+    correct rates and implemented short- and long-term contracting options for Community
+    Nursing Home payments to improve compliance with procurement requirements.VA also
+    resolved contracting requirements involving missing signatures and inability to
+    reconcile procurement vendor to invoice vendor, establishing Veterans Care Agreements
+    when appropriate. These actions were designed to reduce overpayments attributed
+    to failure to access data/information, technically improper payments attributed
+    to statutory requirements of program not met, and unknown payments attributed
+    to being unable to determine whether proper or improper. Change process was the
+    best mitigation strategy in order to develop stronger internal controls and mitigate
+    risks within existing payment processes. The completion date was June 26, 2025.
+    Actions taken regarding training included VA providing education and training
+    to resolve missing documentation errors related to authorization, payment, or
+    Veteran level of care to support the payment process. These actions were designed
+    to reduce unknown payments attributed to being unable to determine whether proper
+    or improper. Training was the best mitigation strategy to communicate the importance
+    of consistencies in standard operating procedures. The completion date was October
+    2, 2024. Actions taken regarding audit included conducting post-payment reviews
+    to identify errors in automated adjudication logic to prevent future improper
+    payments and issuing additional payments or establishing bills of collection for
+    claims that were paid in the incorrect amount. These actions were designed to
+    reduce overpayments and underpayments attributed to failure to access data/information.
+    Audit was the best mitigation strategy to help identify overpayments and perform
+    a follow-up process. The completion date was August 13, 2025. Actions planned
+    regarding change process include VA continuing to clarify payment methodology
+    with third-party administrators to bill at the correct rates and ensure timely
+    submission of claims. VA will also transition all indefinite delivery contracts
+    or establish Veterans Care Agreements to utilize patient driven payment model
+    rates as required by Centers for Medicare and Medicaid Service. Additionally,
+    VA will work internally with network contracting offices to ensure compliant contracting
+    methods are used to process claims. In addition, VA will work to establish Veterans
+    Care Agreements. Finally, VA will work with medical center staff to ensure proper
+    documentation is maintained to support payment accuracy and ensure clean claim
+    requirements are adhered to. These actions are designed to reduce overpayments
+    and underpayments attributed to failure to access data/information, technically
+    improper payments attributed to statutory requirements of program not met, and
+    unknown payments attributed to being unable to determine whether proper or improper.
+    Change process was the best mitigation strategy in order to develop stronger internal
+    controls and mitigate risks within existing payment processes. The estimated completion
+    date is May 31, 2026.
+  Corrective_Actions_Proportion: The Purchased Long Term Services and Supports program
+    continues to prioritize and implement effective corrective actions and mitigation
+    strategies that reduce improper and unknown payments as evidenced by its fifth
+    consecutive year of rate reductions. In FY 2025, VA performed an effectiveness
+    review of the actions developed and implemented in FY 2024. The purpose of this
+    review was to assess the appropriateness of corrective actions and mitigation
+    strategies and whether the actions were effectively implemented and prioritized
+    within the agency. The results for the Purchased Long Term Services and Supports
+    program indicated that of the four actions assessed, two were effective and two
+    were designed effectively. If improvements could be made, VA conducted a root
+    cause analysis to refine the program's mitigation strategies to ensure they address
+    and reduce root cause(s) of error. For FY 2025, Purchased Long Term Services and
+    Supports reduced improper and unknown payments from $760.09 million in FY 2024
+    to $347.41 million in FY 2025, or a 54.29% reduction, despite a $1.71 billion
+    increase in outlays. For errors tied to failure to access data/information, associated
+    corrective actions or mitigation strategies contributed to a total reduction in
+    the improper payment amount from $224.71 million in FY 2024 to $78.90 million
+    in FY2025, or a 64.89% reduction. For errors tied to statutory requirements of
+    program not met, associated corrective actions or mitigation strategies contributed
+    to a total reduction in the improper payment amount from $432.46 million in FY
+    2024 to $222.68 million in FY 2025, or a 48.51% reduction. For errors tied to
+    unable to determine whether proper or improper, associated corrective actions
+    or mitigation strategies contributed to a total reduction in the unknown payment
+    amount from $102.93 million in FY 2024 to $45.84 million in FY 2025, or a 55.46%
+    reduction. VA will perform an effectiveness review in FY 2026 of the corrective
+    action plans developed and implemented in FY 2025 due to the time needed to develop
+    and implement actions as well as to impact the payment process. Results of this
+    review will be reported in FY 2026.
+  End_Date: 09/2024
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: 'This program was determined noncompliant in FY 2025
+    by the Office of Inspector General but reported improper and unknown payments
+    below required
+
+    thresholds for a compliance determination in FY 2026. In FY 2026, VA executive
+    managers and program personnel will be focused on prevention and
+
+    recovery of overpayments as appropriate. This will include the change process
+    mitigation strategy. These actions address the root causes of errors found
+
+    in FY 2025 payment integrity testing. VA’s executive managers to include the Deputy
+    Executive Director for Geriatrics and Extended Care and program
+
+    personnel will be held accountable through annual performance criteria contained
+    within their performance plans. Performance criteria will be unique to
+
+    and inclusive of all their duties. Depending on each employees’ responsibilities,
+    duties can include preventing improper and unknown payments through
+
+    effective internal controls, recovering overpayments if appropriate, and implementing
+    remediation efforts for known causes of improper and unknown
+
+    payments. State and local governments are not involved in the execution of this
+    program.'
+  IP_Unknown_Target_Rate: 0.045
+  Improper_Payments_Rate: 4.114262951
+  Insufficient_Documentation_to_Determine: 45.84
+  Margin_of_Error: '1.83'
+  Non_Monetary_Loss_Amount: '224.5'
+  Overpayment_Combined_Mitigations_Planned: Change Process
+  Overpayment_Combined_Mitigations_Taken: Audit, Change Process
+  Payment_Accuracy_Rate: 95.26037126318704
+  Program_Additional_Information: The Purchased Long Term Services and Supports program
+    continues to prioritize and implement effective corrective actions and mitigation
+    strategies that reduce improper and unknown payments as evidenced by its fifth
+    consecutive year of reductions. Purchased Long Term Services and Supports achieved
+    it's first year of reporting an improper and unknown payment rate under the compliance
+    threshold of 10% established by the Payment Integrity Information Act of 2019.
+    Specifically, from FY 2024 to FY 2025, the Purchased Long Term Services and Supports
+    program decreased its improper and unknown payment rate from 13.52% to 4.74% (8.78%
+    reduction) and improper and unknown payments from $760.09 million to $347.41 million
+    ($412.68 million reduction). The program expects to be determined compliant in
+    FY 2026 and to see continued positive impact of these actions on its FY 2026 improper
+    and unknown payment rate.
+  Program_Design_or_Structural_Issue: 222.68
+  Resources_Requested_For_IP: 'At this time, VA is not aware of additional program
+    needs. Therefore, VA has not requested additional resources to establish and maintain
+    payment
+
+    integrity.'
+  Start_Date: 10/2023
+  Technical_IP_Actions_Planned: Change Process
+  Technical_IP_Actions_Taken: Automation, Change Process
+  Technical_IP_Amount: '222.68'
+  Underpayment_Mitigations_Planned: Change Process
+  Underpayment_Mitigations_Taken: Audit, Automation
+  Unknown_Mitigations_Planned: Change Process
+  Unknown_Mitigations_Taken: Change Process, Training
+  Unknown_Payments_Rate: 0.6253657857794768
+  Year: 2025
+  detail_IP_Causes: VA overpayments are within the agency's control and occurred when
+    the program failed to access the data/information needed to deny claims not received
+    within the required timeframes. In addition, the program did not always validate
+    that a payment was made in accordance with the contract rate, that the correct
+    amount to pay was returned by the payment system used to process the claim, or
+    whether services billed were authorized. VA underpayments occurred when the program
+    failed to access the data/information needed to deny claims which returned an
+    incorrect amount to pay in thepayment system. VA technically improper payments
+    occurred when the payment was paid to the right person in the right amount but
+    failed to meet all regulatory and/or statutory requirements. Specifically, purchases
+    were made without a contract or agreement, as required. VA unknown payments occurred
+    when VA had missing or insufficient documentation related to authorization or
+    payment documentation, such as missing the claim associated with the payment or
+    supporting authorization of charges billed. In addition, health care providers
+    submitted insufficient documentation to VA, which did not meet clean claim requirements.
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '77.08'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '4.5'
+  eligibility_aggregated:
+  - Theme: Contractor or Provider Status
+    Theme_Description: "Status or standing of contractor or provider, including recipient\
+      \ eligibility to \r\nprovide medical services"
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 77.08
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '77.08'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 1.82
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '1.82'
 Description: Purchased Long Term Services and Supports strives to empower Veterans
   to rise above the challenges of aging, disability, or serious illness. Geriatrics
   and Extended Care is for Veterans of all ages, including their families and caregivers.
@@ -804,11 +1036,12 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[61.84, 318.46, 218.3]'
-Payment_Accuracy_Amounts: '[1423.6199999999994, 2244.2799999999997, 4860.5599999999995]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 7330.11
+Overpayment_Amounts: '[61.84, 318.46, 218.3, 77.08]'
+Payment_Accuracy_Amounts: '[1423.6199999999994, 2244.2799999999997, 4860.5599999999995,
+  6982.69]'
+Payment_Accuracy_Rate: 95.26037126318704
 Phase_2_Program: 0
 Program_Name: Purchased Long Term Services and Supports
 Scorecard_Links:
@@ -822,10 +1055,9 @@ Scorecard_Links:
   QuarterYear: Q1 2025
 - Link: assets/scorecards/Q2 2025/Purchased Long Term Services and Supports.pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[1048.38, 1044.65, 432.46]'
-Underpayment_Amounts: '[0.26, 0.57, 6.41]'
-Unknown_Amounts: '[175, 54.31, 102.93]'
-detail_Reduction_Target: '13.0'
+Technically_Improper_Amounts: '[1048.38, 1044.65, 432.46, 222.68]'
+Underpayment_Amounts: '[0.26, 0.57, 6.41, 1.82]'
+Unknown_Amounts: '[175, 54.31, 102.93, 45.84]'
 layout: program-specific
 permalink: program/va-purchased-long-term-services-and-supports
 ---

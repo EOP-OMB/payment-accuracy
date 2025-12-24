@@ -288,21 +288,6 @@ def piia_programs_compliance_mapper_2023(cursor, results):
 
     return mappedPrograms
 
-def piia_programs_compliance_mapper_2025(cursor, results):
-    mappedPrograms = []
-    for result in results:
-        mappedProgram = {
-            'Name': result['Program_Name'],
-            'Hide_Compliance_Section': True
-        }
-        slug = get_slug(cursor, result['Program_Name'])
-        if slug:
-            mappedProgram['Slug'] = slug
-
-        mappedPrograms.append(mappedProgram)
-
-    return mappedPrograms
-
 query_type_by_year = {
     QUERY_TYPES.AGENCY_NAMES: {
         "query": get_sql_file("AGENCY_NAMES.sql")
@@ -467,7 +452,7 @@ query_type_by_year = {
         },
         2025: {
             "query": get_sql_file("PIIA_NON_COMPLIANT_PROGRAMS_2023.sql"),
-            "mapper": piia_programs_compliance_mapper_2025
+            "mapper": piia_programs_compliance_mapper_2023
         }
     },
     QUERY_TYPES.ELIGIBILITY_THEME_DETAILS: {

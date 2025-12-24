@@ -65,6 +65,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2022
+  detail_Reduction_Target: '9.66'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -96,15 +97,6 @@ Data_By_Year:
     Underpayments_Amount: '0'
 - Actions_Taken:
   - Action_Taken: Planned
-    Action_Type: Audit
-    Completion_Date: FY2024
-    Description_Action_Taken: 'Per Numbered Memo 22-04, the Disaster Internal Controls
-      Division is required to
-
-      perform quality control and quality assurance audits on an ongoing basis. It
-      should be noted, there is no additional funding for this program.'
-    Mitigation_Strategy: app6_1
-  - Action_Taken: Planned
     Action_Type: Training
     Completion_Date: FY2024
     Description_Action_Taken: 'Per Numbered Memo 22-04, training specific to Improper
@@ -115,6 +107,15 @@ Data_By_Year:
 
       '
     Mitigation_Strategy: app3_1
+  - Action_Taken: Planned
+    Action_Type: Audit
+    Completion_Date: FY2024
+    Description_Action_Taken: 'Per Numbered Memo 22-04, the Disaster Internal Controls
+      Division is required to
+
+      perform quality control and quality assurance audits on an ongoing basis. It
+      should be noted, there is no additional funding for this program.'
+    Mitigation_Strategy: app6_1
   - Action_Taken: Completed
     Action_Type: Training
     Completion_Date: FY2023 Q4
@@ -190,6 +191,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: '0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -252,7 +254,6 @@ Scorecard_Links: []
 Technically_Improper_Amounts: '[0, 0]'
 Underpayment_Amounts: '[0, 0]'
 Unknown_Amounts: '[0, 0]'
-detail_Reduction_Target: '9.66'
 layout: program-specific
 permalink: program/sba-economic-injury-disaster-loan-emergency-assistance-advan-ea85f8e9
 ---

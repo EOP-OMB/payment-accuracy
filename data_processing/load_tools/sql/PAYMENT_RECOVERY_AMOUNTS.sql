@@ -5,13 +5,13 @@ SELECT
 FROM [recovery_amounts]
 LEFT JOIN (
     SELECT [Fiscal_Year], [agency], [value] FROM [agency_data_raw]
-    WHERE [Key] = 'ara1'
+    WHERE LOWER([Key]) = 'ara1'
 ) [ara1] ON
     [recovery_amounts].[Fiscal_Year] = [ara1].[Fiscal_Year] AND
     [recovery_amounts].[Agency] = [ara1].[agency]
 LEFT JOIN (
     SELECT [Fiscal_Year], [agency], [value] FROM [agency_data_raw]
-    WHERE [Key] = 'ara2'
+    WHERE LOWER([Key]) = 'ara2'
 ) [ara2] ON
     [recovery_amounts].[Fiscal_Year] = [ara2].[Fiscal_Year] AND
     [recovery_amounts].[Agency] = [ara2].[agency]

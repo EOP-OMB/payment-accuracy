@@ -14,7 +14,7 @@ SELECT
 FROM (select [Program Name],[value],
     row_number() over (partition by [Program Name] order by [key]) as seq
     from [program_data_raw]
-    where [key] IN (
+    where LOWER([key]) IN (
         'pcp01'
         ,'pcp2'
         ,'pcp3'

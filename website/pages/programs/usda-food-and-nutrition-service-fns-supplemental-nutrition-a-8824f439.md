@@ -91,6 +91,7 @@ Data_By_Year:
     \ FNS is still reviewing that data."
   Program_Design_or_Structural_Issue: 0.0
   Year: 2022
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -236,6 +237,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -348,6 +350,15 @@ Data_By_Year:
     Theme_Description: Status of recipient's living location or arrangement
     Value: '0.129512'
 - Actions_Taken:
+  - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2025
+    Description_Action_Taken: The Food and Nutrition Service (FNS) will continue to
+      conduct training for State agencies and will provide additional tools to conduct
+      root cause analysis and identify trends in error rate data. Additional tools
+      include new dashboards for State use and a new payment accuracy data entry and
+      analysis system.
+    Mitigation_Strategy: app3_1
   - Action_Taken: Completed
     Action_Type: Automation
     Completion_Date: FY2024 Q4
@@ -359,15 +370,6 @@ Data_By_Year:
       amounts for SNAP households. Since income is a key factor in the SNAP benefit
       calculation, these efforts are expected to help improve payment accuracy.
     Mitigation_Strategy: atp1_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2025
-    Description_Action_Taken: The Food and Nutrition Service (FNS) will continue to
-      conduct training for State agencies and will provide additional tools to conduct
-      root cause analysis and identify trends in error rate data. Additional tools
-      include new dashboards for State use and a new payment accuracy data entry and
-      analysis system.
-    Mitigation_Strategy: app3_1
   - Action_Taken: Completed
     Action_Type: Training
     Completion_Date: FY2024 Q4
@@ -488,9 +490,9 @@ Data_By_Year:
     at the State level to address payment error rates that exceed six percent, a standard
     established by law.
   IP_Current_Year_Plus_1_Amount: 10901.48
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.116762993769
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.1167629938
   IP_Unknown_Target_Rate: 0.11
-  Improper_Payments_Rate: 11.6763389333
+  Improper_Payments_Rate: 11.67633893
   Insufficient_Documentation_to_Determine: 0.0
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -518,6 +520,8 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '11.0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -672,7 +676,6 @@ Scorecard_Links:
 Technically_Improper_Amounts: '[0, 0, 0]'
 Underpayment_Amounts: '[0, 1295.12, 1480.51]'
 Unknown_Amounts: '[0, 0, 0]'
-detail_Reduction_Target: null
 layout: program-specific
 permalink: program/usda-food-and-nutrition-service-fns-supplemental-nutrition-a-8824f439
 ---

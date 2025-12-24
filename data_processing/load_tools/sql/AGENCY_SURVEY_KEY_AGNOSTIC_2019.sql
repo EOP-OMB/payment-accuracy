@@ -19,7 +19,7 @@ WITH [key_map]([Key],[Name]) AS (
 		('pcp14','Recommendations_To_Reduce_IP'),
 		('cap3','PIIA_Official'),
 		('cap4','PIIA_Incentives'),
-		('CAP5','OIG_Recommendations'),
+		('cap5','OIG_Recommendations'),
 		('agy1','Additional_IP_Information'),
         ('raa8','Risks_Substantial_Changes_Made'),
         ('raa9','Risks_Additional_Information')
@@ -33,5 +33,5 @@ SELECT
 	[agency_data_raw].[value],
 	[agency_data_raw].[Fiscal_Year]
 FROM [agency_data_raw]
-JOIN [key_map] ON [agency_data_raw].[Key] = [key_map].[Key]
+JOIN [key_map] ON LOWER([agency_data_raw].[Key]) = LOWER([key_map].[Key])
 WHERE [Fiscal_Year] = ? AND [Agency] = ?

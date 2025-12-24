@@ -92,6 +92,7 @@ Data_By_Year:
     or documentation from a borrower or lender in order to make a determination about
     borrower eligibility or loan eligibility amount.
   Year: 2022
+  detail_Reduction_Target: '0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -133,7 +134,6 @@ Scorecard_Links: []
 Technically_Improper_Amounts: '[0]'
 Underpayment_Amounts: '[0]'
 Unknown_Amounts: '[16497.713144]'
-detail_Reduction_Target: '0'
 fpi_link: https://fpi.omb.gov/program/59.073
 layout: program-specific
 permalink: program/sba-paycheck-protection-program-ppp-loan-approvals

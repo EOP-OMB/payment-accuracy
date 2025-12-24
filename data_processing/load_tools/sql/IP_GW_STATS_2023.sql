@@ -24,27 +24,27 @@ SELECT
     [sums].[Fiscal_Year]
 FROM (
     SELECT
-            SUM(CASE WHEN [Key] = 'cyp1' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_current_year,
-            SUM(CASE WHEN [Key] = 'cyp27' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_improper_current_year,
-            SUM(CASE WHEN [Key] = 'cyp7' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_unknown_current_year,
-            SUM(CASE WHEN [Key] = 'cyp16' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_next_year,
-            SUM(CASE WHEN [Key] = 'atp1_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_automation_responses,
-            SUM(CASE WHEN [Key] = 'atp2_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_behavioral_responses,
-            SUM(CASE WHEN [Key] = 'atp3_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_training_responses,
-            SUM(CASE WHEN [Key] = 'atp4_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_change_responses,
-            SUM(CASE WHEN [Key] = 'atp5_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_sharing_responses,
-            SUM(CASE WHEN [Key] = 'atp6_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_audit_responses,
-            SUM(CASE WHEN [Key] = 'atp7_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_analytics_responses,
-            SUM(CASE WHEN [Key] = 'atp8_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_statutory_responses,
+            SUM(CASE WHEN LOWER([key]) = 'cyp1' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_current_year,
+            SUM(CASE WHEN LOWER([key]) = 'cyp27' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_improper_current_year,
+            SUM(CASE WHEN LOWER([key]) = 'cyp7' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_unknown_current_year,
+            SUM(CASE WHEN LOWER([key]) = 'cyp16' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_next_year,
+            SUM(CASE WHEN LOWER([key]) = 'atp1_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_automation_responses,
+            SUM(CASE WHEN LOWER([key]) = 'atp2_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_behavioral_responses,
+            SUM(CASE WHEN LOWER([key]) = 'atp3_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_training_responses,
+            SUM(CASE WHEN LOWER([key]) = 'atp4_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_change_responses,
+            SUM(CASE WHEN LOWER([key]) = 'atp5_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_sharing_responses,
+            SUM(CASE WHEN LOWER([key]) = 'atp6_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_audit_responses,
+            SUM(CASE WHEN LOWER([key]) = 'atp7_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_analytics_responses,
+            SUM(CASE WHEN LOWER([key]) = 'atp8_1' AND [value] IS NOT NULL AND [value] <> '' THEN 1 ELSE 0 END) AS total_statutory_responses,
             [Fiscal_Year]
         FROM [congressional_reports_program]
         GROUP BY [Fiscal_Year]) [sums]
 LEFT JOIN (
     SELECT
-            SUM(CASE WHEN [Key] = 'cyp1' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_current_year,
-            SUM(CASE WHEN [Key] = 'cyp27' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_improper_current_year,
-            SUM(CASE WHEN [Key] = 'cyp7' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_unknown_current_year,
-            SUM(CASE WHEN [Key] = 'cyp16' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_next_year,
+            SUM(CASE WHEN LOWER([key]) = 'cyp1' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_current_year,
+            SUM(CASE WHEN LOWER([key]) = 'cyp27' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_improper_current_year,
+            SUM(CASE WHEN LOWER([key]) = 'cyp7' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_unknown_current_year,
+            SUM(CASE WHEN LOWER([key]) = 'cyp16' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_next_year,
             [Fiscal_Year]
         FROM [congressional_reports_program]
         GROUP BY [Fiscal_Year]) [py_sums]
@@ -64,14 +64,14 @@ LEFT JOIN (
             SELECT
                 *
             FROM [congressional_reports_program]
-            WHERE [key] = 'cyp16' AND [value] IS NOT NULL
+            WHERE LOWER([key]) = 'cyp16' AND [value] IS NOT NULL
         ) [cyp16]
         ON
             [cyp20].[agency] = [cyp16].[agency] AND
             [cyp20].[Program Name] = [cyp16].[Program Name] AND
             [cyp20].[Fiscal_Year] = [cyp16].[Fiscal_Year]
         WHERE
-            [cyp20].[key] = 'cyp20_1' AND
+            LOWER([cyp20].[key]) = 'cyp20_1' AND
             [cyp20].[value] IS NOT NULL AND
             [cyp16].[value] IS NOT NULL) [cy_targets]
     GROUP BY [Fiscal_Year]
@@ -79,10 +79,10 @@ LEFT JOIN (
 ON [sums].[Fiscal_Year] = [cy_target].[Fiscal_Year]
 LEFT JOIN (
     SELECT
-            SUM(CASE WHEN [key] = 'arp1' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp1,
-            SUM(CASE WHEN [key] = 'arp2' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp2,
-            SUM(CASE WHEN [key] = 'arp3' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp3,
-            SUM(CASE WHEN [key] = 'arp6' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp6,
+            SUM(CASE WHEN LOWER([key]) = 'arp1' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp1,
+            SUM(CASE WHEN LOWER([key]) = 'arp2' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp2,
+            SUM(CASE WHEN LOWER([key]) = 'arp3' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp3,
+            SUM(CASE WHEN LOWER([key]) = 'arp6' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_arp6,
             [Fiscal_Year]
         FROM [congressional_reports]
         GROUP BY [Fiscal_Year]) [agency_sums]
@@ -102,14 +102,14 @@ LEFT JOIN (
             SELECT
                 *
             FROM [congressional_reports_program]
-            WHERE [key] = 'cyp16' AND [value] IS NOT NULL
+            WHERE LOWER([key]) = 'cyp16' AND [value] IS NOT NULL
         ) [cyp16]
         ON
             [cyp20].[agency] = [cyp16].[agency] AND
             [cyp20].[Program Name] = [cyp16].[Program Name] AND
             [cyp20].[Fiscal_Year] = [cyp16].[Fiscal_Year]
         WHERE
-            [cyp20].[key] = 'cyp20_1' AND
+            LOWER([cyp20].[key]) = 'cyp20_1' AND
             [cyp20].[value] IS NOT NULL AND
             [cyp16].[value] IS NOT NULL) [cy_targets]
     GROUP BY [Fiscal_Year]
@@ -126,7 +126,7 @@ LEFT JOIN (
             [Program Name],
             [Fiscal_Year]
         FROM [congressional_reports_program]
-        WHERE [key] = 'cyp1' AND [value] IS NOT NULL and [value] > 0) [programs]
+        WHERE LOWER([key]) = 'cyp1' AND [value] IS NOT NULL and [value] > 0) [programs]
     GROUP BY [Fiscal_Year]
 ) [program]
 ON [sums].[Fiscal_Year] = [program].[Fiscal_Year]

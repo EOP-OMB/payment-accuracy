@@ -51,6 +51,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 249.6
   Unknown_Payments_Rate: 0.6831065892655181
   Year: 2022
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -74,6 +75,23 @@ Data_By_Year:
     Inability_to_Access_Data: 401.3
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
+    Completion_Date: FY2027+
+    Description_Action_Taken: 'ETA will continue to encourage states to use SIDES
+      and emphasize SIDES as a primary method to reduce improper payments and fraud
+      in the states. The SIDES team will host the annual 2024 SIDES Seminar.
+
+
+      In addition, the SIDES team will explore opportunities for additional updates
+      and enhancements to SIDES. The SIDES team will continue to conduct outreach
+      to employers and employers’ third-party administrators to encourage the adoption
+      and use of SIDES and will continue to attend and exhibit at employer conferences
+      to provide information regarding the use of SIDES to streamline the UI process
+      in the states where they have employees.
+
+      '
+    Mitigation_Strategy: app1_1
+  - Action_Taken: Planned
     Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2027+
     Description_Action_Taken: ETA will continue to provide BI recommendations to state
@@ -83,6 +101,26 @@ Data_By_Year:
       will continue to increase the materials available in the BI Toolkit and provide
       targeted BI technical assistance to states.
     Mitigation_Strategy: app2_1
+  - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2027+
+    Description_Action_Taken: 'ETA will continue to provide training to states on
+      critical guidance, UI performance measures, ETA UI reporting requirements, and
+      other UI-related topics as needed. ETA will also continue to promote the training
+      resources provided by the UI Integrity Center.
+
+
+      The UI National Integrity Academy, will continue to support states’ training
+      needs by developing new training materials, adding new lessons to existing certificate
+      programs, customizing training programs for states, training newly hired staff,
+      and providing existing UI staff with refresher and skill-enhancement training.
+
+
+      ETA and the UI Integrity Center will also continue providing UI-related presentations
+      and trainings at virtual and in-person conferences.
+
+      '
+    Mitigation_Strategy: app3_1
   - Action_Taken: Planned
     Action_Type: Change Process
     Completion_Date: FY2027+
@@ -105,6 +143,31 @@ Data_By_Year:
       '
     Mitigation_Strategy: app4_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
+    Completion_Date: FY2027+
+    Description_Action_Taken: "ETA will continue to meet regularly with the DOL-OIG\
+      \ to discuss emerging UI fraud issues, streamline communication with states,\
+      \ and coordinate fraud prevention and recovery efforts. \n\nThe UI Integrity\
+      \ Center will continue to develop integrity-related resources, including operational\
+      \ recommendations, promising practice templates, and various resources and guides\
+      \ for states to make UI program improvements and address integrity challenges\
+      \ and add those resources to the UI Collection in the Library.\n"
+    Mitigation_Strategy: app5_1
+  - Action_Taken: Planned
+    Action_Type: Audit
+    Completion_Date: FY2027+
+    Description_Action_Taken: 'ETA will continue to conduct oversight and monitoring
+      of state UI programs in line with the ETOs to ensure states’ conformity and
+      compliance with federal and state UC law, rules, regulations, and policies.
+
+
+      ETA Regional Offices will review states’ SQSP and IAP submissions and their
+      corresponding quarterly updates, ETA 9178 reports submitted for grant funding,
+      and ETA UI Required Reports for completeness and accuracy.
+
+      '
+    Mitigation_Strategy: app6_1
+  - Action_Taken: Planned
     Action_Type: Predictive Analytics
     Completion_Date: FY2027+
     Description_Action_Taken: "ETA will continue to strongly encourage states to adopt\
@@ -116,148 +179,6 @@ Data_By_Year:
       \ to continuously improve fraud prevention and detection and reduce UI improper\
       \ payments.\n"
     Mitigation_Strategy: app7_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2027+
-    Description_Action_Taken: 'ETA will continue to provide training to states on
-      critical guidance, UI performance measures, ETA UI reporting requirements, and
-      other UI-related topics as needed. ETA will also continue to promote the training
-      resources provided by the UI Integrity Center.
-
-
-      The UI National Integrity Academy, will continue to support states’ training
-      needs by developing new training materials, adding new lessons to existing certificate
-      programs, customizing training programs for states, training newly hired staff,
-      and providing existing UI staff with refresher and skill-enhancement training.
-
-
-      ETA and the UI Integrity Center will also continue providing UI-related presentations
-      and trainings at virtual and in-person conferences.
-
-      '
-    Mitigation_Strategy: app3_1
-  - Action_Taken: Planned
-    Action_Type: Automation
-    Completion_Date: FY2027+
-    Description_Action_Taken: 'ETA will continue to encourage states to use SIDES
-      and emphasize SIDES as a primary method to reduce improper payments and fraud
-      in the states. The SIDES team will host the annual 2024 SIDES Seminar.
-
-
-      In addition, the SIDES team will explore opportunities for additional updates
-      and enhancements to SIDES. The SIDES team will continue to conduct outreach
-      to employers and employers’ third-party administrators to encourage the adoption
-      and use of SIDES and will continue to attend and exhibit at employer conferences
-      to provide information regarding the use of SIDES to streamline the UI process
-      in the states where they have employees.
-
-      '
-    Mitigation_Strategy: app1_1
-  - Action_Taken: Completed
-    Action_Type: Predictive Analytics
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: "The Department continued to strongly encourages states\
-      \ to adopt an array of strategies to detect and fight fraud, provide equitable\
-      \ access for claimants facing challenges using online ID verification, expand\
-      \ the ID verification footprint by adding more ID verification options, and\
-      \ to have robust strategies in place to verify the identity of individuals applying\
-      \ for UI benefits.  The Department is using ARPA funds to make available to\
-      \ states (for at least the next two years subject to available funding) both\
-      \ in-person and digital, government-operated, ID verification services (i.e.,\
-      \ National ID Verification Offering).  The Department’s National ID Verification\
-      \ Offering provides a remote, mobile ready digital ID verification solution\
-      \ through Login.gov, in partnership with GSA.  In-person ID verification will\
-      \ be made available to all states at over 19,000 retail post office locations\
-      \ across the country in partnership with USPS.  FY 2023, ETA reports the following\
-      \ actions:\n\n•\tIssued UIPL No. 11-23, which made available additional funding\
-      \ to support UI program integrity efforts, including strengthening ID verification\
-      \ in UC programs, and officially announced the Department’s National ID Verification\
-      \ Offering.\no\tThe guidance also defined a risk-based approach to ID verification\
-      \ for UC programs and introduced evidence-based ID verification.  \n•\tExpanded\
-      \ outreach regarding the National ID Verification Offering by conducting demonstrations\
-      \ of the Login.gov and USPS services, holding discussions with states, and initiating\
-      \ follow-up conversations with interested state UI agencies.  \no\tTotal outreach\
-      \ included 45 states, with 39 states expressing interest in at least one, if\
-      \ not both, of the ID verification services. \n•\tDeployed both Login.gov and\
-      \ USPS ID verification services in Arkansas and Hawaii.\no\tEscalated Hawaii\
-      \ implementation to coincide with their Disaster Unemployment Assistance (DUA)\
-      \ response to the Maui wildfires.\n•\tDeployed the USPS ID verification service\
-      \ in Oklahoma and Oregon.\n•\tContinued to formalize ID Verification recommendations\
-      \ through Tiger Team engagements.\n   \nETA continued to support and provide\
-      \ funding for enhancements to the UI Integrity Center’s IDH, which is a secure,\
-      \ robust, centralized, multi-state data system that allows participating states\
-      \ to cross-match, compare, and analyze UC claims data against a variety of datasets\
-      \ for enhanced prevention and detection of improper payments and fraud in UC\
-      \ programs. The IDH currently has the following functionality:\n\n•\tSuspicious\
-      \ Actor Repository (SAR) – allows states to match UI claims against other states’\
-      \ known suspicious claims data. This tool allows each state to benefit from\
-      \ the investigative work of all states as claims data associated with known\
-      \ or probable UI fraud is submitted and stored in the SAR for cross- matching\
-      \ purposes.\n•\tSuspicious E-Mail Domains and Patterns – allows participating\
-      \ states to cross-match their claims against a database of suspicious e-mail\
-      \ domains and detects suspicious email patterns, that have been associated with\
-      \ fraudulent activity, and flags claims with these domains and/or patterns for\
-      \ further investigation by the submitting state.\n•\tForeign IP Addresses –\
-      \ allows participating states to receive flags on UI claims filed from Internet\
-      \ Protocol (IP) addresses outside of the U.S.\n•\tData Analysis – provides the\
-      \ unique ability to analyze national claims data and conduct cross-state analysis\
-      \ within a secure system.\n•\tMulti-State Cross-Match (MCSM) – provides the\
-      \ ability to identify UI claims data used across multiple states and allows\
-      \ a lookback capability to identify after-the-fact matches based on new claims\
-      \ or fraud activity data submitted to the IDH.\n•\tFraud Alerting – provides\
-      \ a secure messaging platform for states, ETA, and the DOL-OIG to share information\
-      \ through the IDH on emergent fraud schemes.\n•\tIdentity Verification (IDV)\
-      \ – provides states with a centralized, front-end ID verification tool by returning\
-      \ ID scoring information, including flagging of false and synthetic identities;\
-      \ this solution includes a cross-match to the SSA’s Death Master File.\n•\t\
-      Bank Account Verification (BAV) – provides states with access to near real-time\
-      \ information to proactively identify and authenticate bank account information\
-      \ provided by the UI claimant by validating the account’s status and ensuring\
-      \ the individual identified as the claimant is the account owner and/or authorized\
-      \ user prior to initiating the UI benefit payment.\n\nThe UI Integrity Center\
-      \ and ETA report the following actions in FY 2023: \n\n•\tActively worked with\
-      \ states to implement the datasets available through the IDH for the prevention\
-      \ and detection of improper payments and fraud in the UI program.\n•\tContinued\
-      \ supporting states’ connection to the IDH and assisted states with reviewing,\
-      \ processing, and analyzing IDH results.  As of September 30, 2023:\no\tAll\
-      \ 53 states have executed an IDH participation agreement.\no\t51 states are\
-      \ using SAR. \no\t50 states are using MSCM.\no\t45 states are using the IDV\
-      \ solution.  \no\t40 states are using the BAV service.   \no\tAll states, ETA,\
-      \ and the DOL-OIG have access to Fraud Alerting in the IDH.\n•\tCompleted enhancements\
-      \ to the IDH Prioritization and the IDH Sorting, Filtering, and Outcomes (SFO)\
-      \ functionality, adding an “After the Fact Match” filter option as well as the\
-      \ capability to display priority rule violation detail on the results tab. \
-      \ \no\t“After the Fact Match” increases IDH users’ ability to review IDH results\
-      \ on current UI claims, thereby increasing investigative efficiencies.  It also\
-      \ provides users with the ability to identify matches that occurred after the\
-      \ lookups have been performed, such as those resulting from hijacked claims\
-      \ and multi-state schemes. \no\tPriority rule violation detail allows IDH users\
-      \ to view which rule(s) specifically were violated.  \no\tAdded an IDH prioritization\
-      \ rule to identify and flag high-risk age categories. \n•\tDeveloped and implemented\
-      \ an enhanced Fraud Alerting capability (Fraud Alert 2.0), capturing data elements\
-      \ identified in fraud alerts in a more structured format which allows new lookup\
-      \ requests to be cross-matched against “historical” fraud alerts.\n•\tOn January\
-      \ 31, 2023, the UI Integrity Center completed development, testing, and release\
-      \ to production of the DOL-OIG IDH Interface.  The DOL-OIG IDH Interface allows\
-      \ approved OIG Investigators to easily request and receive a report of IDH results\
-      \ sent to states, which identifies UI claims reasonably believed to be potential\
-      \ fraud.\n•\tDeveloped and reviewed new data visualizations related to duplicate\
-      \ records and IDH priority assignments.\n•\tConducted bi-weekly IDH update calls\
-      \ with states and provided direct technical assistance and peer-to-peer engagements.\
-      \ \n•\tContinued conducting onsite IDH implementation support services. The\
-      \ visits are designed as a short, in- person engagement between UI Integrity\
-      \ Center staff and the state to aid the state with the understanding and utilization\
-      \ of the IDH system and results data.\n•\tOn August 1, 2023, hosted the “Leveraging\
-      \ Federal Funds to Support More Robust IDH Utilization” webinar.\n•\tParticipated\
-      \ in a panel discussion at the National Automated Clearinghouse Association\
-      \ (NACHA) Smarter Faster Payments conference to discuss the IDH BAV capability\
-      \ and performance.\n•\tContinued to work with the Department and their IDH Evaluation\
-      \ Research Team to inform the IDH evaluation, which is an initial study to provide\
-      \ insights on the IDH’s effectiveness for identifying potential fraud.\n•\t\
-      The Department provided funding to support future enhancements to the IDH functionality,\
-      \ including methods to detect potential UI tax fraud schemes and to access and\
-      \ use additional data sources, including government data sets. \n"
-    Mitigation_Strategy: atp7_1
   - Action_Taken: Planned
     Action_Type: Statutory Change
     Completion_Date: FY2025
@@ -370,31 +291,34 @@ Data_By_Year:
       \ in partnership with United States Postal Service. This initiative was announced\
       \ in Unemployment Insurance Program Letter Number 11-23 in July 2023."
     Mitigation_Strategy: atp1_1
-  - Action_Taken: Planned
-    Action_Type: Audit
-    Completion_Date: FY2027+
-    Description_Action_Taken: 'ETA will continue to conduct oversight and monitoring
-      of state UI programs in line with the ETOs to ensure states’ conformity and
-      compliance with federal and state UC law, rules, regulations, and policies.
-
-
-      ETA Regional Offices will review states’ SQSP and IAP submissions and their
-      corresponding quarterly updates, ETA 9178 reports submitted for grant funding,
-      and ETA UI Required Reports for completeness and accuracy.
-
-      '
-    Mitigation_Strategy: app6_1
-  - Action_Taken: Planned
-    Action_Type: Cross Enterprise Sharing
-    Completion_Date: FY2027+
-    Description_Action_Taken: "ETA will continue to meet regularly with the DOL-OIG\
-      \ to discuss emerging UI fraud issues, streamline communication with states,\
-      \ and coordinate fraud prevention and recovery efforts. \n\nThe UI Integrity\
-      \ Center will continue to develop integrity-related resources, including operational\
-      \ recommendations, promising practice templates, and various resources and guides\
-      \ for states to make UI program improvements and address integrity challenges\
-      \ and add those resources to the UI Collection in the Library.\n"
-    Mitigation_Strategy: app5_1
+  - Action_Taken: Completed
+    Action_Type: Behavioral/Psych Influence
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: "The Department-funded Unemployment Insurance Integrity\
+      \ Center provides behavioral science information and expertise, evidence-based\
+      \ insights, and support for state Unemployment Insurance agencies seeking to\
+      \ achieve better outcomes on challenging program problems. The Unemployment\
+      \ Insurance Integrity Center Behavioral Insights team continued to develop and\
+      \ publish new resources in the Behavioral Insights Toolkit, including a Work\
+      \ Search Planner and plain language resources, to supplement Behavioral Insights\
+      \ Curriculum lessons and grow the offerings of the Behavioral Insights Toolkit\
+      \ and Knowledge Exchange Library more broadly. In FY 2023, the following additional\
+      \ Behavioral Insights accomplishments were completed:\n\n•\tUpdated existing\
+      \ Behavioral Insights Glossary terms and added new terms.\n•\tSupported state\
+      \ research and implementation of Behavioral Insights projects and publications.\n\
+      •\tPresented on leveraging Behavioral Insights in Unemployment Insurance programs\
+      \ at NASWA conferences and meetings.\n•\tCompleted and published the Behavioral\
+      \ Insights Certificate program, which is a certificate training program for\
+      \ Unemployment Insurance staff who want to learn more about Behavioral Insights\
+      \ and/or are interested in learning how to design and use Behavioral Insights\
+      \ interventions to increase adherence to Unemployment Insurance program rules,\
+      \ policies, laws, and guidelines.\n•\tContinued to work on the claimant education\
+      \ video production projects for states and, which include behavioral nudging,\
+      \ and developed cost estimates on foreign language versions of the videos.\n\
+      \nThe Department’s Tiger Team initiative with states also continued to provide\
+      \ recommendations to states regarding the use of plain language and Behavioral\
+      \ Insights to improve Unemployment Insurance systems, processes, and integrity.\n"
+    Mitigation_Strategy: atp2_1
   - Action_Taken: Completed
     Action_Type: Training
     Completion_Date: FY2023 Q4
@@ -489,121 +413,6 @@ Data_By_Year:
       \ and provided Unemployment Insurance-related trainings at virtual and in-person\
       \ conferences throughout FY 2023.\n"
     Mitigation_Strategy: atp3_1
-  - Action_Taken: Completed
-    Action_Type: Behavioral/Psych Influence
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: "The Department-funded Unemployment Insurance Integrity\
-      \ Center provides behavioral science information and expertise, evidence-based\
-      \ insights, and support for state Unemployment Insurance agencies seeking to\
-      \ achieve better outcomes on challenging program problems. The Unemployment\
-      \ Insurance Integrity Center Behavioral Insights team continued to develop and\
-      \ publish new resources in the Behavioral Insights Toolkit, including a Work\
-      \ Search Planner and plain language resources, to supplement Behavioral Insights\
-      \ Curriculum lessons and grow the offerings of the Behavioral Insights Toolkit\
-      \ and Knowledge Exchange Library more broadly. In FY 2023, the following additional\
-      \ Behavioral Insights accomplishments were completed:\n\n•\tUpdated existing\
-      \ Behavioral Insights Glossary terms and added new terms.\n•\tSupported state\
-      \ research and implementation of Behavioral Insights projects and publications.\n\
-      •\tPresented on leveraging Behavioral Insights in Unemployment Insurance programs\
-      \ at NASWA conferences and meetings.\n•\tCompleted and published the Behavioral\
-      \ Insights Certificate program, which is a certificate training program for\
-      \ Unemployment Insurance staff who want to learn more about Behavioral Insights\
-      \ and/or are interested in learning how to design and use Behavioral Insights\
-      \ interventions to increase adherence to Unemployment Insurance program rules,\
-      \ policies, laws, and guidelines.\n•\tContinued to work on the claimant education\
-      \ video production projects for states and, which include behavioral nudging,\
-      \ and developed cost estimates on foreign language versions of the videos.\n\
-      \nThe Department’s Tiger Team initiative with states also continued to provide\
-      \ recommendations to states regarding the use of plain language and Behavioral\
-      \ Insights to improve Unemployment Insurance systems, processes, and integrity.\n"
-    Mitigation_Strategy: atp2_1
-  - Action_Taken: Completed
-    Action_Type: Audit
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: "ETA National and Regional Office staff are collectively\
-      \ responsible for federal oversight of state administration of UI programs.\
-      \ Employment and Training Orders (ETOs) provide direction to ETA staff on processes\
-      \ for a wide array of oversight reviews and performance accountability activities.\n\
-      \nETA requires states to submit a State Quality Service Plan (SQSP) each year.\
-      \ The SQSP is the principal vehicle used by state UI programs to plan, record,\
-      \ and manage improvement efforts as they strive for excellence in service. It\
-      \ represents an approach to the UI performance management and planning process\
-      \ that allows for an exchange of information between Federal and state partners\
-      \ to enhance the UI program’s ability to reflect their joint commitment to performance\
-      \ excellence and client-centered services. The SQSP is part of the process by\
-      \ which states receive Federal UI administrative grants. As part of the SQSP\
-      \ process, each state must address UI program performance deficiencies by submitting\
-      \ corrective action plans (CAPs) for UI performance measures falling below the\
-      \ Acceptable Level of Performance (ALP). States provide quarterly updates on\
-      \ their CAPs.  In addition, states must complete an Integrity Action Plan (IAP),\
-      \ outlining the state’s UI program integrity and antifraud strategies.  The\
-      \ IAP requires states to discuss their actions and planned activities to prevent\
-      \ and detect fraud, reduce improper payments, and improve overpayment recoveries.\
-      \  As part of the IAP, states also report UI fraud risk mitigation strategies\
-      \ and address any additional UI integrity and fraud risk topics, including fraud\
-      \ and integrity-related National Priorities identified in the annual SQSP Additional\
-      \ Planning Guidance.  In FY 2022, ETA began requiring states to provide a six-month\
-      \ update to the IAP.  In FY 2023, ETA reports the following additional actions\
-      \ regarding the SQSP and IAP:\n\n•\tReviewed states’ FY 2023 SQSPs, IAPs, and\
-      \ corresponding updates. \n•\tIncluded “Ensuring UI program integrity by assessing\
-      \ and evaluating fraud risks, implementing and maintaining sufficient controls\
-      \ to effectively mitigate the likelihood and impact of fraud, and reducing improper\
-      \ payments” as a National Priority for the FY 2024 SQSP.\n•\tUpdated the IAP\
-      \ requirements for FY 2024, adding a topic for states to discuss plans and actions\
-      \ to mitigate negative consequences for UI ID fraud victims, including ensuring\
-      \ simplified processes to remove the victim’s liability for overpayments resulting\
-      \ from ID fraud.  \n•\tIssued UIPL No. 09-23, the Additional Planning Guidance\
-      \ for the FY 2024 SQSP, which in addition to providing SQSP guidance, highlighted\
-      \ actions the Department is taking to update fraud risk management activities\
-      \ and required states to report actions to develop their own state-specific\
-      \ antifraud strategy as part of the IAP. \n•\tIncluded in the IAP template for\
-      \ FY 2024, the Government Accountability Office’s (GAO) key elements of an antifraud\
-      \ strategy, to aid states in the development of their own state-specific antifraud\
-      \ strategy. \n•\tBegan exploring options to conduct in-depth analysis on states’\
-      \ SQSPs and IAPs to better inform the Department’s antifraud strategy, make\
-      \ data-driven decisions regarding fraud and improper payment risk mitigation\
-      \ strategies, and streamline review of future SQSP and IAP submissions and updates.\
-      \ \n•\tContinued to reinforce state SQSP and IAP reporting requirements within\
-      \ recommendations through Tiger Team engagements.\n"
-    Mitigation_Strategy: atp6_1
-  - Action_Taken: Completed
-    Action_Type: Statutory Change
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: "In its FY 2024 budget submission, the Department proposed\
-      \ a comprehensive package of provisions designed to provide new and expanded\
-      \ tools and controls for states to help improve efforts to ensure entitled workers\
-      \ are properly paid and to prevent fraud and improper payments in the UI system.\
-      \  The package includes the following components:\n\n•\tRequire states to use\
-      \ system(s) designated by the Secretary for cross-matching claimants to prevent\
-      \ and detect improper payments, including fraud, which would currently include\
-      \ the IDH. \n•\tRequire states to use system(s) designated by the Secretary\
-      \ for electronic transmission of requests for information relating to UC and\
-      \ the provision of such information between the state UI agency and employers\
-      \ or their agents, which would currently include SIDES.\n•\tRequire states to\
-      \ cross-match against the NDNH to better identify individuals continuing to\
-      \ claim UC after returning to work, which is one of the leading root causes\
-      \ of UI improper payments.\n•\tRequire states to cross-match with a system(s)\
-      \ designated by the Secretary that contains information on individuals who are\
-      \ incarcerated, which would currently include the SSA’s PUPS.\n•\tRequire states\
-      \ to disclose information to the DOL-OIG to conduct audits and investigations\
-      \ to discover fraud, waste, and abuse or inefficiencies in the UC programs.\
-      \ \n•\tProvide the Secretary with meaningful enforcement authority and the ability\
-      \ to reward good performance.  This proposal would create a new remedy so that\
-      \ instead of withholding a state’s entire administrative grant for failing to\
-      \ meet the performance measures or achieve minimum technology standards, the\
-      \ Secretary can require a portion of the state’s administrative grant be used\
-      \ to correct failing performance and/or have the state participate in required\
-      \ technical assistance activities offered by USDOL.\n•\tAllow states to retain\
-      \ up to five percent of recovered fraudulent UI overpayments for program integrity\
-      \ use.\n•\tRequire states to use penalty and interest collections solely for\
-      \ UI administration.\n•\tAllow states the authority to issue a formal warning\
-      \ when claimants are unclear on the work search requirements.\n•\tAllow states\
-      \ to use contract support in recovery efforts under the Treasury Offset Program\
-      \ (TOP).\n\nFurthermore, the ETA is considering changes to the UI confidentiality\
-      \ regulations at 20 CFR Part 603, to address the issue of requiring states to\
-      \ provide the DOL-OIG with access to state UI data, including for investigations\
-      \ and audit purposes.\n"
-    Mitigation_Strategy: atp8_1
   - Action_Taken: Completed
     Action_Type: Change Process
     Completion_Date: FY2023 Q4
@@ -737,6 +546,198 @@ Data_By_Year:
       \ collection, dedicated to the pandemic and the Unemployment Insurance system\
       \ emergency response, includes over 400 resources.\n"
     Mitigation_Strategy: atp5_1
+  - Action_Taken: Completed
+    Action_Type: Audit
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: "ETA National and Regional Office staff are collectively\
+      \ responsible for federal oversight of state administration of UI programs.\
+      \ Employment and Training Orders (ETOs) provide direction to ETA staff on processes\
+      \ for a wide array of oversight reviews and performance accountability activities.\n\
+      \nETA requires states to submit a State Quality Service Plan (SQSP) each year.\
+      \ The SQSP is the principal vehicle used by state UI programs to plan, record,\
+      \ and manage improvement efforts as they strive for excellence in service. It\
+      \ represents an approach to the UI performance management and planning process\
+      \ that allows for an exchange of information between Federal and state partners\
+      \ to enhance the UI program’s ability to reflect their joint commitment to performance\
+      \ excellence and client-centered services. The SQSP is part of the process by\
+      \ which states receive Federal UI administrative grants. As part of the SQSP\
+      \ process, each state must address UI program performance deficiencies by submitting\
+      \ corrective action plans (CAPs) for UI performance measures falling below the\
+      \ Acceptable Level of Performance (ALP). States provide quarterly updates on\
+      \ their CAPs.  In addition, states must complete an Integrity Action Plan (IAP),\
+      \ outlining the state’s UI program integrity and antifraud strategies.  The\
+      \ IAP requires states to discuss their actions and planned activities to prevent\
+      \ and detect fraud, reduce improper payments, and improve overpayment recoveries.\
+      \  As part of the IAP, states also report UI fraud risk mitigation strategies\
+      \ and address any additional UI integrity and fraud risk topics, including fraud\
+      \ and integrity-related National Priorities identified in the annual SQSP Additional\
+      \ Planning Guidance.  In FY 2022, ETA began requiring states to provide a six-month\
+      \ update to the IAP.  In FY 2023, ETA reports the following additional actions\
+      \ regarding the SQSP and IAP:\n\n•\tReviewed states’ FY 2023 SQSPs, IAPs, and\
+      \ corresponding updates. \n•\tIncluded “Ensuring UI program integrity by assessing\
+      \ and evaluating fraud risks, implementing and maintaining sufficient controls\
+      \ to effectively mitigate the likelihood and impact of fraud, and reducing improper\
+      \ payments” as a National Priority for the FY 2024 SQSP.\n•\tUpdated the IAP\
+      \ requirements for FY 2024, adding a topic for states to discuss plans and actions\
+      \ to mitigate negative consequences for UI ID fraud victims, including ensuring\
+      \ simplified processes to remove the victim’s liability for overpayments resulting\
+      \ from ID fraud.  \n•\tIssued UIPL No. 09-23, the Additional Planning Guidance\
+      \ for the FY 2024 SQSP, which in addition to providing SQSP guidance, highlighted\
+      \ actions the Department is taking to update fraud risk management activities\
+      \ and required states to report actions to develop their own state-specific\
+      \ antifraud strategy as part of the IAP. \n•\tIncluded in the IAP template for\
+      \ FY 2024, the Government Accountability Office’s (GAO) key elements of an antifraud\
+      \ strategy, to aid states in the development of their own state-specific antifraud\
+      \ strategy. \n•\tBegan exploring options to conduct in-depth analysis on states’\
+      \ SQSPs and IAPs to better inform the Department’s antifraud strategy, make\
+      \ data-driven decisions regarding fraud and improper payment risk mitigation\
+      \ strategies, and streamline review of future SQSP and IAP submissions and updates.\
+      \ \n•\tContinued to reinforce state SQSP and IAP reporting requirements within\
+      \ recommendations through Tiger Team engagements.\n"
+    Mitigation_Strategy: atp6_1
+  - Action_Taken: Completed
+    Action_Type: Predictive Analytics
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: "The Department continued to strongly encourages states\
+      \ to adopt an array of strategies to detect and fight fraud, provide equitable\
+      \ access for claimants facing challenges using online ID verification, expand\
+      \ the ID verification footprint by adding more ID verification options, and\
+      \ to have robust strategies in place to verify the identity of individuals applying\
+      \ for UI benefits.  The Department is using ARPA funds to make available to\
+      \ states (for at least the next two years subject to available funding) both\
+      \ in-person and digital, government-operated, ID verification services (i.e.,\
+      \ National ID Verification Offering).  The Department’s National ID Verification\
+      \ Offering provides a remote, mobile ready digital ID verification solution\
+      \ through Login.gov, in partnership with GSA.  In-person ID verification will\
+      \ be made available to all states at over 19,000 retail post office locations\
+      \ across the country in partnership with USPS.  FY 2023, ETA reports the following\
+      \ actions:\n\n•\tIssued UIPL No. 11-23, which made available additional funding\
+      \ to support UI program integrity efforts, including strengthening ID verification\
+      \ in UC programs, and officially announced the Department’s National ID Verification\
+      \ Offering.\no\tThe guidance also defined a risk-based approach to ID verification\
+      \ for UC programs and introduced evidence-based ID verification.  \n•\tExpanded\
+      \ outreach regarding the National ID Verification Offering by conducting demonstrations\
+      \ of the Login.gov and USPS services, holding discussions with states, and initiating\
+      \ follow-up conversations with interested state UI agencies.  \no\tTotal outreach\
+      \ included 45 states, with 39 states expressing interest in at least one, if\
+      \ not both, of the ID verification services. \n•\tDeployed both Login.gov and\
+      \ USPS ID verification services in Arkansas and Hawaii.\no\tEscalated Hawaii\
+      \ implementation to coincide with their Disaster Unemployment Assistance (DUA)\
+      \ response to the Maui wildfires.\n•\tDeployed the USPS ID verification service\
+      \ in Oklahoma and Oregon.\n•\tContinued to formalize ID Verification recommendations\
+      \ through Tiger Team engagements.\n   \nETA continued to support and provide\
+      \ funding for enhancements to the UI Integrity Center’s IDH, which is a secure,\
+      \ robust, centralized, multi-state data system that allows participating states\
+      \ to cross-match, compare, and analyze UC claims data against a variety of datasets\
+      \ for enhanced prevention and detection of improper payments and fraud in UC\
+      \ programs. The IDH currently has the following functionality:\n\n•\tSuspicious\
+      \ Actor Repository (SAR) – allows states to match UI claims against other states’\
+      \ known suspicious claims data. This tool allows each state to benefit from\
+      \ the investigative work of all states as claims data associated with known\
+      \ or probable UI fraud is submitted and stored in the SAR for cross- matching\
+      \ purposes.\n•\tSuspicious E-Mail Domains and Patterns – allows participating\
+      \ states to cross-match their claims against a database of suspicious e-mail\
+      \ domains and detects suspicious email patterns, that have been associated with\
+      \ fraudulent activity, and flags claims with these domains and/or patterns for\
+      \ further investigation by the submitting state.\n•\tForeign IP Addresses –\
+      \ allows participating states to receive flags on UI claims filed from Internet\
+      \ Protocol (IP) addresses outside of the U.S.\n•\tData Analysis – provides the\
+      \ unique ability to analyze national claims data and conduct cross-state analysis\
+      \ within a secure system.\n•\tMulti-State Cross-Match (MCSM) – provides the\
+      \ ability to identify UI claims data used across multiple states and allows\
+      \ a lookback capability to identify after-the-fact matches based on new claims\
+      \ or fraud activity data submitted to the IDH.\n•\tFraud Alerting – provides\
+      \ a secure messaging platform for states, ETA, and the DOL-OIG to share information\
+      \ through the IDH on emergent fraud schemes.\n•\tIdentity Verification (IDV)\
+      \ – provides states with a centralized, front-end ID verification tool by returning\
+      \ ID scoring information, including flagging of false and synthetic identities;\
+      \ this solution includes a cross-match to the SSA’s Death Master File.\n•\t\
+      Bank Account Verification (BAV) – provides states with access to near real-time\
+      \ information to proactively identify and authenticate bank account information\
+      \ provided by the UI claimant by validating the account’s status and ensuring\
+      \ the individual identified as the claimant is the account owner and/or authorized\
+      \ user prior to initiating the UI benefit payment.\n\nThe UI Integrity Center\
+      \ and ETA report the following actions in FY 2023: \n\n•\tActively worked with\
+      \ states to implement the datasets available through the IDH for the prevention\
+      \ and detection of improper payments and fraud in the UI program.\n•\tContinued\
+      \ supporting states’ connection to the IDH and assisted states with reviewing,\
+      \ processing, and analyzing IDH results.  As of September 30, 2023:\no\tAll\
+      \ 53 states have executed an IDH participation agreement.\no\t51 states are\
+      \ using SAR. \no\t50 states are using MSCM.\no\t45 states are using the IDV\
+      \ solution.  \no\t40 states are using the BAV service.   \no\tAll states, ETA,\
+      \ and the DOL-OIG have access to Fraud Alerting in the IDH.\n•\tCompleted enhancements\
+      \ to the IDH Prioritization and the IDH Sorting, Filtering, and Outcomes (SFO)\
+      \ functionality, adding an “After the Fact Match” filter option as well as the\
+      \ capability to display priority rule violation detail on the results tab. \
+      \ \no\t“After the Fact Match” increases IDH users’ ability to review IDH results\
+      \ on current UI claims, thereby increasing investigative efficiencies.  It also\
+      \ provides users with the ability to identify matches that occurred after the\
+      \ lookups have been performed, such as those resulting from hijacked claims\
+      \ and multi-state schemes. \no\tPriority rule violation detail allows IDH users\
+      \ to view which rule(s) specifically were violated.  \no\tAdded an IDH prioritization\
+      \ rule to identify and flag high-risk age categories. \n•\tDeveloped and implemented\
+      \ an enhanced Fraud Alerting capability (Fraud Alert 2.0), capturing data elements\
+      \ identified in fraud alerts in a more structured format which allows new lookup\
+      \ requests to be cross-matched against “historical” fraud alerts.\n•\tOn January\
+      \ 31, 2023, the UI Integrity Center completed development, testing, and release\
+      \ to production of the DOL-OIG IDH Interface.  The DOL-OIG IDH Interface allows\
+      \ approved OIG Investigators to easily request and receive a report of IDH results\
+      \ sent to states, which identifies UI claims reasonably believed to be potential\
+      \ fraud.\n•\tDeveloped and reviewed new data visualizations related to duplicate\
+      \ records and IDH priority assignments.\n•\tConducted bi-weekly IDH update calls\
+      \ with states and provided direct technical assistance and peer-to-peer engagements.\
+      \ \n•\tContinued conducting onsite IDH implementation support services. The\
+      \ visits are designed as a short, in- person engagement between UI Integrity\
+      \ Center staff and the state to aid the state with the understanding and utilization\
+      \ of the IDH system and results data.\n•\tOn August 1, 2023, hosted the “Leveraging\
+      \ Federal Funds to Support More Robust IDH Utilization” webinar.\n•\tParticipated\
+      \ in a panel discussion at the National Automated Clearinghouse Association\
+      \ (NACHA) Smarter Faster Payments conference to discuss the IDH BAV capability\
+      \ and performance.\n•\tContinued to work with the Department and their IDH Evaluation\
+      \ Research Team to inform the IDH evaluation, which is an initial study to provide\
+      \ insights on the IDH’s effectiveness for identifying potential fraud.\n•\t\
+      The Department provided funding to support future enhancements to the IDH functionality,\
+      \ including methods to detect potential UI tax fraud schemes and to access and\
+      \ use additional data sources, including government data sets. \n"
+    Mitigation_Strategy: atp7_1
+  - Action_Taken: Completed
+    Action_Type: Statutory Change
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: "In its FY 2024 budget submission, the Department proposed\
+      \ a comprehensive package of provisions designed to provide new and expanded\
+      \ tools and controls for states to help improve efforts to ensure entitled workers\
+      \ are properly paid and to prevent fraud and improper payments in the UI system.\
+      \  The package includes the following components:\n\n•\tRequire states to use\
+      \ system(s) designated by the Secretary for cross-matching claimants to prevent\
+      \ and detect improper payments, including fraud, which would currently include\
+      \ the IDH. \n•\tRequire states to use system(s) designated by the Secretary\
+      \ for electronic transmission of requests for information relating to UC and\
+      \ the provision of such information between the state UI agency and employers\
+      \ or their agents, which would currently include SIDES.\n•\tRequire states to\
+      \ cross-match against the NDNH to better identify individuals continuing to\
+      \ claim UC after returning to work, which is one of the leading root causes\
+      \ of UI improper payments.\n•\tRequire states to cross-match with a system(s)\
+      \ designated by the Secretary that contains information on individuals who are\
+      \ incarcerated, which would currently include the SSA’s PUPS.\n•\tRequire states\
+      \ to disclose information to the DOL-OIG to conduct audits and investigations\
+      \ to discover fraud, waste, and abuse or inefficiencies in the UC programs.\
+      \ \n•\tProvide the Secretary with meaningful enforcement authority and the ability\
+      \ to reward good performance.  This proposal would create a new remedy so that\
+      \ instead of withholding a state’s entire administrative grant for failing to\
+      \ meet the performance measures or achieve minimum technology standards, the\
+      \ Secretary can require a portion of the state’s administrative grant be used\
+      \ to correct failing performance and/or have the state participate in required\
+      \ technical assistance activities offered by USDOL.\n•\tAllow states to retain\
+      \ up to five percent of recovered fraudulent UI overpayments for program integrity\
+      \ use.\n•\tRequire states to use penalty and interest collections solely for\
+      \ UI administration.\n•\tAllow states the authority to issue a formal warning\
+      \ when claimants are unclear on the work search requirements.\n•\tAllow states\
+      \ to use contract support in recovery efforts under the Treasury Offset Program\
+      \ (TOP).\n\nFurthermore, the ETA is considering changes to the UI confidentiality\
+      \ regulations at 20 CFR Part 603, to address the issue of requiring states to\
+      \ provide the DOL-OIG with access to state UI data, including for investigations\
+      \ and audit purposes.\n"
+    Mitigation_Strategy: atp8_1
   Agency_Needs_Satisfied: ETA has not determined a tolerable rate. Setting a tolerable
     rate will need to take the states' operations into account. The National overpayment,
     unknown, and underpayment rates (improper payments) are driven on the processes
@@ -927,6 +928,7 @@ Data_By_Year:
     unemployment compensation (UC) programs and to assist in fraud detection and identity
     verification in the UC programs.
   Year: 2023
+  detail_Reduction_Target: '15'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -1045,6 +1047,19 @@ Data_By_Year:
     Value: '21.635600'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Automation
+    Completion_Date: FY2028+
+    Description_Action_Taken: "ETA will continue to encourage states to use SIDES\
+      \ and emphasize SIDES as a primary method to reduce improper payments and fraud\
+      \ in the states. The SIDES team will host the annual 2025 SIDES Seminar.\n\n\
+      In addition, the SIDES team will explore opportunities for additional updates\
+      \ and enhancements to SIDES. The SIDES team will continue to conduct outreach\
+      \ to employers and employers’ third-party administrators to encourage the adoption\
+      \ and use of SIDES and will continue to attend and exhibit at employer conferences\
+      \ to provide information regarding the use of SIDES to streamline the UI process\
+      \ in the states where they have employees.  \n"
+    Mitigation_Strategy: app1_1
+  - Action_Taken: Planned
     Action_Type: Behavioral/Psych Influence
     Completion_Date: FY2028+
     Description_Action_Taken: ETA will continue to provide BI recommendations to state
@@ -1092,6 +1107,44 @@ Data_By_Year:
       '
     Mitigation_Strategy: app4_1
   - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
+    Completion_Date: FY2028+
+    Description_Action_Taken: "ETA will continue to meet regularly with the DOL-OIG\
+      \ to discuss emerging UI fraud issues, streamline communication with states,\
+      \ and coordinate fraud prevention and recovery efforts. ETA Regional Offices\
+      \ will continue hosting joint, regional ETA/DOL-OIG calls with states to improve\
+      \ communication and collaboration at the Regional Office level between states\
+      \ and the DOL-OIG.  \n\nAdditionally, ETA will continue to participate on banking\
+      \ workgroup calls to discuss ongoing fraud prevention and detection issues and\
+      \ overpayment recovery efforts. \n\nThe Department will also continue to participate\
+      \ on cross-governmental workgroups to learn from other agencies about their\
+      \ fraud risk management processes for different federal programs and contribute\
+      \ to the development of tools and resources that can benefits payment integrity\
+      \ efforts for government programs.\n\nThe UI Integrity Center will continue\
+      \ to develop integrity-related resources, including operational recommendations,\
+      \ promising practice templates, and various resources and guides for states\
+      \ to make UI program improvements and address integrity challenges and add those\
+      \ resources to the UI Collection in the Library.\n"
+    Mitigation_Strategy: app5_1
+  - Action_Taken: Planned
+    Action_Type: Audit
+    Completion_Date: FY2028+
+    Description_Action_Taken: 'ETA will continue to conduct oversight and monitoring
+      of state UI programs in line with the ETOs to ensure states’ conformity and
+      compliance with federal and state UC law, rules, regulations, and policies.
+
+      ETA Regional Offices will review states’ SQSP and IAP submissions and their
+      corresponding quarterly updates, reports submitted for grant funding, and ETA
+      UI Required Reports for completeness and accuracy.
+
+
+      ETA Regional Offices will review states’ SQSP and IAP submissions and their
+      corresponding quarterly updates, reports submitted for grant funding, and ETA
+      UI Required Reports for completeness and accuracy.
+
+      '
+    Mitigation_Strategy: app6_1
+  - Action_Taken: Planned
     Action_Type: Predictive Analytics
     Completion_Date: FY2028+
     Description_Action_Taken: ETA will continue to strongly encourage states to employ
@@ -1102,6 +1155,17 @@ Data_By_Year:
       to the IDH and explore additional data sources for inclusion in the IDH to continuously
       improve fraud prevention and detection and reduce UI improper payments.
     Mitigation_Strategy: app7_1
+  - Action_Taken: Planned
+    Action_Type: Statutory Change
+    Completion_Date: FY2028+
+    Description_Action_Taken: The Department will continue to provide legislative
+      technical assistance on proposed UI Integrity legislation as needed and promote
+      the Department’s UI integrity legislative package as set out in the FY 2025
+      budget proposal. In addition, ETA will continue its progress to make changes
+      to the UI confidentiality regulations at 20 CFR Part 603, that would, in part,
+      address the issue of providing the DOL-OIG with access to state UI data, including
+      for investigations and audit.
+    Mitigation_Strategy: app8_1
   - Action_Taken: Completed
     Action_Type: Automation
     Completion_Date: FY2024 Q4
@@ -1133,6 +1197,103 @@ Data_By_Year:
       \ UI program integrity.  \n"
     Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
+    Action_Type: Behavioral/Psych Influence
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: "The Department-funded UI Integrity Center provides\
+      \ behavioral science information and expertise, evidence-based insights, and\
+      \ support for state UI agencies seeking to achieve better outcomes on challenging\
+      \ program problems. The UI Integrity Center Behavioral Insights (BI) team continued\
+      \ to develop and publish new resources in the BI Toolkit\n\nStates, in partnership\
+      \ with the Department, identified over 600 projects to make meaningful improvements\
+      \ to UI program operations and the customer experience (CX). The Department\
+      \ provided funding through ARPA grants to support state projects and is providing\
+      \ ongoing technical assistance and training to states and investing in and/or\
+      \ developing new tools and resources to support states in improving the administration\
+      \ and operation of UI programs.  These efforts involve helping states address\
+      \ unique challenges by engaging with states and supporting the implementation\
+      \ of states’ projects as they make improvements to UI systems, processes, communications,\
+      \ and CX.  \n"
+    Mitigation_Strategy: atp2_1
+  - Action_Taken: Completed
+    Action_Type: Training
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: "ETA provided UI-related training to states administering\
+      \ the UI programs through webinars, meetings, and targeted technical assistance.\
+      \ The trainings covered numerous UI-related topics including, critical guidance,\
+      \ UI performance measures, ETA UI reporting requirements, and targeted trainings\
+      \ based on specific UI programs areas. \n\nAdditionally, ETA funds and oversees\
+      \ the UI Integrity Center, which provides training to state UI agencies through\
+      \ the UI National Integrity Academy (Academy). The Academy is dedicated to providing\
+      \ rigorous and relevant training programs and materials to states and provides\
+      \ no-cost interrelated certificates that offer UI program integrity training\
+      \ for state staff via online, eLearning lessons/modules and through virtual\
+      \ and in person instructor-led training that leads to credentials. \nETA also\
+      \ encourages states to attend relevant UI-related training conferences and symposiums\
+      \ and announces training resources and events through Training and Employment\
+      \ Notices (TENS). ETA and the UI Integrity Center regularly present and provide\
+      \ UI program-related trainings and workshops during these events.  \n"
+    Mitigation_Strategy: atp3_1
+  - Action_Taken: Completed
+    Action_Type: Change Process
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: "ETA provided guidance and resources to states to alert\
+      \ states regarding new UI program requirements; provided updates to existing\
+      \ UI requirements, processes, or policies; and/or provided information on important\
+      \ program trainings, UI integrity resources, and operational recommendations.\
+      \ \n\nETA also continued to provide significant funding to states to improve\
+      \ UI program integrity and modernize state UI IT systems. In total, ETA awarded\
+      \ $783 million in grants directly to states, under ARPA, with the goals to prevent\
+      \ and detect fraud, promote equitable access, and ensure the timely payment\
+      \ of benefits. Among other things, the funding is being used by states for numerous\
+      \ program integrity strategies and solutions, including updating processes,\
+      \ procedures, and tools to combat fraud, strengthen ID verification, reduce\
+      \ improper payments, recover overpayments, assess and address fraud risks, protect\
+      \ victims of ID fraud, modernize state UI IT systems, and evaluate data to ensure\
+      \ effectiveness and equity in fraud prevention and detection efforts.\n\nAdditionally,\
+      \ ETA worked with states to implement both in-person and digital, government-operated,\
+      \ ID verification services through NIDVO, onboarding a total of 15 states to\
+      \ at least one of the NIDVO services in FY 2024. \n\nLastly, the UI Integrity\
+      \ Center provided states with consultative and technical assistance services\
+      \ and provided operational recommendations and best practices to support states'\
+      \ adoption of strategies and process improvements that reduce the improper payment\
+      \ rate and promote prevention, detection, and recovery of UI improper and fraudulent\
+      \ payments.\n"
+    Mitigation_Strategy: atp4_1
+  - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: "ETA and the Department’s Office of Inspector General\
+      \ (DOL- OIG) continued to meet regularly to discuss emerging UI fraud issues\
+      \ and antifraud measures that target high risk areas. The open dialog between\
+      \ ETA and DOL-OIG provides opportunities to streamline communication with states\
+      \ and coordinate fraud prevention and overpayment recovery efforts. ETA Regional\
+      \ Offices also continued hosting joint, regional ETA/DOL-OIG calls with states\
+      \ to improve communication and collaboration at the Regional Office level between\
+      \ states and the DOL-OIG.  The calls allow the DOL-OIG and states to share fraud\
+      \ trends and analysis, discuss recommendations and effective strategies for\
+      \ responding to emerging fraud schemes, offer updates on prosecution efforts,\
+      \ and facilitate sharing of UI fraud and integrity-related challenges and best\
+      \ practices among states.\n\nThe Department also participated on several cross-governmental\
+      \ workgroups, which offer an opportunity to develop relationships with other\
+      \ federal agencies and learn from other agencies about their fraud risk management\
+      \ processes for different federal programs. \n\nAdditionally, ETA continued\
+      \ to participate on banking workgroup calls to discuss ongoing fraud prevention\
+      \ and detection issues and overpayment recovery efforts. The calls help keep\
+      \ banking organizations, federal government agencies, and law enforcement agencies\
+      \ aware of the emerging fraud schemes targeting different sectors, while also\
+      \ streamlining communications to aid in the recovery and return of fraudulently\
+      \ obtained and overpaid funds and benefits.\n\nIn working with states, the UI\
+      \ Integrity Center develops and disseminates tools and products to highlight\
+      \ best practices and provides operational recommendations to improve UI program\
+      \ performance and reduce improper payments. The UI Integrity Center’s Knowledge\
+      \ Exchange Library (Library) is an online, searchable, knowledge-sharing platform\
+      \ that includes a repository of all UI Integrity Center resources including,\
+      \ model state operational processes, promising state practices, integrity podcasts\
+      \ and webinars, and recommendations to strengthen UI program integrity. The\
+      \ UI Insurance Integrity Center continued to add resource documents to the Library\
+      \ in FY 2024.\n"
+    Mitigation_Strategy: atp5_1
+  - Action_Taken: Completed
     Action_Type: Audit
     Completion_Date: FY2024 Q4
     Description_Action_Taken: "ETA National and Regional Office staff are collectively\
@@ -1163,30 +1324,6 @@ Data_By_Year:
       \ technical assistance and capture lessons learned from individual states that\
       \ can be shared back with the broader UI system.\n"
     Mitigation_Strategy: atp6_1
-  - Action_Taken: Planned
-    Action_Type: Statutory Change
-    Completion_Date: FY2028+
-    Description_Action_Taken: The Department will continue to provide legislative
-      technical assistance on proposed UI Integrity legislation as needed and promote
-      the Department’s UI integrity legislative package as set out in the FY 2025
-      budget proposal. In addition, ETA will continue its progress to make changes
-      to the UI confidentiality regulations at 20 CFR Part 603, that would, in part,
-      address the issue of providing the DOL-OIG with access to state UI data, including
-      for investigations and audit.
-    Mitigation_Strategy: app8_1
-  - Action_Taken: Planned
-    Action_Type: Automation
-    Completion_Date: FY2028+
-    Description_Action_Taken: "ETA will continue to encourage states to use SIDES\
-      \ and emphasize SIDES as a primary method to reduce improper payments and fraud\
-      \ in the states. The SIDES team will host the annual 2025 SIDES Seminar.\n\n\
-      In addition, the SIDES team will explore opportunities for additional updates\
-      \ and enhancements to SIDES. The SIDES team will continue to conduct outreach\
-      \ to employers and employers’ third-party administrators to encourage the adoption\
-      \ and use of SIDES and will continue to attend and exhibit at employer conferences\
-      \ to provide information regarding the use of SIDES to streamline the UI process\
-      \ in the states where they have employees.  \n"
-    Mitigation_Strategy: app1_1
   - Action_Taken: Completed
     Action_Type: Predictive Analytics
     Completion_Date: FY2024 Q4
@@ -1221,25 +1358,6 @@ Data_By_Year:
       \ (see Unemployment Insurance Program Letter (UIPL) No. 01-22) at https://www.dol.gov/agencies/eta/advisories/unemployment-insurance-program-letter-no-01-22.\
       \  \n"
     Mitigation_Strategy: atp7_1
-  - Action_Taken: Completed
-    Action_Type: Training
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: "ETA provided UI-related training to states administering\
-      \ the UI programs through webinars, meetings, and targeted technical assistance.\
-      \ The trainings covered numerous UI-related topics including, critical guidance,\
-      \ UI performance measures, ETA UI reporting requirements, and targeted trainings\
-      \ based on specific UI programs areas. \n\nAdditionally, ETA funds and oversees\
-      \ the UI Integrity Center, which provides training to state UI agencies through\
-      \ the UI National Integrity Academy (Academy). The Academy is dedicated to providing\
-      \ rigorous and relevant training programs and materials to states and provides\
-      \ no-cost interrelated certificates that offer UI program integrity training\
-      \ for state staff via online, eLearning lessons/modules and through virtual\
-      \ and in person instructor-led training that leads to credentials. \nETA also\
-      \ encourages states to attend relevant UI-related training conferences and symposiums\
-      \ and announces training resources and events through Training and Employment\
-      \ Notices (TENS). ETA and the UI Integrity Center regularly present and provide\
-      \ UI program-related trainings and workshops during these events.  \n"
-    Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
     Action_Type: Statutory Change
     Completion_Date: FY2024 Q4
@@ -1284,122 +1402,6 @@ Data_By_Year:
       \ provide the DOL-OIG with access to state UI data, including for investigations\
       \ and audit purposes.\n\n"
     Mitigation_Strategy: atp8_1
-  - Action_Taken: Completed
-    Action_Type: Cross Enterprise Sharing
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: "ETA and the Department’s Office of Inspector General\
-      \ (DOL- OIG) continued to meet regularly to discuss emerging UI fraud issues\
-      \ and antifraud measures that target high risk areas. The open dialog between\
-      \ ETA and DOL-OIG provides opportunities to streamline communication with states\
-      \ and coordinate fraud prevention and overpayment recovery efforts. ETA Regional\
-      \ Offices also continued hosting joint, regional ETA/DOL-OIG calls with states\
-      \ to improve communication and collaboration at the Regional Office level between\
-      \ states and the DOL-OIG.  The calls allow the DOL-OIG and states to share fraud\
-      \ trends and analysis, discuss recommendations and effective strategies for\
-      \ responding to emerging fraud schemes, offer updates on prosecution efforts,\
-      \ and facilitate sharing of UI fraud and integrity-related challenges and best\
-      \ practices among states.\n\nThe Department also participated on several cross-governmental\
-      \ workgroups, which offer an opportunity to develop relationships with other\
-      \ federal agencies and learn from other agencies about their fraud risk management\
-      \ processes for different federal programs. \n\nAdditionally, ETA continued\
-      \ to participate on banking workgroup calls to discuss ongoing fraud prevention\
-      \ and detection issues and overpayment recovery efforts. The calls help keep\
-      \ banking organizations, federal government agencies, and law enforcement agencies\
-      \ aware of the emerging fraud schemes targeting different sectors, while also\
-      \ streamlining communications to aid in the recovery and return of fraudulently\
-      \ obtained and overpaid funds and benefits.\n\nIn working with states, the UI\
-      \ Integrity Center develops and disseminates tools and products to highlight\
-      \ best practices and provides operational recommendations to improve UI program\
-      \ performance and reduce improper payments. The UI Integrity Center’s Knowledge\
-      \ Exchange Library (Library) is an online, searchable, knowledge-sharing platform\
-      \ that includes a repository of all UI Integrity Center resources including,\
-      \ model state operational processes, promising state practices, integrity podcasts\
-      \ and webinars, and recommendations to strengthen UI program integrity. The\
-      \ UI Insurance Integrity Center continued to add resource documents to the Library\
-      \ in FY 2024.\n"
-    Mitigation_Strategy: atp5_1
-  - Action_Taken: Completed
-    Action_Type: Behavioral/Psych Influence
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: "The Department-funded UI Integrity Center provides\
-      \ behavioral science information and expertise, evidence-based insights, and\
-      \ support for state UI agencies seeking to achieve better outcomes on challenging\
-      \ program problems. The UI Integrity Center Behavioral Insights (BI) team continued\
-      \ to develop and publish new resources in the BI Toolkit\n\nStates, in partnership\
-      \ with the Department, identified over 600 projects to make meaningful improvements\
-      \ to UI program operations and the customer experience (CX). The Department\
-      \ provided funding through ARPA grants to support state projects and is providing\
-      \ ongoing technical assistance and training to states and investing in and/or\
-      \ developing new tools and resources to support states in improving the administration\
-      \ and operation of UI programs.  These efforts involve helping states address\
-      \ unique challenges by engaging with states and supporting the implementation\
-      \ of states’ projects as they make improvements to UI systems, processes, communications,\
-      \ and CX.  \n"
-    Mitigation_Strategy: atp2_1
-  - Action_Taken: Completed
-    Action_Type: Change Process
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: "ETA provided guidance and resources to states to alert\
-      \ states regarding new UI program requirements; provided updates to existing\
-      \ UI requirements, processes, or policies; and/or provided information on important\
-      \ program trainings, UI integrity resources, and operational recommendations.\
-      \ \n\nETA also continued to provide significant funding to states to improve\
-      \ UI program integrity and modernize state UI IT systems. In total, ETA awarded\
-      \ $783 million in grants directly to states, under ARPA, with the goals to prevent\
-      \ and detect fraud, promote equitable access, and ensure the timely payment\
-      \ of benefits. Among other things, the funding is being used by states for numerous\
-      \ program integrity strategies and solutions, including updating processes,\
-      \ procedures, and tools to combat fraud, strengthen ID verification, reduce\
-      \ improper payments, recover overpayments, assess and address fraud risks, protect\
-      \ victims of ID fraud, modernize state UI IT systems, and evaluate data to ensure\
-      \ effectiveness and equity in fraud prevention and detection efforts.\n\nAdditionally,\
-      \ ETA worked with states to implement both in-person and digital, government-operated,\
-      \ ID verification services through NIDVO, onboarding a total of 15 states to\
-      \ at least one of the NIDVO services in FY 2024. \n\nLastly, the UI Integrity\
-      \ Center provided states with consultative and technical assistance services\
-      \ and provided operational recommendations and best practices to support states'\
-      \ adoption of strategies and process improvements that reduce the improper payment\
-      \ rate and promote prevention, detection, and recovery of UI improper and fraudulent\
-      \ payments.\n"
-    Mitigation_Strategy: atp4_1
-  - Action_Taken: Planned
-    Action_Type: Cross Enterprise Sharing
-    Completion_Date: FY2028+
-    Description_Action_Taken: "ETA will continue to meet regularly with the DOL-OIG\
-      \ to discuss emerging UI fraud issues, streamline communication with states,\
-      \ and coordinate fraud prevention and recovery efforts. ETA Regional Offices\
-      \ will continue hosting joint, regional ETA/DOL-OIG calls with states to improve\
-      \ communication and collaboration at the Regional Office level between states\
-      \ and the DOL-OIG.  \n\nAdditionally, ETA will continue to participate on banking\
-      \ workgroup calls to discuss ongoing fraud prevention and detection issues and\
-      \ overpayment recovery efforts. \n\nThe Department will also continue to participate\
-      \ on cross-governmental workgroups to learn from other agencies about their\
-      \ fraud risk management processes for different federal programs and contribute\
-      \ to the development of tools and resources that can benefits payment integrity\
-      \ efforts for government programs.\n\nThe UI Integrity Center will continue\
-      \ to develop integrity-related resources, including operational recommendations,\
-      \ promising practice templates, and various resources and guides for states\
-      \ to make UI program improvements and address integrity challenges and add those\
-      \ resources to the UI Collection in the Library.\n"
-    Mitigation_Strategy: app5_1
-  - Action_Taken: Planned
-    Action_Type: Audit
-    Completion_Date: FY2028+
-    Description_Action_Taken: 'ETA will continue to conduct oversight and monitoring
-      of state UI programs in line with the ETOs to ensure states’ conformity and
-      compliance with federal and state UC law, rules, regulations, and policies.
-
-      ETA Regional Offices will review states’ SQSP and IAP submissions and their
-      corresponding quarterly updates, reports submitted for grant funding, and ETA
-      UI Required Reports for completeness and accuracy.
-
-
-      ETA Regional Offices will review states’ SQSP and IAP submissions and their
-      corresponding quarterly updates, reports submitted for grant funding, and ETA
-      UI Required Reports for completeness and accuracy.
-
-      '
-    Mitigation_Strategy: app6_1
   Agency_Needs_Satisfied: While the Department has determined a fraud risk tolerance
     level for the UI program, OUI has not yet determined an IP tolerable rate for
     this program. Setting a tolerable rate will need to take the states' operations
@@ -1568,9 +1570,9 @@ Data_By_Year:
     \ monitoring and technical assistance to states with a high improper payment rate\
     \ or chronic poor performance.\n"
   IP_Current_Year_Plus_1_Amount: 6349.37
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.159453121453
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.1594531215
   IP_Unknown_Target_Rate: 0.1425
-  Improper_Payments_Rate: 14.414001803000001
+  Improper_Payments_Rate: 14.414001800000001
   Insufficient_Documentation_to_Determine: 538.97
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -1651,6 +1653,8 @@ Data_By_Year:
     unemployment compensation (UC) programs and to assist in fraud detection and identity
     (ID) verification in the UC programs.
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '14.25'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -1792,6 +1796,432 @@ Data_By_Year:
     Theme_Description: Beneficiary or recipient is receiving benefits from an additional
       source
     Value: '22.075200'
+- Agency_Needs_Satisfied: While the Department has determined a low fraud risk tolerance
+    level for the UI program, improper payments and unknown payments are driven by
+    the processes and performance of 53 different state UI agencies. Factors that
+    prevent states from reducing improper payments include outdated IT systems, loss
+    of experienced staff, complex and/or stringent, state-specific UI laws and regulations
+    regarding work search requirements, and the reduction of administrative funding,
+    which significantly impacts resources and staffing level. In FY 2025, ETA’s Office
+    of Unemployment and Regional Offices also experienced a signification reduction
+    in staffing levels. This creates challenges with being able to rapidly implement
+    improper payment reduction strategies, effectively monitor states’ UI operations,
+    and provide timely guidance and resources to state UI agencies to improve program
+    integrity and UI performance outcomes.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: To ensure corrective actions
+    are effectively implemented and prioritized within the agency, are focused on
+    the top root causes of improper payments, and are adequate at reducing improper
+    payments, the Department follows the leading practices outlined in the Government
+    Accountability Office’s (GAO)Fraud Risks Framework and have thoroughly embedded
+    those practices in ETA’s daily UI integrity work. Fraud risk mitigation is a constant
+    and ever-evolving process that requires assessing risks, designing and implementing
+    strategies and control activities to mitigate assessed risks, and continuous evaluation
+    of outcomes to adapt strategies/activities and improve risk responses. ETA maintains
+    a UI Fraud Risk Profile, which identifies inherent fraud risks facing the UI program,
+    assesses the likelihood and impact of inherent fraud risks, and prioritizes residual
+    fraud risks. ETA also oversees and communicates its UI antifraud and improper
+    payment reduction strategies through a dynamic UI Integrity Strategic Plan, which
+    continuously evolves to include risk mitigation controls aimed at combatting fraud
+    and reducing the top root causes of improper payments. ETA updates its UI Integrity
+    Strategic Plan quarterly, tracking actions associated with the implementation
+    of each strategy. After a strategy is fully implemented and has been in place
+    for a reasonable amount of time to collect data and conduct an evaluation, ETA
+    assesses the effectiveness of the strategy. If a strategy is effective at decreasing
+    the UI fraud or improper payment risk it was developed to address, the Department
+    reassesses the risk ratings in its UI Fraud Risk Profile, which, in turn may lead
+    to re-prioritization of strategies to address higher residual risks. If ETA determines
+    a strategy was not effective, ETA develops additional risk mitigation controls.
+    This process is repeated until the risk is reduced to within an acceptable tolerance
+    level. The UI Integrity Strategic plan is not made publicly available, as it contains
+    confidential or sensitive information regarding ETA’s UI fraud risk mitigation
+    and improper payment reduction activities. Since the UI program is funded and
+    administered through a Federal-state partnership, both the Department and state
+    UI agencies have a vested interest in ensuring UI program integrity and are jointly
+    responsible for managing the process of assessing and mitigating fraud risks to
+    the UI programs, reducing improper payments, and prioritizing payment integrity
+    activities. ETA issues guidance and makes announcements to states, alerting states
+    to new UI program requirements, important program trainings, UI integrity resources,
+    and operational recommendations. ETA also provides resources and funding to states
+    to strengthen UI program integrity efforts. Further, ETA conducts monitoring of
+    states’ performance and operations to hold states accountable for proper UI program
+    administration and for meeting the established UI performance metrics. However,
+    only states can directly prevent, detect, and recover improper payments. ETA requires
+    states to report on their actions to evaluate UI fraud risks and implement and
+    maintain sufficient controls to effectively prevent fraud and reduce improper
+    payments, including the states progress in developing their own state-specific
+    antifraud strategies. States are also required to report on their use of required
+    and recommended UI program integrity functions, as well as their actions taken
+    to recover overpayments. ETA’s actions taken to reduce improper payments and address
+    fraud in FY 2025 proved adequate, which is demonstrated by the continued decrease
+    in the UI improper payment rate. While the estimated improper payment rate for
+    the UI program remains above10 percent, the rate reported for 2025 continued decreasing
+    from the rates reported in 2024, 2023, 2022, and 2021. ETA is committed to continuing
+    to assess program risks and employ strategies to further reduce improper payments
+    and fraud in the UC programs and bring the estimated UI improper payment rate
+    into compliance with PIIA.
+  Corrective_Actions_Appropriateness: 'Strengthening UI program integrity and reducing
+    improper payments are top priorities for ETA. Effective antifraud and improper
+    payment reduction
+
+    strategies employ a multi-layered approach, which requires leveraging an array
+    of controls, tools, strategies, and resources to detect and fight fraud and
+
+    reduce improper payments early, and wherever possible, before a payment is made.
+    ETA’s actions to improve UI program integrity include: • Issuing UI
+
+    program guidance to states; • Strengthening states’ access to enhanced identity
+    verification services; • Providing states with improved access to data
+
+    sources and services to prevent and detect fraud and reduce improper payments;
+    • Holding states accountable for reducing improper payments and
+
+    correcting UI program performance deficiencies through monitoring and oversight;
+    • Providing states with access to relevant UI program training and
+
+    resources that support improvements to UI program integrity; and • Continued partnership
+    with the Department’s Office of Inspector General (DOL-OIG),
+
+    Office of Investigations to collaborate on UI fraud matters and streamline the
+    recovery of overpayments. These actions are multi-year strategies aimed at
+
+    reducing improper payments in the UI program. Throughout FY 2025, ETA celebrated
+    several significant UI program integrity achievements. For
+
+    example, ETA built upon its ongoing partnership with the U.S. Department of Treasury’s
+    Treasury Bureau of the Fiscal Service (Fiscal Service) and the UI
+
+    Integrity Center to provide state UI agencies with expanded access to Do Not Pay
+    (DNP) data sources and services through the UI Integrity Data Hub
+
+    (IDH). ETA initially announced its partnership with Fiscal Service in May 2024,
+    and provided states with access to the first DNP data sources in July 2024
+
+    (see Training and Employment Notice (TEN) No. 28-23). Throughout FY 2025, ETA
+    continued investing in this important partnership and announced the
+
+    addition of two more DNP payment integrity data sources for states to access (see
+    TEN No. 26-24). ETA held a webinar for states in June 2025 to
+
+    provide information to states about the two new data sources and encouraged states
+    to onboard to the updated IDH Participation Agreement (PA)
+
+    amendments, which are required to access the new data sources. By the end of FY
+    2025, 49 states had onboarded to both new IDH PA amendments.
+
+    This partnership will continue in FY 2026, providing state UI agencies with more
+    new and enhanced data sources and services. Additionally, in FY 2025,
+
+    through ongoing collaboration and partnership with the DOL – OIG, Office of Investigations,
+    ETA facilitated the return of over $520 million in suspected
+
+    fraudulent UI payments to a state. Additionally, in July 2025, ETA issued guidance
+    reminding states of procedural requirements when funds are returned
+
+    by a bank or financial institution and providing guidance to states regarding
+    the methodology states must use to allocate returned funds across UC
+
+    programs when no identifying claim information is available. The guidance also
+    provided additional information and clarification regarding the reporting of
+
+    overpayment activities on UI Required Reports (see Unemployment Insurance Program
+    Letter (UIPL) No. 13-25). Ongoing coordination and collaboration
+
+    between ETA and DOL-OIG on UI fraud matters and overpayment recovery will continue
+    in FY 2026. ETA’s UI Integrity Strategic Plan contains additional
+
+    UI antifraud and improper payment reduction strategies, and actions associated
+    with the implementation of each strategy will be tracked throughout FY
+
+    2026. The UI Integrity Strategic Plan is not made publicly available, as it contains
+    confidential or sensitive information regarding ETA’s UI fraud risk
+
+    mitigation and improper payment reduction activities.'
+  Corrective_Actions_Proportion: "All of the strategies outlined in ETA’s UI Integrity\
+    \ Strategic Plan aim to mitigate fraud and improper payments in UC programs. Further,\
+    \ each strategy is aligned with the associated risk(s) identified in the UI fraud\
+    \ Risk Profile to ensure strategies are targeting the highest risks of improper\
+    \ payments in the UI program. Fraud takes on many forms, but the two primary types\
+    \ of fraud impacting UC programs are defined below: \n• Eligibility fraud, which\
+    \ occurs when benefits or services are acquired as a result of false information\
+    \ provided with the intent to receive benefits for which an individual would not\
+    \ otherwise be eligible. State law determines the criteria for establishing a\
+    \ fraud determination. Examples of UI eligibility fraud include claimants intentionally\
+    \ not reporting earnings from employment after returning to work, working full\
+    \ time while still collecting unemployment, or misrepresenting their reason for\
+    \ separation from employment. \n• ID fraud, which occurs when one person or a\
+    \ group of persons uses the identifying information of another person to illegally\
+    \ receive benefits. ID fraud also occurs when an individual’s UI account is taken\
+    \ over by a person or group and the benefit payments are re-directed to another\
+    \ account by changing data such as the bank account and/or address after the claim\
+    \ has been established (i.e., payment redirect/ATO fraud). ID fraud includes fictitious\
+    \ employer schemes, which involve the creation of companies that exist only on\
+    \ paper with no actual employees, business operations, or business expenses for\
+    \ the sole purpose of reporting fake wages and subsequently filing fraudulent\
+    \ unemployment claims using the fake wages. In addition to using stolen IDs or\
+    \ misusing an individual’s ID, synthetic ID fraud is another form of ID fraud\
+    \ that occurs when real and/or fake information is combined to create a new false\
+    \ ID (e.g., a real stolen Social Security Number (SSN) is combined with a fake\
+    \ name, address, and date of birth). While fraud is a contributing factor to improper\
+    \ payments, not all improper payments are the result of fraud. Most UI improper\
+    \ payments occur from mistakes made by UI claimants and/or the lack of timely\
+    \ or adequate responses from employers. For example, a claimant’s misunderstanding\
+    \ of a state’s UI requirement(s) and/or failure to keep adequate documentation\
+    \ are leading factors contributing to high improper payments in the UI program.\
+    \ Employers also play an important role in reducing improper payments by providing\
+    \ timely and accurate responses to the UI agency when the employer receives requests\
+    \ for information regarding an employee’s wages and/or earnings, or the reason\
+    \ for an individual’s separation from employment. As such, these eligibility-related\
+    \ non-fraud issues have and continue to be the primary drivers of UI improper\
+    \ payments with the top three leading root causes being Work Search, BYE, and\
+    \ Separation improper payments. ETA’s integrity strategies also target these leading\
+    \ root causes of improper payments. ETA is investing in new and/or enhancing existing\
+    \ tools, datasets, and resources and making these available to aid states in more\
+    \ quickly identifying potential fraud and improper payments. For example, investments\
+    \ in the IDH include adding more DNP data sources and improving employer-related\
+    \ data to increase states’ ability to prevent and detect improper payments, including\
+    \ ID fraud, eligibility fraud, and employer fraud. Enhancements to the IDH offer\
+    \ states increased functionality to more quickly identify suspicious activity\
+    \ on UI claims and help states more effectively prioritize claims for investigation.\
+    \ To address Work Search and BYE improper payments, it is critical state UI agencies\
+    \ ensure UI claimants understand their responsibilities to conduct an active search\
+    \ for work and accurately report earnings from employment. Using plain language\
+    \ in UI communications, which includes providing UI claimants with clear instructions\
+    \ regarding reporting and documentation requirements, has proven successful in\
+    \ helping states decrease Work Search and BYE improper payments. State UI agencies\
+    \ are also using behavioral insights (BI) practices, which apply understandings\
+    \ about human behavior to strategies that can improve decision-making and UI program\
+    \ outcomes, to help reduce improper payments across these root causes. The Department\
+    \ and the UI Integrity Center provide resources to support states in improving\
+    \ the use of plain language when providing complex instructions and incorporating\
+    \ BI techniques to help claimants make better decisions and comply with program\
+    \ requirements. ETA also continues investing in, and improving, the State Information\
+    \ Data Exchange System (SIDES) to help state UI agencies prevent Separation improper\
+    \ payments. SIDES allows employers and their third-party administrators to provide\
+    \ state UI agencies with more timely and accurate information regarding an individual’s\
+    \ reason for separation from work, which can prevent improper payments related\
+    \ to incorrectly reported separations. These strategies, along with additional\
+    \ antifraud and improper payment reduction strategies outlined in ETA UI Integrity\
+    \ Strategic Plan, provide a comprehensive set of actions targeting the top UI\
+    \ improper payment risks. ETA allocates appropriate resources and prioritizes\
+    \ strategies proportional to the severity of the associated amount and rate of\
+    \ the root cause."
+  End_Date: 06/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: 'ETA continues to hold managers and states accountable
+    for reduction of improper payments and recovery of overpayments. 53 states (including
+    Puerto Rico, US Virgin Islands, and Washington D.C.) administer the UI program
+    and set priorities within available resources. ETA uses performance measures to
+    evaluate states’ UI operations and has established a FY 2026 goal to reduce the
+    UI improper payment rate. States are also required to report illegal/fraudulent
+    activity to the DOL-OIG (see UIPL No. 04-17). ETA and the UI Integrity Center
+    support states with the prevention, detection, and recovery improper payments
+    and with combatty fraud. ETA requires states to conduct overpayment detection
+    and recovery activities, and BAM units conduct investigations to assess payment
+    accuracy. ETA uses BAM improper payment data to assess UI program risks and develop
+    mitigation strategies. Additionally, the Department completely aligned its UI
+    fraud risk management activities with the leading practices in GAO’s Fraud Risk
+    Framework. The UI program has internal controls in place and continues to enhance
+    these resources to deter improper payments and fraud. ETA’s UI Integrity Strategic
+    Plan addresses the top root causes of improper payments and outlines integrity
+    actions and antifraud strategies to support states in reducing improper payments
+    and mitigating fraud risks. Furthermore, development, delivery, and/or implementation
+    of these initiatives by managers and states is outlined in ETA’s annual Agency
+    Management Plan. Annual performance standards for managers reference strategies
+    and include the completion of the activities/milestones below: • SQSP process
+    requires states to submit Integrity Action Plants to identify state-specific root
+    causes of improper payments and strategies to address each root cause. Additionally,
+    states with improper payment rates at or above 10% are required to develop corrective
+    action plans (CAPs) aimed at reducing their improper payment rate. • Provide annual
+    funding and oversight for the UI Integrity Center to provide tools, training,
+    and technical assistance to implement innovative strategies to prevent, detect,
+    and reduce improper payments and fraud. • Ensure states conduct the BAM survey
+    to measure improper payments and root causes. ETA reviews BAM state data for validity,
+    analyzes trends, and makes data available at: https://www.dol.gov/agencies/eta/unemployment-insurance-payment-accuracy/data.
+    • Monitor progress on the performance measures that states must meet. • States
+    failing to meet performance criteria are required to submit annual CAPs that include
+    strategies to improve state performance. ETA’s oversight process includes quarterly
+    reviews of CAP milestones and updates; peer reviews for BAM, Appeals, and Benefits
+    Timeliness and Quality; and enhanced quarterly monitoring and technical assistance
+    to states with a high improper payment rate or chronic poor performance.'
+  IP_Unknown_Target_Rate: 0.0999
+  Improper_Payments_Rate: 14.414001803000001
+  Insufficient_Documentation_to_Determine: 538.97
+  Margin_of_Error: '0.88'
+  Non_Monetary_Loss_Amount: '157.68'
+  Overpayment_Combined_Mitigations_Planned: Audit, Automation, Behavioral/Psych Influence,
+    Change Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change,
+    Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence,
+    Change Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change,
+    Training
+  Payment_Accuracy_Rate: 84.05468594844787
+  Program_Additional_Information: 'Protecting American workers by reducing fraud,
+    waste, and abuse in the UI system is a top priority for ETA. To achieve this objective,
+    ETA’s vision for improving the UI system is centered around three elements: Repair,
+    Reform, and Overhaul. • Repair represents a reminder to states about the existing
+    obligations within the UI program and holding states accountable for UI program
+    performance. • Reform focuses on meaningful policy and operational changes that
+    will promote integrity and timeliness within the UI system. This includes aligning
+    UI modernization with America’s Talent Strategy (see America’s Talent Strategy:
+    Building the Workforce for the Golden Age at https://www.dol.gov/sites/dolgov/files/OPA/newsreleases/2025/08/Americas-Talent-Strategy-Building-the-Workforce-for-the-Golden-Age.pdf)
+    to maximize efficiency and effectiveness in propelling American workers into high-wage
+    careers, upholding the dignity of hard work, and delivering the talent businesses
+    need to power the nation’s economic resurgence. • Overhaul emphasizes transformative
+    and innovative changes that will fundamentally enhance the UI system and bring
+    it into the modern economy. Strengthening UI program integrity and reducing IP
+    requires dedicated focus, strong processes, and a system-wide commitment. ETA’s
+    FY 2026 efforts to reduce improper payments build on many of the strategies started
+    in FY 2025, and include providing enhanced ID verification services for states
+    and continuing to facilitate access to critical payment integrity data sources
+    states need for cross-matching and data analytics. ETA will also increase its
+    oversight of states with improper payment rates exceeding 10 percent and hold
+    states accountable for reducing their rates to an acceptable level.'
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: The FY 2026 President’s Budget request proposes a comprehensive
+    package of provisions designed to provide new and expanded tools and controls
+    for states to help improve efforts to ensure entitled workers are properly paid
+    and to prevent fraud and improper payments in the UI system. This includes a number
+    of provisions to improve the administration and integrity of the UI program. The
+    budget submission includes requested increases in UI administrative funding, UI
+    National Activities funding for program integrity and anti-fraud activities to
+    support ID verification services in the states, and funding to support technology
+    modernization that will improve states’ abilities to detect and prevent fraud
+    and other improper payments in the program.
+  Start_Date: 07/2024
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: Audit, Automation, Behavioral/Psych Influence,
+    Change Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change,
+    Training
+  Underpayment_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence, Change
+    Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change, Training
+  Unknown_Mitigations_Planned: Training
+  Unknown_Mitigations_Taken: Training
+  Unknown_Payments_Rate: 1.5313122485375723
+  Year: 2025
+  detail_IP_Causes: 'The Unemployment Insurance (UI) program is a unique federal-state
+    partnership based on Federal law but administered through individual state laws
+    by53 different state UI agencies. States vary in their information technology
+    systems, level of automation, staffing capacity, and methods and strategies for
+    prevention, detection, and recovery of improper payments. Additionally, no two
+    states'' written laws, regulations, and policies specifying UI eligibility conditions
+    are identical, and differences in these conditions influence the potential for
+    error and improper payments. Two states could have identical laws but may interpret
+    them quite differently. States with stringent or complex provisions tend to have
+    higher improper payment rates than those with simpler, more straightforward provisions.
+    Furthermore, Section 303(a)(1) of the Social Security Act requires UI payments
+    to be made “when due” and, once a person is determined eligible, this law prohibits
+    states from suspending payments until an official determination has been made
+    that payments are no longer due. This statutory factor requires states to make
+    payments that may later be determined improper as a result of obtaining new information.
+    For good policy reasons, states must continue paying benefits until due process
+    occurs (notice and an opportunity for a hearing is provided before benefit payments
+    are stopped). This UI program structural feature is a primary driver for top root
+    causes of UI improper payments. Moreover, unlike many otherbenefit programs, eligibility
+    for UI benefits is determined on a weekly basis. There are more opportunities
+    to make errors and for improper payments to be created. State agencies operate
+    the UI program and administer benefit payments. Thus, overpayments originate from
+    state UI agency program administration issues and are not within the Federal agency’s
+    control. For many improper payments in the UI program, a state UI agency may identify
+    an issue but fail to properly follow procedures, complete required forms, provide
+    correct information, or resolve the issue(s). Alternatively, the issue could have
+    been the result of a third-party error/incorrect information. Improper payments
+    may also occur in instances where the state agency was resolving the error or
+    had detected the error as a result of a crossmatch (e.g., National Directory of
+    New Hire or wage records) and an issue was detected after the payment was made.
+    The Department bases the UI improper payment estimates on results of the Benefit
+    Accuracy Measurement (BAM) survey, which examines a nationwide statistically valid
+    sample of payments made in the three largest permanently authorized Unemployment
+    Compensation (UC)programs: State UI program, Unemployment Compensation for Federal
+    Employees, and Unemployment Compensation for Ex-service members. In addition to
+    estimating the UI improper payment rate, ETA produces data from the BAM survey
+    identifying the top root causes of improper payments. The top root causes of UI
+    improper payments for 2025 (July 1, 2024, through June 30, 2025) were: Work Search,
+    Benefit Year Earnings (BYE), and Separation improper payments. Work Search improper
+    payments occur when UI claimants fail to properly document their work search efforts
+    or fail to comply with state work search requirements. All states require most
+    UI claimants to make an active search for work as a condition of UI eligibility;
+    however, work search requirements vary greatly in each state. States with stringent
+    work search requirements typically record higher overpayment rates than states
+    with broader work search requirements. Most Work Search overpayments do not typically
+    occur due to fraudulent activity. Many Work Search improper payments result from
+    mistakes made by claimants, either because the claimant misunderstood the state’s
+    work search requirements or because the claimant did not keep good records documenting
+    their work search efforts. BYE improper payments occur when UI claimants fail
+    to report earnings, or they incorrectly report earnings from employment. BYE improper
+    payments can be caused by a UI claimant intentionally or unintentionally failing
+    to report earnings or underreporting their earnings to receive benefits. BYE improper
+    payments may also result from a UI claimant’s misunderstanding regarding how to
+    report their earnings. For example, a UI claimant may report only their net wages
+    instead of their gross wages, as required. Another common cause of BYE improper
+    payments occurs when a UI claimant waits to report their earnings from employment
+    until they are paid by the employer instead of reporting when earned. BYE issues
+    could result in a fraud or a nonfraud determination, depending on state law. Separation
+    improper payments occur when UI claimants receive benefits and are later determined
+    to be ineligible due to a disqualifying separation from previous employment. The
+    requirement to pay UI benefits “when due” contributes to the creation of Separation
+    improper payments because states must request information from employers on the
+    reason for the claimant’s separation from employment. If states are unable to
+    get timely and accurate information from employers, states are legally required
+    to make a determination based on the best available information and make payments
+    if the UI claimant is otherwise found eligible for benefits. Failure of employers
+    or their third-party administrators to provide timely and adequate information
+    on the reason for an individual’s separation from employment presents a major
+    challenge to addressing Separation improper payments. Unknown improper payments
+    are caused by insufficient and/or untrained state BAM staff which is the result
+    of retirements, staff turnover, and lack of experienced staff to complete investigations.'
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '3933.39'
+  detail_Overpayments_Due_To_Inability: '982.17'
+  detail_Reduction_Target: '9.99'
+  eligibility_aggregated:
+  - Theme: Citizenship
+    Theme_Description: "Recognized as a United States citizen through birth or naturalization,\
+      \ or as a \r\nlawfully present non-citizen in the United States"
+  - Theme: Dependency
+    Theme_Description: Describes who the recipient/beneficiary relies on as a primary
+      source of support
+  - Theme: Employment
+    Theme_Description: The employment status of the recipient/beneficiary
+  - Theme: Identity
+    Theme_Description: Able to establish that someone is uniquely who they claim to
+      be
+  - Theme: Receiving Benefits from Other Sources
+    Theme_Description: Beneficiary or recipient is receiving benefits from an additional
+      source
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 3933.39
+    Inability_to_Access_Data: 982.17
+    Overpayments_Within_Control_Amount: '982.17'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '3933.39'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 26.75
+    Inability_to_Access_Data: 130.93
+    Underpayments_Amount: '157.68'
 Description: "The UC programs provide temporary, partial wage replacement to eligible\
   \ workers. Programs included in the monetary loss calculation include the traditional\
   \ state UI, UCFE, UCX, EB, EUC08 benefits, and PEUC and FPUC CARES Act benefits.\
@@ -1806,12 +2236,12 @@ Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
-High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[17820.21, 4019.44, 4915.56]'
-Payment_Accuracy_Amounts: '[66310.65000000001, 23513.6, 29584.399999999998]'
-Payment_Accuracy_Rate: 0
+High_Priority_Program: 1
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 35196.61
+Overpayment_Amounts: '[17820.21, 4019.44, 4915.56, 4915.56]'
+Payment_Accuracy_Amounts: '[66310.65000000001, 23513.6, 29584.399999999998, 29584.399999999998]'
+Payment_Accuracy_Rate: 84.05468594844787
 Phase_2_Program: 0
 Program_Name: Employment & Training Administration - Federal State Unemployment Insurance
 Scorecard_Links:
@@ -1833,10 +2263,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q2 2025/Employment & Training Administration - Federal State
     Unemployment Insurance.pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[0, 0, 0]'
-Underpayment_Amounts: '[522.49, 154.54, 157.68]'
-Unknown_Amounts: '[582.25, 461.7, 538.97]'
-detail_Reduction_Target: null
+Technically_Improper_Amounts: '[0, 0, 0, 0]'
+Underpayment_Amounts: '[522.49, 154.54, 157.68, 157.68]'
+Unknown_Amounts: '[582.25, 461.7, 538.97, 538.97]'
 fpi_link: https://fpi.omb.gov/program/17.225
 layout: program-specific
 permalink: program/dol-employment-training-administration-federal-state-unemplo-f85701dc

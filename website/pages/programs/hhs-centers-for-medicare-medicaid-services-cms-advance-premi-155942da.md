@@ -75,6 +75,7 @@ Data_By_Year:
   Tolerable_Rate_Not_Determined_Reason: Baseline has not been established.
   Unknown_Payments_Rate: 0
   Year: 2022
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 236.07
@@ -111,19 +112,24 @@ Data_By_Year:
     Underpayments_Amount: '19.69'
 - Actions_Taken:
   - Action_Taken: Planned
-    Action_Type: Predictive Analytics
+    Action_Type: Automation
     Completion_Date: FY2027+
-    Description_Action_Taken: The Marketplace Program Integrity Contractor implemented
-      a risk model that incorporates many risk factors that may indicate potential
-      fraud or misconduct by agents or brokers.  The result is a risk profile and
-      weighted risk score for each agent or broker.  Those that pose the highest risk,
-      based on weighted risk score, are prioritized for investigations.  The risk
-      profile is also leveraged as part of a prioritized investigation and significant
-      discoveries may be used to inform interview questions or as supporting evidence
-      in overall case findings. In FY23, there are 23 indicators in the A/B risk model.
-      HHS plans to continue these actions in FY 2024, but will not finalize this decision
-      until the APTC Error Rate data analysis is complete.
-    Mitigation_Strategy: app7_1
+    Description_Action_Taken: HHS’s corrective actions include identifying and remediating
+      system defects within the Exchanges that may impact APTC payments.  These defects
+      become known through various mechanisms, including internal quality control
+      activities and external reviews of APTC eligibility determinations made by the
+      Exchanges. HHS continually evaluates the policies and procedures that underlie
+      the automated processes associated with APTC to identify and address weaknesses
+      that may surface as they become operationalized.  HHS also proactively improves
+      its automated processes, e.g., the Verify Lawful Presence service with the Department
+      of Homeland Security was upgraded to ensure more accurate and timely lawful
+      presence verifications. HHS implemented process automation to reduce human error
+      introduced during adjudication and processing of supporting documentation.  HHS
+      will continue to encourage and require that additional tasks be automated to
+      further reduce manual errors and improve the accuracy and quality of required
+      adjudication tasks. HHS plans to continue these actions in FY 2024, but will
+      not finalize this decision until the APTC Error Rate data analysis is complete.
+    Mitigation_Strategy: app1_1
   - Action_Taken: Planned
     Action_Type: Training
     Completion_Date: FY2027+
@@ -146,6 +152,20 @@ Data_By_Year:
       plans to continue these actions in FY 2024, but will not finalize this decision
       until the APTC Error Rate data analysis is complete.
     Mitigation_Strategy: app6_1
+  - Action_Taken: Planned
+    Action_Type: Predictive Analytics
+    Completion_Date: FY2027+
+    Description_Action_Taken: The Marketplace Program Integrity Contractor implemented
+      a risk model that incorporates many risk factors that may indicate potential
+      fraud or misconduct by agents or brokers.  The result is a risk profile and
+      weighted risk score for each agent or broker.  Those that pose the highest risk,
+      based on weighted risk score, are prioritized for investigations.  The risk
+      profile is also leveraged as part of a prioritized investigation and significant
+      discoveries may be used to inform interview questions or as supporting evidence
+      in overall case findings. In FY23, there are 23 indicators in the A/B risk model.
+      HHS plans to continue these actions in FY 2024, but will not finalize this decision
+      until the APTC Error Rate data analysis is complete.
+    Mitigation_Strategy: app7_1
   - Action_Taken: Not Completed
     Action_Type: Automation
     Completion_Date: The corrective action was not fully completed this reporting
@@ -166,36 +186,6 @@ Data_By_Year:
       adjudication tasks.
     Mitigation_Strategy: atp1_1
   - Action_Taken: Not Completed
-    Action_Type: Audit
-    Completion_Date: The corrective action was not fully completed this reporting
-      period
-    Description_Action_Taken: Both the automated and the manual processes of the Exchanges
-      are subject to rigorous annual testing of key internal controls as required
-      by Appendix C of OMB Circular A-123.  External audits by OIG and GAO are another
-      common mechanism that help to identify potential payment integrity risks within
-      the Exchanges, specifically by evaluating APTC eligibility determinations made
-      by the Exchanges within the context of federal statute and regulations.
-    Mitigation_Strategy: atp6_1
-  - Action_Taken: Planned
-    Action_Type: Automation
-    Completion_Date: FY2027+
-    Description_Action_Taken: HHS’s corrective actions include identifying and remediating
-      system defects within the Exchanges that may impact APTC payments.  These defects
-      become known through various mechanisms, including internal quality control
-      activities and external reviews of APTC eligibility determinations made by the
-      Exchanges. HHS continually evaluates the policies and procedures that underlie
-      the automated processes associated with APTC to identify and address weaknesses
-      that may surface as they become operationalized.  HHS also proactively improves
-      its automated processes, e.g., the Verify Lawful Presence service with the Department
-      of Homeland Security was upgraded to ensure more accurate and timely lawful
-      presence verifications. HHS implemented process automation to reduce human error
-      introduced during adjudication and processing of supporting documentation.  HHS
-      will continue to encourage and require that additional tasks be automated to
-      further reduce manual errors and improve the accuracy and quality of required
-      adjudication tasks. HHS plans to continue these actions in FY 2024, but will
-      not finalize this decision until the APTC Error Rate data analysis is complete.
-    Mitigation_Strategy: app1_1
-  - Action_Taken: Not Completed
     Action_Type: Training
     Completion_Date: The corrective action was not fully completed this reporting
       period
@@ -206,6 +196,17 @@ Data_By_Year:
       training sessions related to Data Matching Issues verifications, casework, and
       outreach.
     Mitigation_Strategy: atp3_1
+  - Action_Taken: Not Completed
+    Action_Type: Audit
+    Completion_Date: The corrective action was not fully completed this reporting
+      period
+    Description_Action_Taken: Both the automated and the manual processes of the Exchanges
+      are subject to rigorous annual testing of key internal controls as required
+      by Appendix C of OMB Circular A-123.  External audits by OIG and GAO are another
+      common mechanism that help to identify potential payment integrity risks within
+      the Exchanges, specifically by evaluating APTC eligibility determinations made
+      by the Exchanges within the context of federal statute and regulations.
+    Mitigation_Strategy: atp6_1
   - Action_Taken: Not Completed
     Action_Type: Predictive Analytics
     Completion_Date: The corrective action was not fully completed this reporting
@@ -321,6 +322,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 260.725629
@@ -367,36 +369,6 @@ Data_By_Year:
     Underpayments_Amount: '0'
 - Actions_Taken:
   - Action_Taken: Planned
-    Action_Type: Audit
-    Completion_Date: FY2025
-    Description_Action_Taken: Both the automated and the manual processes of the Exchanges
-      are subject to rigorous annual testing of key internal controls as required
-      by Appendix C of OMB Circular A-123.  External audits by OIG and GAO are another
-      common mechanism that help to identify potential payment integrity risks within
-      the Exchanges, specifically by evaluating APTC eligibility determinations made
-      by the Exchanges within the context of federal statute and regulations. HHS
-      plans to continue these actions in FY 2025, but will not finalize this decision
-      until the APTC Error Rate data analysis is complete.
-    Mitigation_Strategy: app6_1
-  - Action_Taken: Completed
-    Action_Type: Automation
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: HHS’s corrective actions include identifying and remediating
-      system defects within the Exchanges that may impact APTC payments.  These defects
-      become known through various mechanisms, including internal quality control
-      activities and external reviews of APTC eligibility determinations made by the
-      Exchanges. HHS continually evaluates the policies and procedures that underlie
-      the automated processes associated with APTC to identify and address weaknesses
-      that may surface as they become operationalized.  HHS also proactively improves
-      its automated processes, e.g., the Verify Lawful Presence service with the Department
-      of Homeland Security was upgraded to ensure more accurate and timely lawful
-      presence verifications. HHS implemented process automation to reduce human error
-      introduced during adjudication and processing of supporting documentation.  HHS
-      will continue to encourage and require that additional tasks be automated to
-      further reduce manual errors and improve the accuracy and quality of required
-      adjudication tasks.
-    Mitigation_Strategy: atp1_1
-  - Action_Taken: Planned
     Action_Type: Automation
     Completion_Date: FY2025
     Description_Action_Taken: HHS’s corrective actions include identifying and remediating
@@ -416,6 +388,28 @@ Data_By_Year:
       not finalize this decision until the APTC Error Rate data analysis is complete.
     Mitigation_Strategy: app1_1
   - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2025
+    Description_Action_Taken: All personnel undergo a rigorous training when onboarded
+      to the workforce.  They also receive annual refreshers and quick training lessons
+      when program policy or operations are updated.  Ad hoc training is added as
+      additional training needs are identified.  In FY2025, HHS will conduct additional
+      training sessions related to Data Matching Issues verifications, casework, and
+      outreach. 
+    Mitigation_Strategy: app3_1
+  - Action_Taken: Planned
+    Action_Type: Audit
+    Completion_Date: FY2025
+    Description_Action_Taken: Both the automated and the manual processes of the Exchanges
+      are subject to rigorous annual testing of key internal controls as required
+      by Appendix C of OMB Circular A-123.  External audits by OIG and GAO are another
+      common mechanism that help to identify potential payment integrity risks within
+      the Exchanges, specifically by evaluating APTC eligibility determinations made
+      by the Exchanges within the context of federal statute and regulations. HHS
+      plans to continue these actions in FY 2025, but will not finalize this decision
+      until the APTC Error Rate data analysis is complete.
+    Mitigation_Strategy: app6_1
+  - Action_Taken: Planned
     Action_Type: Predictive Analytics
     Completion_Date: FY2025
     Description_Action_Taken: The Marketplace Program Integrity Contractor implemented
@@ -429,25 +423,23 @@ Data_By_Year:
       will not finalize this decision until the APTC Error Rate data analysis is complete.
     Mitigation_Strategy: app7_1
   - Action_Taken: Completed
-    Action_Type: Audit
+    Action_Type: Automation
     Completion_Date: FY2024 Q4
-    Description_Action_Taken: Both the automated and the manual processes of the Exchanges
-      are subject to rigorous annual testing of key internal controls as required
-      by Appendix C of OMB Circular A-123.  External audits by OIG and GAO are another
-      common mechanism that help to identify potential payment integrity risks within
-      the Exchanges, specifically by evaluating APTC eligibility determinations made
-      by the Exchanges within the context of federal statute and regulations.
-    Mitigation_Strategy: atp6_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2025
-    Description_Action_Taken: All personnel undergo a rigorous training when onboarded
-      to the workforce.  They also receive annual refreshers and quick training lessons
-      when program policy or operations are updated.  Ad hoc training is added as
-      additional training needs are identified.  In FY2025, HHS will conduct additional
-      training sessions related to Data Matching Issues verifications, casework, and
-      outreach. 
-    Mitigation_Strategy: app3_1
+    Description_Action_Taken: HHS’s corrective actions include identifying and remediating
+      system defects within the Exchanges that may impact APTC payments.  These defects
+      become known through various mechanisms, including internal quality control
+      activities and external reviews of APTC eligibility determinations made by the
+      Exchanges. HHS continually evaluates the policies and procedures that underlie
+      the automated processes associated with APTC to identify and address weaknesses
+      that may surface as they become operationalized.  HHS also proactively improves
+      its automated processes, e.g., the Verify Lawful Presence service with the Department
+      of Homeland Security was upgraded to ensure more accurate and timely lawful
+      presence verifications. HHS implemented process automation to reduce human error
+      introduced during adjudication and processing of supporting documentation.  HHS
+      will continue to encourage and require that additional tasks be automated to
+      further reduce manual errors and improve the accuracy and quality of required
+      adjudication tasks.
+    Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
     Action_Type: Training
     Completion_Date: FY2024 Q4
@@ -458,6 +450,16 @@ Data_By_Year:
       training sessions related to Data Matching Issues verifications, casework, and
       outreach. 
     Mitigation_Strategy: atp3_1
+  - Action_Taken: Completed
+    Action_Type: Audit
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: Both the automated and the manual processes of the Exchanges
+      are subject to rigorous annual testing of key internal controls as required
+      by Appendix C of OMB Circular A-123.  External audits by OIG and GAO are another
+      common mechanism that help to identify potential payment integrity risks within
+      the Exchanges, specifically by evaluating APTC eligibility determinations made
+      by the Exchanges within the context of federal statute and regulations.
+    Mitigation_Strategy: atp6_1
   - Action_Taken: Completed
     Action_Type: Predictive Analytics
     Completion_Date: FY2024 Q4
@@ -537,7 +539,7 @@ Data_By_Year:
     over these efforts. 
   IP_Current_Year_Plus_1_Amount: 0
   IP_Unknown_Current_Year_Plus_1_Rate: 0
-  Improper_Payments_Rate: 1.0105256658
+  Improper_Payments_Rate: 1.01052567
   Insufficient_Documentation_to_Determine: 0.0
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -569,6 +571,8 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 154.38
@@ -611,6 +615,124 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
+- Agency_Needs_Satisfied: A tolerable rate has not been established for this program.
+    The tolerable rate will be identified when the State-based Exchange improper payment
+    methodology is developed and the tolerable rate methodology is developed. Once
+    the tolerable rate is developed, the agency can determine if we have what is needed
+    with respect to internal controls, human capital and information system and other
+    infrastructure to reduce Improper Payments and Unknown Payments to the tolerable
+    rate.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: The planned and completed
+    actions provide a number of corrective action plans designed to target the APTC
+    error rate. Audits, automation, education, and risk models are all key corrective
+    action plans to reduce the error rate and address the causes of improper payments.
+  Corrective_Actions_Appropriateness: HHS developed effective corrective actions and
+    mitigation strategies that are focused on identified root causes for improper
+    payments and plans to continue these actions in FY 2026.  The payments that fall
+    into the overpayment category are largely related to manual administrative errors
+    and process errors. In particular the majority of overpayments occurred because
+    of system defects within the Exchanges that may impact APTC payments. Corrective
+    actions focused on identifying and remediating system defects are the best mitigation
+    strategy since they are closely aligned with the largest drivers of the error
+    rate. In addition to remediating system defects, HHS also plans to use staff training,
+    audits, and risk models to address the root causes of improper payments in FY
+    2026.
+  Corrective_Actions_Proportion: The planned and completed actions provide a number
+    of corrective action plans designed to target the APTC error rate. Audits, automation,
+    education, and risk models are all key corrective action plans to reduce the error
+    rate and address the causes of improper payments.
+  End_Date: 12/2023
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: true
+  Hide_Program_Results_Future_Outlook_Baseline_Table: true
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Accountability_Description: HHS reports the agency’s improper payment targets
+    annually in the AFR. In addition, HHS sets annual Government Performance and Results
+    Act (GPRA) goals tied to reducing the improper payments. HHS executive officials
+    are held accountable for assessing improper payment rates and taking meaningful
+    steps to address the root causes of error. These efforts are reflected in each
+    executive’s performance plan, as appropriate. HHS also reports quarterly on the
+    specific actions taken to address the improper payment rates through the quarterly
+    scorecard process for high-priority programs, providing a level of public oversight
+    over these efforts.
+  IP_Unknown_Target_Rate: 0
+  Improper_Payments_Rate: 0.8907133253
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '0.54'
+  Non_Monetary_Loss_Amount: '282.44'
+  Overpayment_Combined_Mitigations_Planned: Audit, Automation, Predictive Analytics,
+    Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Automation, Predictive Analytics,
+    Training
+  Payment_Accuracy_Rate: 99.1092866747276
+  Program_Additional_Information: CMS is not setting a Current Year +1 Improper Payment
+    and Unknown Payment Reduction target, as the State Based Exchanges are not yet
+    included in the APTC measurement.
+  Program_Design_or_Structural_Issue: 282.44
+  Resources_Requested_For_IP: HHS did not include program integrity proposals related
+    to APTC in its most recent Budget request.
+  Start_Date: 01/2023
+  Technical_IP_Actions_Planned: Audit, Training
+  Technical_IP_Actions_Taken: Audit, Training
+  Technical_IP_Amount: '282.44'
+  Unknown_Payments_Rate: 0
+  Year: 2025
+  detail_IP_Causes: 'The primary causes of improper payments for FY2025 were consumer
+    identity errors associated with accepting documents with discrepancies in required
+    data elements and errors related to payments for overlapping coverage.
+
+
+    For the consumer identity errors, consumer documents containing dates of birth
+    which did not match the date of birth on the application were accepted. Additionally,
+    a consumer submitted document was accepted where the name on the document differed
+    significantly from that on the application.
+
+
+    For the overlapping coverage errors, application members were identified as receiving
+    APTC on at least one additional active policy outside of the FEIPM sampled applications.
+    These were identified using shared demographic information.'
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '375.02'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '0.0'
+  eligibility_aggregated:
+  - Theme: Contractor or Provider Status
+    Theme_Description: "Status or standing of contractor or provider, including recipient\
+      \ eligibility to \r\nprovide medical services"
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 375.02
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '375.02'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.0'
 Description: Advance payments of the premium tax credit (APTC) provide financial assistance
   to Marketplace consumers by reducing their monthly insurance payments. The consumer's
   APTC is based on the estimated annual household income and household size reported
@@ -624,12 +746,13 @@ Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
-High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[236.07, 260.725629, 154.38]'
-Payment_Accuracy_Amounts: '[41000.049999999996, 46226.135914, 55144.700000000004]'
-Payment_Accuracy_Rate: 0
+High_Priority_Program: 1
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 73812.75
+Overpayment_Amounts: '[236.07, 260.725629, 154.38, 375.02]'
+Payment_Accuracy_Amounts: '[41000.049999999996, 46226.135914, 55144.700000000004,
+  73155.29]'
+Payment_Accuracy_Rate: 99.1092866747276
 Phase_2_Program: 0
 Program_Name: Centers for Medicare & Medicaid Services (CMS) - Advance Premium Tax
   Credit (APTC)
@@ -637,10 +760,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q4 2024/Centers for Medicare & Medicaid Services (CMS) -
     Advance Premium Tax Credit (APTC).pdf
   QuarterYear: Q4 2024
-Technically_Improper_Amounts: '[0, 11.028457, 408.56]'
-Underpayment_Amounts: '[19.69, 0, 0]'
-Unknown_Amounts: '[0, 0, 0]'
-detail_Reduction_Target: null
+Technically_Improper_Amounts: '[0, 11.028457, 408.56, 282.44]'
+Underpayment_Amounts: '[19.69, 0, 0, 0]'
+Unknown_Amounts: '[0, 0, 0, 0]'
 layout: program-specific
 permalink: program/hhs-centers-for-medicare-medicaid-services-cms-advance-premi-155942da
 ---

@@ -1,12 +1,157 @@
 ---
 Agency: NSF
 Agency_Name: National Science Foundation
+Confirmed_Fraud: null
+Eligibility_Themes: []
 Fiscal_Year: 2025
-Is_Placeholder: true
+Hide_Disposition_of_Funds: true
+Hide_Disposition_of_Funds_Table: true
+Hide_Do_Not_Pay: false
+Hide_Eligibility_Criteria: true
+Hide_Integrity_Results: true
+Hide_PIIA2019: false
+Hide_Recovery_Audits: false
+Hide_Recovery_Details: false
+Hide_Recovery_Info: false
+Hide_Risk_Assessment_Results: false
+Hide_Sparklines: true
+Hide_Supplemental_Info: false
+Hide_Supplemental_Payment_Integrity: true
+Improper_Payments_Data_Years: '[]'
+Improper_Payments_Rate_Max: 0
+Improper_Payments_Rate_Min: 0
+Improper_Payments_Rates: '[]'
+Is_Placeholder: false
+Overpayment_Amounts: '[]'
+Overpayment_Amounts_Identified: '[6.705, 13.9, 9.71, 35.42, 16.01]'
+Overpayment_Amounts_Recovered: '[6.405, 10.0, 9.88, 32.7, 16.01]'
+Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
+PIIA2019_Compliant_Programs:
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Contracts and Individual Payments
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Grants and Cooperative Agreements
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Payments to Employees
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Purchase Cards - National Science Foundation
+PIIA2019_NonCompliant_Programs: []
+Payment_Accuracy_Amounts: '[]'
+Payment_Accuracy_Rate_Max: 0
+Payment_Accuracy_Rate_Min: 0
+Payment_Accuracy_Rates: '[]'
+Risks:
+  AdditionalInformation: null
+  Assessments:
+  - Fiscal_Year: 2024
+    MethodologyChanged: 0
+    Program_Name: Contracts and Individual Payments
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2024
+    MethodologyChanged: 0
+    Program_Name: Grants and Cooperative Agreements
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2024
+    MethodologyChanged: 0
+    Program_Name: Payments to Employees
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2020
+    MethodologyChanged: 0
+    Program_Name: Purchase Cards
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2024
+    MethodologyChanged: 0
+    Program_Name: Purchase Cards - National Science Foundation
+    Slug: null
+    Susceptible: 'No'
+  SubstantialChangesMade: null
+Technically_Improper_Amounts: '[]'
+Underpayment_Amounts: '[]'
+Unknown_Amounts: '[]'
+Unknown_Payments_Rate_Max: 0
+Unknown_Payments_Rate_Min: 0
+Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2025
 - 2024
 - 2023
 - 2022
+detail_Additional_IP_Information: null
+detail_Compliance_Status: Compliant
+detail_DNP_Discussion: 'All NSF payments are compliant with Treasury’s Payment Application
+  Modernization format and are screened against the following data sources: Social
+  Security Death Master File (DMF) [public information] and the GSA System for Award
+  Management (SAM) Exclusion Records [restricted information]. Any subsequent matches
+  are viewable in Treasury’s DNP online portal for adjudication purposes. There was
+  1 positive DNP match to a payment of $400 that NSF issued in FY2025 which was determined
+  to be proper.'
+detail_DNP_Frequency_Identify: Annually
+detail_DNP_Reduced: 'Yes'
+detail_Executive_Summary: NSF has one mission program of Grants and Cooperative Agreements
+  and three other mission-related activities – Contracts and Individual Payments,
+  NSF Purchase Cards and Payments to Employees. NSF conducts risk assessments for
+  all programs with outlays over $10M on a three-year risk assessment cycle. The most
+  recent risk assessment was performed in FY 2024, which concluded that the agency
+  does not have any programs which are likely to be susceptible to significant improper
+  payments. Based on NSF’s risk assessment, all of these programs and activities are
+  considered Phase I in accordance with Payment Integrity Information Act of 2019
+  (PIIA). NSF Purchase Cards outlays were below the $10M threshold for FY 2025.
+detail_OIG_Recommendations: null
+detail_PIIA_Incentives: null
+detail_PIIA_Official: null
+detail_Recovery_Audits_Skipped: 'No'
+detail_Recovery_Justifications_Audits: null
+detail_Recovery_Not_Cost_Effective_Justification: NSF does not conduct recovery audits.
+  NSF's analysis determined that it would not be cost effective for the agency to
+  conduct a recovery audit program.  No circumstances have changed within any of NSF's
+  programs that require an additional recovery audit cost-effectiveness analysis.
+detail_Risks_Substantial_Changes_Made: null
 layout: agency-specific
 permalink: agency/NSF.html
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 16.01
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 16.01
 ---

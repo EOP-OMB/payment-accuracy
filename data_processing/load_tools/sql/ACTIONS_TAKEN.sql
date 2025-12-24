@@ -39,3 +39,4 @@ WHERE [action_data].Column_values <> ''
     AND [action_data].Column_names <> 'atp17_1'
     AND [action_data].Column_names <> 'app17_1'
     AND [action_data].[Program_Name] = ? AND [action_data].[Fiscal_Year] = ?
+ORDER BY [action_data].[Column_names]

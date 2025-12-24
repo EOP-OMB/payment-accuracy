@@ -68,6 +68,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2022
+  detail_Reduction_Target: '1.003'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -214,6 +215,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: '1'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -328,9 +330,9 @@ Data_By_Year:
     applicable reduction targets, preventing improper payments, and promptly detecting
     and recovering overpayments.
   IP_Current_Year_Plus_1_Amount: 483.43
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.022300211225
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0223002112
   IP_Unknown_Target_Rate: 0.0223
-  Improper_Payments_Rate: 5.4367114461
+  Improper_Payments_Rate: 5.43671145
   Insufficient_Documentation_to_Determine: 0.0
   Is_Lowest_IP_And_Unknown_Rate: 'Yes'
   Is_Tolerable_Why: Management established this tolerable rate range mindful of the
@@ -371,6 +373,8 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '2.23'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -395,24 +399,73 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
+- Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: true
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: true
+  Hide_Program_Results_Future_Outlook_Baseline_Table: true
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: true
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  Improper_Payments_Rate: 6.135637798199999
+  Insufficient_Documentation_to_Determine: 0.0
+  Non_Monetary_Loss_Amount: '1633'
+  Payment_Accuracy_Rate: 93.86436220176591
+  Program_Design_or_Structural_Issue: 1633.0
+  Technical_IP_Amount: '1633.0'
+  Unknown_Payments_Rate: 0
+  Year: 2025
+  detail_IP_Causes: null
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: null
+  detail_Overpayments_Due_To_Failure: null
+  detail_Overpayments_Due_To_Inability: null
+  detail_Reduction_Target: null
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.0'
 Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[298.069226, 0, 0]'
-Payment_Accuracy_Amounts: '[29419.1372, 19847.47693227, 19191.05527239]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 26615
+Overpayment_Amounts: '[298.069226, 0, 0, 0]'
+Payment_Accuracy_Amounts: '[29419.1372, 19847.47693227, 19191.05527239, 24982]'
+Payment_Accuracy_Rate: 93.86436220176591
 Phase_2_Program: 0
 Program_Name: 7(a) Loan Guarantees Approvals
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 262.740596, 1103.348154]'
-Underpayment_Amounts: '[0, 0, 0]'
-Unknown_Amounts: '[0, 0, 0]'
-detail_Reduction_Target: '1'
+Technically_Improper_Amounts: '[0, 262.740596, 1103.348154, 1633]'
+Underpayment_Amounts: '[0, 0, 0, 0]'
+Unknown_Amounts: '[0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/59.012
 layout: program-specific
 permalink: program/sba-7-a-loan-guarantees-approvals

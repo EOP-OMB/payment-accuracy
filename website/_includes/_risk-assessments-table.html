@@ -38,8 +38,9 @@
                     <td data-sort-value="{{ risk.Susceptible }}">
                         {% if risk.Susceptible == 'Yes' %}
                             <img src="/assets/img/orange-check.svg" alt="No"> Yes
-                        {% else %}
+                        {% elsif risk.Susceptible == 'No' %}
                             <img src="/assets/img/green-x.svg" alt="No"> No
+                        {% else %}
                         {% endif %}
                     </td>
                     <td data-sort-value="{{ risk.MethodologyChanged }}">

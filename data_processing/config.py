@@ -271,7 +271,7 @@ CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING = {
                 "heading": "Non-Compliant Programs",
                 "subheading": ""
             },
-            "CAP5": {
+            "cap5": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Measurable Milestones To Be Accomplished in Order to Achieve Compliance For Each Program",
                 "subheading": ""
@@ -298,7 +298,7 @@ CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING = {
                 "heading": "List of Each Program That Was Determined To Not Be In Compliance",
                 "subheading": ""
             },
-            "CAP5": {
+            "cap5": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Actions That Are Planned to Bring Each Program into Compliance",
                 "subheading": ""
@@ -443,7 +443,7 @@ CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING = {
                 "heading": "Non-Compliant Programs",
                 "subheading": ""
             },
-            "CAP5": {
+            "cap5": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Measurable Milestones To Be Accomplished in Order to Achieve Compliance For Each Program",
                 "subheading": ""
@@ -470,7 +470,7 @@ CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING = {
                 "heading": "List of Each Program That Was Determined To Not Be In Compliance",
                 "subheading": ""
             },
-            "CAP5": {
+            "cap5": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Actions That Are Planned to Bring Each Program into Compliance",
                 "subheading": ""
@@ -586,7 +586,7 @@ CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING = {
                 "heading": "Non-Compliant Programs",
                 "subheading": ""
             },
-            "CAP5": {
+            "cap5": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Measurable Milestones To Be Accomplished in Order to Achieve Compliance For Each Program",
                 "subheading": ""
@@ -613,7 +613,7 @@ CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING = {
                 "heading": "List of Each Program That Was Determined To Not Be In Compliance",
                 "subheading": ""
             },
-            "CAP5": {
+            "cap5": {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Actions That Are Planned to Bring Each Program into Compliance",
                 "subheading": ""

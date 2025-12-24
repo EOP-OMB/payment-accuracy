@@ -91,6 +91,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 1.94
   Unknown_Payments_Rate: 0
   Year: 2022
+  detail_Reduction_Target: '9.99'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -301,6 +302,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 2.6
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: '9.99'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -419,63 +421,6 @@ Data_By_Year:
       or their family
     Value: '1.210000'
 - Actions_Taken:
-  - Action_Taken: Completed
-    Action_Type: Automation
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: Actions taken included conducting quarterly matches
-      with the Social Security Administration to identify variances between Social
-      Security Administration income a beneficiary is receiving versus the amounts
-      reported by a beneficiary to VA. Differences indicate potential changes in a
-      beneficiary’s income, which could require a change to their pension benefit.
-      Validating whether a change is needed and making changes if necessary, prevents
-      future improper payments. To address the root cause, VA automated the process
-      of implementing a match between Social Security Administration income data and
-      VA income data for pension beneficiaries. This enabled VA to identify variances
-      which were indicators of potential overpayments. Claims with variances were
-      prioritized and sent to claims processors in batches to resolve discrepancies,
-      adjust benefits if appropriate, and prevent future overpayments. In addition,
-      VA used the Social Security Administration's Death Master File to match against
-      active beneficiaries or their dependents, which allowed VA to stop payment timely
-      for deceased beneficiaries. These ongoing Social Security Administration matches
-      identified potential deceased beneficiaries or their dependents still receiving
-      benefits for VA to stop benefits and prevent future overpayments. These actions
-      were taken to reduce future improper payment errors associated with failure
-      to access data/information needed to ensure proper payment amounts and unknown
-      payments attributed to being unable to determine whether proper or improper.
-      Automation was the best mitigation strategy in order to improve accuracy and
-      accessibility of data to validate beneficiary income and eligibility status
-      prior to payment.
-    Mitigation_Strategy: atp1_1
-  - Action_Taken: Planned
-    Action_Type: Audit
-    Completion_Date: FY2025
-    Description_Action_Taken: Actions planned include randomly reviewing claims processors’
-      work to ensure policies and procedures are properly applied in making accurate
-      pension rate decisions to prevent future improper payments. Due to human errors,
-      corrective action will include conducting focused reviews to ensure claims processors
-      properly apply policies and procedures in making accurate pension rate decisions.
-      These actions are designed to reduce future improper payment errors associated
-      with failure to access data/information needed to ensure proper payment amounts
-      and unknown payments attributed to being unable to determine whether proper
-      or improper. Audit was the best mitigation strategy in order to identify systemic
-      discrepancies and reinforce adherence to policies and procedures to improve
-      accurate pension rate decisions prior to payment.
-    Mitigation_Strategy: app6_1
-  - Action_Taken: Completed
-    Action_Type: Audit
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: Actions taken included randomly reviewing claims processors’
-      work to ensure policies and procedures were properly applied in making accurate
-      pension rate decisions to prevent future improper payments. Due to human errors,
-      corrective action included conducting focused reviews to ensure claims processors
-      properly applied policies and procedures in making accurate pension rate decisions.
-      These actions were taken to reduce future improper payment errors associated
-      with failure to access data/information needed to ensure proper payment amounts
-      and unknown payments attributed to being unable to determine whether proper
-      or improper. Audit was the best mitigation strategy in order to identify systemic
-      discrepancies and reinforce adherence to policies and procedures to improve
-      accurate pension rate decisions prior to payment.
-    Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
     Action_Type: Automation
     Completion_Date: FY2025
@@ -510,6 +455,63 @@ Data_By_Year:
       Training was the best mitigation strategy in order to improve awareness and
       increase skills to improve accurate pension rate decisions prior to payment.
     Mitigation_Strategy: app3_1
+  - Action_Taken: Planned
+    Action_Type: Audit
+    Completion_Date: FY2025
+    Description_Action_Taken: Actions planned include randomly reviewing claims processors’
+      work to ensure policies and procedures are properly applied in making accurate
+      pension rate decisions to prevent future improper payments. Due to human errors,
+      corrective action will include conducting focused reviews to ensure claims processors
+      properly apply policies and procedures in making accurate pension rate decisions.
+      These actions are designed to reduce future improper payment errors associated
+      with failure to access data/information needed to ensure proper payment amounts
+      and unknown payments attributed to being unable to determine whether proper
+      or improper. Audit was the best mitigation strategy in order to identify systemic
+      discrepancies and reinforce adherence to policies and procedures to improve
+      accurate pension rate decisions prior to payment.
+    Mitigation_Strategy: app6_1
+  - Action_Taken: Completed
+    Action_Type: Automation
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: Actions taken included conducting quarterly matches
+      with the Social Security Administration to identify variances between Social
+      Security Administration income a beneficiary is receiving versus the amounts
+      reported by a beneficiary to VA. Differences indicate potential changes in a
+      beneficiary’s income, which could require a change to their pension benefit.
+      Validating whether a change is needed and making changes if necessary, prevents
+      future improper payments. To address the root cause, VA automated the process
+      of implementing a match between Social Security Administration income data and
+      VA income data for pension beneficiaries. This enabled VA to identify variances
+      which were indicators of potential overpayments. Claims with variances were
+      prioritized and sent to claims processors in batches to resolve discrepancies,
+      adjust benefits if appropriate, and prevent future overpayments. In addition,
+      VA used the Social Security Administration's Death Master File to match against
+      active beneficiaries or their dependents, which allowed VA to stop payment timely
+      for deceased beneficiaries. These ongoing Social Security Administration matches
+      identified potential deceased beneficiaries or their dependents still receiving
+      benefits for VA to stop benefits and prevent future overpayments. These actions
+      were taken to reduce future improper payment errors associated with failure
+      to access data/information needed to ensure proper payment amounts and unknown
+      payments attributed to being unable to determine whether proper or improper.
+      Automation was the best mitigation strategy in order to improve accuracy and
+      accessibility of data to validate beneficiary income and eligibility status
+      prior to payment.
+    Mitigation_Strategy: atp1_1
+  - Action_Taken: Completed
+    Action_Type: Audit
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: Actions taken included randomly reviewing claims processors’
+      work to ensure policies and procedures were properly applied in making accurate
+      pension rate decisions to prevent future improper payments. Due to human errors,
+      corrective action included conducting focused reviews to ensure claims processors
+      properly applied policies and procedures in making accurate pension rate decisions.
+      These actions were taken to reduce future improper payment errors associated
+      with failure to access data/information needed to ensure proper payment amounts
+      and unknown payments attributed to being unable to determine whether proper
+      or improper. Audit was the best mitigation strategy in order to identify systemic
+      discrepancies and reinforce adherence to policies and procedures to improve
+      accurate pension rate decisions prior to payment.
+    Mitigation_Strategy: atp6_1
   Agency_Needs_Satisfied: 'VA has not determined a tolerable rate due to all requirements
     for establishing a tolerable rate not yet being met. In March 2023, the Government
     Accountability Office acknowledged VA’s substantial reduction in improper and
@@ -672,9 +674,9 @@ Data_By_Year:
     and recommendations. Performance bonuses and/or salary increases are aligned with
     each Senior Executive’s overall level of performance.'
   IP_Current_Year_Plus_1_Amount: 284.67
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.095419107966
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.095419108
   IP_Unknown_Target_Rate: 0.0954
-  Improper_Payments_Rate: 10.793950194099999
+  Improper_Payments_Rate: 10.79395019
   Insufficient_Documentation_to_Determine: 114.57
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -737,6 +739,8 @@ Data_By_Year:
     there was a change in income. Until due process is complete, VA cannot make a
     final determination and the payment must be classified as unknown.
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '9.54'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -800,6 +804,200 @@ Data_By_Year:
     Theme_Description: Beneficiary or recipient is receiving benefits from an additional
       source
     Value: '0.051129'
+- Agency_Needs_Satisfied: 'VA continues to prioritize implementing appropriate corrective
+    actions and mitigation strategies and has adequate funding to implement improvements
+
+    planned to internal controls, human capital, information systems, and other infrastructure,
+    as needed, over VA’s payment processing and procurement
+
+    systems to continue reducing improper and unknown payments. VA is still actively
+    reducing improper and unknown payments within its existing budget
+
+    authority. VA considers the reduction of improper and unknown payments a critical
+    part of its financial stewardship efforts.'
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: VA updates corrective action
+    plans annually based on testing results, and no less than quarterly throughout
+    the FY, to ensure actions are appropriately prioritized and designed to mitigate
+    risks of improper and unknown payments. VA monitors progress and results of implementation
+    on a quarterly basis. Additionally, an effectiveness review is performed annually
+    to measure if an action reduced or is properly designed to reduce improper and
+    unknown payments for a specific root cause based on a set benchmark. The annual
+    effectiveness review process allows VA to create or update actions as necessary
+    to ensure continued progress in the remediation of improper and unknown payments.
+    If areas for improvement are identified, VA conducts a root cause analysis to
+    refine the program’s mitigation strategies to ensure they addressed and reduced
+    root causes of error. The decrease in the improper payment and unknown payment
+    rate from 13.85% in FY 2024 to 9.99% in FY 2025 and the $164.10 million reduction
+    in improper and unknown payments supports the effective implementation and prioritization
+    of action within the agency.
+  Corrective_Actions_Appropriateness: To correct the causes of improper and unknown
+    payments, VA implemented several corrective actions focused on enhancing data
+    accuracy and payment integrity. Actions taken and planned for audit include randomly
+    reviewing claims processors’ work to ensure policies and procedures are properly
+    applied in making accurate pension rate decisions to prevent future improper payments.
+    Specific reviews conducted in FY 2025 include National Quality Reviews of 41 claims
+    monthly at 3 processing locations; focused reviews of targeted program areas within
+    claims processing; and an audit of Federal Tax Information reported on initial
+    pension applications on a quarterly basis. In addition, VA did and will perform
+    focused reviews of targeted problem areas toaddress Social Security Administration
+    income match claims and human errors during annual site visits. These actions
+    are fully implemented and are ongoing from year to year, versus being completed
+    once. Actions taken and planned for automation included conducting quarterly automated
+    matches with SSA to identify variances between SSA income a beneficiary is receiving
+    versus the amounts reported by a beneficiary to VA. These automated matches allow
+    VA to identify discrepancies that may indicate changes in the beneficiary's income
+    and adjust pension payments accordingly. By identifying claims with income variances
+    and routing them to claims processors in batches, VA significantly improved its
+    ability to detect and prevent overpayments. These actions are fully implemented
+    and are ongoing from year to year, versus being completed once. Actions taken
+    and planned for training included focused staff training on unreported SSA errors
+    and human errors related to income and medical expense counting to ensure consistent
+    application of policies and procedures in making accurate pension rate decisions
+    to prevent errors linked to data access issues and future improper payments. These
+    actions are fully implemented and are ongoing from year to year, versus being
+    completed once. The expected completion date for this action is September 30,
+    2026.
+  Corrective_Actions_Proportion: The Pension program continues to prioritize and implement
+    corrective actions and mitigation strategies designed to reduce improper and unknown
+    payments. In FY 2025, VA performed an effectiveness review of the actions developed
+    and implemented in FY 2024. The purpose of this review was to assess the appropriateness
+    of corrective actions or mitigation strategies and whether the actions were effectively
+    implemented and prioritized within the agency. The results for the Pension program
+    indicated that of the two actions assessed, both were determined to be ineffective
+    to mitigate the root cause. Despite that determination, the program reduced overall
+    improper and unknown payments during FY 2024, as evidenced by FY 2025 testing
+    results. Overall improper and unknown payments decreased from $518.58 million
+    in FY 2024 to $354.48 million in FY 2025, a decrease of 31.64%. Errors tied to
+    failure to access data/information decreased from $404.01 million in FY 2024 to
+    $310.76 million in FY 2025, a decrease of 23.08%. Errors tied to inability to
+    determine whether proper or improper decreased from $114.57 million in FY 2024
+    to $43.72 million in FY 2025, a decrease of 61.84%. The program continued to update
+    corrective actions to address improper and unknown payments during FY 2025. VA
+    will perform an effectiveness review in FY 2026 of the corrective action plans
+    developed and implemented in FY 2025 due to the time needed to develop and implement
+    actions as well as to impact the payment process. Results of this review will
+    be reported in FY 2026.
+  End_Date: 09/2024
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: 'This program was determined noncompliant in FY 2025
+    by the OIG and reported improper and unknown payments above the thresholds for
+    a
+
+    compliance determination in FY 2026. In FY 2026, VA executive managers and program
+    personnel will be focused on prevention and recovery of
+
+    overpayments as appropriate. VA’s executive managers to include the Executive
+    Director, Pension and Fiduciary Service and program personnel will be
+
+    held accountable through annual performance criteria contained within their performance
+    plans. Performance criteria will be unique to and inclusive of all
+
+    their duties. Depending on each employee’s responsibilities, duties can include
+    preventing improper and unknown payments through effective internal
+
+    controls, recovering overpayments if appropriate, and implementing remediation
+    efforts for known causes of improper and unknown payments. State and
+
+    local governments are not involved in the execution of this program.'
+  IP_Unknown_Target_Rate: 0.0954
+  Improper_Payments_Rate: 8.7540740699
+  Insufficient_Documentation_to_Determine: 43.72
+  Margin_of_Error: '2.87'
+  Non_Monetary_Loss_Amount: '38.47'
+  Overpayment_Combined_Mitigations_Planned: Audit, Automation, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Automation, Training
+  Payment_Accuracy_Rate: 90.01433847245971
+  Program_Additional_Information: The Pension program continues to prioritize and
+    implement corrective actions and mitigation strategies that reduce improper and
+    unknown payments. From FY 2024 to FY 2025, Pension reduced its improper and unknown
+    payment error rate from 13.85% to 9.99%. The reduction of 3.86% brought the program
+    under the 10% compliance threshold established by the Payment Integrity Information
+    Act of 2019. The program expects the continued positive impact of these actions
+    on its FY 2026 improper and unknown payment rate.
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: 'At this time, VA is not aware of additional program
+    needs. VA has not requested additional resources in the most recent budget submission
+    to establish
+
+    and maintain internal controls to reduce improper payments and unknown payments
+    and maintain payment integrity.'
+  Start_Date: 10/2023
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: Audit, Automation, Training
+  Underpayment_Mitigations_Taken: Audit, Automation, Training
+  Unknown_Mitigations_Planned: Audit, Automation, Training
+  Unknown_Mitigations_Taken: Audit, Automation, Training
+  Unknown_Payments_Rate: 1.2315874576395325
+  Year: 2025
+  detail_IP_Causes: 'VA overpayments are within the agency''s control and occured
+    when the program failed to access the data/information needed to validate correct
+    beneficiary award amounts. These overpayments occurred for multiple reasons; however,
+    the two main causes are: (1) that beneficiaries failed to notify VA of changes
+    in income and (2) human error. Claims processors can manually access Social Security
+    Administration income information to calculate correct benefit amounts when a
+    beneficiary notifies VA of a change. VA is improving administrative compliance
+    by using data from the SSA via a Computer Matching Agreement; however, when a
+    potential variance is identified, VA must continue to make the current benefit
+    payment while determining whether the change in benefit is valid, which results
+    in potential overpayments. The program is also working with claims processing
+    stations on the human errors identified each fiscal year. These improvements will
+    result in increased payment accuracy. Underpayments occurred when the program
+    failed to access data/information needed to correctly process beneficiary awards.
+    The main causes for underpayments were human error and beneficiaries failing to
+    notify VA about changes in SSA income. Human errors involved accounting for medical
+    expenses, other income, and dependency issues. Payments are considered unknown
+    payments when VA had missing or insufficient documentation to process beneficiary
+    awards. The main causes for unknown payments were unreported changes in SSA income
+    and human error related to medical expenses, other income, dependency issues,
+    and other general human errors.'
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '272.29'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '9.54'
+  eligibility_aggregated:
+  - Theme: Dependency
+    Theme_Description: Describes who the recipient/beneficiary relies on as a primary
+      source of support
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  - Theme: Receiving Benefits from Other Sources
+    Theme_Description: Beneficiary or recipient is receiving benefits from an additional
+      source
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 272.29
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '272.29'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 38.47
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '38.47'
 Description: 'The Pension program helps wartime Veterans and their survivors cope
   with financial challenges by providing supplemental income to recipients who meet
   the annual income and net worth limits set by law. A change in benefit payment occurs
@@ -814,12 +1012,12 @@ Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
-High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[491.97, 418.06, 381.78]'
-Payment_Accuracy_Amounts: '[3732.33, 3442.98, 3224.3499999999995]'
-Payment_Accuracy_Rate: 0
+High_Priority_Program: 1
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 3549.89
+Overpayment_Amounts: '[491.97, 418.06, 381.78, 272.29]'
+Payment_Accuracy_Amounts: '[3732.33, 3442.98, 3224.3499999999995, 3195.4100000000003]'
+Payment_Accuracy_Rate: 90.01433847245971
 Phase_2_Program: 0
 Program_Name: Pension
 Scorecard_Links:
@@ -835,10 +1033,9 @@ Scorecard_Links:
   QuarterYear: Q1 2025
 - Link: assets/scorecards/Q2 2025/Pension.pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[0, 0, 0]'
-Underpayment_Amounts: '[0.46, 1.21, 22.23]'
-Unknown_Amounts: '[0, 0, 114.57]'
-detail_Reduction_Target: '9.99'
+Technically_Improper_Amounts: '[0, 0, 0, 0]'
+Underpayment_Amounts: '[0.46, 1.21, 22.23, 38.47]'
+Unknown_Amounts: '[0, 0, 114.57, 43.72]'
 fpi_link: https://fpi.omb.gov/program/64.105
 layout: program-specific
 permalink: program/va-pension

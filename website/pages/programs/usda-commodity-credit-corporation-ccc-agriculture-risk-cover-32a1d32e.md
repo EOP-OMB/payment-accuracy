@@ -154,6 +154,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2022
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -337,6 +338,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: '6.45'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -559,9 +561,9 @@ Data_By_Year:
     \ Administrator for Farm Programs (DAFP)\n·\tMarcus Graham, Deputy Administrator\
     \ for Field Operations (DAFO)\n"
   IP_Current_Year_Plus_1_Amount: 14.69
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.099931972789
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0999319728
   IP_Unknown_Target_Rate: 0.0999
-  Improper_Payments_Rate: 12.782124162799999
+  Improper_Payments_Rate: 12.78212416
   Insufficient_Documentation_to_Determine: 0.0
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -604,6 +606,8 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '9.99'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -668,7 +672,6 @@ Scorecard_Links: []
 Technically_Improper_Amounts: '[304.54, 102.77, 35.35]'
 Underpayment_Amounts: '[0, 0, 0]'
 Unknown_Amounts: '[0, 0, 0]'
-detail_Reduction_Target: '9.99'
 layout: program-specific
 permalink: program/usda-commodity-credit-corporation-ccc-agriculture-risk-cover-32a1d32e
 ---

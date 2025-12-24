@@ -71,6 +71,7 @@ Data_By_Year:
     of $116,781 was categorized as an unknown payment.  SBA is awaiting real estate
     appraisal information which will confirm eligibility.
   Year: 2022
+  detail_Reduction_Target: '1.89'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -227,6 +228,7 @@ Data_By_Year:
     amount of $1,462,000.  The CDC did not provide sufficient information for SBA
     to determine whether the borrower for this loan was eligible.
   Year: 2023
+  detail_Reduction_Target: '2.65'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -343,9 +345,9 @@ Data_By_Year:
     applicable reduction targets, preventing improper payments, and promptly detecting
     and recovering overpayments.
   IP_Current_Year_Plus_1_Amount: 266.34
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.039599819514
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0395998195
   IP_Unknown_Target_Rate: 0.0396
-  Improper_Payments_Rate: 3.7403067706
+  Improper_Payments_Rate: 3.74030677
   Insufficient_Documentation_to_Determine: 50.43
   Is_Lowest_IP_And_Unknown_Rate: 'Yes'
   Is_Tolerable_Why: Management established this tolerable rate range mindful of the
@@ -397,6 +399,8 @@ Data_By_Year:
   Unknown_Why: Two loans were determined to be Unknown due to (1) the timing of a
     divorce settlement and (2) awaiting an appraisal for real estate collateral.
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '3.96'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -421,24 +425,73 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
+- Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: true
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: true
+  Hide_Program_Results_Future_Outlook_Baseline_Table: true
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: true
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  Improper_Payments_Rate: 4.578192640699999
+  Insufficient_Documentation_to_Determine: 0.0
+  Non_Monetary_Loss_Amount: '338.42'
+  Payment_Accuracy_Rate: 95.42180735930737
+  Program_Design_or_Structural_Issue: 338.42
+  Technical_IP_Amount: '338.42'
+  Unknown_Payments_Rate: 0
+  Year: 2025
+  detail_IP_Causes: null
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: null
+  detail_Overpayments_Due_To_Failure: null
+  detail_Overpayments_Due_To_Inability: null
+  detail_Reduction_Target: null
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.0'
 Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[198.962331, 0, 0]'
-Payment_Accuracy_Amounts: '[9819.549186, 6925.825512, 6042.0]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 7392
+Overpayment_Amounts: '[198.962331, 0, 0, 0]'
+Payment_Accuracy_Amounts: '[9819.549186, 6925.825512, 6042.0, 7053.58]'
+Payment_Accuracy_Rate: 95.42180735930737
 Phase_2_Program: 0
 Program_Name: 504 Certified Development Loans Approvals
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 196.703368, 236.73]'
-Underpayment_Amounts: '[0, 0, 0]'
-Unknown_Amounts: '[2.278483, 27.71412, 50.43]'
-detail_Reduction_Target: '2.65'
+Technically_Improper_Amounts: '[0, 196.703368, 236.73, 338.42]'
+Underpayment_Amounts: '[0, 0, 0, 0]'
+Unknown_Amounts: '[2.278483, 27.71412, 50.43, 0]'
 fpi_link: https://fpi.omb.gov/program/59.041
 layout: program-specific
 permalink: program/sba-504-certified-development-loans-approvals

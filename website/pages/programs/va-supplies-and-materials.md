@@ -109,6 +109,7 @@ Data_By_Year:
     the invoice or price schedule. For these reasons, we are unable to conclude whether
     the payment is proper or improper without that documentation.
   Year: 2022
+  detail_Reduction_Target: '4.00'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 2.03
@@ -319,6 +320,7 @@ Data_By_Year:
     contract rate information, the program is unable to determine whether the amount
     paid is proper or improper.
   Year: 2023
+  detail_Reduction_Target: '3.50'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 2.86016
@@ -364,20 +366,6 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.00'
 - Actions_Taken:
-  - Action_Taken: Completed
-    Action_Type: Change Process
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: Actions taken included restructuring existing local
-      and national contracts and rejecting invoices that do not comply with contract
-      requirements, including no receipt for goods or services. Additionally, VA ensured
-      ordering processes were compliant with statute and regulation. These actions
-      were designed to reduce overpayments attributed to failure to access data/information,
-      technically improper payments attributed to statutory requirements of program
-      not met, and unknown payments attributed to being unable to determine whether
-      proper or improper. Change process was the best mitigation strategy in order
-      to develop stronger internal controls and mitigate risks within existing payment
-      processes.
-    Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
     Action_Type: Change Process
     Completion_Date: FY2025
@@ -395,6 +383,20 @@ Data_By_Year:
       was the best mitigation strategy in order to develop stronger internal controls
       and mitigate risks within existing payment processes.
     Mitigation_Strategy: app4_1
+  - Action_Taken: Completed
+    Action_Type: Change Process
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: Actions taken included restructuring existing local
+      and national contracts and rejecting invoices that do not comply with contract
+      requirements, including no receipt for goods or services. Additionally, VA ensured
+      ordering processes were compliant with statute and regulation. These actions
+      were designed to reduce overpayments attributed to failure to access data/information,
+      technically improper payments attributed to statutory requirements of program
+      not met, and unknown payments attributed to being unable to determine whether
+      proper or improper. Change process was the best mitigation strategy in order
+      to develop stronger internal controls and mitigate risks within existing payment
+      processes.
+    Mitigation_Strategy: atp4_1
   Agency_Needs_Satisfied: 'VA has not determined a tolerable rate due to all requirements
     for establishing a tolerable rate not yet being met. In March 2023, Government
     Accountability Office acknowledged VA’s substantial reduction in improper and
@@ -536,9 +538,9 @@ Data_By_Year:
     and unknown payments. State and local governments are not involved in the execution
     of this program.
   IP_Current_Year_Plus_1_Amount: 201.76
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.069999089265
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0699990893
   IP_Unknown_Target_Rate: 0.07
-  Improper_Payments_Rate: 5.8153058223
+  Improper_Payments_Rate: 5.815305820000001
   Insufficient_Documentation_to_Determine: 65.16
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -625,6 +627,8 @@ Data_By_Year:
     appropriate contract rate information, the program is unable to determine whether
     the amount paid is proper or improper.
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '7.0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.31
@@ -664,24 +668,220 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
+- Agency_Needs_Satisfied: In FY 2025, this program is reporting under the statutory
+    threshold for significant improper payments and will revert to fulfilling legislative
+    requirements for risk no less than every three years. Management will continue
+    its responsibilities for internal control outlined in the Government Accountability
+    Office's Green Book.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: VA updates corrective action
+    plans annually based on testing results, and no less than quarterly throughout
+    the fiscal year, to ensure actions planned or taken are appropriately prioritized
+    and designed to mitigate risks of improper and unknown payments. VA monitors progress
+    and results of implementation on a quarterly basis. Additionally, an effectiveness
+    review is performed annually to measure if an action planned has reduced or is
+    properly designed to reduce improper and unknown payments for a specific root
+    cause based on a set benchmark. The annual effectiveness review process allows
+    VA to create or update actions as necessary to ensure continued progress in the
+    remediation of improper and unknown payments. If areas for improvement are identified,
+    VA conducts a root cause analysis to refine the program’s mitigation strategies
+    to ensure they addressed and reduced root cause(s) of error. VA’s process for
+    development of corrective actions and mitigation strategies ensures the severity
+    of the error is considered and the action is adequate. VA’s corrective actions
+    and mitigation strategies were evaluated by the Office of Inspector General during
+    their FY2025 annual audit and determined reasonable with no recommendations for
+    improvement. Through implementation of effective corrective actions and mitigation
+    strategies, Supplies and Materials reduced the improper and unknown payment rate
+    from 7.57% in FY 2024 to 0.62% in FY 2025, or a 6.95%reduction despite a $233.29
+    million increase in outlays.
+  Corrective_Actions_Appropriateness: 'Actions taken regarding change process included
+    VA improving contract processes for the Medical Supplies Prime Vendor payments
+    and the Nutrition
+
+    and Food Services payments to ensure payment accuracy. In addition, VA provided
+    education and training to contracting officers and/or ordering officials
+
+    to ensure contracts contained required signatures and proper approvals were obtained
+    prior to placing orders. Finally, VA restructured existing contracts
+
+    and provided education and training to certifying officials for rejecting invoices
+    that do not comply with contract requirements. These actions were
+
+    designed to reduce overpayments attributed to failure to access data/information,
+    technically improper payments attributed to statutory requirements of
+
+    program not met, and unknown payments attributed to being unable to determine
+    whether proper or improper. Change process was the best mitigation
+
+    strategy in order to develop stronger internal controls and mitigate risks within
+    existing payment processes. The completion date was June 26, 2025.'
+  Corrective_Actions_Proportion: 'The Supplies and Materials program continues to
+    prioritize and implement corrective actions and mitigation strategies designed
+    to reduce improper and
+
+    unknown payments. In FY 2025, VA performed an effectiveness review of the actions
+    developed and implemented in FY 2024. The purpose of this
+
+    review was to assess the appropriateness of corrective actions or mitigation strategies
+    and whether the actions were effectively implemented and
+
+    prioritized within the agency. The results for the Supplies and Materials program
+    indicated that of the two actions assessed, both were determined to be
+
+    ineffective to mitigate the root cause. In FY 2025, Supplies and Materials reduced
+    improper and unknown payments from $280.67 million in FY 2024 to
+
+    $24.35 million in FY 2025, or a 91.32% reduction, despite a $233.29 million increase
+    in outlays. For errors tied to failure to statutory requirements of
+
+    program were not met, associated corrective actions or mitigation strategies contributed
+    to a total reduction in the improper payment amount from
+
+    $215.20 million in FY 2024 to $0.00 in FY 2025, or a 100% reduction. For errors
+    tied to unable to determine whether proper or improper, associated
+
+    corrective actions or mitigation strategies contributed to a total reduction in
+    the improper unknown payment amount from $65.16 million in FY 2024 to
+
+    $23.42 million in FY 2025, or a 64.06% reduction. VA will perform an effectiveness
+    review in FY 2026 of the corrective action plans developed and
+
+    implemented in FY 2025 due to the time needed to develop and implement actions
+    as well as to impact the payment process.'
+  End_Date: 09/2024
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: true
+  Hide_Program_Results_Future_Outlook_Baseline_Table: true
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Accountability_Description: 'This program was determined compliant in FY 2025
+    by the Office of Inspector General and reported improper and unknown payments
+    below required
+
+    thresholds for a compliance determination in FY 2026. In FY 2026, VA executive
+    managers and program personnel will continue responsibilities for
+
+    internal control outlined in the Government Accountability Office''s Green Book.
+    VA’s executive managers and program personnel will be held accountable
+
+    through annual performance criteria contained within their performance plans.
+    Performance criteria will be unique to and inclusive of all their duties.
+
+    Depending on each employees’ responsibilities, duties can include preventing improper
+    and unknown payments through effective internal controls,
+
+    recovering overpayments if appropriate, and implementing remediation efforts for
+    known causes of improper and unknown payments. State and local
+
+    governments are not involved in the execution of this program.'
+  IP_Unknown_Target_Rate: 0
+  Improper_Payments_Rate: 0.0236088546
+  Insufficient_Documentation_to_Determine: 23.42
+  Margin_of_Error: '1.67'
+  Non_Monetary_Loss_Amount: '0'
+  Overpayment_Combined_Mitigations_Taken: Change Process
+  Payment_Accuracy_Rate: 99.38185418359058
+  Program_Additional_Information: The Supplies and Materials program continued to
+    prioritize and implement corrective actions and mitigation strategies that reduce
+    improper and unknown payments. Supplies and Materials achieved an improper and
+    unknown payment rate under the statutory threshold for significant improper and
+    unknown payments of both 1.5% and amount over $10 million remains under the 10%
+    compliance threshold established by the Payment Integrity Information Act of 2019.
+    Specifically, from FY 2024 to FY 2025, the Supplies and Materials program decreased
+    its improper and unknown error rate from 7.57% to 0.62%, a reduction of 6.95%
+    and improper and unknown payments from $280.67 million to $24.35 million ($256.32
+    million reduction). At this time, VA is reporting under the statutory thresholds
+    established for payment integrity and the Supplies and Materials program will
+    revert to fulfilling legislative requirements for risk assessments no less than
+    every three years. Management will also continue its responsibilities for internal
+    controls outlined in the Government Accountability Office's Green Book.
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: At this time, VA is reporting under the statutory threshold
+    for significant improper payments and will revert to fulfilling legislative requirements
+    for risk no less than every three years. Management will continue its responsibilities
+    for internal control outlined in the Government Accountability Office's Green
+    Book.
+  Start_Date: 10/2023
+  Technical_IP_Amount: '0.0'
+  Unknown_Mitigations_Taken: Change Process
+  Unknown_Payments_Rate: 0.5945369618196589
+  Year: 2025
+  detail_IP_Causes: 'VA overpayments are within the agency''s control and occurred
+    when the program failed to access the data/information needed. Specifically,
+
+    overpayments occurred when VA failed to validate that the correct dollar amount
+    was billed according to the contract price schedule when certifying the
+
+    payment or when VA failed to verify that good(s) were received at time of payment.
+    VA unknown payments occurred when VA had missing or insufficient
+
+    documentation to validate the appropriate contract pricing. Specifically, the
+    agency was unable to determine the appropriate pricing due to the lack of
+
+    information in the contract price schedule. Without documentation supporting the
+    appropriate contract price schedule, the program is unable to determine
+
+    whether the amount paid is proper or improper.'
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '0.93'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '0.0'
+  eligibility_aggregated:
+  - Theme: Contractor or Provider Status
+    Theme_Description: "Status or standing of contractor or provider, including recipient\
+      \ eligibility to \r\nprovide medical services"
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.93
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.93'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.0'
 Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[2.03, 8.72, 0.31]'
-Payment_Accuracy_Amounts: '[3144.0980000000004, 3193.8, 3425.2400000000002]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 3939.2
+Overpayment_Amounts: '[2.03, 8.72, 0.31, 0.93]'
+Payment_Accuracy_Amounts: '[3144.0980000000004, 3193.8, 3425.2400000000002, 3914.85]'
+Payment_Accuracy_Rate: 99.38185418359058
 Phase_2_Program: 0
 Program_Name: Supplies and Materials
 Scorecard_Links: []
-Technically_Improper_Amounts: '[129.76, 75.67, 215.2]'
-Underpayment_Amounts: '[0.002, 0, 0]'
-Unknown_Amounts: '[0.22, 33.07, 65.16]'
-detail_Reduction_Target: '3.50'
+Technically_Improper_Amounts: '[129.76, 75.67, 215.2, 0]'
+Underpayment_Amounts: '[0.002, 0, 0, 0]'
+Unknown_Amounts: '[0.22, 33.07, 65.16, 23.42]'
 layout: program-specific
 permalink: program/va-supplies-and-materials
 ---

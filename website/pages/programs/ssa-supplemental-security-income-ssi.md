@@ -149,6 +149,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2022
+  detail_Reduction_Target: '7.2'
   overpayments:
     Address_Location: 100.703387
     Contractor_Provider_Status: 0.0
@@ -183,6 +184,132 @@ Data_By_Year:
     Inability_to_Access_Data: 299.386902
     Underpayments_Amount: '873.49255433'
 - Actions_Taken:
+  - Action_Taken: Planned
+    Action_Type: Automation
+    Completion_Date: FY2027+
+    Description_Action_Taken: 'To address improper payments caused by failure to access
+      data or information needed, we are developing a Consolidated Claims Experience
+      (CCE) application.  CCE will be a single-entry point for employees to process
+      all agency benefits.  CCE includes eligibility screening, initial claims intake
+      processing, and post-entitlement activities.  CCE will automate more computations,
+      reduce manual actions, assist in the identification of potential or missed entitlements,
+      and include dynamic pathing and policy references within the application.  Currently,
+      only Supplemental Security Income (SSI) is available in CCE with additional
+      claim types (i.e., Old-Age, Survivors, and Disability Insurance and Title 18)
+      to be added in future releases.  In fiscal year (FY) 2023 there were several
+      CCE updates in the SSI program to improve CCE software performance, correct
+      software problems, and respond to employee feedback.  In FY 2024, we will release
+      several additional CCE enhancements in the SSI program and continue efforts
+      to expand on additional claim types (i.e., Old-Age, Survivors, and Disability
+      Insurance and Medicare) for future increments.
+
+
+      To address improper payments caused by failure to access data or information
+      needed, we developed the Technician Experience Dashboard (TED).  TED is our
+      enterprise customer relationship management solution that will provide a single
+      location for information about our customers’ interactions with the agency to
+      make it easier for our employees to help the public and increases efficiency
+      and accuracy, improving the overall customer experience.  In fiscal year (FY)
+      2023, TED added Registration and Customer Support, Upload Document workflows,
+      and made general improvements to the application.  In June 2023, TED became
+      available for use in the Boston region.  We plan to expand TED to the remaining
+      regions in FY 2024.
+
+
+      To address improper payments caused by inability to access data or information
+      needed, we developed a tool to submit and sign documents electronically.  In
+      July 2023, we released the Upload Documents service into production and in September
+      2023 we added the electronic signature feature, which addresses the Executive
+      Order on Transforming Federal Customer Experience and Service Delivery to Rebuild
+      Trust in Government.  We plan to expand Upload Documents to all field offices
+      in fiscal year 2024 and will continue to expand the types of documents that
+      can be uploaded and signed electronically.
+
+      '
+    Mitigation_Strategy: app1_1
+  - Action_Taken: Planned
+    Action_Type: Behavioral/Psych Influence
+    Completion_Date: FY2027+
+    Description_Action_Taken: 'To address improper payments caused by inability to
+      access the data or information needed, we inform Supplemental Security Income
+      (SSI) recipients and representative payees about their reporting responsibilities
+      through various methods:  during interviews, with application and redetermination
+      forms, in some award and post-eligibility notices, in check envelope enclosures,
+      and in a booklet that accompanies award notices.  Our annual Cost of Living
+      Adjustment notices include reminders about reporting changes that could affect
+      payments and eligibility.  In September 2013, we implemented an automated SSI
+      wage reporting reminder for individuals who sign up to receive a monthly email
+      or text message to report wages for the prior month.  We promote use of our
+      online wage reporting application, myWageReport (myWR), on social media with
+      training videos including information about the importance of creating a my
+      Social Security account; how to submit wages using myWR, SSA Mobile Wage Reporting,
+      or SSI Telephone Wage Reporting; who can report; and reminders on reporting
+      responsibilities.  In November 2022, we issued reporting responsibilities reminders
+      to SSI recipients with a my Social Security account.  Finally, we engage the
+      advocate community and other third-party groups and organizations to help the
+      us reach more people who depend on our services by emailing Dear Colleague letters.  In
+      August 2023, we sent a Dear Colleague letter asking for their assistance in
+      reminding SSI clients on reporting changes in circumstances that may affect
+      their payments.
+
+
+      To address improper payments caused by inability to access the data or information
+      needed, we are working to simplify our notices.  Although we made efforts to
+      simplify notices, some of our notices and communications can be complex, lengthy,
+      and difficult to comprehend.  The difficulty can sometimes result from the complexity
+      of our programs and legal requirements to communicate certain information.  We
+      will sample notices and other communications and assess the quality and understandability
+      of our communications.  We will inform and remind recipients about reporting
+      responsibilities.
+
+      '
+    Mitigation_Strategy: app2_1
+  - Action_Taken: Planned
+    Action_Type: Change Process
+    Completion_Date: FY2024
+    Description_Action_Taken: 'Our Agency Strategic Plan for Fiscal Years (FY) 2022-2026
+      established the goal to improve access to our programs.  To address improper
+      payments caused by data or information needed does not exist, inability to access
+      the data or information needed, and failure to access data or information needed,
+      we are proposing changes to how in-kind support and maintenance (ISM) is calculated.  We
+      are working on three regulatory changes to help simplify ISM policies, including:
+
+
+      Omitting food from ISM (Notice of Proposed Rule Making (NPRM) published February
+      2023).  The proposed rule would remove food as a source of ISM, so that food
+      assistance received from others does not impact claimants’ benefit eligibility
+      and amounts.  We also proposed to add conforming language to our definition
+      of income, excluding food from the ISM calculation.
+
+
+      Expanding the definition of a Public Assistance Household (NPRM published October
+      2023).  The proposed rule would add the Supplemental Nutrition Assistance Program
+      to the definition of Public Income Maintenance Payments considered for treatment
+      of a public assistance household; if every household member receives one of
+      the specified types of assistance, we assume that other household members need
+      their income to support their own needs and do not subject the Supplemental
+      Security Income claimant to ISM or deeming.
+
+
+      Expanding the Rental Subsidy Policy for SSI Applicants and Recipients (NPRM
+      published August 2023).  The proposed rule would expand a rental subsidy exception
+      in effect in seven States to the whole nation, exempting claimants from ISM
+      if they pay at least one third of their SSI benefit on rent.
+
+
+      To address improper payments caused by inability to access the data or information
+      needed, we created the Supplemental Security Income (SSI) Simplification Workgroup.  In
+      April 2021, the agency convened the SSI Simplification Workgroup to address
+      concerns regarding the complexity of our paper SSI application form, SSA-8000.  The
+      workgroup, consisting of cross-component subject matter experts, is a collaborative
+      effort to shorten and simplify the form.  Our goal is to develop a fully online-simplified
+      SSI application process.  The first step is to implement, in late 2023, the
+      SSI Simplification Phase I initiative, or iSSI.  iSSI will be a pathway in the
+      existing Social Security internet Claim System that will streamline and shorten
+      the application process for SSI disability applicants.
+
+      '
+    Mitigation_Strategy: app4_1
   - Action_Taken: Planned
     Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2027+
@@ -259,90 +386,6 @@ Data_By_Year:
       '
     Mitigation_Strategy: app5_1
   - Action_Taken: Planned
-    Action_Type: Behavioral/Psych Influence
-    Completion_Date: FY2027+
-    Description_Action_Taken: 'To address improper payments caused by inability to
-      access the data or information needed, we inform Supplemental Security Income
-      (SSI) recipients and representative payees about their reporting responsibilities
-      through various methods:  during interviews, with application and redetermination
-      forms, in some award and post-eligibility notices, in check envelope enclosures,
-      and in a booklet that accompanies award notices.  Our annual Cost of Living
-      Adjustment notices include reminders about reporting changes that could affect
-      payments and eligibility.  In September 2013, we implemented an automated SSI
-      wage reporting reminder for individuals who sign up to receive a monthly email
-      or text message to report wages for the prior month.  We promote use of our
-      online wage reporting application, myWageReport (myWR), on social media with
-      training videos including information about the importance of creating a my
-      Social Security account; how to submit wages using myWR, SSA Mobile Wage Reporting,
-      or SSI Telephone Wage Reporting; who can report; and reminders on reporting
-      responsibilities.  In November 2022, we issued reporting responsibilities reminders
-      to SSI recipients with a my Social Security account.  Finally, we engage the
-      advocate community and other third-party groups and organizations to help the
-      us reach more people who depend on our services by emailing Dear Colleague letters.  In
-      August 2023, we sent a Dear Colleague letter asking for their assistance in
-      reminding SSI clients on reporting changes in circumstances that may affect
-      their payments.
-
-
-      To address improper payments caused by inability to access the data or information
-      needed, we are working to simplify our notices.  Although we made efforts to
-      simplify notices, some of our notices and communications can be complex, lengthy,
-      and difficult to comprehend.  The difficulty can sometimes result from the complexity
-      of our programs and legal requirements to communicate certain information.  We
-      will sample notices and other communications and assess the quality and understandability
-      of our communications.  We will inform and remind recipients about reporting
-      responsibilities.
-
-      '
-    Mitigation_Strategy: app2_1
-  - Action_Taken: Not Completed
-    Action_Type: Change Process
-    Completion_Date: The corrective action was not fully completed this reporting
-      period
-    Description_Action_Taken: 'Our Agency Strategic Plan for Fiscal Years (FY) 2022-2026
-      established the goal to improve access to our programs.  To address improper
-      payments caused by data or information needed does not exist, inability to access
-      the data or information needed, and failure to access data or information needed,
-      we are proposing changes to how in-kind support and maintenance (ISM) is calculated.  We
-      are working on three regulatory changes to help simplify ISM policies, including:
-
-
-      Omitting food from ISM (Notice of Proposed Rule Making (NPRM) published February
-      2023).  The proposed rule would remove food as a source of ISM, so that food
-      assistance received from others does not impact claimants’ benefit eligibility
-      and amounts.  We also proposed to add conforming language to our definition
-      of income, excluding food from the ISM calculation.
-
-
-      Expanding the definition of a Public Assistance Household (NPRM published October
-      2023).  The proposed rule would add the Supplemental Nutrition Assistance Program
-      to the definition of Public Income Maintenance Payments considered for treatment
-      of a public assistance household; if every household member receives one of
-      the specified types of assistance, we assume that other household members need
-      their income to support their own needs and do not subject the Supplemental
-      Security Income claimant to ISM or deeming.
-
-
-      Expanding the Rental Subsidy Policy for SSI Applicants and Recipients (NPRM
-      published August 2023).  The proposed rule would expand a rental subsidy exception
-      in effect in seven States to the whole nation, exempting claimants from ISM
-      if they pay at least one third of their SSI benefit on rent.
-
-
-      To address improper payments caused by inability to access the data or information
-      needed, we created the Supplemental Security Income (SSI) Simplification Workgroup.  In
-      April 2021, the agency convened the SSI Simplification Workgroup to address
-      concerns regarding the complexity of our paper SSI application form, SSA-8000.  The
-      workgroup, consisting of cross-component subject matter experts, is a collaborative
-      effort to shorten and simplify the form.  Our goal is to develop a fully online-simplified
-      SSI application process.  The first step is to implement, in late 2023, the
-      SSI Simplification Phase I initiative, or iSSI.  iSSI will be a pathway in the
-      existing Social Security internet Claim System that will streamline and shorten
-      the application process for SSI disability applicants.
-
-      '
-    Mitigation_Strategy: atp4_1
-  - Action_Taken: Planned
     Action_Type: Predictive Analytics
     Completion_Date: FY2027+
     Description_Action_Taken: 'To address improper payments caused by inability to
@@ -369,51 +412,6 @@ Data_By_Year:
 
       '
     Mitigation_Strategy: app7_1
-  - Action_Taken: Not Completed
-    Action_Type: Predictive Analytics
-    Completion_Date: The corrective action was not fully completed this reporting
-      period
-    Description_Action_Taken: 'To address improper payments caused by inability to
-      access the data or information needed, we look for Old-Age, Survivors, and Disability
-      Insurance (OASDI) beneficiaries who are potentially entitled for higher Supplemental
-      Security Income (SSI) payments than their OASDI benefit.  From March to August
-      2020, SSI applications decreased by 30 percent when compared to prior years.  We
-      analyzed a range of beneficiary characteristics to determine if any groups were
-      disproportionately affected during the COVID-19 pandemic.  We identified a population
-      of 1.4 million individuals who are currently receiving OASDI benefits that are
-      less than the SSI federal benefit rate.  Based on these findings, we mailed
-      approximately 200,000 letters to beneficiaries potentially eligible for SSI,
-      with a focus on the aged and limited English proficiency populations.  The preliminary
-      mailing occurred December 2020–March 2021.  We released the remaining 1.2 million
-      mailers on a staggered schedule from June 2021–November 2021, pausing to avoid
-      increased call months, and resumed the issuance of mailers from April 2022–December
-      2022.  Beneficiaries who had an email registered with the agency also received
-      an email.  In March 2023, we began releasing mailers targeted to households
-      within underserved zip codes.  The mailers were sent weekly through September
-      2023 in batches of about 100,000 in both English and Spanish.
-
-
-      To address improper payments caused by inability to access the data or information
-      needed and failure to access data or information needed, we conduct non-medical
-      Supplemental Security Income (SSI) redeterminations (RZ).  A non-medical SSI
-      RZ is a complete review of a recipient’s or couple’s non-medical eligibility
-      factors (resources, income, and living arrangements) to determine whether the
-      recipient or couple has remained eligible since the time of the previous decision,
-      is still eligible for SSI, and has been receiving and will continue to receive
-      the correct SSI payment amount.  To ensure the most cost-effective investment
-      of agency resources, we use a predictive model to estimate the likelihood and
-      magnitude of overpayments to select cases for discretionary RZs.  Other cases
-      are selected for RZs outside our modeling process based on selected case characteristics,
-      such as manual deeming of income.  The RZ process also selects limited issue
-      (LI) reviews, which are reviews of a specific issue or event related to a recipient’s
-      or couple’s non-medical eligibility factors to determine whether the recipient
-      or couple is still eligible for and receiving the correct SSI payment.  In December
-      2022, we issued guidance on achieving fiscal year (FY) 2023 RZ and LI workload
-      goals, with reminders to field offices about best practices and following the
-      order of priority when scheduling RZs and LIs.  In FY 2023, we completed more
-      than 2.5 million SSI non-medical RZs and LIs.  We plan to process about 2.5
-      million SSI RZs and LIs in FY 2024.'
-    Mitigation_Strategy: atp7_1
   - Action_Taken: Not Completed
     Action_Type: Automation
     Completion_Date: The corrective action was not fully completed this reporting
@@ -513,49 +511,6 @@ Data_By_Year:
       of our communications.  We will inform and remind recipients about reporting
       responsibilities.'
     Mitigation_Strategy: atp2_1
-  - Action_Taken: Planned
-    Action_Type: Automation
-    Completion_Date: FY2027+
-    Description_Action_Taken: 'To address improper payments caused by failure to access
-      data or information needed, we are developing a Consolidated Claims Experience
-      (CCE) application.  CCE will be a single-entry point for employees to process
-      all agency benefits.  CCE includes eligibility screening, initial claims intake
-      processing, and post-entitlement activities.  CCE will automate more computations,
-      reduce manual actions, assist in the identification of potential or missed entitlements,
-      and include dynamic pathing and policy references within the application.  Currently,
-      only Supplemental Security Income (SSI) is available in CCE with additional
-      claim types (i.e., Old-Age, Survivors, and Disability Insurance and Title 18)
-      to be added in future releases.  In fiscal year (FY) 2023 there were several
-      CCE updates in the SSI program to improve CCE software performance, correct
-      software problems, and respond to employee feedback.  In FY 2024, we will release
-      several additional CCE enhancements in the SSI program and continue efforts
-      to expand on additional claim types (i.e., Old-Age, Survivors, and Disability
-      Insurance and Medicare) for future increments.
-
-
-      To address improper payments caused by failure to access data or information
-      needed, we developed the Technician Experience Dashboard (TED).  TED is our
-      enterprise customer relationship management solution that will provide a single
-      location for information about our customers’ interactions with the agency to
-      make it easier for our employees to help the public and increases efficiency
-      and accuracy, improving the overall customer experience.  In fiscal year (FY)
-      2023, TED added Registration and Customer Support, Upload Document workflows,
-      and made general improvements to the application.  In June 2023, TED became
-      available for use in the Boston region.  We plan to expand TED to the remaining
-      regions in FY 2024.
-
-
-      To address improper payments caused by inability to access data or information
-      needed, we developed a tool to submit and sign documents electronically.  In
-      July 2023, we released the Upload Documents service into production and in September
-      2023 we added the electronic signature feature, which addresses the Executive
-      Order on Transforming Federal Customer Experience and Service Delivery to Rebuild
-      Trust in Government.  We plan to expand Upload Documents to all field offices
-      in fiscal year 2024 and will continue to expand the types of documents that
-      can be uploaded and signed electronically.
-
-      '
-    Mitigation_Strategy: app1_1
   - Action_Taken: Completed
     Action_Type: Training
     Completion_Date: FY2023 Q4
@@ -571,25 +526,10 @@ Data_By_Year:
       transitional instructions for applying income and continued resource exclusions
       to pandemic-related disaster assistance.
     Mitigation_Strategy: atp3_1
-  - Action_Taken: Completed
-    Action_Type: Audit
-    Completion_Date: FY2023 Q4
-    Description_Action_Taken: To address improper payments caused by data or information
-      needed does not exist, inability to access the data or information needed, and
-      failure to access data or information needed, we developed a logic model framework
-      to measure the effectiveness of completed corrective actions that includes establishing
-      benchmarks to evaluate the corrective actions, assessing the impact, if possible,
-      and determining whether additional mitigation activities are necessary.  We
-      monitor the progress of corrective actions for financial accounts, wages, in-kind
-      support and maintenance, death, absence from the United States, and non-home
-      real property (NHRP), which are the leading causes of Supplemental Security
-      Income improper payments.  In fiscal year (FY) 2022, we completed the evaluation
-      for wages and NHRP.  In FY 2023, we completed the evaluation of medical continuing
-      disability review cessations and Improving Death Data Processing.
-    Mitigation_Strategy: atp6_1
-  - Action_Taken: Planned
+  - Action_Taken: Not Completed
     Action_Type: Change Process
-    Completion_Date: FY2024
+    Completion_Date: The corrective action was not fully completed this reporting
+      period
     Description_Action_Taken: 'Our Agency Strategic Plan for Fiscal Years (FY) 2022-2026
       established the goal to improve access to our programs.  To address improper
       payments caused by data or information needed does not exist, inability to access
@@ -632,7 +572,7 @@ Data_By_Year:
       the application process for SSI disability applicants.
 
       '
-    Mitigation_Strategy: app4_1
+    Mitigation_Strategy: atp4_1
   - Action_Taken: Not Completed
     Action_Type: Cross Enterprise Sharing
     Completion_Date: The corrective action was not fully completed this reporting
@@ -719,6 +659,67 @@ Data_By_Year:
 
       '
     Mitigation_Strategy: atp5_1
+  - Action_Taken: Completed
+    Action_Type: Audit
+    Completion_Date: FY2023 Q4
+    Description_Action_Taken: To address improper payments caused by data or information
+      needed does not exist, inability to access the data or information needed, and
+      failure to access data or information needed, we developed a logic model framework
+      to measure the effectiveness of completed corrective actions that includes establishing
+      benchmarks to evaluate the corrective actions, assessing the impact, if possible,
+      and determining whether additional mitigation activities are necessary.  We
+      monitor the progress of corrective actions for financial accounts, wages, in-kind
+      support and maintenance, death, absence from the United States, and non-home
+      real property (NHRP), which are the leading causes of Supplemental Security
+      Income improper payments.  In fiscal year (FY) 2022, we completed the evaluation
+      for wages and NHRP.  In FY 2023, we completed the evaluation of medical continuing
+      disability review cessations and Improving Death Data Processing.
+    Mitigation_Strategy: atp6_1
+  - Action_Taken: Not Completed
+    Action_Type: Predictive Analytics
+    Completion_Date: The corrective action was not fully completed this reporting
+      period
+    Description_Action_Taken: 'To address improper payments caused by inability to
+      access the data or information needed, we look for Old-Age, Survivors, and Disability
+      Insurance (OASDI) beneficiaries who are potentially entitled for higher Supplemental
+      Security Income (SSI) payments than their OASDI benefit.  From March to August
+      2020, SSI applications decreased by 30 percent when compared to prior years.  We
+      analyzed a range of beneficiary characteristics to determine if any groups were
+      disproportionately affected during the COVID-19 pandemic.  We identified a population
+      of 1.4 million individuals who are currently receiving OASDI benefits that are
+      less than the SSI federal benefit rate.  Based on these findings, we mailed
+      approximately 200,000 letters to beneficiaries potentially eligible for SSI,
+      with a focus on the aged and limited English proficiency populations.  The preliminary
+      mailing occurred December 2020–March 2021.  We released the remaining 1.2 million
+      mailers on a staggered schedule from June 2021–November 2021, pausing to avoid
+      increased call months, and resumed the issuance of mailers from April 2022–December
+      2022.  Beneficiaries who had an email registered with the agency also received
+      an email.  In March 2023, we began releasing mailers targeted to households
+      within underserved zip codes.  The mailers were sent weekly through September
+      2023 in batches of about 100,000 in both English and Spanish.
+
+
+      To address improper payments caused by inability to access the data or information
+      needed and failure to access data or information needed, we conduct non-medical
+      Supplemental Security Income (SSI) redeterminations (RZ).  A non-medical SSI
+      RZ is a complete review of a recipient’s or couple’s non-medical eligibility
+      factors (resources, income, and living arrangements) to determine whether the
+      recipient or couple has remained eligible since the time of the previous decision,
+      is still eligible for SSI, and has been receiving and will continue to receive
+      the correct SSI payment amount.  To ensure the most cost-effective investment
+      of agency resources, we use a predictive model to estimate the likelihood and
+      magnitude of overpayments to select cases for discretionary RZs.  Other cases
+      are selected for RZs outside our modeling process based on selected case characteristics,
+      such as manual deeming of income.  The RZ process also selects limited issue
+      (LI) reviews, which are reviews of a specific issue or event related to a recipient’s
+      or couple’s non-medical eligibility factors to determine whether the recipient
+      or couple is still eligible for and receiving the correct SSI payment.  In December
+      2022, we issued guidance on achieving fiscal year (FY) 2023 RZ and LI workload
+      goals, with reminders to field offices about best practices and following the
+      order of priority when scheduling RZs and LIs.  In FY 2023, we completed more
+      than 2.5 million SSI non-medical RZs and LIs.  We plan to process about 2.5
+      million SSI RZs and LIs in FY 2024.'
+    Mitigation_Strategy: atp7_1
   Agency_Needs_Satisfied: 'Internal Controls:  We have a strong internal control environment
     that has always included controls over our benefit payment and debt management
     processes.  Our existing internal control environment and assurance processes
@@ -867,6 +868,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: '7.2'
   overpayments:
     Address_Location: 51.581884
     Contractor_Provider_Status: 0.0
@@ -1167,6 +1169,191 @@ Data_By_Year:
       review requests (both new and revised language) to make sure it is in plain
       language that people can read and understand.'
     Mitigation_Strategy: app2_1
+  - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2025
+    Description_Action_Taken: To address improper payments caused by failure to access
+      data or information needed, we released updated guidance.  In June 2022, and
+      subsequently in April 2023 and August 2023, we released updated guidance on
+      special processing instructions for applying Supplemental Security Income (SSI)
+      and resource exclusions to pandemic-related disaster assistance.  In March 2023,
+      and subsequently in April 2023, we released updated pandemic related assistance
+      that meets the criteria for the disaster assistance exclusion chart.  In April
+      2023, we released reminders to ensure that SSI underpayment reviews are documented
+      and completed in accordance with policy.  In August 2023, we provided post-pandemic
+      transitional instructions for applying income and continued resource exclusions
+      to pandemic-related disaster assistance.  The transitional instructions are
+      still in place in 2024 until permanent policy instructions are published.  For
+      recipients who incurred overpayments during COVID-19, we issued internal guidance
+      for technicians reminding them how to adjudicate waiver requests.  We are drafting
+      permanent policy instructions to replace the transitional instructions for applying
+      income and continued resource exclusions to pandemic-related disaster assistance.  We
+      plan to publish the permanent policy instructions in the second quarter of fiscal
+      year 2025.
+    Mitigation_Strategy: app3_1
+  - Action_Taken: Planned
+    Action_Type: Change Process
+    Completion_Date: FY2025
+    Description_Action_Taken: 'To address improper payments caused by inability to
+      access the data or information needed, we are working to reduce the complexity
+      of our Supplemental Security Income (SSI) application.  In August 2023, the
+      agency reconvened the SSI Simplification Workgroup to address concerns regarding
+      the complexity of our paper SSI application form, SSA-8000.  The workgroup,
+      consisting of cross-component subject matter experts, is a collaborative effort
+      to shorten and simplify the SSI application process in a three-phased approach:  Phase
+      I – Focuses on an expansion of the current internet claim (iClaim) with added
+      SSI questions; Phase II – Focuses on technician supported modalities, which
+      will encompass adult, aged, child, married, and third-party applications through
+      the service delivery channels of in-person, telephone, and forms; and Phase
+      III – This will establish an online, mobile-first, and public-facing system
+      for the SSI and Old-Age, Survivors, and Disability Insurance programs and other
+      applications, replicating the telephone, in-person, and paper service delivery
+      channels.  Human-centered design testing will be employed to shape the mobile-first
+      solution.  We completed the following in fiscal year 2024:  completed development
+      of the expansion of the SSI Simplification Phase I initiative, or iSSI process;
+      posted to the Federal Register Notice (FRN) and obtained feedback from the public;
+      reviewed the FRN comments and incorporated the feedback into our new three-phased
+      approach; and reviewed the plan for the new approach with advocates/representatives
+      and secured a decision to proceed from the Commissioner.  We plan to implement,
+      in late 2024, the expansion of iSSI for SSI disability applicants.  The iSSI
+      Release will expand iClaim and introduce as few as 12 user-tested, SSI-specific
+      questions across 6 screens, shaping the simplified SSI application to be launched
+      in late 2024.  We also plan to complete the following:  remove iClaim exclusions
+      to allow online processing of approximately 5000 additional claims; finalize
+      training and marketing materials; and complete final testing and prepare for
+      a production release of the expanded iSSI.'
+    Mitigation_Strategy: app4_1
+  - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
+    Completion_Date: FY2028+
+    Description_Action_Taken: 'To address improper payments caused by inability to
+      access the data or information needed and failure to access data or information
+      needed, we developed Access to Financial Institutions (AFI).  The purpose of
+      AFI is to identify resources in financial accounts; excess resources are a leading
+      cause of Supplemental Security Income (SSI) payment errors.  The AFI program
+      uses an electronic process with participating financial institutions to verify
+      bank account balances and detect undisclosed accounts in up to 10 nearby banks
+      based on the residential address.  In March 2023, we released Policy in Focus
+      training and issued a frontline broadcast to remind technicians of AFI and SSI
+      financial accounts policy.  In August 2023, we published AM-23048 - SSI Financial
+      Account Verification Reminders and issued a frontline broadcast to ensure that
+      technicians are reviewing the financial account pages in the SSI claims path
+      for accuracy before adjudicating an event.  We began analysis on optimizing
+      the use of AFI.  We expect to conclude our study on optimal frequency for use
+      of AFI and related recommendations in fiscal year 2025.
+
+
+      To address improper payments caused by inability to access the data or information
+      needed, we will pursue new data exchange partners from government and private
+      sectors in collaboration with our agency business sponsors.  We plan to expand
+      our outreach efforts with the Data Exchange Community of Practice (DXCOP) and
+      the States Data Exchange Community of Interest, to engage more agencies and
+      broaden the expansion of best practices toward streamlining the exchange of
+      data.  In fiscal year (FY) 2023, we implemented two new incoming data exchanges
+      with State foster care agencies.  For FY 2024, 24 states/entities signed an
+      Information Exchange Agreement and are participating, and 10 states signed the
+      Information Exchange Agreement of State Foster Data Exchanges.  These data exchanges
+      assist in avoiding improper payments when a child''s foster placement has changed.  We
+      continue to engage State agencies for the purpose of expanding this exchange.  In
+      June and September 2024, we held DXCOP meetings.  We continue to engage State
+      agencies for the purpose of expanding this exchange.  We plan to expand our
+      outreach efforts with the DXCOP and the States Data Exchange Community of Interest,
+      to engage more agencies and broaden the expansion of best practices toward streamlining
+      the exchange of data.
+
+
+      To address improper payments caused by inability to access the data or information
+      needed and failure to access data or information needed, we are improving our
+      death data processing.  We collect data from a variety of sources so that we
+      can administer our programs.  We have a contract with every State Bureau of
+      Vital Statistics (the custodians for death records) and with some jurisdictions
+      to provide us death data.  Since 2002, we worked with States that want and are
+      able to build a streamlined death registration process known as Electronic Death
+      Registration (EDR). As of January 2022, all 50 States report deaths through
+      the EDR process.  We plan to continue making progress in centralizing our death
+      inputs, improving the quality and processing of death data, and updating historical
+      death records in our databases.  In April 2024, for processing death reports,
+      we issued a reminder to technicians to the Death Information Processing System
+      for reports of death for enumerated individuals.  To improve the completeness
+      of our death information, we are in the early stages of contracting with the
+      National Association for Public Health Statistics and Information Systems on
+      the acquisition of historical State death records.  This effort will increase
+      the accuracy, integrity, and completeness of our death data.
+
+
+      To address improper payments caused by data or information needed does not exist
+      and failure to access data or information needed, we have a National Change
+      of Address (NCOA) contract and data exchange agreement with the U.S. Postal
+      Service (USPS) for the Old-Age, Survivors, and Disability Insurance (OASDI)
+      program.  We are electronically notified when an OASDI beneficiary reports an
+      address change to the USPS and in most cases, the new address information automatically
+      posts to our records.  We are determining the feasibility of the NCOA expansion
+      to the SSI program.  Based on NCOA data analysis, we are updating the existing
+      NCOA process before continuing to explore the feasibility of expansion to the
+      SSI program.  We are updating a notice to add a reminder informing concurrent
+      OASDI and SSI recipients to contact us because we may need additional information
+      regarding their living situation.  The notice will have clarified language to
+      concurrent OASDI and SSI recipients informing them to contact us to report living
+      arrangement changes that may have occurred with the address change received
+      through the NCOA process.
+
+
+      To address improper payments caused by inability to access the data or information
+      needed, and failure to access data or information needed, and to reduce the
+      reliance on self-reporting of wages, we are developing new wage reporting tools,
+      such as an automated information exchange with commercial payroll data providers
+      authorized by section 824 of the Bipartisan Budget Act of 2015, now referred
+      to as the Payroll Information Exchange (PIE).  In February 2024, we published
+      a Notice of Proposed Rulemaking (NPRM) describing the agency’s plans for accessing
+      and using information from payroll data providers to reduce improper payments
+      (overpayments and underpayments), which improves service to customers.  The
+      public comment period closed on April 15, 2024.  We are carefully considering
+      the comments as we draft the final rule, which is currently planned for publication
+      in winter of FY 2025.  In fiscal year 2024, we completed the automated PIE wage
+      reporting notices and created a limited issue diary to alert technicians when
+      incoming wage and employment information from PIE doesn''t automatically post
+      to the SSI record, requiring manual review and action.  We plan to implement
+      PIE in the Spring of 2025 through a phased approach.  This timeline will ensure
+      compliance with rulemaking requirements and allow us to respond to public concerns
+      from the NPRM public comment period.'
+    Mitigation_Strategy: app5_1
+  - Action_Taken: Planned
+    Action_Type: Predictive Analytics
+    Completion_Date: FY2028+
+    Description_Action_Taken: 'To address improper payments caused by inability to
+      access the data or information needed, we looked for Old-Age, Survivors, and
+      Disability Insurance (OASDI) beneficiaries who are potentially entitled for
+      higher Supplemental Security Income (SSI) payments than their OASDI benefit.  We
+      developed a “Potential Entitlements” Tactical Plan to educate people who may
+      be eligible for Social Security benefits, particularly Survivors’ benefits and
+      SSI.  It also includes targeted outreach by providing materials to third parties
+      and our regional communications staffs.  We also conducted a longitudinal study
+      on mailers in fiscal year (FY) 2024.  The draft is currently in the review/clearance
+      process.  Communications tactics from our Tactical Plan will continue through
+      calendar year 2024.
+
+
+      To address improper payments caused by inability to access the data or information
+      needed and failure to access data or information needed, we conduct non-medical
+      Supplemental Security Income (SSI) redeterminations (RZ).  A non-medical SSI
+      RZ is a complete review of a recipient’s or couple’s non-medical eligibility
+      factors (resources, income, and living arrangements) to determine whether the
+      recipient or couple has remained eligible since the time of the previous decision,
+      is still eligible for SSI, and has been receiving and will continue to receive
+      the correct SSI payment amount.  To ensure the most cost-effective investment
+      of agency resources, we use a predictive model to estimate the likelihood and
+      magnitude of overpayments to select cases for discretionary RZs.  Other cases
+      are selected for RZs outside our modeling process based on selected case characteristics,
+      such as manual deeming of income.  The RZ process also selects limited issue
+      (LI) reviews, which are reviews of a specific issue or event related to a recipient’s
+      or couple’s non-medical eligibility factors to determine whether the recipient
+      or couple is still eligible for and receiving the correct SSI payment.  In December
+      2023, we issued guidance on achieving FY 2024 RZ and LI workload goals, with
+      reminders to field offices about best practices and following the order of priority
+      when scheduling RZs and LIs.  In FY 2024, we completed more than 2.5 million
+      SSI non-medical RZs and LIs.  We plan to process about 2.5 million SSI RZs and
+      LIs in FY 2025.'
+    Mitigation_Strategy: app7_1
   - Action_Taken: Not Completed
     Action_Type: Automation
     Completion_Date: The corrective action was not fully completed this reporting
@@ -1258,6 +1445,70 @@ Data_By_Year:
       support to our mutual customers.'
     Mitigation_Strategy: atp1_1
   - Action_Taken: Not Completed
+    Action_Type: Behavioral/Psych Influence
+    Completion_Date: The corrective action was not fully completed this reporting
+      period
+    Description_Action_Taken: 'To address improper payments caused by inability to
+      access the data or information needed, we inform Supplemental Security Income
+      (SSI) recipients and representative payees about their reporting responsibilities
+      through various methods:  during interviews, with application and redetermination
+      forms, in some award and post-eligibility notices, in check envelope enclosures,
+      and in a booklet that accompanies award notices.  Our annual Cost of Living
+      Adjustment notices include reminders about reporting changes that could affect
+      payments and eligibility.  In September 2013, we implemented an automated SSI
+      wage reporting reminder for individuals who sign up to receive a monthly email
+      or text message to report wages for the prior month.  We promote use of our
+      online wage reporting application, myWageReport (myWR), on social media with
+      training videos including information about the importance of creating a my
+      Social Security account; how to submit wages using myWR, SSA Mobile Wage Reporting,
+      or SSI Telephone Wage Reporting; who can report; and reminders on reporting
+      responsibilities.  From October 2023 through February 2024, we published social
+      media posts on Facebook and X sharing a link to our YouTube video to help beneficiaries
+      learn why it is important to report wages and the automated electronic options
+      for wage reporting.  In March 2024, we released a Dear Colleague Letter to advocates
+      reminding them about SSI reporting responsibilities and the importance of ensuring
+      we have current contact information.  In April 2024, we released a blog that
+      explains to SSI recipients the importance of reporting their financial accounts.  The
+      blog provides examples of financial accounts and informs the reader about Achieving
+      a Better Life Experience accounts.  In July 2024, we published a blog about
+      the agency’s commitment to improve timely delivery of payments to SSI recipients
+      and our progress addressing underpayments.  In August 2024, we published a blog
+      that explains to SSI recipients the importance of reporting life changes to
+      Social Security.  The blog provides examples of life changes that need to be
+      reported to avoid overpayments, how to report these changes, and where to obtain
+      more information.  In July and August of 2024, we used our social media channels
+      to post reminders for our beneficiaries about the importance of promptly reporting
+      changes to their income, resources, and living arrangements to ensure accurate
+      benefits and avoid overpayments.  We plan to use our social media channels to
+      post reminders for our recipients about the importance of promptly reporting
+      changes to their income, resources, and living arrangements to ensure accurate
+      payments and avoid overpayments.  These posts also inform recipients how we
+      are required by law to adjust payments or recover debts when people receive
+      payments they are not entitled to.
+
+
+      To address improper payments caused by inability to access the data or information
+      needed, we are working to simplify our notices and communications.  Some of
+      our notices and communications can be complex, lengthy, and difficult to comprehend.  The
+      difficulty can sometimes result from the complexity of our programs and legal
+      requirements to communicate certain information.  We updated a blog for “Social
+      Security Matters” that focuses on the importance of Supplemental Security Income
+      recipients reporting their financial accounts and any changes related to financial
+      accounts to us.  In an effort to increase responsiveness of beneficiaries and
+      recipients in self-reporting information that impacts payments, we used behavioral
+      insights methods to improve the clarity and effectiveness of the blog.  Also,
+      we are currently updating the Work Activity Report (SSA-821) to make it more
+      understandable and more likely to be completed by applicants.  In addition,
+      throughout 2024 we reviewed new and revised agency notices for both clear messaging
+      and plain language.  We will need to obtain Office of Management and Budget
+      clearance for Form SSA-821 prior to implementation.  We will sample notices
+      and other communications and assess the quality and understandability of our
+      communications.  We will continue to inform and remind recipients about reporting
+      responsibilities.  We will also continue to review overpayment-related notice
+      review requests (both new and revised language) to make sure it is in plain
+      language that people can read and understand.'
+    Mitigation_Strategy: atp2_1
+  - Action_Taken: Not Completed
     Action_Type: Training
     Completion_Date: The corrective action was not fully completed this reporting
       period
@@ -1344,162 +1595,6 @@ Data_By_Year:
       training and marketing materials; and complete final testing and prepare for
       a production release of the expanded iSSI.'
     Mitigation_Strategy: atp4_1
-  - Action_Taken: Planned
-    Action_Type: Change Process
-    Completion_Date: FY2025
-    Description_Action_Taken: 'To address improper payments caused by inability to
-      access the data or information needed, we are working to reduce the complexity
-      of our Supplemental Security Income (SSI) application.  In August 2023, the
-      agency reconvened the SSI Simplification Workgroup to address concerns regarding
-      the complexity of our paper SSI application form, SSA-8000.  The workgroup,
-      consisting of cross-component subject matter experts, is a collaborative effort
-      to shorten and simplify the SSI application process in a three-phased approach:  Phase
-      I – Focuses on an expansion of the current internet claim (iClaim) with added
-      SSI questions; Phase II – Focuses on technician supported modalities, which
-      will encompass adult, aged, child, married, and third-party applications through
-      the service delivery channels of in-person, telephone, and forms; and Phase
-      III – This will establish an online, mobile-first, and public-facing system
-      for the SSI and Old-Age, Survivors, and Disability Insurance programs and other
-      applications, replicating the telephone, in-person, and paper service delivery
-      channels.  Human-centered design testing will be employed to shape the mobile-first
-      solution.  We completed the following in fiscal year 2024:  completed development
-      of the expansion of the SSI Simplification Phase I initiative, or iSSI process;
-      posted to the Federal Register Notice (FRN) and obtained feedback from the public;
-      reviewed the FRN comments and incorporated the feedback into our new three-phased
-      approach; and reviewed the plan for the new approach with advocates/representatives
-      and secured a decision to proceed from the Commissioner.  We plan to implement,
-      in late 2024, the expansion of iSSI for SSI disability applicants.  The iSSI
-      Release will expand iClaim and introduce as few as 12 user-tested, SSI-specific
-      questions across 6 screens, shaping the simplified SSI application to be launched
-      in late 2024.  We also plan to complete the following:  remove iClaim exclusions
-      to allow online processing of approximately 5000 additional claims; finalize
-      training and marketing materials; and complete final testing and prepare for
-      a production release of the expanded iSSI.'
-    Mitigation_Strategy: app4_1
-  - Action_Taken: Not Completed
-    Action_Type: Behavioral/Psych Influence
-    Completion_Date: The corrective action was not fully completed this reporting
-      period
-    Description_Action_Taken: 'To address improper payments caused by inability to
-      access the data or information needed, we inform Supplemental Security Income
-      (SSI) recipients and representative payees about their reporting responsibilities
-      through various methods:  during interviews, with application and redetermination
-      forms, in some award and post-eligibility notices, in check envelope enclosures,
-      and in a booklet that accompanies award notices.  Our annual Cost of Living
-      Adjustment notices include reminders about reporting changes that could affect
-      payments and eligibility.  In September 2013, we implemented an automated SSI
-      wage reporting reminder for individuals who sign up to receive a monthly email
-      or text message to report wages for the prior month.  We promote use of our
-      online wage reporting application, myWageReport (myWR), on social media with
-      training videos including information about the importance of creating a my
-      Social Security account; how to submit wages using myWR, SSA Mobile Wage Reporting,
-      or SSI Telephone Wage Reporting; who can report; and reminders on reporting
-      responsibilities.  From October 2023 through February 2024, we published social
-      media posts on Facebook and X sharing a link to our YouTube video to help beneficiaries
-      learn why it is important to report wages and the automated electronic options
-      for wage reporting.  In March 2024, we released a Dear Colleague Letter to advocates
-      reminding them about SSI reporting responsibilities and the importance of ensuring
-      we have current contact information.  In April 2024, we released a blog that
-      explains to SSI recipients the importance of reporting their financial accounts.  The
-      blog provides examples of financial accounts and informs the reader about Achieving
-      a Better Life Experience accounts.  In July 2024, we published a blog about
-      the agency’s commitment to improve timely delivery of payments to SSI recipients
-      and our progress addressing underpayments.  In August 2024, we published a blog
-      that explains to SSI recipients the importance of reporting life changes to
-      Social Security.  The blog provides examples of life changes that need to be
-      reported to avoid overpayments, how to report these changes, and where to obtain
-      more information.  In July and August of 2024, we used our social media channels
-      to post reminders for our beneficiaries about the importance of promptly reporting
-      changes to their income, resources, and living arrangements to ensure accurate
-      benefits and avoid overpayments.  We plan to use our social media channels to
-      post reminders for our recipients about the importance of promptly reporting
-      changes to their income, resources, and living arrangements to ensure accurate
-      payments and avoid overpayments.  These posts also inform recipients how we
-      are required by law to adjust payments or recover debts when people receive
-      payments they are not entitled to.
-
-
-      To address improper payments caused by inability to access the data or information
-      needed, we are working to simplify our notices and communications.  Some of
-      our notices and communications can be complex, lengthy, and difficult to comprehend.  The
-      difficulty can sometimes result from the complexity of our programs and legal
-      requirements to communicate certain information.  We updated a blog for “Social
-      Security Matters” that focuses on the importance of Supplemental Security Income
-      recipients reporting their financial accounts and any changes related to financial
-      accounts to us.  In an effort to increase responsiveness of beneficiaries and
-      recipients in self-reporting information that impacts payments, we used behavioral
-      insights methods to improve the clarity and effectiveness of the blog.  Also,
-      we are currently updating the Work Activity Report (SSA-821) to make it more
-      understandable and more likely to be completed by applicants.  In addition,
-      throughout 2024 we reviewed new and revised agency notices for both clear messaging
-      and plain language.  We will need to obtain Office of Management and Budget
-      clearance for Form SSA-821 prior to implementation.  We will sample notices
-      and other communications and assess the quality and understandability of our
-      communications.  We will continue to inform and remind recipients about reporting
-      responsibilities.  We will also continue to review overpayment-related notice
-      review requests (both new and revised language) to make sure it is in plain
-      language that people can read and understand.'
-    Mitigation_Strategy: atp2_1
-  - Action_Taken: Not Completed
-    Action_Type: Predictive Analytics
-    Completion_Date: The corrective action was not fully completed this reporting
-      period
-    Description_Action_Taken: 'To address improper payments caused by inability to
-      access the data or information needed, we looked for Old-Age, Survivors, and
-      Disability Insurance (OASDI) beneficiaries who are potentially entitled for
-      higher Supplemental Security Income (SSI) payments than their OASDI benefit.  We
-      developed a “Potential Entitlements” Tactical Plan to educate people who may
-      be eligible for Social Security benefits, particularly Survivors’ benefits and
-      SSI.  It also includes targeted outreach by providing materials to third parties
-      and our regional communications staffs.  We also conducted a longitudinal study
-      on mailers in fiscal year (FY) 2024.  The draft is currently in the review/clearance
-      process.  Communications tactics from our Tactical Plan will continue through
-      calendar year 2024.
-
-
-      To address improper payments caused by inability to access the data or information
-      needed and failure to access data or information needed, we conduct non-medical
-      Supplemental Security Income (SSI) redeterminations (RZ).  A non-medical SSI
-      RZ is a complete review of a recipient’s or couple’s non-medical eligibility
-      factors (resources, income, and living arrangements) to determine whether the
-      recipient or couple has remained eligible since the time of the previous decision,
-      is still eligible for SSI, and has been receiving and will continue to receive
-      the correct SSI payment amount.  To ensure the most cost-effective investment
-      of agency resources, we use a predictive model to estimate the likelihood and
-      magnitude of overpayments to select cases for discretionary RZs.  Other cases
-      are selected for RZs outside our modeling process based on selected case characteristics,
-      such as manual deeming of income.  The RZ process also selects limited issue
-      (LI) reviews, which are reviews of a specific issue or event related to a recipient’s
-      or couple’s non-medical eligibility factors to determine whether the recipient
-      or couple is still eligible for and receiving the correct SSI payment.  In December
-      2023, we issued guidance on achieving FY 2024 RZ and LI workload goals, with
-      reminders to field offices about best practices and following the order of priority
-      when scheduling RZs and LIs.  In FY 2024, we completed more than 2.5 million
-      SSI non-medical RZs and LIs.  We plan to process about 2.5 million SSI RZs and
-      LIs in FY 2025.'
-    Mitigation_Strategy: atp7_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2025
-    Description_Action_Taken: To address improper payments caused by failure to access
-      data or information needed, we released updated guidance.  In June 2022, and
-      subsequently in April 2023 and August 2023, we released updated guidance on
-      special processing instructions for applying Supplemental Security Income (SSI)
-      and resource exclusions to pandemic-related disaster assistance.  In March 2023,
-      and subsequently in April 2023, we released updated pandemic related assistance
-      that meets the criteria for the disaster assistance exclusion chart.  In April
-      2023, we released reminders to ensure that SSI underpayment reviews are documented
-      and completed in accordance with policy.  In August 2023, we provided post-pandemic
-      transitional instructions for applying income and continued resource exclusions
-      to pandemic-related disaster assistance.  The transitional instructions are
-      still in place in 2024 until permanent policy instructions are published.  For
-      recipients who incurred overpayments during COVID-19, we issued internal guidance
-      for technicians reminding them how to adjudicate waiver requests.  We are drafting
-      permanent policy instructions to replace the transitional instructions for applying
-      income and continued resource exclusions to pandemic-related disaster assistance.  We
-      plan to publish the permanent policy instructions in the second quarter of fiscal
-      year 2025.
-    Mitigation_Strategy: app3_1
   - Action_Taken: Not Completed
     Action_Type: Cross Enterprise Sharing
     Completion_Date: The corrective action was not fully completed this reporting
@@ -1595,9 +1690,28 @@ Data_By_Year:
       with rulemaking requirements and allow us to respond to public concerns from
       the NPRM public comment period.'
     Mitigation_Strategy: atp5_1
-  - Action_Taken: Planned
+  - Action_Taken: Completed
+    Action_Type: Audit
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: To address improper payments caused by data or information
+      needed does not exist, inability to access the data or information needed, and
+      failure to access data or information needed, we developed a logic model framework
+      to measure the effectiveness of completed corrective actions that includes establishing
+      benchmarks to evaluate the corrective actions, assessing the impact, if possible,
+      and determining whether additional mitigation activities are necessary.  We
+      monitor the progress of corrective actions for financial accounts, wages, in-kind
+      support and maintenance, death, absence from the United States, and non-home
+      real property (NHRP), which are the leading causes of Supplemental Security
+      Income improper payments.  In fiscal year (FY) 2022, we completed the evaluation
+      for wages and NHRP.  In FY 2023, we completed the evaluation of medical continuing
+      disability review cessations and improving death data processing.  In FY 2024,
+      we completed the evaluation of completed actions on financial accounts and in-kind
+      support and maintenance.
+    Mitigation_Strategy: atp6_1
+  - Action_Taken: Not Completed
     Action_Type: Predictive Analytics
-    Completion_Date: FY2028+
+    Completion_Date: The corrective action was not fully completed this reporting
+      period
     Description_Action_Taken: 'To address improper payments caused by inability to
       access the data or information needed, we looked for Old-Age, Survivors, and
       Disability Insurance (OASDI) beneficiaries who are potentially entitled for
@@ -1631,119 +1745,7 @@ Data_By_Year:
       when scheduling RZs and LIs.  In FY 2024, we completed more than 2.5 million
       SSI non-medical RZs and LIs.  We plan to process about 2.5 million SSI RZs and
       LIs in FY 2025.'
-    Mitigation_Strategy: app7_1
-  - Action_Taken: Planned
-    Action_Type: Cross Enterprise Sharing
-    Completion_Date: FY2028+
-    Description_Action_Taken: 'To address improper payments caused by inability to
-      access the data or information needed and failure to access data or information
-      needed, we developed Access to Financial Institutions (AFI).  The purpose of
-      AFI is to identify resources in financial accounts; excess resources are a leading
-      cause of Supplemental Security Income (SSI) payment errors.  The AFI program
-      uses an electronic process with participating financial institutions to verify
-      bank account balances and detect undisclosed accounts in up to 10 nearby banks
-      based on the residential address.  In March 2023, we released Policy in Focus
-      training and issued a frontline broadcast to remind technicians of AFI and SSI
-      financial accounts policy.  In August 2023, we published AM-23048 - SSI Financial
-      Account Verification Reminders and issued a frontline broadcast to ensure that
-      technicians are reviewing the financial account pages in the SSI claims path
-      for accuracy before adjudicating an event.  We began analysis on optimizing
-      the use of AFI.  We expect to conclude our study on optimal frequency for use
-      of AFI and related recommendations in fiscal year 2025.
-
-
-      To address improper payments caused by inability to access the data or information
-      needed, we will pursue new data exchange partners from government and private
-      sectors in collaboration with our agency business sponsors.  We plan to expand
-      our outreach efforts with the Data Exchange Community of Practice (DXCOP) and
-      the States Data Exchange Community of Interest, to engage more agencies and
-      broaden the expansion of best practices toward streamlining the exchange of
-      data.  In fiscal year (FY) 2023, we implemented two new incoming data exchanges
-      with State foster care agencies.  For FY 2024, 24 states/entities signed an
-      Information Exchange Agreement and are participating, and 10 states signed the
-      Information Exchange Agreement of State Foster Data Exchanges.  These data exchanges
-      assist in avoiding improper payments when a child''s foster placement has changed.  We
-      continue to engage State agencies for the purpose of expanding this exchange.  In
-      June and September 2024, we held DXCOP meetings.  We continue to engage State
-      agencies for the purpose of expanding this exchange.  We plan to expand our
-      outreach efforts with the DXCOP and the States Data Exchange Community of Interest,
-      to engage more agencies and broaden the expansion of best practices toward streamlining
-      the exchange of data.
-
-
-      To address improper payments caused by inability to access the data or information
-      needed and failure to access data or information needed, we are improving our
-      death data processing.  We collect data from a variety of sources so that we
-      can administer our programs.  We have a contract with every State Bureau of
-      Vital Statistics (the custodians for death records) and with some jurisdictions
-      to provide us death data.  Since 2002, we worked with States that want and are
-      able to build a streamlined death registration process known as Electronic Death
-      Registration (EDR). As of January 2022, all 50 States report deaths through
-      the EDR process.  We plan to continue making progress in centralizing our death
-      inputs, improving the quality and processing of death data, and updating historical
-      death records in our databases.  In April 2024, for processing death reports,
-      we issued a reminder to technicians to the Death Information Processing System
-      for reports of death for enumerated individuals.  To improve the completeness
-      of our death information, we are in the early stages of contracting with the
-      National Association for Public Health Statistics and Information Systems on
-      the acquisition of historical State death records.  This effort will increase
-      the accuracy, integrity, and completeness of our death data.
-
-
-      To address improper payments caused by data or information needed does not exist
-      and failure to access data or information needed, we have a National Change
-      of Address (NCOA) contract and data exchange agreement with the U.S. Postal
-      Service (USPS) for the Old-Age, Survivors, and Disability Insurance (OASDI)
-      program.  We are electronically notified when an OASDI beneficiary reports an
-      address change to the USPS and in most cases, the new address information automatically
-      posts to our records.  We are determining the feasibility of the NCOA expansion
-      to the SSI program.  Based on NCOA data analysis, we are updating the existing
-      NCOA process before continuing to explore the feasibility of expansion to the
-      SSI program.  We are updating a notice to add a reminder informing concurrent
-      OASDI and SSI recipients to contact us because we may need additional information
-      regarding their living situation.  The notice will have clarified language to
-      concurrent OASDI and SSI recipients informing them to contact us to report living
-      arrangement changes that may have occurred with the address change received
-      through the NCOA process.
-
-
-      To address improper payments caused by inability to access the data or information
-      needed, and failure to access data or information needed, and to reduce the
-      reliance on self-reporting of wages, we are developing new wage reporting tools,
-      such as an automated information exchange with commercial payroll data providers
-      authorized by section 824 of the Bipartisan Budget Act of 2015, now referred
-      to as the Payroll Information Exchange (PIE).  In February 2024, we published
-      a Notice of Proposed Rulemaking (NPRM) describing the agency’s plans for accessing
-      and using information from payroll data providers to reduce improper payments
-      (overpayments and underpayments), which improves service to customers.  The
-      public comment period closed on April 15, 2024.  We are carefully considering
-      the comments as we draft the final rule, which is currently planned for publication
-      in winter of FY 2025.  In fiscal year 2024, we completed the automated PIE wage
-      reporting notices and created a limited issue diary to alert technicians when
-      incoming wage and employment information from PIE doesn''t automatically post
-      to the SSI record, requiring manual review and action.  We plan to implement
-      PIE in the Spring of 2025 through a phased approach.  This timeline will ensure
-      compliance with rulemaking requirements and allow us to respond to public concerns
-      from the NPRM public comment period.'
-    Mitigation_Strategy: app5_1
-  - Action_Taken: Completed
-    Action_Type: Audit
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: To address improper payments caused by data or information
-      needed does not exist, inability to access the data or information needed, and
-      failure to access data or information needed, we developed a logic model framework
-      to measure the effectiveness of completed corrective actions that includes establishing
-      benchmarks to evaluate the corrective actions, assessing the impact, if possible,
-      and determining whether additional mitigation activities are necessary.  We
-      monitor the progress of corrective actions for financial accounts, wages, in-kind
-      support and maintenance, death, absence from the United States, and non-home
-      real property (NHRP), which are the leading causes of Supplemental Security
-      Income improper payments.  In fiscal year (FY) 2022, we completed the evaluation
-      for wages and NHRP.  In FY 2023, we completed the evaluation of medical continuing
-      disability review cessations and improving death data processing.  In FY 2024,
-      we completed the evaluation of completed actions on financial accounts and in-kind
-      support and maintenance.
-    Mitigation_Strategy: atp6_1
+    Mitigation_Strategy: atp7_1
   Agency_Needs_Satisfied: 'Internal Controls:  We have a strong internal control environment
     that has always included controls over our benefit payment and debt management
     processes.  Our existing internal control environment and assurance processes
@@ -2116,7 +2118,7 @@ Data_By_Year:
   IP_Current_Year_Plus_1_Amount: 4709.544762
   IP_Unknown_Current_Year_Plus_1_Rate: 0.072
   IP_Unknown_Target_Rate: 0.072
-  Improper_Payments_Rate: 10.619123475599999
+  Improper_Payments_Rate: 10.61912348
   Insufficient_Documentation_to_Determine: 0.0
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '1.04'
@@ -2159,6 +2161,8 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '7.2'
   overpayments:
     Address_Location: 72.805345
     Contractor_Provider_Status: 0.0
@@ -2334,6 +2338,58 @@ Data_By_Year:
     Theme_Description: Beneficiary or recipient is receiving benefits from an additional
       source
     Value: '237.025189'
+- Confidence_Level: 95% to <100%
+  End_Date: 09/2024
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: true
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: true
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Unknown_Target_Rate: 0.072
+  Improper_Payments_Rate: 11.5798906602
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '0.2'
+  Non_Monetary_Loss_Amount: '982.40635791'
+  Payment_Accuracy_Rate: 88.42010933976938
+  Program_Design_or_Structural_Issue: 0.0
+  Start_Date: 10/2023
+  Technical_IP_Amount: '0.0'
+  Unknown_Payments_Rate: 0
+  Year: 2025
+  detail_IP_Causes: null
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '570.49610005'
+  detail_Overpayments_Due_To_Failure: '599.11121755'
+  detail_Overpayments_Due_To_Inability: '5177.00109904'
+  detail_Reduction_Target: '7.2'
+  overpayments:
+    Data_Needed_Does_Not_Exist: 570.49610005
+    Failure_to_Access_Data: 599.11121755
+    Inability_to_Access_Data: 5177.00109904
+    Overpayments_Within_Control_Amount: '599.11121755'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '5747.49719909'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 367.75444923
+    Failure_to_Access_Data: 184.54025119
+    Inability_to_Access_Data: 430.11165749
+    Underpayments_Amount: '982.40635791'
 Description: The SSI program provides financial support to aged, blind, and disabled
   adults and children with limited income and resources.  Our greatest payment accuracy
   challenges occur within the SSI program. SSI payment amounts can fluctuate monthly
@@ -2348,12 +2404,12 @@ Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
-High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[4032.51647959, 4617.94115731, 5604.97063653]'
-Payment_Accuracy_Amounts: '[51365.11476255, 52267.10019985, 54565.90418469]'
-Payment_Accuracy_Rate: 0
+High_Priority_Program: 1
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 63290.8806274
+Overpayment_Amounts: '[4032.51647959, 4617.94115731, 5604.97063653, 6346.60841664]'
+Payment_Accuracy_Amounts: '[51365.11476255, 52267.10019985, 54565.90418469, 55961.86585285]'
+Payment_Accuracy_Rate: 88.42010933976938
 Phase_2_Program: 0
 Program_Name: Supplemental Security Income (SSI)
 Scorecard_Links:
@@ -2369,10 +2425,9 @@ Scorecard_Links:
   QuarterYear: Q1 2025
 - Link: assets/scorecards/Q2 2025/Supplemental Security Income (SSI).pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[0, 0, 0]'
-Underpayment_Amounts: '[873.49255433, 680.79686085, 877.87106996]'
-Unknown_Amounts: '[0, 0, 0]'
-detail_Reduction_Target: '7.2'
+Technically_Improper_Amounts: '[0, 0, 0, 0]'
+Underpayment_Amounts: '[873.49255433, 680.79686085, 877.87106996, 982.40635791]'
+Unknown_Amounts: '[0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/96.006
 layout: program-specific
 permalink: program/ssa-supplemental-security-income-ssi

@@ -3,16 +3,16 @@ Agency: USDA
 Agency_Name: Department of Agriculture
 Data_By_Year:
 - Actions_Taken:
-  - Action_Taken: Completed
+  - Action_Taken: Planned
     Action_Type: Automation
-    Completion_Date: FY2024 Q4
+    Completion_Date: FY2025
     Description_Action_Taken: Non-competitive Technology Innovation Grants (nTIGs)
       - Food and Nutrition Service (FNS) released $25M in Fiscal Year (FY) 23 and
       $50M in FY 24 in non-competitive Technology Innovation Grant (nTIG) funds for
       Child Nutrition (CN) State agencies to improve Information Technology (IT) systems.
       FNS continues its work with grant recipients who are using nTIG funds to develop,
       improve, maintain CN IT systems.
-    Mitigation_Strategy: atp1_1
+    Mitigation_Strategy: app1_1
   - Action_Taken: Planned
     Action_Type: Change Process
     Completion_Date: FY2025
@@ -35,6 +35,16 @@ Data_By_Year:
       \ will help them meet audit and monitoring requirements and improve overall\
       \ program management."
     Mitigation_Strategy: app4_1
+  - Action_Taken: Completed
+    Action_Type: Automation
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: Non-competitive Technology Innovation Grants (nTIGs)
+      - Food and Nutrition Service (FNS) released $25M in Fiscal Year (FY) 23 and
+      $50M in FY 24 in non-competitive Technology Innovation Grant (nTIG) funds for
+      Child Nutrition (CN) State agencies to improve Information Technology (IT) systems.
+      FNS continues its work with grant recipients who are using nTIG funds to develop,
+      improve, maintain CN IT systems.
+    Mitigation_Strategy: atp1_1
   - Action_Taken: Completed
     Action_Type: Change Process
     Completion_Date: FY2024 Q2
@@ -74,16 +84,6 @@ Data_By_Year:
       FNS continues to explore feasible methods for assessing meal claiming error\
       \ at family day care homes."
     Mitigation_Strategy: atp4_1
-  - Action_Taken: Planned
-    Action_Type: Automation
-    Completion_Date: FY2025
-    Description_Action_Taken: Non-competitive Technology Innovation Grants (nTIGs)
-      - Food and Nutrition Service (FNS) released $25M in Fiscal Year (FY) 23 and
-      $50M in FY 24 in non-competitive Technology Innovation Grant (nTIG) funds for
-      Child Nutrition (CN) State agencies to improve Information Technology (IT) systems.
-      FNS continues its work with grant recipients who are using nTIG funds to develop,
-      improve, maintain CN IT systems.
-    Mitigation_Strategy: app1_1
   Agency_Needs_Satisfied: Given the highly decentralized nature of the Child and Adult
     Care Food Program (CACFP), it is cost prohibitive for Food and Nutrition Service
     (FNS) to calculate annual improper payment rates and dollar values using a census
@@ -196,9 +196,9 @@ Data_By_Year:
     by nTIG recipients administering CACFP will improve the SAs ability to train,
     monitor, provide technical assistance, and take corrective actions.
   IP_Current_Year_Plus_1_Amount: 312.06
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.083060952888
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0830609529
   IP_Unknown_Target_Rate: 0.0831
-  Improper_Payments_Rate: 8.6990954688
+  Improper_Payments_Rate: 8.69909547
   Insufficient_Documentation_to_Determine: 0.0
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -277,6 +277,8 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '8.31'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -392,7 +394,6 @@ Scorecard_Links:
 Technically_Improper_Amounts: '[0]'
 Underpayment_Amounts: '[130.95]'
 Unknown_Amounts: '[0]'
-detail_Reduction_Target: '8.31'
 layout: program-specific
 permalink: program/usda-food-and-nutrition-service-fns-child-and-adult-care-foo-40f15880
 ---

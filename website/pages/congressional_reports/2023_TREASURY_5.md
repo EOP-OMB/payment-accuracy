@@ -79,13 +79,13 @@ SurveyData:
   SortOrder: 1
   Subheading: ''
   Type: TEXT
-- Answer: '0.2'
+- Answer: '.20'
   Heading: Overpayment Amount Recovered
   Key: arp6
   SortOrder: 2
   Subheading: ''
   Type: MILLIONS_OF_DOLLARS
-- Answer: '46.51162791'
+- Answer: '46.511627906977'
   Heading: Overpayment Amount Recovered
   Key: arp3_1
   SortOrder: 3
@@ -97,13 +97,13 @@ SurveyData:
   SortOrder: 4
   Subheading: Used to administer the Recovery Audits and Activities Program
   Type: MILLIONS_OF_DOLLARS
-- Answer: '0.003'
+- Answer: '.003'
   Heading: How Recovered Amounts Have Been Disposed Of
   Key: arp8
   SortOrder: 5
   Subheading: Used for a Financial Management Improvement Program
   Type: MILLIONS_OF_DOLLARS
-- Answer: '0.02'
+- Answer: '.02'
   Heading: How Recovered Amounts Have Been Disposed Of
   Key: arp9
   SortOrder: 6
@@ -115,7 +115,7 @@ SurveyData:
   SortOrder: 7
   Subheading: Used for Inspector General Activities
   Type: MILLIONS_OF_DOLLARS
-- Answer: '0.18'
+- Answer: '.18'
   Heading: How Recovered Amounts Have Been Disposed Of
   Key: arp11
   SortOrder: 8
@@ -133,31 +133,31 @@ SurveyData:
   SortOrder: 10
   Subheading: ''
   Type: MILLIONS_OF_DOLLARS
-- Answer: '11.8372093'
+- Answer: '11.837209302326'
   Heading: Overpayment Amount Outstanding
   Key: arp5_1
   SortOrder: 11
   Subheading: ''
   Type: PERCENTAGE
-- Answer: '0.0009'
+- Answer: '.0009'
   Heading: Aging Schedule of the Amounts Outstanding
   Key: arp14
   SortOrder: 12
   Subheading: 0 to 6 Months Outstanding
   Type: MILLIONS_OF_DOLLARS
-- Answer: '0.05'
+- Answer: '.05'
   Heading: Aging Schedule of the Amounts Outstanding
   Key: arp15
   SortOrder: 13
   Subheading: 6 to 12 Months Outstanding
   Type: MILLIONS_OF_DOLLARS
-- Answer: '0.004'
+- Answer: '.004'
   Heading: Overpayment Amount Determined to Not Be Collectible
   Key: arp4
   SortOrder: 14
   Subheading: ''
   Type: MILLIONS_OF_DOLLARS
-- Answer: '0.930232558'
+- Answer: '0.93023255813953'
   Heading: Overpayment Amount Determined to Not Be Collectible
   Key: arp4_1
   SortOrder: 15

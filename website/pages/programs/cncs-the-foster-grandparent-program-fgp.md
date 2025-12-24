@@ -69,6 +69,7 @@ Data_By_Year:
     by an AmeriCorps program. Without timekeeping information, AmeriCorps is unable
     to determine if the charges to the award are correct.
   Year: 2022
+  detail_Reduction_Target: '22.7'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -219,6 +220,7 @@ Data_By_Year:
     \ or adequately documented information a determination regarding the payment as\
     \ either proper or improper could have been made."
   Year: 2023
+  detail_Reduction_Target: '1'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -379,9 +381,9 @@ Data_By_Year:
     action planning. Reduction in improper payments may be included in performance
     conversations for those accountable for the reduction.
   IP_Current_Year_Plus_1_Amount: 2.38
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.166170142337
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.1661701423
   IP_Unknown_Target_Rate: 0.01
-  Improper_Payments_Rate: 3.1225863401
+  Improper_Payments_Rate: 3.1225863400000002
   Insufficient_Documentation_to_Determine: 13.14
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '6.7'
@@ -431,6 +433,8 @@ Data_By_Year:
     adequately documented information a determination regarding the payment as either
     proper or improper could have been made.
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '1.0'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -475,24 +479,208 @@ Data_By_Year:
     Theme_Description: The financial position or status of a beneficiary, recipient,
       or their family
     Value: '0.120000'
+- Agency_Needs_Satisfied: As part of its strategic plan, AmeriCorps is prioritizing
+    effective stewardship of federal resources. This goal includes the objective of
+    reducing the agency’s improper payments via five-pronged approach. Via the strategic
+    plan that agency is committing resources – human capital, internal controls, and
+    information systems, to reduce improper payments.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: "The internal control training\
+    \ will target root causes in both unknown and overpayment categories to address\
+    \ adequate record keeping and controls to ensure payments are correct and correctly\
+    \ recorded. Regarding the provision of training as a corrective action, AmeriCorps\
+    \ has reestablished the Payment Integrity Corrective Action Plan working group\
+    \ to identify corrective actions as well as implementing targeted monitoring activities\
+    \ for grantees with improper payments to address its improper payment rate. Utilizing\
+    \ improper and unknown payments information from AmeriCorps’ annual Payment Integrity\
+    \ Assessment, the working group will identify the root cause drivers behind the\
+    \ improper and unknown payments. Based on this information, the group will implement\
+    \ additional action steps aimed at reducing these areas of non-compliance. The\
+    \ training and resources focus on the identified improper payment root cause drivers.\n\
+    \nProgram participant and payment eligibility decisions are made at the grantee\
+    \ level. It is essential that grantees have access to training and resources that\
+    \ provide information on financial grants management. Having effective and readily\
+    \ available resources to guide grantees in program implementation promotes effective\
+    \ stewardship of federal funds and reduces non-compliance. The resources created\
+    \ build upon the agency’s currently available tools and focus specifically on\
+    \ areas of non-compliance. Additional actions will be taken given AmeriCorps still\
+    \ reports rates over $10M and/or 10%. \n\nAs part of its strategic plan, AmeriCorps\
+    \ is prioritizing effective stewardship of federal resources. This goal includes\
+    \ the objective of reducing the agency’s improper payments via an agency-wide\
+    \ corrective action plan. The prior establishment of the working group represents\
+    \ a coordinated effort by the agency to develop and implement corrective actions\
+    \ aimed at reducing improper payments. The agency performs root cause analysis\
+    \ to determine why improper payments are occurring at the grantee level. This\
+    \ allows for more targeted actions."
+  Corrective_Actions_Appropriateness: 'AmeriCorps designated accountable officials
+    for improper payments compliance. In addition to naming the accountable officials,
+    AmeriCorps’ Office of Risk and Monitoring, which administers the payment integrity
+    program at AmeriCorps, keeps the Risk Management Council informed of the status
+    of goals established to address compliance and ensuring success in remediating
+    issues in relation to PIIA. The agency believes its corrective actions have demonstrated
+    progress towards compliance and that reauthorization or statutory changes would
+    not bring the program in compliance. Therefore, the agency’s actions to bring
+    the program into compliance and associated timelines can be found below. It is
+    important to note that AmeriCorps does not directly administer the programs required
+    to report under PIIA and it tests individual transactions that occurred in the
+    past due to a lag between when grantees disburse funds and report to the agency.
+    Therefore, the effects of corrective actions are observed in the years following
+    the implementation.
+
+
+    The corrective actions taken/completed in FY25 to mitigate the root causes for
+    "failure to access data or information" and "unable to determine whether proper
+    or improper" include the following: (1) Continue assessing the resource needs
+    of the AmeriCorps program and operational functions and adjust as needed (complete).
+    AmeriCorps has dramatically reduced its improper payment rates in recent years
+    via grantee accountability mechanisms and compliance tools. (2) Based upon prior
+    assessment and trend analysis of the PIIA root cause, continue improving and providing
+    training and technical assistance to grantees on maintaining the appropriate documents
+    and how to properly calculate necessary expenses (complete). AmeriCorps has implemented
+    additional terms and conditions in FY 2025 AmeriCorps’ General Grant and Cooperative
+    Agreement Terms and Conditions aimed at addressing the root causes of improper
+    payments. (3) Based on the assessment of the effectiveness of changes to support
+    timeliness of NSCHC checks and the changes associated with enforcement structure,
+    develop additional strategies and mitigations as needed. AmeriCorps continues
+    to require at least one active staff person from each grantee to complete an annual
+    training course related to NSCHC compliance and continues to offer additional
+    trainings throughout the year. (4) Implement an internal controls training for
+    grantees to address documentation and calculation issues. AmeriCorps has implemented
+    an internal controls training for grantees. (5) Revisit existing timekeeping training
+    to determine if updates are needed and, if so, implement. The agency required
+    grant financial management training for all grantees which addressed timekeeping
+    issues.
+
+
+    The corrective actions planned to be completed in FY26 to mitigate the root causes
+    for "failure to access data or information" and "unable to determine whether proper
+    or improper" include the following: (1) Continue assessing the resource needs
+    of the AmeriCorps program and operational functions and adjust as needed. (2)
+    Based upon prior assessment and trend analysis of the PIIA root cause, continue
+    improving and providing training and technical assistance to grantees on maintaining
+    the appropriate documents and how to properly calculate necessary expenses. AmeriCorps
+    will require written confirmation from grantees with improper payments that at
+    least one person on their staff responsible for the area of the improper payment
+    finding(s) have reviewed all information/taken all training included in the resolution
+    packet(s) provided to them. (3) Based on the assessment of the effectiveness of
+    changes to support timeliness of NSCHC checks and the changes associated with
+    enforcement structure, develop additional strategies and mitigations as needed.
+    For all grantees who have NSCHC based improper payments, AmeriCorps will require
+    the organization to use the agency approved NSCHC vendor.'
+  Corrective_Actions_Proportion: The agency is committed to compliance with PIIA as
+    demonstrated by the agency elevating the reduction of improper payments to be
+    a key performance indicator in its strategic plan. The improper payments reported
+    in ASN and FGP are made at the grantee level. The improper payments in ASN and
+    FGP are not made at the agency level and largely do not represent monetary loss
+    to the government. The majority are unknown payments for which the agency’s grantees
+    are unable to provide sufficient support documentation to determine if the payment
+    was proper or improper. Since the agency does not have direct control over the
+    payments, it has implemented updated trainings to ensure the grantees have the
+    requisite knowledge to appropriately support their payments.
+  End_Date: 03/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: The agency implemented an improper payment reduction
+    corrective action plan group to develop actions to reduce the improper payments
+    and this group was reinstated in FY25. This group consisted of representatives
+    from offices across the agency. Through root cause analysis and corrective action
+    plan development, the agency is assessing where additional controls may be necessary
+    to reduce improper payments. The improper payments reported for the agency are
+    made at the grantee level; therefore the agency has developed and requires an
+    internal controls training to strengthen the control environment at the grantee
+    level. Executive managers, programs, and other staff contribute to improper payment
+    corrective action planning.
+  IP_Unknown_Target_Rate: 0.01
+  Improper_Payments_Rate: 2.9941395844
+  Insufficient_Documentation_to_Determine: 19.34
+  Margin_of_Error: '7.8'
+  Non_Monetary_Loss_Amount: '0.24'
+  Overpayment_Combined_Mitigations_Planned: Change Process, Training
+  Overpayment_Combined_Mitigations_Taken: Training
+  Payment_Accuracy_Rate: 76.39850825785828
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: No resources were requested. The agency did not request
+    resources because the payments are generally not made at the agency level and
+    are made by individual grantees. Corrective actions to target grantees, such as
+    trainings, can be developed and performed with resources available.
+  Start_Date: 04/2024
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: Change Process, Training
+  Underpayment_Mitigations_Taken: Training
+  Unknown_Mitigations_Planned: Change Process, Training
+  Unknown_Mitigations_Taken: Training
+  Unknown_Payments_Rate: 20.607352157698458
+  Year: 2025
+  detail_IP_Causes: "The AmeriCorps Payment Integrity Assessment uses documentation\
+    \ submitted by grantees to support the selected federal expenses charged against\
+    \ the grant. The root cause types that were identified are \"failure to access\
+    \ data/information\" and \"unable to determine whether proper and improper.\"\
+    \ There are situations where the grantee is unable to provide the required documentation\
+    \ to support the payment or the documentation provided is insufficient. In these\
+    \ situations, had the grantee been able to provide the missing documentation or\
+    \ adequately documented information a determination regarding the payment as either\
+    \ proper or improper could have been made. \n\nThe specific documentation that\
+    \ is lacking includes: missing/incomplete National Service Criminal History Check\
+    \ information; missing or incomplete program participants income eligibility information;\
+    \ and missing staff timesheets or timesheets that do not adequately identify time\
+    \ worked on specific grant projects."
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '2.57'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '1.0'
+  eligibility_aggregated:
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 2.57
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '2.57'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.24
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.24'
 Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[1.56, 2.068, 2.71]'
-Payment_Accuracy_Amounts: '[69.88, 69.68299999999999, 74.66]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 93.85
+Overpayment_Amounts: '[1.56, 2.068, 2.71, 2.57]'
+Payment_Accuracy_Amounts: '[69.88, 69.68299999999999, 74.66, 71.7]'
+Payment_Accuracy_Rate: 76.39850825785828
 Phase_2_Program: 0
 Program_Name: The Foster Grandparent Program (FGP)
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0]'
-Underpayment_Amounts: '[0, 0.075, 0.12]'
-Unknown_Amounts: '[20.19, 5.492, 13.14]'
-detail_Reduction_Target: '1.0'
+Technically_Improper_Amounts: '[0, 0, 0, 0]'
+Underpayment_Amounts: '[0, 0.075, 0.12, 0.24]'
+Unknown_Amounts: '[20.19, 5.492, 13.14, 19.34]'
 fpi_link: https://fpi.omb.gov/program/94.011
 layout: program-specific
 permalink: program/cncs-the-foster-grandparent-program-fgp

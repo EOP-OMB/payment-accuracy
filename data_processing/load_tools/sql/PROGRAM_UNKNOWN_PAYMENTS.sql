@@ -8,7 +8,6 @@ SELECT
     d.Column_values AS [Unknown_Documentation_Why],
     e.[Multiselect_Text] AS [Unknown_Mitigations_Taken],
     f.[Multiselect_Text] AS [Unknown_Mitigations_Planned],
-    g.Column_values AS [No_Estimates_Why],
     h.Column_values AS [Non_Monetary_Loss_Amount]
 FROM (SELECT
     [Agency],
@@ -35,12 +34,6 @@ LEFT JOIN principal_table_columns AS d
     AND a.Fiscal_Year = d.Fiscal_Year
     AND d.Column_names = 'cyp7_ucp4_1'
     AND d.Column_values <> ''
-LEFT JOIN principal_table_columns AS g
-    ON a.Agency = g.Agency
-    AND a.[Program_Name] = g.[Program_Name]
-    AND a.Fiscal_Year = g.Fiscal_Year
-    AND g.Column_names = 'rac3'
-    AND g.Column_values <> ''
 LEFT JOIN principal_table_columns AS h
     ON a.Agency = h.Agency
     AND a.[Program_Name] = h.[Program_Name]

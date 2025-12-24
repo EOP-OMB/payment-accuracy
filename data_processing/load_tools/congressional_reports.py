@@ -138,8 +138,8 @@ class AgencyReport(Report):
             self.data["SurveyData"] = []
 
         for survey_result in survey_results_filtered:
-            if survey_result["Key"] in agency_survey_field_mapping:
-                mapping = agency_survey_field_mapping[survey_result["Key"]]
+            if str(survey_result["Key"]).lower() in agency_survey_field_mapping:
+                mapping = agency_survey_field_mapping[str(survey_result["Key"]).lower()]
                 self.data["SurveyData"].append({
                     "Heading": mapping["heading"],
                     "Subheading": mapping["subheading"],
@@ -167,12 +167,12 @@ class AgencyReport(Report):
         for program_name, survey_results in survey_results_by_program:
             answers = list(map(lambda row: {
                 "Agency": row["Agency"],
-                "Heading": program_survey_field_mapping[row["Key"]]["heading"],
-                "Subheading": program_survey_field_mapping[row["Key"]]["subheading"],
-                "Answer": self.format_answer(row["Answer"], program_survey_field_mapping[row["Key"]]),
+                "Heading": program_survey_field_mapping[str(row["Key"]).lower()]["heading"],
+                "Subheading": program_survey_field_mapping[str(row["Key"]).lower()]["subheading"],
+                "Answer": self.format_answer(row["Answer"], program_survey_field_mapping[str(row["Key"]).lower()]),
                 "SortOrder": row["SortOrder"],
                 "Key": row["Key"],
-                "Type": program_survey_field_mapping[row["Key"]]["type"].name
+                "Type": program_survey_field_mapping[str(row["Key"]).lower()]["type"].name
             }, survey_results))
 
             if len(answers) > 0:
@@ -190,7 +190,7 @@ class AgencyReport(Report):
 
         assessments = query.fetch_all(
             self.cursor,
-            query.QUERY_TYPES.RISK_ASSESSMENTS, (self.year, self.agency_code, self.year),
+            query.QUERY_TYPES.RISK_ASSESSMENTS, (self.year, self.year, self.agency_code, self.year),
             self.year
         )
 

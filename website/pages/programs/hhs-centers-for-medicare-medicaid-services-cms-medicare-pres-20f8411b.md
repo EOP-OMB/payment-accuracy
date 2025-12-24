@@ -73,6 +73,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2022
+  detail_Reduction_Target: '1.64'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -99,6 +100,17 @@ Data_By_Year:
     Underpayments_Amount: '37.87'
 - Actions_Taken:
   - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2024
+    Description_Action_Taken: 'CMS will continue to conduct training sessions for
+      Part D plan sponsors on program integrity initiatives, investigations, data
+      analyses, and potential fraud schemes. Additionally, CMS will continue formal
+      outreach to plan sponsors to ensure proper payment for Part D drugs and coverage
+      for invalid or incomplete documentation.
+
+      '
+    Mitigation_Strategy: app3_1
+  - Action_Taken: Planned
     Action_Type: Audit
     Completion_Date: FY2024
     Description_Action_Taken: "CMS will continue to conduct audits of Part D plan\
@@ -124,17 +136,6 @@ Data_By_Year:
 
       '
     Mitigation_Strategy: atp3_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2024
-    Description_Action_Taken: 'CMS will continue to conduct training sessions for
-      Part D plan sponsors on program integrity initiatives, investigations, data
-      analyses, and potential fraud schemes. Additionally, CMS will continue formal
-      outreach to plan sponsors to ensure proper payment for Part D drugs and coverage
-      for invalid or incomplete documentation.
-
-      '
-    Mitigation_Strategy: app3_1
   - Action_Taken: Not Completed
     Action_Type: Audit
     Completion_Date: The corrective action was not fully completed this reporting
@@ -231,6 +232,7 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2023
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -275,6 +277,27 @@ Data_By_Year:
     Theme_Description: Identifies whether a person is sick/healthy
     Value: '1019.840000'
 - Actions_Taken:
+  - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2025
+    Description_Action_Taken: CMS will continue to conduct training sessions for Part
+      D plan sponsors on program integrity initiatives, investigations, data analyses,
+      and potential fraud schemes. Additionally, CMS will continue formal outreach
+      to plan sponsors to ensure proper payment for Part D drugs and coverage for
+      invalid or incomplete documentation.
+    Mitigation_Strategy: app3_1
+  - Action_Taken: Planned
+    Action_Type: Audit
+    Completion_Date: FY2025
+    Description_Action_Taken: CMS will continue to conduct audits of Part D plan sponsors,
+      with a focus on drugs that are at high-risk for improper payments.  Each type
+      of audit is different in scope but has the same goal of educating Part D plan
+      sponsors on issues of fraud, waste, and abuse, as well as identifying, reducing,
+      and recovering improper inappropriate payments under Part D.  Additionally,
+      CMS will continue to conduct program integrity audits of Part D plan sponsors
+      to reduce improper payments and identify areas of non-compliance with program
+      integrity requirements.
+    Mitigation_Strategy: app6_1
   - Action_Taken: Completed
     Action_Type: Training
     Completion_Date: FY2024 Q4
@@ -304,27 +327,6 @@ Data_By_Year:
       requirements.  In FY 2024, HHS conducted four Program Integrity Audits, aiming
       to educate plan sponsors about fraud, waste, and abuse issues.
     Mitigation_Strategy: atp6_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2025
-    Description_Action_Taken: CMS will continue to conduct training sessions for Part
-      D plan sponsors on program integrity initiatives, investigations, data analyses,
-      and potential fraud schemes. Additionally, CMS will continue formal outreach
-      to plan sponsors to ensure proper payment for Part D drugs and coverage for
-      invalid or incomplete documentation.
-    Mitigation_Strategy: app3_1
-  - Action_Taken: Planned
-    Action_Type: Audit
-    Completion_Date: FY2025
-    Description_Action_Taken: CMS will continue to conduct audits of Part D plan sponsors,
-      with a focus on drugs that are at high-risk for improper payments.  Each type
-      of audit is different in scope but has the same goal of educating Part D plan
-      sponsors on issues of fraud, waste, and abuse, as well as identifying, reducing,
-      and recovering improper inappropriate payments under Part D.  Additionally,
-      CMS will continue to conduct program integrity audits of Part D plan sponsors
-      to reduce improper payments and identify areas of non-compliance with program
-      integrity requirements.
-    Mitigation_Strategy: app6_1
   Agency_Needs_Satisfied: A tolerable rate has not been established for this program.
     The tolerable rate will be identified when the methodology is developed. Once
     the tolerable rate is developed, the agency can determine if we have what is needed
@@ -397,9 +399,9 @@ Data_By_Year:
     taken to address the improper payment rates through the quarterly scorecard process
     for high-priority programs, providing a level of public oversight over these efforts.
   IP_Current_Year_Plus_1_Amount: 5870.71
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.039100009324
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0391000093
   IP_Unknown_Target_Rate: 0.0391
-  Improper_Payments_Rate: 3.7039354695999998
+  Improper_Payments_Rate: 3.70393547
   Insufficient_Documentation_to_Determine: 0.0
   Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
     the tolerable rate for this program
@@ -420,6 +422,8 @@ Data_By_Year:
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '3.91'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -463,6 +467,119 @@ Data_By_Year:
     Theme: Medical Status
     Theme_Description: Identifies whether a person is sick/healthy
     Value: '522.440000'
+- Agency_Needs_Satisfied: A tolerable rate has not been established for this program.
+    The tolerable rate will be identified when the methodology is developed. Once
+    the tolerable rate is developed, the agency can determine if we have what is needed
+    with respect to internal controls, human capital and information system and other
+    infrastructure to reduce Improper Payments and Unknown Payments to the tolerable
+    rate.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: "Part D overpayments mainly\
+    \ consist of errors resulting from drug or drug coverage or insufficient documentation.\
+    \ As such, CMS focused on educating Part D plan sponsors on issues of fraud, waste,\
+    \ and abuse to cut down on confusion regarding documentation requirements and\
+    \ coverage requirements under Part D. \n\nIn FY 2026, HHS will continue Part D\
+    \ plan sponsor audits, outreach, and training to reduce overpayments. Audits and\
+    \ training will be focused on high-risk drugs (i.e., at high risk of overpayments\
+    \ and/or beneficiary harm) and other areas of risk to the program. HHS' activities\
+    \ will align with the drivers and root causes of the error rate."
+  Corrective_Actions_Appropriateness: HHS is implementing corrective actions including
+    health plan training,  audits of high-risk drugs, and investigations to identify
+    potential fraud and recover overpayments.  For example, HHS educates plan sponsors
+    on emerging fraud, waste, and abuse drug trends and schemes by issuing  Health
+    Plan Management System memos on high risk drugs, audit findings, and best practices.
+     These efforts strengthen fraud, waste, and abuse programs and ensure compliance
+    with HHS requirements.
+  Corrective_Actions_Proportion: HHS will continue to prioritize and implement effective
+    corrective actions and mitigation strategies that reduce improper payments and
+    unknown payments agency-wide as evidenced by its lower error rate of 4%.  The
+    actions taken and planned to address failure to access data are proportional to
+    the improper payment rate and address the root causes of the improper payments.
+    For example, HHS audits Part D plan sponsors to address high-risk drugs and educate
+    sponsors on fraud, waste, and abuse. These audits have varying scopes but share
+    the goal of reducing and recovering improper Part D payments. Future audits may
+    account for areas in which missing or invalid documentation has been found to
+    be a persistent issue. HHS also uses education and outreach as a key tool to reduce
+    improper payments. Annually, the agency identifies the root causes of improper
+    payments and develops specific corrective actions to address them. This work is
+    reported on through the AFR process.
+  End_Date: 12/2023
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: HHS reports the agency’s improper payment targets
+    annually in the AFR. In addition, HHS sets annual Government Performance and Results
+    Act (GPRA) goals tied to reducing the improper payments. HHS managers are held
+    accountable for assessing improper payment rates and taking meaningful steps to
+    address the root causes of error. These efforts are reflected in each manager’s
+    performance plan, as appropriate. HHS also reports quarterly on the specific actions
+    taken to address the improper payment rates through the quarterly scorecard process
+    for high-priority programs, providing a level of public oversight over these efforts.
+  IP_Unknown_Target_Rate: 0.0423
+  Improper_Payments_Rate: 4.0032558071
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '0.45'
+  Non_Monetary_Loss_Amount: '522.61'
+  Overpayment_Combined_Mitigations_Planned: Audit, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Training
+  Payment_Accuracy_Rate: 95.9967441929202
+  Program_Additional_Information: The Reporting Year (RY) 2025 Medicare Part D improper
+    payment rate is statistically similar to the RY 2024 Medicare Part D improper
+    payment rate.
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: HHS did not include program integrity proposals related
+    to Part D in its FY 2027 Budget request.
+  Start_Date: 01/2023
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: Audit, Training
+  Underpayment_Mitigations_Taken: Audit, Training
+  Unknown_Payments_Rate: 0
+  Year: 2025
+  detail_IP_Causes: The primary causes of Medicare Prescription Drug Plan (Part D)
+    improper payments are drug or drug pricing discrepancies and insufficient documentation
+    to determine whether payment was proper or improper. The agency contracts with
+    Part D Sponsors who are responsible for administering the program, including the
+    accuracy of data and support for payment purposes and validation. Prescriptions,
+    the source document, are not submitted to the agency at the time of making payment
+    determinations.
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '3703.19'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '4.23'
+  eligibility_aggregated:
+  - Theme: Medical Status
+    Theme_Description: Identifies whether a person is sick/healthy
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 3703.19
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '3703.19'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 522.61
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '522.61'
 Description: Medicare Part D is a federal prescription drug benefit program for Medicare
   beneficiaries. The primary causes of overpayments are drug discrepancies (when the
   drug dispensed differs from the drug prescribed), drug pricing discrepancies (when
@@ -477,12 +594,12 @@ Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
-High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[1323.24, 2334.94, 3052.65]'
-Payment_Accuracy_Amounts: '[87054.51, 86720.18000000001, 92946.3]'
-Payment_Accuracy_Rate: 0
+High_Priority_Program: 1
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Outlays: 105559.08
+Overpayment_Amounts: '[1323.24, 2334.94, 3052.65, 3703.19]'
+Payment_Accuracy_Amounts: '[87054.51, 86720.18000000001, 92946.3, 101333.28]'
+Payment_Accuracy_Rate: 95.9967441929202
 Phase_2_Program: 0
 Program_Name: Centers for Medicare & Medicaid Services (CMS) - Medicare Prescription
   Drug Benefit (Part D)
@@ -493,10 +610,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q2 2025/Centers for Medicare & Medicaid Services (CMS) -
     Medicare Prescription Drug Benefit (Part D).pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[0, 0, 0]'
-Underpayment_Amounts: '[37.87, 1019.84, 522.44]'
-Unknown_Amounts: '[0, 0, 0]'
-detail_Reduction_Target: '3.91'
+Technically_Improper_Amounts: '[0, 0, 0, 0]'
+Underpayment_Amounts: '[37.87, 1019.84, 522.44, 522.61]'
+Unknown_Amounts: '[0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/93.77
 layout: program-specific
 permalink: program/hhs-centers-for-medicare-medicaid-services-cms-medicare-pres-20f8411b

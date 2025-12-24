@@ -1,12 +1,179 @@
 ---
 Agency: DOJ
 Agency_Name: Department of Justice
+Confirmed_Fraud: null
+Eligibility_Themes: []
 Fiscal_Year: 2025
-Is_Placeholder: true
+Hide_Disposition_of_Funds: false
+Hide_Disposition_of_Funds_Table: true
+Hide_Do_Not_Pay: false
+Hide_Eligibility_Criteria: true
+Hide_Integrity_Results: true
+Hide_PIIA2019: false
+Hide_Recovery_Audits: true
+Hide_Recovery_Details: false
+Hide_Recovery_Info: false
+Hide_Risk_Assessment_Results: false
+Hide_Sparklines: true
+Hide_Supplemental_Info: false
+Hide_Supplemental_Payment_Integrity: false
+Improper_Payments_Data_Years: '[]'
+Improper_Payments_Rate_Max: 0
+Improper_Payments_Rate_Min: 0
+Improper_Payments_Rates: '[]'
+Is_Placeholder: false
+Overpayment_Amounts: '[]'
+Overpayment_Amounts_Identified: '[5.29, 13.89, 9.1, 10.53, 4.47]'
+Overpayment_Amounts_Recovered: '[6.33, 7.24, 9.83, 10.01, 4.25]'
+Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
+PIIA2019_Compliant_Programs:
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Administrative, Technology, and Other
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Law Enforcement
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Litigation
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: Prisons and Detention
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Name: State, Local, Tribal, and Other Assistance
+PIIA2019_NonCompliant_Programs: []
+Payment_Accuracy_Amounts: '[]'
+Payment_Accuracy_Rate_Max: 0
+Payment_Accuracy_Rate_Min: 0
+Payment_Accuracy_Rates: '[]'
+Risks:
+  AdditionalInformation: null
+  Assessments:
+  - Fiscal_Year: 2025
+    MethodologyChanged: 0
+    Program_Name: Administrative, Technology, and Other
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2025
+    MethodologyChanged: 0
+    Program_Name: Law Enforcement
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2025
+    MethodologyChanged: 0
+    Program_Name: Litigation
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2025
+    MethodologyChanged: 0
+    Program_Name: Prisons and Detention
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: 2025
+    MethodologyChanged: 0
+    Program_Name: State, Local, Tribal, and Other Assistance
+    Slug: null
+    Susceptible: 'No'
+  SubstantialChangesMade: 'No'
+Technically_Improper_Amounts: '[]'
+Underpayment_Amounts: '[]'
+Unknown_Amounts: '[]'
+Unknown_Payments_Rate_Max: 0
+Unknown_Payments_Rate_Min: 0
+Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2025
 - 2024
 - 2023
 - 2022
+detail_Additional_IP_Information: The Department performs an annual assessment of
+  risks related to the susceptibility of improper payments. The assessment considers
+  the prior year disbursement and improper payment activity, estimates for the current
+  fiscal year, OIG determinations and data included in the prior year OIG Semiannual
+  Reports, and the risk factors outlined in OMB A-123 Appendix C. Department management
+  affirms this risk assessment is critical for ensuring the improper payment program
+  is managed (i.e., improper payments identified and recovery activities implemented)
+  effectively on an ongoing basis across the Department.
+detail_Compliance_Status: Compliant
+detail_DNP_Discussion: Our agency actively utilizes the Do Not Pay (DNP) Working System
+  through weekly Continuous Monitoring submissions, which include a list of our active
+  vendors across vendor types such as Commercial (COM) and Non-Vendor (NON). At this
+  time, we are checking against the Death Master File (DMF) source and are submitting
+  files for all DOJ components except. Through this process, we have flagged 419 address
+  codes on vendor records in our system as “Do Not Pay,” preventing potential improper
+  payments. As a result, our use of DNP has strengthened internal controls and contributed
+  to reducing improper payments and improving overall payment integrity.
+detail_DNP_Frequency_Identify: Monthly
+detail_DNP_Reduced: 'Yes'
+detail_Executive_Summary: The Department of Justice (DOJ) does not currently have
+  any programs with annual outlays over $10M; therefore, under the Payment Integrity
+  Information Act of 2019 (PIIA), DOJ does not have any programs that are susceptible
+  to significant improper payments. The Department operates a Payment Recapture Audit
+  Program, in accordance with OMB A-123 Appendix C and PIIA, which includes execution
+  of an annual improper payment risk assessment to determine susceptibility to improper
+  payments and performing payment recapture and recovery activities on an annual basis.
+detail_OIG_Recommendations: null
+detail_PIIA_Incentives: null
+detail_PIIA_Official: null
+detail_Recovery_Audits_Skipped: 'Yes'
+detail_Recovery_Justifications_Audits: null
+detail_Recovery_Not_Cost_Effective_Justification: null
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/DOJ.html
+recovery_Aging_of_Outstanding_OP_Identified_Amt_0_-_6_months: 0.01
+recovery_Aging_of_Outstanding_OP_Identified_Amt_6_months_to_1_year: 0.0
+recovery_Aging_of_Outstanding_OP_Identified_determined_not_collectable: 0.0
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 4.28
+recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 0.19
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 4.07
+recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.18
+recovery_Total_Overpayment_Amount_Identified: 4.47
+recovery_Total_Overpayment_Amount_Recovered: 4.25
 ---
