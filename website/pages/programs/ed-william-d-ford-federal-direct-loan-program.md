@@ -2,6 +2,90 @@
 Agency: ED
 Agency_Name: Department of Education
 Data_By_Year:
+- Agency_Needs_Satisfied: 'FSA has the internal controls, human capital, and information
+    systems and other infrastructure needed to reduce IPs and UPs to the tolerable
+    rate. However, FSA must also continue to rely on controls established by external
+    entities that receive funds and make payments on behalf of FSA for programs including
+    Pell Grants and Direct Loans.  These entities are outside of FSA’s operational
+    control.  FSA will continue to leverage data from program reviews and Single Audit
+    Act compliance audits to identify and address root causes of IPs and UPs made
+    by external entities; however, any requirements for additional monitoring and
+    sources of data would require additional resources. FSA will also continue to
+    pursue implementation of the FUTURE Act to improve verification of applicants’
+    and borrowers’ income data. '
+  Confidence_Level: '>95%'
+  Corrective_Actions_Proportion: To effectively prevent Direct Loan IPs and UPs from
+    occurring, FSA evaluates the root causes of IPs and UPs identified. This root
+    cause analysis is used to help formulate effective correction actions. FSA prioritizes
+    efforts to prevent IPs and UPs from occurring, such as implementation of the FUTURE
+    Act.  When evaluating corrective actions to address the underlying root causes
+    of Direct Loan IPs and UPs, FSA considers whether the corrective action being
+    contemplated aligns with the program mission. For corrective actions that are
+    implemented, FSA monitors the status of the corrective actions through quarterly
+    outreach to corrective action owners, and collects closure evidence to evaluate
+    the effectiveness and progress of each individual mitigation strategy which informs
+    whether the corrective action can be refined, intensified, expanded, or should
+    be discontinued or replaced.
+  End_Date: 09/2020
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 509.17
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0055999516
+  Improper_Payments_Rate: 0.55999708
+  Insufficient_Documentation_to_Determine: 0.0
+  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
+  Margin_of_Error: '0.51'
+  Non_Monetary_Loss_Amount: '387.94'
+  Outlays: 84709.37
+  Outlays_Current_Year_Plus_1_Amount: 90924
+  Payment_Accuracy_Rate: 99.44000291821318
+  Program_Design_or_Structural_Issue: 371.91
+  Start_Date: 10/2019
+  Technical_IP_Amount: '371.91'
+  Unknown_Curent_Year_Plus_1_Amount: 0
+  Unknown_Payments_Rate: 0
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 86.43
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '86.43'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 16.03
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '16.03'
 - Agency_Needs_Satisfied: "FSA has the internal controls, human capital, and information\
     \ systems and other infrastructure needed to reduce IPs and UPs to the tolerable\
     \ rate. \n\nFSA must also continue to rely on controls established by external\
@@ -80,6 +164,7 @@ Data_By_Year:
     \ identify and address root causes of improper payments made by external entities."
   Margin_of_Error: '0.55'
   Non_Monetary_Loss_Amount: '521.07'
+  Outlays: 83814.74
   Outlays_Current_Year_Plus_1_Amount: 84976.52
   Payment_Accuracy_Rate: 99.25000065620915
   Program_Additional_Information: 'The Department places a high value on maintaining
@@ -423,6 +508,7 @@ Data_By_Year:
     '
   Margin_of_Error: '0.59'
   Non_Monetary_Loss_Amount: '518.84'
+  Outlays: 83808.05
   Outlays_Current_Year_Plus_1_Amount: 85432.13
   Payment_Accuracy_Rate: 99.29999564480978
   Program_Additional_Information: 'The Department places a high value on maintaining
@@ -918,6 +1004,7 @@ Data_By_Year:
     '
   Margin_of_Error: '0.69'
   Non_Monetary_Loss_Amount: '725.5300000000001'
+  Outlays: 86688.28
   Outlays_Current_Year_Plus_1_Amount: 93100.04
   Payment_Accuracy_Rate: 99.05999980620217
   Program_Additional_Information: 'The Department places a high value on maintaining
@@ -1209,6 +1296,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 3.4
   Margin_of_Error: '0.76'
   Non_Monetary_Loss_Amount: '681.34'
+  Outlays: 90202.94
   Overpayment_Combined_Mitigations_Planned: Audit, Behavioral/Psych Influence, Change
     Process, Cross Enterprise Sharing, Predictive Analytics, Training
   Overpayment_Combined_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence,
@@ -1312,17 +1400,15 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 90202.94
-Overpayment_Amounts: '[103.21, 67.82, 83, 208.27]'
-Payment_Accuracy_Amounts: '[83186.12999999999, 83221.39, 85873.41, 89309.93000000001]'
-Payment_Accuracy_Rate: 99.00999900890149
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[86.43, 103.21, 67.82, 83, 208.27]'
+Payment_Accuracy_Amounts: '[84235.0, 83186.12999999999, 83221.39, 85873.41, 89309.93000000001]'
 Phase_2_Program: 0
 Program_Name: William D. Ford Federal Direct Loan Program
 Scorecard_Links: []
-Technically_Improper_Amounts: '[503.77, 500.84, 719.45, 669.83]'
-Underpayment_Amounts: '[17.3, 18, 6.08, 11.51]'
-Unknown_Amounts: '[4.33, 0, 6.34, 3.4]'
+Technically_Improper_Amounts: '[371.91, 503.77, 500.84, 719.45, 669.83]'
+Underpayment_Amounts: '[16.03, 17.3, 18, 6.08, 11.51]'
+Unknown_Amounts: '[0, 4.33, 0, 6.34, 3.4]'
 fpi_link: https://fpi.omb.gov/program/84.268
 layout: program-specific
 permalink: program/ed-william-d-ford-federal-direct-loan-program

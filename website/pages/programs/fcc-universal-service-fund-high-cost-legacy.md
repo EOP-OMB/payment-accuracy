@@ -32,6 +32,7 @@ Data_By_Year:
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
+  Outlays: 0
   Program_Additional_Information: For the FY2022 reporting cycle, FCC concluded, with
     OMB consultation, that it would be best if the Universal Service Fund - High Cost
     program to remain in Phase 1 in FY 2022 reporting cycle until OIG recommended
@@ -179,6 +180,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '1.713'
   Non_Monetary_Loss_Amount: '11.04'
+  Outlays: 1796
   Outlays_Current_Year_Plus_1_Amount: 2159.66
   Payment_Accuracy_Rate: 97.12082405345211
   Program_Design_or_Structural_Issue: 0.0
@@ -375,6 +377,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '2.83'
   Non_Monetary_Loss_Amount: '26.57'
+  Outlays: 1835.09
   Outlays_Current_Year_Plus_1_Amount: 1929
   Payment_Accuracy_Rate: 95.54517762071615
   Program_Design_or_Structural_Issue: 0.0
@@ -519,6 +522,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '1.89'
   Non_Monetary_Loss_Amount: '29.59'
+  Outlays: 1911.35
   Overpayment_Combined_Mitigations_Planned: Audit, Cross Enterprise Sharing, Training
   Overpayment_Combined_Mitigations_Taken: Audit, Cross Enterprise Sharing, Training
   Payment_Accuracy_Rate: 96.74313966568133
@@ -568,17 +572,15 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 1911.35
-Overpayment_Amounts: '[0, 40.67, 55.18, 32.66]'
-Payment_Accuracy_Amounts: '[0, 1744.29, 1753.34, 1849.1]'
-Payment_Accuracy_Rate: 96.74313966568133
+Improper_Payments_Data_Years: '[2023, 2024, 2025]'
+Overpayment_Amounts: '[40.67, 55.18, 32.66]'
+Payment_Accuracy_Amounts: '[1744.29, 1753.34, 1849.1]'
 Phase_2_Program: 0
 Program_Name: Universal Service Fund - High Cost Legacy
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[0, 11.04, 26.57, 29.59]'
-Unknown_Amounts: '[0, 0, 0, 0]'
+Technically_Improper_Amounts: '[0, 0, 0]'
+Underpayment_Amounts: '[11.04, 26.57, 29.59]'
+Unknown_Amounts: '[0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/32.002
 layout: program-specific
 permalink: program/fcc-universal-service-fund-high-cost-legacy

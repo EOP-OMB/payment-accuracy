@@ -11,5 +11,5 @@ SELECT
     COALESCE([CY_Unknown_Payments],0) AS [Unknown_Amount],
     [Fiscal_Year]
 FROM all_programs_data_aggregation
-WHERE [Program_Name] = ? AND [Fiscal_Year] <= ? AND [Fiscal_Year] >= ?
+WHERE [Program_Name] = ? AND [Fiscal_Year] <= ? AND [Fiscal_Year] >= ? AND [Outlays] <> 0
 ORDER BY [Fiscal_Year]

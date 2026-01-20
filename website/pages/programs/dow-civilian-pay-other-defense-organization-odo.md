@@ -237,6 +237,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '1.09'
   Non_Monetary_Loss_Amount: '146.87'
+  Outlays: 10304.89
   Outlays_Current_Year_Plus_1_Amount: 10407.94
   Overpayment_Mitigations_Planned: Automation, Change Process
   Overpayment_Mitigations_Taken: Automation, Change Process
@@ -567,6 +568,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 28.91
   Margin_of_Error: '0.63'
   Non_Monetary_Loss_Amount: '160.84'
+  Outlays: 11127.95
   Overpayment_Combined_Mitigations_Planned: Change Process
   Overpayment_Combined_Mitigations_Taken: Change Process
   Payment_Accuracy_Rate: 98.27066081353708
@@ -638,10 +640,8 @@ Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2024, 2025]'
-Outlays: 11127.95
 Overpayment_Amounts: '[1.33, 2.69]'
 Payment_Accuracy_Amounts: '[9834.210000000001, 10935.51]'
-Payment_Accuracy_Rate: 98.27066081353708
 Phase_2_Program: 0
 Program_Name: Civilian Pay – Other Defense Organization (ODO)
 Scorecard_Links: []

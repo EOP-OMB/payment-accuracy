@@ -76,6 +76,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '7.22'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 2106.98
   Outlays_Current_Year_Plus_1_Amount: 4022.26
   Payment_Accuracy_Rate: 72.57021898641658
   Program_Additional_Information: "In FY 2019, net Premium Tax Credits (PTC) were\
@@ -268,6 +269,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '5.14'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 3679.55
   Outlays_Current_Year_Plus_1_Amount: 2425.8
   Payment_Accuracy_Rate: 73.9601309942792
   Program_Additional_Information: Treasury collaborated with the HHS to develop a
@@ -632,6 +634,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '11.8'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 2304.58
   Outlays_Current_Year_Plus_1_Amount: 2499.96
   Payment_Accuracy_Rate: 71.45987555216135
   Program_Design_or_Structural_Issue: 0.0
@@ -895,6 +898,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '4.06'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 2623.05
   Overpayment_Combined_Mitigations_Planned: Change Process, Cross Enterprise Sharing
   Overpayment_Combined_Mitigations_Taken: Change Process, Cross Enterprise Sharing
   Payment_Accuracy_Rate: 68.38870780198624
@@ -959,29 +963,30 @@ Data_By_Year:
     Underpayments_Amount: '0.0'
 Description: The Net Premium Tax Credit (PTC) is a refundable credit that helps eligible
   individuals and families cover the premiums for their health insurance purchased
-  through the Marketplace. Approximately $0.57B of Net PTC overclaims are from the
-  inability to authenticate eligibility because the data needed does not exist. Approximately
-  $0.09B of Net PTC overclaims are from program design limitations.   Barriers caused
-  by program design occur when information needed to confirm payment accuracy is not
-  available at the time the return is processed. Authentication is difficult because
-  the IRS relies primarily on the self-reported information from the taxpayers and
-  there is a lack of internal or external databases available.
+  through the Marketplace.  $0.72B of Net PTC overclaims are from the inability to
+  authenticate eligibility.  $0.11B of Net PTC overclaims are from program design
+  limitations because the data needed to confirm payment accuracy does not exist at
+  the time of processing.  Authentication is difficult because the IRS relies primarily
+  on the self-reported information from the taxpayers and there is a lack of internal
+  or external databases available with information that would help the IRS determine
+  eligibility.
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
 Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 2623.05
 Overpayment_Amounts: '[577.94, 958.15, 657.73, 829.18]'
 Payment_Accuracy_Amounts: '[1529.04, 2721.4, 1646.85, 1793.8700000000003]'
-Payment_Accuracy_Rate: 68.38870780198624
 Phase_2_Program: 0
 Program_Name: Internal Revenue Service - Refundable Premium Assistance Tax Credit
 Scorecard_Links:
 - Link: assets/scorecards/Q1 2024/Internal Revenue Service - Refundable Premium Assistance
     Tax Credit.pdf
   QuarterYear: Q1 2024
+- Link: assets/scorecards/Q2 2024/Internal Revenue Service - Refundable Premium Assistance
+    Tax Credit Updated.pdf
+  QuarterYear: Q2 2024
 - Link: assets/scorecards/Q3 2024/Internal Revenue Service - Refundable Premium Assistance
     Tax Credit.pdf
   QuarterYear: Q3 2024
@@ -994,6 +999,12 @@ Scorecard_Links:
 - Link: assets/scorecards/Q2 2025/Internal Revenue Service - Refundable Premium Assistance
     Tax Credit.pdf
   QuarterYear: Q2 2025
+- Link: assets/scorecards/Q3 2025/Internal Revenue Service - Refundable Premium Assistance
+    Tax Credit.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/Internal Revenue Service - Refundable Premium Assistance
+    Tax Credit.pdf
+  QuarterYear: Q4 2025
 Technically_Improper_Amounts: '[0, 0, 0, 0]'
 Underpayment_Amounts: '[0, 0, 0, 0]'
 Unknown_Amounts: '[0, 0, 0, 0]'

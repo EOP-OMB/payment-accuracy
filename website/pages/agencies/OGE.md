@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Office of Government Ethics-Salaries and Expenses
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -47,7 +48,7 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Office of Government Ethics-Salaries and Expenses
     Slug: null
@@ -70,6 +71,7 @@ detail_Additional_IP_Information: OGE is a micro-agency with a small budget and 
   management services provider. Any questionable invoice is thoroughly reviewed, evaluated
   and if necessary validated with the vendor prior to payment to ensure accuracy and
   validity of the payment. OGE takes this responsibility very seriously.
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: OGE uses the Do Not Pay Working System as a check and balance
   to ensure no improper payments are being made in coordination with its Shared Service
@@ -82,6 +84,7 @@ detail_DNP_Discussion: OGE uses the Do Not Pay Working System as a check and bal
   has had a positive impact of reducing improper payments.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: The U.S. Office of Government Ethics (OGE) is compliant
   with the Payment Integrity Information Act of 2019 (PIIA). OGE does not currently
   have any programs with annual outlays over $10 million. Therefore, under PIAA, OGE
@@ -89,6 +92,7 @@ detail_Executive_Summary: The U.S. Office of Government Ethics (OGE) is complian
   OGE maintains proper payment integrity with multiple levels of pre-payment internal
   controls and constant monitoring of payment activities.
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
@@ -102,4 +106,5 @@ detail_Recovery_Not_Cost_Effective_Justification: OGE has no programs that meet 
 detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/OGE.html
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

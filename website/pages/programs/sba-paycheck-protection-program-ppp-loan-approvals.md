@@ -46,6 +46,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 685179.357116
   Outlays_Current_Year_Plus_1_Amount: 0
   Payment_Accuracy_Rate: 95.76358443573399
   Program_Additional_Information: "In accordance with program regulations, when a\
@@ -124,10 +125,8 @@ Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2022]'
-Outlays: 0
 Overpayment_Amounts: '[12529.331784]'
 Payment_Accuracy_Amounts: '[656152.312188]'
-Payment_Accuracy_Rate: 0
 Phase_2_Program: 0
 Program_Name: Paycheck Protection Program (PPP) Loan Approvals
 Scorecard_Links: []

@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Salaries and expenses - US International Trade Commission
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -47,12 +48,7 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: International Trade
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Salaries and expenses - US International Trade Commission
     Slug: null
@@ -69,7 +65,9 @@ Years_Available:
 - 2024
 - 2023
 - 2022
+- 2021
 detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: USITC uses the Do Not Pay Initiative to review payment eligibility
   for purposes of identifying and preventing improper payments. The USITC utilizes
@@ -85,6 +83,7 @@ detail_DNP_Discussion: USITC uses the Do Not Pay Initiative to review payment el
   funds.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: USITC Inspector General concluded that the agency was compliant
   with the Payment Integrity Information Act of of 2019 (PIIA) in the most recent
   compliance audit (OIG-MR-25-06) completed in May 2025. PIIA requires agencies to
@@ -100,6 +99,7 @@ detail_Executive_Summary: USITC Inspector General concluded that the agency was 
   PIIA. USITC maintains payment integrity with well established processes, strong
   financial controls and continuous monitoring.
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
@@ -116,4 +116,5 @@ layout: agency-specific
 permalink: agency/USITC.html
 recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.26
 recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.08
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

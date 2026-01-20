@@ -32,6 +32,7 @@ Data_By_Year:
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
+  Outlays: 0
   Program_Additional_Information: Head Start was determined to be risk-susceptible
     in FY 2021. As with other programs, developing and implementing a new improper
     payment estimation methodology and process can be a time-intensive process.  HHS
@@ -134,6 +135,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '4.59'
   Non_Monetary_Loss_Amount: '9.97'
+  Outlays: 10844.1
   Outlays_Current_Year_Plus_1_Amount: 11689
   Payment_Accuracy_Rate: 94.89565754649995
   Program_Additional_Information: HHS annually awards over $10 billion in federal
@@ -435,6 +437,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '2.6'
   Non_Monetary_Loss_Amount: '373.92'
+  Outlays: 11041.6
   Outlays_Current_Year_Plus_1_Amount: 12170.5
   Payment_Accuracy_Rate: 88.01912766265758
   Program_Additional_Information: HHS annually awards over $10 billion in federal
@@ -587,14 +590,47 @@ Data_By_Year:
     over time and adjust as needed. These actions reflect a coordinated approach at
     both the federal and recipient levels to strengthen fiscal integrity and reduce
     future errors.'
-  Corrective_Actions_Appropriateness: HHS is taking both planned and completed actions
-    to address the causes of Improper and Unknown Payments in the Head Start program.
-    These efforts not only respond to specific errors identified during the improper
-    payment review but also examine policies, processes, and procedures that could
-    contribute to future errors. A key component of the strategy is providing targeted
-    technical assistance to Head Start funding recipients to address underlying issues.
-    Corrective actions are designed to strengthen operations at both the recipient
-    level and within HHS itself.
+  Corrective_Actions_Appropriateness: 'In collaboration with grant staff, HHS has
+    initiated and planned several actions to correct the root causes of improper and
+    unknown payments and to prevent future occurrences. HHS has developed a Data Transaction
+    Validator, also known as the Improper Payment Data Scanner, which will immediately
+    notify recipients of discrepancies in fiscal transaction data; this tool is complete
+    and scheduled for use during the FY2026 review cycle. HHS will also launch the
+    National Center on Program Management & Quality Assurance in FY2026, focusing
+    on strengthening fiscal and management capacity among Head Start recipients to
+    address the underlying causes of improper payments and reinforce internal controls.
+    Additionally, in FY2026, HHS will continue to utilize modern technologies to monitor
+    recipient financial performance and alert HHS when recipients demonstrate high-risk
+    drawdown behaviors.
+
+
+    Beginning in Spring 2026, HHS will deploy targeted technical assistance for the
+    smallest recipients with the highest improper payment rates. This will begin with
+    a fiscal institute and will be supported by ongoing use of monitoring and regional
+    data to identify risk factors requiring intervention through the Fiscal Consultants
+    Initiative. HHS is implementing several recommendations from the Office of Head
+    Start (OHS) Fiscal Assessment, including development of a fiscal toolkit and a
+    risk assessment tool, to mitigate fraud, waste, and abuse. Where recipients maintain
+    inaccurate or insufficient fiscal documentation, HHS will issue disallowances
+    as appropriate to ensure accountability and compliance.
+
+
+    To support long-term prevention efforts, fiscal transaction reviews have been
+    formally integrated into ongoing monitoring activities through the FY2026 OHS
+    Monitoring Protocol, and HHS is developing internal policies for disallowance
+    tracking and retroactive testing to identify previously unknown improper payments.
+    Improper payment review methods will also be incorporated into additional monitoring
+    mechanisms to ensure consistent oversight. In FY2026, HHS will pilot a Fiscal
+    Risk Assessment tool for all new five-year grant recipients, beginning with smallest
+    recipients with the highest improper payment rates in the last two review cycles,
+    enabling early identification of fiscal risks.
+
+
+    Finally, HHS will continue the implementation and monitoring of Defend the Spend
+    notifications to help ensure proper drawdown approvals and strengthen real-time
+    fiscal oversight. Collectively, these actions—initiated or scheduled for completion
+    throughout FY2026—provide a comprehensive, preventative, and corrective framework
+    to reduce improper and unknown payments across HHS programs.'
   Corrective_Actions_Proportion: HHS will closely monitor how corrective actions are
     implemented and assess their interim effectiveness. This monitoring will help
     determine whether further steps are needed to ensure stronger controls. The approach
@@ -662,6 +698,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 1010.33
   Margin_of_Error: '3.59'
   Non_Monetary_Loss_Amount: '193.85'
+  Outlays: 11726.7
   Overpayment_Combined_Mitigations_Planned: Audit, Change Process, Cross Enterprise
     Sharing, Training
   Overpayment_Combined_Mitigations_Taken: Audit, Change Process, Cross Enterprise
@@ -746,37 +783,36 @@ Data_By_Year:
     Failure_to_Access_Data: 5.47
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '5.47'
-Description: The Child Care and Development Fund program is a federally funded, state-administered
-  block grant program with each state having maximum flexibility in developing the
-  Child Care and Development Fund programs and policies that best suit the needs of
-  children and families within that state. States tailor their review of errors to
-  reflect the policies and procedures unique to their state and therefore, states
-  have varying requirements for establishing and verifying a client’s eligibility.
+Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 11726.7
-Overpayment_Amounts: '[0, 187.96, 15.72, 2.69]'
-Payment_Accuracy_Amounts: '[0, 10290.580000000002, 9718.720000000001, 10519.830000000002]'
-Payment_Accuracy_Rate: 89.70835785003455
+Improper_Payments_Data_Years: '[2023, 2024, 2025]'
+Overpayment_Amounts: '[187.96, 15.72, 2.69]'
+Payment_Accuracy_Amounts: '[10290.580000000002, 9718.720000000001, 10519.830000000002]'
 Phase_2_Program: 0
 Program_Name: Administration for Children and Families (ACF) - Head Start
 Scorecard_Links:
 - Link: assets/scorecards/Q1 2024/Administration for Children and Families (ACF) -
     Head Start.pdf
   QuarterYear: Q1 2024
+- Link: assets/scorecards/Q2 2024/Administration for children and Families (ACF) -
+    Head Start.pdf
+  QuarterYear: Q2 2024
 - Link: assets/scorecards/Q3 2024/Administration for Children and Families (ACF) -
     Head Start.pdf
   QuarterYear: Q3 2024
+- Link: assets/scorecards/Q4 2024/Administration for Children and Families - (ACF)
+    Head Start.pdf
+  QuarterYear: Q4 2024
 - Link: assets/scorecards/Q2 2025/Administration for Children and Families (ACF) -
     Head Start.pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[0, 0, 364.73, 188.38]'
-Underpayment_Amounts: '[0, 9.97, 9.19, 5.47]'
-Unknown_Amounts: '[0, 355.59, 933.24, 1010.33]'
+Technically_Improper_Amounts: '[0, 364.73, 188.38]'
+Underpayment_Amounts: '[9.97, 9.19, 5.47]'
+Unknown_Amounts: '[355.59, 933.24, 1010.33]'
 fpi_link: https://fpi.omb.gov/program/93.6
 layout: program-specific
 permalink: program/hhs-administration-for-children-and-families-acf-head-start

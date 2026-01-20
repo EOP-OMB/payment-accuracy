@@ -6,6 +6,7 @@ Page_Name: 2025_TREASURY_4
 ProgramSurveyData:
 - ActionsTakenAdditionalData:
     Accountability: null
+    Description: null
     Needs1: null
     Needs2: null
     Sufficiency: null
@@ -55,6 +56,28 @@ ProgramSurveyData:
       targets remains a challenge without additional legislative authority and program
       restructuring. Nonetheless, leadership is held accountable through defined appraisal
       criteria to drive progress toward long-term improper payment reduction goals.'
+    Description: "The IRS has undertaken several targeted corrective actions across\
+      \ its refundable tax credit (RTC) programs to address and reduce improper and\
+      \ unknown payments. These actions, all scheduled for completion by Q4 of FY\
+      \ 2026, reflect the agency’s cross-functional collaboration and data-driven\
+      \ process improvement strategy.\n\nFor ACTC, the IRS conducted its annual Dependent\
+      \ Database (DDb) meeting with stakeholders from Taxpayer Services (TS), Small\
+      \ Business & Self-Employed (SBSE), and IT divisions. These meetings were designed\
+      \ to recalibrate prior-year compliance filters to better target audit selection\
+      \ of returns claiming RTCs. By refining these filters based on past data, the\
+      \ IRS aims to increase the precision of its audit selections. This strategic\
+      \ change process helps to mitigate erroneous RTC payments.\n\nIn addition, the\
+      \ IRS utilized cross-enterprise data sharing to validate eligibility and reduce\
+      \ improper payments. For example, in the case of the ACTC, the IRS worked with\
+      \ the Department of Health and Human Services (HHS) Office of Child Support\
+      \ Services (OCSS) and the Social Security Administration (SSA) to more accurately\
+      \ determine refund eligibility. \n\nTo further strengthen compliance, the IRS\
+      \ continued its annual training efforts for tax professionals focused on IRC\
+      \ 6695(g) due diligence requirements. This training was disseminated via national\
+      \ venues selected for the IRS Nationwide Tax Forums and filing season readiness\
+      \ webinars. These efforts are intended to improve taxpayer and preparer understanding\
+      \ of RTC eligibility rules, thereby addressing root causes of improper payments\
+      \ due to preparer error or misunderstanding."
     Needs1: 'The IRS has built a strong foundation of internal controls, data-driven
       compliance filters, and targeted outreach strategies to address improper and
       unknown payments. However, its ability to further reduce these payments is constrained
@@ -146,6 +169,20 @@ ProgramSurveyData:
     Subheading: Improper Payment Estimate
     Type: PERCENTAGE
   - Agency: TREASURY
+    Answer: '0.0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp7
+    SortOrder: 4
+    Subheading: Unknown Payment Estimate
+    Type: MILLIONS_OF_DOLLARS
+  - Agency: TREASURY
+    Answer: '0.0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp24
+    SortOrder: 5
+    Subheading: Unknown Payment Estimate
+    Type: PERCENTAGE
+  - Agency: TREASURY
     Answer: '4549.55'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp30
@@ -188,14 +225,18 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp21
     SortOrder: 10
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: MILLIONS_OF_DOLLARS
   - Agency: TREASURY
     Answer: '13.6072255233393'
     Heading: Causes of Improper Payments
     Key: cyp22
     SortOrder: 11
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: '4276.58'
@@ -285,6 +326,30 @@ ProgramSurveyData:
       targets remains a challenge without additional legislative authority and program
       restructuring. Nonetheless, leadership is held accountable through defined appraisal
       criteria to drive progress toward long-term improper payment reduction goals.'
+    Description: 'The IRS has undertaken several targeted corrective actions across
+      its refundable tax credit programs to address and reduce improper and unknown
+      payments. These actions, all scheduled for completion by Q4 of FY 2026, reflect
+      the agency’s cross-functional collaboration and data-driven process improvement
+      strategy.
+
+
+      For the American Opportunity Tax Credit (AOTC), the IRS conducted its annual
+      Dependent Database (DDb) meeting with stakeholders from Taxpayer Services (TS),
+      Small Business & Self-Employed (SBSE), and IT divisions. These meetings were
+      designed to recalibrate prior-year compliance filters to better target audit
+      selection of returns claiming refundable tax credits (RTCs). By refining these
+      filters based on past data, the IRS aims to increase the precision of its audit
+      selections. This strategic change process helps to mitigate erroneous RTC payments.
+
+
+      To further strengthen compliance, the IRS continued its annual training efforts
+      for tax professionals focused on IRC 6695(g) due diligence requirements. This
+      training was disseminated via national venues selected for the IRS Nationwide
+      Tax Forums and filing season readiness webinars. These efforts are intended
+      to improve taxpayer and preparer understanding of RTC eligibility rules, thereby
+      addressing root causes of improper payments due to preparer error or misunderstanding.
+      All actions outlined were completed or are planned for completion in Q4 FY 2026,
+      consistent with IRS’s commitment to continuous improvement.'
     Needs1: 'The IRS has built a strong foundation of internal controls, data-driven
       compliance filters, and targeted outreach strategies to address improper and
       unknown payments. However, its ability to further reduce these payments is constrained
@@ -366,6 +431,20 @@ ProgramSurveyData:
     Subheading: Improper Payment Estimate
     Type: PERCENTAGE
   - Agency: TREASURY
+    Answer: '0.0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp7
+    SortOrder: 4
+    Subheading: Unknown Payment Estimate
+    Type: MILLIONS_OF_DOLLARS
+  - Agency: TREASURY
+    Answer: '0.0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp24
+    SortOrder: 5
+    Subheading: Unknown Payment Estimate
+    Type: PERCENTAGE
+  - Agency: TREASURY
     Answer: '1536.46'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp30
@@ -408,14 +487,18 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp21
     SortOrder: 10
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: MILLIONS_OF_DOLLARS
   - Agency: TREASURY
     Answer: '30.679682991651475'
     Heading: Causes of Improper Payments
     Key: cyp22
     SortOrder: 11
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: '568.49'
@@ -503,6 +586,43 @@ ProgramSurveyData:
       remains a challenge without additional legislative authority and program restructuring.
       Nonetheless, leadership is held accountable through defined appraisal criteria
       to drive progress toward long-term improper payment reduction goals.
+    Description: The IRS has undertaken several targeted corrective actions across
+      its refundable tax credit programs to address and reduce improper and unknown
+      payments. For Earned Income Tax Credit (EITC), the IRS conducted its annual
+      Dependent Database (DDb) meeting with stakeholders from Taxpayer Services (TS),
+      Small Business & Self-Employed (SBSE), and IT divisions. These meetings were
+      designed to recalibrate prior-year compliance filters to better target audit
+      selection of returns claiming refundable tax credits (RTCs). By refining these
+      filters based on past data, the IRS aims to increase the precision of its audit
+      selections. This strategic change process helps to mitigate erroneous RTC payments.
+      In addition, the IRS leveraged data-sharing agreements with the Office of Child
+      Support Services (OCSS) and the Social Security Administration (SSA) to access
+      critical information that aids in validating eligibility for the EITC. This
+      data-sharing involves the exchange of key data points, such as income verification,
+      household composition and income limits and the eligibility to claim certain
+      dependents. With this information, the IRS can more accurately assess whether
+      taxpayers meet the eligibility requirements for the EITC. Cross Enterprise Sharing
+      allows the IRS to detect discrepancies in taxpayer filings, such as misreported
+      income or invalid dependent claims, and prevent improper payments during the
+      return processing stage. Another root cause of improper payments of RTCs is
+      taxpayer misreporting or misunderstanding of eligibility requirements. Given
+      that RTCs rely heavily on taxpayer self-reported information, taxpayers may
+      inaccurately claim the EITC due to misunderstanding income limits or dependency.
+      By leveraging third-party data sources from OCSS and SSA, the IRS can verify
+      key elements of returns. This is especially important given the lack of a pre-approval
+      process for these credits. Quantifying or pinpointing success of specific actions
+      is complicated, given the multiple variables affecting improper payments of
+      RTCs that are outside of the IRS's control. Reducing improper payment rates
+      to the statutory requirement would require a significant restructuring of the
+      RTC programs, to include legislative action. To further strengthen compliance,
+      the lRS continues its annual training efforts for tax professionals focused
+      on IRC 6695(g) due diligence requirements. This training was disseminated via
+      national venues selected for the IRS Nationwide Tax Forums and filing season
+      readiness webinars. These efforts are intended to improve taxpayer and preparer
+      understanding of RTC eligibility rules, thereby addressing root causes of improper
+      payments due to preparer error or misunderstanding. All actions outlined were
+      completed or are planned for completion in Q4 FY 2026, consistent with IRS 's
+      commitment to continuous improvement.
     Needs1: The IRS has built a strong foundation of internal controls, data-driven
       compliance filters, and targeted outreach strategies to address improper and
       unknown payments. However, its ability to further reduce these payments is constrained
@@ -582,6 +702,20 @@ ProgramSurveyData:
     Subheading: Improper Payment Estimate
     Type: PERCENTAGE
   - Agency: TREASURY
+    Answer: '0.0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp7
+    SortOrder: 4
+    Subheading: Unknown Payment Estimate
+    Type: MILLIONS_OF_DOLLARS
+  - Agency: TREASURY
+    Answer: '0.0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp24
+    SortOrder: 5
+    Subheading: Unknown Payment Estimate
+    Type: PERCENTAGE
+  - Agency: TREASURY
     Answer: '21145.82'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp30
@@ -624,14 +758,18 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp21
     SortOrder: 10
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: MILLIONS_OF_DOLLARS
   - Agency: TREASURY
     Answer: '32.694598372213832'
     Heading: Causes of Improper Payments
     Key: cyp22
     SortOrder: 11
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: '19877.07'
@@ -721,6 +859,37 @@ ProgramSurveyData:
       targets remains a challenge without additional legislative authority and program
       restructuring. Nonetheless, leadership is held accountable through defined appraisal
       criteria to drive progress toward long-term improper payment reduction goals.'
+    Description: 'The IRS has undertaken several targeted corrective actions across
+      its refundable tax credit programs to address and reduce improper and unknown
+      payments. These actions, all scheduled for completion by Q4 of FY 2026, reflect
+      the agency’s cross-functional collaboration and data-driven process improvement
+      strategy.
+
+
+      For Net Premium Tax Credit (PTC), the IRS conducted its annual Dependent Database
+      (DDb) meeting with stakeholders from Taxpayer Services (TS), Small Business
+      & Self-Employed (SBSE), and IT divisions. These meetings were designed to recalibrate
+      prior-year compliance filters to better target audit selection of returns claiming
+      refundable tax credits (RTCs). By refining these filters based on past data,
+      the IRS aims to increase the precision of its audit selections. This strategic
+      change process helps to mitigate erroneous RTC payments.
+
+
+      In addition, the IRS utilized cross-enterprise data sharing to validate eligibility
+      and reduce improper payments. For example, for the Net PTC, collaboration with
+      the Department of Health and Human Services (HHS) and the Centers for Medicare
+      & Medicaid Services (CMS) allowed the IRS to leverage data through the PTC Workgroup
+      and Sub-Workgroup, addressing systemic issues related to improper PTC payments.
+
+
+      To further strengthen compliance, the IRS continued its annual training efforts
+      for tax professionals focused on IRC 6695(g) due diligence requirements. This
+      training was disseminated via national venues selected for the IRS Nationwide
+      Tax Forums and filing season readiness webinars. These efforts are intended
+      to improve taxpayer and preparer understanding of RTC eligibility rules, thereby
+      addressing root causes of improper payments due to preparer error or misunderstanding.
+      All actions outlined were completed or are planned for completion in Q4 FY 2026,
+      consistent with IRS’s commitment to continuous improvement.'
     Needs1: 'The IRS has built a strong foundation of internal controls, data-driven
       compliance filters, and targeted outreach strategies to address improper and
       unknown payments. However, its ability to further reduce these payments is constrained
@@ -812,6 +981,20 @@ ProgramSurveyData:
     Subheading: Improper Payment Estimate
     Type: PERCENTAGE
   - Agency: TREASURY
+    Answer: '0.0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp7
+    SortOrder: 4
+    Subheading: Unknown Payment Estimate
+    Type: MILLIONS_OF_DOLLARS
+  - Agency: TREASURY
+    Answer: '0.0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp24
+    SortOrder: 5
+    Subheading: Unknown Payment Estimate
+    Type: PERCENTAGE
+  - Agency: TREASURY
     Answer: '829.18'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp30
@@ -854,14 +1037,18 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp21
     SortOrder: 10
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: MILLIONS_OF_DOLLARS
   - Agency: TREASURY
     Answer: '31.611292198013757'
     Heading: Causes of Improper Payments
     Key: cyp22
     SortOrder: 11
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: '721.39'
@@ -933,6 +1120,7 @@ ProgramSurveyData:
   SortOrder: 4
 - ActionsTakenAdditionalData:
     Accountability: null
+    Description: null
     Needs1: null
     Needs2: null
     Sufficiency: null
@@ -958,6 +1146,7 @@ ProgramSurveyData:
   SortOrder: 5
 - ActionsTakenAdditionalData:
     Accountability: null
+    Description: null
     Needs1: null
     Needs2: null
     Sufficiency: null

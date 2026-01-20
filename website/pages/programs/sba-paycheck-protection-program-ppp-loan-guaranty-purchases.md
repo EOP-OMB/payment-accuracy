@@ -73,6 +73,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 8274.195983
   Outlays_Current_Year_Plus_1_Amount: 10069.95206
   Overpayment_Mitigations_Planned: Training
   Overpayment_Mitigations_Taken: Training
@@ -259,6 +260,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '3.48'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 6792.07893654
   Outlays_Current_Year_Plus_1_Amount: 1982.097938
   Overpayment_Mitigations_Planned: Change Process
   Overpayment_Mitigations_Taken: Change Process
@@ -348,8 +350,75 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
-- Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: true
+- Agency_Needs_Satisfied: 'The agency has established sufficient internal controls,
+    human capital, and information system infrastructure to manage improper payment
+    risk associated with PPP guaranty purchases at a level where additional investments
+    would not be cost-beneficial. Post-purchase quality control reviews, audit procedures,
+    and statistically valid sampling are used to identify underwriting deficiencies
+    and improper payments, and 100 percent of loans selected for review are completed.
+    Identified improper payments are subject to recovery through the established process
+    once finalized.
+
+
+    In its most recent budget submission, the agency requested the maintenance of
+    current resource levels to support workforce capacity and operational activities
+    necessary to sustain payment integrity during post-purchase review, recovery,
+    and closeout. Based on review results and recovery outcomes, the agency determined
+    that expanding reviews beyond current sampling methodologies or adding additional
+    controls would cost more than the marginal benefit of additional prevented or
+    recovered improper payments. Accordingly, existing controls and resources are
+    assessed as sufficient and appropriately aligned to program risk.
+
+    '
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: 'Corrective actions for
+    PPP guaranty purchases are implemented and prioritized based on the predominant
+    reason for the Improper Payment, ensuring that the agency’s efforts directly address
+    the underlying cause. These actions focus on strengthening payment reviews and
+    eligibility checks to prevent the recurrence of errors related to payroll verification
+    and borrower business eligibility. When an improper guaranty payment is identified,
+    SBA initiates recovery by demanding repayment from the lender and requiring any
+    outstanding or clarifying documentation needed to substantiate the original eligibility
+    determination.
+
+
+    The agency provides feedback to the lender and applicable SBA employees regarding
+    process and policy errors resulting in the improper payment to ensure consistent
+    understanding and application of program requirements. These corrective actions
+    are adequate to address the root causes of Improper Payments and Unknown Payments
+    and have contributed to improvements in program compliance and payment accuracy.
+    As implementation continues, the actions are expected to further reduce Improper
+    Payments and Unknown Payments within the PPP guaranty purchase program.'
+  Corrective_Actions_Appropriateness: Because improper payments in the PPP Guaranty
+    Purchase Program originate from lender underwriting deficiencies at loan origination,
+    the agency’s prevention strategy focuses on post-purchase oversight, deterrence,
+    and corrective action rather than pre-payment controls. Through post-purchase
+    quality control and audit reviews, the agency identifies underwriting failures
+    related to borrower eligibility and payroll verification and holds lenders accountable
+    for compliance with statutory and program requirements. These reviews, combined
+    with targeted lender training, internal escalation of deficiencies, and the potential
+    for recovery actions, serve as a deterrent to noncompliance and reduce the likelihood
+    of recurring improper payments. This approach strengthens payment integrity by
+    promoting improved lender underwriting practices even in the absence of additional
+    pre-purchase review authority.
+  Corrective_Actions_Proportion: Corrective actions for PPP Guaranty Purchases are
+    structured based on the root cause of the improper payment and the severity of
+    the associated harm to the agency. Improper Payments and Unknown Payments in this
+    program primarily occurred when lenders did not adequately verify borrower payroll
+    information or confirm that the borrower was in business as of the date required
+    by statute. To address these issues, SBA reviewed lender-submitted documentation
+    to validate payroll eligibility and confirm that key business information was
+    accurate. These corrective actions directly target the underlying causes of the
+    improper payments and are proportional to the risk and impact of each deficiency.
+    When improper guaranty payments are identified, SBA initiates recapture actions
+    and requires lenders to provide any missing or clarifying documentation. Planned
+    corrective actions include continuing these recapture efforts and reinforcing
+    the need for lenders to submit complete and timely documentation to support guaranty
+    purchase requests. Collectively, these measures strengthen program oversight and
+    reduce the likelihood of future Improper Payments and Unknown Payments.
+  End_Date: 03/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
   Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
   Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
   Hide_Overpayments_Outside_Failure_to_Access_Data: true
@@ -359,36 +428,70 @@ Data_By_Year:
   Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
   Hide_Overpayments_Within_Failure_to_Access_Data: true
   Hide_Overpayments_Within_Inability_to_Access_Data: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
   Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: true
-  Hide_Program_Results_Future_Outlook_Baseline_Table: true
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
   Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: true
+  Hide_Program_Results_Future_Outlook_Needs: false
   Hide_Program_Results_Improper_Payments: false
   Hide_Program_Results_Tabs: false
   Hide_Program_Results_Unknown_Payments: false
   Hide_Underpayments_Data_Needed_Does_Not_Exist: true
   Hide_Underpayments_Failure_to_Access_Data: true
   Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Accountability_Description: 'As a means to reduce and/or eliminate the occurrence
+    of improper payments, a Corrective Action Plan has been developed for the program.
+    In addition, managers are held accountable for meeting the program''s improper
+    payment rate and unknown payment rate reductions targets.
+
+    '
+  IP_Unknown_Target_Rate: 0.0517
   Improper_Payments_Rate: 5.1705370361
   Insufficient_Documentation_to_Determine: 113.443
+  Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 1398.23
+  Overpayment_Combined_Mitigations_Planned: Audit, Training
+  Overpayment_Combined_Mitigations_Taken: Change Process, Training
   Payment_Accuracy_Rate: 86.71613396937558
   Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: In the most recent budget submission, the agency requested
+    to maintain current resources to support workforce capacity and operational activities
+    required to ensure payment integrity of the PPP Guaranty Purchase Process during
+    testing, recoupment, and closeout. These resources are intended to support staff
+    responsible for post-PPP Guaranty Purchase reviews, improper payment identification,
+    recovery efforts, and closeout activities. Despite overall resource constraints
+    in fiscal year 2025, the program prioritized available staffing and funding to
+    sustain payment integrity functions and ensure compliance through the recoupment
+    and closeout phase.
+  Start_Date: 04/2024
   Technical_IP_Amount: '0.0'
+  Unknown_Mitigations_Planned: Training
+  Unknown_Mitigations_Taken: Audit, Training
   Unknown_Payments_Rate: 8.113328994514493
   Year: 2025
-  detail_IP_Causes: null
+  detail_IP_Causes: The predominant cause of improper payments in the PPP Guaranty
+    Purchase Program was lender failure to meet underwriting requirements at loan
+    origination. Specifically, improper payments occurred when lenders did not adequately
+    verify that the borrower was in operation on or around February 15, 2020, or did
+    not sufficiently validate the dollar amount of the borrower’s average monthly
+    payroll for the preceding calendar year. These underwriting deficiencies resulted
+    in guaranty purchases being made on loans that did not fully meet statutory and
+    program eligibility requirements.
   detail_No_Estimates_Why: null
-  detail_Overpayments_Due_To_Data_DNE: null
-  detail_Overpayments_Due_To_Failure: null
-  detail_Overpayments_Due_To_Inability: null
-  detail_Reduction_Target: null
+  detail_Overpayments_Due_To_Data_DNE: '6.834'
+  detail_Overpayments_Due_To_Failure: '65.462'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '5.17'
+  eligibility_aggregated:
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
   overpayments:
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
+    Data_Needed_Does_Not_Exist: 6.834
+    Failure_to_Access_Data: 65.462
     Inability_to_Access_Data: 0.0
     Overpayments_Within_Control_Amount: '72.296'
   overpayments_outside:
@@ -398,29 +501,15 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
-Description: 'The CARES Act established the Paycheck Protection Program to provide
-  economic
-
-  relief to small businesses and incentivize small businesses to keep their workers
-  on the
-
-  payroll because of the COVID-19 pandemic. The SBA separated PPP into three payment
-  integrity reporting categories: 1) PPP Approvals; 2) PPP Forgiveness, and 3) PPP
-  Purchases. PPP ended in May 2021. Although no new PPP funds are being disbursed,
-  lenders may request guaranty purchase of a PPP loan. The predominate reasons for
-  improper payments in PPP Guaranty Purchases were: 1) lender’s failure to verify
-  that the borrower was in business on February 20, 2020; 2) lender’s failure to verify
-  average monthly payroll; and 3) unacceptable or missing identification of the borrower.'
+Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2023, 2024, 2025]'
-Outlays: 1398.23
 Overpayment_Amounts: '[125.770037, 1662.3041176, 72.296]'
 Payment_Accuracy_Amounts: '[4207.712389999999, 5113.07410823, 1212.491]'
-Payment_Accuracy_Rate: 86.71613396937558
 Phase_2_Program: 0
 Program_Name: Paycheck Protection Program (PPP) Loan Guaranty Purchases
 Scorecard_Links:
@@ -439,6 +528,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q1 2025/Paycheck Protection Program (PPP) Loan Guaranty
     Purchases.pdf
   QuarterYear: Q1 2025
+- Link: assets/scorecards/Q2 2025/Paycheck Protection Program (PPP) Loan Guaranty
+    Forgiveness.pdf
+  QuarterYear: Q2 2025
 Technically_Improper_Amounts: '[0, 0, 0]'
 Underpayment_Amounts: '[0, 0, 0]'
 Unknown_Amounts: '[3940.713556, 16.70071071, 113.443]'

@@ -32,6 +32,7 @@ Data_By_Year:
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
+  Outlays: 0
   Program_Additional_Information: The COVID-19 UIP was determined to be risk-susceptible
     in FY 2021. Payments for testing and treatment claims began in May 2020, and vaccine
     administration began in Feb 2021. HHS developed, submitted, and began to implement
@@ -162,6 +163,7 @@ Data_By_Year:
     rate for this program.
   Margin_of_Error: '1.0'
   Non_Monetary_Loss_Amount: '81.378'
+  Outlays: 19269.29
   Outlays_Current_Year_Plus_1_Amount: 0
   Overpayment_Mitigations_Planned: Change Process
   Overpayment_Mitigations_Taken: Audit, Change Process, Training
@@ -253,18 +255,16 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[0, 92.141]'
-Payment_Accuracy_Amounts: '[0, 19093.486]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2024]'
+Overpayment_Amounts: '[92.141]'
+Payment_Accuracy_Amounts: '[19093.486]'
 Phase_2_Program: 0
 Program_Name: Health Resources and Services Administration (HRSA) - Provider Relief
   Fund Uninsured
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0]'
-Underpayment_Amounts: '[0, 81.378]'
-Unknown_Amounts: '[0, 2.285]'
+Technically_Improper_Amounts: '[0]'
+Underpayment_Amounts: '[81.378]'
+Unknown_Amounts: '[2.285]'
 layout: program-specific
 permalink: program/hhs-health-resources-and-services-administration-hrsa-provid-db76ca62
 ---

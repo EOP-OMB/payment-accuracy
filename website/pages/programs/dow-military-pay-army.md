@@ -2,6 +2,99 @@
 Agency: DOW
 Agency_Name: Department of War
 Data_By_Year:
+- Agency_Needs_Satisfied: "\"Internal Controls: \nThe Army has internal controls in\
+    \ place that support the reduction of improper payments in its Military Pay program\
+    \ to the levels the Department has targeted.  Moreover, Military Pay Services,\
+    \ which support the end-to-end delivery of payroll processing services, received\
+    \ an unmodified System and Organizational Control (SOC) 1 Type 2 report under\
+    \ Statement on Standards for Attestation Engagements (SSAE) No. 18 in FY 2021.\n\
+    \nHuman Capital:\nThe Army has the human capital it needs to reduce improper payments\
+    \ in the Military Pay program to the levels the Department has targeted.  However,\
+    \ as the Army’s Military Pay program evolves and DoD operations change, additional\
+    \ skill sets and personnel resources may be needed to sustain and advance the\
+    \ program.\n\nInformation Systems and Other Infrastructure:\nThe Army has the\
+    \ information systems and other infrastructure it needs to reduce improper payments\
+    \ in the Military Pay program to the levels the Department has targeted.  However,\
+    \ as technology advances, the Army and the Department continue to improve the\
+    \ accuracy and efficiency of Military Pay through implementation of new integrated\
+    \ pay and personnel processing systems.  The primary system currently used by\
+    \ the Army and the Department to process Military Pay is the Defense Joint Military\
+    \ Pay System (DJMS).  The general and application controls of DJMS were included\
+    \ in the scope of the Military Pay Services FY 2021 Statement on Standards for\
+    \ Attestation Engagements (SSAE) No. 18 examination, which received an unmodified\
+    \ System and Organizational Control (SOC) 1 Type 2 report.  However, DJMS is a\
+    \ legacy entitlement system requiring manual handoffs and processing.  It will\
+    \ be replaced by the Integrated Pay and Personnel System – Army (IPPS-A) in the\
+    \ future.  Under IPPS-A, improper payments will be reduced because entitlements\
+    \ will be directly inputted into the Military Pay payroll system by an authorized\
+    \ personnel source thereby eliminating all manual processing.\nMoreover, the Automated\
+    \ Disbursing System, the Centralized Disbursing System, and the Deployable Disbursing\
+    \ System, which are the primary disbursing systems for the Department, received\
+    \ an unmodified SOC 1 Type 2 report under SSAE No. 18 in FY 2021.  \n"
+  Confidence_Level: '>95%'
+  Corrective_Actions_Proportion: 'In FY 2022, the Department will continue the collaborative
+    timeline execution standard to conduct the PIIA Compliance reviews for the Military
+    Pay - Army. This effort and additional corrective actions will increase accountability
+    in reducing improper and unknown payments that aligns with the Department of Defense
+    payment integrity objectives.  '
+  End_Date: 09/2020
+  Future_Outlook_Has_Baseline: 'No'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: true
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Improper_Payments_Rate: 0.23800725
+  Insufficient_Documentation_to_Determine: 1405.67
+  Is_Lowest_IP_And_Unknown_Rate: 'No'
+  Margin_of_Error: '1.24'
+  Non_Monetary_Loss_Amount: '81.23'
+  Outlays: 45704.49
+  Payment_Accuracy_Rate: 96.68643058920469
+  Program_Design_or_Structural_Issue: 42.79
+  Start_Date: 10/2019
+  Technical_IP_Amount: '42.79'
+  Unknown_Payments_Rate: 3.075562160304163
+  Unknown_Why: "Key supporting documentation was not provided to the post payment\
+    \ review team to validate the accuracy of the payment.  \n"
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 27.55
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '27.55'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Address_Location: 4.2284
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 38.44
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '38.44'
 - Agency_Needs_Satisfied: "Internal Controls: \nThe Army has internal controls in\
     \ place that support the reduction of improper payments in its Military Pay program\
     \ to the levels the Department has targeted.  Moreover, Military Pay Services,\
@@ -91,6 +184,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '1.05'
   Non_Monetary_Loss_Amount: '76.95'
+  Outlays: 40061.36
   Outlays_Current_Year_Plus_1_Amount: 42865.66
   Payment_Accuracy_Rate: 97.9581322251666
   Program_Additional_Information: The Department’s Military Pay –Army Payment Integrity
@@ -282,6 +376,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '0.2'
   Non_Monetary_Loss_Amount: '58.85'
+  Outlays: 40320.8
   Outlays_Current_Year_Plus_1_Amount: 43143.26
   Overpayment_Mitigations_Planned: Training
   Overpayment_Mitigations_Taken: Training
@@ -396,17 +491,15 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023]'
-Outlays: 0
-Overpayment_Amounts: '[63.41, 8.75]'
-Payment_Accuracy_Amounts: '[39243.36, 40085.05]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2021, 2022, 2023]'
+Overpayment_Amounts: '[27.55, 63.41, 8.75]'
+Payment_Accuracy_Amounts: '[44190.03999999999, 39243.36, 40085.05]'
 Phase_2_Program: 0
 Program_Name: Military Pay - Army
 Scorecard_Links: []
-Technically_Improper_Amounts: '[76.95, 58.65]'
-Underpayment_Amounts: '[0, 0.2]'
-Unknown_Amounts: '[677.64, 168.15]'
+Technically_Improper_Amounts: '[42.79, 76.95, 58.65]'
+Underpayment_Amounts: '[38.44, 0, 0.2]'
+Unknown_Amounts: '[1405.67, 677.64, 168.15]'
 layout: program-specific
 permalink: program/dow-military-pay-army
 ---

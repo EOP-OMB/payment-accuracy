@@ -2,6 +2,80 @@
 Agency: SBA
 Agency_Name: Small Business Administration
 Data_By_Year:
+- Agency_Needs_Satisfied: ' Currently, the agency has what is needed with respect
+    to internal controls, human capital and information system and other infrastructure
+    to reduce IPs and UPs to the tolerable rate and statutory rate.'
+  Confidence_Level: '>95%'
+  Corrective_Actions_Proportion: "1) Require all training materials be reviewed and\
+    \ approved by SBA headquarters.\nExpanding training efforts to include one-on-one\
+    \ training with Application Processing Team Leads; and\n2) Require all departments\
+    \ performing any form of quality assurance/control checks to report their findings\
+    \ monthly inclusive of:\nThe specific loan data,\n-\tloan numbers\n-\tamounts\n\
+    -\tissues uncovered\n      ·\tTracking and resolution of uncovered issues\n  \
+    \    ·\tProvide monthly summary report to the Quality Control Supervisor\n3) Conduct\
+    \ bi-monthly improper payment meetings that includes all teams responsible for\
+    \ ODA quality assurance/control. Meeting should have a written agenda and meeting\
+    \ minutes to capture the development\n"
+  End_Date: 03/2021
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 72.844
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.133664847
+  Improper_Payments_Rate: 13.36647865
+  Insufficient_Documentation_to_Determine: 0.0
+  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
+  Margin_of_Error: '3.0'
+  Non_Monetary_Loss_Amount: '41.189347'
+  Outlays: 544.975
+  Outlays_Current_Year_Plus_1_Amount: 544.975
+  Payment_Accuracy_Rate: 86.63352135419056
+  Program_Design_or_Structural_Issue: 0.0
+  Start_Date: 04/2020
+  Technical_IP_Amount: '0.0'
+  Unknown_Curent_Year_Plus_1_Amount: 0
+  Unknown_Payments_Rate: 0
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 31.65462
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '31.65462'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 40.736391
+    Financial: 0.0
+    Inability_to_Access_Data: 0.452956
+    Underpayments_Amount: '41.189347'
 - Agency_Needs_Satisfied: The agency has what is needed with respect to internal controls,
     human capital and information system and other infrastructure to reduce improper
     payments and unknown payments to the tolerable rate.
@@ -51,6 +125,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '19.04'
+  Outlays: 1133.593985
   Outlays_Current_Year_Plus_1_Amount: 1133.593958
   Payment_Accuracy_Rate: 96.9398214476235
   Program_Additional_Information: Payment integrity related information has been captured
@@ -180,6 +255,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '1.16'
+  Outlays: 871.64
   Outlays_Current_Year_Plus_1_Amount: 1350.11311438
   Overpayment_Mitigations_Planned: Audit, Automation, Training
   Overpayment_Mitigations_Taken: Audit, Training
@@ -333,6 +409,7 @@ Data_By_Year:
     mission or resource management.
   Margin_of_Error: '1.7'
   Non_Monetary_Loss_Amount: '17.94462671'
+  Outlays: 1175.69962306
   Outlays_Current_Year_Plus_1_Amount: 1339.03
   Overpayment_Mitigations_Planned: Training
   Overpayment_Mitigations_Taken: Training
@@ -422,8 +499,81 @@ Data_By_Year:
     Theme_Description: The financial position or status of a beneficiary, recipient,
       or their family
     Value: '17.944627'
-- Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: true
+- Agency_Needs_Satisfied: 'The agency has internal control, human capital and information
+    system and other infrastructure to reduce improper payments and unknown payment.
+
+    '
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: Corrective actions for the
+    Disaster Loan Assistance Program are implemented and prioritized based on the
+    predominant reason for the Improper Payment, ensuring that the agency’s efforts
+    directly address the underlying cause. These actions focus on strengthening reviews
+    and eligibility checks to prevent the recurrence of errors related to duplication
+    of benefits, statutory violations, improper calculation of economic injury eligibility,
+    and the disaster assistance program as a whole. When a potential Improper Payment
+    is identified, SBA contacts the borrower in an attempt to obtain outstanding or
+    clarifying documentation needed to substantiate the original eligibility determination.
+    The agency provides feedback to the lender and applicable SBA employees regarding
+    process and policy errors resulting in the improper payment to ensure consistent
+    understanding and application of program requirements. These corrective actions
+    are adequate to address the root causes of Improper Payments and Unknown Payments
+    and have contributed to improvements in program compliance and payment accuracy.
+    As implementation continues, the actions are expected to further reduce Improper
+    Payments and Unknown Payments within the Disaster Assistance Program.
+  Corrective_Actions_Appropriateness: 'During FY 2025, the Disaster Lending Operations
+    Division (DLOD) utilized the Unified Lending Platform (ULP) to facilitate loan
+    closings for disaster survivors in an effort to streamline the process and reduce
+    administrative burden. It was subsequently identified that DLOD was not authorized
+    under 13 CFR 123.8 to charge certain fees associated with the loan closing process,
+    resulting in a regulatory compliance issue rather than a breakdown in eligibility
+    determination or payment processing controls. This issue represented the root
+    cause of the improper payments identified for the Disaster Assistance Program.
+
+
+    In response, the agency implemented a corrective action in February 2025 that
+    provided disaster survivors the option to either complete the loan closing independently
+    or explicitly authorize the Agency to complete the closing on their behalf. This
+    change ensured compliance with regulatory requirements governing fee authority
+    while maintaining borrower flexibility and operational efficiency. The corrective
+    action directly mitigated the identified root cause by eliminating unauthorized
+    fee activity during the loan closing process.
+
+
+    In addition, the agency initiated updates to the governing Standard Operating
+    Procedure for the Disaster Assistance Loan Program to clarify closing authority,
+    fee requirements, and documentation standards associated with ULP processing.
+    Targeted training and internal feedback were provided to staff to reinforce regulatory
+    requirements and ensure consistent application of the revised closing procedures.
+    These actions were implemented during FY 2025 and are expected to be fully institutionalized
+    through updated procedures and training by the end of FY 2025.
+
+
+    Collectively, these corrective actions address the specific regulatory gap that
+    caused the improper payments, reduce the likelihood of recurrence, and strengthen
+    internal controls without imposing unnecessary additional burden on disaster survivors
+    or staff.'
+  Corrective_Actions_Proportion: 'Corrective actions for the Disaster Assistance Program
+    are structured to address the root causes of Improper Payments and Unknown Payments
+    and are proportional to the associated risk. The agency is updating the Standard
+    Operating Procedure governing the Disaster Assistance Loan Program to strengthen
+    internal controls and clarify program requirements. In FY 2025, the Disaster Lending
+    Operations Division (DLOD) began using the Unified Lending Platform (ULP) to streamline
+    loan closings for disaster survivors and reduce administrative burden. During
+    implementation, it was identified that DLOD was not authorized under 13 CFR 123.8
+    to charge certain fees related to the closing process.
+
+
+    In response, SBA implemented a corrective action in February 2025 allowing disaster
+    survivors to close their loans independently or authorize the agency to complete
+    the closing to ensure regulatory compliance. SBA also provides targeted internal
+    feedback and employee training to reinforce policy expectations and improve documentation
+    accuracy. These actions directly address the identified root cause and strengthen
+    program oversight. Collectively, the updated SOP, enhanced training, and revised
+    closing procedures reduce the likelihood of future Improper Payments and Unknown
+    Payments.'
+  End_Date: 03/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
   Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
   Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
   Hide_Overpayments_Outside_Failure_to_Access_Data: true
@@ -433,43 +583,76 @@ Data_By_Year:
   Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
   Hide_Overpayments_Within_Failure_to_Access_Data: true
   Hide_Overpayments_Within_Inability_to_Access_Data: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
   Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: true
-  Hide_Program_Results_Future_Outlook_Baseline_Table: true
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
   Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: true
+  Hide_Program_Results_Future_Outlook_Needs: false
   Hide_Program_Results_Improper_Payments: false
   Hide_Program_Results_Tabs: false
   Hide_Program_Results_Unknown_Payments: false
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Failure_to_Access_Data: true
-  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Accountability_Description: As a means to reduce and/or eliminate the occurrence
+    of improper payments, a Corrective Action Plan has been developed for the program.
+    In addition, managers are held accountable for meeting the program's improper
+    payment rate and unknown payment rate reductions targets. Senior management is
+    responsible for implementing a Quality Control review process. In addition, senior
+    management has established and maintained sufficient and appropriate control environment.
+  IP_Unknown_Target_Rate: 0.0425
   Improper_Payments_Rate: 4.8705943515
   Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '31.942'
+  Outlays: 3223.816
+  Overpayment_Combined_Mitigations_Planned: Training
+  Overpayment_Combined_Mitigations_Taken: Training
   Payment_Accuracy_Rate: 95.12940564846133
   Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: 'In the most recent budget submission, the agency requested
+    to maintain current resources to support workforce capacity and operational activities
+    required to ensure payment integrity of the Disaster loan program during testing,
+    recoupment, and closeout. These resources are intended to support staff responsible
+    for post-award reviews, improper payment identification, recovery efforts, and
+    closeout activities. Despite overall resource constraints in fiscal year 2025,
+    the program prioritized available staffing and funding to sustain payment integrity
+    functions and ensure compliance through the recoupment and closeout phase.
+
+    '
+  Start_Date: 04/2024
   Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: Change Process, Training
+  Underpayment_Mitigations_Taken: Change Process, Training
   Unknown_Payments_Rate: 0
   Year: 2025
-  detail_IP_Causes: null
+  detail_IP_Causes: The root cause of improper payments in the Disaster Assistance
+    Loan program was Failure to Access Data/Information and Statutory Requirements
+    of Program Were Not Met. The prevalent causes of improper payments stemmed from
+    fees charged for secured loans contrary to the Code of Federal Regulations (CFR),
+    duplication of benefits not adequately addressed, and improper calculation or
+    determination of economic injury eligibility.
   detail_No_Estimates_Why: null
-  detail_Overpayments_Due_To_Data_DNE: null
-  detail_Overpayments_Due_To_Failure: null
-  detail_Overpayments_Due_To_Inability: null
-  detail_Reduction_Target: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '125.077'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '4.25'
+  eligibility_aggregated:
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  - Theme: Receiving Benefits from Other Sources
+    Theme_Description: Beneficiary or recipient is receiving benefits from an additional
+      source
   overpayments:
     Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
+    Failure_to_Access_Data: 125.077
     Inability_to_Access_Data: 0.0
     Overpayments_Within_Control_Amount: '125.077'
   overpayments_outside:
     Overpayments_Outside_Control_Amount: '0.0'
   underpayments:
     Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
+    Failure_to_Access_Data: 31.942
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '31.942'
 Description: null
@@ -477,18 +660,16 @@ Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
-High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 3223.816
-Overpayment_Amounts: '[15.65, 33.13, 24.5921315, 125.077]'
-Payment_Accuracy_Amounts: '[1098.903985, 837.35, 1133.16286485, 3066.7969999999996]'
-Payment_Accuracy_Rate: 95.12940564846133
+High_Priority_Program: 1
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[31.65462, 15.65, 33.13, 24.5921315, 125.077]'
+Payment_Accuracy_Amounts: '[472.131033, 1098.903985, 837.35, 1133.16286485, 3066.7969999999996]'
 Phase_2_Program: 0
 Program_Name: Disaster Assistance Loans
 Scorecard_Links: []
-Technically_Improper_Amounts: '[12.44, 0, 0, 0]'
-Underpayment_Amounts: '[6.6, 1.16, 17.94462671, 31.942]'
-Unknown_Amounts: '[0, 0, 0, 0]'
+Technically_Improper_Amounts: '[0, 12.44, 0, 0, 0]'
+Underpayment_Amounts: '[41.189347, 6.6, 1.16, 17.94462671, 31.942]'
+Unknown_Amounts: '[0, 0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/59.008
 layout: program-specific
 permalink: program/sba-disaster-assistance-loans

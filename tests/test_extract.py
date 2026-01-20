@@ -12,7 +12,9 @@ from io import StringIO
 
 csv.field_size_limit(sys.maxsize)
 
-EXTRACTED_FILES_DIRECTORY = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data_processing", "extracted")
+REPO_DIRECTORY = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+EXTRACTED_FILES_DIRECTORY = os.path.join(REPO_DIRECTORY, "data_processing", "extracted")
+SCORECARD_FILES_DIRECTORY = os.path.join(REPO_DIRECTORY, "website", "assets", "scorecards")
 FISCAL_YEAR = config.FISCAL_YEAR
 LAST_QUARTERLY_SURVEY = config.LAST_QUARTERLY_SURVEY
 
@@ -363,13 +365,61 @@ def test_FPIMapping(get_agency_codes):
     # spreadsheet contains duplicate entries - they will be ignored during transform
     assert_all_agencies_mapped(df, 0, get_agency_codes)
 
-def test_ActivePrograms(get_agency_codes):
-    path = get_csv_path("ActiveProgramsByYear.csv")
+def test_FY25_Risk_Assessments(get_agency_codes):
+    path = get_csv_path("Risk_Assessment_FULL_FY25.csv")
     assert_file_exists(path)
 
     df = csv_to_dataframe(path)
     assert_has_rows(df)
-    assert_column_count(df, 3)
+    assert_column_count(df, 5)
     assert_column_count_is_consistent(path)
     assert_all_agencies_mapped(df, 0, get_agency_codes)
-    assert_no_duplicates(df, ['agency', 'Program Name', 'Fiscal_Year'])
+    assert_no_duplicates(df, ['Agency', 'Fiscal_Year', 'Program_Name'])
+
+def test_ScorecardsMappingFormat():
+    path = get_csv_path("Program_Scorecard_Links.csv")
+    assert_file_exists(path)
+
+    df = csv_to_dataframe(path)
+    assert_has_rows(df)
+    assert_column_count(df, 5)
+    assert_column_count_is_consistent(path)
+    assert_no_duplicates(df, ['QuarterYear', 'Program_Name'])
+    assert_no_duplicates(df, ['QuarterYear', 'Link'])
+
+def test_AllScorecardsPathsExist():
+    path = get_csv_path("Program_Scorecard_Links.csv")
+    df = csv_to_dataframe(path)
+
+    for _, row in df.iterrows():
+        path = os.path.join(REPO_DIRECTORY, "website", row['Link'])
+        assert_file_exists(path)
+
+def test_AllScorecardsMappedOnce():
+    path = get_csv_path("Program_Scorecard_Links.csv")
+    df = csv_to_dataframe(path)
+
+    for dirname in os.listdir(SCORECARD_FILES_DIRECTORY):
+        if not os.path.isfile(os.path.join(SCORECARD_FILES_DIRECTORY, dirname)):
+            for filename in os.listdir(os.path.join(SCORECARD_FILES_DIRECTORY, dirname)):
+                expected_link = os.path.join("assets", "scorecards", dirname, filename)
+                filtered_df = df.query(f'Link == "{expected_link}"')
+                if (len(filtered_df) != 1):
+                    print(f"{expected_link} scorecard not mapped once")
+                assert(len(filtered_df) == 1)
+
+# ensures that all scorecards will be displayed on the website (i.e. Program_Name is correct)
+def test_ScorecardProgramsActive():
+    scorecard_path = get_csv_path("Program_Scorecard_Links.csv")
+    scorecard_df = csv_to_dataframe(scorecard_path)
+
+    # there may be a better way to do this, such as pulling the IP program_lookup table
+    # this may eventually need to be changed to ignore old, inactive programs
+    active_path = get_csv_path("MY_OMB_ImproperPayment_Payment_Accuracy_All_Program_vw.csv")
+    active_df = csv_to_dataframe(active_path)
+
+    for _, row in scorecard_df.iterrows():
+        filtered_df = active_df.query(f'Program_Name == "{row['Program_Name']}"')
+        if (len(filtered_df) == 0):
+            print(f"{row['Program_Name']} not found in all programs table")
+        assert(len(filtered_df) > 0)

@@ -2,6 +2,76 @@
 Agency: DOT
 Agency_Name: Department of Transportation
 Data_By_Year:
+- Agency_Needs_Satisfied: FHWA has the internal controls, human capital, and information
+    systems necessary to identify and maintain improper payments to a tolerable rate.
+  Confidence_Level: '>95%'
+  Corrective_Actions_Proportion: FHWA’s HCF monitors FIRE Program findings and recommendations
+    to address identified procedure and internal control weaknesses to ensure they
+    are addressed by its accessible units (AU). The AUs develop responses for procedural
+    and internal control weaknesses based on the various reviews completed for FIRE
+    and other program evaluations. HCF monitors the AUs implementation periodically
+    and assesses the AUs yearly performance documentation. The HCF monitors the AUs
+    progress to ensure timely and effective response actions were completed.
+  End_Date: 09/2020
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 499.37
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.01
+  Improper_Payments_Rate: 1.40820749
+  Insufficient_Documentation_to_Determine: 0.0
+  Is_Lowest_IP_And_Unknown_Rate: 'No'
+  Margin_of_Error: '708.045'
+  Non_Monetary_Loss_Amount: '267.942'
+  Outlays: 49471.971
+  Outlays_Current_Year_Plus_1_Amount: 49937
+  Payment_Accuracy_Rate: 98.59179251216815
+  Program_Design_or_Structural_Issue: 266.886
+  Start_Date: 10/2019
+  Technical_IP_Amount: '266.886'
+  Unknown_Curent_Year_Plus_1_Amount: 0
+  Unknown_Payments_Rate: 0
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 428.726
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '428.726'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 1.056
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '1.056'
 - Agency_Needs_Satisfied: At the Federal level, the program has what is needed with
     respect to internal controls, human capital, and information systems to reduce
     improper payments and unknown payments to the tolerable rate.
@@ -48,6 +118,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '2.11'
   Non_Monetary_Loss_Amount: '516.203'
+  Outlays: 48440.126
   Outlays_Current_Year_Plus_1_Amount: 50235
   Payment_Accuracy_Rate: 98.86673911624425
   Program_Additional_Information: FHWA’s Highway Planning and Construction (HPC) program
@@ -178,6 +249,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '0.06'
   Non_Monetary_Loss_Amount: '3.10659903'
+  Outlays: 51107.26937164
   Outlays_Current_Year_Plus_1_Amount: 55050.35
   Payment_Accuracy_Rate: 99.9538768783388
   Program_Additional_Information: FHWA’s Highway Planning and Construction (HPC) program
@@ -401,6 +473,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '2.19'
   Non_Monetary_Loss_Amount: '4.425099'
+  Outlays: 54459.5535
   Outlays_Current_Year_Plus_1_Amount: 57418.889
   Payment_Accuracy_Rate: 98.03824838189318
   Program_Additional_Information: FHWA’s Highway Planning and Construction program
@@ -589,6 +662,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '2.46'
   Non_Monetary_Loss_Amount: '365.3239'
+  Outlays: 61788.5874
   Overpayment_Combined_Mitigations_Planned: Training
   Overpayment_Combined_Mitigations_Taken: Training
   Payment_Accuracy_Rate: 96.13523014445869
@@ -655,25 +729,22 @@ Data_By_Year:
     Underpayments_Amount: '88.2421'
 Description: The Federal Highway Administration’s (FHWA) Highway Planning and Construction
   (HPC) program supports State and Local Public Agencies in the design, construction,
-  and maintenance of the Nation’s highway system as well as various federally and
-  tribal owned lands. The program includes relief and infrastructure supplemental
-  funding for the repair or reconstruction of highways and roads which have suffered
-  serious damage because of natural disasters or catastrophic failures from external
-  causes. FHWA HPC is not administered at the Federal level and overpayments are outside
-  of FHWA control when grant recipients make administrative errors. The program is
-  susceptible to improper payments and the plan is to report a phase 2 estimate for
-  FY 2025.
+  and maintenance of the Nation’s highway system as well as various federal and tribal
+  owned lands.  The program includes relief and infrastructure supplemental funding
+  for the repair or reconstruction of highways and roads which have suffered serious
+  damage because of natural disasters or catastrophic failures from external causes.  FHWA
+  HPC is not administered at the Federal level and overpayments are outside of FHWA
+  control when grant recipients make administrative errors.  The program is susceptible
+  to improper payments and reported a phase 2 estimate for FY 2025.
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 61788.5874
-Overpayment_Amounts: '[32.75, 20.465669, 1063.936073, 2022.6628]'
-Payment_Accuracy_Amounts: '[47891.172999999995, 51083.69710361001, 53391.192328000005,
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[428.726, 32.75, 20.465669, 1063.936073, 2022.6628]'
+Payment_Accuracy_Amounts: '[48775.303, 47891.172999999995, 51083.69710361001, 53391.192328000005,
   59400.600699999995]'
-Payment_Accuracy_Rate: 96.13523014445869
 Phase_2_Program: 0
 Program_Name: Federal Highway Administration Highway Planning and Construction
 Scorecard_Links:
@@ -683,9 +754,15 @@ Scorecard_Links:
 - Link: assets/scorecards/Q2 2025/Federal Highway Administration Highway Planning
     and Construction.pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[516.098, 0, 3.626828, 277.0818]'
-Underpayment_Amounts: '[0.105, 3.10659903, 0.798271, 88.2421]'
-Unknown_Amounts: '[0, 0, 0, 0]'
+- Link: assets/scorecards/Q3 2025/Federal Highway Administration Highway Planning
+    and Construction.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/Federal Highway Administration Highway Planning
+    and Construction.pdf
+  QuarterYear: Q4 2025
+Technically_Improper_Amounts: '[266.886, 516.098, 0, 3.626828, 277.0818]'
+Underpayment_Amounts: '[1.056, 0.105, 3.10659903, 0.798271, 88.2421]'
+Unknown_Amounts: '[0, 0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/20.205
 layout: program-specific
 permalink: program/dot-federal-highway-administration-highway-planning-and-cons-c624cb7b

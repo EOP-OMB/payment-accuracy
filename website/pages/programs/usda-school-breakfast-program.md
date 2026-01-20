@@ -2,6 +2,109 @@
 Agency: USDA
 Agency_Name: Department of Agriculture
 Data_By_Year:
+- Agency_Needs_Satisfied: "NSLP and SBP do not have an administrative infrastructure\
+    \ for producing yearly estimates of improper payment rates and dollar values.\
+    \ Therefore, FNS uses its periodic Access, Participation, Eligibility, and Certification\
+    \ (APEC) studies to provide baseline error rate estimates for NSLP and SBP. In\
+    \ non-study years, FNS typically provides annual estimates using the baseline\
+    \ data from APEC, program administrative data, and macroeconomic indicators. Due\
+    \ to the Covid-19 public health emergency, not all the macroeconomic data that\
+    \ are required for aging the data are available, so FNS will use the point estimates\
+    \ from APEC. \n\nFinally, the FNS FY 2021 Budget requested an increase in funding\
+    \ for the following program integrity line items to establish and maintain effective\
+    \ internal controls to reduce improper payments:\n\nChild Nutrition (CN) Training\
+    \ and Technical Assistance— ($34,214,000 enacted in FY 2021). Effective and continual\
+    \ training and technical assistance is necessary to help States properly administer\
+    \ the Child Nutrition Programs and to ensure that States are equipped to identify\
+    \ and prevent fraud and abuse. This change is due to state/local index trends\
+    \ and a pay cost increase.\n\nCN Payment Accuracy— ($11,427,000 enacted in FY\
+    \ 2021). This funding supports FNS’s robust Federal oversight, monitoring and\
+    \ technical assistance, which are essential to the identification, prevention\
+    \ and resolution of erroneous payments. This change consists of $224,000 and is\
+    \ due to a result of state/-local index trends and a pay cost increase.\n\nCN\
+    \ Studies—($15,299,000 enacted in FY 2021). FNS conducts a variety of studies,\
+    \ evaluations, and related activities that respond to the needs of policy makers\
+    \ and managers and help ensure that nutrition assistance programs achieve their\
+    \ goals effectively. This line supports the critical evaluations needed for the\
+    \ Child Nutrition Programs, including the Federal staff needed to oversee this\
+    \ vital work. This change reflects $300,000 and is due to state/local index trends,\
+    \ and a pay cost increase.\n"
+  Confidence_Level: '>95%'
+  Corrective_Actions_Proportion: "To improve accuracy of eligibility determinations\
+    \ through increased automation and enhanced integrity features, we continue to\
+    \ promote statewide online NSLP/SBP application systems with integrity features\
+    \ such as those contained in the USDA online prototype application. FNS is also\
+    \ continuing to promote its data validation service (DVS), an in-house tool that\
+    \ was developed to improve school meals verification data integrity. The DVS has\
+    \ been adopted by five states and a national-level vendor is adding the DVS to\
+    \ its verification reporting system.\n\nFNS supports NSLP/SBP program operators\
+    \ and the overall improvement of information technology systems through approximately\
+    \ $25 million in Technology Innovation Grants (TIGs) awarded to U.S. States and\
+    \ Territories annually. These grants support efforts to train, monitor, and provide\
+    \ technical assistance to program operators. Further, the TIGs provide non-competitive\
+    \ funding to State agencies administering the Child Nutrition Programs to make\
+    \ information technology improvements to data, accountability, and financial systems\
+    \ for the purposes of enhancing program efficiency and integrity. \n"
+  End_Date: 09/2020
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 385.65
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0839992943
+  Improper_Payments_Rate: 8.4
+  Insufficient_Documentation_to_Determine: 0.0
+  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
+  Margin_of_Error: '0.0'
+  Non_Monetary_Loss_Amount: '84.11'
+  Outlays: 3000
+  Outlays_Current_Year_Plus_1_Amount: 4591.11
+  Payment_Accuracy_Rate: 91.6
+  Program_Design_or_Structural_Issue: 0.0
+  Start_Date: 10/2019
+  Technical_IP_Amount: '0.0'
+  Unknown_Curent_Year_Plus_1_Amount: 0
+  Unknown_Payments_Rate: 0
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 167.89
+    Failure_to_Access_Data: 0.0
+    Financial: 83.945
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '167.89'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 84.11
+    Failure_to_Access_Data: 0.0
+    Financial: 42.055
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '84.11'
 - Agency_Needs_Satisfied: "National School Lunch Program (NSLP) and School Breakfast\
     \ Program (SBP) do not have an administrative infrastructure for producing yearly\
     \ estimates of improper payment rates and dollar values. Therefore, USDA uses\
@@ -113,6 +216,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '0.0'
   Non_Monetary_Loss_Amount: '20.67'
+  Outlays: 2521
   Outlays_Current_Year_Plus_1_Amount: 6370
   Payment_Accuracy_Rate: 97.89012296707655
   Program_Additional_Information: Beginning March 2020, School Food Authorities had
@@ -324,6 +428,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '0.0'
   Non_Monetary_Loss_Amount: '63.72'
+  Outlays: 6501.61
   Outlays_Current_Year_Plus_1_Amount: 5123.3
   Payment_Accuracy_Rate: 97.00997137632064
   Program_Design_or_Structural_Issue: 0.0
@@ -824,6 +929,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '0.0'
   Non_Monetary_Loss_Amount: '95.97'
+  Outlays: 5284.73
   Outlays_Current_Year_Plus_1_Amount: 6141
   Payment_Accuracy_Rate: 92.39450265198033
   Program_Design_or_Structural_Issue: 0.0
@@ -1112,6 +1218,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '0.0'
   Non_Monetary_Loss_Amount: '103.49'
+  Outlays: 5914
   Overpayment_Combined_Mitigations_Planned: Automation, Change Process
   Overpayment_Combined_Mitigations_Taken: Automation, Change Process
   Payment_Accuracy_Rate: 92.75938451132905
@@ -1209,23 +1316,53 @@ Data_By_Year:
     Failure_to_Access_Data: 103.49
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '103.49'
-Description: null
+Description: The School Breakfast Program (SBP) is a federally assisted meal program
+  operating in public and nonprofit private schools and residential child care institutions.
+  It reimburses participating schools and institutions for the cost of providing meals
+  to eligible children. SBP overpayments are primarily due to errors in determining
+  children's eligibility for program benefits. Errors in counting and claiming meals
+  for federal reimbursement is a secondary source of over payment. The most significant
+  barrier to prevention is the decentralized nature of the program. Certifying children
+  for benefits and counting meals for reimbursement are handled independently by tens
+  of thousands of schools and school districts.
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 5914
-Overpayment_Amounts: '[32.52, 130.68, 305.96, 324.72]'
-Payment_Accuracy_Amounts: '[2467.81, 6307.209999999999, 4882.799999999999, 5485.79]'
-Payment_Accuracy_Rate: 92.75938451132905
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[167.89, 32.52, 130.68, 305.96, 324.72]'
+Payment_Accuracy_Amounts: '[2748.0, 2467.81, 6307.209999999999, 4882.799999999999,
+  5485.79]'
 Phase_2_Program: 0
 Program_Name: School Breakfast Program
-Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[20.67, 63.72, 95.97, 103.49]'
-Unknown_Amounts: '[0, 0, 0, 0]'
+Scorecard_Links:
+- Link: assets/scorecards/Q1 2024/Food and Nutrition Service (FNS) School Breakfast
+    Program (SBP).pdf
+  QuarterYear: Q1 2024
+- Link: assets/scorecards/Q2 2024/Food and Nutrition Service (FNS) School Breakfast
+    Program (SBP).pdf
+  QuarterYear: Q2 2024
+- Link: assets/scorecards/Q3 2024/Food and Nutrition Service (FNS) School Breakfast
+    Program (SBP).pdf
+  QuarterYear: Q3 2024
+- Link: assets/scorecards/Q4 2024/Food and Nutrition Service (FNS) School Breakfast
+    Program (SBP).pdf
+  QuarterYear: Q4 2024
+- Link: assets/scorecards/Q1 2025/Food and Nutrition Service (FNS) School Breakfast
+    Program (SBP).pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q2 2025/Food and Nutrition Service (FNS) School Breakfast
+    Program (SBP).pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q3 2025/Food and Nutrition Service (FNS) School Breakfast
+    Program (SBP).pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/School Breakfast Program.pdf
+  QuarterYear: Q4 2025
+Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
+Underpayment_Amounts: '[84.11, 20.67, 63.72, 95.97, 103.49]'
+Unknown_Amounts: '[0, 0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/10.553
 layout: program-specific
 permalink: program/usda-school-breakfast-program

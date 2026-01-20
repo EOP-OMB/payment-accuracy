@@ -3,6 +3,81 @@ Agency: HHS
 Agency_Name: Department of Health and Human Services
 Data_By_Year:
 - Agency_Needs_Satisfied: A tolerable rate has not been established for this program.
+  Confidence_Level: '>95%'
+  Corrective_Actions_Proportion: 'Annually, the agency identifies the root causes
+    of IPs and UPs and develops specific corrective actions to address them. This
+    work is reported on through the AFR process.
+
+
+    HHS works closely with all states through enhanced technical assistance (including
+    liaisons that are assigned to each state to assist states with identifying and
+    overcoming barriers to corrective action implementation) and guidance to develop
+    state-specific corrective action plans to reduce improper payments. All states
+    are responsible for implementing, monitoring, and evaluating the corrective action
+    plan’s effectiveness, with assistance and oversight from HHS. When developing
+    corrective action plans, states focus on the major causes of improper payments.'
+  End_Date: 06/2020
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 4800.94
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.2788002323
+  Improper_Payments_Rate: 31.83555635
+  Insufficient_Documentation_to_Determine: 0.0
+  Is_Lowest_IP_And_Unknown_Rate: 'No'
+  Margin_of_Error: '306.68'
+  Non_Monetary_Loss_Amount: '1.68'
+  Outlays: 16879.46
+  Outlays_Current_Year_Plus_1_Amount: 17220
+  Payment_Accuracy_Rate: 68.16444364926366
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: A tolerable rate has not been established for this program.
+  Start_Date: 07/2019
+  Technical_IP_Amount: '0.0'
+  Unknown_Curent_Year_Plus_1_Amount: 0
+  Unknown_Payments_Rate: 0
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 5371.99
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '5371.99'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 1.68
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '1.68'
+- Agency_Needs_Satisfied: A tolerable rate has not been established for this program.
   Confidence_Level: 95% to <100%
   Corrective_Actions_Proportion: '"Annually, the agency identifies the root causes
     of IPs and UPs and develops specific corrective actions to address them. This
@@ -49,6 +124,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '1.83'
   Non_Monetary_Loss_Amount: '1.52'
+  Outlays: 16093
   Outlays_Current_Year_Plus_1_Amount: 16613
   Payment_Accuracy_Rate: 73.25209718511154
   Program_Design_or_Structural_Issue: 0.0
@@ -247,6 +323,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '1.7'
   Non_Monetary_Loss_Amount: '14.06'
+  Outlays: 16670.27
   Outlays_Current_Year_Plus_1_Amount: 17702
   Payment_Accuracy_Rate: 87.18928967557214
   Program_Additional_Information: "The Reporting Year (RY) 2023 CHIP improper payment\
@@ -567,6 +644,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '0.8'
   Non_Monetary_Loss_Amount: '54.27'
+  Outlays: 17587.75
   Outlays_Current_Year_Plus_1_Amount: 17244.43
   Payment_Accuracy_Rate: 93.89347699393043
   Program_Additional_Information: 'The Reporting Year (RY) 2024 CHIP improper payment
@@ -764,10 +842,11 @@ Data_By_Year:
     opportunities to ensure compliance with federal policies through the Medicaid
     Integrity Institute (MII).'
   IP_Unknown_Target_Rate: 0.0952
-  Improper_Payments_Rate: 7.052949505
+  Improper_Payments_Rate: 7.0529494999999995
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '0.8'
   Non_Monetary_Loss_Amount: '66.9335'
+  Outlays: 19448.7767
   Overpayment_Combined_Mitigations_Planned: Audit, Change Process, Cross Enterprise
     Sharing, Training
   Overpayment_Combined_Mitigations_Taken: Audit, Change Process, Cross Enterprise
@@ -842,21 +921,40 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 19448.7767
-Overpayment_Amounts: '[4303.02, 2121.52, 1019.73, 1304.7789]'
-Payment_Accuracy_Amounts: '[11788.46, 14534.69, 16513.75, 18077.0643]'
-Payment_Accuracy_Rate: 92.94705049495478
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[5371.99, 4303.02, 2121.52, 1019.73, 1304.7789]'
+Payment_Accuracy_Amounts: '[11505.789999999999, 11788.46, 14534.69, 16513.75, 18077.0643]'
 Phase_2_Program: 0
 Program_Name: Centers for Medicare & Medicaid Services (CMS) - Children's Health Insurance
   Program (CHIP)
 Scorecard_Links:
+- Link: assets/scorecards/Q1 2024/Centers for Medicare & Medicaid Services (CMS) Childrens
+    Health Insurance Program (CHIP).pdf
+  QuarterYear: Q1 2024
+- Link: assets/scorecards/Q2 2024/Centers for Medicare & Medicaid Services (CMS) Childrens
+    Health Insurance Program (CHIP).pdf
+  QuarterYear: Q2 2024
+- Link: assets/scorecards/Q3 2024/Centers for Medicare & Medicaid (CMS) Childrens
+    Health Insurance Program (CHIP).pdf
+  QuarterYear: Q3 2024
+- Link: assets/scorecards/Q4 2024/Centers for Medicare & Medicaid Services (CMS) Children_s
+    Health Insurance Program (CHIP).pdf
+  QuarterYear: Q4 2024
+- Link: assets/scorecards/Q1 2025/Centers for Medicare & Medicaid (CMS) - Children_s
+    Health Insurance Program (CHIP).pdf
+  QuarterYear: Q1 2025
 - Link: assets/scorecards/Q2 2025/Centers for Medicare & Medicaid Services (CMS) -
     Children's Health Insurance Program (CHIP).pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[0, 13.09, 51.81, 61.2051]'
-Underpayment_Amounts: '[1.52, 0.97, 2.46, 5.7284]'
-Unknown_Amounts: '[0, 0, 0, 0]'
+- Link: assets/scorecards/Q3 2025/Centers for Medicare & Medicaid Services (CMS) -
+    Children_s Health Insurance Program (CHIP).pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/Centers for Medicare & Medicaid Services (CMS) -
+    Children_s Health Insurance Program (CHIP).pdf
+  QuarterYear: Q4 2025
+Technically_Improper_Amounts: '[0, 0, 13.09, 51.81, 61.2051]'
+Underpayment_Amounts: '[1.68, 1.52, 0.97, 2.46, 5.7284]'
+Unknown_Amounts: '[0, 0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/93.767
 layout: program-specific
 permalink: program/hhs-centers-for-medicare-medicaid-services-cms-children-s-he-067288b6

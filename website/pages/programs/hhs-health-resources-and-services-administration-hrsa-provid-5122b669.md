@@ -56,6 +56,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 126460.5
   Outlays_Current_Year_Plus_1_Amount: 21414.37
   Payment_Accuracy_Rate: 99.67619928752457
   Program_Design_or_Structural_Issue: 0.0
@@ -311,6 +312,7 @@ Data_By_Year:
     future outlays as the program progressed.
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '22.31'
+  Outlays: 21414.37
   Outlays_Current_Year_Plus_1_Amount: 6181.2
   Payment_Accuracy_Rate: 99.8958176215317
   Program_Additional_Information: Compared to FY 2022, FY 2023 represents a substantial
@@ -548,6 +550,7 @@ Data_By_Year:
     to future outlays with the passing of the Fiscal Responsibility Act in June 2023.
   Margin_of_Error: '0.0'
   Non_Monetary_Loss_Amount: '0.03'
+  Outlays: 6171.2
   Outlays_Current_Year_Plus_1_Amount: 6171.2
   Payment_Accuracy_Rate: 99.93826160228156
   Program_Additional_Information: Compared to FY 2022, FY 2024 represents a substantial
@@ -621,10 +624,8 @@ Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2022, 2023, 2024]'
-Outlays: 0
 Overpayment_Amounts: '[409.48, 0, 0]'
 Payment_Accuracy_Amounts: '[126051.02, 21392.059999999998, 6167.39]'
-Payment_Accuracy_Rate: 0
 Phase_2_Program: 0
 Program_Name: Health Resources and Services Administration (HRSA) - Provider Relief
   Fund General and Targeted

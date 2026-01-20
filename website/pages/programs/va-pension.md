@@ -2,6 +2,75 @@
 Agency: VA
 Agency_Name: Department of Veterans Affairs
 Data_By_Year:
+- Agency_Needs_Satisfied: VA does not have additional program needs.
+  Confidence_Level: '>90%'
+  Corrective_Actions_Proportion: VA continues to prioritize and implement effective
+    corrective actions and mitigation strategies that reduce improper payments agency-wide
+    as evidenced by its third consecutive and largest year of reductions. Due to Pension
+    reporting over $100 million of overpayments/loss in FY2020, the program was required
+    by Office of Management and Budget to report quarterly on activities and accomplishments
+    that reduce monetary loss. Those activities and accomplishments can be found at
+    PaymentAccuracy.gov. Pension has remained committed to actions that reduce monetary
+    loss and continues to tailor corrective actions to reduce improper payments.
+  End_Date: 09/2020
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 354.26
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0750009432
+  Improper_Payments_Rate: 7.76277823
+  Insufficient_Documentation_to_Determine: 2.63
+  Is_Lowest_IP_And_Unknown_Rate: 'No'
+  Margin_of_Error: '2.56'
+  Non_Monetary_Loss_Amount: '12.26'
+  Outlays: 4893.48
+  Outlays_Current_Year_Plus_1_Amount: 4771.14
+  Payment_Accuracy_Rate: 92.18347678952402
+  Program_Design_or_Structural_Issue: 0.0
+  Start_Date: 10/2019
+  Technical_IP_Amount: '0.0'
+  Unknown_Curent_Year_Plus_1_Amount: 3.58
+  Unknown_Payments_Rate: 0.05374498312039694
+  Unknown_Why: VA had lacking or insufficient documentation to validate whether a
+    payment was proper or not.
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 1.3
+    Failure_to_Access_Data: 36.99
+    Financial: 17.9455
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '38.29'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 7.15
+    Failure_to_Access_Data: 322.11
+    Financial: 281.0035
+    Inability_to_Access_Data: 0.06
+    Overpayments_Outside_Control_Amount: '329.32'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.01
+    Failure_to_Access_Data: 12.25
+    Financial: 4.7875
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '12.26'
 - Agency_Needs_Satisfied: VA has not yet determined the tolerable rate.  VA is working
     to determine all requirements for establishing a tolerable rate per Office of
     Management and Budget guidance before attempting to establish tolerable rates.  At
@@ -63,6 +132,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '3.25'
   Non_Monetary_Loss_Amount: '0.46'
+  Outlays: 4224.76
   Outlays_Current_Year_Plus_1_Amount: 3882.83
   Payment_Accuracy_Rate: 88.34418996582055
   Program_Additional_Information: The Pension program continues to prioritize and
@@ -275,6 +345,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '2.97'
   Non_Monetary_Loss_Amount: '1.21'
+  Outlays: 3862.25
   Outlays_Current_Year_Plus_1_Amount: 3766.49
   Overpayment_Mitigations_Planned: Audit, Automation
   Overpayment_Mitigations_Taken: Audit, Automation
@@ -682,6 +753,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '3.18'
   Non_Monetary_Loss_Amount: '22.23'
+  Outlays: 3742.93
   Outlays_Current_Year_Plus_1_Amount: 3561.97
   Overpayment_Mitigations_Planned: Audit, Automation, Training
   Overpayment_Mitigations_Taken: Audit, Automation
@@ -925,6 +997,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 43.72
   Margin_of_Error: '2.87'
   Non_Monetary_Loss_Amount: '38.47'
+  Outlays: 3549.89
   Overpayment_Combined_Mitigations_Planned: Audit, Automation, Training
   Overpayment_Combined_Mitigations_Taken: Audit, Automation, Training
   Payment_Accuracy_Rate: 90.01433847245971
@@ -998,26 +1071,23 @@ Data_By_Year:
     Failure_to_Access_Data: 38.47
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '38.47'
-Description: 'The Pension program helps wartime Veterans and their survivors cope
-  with financial challenges by providing supplemental income to recipients who meet
-  the annual income and net worth limits set by law. A change in benefit payment occurs
-  when a required adjustment is made due to a status change (e.g., change in income,
-  net worth, medical expenses, dependency, etc.); which caused a projected $381.78
-  million in monetary loss in FY 2024. A known barrier is relying on beneficiaries
-  to notify the VA when they experience life or financial changes since these factors
-  may impact continued eligibility. When applicable, the VA pursues debt collection
-  by offsetting benefit payments for the full amount of the debt or by approved repayment
-  installments. '
+Description: 'The Pension program helps eligible Veterans and their survivors cope
+  with financial challenges by providing supplemental income through Veterans and
+  Survivors Pension Benefits. A change in benefit payment occurs when a required adjustment
+  is made due to a status change (e.g., change in income, net worth, medical expenses,
+  dependency, etc.); which caused a projected $381.78 million in monetary loss in
+  FY 2024. A known barrier is relying on beneficiaries to notify the VA when they
+  experience life or financial changes since these factors may impact continued eligibility.
+  When applicable, the VA pursues debt collection by offsetting benefit payments for
+  the full amount of the debt or by approved repayment installments. '
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 3549.89
-Overpayment_Amounts: '[491.97, 418.06, 381.78, 272.29]'
-Payment_Accuracy_Amounts: '[3732.33, 3442.98, 3224.3499999999995, 3195.4100000000003]'
-Payment_Accuracy_Rate: 90.01433847245971
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[367.61, 491.97, 418.06, 381.78, 272.29]'
+Payment_Accuracy_Amounts: '[4510.98, 3732.33, 3442.98, 3224.3499999999995, 3195.4100000000003]'
 Phase_2_Program: 0
 Program_Name: Pension
 Scorecard_Links:
@@ -1033,9 +1103,13 @@ Scorecard_Links:
   QuarterYear: Q1 2025
 - Link: assets/scorecards/Q2 2025/Pension.pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[0.46, 1.21, 22.23, 38.47]'
-Unknown_Amounts: '[0, 0, 114.57, 43.72]'
+- Link: assets/scorecards/Q3 2025/Pension.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/Pension.pdf
+  QuarterYear: Q4 2025
+Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
+Underpayment_Amounts: '[12.26, 0.46, 1.21, 22.23, 38.47]'
+Unknown_Amounts: '[2.63, 0, 0, 114.57, 43.72]'
 fpi_link: https://fpi.omb.gov/program/64.105
 layout: program-specific
 permalink: program/va-pension

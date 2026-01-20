@@ -34,17 +34,7 @@ Payment_Accuracy_Rate_Min: 0
 Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
-  Assessments:
-  - Fiscal_Year: 2020
-    MethodologyChanged: 0
-    Program_Name: Office of Inspector General
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2020
-    MethodologyChanged: 0
-    Program_Name: Operations and Administration
-    Slug: null
-    Susceptible: 'No'
+  Assessments: []
   SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
@@ -57,6 +47,7 @@ Years_Available:
 - 2024
 - 2023
 - 2022
+- 2021
 detail_Additional_IP_Information: The Federal Maritime Commission (FMC) continues
   to strengthen its enterprise-wide payment integrity framework by expanding oversight
   processes, enhancing internal controls, and leveraging government-wide services
@@ -64,6 +55,7 @@ detail_Additional_IP_Information: The Federal Maritime Commission (FMC) continue
   agency with historically low improper payment risk, the Commission maintains a proactive
   posture to ensure that all disbursements are accurate, lawful, and fully aligned
   with Federal financial management standards.
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '0'
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: The Federal Maritime Commission incorporates the Do Not Pay
   (DNP) Working System into its pre-payment and pre-award processes to verify vendor
@@ -77,6 +69,11 @@ detail_DNP_Discussion: The Federal Maritime Commission incorporates the Do Not P
   proven effective in maintaining the Commission’s already low-risk payment environment.
 detail_DNP_Frequency_Identify: Annually
 detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: The amounts recovered through the Commission’s recovery
+  audits were returned to the appropriate Treasury accounts and made available for
+  authorized agency purposes in accordance with federal financial management requirements.
+  These recovered funds help ensure that program resources are accurately accounted
+  for and can be redirected to support legitimate mission needs
 detail_Executive_Summary: 'The FMC does not currently have any programs in Phase 1
   or Phase 2 with cash outlays over $10 million dollars.  During Fiscal Year 2024,
   the Federal Maritime Commission (FMC) maintained a low-risk payment environment
@@ -109,6 +106,16 @@ detail_Executive_Summary: 'The FMC does not currently have any programs in Phase
   prevented improper payments, maintained high levels of accuracy in financial execution,
   and upheld the Commission’s reputation as a low-risk, well-managed federal entity.'
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: During FY 2024, improper payments identified
+  through recovery audits primarily resulted from administrative errors in both the
+  payroll and travel reimbursement systems. These conditions arose from miscoded transactions
+  and incorrect reimbursements that were not immediately detected during routine processing.
+  The Commission strengthened review procedures, enhanced supervisory oversight, and
+  improved system controls to prevent recurrence of these issues. All improper payments
+  were promptly recovered through established collection processes, including payroll
+  adjustments and reimbursement offsets. The effectiveness of the recovery audits
+  and internal controls demonstrates the Commission’s continued commitment to safeguarding
+  federal resources and maintaining a strong payment integrity posture.
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'Yes'
@@ -124,6 +131,7 @@ recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.0
 recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 0.039
 recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.0
 recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.039
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 recovery_Total_Overpayment_Amount_Identified: 0.039
 recovery_Total_Overpayment_Amount_Recovered: 0.039
 ---

@@ -51,6 +51,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '10.72'
   Non_Monetary_Loss_Amount: '15.04'
+  Outlays: 49280.55
   Outlays_Current_Year_Plus_1_Amount: 79713.91
   Payment_Accuracy_Rate: 87.91324128890606
   Program_Design_or_Structural_Issue: 15.04
@@ -149,6 +150,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '5.0'
   Non_Monetary_Loss_Amount: '0.003811'
+  Outlays: 79713.91
   Outlays_Current_Year_Plus_1_Amount: 64590
   Payment_Accuracy_Rate: 99.99982403949323
   Program_Additional_Information: "Unknown Payments (UPs) were the primary driver\
@@ -317,6 +319,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '5.0'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 64650.62
   Outlays_Current_Year_Plus_1_Amount: 55570.27
   Payment_Accuracy_Rate: 99.99984532244238
   Program_Design_or_Structural_Issue: 0.0
@@ -372,15 +375,13 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
-- Agency_Needs_Satisfied: 'The program''s reported improper and unknown payment estimate
-    is below the
-
-    statutory threshold; therefore, the program is not required to establish and publish
-    a reduction target for the next Fiscal Year. With no reduction target established,
-    the tolerable rate cannot be determined. While the tolerable rate for the Education
-    Stabilization Fund program has not been identified, the program has the internal
-    controls, human capital, information systems and other infrastructure to maintain
-    low improper payments and unknown payments.'
+- Agency_Needs_Satisfied: The Education Stabilization Fund reported improper and unknown
+    payment estimates in FY2023, FY2024, and FY2025 below the statutory threshold.
+    The program has the internal controls, human capital, information systems and
+    other infrastructure needed to continue to maintain low improper and unknown payments.
+    The small amounts of improper payments identified during the estimation process
+    does not present an opportunity to efficiently use additional resources to further
+    reduce improper payments.
   Confidence_Level: 95% to <100%
   Corrective_Actions_Adequacy_Association_Implementation: The Department continues
     to reinforce correct accounting practices to reduce rounding errors by funds recipients.
@@ -393,10 +394,14 @@ Data_By_Year:
     the Department will reinforce guidance for submitting adequate expenditure data
     that emphasizes clear and concise documentation submissions. The small amounts
     identified relative to the program outlays does not normally present an opportunity
-    to efficiently use resources to attempt to recover.
-  Corrective_Actions_Proportion: The small amounts identified relative to the program
-    outlays does not normally present an opportunity to efficiently use resources
-    to attempt to recover.
+    to efficiently use resources to prevent overpayments.
+  Corrective_Actions_Proportion: The ESF program’s estimate had IPs and UPs that were
+    well below the statutory threshold. According to OMB Circular A-123, Appendix
+    C, a program must develop a corrective action plan when the estimate is above
+    the statutory threshold. Since most identified overpayments were due to rounding
+    errors of under one dollar, developing and implementing mitigation strategies
+    or corrective actions that cost less than the IP or UP amount would not be cost
+    effective for the Department.
   End_Date: 09/2024
   Hide_Improper_Payment_Estimates_Doughnut_Chart: false
   Hide_Improper_Payment_Estimates_Doughnut_Stats: false
@@ -430,13 +435,13 @@ Data_By_Year:
     to significant improper payments are highly engaged in developing and implementing
     corrective actions as well as providing technical assistance for grantees to prevent
     improper payments for being made and to ensure payments are supported by sufficient
-    documentation. Due to the improper payment and unknown payment estimate being
-    below the statutory threshold, a reduction target is not required for this program.
+    documentation.
   IP_Unknown_Target_Rate: 0
   Improper_Payments_Rate: 0.0042468752
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '0.01'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 55570.27
   Overpayment_Combined_Mitigations_Planned: Training
   Overpayment_Combined_Mitigations_Taken: Training
   Payment_Accuracy_Rate: 99.99575312482736
@@ -486,10 +491,8 @@ Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 55570.27
 Overpayment_Amounts: '[0.00117, 0.136454, 0.1, 2.36]'
 Payment_Accuracy_Amounts: '[43324.12883, 79713.769735, 64650.520000000004, 55567.909999999996]'
-Payment_Accuracy_Rate: 99.99575312482736
 Phase_2_Program: 0
 Program_Name: Education Stabilization Fund
 Scorecard_Links: []

@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Board Support and Innovation Grant
 - Compliant_1A: true
   Compliant_1B: true
@@ -50,6 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: State Appraiser Agency Support Grants
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'

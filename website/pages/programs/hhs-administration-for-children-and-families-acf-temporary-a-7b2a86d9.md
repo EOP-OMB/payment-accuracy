@@ -32,6 +32,7 @@ Data_By_Year:
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
+  Outlays: 0
   Program_Additional_Information: "The Department of Health and Human Services (HHS)\
     \ does not have the authority to require states participation in a Temporary Assistance\
     \ for Needy Families (TANF) error rate measurement.  Despite limitations, HHS\
@@ -103,6 +104,7 @@ Data_By_Year:
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 0
   Program_Additional_Information: "Temporary Assistance for Needy Families is a $16.5\
     \ billion block grant program that fosters family economic security and stability.\
     \ Temporary Assistance for Needy Families funds a wide range of services that\
@@ -192,6 +194,7 @@ Data_By_Year:
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
+  Outlays: 0
   Program_Design_or_Structural_Issue: 0.0
   Year: 2024
   detail_No_Estimates_Why: 'The HHS Temporary Assistance for Needy Families program
@@ -260,6 +263,7 @@ Data_By_Year:
   Hide_Underpayments_Failure_to_Access_Data: true
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
+  Outlays: 0
   Program_Additional_Information: "The following information provides context on the\
     \ statutory limits that prevent HHS from calculating and reporting an improper\
     \ or unknown payment error rate for the Temporary Assistance for Needy Families\
@@ -296,22 +300,20 @@ Data_By_Year:
   detail_Reduction_Target: null
 Description: null
 Fiscal_Year: 2025
-Hide_Integrity_Results: false
+Hide_Integrity_Results: true
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 0
-Overpayment_Amounts: '[0, 0, 0, 0]'
-Payment_Accuracy_Amounts: '[0, 0, 0, 0]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[]'
+Overpayment_Amounts: '[]'
+Payment_Accuracy_Amounts: '[]'
 Phase_2_Program: 0
 Program_Name: Administration for Children and Families (ACF) - Temporary Assistance
   for Needy Families
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[0, 0, 0, 0]'
-Unknown_Amounts: '[0, 0, 0, 0]'
+Technically_Improper_Amounts: '[]'
+Underpayment_Amounts: '[]'
+Unknown_Amounts: '[]'
 fpi_link: https://fpi.omb.gov/program/93.558
 layout: program-specific
 permalink: program/hhs-administration-for-children-and-families-acf-temporary-a-7b2a86d9

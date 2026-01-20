@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Gulf Coast Ecosystem Restoration Council Comprehensive Plan Component Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -50,6 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Gulf Coast Ecosystem Restoration Council Oil Spill Impact Program
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -59,32 +61,17 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Comprehensive Plan Expenses
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Comprehensive Plan Projects and Programs
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Gulf Coast Ecosystem Restoration Council Comprehensive Plan Component
       Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Gulf Coast Ecosystem Restoration Council Oil Spill Impact Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Spill Impact Projects and Programs
-    Slug: null
-    Susceptible: null
   SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
@@ -111,6 +98,7 @@ detail_Additional_IP_Information: 'Recovery activities for this period include t
   $9,400 in improperly disbursed funds.
 
   '
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '0'
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: 'As part of our shared service arrangement with the Bureau
   of the Fiscal Service
@@ -134,6 +122,12 @@ detail_DNP_Discussion: 'As part of our shared service arrangement with the Burea
   compliance with federal payment integrity requirements.'
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: Recovered amounts are returned to the funding source
+  from which the improper payment originated, ensuring compliance with federal financial
+  management requirements. These funds are then available for their intended program
+  purposes, supporting mission-related activities without disruption. By promptly
+  recovering overpayments, the agency safeguards resources and maintains accountability
+  in the stewardship of public funds.
 detail_Executive_Summary: 'During this reporting period, the Gulf Coast Ecosystem
   Restoration Council (the Council) has maintained robust payment integrity oversight
   through systematic risk assessment protocols and compliance monitoring. The Council
@@ -173,6 +167,22 @@ detail_Executive_Summary: 'During this reporting period, the Gulf Coast Ecosyste
   controls, and implement best practices to safeguard against improper payments while
   ensuring efficient program delivery to Gulf Coast restoration beneficiaries.'
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: 'Recovery audits identified travel overpayments
+  totaling $899.59 across five travelers, which resulted from the overstatement of
+  reimbursable costs on submitted vouchers. These improper payments were primarily
+  caused by errors in reconciling receipts to claimed amounts and inaccuracies in
+  preparing travel documentation. The agency has resolved these issues by recovering
+  the overpaid amounts from the travelers and reinforcing policies requiring careful
+  review of supporting documentation. To prevent recurrence, the agency is enhancing
+  staff training on travel regulations, strengthening pre- and post-payment reviews,
+  and continuing to monitor claims closely to safeguard federal funds.
+
+
+
+
+
+
+  '
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'Yes'
@@ -188,6 +198,7 @@ recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.06098
 recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 0.0009
 recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.06098
 recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.0009
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 recovery_Total_Overpayment_Amount_Identified: 0.06188
 recovery_Total_Overpayment_Amount_Recovered: 0.06188
 ---

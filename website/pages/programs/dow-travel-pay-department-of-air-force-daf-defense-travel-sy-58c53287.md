@@ -276,6 +276,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '1.04'
   Non_Monetary_Loss_Amount: '122.22999999999999'
+  Outlays: 2356.12
   Outlays_Current_Year_Plus_1_Amount: 2379.68
   Overpayment_Mitigations_Planned: Automation, Behavioral/Psych Influence, Training
   Overpayment_Mitigations_Taken: Automation, Behavioral/Psych Influence, Training
@@ -469,7 +470,7 @@ Data_By_Year:
 
     '
   Corrective_Actions_Appropriateness: 'The Department of Air Force (DAF) has implemented
-    a Corrective Action Plan (CAP) for the DoD Payment Integrity Program to address
+    a Corrective Action Plan (CAP) for the DoW Payment Integrity Program to address
     improper and unknown payments. These payments exceeded the statutory threshold
     in FY 2025. The actions taken to correct the improper and unknown payments have
     resulted in improving the estimated improper and unknown payment rate in FY 2025.
@@ -643,6 +644,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 28.29
   Margin_of_Error: '0.85'
   Non_Monetary_Loss_Amount: '116.96'
+  Outlays: 2558.9
   Overpayment_Combined_Mitigations_Planned: Automation, Behavioral/Psych Influence,
     Training
   Overpayment_Combined_Mitigations_Taken: Automation, Behavioral/Psych Influence,
@@ -726,10 +728,8 @@ Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2024, 2025]'
-Outlays: 2558.9
 Overpayment_Amounts: '[53.27, 48.48]'
 Payment_Accuracy_Amounts: '[2126.9, 2365.17]'
-Payment_Accuracy_Rate: 92.42916878346163
 Phase_2_Program: 0
 Program_Name: Travel Pay Department of Air Force (DAF) – Defense Travel System (DTS)
 Scorecard_Links: []

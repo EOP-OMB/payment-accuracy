@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Acquisition Workforce Training
 - Compliant_1A: true
   Compliant_1B: true
@@ -50,6 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Allowances, Pensions, And Office Staff
 - Compliant_1A: true
   Compliant_1B: true
@@ -62,6 +64,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: American Rescue Plan
 - Compliant_1A: true
   Compliant_1B: true
@@ -74,6 +77,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Assisted Acquisition Services (AAS)
 - Compliant_1A: true
   Compliant_1B: true
@@ -86,6 +90,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Audit Contracts And Contract Administration
 - Compliant_1A: true
   Compliant_1B: true
@@ -98,6 +103,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Building Operations
 - Compliant_1A: true
   Compliant_1B: true
@@ -110,6 +116,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Construction and Acquisition of Facilities
 - Compliant_1A: true
   Compliant_1B: true
@@ -122,6 +129,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Digital Services
 - Compliant_1A: true
   Compliant_1B: true
@@ -134,6 +142,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Direct Program Activity
 - Compliant_1A: true
   Compliant_1B: true
@@ -146,6 +155,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Disaster Emergency Funds
 - Compliant_1A: true
   Compliant_1B: true
@@ -158,6 +168,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Disposal of Federal Surplus Real Property
 - Compliant_1A: true
   Compliant_1B: true
@@ -170,6 +181,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Donation of Federal Surplus Personal Property
 - Compliant_1A: true
   Compliant_1B: true
@@ -182,6 +194,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Electronic Government
 - Compliant_1A: true
   Compliant_1B: true
@@ -194,6 +207,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Employee Payments
 - Compliant_1A: true
   Compliant_1B: true
@@ -206,6 +220,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Federal Citizen Services Fund
 - Compliant_1A: true
   Compliant_1B: true
@@ -218,6 +233,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: General Supplies and Services (GSS)
 - Compliant_1A: true
   Compliant_1B: true
@@ -230,6 +246,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Government-wide Policy
 - Compliant_1A: true
   Compliant_1B: true
@@ -242,6 +259,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Government-wide Policy (Reimbursable)
 - Compliant_1A: true
   Compliant_1B: true
@@ -254,6 +272,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: IT Modernization and Development
 - Compliant_1A: true
   Compliant_1B: true
@@ -266,6 +285,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Inflation Reduction Act
 - Compliant_1A: true
   Compliant_1B: true
@@ -278,6 +298,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Information Technology Category
 - Compliant_1A: true
   Compliant_1B: true
@@ -290,6 +311,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Infrastructure Investment and Jobs Act
 - Compliant_1A: true
   Compliant_1B: true
@@ -302,6 +324,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Installment Acquisition Payments
 - Compliant_1A: true
   Compliant_1B: true
@@ -314,6 +337,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Integrated Award Environment
 - Compliant_1A: true
   Compliant_1B: true
@@ -326,6 +350,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Lapsed Balances
 - Compliant_1A: true
   Compliant_1B: true
@@ -338,6 +363,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Multiyear 2021-2025 ARP
 - Compliant_1A: true
   Compliant_1B: true
@@ -350,6 +376,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Office of Products and Programs
 - Compliant_1A: true
   Compliant_1B: true
@@ -362,6 +389,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Operating Expenses (Direct)
 - Compliant_1A: true
   Compliant_1B: true
@@ -374,6 +402,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Operating Expenses (Reimbursable)
 - Compliant_1A: true
   Compliant_1B: true
@@ -386,6 +415,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Pre-Election Transition
 - Compliant_1A: true
   Compliant_1B: true
@@ -398,6 +428,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Presidential Transition
 - Compliant_1A: true
   Compliant_1B: true
@@ -410,6 +441,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Professional Services and Human Capital
 - Compliant_1A: true
   Compliant_1B: true
@@ -422,6 +454,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Purchase Cards
 - Compliant_1A: true
   Compliant_1B: true
@@ -434,6 +467,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Real Property Relocation
 - Compliant_1A: true
   Compliant_1B: true
@@ -446,6 +480,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Real Property Utilization And Disposal
 - Compliant_1A: true
   Compliant_1B: true
@@ -458,6 +493,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Reimbursable Program Activity
 - Compliant_1A: true
   Compliant_1B: true
@@ -470,6 +506,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Rental of Space
 - Compliant_1A: true
   Compliant_1B: true
@@ -482,6 +519,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Repairs and Alterations
 - Compliant_1A: true
   Compliant_1B: true
@@ -494,6 +532,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Sale of Federal Surplus Personal Property
 - Compliant_1A: true
   Compliant_1B: true
@@ -506,6 +545,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Space Management
 - Compliant_1A: true
   Compliant_1B: true
@@ -518,6 +558,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Special Services and Improvements
 - Compliant_1A: true
   Compliant_1B: true
@@ -530,6 +571,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Technology Modernization Fund
 - Compliant_1A: true
   Compliant_1B: true
@@ -542,6 +584,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Technology Transformation Service
 - Compliant_1A: true
   Compliant_1B: true
@@ -554,6 +597,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Travel Cards
 - Compliant_1A: true
   Compliant_1B: true
@@ -566,6 +610,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Travel, Transportation, and Logistics Categories
 - Compliant_1A: true
   Compliant_1B: true
@@ -578,6 +623,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Unconditional Gifts
 - Compliant_1A: true
   Compliant_1B: true
@@ -590,6 +636,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Working Capital Fund (Direct)
 - Compliant_1A: true
   Compliant_1B: true
@@ -602,6 +649,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Working Capital Fund (Reimbursable)
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -611,12 +659,7 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2024
-    MethodologyChanged: 0
-    Program_Name: Acquisition Services Fund - Operating
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Acquisition Workforce Training
     Slug: null
@@ -628,69 +671,44 @@ Risks:
     Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Allowances, Pensions, and Office Staff
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
     Program_Name: American Rescue Plan
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Assisted Acquisition Services (AAS)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Audit Contracts And Contract Administration
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2021
-    MethodologyChanged: 0
-    Program_Name: Audit Contracts and Contract Administration
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Building Operations
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Common Acquisition Platform (CAP)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Construction and Acquisition of Facilities
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Data Driven Innovation
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
     Program_Name: Digital Services
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Direct Program Activity
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Disaster Emergency Funds
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Disaster Relief - Hurricane Sandy Fund
-    Slug: null
-    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Disposal of Federal Surplus Real Property
@@ -706,67 +724,42 @@ Risks:
     Program_Name: Electronic Government
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Employee Payments
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Environmental Review Improvement
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Federal Buildings and Courthouses
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Federal Citizen Services Fund
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: General Supplies and Services (GSS)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2024
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Government-wide Policy
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Government-wide Policy (Reimbursable)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: High-Performance Green Buildings - Major Repairs & Alterations
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: IT Modernization and Development
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: ITOR Oversight, Cybersecurity and Program Management
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Inflation Reduction Act
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Information Technology Category
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Infrastructure Investment and Jobs Act
     Slug: null
@@ -776,32 +769,32 @@ Risks:
     Program_Name: Installment Acquisition Payments
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Integrated Award Environment
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
-    Program_Name: Land Ports of Entry
+    Program_Name: IT Modernization and Development
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Lapsed Balances
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Multiyear 2021-2025 ARP
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Office of Products and Programs
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Operating Expenses (Direct)
     Slug: null
@@ -809,11 +802,6 @@ Risks:
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Operating Expenses (Reimbursable)
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Other Sensitive Payments
     Slug: null
     Susceptible: null
   - Fiscal_Year: null
@@ -831,7 +819,7 @@ Risks:
     Program_Name: Professional Services and Human Capital
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Purchase Cards
     Slug: null
@@ -846,27 +834,22 @@ Risks:
     Program_Name: Real Property Utilization And Disposal
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Real Property Utilization and Disposal
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Reimbursable Program Activity
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Rental of Space
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Repairs and Alterations
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Sale of Federal Surplus Personal Property
     Slug: null
@@ -876,7 +859,7 @@ Risks:
     Program_Name: Space Management
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Special Services and Improvements
     Slug: null
@@ -886,17 +869,17 @@ Risks:
     Program_Name: Technology Modernization Fund
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Technology Transformation Service
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Travel Cards
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Travel, Transportation, and Logistics Categories
     Slug: null
@@ -911,7 +894,7 @@ Risks:
     Program_Name: Working Capital Fund (Direct)
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Working Capital Fund (Reimbursable)
     Slug: null
@@ -928,7 +911,9 @@ Years_Available:
 - 2024
 - 2023
 - 2022
+- 2021
 detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '0.26'
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: Treasury screens each of GSA's summary schedules against the
   Do Not Pay system daily. Very few matches are returned. Most matches are for salary
@@ -943,6 +928,9 @@ detail_DNP_Discussion: Treasury screens each of GSA's summary schedules against 
   payments at GSA.
 detail_DNP_Frequency_Identify: Daily
 detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: GSA’s recovery audit contractor receives contingency-based
+  fees from the overpayments recovered.  The remaining recoveries are returned to
+  the original account - (i.e. Rental of Space program).
 detail_Executive_Summary: 'GSA was found to be compliant in the most recent OIG Annual
   Compliance Review. Currently, GSA doesn''t have any programs in Phase 2.  GSA completed
   three risk assessments in FY25.  All of the risk assessments found that the programs
@@ -959,6 +947,36 @@ detail_Executive_Summary: 'GSA was found to be compliant in the most recent OIG 
   payments.  Finally, GSA continues to analyze and expand audit recovery areas when
   warranted based on evidence found during the course of the year.'
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: "Recovery Audit and recovery method\nGSA's\
+  \ Recovery Audit contractor reviews GSA’s rental of space program.  The auditor\
+  \ develops a detailed, monthly rental payment schedule from lease contracts and\
+  \ other lease documentation.  This payment schedule is compared to actual payments\
+  \ by month from the lease commencement date to the most recent payment. If discrepancies\
+  \ are discovered, they are quantified and identified as to the nature and origin.\
+  \ A review of real estate tax adjustments is also done for each lease. Tax adjustments\
+  \ are reviewed for accuracy on the part of the Lessor’s submission of tax bills.\n\
+  \nConditions and Resolutions for GSA’s rental of space program\nCondition 1: The\
+  \ payment of real estate taxes in most leases is designed to be a passthrough from\
+  \ the landlord’s real estate tax bill.  The landlord pays the taxing authority and\
+  \ GSA pays the landlord for its share based on percentage occupancy of the building.\
+  \  The real estate payment is incorporated into the GSA annual rent payment.  If\
+  \ the actual taxes are more than the amount paid through rent, GSA owes the landlord\
+  \ the difference.  If the actual taxes are less than the amount paid through rent,\
+  \ the landlord owes GSA the difference.  Recoveries arise when Lessor fails to report\
+  \ either of these two scenarios by not sending GSA the appropriate tax bills.  \n\
+  Resolution 1: GSA has established agencywide procedures to perform annual reviews\
+  \ of all leases when the landlord does not send in taxes.  These procedures have\
+  \ significantly decreased improper payments in this area in recent years.\n\n\n\
+  Condition 2: There are several variables that can cause overpayments at the start\
+  \ up of a lease such as broker commission credits, free rent credits, and credits\
+  \ for holdover payments on a preceding lease, etc.  The overpayments exist if these\
+  \ credits are not entered in the billing system (REXUS) or not properly transferred\
+  \ from the billing system to the payment system (Pegasys).\nResolution 2: Checklists\
+  \ have been developed in GSA's regions to ensure that all credits are entered into\
+  \ the billing system (REXUS).  Also, in July of 2020, the REXUS to Pegasys interface\
+  \ automatically transfers data from REXUS to Pegasys so that it is no longer a manual\
+  \ process of entering credit data for leases into Pegasys which has helped reduce\
+  \ errors."
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'Yes'
@@ -974,6 +992,7 @@ recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 13.16
 recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 2.17
 recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 16.28
 recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 2.2
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 11.9815668203
 recovery_Total_Overpayment_Amount_Identified: 15.33
 recovery_Total_Overpayment_Amount_Recovered: 18.48
 ---

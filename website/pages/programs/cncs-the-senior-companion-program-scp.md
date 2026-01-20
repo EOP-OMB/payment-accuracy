@@ -2,6 +2,83 @@
 Agency: CNCS
 Agency_Name: Corporation for National and Community Service
 Data_By_Year:
+- Agency_Needs_Satisfied: AmeriCorps has the internal controls, human capital, information
+    systems and other infrastructure to reduce its improper payments to the level
+    the agency has targeted.
+  Confidence_Level: '>95%'
+  Corrective_Actions_Proportion: 'The agency had reductions in improper payments from
+    FY19 to FY20 due to agency-wide corrective action for its largest rate driver,
+    NSCHC. The agency did see an increase in rates from FY20 to FY21. The agency''s
+    planned corrective actions are more aggressive and comprehensive than they have
+    been in the past in order to prioritize the reduction of non-NSCHC improper payments
+    and unknown payments. The accountable officials and those that own portions of
+    the corrective action plan will now meet every other month to assess progress. '
+  End_Date: 03/2021
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Current_Year_Plus_1_Amount: 0.917
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.1939520334
+  Improper_Payments_Rate: 2.51564129
+  Insufficient_Documentation_to_Determine: 6.862
+  Is_Lowest_IP_And_Unknown_Rate: 'No'
+  Margin_of_Error: '3.39'
+  Non_Monetary_Loss_Amount: '0.0'
+  Outlays: 38.36
+  Outlays_Current_Year_Plus_1_Amount: 38.36
+  Payment_Accuracy_Rate: 79.59593326381648
+  Program_Design_or_Structural_Issue: 0.0
+  Start_Date: 04/2020
+  Technical_IP_Amount: '0.0'
+  Unknown_Curent_Year_Plus_1_Amount: 6.523
+  Unknown_Payments_Rate: 17.88842544316997
+  Unknown_Why: These payments are unknown because the documentation that is used to
+    establish eligibility and correct payment amount was either not available during
+    the assessment or was not made available until after the payment was made.
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.965
+    Financial: 0.965
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '0.965'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: As part of its strategic plan, AmeriCorps is prioritizing
     effective stewardship of federal resources. This goal includes the objective of
     reducing the agency’s improper payments via five-pronged approach. Via the strategic
@@ -50,6 +127,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '7.9'
   Non_Monetary_Loss_Amount: '0.066'
+  Outlays: 37.31
   Outlays_Current_Year_Plus_1_Amount: 37.31
   Payment_Accuracy_Rate: 73.79254891450013
   Program_Design_or_Structural_Issue: 0.0
@@ -174,6 +252,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '6.6'
   Non_Monetary_Loss_Amount: '0.046'
+  Outlays: 34.365
   Outlays_Current_Year_Plus_1_Amount: 34.3649
   Payment_Accuracy_Rate: 84.35617634220864
   Program_Additional_Information: The Senior Companion Program continues to demonstrate
@@ -272,17 +351,15 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023]'
-Outlays: 0
-Overpayment_Amounts: '[1.437, 2.025]'
-Payment_Accuracy_Amounts: '[27.532000000000004, 28.989000000000004]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2021, 2022, 2023]'
+Overpayment_Amounts: '[0.965, 1.437, 2.025]'
+Payment_Accuracy_Amounts: '[30.532999999999994, 27.532000000000004, 28.989000000000004]'
 Phase_2_Program: 0
 Program_Name: The Senior Companion Program (SCP)
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0]'
-Underpayment_Amounts: '[0.066, 0.046]'
-Unknown_Amounts: '[8.275, 3.305]'
+Technically_Improper_Amounts: '[0, 0, 0]'
+Underpayment_Amounts: '[0, 0.066, 0.046]'
+Unknown_Amounts: '[6.862, 8.275, 3.305]'
 fpi_link: https://fpi.omb.gov/program/94.016
 layout: program-specific
 permalink: program/cncs-the-senior-companion-program-scp

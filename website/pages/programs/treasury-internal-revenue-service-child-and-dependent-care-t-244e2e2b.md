@@ -32,6 +32,7 @@ Data_By_Year:
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
+  Outlays: 0
   Program_Design_or_Structural_Issue: 0.0
   Year: 2024
   detail_No_Estimates_Why: The Child and Dependent Care Tax Credit (CDCTC) became
@@ -76,21 +77,19 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
 Description: null
 Fiscal_Year: 2025
-Hide_Integrity_Results: false
+Hide_Integrity_Results: true
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2024]'
-Outlays: 0
-Overpayment_Amounts: '[0]'
-Payment_Accuracy_Amounts: '[0]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[]'
+Overpayment_Amounts: '[]'
+Payment_Accuracy_Amounts: '[]'
 Phase_2_Program: 0
 Program_Name: Internal Revenue Service - Child and Dependent Care Tax Credit
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0]'
-Underpayment_Amounts: '[0]'
-Unknown_Amounts: '[0]'
+Technically_Improper_Amounts: '[]'
+Underpayment_Amounts: '[]'
+Unknown_Amounts: '[]'
 fpi_link: https://fpi.omb.gov/program/TC.123
 layout: program-specific
 permalink: program/treasury-internal-revenue-service-child-and-dependent-care-t-244e2e2b

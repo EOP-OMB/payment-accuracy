@@ -3,15 +3,15 @@ Agency: TREASURY
 Agency_Name: Department of the Treasury
 Fiscal_Year: 2025
 High_Priority_Links:
-- Link: assets/scorecards/Q2 2025/Internal Revenue Service - Additional Child Tax
+- Link: assets/scorecards/Q4 2025/Internal Revenue Service - Additional Child Tax
     Credit.pdf
   Program_Name: Internal Revenue Service - Additional Child Tax Credit
-- Link: assets/scorecards/Q2 2025/Internal Revenue Service - American Opportunity
+- Link: assets/scorecards/Q4 2025/Internal Revenue Service - American Opportunity
     Tax Credit.pdf
   Program_Name: Internal Revenue Service - American Opportunity Tax Credit
-- Link: assets/scorecards/Q2 2025/Internal Revenue Service - Earned Income Tax Credit.pdf
+- Link: assets/scorecards/Q4 2025/Internal Revenue Service - Earned Income Tax Credit.pdf
   Program_Name: Internal Revenue Service - Earned Income Tax Credit
-- Link: assets/scorecards/Q2 2025/Internal Revenue Service - Refundable Premium Assistance
+- Link: assets/scorecards/Q4 2025/Internal Revenue Service - Refundable Premium Assistance
     Tax Credit.pdf
   Program_Name: Internal Revenue Service - Refundable Premium Assistance Tax Credit
 Page_Name: 2025_TREASURY_2
@@ -228,26 +228,26 @@ Requirements:
   Type: REGULAR
 SurveyData:
 - Answer: Accounts payable, pension, grants, and loan payments use pre-payment and
-    post payment reviews to recoup overpayments.  Invoices processed through the Invoice
+    post payment reviews to recoup overpayments. Invoices processed through the Invoice
     Processing Platform (IPP) are subject to a monthly post payment audit of 10% of
     the total paid IPP invoices for that month. Invoices not processed through the
     IPP in excess of $2,500.00 are subject to secondary review before being paid.
     Invoices under$2,500.00 are subject to review through statistical sampling procedures.
     Travel vouchers processed through the Concur Government Edition (CGE) travel system
     are subject to a post payment audit based on a random sample of all reimbursements
-    under $2,500.00.  All payments $2,500.00 require a 100% post payment audit review.  Relocation
-    vouchers processed through the MoveLINQ system are subject to 100% pre-payment
-    audit and review.  Relocation periodically reconciles moveLINQ advances (feeder)
-    to Oracle (financial system) advances to ensure the two systems are in sync. They
-    validate W-2's to ensure estimated accruals reconcile to actual accruals to verify
-    the correct amount of taxes were deducted. Accruals are balanced by accounting
-    string under general ledger to ensure accruals collected were paid. Relocation
-    also balances moveLINQ to Oracle each tax period to ensure wages and taxes reconcile
-    between the two systems. They also verify outstanding balances and billed amounts
-    on obligations within the moveLINQ system reconciles to outstanding balances and
-    billed amounts in Oracle. These efforts confirm there are no duplicate payments
-    and taxes are collected and paid at the appropriate rate.      Furthermore, the
-    Do Not Pay (DNP) portal implementation has provided a way for bureau's/office's
+    under $2,500.00. All payments $2,500.00 require a 100% post payment audit review.
+    Relocation vouchers processed through the MoveLINQ system are subject to 100%
+    pre-payment audit and review. Relocation periodically reconciles moveLINQ advances
+    (feeder) to Oracle (financial system) advances to ensure the two systems are in
+    sync. They validate W-2's to ensure estimated accruals reconcile to actual accruals
+    to verify the correct amount of taxes were deducted. Accruals are balanced by
+    accounting string under general ledger to ensure accruals collected were paid.
+    Relocation also balances moveLINQ to Oracle each tax period to ensure wages and
+    taxes reconcile between the two systems. They also verify outstanding balances
+    and billed amounts on obligations within the moveLINQ system reconciles to outstanding
+    balances and billed amounts in Oracle. These efforts confirm there are no duplicate
+    payments and taxes are collected and paid at the appropriate rate. Furthermore,
+    the Do Not Pay (DNP) portal implementation has provided a way for bureau's/office's
     procurement and payable offices to review vendor files prior to disbursement.
     It has also given them an opportunity to review the monthly payment file results
     to identify any improper payments made to a vendor in the DNP portal.

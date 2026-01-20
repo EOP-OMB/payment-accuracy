@@ -4,6 +4,137 @@ Agency_Name: Social Security Administration
 Data_By_Year:
 - Agency_Needs_Satisfied: 'Internal Controls:  We have a strong internal control environment
     that has always included controls over our benefit payment and debt management
+    processes.  We directly leverage our existing internal control environment and
+    assurance processes to provide reasonable assurance that our internal controls
+    over improper payments are in place and operating effectively.
+
+
+    As part of our internal control environment, we have a well-established, agency-wide
+    management control program as required by the Federal Managers’ Financial Integrity
+    Act.
+
+
+    We established the Improper Payments Oversight Board, consisting of senior executive
+    membership, to ensure that we are focusing on improper payment prevention, formulating
+    clear and innovative strategies, and driving timely results agency-wide.
+
+
+    Human Capital:  Our program integrity work is labor-intensive and dependent on
+    having the necessary trained staff to do the work.   For the most part, our employees
+    who handle our program integrity work also handle applications for benefits and
+    other mission-critical work.
+
+
+    Information Systems:  Our staff rely on our information technology (IT) infrastructure
+    to serve the public and safeguard our programs.
+
+
+    We initiated our IT Modernization Plan in fiscal year (FY) 2018 to improve our
+    service to the public.  We will advance our IT infrastructure with 21st century
+    technology and implement the technical flexibility necessary to adapt to future
+    demands.  In FY 2020, we increased the scope to include building online services,
+    improving and expanding automated services available through our National 800
+    Number, and providing additional self-service and express services in our field
+    offices.  To achieve our modernization goals, we are investing $863 million over
+    5 years, including the $415 million that Congress provided in dedicated IT modernization
+    funding in FYs 2018, 2019, 2020 and 2021.
+
+
+    Other Infrastructure:  We emphasize the importance of information security through
+    continual operational refinement and the maturation of security components that
+    exceed the standards set forth by Government regulations.  In FY 2021, we continued
+    to align our agency cybersecurity priorities with agency strategic objectives
+    and the National Institute of Standards and Technology Cybersecurity Framework
+    (CSF) to identify, detect, and stop fraudulent transactions before they occur.  Continued
+    alignment with the CSF will infuse practices from Federal initiatives including
+    the President’s Cybersecurity National Action Plan, the Department of Homeland
+    Security’s (DHS) High Value Asset program, and DHS’s Continuous Diagnostics and
+    Mitigation program.  We will continue to streamline and modernize the existing
+    Comprehensive Integrity Review Program business process.  The revised process
+    will use innovative technologies such as big data and predictive analytic tools
+    to identify, detect, and stop fraudulent programmatic transactions before they
+    occur.
+
+    '
+  Confidence_Level: '>95%'
+  Corrective_Actions_Proportion: 'We remain focused on our strategic objectives and
+    agency goals to ensure stewardship and improve program integrity by reducing improper
+    payments.  We monitor and evaluate existing initiatives and developed a comprehensive
+    approach to identify and support new and planned reduction initiatives that target
+    the root causes of improper payments.  These efforts serve to prioritize and drive
+    business process, policy, and automation improvements.  The purpose of this effort
+    is to strategically align agency wide initiatives that will have the most significant
+    impact to the detection and prevention of improper payments.
+
+
+    We continue to identify and measure the root causes of improper payments.  We
+    are documenting corrective actions in multiple Improper Payment Alignment Strategies
+    (IPAS).  We are developing a framework to establish measurements and benchmarks
+    to evaluate the completed corrective actions within the IPASs.  We will continue
+    to look for innovative ways to glean information to measure the effectiveness
+    of existing corrective actions, where feasible.  It is a challenging process to
+    isolate the impact of a single corrective action.
+
+    '
+  End_Date: 09/2020
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 4200.6
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0720000206
+  Improper_Payments_Rate: 10.085133879999999
+  Insufficient_Documentation_to_Determine: 0.0
+  Is_Lowest_IP_And_Unknown_Rate: 'No'
+  Margin_of_Error: '1.12'
+  Non_Monetary_Loss_Amount: '760.05100812'
+  Outlays: 56973.99
+  Outlays_Current_Year_Plus_1_Amount: 58341.65
+  Payment_Accuracy_Rate: 89.91486612273425
+  Program_Design_or_Structural_Issue: 0.0
+  Start_Date: 10/2019
+  Technical_IP_Amount: '0.0'
+  Unknown_Curent_Year_Plus_1_Amount: 0
+  Unknown_Payments_Rate: 0
+  Year: 2021
+  overpayments:
+    Address_Location: 93.660417114
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 425.7291687
+    Financial: 183.063542541
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '425.7291687'
+  overpayments_outside:
+    Address_Location: 398.7910440685
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 356.75738805
+    Failure_to_Access_Data: 0.0
+    Financial: 2311.8510810175
+    Inability_to_Access_Data: 4203.36560185
+    Overpayments_Outside_Control_Amount: '4560.1229899'
+  underpayments:
+    Address_Location: 449.2895611824
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 405.92693036
+    Failure_to_Access_Data: 82.96122926
+    Financial: 0.0
+    Inability_to_Access_Data: 271.1628485
+    Underpayments_Amount: '760.05100812'
+- Agency_Needs_Satisfied: 'Internal Controls:  We have a strong internal control environment
+    that has always included controls over our benefit payment and debt management
     processes.  Our existing internal control environment and assurance processes
     provide reasonable assurance that our internal controls over improper payments
     are in place and operating effectively.
@@ -114,6 +245,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '0.9'
   Non_Monetary_Loss_Amount: '873.49255433'
+  Outlays: 56271.12379647
   Outlays_Current_Year_Plus_1_Amount: 59218.609578
   Payment_Accuracy_Rate: 91.28148026390089
   Program_Additional_Information: We have no additional program level payment integrity
@@ -830,6 +962,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '1.03'
   Non_Monetary_Loss_Amount: '680.79686085'
+  Outlays: 57565.83821801
   Outlays_Current_Year_Plus_1_Amount: 62851.08258
   Overpayment_Mitigations_Planned: Automation, Change Process, Cross Enterprise Sharing,
     Predictive Analytics
@@ -2123,6 +2256,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '1.04'
   Non_Monetary_Loss_Amount: '877.87106996'
+  Outlays: 61048.74589118
   Outlays_Current_Year_Plus_1_Amount: 65410.343917
   Overpayment_Mitigations_Planned: Automation, Cross Enterprise Sharing, Predictive
     Analytics, Training
@@ -2338,7 +2472,555 @@ Data_By_Year:
     Theme_Description: Beneficiary or recipient is receiving benefits from an additional
       source
     Value: '237.025189'
-- Confidence_Level: 95% to <100%
+- Agency_Needs_Satisfied: 'Internal Controls:  We have a strong internal control environment
+    that has always included controls over our benefit payment and debt management
+    processes.  Our existing internal control environment and assurance processes
+    provide reasonable assurance that our internal controls over improper payments
+    are in place and operating effectively.
+
+
+    As part of our internal control environment, we have a well-established, agency-wide
+    management control program as required by the Federal Managers’ Financial Integrity
+    Act.
+
+
+    We established the Improper Payments Oversight Board, consisting of senior executive
+    membership, to ensure that we are focusing on improper payment prevention, formulating
+    clear and innovative strategies, and driving timely results agency-wide.
+
+
+    Human Capital:  Our program integrity work is labor-intensive and dependent on
+    having the necessary trained staff to do the work.  For the most part, our employees
+    who handle our program integrity work also handle applications for benefits and
+    other mission-critical work.  Sustained, sufficient funding is critical to maintain
+    the workforce necessary to balance our service and stewardship work.
+
+
+    Information Systems:  Our staff rely on our information technology (IT) infrastructure
+    to serve the public and safeguard our programs.  Our technology modernization
+    investments focus on simple, seamless, and secure service by delivering customer-centric
+    digital capabilities with human-centered design, business intelligence, and mobile
+    accessible platforms.  We plan on continuing to implement new digital services
+    that focus on enhancing the customer experience and removing barriers to service
+    to meet the needs and preferences of our customers, partners, and employees.  We
+    are prioritizing self-service options to improve customer service while reducing
+    manual work completed by frontline staff.  Sustained, sufficient funding is necessary
+    to continue to modernize our IT.
+
+
+    Other Infrastructure:  Cybersecurity is vital to protecting the personally identifiable
+    information of everyone we serve.  Maintaining the public’s trust in our ability
+    to protect sensitive data housed in our systems requires advanced cybersecurity
+    controls, constant assessment of the threat landscape, and continual improvements
+    and enhancements of our cybersecurity program.  Our cybersecurity program uses
+    a risk-based approach to balance protection and productivity and focuses on continuous
+    improvement.  We are expanding our cybersecurity program in support of Executive
+    Order 14028, Improving the Nation’s Cybersecurity, and Office of Management and
+    Budget Memorandum 22-09, Moving the U.S. Government Toward Zero Trust Cybersecurity
+    Principles.  In addition, we are strengthening our digital identity processes
+    to comply with the Creating Advanced Streamlined Electronic Services for Constituents
+    Act.
+
+
+    Our cybersecurity efforts help us to maintain our vigilance and protect against
+    network intrusions and improper access of data by strengthening our defensive
+    cyber capabilities, sharing cyber threat information with our Federal and industry
+    partners, and moving toward a Zero Trust Architecture that focuses on the secure
+    flow of information from the network perimeter across the enterprise.'
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: "We centralized the coordination\
+    \ and monitoring of agency-wide improper payment initiatives and established a\
+    \ framework to obtain agency wide engagement and agreement on actions needed.\
+    \  Through the Improper Payments Alignment Strategy (IPAS), we determine the most\
+    \ cost-effective strategies to remediate the root causes of leading improper payment\
+    \ deficiencies.  We monitor, measure, and revise the strategies, as needed.  We\
+    \ take into consideration the cost and the savings that will result from implementation\
+    \ of the corrective action plan.  In addition to monitoring and evaluating the\
+    \ initiatives, we developed a comprehensive approach to identify and support new\
+    \ and planned reduction initiatives that target the root causes of improper payments.\
+    \  Combined, these efforts serve to prioritize and drive business process, policy,\
+    \ and automation improvements.  This approach strategically aligns agency-wide\
+    \ initiatives that will have the most significant impact on the detection and\
+    \ prevention of improper payments.  Through the IPAS process and the prioritization\
+    \ of planned reduction initiatives, we effectively implemented corrective actions\
+    \ that have the most impact on preventing and reducing improper payments. \n\n\
+    We focus on efforts to address the root causes of improper payments.  For improper\
+    \ payments within the agency’s control, we pursue workflow adjustments, policy\
+    \ and notice changes, training and reminders for technicians, and automation solutions\
+    \ to improve accuracy.  For improper payments outside the agency’s control, we\
+    \ continue to influence change where possible.\n\nWe have a team dedicated to\
+    \ monitoring and measuring the effectiveness of the progress of improper payment\
+    \ mitigation strategies and corrective actions.  We evaluated completed corrective\
+    \ actions to determine whether changes in the outcome could be attributed to the\
+    \ implementation of the corrective actions.  We compared data before and after\
+    \ the implementation of corrective actions to determine whether we need additional\
+    \ actions.\n\nThe root causes of improper payments outside agency control are\
+    \ mainly related to instances where the data or information needed to process\
+    \ the payment correctly does not exist or the agency is unable to access the data\
+    \ or information needed.  We are addressing these root causes by establishing\
+    \ alternate sources of information to administer the Supplemental Security Income\
+    \ (SSI) program.  For example, we conducted 22 computer-matching agreements (CMA)\
+    \ with various Federal partners to obtain benefit payment data, wage data, unemployment\
+    \ data, residency information, nursing facility admission data, and other data\
+    \ to help us determine eligibility and offset benefits for our programs.  The\
+    \ total annual savings attributed to these CMAs is approximately $14.9 billion,\
+    \ with an annual cost of approximately $510 million, yielding a positive benefit-to-cost\
+    \ ratio of about $29 to $1.  We plan to continue current CMAs that yield a positive\
+    \ cost-benefit ratio, expand effective CMAs to meet additional program needs,\
+    \ research current programs, work with internal stakeholders to identify data\
+    \ exchange needs, and pursue new data exchanges with potential partners.\n\nTo\
+    \ reduce the reliance on self-reporting of wages, we developed an automated information\
+    \ exchange with a commercial payroll data provider as a strategy to reduce improper\
+    \ payments.  In FY 2025, we began utilizing the Payroll Information Exchange (PIE)\
+    \ to improve efficiency in processing wage reports for the SSI and Disability\
+    \ Insurance programs.  PIE allows us to receive wage and employment information\
+    \ electronically from payroll data providers on a monthly basis for individuals\
+    \ who have given authorization and whose employers participate with the payroll\
+    \ data providers.  PIE will improve payment accuracy, reduce improper payments,\
+    \ and reduce the reporting burden on individuals when they authorize us to obtain\
+    \ this information through an information exchange, and we receive it.  We also\
+    \ anticipate that implementation will result in more efficient use of our limited\
+    \ administrative resources because it would reduce the amount of time our technicians\
+    \ spend manually requesting this information from payroll data providers and employers;\
+    \ manually entering data into our systems from an individual’s pay records; contacting\
+    \ individuals; and assisting individuals with the results of incomplete or untimely\
+    \ reporting.  Additionally, we are promoting timely wage reporting and issuing\
+    \ reminders on reporting responsibilities.  We will influence change where possible\
+    \ by simplifying communications and the way information is presented as our approach\
+    \ to reduce cognitive burden and improve understanding and readability.  \n\n\
+    For certain improper payments outside of agency control, data or information needed\
+    \ does not exist because there is no database or dataset that currently exists\
+    \ where we can validate eligibility prior to making the payment.  For example,\
+    \ the law requires us to evaluate an individual’s income, which includes support\
+    \ and maintenance provided in-kind (or ISM).  This type of income is difficult\
+    \ to accurately value because it can fluctuate each month as household expenses,\
+    \ composition, and the type of assistance provided may change.  We rely on recipients\
+    \ to report changes in household expenses, composition, and contributions accurately\
+    \ and timely.  In FY 2025, we fully implemented three updates as part of SSI regulation\
+    \ simplification related to ISM.  These changes include: (1)  eliminating the\
+    \ requirement to provide detailed information about the value of food assistance\
+    \ received; (2) expanding the definition of a “public assistance household” by\
+    \ adding Supplemental Nutrition Assistance Program benefits to the list of public\
+    \ income-maintenance (PIM) programs and by requiring the receipt of a PIM payment\
+    \ for just one additional household member (other than the SSI applicant or recipient)\
+    \ instead of requiring the receipt of a PIM payment for every other member of\
+    \ the household; and (3) expanding the rental subsidy exception nationwide to\
+    \ simplify our ISM rules and ensure uniform application of the policy.  For item\
+    \ (2), a draft Notice of Proposed Rulemaking to rescind changes to the definition\
+    \ of a Public Assistance Household is pending review with the Office of Information\
+    \ and Regulatory Affairs\n\nWe will continue our quality reviews and cost-effective\
+    \ program integrity work including medical continuing disability reviews and SSI\
+    \ non-medical redeterminations, to ensure individuals receive the payments for\
+    \ which they are eligible.\n\nFor improper payments within the agency’s control,\
+    \ we will continue to invest in information technology modernization to provide\
+    \ our employees with user-friendly systems and tools to better service the public.\
+    \  To meet the challenges of our growing workloads and provide the best service\
+    \ possible, we will streamline our policies and procedures and automate more of\
+    \ our business processes.  We will continue to issue periodic reminders and policy\
+    \ clarifications, as needed.\n\nWe will increase our underpayment processing of\
+    \ our oldest and highest priority cases.  In addition, we updated our policy effective\
+    \ May 15, 2024 requiring that all underpayments of $15,000 or more requiring a\
+    \ peer review must be entered into the SSI Underpayment Case Control Log.  The\
+    \ SSI Underpayment Case Control Log application was created to provide stronger\
+    \ controls, consistency and facilitate accurate and timely processing of SSI underpayments.\
+    \  As of September 30, 2025, we completed 98.12 percent of SSI underpayments that\
+    \ were identified as priority cases or pending for a year or more at the beginning\
+    \ of FY 2024.  Including cases where installments have been initiated but are\
+    \ awaiting the release of remaining installment payments, our completion percentage\
+    \ increases to 99.36 percent."
+  Corrective_Actions_Appropriateness: "We developed the Improper Payment Alignment\
+    \ Strategy (IPAS) process to obtain agency-wide engagement and agreement on corrective\
+    \ actions to address the root causes of improper payments and the top deficiencies\
+    \ in our programs.  We have completed IPASs on multiple areas of Supplemental\
+    \ Security Income (SSI) improper payment deficiency, and we monitor the corrective\
+    \ actions within those IPASs.  Most of the corrective actions described within\
+    \ this response are from IPASs on financial accounts, wages, in-kind support and\
+    \ maintenance.  We also discuss broad-based efforts to ensure policy compliance\
+    \ and payment accuracy and ensure individuals receive the benefits they are due.\
+    \  Beginning in September 2025, an SSI program lead will be overseeing the SSI\
+    \ process to review and consider potential proposals for SSI reform.  We will\
+    \ continue to examine and propose legislative and regulatory changes to simplify\
+    \ the administration of the SSI program.\n\nTo ensure recipients remain eligible\
+    \ and receive the correct SSI payment amount, we conduct non-medical redeterminations\
+    \ (RZ).  RZs are a complete review of a recipient’s or couple’s non-medical eligibility\
+    \ factors (resources, income, and living arrangements).  To ensure the most cost-effective\
+    \  investment of agency resources, we use a predictive model to estimate the likelihood\
+    \ and magnitude of overpayments to select cases for discretionary RZs.  Other\
+    \ cases are selected for RZs outside our modeling process based on selected case\
+    \ characteristics, such as manual deeming of income.  The RZ process also selects\
+    \ limited issue (LI) reviews, which are reviews of a specific issue or event related\
+    \ to a recipient’s or couple’s non-medical eligibility factors to determine whether\
+    \ the recipient or couple is still eligible for and receiving the correct SSI\
+    \ payment.  In FY 2025, we completed more than 2.4 million SSI nonmedical RZs\
+    \ and LIs.  In November 2024 and March 2025, we issued guidance to assist with\
+    \ achieving the FY 2025 LI and RZ workload goals, respectively.  We plan to process\
+    \ about 2.6 million RZs and LIs in FY 2026.\n\nWe inform recipients and representative\
+    \ payees about their reporting responsibilities through various methods:  during\
+    \ interviews, with application and redetermination forms, in some award and post-eligibility\
+    \ notices, in check envelope enclosures, and in a booklet that accompanies award\
+    \ notices.  Our annual Cost of Living Adjustment notices include reminders about\
+    \ reporting changes that could affect payments and eligibility.  In FY 2025, we\
+    \ aired educational content on general SSI reporting responsibilities on televisions\
+    \ in field office reception areas.  Additionally, we have a National Change of\
+    \ Address (NCOA) contract and data exchange agreement with the U.S. Postal Service\
+    \ (USPS) for the Old-Age, Survivors, and Disability Insurance (OASDI) program.\
+    \  We are electronically notified when an OASDI beneficiary reports an address\
+    \ change to the USPS and in most cases, the new address information automatically\
+    \ posts to our records.  If the beneficiary is concurrently entitled to SSI payments,\
+    \ their change of address does not automatically post to their SSI record as additional\
+    \ development is required to ensure payment accuracy.  In November 2024, we updated\
+    \ the NCOA change of address confirmation notice advising SSI recipients to contact\
+    \ the agency to report living arrangement changes that may have occurred.  Failure\
+    \ of recipients or their representative payees to timely and accurately report\
+    \ living arrangement changes can result in overpayments or underpayments.   \n\
+    \nFinancial accounts that contribute to excess resources are a leading cause of\
+    \ SSI payment errors.  In field office reception areas, we will continue to display\
+    \ reminders on television to highlight the importance of reporting when account\
+    \ balances exceed the resource limit.  We use a tool, known as Access to Financial\
+    \ Institutions (AFI), to identify and verify financial account resources.  AFI\
+    \ verifies bank account information and detects undisclosed bank account balances\
+    \ with participating financial institutions and with the individual’s consent.\
+    \  We use AFI for SSI initial claims, pre-effectuation review contacts, and RZs\
+    \ when SSI applicants/recipients allege total liquid resources of $400 or more.\
+    \  When there is a resource-related diary present on an RZ or LI, we use AFI regardless\
+    \ of any liquid resource allegation.  In August 2025, we implemented a zero-dollar\
+    \ AFI tolerance for SSI 65+ aged claim allowances before adjudicating to payment.\
+    \  In FY 2026, we intend to implement a zero-dollar AFI tolerance to all SSI initial\
+    \ claim allowances contingent upon updating the AFI contract and funding the additional\
+    \ volume of AFI requests.  This strategy mandates that AFI verification is fully\
+    \ completed prior to adjudication and before payments are issued, thereby eliminating\
+    \ improper payments at the source rather than pursuing recovery after the fact.\
+    \  We will continue to explore expanding AFI usage in post entitlement situations\
+    \ and develop a systems enhancement to ensure that technicians run AFI in all\
+    \ instances required by policy.  \n\nAn ABLE account is a special tax-advantaged\
+    \ savings account used by eligible individuals to pay for qualified disability\
+    \ expenses.  The account is owned by the person with the disability, and they\
+    \ must have become disabled before age 26.  Effective January 1, 2026, eligibility\
+    \ for ABLE accounts will expand to include individuals with a disability that\
+    \ began before age 46.  Proper reporting and accounting of ABLE accounts are essential\
+    \ to ensure exclusions are applied correctly and that SSI payments are accurate.\
+    \  To influence understanding of ABLE accounts and encourage reporting of financial\
+    \ account information, in FY 2025, we aired educational content specific to reporting\
+    \ responsibilities and ABLE accounts on televisions in field office reception\
+    \ areas.  In March 2025, we also issued a reminder to technicians to avoid multiple\
+    \ postings of the same ABLE account and to ensure proper accounting of resources\
+    \ in ABLE accounts owned by recipients.  \n\nRecipients or their representative\
+    \ payees are required to report changes in their work activity and increases in\
+    \ earnings to ensure proper payments and continued eligibility for SSI payments.\
+    \  Improper payments based on wages are a leading cause of improper payments in\
+    \ the SSI program; most occurring as a result of recipients or representative\
+    \ payees failing to report changes in work.  To reduce our reliance on recipient\
+    \ and representative payee reporting of employment and wage information, we published\
+    \ the Use of Electronic Payroll Data To Improve Program Administration final rule\
+    \ in December 2024.  Through the process known as the payroll information exchange\
+    \ (PIE), we obtain wage and employment information from a commercial payroll data\
+    \ provider for individuals who have provided authorization.  On April 7, 2025,\
+    \ we began the phased implementation of PIE with an initial exchange of 1 million\
+    \ Social Security numbers (SSN).  We gradually increased the exchanges each month\
+    \ until reaching full implementation of 10.7 million SSNs in September 2025. \
+    \ We continued monthly exchanges with the full authorized population after September.\
+    \  As part of the PIE implementation activities, we provided training to technicians,\
+    \ updated our policies and instructions, and released communication to the public.\
+    \  In FY 2026 and beyond, we will implement measures to increase PIE authorizations;\
+    \ develop requirements for requesting historical wage data through PIE; develop\
+    \ a process for handling SSNs that are flagged for name mismatch and excluded\
+    \ from subsequent changes; streamline and improve notices, forms, and receipts\
+    \ related to PIE based on customer experience feedback; develop and implement\
+    \ enhanced management information; mismatch exclusions; and other enhancements.\
+    \  PIE will improve payment accuracy, reduce improper payments, and reduce the\
+    \ reporting burden on individuals when they authorize us to obtain this information\
+    \ through an information exchange, and we receive it.  We also anticipate that\
+    \ implementation will result in more efficient use of our limited administrative\
+    \ resources because our technicians would reduce the amount of time they spend\
+    \ manually requesting this information from payroll data providers and employers;\
+    \ manually entering data into our systems from an individual’s pay records; contacting\
+    \ individuals; and assisting individuals with the results of incomplete or untimely\
+    \ reporting.\n\nFor individuals or employers not participating in PIE, we continue\
+    \ to offer multiple reporting options such as the myWageReport (myWR) online tool,\
+    \ SSA Mobile Wage Reporting (SSAMWR), SSI Telephone Wage Reporting (SSITWR), by\
+    \ mail or in-office visit.  We also offer automated SSI wage reporting reminders\
+    \ for individuals who sign up to receive a monthly email or text message to report\
+    \ wages for the prior month.  From April-May 2025, we released social media posts\
+    \ on Facebook and X sharing a link to our YouTube video to help recipients learn\
+    \ why it is important to report wages and the automated electronic options for\
+    \ wage reporting.  This included instructional videos with step-by-step instructions\
+    \ on how to use the agency’s self-reporting wage applications.  In FY 2026, we\
+    \ continue to use our social media channels to post reminders for our recipients\
+    \ about the importance of promptly reporting changes that impact their eligibility\
+    \ and payment amounts.  These posts will inform recipients how we are required\
+    \ by law to adjust payments or recover debts when people receive payments they\
+    \ are not entitled to.  We will also continue to the send monthly email and text\
+    \ notification reminders to SSI recipients and deemors to report their wages timely.\n\
+    \nTo improve understanding and reduce the burden on our customers and their employers,\
+    \ we are updating several disability-related forms.  In February 2025, we published\
+    \ a revised SSA-3033, Employee Work Questionnaire, and clarified policy and procedures\
+    \ for technicians developing subsidy for DI and SSI initial claims, and DI work\
+    \ continuing disability reviews.  The Office of Management and Budget (OMB) approved\
+    \ the SSA-821 Work Activity Report in July 2025, which we published in September\
+    \ 2025.  The revised SSA-820 Self-Employment Work Activity Report is currently\
+    \ pending OMB approval; we expect completion of the form in FY 2026.\n\nFor certain\
+    \ improper payments outside of agency control, data or information needed does\
+    \ not exist because there is no database or dataset that currently exists where\
+    \ we can validate eligibility prior to making the payment.  For example, the law\
+    \ requires us to evaluate an individual’s income, which includes support and maintenance\
+    \ provided in-kind (or ISM).  This type of income is difficult to accurately value\
+    \ because it can fluctuate each month as household expenses, composition, and\
+    \ the type of assistance provided may change.  We rely on recipients to report\
+    \ changes in household expenses, composition, and contributions accurately and\
+    \ timely.  In FY 2025, we fully implemented three updates as part of SSI regulation\
+    \ simplification related to ISM.  These changes include: (1)  eliminating the\
+    \ requirement to provide detailed information about the value of food assistance\
+    \ received; (2) expanding the definition of a “public assistance household” by\
+    \ adding SNAP benefits to the list of public income-maintenance (PIM) programs\
+    \ and by requiring the receipt of a PIM payment for only one additional household\
+    \ member (other than the SSI applicant or recipient) instead of requiring the\
+    \ receipt of a PIM payment for every other member of the household; and (3) expanding\
+    \ the rental subsidy exception nationwide to simplify our ISM rules and ensure\
+    \ uniform application of the policy.  For item (2), a draft Notice of Proposed\
+    \ Rulemaking to rescind changes to the definition of a Public Assistance Household\
+    \ is pending review with the Office of Information and Regulatory Affairs.\n\n\
+    On August 1, 2025, we transitioned field office phone systems to the same telephone\
+    \ platform used by the teleservice centers.  By using the same telephone platform,\
+    \ we are able to route reports of SSI recipient change of address and living arrangement\
+    \ changes directly to a field office representative.  Field office representatives\
+    \ are able to update the SSI recipients’ record with the change of address and\
+    \ develop living arrangement or in-kind support and maintenance updates that could\
+    \ impact their payment amounts.  Previously, teleservice center representatives\
+    \ had to refer these reports to a field office for development at a later date\
+    \ and in some instances, the field office would have to recontact the claimant.\
+    \  This prior business process could result in delays in processing the report\
+    \ and potentially create an improper payment.  \n\nWe collect death data from\
+    \ a variety of sources and work to improve our death data processing so that we\
+    \ can effectively administer our programs.  We have a contract with every State\
+    \ Bureau of Vital Statistics (the custodians for death records) and with some\
+    \ jurisdictions to provide us death data.  Since 2002, we worked with States that\
+    \ want and are able to build a streamlined death registration process known as\
+    \ Electronic Death Registration (EDR).  As of July 2025, all 50 States, New York\
+    \ City, Washington, D.C., Puerto Rico, and the Commonwealth of the Northern Mariana\
+    \ Islands report deaths through the EDR process.  On September 30, 2024, we awarded\
+    \ a contract with the National Association for Public Health Statistics and Information\
+    \ Systems (NAPHSIS) on the acquisition of historical State death records.  In\
+    \ FY 2025, we worked with NAPHSIS on establishing the infrastructure required\
+    \ to receive the historical death data.  This multi-year effort will increase\
+    \ the accuracy, integrity, and completeness of our death data.  \n\nIn March and\
+    \ June 2025, we updated Numident records with additional death information for\
+    \ non-beneficiary individuals that were over 120 years of age when there was no\
+    \ death record present on the Numident.  These efforts resulted in over 12 million\
+    \ death records being added to the Numident.  In March 2025, we also provided\
+    \ the Internal Revenue Service a one-time file concerning individuals listed in\
+    \ the agency’s enumeration system who are age 120 or older based on available\
+    \ information as recorded in that system.  Efforts are ongoing to update our Numident\
+    \ records for individuals over 100 years of age with death data.  We also increased\
+    \ the frequency with which the agency provides updates concerning the full file\
+    \ of death information to the Bureau of the Fiscal Service for use in the Do Not\
+    \ Pay system.? We implemented this change (from weekly to daily) on April 1, 2025.\
+    \  In July 2025, we released a reminder to field office technicians to verify\
+    \ and record the death when a report of death on form DS-2060 U.S. Consular Report\
+    \ of Death Abroad is received. \n\nFor root causes where the data or information\
+    \ needed to process a payment correctly does not exist or the agency is unable\
+    \ to access the data or information needed, we are establishing alternate sources\
+    \ of information.  For example, we conducted 22 computer-matching agreements (CMA)\
+    \ with various Federal partners to help us determine eligibility and offset benefits\
+    \ for our programs.  The total annual savings attributed to these CMAs is approximately\
+    \ $14.9 billion, with an annual cost of approximately $510 million, yielding a\
+    \ positive benefit-to-cost ratio of about $29 to $1.  We plan to continue current\
+    \ CMAs that yield a positive cost-benefit ratio, expand effective CMAs to meet\
+    \ additional program needs, research current programs, work with internal stakeholders\
+    \ to identify data exchange needs, and pursue new data exchanges with potential\
+    \ partners.  In December 2024 and April 2025, we held Data Exchange Community\
+    \ of Practice meetings.  In FY 2026, we are working to reestablish the relationships\
+    \ with the current agency contacts, update the invitation list, and determine\
+    \ future topics for the meetings as resources allow. \n\nIn the Office of the\
+    \ Inspector General’s report on agency compliance with the Payment Integrity Information\
+    \ Act in FY 2024, they included a recommendation that the agency complete the\
+    \ Foreign Travel Data (FTD) project.  FTD is an agency application with direct\
+    \ access to the Department of Homeland Security’s (DHS) Arrival and Departure\
+    \ Information System with travel information that if the agency maximizes its\
+    \ use, will further uncover unreported U.S. absences that affect SSI eligibility;\
+    \ thus, increasing the detection of improper payments.  Effective January 2026,\
+    \ we are expanding the use of FTD to citizens for redeterminations and during\
+    \ initial claims, before SSI payments are made in certain situations, and non-citizens\
+    \ during initial claims, before SSI payments are made, in all cases.  We are engaging\
+    \ with DHS’s Customs and Border Protection (CBP) to discuss the viability of establishing\
+    \ an automated data exchange to receive FTD and finish the exchange project in\
+    \ early FY 2027.\n\nWe have several broad-based initiatives in place or underway\
+    \ that are designed to ensure technician compliance with policy and improve payment\
+    \ accuracy.\n\nWe complete SSI Transaction Accuracy Reviews (STAR) on a biennial\
+    \ basis to assist in assessing operational quality.  STAR focuses the accuracy\
+    \ of non-medical adjudicative decisions in initial claims redeterminations, and\
+    \ limited issues and exclusively on field office compliance with documentation\
+    \ and developmental requirements found in the agency’s policies and procedures.\
+    \  STAR findings enhance our understanding of those improper payments that result\
+    \ directly from technician error and help identify potential recommendations for\
+    \ improvement.  In December 2025, we will publish the review of FY 2024 case samples\
+    \ in the STAR report.  We paused STAR in FY 2025 to concentrate on special studies\
+    \ projects.  We have resumed STAR in FY 2026.\n\nIn September 2024, we released\
+    \ the 21st Century PolicyNet (21CPN), which replaced PolicyNet, the 20+ year-old\
+    \ software platform that contains multiple applications and hosts tens of thousands\
+    \ of pages of policy instruction.  The overall goals of 21CPN are an improved\
+    \ user experience, process efficiencies for the author, publisher, and researcher\
+    \ role, as well as improving searching capabilities, including the use of intelligent\
+    \ search.  In December 2024, we launched improvements that introduced new message\
+    \ types, enhanced search functionalities, upgraded navigation features, included\
+    \ spell check for technician searches, and provided access to a variety of operational\
+    \ resources, archives, and margin notes.  In April 2025, we successfully finished\
+    \ the data migration process and implemented enhanced search features.  These\
+    \ improvements now encompass the hearings, appeal, and litigation law manual,\
+    \ as well as Social Security rulings and acquiescence rulings, along with policy\
+    \ documents and ownership details.  Additionally, we provided quick access to\
+    \ agency form repositories and included a user guide for 21CPN.  In June 2025,\
+    \ we launched an advanced search feature designed to improve the accessibility\
+    \ of policies, procedures, and instructions.  Additionally, we upgraded the application's\
+    \ presentation and usability by incorporating a series of content clusters and\
+    \ a \"Trending\" topics section to showcase and highlight agency initiatives for\
+    \ key stakeholders.  In September 2025, we broadened the data set to incorporate\
+    \ various procedural content clusters, link libraries, question and answer sections,\
+    \ and related instructions links.  Furthermore, we improved the presentation functionality\
+    \ by introducing subscriptions and daily messages.  Finally, by the end of FY\
+    \ 2026, contingent upon successful testing and evaluation, we plan to launch a\
+    \ generative AI \"Policy Assistant Tool (PAT)\" designed to simplify the search\
+    \ process for policies, procedures, and instructions.  This tool will assist technicians\
+    \ in quickly and accurately finding and understanding relevant information to\
+    \ aid in decision-making.\n\n \n\nWe continue development of the Consolidated\
+    \ Claims Experience (CCE), a modernized user-friendly web-based application designed\
+    \ to centralize and streamline benefit claim processing actions, reduce training\
+    \ time for technicians, and provide a more intuitive approach for data collection\
+    \ and processing of benefit claims.  CCE will employ modernized and enhanced computation\
+    \ utilities that minimize manual tasks and help technicians identify entitlement\
+    \ and eligibility for all programs for which the claimant qualifies, in order\
+    \ to mitigate missed entitlements.  The system introduces new and enhanced features\
+    \ not found in existing platforms, such as More Info links, talking points for\
+    \ users, and easy access to commonly used external resources.  These improvements\
+    \ increase customer satisfaction by eliminating redundant information requests\
+    \ and reducing the need for technicians to recontact customers, improve the timeliness\
+    \ and accuracy of claims processing, enhancing efficiency, and reducing operating\
+    \ costs.  In February 2025, the first phase of SSI payment continuation introduced\
+    \ a new automated Payment Continuation page to review and adjust protected payment\
+    \ levels when Goldberg/Kelly payment continuation applies and the requirement\
+    \ to build the Supplemental Security Record when a non-medical post-eligibility\
+    \ appeal is filed.  In April 2025, users can now enter a date up to 10 years prior\
+    \ in the Protective and Effecting Filing date within the application screens.\
+    \  Prior to this release, there was a 6-year date system limitation.  In FYs 2026-2027,\
+    \ work will continue on additional phases of the SSI payment continuation initiative\
+    \ to migrate functionality into the modern environment to lessen user errors,\
+    \ ensure correct/timely payments and reduce reliance on regionally developed appeals\
+    \ application. \n\n \n\nWe developed the Technician Experience Dashboard (TED)\
+    \ as an enterprise customer relationship management solution that will provide\
+    \ a single location for information about our customers’ interactions with the\
+    \ agency to make it easier for our employees to help the public and increases\
+    \ efficiency and accuracy, improving the overall customer experience.  In February\
+    \ 2024, we rolled TED out nationally to all field offices (FO) and workload support\
+    \ units.  In November 2024, we expanded TED to all teleservice (TSC) centers.\
+    \  TED modernized the previous 30-year-old Customer Help and Information Program\
+    \ (CHIP) that assisted TSC technicians when responding to customer inquiries via\
+    \ telephone.  In January and March 2025, we released two iterations of TED enhancements,\
+    \ improving upon the functionality for field office and teleservice centers. \
+    \ In April and June 2025, we enhanced the identity verifications procedures within\
+    \ TED to send a Security Authentication Personal Identification Number to authenticated\
+    \ customers (that technicians subsequently verify) before making direct deposit\
+    \ and direct express enrollments, changes, or cancellations over the phone.\n\n\
+    \ \n\nIn December 2025, we plan to release a workflow in TED that allows FO and\
+    \ TSC technicians to update payment information for Supplemental Security Income\
+    \ (SSI) recipients.  The release will also include the FO expansion of the ability\
+    \ to automate the process for collecting the customer SSN and starting an interaction\
+    \ in TED.  In addition, TSC technicians will have the ability to access the workflow\
+    \ for handling customer requests for special notice options and other accommodations.\
+    \  Modernization efforts will also include the replacement of older technology\
+    \ used to pass data from legacy systems.  In FY 2026, business workflow development\
+    \ efforts will focus on a streamlined process for assisting SSI recipients with\
+    \ updating address and telephone information, scheduling appointments and sending\
+    \ customers agency forms/links via their “my Social Security” account, text, or\
+    \ email.  In addition, the product will continue to work towards CHIP replacement\
+    \ by implementing the use of artificial intelligence to develop high volume informational\
+    \ workflows such as Medicare, Social Security Statement etc.  Lastly, we are working\
+    \ to implement the first iteration of Customer Intake in TED in FY 2026.  This\
+    \ feature empowers technicians to seamlessly manage reception traffic and appointments\
+    \ for their office.  With streamlined check-in, identity verification, and task\
+    \ management capabilities, technicians can deliver faster, more accurate and personalized\
+    \ service without switching between multiple applications.\n\n \n\nIn March 2024,\
+    \ we expanded the Upload Documents and eSignature services, which allows beneficiaries\
+    \ and recipients to submit and sign documents electronically, to all field offices\
+    \ and workload support units nationwide.  We completed various enhancements and\
+    \ expanded available forms throughout FYs 2024 and 2025.  Beginning March 29,\
+    \ 2025, a new customer-initiated option is available allowing customers to electronically\
+    \ submit certain forms to the agency without technician initiation.  This self-service\
+    \ approach empowers customers to initiate document uploads as soon as they recognize\
+    \ a need, eliminating delays caused by waiting for technician outreach.  In FY\
+    \ 2026, we will continue to webify forms for a mobile friendly experience and\
+    \ increase the number of forms.  We plan to expand customer-initiated submissions\
+    \ to allow individual representative payees to submit documents.\n\n \n\nIn April\
+    \ 2025, we released a Video on Demand and Policy in Focus training and reminders\
+    \ for handling non-home real property resources such as the look-back period,\
+    \ documentation for property determinations and independent property verifications,\
+    \ undue hardship, and living arrangement changes from property conflicts.  In\
+    \ May 2025, we published the permanent instructions on the SSI income policy treatment\
+    \ for types of assistance classified as pandemic-related disaster assistance and\
+    \ for types of assistance that are not.  We also published the permanent policy\
+    \ instructions for developing and documenting SSI resource exclusions from pandemic-related\
+    \ disaster assistance.\n\n \n\nWe are committed to ensuring recipients receive\
+    \ all payments due.  Through the potential entitlement workload, we analyze data\
+    \ to determine groups of individuals where entitlement to a different record is\
+    \ possible, or entitlement to higher payments on the same record is possible.\
+    \  While potential entitlements are generally not underpayments but rather serve\
+    \ as a lead to explore additional entitlement, there is some intersection between\
+    \ these issues.  In FY 2025, we took several actions to alert individuals of a\
+    \ potential entitlement to SSI.  In October 2024, we released Dear Colleague Letter\
+    \ to advocates and published a blog, “SSA Talks: Benefits for Children (SSI and\
+    \ Survivors),” to announce an SSA Talks episode about the types of benefits and\
+    \ payments available to children.  In January 2025, we released a blog sharing\
+    \ information that individuals may be able to receive SSI payments even if they\
+    \ already receive Social Security benefits.  In FY 2026, we will continue to identify\
+    \ recipients with potential entitlement to higher payments and send notices to\
+    \ inform them.  We will follow policies to develop for potential payments and\
+    \ explore entitlement for applicants on other records and other classes of payments\
+    \ where eligible.\n\n \n\nWe provided resources for technicians to use when reviewing\
+    \ and processing requests for waiver of an overpayment.  In February 2025, within\
+    \ an existing waiver processing toolkit, we added links to live waiver training\
+    \ sessions and an updated overpayment waiver decision tree.  In June 2025, we\
+    \ created the updated SSA-632-BK, Request for Waiver of Overpayment Recovery,\
+    \ to streamline the process for submitting overpayment waiver requests and improve\
+    \ ease of use for the public.  To improve timeliness and accuracy of processing\
+    \ overpayment and underpayment actions, in November 2024, we provided reminders\
+    \ to technicians on processing of manual SSI overpayment notices.  In April 2025,\
+    \ we issued reminders regarding the review and release of SSI underpayments of\
+    \ $15,000 or more.  As of September 30, 2025, we completed 98.12 percent of SSI\
+    \ underpayments that were identified as priority cases or pending for a year or\
+    \ more at the beginning of FY 2024.  Including cases where installments have been\
+    \ initiated but are awaiting the release of remaining installment payments, our\
+    \ completion percentage increases to 99.36 percent.\n\n \n\nIn FY 2024, we published\
+    \ the revised Notice Language Clearance Process policy, which incorporates review\
+    \ and approval of notice language through the plain language and the customer\
+    \ experience lens.  In FY 2025, we used this new policy to provide a plain language\
+    \ review of 22 notices."
+  Corrective_Actions_Proportion: "The majority of Supplemental Security Income (SSI)\
+    \ Improper Payments occur when recipients (or their representative payees on their\
+    \ behalf) fail to timely or accurately report changes in any of their eligibility\
+    \ factors.  improper payments can also occur because there is no database or dataset\
+    \ that currently exists where we can check eligibility factors prior to making\
+    \ the payment.  For example, the law requires us to evaluate in-kind support and\
+    \ maintenance (ISM) that an individual receives, which is difficult to accurately\
+    \ value because in-kind assistance can fluctuate each month as household expenses,\
+    \ composition, and the type of assistance provided to a recipient may change.\
+    \  We rely on recipients to report changes in household expenses, composition,\
+    \ and contributions accurately and timely.  \n\nFor overpayments outside the agency’s\
+    \ control (approximately $5.7 billion), we are addressing the challenge of reliance\
+    \ on self-reporting by promoting timely wage reporting and issuing reminders on\
+    \ reporting responsibilities.  We also began utilizing an automated information\
+    \ exchange with commercial payroll data providers to reduce the reliance on self-reporting\
+    \ of wages; this exchange is referred to as the Payroll Information Exchange.\n\
+    \nWe monitor the status of improper payment corrective actions through recurring\
+    \ stakeholder and senior executive meetings.  We evaluated existing initiatives\
+    \ and developed a comprehensive approach to identify, support, and prioritize\
+    \ new and planned reduction initiatives that target the root causes of leading\
+    \ causes of improper payments.  The purpose of this effort is to strategically\
+    \ align agency wide initiatives that will have the most significant impact on\
+    \ the detection and prevention of improper payments.  By identifying and analyzing\
+    \ the root causes of the improper payments, we channel our efforts in the most\
+    \ efficient manner ensuring that we are fiscally responsible as we implement a\
+    \ corrective action plan.\n\nWe will continue to find opportunities to explore\
+    \ cost-effective corrective action plans based on our evaluations.  However, we\
+    \ continue to note that the complexity of our SSI program makes it extremely difficult\
+    \ to determine the dollar value associated with a particular corrective action."
   End_Date: 09/2024
   Hide_Improper_Payment_Estimates_Doughnut_Chart: false
   Hide_Improper_Payment_Estimates_Doughnut_Stats: false
@@ -2351,33 +3033,265 @@ Data_By_Year:
   Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
   Hide_Overpayments_Within_Failure_to_Access_Data: true
   Hide_Overpayments_Within_Inability_to_Access_Data: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
   Hide_Program_Results_Future_Outlook: false
   Hide_Program_Results_Future_Outlook_Baseline: false
   Hide_Program_Results_Future_Outlook_Baseline_Table: false
   Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: true
+  Hide_Program_Results_Future_Outlook_Needs: false
   Hide_Program_Results_Improper_Payments: false
   Hide_Program_Results_Tabs: false
   Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: 'We are committed to being good stewards of taxpayer
+    dollars and ensuring the public has confidence that we manage their tax dollars
+    wisely.  We demonstrate a commitment to sound management practices.  To ensure
+    stewardship and the efficient administration of our programs, we have established
+    performance measures in our Annual Performance Plan for fiscal years (FY) 2025–2026
+    to track our progress.  Under the third focus area, “Fight Fraud and Waste,” there
+    are two performance measures directly related to reduction of improper payments:
+    Improve the integrity of the Supplemental Security Income program by focusing
+    our efforts on reducing overpayments; and Maintain a high payment accuracy rate
+    by reducing overpayments in the Old-Age, Survivors, and Disability Insurance (OASDI)
+    program.
+
+
+    We hold managers, program officials, and senior executives accountable for reducing
+    improper payments.  These employees’ annual performance plans reflect their responsibility
+    to support efforts to maintain sufficient internal controls to prevent, detect,
+    and recover improper payments and meet targets to reduce improper payments.  In
+    FY 2025, we revised the Manages Performance element to incorporate “Holding Employees
+    Accountable” as a requirement for all managers and supervisors.  To achieve a
+    successful performance rating, managers and supervisors must now meet this standard.
+
+
+    We assess managers throughout the agency on these standards each year and hold
+    them accountable for meeting improper payment reduction targets.  Each agency
+    department adds expectations that are more detailed for their positions describing
+    what is expected for meeting these performance standards.
+
+
+    If management or employees do not meet established performance expectations, they
+    may be placed on an Opportunity to Perform Successfully.  Failure to demonstrate
+    improvement may result in an unsuccessful performance rating, which could lead
+    to demotion or removal from Federal service.
+
+
+    Senior Executive performance plans must clearly align with organizational goals
+    and objectives under the Results Driven Critical Element.  Performance levels
+    in the performance requirements must reflect agency targets.
+
+
+    We established the Improper Payments Oversight Board (IPOB), consisting of senior
+    executive membership, to ensure that we are focusing on improper payment prevention,
+    formulating clear and innovative strategies, and driving timely results agency-wide.  The
+    Chief Risk Officer or their designee serves as the executive chair for the IPOB.  To
+    further our focus on reducing improper payments, in FY 2019, we established an
+    Improper Payments Prevention Team, now the Improper Payments team.  The team worked
+    with key agency stakeholders to develop Improper Payments Alignment Strategies
+    (IPAS) that outline innovative and effective strategies to mitigate the root causes
+    of improper payments.  As part of our IPAS, we evaluated the effectiveness of
+    each planned or ongoing mitigation initiative.  We will continue pursuing cost-effective
+    strategies to remediate the underlying causes of payment errors and monitor, measure,
+    and revise the strategies, as needed.  IPOB is responsible for reviewing, approving,
+    and implementing all improper payment initiatives.
+
+
+    We have a strong internal control environment that has always included controls
+    over our benefit payment and debt management processes.  We directly leverage
+    our existing internal control environment and assurance processes to provide reasonable
+    assurance that our internal controls over improper payments are in place and operating
+    effectively.
+
+
+    As part of our internal control environment, we have a well-established, agency-wide
+    management control program as required by the Federal Managers’ Financial Integrity
+    Act.
+
+
+    The effective internal controls we incorporate into our business processes and
+    financial management systems, as well as the program integrity efforts, support
+    our Commissioner’s annual assurance statement to the President and Congress.
+
+
+    In April 2019, we established the Enterprise Fraud Risk Management (EFRM) program
+    to systematically assess fraud risks across our major programmatic and administrative
+    areas.  Through our EFRM program we have conducted multiple fraud risk assessments
+    on key areas such as Disability, Electronic Services, Administrative Services,
+    and the Representative Payee program.  After each fraud risk assessment, our senior
+    executives review each fraud risk and determine whether our controls are effective
+    or whether we need to develop additional controls to further reduce the risk.  For
+    each risk designated as “reduce” by our executives, we develop additional mitigation
+    strategies to further prevent or detect the fraud.  The risk response and the
+    designated mitigation strategies form the basis of the fraud risk profile for
+    each fraud area.
+
+
+    We completed a maintenance fraud risk assessment of agency’s Administrative Services
+    during FY 2024 and continued the reassessment of the disability fraud risk profile,
+    consistent with the Government Accountability Office guidance, to reassess fraud
+    risk profiles on a three-year cycle.  We also finalized the Fraud Risk Profiles
+    for the Enumeration program at the end of calendar year 2023.
+
+
+    For recovery of overpayments, in March 2025, we resumed use of the Treasury Offset
+    Program (TOP) after suspending it in March 2020 because of the effects of the
+    COVID-19 pandemic.  From March-September 2025, we collected approximately $60
+    million from those who were notified of TOP debt referral prior to program suspension.  We
+    resumed sending pre-offset notices for all debt incurred after March 2020, beginning
+    in August 2025.
+
+
+    We changed the benefit withholding rate for OASDI overpayments to 50 percent.  Beginning
+    April 25, 2025, we informed overpaid individuals that we will begin recovering
+    their overpayment by withholding 50 percent of their benefit amount.  This rate
+    replaces the previous benefit withholding rate of 10 percent that was implemented
+    on March 25, 2024.  If an individual was notified of an overpayment prior to April
+    25, 2025, they will retain the 10 percent withholding rate unless we notify them
+    of a new overpayment.  There will be limited exceptions to this change, such as
+    when an overpayment resulted from fraud.'
   IP_Unknown_Target_Rate: 0.072
   Improper_Payments_Rate: 11.5798906602
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '0.2'
   Non_Monetary_Loss_Amount: '982.40635791'
+  Outlays: 63290.8806274
+  Overpayment_Combined_Mitigations_Planned: Audit, Automation, Behavioral/Psych Influence,
+    Change Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change,
+    Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence,
+    Change Process, Cross Enterprise Sharing, Predictive Analytics, Training
   Payment_Accuracy_Rate: 88.42010933976938
+  Program_Additional_Information: 'The annual sample in our Stewardship Reviews is
+    sufficient to provide statistically reliable data on the overall payment accuracy.  However,
+    the annual sample does not provide statistically reliable information about individual
+    deficiencies in a given year; therefore, we use an average of a 5-year period
+    to evaluate deficiencies.  The data reported is based on fiscal year (FY) 2024
+    (single year) stewardship findings.
+
+
+    We paid over $63.3 billion in Supplemental Security Income (SSI) Federal and State
+    supplementary payments throughout FY 2024.  The total SSI improper payment amount
+    was approximately $7.3 billion.  Of that total, approximately $5.7 billion was
+    attributed to overpayments outside of the agency’s control.  The SSI program has
+    been our greatest improper payment challenge because of the inherent nature of
+    the program.  Administering the SSI program is complicated by the statutory requirement
+    for us to determine SSI eligibility and calculate SSI payments monthly.  We generally
+    make SSI payments on the first day of the month for eligibility in that month,
+    and many factors influence SSI payment accuracy.  Even if a payment was correct
+    when paid, subsequent changes in that month can affect the payment due, resulting
+    in either an overpayment or underpayment.  Thus, the program requirements themselves
+    sometimes cause improper payments.  We strive to reduce SSI improper payments
+    within the constraints of statutory and regulatory requirements and available
+    resources.'
   Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: The Fiscal Year 2026 President’s Budget included resources
+    for internal controls to prevent improper payments.  As part of our stewardship
+    responsibilities and our efforts to reduce improper payments, we also requested
+    $2.397 billion in dedicated funding for program integrity activities.  Many of
+    the tools we use, such as our medical Continuing Disability Reviews, Supplemental
+    Security Income redeterminations, and the Cooperative Disability Investigations
+    program, save billions of program dollars with a proportionally small investment
+    of administrative resources.
   Start_Date: 10/2023
   Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: Audit, Automation, Behavioral/Psych Influence,
+    Cross Enterprise Sharing, Predictive Analytics, Training
+  Underpayment_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence, Change
+    Process, Cross Enterprise Sharing, Predictive Analytics, Training
   Unknown_Payments_Rate: 0
   Year: 2025
-  detail_IP_Causes: null
+  detail_IP_Causes: 'Improper payments within the agency’s control are caused by our
+    failure to access the data or information needed to make accurate payments.  These
+    improper payments occur when the agency was aware of information that caused an
+    improper payment but failed to take action or took incorrect action when a recipient
+    or a third-party provided requested information necessary to compute the accurate
+    payment amount.  An incorrect action could be due to a delay in input, mathematical
+    error, typographical error, or incorrect policy interpretation and application.  Failure
+    to take action could occur when a recipient or third-party reports a change and
+    we fail to make the change.  To prevent improper payments from occurring, we provide
+    training and reminders for technicians when applicable and automation solutions
+    to improve accuracy when possible.
+
+
+    Improper payments outside the agency’s control occur when the data or information
+    needed does not exist or because of our inability to access the data or information
+    needed.  These improper payments occur because there is no database or dataset
+    that currently exists where we can check eligibility prior to making the Supplemental
+    Security Income (SSI) payment.  For example, the law requires us to evaluate an
+    individual’s income, which includes support and maintenance provided in-kind.  “In-kind”
+    income is difficult to accurately value because it can fluctuate each month as
+    household expenses, composition, and the type of assistance provided may change.  Additionally,
+    there is no database or data source we can use to verify these factors.  We rely
+    on recipients to report changes in household expenses, composition, and contributions
+    accurately and timely.  However, as of September 30, 2024, we have made several
+    changes to our in-kind support and maintenance (ISM) regulations which were intended,
+    in part, to simplify our ISM calculations and streamline reporting requirements.  For
+    example, we no longer include the value of food in our ISM calculations.  We have
+    also expanded and simplified our rental subsidy policy by applying a uniform,
+    nationwide policy and reducing the development burden by comparing the monthly
+    rent in most cases to a standard dollar amount (the presumed maximum value or
+    PMV) instead of developing for the current market rental value (CMRV) for each
+    individual’s rental unit.  Finally, we have expanded the definition of a public
+    assistance household by adding SNAP benefits to the list of public income-maintenance
+    (PIM) programs and by the receipt of a PIM payment to only one additional household
+    member (other than the SSI applicant or recipient) instead of requiring the receipt
+    of a PIM payment for every member of the household.  A draft Notice of Proposed
+    Rulemaking to rescind changes to the definition of a Public Assistance Household
+    is pending review with the Office of Information and Regulatory Affairs.
+
+
+    When inability to access data is the root cause, improper payments occur because
+    recipients (or their representative payees on their behalf) fail to timely report
+    changes in any of their eligibility factors (e.g., an increase of their resources
+    or a change in their wages).  Failure to report changes is the primary cause of
+    both overpayments and underpayments.  We explicitly inform all individuals of
+    their reporting requirements during the application process and again within every
+    award letter, pamphlets periodically sent to recipients, and in standard language
+    in most official agency correspondence.  However, recipients and representative
+    payees still may fail to report these changes or may not report changes in time
+    to prevent an improper payment.
+
+
+    SSI is a means-tested program for individuals with limited income and resources
+    who are blind, disabled, or aged.  Administering the SSI program is complicated
+    by the statutory requirement to determine SSI eligibility and calculate SSI payments
+    monthly.  We generally make SSI payments on the first day of the month for eligibility
+    in that month.  Many factors influence SSI payment accuracy, including household
+    composition, monthly expenses, living arrangements, and receipt of ISM.  Even
+    if a payment was correct when paid, subsequent changes in that month can affect
+    the payment due, resulting in either an overpayment or underpayment.  Thus, the
+    program requirements themselves sometimes make improper payments inevitable.  We
+    remain committed to simplifying the SSI program, and we are exploring ways to
+    do this in an equitable manner.'
   detail_No_Estimates_Why: null
   detail_Overpayments_Due_To_Data_DNE: '570.49610005'
   detail_Overpayments_Due_To_Failure: '599.11121755'
   detail_Overpayments_Due_To_Inability: '5177.00109904'
   detail_Reduction_Target: '7.2'
+  eligibility_aggregated:
+  - Theme: Address/location
+    Theme_Description: "Information regarding where the applicant/recipient lived,\
+      \ owned property, or was \r\nphysically present in a specific location"
+  - Theme: Death
+    Theme_Description: Date of death of the recipient/beneficiary
+  - Theme: Employment
+    Theme_Description: The employment status of the recipient/beneficiary
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  - Theme: Marital Status
+    Theme_Description: A person's state of being single, married, separated, divorced,
+      or widowed
+  - Theme: Military Status
+    Theme_Description: The condition of being, or having been in the uniformed services
+  - Theme: Prisoner Status
+    Theme_Description: Eligibility for benefits or payment based on prisoner status
+  - Theme: Receiving Benefits from Other Sources
+    Theme_Description: Beneficiary or recipient is receiving benefits from an additional
+      source
+  - Theme: Residency
+    Theme_Description: Status of recipient's living location or arrangement
   overpayments:
     Data_Needed_Does_Not_Exist: 570.49610005
     Failure_to_Access_Data: 599.11121755
@@ -2392,24 +3306,23 @@ Data_By_Year:
     Underpayments_Amount: '982.40635791'
 Description: The SSI program provides financial support to aged, blind, and disabled
   adults and children with limited income and resources.  Our greatest payment accuracy
-  challenges occur within the SSI program. SSI payment amounts can fluctuate monthly
+  challenges occur within the SSI program as payment amounts can fluctuate monthly
   with changes in non-medical factors of eligibility such as resources, income, and
-  living arrangements.  Beneficiaries’ failure to report, or timely report changes
-  to factors of eligibility is the primary cause of improper payments.  For example,
+  living arrangements.  Recipient’s failure to report, or timely report changes to
+  factors of eligibility is the primary cause of improper payments (IP).  For example,
   we verify self-reported wage data and financial accounts retroactively, therefore
-  unless the recipient reports them monthly, an improper payment may result.  Another
-  cause of improper payments is our failure to timely update our records with reported
-  changes.
+  unless the recipient reports them monthly, an IP may result.  Another cause of IPs
+  is when we do not take timely action to update our records with the reported changes.
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 63290.8806274
-Overpayment_Amounts: '[4032.51647959, 4617.94115731, 5604.97063653, 6346.60841664]'
-Payment_Accuracy_Amounts: '[51365.11476255, 52267.10019985, 54565.90418469, 55961.86585285]'
-Payment_Accuracy_Rate: 88.42010933976938
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[4985.8521586, 4032.51647959, 4617.94115731, 5604.97063653,
+  6346.60841664]'
+Payment_Accuracy_Amounts: '[51228.08683328, 51365.11476255, 52267.10019985, 54565.90418469,
+  55961.86585285]'
 Phase_2_Program: 0
 Program_Name: Supplemental Security Income (SSI)
 Scorecard_Links:
@@ -2425,9 +3338,13 @@ Scorecard_Links:
   QuarterYear: Q1 2025
 - Link: assets/scorecards/Q2 2025/Supplemental Security Income (SSI).pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[873.49255433, 680.79686085, 877.87106996, 982.40635791]'
-Unknown_Amounts: '[0, 0, 0, 0]'
+- Link: assets/scorecards/Q3 2025/Supplemental Security Income (SSI).pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/Supplemental Security Income (SSI).pdf
+  QuarterYear: Q4 2025
+Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
+Underpayment_Amounts: '[760.05100812, 873.49255433, 680.79686085, 877.87106996, 982.40635791]'
+Unknown_Amounts: '[0, 0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/96.006
 layout: program-specific
 permalink: program/ssa-supplemental-security-income-ssi

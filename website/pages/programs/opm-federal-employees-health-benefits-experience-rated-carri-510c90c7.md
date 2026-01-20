@@ -33,6 +33,7 @@ Data_By_Year:
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 0
   Program_Additional_Information: 'In FY 2023, to reflect the different contracts,
     payment structures and types of improper payments, OPM differentiated between
     the two types of FEHB Carrier contracts: Experience-Rated carriers and Community-Rated
@@ -92,6 +93,7 @@ Data_By_Year:
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
+  Outlays: 0
   Program_Design_or_Structural_Issue: 0.0
   Year: 2024
   detail_No_Estimates_Why: OPM developed a new improper payment methodology in FY
@@ -160,18 +162,18 @@ Data_By_Year:
     \ specific overpayments identified in the sampling and testing."
   Corrective_Actions_Appropriateness: "The Experience-Rated Activity did not publish\
     \ an IP Estimate above the statutory threshold and is not required to publish\
-    \ a corrective action plan under the Payment Integrity Information Act. \n\nAs\
-    \ indicated in response to Program Questions 4 and 5, 100% of the improper payments\
-    \ identified and reported are outside the direct control of OPM. OPM requires\
-    \ Carriers who have identified and reported improper and unknown payments to develop\
-    \ corrective action plans (CAPs) designed to correct the causes of improper and\
-    \ unknown payments and prevent future improper and unknown payments. Carriers\
-    \ are responsible for implementing, monitoring, and evaluating their corrective\
-    \ action plan’s effectiveness, with assistance and oversight from OPM. Most corrective\
-    \ actions identified by Carriers have already been taken, but some have completion\
-    \ dates in the future. \n\nCarriers are required to report on prior years’ findings\
-    \ annually. OPM will monitor future reports from carriers to identify whether\
-    \ the CAPs have been effective in reducing improper and unknown payments."
+    \ a corrective action plan under the Payment Integrity Information Act. \n\n100%\
+    \ of the improper payments identified and reported are outside the direct control\
+    \ of OPM. OPM requires Carriers who have identified and reported improper and\
+    \ unknown payments to develop corrective action plans (CAPs) designed to correct\
+    \ the causes of improper and unknown payments and prevent future improper and\
+    \ unknown payments. Carriers are responsible for implementing, monitoring, and\
+    \ evaluating their corrective action plan’s effectiveness, with assistance and\
+    \ oversight from OPM. Most corrective actions identified by Carriers have already\
+    \ been taken, but some have completion dates in the future. \n\nCarriers are required\
+    \ to report on prior years’ findings annually. OPM will monitor future reports\
+    \ from carriers to identify whether the CAPs have been effective in reducing improper\
+    \ and unknown payments."
   Corrective_Actions_Proportion: 'Carriers are required to identify the root cause
     type for all identified improper payments. Corrective action plans also identify
     actions either planned or taken to prevent repeated occurrence of the causes of
@@ -247,6 +249,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 23.44
   Margin_of_Error: '2.5'
   Non_Monetary_Loss_Amount: '44.482'
+  Outlays: 67219.3
   Overpayment_Combined_Mitigations_Planned: Audit, Change Process, Training
   Overpayment_Combined_Mitigations_Taken: Audit, Automation, Change Process, Training
   Payment_Accuracy_Rate: 99.8589229581385
@@ -324,17 +327,15 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2023, 2024, 2025]'
-Outlays: 67219.3
-Overpayment_Amounts: '[0, 0, 26.909]'
-Payment_Accuracy_Amounts: '[0, 0, 67124.469]'
-Payment_Accuracy_Rate: 99.8589229581385
+Improper_Payments_Data_Years: '[2025]'
+Overpayment_Amounts: '[26.909]'
+Payment_Accuracy_Amounts: '[67124.469]'
 Phase_2_Program: 0
 Program_Name: Federal Employees Health Benefits - Experience Rated Carriers
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 18.185]'
-Underpayment_Amounts: '[0, 0, 26.297]'
-Unknown_Amounts: '[0, 0, 23.44]'
+Technically_Improper_Amounts: '[18.185]'
+Underpayment_Amounts: '[26.297]'
+Unknown_Amounts: '[23.44]'
 layout: program-specific
 permalink: program/opm-federal-employees-health-benefits-experience-rated-carri-510c90c7
 ---

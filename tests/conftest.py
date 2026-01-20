@@ -38,6 +38,7 @@ def mock_csv_data(tmp_path):
     payment_confirmed_fraud = extracted_dir / "MY_OMB_ImproperPayment_Payment_Confirmed_Fraud_vw.csv"
     eligibility_themes = extracted_dir / "Eligibility_Themes.csv"
     eligibility_themes_descriptions = extracted_dir / "Eligibility_Themes_Descriptions.csv"
+    fy25_risks = extracted_dir / "Risk_Assessment_FULL_FY25.csv"
     risks = extracted_dir / "MY_OMB_ImproperPayment_Payment_Risk_Assessments_vw.csv"
     risks_methodology_changed = extracted_dir / "RiskAssessmentMethodologyChanges.csv"
     new_risks = extracted_dir / "MY_OMB_ImproperPayment_Payment_New_Risk_Assessments_vw.csv"
@@ -47,7 +48,6 @@ def mock_csv_data(tmp_path):
     ip_root_causes = extracted_dir / "MY_OMB_ImproperPayment_Payment_IP_Root_Causes_vw.csv"
     congressional_reports = extracted_dir / "MY_OMB_ImproperPayment_PaymentAccuracy_AgencyData_raw_vw-Congressional.csv"
     fpi_mapping = extracted_dir / "FPIMapping.csv"
-    active_programs = extracted_dir / "ActiveProgramsByYear.csv"
 
     all_programs_sample_csv_data = (
         "Agency,Program_Name,Fiscal_Year,Outlays_($M),IP_Amount($M),IP_Unknown_Amount_($M)"
@@ -109,6 +109,12 @@ def mock_csv_data(tmp_path):
         "\nMarital Status,the status"
     )
 
+    fy25_risks_sample_csv_data = (
+        "Agency,Fiscal_Year,Program_Name,Fiscal_Year_Last_Conducted,Susceptible"
+        "\nAB,2022,Rehabilitation Act Section 502,,"
+        "\nAB,2023,Rehabilitation Act Section 502,,"
+    )
+
     risks_sample_csv_data = (
         "Agency,Fiscal_Year,Program_Name,in_draft,Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_,raa6_2,raa7_2,Updated_Program_Name,Original_Program_Name"
         "\nAgency1,2024,Program1,0.0,,,,Program1,Program1"
@@ -163,12 +169,6 @@ def mock_csv_data(tmp_path):
         "\nDOD,Program 2,22.000"
     )
 
-    active_programs_sample_csv_data = (
-        "agency,Program Name,Fiscal_Year"
-        "\nDOD,Program 1,2024"
-        "\nDOD,Program 1,2025"
-    )
-
     all_programs.write_text(all_programs_sample_csv_data, encoding="utf-8-sig")
     program_data_raw.write_text(program_data_raw_sample_csv_data, encoding="utf-8-sig")
     agency_data_raw.write_text(agency_data_raw_sample_csv_data, encoding="utf-8-sig")
@@ -178,6 +178,7 @@ def mock_csv_data(tmp_path):
     payment_confirmed_fraud.write_text(payment_confirmed_fraud_sample_csv_data, encoding="utf-8-sig")
     eligibility_themes.write_text(eligibility_themes_sample_csv_data, encoding="utf-8-sig")
     eligibility_themes_descriptions.write_text(eligibility_themes_descriptions_sample_csv_data, encoding="utf-8-sig")
+    fy25_risks.write_text(fy25_risks_sample_csv_data, encoding="utf-8-sig")
     risks.write_text(risks_sample_csv_data, encoding="utf-8-sig")
     risks_methodology_changed.write_text(risks_methodology_changed_sample_csv_data, encoding="utf-8-sig")
     new_risks.write_text(new_risks_sample_csv_data, encoding="utf-8-sig")
@@ -187,7 +188,6 @@ def mock_csv_data(tmp_path):
     ip_root_causes.write_text(ip_root_causes_sample_csv_data, encoding="utf-8-sig")
     congressional_reports.write_text(congressional_reports_sample_csv_data, encoding="utf-8-sig")
     fpi_mapping.write_text(fpi_mapping_sample_csv_data, encoding="utf-8-sig")
-    active_programs.write_text(active_programs_sample_csv_data, encoding="utf-8-sig")
 
     return {
         "ALL_PROGRAMS_DATA_PATH": str(all_programs),
@@ -199,6 +199,7 @@ def mock_csv_data(tmp_path):
         "PAYMENT_CONFIRMED_FRAUD_PATH": str(payment_confirmed_fraud),
         "ELIGIBILITY_THEMES_PATH": str(eligibility_themes),
         "ELIGIBILITY_THEMES_DESCRIPTIONS_PATH": str(eligibility_themes_descriptions),
+        "FY25_RISKS_PATH": str(fy25_risks),
         "RISKS_PATH": str(risks),
         "RISKS_METHODOLOGY_CHANGED_PATH": str(risks_methodology_changed),
         "NEW_RISKS_PATH": str(new_risks),
@@ -207,6 +208,5 @@ def mock_csv_data(tmp_path):
         "SURVEY_ROOT_CAUSE_PATH": str(survey_root_cause),
         "IP_ROOT_CAUSES_PATH": str(ip_root_causes),
         "CONGRESSIONAL_REPORTS_PATH": str(congressional_reports),
-        "FPI_MAPPING_PATH": str(fpi_mapping),
-        "ACTIVE_PROGRAMS_PATH": str(active_programs)
+        "FPI_MAPPING_PATH": str(fpi_mapping)
     }

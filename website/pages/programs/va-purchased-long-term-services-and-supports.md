@@ -2,6 +2,78 @@
 Agency: VA
 Agency_Name: Department of Veterans Affairs
 Data_By_Year:
+- Agency_Needs_Satisfied: VA does not have additional program needs.
+  Confidence_Level: '>90%'
+  Corrective_Actions_Proportion: VA continues to prioritize and implement effective
+    corrective actions and mitigation strategies that reduce improper payments agency-wide
+    as evidenced by its third consecutive and largest year of reductions. Specifically,
+    from FY20 to FY21, the Purchased Long Term Services and Supports program decreased
+    its error rate from 95.34 percent to 72.80 percent (22.54% reduction) and improper
+    payments from $2,547.91 million to $1,895.26 million ($652.65 million reduction).
+    Due to PLTSS reporting over $100 million of overpayments/monetary loss in FY 2021,
+    PLTSS will begin reporting as a high priority program in FY 2022.
+  End_Date: 09/2020
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 1340.2
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.6599974884
+  Improper_Payments_Rate: 54.47516401
+  Insufficient_Documentation_to_Determine: 477.02
+  Is_Lowest_IP_And_Unknown_Rate: 'No'
+  Margin_of_Error: '6.97'
+  Non_Monetary_Loss_Amount: '1312.31'
+  Outlays: 2603.48
+  Outlays_Current_Year_Plus_1_Amount: 2707.48
+  Payment_Accuracy_Rate: 27.202436738519214
+  Program_Design_or_Structural_Issue: 1308.24
+  Start_Date: 10/2019
+  Technical_IP_Amount: '1308.24'
+  Unknown_Curent_Year_Plus_1_Amount: 446.73
+  Unknown_Payments_Rate: 18.3223992502343
+  Unknown_Why: VA had lacking or insufficient documentation to validate whether a
+    payment was proper or not.
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 47.673
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 105.94
+    Financial: 58.267
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '105.94'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 4.07
+    Financial: 4.07
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '4.07'
 - Agency_Needs_Satisfied: VA has not yet determined the tolerable rate. VA is working
     to determine all requirements for establishing a tolerable rate per Office of
     Management and Budget guidance before attempting to establish tolerable rates.  At
@@ -73,6 +145,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '3.87'
   Non_Monetary_Loss_Amount: '1048.64'
+  Outlays: 2709.1
   Outlays_Current_Year_Plus_1_Amount: 3633.03
   Payment_Accuracy_Rate: 52.54955520283489
   Program_Additional_Information: The Purchased Long Term Services and Supports program
@@ -281,6 +354,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '4.18'
   Non_Monetary_Loss_Amount: '1045.22'
+  Outlays: 3662.27
   Outlays_Current_Year_Plus_1_Amount: 5483.76
   Overpayment_Mitigations_Planned: Automation, Change Process
   Overpayment_Mitigations_Taken: Automation
@@ -649,6 +723,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '3.45'
   Non_Monetary_Loss_Amount: '438.87'
+  Outlays: 5620.66
   Outlays_Current_Year_Plus_1_Amount: 7504.24
   Overpayment_Mitigations_Planned: Change Process
   Overpayment_Mitigations_Taken: Automation, Change Process
@@ -953,6 +1028,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 45.84
   Margin_of_Error: '1.83'
   Non_Monetary_Loss_Amount: '224.5'
+  Outlays: 7330.11
   Overpayment_Combined_Mitigations_Planned: Change Process
   Overpayment_Combined_Mitigations_Taken: Audit, Change Process
   Payment_Accuracy_Rate: 95.26037126318704
@@ -1023,30 +1099,31 @@ Data_By_Year:
     Failure_to_Access_Data: 1.82
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '1.82'
-Description: Purchased Long Term Services and Supports strives to empower Veterans
-  to rise above the challenges of aging, disability, or serious illness. Geriatrics
-  and Extended Care is for Veterans of all ages, including their families and caregivers.
-  The program reported $218.30 million in projected monetary loss for FY 2024, which
-  resulted from paying an amount that exceeded the contract rate, paying for claims
-  not received within the required timeframe, or paying for billed services that exceeded
-  the authorized care. There are no known financial, contractor or provider status
-  related barriers prohibiting improving prevention of improper payments.
+Description: The Purchased Long Term Services and Supports (PLTSS) program is organizationally
+  aligned under the VHA Geriatrics and Extended Care (GEC) Office that strives to
+  advance quality care for aging and chronically ill Veterans by providing policy
+  direction for the development, coordination, and integration of geriatrics and long-term
+  care clinical programs. The program reported $218.30 million in projected monetary
+  loss for FY 2024, which resulted from paying for claim amounts that exceeded the
+  contract rate, claims not received within the required timeframe, or billed services
+  that exceeded the authorized care. There are no known financial, contractor or provider
+  status related barriers prohibiting improving prevention of improper payments.
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 7330.11
-Overpayment_Amounts: '[61.84, 318.46, 218.3, 77.08]'
-Payment_Accuracy_Amounts: '[1423.6199999999994, 2244.2799999999997, 4860.5599999999995,
-  6982.69]'
-Payment_Accuracy_Rate: 95.26037126318704
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[105.94, 61.84, 318.46, 218.3, 77.08]'
+Payment_Accuracy_Amounts: '[708.2099999999998, 1423.6199999999994, 2244.2799999999997,
+  4860.5599999999995, 6982.69]'
 Phase_2_Program: 0
 Program_Name: Purchased Long Term Services and Supports
 Scorecard_Links:
 - Link: assets/scorecards/Q1 2024/Purchased Long Term Services and Supports.pdf
   QuarterYear: Q1 2024
+- Link: assets/scorecards/Q2 2024/Puchased Long Term Services and Supports.pdf
+  QuarterYear: Q2 2024
 - Link: assets/scorecards/Q3 2024/Purchased Long Term Services and Supports.pdf
   QuarterYear: Q3 2024
 - Link: assets/scorecards/Q4 2024/Purchased Long Term Services and Supports.pdf
@@ -1055,9 +1132,13 @@ Scorecard_Links:
   QuarterYear: Q1 2025
 - Link: assets/scorecards/Q2 2025/Purchased Long Term Services and Supports.pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[1048.38, 1044.65, 432.46, 222.68]'
-Underpayment_Amounts: '[0.26, 0.57, 6.41, 1.82]'
-Unknown_Amounts: '[175, 54.31, 102.93, 45.84]'
+- Link: assets/scorecards/Q3 2025/Purchased Long Term Services and Supports.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/Purchased Long Term Services and Supports.pdf
+  QuarterYear: Q4 2025
+Technically_Improper_Amounts: '[1308.24, 1048.38, 1044.65, 432.46, 222.68]'
+Underpayment_Amounts: '[4.07, 0.26, 0.57, 6.41, 1.82]'
+Unknown_Amounts: '[477.02, 175, 54.31, 102.93, 45.84]'
 layout: program-specific
 permalink: program/va-purchased-long-term-services-and-supports
 ---

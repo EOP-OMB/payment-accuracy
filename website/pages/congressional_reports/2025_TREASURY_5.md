@@ -43,26 +43,26 @@ Requirements:
   Type: REGULAR
 SurveyData:
 - Answer: Accounts payable, pension, grants, and loan payments use pre-payment and
-    post payment reviews to recoup overpayments.  Invoices processed through the Invoice
+    post payment reviews to recoup overpayments. Invoices processed through the Invoice
     Processing Platform (IPP) are subject to a monthly post payment audit of 10% of
     the total paid IPP invoices for that month. Invoices not processed through the
     IPP in excess of $2,500.00 are subject to secondary review before being paid.
     Invoices under$2,500.00 are subject to review through statistical sampling procedures.
     Travel vouchers processed through the Concur Government Edition (CGE) travel system
     are subject to a post payment audit based on a random sample of all reimbursements
-    under $2,500.00.  All payments $2,500.00 require a 100% post payment audit review.  Relocation
-    vouchers processed through the MoveLINQ system are subject to 100% pre-payment
-    audit and review.  Relocation periodically reconciles moveLINQ advances (feeder)
-    to Oracle (financial system) advances to ensure the two systems are in sync. They
-    validate W-2's to ensure estimated accruals reconcile to actual accruals to verify
-    the correct amount of taxes were deducted. Accruals are balanced by accounting
-    string under general ledger to ensure accruals collected were paid. Relocation
-    also balances moveLINQ to Oracle each tax period to ensure wages and taxes reconcile
-    between the two systems. They also verify outstanding balances and billed amounts
-    on obligations within the moveLINQ system reconciles to outstanding balances and
-    billed amounts in Oracle. These efforts confirm there are no duplicate payments
-    and taxes are collected and paid at the appropriate rate.      Furthermore, the
-    Do Not Pay (DNP) portal implementation has provided a way for bureau's/office's
+    under $2,500.00. All payments $2,500.00 require a 100% post payment audit review.
+    Relocation vouchers processed through the MoveLINQ system are subject to 100%
+    pre-payment audit and review. Relocation periodically reconciles moveLINQ advances
+    (feeder) to Oracle (financial system) advances to ensure the two systems are in
+    sync. They validate W-2's to ensure estimated accruals reconcile to actual accruals
+    to verify the correct amount of taxes were deducted. Accruals are balanced by
+    accounting string under general ledger to ensure accruals collected were paid.
+    Relocation also balances moveLINQ to Oracle each tax period to ensure wages and
+    taxes reconcile between the two systems. They also verify outstanding balances
+    and billed amounts on obligations within the moveLINQ system reconciles to outstanding
+    balances and billed amounts in Oracle. These efforts confirm there are no duplicate
+    payments and taxes are collected and paid at the appropriate rate. Furthermore,
+    the Do Not Pay (DNP) portal implementation has provided a way for bureau's/office's
     procurement and payable offices to review vendor files prior to disbursement.
     It has also given them an opportunity to review the monthly payment file results
     to identify any improper payments made to a vendor in the DNP portal.
@@ -79,7 +79,7 @@ SurveyData:
   SortOrder: 1
   Subheading: ''
   Type: MILLIONS_OF_DOLLARS
-- Answer: '0.0'
+- Answer: '3.9292730844793717'
   Heading: Overpayment Amount Recovered
   Key: arp3_1
   SortOrder: 2
@@ -95,7 +95,13 @@ SurveyData:
   SortOrder: 3
   Subheading: ''
   Type: MILLIONS_OF_DOLLARS
-- Answer: '0.0'
+- Answer: '4.89'
+  Heading: Overpayment Amount Outstanding
+  Key: arp5
+  SortOrder: 4
+  Subheading: ''
+  Type: MILLIONS_OF_DOLLARS
+- Answer: '96.070726915520623'
   Heading: Overpayment Amount Outstanding
   Key: arp5_1
   SortOrder: 5
@@ -119,7 +125,7 @@ SurveyData:
   SortOrder: 8
   Subheading: ''
   Type: MILLIONS_OF_DOLLARS
-- Answer: '0.0'
+- Answer: '1.5717092337917489'
   Heading: Overpayment Amount Determined to Not Be Collectible
   Key: arp4_1
   SortOrder: 9
@@ -140,14 +146,14 @@ SurveyData:
   Type: TEXT
 - Answer: "Treasury has several Components that have approved justifications for the\
     \ determination that recovery auditing is not cost-effective for their programs.\
-    \ Majority of these justifications stated that \n\n?\tthese programs are consistently\
+    \ Majority of these justifications stated that these programs are consistently\
     \ determined to be low risk for significant improper payments through their improper\
-    \ payment risk assessments, \n?\tthese programs conduct recovery activities such\
-    \ as pre-payment and post-payment reviews, ongoing monitoring and enforcement,\
-    \ reviews of Single Audit Act reports, compliance testing procedures, and desk\
-    \ reviews, and \n?\tthe results of analyses determined that the employee/contractor\
-    \ costs to conduct recovery auditing outweighed the amount recovered.\n\nPer the\
-    \ Office of Management and Budget's (OMB) letter to the Treasury Assistant Secretary\
+    \ payment risk assessments. These programs conduct recovery activities such as\
+    \ pre-payment and post-payment reviews, ongoing monitoring and enforcement, reviews\
+    \ of Single Audit Act reports, compliance testing procedures, and desk reviews,\
+    \ and the results of analyses determined that the employee/contractor costs to\
+    \ conduct recovery auditing outweighed the amount recovered. \n\nPer the Office\
+    \ of Management and Budget's (OMB) letter to the Treasury Assistant Secretary\
     \ for Management, dated March 20, 2014, the Internal Revenue Service (IRS) custodial/bond\
     \ programs are exempt from recovery auditing. Treasury considers these payments\
     \ negative revenue receipts, not outlays, and thereby exempts them from improper\
@@ -162,7 +168,7 @@ SurveyData:
   SortOrder: 11
   Subheading: ''
   Type: TEXT
-SurveyName: Survey Responses
+SurveyName: Actions to Recover Report
 layout: congressional-reports
 permalink: /resources/congressional-reports/2025_TREASURY_5
 title: Agency Actions to Recover Improper Payments Identified in a Recovery Audit

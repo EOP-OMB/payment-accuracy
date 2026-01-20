@@ -40,31 +40,42 @@
 
                     <p class="subheading-text">Difference</p>
                     <p class="answer-text">{{ include.IPData.Stats.reduction_target_rate_prior_year | minus: include.IPData.Stats.unknown_and_improper_rate_current_year | round: 2 | thousands_separator }} %</p>
+                    <p class="explanatory-text">A negative difference indicates that collectively government agencies reported an estimate that was higher than their collective estimated reduction target for the current fiscal reporting year and a positive difference indicates that collectively government agencies reported an estimate that was lower than their collective estimated reduction target for the current fiscal reporting year.</p>
 
-                    <p class="heading-text">Governmentwide Summary of Actions Taken</p>
-                    <p class="subheading-text">Percent of time Automation was used during the fiscal reporting period to improve prevention of improper payments</p>
-                    <p class="answer-text">{{ include.IPData.Stats.response_rate_automation | round: 2 | thousands_separator }} %</p>
+                    {% unless include.IPData.Stats.response_rate_automation == 0 and include.IPData.Stats.response_rate_behavioral == 0 and include.IPData.Stats.response_rate_training == 0 and include.IPData.Stats.response_rate_change == 0 and include.IPData.Stats.response_rate_sharing == 0 and include.IPData.Stats.response_rate_audit == 0 and include.IPData.Stats.response_rate_analytics == 0  and include.IPData.Stats.response_rate_statutory == 0 %}
+                        <p class="heading-text">Governmentwide Summary of Actions Taken</p>
+                        <p class="subheading-text">Percent of time Automation was used during the fiscal reporting period to improve prevention of improper payments</p>
+                        <p class="answer-text">{{ include.IPData.Stats.response_rate_automation | round: 2 | thousands_separator }} %</p>
+                        <p class="explanatory-text">Automation [Automatically controlled operation, process, or system]</p>
 
-                    <p class="subheading-text">Percent of time Behavioral/Psychological Influence was used during the fiscal reporting period to improve prevention of improper payments</p>
-                    <p class="answer-text">{{ include.IPData.Stats.response_rate_behavioral | round: 2 | thousands_separator }} %</p>
+                        <p class="subheading-text">Percent of time Behavioral/Psychological Influence was used during the fiscal reporting period to improve prevention of improper payments</p>
+                        <p class="answer-text">{{ include.IPData.Stats.response_rate_behavioral | round: 2 | thousands_separator }} %</p>
+                        <p class="explanatory-text">Behavioral/Psychological Influence [Uses principles from the behavioral sciences such as psychology, neuroscience, and behavioral economics to understand how individuals absorb, process, and react to information and applies this to design practical policies and interventions]</p>
 
-                    <p class="subheading-text">Percent of time Training was used during the fiscal reporting period to improve prevention of improper payments</p>
-                    <p class="answer-text">{{ include.IPData.Stats.response_rate_training | round: 2 | thousands_separator }} %</p>
+                        <p class="subheading-text">Percent of time Training was used during the fiscal reporting period to improve prevention of improper payments</p>
+                        <p class="answer-text">{{ include.IPData.Stats.response_rate_training | round: 2 | thousands_separator }} %</p>
+                        <p class="explanatory-text">Training [Teaching a particular skill or type of behavior; refreshing on the proper processing methods]</p>
 
-                    <p class="subheading-text">Percent of time Change Process was used during the fiscal reporting period to improve prevention of improper payments</p>
-                    <p class="answer-text">{{ include.IPData.Stats.response_rate_change | round: 2 | thousands_separator }} %</p>
+                        <p class="subheading-text">Percent of time Change Process was used during the fiscal reporting period to improve prevention of improper payments</p>
+                        <p class="answer-text">{{ include.IPData.Stats.response_rate_change | round: 2 | thousands_separator }} %</p>
+                        <p class="explanatory-text">Change Process [Altering up updating a process or policy to prevent or correct error]</p>
 
-                    <p class="subheading-text">Percent of time Cross Enterprise Sharing was used during the fiscal reporting period to improve prevention of improper payments</p>
-                    <p class="answer-text">{{ include.IPData.Stats.response_rate_sharing | round: 2 | thousands_separator }} %</p>
+                        <p class="subheading-text">Percent of time Cross Enterprise Sharing was used during the fiscal reporting period to improve prevention of improper payments</p>
+                        <p class="answer-text">{{ include.IPData.Stats.response_rate_sharing | round: 2 | thousands_separator }} %</p>
+                        <p class="explanatory-text">Cross Enterprise Sharing [Sharing of documents, processes, and opportunities with intra-agency partners and stakeholder. Potentially managed through federated repositories and a registry to create a longitudinal connection to information used to mitigate Improper Payments]</p>
 
-                    <p class="subheading-text">Percent of time Audit was used during the fiscal reporting period to improve prevention of improper payments</p>
-                    <p class="answer-text">{{ include.IPData.Stats.response_rate_audit | round: 2 | thousands_separator }} %</p>
+                        <p class="subheading-text">Percent of time Audit was used during the fiscal reporting period to improve prevention of improper payments</p>
+                        <p class="answer-text">{{ include.IPData.Stats.response_rate_audit | round: 2 | thousands_separator }} %</p>
+                        <p class="explanatory-text">Audit [Process for assuring an organization's objectives of operational effectiveness, efficiency, reliable financial reporting, and compliance with laws, regulations and policies]</p>
 
-                    <p class="subheading-text">Percent of time Predictive Analytics was used during the fiscal reporting period to improve prevention of improper payments</p>
-                    <p class="answer-text">{{ include.IPData.Stats.response_rate_analytics | round: 2 | thousands_separator }} %</p>
+                        <p class="subheading-text">Percent of time Predictive Analytics was used during the fiscal reporting period to improve prevention of improper payments</p>
+                        <p class="answer-text">{{ include.IPData.Stats.response_rate_analytics | round: 2 | thousands_separator }} %</p>
+                        <p class="explanatory-text">Predictive Analytics [A data analytics technique used to prevent Improper Payments. It uses predictive capabilities to identify unobserved attributes that lead to suspicion of Improper Payments based on known Improper Payments]</p>
 
-                    <p class="subheading-text">Percent of time Statutory Change was used during the fiscal reporting period to improve prevention of improper payments</p>
-                    <p class="answer-text">{{ include.IPData.Stats.response_rate_statutory | round: 2 | thousands_separator }} %</p>
+                        <p class="subheading-text">Percent of time Statutory Change was used during the fiscal reporting period to improve prevention of improper payments</p>
+                        <p class="answer-text">{{ include.IPData.Stats.response_rate_statutory | round: 2 | thousands_separator }} %</p>
+                        <p class="explanatory-text">Statutory Change [Changes to statute that would change conditions giving rise to improper payments]</p>
+                    {% endunless %}
 
                     <p class="heading-text">Governmentwide Summary of Actions to Recover Improper Payments</p>
                     <p class="subheading-text">Governmentwide Overpayment Amount Identified For Recovery</p>

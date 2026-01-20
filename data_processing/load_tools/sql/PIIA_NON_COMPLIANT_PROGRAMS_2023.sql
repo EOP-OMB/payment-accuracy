@@ -10,7 +10,8 @@ SELECT
     [pcp8_2],
     [pcp9_2],
     [pcp10_2],
-    [pcp11_2]
+    [pcp11_2],
+    0 AS [Hide_Compliance_Section]
 FROM program_compliance
 WHERE [Agency] = ? AND [Fiscal_Year] = ?
 ORDER BY [Program_Name]

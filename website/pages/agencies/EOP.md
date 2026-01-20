@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Congressional Directives
 - Compliant_1A: true
   Compliant_1B: true
@@ -50,6 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: DFC NATIONAL COMMUNITY ANTIDRUG COALITION INSTITUTE
 - Compliant_1A: true
   Compliant_1B: true
@@ -62,6 +64,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Drug Court Training and Technical Assistance
 - Compliant_1A: true
   Compliant_1B: true
@@ -74,6 +77,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Drug-Free Communities Support Program - National Youth Leadership Initiative
 - Compliant_1A: true
   Compliant_1B: true
@@ -86,6 +90,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Model Acts Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -98,6 +103,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Office of National Drug Control Policy (ONDCP) - Anti-Doping Activities
 - Compliant_1A: true
   Compliant_1B: true
@@ -110,6 +116,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Office of National Drug Control Policy (ONDCP) - High Intensity Drug Trafficking
     Areas (HIDTA)
 - Compliant_1A: true
@@ -123,6 +130,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Research and Data Analysis
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'

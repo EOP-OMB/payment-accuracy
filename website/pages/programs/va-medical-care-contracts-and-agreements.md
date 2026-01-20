@@ -2,6 +2,75 @@
 Agency: VA
 Agency_Name: Department of Veterans Affairs
 Data_By_Year:
+- Agency_Needs_Satisfied: VA does not have additional program needs.
+  Confidence_Level: '>90%'
+  Corrective_Actions_Proportion: VA continues to prioritize and implement effective
+    corrective actions and mitigation strategies that reduce improper payments agency-wide.
+  End_Date: 09/2020
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Current_Year_Plus_1_Amount: 26.29
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0998983441
+  Improper_Payments_Rate: 3.1286373700000003
+  Insufficient_Documentation_to_Determine: 128.16
+  Is_Lowest_IP_And_Unknown_Rate: 'No'
+  Margin_of_Error: '5.92'
+  Non_Monetary_Loss_Amount: '19.49'
+  Outlays: 996.6
+  Outlays_Current_Year_Plus_1_Amount: 1052.57
+  Payment_Accuracy_Rate: 84.01163957455348
+  Program_Design_or_Structural_Issue: 19.49
+  Start_Date: 10/2019
+  Technical_IP_Amount: '19.49'
+  Unknown_Curent_Year_Plus_1_Amount: 78.86
+  Unknown_Payments_Rate: 12.859723058398554
+  Unknown_Why: VA had lacking or insufficient documentation to validate whether a
+    payment was proper or not.
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 8.7675
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 11.69
+    Financial: 2.9225
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '11.69'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: The Medical Care Contracts and Agreements program has not
     yet determined the tolerable rate. VA is working to determine all requirements
     for establishing a tolerable rate per Office of Management and Budget guidance
@@ -73,6 +142,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '3.75'
   Non_Monetary_Loss_Amount: '22.21'
+  Outlays: 1050.95
   Outlays_Current_Year_Plus_1_Amount: 1134.83
   Payment_Accuracy_Rate: 92.53151910176507
   Program_Additional_Information: The Medical Care Contracts and Agreements program
@@ -277,6 +347,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '1.96'
   Non_Monetary_Loss_Amount: '19.02'
+  Outlays: 1158.65
   Outlays_Current_Year_Plus_1_Amount: 1254.98
   Overpayment_Mitigations_Planned: Change Process
   Overpayment_Mitigations_Taken: Change Process, Training
@@ -573,6 +644,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '1.58'
   Non_Monetary_Loss_Amount: '0.48'
+  Outlays: 1236.77
   Outlays_Current_Year_Plus_1_Amount: 1308.65
   Overpayment_Mitigations_Planned: Training
   Overpayment_Mitigations_Taken: Change Process
@@ -828,6 +900,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 69.94
   Margin_of_Error: '2.88'
   Non_Monetary_Loss_Amount: '1.13'
+  Outlays: 1333.36
   Overpayment_Combined_Mitigations_Planned: Change Process, Training
   Overpayment_Combined_Mitigations_Taken: Training
   Payment_Accuracy_Rate: 93.62962740745185
@@ -914,17 +987,15 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 1333.36
-Overpayment_Amounts: '[5.34, 0.39, 0.65, 13.87]'
-Payment_Accuracy_Amounts: '[972.46, 1112.93, 1208.53, 1248.4199999999998]'
-Payment_Accuracy_Rate: 93.62962740745185
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[11.69, 5.34, 0.39, 0.65, 13.87]'
+Payment_Accuracy_Amounts: '[837.26, 972.46, 1112.93, 1208.53, 1248.4199999999998]'
 Phase_2_Program: 0
 Program_Name: Medical Care Contracts and Agreements
 Scorecard_Links: []
-Technically_Improper_Amounts: '[22.21, 19.02, 0.48, 1.13]'
-Underpayment_Amounts: '[0, 0, 0, 0]'
-Unknown_Amounts: '[50.94, 26.31, 27.11, 69.94]'
+Technically_Improper_Amounts: '[19.49, 22.21, 19.02, 0.48, 1.13]'
+Underpayment_Amounts: '[0, 0, 0, 0, 0]'
+Unknown_Amounts: '[128.16, 50.94, 26.31, 27.11, 69.94]'
 layout: program-specific
 permalink: program/va-medical-care-contracts-and-agreements
 ---

@@ -43,6 +43,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 7849.839278
   Outlays_Current_Year_Plus_1_Amount: 0
   Payment_Accuracy_Rate: 90.23750712772237
   Program_Additional_Information: The Economic Injury Disaster Loan Emergency Assistance
@@ -178,6 +179,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 74.53
   Outlays_Current_Year_Plus_1_Amount: 0
   Overpayment_Mitigations_Planned: Audit, Training
   Overpayment_Mitigations_Taken: Audit, Training
@@ -244,10 +246,8 @@ Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2022, 2023]'
-Outlays: 0
 Overpayment_Amounts: '[766.34, 5.07]'
 Payment_Accuracy_Amounts: '[7083.499278, 69.46000000000001]'
-Payment_Accuracy_Rate: 0
 Phase_2_Program: 0
 Program_Name: Economic Injury Disaster Loan Emergency Assistance (Advance)
 Scorecard_Links: []

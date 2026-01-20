@@ -2,6 +2,105 @@
 Agency: DOW
 Agency_Name: Department of War
 Data_By_Year:
+- Agency_Needs_Satisfied: "\"Internal Controls:\nThe Department has the internal controls\
+    \ in place to support the reduction of improper payments in the Commercial Pay\
+    \ program to the levels the Department has targeted.  However, a material weakness\
+    \ in Contract Administration related to improper payments was reported in FY 2021\
+    \ through the Risk Management/Internal Control Program.  Moreover, OUSD(C) provides\
+    \ ongoing oversight to ensure material weaknesses are resolved by their target\
+    \ dates and coordination continues between the Risk Management/Internal Control\
+    \ Program and the Payment Integrity Program to leverage best practices in internal\
+    \ controls.\n\nHuman Capital:\nThe Department has the human capital it needs to\
+    \ reduce improper payments in the Commercial Pay program to the levels the Department\
+    \ has targeted.  However, as the Commercial Pay program evolves and DoD operations\
+    \ change, additional skill sets and personnel resources may be needed to sustain\
+    \ and advance the program.\n\nInformation Systems and Other Infrastructure: \n\
+    The Department has the information systems and other infrastructure it needs to\
+    \ reduce improper payments in the Commercial Pay program to the levels the Department\
+    \ has targeted.  The Defense Finance and Accounting Service (DFAS) Contract Pay,\
+    \ received an unmodified System and Organizational Control (SOC) 1 Type 2 report\
+    \ under Statement on Standards for Attestation Engagements (SSAE) No. 18 in FY\
+    \ 2021.  The general and application controls of the Mechanization of Contract\
+    \ Administration Services System (which accounts for more than 50% of the outlays\
+    \ in the Commercial Pay program) were included in the scope of the DFAS Contract\
+    \ Pay SSAE No. 18 examination.  Additionally, Wide Area Workflow, which is used\
+    \ to support the initiation, receipt, and acceptance of electronic invoices submitted\
+    \ by DoD vendors, OnePay, DLA Defense Agencies Initiative (DAI), and the Integrated\
+    \ Accounts Payable System all received unmodified SOC 1 Type 2 reports under SSAE\
+    \ No. 18 in FY 2021.  And, the Computerized Accounts Payable System, DFAS DAI,\
+    \ and DCMA Contract Pay each received modified SOC 1 Type 2 reports under SSAE\
+    \ No. 18 in FY 2021.  Moreover, the Automated Disbursing System, the Centralized\
+    \ Disbursing System, and the Deployable Disbursing System, which are the primary\
+    \ disbursing systems for the Department, received an unmodified SOC 1 Type 2 report\
+    \ under SSAE No. 18 in FY 2021.  As technology advances, the Department continues\
+    \ to consider ways to improve the accuracy and efficiency of travel pay through\
+    \ implementation of new travel and entitlement processing systems and enhancements\
+    \ to existing systems.\n"
+  Confidence_Level: '>95%'
+  Corrective_Actions_Proportion: "In FY 2021, the Commercial Pay program estimated\
+    \ improper and unknown payments decreased, from $306.65 million in FY 2020 to\
+    \ $0.00 in FY 2021.  \n"
+  End_Date: 07/2021
+  Future_Outlook_Has_Baseline: 'No'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: true
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  Improper_Payments_Rate: 0
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '0.0'
+  Non_Monetary_Loss_Amount: '0.0'
+  Outlays: 412187.61
+  Payment_Accuracy_Rate: 100
+  Program_Design_or_Structural_Issue: 0.0
+  Start_Date: 10/2019
+  Technical_IP_Amount: '0.0'
+  Unknown_Payments_Rate: 0
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: "Internal Controls:\nThe Department has the internal controls\
     \ in place to support the reduction of improper payments in the Commercial Pay\
     \ program to the levels the Department has targeted.  However, a material weakness\
@@ -97,6 +196,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '0.01'
   Non_Monetary_Loss_Amount: '6.89'
+  Outlays: 389991.67
   Outlays_Current_Year_Plus_1_Amount: 416677.03
   Payment_Accuracy_Rate: 99.98269706632452
   Program_Additional_Information: The Department’s Commercial Pay Payment Integrity
@@ -343,6 +443,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '0.13'
   Non_Monetary_Loss_Amount: '121.77'
+  Outlays: 404721.17
   Outlays_Current_Year_Plus_1_Amount: 408768.38
   Overpayment_Mitigations_Planned: Change Process, Training
   Overpayment_Mitigations_Taken: Training
@@ -471,17 +572,15 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023]'
-Outlays: 0
-Overpayment_Amounts: '[16.63, 11.84]'
-Payment_Accuracy_Amounts: '[389924.18999999994, 404483.18999999994]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2021, 2022, 2023]'
+Overpayment_Amounts: '[0, 16.63, 11.84]'
+Payment_Accuracy_Amounts: '[412187.61, 389924.18999999994, 404483.18999999994]'
 Phase_2_Program: 0
 Program_Name: Commercial Pay
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 119.21]'
-Underpayment_Amounts: '[6.89, 2.56]'
-Unknown_Amounts: '[43.96, 104.37]'
+Technically_Improper_Amounts: '[0, 0, 119.21]'
+Underpayment_Amounts: '[0, 6.89, 2.56]'
+Unknown_Amounts: '[0, 43.96, 104.37]'
 layout: program-specific
 permalink: program/dow-commercial-pay
 ---

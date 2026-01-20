@@ -2,6 +2,76 @@
 Agency: HHS
 Agency_Name: Department of Health and Human Services
 Data_By_Year:
+- Agency_Needs_Satisfied: CCDF is a block grant that is administered by the states.
+    The reporting of national error and improper payment measures in the CCDF program
+    is based on state-specific policies. Each state has the flexibility to determine
+    the threshold at which an error resulted in an improper payment.  Since CCDF payments
+    occur at the state level, information systems and other infrastructure needed
+    to reduce CCDF improper payments need to be addressed at the state level. The
+    reported rate, which is well below the 10% threshold, is deemed tolerable.
+  Confidence_Level: '>95%'
+  Corrective_Actions_Proportion: 'HHS attributes the improper payment estimate decrease
+    to HHS’ successful multi-pronged approach to supporting states as they continue
+    to experience challenges in their efforts to comply with the CCDF reauthorization
+    and related regulations. HHS provided technical assistance while also allowing
+    needed flexibility due to the unprecedented circumstances of COVID-19.   '
+  End_Date: 09/2020
+  Future_Outlook_Has_Baseline: 'No'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: true
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Improper_Payments_Rate: 1.33056472
+  Insufficient_Documentation_to_Determine: 408.94
+  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
+  Margin_of_Error: '3.0'
+  Non_Monetary_Loss_Amount: '37.17'
+  Outlays: 13484.5
+  Payment_Accuracy_Rate: 95.63676814119916
+  Program_Design_or_Structural_Issue: 0.0
+  Start_Date: 10/2019
+  Technical_IP_Amount: '0.0'
+  Unknown_Payments_Rate: 3.0326671363417255
+  Unknown_Why: Missing or insufficient documentation in the case record
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 142.25
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '142.25'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 37.17
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '37.17'
 - Agency_Needs_Satisfied: 'The Child Care and Development Block Grant Act of 2014
     (CCDBG) and CCDF regulations (2016) required states to create and adopt new policies
     and procedures. State grantees have been implementing large-scale changes to their
@@ -65,6 +135,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '5.0'
   Non_Monetary_Loss_Amount: '23.13'
+  Outlays: 8699.1
   Outlays_Current_Year_Plus_1_Amount: 11635.5
   Payment_Accuracy_Rate: 96.03752112287478
   Program_Additional_Information: The Child Care and Development Fund (CCDF) program
@@ -224,6 +295,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '5.0'
   Non_Monetary_Loss_Amount: '17.91'
+  Outlays: 8699.1
   Outlays_Current_Year_Plus_1_Amount: 13691
   Payment_Accuracy_Rate: 96.4474485866354
   Program_Additional_Information: 'The Child Care and Development Fund program is
@@ -493,6 +565,7 @@ Data_By_Year:
     state.
   Margin_of_Error: '5.0'
   Non_Monetary_Loss_Amount: '67.45'
+  Outlays: 17096
   Outlays_Current_Year_Plus_1_Amount: 20255
   Payment_Accuracy_Rate: 95.0660973327094
   Program_Additional_Information: "The Child Care and Development Fund program is\
@@ -712,6 +785,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '5.0'
   Non_Monetary_Loss_Amount: '75.99'
+  Outlays: 18698.59
   Overpayment_Combined_Mitigations_Planned: Training
   Overpayment_Combined_Mitigations_Taken: Training
   Payment_Accuracy_Rate: 95.07203484326894
@@ -782,24 +856,36 @@ Data_By_Year:
     Failure_to_Access_Data: 75.99
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '75.99'
-Description: null
+Description: The Child Care and Development Fund program is a federally funded, state-administered
+  block grant program with each state having maximum flexibility in developing the
+  Child Care and Development Fund programs and policies that best suit the needs of
+  children and families within that state. States tailor their review of errors to
+  reflect the policies and procedures unique to their state and therefore, states
+  have varying requirements for establishing and verifying a client’s eligibility.
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 18698.59
-Overpayment_Amounts: '[91.04, 81.74, 776.05, 845.47]'
-Payment_Accuracy_Amounts: '[8354.4, 8390.060000000001, 16252.5, 17777.129999999997]'
-Payment_Accuracy_Rate: 95.07203484326894
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[142.25, 91.04, 81.74, 776.05, 845.47]'
+Payment_Accuracy_Amounts: '[12896.14, 8354.4, 8390.060000000001, 16252.5, 17777.129999999997]'
 Phase_2_Program: 0
 Program_Name: Administration for Children and Families (ACF) - Child Care and Development
   Fund
-Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[23.13, 17.91, 67.45, 75.99]'
-Unknown_Amounts: '[230.53, 209.39, 0, 0]'
+Scorecard_Links:
+- Link: assets/scorecards/Q1 2025/Administration for Children and Families (ACF) -
+    Child Care and Development Fund.pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q3 2025/Administration for Children and Families (ACF) -
+    Child Care and Development Fund.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/Administration for Children and Families (ACF) -
+    Child Care and Development Fund.pdf
+  QuarterYear: Q4 2025
+Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
+Underpayment_Amounts: '[37.17, 23.13, 17.91, 67.45, 75.99]'
+Unknown_Amounts: '[408.94, 230.53, 209.39, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/93.575
 layout: program-specific
 permalink: program/hhs-administration-for-children-and-families-acf-child-care--ceed93a7

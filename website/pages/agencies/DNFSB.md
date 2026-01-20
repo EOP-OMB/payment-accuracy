@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Salaries and Expenses (Direct)
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -47,7 +48,7 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Salaries and Expenses (Direct)
     Slug: null
@@ -78,6 +79,7 @@ detail_Additional_IP_Information: "At the conclusion of the Fiscal Year (FY) 202
   \ Interior Business Center (DOI/IBC) for accounting system support and accounts\
   \ payable processing.  The agency and DOI/IBC ensure all requirements for Payment\
   \ Integrity Information Act (PIIA) are properly documented and completed.\n"
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: "The implementation of the Do Not Pay (DNP) initiative is a\
   \ joint responsibility between DNFSB and the shared service provider, Department\
@@ -96,6 +98,7 @@ detail_DNP_Discussion: "The implementation of the Do Not Pay (DNP) initiative is
   \  \n"
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'DNFSB conducts periodic review of all programs and activities
   to identify those that may be susceptible to improper payments.  In Fiscal Year
   (FY) 2023, DNFSB performed a risk assessment of outlays exceeding $10 million, based
@@ -113,6 +116,7 @@ detail_Executive_Summary: 'DNFSB conducts periodic review of all programs and ac
 
   '
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
@@ -121,4 +125,5 @@ detail_Recovery_Not_Cost_Effective_Justification: null
 detail_Risks_Substantial_Changes_Made: null
 layout: agency-specific
 permalink: agency/DNFSB.html
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

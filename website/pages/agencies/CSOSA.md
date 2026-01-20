@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Community Supervision Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -50,6 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Pretrial Services Agency
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -59,56 +61,16 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2023
-    MethodologyChanged: 0
-    Program_Name: Accountability
-    Slug: null
-    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Community Supervision Program
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2023
-    MethodologyChanged: 0
-    Program_Name: Continued Pretrial Release
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2023
-    MethodologyChanged: 0
-    Program_Name: Fair Administration of Justice
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2023
-    MethodologyChanged: 0
-    Program_Name: Integration
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2023
-    MethodologyChanged: 0
-    Program_Name: Judicial Concurrence with PSA Recommendations
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2023
-    MethodologyChanged: 0
-    Program_Name: Maximize Court Appearance
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2023
-    MethodologyChanged: 0
-    Program_Name: Minimize Rearrest
-    Slug: null
-    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Pretrial Services Agency
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2023
-    MethodologyChanged: 0
-    Program_Name: Reduce Recidivism
-    Slug: null
-    Susceptible: 'No'
   SubstantialChangesMade: null
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
@@ -125,6 +87,7 @@ detail_Additional_IP_Information: Based on prior financial statement audits, a d
   of strong internal controls from CSOSA internal controls testing, and the results
   of CSOSA internal testing of its FY 2023 payment transactions, CSOSA believes that
   the CSP and PSA programs have low inherent risks of improper payment.
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: 'CSOSA and its financial system service provider, the Department
   of Interior-Interior Business Center (IBC), use the DNP Initiative to review payment
@@ -154,6 +117,7 @@ detail_DNP_Discussion: 'CSOSA and its financial system service provider, the Dep
   funds.'
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: CSOSA was compliant with the Payment Integrity Information
   Act of 2019 (PIIA). CSOSA maintains payment integrity through strong payment controls
   and continuous monitoring. CSOSA is in the third year of the assessment cycle.  CSOSA
@@ -164,6 +128,7 @@ detail_Executive_Summary: CSOSA was compliant with the Payment Integrity Informa
   during the most recent risk assessment.  Business processes have not changed during
   this cycle and the risk remains low.
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
@@ -180,4 +145,5 @@ detail_Recovery_Not_Cost_Effective_Justification: To employ one GS 12 FTE to per
 detail_Risks_Substantial_Changes_Made: null
 layout: agency-specific
 permalink: agency/CSOSA.html
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

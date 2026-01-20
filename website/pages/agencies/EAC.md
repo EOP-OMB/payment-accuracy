@@ -39,6 +39,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Election Security Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -51,6 +52,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Help America Vote Act Requirements Payments
 - Compliant_1A: true
   Compliant_1B: true
@@ -63,6 +65,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Help America Vote College Program
 Payment_Accuracy_Amounts: '[]'
 Payment_Accuracy_Rate_Max: 0
@@ -71,21 +74,11 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Election Assistance Commission
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Election Security Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Help America Vote Act (HAVA) Section 251 Repayment
-    Slug: null
-    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Help America Vote Act Requirements Payments
@@ -108,7 +101,9 @@ Years_Available:
 - 2024
 - 2023
 - 2022
+- 2021
 detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Non-Compliant
 detail_DNP_Discussion: EAC is serviced by BFS ARC Financial Management Services. ARC
   does continuous monitoring of the suppliers in the Oracle system and performs a
@@ -117,6 +112,7 @@ detail_DNP_Discussion: EAC is serviced by BFS ARC Financial Management Services.
   for review and deactivated immediately, so they cannot be used to pay future payments.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'The EAC maintains payment integrity through internal controls,
   annual recapture audits, post-payment audits, and a structured three-year risk assessment
   cycle. The agency has implemented such internal control and oversight mechanisms
@@ -138,6 +134,7 @@ detail_OIG_Recommendations: The EAC OIG determined that the EAC was not complian
   FY 2024 Annual Financial Report. The OIG also reviewed and confirmed that it is
   unlikely EAC reached the significant improper payment threshold in FY 2024 based
   on the payment recapture audit results performed by BFS.
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: Agency officials are expected to uphold the integrity of financial
   operations by ensuring full compliance with the Payment Integrity Information Act
   (PIIA). Their performance agreements include accountability through timely and accurate
@@ -156,4 +153,5 @@ detail_Recovery_Not_Cost_Effective_Justification: null
 detail_Risks_Substantial_Changes_Made: null
 layout: agency-specific
 permalink: agency/EAC.html
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

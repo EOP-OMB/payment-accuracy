@@ -15,6 +15,7 @@ WHERE [Fiscal_Year] = ? AND [Agency] = ? AND [Program_Name] IS NOT NULL AND
         'aging of outstanding op identified amt 6 months to 1 year',
         'aging of outstanding op identified determined not collectable',
         'total overpayment amount recovered',
-        'total overpayment amount identified'
+        'total overpayment amount identified',
+        'recovery audit amount outstanding rate'
     )
 GROUP BY [Agency], [Fiscal_Year], [key]

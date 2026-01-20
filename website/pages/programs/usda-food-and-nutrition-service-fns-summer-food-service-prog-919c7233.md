@@ -2,6 +2,82 @@
 Agency: USDA
 Agency_Name: Department of Agriculture
 Data_By_Year:
+- Agency_Needs_Satisfied: "While FNS has several internal controls in place to ensure\
+    \ program integrity in the SFSP, we do not have sufficient information at this\
+    \ time to know whether or to what extent we need to continue working to reduce\
+    \ IPs and Ups to the tolerable rate. \n"
+  Confidence_Level: '>90%'
+  Corrective_Actions_Proportion: 'FNS proposed a study to measure improper payments
+    in SFSP with data collection planned for summer 2020.  The COVID public health
+    emergency required FNS to postpone that effort and we expect that data collection
+    will take place in summer 2022. Further information is forthcoming.
+
+    '
+  End_Date: 01/2022
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Current_Year_Plus_1_Amount: 0
+  IP_Unknown_Current_Year_Plus_1_Rate: 0
+  Improper_Payments_Rate: 0
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '0.0'
+  Non_Monetary_Loss_Amount: '0.0'
+  Outlays: 4308.96
+  Outlays_Current_Year_Plus_1_Amount: 14200
+  Payment_Accuracy_Rate: 100
+  Program_Design_or_Structural_Issue: 0.0
+  Start_Date: 01/2022
+  Technical_IP_Amount: '0.0'
+  Unknown_Curent_Year_Plus_1_Amount: 0
+  Unknown_Payments_Rate: 0
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.0'
 - Hide_Improper_Payment_Estimates_Doughnut_Chart: true
   Hide_Improper_Payment_Estimates_Doughnut_Stats: true
   Hide_Overpayments_Outside_Control_Amount: true
@@ -32,6 +108,7 @@ Data_By_Year:
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
+  Outlays: 0
   Program_Additional_Information: "USDA Food and Nutrition Service (FNS) is committed\
     \ to ensuring integrity in the Summer Food Service Program (SFSP) to protect taxpayer\
     \ dollars and safeguard the meals that millions of children rely on every summer.\
@@ -122,6 +199,7 @@ Data_By_Year:
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 0
   Program_Additional_Information: 'The Summer Food Service Program (SFSP) is a USDA
     Food and Nutrition Service (FNS)-funded state administered program that provides
     free meals and snacks to children in low-income areas, or approved by application,
@@ -204,6 +282,7 @@ Data_By_Year:
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
+  Outlays: 0
   Program_Design_or_Structural_Issue: 0.0
   Year: 2024
   detail_No_Estimates_Why: The Food and Nutrition Service (FNS) is currently engaged
@@ -266,6 +345,7 @@ Data_By_Year:
   Hide_Underpayments_Failure_to_Access_Data: true
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
+  Outlays: 0
   Program_Additional_Information: 'The Summer Food Service Program (SFSP) is a USDA
     FNS-funded State administered program that provides free meals and snacks to children
     in low-income areas when school is not in session. At the local level, SFSP is
@@ -503,17 +583,15 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 0
-Overpayment_Amounts: '[0, 0, 0, 0]'
-Payment_Accuracy_Amounts: '[0, 0, 0, 0]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2021]'
+Overpayment_Amounts: '[0]'
+Payment_Accuracy_Amounts: '[4308.96]'
 Phase_2_Program: 0
 Program_Name: Food and Nutrition Service (FNS) Summer Food Service Program (SFSP)
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[0, 0, 0, 0]'
-Unknown_Amounts: '[0, 0, 0, 0]'
+Technically_Improper_Amounts: '[0]'
+Underpayment_Amounts: '[0]'
+Unknown_Amounts: '[0]'
 fpi_link: https://fpi.omb.gov/program/10.559
 layout: program-specific
 permalink: program/usda-food-and-nutrition-service-fns-summer-food-service-prog-919c7233

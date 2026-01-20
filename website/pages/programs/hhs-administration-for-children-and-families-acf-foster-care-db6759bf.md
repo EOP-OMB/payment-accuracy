@@ -32,6 +32,7 @@ Data_By_Year:
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
+  Outlays: 0
   Program_Additional_Information: "The Department of Health and Human Services (HHS)\
     \ did not report the IV-E Foster Care national improper payment rate for FYs 2021\
     \ and 2022 due to a lack of new data, stemming from the postponement of reviews\
@@ -145,6 +146,7 @@ Data_By_Year:
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 0
   Program_Additional_Information: "Since its initial baseline reporting in FY 2004,\
     \ HHS has continued to focus on identifying and reducing improper payments through\
     \ ongoing corrective actions, including on-site reviews, post-on-site review activities,\
@@ -378,6 +380,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '1.16'
+  Outlays: 1293
   Outlays_Current_Year_Plus_1_Amount: 1294
   Payment_Accuracy_Rate: 95.18020108275329
   Program_Additional_Information: "Since its initial baseline reporting in FY 2004,\
@@ -679,6 +682,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '1.7'
   Non_Monetary_Loss_Amount: '7.77'
+  Outlays: 1295
   Overpayment_Combined_Mitigations_Planned: Audit, Cross Enterprise Sharing, Training
   Overpayment_Combined_Mitigations_Taken: Audit, Cross Enterprise Sharing, Training
   Payment_Accuracy_Rate: 94.28030888030888
@@ -783,17 +787,15 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 1295
-Overpayment_Amounts: '[0, 0, 61.16, 66.3]'
-Payment_Accuracy_Amounts: '[0, 0, 1230.6799999999998, 1220.93]'
-Payment_Accuracy_Rate: 94.28030888030888
+Improper_Payments_Data_Years: '[2024, 2025]'
+Overpayment_Amounts: '[61.16, 66.3]'
+Payment_Accuracy_Amounts: '[1230.6799999999998, 1220.93]'
 Phase_2_Program: 0
 Program_Name: Administration for Children and Families (ACF) - Foster Care Title IV-E
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[0, 0, 1.16, 7.77]'
-Unknown_Amounts: '[0, 0, 0, 0]'
+Technically_Improper_Amounts: '[0, 0]'
+Underpayment_Amounts: '[1.16, 7.77]'
+Unknown_Amounts: '[0, 0]'
 fpi_link: https://fpi.omb.gov/program/93.658
 layout: program-specific
 permalink: program/hhs-administration-for-children-and-families-acf-foster-care-db6759bf

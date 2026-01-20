@@ -2,6 +2,90 @@
 Agency: ED
 Agency_Name: Department of Education
 Data_By_Year:
+- Agency_Needs_Satisfied: 'FSA has the internal controls, human capital, and information
+    systems and other infrastructure needed to reduce IPs and UPs to the tolerable
+    rate. However, FSA must also continue to rely on controls established by external
+    entities that receive funds and make payments on behalf of FSA for programs including
+    Pell Grants and Direct Loans.  These entities are outside of FSA’s operational
+    control.  FSA will continue to leverage data from program reviews and Single Audit
+    Act compliance audits to identify and address root causes of IPs and UPs made
+    by external entities; however, any requirements for additional monitoring and
+    sources of data would require additional resources. FSA will also continue to
+    pursue implementation of the FUTURE Act to improve verification of applicants’
+    and borrowers’ income data. '
+  Confidence_Level: '>95%'
+  Corrective_Actions_Proportion: To effectively prevent Pell Grant IPs and UPs from
+    occurring, FSA evaluates the root causes of IPs and UPs identified. This root
+    cause analysis is used to help formulate effective correction actions. FSA prioritizes
+    efforts to prevent IPs and UPs from occurring, such as implementation of the FUTURE
+    Act.  When evaluating corrective actions to address the underlying root causes
+    of Pell Grant IPs and UPs, FSA considers whether the corrective action being contemplated
+    aligns with the program mission. For corrective actions that are implemented,
+    FSA monitors the status of the corrective actions through quarterly outreach to
+    corrective action owners, and collects closure evidence to evaluate the effectiveness
+    and progress of each individual mitigation strategy which informs whether the
+    corrective action can be refined, intensified, expanded, or should be discontinued
+    or replaced.
+  End_Date: 09/2020
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 574.68
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0197999322
+  Improper_Payments_Rate: 1.95130845
+  Insufficient_Documentation_to_Determine: 8.36
+  Is_Lowest_IP_And_Unknown_Rate: 'No'
+  Margin_of_Error: '0.45'
+  Non_Monetary_Loss_Amount: '247.2'
+  Outlays: 26709.77
+  Outlays_Current_Year_Plus_1_Amount: 29490
+  Payment_Accuracy_Rate: 98.01739213778329
+  Program_Design_or_Structural_Issue: 97.32
+  Start_Date: 10/2019
+  Technical_IP_Amount: '97.32'
+  Unknown_Curent_Year_Plus_1_Amount: 9.22
+  Unknown_Payments_Rate: 0.031299408418717194
+  Unknown_Why: FSA is unable to discern whether these payments are proper or improper
+    due to insufficient documentation maintained by the related schools and/or their
+    auditors.
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 238.0
+    Financial: 207.06
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '238.0'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 35.99
+    Financial: 31.3113
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '35.99'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 149.88
+    Financial: 131.8944
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '149.88'
 - Agency_Needs_Satisfied: "FSA has the internal controls, human capital, and information\
     \ systems and other infrastructure needed to reduce IPs and UPs to the tolerable\
     \ rate. FSA continues to implement a multi-year corrective action plan to implement\
@@ -69,6 +153,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '1.17'
   Non_Monetary_Loss_Amount: '338.35'
+  Outlays: 26129.46
   Outlays_Current_Year_Plus_1_Amount: 25341
   Payment_Accuracy_Rate: 97.75735893508707
   Program_Additional_Information: 'The Department places a high value on maintaining
@@ -429,6 +514,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '1.06'
   Non_Monetary_Loss_Amount: '405.23'
+  Outlays: 28689.16
   Outlays_Current_Year_Plus_1_Amount: 25900
   Overpayment_Mitigations_Planned: Audit, Automation, Behavioral/Psych Influence,
     Change Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change,
@@ -1001,6 +1087,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '0.47'
   Non_Monetary_Loss_Amount: '402.96999999999997'
+  Outlays: 32995.74
   Outlays_Current_Year_Plus_1_Amount: 38297
   Overpayment_Mitigations_Planned: Audit, Automation, Behavioral/Psych Influence,
     Change Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change,
@@ -1315,6 +1402,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 5.91
   Margin_of_Error: '1.78'
   Non_Monetary_Loss_Amount: '83.00999999999999'
+  Outlays: 39934.4
   Overpayment_Combined_Mitigations_Planned: Audit, Behavioral/Psych Influence, Change
     Process, Cross Enterprise Sharing, Predictive Analytics, Training
   Overpayment_Combined_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence,
@@ -1411,7 +1499,7 @@ Data_By_Year:
     Failure_to_Access_Data: 6.13
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '6.13'
-Description: 'The Pell Grant program provides need-based grants to low-income undergraduate
+Description: The Pell Grant program provides need-based grants to low-income undergraduate
   and certain post baccalaureate students to promote access to postsecondary education.
   Root causes of Pell overpayments include incorrect calculation of Return of Title
   IV funds, failure to return unclaimed credit balances to the Department, and failure
@@ -1420,18 +1508,15 @@ Description: 'The Pell Grant program provides need-based grants to low-income un
   entity before reaching the ultimate beneficiary (student). The statute provides
   FSA authority to require the third-party to impose certain internal controls or
   mitigation strategies, and FSA exercises this authority.
-
-  '
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 39934.4
-Overpayment_Amounts: '[240.61, 403.92, 458.55, 337.67]'
-Payment_Accuracy_Amounts: '[25543.469999999998, 27876.86, 32123.589999999997, 39507.810000000005]'
-Payment_Accuracy_Rate: 98.93177310789694
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[273.99, 240.61, 403.92, 458.55, 337.67]'
+Payment_Accuracy_Amounts: '[26180.219999999998, 25543.469999999998, 27876.86, 32123.589999999997,
+  39507.810000000005]'
 Phase_2_Program: 0
 Program_Name: Federal Pell Grant Program
 Scorecard_Links:
@@ -1447,9 +1532,13 @@ Scorecard_Links:
   QuarterYear: Q1 2025
 - Link: assets/scorecards/Q2 2025/Federal Pell Grant Program.pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[190.86, 166.48, 131.14, 76.88]'
-Underpayment_Amounts: '[147.49, 238.75, 271.83, 6.13]'
-Unknown_Amounts: '[7.03, 3.15, 10.63, 5.91]'
+- Link: assets/scorecards/Q3 2025/Federal Pell Grant Program.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/Federal Pell Grant Program.pdf
+  QuarterYear: Q4 2025
+Technically_Improper_Amounts: '[97.32, 190.86, 166.48, 131.14, 76.88]'
+Underpayment_Amounts: '[149.88, 147.49, 238.75, 271.83, 6.13]'
+Unknown_Amounts: '[8.36, 7.03, 3.15, 10.63, 5.91]'
 fpi_link: https://fpi.omb.gov/program/84.063
 layout: program-specific
 permalink: program/ed-federal-pell-grant-program

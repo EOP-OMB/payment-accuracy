@@ -6,7 +6,8 @@ SELECT
     [Start_Date],
     [End_Date],
     [CY_Confidence_Level],
-    [CY_Margin_of_Error]
+    [CY_Margin_of_Error],
+    [Outlays]
 FROM all_programs_data_aggregation
 WHERE [Program_Name] = ? AND
     (

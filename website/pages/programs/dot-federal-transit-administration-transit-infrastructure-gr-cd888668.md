@@ -51,6 +51,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '2.28'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 13173.527
   Outlays_Current_Year_Plus_1_Amount: 20386
   Payment_Accuracy_Rate: 98.43169562714678
   Program_Additional_Information: FTA’s Transit Infrastructure Grants – COVID Relief
@@ -176,6 +177,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '3.88'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 24408.3837199
   Outlays_Current_Year_Plus_1_Amount: 11168
   Payment_Accuracy_Rate: 97.92529950933566
   Program_Additional_Information: FTA’s Transit Infrastructure Grants – COVID Relief
@@ -368,6 +370,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '2.73'
   Non_Monetary_Loss_Amount: '0.097751'
+  Outlays: 9747.282764
   Outlays_Current_Year_Plus_1_Amount: 4275
   Payment_Accuracy_Rate: 98.44459167061464
   Program_Additional_Information: FTA’s Transit Infrastructure Grants – COVID Relief
@@ -546,6 +549,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '0.27'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 5279.299601
   Overpayment_Combined_Mitigations_Planned: Training
   Overpayment_Combined_Mitigations_Taken: Training
   Payment_Accuracy_Rate: 99.84156493034766
@@ -620,21 +624,19 @@ Description: 'In response to the COVID-19 pandemic, FTA received three emergency
   to support the nation’s public transportation systems. The funding provided relief
   to transit agencies for ongoing operations rather than traditional capital investments.
   The primary root cause of the program’s improper payments is the timing when transit
-  operating expenses became eligible for reimbursement. The new eligibilities from
-  COVID relief funds did not align with the prior period accounting adjustments made
-  during the testing period such as: reimbursements, accruals, and payroll reversals.
-  FTA COVID relief funds are not administered at the Federal level and overpayments
-  are outside of FTA control when grant recipients make administrative errors.'
+  operating expenses became eligible for reimbursement. New COVID funding eligibilities
+  did not align with the prior period accounting adjustments made during the testing
+  period such as: employee benefits and direct costs calculations, accruals, and payroll
+  reversals. Funds are not administered at the Federal level and overpayments are
+  outside of FTA control when grant recipients make administrative errors.  '
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 5279.299601
 Overpayment_Amounts: '[206.601, 506.4008568, 151.512297, 8.364262]'
 Payment_Accuracy_Amounts: '[12966.926, 23901.982863100002, 9595.672716000001, 5270.935339]'
-Payment_Accuracy_Rate: 99.84156493034766
 Phase_2_Program: 0
 Program_Name: Federal Transit Administration Transit Infrastructure Grants - COVID
   Relief Funds
@@ -645,6 +647,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q2 2024/Federal Transit Administration Transit Infrastructure
     Grants - COVID Relief Funds.pdf
   QuarterYear: Q2 2024
+- Link: assets/scorecards/Q3 2024/Federal Transit Infrastructure Grants - COVID Relief
+    Funds.pdf
+  QuarterYear: Q3 2024
 - Link: assets/scorecards/Q4 2024/Federal Transit Administration Transit Infrastructure
     Grants - COVID Relief Funds.pdf
   QuarterYear: Q4 2024
@@ -654,6 +659,12 @@ Scorecard_Links:
 - Link: assets/scorecards/Q2 2025/Federal Transit Administration Transit Infrastructure
     Grants - COVID Relief Funds.pdf
   QuarterYear: Q2 2025
+- Link: assets/scorecards/Q3 2025/Federal Transit Administration Transit Infrastructure
+    Grants - COVID Relief Funds.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/Federal Transit Administration Transit Infrastructure
+    Grants - COVID Relief Funds.pdf
+  QuarterYear: Q4 2025
 Technically_Improper_Amounts: '[0, 0, 0, 0]'
 Underpayment_Amounts: '[0, 0, 0.097751, 0]'
 Unknown_Amounts: '[0, 0, 0, 0]'

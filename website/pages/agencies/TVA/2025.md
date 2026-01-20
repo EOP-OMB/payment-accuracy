@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Charge Card Program– Tennessee Valley Authority
 - Compliant_1A: true
   Compliant_1B: true
@@ -50,6 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Payroll Program – Tennessee Valley Authority
 - Compliant_1A: true
   Compliant_1B: true
@@ -62,6 +64,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Supply Chain
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -71,27 +74,17 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Charge Card Program - Tennessee Valley Authority
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Charge Card Program– Tennessee Valley Authority
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Payroll Program - Tennessee Valley Authority
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Payroll Program – Tennessee Valley Authority
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Supply Chain
     Slug: null
@@ -113,15 +106,24 @@ detail_Additional_IP_Information: Tennessee Valley Authority is subject to Sarba
   and Exchange Commission, and our external auditor provides an opinion on whether
   the financial statements are presented in conformity with U.S. GAAP.  Additionally,
   the Office of Inspector General audits the work of the external auditor.
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '0.02'
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: The Tennessee Valley Authority currently does not utilize the
   Do Not Pay Initiative as part of its processes.
 detail_DNP_Frequency_Identify: null
 detail_DNP_Reduced: null
+detail_Disposition_of_Funds: For the amounts originating from projects or accounts
+  that have since been closed, the funds have been returned to a Tennessee Valley
+  Authority Corporate Account. For amounts originating from fiscal year 2025, the
+  funds have been returned to the original project or account from which they came.
 detail_Executive_Summary: Consistent with the Payment Integrity Information Act of
   2019, the Tennessee Valley Authority has determined that none of its programs or
   activities are susceptible to significant improper payments.
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: The majority of the items were payments
+  on returned items or duplicate invoice submissions. There were also several items
+  where the agency was billed charges in error. Either refund checks were secured
+  or credit memos were entered to offset invoice payments.
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'Yes'
@@ -145,6 +147,7 @@ recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.52
 recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 0.93
 recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.51
 recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.9
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 2.1505376344
 recovery_Total_Overpayment_Amount_Identified: 1.45
 recovery_Total_Overpayment_Amount_Recovered: 1.41
 ---
