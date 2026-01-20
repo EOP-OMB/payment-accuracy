@@ -2,6 +2,73 @@
 Agency: USDA
 Agency_Name: Department of Agriculture
 Data_By_Year:
+- Agency_Needs_Satisfied: 'Risk Management Agency has achieved a tolerable rate.  The
+    agency continuously assesses internal controls, human capital, and information
+    systems to assure a tolerable rate can be maintained.  '
+  Confidence_Level: '>95%'
+  Corrective_Actions_Proportion: 'Risk Management Agency continues to maintain or
+    reduce the amount of improper payments which indicates the actions taken to reduce
+    improper payments is working. '
+  End_Date: 07/2019
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 205.5
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0209051365
+  Improper_Payments_Rate: 1.4149533
+  Insufficient_Documentation_to_Determine: 0.0
+  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
+  Margin_of_Error: '0.069'
+  Non_Monetary_Loss_Amount: '15.13'
+  Outlays: 11906.4
+  Outlays_Current_Year_Plus_1_Amount: 9830.12
+  Payment_Accuracy_Rate: 98.58504669757441
+  Program_Design_or_Structural_Issue: 0.0
+  Start_Date: 06/2018
+  Technical_IP_Amount: '0.0'
+  Unknown_Curent_Year_Plus_1_Amount: 0
+  Unknown_Payments_Rate: 0
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 43.46
+    Financial: 0.0
+    Inability_to_Access_Data: 109.88
+    Overpayments_Within_Control_Amount: '153.34'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 4.5
+    Financial: 0.0
+    Inability_to_Access_Data: 10.63
+    Underpayments_Amount: '15.13'
 - Agency_Needs_Satisfied: At this time, the agency has the necessary resources to
     reduce improper payments.  This assumes that the program remains at the current
     size.  If the program expands, additional resources may be necessary.
@@ -51,6 +118,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'Yes'
   Margin_of_Error: '2.5'
   Non_Monetary_Loss_Amount: '15.21'
+  Outlays: 11824.46
   Outlays_Current_Year_Plus_1_Amount: 10363.42
   Payment_Accuracy_Rate: 97.42356099136875
   Program_Design_or_Structural_Issue: 0.0
@@ -193,6 +261,7 @@ Data_By_Year:
     Insurance program the tolerable rate falls above the statutory threshold.
   Margin_of_Error: '2.5'
   Non_Monetary_Loss_Amount: '8.12'
+  Outlays: 14026.89
   Outlays_Current_Year_Plus_1_Amount: 12841
   Overpayment_Mitigations_Planned: Audit
   Overpayment_Mitigations_Taken: Audit
@@ -409,6 +478,7 @@ Data_By_Year:
     the tolerable rate falls above the statutory threshold.
   Margin_of_Error: '2.5'
   Non_Monetary_Loss_Amount: '5.43'
+  Outlays: 23867.31
   Outlays_Current_Year_Plus_1_Amount: 14877
   Payment_Accuracy_Rate: 97.57257939834862
   Program_Design_or_Structural_Issue: 0.0
@@ -584,6 +654,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '2.5'
   Non_Monetary_Loss_Amount: '396.5'
+  Outlays: 22925.06
   Overpayment_Combined_Mitigations_Planned: Change Process
   Overpayment_Combined_Mitigations_Taken: Audit
   Payment_Accuracy_Rate: 96.70652988476365
@@ -632,23 +703,50 @@ Data_By_Year:
     Failure_to_Access_Data: 382.34
     Inability_to_Access_Data: 14.16
     Underpayments_Amount: '396.5'
-Description: null
+Description: 'RMA administers the Federal Crop Insurance Program which provides crop
+  insurance to farmers and ranchers. Approved Insurance Providers (AIPs) sell and
+  service the policies through a partnership with RMA and share in the risk associated
+  with losses. RMA''s review of improper payments provides results data in which the
+  cause of improper payments (i.e., administrative, certification, process errors,
+  etc.) can be identified along with a means of reducing barriers that may prevent
+  payments from being proper. '
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 22925.06
-Overpayment_Amounts: '[289.44, 361.7, 573.93, 358.53]'
-Payment_Accuracy_Amounts: '[11519.81, 13657.069999999998, 23287.95, 22170.030000000002]'
-Payment_Accuracy_Rate: 96.70652988476365
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[153.34, 289.44, 361.7, 573.93, 358.53]'
+Payment_Accuracy_Amounts: '[11737.93, 11519.81, 13657.069999999998, 23287.95, 22170.030000000002]'
 Phase_2_Program: 0
 Program_Name: Federal Crop Insurance Corporation (FCIC)
-Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[15.21, 8.12, 5.43, 396.5]'
-Unknown_Amounts: '[0, 0, 0, 0]'
+Scorecard_Links:
+- Link: assets/scorecards/Q1 2024/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q1 2024
+- Link: assets/scorecards/Q2 2024/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q2 2024
+- Link: assets/scorecards/Q3 2024/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q3 2024
+- Link: assets/scorecards/Q4 2024/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q4 2024
+- Link: assets/scorecards/Q1 2025/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q2 2025/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q3 2025/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/Federal Crop Insurance Corporation (FCIC).pdf
+  QuarterYear: Q4 2025
+Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
+Underpayment_Amounts: '[15.13, 15.21, 8.12, 5.43, 396.5]'
+Unknown_Amounts: '[0, 0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/10.45
 layout: program-specific
 permalink: program/usda-federal-crop-insurance-corporation-fcic

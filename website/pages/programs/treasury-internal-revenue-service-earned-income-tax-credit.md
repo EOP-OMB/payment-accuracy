@@ -2,6 +2,116 @@
 Agency: TREASURY
 Agency_Name: Department of the Treasury
 Data_By_Year:
+- Agency_Needs_Satisfied: 'Not applicable.
+
+    '
+  Confidence_Level: '>95%'
+  Corrective_Actions_Proportion: The IRS runs various automated checks of certain
+    data on a tax return before payment of a refund but is otherwise limited in its
+    ability to question and correct the taxpayer’s claim. The IRS must deploy a variety
+    of costly enforcement tools, including audits, to verify the information on the
+    tax return and then prevent the payment of tax refunds or collect any tax due.
+    As a result, the IRS allocates a disproportionate amount of its enforcement resources
+    to audit returns that claim one or more RTCs. This creates several problems. Because
+    lower-income taxpayers make up the majority of those claiming RTCs, they are subjected
+    to a disproportionate number of audits (RTC claimants are audited at almost three
+    times the rate of other taxpayers.) Since lower-income taxpayers make up a significant
+    portion of taxpayers claiming RTCs, auditing these taxpayers can lead to a negative
+    perception of IRS’s treatment of taxpayers. This runs counter to the IRS’s mission
+    of fairness to all taxpayers.
+  End_Date: 12/2018
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Current_Year_Plus_1_Amount: 23055.12
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.2776118497
+  Improper_Payments_Rate: 27.76118503
+  Insufficient_Documentation_to_Determine: 0.0
+  Is_Lowest_IP_And_Unknown_Rate: 'No'
+  Margin_of_Error: '6.26'
+  Non_Monetary_Loss_Amount: '0.0'
+  Outlays: 68336.42
+  Outlays_Current_Year_Plus_1_Amount: 83048.04
+  Payment_Accuracy_Rate: 72.23881496865069
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: "The IRS has internal controls in place to verify eligibility\
+    \ when data is available.  Treasury and IRS analyses have consistently found that\
+    \ refundable tax credit (RTC) overclaims are largely attributable to the statutory\
+    \ design and complex eligibility requirements, and not rooted in internal control\
+    \ weaknesses, financial management deficiencies, or reporting failures.  Therefore,\
+    \ the IRS works with Treasury to develop legislative proposals that will improve\
+    \ RTC compliance and reduce erroneous payments. \n\nFor  FY 2021 , the Administration\
+    \ included the following proposals in its Budget submission:\n\nProvide the IRS\
+    \ with greater flexibility to address correctable errors: This proposal would\
+    \ have  expanded the instances in which the IRS could correct a taxpayer’s return\
+    \ including cases where: (1) the information provided by the taxpayer does not\
+    \ match the information contained in government databases or Form W-2, or from\
+    \ other third party databases as the Secretary of the Treasury determines by regulation;\
+    \ (2) the taxpayer has exceeded the lifetime limit for claiming a deduction or\
+    \ credit; or (3) the taxpayer has failed to include with his or her return certain\
+    \ documentation that is required to be included on or attached to the return.\
+    \ This proposal would make it easier for the IRS to correct obvious taxpayer errors,\
+    \ directly improving tax compliance and reducing EITC and other RTC overclaims.\n\
+    \nIncrease Oversight of Paid Tax Return Preparers: This proposal would have explicitly\
+    \ provided that the Secretary of the Treasury have the authority to regulate all\
+    \ paid tax return preparers. This would promote high-quality services from paid\
+    \ tax preparers, decrease collection costs, increase revenues, and increase confidence\
+    \ in the tax system.\n\nFor  FY 2022 , the Administration again included in its\
+    \ Budget submission increased oversight of paid tax return preparers as a proposal,\
+    \ as well as the following additional proposal:\n\nIncrease penalties on ghost\
+    \ preparers: The proposal would increase the penalty amount to the greater of\
+    \ $500 per return or 100 percent of the income derived per return by a ghost preparer.\
+    \ The proposal would also increase the limitations period during which the penalty\
+    \ may be assessed from three years to six years.  The proposal would be effective\
+    \ for returns required to be filed after December 31, 2021.\n\n"
+  Start_Date: 01/2018
+  Technical_IP_Amount: '0.0'
+  Unknown_Curent_Year_Plus_1_Amount: 0
+  Unknown_Payments_Rate: 0
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 17832.74
+    Failure_to_Access_Data: 0.0
+    Financial: 6131.4272
+    Inability_to_Access_Data: 1138.26
+    Overpayments_Outside_Control_Amount: '18971.0'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: To reduce overclaim rates to less than 10 percent, to meet
     Payment Integrity Information Act (PIIA) compliance standards, the IRS estimated,
     in a Fiscal Year 2021 study, that it would need additional or reallocated resources
@@ -95,6 +205,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '5.83'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 57522.82
   Outlays_Current_Year_Plus_1_Amount: 66471.41
   Payment_Accuracy_Rate: 68.40000194705337
   Program_Design_or_Structural_Issue: 0.0
@@ -270,6 +381,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '6.11'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 65375.28
   Outlays_Current_Year_Plus_1_Amount: 60540.89
   Payment_Accuracy_Rate: 66.52999421187948
   Program_Design_or_Structural_Issue: 0.0
@@ -604,6 +716,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '4.35'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 58436.98
   Outlays_Current_Year_Plus_1_Amount: 64667.57
   Payment_Accuracy_Rate: 72.71999682392897
   Program_Design_or_Structural_Issue: 0.0
@@ -882,6 +995,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '3.92'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 64676.8
   Overpayment_Combined_Mitigations_Planned: Change Process, Cross Enterprise Sharing
   Overpayment_Combined_Mitigations_Taken: Change Process, Cross Enterprise Sharing
   Payment_Accuracy_Rate: 67.30540162778615
@@ -957,27 +1071,26 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
 Description: 'The Earned Income Tax Credit (EITC) is a refundable tax credit for working
-  families with low to moderate incomes.  Approximately $14.99B of overpayments are
-  from the inability to authenticate qualifying child eligibility requirements and
-  misreported taxpayer income.  Authentication is difficult because the IRS relies
-  primarily on the self-reported information from the taxpayers and there is a lack
-  of internal or external databases available with information that would help the
-  IRS determine eligibility.  Approximately $0.96B of EITC overclaims are from program
-  design limitations. Barriers caused by program design occur when information needed
-  to confirm payment accuracy is not available at the time the return is processed.  '
+  families with low to moderate incomes.  $19.88B of overpayments are from the inability
+  to authenticate qualifying child eligibility requirements and misreported taxpayer
+  income.  Authentication is complex because the IRS relies primarily on the self-reported
+  information from the taxpayers and there is a lack of internal or external databases
+  available with information that would help the IRS determine eligibility.  $1.27B
+  of EITC overclaims are due to the lack of validation data needed to confirm payment
+  accuracy at the time the tax return is processed.   '
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 64676.8
-Overpayment_Amounts: '[18177.21, 21881.11, 15941.61, 21145.82]'
-Payment_Accuracy_Amounts: '[39345.61, 43494.17, 42495.37, 43530.98]'
-Payment_Accuracy_Rate: 67.30540162778615
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[18971, 18177.21, 21881.11, 15941.61, 21145.82]'
+Payment_Accuracy_Amounts: '[49365.42, 39345.61, 43494.17, 42495.37, 43530.98]'
 Phase_2_Program: 0
 Program_Name: Internal Revenue Service - Earned Income Tax Credit
 Scorecard_Links:
+- Link: assets/scorecards/Q1 2024/Internal Revenue Service- Earned Income Tax Credit.pdf
+  QuarterYear: Q1 2024
 - Link: assets/scorecards/Q2 2024/Internal Revenue Service - Earned Income Tax Credit.pdf
   QuarterYear: Q2 2024
 - Link: assets/scorecards/Q3 2024/Internal Revenue Service - Earned Income Tax Credit.pdf
@@ -988,9 +1101,13 @@ Scorecard_Links:
   QuarterYear: Q1 2025
 - Link: assets/scorecards/Q2 2025/Internal Revenue Service - Earned Income Tax Credit.pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[0, 0, 0, 0]'
-Unknown_Amounts: '[0, 0, 0, 0]'
+- Link: assets/scorecards/Q3 2025/Internal Revenue Service - Earned Income Tax Credit.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/Internal Revenue Service - Earned Income Tax Credit.pdf
+  QuarterYear: Q4 2025
+Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
+Underpayment_Amounts: '[0, 0, 0, 0, 0]'
+Unknown_Amounts: '[0, 0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/TC.163
 layout: program-specific
 permalink: program/treasury-internal-revenue-service-earned-income-tax-credit

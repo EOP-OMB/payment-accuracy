@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Appalachian Area Development
 - Compliant_1A: true
   Compliant_1B: true
@@ -50,6 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Appalachian Development Highway System
 - Compliant_1A: true
   Compliant_1B: true
@@ -62,6 +64,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Appalachian Local Development District Assistance
 - Compliant_1A: true
   Compliant_1B: true
@@ -74,6 +77,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Appalachian Regional Development
 - Compliant_1A: true
   Compliant_1B: true
@@ -86,6 +90,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Appalachian Research, Technical Assistance, and Demonstration Projects
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'

@@ -2,6 +2,94 @@
 Agency: DOL
 Agency_Name: Department of Labor
 Data_By_Year:
+- Agency_Needs_Satisfied: 'The program has staff responsible for reducing and establishing
+    and maintaining sufficient internal controls towards the reduction of IPs. The
+    program utilizes the Integrated Federal Employees Compensation System (iFECS)
+    to administer the program. iFECS is a major application that provides a case management
+    system to support core business functions and includes three sub-components, the
+    Agency Query System (AQS), the Claimant Query System (CQS) and the Employees''
+    Compensation Operations and Management Portal (ECOMP). iFECS was established to
+    provide FECA with an automated case management system. The system provides data
+    processing, financial and program management, as well as decision support functionalities
+    to authorized users. iFECS maintains an automated record of all claims filed,
+    adjudicatory statuses and benefits paid and denied. Data on entitlement and benefits
+    payment status maintained on iFECS is available in accordance with the Privacy
+    Act to authorized claimants, authorized representatives, and authorized user organizations
+    verbally via telephone and in paper/electronic formats.
+
+    '
+  Confidence_Level: '>90%'
+  Corrective_Actions_Proportion: "The program implemented new operational and performance\
+    \ plans which include requirements  to measure and accountability review of payments\
+    \ will assist in identifying individual employee is training needs to help them\
+    \ improve payment accuracy where needed. The program continues to expand innovative\
+    \ learning processes with resource modules, video, and simulations for policy\
+    \ and procedures to prevent IPs. \n"
+  End_Date: 06/2021
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 93
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0318333333
+  Improper_Payments_Rate: 2.69540036
+  Insufficient_Documentation_to_Determine: 2.54
+  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
+  Margin_of_Error: '2.0'
+  Non_Monetary_Loss_Amount: '15.71'
+  Outlays: 2938.71
+  Outlays_Current_Year_Plus_1_Amount: 3000
+  Payment_Accuracy_Rate: 97.21816715497617
+  Program_Design_or_Structural_Issue: 0.28
+  Start_Date: 07/2020
+  Technical_IP_Amount: '0.28'
+  Unknown_Curent_Year_Plus_1_Amount: 2.5
+  Unknown_Payments_Rate: 0.0864324822796397
+  Unknown_Why: "The program is unable to discern whether the payment was proper or\
+    \ improper as a result of insufficient documentation or discrepancies involving\
+    \ various elements of payments. The beneficiaries employing Federal agency, is\
+    \ required to provide all salary information when a claim for wage-loss is submitted.\
+    \ In most instances, the information provided by the Federal employing agency\
+    \ is incomplete or inaccurate. This highlights the ongoing challenges facing the\
+    \ program’s payment process, namely reliance on reporting by other Federal agencies\
+    \ to provide accurate information. \n"
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 4.78
+    Overpayments_Within_Control_Amount: '4.78'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 41.32
+    Data_Needed_Does_Not_Exist: 41.32
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 17.4
+    Overpayments_Outside_Control_Amount: '58.72'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 15.43
+    Underpayments_Amount: '15.43'
 - Agency_Needs_Satisfied: The agency has sufficient resources to reduce improper and
     unknown payments.  There is sufficient staff to conduct the necessary audits and
     reviews as well as the necessary infrastructure to update information systems.  Additionally,
@@ -68,6 +156,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '2.5'
   Non_Monetary_Loss_Amount: '11.47'
+  Outlays: 2923.31
   Outlays_Current_Year_Plus_1_Amount: 3100
   Payment_Accuracy_Rate: 96.86246070379124
   Program_Design_or_Structural_Issue: 3.93
@@ -223,6 +312,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '2.5'
   Non_Monetary_Loss_Amount: '16.22'
+  Outlays: 3263.28
   Outlays_Current_Year_Plus_1_Amount: 3500
   Overpayment_Mitigations_Planned: Training
   Overpayment_Mitigations_Taken: Training
@@ -439,6 +529,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '2.5'
   Non_Monetary_Loss_Amount: '9.77'
+  Outlays: 3625.11
   Outlays_Current_Year_Plus_1_Amount: 3987.5
   Overpayment_Mitigations_Planned: Training
   Overpayment_Mitigations_Taken: Training
@@ -616,6 +707,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '2.5'
   Non_Monetary_Loss_Amount: '9.6'
+  Outlays: 3954.92
   Overpayment_Combined_Mitigations_Planned: Training
   Overpayment_Combined_Mitigations_Taken: Training
   Payment_Accuracy_Rate: 97.22497547358734
@@ -630,7 +722,21 @@ Data_By_Year:
   Underpayment_Mitigations_Taken: Training
   Unknown_Payments_Rate: 0
   Year: 2025
-  detail_IP_Causes: null
+  detail_IP_Causes: "The program’s improper and unknown payments are broken down into\
+    \ 3 categories; medical payments; compensation payments and rolling 3-year average\
+    \ of adjudicated fraud.\n\nThe program utilizes a medical bill pay contractor\
+    \ to process claims for reimbursement for services. The bill pay system is automated\
+    \ and coded to process reimbursements based on inputs from providers and staff,\
+    \ which may include miss keyed data elements.  \nCompensation payments determined\
+    \ to be improper, or unknown are caused by a lack of available data to support\
+    \ dependency and marital status determinations.  Another cause is the program’s\
+    \ inability to access payrate information from payroll service providers and benefit\
+    \ payments being made by other federal agencies.\n\nAdjudicated fraud is determined\
+    \ by the courts, and the program has no control over the amount of restitution\
+    \ awarded each year.  However, the program’s Program Integrity Unit (PIU) plays\
+    \ an integral role in identifying fraud through different types of audit procedures\
+    \ and collaborates with the OIG community and Department of Justice to pursue\
+    \ civil and criminal charges, whenever appropriate."
   detail_No_Estimates_Why: null
   detail_Overpayments_Due_To_Data_DNE: '89.34'
   detail_Overpayments_Due_To_Failure: '2.49'
@@ -663,17 +769,16 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 3954.92
-Overpayment_Amounts: '[76.99, 63.26, 75.14, 100.15]'
-Payment_Accuracy_Amounts: '[2831.59, 3183.7999999999997, 3540.2000000000003, 3845.17]'
-Payment_Accuracy_Rate: 97.22497547358734
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[63.5, 76.99, 63.26, 75.14, 100.15]'
+Payment_Accuracy_Amounts: '[2856.96, 2831.59, 3183.7999999999997, 3540.2000000000003,
+  3845.17]'
 Phase_2_Program: 0
 Program_Name: Office of Workers' Compensation - Federal Employees' Compensation Act
 Scorecard_Links: []
-Technically_Improper_Amounts: '[3.93, 5.01, 7, 0]'
-Underpayment_Amounts: '[7.54, 11.21, 2.77, 9.6]'
-Unknown_Amounts: '[3.26, 0, 0, 0]'
+Technically_Improper_Amounts: '[0.28, 3.93, 5.01, 7, 0]'
+Underpayment_Amounts: '[15.43, 7.54, 11.21, 2.77, 9.6]'
+Unknown_Amounts: '[2.54, 3.26, 0, 0, 0]'
 layout: program-specific
 permalink: program/dol-office-of-workers-compensation-federal-employees-compens-3801803f
 ---

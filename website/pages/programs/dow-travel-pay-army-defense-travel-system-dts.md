@@ -175,6 +175,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '0.7'
   Non_Monetary_Loss_Amount: '103.22'
+  Outlays: 2190.85
   Outlays_Current_Year_Plus_1_Amount: 2212.75
   Overpayment_Mitigations_Planned: Training
   Overpayment_Mitigations_Taken: Training
@@ -576,6 +577,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 125.81
   Margin_of_Error: '1.25'
   Non_Monetary_Loss_Amount: '105.03'
+  Outlays: 2533.2
   Overpayment_Combined_Mitigations_Planned: Audit, Change Process, Training
   Overpayment_Combined_Mitigations_Taken: Audit, Training
   Payment_Accuracy_Rate: 88.76638244118111
@@ -666,10 +668,8 @@ Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2024, 2025]'
-Outlays: 2533.2
 Overpayment_Amounts: '[48.05, 53.73]'
 Payment_Accuracy_Amounts: '[2002.6599999999996, 2248.63]'
-Payment_Accuracy_Rate: 88.76638244118111
 Phase_2_Program: 0
 Program_Name: Travel Pay Army – Defense Travel System (DTS)
 Scorecard_Links: []

@@ -90,6 +90,15 @@ def test_eligibility_themes_descriptions_file(mock_csv_data, in_memory_db):
     assert list(df.columns) == ["theme","description"]
     assert len(df) == 2
 
+def test_fy25_risks_file(mock_csv_data, in_memory_db):
+    transform.FY25_RISKS_PATH = mock_csv_data["FY25_RISKS_PATH"]
+    transform.load_fy25_risks_file(in_memory_db)
+
+    df = pd.read_sql("SELECT * FROM fy25_risks", in_memory_db)
+    assert not df.empty
+    assert list(df.columns) == ["Agency","Fiscal_Year","Program_Name","Fiscal_Year_Last_Conducted","Susceptible"]
+    assert len(df) == 2
+
 def test_risks_file(mock_csv_data, in_memory_db):
     transform.RISKS_PATH = mock_csv_data["RISKS_PATH"]
     transform.load_risks_file(in_memory_db)
@@ -163,16 +172,6 @@ def test_load_fpi_mapping_files(mock_csv_data, in_memory_db):
     df = pd.read_sql("SELECT * FROM program_to_aln", in_memory_db)
     assert not df.empty
     assert list(df.columns) == ["Agency","Program Name","Assistance Listing Number"]
-
-    assert len(df) == 2
-
-def test_active_program_files(mock_csv_data, in_memory_db):
-    transform.ACTIVE_PROGRAMS_PATH = mock_csv_data["ACTIVE_PROGRAMS_PATH"]
-    transform.load_active_programs(in_memory_db)
-
-    df = pd.read_sql("SELECT * FROM active_programs", in_memory_db)
-    assert not df.empty
-    assert list(df.columns) == ["agency","Program Name","Fiscal_Year"]
 
     assert len(df) == 2
 

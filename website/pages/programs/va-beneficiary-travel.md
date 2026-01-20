@@ -2,6 +2,79 @@
 Agency: VA
 Agency_Name: Department of Veterans Affairs
 Data_By_Year:
+- Agency_Needs_Satisfied: VA does not have additional program needs.
+  Confidence_Level: '>90%'
+  Corrective_Actions_Proportion: VA continues to prioritize and implement effective
+    corrective actions and mitigation strategies that reduce improper payments agency-wide
+    as evidenced by its third consecutive and largest year of reductions. Specifically,
+    from FY20 to FY21, the Beneficiary Travel program decreased its error rate from
+    16.42 percent to 13.93 percent (2.49% reduction) and improper payments from $167.59
+    million to $123.06 million ($44.53 million reduction).
+  End_Date: 09/2020
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 93.93
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0999002912
+  Improper_Payments_Rate: 9.77324443
+  Insufficient_Documentation_to_Determine: 36.73
+  Is_Lowest_IP_And_Unknown_Rate: 'No'
+  Margin_of_Error: '3.72'
+  Non_Monetary_Loss_Amount: '5.58'
+  Outlays: 883.33
+  Outlays_Current_Year_Plus_1_Amount: 1253.65
+  Payment_Accuracy_Rate: 86.06862667406293
+  Program_Design_or_Structural_Issue: 5.02
+  Start_Date: 10/2019
+  Technical_IP_Amount: '5.02'
+  Unknown_Curent_Year_Plus_1_Amount: 31.31
+  Unknown_Payments_Rate: 4.1581288985996165
+  Unknown_Why: 'VA had lacking or insufficient documentation to validate whether a
+    payment was proper or not.
+
+
+    '
+  Year: 2021
+  overpayments:
+    Address_Location: 18.5725
+    Contractor_Provider_Status: 10.4975
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 80.75
+    Financial: 51.68
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '80.75'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.56
+    Financial: 0.56
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.56'
 - Agency_Needs_Satisfied: VA has not yet determined the tolerable rate. VA is working
     to determine all requirements for establishing a tolerable rate per Office of
     Management and Budget guidance before attempting to establish tolerable rates.  At
@@ -70,6 +143,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '2.94'
   Non_Monetary_Loss_Amount: '16.56'
+  Outlays: 1253.65
   Outlays_Current_Year_Plus_1_Amount: 1703.71
   Payment_Accuracy_Rate: 92.09667770111275
   Program_Additional_Information: The Beneficiary Travel program continues to prioritize
@@ -262,6 +336,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '2.33'
   Non_Monetary_Loss_Amount: '14.42'
+  Outlays: 1757.32
   Outlays_Current_Year_Plus_1_Amount: 1793.62
   Overpayment_Mitigations_Planned: Automation
   Overpayment_Mitigations_Taken: Automation
@@ -632,6 +707,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '2.41'
   Non_Monetary_Loss_Amount: '45.81999999999999'
+  Outlays: 1849.1
   Outlays_Current_Year_Plus_1_Amount: 2003.28
   Overpayment_Mitigations_Planned: Automation
   Overpayment_Mitigations_Taken: Automation
@@ -917,6 +993,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 33.44
   Margin_of_Error: '2.44'
   Non_Monetary_Loss_Amount: '25.85'
+  Outlays: 2053.35
   Overpayment_Combined_Mitigations_Planned: Automation, Change Process
   Overpayment_Combined_Mitigations_Taken: Automation
   Payment_Accuracy_Rate: 92.4182433584143
@@ -1005,17 +1082,16 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 2053.35
-Overpayment_Amounts: '[58.48, 88.5, 86.22, 96.39]'
-Payment_Accuracy_Amounts: '[1154.5700000000002, 1637.3700000000001, 1699.53, 1897.6699999999998]'
-Payment_Accuracy_Rate: 92.4182433584143
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[80.75, 58.48, 88.5, 86.22, 96.39]'
+Payment_Accuracy_Amounts: '[760.2700000000001, 1154.5700000000002, 1637.3700000000001,
+  1699.53, 1897.6699999999998]'
 Phase_2_Program: 0
 Program_Name: Beneficiary Travel
 Scorecard_Links: []
-Technically_Improper_Amounts: '[16.09, 13.86, 42.23, 25.32]'
-Underpayment_Amounts: '[0.47, 0.56, 3.59, 0.53]'
-Unknown_Amounts: '[24.04, 17.03, 17.53, 33.44]'
+Technically_Improper_Amounts: '[5.02, 16.09, 13.86, 42.23, 25.32]'
+Underpayment_Amounts: '[0.56, 0.47, 0.56, 3.59, 0.53]'
+Unknown_Amounts: '[36.73, 24.04, 17.03, 17.53, 33.44]'
 layout: program-specific
 permalink: program/va-beneficiary-travel
 ---

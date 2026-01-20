@@ -17,13 +17,13 @@ Hide_Risk_Assessment_Results: false
 Hide_Sparklines: false
 Hide_Supplemental_Info: false
 Hide_Supplemental_Payment_Integrity: false
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Improper_Payments_Rate_Max: 9.3
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Improper_Payments_Rate_Max: 14.8
 Improper_Payments_Rate_Min: 1.1
-Improper_Payments_Rates: '[9.31375359168507, 8.255243566527207, 4.544850192912027,
-  1.0863038171874477]'
+Improper_Payments_Rates: '[14.75398740065911, 9.31375359168507, 8.255243566527207,
+  4.544850192912027, 1.0863038171874477]'
 Is_Placeholder: false
-Overpayment_Amounts: '[1397.01, 1789.02, 1107.44, 1493.45]'
+Overpayment_Amounts: '[1971.57, 1397.01, 1789.02, 1107.44, 1493.45]'
 Overpayment_Amounts_Identified: '[2522.2842902, 1781.03, 2526.85, 1556.85, 2114.44]'
 Overpayment_Amounts_Recovered: '[1463.06253577, 1090.15344751, 642.18, 878.05, 1000.42]'
 Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
@@ -39,6 +39,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Activities with Other Federal Agencies
 - Compliant_1A: true
   Compliant_1B: true
@@ -51,6 +52,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Automobile Adaptive Equipment
 - Compliant_1A: true
   Compliant_1B: true
@@ -63,6 +65,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Beneficiary Travel
   Slug: va-beneficiary-travel
 - Compliant_1A: true
@@ -76,6 +79,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: COVID-19 Office of Information & Technology
 - Compliant_1A: true
   Compliant_1B: true
@@ -88,6 +92,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: COVID-19 VA Wide Payroll
 - Compliant_1A: true
   Compliant_1B: true
@@ -100,6 +105,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: COVID-19 VA Wide Travel
 - Compliant_1A: true
   Compliant_1B: true
@@ -112,6 +118,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: COVID-19 Veterans Benefits Administration (VBA) General Operating Expense
 - Compliant_1A: true
   Compliant_1B: true
@@ -124,6 +131,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: COVID-19 Veterans Health Administration (VHA) Supplemental Disbursements
 - Compliant_1A: true
   Compliant_1B: true
@@ -136,6 +144,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Camp Lejeune Health Care Benefits
 - Compliant_1A: true
   Compliant_1B: true
@@ -148,6 +157,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Canteen Service
 - Compliant_1A: true
   Compliant_1B: true
@@ -160,6 +170,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Caregiver Support
 - Compliant_1A: true
   Compliant_1B: true
@@ -172,6 +183,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Civilian Health and Medical Program of the VA (CHAMPVA)
 - Compliant_1A: true
   Compliant_1B: true
@@ -184,6 +196,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Clothing Allowance
 - Compliant_1A: true
   Compliant_1B: true
@@ -196,6 +209,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Communications, Utilities, and Other Rent
   Slug: va-communications-utilities-and-other-rent
 - Compliant_1A: true
@@ -209,6 +223,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Compensated Work Therapy
 - Compliant_1A: true
   Compliant_1B: true
@@ -221,6 +236,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Compensation
   Slug: va-compensation
 - Compliant_1A: true
@@ -234,6 +250,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Dependency and Indemnity Compensation
 - Compliant_1A: true
   Compliant_1B: true
@@ -246,6 +263,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: DoD/VA Joint Incentive Fund
 - Compliant_1A: true
   Compliant_1B: true
@@ -258,6 +276,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Education Service (Chapter 1606)
 - Compliant_1A: true
   Compliant_1B: true
@@ -270,6 +289,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Education Service (Chapter 1607)
 - Compliant_1A: true
   Compliant_1B: true
@@ -282,6 +302,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Education Service (Chapter 33)
 - Compliant_1A: true
   Compliant_1B: true
@@ -294,6 +315,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Education Service (State Approving Agencies)
 - Compliant_1A: true
   Compliant_1B: true
@@ -306,6 +328,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Education Service Survivor and Dependents Education Assistance (Chapter 35)
 - Compliant_1A: true
   Compliant_1B: true
@@ -318,6 +341,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Equal Access to Justice Act
 - Compliant_1A: true
   Compliant_1B: true
@@ -330,6 +354,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Equipment
 - Compliant_1A: true
   Compliant_1B: true
@@ -342,6 +367,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Facility Maintenance and Operations
 - Compliant_1A: true
   Compliant_1B: true
@@ -354,6 +380,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Foreign Medical Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -366,6 +393,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Franchise Fund
 - Compliant_1A: true
   Compliant_1B: true
@@ -378,6 +406,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: General Post Fund
 - Compliant_1A: true
   Compliant_1B: true
@@ -390,6 +419,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Grants (Construction of State Extended Care Facilities)
 - Compliant_1A: true
   Compliant_1B: true
@@ -402,6 +432,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Grants (Highly Rural Transportation)
 - Compliant_1A: true
   Compliant_1B: true
@@ -414,6 +445,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Grants (Homeless Per Diem)
 - Compliant_1A: true
   Compliant_1B: true
@@ -426,6 +458,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Grants (Suicide Prevention Grant Program)
 - Compliant_1A: true
   Compliant_1B: true
@@ -438,6 +471,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Grants (Support Services for Veteran Families)
 - Compliant_1A: true
   Compliant_1B: true
@@ -450,6 +484,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Healthcare for Homeless Veterans
 - Compliant_1A: true
   Compliant_1B: true
@@ -462,6 +497,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Housing Program Fund
 - Compliant_1A: true
   Compliant_1B: true
@@ -474,6 +510,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Indian Health Services/Tribal Health Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -486,6 +523,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Land and Structures
 - Compliant_1A: true
   Compliant_1B: true
@@ -498,6 +536,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Loan Guaranty (Direct Loans)
 - Compliant_1A: true
   Compliant_1B: true
@@ -510,6 +549,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Loan Guaranty (Loan Administration)
 - Compliant_1A: true
   Compliant_1B: true
@@ -522,6 +562,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Loan Guaranty (Loan Production)
 - Compliant_1A: true
   Compliant_1B: true
@@ -534,6 +575,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Loan Guaranty (Loan Sales)
 - Compliant_1A: true
   Compliant_1B: true
@@ -546,6 +588,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Loan Guaranty (Property Management)
 - Compliant_1A: true
   Compliant_1B: true
@@ -558,6 +601,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Medical Care Contracts and Agreements
   Slug: va-medical-care-contracts-and-agreements
 - Compliant_1A: true
@@ -571,6 +615,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Medical and Prosthetic Research
 - Compliant_1A: true
   Compliant_1B: true
@@ -583,6 +628,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Montgomery GI Bill (Chapter 30)
 - Compliant_1A: true
   Compliant_1B: true
@@ -595,6 +641,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: National Cemetery Administration (NCA) Burial
 - Compliant_1A: true
   Compliant_1B: true
@@ -607,6 +654,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: National Service Life Insurance
 - Compliant_1A: true
   Compliant_1B: true
@@ -619,6 +667,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: National Veterans Sports Programs & Special Events
 - Compliant_1A: true
   Compliant_1B: true
@@ -631,6 +680,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Native American Direct Loan (NADL) Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -643,6 +693,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Non-Medical Contracts and Agreements
 - Compliant_1A: true
   Compliant_1B: true
@@ -655,6 +706,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Office of Acquisition, Logistics and Construction (Major/Minor Construction)
 - Compliant_1A: true
   Compliant_1B: true
@@ -667,6 +719,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Office of Information & Technology
 - Compliant_1A: true
   Compliant_1B: true
@@ -679,6 +732,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Office of Inspector General - Department of Veterans Affairs
 - Compliant_1A: true
   Compliant_1B: true
@@ -691,6 +745,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Other Contracts, Services, Agreements, and Miscellaneous
 - Compliant_1A: true
   Compliant_1B: true
@@ -703,6 +758,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Pharmacy (Consolidated Mail Outpatient Pharmacies)
 - Compliant_1A: true
   Compliant_1B: true
@@ -715,6 +771,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Pharmacy (Medical Facilities)
 - Compliant_1A: true
   Compliant_1B: true
@@ -727,6 +784,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Post Vietnam Era Education
 - Compliant_1A: true
   Compliant_1B: true
@@ -739,6 +797,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Professional Services Contracts
 - Compliant_1A: true
   Compliant_1B: true
@@ -751,6 +810,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Prosthetics
 - Compliant_1A: true
   Compliant_1B: true
@@ -763,6 +823,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: SAH Tech Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -775,6 +836,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Service-Disabled Veterans Insurance
 - Compliant_1A: true
   Compliant_1B: true
@@ -787,6 +849,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Servicemembers' Group Life Insurance
 - Compliant_1A: true
   Compliant_1B: true
@@ -799,6 +862,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Shared Services
 - Compliant_1A: true
   Compliant_1B: true
@@ -811,6 +875,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Specially Adaptive Housing
 - Compliant_1A: true
   Compliant_1B: true
@@ -823,6 +888,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Spina Bifida Health Care
 - Compliant_1A: true
   Compliant_1B: true
@@ -835,6 +901,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: State Home Per Diem
 - Compliant_1A: true
   Compliant_1B: true
@@ -847,6 +914,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Station 101 Accounting
 - Compliant_1A: true
   Compliant_1B: true
@@ -859,6 +927,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Supplies and Materials
   Slug: va-supplies-and-materials
 - Compliant_1A: true
@@ -872,6 +941,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Supply Fund
 - Compliant_1A: true
   Compliant_1B: true
@@ -884,6 +954,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: The Filipino Veteran Equity Compensation
 - Compliant_1A: true
   Compliant_1B: true
@@ -896,6 +967,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Transportation of Things
 - Compliant_1A: true
   Compliant_1B: true
@@ -908,6 +980,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: United States Government Life Insurance
 - Compliant_1A: true
   Compliant_1B: true
@@ -920,6 +993,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: VA Community Care
   Slug: va-va-community-care
 - Compliant_1A: true
@@ -933,6 +1007,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: VA Wide Payroll
 - Compliant_1A: true
   Compliant_1B: true
@@ -945,6 +1020,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: VA Wide Travel
 - Compliant_1A: true
   Compliant_1B: true
@@ -957,6 +1033,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: VRE Loan Program Fund
 - Compliant_1A: true
   Compliant_1B: true
@@ -969,6 +1046,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Veteran Rapid Retraining Assistance Program (VRRAP)
 - Compliant_1A: true
   Compliant_1B: true
@@ -981,6 +1059,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Veteran Readiness and Employment
 - Compliant_1A: true
   Compliant_1B: true
@@ -993,6 +1072,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Veterans Affairs Life Insurance
 - Compliant_1A: true
   Compliant_1B: true
@@ -1005,6 +1085,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Veterans Benefits Administration (VBA) Automobile Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -1017,6 +1098,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Veterans Benefits Administration (VBA) Burial
 - Compliant_1A: true
   Compliant_1B: true
@@ -1029,6 +1111,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Veterans Benefits Administration (VBA) General Operating Expense
 - Compliant_1A: true
   Compliant_1B: true
@@ -1041,6 +1124,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Veterans Benefits Administration (VBA) Spina Bifida (Chapter 18)
 - Compliant_1A: true
   Compliant_1B: true
@@ -1053,6 +1137,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Veterans Health Administration (VHA) Information Technology Services
 - Compliant_1A: true
   Compliant_1B: true
@@ -1065,6 +1150,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Veterans Health Administration (VHA) Insurance Claims and Interest Expense
 - Compliant_1A: true
   Compliant_1B: true
@@ -1077,6 +1163,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Veterans Insurance and Indemnities
 - Compliant_1A: true
   Compliant_1B: true
@@ -1089,6 +1176,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Veterans Reopened Insurance
 - Compliant_1A: true
   Compliant_1B: true
@@ -1101,6 +1189,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Veterans Special Life Insurance
 PIIA2019_NonCompliant_Programs:
 - Compliant_1A: true
@@ -1114,6 +1203,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Pension
   Slug: va-pension
 - Compliant_1A: true
@@ -1127,78 +1217,33 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Purchased Long Term Services and Supports
   Slug: va-purchased-long-term-services-and-supports
-Payment_Accuracy_Amounts: '[28216.71799897, 32866.39000000001, 38296.979999999996,
+Payment_Accuracy_Amounts: '[23398.46, 28216.71799897, 32866.39000000001, 38296.979999999996,
   197180.91999999998]'
 Payment_Accuracy_Rate_Max: 98.0
-Payment_Accuracy_Rate_Min: 89.0
-Payment_Accuracy_Rates: '[88.9655620315956, 91.21381540148062, 94.64447939454391,
-  98.04969631488416]'
+Payment_Accuracy_Rate_Min: 82.1
+Payment_Accuracy_Rates: '[82.05900290346666, 88.9655620315956, 91.21381540148062,
+  94.64447939454391, 98.04969631488416]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Activities with Other Federal Agencies
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
-    MethodologyChanged: 0
-    Program_Name: Alcohol and Drug Treatment Rehabilitation
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Automobile Adaptive Equipment
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Beneficiary Travel
     Slug: va-beneficiary-travel
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Burial Flags
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2023
-    MethodologyChanged: 0
-    Program_Name: COVID-19 Office of Information & Technology
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: COVID-19 Office of Inspector General
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: COVID-19 Station 101 Accounting
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2022
-    MethodologyChanged: 0
-    Program_Name: COVID-19 VA Wide Payroll
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: COVID-19 VA Wide Travel
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2023
-    MethodologyChanged: 0
-    Program_Name: COVID-19 Veterans Benefits Administration (VBA) General Operating
-      Expense
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
-    MethodologyChanged: 0
-    Program_Name: COVID-19 Veterans Health Administration (VHA) Supplemental Disbursements
-    Slug: null
-    Susceptible: 'No'
+    Susceptible: 'Yes'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Camp Lejeune Health Care Benefits
@@ -1209,37 +1254,63 @@ Risks:
     Program_Name: Canteen Service
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Caregiver Support
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Civilian Health and Medical Program of the VA (CHAMPVA)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Clothing Allowance
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Communications, Utilities, and Other Rent
     Slug: va-communications-utilities-and-other-rent
-    Susceptible: null
-  - Fiscal_Year: 2025
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Compensated Work Therapy
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Compensation
     Slug: va-compensation
     Susceptible: 'Yes'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
+    MethodologyChanged: 0
+    Program_Name: COVID-19 Office of Information & Technology
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2022'
+    MethodologyChanged: 0
+    Program_Name: COVID-19 VA Wide Payroll
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: COVID-19 VA Wide Travel
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2023'
+    MethodologyChanged: 0
+    Program_Name: COVID-19 Veterans Benefits Administration (VBA) General Operating
+      Expense
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: COVID-19 Veterans Health Administration (VHA) Supplemental Disbursements
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Dependency and Indemnity Compensation
     Slug: null
@@ -1249,22 +1320,7 @@ Risks:
     Program_Name: DoD/VA Joint Incentive Fund
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: DoD/VA Joint Incentive fund
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Education (Chapter 1607)
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2021
-    MethodologyChanged: 0
-    Program_Name: Education (Reporting Fees)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Education Service (Chapter 1606)
     Slug: null
@@ -1274,53 +1330,53 @@ Risks:
     Program_Name: Education Service (Chapter 1607)
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Education Service (Chapter 33)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Education Service (State Approving Agencies)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Education Service Survivor and Dependents Education Assistance (Chapter
       35)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Equal Access to Justice Act
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Equipment
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Facility Maintenance and Operations
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Foreign Medical Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Franchise Fund
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: General Post Fund
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Grants (Construction of State Extended Care Facilities)
     Slug: null
@@ -1330,22 +1386,22 @@ Risks:
     Program_Name: Grants (Highly Rural Transportation)
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Grants (Homeless Per Diem)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Grants (Suicide Prevention Grant Program)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Grants (Support Services for Veteran Families)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Healthcare for Homeless Veterans
     Slug: null
@@ -1355,27 +1411,27 @@ Risks:
     Program_Name: Housing Program Fund
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Indian Health Services/Tribal Health Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Land and Structures
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Loan Guaranty (Direct Loans)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Loan Guaranty (Loan Administration)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Loan Guaranty (Loan Production)
     Slug: null
@@ -1385,42 +1441,37 @@ Risks:
     Program_Name: Loan Guaranty (Loan Sales)
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Loan Guaranty (Property Management)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Medical Care Contracts and Agreements
-    Slug: va-medical-care-contracts-and-agreements
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Medical Exam Pilot Program
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Medical and Prosthetic Research
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Medical Care Contracts and Agreements
+    Slug: va-medical-care-contracts-and-agreements
+    Susceptible: 'Yes'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Montgomery GI Bill (Chapter 30)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: National Cemetery Administration (NCA) Burial
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: National Service Life Insurance
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: National Veterans Sports Programs & Special Events
     Slug: null
@@ -1430,57 +1481,42 @@ Risks:
     Program_Name: Native American Direct Loan (NADL) Program
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Non-Medical Contracts and Agreements
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: OBRA (VBA/IT)
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2024
-    MethodologyChanged: 0
-    Program_Name: Off-Station Provider Services
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Office of Acquisition, Logistics and Construction (Major/Minor Construction)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Office of Information & Technology
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Office of Inspector General
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Office of Inspector General - Department of Veterans Affairs
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Other Contracts, Services, Agreements, and Miscellaneous
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Pension
     Slug: va-pension
-    Susceptible: null
-  - Fiscal_Year: 2025
+    Susceptible: 'Yes'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Pharmacy (Consolidated Mail Outpatient Pharmacies)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Pharmacy (Medical Facilities)
     Slug: null
@@ -1490,82 +1526,67 @@ Risks:
     Program_Name: Post Vietnam Era Education
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Printing and Reproduction
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Professional Services Contracts
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Prosthetics
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Purchased Long Term Services and Supports
     Slug: va-purchased-long-term-services-and-supports
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Reimbursement (GOE/IT/VHA
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Restored Entitlement Program for Survivors
-    Slug: null
-    Susceptible: null
+    Susceptible: 'Yes'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: SAH Tech Grants
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Service-Disabled Veterans Insurance
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Servicemembers' Group Life Insurance
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Shared Services
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Specially Adaptive Housing
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Spina Bifida Health Care
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: State Home Per Diem
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Station 101 Accounting
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Supplies and Materials
     Slug: va-supplies-and-materials
-    Susceptible: null
-  - Fiscal_Year: 2025
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Supply Fund
     Slug: null
@@ -1575,7 +1596,7 @@ Risks:
     Program_Name: The Filipino Veteran Equity Compensation
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Transportation of Things
     Slug: null
@@ -1585,37 +1606,27 @@ Risks:
     Program_Name: United States Government Life Insurance
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: VA Community Care
     Slug: va-va-community-care
-    Susceptible: null
-  - Fiscal_Year: 2025
+    Susceptible: 'Yes'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: VA Wide Payroll
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: VA Wide Travel
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: VHA Disaster Relief Funding
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: VRE Loan Program Fund
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Veteran Rapid Retraining Assistance Program (VRRAP)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Veteran Readiness and Employment
     Slug: null
@@ -1625,86 +1636,71 @@ Risks:
     Program_Name: Veterans Affairs Life Insurance
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2020
+  - Fiscal_Year: '2020'
     MethodologyChanged: 0
     Program_Name: Veterans Benefits Administration (VBA) Automobile Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Veterans Benefits Administration (VBA) Burial
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Veterans Benefits Administration (VBA) General Operating Expense
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Veterans Benefits Administration (VBA) Spina Bifida (Chapter 18)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
-    MethodologyChanged: 0
-    Program_Name: Veterans Health Administration (VHA) Disaster Relief Funding
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2021
-    MethodologyChanged: 0
-    Program_Name: Veterans Health Administration (VHA) Disaster Relief Funding (Hurricane
-      Sandy)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Veterans Health Administration (VHA) Information Technology Services
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Veterans Health Administration (VHA) Insurance Claims and Interest
       Expense
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Veterans Insurance and Indemnities
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Veterans Readiness and Employment (Contract Counseling)
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2021
+  - Fiscal_Year: '2021'
     MethodologyChanged: 0
     Program_Name: Veterans Reopened Insurance
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Veterans Retraining and Assistance Program
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Veterans Special Life Insurance
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: VRE Loan Program Fund
+    Slug: null
+    Susceptible: null
   SubstantialChangesMade: 'No'
-Technically_Improper_Amounts: '[1555.25, 1176.5, 698.9399999999999, 249.13]'
-Underpayment_Amounts: '[1.73200103, 9.030000000000001, 32.65, 442.01000000000005]'
-Unknown_Amounts: '[545.74, 191.31, 328.03, 1737.53]'
-Unknown_Payments_Rate_Max: 1.7
+Technically_Improper_Amounts: '[2032.03, 1555.25, 1176.5, 698.9399999999999, 249.13]'
+Underpayment_Amounts: '[203.38, 1.73200103, 9.030000000000001, 32.65, 442.01000000000005]'
+Unknown_Amounts: '[908.75, 545.74, 191.31, 328.03, 1737.53]'
+Unknown_Payments_Rate_Max: 3.2
 Unknown_Payments_Rate_Min: 0.5
-Unknown_Payments_Rates: '[1.7206843767193365, 0.5309410319921737, 0.8106704125440761,
-  0.8639998679284012]'
+Unknown_Payments_Rates: '[3.18700969587423, 1.7206843767193365, 0.5309410319921737,
+  0.8106704125440761, 0.8639998679284012]'
 Years_Available:
 - 2025
 - 2024
 - 2023
 - 2022
+- 2021
 detail_Additional_IP_Information: "VA has invested in payment integrity efforts, where\
   \ appropriate, to prevent improper payments from occurring. This is evidenced by\
   \ VA’s continued progress in reducing overall improper and unknown payment percentages\
@@ -1826,6 +1822,7 @@ detail_Additional_IP_Information: "VA has invested in payment integrity efforts,
   \ is educating providers on the lifecycle of a claim with guidance on preventing\
   \ coding rejects. Community care providers falling under the VA Community Care are\
   \ the target audience."
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '5.56'
 detail_Compliance_Status: Non-Compliant
 detail_DNP_Discussion: "In FY 2025, VA performed a full assessment of its use of the\
   \ Treasury Working System in response to EO 14249: Protecting America’s Bank Account\
@@ -1855,6 +1852,22 @@ detail_DNP_Discussion: "In FY 2025, VA performed a full assessment of its use of
   \ available from TWS on the results of single search and continuous monitoring."
 detail_DNP_Frequency_Identify: Annually
 detail_DNP_Reduced: 'No'
+detail_Disposition_of_Funds: "VA determined the distribution of overpayments recovered\
+  \ through a recovery audit in accordance with disposition requirements. More details\
+  \ on these are provided below:\nVeterans Health Administration \nFor the VA Community\
+  \ Care and the Purchased Long Term Services and Supports programs, after reimbursement\
+  \ of actual expenses incurred, 25% of the amounts collected are in process of being\
+  \ converted to a Financial Management Improvement Program, 25% remain in the original\
+  \ purpose and are unused, 5% of the amounts collected are in process of being sent\
+  \ to OIG for PIIA related requirements, and 45% were deposited into Fund 3200 -\
+  \ receivables from canceled accounts which are returned to Treasury. While overpayments\
+  \ have been identified for the Civilian Health and Medical Program of the Department\
+  \ of Veterans Affairs program in the current reporting period, funds are pending\
+  \ recovery. Therefore, amounts recovered have not been allocated.\nOffice of Revolving\
+  \ Funds \nThe amounts recovered through recovery audits are effectively utilized\
+  \ by the VA Supply Fund as outlined in 38 U.S. Code 8121 - Revolving Supply Fund.\
+  \  These recovered funds are predominantly reinvested into various initiatives that\
+  \ aim to bolster the efficiency of supply chain management and procurement processes."
 detail_Executive_Summary: "In FY 2025, VA is reporting under a 10% error rate for\
   \ all programs for the first time since FY 2014. VA is also pleased to announce\
   \ that the Supplies and Materials (SM) program is reporting under statutory thresholds\
@@ -1991,6 +2004,31 @@ detail_OIG_Recommendations: 'In May 2025, the VA Office of Inspector General fou
   requiring manual validation to an automated claims adjudication system, resolving
   contracting errors involving missing signatures and working to reconcile procurement
   vendors to invoice vendors.'
+detail_Overpayment_Conditions_And_Methods: "VA utilizes various methods to identify\
+  \ and recover overpayments. At VA, these audits are performed in two major areas:\
+  \ Veterans Health Administration for several unique programs providing health care\
+  \ and Supply Fund payments in the Office of Revolving Fund. These are discussed\
+  \ in more detail below. \nVeterans Health Administration \nThe Veterans Health Administration\
+  \ utilizes a recovery audit contract, which will audit claims for the Civilian Health\
+  \ and Medical Program of the Department of Veterans Affairs, VA Community Care,\
+  \ and Purchased Long Term Services and Supports programs. All three programs were\
+  \ tested to ensure the reimbursement was based on the appropriate methodology and\
+  \ that the medical records support the diagnostic related group billed for the services.\
+  \ \nOverpayments identified are often due to improper billing/coding by the provider.\
+  \ Specifically, the medical record did not substantiate the services billed or the\
+  \ coding was not accurate based on a review of documents. Solutions to resolve these\
+  \ conditions are being proposed but will not be implemented until FY 2026. The identified\
+  \ overpayments resulted in re-adjudication of the original payments in the claims\
+  \ processing system, leading to bills of collections being issued to the community\
+  \ care providers. \nOffice of Revolving Funds \nThe Office of Revolving Funds collaborates\
+  \ with the Office of Inspector General to perform recovery audits on VA's Supply\
+  \ Fund program. Overpayments identified are mostly due to non-compliance with contract\
+  \ billing requirements on federal supply schedule contracts. These conditions are\
+  \ being resolved by education provided by the Office of Inspector General to non-conforming\
+  \ vendors. The Office of Inspector General identifies an overpayment and a bill\
+  \ of collection is then prepared by the Office of Revolving Funds with appropriate\
+  \ terms of collection. If the vendor chooses to dispute the bill of collection Veterans\
+  \ Affairs will work towards appropriate resolution."
 detail_PIIA_Incentives: "The Pension program was determined noncompliant with PIIA\
   \ for FY 2024 by the OIG in May 2025. However, the program is reporting improper\
   \ and unknown payments below 10% in FY 2025. VA anticipates the OIG will determine\
@@ -2059,6 +2097,7 @@ recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 2079.43
 recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 35.01
 recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 970.47
 recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 29.95
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 15.8811768066
 recovery_Total_Overpayment_Amount_Identified: 2114.44
 recovery_Total_Overpayment_Amount_Recovered: 1000.42
 ---

@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Benefit Payments
 - Compliant_1A: true
   Compliant_1B: true
@@ -50,6 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Contractor Payments
 - Compliant_1A: true
   Compliant_1B: true
@@ -62,6 +64,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Multiemployer Financial Assistance Payments
 - Compliant_1A: true
   Compliant_1B: true
@@ -74,6 +77,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Multiemployer Special Financial Assistance Payments
 - Compliant_1A: true
   Compliant_1B: true
@@ -86,6 +90,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Payments to Federal Employees
 - Compliant_1A: true
   Compliant_1B: true
@@ -98,6 +103,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Pension Plan Termination Insurance
 - Compliant_1A: true
   Compliant_1B: true
@@ -110,6 +116,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Premium Refunds
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -119,27 +126,27 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Benefit Payments
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Contractor Payments
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Multiemployer Financial Assistance Payments
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Multiemployer Special Financial Assistance Payments
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Payments to Federal Employees
     Slug: null
@@ -149,7 +156,7 @@ Risks:
     Program_Name: Pension Plan Termination Insurance
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Premium Refunds
     Slug: null
@@ -167,6 +174,7 @@ Years_Available:
 - 2023
 - 2022
 detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: PBGC participates in the U.S. Department of the Treasuryâ€™s
   DNP program. For example, under the Payments to Contractors stream, pre-payment
@@ -179,6 +187,7 @@ detail_DNP_Discussion: PBGC participates in the U.S. Department of the Treasuryâ
   stream.
 detail_DNP_Frequency_Identify: Monthly
 detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: The PBGC Inspector General concluded in its report issued
   on March 24, 2025, that the agency was compliant with the Payment Integrity Information
   Act of 2019 (PIIA) in the OIG's most recent evaluation of the agency's Payment Integrity
@@ -208,6 +217,7 @@ detail_Executive_Summary: The PBGC Inspector General concluded in its report iss
   significant risk of improper payments as defined by the law and OMB implementation
   guidance.
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
@@ -301,4 +311,5 @@ layout: agency-specific
 permalink: agency/PBGC.html
 recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 11.9
 recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 11.9
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

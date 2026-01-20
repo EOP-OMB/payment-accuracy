@@ -270,10 +270,10 @@ permalink: /
                                     {{ page.detail_Recovery_Methods_Audits | newline_to_br }}
                                 {% endif %}
 
-                                {% if page.Overpayment_Conditions_And_Methods != nil and page.Overpayment_Conditions_And_Methods != "" %}
+                                {% if page.detail_Overpayment_Conditions_And_Methods != nil and page.detail_Overpayment_Conditions_And_Methods != "" %}
                                     <h5>Conditions giving rise to improper payments identified in recovery audits, how those conditions are being resolved, and the methods used to recover those payments</h5>
                                     <br />
-                                    {{ page.Overpayment_Conditions_And_Methods | newline_to_br }}
+                                    {{ page.detail_Overpayment_Conditions_And_Methods | newline_to_br }}
                                 {% endif %}
 
                                 {% if page.detail_Recovery_Not_Cost_Effective_Programs != nil and page.detail_Recovery_Not_Cost_Effective_Programs != "" %}
@@ -363,24 +363,20 @@ permalink: /
                                             {% endunless %}
                                         </tr>
 
-                                        {% if page.recovery_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered != nil %}
+                                        {% if page.detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered != nil %}
                                             <tr>
                                                 <td class="text-left" colspan="5">Recovery audit amount identified this reporting period that remains outstanding</td>
                                                 <td class="amount-col text-left">
-                                                    ${{ page.recovery_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered | round: 2 | thousands_separator }} M
+                                                    ${{ page.detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered | round: 2 | thousands_separator }} M
                                                 </td>
                                             </tr>
                                         {% endif %}
 
-                                        {% if page.recovery_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered != nil and page.recovery_OP_Amt_Identified_through_Payment_Recapture_Audits != nil %}
+                                        {% if page.recovery_Recovery_Audit_Amount_Outstanding_Rate != nil %}
                                             <tr>
                                                 <td class="text-left" colspan="5">Recovery audit amount rate outstanding</td>
                                                 <td class="amount-col text-left">
-                                                    {% if page.recovery_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered > 0 %}
-                                                        {{ page.recovery_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered | times: 100 | divided_by: page.recovery_OP_Amt_Identified_through_Payment_Recapture_Audits | round: 2 | thousands_separator }} %
-                                                    {% else %}
-                                                        0 %
-                                                    {% endif %}
+                                                    {{ page.recovery_Recovery_Audit_Amount_Outstanding_Rate | round: 2 | thousands_separator }} %
                                                 </td>
                                             </tr>
                                         {% endif %}
@@ -446,7 +442,8 @@ permalink: /
                                 </table>
                                 {% if page.detail_Recovery_Justifications_Audits != nil and page.detail_Recovery_Justifications_Audits != "" %}
                                     <br />
-                                    {{ page.detail_Recovery_Justifications_Audits | newline_to_br }}
+                                    <p><strong>Justification for the Determination that the recovery audit amount is not collectable</strong></p>
+                                    <p>{{ page.detail_Recovery_Justifications_Audits | newline_to_br }}</p>
                                 {% endif %}
                             </div>
                         </div>

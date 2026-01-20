@@ -6,7 +6,7 @@ FROM (
         [Link],
         [Program_Name]
     FROM program_scorecard_links
-    WHERE [Year] = ?
+    WHERE [Year] <= ?
     GROUP BY [Program_Name]
     HAVING MAX(CONCAT([Year],'-',[Quarter]))
 ) links

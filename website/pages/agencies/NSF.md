@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Contracts and Individual Payments
 - Compliant_1A: true
   Compliant_1B: true
@@ -50,6 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Grants and Cooperative Agreements
 - Compliant_1A: true
   Compliant_1B: true
@@ -62,6 +64,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Payments to Employees
 - Compliant_1A: true
   Compliant_1B: true
@@ -74,6 +77,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Purchase Cards - National Science Foundation
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -83,27 +87,22 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Contracts and Individual Payments
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Grants and Cooperative Agreements
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Payments to Employees
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
-    MethodologyChanged: 0
-    Program_Name: Purchase Cards
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Purchase Cards - National Science Foundation
     Slug: null
@@ -120,7 +119,9 @@ Years_Available:
 - 2024
 - 2023
 - 2022
+- 2021
 detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: 'All NSF payments are compliant with Treasury’s Payment Application
   Modernization format and are screened against the following data sources: Social
@@ -131,6 +132,7 @@ detail_DNP_Discussion: 'All NSF payments are compliant with Treasury’s Payment
   to be proper.'
 detail_DNP_Frequency_Identify: Annually
 detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: NSF has one mission program of Grants and Cooperative Agreements
   and three other mission-related activities – Contracts and Individual Payments,
   NSF Purchase Cards and Payments to Employees. NSF conducts risk assessments for
@@ -141,6 +143,7 @@ detail_Executive_Summary: NSF has one mission program of Grants and Cooperative 
   considered Phase I in accordance with Payment Integrity Information Act of 2019
   (PIIA). NSF Purchase Cards outlays were below the $10M threshold for FY 2025.
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
@@ -154,4 +157,5 @@ layout: agency-specific
 permalink: agency/NSF.html
 recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 16.01
 recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 16.01
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

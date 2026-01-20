@@ -17,13 +17,13 @@ Hide_Risk_Assessment_Results: false
 Hide_Sparklines: false
 Hide_Supplemental_Info: false
 Hide_Supplemental_Payment_Integrity: true
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
 Improper_Payments_Rate_Max: 0.7
-Improper_Payments_Rate_Min: 0.2
-Improper_Payments_Rates: '[0.19293903783276176, 0.16732727949417803, 0.24820659388460697,
-  0.7187097946055804]'
+Improper_Payments_Rate_Min: 0.1
+Improper_Payments_Rates: '[0.097686917521742, 0.19293903783276176, 0.16732727949417803,
+  0.24820659388460697, 0.7187097946055804]'
 Is_Placeholder: false
-Overpayment_Amounts: '[664.4399999999999, 202.54047, 180.67000000000002, 115.83999999999999]'
+Overpayment_Amounts: '[291.45, 664.4399999999999, 202.54047, 180.67000000000002, 115.83999999999999]'
 Overpayment_Amounts_Identified: '[1362.56, 1483.69, 1735.66, 1827.42, 1369.46]'
 Overpayment_Amounts_Recovered: '[1287.08, 1412.97, 1711.09, 1684.0, 1284.86]'
 Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
@@ -39,6 +39,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Civilian Pay – Department of Air Force (DAF)
 - Compliant_1A: true
   Compliant_1B: true
@@ -51,6 +52,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Civilian Pay – Navy
 - Compliant_1A: true
   Compliant_1B: true
@@ -63,6 +65,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Commercial Pay - U.S. Army Corps of Engineers (USACE)
 - Compliant_1A: true
   Compliant_1B: true
@@ -75,6 +78,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Commercial Pay – Computerized Accounts Payable System (CAPS/ CAPS-W)
 - Compliant_1A: true
   Compliant_1B: true
@@ -87,6 +91,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Commercial Pay – Defense Agencies Initiative (DAI)
 - Compliant_1A: true
   Compliant_1B: true
@@ -99,6 +104,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Commercial Pay – Defense Enterprise Accounting Management System (DEAMS)
 - Compliant_1A: true
   Compliant_1B: true
@@ -111,6 +117,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Commercial Pay – Enterprise Business System (EBS)
 - Compliant_1A: true
   Compliant_1B: true
@@ -123,6 +130,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Commercial Pay – Financial Accounting and Budgetary System (FABS)
 - Compliant_1A: true
   Compliant_1B: true
@@ -135,6 +143,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Commercial Pay – General Fund Enterprise Business System (GFEBS)
 - Compliant_1A: true
   Compliant_1B: true
@@ -147,6 +156,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Commercial Pay – Integrated Accounts Payable System (IAPS)
 - Compliant_1A: true
   Compliant_1B: true
@@ -159,6 +169,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Commercial Pay – Mechanization of Contract Administration Services (MOCAS)
   Slug: dow-commercial-pay-mechanization-of-contract-administration--94c59ea7
 - Compliant_1A: true
@@ -172,6 +183,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Commercial Pay – ONEPAY
 - Compliant_1A: true
   Compliant_1B: true
@@ -184,6 +196,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Commercial Pay – Standard Automated Voucher Examination System (SAVES)
 - Compliant_1A: true
   Compliant_1B: true
@@ -196,6 +209,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Commercial Pay – Transportation Financial Management System (TFMS)
 - Compliant_1A: true
   Compliant_1B: true
@@ -208,6 +222,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Military Health Benefits – Administrative
 - Compliant_1A: true
   Compliant_1B: true
@@ -220,6 +235,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Military Health Benefits – TRICARE Overseas Program (TOP)
 - Compliant_1A: true
   Compliant_1B: true
@@ -232,6 +248,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Military Health Benefits – TRICARE Pharmacy Program (TPharm)
 - Compliant_1A: true
   Compliant_1B: true
@@ -244,6 +261,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Military Pay Army – Active Duty
 - Compliant_1A: true
   Compliant_1B: true
@@ -256,6 +274,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Military Pay Army – Reserve
 - Compliant_1A: true
   Compliant_1B: true
@@ -268,6 +287,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Military Pay Department of Air Force (DAF) – Active Duty
 - Compliant_1A: true
   Compliant_1B: true
@@ -280,6 +300,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Military Pay Department of Air Force (DAF) – Air National Guard
 - Compliant_1A: true
   Compliant_1B: true
@@ -292,6 +313,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Military Pay Department of Air Force (DAF) – Reserve
 - Compliant_1A: true
   Compliant_1B: true
@@ -304,6 +326,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Military Pay Marie Corps – Reserve
 - Compliant_1A: true
   Compliant_1B: true
@@ -316,6 +339,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Military Pay Marine Corps – Active Duty
 - Compliant_1A: true
   Compliant_1B: true
@@ -328,6 +352,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Military Pay Navy – Active Duty
 - Compliant_1A: true
   Compliant_1B: true
@@ -340,6 +365,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Military Pay Navy – Reserve
 - Compliant_1A: true
   Compliant_1B: true
@@ -352,6 +378,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Military Retirement – Annuitant Pay
 - Compliant_1A: true
   Compliant_1B: true
@@ -364,6 +391,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Military Retirement – Combat Related Special Compensation
 - Compliant_1A: true
   Compliant_1B: true
@@ -376,6 +404,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Military Retirement – Retired Pay
 - Compliant_1A: true
   Compliant_1B: true
@@ -388,6 +417,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: NSA Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -400,6 +430,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Travel Pay - U.S. Army Corps of Engineers (USACE)
 - Compliant_1A: true
   Compliant_1B: true
@@ -412,6 +443,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Travel Pay Army – Integrated Automated Travel System (IATS)
 - Compliant_1A: true
   Compliant_1B: true
@@ -424,6 +456,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Travel Pay Department of Air Force (DAF) – Defense Travel System (DTS)
   Slug: dow-travel-pay-department-of-air-force-daf-defense-travel-sy-58c53287
 - Compliant_1A: true
@@ -437,6 +470,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Travel Pay Marine Corps - MARINE CORPS TOTAL FORCE SYSTEM (MCTFS)
 - Compliant_1A: true
   Compliant_1B: true
@@ -449,6 +483,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Travel Pay Marine Corps – Defense Travel System (DTS)
 - Compliant_1A: true
   Compliant_1B: true
@@ -461,6 +496,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Travel Pay Marine Corps – Integrated Automated Travel System (IATS)
 - Compliant_1A: true
   Compliant_1B: true
@@ -473,6 +509,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Travel Pay Navy – Integrated Automated Travel System (IATS)
 - Compliant_1A: true
   Compliant_1B: true
@@ -485,7 +522,9 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Travel Pay Other Defense Organization (ODO) – Defense Travel System (DTS)
+  Slug: dow-travel-pay-other-defense-organization-odo-defense-travel-346a386c
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -497,8 +536,10 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Travel Pay Other Defense Organization (ODO) – Integrated Automated Travel
     System (IATS)
+  Slug: dow-travel-pay-other-defense-organization-odo-integrated-aut-4e4e490f
 PIIA2019_NonCompliant_Programs:
 - Compliant_1A: true
   Compliant_1B: true
@@ -511,6 +552,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Civilian Pay – Army
   Slug: dow-civilian-pay-army
 - Compliant_1A: true
@@ -524,6 +566,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Civilian Pay – Other Defense Organization (ODO)
   Slug: dow-civilian-pay-other-defense-organization-odo
 - Compliant_1A: true
@@ -537,6 +580,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Commercial Pay – Navy Enterprise and Resource Planning (NERP)
 - Compliant_1A: true
   Compliant_1B: true
@@ -549,6 +593,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Military Health Benefits – TRICARE East Region Program (East)
 - Compliant_1A: true
   Compliant_1B: true
@@ -561,6 +606,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Military Health Benefits – TRICARE Medicare Eligible Program (TMEP)
 - Compliant_1A: true
   Compliant_1B: true
@@ -573,6 +619,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Military Health Benefits – TRICARE West Region Program (West)
 - Compliant_1A: true
   Compliant_1B: true
@@ -585,6 +632,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Military Pay Army – National Guard
   Slug: dow-military-pay-army-national-guard
 - Compliant_1A: true
@@ -598,6 +646,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Travel Pay Army – Defense Travel System (DTS)
   Slug: dow-travel-pay-army-defense-travel-system-dts
 - Compliant_1A: true
@@ -611,6 +660,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Travel Pay Department of Air Force (DAF) - Reserve Travel System (RTS)
 - Compliant_1A: true
   Compliant_1B: true
@@ -623,50 +673,36 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Travel Pay Navy – Defense Travel System (DTS)
-Payment_Accuracy_Amounts: '[614851.42, 619706.2593, 254917.63, 239583.19999999998]'
+Payment_Accuracy_Amounts: '[664584.16, 614851.42, 619706.2593, 254917.63, 239583.19999999998]'
 Payment_Accuracy_Rate_Max: 99.8
 Payment_Accuracy_Rate_Min: 99.1
-Payment_Accuracy_Rates: '[99.67386288085508, 99.76302926694459, 99.57545664825867,
-  99.12885855417703]'
+Payment_Accuracy_Rates: '[99.62431026022188, 99.67386288085508, 99.76302926694459,
+  99.57545664825867, 99.12885855417703]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2020
-    MethodologyChanged: 0
-    Program_Name: Civilian Pay
-    Slug: dow-civilian-pay
-    Susceptible: 'Yes'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Civilian Pay – Army
     Slug: dow-civilian-pay-army
     Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Civilian Pay – Department of Air Force (DAF)
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Civilian Pay – Navy
     Slug: null
-    Susceptible: 'No'
+    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Civilian Pay – Other Defense Organization (ODO)
     Slug: dow-civilian-pay-other-defense-organization-odo
     Susceptible: null
-  - Fiscal_Year: 2020
-    MethodologyChanged: 0
-    Program_Name: Commercial Pay
-    Slug: dow-commercial-pay
-    Susceptible: 'Yes'
-  - Fiscal_Year: 2025
-    MethodologyChanged: 0
-    Program_Name: Commercial Pay - U.S. Army Corps of Engineers (USACE)
-    Slug: null
-    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Computerized Accounts Payable System (CAPS/ CAPS-W)
@@ -683,277 +719,244 @@ Risks:
       (DEAMS)
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Enterprise Business System (EBS)
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Financial Accounting and Budgetary System (FABS)
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Commercial Pay – General Fund Enterprise Business System (GFEBS)
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Integrated Accounts Payable System (IAPS)
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Mechanization of Contract Administration Services
       (MOCAS)
     Slug: dow-commercial-pay-mechanization-of-contract-administration--94c59ea7
-    Susceptible: 'No'
+    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Navy Enterprise and Resource Planning (NERP)
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Commercial Pay – ONEPAY
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Standard Automated Voucher Examination System (SAVES)
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Transportation Financial Management System (TFMS)
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2020
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: DoD Travel Pay
-    Slug: dow-dod-travel-pay
-    Susceptible: 'Yes'
-  - Fiscal_Year: 2020
-    MethodologyChanged: 0
-    Program_Name: Military Health Benefits - Healthcare
-    Slug: dow-military-health-benefits-healthcare
-    Susceptible: 'Yes'
-  - Fiscal_Year: 2023
+    Program_Name: Commercial Pay - U.S. Army Corps of Engineers (USACE)
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Health Benefits – Administrative
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Health Benefits – TRICARE East Region Program (East)
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Health Benefits – TRICARE Medicare Eligible Program (TMEP)
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Health Benefits – TRICARE Overseas Program (TOP)
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Health Benefits – TRICARE Pharmacy Program (TPharm)
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Health Benefits – TRICARE West Region Program (West)
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Military Pay
-    Slug: null
     Susceptible: null
-  - Fiscal_Year: 2020
-    MethodologyChanged: 0
-    Program_Name: Military Pay - Army
-    Slug: dow-military-pay-army
-    Susceptible: 'Yes'
-  - Fiscal_Year: 2020
-    MethodologyChanged: 0
-    Program_Name: Military Pay - Department of Air Force
-    Slug: null
-    Susceptible: 'Yes'
-  - Fiscal_Year: 2020
-    MethodologyChanged: 0
-    Program_Name: Military Pay - Marine Corps
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2020
-    MethodologyChanged: 0
-    Program_Name: Military Pay - Navy
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Pay Army – Active Duty
     Slug: null
-    Susceptible: 'No'
+    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Pay Army – National Guard
     Slug: dow-military-pay-army-national-guard
     Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Pay Army – Reserve
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Pay Department of Air Force (DAF) – Active Duty
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Pay Department of Air Force (DAF) – Air National Guard
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Pay Department of Air Force (DAF) – Reserve
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Pay Marie Corps – Reserve
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Pay Marine Corps – Active Duty
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Pay Navy – Active Duty
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Pay Navy – Reserve
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2020
-    MethodologyChanged: 0
-    Program_Name: Military Retirement
-    Slug: dow-military-retirement
-    Susceptible: 'Yes'
-  - Fiscal_Year: 2025
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Retirement – Annuitant Pay
     Slug: null
-    Susceptible: 'Yes'
-  - Fiscal_Year: 2025
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Retirement – Combat Related Special Compensation
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Military Retirement – Retired Pay
     Slug: null
-    Susceptible: 'Yes'
+    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: NSA Grants
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2023
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Travel Pay - U.S. Army Corps of Engineers (USACE)
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Travel Pay Army – Defense Travel System (DTS)
-    Slug: dow-travel-pay-army-defense-travel-system-dts
     Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Travel Pay Army – Integrated Automated Travel System (IATS)
+    Program_Name: Travel Pay Army – Defense Travel System (DTS)
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Travel Pay Army – Integrated Automated Travel System (IATS)
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Travel Pay Department of Air Force (DAF) – Defense Travel System
+      (DTS)
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Travel Pay Department of Air Force (DAF) - Reserve Travel System
       (RTS)
     Slug: null
-    Susceptible: 'No'
+    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Travel Pay Department of Air Force (DAF) – Defense Travel System
-      (DTS)
-    Slug: dow-travel-pay-department-of-air-force-daf-defense-travel-sy-58c53287
+    Program_Name: Travel Pay Marine Corps – Defense Travel System (DTS)
+    Slug: null
     Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Travel Pay Marine Corps – Integrated Automated Travel System (IATS)
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Travel Pay Marine Corps - MARINE CORPS TOTAL FORCE SYSTEM (MCTFS)
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
-    MethodologyChanged: 0
-    Program_Name: Travel Pay Marine Corps – Defense Travel System (DTS)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
-    MethodologyChanged: 0
-    Program_Name: Travel Pay Marine Corps – Integrated Automated Travel System (IATS)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
-    MethodologyChanged: 0
-    Program_Name: Travel Pay Navy – Defense Travel System (DTS)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
-    MethodologyChanged: 0
-    Program_Name: Travel Pay Navy – Integrated Automated Travel System (IATS)
-    Slug: null
-    Susceptible: 'No'
+    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Travel Pay Other Defense Organization (ODO) – Defense Travel System
+    Program_Name: Travel Pay Navy – Defense Travel System (DTS)
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Travel Pay Navy – Integrated Automated Travel System (IATS)
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Travel Pay Other Defense Organization (ODO) – Defense Travel System
       (DTS)
     Slug: null
     Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Travel Pay Other Defense Organization (ODO) – Integrated Automated
-      Travel System (IATS)
+      Travel System (IATS)
     Slug: null
     Susceptible: null
   SubstantialChangesMade: 'No'
-Technically_Improper_Amounts: '[455.27, 765.32023, 405.33, 1138.75]'
-Underpayment_Amounts: '[70.46000000000001, 71.53999999999999, 49.42, 482.45]'
-Unknown_Amounts: '[821.65, 432.61, 451.43, 368.41]'
-Unknown_Payments_Rate_Max: 0.2
+Technically_Improper_Amounts: '[246.60999999999999, 455.27, 765.32023, 405.33, 1138.75]'
+Underpayment_Amounts: '[113.6, 70.46000000000001, 71.53999999999999, 49.42, 482.45]'
+Unknown_Amounts: '[1854.53, 821.65, 432.61, 451.43, 368.41]'
+Unknown_Payments_Rate_Max: 0.3
 Unknown_Payments_Rate_Min: 0.1
-Unknown_Payments_Rates: '[0.133198081312156, 0.0696434535612458, 0.1763367578567375,
-  0.15243165121738236]'
+Unknown_Payments_Rates: '[0.2780028222563855, 0.133198081312156, 0.0696434535612458,
+  0.1763367578567375, 0.15243165121738236]'
 Years_Available:
 - 2025
 - 2024
 - 2023
 - 2022
+- 2021
 detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '260.31'
 detail_Compliance_Status: Non-Compliant
 detail_DNP_Discussion: 'Within the Department of War (DoW), the Do Not Pay (DNP) database
   is used on a regular basis for the following payments: Military Health Benefits
   (issued by the Defense Health Agency; Commercial Pay and Retirement and Annuitant
   Pay(issued by the Defense Finance and Accounting Service (DFAS)); and USACE (U.S.
   Army Corps of Engineers) Commercial Pay (issued by USACE), comprising the majority
-  of the payments issued by the Department. Amongst the three DoD agencies currently
+  of the payments issued by the Department. Amongst the three DoW agencies currently
   enrolled in DNP, the Department uses the online search, payment integration, and
   batch matching features of DNP on a daily, weekly, or monthly basis. The majority
   of the flagged payees are based on the Death Master File and the name match results
@@ -975,6 +978,15 @@ detail_DNP_Discussion: 'Within the Department of War (DoW), the Do Not Pay (DNP)
   '
 detail_DNP_Frequency_Identify: Weekly
 detail_DNP_Reduced: 'No'
+detail_Disposition_of_Funds: The Department reclassifies recovered funds to their
+  original intended purpose whenever possible. This ensures recovered resources are
+  reinvested in alignment with established programmatic objectives and priorities,
+  maximizing their impact on mission-critical activities. As appropriate, some recovered
+  amounts are also returned to the U.S. Treasury. This action maintains clear accounting
+  and accountability and prevents potential misuse or misallocation of funds. Specifically,
+  because money is appropriated by Congress for designated purposes, recovered overpayments
+  may need to be returned to the original appropriation account. If the original appropriation
+  has expired, these funds are returned directly to the Treasury, as mandated by law.
 detail_Executive_Summary: "The Department of War (DoW) met the overarching intent\
   \ of the Payment Integrity Information Act of 2019 (PIIA) as well as Office of Management\
   \ and Budget (OMB) Circular A-123, Appendix C. \n\nThe criticality of Payment Integrity\
@@ -1107,26 +1119,26 @@ detail_Executive_Summary: "The Department of War (DoW) met the overarching inten
   \ its Payment Recovery Audits and Activities program.  This achievement underscores\
   \ the DoW’s commitment to proper stewardship of funding and demonstrates the effectiveness\
   \ of its recovery initiatives. \n"
-detail_OIG_Recommendations: "The OIG concluded that the Department did not demonstrate\
+detail_OIG_Recommendations: "The OIG concluded that the \"Department did not demonstrate\
   \ a sound methodology for identifying all programs required to report for PIIA compliance,\
   \ and it did not effectively support its risk determinations for four programs.\
   \ The OIG recommends that the Under Secretary of Defense (Comptroller)/Chief Financial\
   \ Officer, DoD, develop and implement a tool to improve oversight of programs, including\
-  \ a method for establishing new programs and determining their establishment dates.\
-  \ They also recommended that the Director of the Defense Health Agency reassess\
+  \ a method for establishing new programs and determining their establishment dates.\"\
+  \ They also recommended that the Director of the Defense Health Agency \"reassess\
   \ noncompliant risk assessments and document and support the information relied\
-  \ on, including the controls. The OIG also made a recommendation to the Assistant\
-  \ Secretary of the Navy (Financial Management and Comptroller) to reevaluate the\
+  \ on, including the controls.\" The OIG also made a recommendation to the Assistant\
+  \ Secretary of the Navy (Financial Management and Comptroller) to \"reevaluate the\
   \ DoD Travel Pay Navy–Defense Travel System program and report the program’s estimate\
-  \ in the appropriate PIIA reporting phase. \n\nThe OIG also concluded that the Department\
-  \ published unreliable estimates for six programs because it has not developed a\
-  \ methodology for identifying a complete universe of payment transactions for each\
-  \ of its programs. This resulted in unreliable estimates and non-compliance with\
-  \ the PIIA. The OIG recommends that the Under Secretary of Defense (Comptroller)/Chief\
+  \ in the appropriate PIIA reporting phase.\" \n\nThe OIG also concluded that the\
+  \ \"Department published unreliable estimates for six programs because it has not\
+  \ developed a methodology for identifying a complete universe of payment transactions\
+  \ for each of its programs. This resulted in unreliable estimates and non-compliance\
+  \ with the PIIA. The OIG \"recommends that the Under Secretary of Defense (Comptroller)/Chief\
   \ Financial Officer, DoD, in coordination with DoD Components, develop and implement\
   \ a methodology to identify all DoD outlays and the programs with which they are\
   \ associated, and to verify that the programs' universes of payment transactions\
-  \ include all outlays related to each respective program.\n\nTo achieve full PIIA\
+  \ include all outlays related to each respective program.\"\n\nTo achieve full PIIA\
   \ compliance across multiple programs, the Department is primarily targeting a FY2026-FY2028\
   \ timeframe. The main strategy is to address the root causes of improper payments\
   \ using enhanced training, process improvements, system changes, and increased oversight.\
@@ -1146,7 +1158,7 @@ detail_OIG_Recommendations: "The OIG concluded that the Department did not demon
   \ with stakeholders, including DFAS, Branches of Service, and the OUSW(C) Payment\
   \ Integrity Team, through regular communication and feedback loops to ensure effective\
   \ implementation and ongoing improvement.\n\nKey challenges are related to data\
-  \ universes, as the DoD's inability to develop a complete universe of payment transactions\
+  \ universes, as the DoW's inability to develop a complete universe of payment transactions\
   \ for accurate improper payment estimation remains a significant challenge. Specifically,\
   \ for the current reporting period the Department’s Phase 2 program Universe of\
   \ Transactions reconciliation between the entitlement and disbursement systems resulted\
@@ -1162,6 +1174,18 @@ detail_OIG_Recommendations: "The OIG concluded that the Department did not demon
   \ action plans for each Phase 2 program that will target the areas contributing\
   \ to the improper and unknown payment root causes attributed to the projected rates.\
   \ \n\n"
+detail_Overpayment_Conditions_And_Methods: 'The DoW Payment Recovery Audit (PRA) program
+  is the Department’s overall plan for risk analysis and the performance of payment
+  recovery audits. PRAs are reviews and analyses of program accounting and financial
+  records, supporting documentation, and other pertinent information supporting its
+  payments; and it is designed specifically, to identify overpayments. It is through
+  this system of internal controls surrounding the payments that assists in resolving
+  the erroneous non-intentional monetary loss of Department dollars. The Department
+  also utilizes collaborative working groups and enhanced specific reports that are
+  disseminated to the responsible DoW Component for the identification, validation,
+  and potential corrective actions for the trends of overpayment types, if necessary.
+
+  '
 detail_PIIA_Incentives: "Pursuant to the January 20, 2025, Presidential Memorandum\
   \ entitled “Restoring Accountability for Career Senior Executives” and consistent\
   \ with the President’s direction U.S. Office of Personnel Management (OPM) established\
@@ -1220,4 +1244,5 @@ recovery_Aging_of_Outstanding_OP_Identified_Amt_6_months_to_1_year: 92.29
 recovery_Aging_of_Outstanding_OP_Identified_determined_not_collectable: 17.06
 recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 1369.46
 recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 1284.86
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 1.245746499
 ---

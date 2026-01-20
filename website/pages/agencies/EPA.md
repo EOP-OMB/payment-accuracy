@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Alternative or Innovative Treatment Technology Research, Demonstration, Training,
     and Hazardous Substance Research Grants
 - Compliant_1A: true
@@ -51,6 +52,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Beach Monitoring and Notification Program Implementation Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -63,6 +65,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Brownfields Job Training Cooperative Agreements
 - Compliant_1A: true
   Compliant_1B: true
@@ -75,6 +78,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Centers of Excellence for Stormwater Control Infrastructure Technologies Grant
     Program
 - Compliant_1A: true
@@ -88,6 +92,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Clean School Bus Program - Grants and Rebates
 - Compliant_1A: true
   Compliant_1B: true
@@ -100,6 +105,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Clean Water State Revolving Fund
 - Compliant_1A: true
   Compliant_1B: true
@@ -112,6 +118,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Commodities - Environmental Protection Agency
 - Compliant_1A: true
   Compliant_1B: true
@@ -124,6 +131,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Compliance Assistance Support for Services to the Regulated Community and
     Other Assistance Providers
 - Compliant_1A: true
@@ -137,6 +145,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Construction Grants for Wastewater Treatment Works
 - Compliant_1A: true
   Compliant_1B: true
@@ -149,6 +158,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Contaminated Alaska Native Claims Settlement Act Lands Assistance Agreements
 - Compliant_1A: true
   Compliant_1B: true
@@ -161,6 +171,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Contracts - Environmental Protection Agency
 - Compliant_1A: true
   Compliant_1B: true
@@ -173,6 +184,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Direct Implementation Tribal Cooperative Agreements
 - Compliant_1A: true
   Compliant_1B: true
@@ -185,6 +197,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Disaster Relief Funds (2018)
 - Compliant_1A: true
   Compliant_1B: true
@@ -197,6 +210,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Drinking Water State Revolving Fund
 - Compliant_1A: true
   Compliant_1B: true
@@ -209,6 +223,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Drinking Water System Infrastructure Resilience and Sustainability Program
     â€“ SDWA 1459A(l)
 - Compliant_1A: true
@@ -222,6 +237,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Enhanced Aquifer Use and Recharge Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -234,6 +250,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Environmental Education Grants Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -246,6 +263,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Environmental Finance Center Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -258,6 +276,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Environmental Information Exchange Network Grant Program and Related Assistance
 - Compliant_1A: true
   Compliant_1B: true
@@ -270,6 +289,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Environmental Justice Collaborative Problem- Solving Cooperative Agreement
     Program
 - Compliant_1A: true
@@ -283,6 +303,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Environmental Justice Government-to-Government (EJG2G) Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -295,6 +316,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Environmental Justice Small Grant Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -307,6 +329,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Environmental Justice Thriving Communities Grantmaking Program (EJ TCGM)
 - Compliant_1A: true
   Compliant_1B: true
@@ -319,6 +342,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Environmental Policy and Innovation Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -331,6 +355,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Environmental Protection Consolidated Grants for the Insular Areas - Program
     Support
 - Compliant_1A: true
@@ -344,6 +369,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Environmental and Climate Justice Community Change Grants Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -356,6 +382,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Financial Assistance For Community Support Activities To Address Environmental
     Justice Issues
 - Compliant_1A: true
@@ -369,6 +396,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Geographic Programs - Chesapeake Bay Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -381,6 +409,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Geographic Programs - Chesapeake Bay Program Implementation, Regulatory/Accountability
     and Monitoring Grants
 - Compliant_1A: true
@@ -394,6 +423,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Geographic Programs - Coastal Wetlands Planning Protection and Restoration
     Act
 - Compliant_1A: true
@@ -407,6 +437,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Geographic Programs - Columbia River Basin Restoration (CRBR) Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -419,6 +450,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Geographic Programs - Great Lakes Restoration Initiative
 - Compliant_1A: true
   Compliant_1B: true
@@ -431,6 +463,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Geographic Programs - Gulf Coast Ecosystem Restoration Council Comprehensive
     Plan Component
 - Compliant_1A: true
@@ -444,6 +477,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Geographic Programs - Gulf of Mexico Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -456,6 +490,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Geographic Programs - Lake Champlain Basin Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -468,6 +503,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Geographic Programs - Lake Pontchartrain Basic Restoration Program (PRP) Improvement
     Fund
 - Compliant_1A: true
@@ -481,6 +517,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Geographic Programs - Long Island Sound Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -493,6 +530,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: 'Geographic Programs - Puget Sound Action Agenda: Technical Investigations
     and Implementation Assistance Program'
 - Compliant_1A: true
@@ -506,6 +544,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: 'Geographic Programs - Puget Sound Protection and Restoration: Tribal Implementation
     Assistance Program'
 - Compliant_1A: true
@@ -519,6 +558,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Geographic Programs - San Francisco Bay Water Quality
 - Compliant_1A: true
   Compliant_1B: true
@@ -531,6 +571,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Geographic Programs - South Florida Geographic Initiatives Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -543,6 +584,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Geographic Programs - Southeast New England Coastal Watershed Restoration
     Program
 - Compliant_1A: true
@@ -556,6 +598,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: 'Greenhouse Gas Reduction Fund: Clean Communities Investment Accelerator'
 - Compliant_1A: true
   Compliant_1B: true
@@ -568,6 +611,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: 'Greenhouse Gas Reduction Fund: National Clean Investment Fund'
 - Compliant_1A: true
   Compliant_1B: true
@@ -580,6 +624,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: 'Greenhouse Gas Reduction Fund: Solar for All'
 - Compliant_1A: true
   Compliant_1B: true
@@ -592,6 +637,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Greenhouse Gas and Zero Emission On-road Mobile Source Standards
 - Compliant_1A: true
   Compliant_1B: true
@@ -604,6 +650,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Hazardous Waste Management Grant Program for Tribes
 - Compliant_1A: true
   Compliant_1B: true
@@ -616,6 +663,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Headquarters and Regional Underground Storage Tanks Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -628,6 +676,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Healthy Communities Grant Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -640,6 +689,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Healthy Environmental Living Program (HELP)
 - Compliant_1A: true
   Compliant_1B: true
@@ -652,6 +702,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Healthy Watersheds Consortium Grant Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -664,6 +715,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Hydrofluorocarbon Reclaim and Innovative Destruction Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -676,6 +728,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Innovative Water Technology Grant Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -688,6 +741,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: International Compliance and Enforcement Projects
 - Compliant_1A: true
   Compliant_1B: true
@@ -700,6 +754,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: International Financial Assistance Projects Sponsored by the Office of International
     and Tribal Affairs
 - Compliant_1A: true
@@ -713,6 +768,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Internships, Training, and Workshops for the Environmental Protection Agency's
     (EPA) Office of Air and Radiation
 - Compliant_1A: true
@@ -726,6 +782,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Multipurpose Grants to States and Tribes
 - Compliant_1A: true
   Compliant_1B: true
@@ -738,6 +795,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: National Environmental Education Training Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -750,6 +808,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: National Wetland Program Development Grants and Five- Star Restoration Training
     Grant
 - Compliant_1A: true
@@ -763,6 +822,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Non-State Member Support for the Gulf Hypoxia Action Plan
 - Compliant_1A: true
   Compliant_1B: true
@@ -775,6 +835,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Office of Research and Development Consolidated Research/Training/Fellowships
 - Compliant_1A: true
   Compliant_1B: true
@@ -787,6 +848,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Ozone Transport Commission
 - Compliant_1A: true
   Compliant_1B: true
@@ -799,6 +861,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: 'P3 Award: National Student Design Competition for Sustainability'
 - Compliant_1A: true
   Compliant_1B: true
@@ -811,6 +874,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: 'PRIA 5: Farm Worker and Health Care Provider Training and Education Grants'
 - Compliant_1A: true
   Compliant_1B: true
@@ -823,6 +887,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Payroll - Environmental Protection Agency
 - Compliant_1A: true
   Compliant_1B: true
@@ -835,6 +900,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Pesticide Environmental Stewardship Program (PESP) Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -847,6 +913,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Pesticide Registration Improvement Act Employee Training
 - Compliant_1A: true
   Compliant_1B: true
@@ -859,6 +926,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Protection of Children from Environmental Health Risks
 - Compliant_1A: true
   Compliant_1B: true
@@ -871,6 +939,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Purchase Cards - Environmental Protection Agency
 - Compliant_1A: true
   Compliant_1B: true
@@ -883,6 +952,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Reduce, Reuse, Recycling Education and Outreach Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -895,6 +965,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Reducing Embodied Greenhouse Gas Emissions for Construction Materials and
     Products
 - Compliant_1A: true
@@ -908,6 +979,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Regional Applied Research Efforts (RARE)
 - Compliant_1A: true
   Compliant_1B: true
@@ -920,6 +992,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Regional Wetland Program Development Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -932,6 +1005,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Research, Development, Monitoring, Public Education, Outreach, Training, Demonstrations,
     and Studies
 - Compliant_1A: true
@@ -945,6 +1019,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Response to Emergency Situations Affecting Public Water Systems (SDWA 1442b)
 - Compliant_1A: true
   Compliant_1B: true
@@ -957,6 +1032,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Settlements - Environmental Protection Agency
 - Compliant_1A: true
   Compliant_1B: true
@@ -969,6 +1045,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Solid Waste Management Assistance Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -981,6 +1058,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Source Reduction Assistance
 - Compliant_1A: true
   Compliant_1B: true
@@ -993,6 +1071,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: State Programs for Control of Coal Combustion Residuals
 - Compliant_1A: true
   Compliant_1B: true
@@ -1005,6 +1084,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: State Senior Environmental Employment Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -1017,6 +1097,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: State Underground Water Source Protection
 - Compliant_1A: true
   Compliant_1B: true
@@ -1029,6 +1110,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: State and Tribal Indoor Radon Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -1041,6 +1123,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Superfund State and Indian Tribe Core Program Cooperative Agreements
 - Compliant_1A: true
   Compliant_1B: true
@@ -1053,6 +1136,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Superfund State, Political Subdivision, and Indian Tribe Site-Specific Cooperative
     Agreements
 - Compliant_1A: true
@@ -1066,6 +1150,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Superfund Technical Assistance Grants (TAG) for Community Groups at National
     Priority List (NPL) Sites
 - Compliant_1A: true
@@ -1079,6 +1164,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Support for the Gulf Hypoxia Action Plan
 - Compliant_1A: true
   Compliant_1B: true
@@ -1091,6 +1177,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Surveys, Studies, Investigations and Special Purpose Grants within the Office
     of Research and Development
 - Compliant_1A: true
@@ -1104,6 +1191,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Surveys, Studies, Investigations and Special Purpose Grants within the Office
     of the Administrator
 - Compliant_1A: true
@@ -1117,6 +1205,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Surveys, Studies, Investigations, Demonstrations, and Training Grants - Section
     1442 of the Safe Drinking Water Act
 - Compliant_1A: true
@@ -1130,6 +1219,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Surveys, Studies, Investigations, Demonstrations, and Training Grants and
     Cooperative Agreements - Section 104(b)(3) of the Clean Water Act
 - Compliant_1A: true
@@ -1143,6 +1233,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: TSCA Title IV State Lead Grants Certification of Lead-Based Paint Professionals
 - Compliant_1A: true
   Compliant_1B: true
@@ -1155,6 +1246,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Temporally Integrated Monitoring of Ecosystems (TIME) and Long-Term Monitoring
     (LTM) Program
 - Compliant_1A: true
@@ -1168,6 +1260,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Toxic Substances Compliance Monitoring Cooperative Agreements
 - Compliant_1A: true
   Compliant_1B: true
@@ -1180,6 +1273,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Travel - Environmental Protection Agency
 - Compliant_1A: true
   Compliant_1B: true
@@ -1192,6 +1286,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: 'Underground Injection Control Program Grants: Class VI Carbon Sequestration
     Wells'
 - Compliant_1A: true
@@ -1205,6 +1300,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Urban Waters Small Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -1217,6 +1313,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Voluntary School and Child Care Lead Testing and Reduction Grant Program (SDWA
     1464(d))
 - Compliant_1A: true
@@ -1230,6 +1327,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Water Infrastructure Finance and Innovation Act Program (WIFIA) - Loans
 - Compliant_1A: true
   Compliant_1B: true
@@ -1242,6 +1340,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Water Infrastructure Improvements for the Nation Small and Underserved Communities
     Emerging Contaminants Grant Program
 - Compliant_1A: true
@@ -1255,6 +1354,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Wildfire Smoke Preparedness in Community Buildings Grant Program
 PIIA2019_NonCompliant_Programs:
 - Compliant_1A: true
@@ -1268,6 +1368,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Air Pollution Control Program Support
 - Compliant_1A: true
   Compliant_1B: true
@@ -1280,6 +1381,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Brownfields Multipurpose, Assessment, Revolving Loan Fund, and Cleanup Cooperative
     Agreements
 - Compliant_1A: true
@@ -1293,6 +1395,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Brownfields Training, Research, and Technical Assistance Grants and Cooperative
     Agreements
 - Compliant_1A: true
@@ -1306,6 +1409,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Clean Heavy-Duty Vehicles Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -1318,6 +1422,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Clean Ports Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -1330,6 +1435,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Climate Pollution Reduction Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -1342,6 +1448,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Congressionally Mandated Projects
 - Compliant_1A: true
   Compliant_1B: true
@@ -1354,6 +1461,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Consolidated Pesticide Enforcement Cooperative Agreements
 - Compliant_1A: true
   Compliant_1B: true
@@ -1366,6 +1474,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Diesel Emission Reduction Act (DERA) National Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -1378,6 +1487,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Diesel Emissions Reduction Act (DERA) State Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -1390,6 +1500,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Hazardous Waste Management State Program Support
 - Compliant_1A: true
   Compliant_1B: true
@@ -1402,6 +1513,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Indian Environmental General Assistance Program (GAP)
 - Compliant_1A: true
   Compliant_1B: true
@@ -1414,6 +1526,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Innovative Water Infrastructure Workforce Development Program (SDWA 1459E)
 - Compliant_1A: true
   Compliant_1B: true
@@ -1426,6 +1539,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Leaking Underground Storage Tank Trust Fund Corrective Action Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -1438,6 +1552,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: National Estuary Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -1450,6 +1565,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Nonpoint Source Implementation Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -1462,6 +1578,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Performance Partnership Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -1474,6 +1591,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Pollution Prevention Grants Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -1486,6 +1604,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Reducing Lead in Drinking Water (SDWA 1459B)
 - Compliant_1A: true
   Compliant_1B: true
@@ -1498,6 +1617,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Science To Achieve Results (STAR) Research Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -1510,6 +1630,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Senior Environmental Employment Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -1522,6 +1643,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Sewer Overflow and Stormwater Reuse Municipal Grant Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -1534,6 +1656,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Solid Waste Infrastructure for Recycling Infrastructure Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -1546,6 +1669,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: State Public Water System Supervision
 - Compliant_1A: true
   Compliant_1B: true
@@ -1558,6 +1682,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: State and Tribal Response Program Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -1570,6 +1695,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Superfund State and Indian Tribe Combined Cooperative Agreements (Site-Specific
     and Core)
 - Compliant_1A: true
@@ -1583,6 +1709,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Surveys, Studies, Investigations, Training and Special Purpose Activities
     Relating to Environmental Justice
 - Compliant_1A: true
@@ -1596,6 +1723,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Surveys, Studies, Research, Investigations, Demonstrations, and Special Purpose
     Activities Relating to the Clean Air Act Air and Radiation
 - Compliant_1A: true
@@ -1609,6 +1737,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Targeted Airshed Grant Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -1621,6 +1750,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Technical Assistance for Treatment Works (Clean Water Act [CWA] Section 104(b)(8))
 - Compliant_1A: true
   Compliant_1B: true
@@ -1633,6 +1763,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Training, Investigations, and Special Purpose Activities of Federally-Recognized
     Indian Tribes Consistent With the Clean Air Act (CAA), Tribal Sovereignty and
     the Protection and Management of Air Quality
@@ -1647,6 +1778,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Underground Storage Tank (UST) Prevention, Detection, and Compliance Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -1659,6 +1791,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Water Pollution Control State, Interstate, and Tribal Program Support
 - Compliant_1A: true
   Compliant_1B: true
@@ -1671,6 +1804,7 @@ PIIA2019_NonCompliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Water Quality Management Planning
 Payment_Accuracy_Amounts: '[1707.12]'
 Payment_Accuracy_Rate_Max: 99.2
@@ -1679,735 +1813,720 @@ Payment_Accuracy_Rates: '[99.23327772320106]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Air Pollution Control Program Support
     Slug: null
-    Susceptible: 'Yes'
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Alternative or Innovative Treatment Technology Research, Demonstration,
       Training, and Hazardous Substance Research Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Beach Monitoring and Notification Program Implementation Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Brownfields Job Training Cooperative Agreements
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Brownfields Multipurpose, Assessment, Revolving Loan Fund, and Cleanup
       Cooperative Agreements
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Brownfields Training, Research, and Technical Assistance Grants
       and Cooperative Agreements
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Centers of Excellence for Stormwater Control Infrastructure Technologies
       Grant Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Clean & Drinking Water State Revolving Fund (SRF)
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Clean Heavy-Duty Vehicles Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Clean Ports Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Clean School Bus Program - Grants and Rebates
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Clean Water State Revolving Fund
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Climate Pollution Reduction Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2023
+    Susceptible: 'No'
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Commodities - Environmental Protection Agency
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Compliance Assistance Support for Services to the Regulated Community
       and Other Assistance Providers
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Congressionally Mandated Projects
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Consolidated Pesticide Enforcement Cooperative Agreements
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Construction Grants for Wastewater Treatment Works
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Contaminated Alaska Native Claims Settlement Act Lands Assistance
       Agreements
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2023
+    Susceptible: 'No'
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Contracts - Environmental Protection Agency
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Diesel Emission Reduction Act (DERA) National Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Diesel Emissions Reduction Act (DERA) State Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Direct Implementation Tribal Cooperative Agreements
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2021
-    MethodologyChanged: 0
-    Program_Name: Disaster Relief - Hurricane Sandy Fund (Sandy)
-    Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Disaster Relief Funds (2018)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Drinking Water State Revolving Fund
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Drinking Water System Infrastructure Resilience and Sustainability
       Program â€“ SDWA 1459A(l)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Enhanced Aquifer Use and Recharge Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Environmental and Climate Justice Community Change Grants Program
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Environmental Education Grants Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Environmental Finance Center Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Environmental Information Exchange Network Grant Program and Related
       Assistance
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Environmental Justice Collaborative Problem- Solving Cooperative
       Agreement Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Environmental Justice Government-to-Government (EJG2G) Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Environmental Justice Small Grant Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Environmental Justice Thriving Communities Grantmaking Program (EJ
       TCGM)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Environmental Policy and Innovation Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Environmental Protection Consolidated Grants for the Insular Areas
       - Program Support
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
-    MethodologyChanged: 0
-    Program_Name: Environmental and Climate Justice Community Change Grants Program
-    Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Financial Assistance For Community Support Activities To Address
       Environmental Justice Issues
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Geographic Programs - Chesapeake Bay Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Geographic Programs - Chesapeake Bay Program Implementation, Regulatory/Accountability
       and Monitoring Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Geographic Programs - Coastal Wetlands Planning Protection and Restoration
       Act
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Geographic Programs - Columbia River Basin Restoration (CRBR) Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Geographic Programs - Great Lakes Restoration Initiative
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Geographic Programs - Gulf Coast Ecosystem Restoration Council Comprehensive
       Plan Component
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Geographic Programs - Gulf of Mexico Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Geographic Programs - Lake Champlain Basin Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Geographic Programs - Lake Pontchartrain Basic Restoration Program
       (PRP) Improvement Fund
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Geographic Programs - Long Island Sound Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: 'Geographic Programs - Puget Sound Action Agenda: Technical Investigations
       and Implementation Assistance Program'
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: 'Geographic Programs - Puget Sound Protection and Restoration: Tribal
       Implementation Assistance Program'
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Geographic Programs - San Francisco Bay Water Quality
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Geographic Programs - South Florida Geographic Initiatives Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Geographic Programs - Southeast New England Coastal Watershed Restoration
       Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: Greenhouse Gas and Zero Emission On-road Mobile Source Standards
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: 'Greenhouse Gas Reduction Fund: Clean Communities Investment Accelerator'
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: 'Greenhouse Gas Reduction Fund: National Clean Investment Fund'
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: 'Greenhouse Gas Reduction Fund: Solar for All'
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Greenhouse Gas and Zero Emission On-road Mobile Source Standards
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Hazardous Waste Management Grant Program for Tribes
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Hazardous Waste Management State Program Support
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Headquarters and Regional Underground Storage Tanks Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Healthy Communities Grant Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Healthy Environmental Living Program (HELP)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Healthy Watersheds Consortium Grant Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Hydrofluorocarbon Reclaim and Innovative Destruction Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Indian Environmental General Assistance Program (GAP)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Innovative Water Infrastructure Workforce Development Program (SDWA
       1459E)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Innovative Water Technology Grant Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: International Compliance and Enforcement Projects
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: International Financial Assistance Projects Sponsored by the Office
       of International and Tribal Affairs
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Internships, Training, and Workshops for the Environmental Protection
       Agency's (EPA) Office of Air and Radiation
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Leaking Underground Storage Tank Trust Fund Corrective Action Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Multipurpose Grants to States and Tribes
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: National Environmental Education Training Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: National Estuary Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: National Wetland Program Development Grants and Five- Star Restoration
       Training Grant
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Non-State Member Support for the Gulf Hypoxia Action Plan
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Nonpoint Source Implementation Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: Non-State Member Support for the Gulf Hypoxia Action Plan
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Office of Research and Development Consolidated Research/Training/Fellowships
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Ozone Transport Commission
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: 'P3 Award: National Student Design Competition for Sustainability'
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: 'PRIA 5: Farm Worker and Health Care Provider Training and Education
-      Grants'
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2023
+    Susceptible: 'No'
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Payroll - Environmental Protection Agency
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Performance Partnership Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Pesticide Environmental Stewardship Program (PESP) Grants
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Pesticide Registration Improvement Act Employee Training
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Pollution Prevention Grants Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: 'PRIA 5: Farm Worker and Health Care Provider Training and Education
+      Grants'
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Protection of Children from Environmental Health Risks
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2023
+    Susceptible: 'No'
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Purchase Cards - Environmental Protection Agency
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Reduce, Reuse, Recycling Education and Outreach Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Reducing Embodied Greenhouse Gas Emissions for Construction Materials
       and Products
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Reducing Lead in Drinking Water (SDWA 1459B)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Regional Applied Research Efforts (RARE)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Regional Wetland Program Development Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Research, Development, Monitoring, Public Education, Outreach, Training,
       Demonstrations, and Studies
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Response to Emergency Situations Affecting Public Water Systems
       (SDWA 1442b)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Science To Achieve Results (STAR) Research Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Senior Environmental Employment Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2024
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Settlements - Environmental Protection Agency
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Sewer Overflow and Stormwater Reuse Municipal Grant Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Solid Waste Infrastructure for Recycling Infrastructure Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Solid Waste Management Assistance Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Source Reduction Assistance
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: State Programs for Control of Coal Combustion Residuals
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: State Public Water System Supervision
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: State Senior Environmental Employment Program
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: State Underground Water Source Protection
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: State and Tribal Indoor Radon Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: State and Tribal Response Program Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: State Programs for Control of Coal Combustion Residuals
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: State Public Water System Supervision
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: State Senior Environmental Employment Program
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: State Underground Water Source Protection
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Superfund State and Indian Tribe Combined Cooperative Agreements
       (Site-Specific and Core)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Superfund State and Indian Tribe Core Program Cooperative Agreements
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Superfund State, Political Subdivision, and Indian Tribe Site-Specific
       Cooperative Agreements
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Superfund Technical Assistance Grants (TAG) for Community Groups
       at National Priority List (NPL) Sites
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Support for the Gulf Hypoxia Action Plan
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Surveys, Studies, Investigations and Special Purpose Grants within
       the Office of Research and Development
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Surveys, Studies, Investigations and Special Purpose Grants within
       the Office of the Administrator
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Surveys, Studies, Investigations, Demonstrations, and Training Grants
       - Section 1442 of the Safe Drinking Water Act
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Surveys, Studies, Investigations, Demonstrations, and Training Grants
       and Cooperative Agreements - Section 104(b)(3) of the Clean Water Act
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Surveys, Studies, Investigations, Training and Special Purpose Activities
       Relating to Environmental Justice
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Surveys, Studies, Research, Investigations, Demonstrations, and
       Special Purpose Activities Relating to the Clean Air Act Air and Radiation
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: TSCA Title IV State Lead Grants Certification of Lead-Based Paint
-      Professionals
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Targeted Airshed Grant Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Technical Assistance for Treatment Works (Clean Water Act [CWA]
       Section 104(b)(8))
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Temporally Integrated Monitoring of Ecosystems (TIME) and Long-Term
       Monitoring (LTM) Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Toxic Substances Compliance Monitoring Cooperative Agreements
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Training, Investigations, and Special Purpose Activities of Federally-Recognized
       Indian Tribes Consistent With the Clean Air Act (CAA), Tribal Sovereignty and
       the Protection and Management of Air Quality
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2023
+    Susceptible: 'No'
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Travel - Environmental Protection Agency
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: TSCA Title IV State Lead Grants Certification of Lead-Based Paint
+      Professionals
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: 'Underground Injection Control Program Grants: Class VI Carbon Sequestration
       Wells'
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Underground Storage Tank (UST) Prevention, Detection, and Compliance
       Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Urban Waters Small Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Voluntary School and Child Care Lead Testing and Reduction Grant
       Program (SDWA 1464(d))
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Water Infrastructure Finance and Innovation Act Program (WIFIA)
       - Loans
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Water Infrastructure Improvements for the Nation Small and Underserved
       Communities Emerging Contaminants Grant Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Water Pollution Control State, Interstate, and Tribal Program Support
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Water Quality Management Planning
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Wildfire Smoke Preparedness in Community Buildings Grant Program
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2023
-    MethodologyChanged: 0
-    Program_Name: '[Water Infrastructure Finance and Innovation Act Program (WIFIA)]'
     Slug: null
     Susceptible: 'No'
   SubstantialChangesMade: 'No'
@@ -2422,17 +2541,20 @@ Years_Available:
 - 2024
 - 2023
 - 2022
+- 2021
 detail_Additional_IP_Information: Executive Order 14249 mandates that federal agencies,
   including the EPA, conduct individual payment integrity reviews and reporting for
   each Federal Assistance Listing instead of grouping related programs. Recognizing
   the difficulty of this change, the EPA has created an implementation plan to move
   from its prior grants oversight model to this new, more detailed approach.
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Non-Compliant
 detail_DNP_Discussion: For more than seven years the agency has not had any Improper
   Payments identified. Less than once a year we get a "match" for a potential improper
   payment but each case the payment has been adjudicated as proper.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'To sustain the Payment Integrity at the EPA, the agency
   maintains a proactive process of conducting regular risk assessments of its programs
   and expecting regular, ongoing payment reviews. The recently released Executive
@@ -2527,6 +2649,7 @@ detail_OIG_Recommendations: "On May 27, 2025, the EPA’s Office of Inspector Ge
   \ in late October/early November 2025 with implementation planned expected to begin\
   \ one month later. This new S&EMP will serve as a model if other agency programs\
   \ will need to complete a statistical sample of its payments.\n"
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: 'The EPA does not include specific improper payments criteria
   in performance agreements; however, Payment Integrity and Fraud Prevention are captured
   under broader Management Integrity criterion.
@@ -2553,4 +2676,5 @@ layout: agency-specific
 permalink: agency/EPA.html
 recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 50.47
 recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 55.95
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

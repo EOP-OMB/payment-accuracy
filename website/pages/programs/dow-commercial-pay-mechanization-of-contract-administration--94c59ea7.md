@@ -199,6 +199,7 @@ Data_By_Year:
     continued effectiveness and rates below the OMB threshold.
   Margin_of_Error: '0.04'
   Non_Monetary_Loss_Amount: '23.01'
+  Outlays: 222333.38
   Outlays_Current_Year_Plus_1_Amount: 244566.72
   Overpayment_Mitigations_Planned: Training
   Overpayment_Mitigations_Taken: Training
@@ -532,6 +533,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 169.62
   Margin_of_Error: '0.42'
   Non_Monetary_Loss_Amount: '1214.03'
+  Outlays: 225038.87
   Overpayment_Combined_Mitigations_Planned: Change Process, Training
   Overpayment_Combined_Mitigations_Taken: Change Process, Training
   Payment_Accuracy_Rate: 99.38358648885857
@@ -626,16 +628,15 @@ Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2024, 2025]'
-Outlays: 225038.87
 Overpayment_Amounts: '[73.28, 3.52]'
 Payment_Accuracy_Amounts: '[222237.09, 223651.7]'
-Payment_Accuracy_Rate: 99.38358648885857
 Phase_2_Program: 0
 Program_Name: Commercial Pay – Mechanization of Contract Administration Services (MOCAS)
 Scorecard_Links: []
 Technically_Improper_Amounts: '[0, 751.84]'
 Underpayment_Amounts: '[23.01, 462.19]'
 Unknown_Amounts: '[0, 169.62]'
+fpi_link: https://fpi.omb.gov/program/12.006
 layout: program-specific
 permalink: program/dow-commercial-pay-mechanization-of-contract-administration--94c59ea7
 ---

@@ -60,6 +60,7 @@ detail_Additional_IP_Information: Given the relatively small size of our agencyâ
   reaffirmed our low-risk status for improper payments. Finally, there were no recommendations
   from the Office of Inspector General regarding our compliance with or reporting
   on improper payments.
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: While the Farm Credit Administration does not directly use
   Do Not Pay, our shared service provider uses the Do Not Pay Initiative on our behalf
@@ -71,6 +72,7 @@ detail_DNP_Discussion: While the Farm Credit Administration does not directly us
   Federal government.
 detail_DNP_Frequency_Identify: null
 detail_DNP_Reduced: null
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: The Farm Credit Administration (FCA) Inspector General (IG)
   determined that the agency is in compliance with the requirements of the Payment
   Integrity Information Act of 2019 for fiscal year (FY) 2024. The IG review for FY
@@ -80,6 +82,7 @@ detail_Executive_Summary: The Farm Credit Administration (FCA) Inspector General
   integrity through combined efforts with our shared service provider, strong payment
   controls, and continuous monitoring.
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
@@ -90,4 +93,5 @@ layout: agency-specific
 permalink: agency/FCA.html
 recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.051
 recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.051
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

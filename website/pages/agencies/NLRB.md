@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Administrative Law Judges
 - Compliant_1A: true
   Compliant_1B: true
@@ -50,6 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Board Adjudication
 - Compliant_1A: true
   Compliant_1B: true
@@ -62,6 +64,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Case Handling
 - Compliant_1A: true
   Compliant_1B: true
@@ -74,6 +77,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Mission Support
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -83,29 +87,24 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Administrative Law Judges
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Board Adjudication
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Case Handling
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Mission Support
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2023
-    MethodologyChanged: 0
-    Program_Name: National Labor Relations Board
     Slug: null
     Susceptible: 'No'
   SubstantialChangesMade: 'No'
@@ -121,11 +120,13 @@ Years_Available:
 - 2023
 - 2022
 detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: The NLRB has used the available reports in the Do Not Pay System.
   In the long run, the Do Not Pay initiative will help reduce the improper payments.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: The NLRB is required by the PIIA to assess the disbursement
   process and estimate the approximate amount of improper payments every three years.
   In FY 2025, the NLRB PIIA assessment and review was performed by an independent
@@ -144,6 +145,7 @@ detail_Executive_Summary: The NLRB is required by the PIIA to assess the disburs
   the NLRB has effective procedures and controls in place for its payment and disbursement
   processes.
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
@@ -152,4 +154,5 @@ detail_Recovery_Not_Cost_Effective_Justification: null
 detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/NLRB.html
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

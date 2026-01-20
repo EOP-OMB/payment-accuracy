@@ -135,6 +135,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '2.8'
   Non_Monetary_Loss_Amount: '1820'
+  Outlays: 121202.93
   Outlays_Current_Year_Plus_1_Amount: 0
   Overpayment_Mitigations_Taken: Cross Enterprise Sharing, Training
   Payment_Accuracy_Rate: 64.06758483478905
@@ -228,17 +229,18 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2023]'
-Outlays: 0
 Overpayment_Amounts: '[20644.74]'
 Payment_Accuracy_Amounts: '[77651.78999999998]'
-Payment_Accuracy_Rate: 0
 Phase_2_Program: 0
 Program_Name: Employment & Training Administration - Unemployment Insurance - Federal
   Pandemic Unemployment Assistance
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q1 2024/Employment & Training Administration - Unemployement
+    Insurance - Federal Pandemic Unemployment Assistance.pdf
+  QuarterYear: Q1 2024
 Technically_Improper_Amounts: '[0]'
 Underpayment_Amounts: '[1820]'
 Unknown_Amounts: '[21086.4]'

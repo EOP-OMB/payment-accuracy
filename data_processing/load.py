@@ -6,6 +6,7 @@ import config
 from itertools import groupby
 from operator import itemgetter
 from collections import defaultdict
+import json
 import os
 import shutil
 import sqlite3
@@ -62,7 +63,7 @@ def generate_home_page(cursor: sqlite3.Cursor):
         file.write('---\n')
         yaml.dump(page, file, allow_unicode=True)
         file.write('---\n')
-    print("Successfully generated homepage markup file")
+    print("Successfully generated homepage md file")
 
 def generate_agency_programs_page(cursor: sqlite3.Cursor):
     program_rows = query.fetch_all(
@@ -101,7 +102,7 @@ def generate_agency_programs_page(cursor: sqlite3.Cursor):
         file.write('---\n')
         yaml.dump(page, file, allow_unicode=True)
         file.write('---\n')
-    print("Successfully generated agency-wide markup file")
+    print("Successfully generated agency-wide md file")
 
 def extract_column_from_results(fieldName, results):
     return list(map(lambda x: x[fieldName], results))
@@ -195,12 +196,12 @@ def generate_agency_specific_pages_for_year(cursor: sqlite3.Cursor, year):
 
         write_agency_md_files(agency["Agency"], agencyObj, year)
 
-    print("Successfully generated agency-specific markup files for FY " + str(year))
+    print("Successfully generated agency-specific md files for FY " + str(year))
 
 def get_risks(cursor, year, agency):
     assessments = query.fetch_all(
         cursor,
-        query.QUERY_TYPES.RISK_ASSESSMENTS, (year, year, agency, year),
+        query.QUERY_TYPES.RISK_ASSESSMENTS, (agency, year),
         year
     )
 
@@ -245,7 +246,7 @@ def hide_agency_specific_sections(agencyObj):
         ("recovery_Disposition_of_Funds_Through_Returned_to_Treasury" not in agencyObj or agencyObj["recovery_Disposition_of_Funds_Through_Returned_to_Treasury"] is None) and \
         ("recovery_Returned_to_Original_Account" not in agencyObj or agencyObj["recovery_Returned_to_Original_Account"] is None))
     agencyObj["Hide_Disposition_of_Funds"] = recoveryAuditsSkipped or (agencyObj["Hide_Disposition_of_Funds_Table"] and \
-        ("recovery_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered" not in agencyObj or agencyObj["recovery_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered"] is None) and \
+        ("detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered" not in agencyObj or agencyObj["detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered"] is None) and \
         ("recovery_Aging_of_Outstanding_OP_Identified_Amt_0_-_6_months" not in agencyObj or agencyObj["recovery_Aging_of_Outstanding_OP_Identified_Amt_0_-_6_months"] is None) and \
         ("recovery_Aging_of_Outstanding_OP_Identified_Amt_6_months_to_1_year" not in agencyObj or agencyObj["recovery_Aging_of_Outstanding_OP_Identified_Amt_6_months_to_1_year"] is None) and \
         ("recovery_Aging_of_Outstanding_OP_Identified_Amt_over_1_year" not in agencyObj or agencyObj["recovery_Aging_of_Outstanding_OP_Identified_Amt_over_1_year"] is None) and \
@@ -331,7 +332,7 @@ def generate_placeholder_agency_specific_pages(cursor):
                 yaml.dump(agencyObj, file, allow_unicode=True)
                 file.write('---\n')
 
-    print("Successfully generated placeholder agency-specific markup files for FY " + str(config.FISCAL_YEAR))
+    print("Successfully generated placeholder agency-specific md files for FY " + str(config.FISCAL_YEAR))
 
 def generate_program_specific_pages(cursor: sqlite3.Cursor):
     programs = query.fetch_all(cursor, query.QUERY_TYPES.ALL_PROGRAMS, [config.LAST_QUARTERLY_SURVEY, config.FISCAL_YEAR])
@@ -349,8 +350,6 @@ def generate_program_specific_pages(cursor: sqlite3.Cursor):
             "Program_Name": program["Program_Name"],
             "High_Priority_Program": program["High_Priority_Program"],
             "Phase_2_Program": program["Phase_2_Program"],
-            "Outlays": program["Outlays"],
-            "Payment_Accuracy_Rate": program["Payment_Accuracy_Rate"],
             "Description": program["Description"],
             "layout": "program-specific",
             "permalink": "program/" + program["Slug"]
@@ -374,6 +373,7 @@ def generate_program_specific_pages(cursor: sqlite3.Cursor):
         improperPaymentEstimates = query.fetch_all(cursor, query.QUERY_TYPES.PROGRAM_IP_ESTIMATES, [program["Program_Name"]] + programFiscalYearRange)
         
         for row in improperPaymentEstimates:
+            outlays = row["Outlays"]
             fiscal_year = row["Fiscal_Year"]
             accuracy_rate = row["Payment_Accuracy_Rate"]
             ip_rate = row["IP_Rate"]
@@ -390,6 +390,7 @@ def generate_program_specific_pages(cursor: sqlite3.Cursor):
             if any(rate is not None for rate in (accuracy_rate, ip_rate, unknown_rate)):
                 data_by_year_dict[fiscal_year] = {
                     key: value for key, value in {
+                        "Outlays": outlays,
                         "Payment_Accuracy_Rate": accuracy_rate,
                         "Improper_Payments_Rate": ip_rate,
                         "Unknown_Payments_Rate": unknown_rate,
@@ -851,6 +852,19 @@ def generate_program_specific_pages(cursor: sqlite3.Cursor):
                 data_by_year_dict[data_year]["Hide_Program_Results_Additional_Information"]
             ]) >= 4
 
+        # older surveys submitted data for "Did not report" programs
+        # not ideal, but this removes such entries after-the-fact
+        keys_to_delete = []
+        for key, value in data_by_year_dict.items():
+            found = query.fetch_all(cursor, query.QUERY_TYPES.DID_NOT_REPORT, (program["Agency"], program["Program_Name"], key), key)
+            if (len(found) > 0):
+                keys_to_delete.append(key)
+        for key in keys_to_delete:
+            del data_by_year_dict[key]
+        if (len(data_by_year_dict) == 0):
+            # this removal could remove all years.  In that case, return without writing a yaml file
+            return
+
         programObj["Data_By_Year"] = [
             {"Year": year, **attributes}
             for year, attributes in sorted(data_by_year_dict.items())
@@ -878,7 +892,7 @@ def generate_program_specific_pages(cursor: sqlite3.Cursor):
             file.write('---\n')
             yaml.dump(programObj, file, allow_unicode=True)
             file.write('---\n')
-    print("Successfully generated program-specific markup files")
+    print("Successfully generated program-specific md files")
 
 def add_actions_taken(cursor, years, program, data_by_year_dict):
     for fiscal_year in years:
@@ -912,8 +926,6 @@ def generate_congressional_reports_pages(cursor: sqlite3.Cursor):
         congressionalReportsYears
     )
 
-    generate_congressional_shared_data(yearsToGenerate, agencyNameRowsLookup, agencyRows)
-
     # Landing page
     with open(CONGRESSIONAL_REPORTS_MARKUP_PATH, 'w', encoding='utf-8') as file:
         yamlData = {
@@ -926,6 +938,7 @@ def generate_congressional_reports_pages(cursor: sqlite3.Cursor):
         file.write('---\n')
 
     # Generate and write reports
+    reports_with_data = [] # (report_id, agency_code, year)
     for year in yearsToGenerate:
         for report in [report for report in config.CONGRESSIONAL_REPORTS if not report["IsGovernmentWide"]]:
             for agency in agencyRows:
@@ -935,7 +948,10 @@ def generate_congressional_reports_pages(cursor: sqlite3.Cursor):
                     agency["agency"],
                     report["Id"]
                 )
-                agency_report.to_yaml(CONGRESSIONAL_REPORTS_DIR)
+
+                if agency_report.has_data():
+                    agency_report.to_yaml(CONGRESSIONAL_REPORTS_DIR)
+                    reports_with_data.append((report["Id"], agency["agency"], year))
 
         for report in [report for report in config.CONGRESSIONAL_REPORTS if report["IsGovernmentWide"]]:
             governmentwide_report = congressional_reports.GovernmentWideReport(
@@ -943,9 +959,14 @@ def generate_congressional_reports_pages(cursor: sqlite3.Cursor):
                 year,
                 report["Id"]
             )
-            governmentwide_report.to_yaml(CONGRESSIONAL_REPORTS_DIR)
 
-    print("Successfully generated congressional reports markup files")
+            if governmentwide_report.has_data():
+                governmentwide_report.to_yaml(CONGRESSIONAL_REPORTS_DIR)
+                reports_with_data.append((report["Id"], '_', year))
+
+    generate_congressional_shared_data(yearsToGenerate, agencyNameRowsLookup, agencyRows, reports_with_data)
+
+    print("Successfully generated congressional reports md files")
 
 def generate_shared_data():
     with open(SHARED_DATA_PATH, 'w', encoding='utf-8') as file:
@@ -956,7 +977,7 @@ def generate_shared_data():
         yaml.dump(yamlData, file, allow_unicode=True)
         file.write('---\n')
 
-def generate_congressional_shared_data(yearsToGenerate, agencyNameRowsLookup, agencyRows):
+def generate_congressional_shared_data(yearsToGenerate, agencyNameRowsLookup, agencyRows, reportsWithData):
     try:
         os.remove(CONGRESSIONAL_REPORTS_SHARED_DATA_PATH)
     except OSError:
@@ -976,10 +997,22 @@ def generate_congressional_shared_data(yearsToGenerate, agencyNameRowsLookup, ag
             "IsGovernmentWide": report["IsGovernmentWide"]
         } for report in config.CONGRESSIONAL_REPORTS ]
 
+        reportsWithDataHierarchy = {}
+        for report in reportsWithData:
+            reportId = report[0]
+            agency = report[1]
+            year = report[2]
+            if reportId not in reportsWithDataHierarchy:
+                reportsWithDataHierarchy[reportId] = {}
+            if agency not in reportsWithDataHierarchy[reportId]:
+                reportsWithDataHierarchy[reportId][agency] = []
+            reportsWithDataHierarchy[reportId][agency].append(year)
+
         yamlData = {
             'Years_Dropdown': yearsDropdown,
             'Agencies_Dropdown': agencyDropdown,
-            'Reports_Dropdown': reportsDropdown
+            'Reports_Dropdown': reportsDropdown,
+            'Reports_With_Data': reportsWithDataHierarchy
         }
         file.write('---\n')
         yaml.dump(yamlData, file, allow_unicode=True)

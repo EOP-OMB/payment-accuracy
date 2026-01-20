@@ -298,6 +298,7 @@ def agency_specific_sample_data():
                 "pcp10_2": "Yes",
                 "pcp11_2": "Yes",
                 "pcp12_1": None,
+                "Hide_Compliance_Section": 0,
             },
             {
                 "Program_Name": "program2",
@@ -313,6 +314,7 @@ def agency_specific_sample_data():
                 "pcp10_2": "Yes",
                 "pcp11_2": "Yes",
                 "pcp12_1": 3.0,
+                "Hide_Compliance_Section": 0,
             }
         ],
         "risks_data_points_A1": [
@@ -415,7 +417,8 @@ def program_specific_sample_data():
                 "Start_Date": "2023-01-01",
                 "End_Date": "2023-12-31",
                 "CY_Confidence_Level": ">90%",
-                "CY_Margin_of_Error": "+/-1.23"
+                "CY_Margin_of_Error": "+/-1.23",
+                "Outlays": 2000
             },
             {
                 "Fiscal_Year": 2024,
@@ -425,7 +428,8 @@ def program_specific_sample_data():
                 "Start_Date": "2024-01-01",
                 "End_Date": "2024-12-31",
                 "CY_Confidence_Level": ">82%",
-                "CY_Margin_of_Error": "+/-4.34"
+                "CY_Margin_of_Error": "+/-4.34",
+                "Outlays": 1000
             }
         ],
         "program_actions_data_points_2023": [
@@ -714,6 +718,7 @@ def program_specific_sample_data():
                 "IP_Accountability_Description": "Value22"
             }
         ],
+        "did_not_report_programs": [],
         "scorecard_links": [
             {
                 "QuarterYear": "Q1 2024",
@@ -1002,6 +1007,8 @@ def test_generate_program_specific_pages(mock_cursor, program_specific_sample_da
         program_specific_sample_data["program_corrective_actions_data_points"],
         program_specific_sample_data["program_future_outlook_data_points"],
         program_specific_sample_data["program_additional_information_data_points"],
+        program_specific_sample_data["did_not_report_programs"],
+        program_specific_sample_data["did_not_report_programs"],
         program_specific_sample_data["scorecard_links"]
     ]
 
@@ -1022,8 +1029,6 @@ def test_generate_program_specific_pages(mock_cursor, program_specific_sample_da
             assert yaml_data["Agency_Name"] == "Agency 1"
             assert yaml_data["Program_Name"] == "Program 1"
             assert yaml_data["High_Priority_Program"] == 1
-            assert yaml_data["Outlays"] == 1000
-            assert yaml_data["Payment_Accuracy_Rate"] == 98
             assert yaml_data["Description"] == "Description 1"
             assert yaml_data["Payment_Accuracy_Amounts"] == "[1200, 1483]"
             assert yaml_data["Overpayment_Amounts"] == "[100, 456]"
@@ -1033,6 +1038,7 @@ def test_generate_program_specific_pages(mock_cursor, program_specific_sample_da
             assert len(yaml_data["Scorecard_Links"]) == 1
             for year_data in yaml_data["Data_By_Year"]:
                 if year_data.get("Year") == 2023:
+                    assert year_data["Outlays"] == 2000
                     assert year_data["Improper_Payments_Rate"] == 3
                     assert year_data["Payment_Accuracy_Rate"] == 97
                     assert year_data["Actions_Taken"][0]["Action_Taken"] == "Action Taken 1"
@@ -1050,6 +1056,7 @@ def test_generate_program_specific_pages(mock_cursor, program_specific_sample_da
                     assert "Program_Additional_Information" not in year_data
                     assert year_data["IP_Accountability_Description"] == "Value12"
                 elif year_data.get("Year") == 2024:
+                    assert year_data["Outlays"] == 1000
                     assert year_data["Improper_Payments_Rate"] == 5
                     assert year_data["Payment_Accuracy_Rate"] == 86
                     assert year_data["Actions_Taken"][0]["Action_Taken"] == "Action Taken 2"
@@ -1098,27 +1105,30 @@ def test_generate_congressional_reports_pages(mock_cursor, congressional_reports
 
     config.CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING = {
         "2023": {
-            "1": {
-                "key1": {
+            "1": [
+                {
                     "type": config.CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                     "heading": "",
-                    "subheading": ""
+                    "subheading": "",
+                    "key": "key1"
                 }
-            }
+            ]
         },
         "2024": {
-            "1": {
-                "key1": {
+            "1": [
+                {
                     "type": config.CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                     "heading": "",
-                    "subheading": ""
+                    "subheading": "",
+                    "key": "key1"
                 },
-                "key2": {
+                {
                     "type": config.CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                     "heading": "",
-                    "subheading": ""
+                    "subheading": "",
+                    "key": "key2"
                 }
-            }
+            ]
         }
     }
 
@@ -1143,7 +1153,7 @@ def test_generate_congressional_reports_pages(mock_cursor, congressional_reports
         with patch("os.makedirs") as mocked_makedirs:
             load.generate_congressional_reports_pages(mock_cursor)
 
-            mocked_file.assert_called_with(os.path.join(load.CONGRESSIONAL_REPORTS_DIR, "2024_AG2_1.md"), 'w', encoding='utf-8')
+            mocked_file.assert_called_with(load.CONGRESSIONAL_REPORTS_SHARED_DATA_PATH, 'w', encoding='utf-8')
             handle = mocked_file()
             written_content = ''.join(call.args[0] for call in handle.write.call_args_list)
 

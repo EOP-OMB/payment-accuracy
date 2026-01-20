@@ -63,10 +63,8 @@ permalink: /
                             <label class="usa-label" for="report-type">Report type:</label>
                         </div>
                         <div class="desktop:grid-col-10 tablet:grid-col-12 padding-x-0 desktop:padding-x-2 padding-y-2 desktop:padding-y-0">
-                            <select class="usa-select" name="report-type" id="report-type" onchange="enableGenerateReportsButtonIfPossible()">
-                                {% unless report_chosen %}
-                                    <option value="" selected>-Select-</option>
-                                {% endunless %}
+                            <select class="usa-select" name="report-type" id="report-type" onchange="reportChanged()" data-valid-options="{{ site.data.congressional_reports.Reports_With_Data | jsonify | uri_escape }}">
+                                <option value="" selected>-Select-</option>
 
                                 {% assign sorted_reports = site.data.congressional_reports.Reports_Dropdown | sort:"Id" %}
                                 {% for report in sorted_reports %}
@@ -79,10 +77,9 @@ permalink: /
                             <label class="usa-label" for="agency-code">Agency:</label>
                         </div>
                         <div class="desktop:grid-col-10 tablet:grid-col-12 padding-x-0 desktop:padding-x-2 padding-y-2 desktop:padding-y-0">
-                            <select class="usa-select" name="agency-code" id="agency-code" onchange="enableGenerateReportsButtonIfPossible()">
-                                {% unless report_chosen %}
-                                    <option value="" selected>-Select-</option>
-                                {% endunless %}
+                            <select class="usa-select" name="agency-code" id="agency-code" onchange="agencyChanged()">
+                                <option value="" selected>-Select-</option>
+                                <option value="_" {% if page.Agency == '_' %}selected{% endif %}>Governmentwide</option>
 
                                 {% assign sorted_agencies = site.data.congressional_reports.Agencies_Dropdown | sort:"Name" %}
                                 {% for agency in sorted_agencies %}
@@ -95,7 +92,9 @@ permalink: /
                             <label class="usa-label" for="year">Fiscal year (FY):</label>
                         </div>
                         <div class="desktop:grid-col-10 tablet:grid-col-12 padding-x-0 desktop:padding-x-2 padding-y-2 desktop:padding-y-0">
-                            <select class="usa-select" name="year" id="year" onchange="enableGenerateReportsButtonIfPossible()">
+                            <select class="usa-select" name="year" id="year" onchange="yearChanged()">
+                                <option value="" selected>-Select-</option>
+
                                 {% assign sorted_years = site.data.congressional_reports.Years_Dropdown | sort | reverse %}
                                 {% for year in sorted_years %}
                                     <option value="{{ year }}" {% if year == page.Fiscal_Year %}selected{% endif %}>{{ year }}</option>
@@ -277,9 +276,15 @@ permalink: /
                                                 {% assign first_answer = false %}
                                             {% endfor %}
 
+                                            {% assign actions_taken_exist = false %}
                                             {% if program.ActionsTaken != nil and program.ActionsTaken.size > 0 %}
+                                                {% assign actions_taken_exist = true %}
+                                            {% endif %}
+
+                                            {% if actions_taken_exist == true or program.ActionsTakenAdditionalData.Description != nil %}
                                                 <!-- Additional Section for CR #4 -->
-                                                <p class="heading-text">Actions to Reduce Improper Payments</p>
+                                                <p class="heading-text">Actions to Correct the Causes of Improper Payments By Cause Category</p>
+                                                <p class="answer-text">{{ program.ActionsTakenAdditionalData.Description | newline_to_br }}</p>
                                                 {% include _actions-taken-table.html
                                                     Actions_Taken = program.ActionsTaken
                                                 %}

@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Administrative Overhead
 - Compliant_1A: true
   Compliant_1B: true
@@ -50,6 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Agency Services
 - Compliant_1A: true
   Compliant_1B: true
@@ -62,6 +64,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Legislative Archives, Presidential Libraries, and Museum Services
 - Compliant_1A: true
   Compliant_1B: true
@@ -74,6 +77,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: National Historical Publications and Records Commission (NHPRC) Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -86,6 +90,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Office of the Inspector General
 - Compliant_1A: true
   Compliant_1B: true
@@ -98,6 +103,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Repairs and Restoration
 - Compliant_1A: true
   Compliant_1B: true
@@ -110,6 +116,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Research Services
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -119,33 +126,28 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Administrative Overhead
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Agency Services
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Legislative Archives, Presidential Libraries, and Museum Services
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
+  - Fiscal_Year: '2020'
     MethodologyChanged: 0
     Program_Name: National Historical Publications and Records Commission (NHPRC)
       Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Office of Presidential Libraries
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Office of the Inspector General
     Slug: null
@@ -172,7 +174,9 @@ Years_Available:
 - 2024
 - 2023
 - 2022
+- 2021
 detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: NARA's financial shared service provider, the Department of
   Treasury, Bureau of Fiscal Service, runs weekly checks on disbursed payments against
@@ -181,6 +185,7 @@ detail_DNP_Discussion: NARA's financial shared service provider, the Department 
   is taken. No NARA payments were reported to have been stopped by DNP in FY 2025.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: NARA’s Inspector General concluded that the agency was compliant
   with the Payment Integrity Information Act of 2019 (PIIA) in the most recent compliance
   audit. NARA conducts risk assessments for all programs with outlays over $10M on
@@ -190,6 +195,7 @@ detail_Executive_Summary: NARA’s Inspector General concluded that the agency w
   improper payments above the statutory threshold and is classified as Phase 1. NARA's
   FY 2025 improper payments totaled $270,922.58.
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
@@ -209,4 +215,5 @@ layout: agency-specific
 permalink: agency/NARA.html
 recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.271
 recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.217
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

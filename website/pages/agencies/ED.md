@@ -17,13 +17,13 @@ Hide_Risk_Assessment_Results: false
 Hide_Sparklines: false
 Hide_Supplemental_Info: false
 Hide_Supplemental_Payment_Integrity: true
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Improper_Payments_Rate_Max: 1.0
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Improper_Payments_Rate_Max: 2.5
 Improper_Payments_Rate_Min: 0.6
-Improper_Payments_Rates: '[1.0434628271932271, 0.630077202582293, 0.906042402014076,
-  0.7068369465311627]'
+Improper_Payments_Rates: '[2.527142141012081, 1.0434628271932271, 0.630077202582293,
+  0.906042402014076, 0.7068369465311627]'
 Is_Placeholder: false
-Overpayment_Amounts: '[368.054492, 471.884031, 541.65, 548.3000000000001]'
+Overpayment_Amounts: '[361.55655455000004, 368.054492, 471.884031, 541.65, 548.3000000000001]'
 Overpayment_Amounts_Identified: '[840.8021, 459.91, 237.59, 427.74, 443.54]'
 Overpayment_Amounts_Recovered: '[799.75023, 357.7, 215.28, 329.09, 430.79]'
 Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
@@ -39,6 +39,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Adult Education - Basic Grants to States
 - Compliant_1A: true
   Compliant_1B: true
@@ -51,6 +52,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Adult Education National Leadership Activities
 - Compliant_1A: true
   Compliant_1B: true
@@ -63,6 +65,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Alaska Native Educational Programs
 - Compliant_1A: true
   Compliant_1B: true
@@ -75,6 +78,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: American History and Civics Education
 - Compliant_1A: true
   Compliant_1B: true
@@ -87,6 +91,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: American Indian Vocational Rehabilitation Services
 - Compliant_1A: true
   Compliant_1B: true
@@ -99,6 +104,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: American Overseas Research Centers
 - Compliant_1A: true
   Compliant_1B: true
@@ -111,6 +117,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: American Printing House for the Blind
 - Compliant_1A: true
   Compliant_1B: true
@@ -123,6 +130,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Arts in Education
 - Compliant_1A: true
   Compliant_1B: true
@@ -135,6 +143,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Augustus F. Hawkins Centers of Excellence - Teacher Preparation and Development
 - Compliant_1A: true
   Compliant_1B: true
@@ -147,6 +156,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Business and International Education Projects
 - Compliant_1A: true
   Compliant_1B: true
@@ -159,6 +169,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Career and Technical Education - Basic Grants to States
 - Compliant_1A: true
   Compliant_1B: true
@@ -171,6 +182,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Career and Technical Education - Grants to Native Americans and Alaska Natives
 - Compliant_1A: true
   Compliant_1B: true
@@ -183,6 +195,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Career and Technical Education -- National Programs
 - Compliant_1A: true
   Compliant_1B: true
@@ -195,6 +208,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Centers for International Business Education
 - Compliant_1A: true
   Compliant_1B: true
@@ -207,6 +221,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Charter Schools
 - Compliant_1A: true
   Compliant_1B: true
@@ -219,6 +234,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Child Care Access Means Parents in School
 - Compliant_1A: true
   Compliant_1B: true
@@ -231,6 +247,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Civil Rights Training and Advisory Services (also known as Equity Assistance
     Centers)
 - Compliant_1A: true
@@ -244,6 +261,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Competitive Grants for State Assessments
 - Compliant_1A: true
   Compliant_1B: true
@@ -256,6 +274,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Comprehensive Centers
 - Compliant_1A: true
   Compliant_1B: true
@@ -268,6 +287,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Comprehensive Literacy Development
 - Compliant_1A: true
   Compliant_1B: true
@@ -280,6 +300,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Congressionally Directed Spending - Rehabilitation Services and Disability
     Research
 - Compliant_1A: true
@@ -293,6 +314,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Consolidated Grant to the Outlying Areas
 - Compliant_1A: true
   Compliant_1B: true
@@ -305,6 +327,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Contractual Services
 - Compliant_1A: true
   Compliant_1B: true
@@ -317,6 +340,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Credit Enhancement for Charter School Facilities
 - Compliant_1A: true
   Compliant_1B: true
@@ -329,6 +353,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Credit Programs
 - Compliant_1A: true
   Compliant_1B: true
@@ -341,6 +366,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: DC Opportunity Scholarship Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -353,6 +379,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Directed Grants and Awards
 - Compliant_1A: true
   Compliant_1B: true
@@ -365,6 +392,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Disability Innovation Fund (DIF)
 - Compliant_1A: true
   Compliant_1B: true
@@ -377,6 +405,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Disaster Recovery Assistance for Education
 - Compliant_1A: true
   Compliant_1B: true
@@ -389,6 +418,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Education Evaluation and Technical Assistance Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -401,6 +431,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Education Innovation and Research (formerly Investing in Innovation (i3) Fund)
 - Compliant_1A: true
   Compliant_1B: true
@@ -413,6 +444,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Education Research, Development and Dissemination
 - Compliant_1A: true
   Compliant_1B: true
@@ -425,6 +457,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Education Stabilization Fund
   Slug: ed-education-stabilization-fund
 - Compliant_1A: true
@@ -438,6 +471,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Education for Homeless Children and Youth
 - Compliant_1A: true
   Compliant_1B: true
@@ -450,6 +484,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: English Language Acquisition State Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -462,6 +497,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Federal Family Education Loan (FFEL)
 - Compliant_1A: true
   Compliant_1B: true
@@ -474,6 +510,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Federal Pell Grant Program
   Slug: ed-federal-pell-grant-program
 - Compliant_1A: true
@@ -487,6 +524,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Federal Perkins Loan (Perkins)
 - Compliant_1A: true
   Compliant_1B: true
@@ -499,6 +537,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Federal Real Property Assistance Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -511,6 +550,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Federal Supplemental Educational Opportunity Grant (FSEOG)
 - Compliant_1A: true
   Compliant_1B: true
@@ -523,6 +563,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Federal Work-Study
 - Compliant_1A: true
   Compliant_1B: true
@@ -535,6 +576,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Fund for the Improvement of Postsecondary Education
 - Compliant_1A: true
   Compliant_1B: true
@@ -547,6 +589,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Gaining Early Awareness and Readiness for Undergraduate Programs
 - Compliant_1A: true
   Compliant_1B: true
@@ -559,6 +602,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Gallaudet University
 - Compliant_1A: true
   Compliant_1B: true
@@ -571,6 +615,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Graduate Assistance in Areas of National Need
 - Compliant_1A: true
   Compliant_1B: true
@@ -583,6 +628,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Grants for State Assessments and Related Activities
 - Compliant_1A: true
   Compliant_1B: true
@@ -595,6 +641,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Health Education Assistance Loan (HEAL)
 - Compliant_1A: true
   Compliant_1B: true
@@ -607,6 +654,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Helen Keller National Center for Youths and Adults Who Are Deaf-Blind
 - Compliant_1A: true
   Compliant_1B: true
@@ -619,6 +667,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Higher Education Institutional Aid
 - Compliant_1A: true
   Compliant_1B: true
@@ -631,6 +680,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Howard University
 - Compliant_1A: true
   Compliant_1B: true
@@ -643,6 +693,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Impact Aid
 - Compliant_1A: true
   Compliant_1B: true
@@ -655,6 +706,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Impact Aid Facilities Maintenance
 - Compliant_1A: true
   Compliant_1B: true
@@ -667,6 +719,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Indian Education - Special Programs for Indian Children
 - Compliant_1A: true
   Compliant_1B: true
@@ -679,6 +732,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Indian Education Grants to Local Educational Agencies
 - Compliant_1A: true
   Compliant_1B: true
@@ -691,6 +745,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Indian Education National Activities (State Tribal Education Partnership (STEP)
     and Native American Language (NAL)
 - Compliant_1A: true
@@ -704,6 +759,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service Community
     Schools; and Congressionally Directed Spending for Elementary and Secondary Education
     Community Projects
@@ -718,6 +774,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Innovative Rehabilitation Training
 - Compliant_1A: true
   Compliant_1B: true
@@ -730,6 +787,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: International Research and Studies
 - Compliant_1A: true
   Compliant_1B: true
@@ -742,6 +800,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Javits Gifted and Talented Students Education
 - Compliant_1A: true
   Compliant_1B: true
@@ -754,6 +813,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Language Resource Centers
 - Compliant_1A: true
   Compliant_1B: true
@@ -766,6 +826,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Magnet Schools Assistance
 - Compliant_1A: true
   Compliant_1B: true
@@ -778,6 +839,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Migrant Education College Assistance Migrant Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -790,6 +852,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Migrant Education Coordination Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -802,6 +865,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Migrant Education High School Equivalency Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -814,6 +878,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Migrant Education State Grant Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -826,6 +891,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Minority Science and Engineering Improvement
 - Compliant_1A: true
   Compliant_1B: true
@@ -838,6 +904,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: National Resource Centers Program for Foreign Language and Area Studies or
     Foreign Language and International Studies Program and Foreign Language and Area
     Studies Fellowship Program
@@ -852,6 +919,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: National Technical Institute for the Deaf
 - Compliant_1A: true
   Compliant_1B: true
@@ -864,6 +932,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Native Hawaiian Career and Technical Education
 - Compliant_1A: true
   Compliant_1B: true
@@ -876,6 +945,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Native Hawaiian Education
 - Compliant_1A: true
   Compliant_1B: true
@@ -888,6 +958,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Overseas Programs - Doctoral Dissertation Research Abroad
 - Compliant_1A: true
   Compliant_1B: true
@@ -900,6 +971,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Overseas Programs - Faculty Research Abroad
 - Compliant_1A: true
   Compliant_1B: true
@@ -912,6 +984,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Overseas Programs - Group Projects Abroad
 - Compliant_1A: true
   Compliant_1B: true
@@ -924,6 +997,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Overseas Programs Special Bilateral Projects
 - Compliant_1A: true
   Compliant_1B: true
@@ -936,6 +1010,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Personnel Compensation and Benefits
 - Compliant_1A: true
   Compliant_1B: true
@@ -948,6 +1023,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Postsecondary Education Scholarships for Veteran's Dependents
 - Compliant_1A: true
   Compliant_1B: true
@@ -960,6 +1036,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Program of Protection and Advocacy of Individual Rights
 - Compliant_1A: true
   Compliant_1B: true
@@ -972,6 +1049,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Randolph-Sheppard - Financial Relief and Restoration Payments
 - Compliant_1A: true
   Compliant_1B: true
@@ -984,6 +1062,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Ready-To-Learn Television
 - Compliant_1A: true
   Compliant_1B: true
@@ -996,6 +1075,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Rehabilitation Long-Term Training
 - Compliant_1A: true
   Compliant_1B: true
@@ -1008,6 +1088,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Rehabilitation Services Client Assistance Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -1020,6 +1101,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Rehabilitation Services Demonstration and Training Programs
 - Compliant_1A: true
   Compliant_1B: true
@@ -1032,6 +1114,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Rehabilitation Services Independent Living Services for Older Individuals
     Who are Blind
 - Compliant_1A: true
@@ -1045,6 +1128,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Rehabilitation Services Service Projects
 - Compliant_1A: true
   Compliant_1B: true
@@ -1057,6 +1141,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Rehabilitation Services Vocational Rehabilitation Grants to States
 - Compliant_1A: true
   Compliant_1B: true
@@ -1069,6 +1154,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Rehabilitation Short-Term Training
 - Compliant_1A: true
   Compliant_1B: true
@@ -1081,6 +1167,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Rehabilitation Training Technical Assistance Centers
 - Compliant_1A: true
   Compliant_1B: true
@@ -1093,6 +1180,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Research in Special Education
 - Compliant_1A: true
   Compliant_1B: true
@@ -1105,6 +1193,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Rural Education
 - Compliant_1A: true
   Compliant_1B: true
@@ -1117,6 +1206,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: School Safely National Activities
 - Compliant_1A: true
   Compliant_1B: true
@@ -1129,6 +1219,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Special Education - Personnel Development to Improve Services and Results
     for Children with Disabilities
 - Compliant_1A: true
@@ -1142,6 +1233,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Special Education - Special Olympics Education Programs
 - Compliant_1A: true
   Compliant_1B: true
@@ -1154,6 +1246,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Special Education - State Personnel Development
 - Compliant_1A: true
   Compliant_1B: true
@@ -1166,6 +1259,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Special Education Educational Technology Media, and Materials for Individuals
     with Disabilities
 - Compliant_1A: true
@@ -1179,7 +1273,9 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Special Education Grants to States
+  Slug: ed-special-education-grants-to-states
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -1191,6 +1287,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Special Education Parent Information Centers
 - Compliant_1A: true
   Compliant_1B: true
@@ -1203,6 +1300,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Special Education Preschool Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -1215,6 +1313,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Special Education Studies and Evaluations
 - Compliant_1A: true
   Compliant_1B: true
@@ -1227,6 +1326,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Special Education Technical Assistance and Dissemination to Improve Services
     and Results for Children with Disabilities
 - Compliant_1A: true
@@ -1240,6 +1340,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Special Education Technical Assistance on State Data Collection
 - Compliant_1A: true
   Compliant_1B: true
@@ -1252,6 +1353,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Special Education-Grants for Infants and Families
 - Compliant_1A: true
   Compliant_1B: true
@@ -1264,6 +1366,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Statewide Family Engagement Centers
 - Compliant_1A: true
   Compliant_1B: true
@@ -1276,6 +1379,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Statewide Longitudinal Data Systems
 - Compliant_1A: true
   Compliant_1B: true
@@ -1288,6 +1392,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Strengthening Minority-Serving Institutions
 - Compliant_1A: true
   Compliant_1B: true
@@ -1300,6 +1405,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Student Support and Academic Enrichment Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -1312,6 +1418,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Supported Employment Services for Individuals with the Most Significant Disabilities
 - Compliant_1A: true
   Compliant_1B: true
@@ -1324,6 +1431,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Supporting Effective Educator Development Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -1336,6 +1444,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Supporting Effective Instruction State Grants (formerly Improving Teacher
     Quality State Grants)
 - Compliant_1A: true
@@ -1349,6 +1458,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: TRIO Educational Opportunity Centers
 - Compliant_1A: true
   Compliant_1B: true
@@ -1361,6 +1471,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: TRIO McNair Post-Baccalaureate Achievement
 - Compliant_1A: true
   Compliant_1B: true
@@ -1373,6 +1484,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: TRIO Staff Training Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -1385,6 +1497,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: TRIO Student Support Services
 - Compliant_1A: true
   Compliant_1B: true
@@ -1397,6 +1510,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: TRIO Talent Search
 - Compliant_1A: true
   Compliant_1B: true
@@ -1409,6 +1523,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: TRIO Upward Bound
 - Compliant_1A: true
   Compliant_1B: true
@@ -1421,6 +1536,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Teacher Education Assistance for College and Higher Education Grant (TEACH)
 - Compliant_1A: true
   Compliant_1B: true
@@ -1433,6 +1549,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Teacher Quality Partnership Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -1445,6 +1562,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Teacher and School Leader Incentive Grants (formerly the Teacher Incentive
     Fund)
 - Compliant_1A: true
@@ -1458,7 +1576,9 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Title I Grants to Local Educational Agencies
+  Slug: ed-title-i-grants-to-local-educational-agencies
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -1470,6 +1590,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Title I State Agency Program for Neglected and Delinquent Children and Youth
 - Compliant_1A: true
   Compliant_1B: true
@@ -1482,6 +1603,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Traditionally Underserved Populations
 - Compliant_1A: true
   Compliant_1B: true
@@ -1494,6 +1616,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Training Interpreters for Individuals who are Deaf and Individuals who are
     Deaf-Blind
 - Compliant_1A: true
@@ -1507,6 +1630,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Transition Programs for Students with Intellectual Disabilities into Higher
     Education
 - Compliant_1A: true
@@ -1520,6 +1644,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Tribally Controlled Postsecondary Career and Technical Institutions
 - Compliant_1A: true
   Compliant_1B: true
@@ -1532,6 +1657,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Twenty-First Century Community Learning Centers
 - Compliant_1A: true
   Compliant_1B: true
@@ -1544,6 +1670,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Undergraduate International Studies and Foreign Language Programs
 - Compliant_1A: true
   Compliant_1B: true
@@ -1556,79 +1683,55 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: William D. Ford Federal Direct Loan Program
   Slug: ed-william-d-ford-federal-direct-loan-program
 PIIA2019_NonCompliant_Programs: []
-Payment_Accuracy_Amounts: '[170376.645617, 220154.362094, 182647.52000000002, 184385.65]'
+Payment_Accuracy_Amounts: '[123402.86963394999, 170376.645617, 220154.362094, 182647.52000000002,
+  184385.65]'
 Payment_Accuracy_Rate_Max: 99.4
 Payment_Accuracy_Rate_Min: 91.6
-Payment_Accuracy_Rates: '[91.55343335466112, 99.36850101873827, 99.08475151496214,
-  99.28814979633844]'
+Payment_Accuracy_Rates: '[97.46625495020791, 91.55343335466112, 99.36850101873827,
+  99.08475151496214, 99.28814979633844]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Academic Competitiveness Grant
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Administrative Payments - Department of Education
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Adult Education - Basic Grants to States
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Adult Education National Leadership Activities
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Advanced Placement Program (Advanced Placement Test Fee; Advanced
-      Placement Incentive Program Grants)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Alaska Native Educational Programs
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: America's Career Resources Network
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: American History and Civics Education
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: American Indian Vocational Rehabilitation Services
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: American Overseas Research Centers
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: American Printing House for the Blind
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Appalachian Regional Commission Program
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Arts in Education
     Slug: null
@@ -1641,84 +1744,57 @@ Risks:
     Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Baccalaureate Degrees in Science, Technology, Engineering, Mathematics,
-      and Critical Foreign Languages and Master's Degrees in Science, Technology,
-      Engineering, Mathematics, and Critical Foreign Languages
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
     Program_Name: Business and International Education Projects
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Career and Technical Education - Basic Grants to States
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Career and Technical Education - Grants to Native Americans and
       Alaska Natives
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
-    MethodologyChanged: 0
-    Program_Name: Career and Technical Education - National Programs
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2020'
     MethodologyChanged: 0
     Program_Name: Career and Technical Education -- National Programs
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2019
+    Susceptible: 'No'
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Centers for International Business Education
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Charter Schools
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Child Care Access Means Parents in School
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Child Care Provider Loan Forgiveness Demonstration
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Civil Rights Training and Advisory Services (Equity Assistance Centers)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Civil Rights Training and Advisory Services (also known as Equity
       Assistance Centers)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: College Access Challenge Grant Program
-    Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
+  - Fiscal_Year: '2020'
     MethodologyChanged: 0
     Program_Name: Competitive Grants for State Assessments
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Comprehensive Centers
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Comprehensive Literacy Development
     Slug: null
@@ -1729,129 +1805,83 @@ Risks:
       Disability Research
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Consolidated Grant to the Outlying Areas
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Contractual Services
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Coordinator for the Outlying Areas
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Credit Enhancement for Charter School Facilities
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Credit Programs
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: DC Opportunity Scholarship Program
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Demonstration Projects to Support Postsecondary Faculty, Staff,
-      and Administrations in Educating Students with Disabilities
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
     Program_Name: Directed Grants and Awards
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2022
+  - Fiscal_Year: '2022'
     MethodologyChanged: 0
     Program_Name: Disability Innovation Fund (DIF)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Disaster Recovery Assistance for Education
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
-    Program_Name: Early Childhood Educator Professional Development
+    Program_Name: Education for Homeless Children and Youth
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Ed-Flex
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Education Evaluation and Technical Assistance Grants
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Education Innovation and Research (formerly Investing in Innovation
       (i3) Fund)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Education Research, Development and Dissemination
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2021
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Education Stabilization Fund
     Slug: ed-education-stabilization-fund
-    Susceptible: 'Yes'
-  - Fiscal_Year: 2025
-    MethodologyChanged: 0
-    Program_Name: Education for Homeless Children and Youth
-    Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Educational Resources Information Center
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Educational Technology State Grants
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Elementary School Foreign Language Incentive Program
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2022
-    MethodologyChanged: 0
-    Program_Name: Emergency Assistance to Institutions of Higher Education
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: English Language Acquisition State Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Federal Family Education Loan (FFEL)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Federal Pell Grant Program
     Slug: ed-federal-pell-grant-program
-    Susceptible: null
-  - Fiscal_Year: 2023
+    Susceptible: 'Yes'
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Federal Perkins Loan (Perkins)
     Slug: null
@@ -1861,277 +1891,167 @@ Risks:
     Program_Name: Federal Real Property Assistance Program
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Federal Supplemental Educational Opportunity Grant (FSEOG)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Federal Work-Study
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Foreign Language Assistance Program (LEAs)
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Fulbright-Hays Seminars Abroad--Bilateral Projects
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Fund for the Improvement of Postsecondary Education
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Gaining Early Awareness and Readiness for Undergraduate Programs
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Gallaudet University
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Graduate Assistance in Areas of National Need
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Graduate Research Opportunities for Minority Students (Minorities
-      and Retirement Security Program)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Grant Competition to Improve Public Knowledge of and Support for
-      Democracy
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Grants for State Assessments and Related Activities
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Grants to States for Workplace and Community Transition Training
-      for Incarcerated Individuals
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Health Education Assistance Loan (HEAL)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Helen Keller National Center for Youths and Adults Who Are Deaf-Blind
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: High School Graduation Initiatives
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Higher Education Institutional Aid
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Historically Black College and University Capital Financing
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Howard University
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2022
-    MethodologyChanged: 0
-    Program_Name: Immediate Aid To Restart School Operations (RESTART)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Impact Aid
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2021
+  - Fiscal_Year: '2021'
     MethodologyChanged: 0
     Program_Name: Impact Aid Facilities Maintenance
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Improving Literacy Through School Libraries
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Indian Education - National Activities
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Indian Education - Special Programs for Indian Children
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Indian Education Grants to Local Educational Agencies
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Indian Education National Activities (State Tribal Education Partnership
       (STEP) and Native American Language (NAL)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service
       Community Schools; and Congressionally Directed Spending for Elementary and
       Secondary Education Community Projects
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Innovative Rehabilitation Training
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: International Research and Studies
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
-    MethodologyChanged: 0
-    Program_Name: Iraq and Afghanistan Service Grant (IASG)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Javits Gifted and Talented Students Education
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Language Resource Centers
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Leveraging Educational Assistance Partnership (LEAP) Program
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Life Skills for State and Local Prisoners Program
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Literacy Information and Communication System Regional Professional
-      Development Centers
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Local Flexibility Demonstration Program
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Magnet Schools Assistance
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Martin Luther King, Jr., Scholars Program
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Mathematics and Science Partnerships
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Migrant Education College Assistance Migrant Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Migrant Education Coordination Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Migrant Education High School Equivalency Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Migrant Education State Grant Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Migrant and Seasonal Farmworkers Program
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Minority Science and Engineering Improvement
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: National Assessment of Educational Progress
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: National Blue Ribbon Schools Program
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: National Resource Centers Program for Foreign Language and Area
       Studies or Foreign Language and International Studies Program and Foreign Language
       and Area Studies Fellowship Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: National Science and Mathematics Access to Retain Talent (SMART)
-      Grants
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: National Technical Institute for the Deaf
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Native Hawaiian Career and Technical Education
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Native Hawaiian Education
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Overseas Programs - Doctoral Dissertation Research Abroad
     Slug: null
@@ -2141,7 +2061,7 @@ Risks:
     Program_Name: Overseas Programs - Faculty Research Abroad
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2020
+  - Fiscal_Year: '2020'
     MethodologyChanged: 0
     Program_Name: Overseas Programs - Group Projects Abroad
     Slug: null
@@ -2151,12 +2071,7 @@ Risks:
     Program_Name: Overseas Programs Special Bilateral Projects
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Performance Partnership Pilots for Disconnected Youth
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Personnel Compensation and Benefits
     Slug: null
@@ -2166,87 +2081,37 @@ Risks:
     Program_Name: Postsecondary Education Scholarships for Veteran's Dependents
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Preschool Development Grants
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Program of Protection and Advocacy of Individual Rights
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Projects With Industry
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Promoting Readiness of Minors in Supplemental Security Income
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2020
-    MethodologyChanged: 0
-    Program_Name: Purchase Cards - Department of Education
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Quality Zone Academy Bonds
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Race to the Top - District Grants
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Race to the Top - Early Learning Challenge
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2022
+  - Fiscal_Year: '2022'
     MethodologyChanged: 0
     Program_Name: Randolph-Sheppard - Financial Relief and Restoration Payments
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Ready-To-Learn Television
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Regional Educational Laboratories
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Rehabilitation Act Program Evaluation
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Rehabilitation Act Program Improvement
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Rehabilitation Long-Term Training
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Rehabilitation Services Client Assistance Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Rehabilitation Services Demonstration and Training Programs
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Rehabilitation Services Independent Living Services for Older Individuals
       Who are Blind
@@ -2257,352 +2122,242 @@ Risks:
     Program_Name: Rehabilitation Services Service Projects
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Rehabilitation Services Vocational Rehabilitation Grants to States
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Rehabilitation Short-Term Training
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
+  - Fiscal_Year: '2020'
     MethodologyChanged: 0
     Program_Name: Rehabilitation Training Technical Assistance Centers
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Research in Special Education
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Rural Education
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: School Ambassador Fellowship Program
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2022
-    MethodologyChanged: 0
-    Program_Name: School Improvement Grants
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: School Leader Recruitment and Support (formerly School Leadership)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: School Safely National Activities
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Small Business Innovation Research (SBIR) Program
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Special Education - Personnel Development to Improve Services and
       Results for Children with Disabilities
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Special Education - Special Olympics Education Programs
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Special Education - State Personnel Development
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Special Education Educational Technology Media, and Materials for
       Individuals with Disabilities
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Special Education Grants to States
-    Slug: null
+    Slug: ed-special-education-grants-to-states
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Special Education Parent Information Centers
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Special Education Preschool Grants
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Special Education Studies and Evaluation
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
     Program_Name: Special Education Studies and Evaluations
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Special Education Technical Assistance and Dissemination to Improve
       Services and Results for Children with Disabilities
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Special Education Technical Assistance on State Data Collection
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Special Education-Grants for Infants and Families
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Special Leveraging Educational Assistance Partnership (SLEAP) Program
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: State Fiscal Stabilization Fund (SFSF) - Investing in Innovation
-      (i3) Fund, Recovery Act
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: State Flexibility Demonstration Program
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: State Grants for Innovative Programs
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Statewide Family Engagement Centers
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Statewide Longitudinal Data Systems
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Strengthening Minority-Serving Institutions
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Student Aid and Fiscal Responsibility (SAFRA) Act Payments to FFEL
-      Loans Servicers for Retaining Jobs in the United States
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Student Support and Academic Enrichment Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Supplemental Education Grants
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Supported Employment Services for Individuals with the Most Significant
       Disabilities
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Supporting Effective Educator Development Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Supporting Effective Instruction State Grants (formerly Improving
       Teacher Quality State Grants)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
-    MethodologyChanged: 0
-    Program_Name: TRIO Educational Opportunity Centers
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
-    MethodologyChanged: 0
-    Program_Name: TRIO McNair Post-Baccalaureate Achievement
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: TRIO Staff Training Program
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
-    MethodologyChanged: 0
-    Program_Name: TRIO Student Support Services
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
-    MethodologyChanged: 0
-    Program_Name: TRIO Talent Search
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
-    MethodologyChanged: 0
-    Program_Name: TRIO Upward Bound
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2023
-    MethodologyChanged: 0
-    Program_Name: Teacher Education Assistance for College and Higher Education Grant
-      (TEACH)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
-    MethodologyChanged: 0
-    Program_Name: Teacher Quality Partnership Grants
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Teacher Quality Partnerships, Recovery Act
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Teacher and School Leader Incentive Grants (formerly the Teacher
       Incentive Fund)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
-    Program_Name: Tech-Prep Demonstration Grants
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Temporary Emergency Impact Aid for Displaced Students
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Territories and Freely Associated States Education Grant Program
+    Program_Name: Teacher Education Assistance for College and Higher Education Grant
+      (TEACH)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Teacher Quality Partnership Grants
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Title I Grants to Local Educational Agencies
-    Slug: null
+    Slug: ed-title-i-grants-to-local-educational-agencies
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Title I State Agency Program for Neglected and Delinquent Children
       and Youth
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Traditionally Underserved Populations
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Training Interpreters for Individuals who are Deaf and Individuals
       who are Deaf-Blind
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
-    MethodologyChanged: 0
-    Program_Name: Transit Benefits
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Transition Programs for Students with Intellectual Disabilities
       into Higher Education
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
-    MethodologyChanged: 0
-    Program_Name: Transition to Teaching
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2020
-    MethodologyChanged: 0
-    Program_Name: Travel and Transportation - Department of Education
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Tribally Controlled Postsecondary Career and Technical Institutions
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: TRIO Educational Opportunity Centers
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: TRIO McNair Post-Baccalaureate Achievement
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2019'
+    MethodologyChanged: 0
+    Program_Name: TRIO Staff Training Program
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: TRIO Student Support Services
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: TRIO Talent Search
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: TRIO Upward Bound
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Twenty-First Century Community Learning Centers
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: U.S. Presidential Scholars Program
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Undergraduate International Studies and Foreign Language Programs
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Unsolicited Grant Opportunities
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Vocational Rehabilitation State Grants
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Voluntary Public School Choice
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: William D. Ford Federal Direct Loan Program
     Slug: ed-william-d-ford-federal-direct-loan-program
-    Susceptible: null
+    Susceptible: 'Yes'
   SubstantialChangesMade: 'No'
-Technically_Improper_Amounts: '[1408.98, 667.3199999999999, 850.59, 746.71]'
-Underpayment_Amounts: '[164.800891, 256.753875, 277.90999999999997, 17.64]'
-Unknown_Amounts: '[13776.829, 3.15, 16.97, 9.31]'
+Technically_Improper_Amounts: '[2672.17, 1408.98, 667.3199999999999, 850.59, 746.71]'
+Underpayment_Amounts: '[165.91, 164.800891, 256.753875, 277.90999999999997, 17.64]'
+Unknown_Amounts: '[8.36, 13776.829, 3.15, 16.97, 9.31]'
 Unknown_Payments_Rate_Max: 7.4
 Unknown_Payments_Rate_Min: 0.0
-Unknown_Payments_Rates: '[7.4031038181456585, 0.0014217786794312, 0.009206083023787606,
-  0.005013257130389003]'
+Unknown_Payments_Rates: '[0.0066029087800043304, 7.4031038181456585, 0.0014217786794312,
+  0.009206083023787606, 0.005013257130389003]'
 Years_Available:
 - 2025
 - 2024
 - 2023
 - 2022
+- 2021
 detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: The Department of Education utilizes the Treasury's Do Not
   Pay (DNP) system to verify and cross-check information across multiple databases,
@@ -2613,6 +2368,7 @@ detail_DNP_Discussion: The Department of Education utilizes the Treasury's Do No
   from occurring.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: "Federal Student Aid's (FSA’s) Federal Pell Grant (Pell)\
   \ and William D. Ford Direct Loan (Direct Loan) programs are considered Phase 2\
   \ programs per OMB Circular A-123, Appendix C (“A-123C”). The major causes of improper\
@@ -2671,6 +2427,7 @@ detail_Executive_Summary: "Federal Student Aid's (FSA’s) Federal Pell Grant (P
   \ the Department’s grants management community continues to address through its\
   \ technical assistance to grantees."
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
@@ -2698,4 +2455,5 @@ layout: agency-specific
 permalink: agency/ED.html
 recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 443.54
 recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 430.79
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

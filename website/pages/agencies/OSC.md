@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: OSC- Investigation and Prosecution of Reprisals for Whistle Blowing
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -47,7 +48,7 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: OSC- Investigation and Prosecution of Reprisals for Whistle Blowing
     Slug: null
@@ -65,16 +66,19 @@ Years_Available:
 - 2023
 - 2022
 detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: My agency has run Do Not Pay reports, and since the agency
   is so small, it has not had any instances where there was incorrect information.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: OSC is a small agency that maintains strong internal controls
   to ensure payment accuracy and integrity with its various vendors and partners,
   both inside and outside of government.  OSC has had a clean audit opinion for a
   number of years now, which is reflective of this fact.
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
@@ -83,4 +87,5 @@ detail_Recovery_Not_Cost_Effective_Justification: null
 detail_Risks_Substantial_Changes_Made: null
 layout: agency-specific
 permalink: agency/OSC.html
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

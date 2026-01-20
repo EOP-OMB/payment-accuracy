@@ -42,13 +42,20 @@ permalink: /
                         </a>
                     {% endif %}
                 </div>
-                <div class="desktop:grid-col-4 mobile:grid-col-12 metrics-summary">
-                    <p>PROGRAM METRICS</p>
-                    <h2>${{page.Outlays | round: 0 | thousands_separator}} M</h2>
-                    <p>in <strong>FY {{ page.Fiscal_Year }} outlays</strong>, with a</p>
-                    <h2>{{ page.Payment_Accuracy_Rate | round: 1 }}%</h2>
-                    <p><strong>payment accuracy</strong> rate</p>
-                </div>
+                {% for year_data in page.Data_By_Year %}
+                    <div class="desktop:grid-col-4 mobile:grid-col-12 metrics-summary {% if year_data.Year == page.Fiscal_Year %}{% else %}hide{% endif %}" data-year="{{ year_data.Year }}">
+                        <p>PROGRAM METRICS</p>
+                        {% if year_data.Outlays != nil and year_data.Outlays != 0 %}
+                            <h2>${{year_data.Outlays | round: 0 | thousands_separator}} M</h2>
+                            <p>in <strong>FY {{ year_data.Year }} outlays</strong>, with a</p>
+                            <h2>{{ year_data.Payment_Accuracy_Rate | round: 1 }}%</h2>
+                            <p><strong>payment accuracy</strong> rate</p>
+                        {% else %}
+                            <h2>Did not report</h2>
+                            <p>in <strong>FY {{ year_data.Year }}</strong></p>
+                        {% endif %}
+                    </div>
+                {% endfor %}
             </div>
         </div>
         {% unless page.Hide_Integrity_Results == true %}

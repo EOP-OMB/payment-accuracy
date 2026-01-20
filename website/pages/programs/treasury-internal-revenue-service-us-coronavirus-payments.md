@@ -32,6 +32,7 @@ Data_By_Year:
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
+  Outlays: 0
   Program_Additional_Information: In FY 2021, the IRS US Coronavirus Payments was
     determined to be susceptible to significant improper payments through the risk
     assessment process. However, Treasury notified OMB in August 2022 that we will
@@ -92,6 +93,7 @@ Data_By_Year:
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
+  Outlays: 0
   Program_Design_or_Structural_Issue: 0.0
   Year: 2024
   detail_No_Estimates_Why: In FY 21, the Internal Revenue Service- US Coronavirus
@@ -155,6 +157,7 @@ Data_By_Year:
   Hide_Underpayments_Failure_to_Access_Data: true
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
+  Outlays: 0
   Year: 2025
   detail_IP_Causes: null
   detail_No_Estimates_Why: The Internal Revenue Service US Coronavirus Payments was
@@ -174,21 +177,19 @@ Data_By_Year:
   detail_Reduction_Target: null
 Description: null
 Fiscal_Year: 2025
-Hide_Integrity_Results: false
+Hide_Integrity_Results: true
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2024, 2025]'
-Outlays: 0
-Overpayment_Amounts: '[0, 0, 0]'
-Payment_Accuracy_Amounts: '[0, 0, 0]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[]'
+Overpayment_Amounts: '[]'
+Payment_Accuracy_Amounts: '[]'
 Phase_2_Program: 0
 Program_Name: Internal Revenue Service - US Coronavirus Payments
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0]'
-Underpayment_Amounts: '[0, 0, 0]'
-Unknown_Amounts: '[0, 0, 0]'
+Technically_Improper_Amounts: '[]'
+Underpayment_Amounts: '[]'
+Unknown_Amounts: '[]'
 layout: program-specific
 permalink: program/treasury-internal-revenue-service-us-coronavirus-payments
 ---

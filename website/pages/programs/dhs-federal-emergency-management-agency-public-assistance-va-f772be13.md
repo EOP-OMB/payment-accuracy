@@ -2,6 +2,91 @@
 Agency: DHS
 Agency_Name: Department of Homeland Security
 Data_By_Year:
+- Agency_Needs_Satisfied: Program is reflective of disaster supplemental funding that
+    was received by DHS to respond to the Hurricane Harvey, Irma, and Maria disasters
+    that occurred in the 2017 / 2018 timeframe. Due to the burden of testing and reporting,
+    Disaster Supplemental Funding programs are tested and reported two years in arrears.
+    As such, by the time that remedial action is taken and/or is realized in the PIIA
+    testing results, the total value of annual disbursements is expected to be below
+    the threshold for PIIA action. DHS will continue to make process and internal
+    control improvements to improve the payment management processes as it relates
+    to supplemental funding but feels that internal control, human capital, information
+    system, and infrastructure needs have been met.
+  Confidence_Level: '>90%'
+  Corrective_Actions_Proportion: FEMA Leadership prioritizes the annual PIIA assessments
+    and has high expectations of reducing IPs and UPs. FEMA Leadership stresses the
+    importance of being a good steward of taxpayer dollars which is trickled down
+    the FEMA levels of hierarchy. Root cause analyses are performed at the completion
+    of PIIA testing for each program which are used a basis for creating the respective
+    MAPs as well as improving the respective internal control environments. Overall,
+    the IPs and UPs are decreasing. Additionally, FEMA will be conducting training
+    and require routine meetings with stakeholders as needed.
+  End_Date: 09/2019
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Current_Year_Plus_1_Amount: 29.341
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0649996146
+  Improper_Payments_Rate: 1.5270394200000001
+  Insufficient_Documentation_to_Determine: 214.4877
+  Is_Lowest_IP_And_Unknown_Rate: 'No'
+  Margin_of_Error: '11.99027'
+  Non_Monetary_Loss_Amount: '0.0'
+  Outlays: 3935.144
+  Outlays_Current_Year_Plus_1_Amount: 2062.643
+  Payment_Accuracy_Rate: 93.02239257318156
+  Program_Design_or_Structural_Issue: 0.0
+  Start_Date: 10/2018
+  Technical_IP_Amount: '0.0'
+  Unknown_Curent_Year_Plus_1_Amount: 104.73
+  Unknown_Payments_Rate: 5.450568009709429
+  Unknown_Why: Insufficient or lack of documentation from the States and/or regions
+    to perform sufficient testing to determine the appropriateness and accuracy of
+    the payment.
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 60.0912
+    Financial: 60.0912
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '60.0912'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: DHS has what is needed with respect to internal controls,
     human capital and information system and other infrastructure to reduce improper
     payments and unknown payments to the tolerable rate for the Federal Emergency
@@ -47,6 +132,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '1.19'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 4767.94331221
   Outlays_Current_Year_Plus_1_Amount: 20598.363091
   Payment_Accuracy_Rate: 94.90592667286934
   Program_Additional_Information: "The Robert T. Stafford Disaster Relief and Emergency\
@@ -504,6 +590,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '2.61'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 39724.05052086
   Outlays_Current_Year_Plus_1_Amount: 21019.59208998
   Overpayment_Mitigations_Planned: Audit, Automation, Change Process, Training
   Overpayment_Mitigations_Taken: Audit, Automation, Change Process, Training
@@ -956,6 +1043,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 240.08131401
   Margin_of_Error: '1.27'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 21313.03477687
   Overpayment_Combined_Mitigations_Planned: Audit, Automation, Change Process, Training
   Overpayment_Combined_Mitigations_Taken: Audit, Automation, Change Process, Training
   Payment_Accuracy_Rate: 98.77784684477368
@@ -1121,24 +1209,42 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
-Description: null
+Description: The Federal Emergency Management Agency (FEMA) Public Assistance program
+  provides supplemental grants to state, local, tribal, and territorial (SLTT) governments,
+  and certain types of private non-profits for emergency response and long-term disaster
+  recovery efforts. Due to the nature of the Public Assistance program, FEMA is reliant
+  on additional parties, such as states, territories, etc., to oversee and execute
+  payments on behalf of the program. The barrier related to the expansive COVID disaster
+  size and the level of burden to collect the necessary supporting documentation serves
+  as a limitation to FEMA in improving the prevention of improper payments due to
+  the inability to readily match information related to financial eligibility.
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2024, 2025]'
-Outlays: 21313.03477687
-Overpayment_Amounts: '[52.18718638, 136.34674255, 20.39661299]'
-Payment_Accuracy_Amounts: '[4525.06078369, 38191.563677210004, 21052.55684987]'
-Payment_Accuracy_Rate: 98.77784684477368
+Improper_Payments_Data_Years: '[2021, 2022, 2024, 2025]'
+Overpayment_Amounts: '[60.0912, 52.18718638, 136.34674255, 20.39661299]'
+Payment_Accuracy_Amounts: '[3660.5651, 4525.06078369, 38191.563677210004, 21052.55684987]'
 Phase_2_Program: 0
 Program_Name: Federal Emergency Management Agency - Public Assistance - Validate as
   You Go
-Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0]'
-Underpayment_Amounts: '[0, 0, 0]'
-Unknown_Amounts: '[190.69534214, 1396.1401011, 240.08131401]'
+Scorecard_Links:
+- Link: assets/scorecards/Q1 2025/Federal Emergency Management Agency (FEMA) - Public
+    Assistance - Validate as You Go.pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q2 2025/Federal Emergency Management Agency (FEMA) - Public
+    Assistance - Validate as You Go.pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q3 2025/Federal Emergency Management Agency (FEMA) - Public
+    Assistance - Validate as You Go.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/Federal Emergency Management Agency - Public Assistance
+    - Validate as You Go.pdf
+  QuarterYear: Q4 2025
+Technically_Improper_Amounts: '[0, 0, 0, 0]'
+Underpayment_Amounts: '[0, 0, 0, 0]'
+Unknown_Amounts: '[214.4877, 190.69534214, 1396.1401011, 240.08131401]'
 fpi_link: https://fpi.omb.gov/program/97.036
 layout: program-specific
 permalink: program/dhs-federal-emergency-management-agency-public-assistance-va-f772be13

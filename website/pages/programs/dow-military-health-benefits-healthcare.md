@@ -2,6 +2,124 @@
 Agency: DOW
 Agency_Name: Department of War
 Data_By_Year:
+- Agency_Needs_Satisfied: "\"Internal Controls:\nDHA has internal controls in place\
+    \ to support the reduction of improper payments in the TRICARE purchased health\
+    \ care program to the levels the DHA has targeted.  Effective January 1, 2018,\
+    \ and in fulfillment of section 701 of the National Defense Authorization Act\
+    \ for FY 2017, the DHA implemented sweeping changes to the TRICARE health benefits\
+    \ structure and MCS contract management to synchronize these changes.  As a result,\
+    \ the DHA transitioned its TRICARE-3 MCSCs (supported by three regional contracts/contractors)\
+    \ to the TRICARE 2017 contract and regional oversight model (supported by two\
+    \ regional contracts/contractors).  \nWhile the transition of MCSC contracts from\
+    \ three to two was considered a success, the transitioning of claims processing\
+    \ services under one of the two T2017 MCSC was met with challenges and control\
+    \ failures.  As a result of a contractor’s poor claims processing performance,\
+    \ DHA’s program and contracting offices increased oversight and monitoring of\
+    \ the T2017 contractor.  Significant progress was made in FY 2020 and FY 2021\
+    \ by the DHA and the MCSC contractor to resolve this deficiency and DHA met its\
+    \ goal of full resolution by the FY 2021 AFR reporting cycle.  Moreover, the Contract\
+    \ Resource Management division of DHA received an unmodified audit opinion on\
+    \ its financial statements in FY 2020.\n\nHuman Capital:\nCurrently, DHA does\
+    \ not have the Human Capital it needs to respond to audit findings and recommendations\
+    \ to reduce improper payments in the Military Health Benefits program to the level\
+    \ the Agency has targeted. DHA is evaluating the possibility of adding two additional\
+    \ FTEs to their payment integrity efforts. \nPer a DoDIG recommendation in 2019,\
+    \ Administrative and Other Payment sampling and audits are being developed for\
+    \ annual improper payment reporting. These audits for PIIA compliance, are in\
+    \ addition to the current Prompt Pay Audits, and have demonstrated a need for\
+    \ additional Human Capital. Much work has already been done to identify internal\
+    \ control weaknesses and identify and gather additional necessary documentation;\
+    \ but, the resources to review payments in their entirety are insufficient. DHA\
+    \ is anticipating a risk assessment for USFHP, which accounts for nearly 40% of\
+    \ administrative costs, and has identified other administrative payments that\
+    \ are suited for risk assessments. For time-intensive manual CAP-DME payment reviews,\
+    \ a database was developed to track prior payments to avoid duplicate requests\
+    \ for payment in future invoices. This database is in its third phase of development\
+    \ and has showed effectiveness in preventing duplicate payments going forward.\
+    \ \nIn addition, DHA anticipates the agency will need additional skill sets and\
+    \ personnel resources to make determinations on improper payments when addressing\
+    \ adjustments in both the universes and in payment errors for PIIA reporting.\n\
+    \nInformation Systems and Other Infrastructure:\nDHA has the information systems\
+    \ and other infrastructure it needs to reduce improper payments in the Military\
+    \ Health Benefits program to the levels the Agency has targeted.  The Agency Private\
+    \ Sector program (managed by the Contract Resource Management Division) includes\
+    \ an immense volume of healthcare claims processed by TRICARE private sector contractors,\
+    \ into the Agency’s TRICARE Encounter Date (TED) Operational Data Store (ODS).\
+    \ To track programs, CRM utilizes 1) the TRICARE Encounter Data Set (TEDS), a\
+    \ financial feeder system through which claims are processed to Oracle Federal\
+    \ Financials, 2) the E-Commerce System (ECS), an integrated, centralized major\
+    \ system that improves the Agency’s core financial, contracting and business process\
+    \ by providing seamless integrated financial and contracting systems, and 3) the\
+    \ Oracle Federal Financials (OFF), a financial subsystem of the Agency’s ECS.\
+    \  The OFF system supports budget and accounting/financial functions and health\
+    \ care (TEDS) claims processing and contains TRICARE Claims Management, Accounts\
+    \ Receivable, Accounts Payable, Purchase Orders and General Ledger modules.\n"
+  Confidence_Level: '>95%'
+  Corrective_Actions_Proportion: "In FY 2021, the Military Health Benefits program\
+    \ estimated improper and unknown payments decreased by $170.90 million, from $338.88\
+    \ million in FY 2020 to $167.98 million in FY 2021.  The primary root cause of\
+    \ improper payments in this program was attributed to Failure to Access Data/Information\
+    \ category, which accounted for $167.98 million. \n\t\n"
+  End_Date: 10/2020
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 377.87
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0184442803
+  Improper_Payments_Rate: 0.85026774
+  Insufficient_Documentation_to_Determine: 0.0
+  Is_Lowest_IP_And_Unknown_Rate: 'No'
+  Margin_of_Error: '0.2'
+  Non_Monetary_Loss_Amount: '43.83'
+  Outlays: 19756.13
+  Outlays_Current_Year_Plus_1_Amount: 20487.11
+  Payment_Accuracy_Rate: 99.14973226031617
+  Program_Design_or_Structural_Issue: 0.0
+  Start_Date: 08/2019
+  Technical_IP_Amount: '0.0'
+  Unknown_Curent_Year_Plus_1_Amount: 0
+  Unknown_Payments_Rate: 0
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 124.15
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 124.15
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '124.15'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 43.83
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 43.83
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '43.83'
 - Agency_Needs_Satisfied: "Internal Controls:\nDefense Health Agency (DHA) has internal\
     \ controls in place to support the reduction of improper payments in the TRICARE\
     \ purchased health care program to the levels the Department has targeted.  DHA’s\
@@ -68,6 +186,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '22.3'
   Non_Monetary_Loss_Amount: '43.77'
+  Outlays: 20762.25
   Outlays_Current_Year_Plus_1_Amount: 21613.5
   Payment_Accuracy_Rate: 99.27946152271551
   Program_Additional_Information: The Department’s Defense Health Agency (DHA) is
@@ -140,17 +259,15 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022]'
-Outlays: 0
-Overpayment_Amounts: '[105.83]'
-Payment_Accuracy_Amounts: '[20612.649999999998]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2021, 2022]'
+Overpayment_Amounts: '[124.15, 105.83]'
+Payment_Accuracy_Amounts: '[19588.149999999998, 20612.649999999998]'
 Phase_2_Program: 0
 Program_Name: Military Health Benefits - Healthcare
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0]'
-Underpayment_Amounts: '[43.77]'
-Unknown_Amounts: '[0]'
+Technically_Improper_Amounts: '[0, 0]'
+Underpayment_Amounts: '[43.83, 43.77]'
+Unknown_Amounts: '[0, 0]'
 layout: program-specific
 permalink: program/dow-military-health-benefits-healthcare
 ---

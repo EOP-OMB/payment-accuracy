@@ -2,6 +2,82 @@
 Agency: VA
 Agency_Name: Department of Veterans Affairs
 Data_By_Year:
+- Agency_Needs_Satisfied: VA does not have additional program needs.
+  Confidence_Level: '>90%'
+  Corrective_Actions_Proportion: VA continues to prioritize and implement effective
+    corrective actions and mitigation strategies that reduce improper payments agency-wide
+    as evidenced by its third consecutive and largest year of reductions. Specifically,
+    from FY20 to FY21, the VA Community Care program decreased its error rate from
+    78.51 percent to 16.06 percent (62.45% reduction) and improper payments from $7,476.55
+    million to $2,274.69 million ($5,201.86 million reduction). Due to VA Community
+    Care reporting over $100 million of overpayments/monetary loss in FY2020, the
+    program was required by Office of Management and Budget to report quarterly on
+    activities and accomplishments that reduce monetary loss. Those activities and
+    accomplishments can be found at PaymentAccuracy.gov. VA Community Care has remained
+    committed to actions that reduce monetary loss and continues to tailor corrective
+    actions to reduce improper payments.
+  End_Date: 09/2020
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 2476.93
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.1499994247
+  Improper_Payments_Rate: 14.83446326
+  Insufficient_Documentation_to_Determine: 173.0
+  Is_Lowest_IP_And_Unknown_Rate: 'No'
+  Margin_of_Error: '3.38'
+  Non_Monetary_Loss_Amount: '712.14'
+  Outlays: 14167.55
+  Outlays_Current_Year_Plus_1_Amount: 17382
+  Payment_Accuracy_Rate: 83.94443640573
+  Program_Design_or_Structural_Issue: 527.2
+  Start_Date: 10/2019
+  Technical_IP_Amount: '527.2'
+  Unknown_Curent_Year_Plus_1_Amount: 130.36
+  Unknown_Payments_Rate: 1.2211003313911015
+  Unknown_Why: VA had lacking or insufficient documentation to validate whether a
+    payment was proper or not.
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 958.7826
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 1389.54
+    Financial: 389.0712
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '1389.54'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 184.94
+    Financial: 184.94
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '184.94'
 - Agency_Needs_Satisfied: VA has not yet determined the tolerable rate. VA is working
     to determine all requirements for establishing a tolerable rate per Office of
     Management and Budget guidance before attempting to establish tolerable rates.  At
@@ -71,6 +147,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '3.01'
   Non_Monetary_Loss_Amount: '311.67'
+  Outlays: 17382
   Outlays_Current_Year_Plus_1_Amount: 20339.04
   Payment_Accuracy_Rate: 92.15780692670579
   Program_Additional_Information: The VA Community Care program continues to prioritize
@@ -268,6 +345,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '2.02'
   Non_Monetary_Loss_Amount: '5.36'
+  Outlays: 20152.58
   Outlays_Current_Year_Plus_1_Amount: 21620.5
   Overpayment_Mitigations_Planned: Automation, Change Process
   Overpayment_Mitigations_Taken: Automation, Change Process
@@ -592,6 +670,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '1.18'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 21981.87
   Outlays_Current_Year_Plus_1_Amount: 26443.01
   Overpayment_Mitigations_Planned: Audit, Change Process
   Overpayment_Mitigations_Taken: Automation, Change Process
@@ -795,6 +874,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 40.19
   Margin_of_Error: '1.26'
   Non_Monetary_Loss_Amount: '15.34'
+  Outlays: 25444.18
   Overpayment_Combined_Mitigations_Planned: Audit, Change Process
   Overpayment_Combined_Mitigations_Taken: Audit, Change Process
   Payment_Accuracy_Rate: 97.61171316977007
@@ -873,11 +953,10 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 25444.18
-Overpayment_Amounts: '[770.89, 954.17, 416.63, 552.15]'
-Payment_Accuracy_Amounts: '[16018.87, 19160.200000000004, 21565.239999999998, 24836.5]'
-Payment_Accuracy_Rate: 97.61171316977007
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[1389.54, 770.89, 954.17, 416.63, 552.15]'
+Payment_Accuracy_Amounts: '[11892.869999999997, 16018.87, 19160.200000000004, 21565.239999999998,
+  24836.5]'
 Phase_2_Program: 0
 Program_Name: VA Community Care
 Scorecard_Links:
@@ -893,9 +972,13 @@ Scorecard_Links:
   QuarterYear: Q1 2025
 - Link: assets/scorecards/Q2 2025/VA Community Care.pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[311.13, 0, 0, 0]'
-Underpayment_Amounts: '[0.54, 5.36, 0, 15.34]'
-Unknown_Amounts: '[280.57, 32.85, 0, 40.19]'
+- Link: assets/scorecards/Q3 2025/VA Community Care.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/VA Community Care.pdf
+  QuarterYear: Q4 2025
+Technically_Improper_Amounts: '[527.2, 311.13, 0, 0, 0]'
+Underpayment_Amounts: '[184.94, 0.54, 5.36, 0, 15.34]'
+Unknown_Amounts: '[173, 280.57, 32.85, 0, 40.19]'
 layout: program-specific
 permalink: program/va-va-community-care
 ---

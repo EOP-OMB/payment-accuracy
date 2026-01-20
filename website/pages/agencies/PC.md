@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Volunteer Service
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -47,7 +48,7 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Volunteer Service
     Slug: null
@@ -65,6 +66,7 @@ Years_Available:
 - 2023
 - 2022
 detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: 'Peace Corps uses the following DNP Portal services to verify
   eligibility status of
@@ -77,6 +79,7 @@ detail_DNP_Discussion: 'Peace Corps uses the following DNP Portal services to ve
   Treasury. The Do Not Pay Working System has not reduced Improper Payments.'
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'Peace Corps is a small agency operating under one program.
   Peace Corps does not have activities that are susceptible to the threshold limits
   for significant improper payments exceeding 1.5% of all activity disbursements made
@@ -101,6 +104,7 @@ detail_Executive_Summary: 'Peace Corps is a small agency operating under one pro
 
   '
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
@@ -120,4 +124,5 @@ layout: agency-specific
 permalink: agency/PC.html
 recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.095
 recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.081
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

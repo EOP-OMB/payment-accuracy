@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Mission Activities
 - Compliant_1A: true
   Compliant_1B: true
@@ -50,6 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Operational Activities
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -59,21 +61,16 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Mission Activities
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Operational Activities
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Privacy and Civil Liberties Oversight Board Agency Reporting
-    Slug: null
-    Susceptible: null
   SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
@@ -86,13 +83,16 @@ Years_Available:
 - 2024
 - 2023
 - 2022
+- 2021
 detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: PCLOB's financial service provider, ARC, runs the DNP process
   each week. According to our service provider, this has historically helped them
   reduce improper payments for their customers.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: PCLOB's financial service provider (ARC) completes a number
   of activities throughou tthe year. ARC runs the DNP process on a weekly basis. On
   a monthly basis, ARC prepares Prompt Pay, Discounts Lost, and Improper Payment metrics,
@@ -104,6 +104,18 @@ detail_Executive_Summary: PCLOB's financial service provider (ARC) completes a n
   annual basis, in March/April, ARC completes a PIIA risk assessment over the prior
   year's data. In FY 2025, PCLOB had zero IPs.
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: Invoices processed through the Invoice
+  Processing Platform (IPP) are subject to a monthly post payment audit of 10% of
+  the total paid IPP invoices for that month. Invoices not processed through IPP in
+  excess of $2,500.00 are subject to secondary review before being paid. Invoices
+  under $2,500.00 are subject to review through statistical sampling procedures. Travel
+  vouchers processed through the Concur Government Edition (CGE) travel system are
+  subject to a post payment audit based on a random sample of all reimbursements under
+  $2,500. All payments of $2,500.00 and higher are excluded from the population. These
+  payments require a 100% post payment audit review. Relocation vouchers processed
+  through the MoveLINQ system are subject to 100% pre-payment audit and review. For
+  payment customers, once the vouchers have been pre-audited and approved for payment,
+  they are interfaced to Oracle the financial system where they are paid.
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'Yes'
@@ -116,6 +128,7 @@ recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.0
 recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 0.0
 recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.0
 recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.0
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 recovery_Total_Overpayment_Amount_Identified: 0.0
 recovery_Total_Overpayment_Amount_Recovered: 0.0
 ---

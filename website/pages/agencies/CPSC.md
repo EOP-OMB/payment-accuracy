@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Nicholas and Zachary Burt Memorial Carbon Monoxide Poisoning Prevention Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -50,6 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Non-Payroll – CPSC, Non-grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -62,6 +64,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Payroll - CPSC
 - Compliant_1A: true
   Compliant_1B: true
@@ -74,6 +77,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Virginia Graeme Baker Pool and Spa Safety Grants
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -83,23 +87,23 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Nicholas and Zachary Burt Memorial Carbon Monoxide Poisoning Prevention
       Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Non-Payroll – CPSC, Non-grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Payroll - CPSC
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2025
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Virginia Graeme Baker Pool and Spa Safety Grants
     Slug: null
@@ -116,12 +120,15 @@ Years_Available:
 - 2024
 - 2023
 - 2022
+- 2021
 detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: The U.S. CPSC is a small, non-CFO Act agency that leverages
   the use of DNP via the financial shared services provider - ARC.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'CPSC has two programs we report on based on our appropriations:
   “Payroll” and “Non-Payroll.” Of the $102M disbursed for payroll program activities,
   CPSC had no improper payments in FY 2025. Of the $41.8M disbursed for non-payroll
@@ -129,6 +136,7 @@ detail_Executive_Summary: 'CPSC has two programs we report on based on our appro
   from an underpayment for one invoice. The underpayment was reconciled and disbursed
   to the vendor. Overall, CPSC was compliant with PIIA reporting for FY 2025.'
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
@@ -140,4 +148,5 @@ detail_Recovery_Not_Cost_Effective_Justification: The amount of improper payment
 detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/CPSC.html
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

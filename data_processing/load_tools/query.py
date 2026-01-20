@@ -17,6 +17,7 @@ QUERY_TYPES = Enum('QUERY_TYPES', [
     'ALL_AGENCIES_YEARS',
     'ALL_AGENCIES_YEARS_AVAILABLE',
     'ALL_PROGRAMS',
+    'DID_NOT_REPORT',
     'DISTINCT_AGENCIES',
     'DNP_GW_STATS',
     'DNP_SURVEY_RESULTS',
@@ -84,7 +85,7 @@ agency_results_cache = {}
 def fetch_cr_survey_agency_results(cursor: sqlite3.Cursor, view_name, year):
     global agency_results_cache
     if agency_results_cache.get(year, None) == None or agency_results_cache[year].get(view_name, None) is None:
-        cursor.execute(f"SELECT * FROM {view_name} WHERE [Fiscal_Year] = ? AND [Answer] IS NOT NULL ORDER BY [Agency], [SortOrder]", (year,))
+        cursor.execute(f"SELECT * FROM {view_name} WHERE [Fiscal_Year] = ? AND [Answer] IS NOT NULL ORDER BY [Agency]", (year,))
         results = cursor.fetchall()
 
         if agency_results_cache.get(year, None) == None:
@@ -97,7 +98,7 @@ program_results_cache = {}
 def fetch_cr_survey_program_results(cursor: sqlite3.Cursor, view_name, year):
     global program_results_cache
     if program_results_cache.get(year, None) == None or program_results_cache[year].get(view_name, None) is None:
-        cursor.execute(f"SELECT * FROM {view_name} WHERE [Fiscal_Year] = ? AND [Answer] IS NOT NULL ORDER BY [Agency], [Program_Name], [SortOrder]", (year,))
+        cursor.execute(f"SELECT * FROM {view_name} WHERE [Fiscal_Year] = ? AND [Answer] IS NOT NULL ORDER BY [Agency], [Program_Name]", (year,))
         results = cursor.fetchall()
 
         if program_results_cache.get(year, None) == None:
@@ -284,6 +285,8 @@ def piia_programs_compliance_mapper_2023(cursor, results):
 
         for key, value in compliance_survey_to_criterion_mapping.items():
             mappedProgram['Compliant_' + value] = str(result[key]).upper() == 'YES'
+
+        mappedProgram['Hide_Compliance_Section'] = result['Hide_Compliance_Section'] == 1
         mappedPrograms.append(mappedProgram)
 
     return mappedPrograms
@@ -329,8 +332,36 @@ query_type_by_year = {
         }
     },
     QUERY_TYPES.RISK_ASSESSMENTS: {
-        "query": get_sql_file("RISK_ASSESSMENTS.sql"),
-        "mapper": risk_assessments_mapper
+        # the schema will very likely change in 2026
+        # this configuration will force us to revisit that
+        2019: {
+            "query": get_sql_file("RISK_ASSESSMENTS.sql"),
+            "mapper": risk_assessments_mapper
+        },
+        2020: {
+            "query": get_sql_file("RISK_ASSESSMENTS.sql"),
+            "mapper": risk_assessments_mapper
+        },
+        2021: {
+            "query": get_sql_file("RISK_ASSESSMENTS.sql"),
+            "mapper": risk_assessments_mapper
+        },
+        2022: {
+            "query": get_sql_file("RISK_ASSESSMENTS.sql"),
+            "mapper": risk_assessments_mapper
+        },
+        2023: {
+            "query": get_sql_file("RISK_ASSESSMENTS.sql"),
+            "mapper": risk_assessments_mapper
+        },
+        2024: {
+            "query": get_sql_file("RISK_ASSESSMENTS.sql"),
+            "mapper": risk_assessments_mapper
+        },
+        2025: {
+            "query": get_sql_file("RISK_ASSESSMENTS.sql"),
+            "mapper": risk_assessments_mapper
+        }
     },
     QUERY_TYPES.HIGH_PRIORITY_SCORECARD_LINKS: {
         "query": get_sql_file("HIGH_PRIORITY_SCORECARD_LINKS.sql")
@@ -451,7 +482,7 @@ query_type_by_year = {
             "mapper": piia_programs_compliance_mapper_2023
         },
         2025: {
-            "query": get_sql_file("PIIA_NON_COMPLIANT_PROGRAMS_2023.sql"),
+            "query": get_sql_file("PIIA_NON_COMPLIANT_PROGRAMS_2025.sql"),
             "mapper": piia_programs_compliance_mapper_2023
         }
     },
@@ -538,5 +569,28 @@ query_type_by_year = {
     },
     QUERY_TYPES.FPI_LINK: {
         "query": get_sql_file("FPI_LINK.sql")
+    },
+    QUERY_TYPES.DID_NOT_REPORT: {
+        2019: {
+            "query": get_sql_file("DID_NOT_REPORT_2019.sql")
+        },
+        2020: {
+            "query": get_sql_file("DID_NOT_REPORT_2019.sql")
+        },
+        2021: {
+            "query": get_sql_file("DID_NOT_REPORT_2019.sql")
+        },
+        2022: {
+            "query": get_sql_file("DID_NOT_REPORT_2022.sql")
+        },
+        2023: {
+            "query": get_sql_file("DID_NOT_REPORT_2023.sql")
+        },
+        2024: {
+            "query": get_sql_file("DID_NOT_REPORT_2023.sql")
+        },
+        2025: {
+            "query": get_sql_file("DID_NOT_REPORT_2023.sql")
+        },
     }
 }

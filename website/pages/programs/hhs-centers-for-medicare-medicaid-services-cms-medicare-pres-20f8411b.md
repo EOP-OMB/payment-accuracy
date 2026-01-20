@@ -2,6 +2,72 @@
 Agency: HHS
 Agency_Name: Department of Health and Human Services
 Data_By_Year:
+- Agency_Needs_Satisfied: A tolerable rate has not been established for this program.
+  Confidence_Level: '>95%'
+  Corrective_Actions_Proportion: 'Annually, the agency identifies the root causes
+    of IPs and UPs and develops specific corrective actions to address them. This
+    work is reported on through the AFR process. '
+  End_Date: 12/2020
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 1389.82
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0120000345
+  Improper_Payments_Rate: 1.57724993
+  Insufficient_Documentation_to_Determine: 0.0
+  Is_Lowest_IP_And_Unknown_Rate: 'No'
+  Margin_of_Error: '656.76'
+  Non_Monetary_Loss_Amount: '682.75'
+  Outlays: 86811.86
+  Outlays_Current_Year_Plus_1_Amount: 115818
+  Payment_Accuracy_Rate: 98.42275007124603
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: A tolerable rate has not been established for this program.
+  Start_Date: 01/2019
+  Technical_IP_Amount: '0.0'
+  Unknown_Curent_Year_Plus_1_Amount: 0
+  Unknown_Payments_Rate: 0
+  Year: 2021
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 686.49
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '686.49'
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 682.75
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '682.75'
 - Agency_Needs_Satisfied: 'A tolerable rate has not been established for this program.
     HHS is working within the current resources to perform the measurement of the
     Part D error rate calculation methodology.
@@ -58,6 +124,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '0.49'
   Non_Monetary_Loss_Amount: '37.87'
+  Outlays: 88415.62
   Outlays_Current_Year_Plus_1_Amount: 113525
   Payment_Accuracy_Rate: 98.460554820517
   Program_Design_or_Structural_Issue: 0.0
@@ -198,6 +265,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '0.86'
   Non_Monetary_Loss_Amount: '1019.84'
+  Outlays: 90074.96
   Outlays_Current_Year_Plus_1_Amount: 111960
   Payment_Accuracy_Rate: 96.27556870411044
   Program_Additional_Information: 'In Reporting Year (RY) 2023, CMS implemented methodology
@@ -407,6 +475,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '0.42'
   Non_Monetary_Loss_Amount: '522.44'
+  Outlays: 96521.39
   Outlays_Current_Year_Plus_1_Amount: 150146
   Payment_Accuracy_Rate: 96.29606453035954
   Program_Additional_Information: RY 2024 reflects a new baseline for Medicare Part
@@ -483,26 +552,25 @@ Data_By_Year:
     \ training will be focused on high-risk drugs (i.e., at high risk of overpayments\
     \ and/or beneficiary harm) and other areas of risk to the program. HHS' activities\
     \ will align with the drivers and root causes of the error rate."
-  Corrective_Actions_Appropriateness: HHS is implementing corrective actions including
-    health plan training,  audits of high-risk drugs, and investigations to identify
-    potential fraud and recover overpayments.  For example, HHS educates plan sponsors
-    on emerging fraud, waste, and abuse drug trends and schemes by issuing  Health
+  Corrective_Actions_Appropriateness: In FY 2026, HHS will continue to implement corrective
+    actions including health plan training, audits of high-risk drugs, and investigations
+    to identify potential fraud and recover overpayments. For example, HHS educates
+    plan sponsors on emerging fraud, waste, and abuse drug trends and schemes by issuing  Health
     Plan Management System memos on high risk drugs, audit findings, and best practices.
-     These efforts strengthen fraud, waste, and abuse programs and ensure compliance
+    These efforts strengthen fraud, waste, and abuse programs and ensure compliance
     with HHS requirements.
   Corrective_Actions_Proportion: HHS will continue to prioritize and implement effective
     corrective actions and mitigation strategies that reduce improper payments and
-    unknown payments agency-wide as evidenced by its lower error rate of 4%.  The
-    actions taken and planned to address failure to access data are proportional to
-    the improper payment rate and address the root causes of the improper payments.
-    For example, HHS audits Part D plan sponsors to address high-risk drugs and educate
-    sponsors on fraud, waste, and abuse. These audits have varying scopes but share
-    the goal of reducing and recovering improper Part D payments. Future audits may
-    account for areas in which missing or invalid documentation has been found to
-    be a persistent issue. HHS also uses education and outreach as a key tool to reduce
-    improper payments. Annually, the agency identifies the root causes of improper
-    payments and develops specific corrective actions to address them. This work is
-    reported on through the AFR process.
+    unknown payments agency-wide as evidenced by its lower error rate of 4%. The actions
+    taken and planned to address failure to access data are proportional to the improper
+    payment rate and address the root causes of the improper payments. For example,
+    HHS audits Part D plan sponsors to address high-risk drugs and educate sponsors
+    on fraud, waste, and abuse. These audits have varying scopes but share the goal
+    of reducing and recovering improper Part D payments. Future audits may account
+    for areas in which missing or invalid documentation has been found to be a persistent
+    issue. HHS also uses education and outreach as a key tool to reduce improper payments.
+    Annually, the agency identifies the root causes of improper payments and develops
+    specific corrective actions to address them.
   End_Date: 12/2023
   Hide_Improper_Payment_Estimates_Doughnut_Chart: false
   Hide_Improper_Payment_Estimates_Doughnut_Stats: false
@@ -538,6 +606,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '0.45'
   Non_Monetary_Loss_Amount: '522.61'
+  Outlays: 105559.08
   Overpayment_Combined_Mitigations_Planned: Audit, Training
   Overpayment_Combined_Mitigations_Taken: Audit, Training
   Payment_Accuracy_Rate: 95.9967441929202
@@ -595,24 +664,40 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 105559.08
-Overpayment_Amounts: '[1323.24, 2334.94, 3052.65, 3703.19]'
-Payment_Accuracy_Amounts: '[87054.51, 86720.18000000001, 92946.3, 101333.28]'
-Payment_Accuracy_Rate: 95.9967441929202
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[686.49, 1323.24, 2334.94, 3052.65, 3703.19]'
+Payment_Accuracy_Amounts: '[85442.62, 87054.51, 86720.18000000001, 92946.3, 101333.28]'
 Phase_2_Program: 0
 Program_Name: Centers for Medicare & Medicaid Services (CMS) - Medicare Prescription
   Drug Benefit (Part D)
 Scorecard_Links:
+- Link: assets/scorecards/Q1 2024/Centers for Medicare & Medicaid Services (CMS) Medicare
+    Prescription Drug Benefit (Part D).pdf
+  QuarterYear: Q1 2024
+- Link: assets/scorecards/Q2 2024/Centers for Medicare & Medicaid Services (CMS) Medicare
+    Prescription Drug Benefit.pdf
+  QuarterYear: Q2 2024
+- Link: assets/scorecards/Q3 2024/Centers for Medicare & Medicaid (CMS) Medicare Prescription
+    Drug Benefit.pdf
+  QuarterYear: Q3 2024
 - Link: assets/scorecards/Q4 2024/Centers for Medicare & Medicaid Services (CMS) -
     Medicare Prescription Drug Benefit (Part D).pdf
   QuarterYear: Q4 2024
+- Link: assets/scorecards/Q1 2025/Centers for Medicare & Medicaid (CMS) - Medicare
+    Prescription Drug Benefit (Part D).pdf
+  QuarterYear: Q1 2025
 - Link: assets/scorecards/Q2 2025/Centers for Medicare & Medicaid Services (CMS) -
     Medicare Prescription Drug Benefit (Part D).pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[37.87, 1019.84, 522.44, 522.61]'
-Unknown_Amounts: '[0, 0, 0, 0]'
+- Link: assets/scorecards/Q3 2025/Centers for Medicare & Medicaid Services (CMS) -
+    Medicare Prescription Drug Benefit (Part D).pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/Centers for Medicare & Medicaid Services (CMS) -
+    Medicare Prescription Drug Benefit (Part D).pdf
+  QuarterYear: Q4 2025
+Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
+Underpayment_Amounts: '[682.75, 37.87, 1019.84, 522.44, 522.61]'
+Unknown_Amounts: '[0, 0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/93.77
 layout: program-specific
 permalink: program/hhs-centers-for-medicare-medicaid-services-cms-medicare-pres-20f8411b

@@ -86,13 +86,13 @@ agencies:
   - high_priority_program: true
     ip_rate: 1.63
     program_name: Disability Insurance (DI)
-    relative_change: 1.33
+    relative_change: null
     slug: ssa-disability-insurance-di
     total_spent_federal_funding: 143442.52
   - high_priority_program: true
     ip_rate: 0.13
     program_name: Old-Age and Survivors Insurance (OASI)
-    relative_change: null
+    relative_change: -0.18
     slug: ssa-old-age-and-survivors-insurance-oasi
     total_spent_federal_funding: 1287478.75
   - high_priority_program: true
@@ -153,12 +153,14 @@ agencies:
     program_name: Travel Pay Other Defense Organization (ODO) – Defense Travel System
       (DTS)
     relative_change: null
+    slug: dow-travel-pay-other-defense-organization-odo-defense-travel-346a386c
     total_spent_federal_funding: 415.0
   - high_priority_program: false
     ip_rate: 7.54
     program_name: Travel Pay Other Defense Organization (ODO) – Integrated Automated
       Travel System (IATS)
     relative_change: null
+    slug: dow-travel-pay-other-defense-organization-odo-integrated-aut-4e4e490f
     total_spent_federal_funding: 14.73
   relative_change: 0.47
   susceptible_programs: 8
@@ -266,22 +268,25 @@ agencies:
   agency_name: Department of Agriculture
   high_priority_programs: 5
   improper_payments_rate: 9.05
-  num_programs: 327
+  num_programs: 325
   programs:
   - high_priority_program: false
     ip_rate: 6.71
     program_name: Agriculture Risk/Price Loss Coverage Program
-    relative_change: null
+    relative_change: -6.07
+    slug: usda-agriculture-risk-price-loss-coverage-program
     total_spent_federal_funding: 278.07
   - high_priority_program: false
     ip_rate: 6.41
     program_name: Commodity Credit Corporation (CCC) Livestock Forage Disaster Program
     relative_change: -6.48
+    slug: usda-commodity-credit-corporation-ccc-livestock-forage-disas-ee97674e
     total_spent_federal_funding: 1201.47
   - high_priority_program: false
     ip_rate: 55.5
     program_name: Emergency Conservation Program
     relative_change: 10.34
+    slug: usda-emergency-conservation-program
     total_spent_federal_funding: 132.83
   - high_priority_program: true
     ip_rate: 3.29
@@ -292,8 +297,9 @@ agencies:
   - high_priority_program: true
     ip_rate: 10.5
     program_name: Food and Nutrition Service (FNS) Child and Adult Care Food Program
+      (CACFP) Family Day Care Homes (FDCH) - Tiering Decisions
     relative_change: 10.37
-    slug: usda-food-and-nutrition-service-fns-child-and-adult-care-foo-7e972464
+    slug: usda-food-and-nutrition-service-fns-child-and-adult-care-foo-48fe4550
     total_spent_federal_funding: 4245.0
   - high_priority_program: false
     ip_rate: 0.0
@@ -304,13 +310,14 @@ agencies:
   - high_priority_program: true
     ip_rate: 6.98
     program_name: National School Lunch Program
-    relative_change: null
+    relative_change: -0.39
     slug: usda-national-school-lunch-program
     total_spent_federal_funding: 19914.0
   - high_priority_program: false
     ip_rate: 10.56
     program_name: Noninsured Crop Disaster Assistance Program
     relative_change: -1.05
+    slug: usda-noninsured-crop-disaster-assistance-program
     total_spent_federal_funding: 185.78
   - high_priority_program: true
     ip_rate: 7.24
@@ -321,7 +328,7 @@ agencies:
   - high_priority_program: true
     ip_rate: 10.93
     program_name: Supplemental Nutrition Assistance Program
-    relative_change: null
+    relative_change: -0.75
     slug: usda-supplemental-nutrition-assistance-program
     total_spent_federal_funding: 93509.72
   relative_change: -0.06
@@ -331,7 +338,7 @@ agencies:
   agency_name: Department of the Treasury
   high_priority_programs: 4
   improper_payments_rate: 26.54
-  num_programs: 284
+  num_programs: 285
   programs:
   - high_priority_program: false
     ip_rate: 0.0
@@ -402,7 +409,7 @@ agencies:
   total_spent_federal_funding: 67067.89
 - agency: SBA
   agency_name: Small Business Administration
-  high_priority_programs: 1
+  high_priority_programs: 2
   improper_payments_rate: 12.29
   num_programs: 40
   programs:
@@ -411,20 +418,20 @@ agencies:
     program_name: 504 Certified Development Loans Approvals
     relative_change: 0.84
     slug: sba-504-certified-development-loans-approvals
-    total_spent_federal_funding: 7392.0
+    total_spent_federal_funding: 7392.04
   - high_priority_program: false
-    ip_rate: 6.14
+    ip_rate: 6.13
     program_name: 7(a) Loan Guarantees Approvals
     relative_change: 0.7
     slug: sba-7-a-loan-guarantees-approvals
-    total_spent_federal_funding: 26615.0
+    total_spent_federal_funding: 26614.89
   - high_priority_program: false
     ip_rate: 1.07
     program_name: 7(a) Loan Guarantees Purchases
     relative_change: -4.28
     slug: sba-7-a-loan-guarantees-purchases
-    total_spent_federal_funding: 2115.0
-  - high_priority_program: false
+    total_spent_federal_funding: 2115.5
+  - high_priority_program: true
     ip_rate: 4.87
     program_name: Disaster Assistance Loans
     relative_change: 1.25
@@ -446,6 +453,7 @@ agencies:
     ip_rate: 0.34
     program_name: Section 1112 Payments for SBA’s business loan programs
     relative_change: null
+    slug: sba-section-1112-payments-for-sba-s-business-loan-programs
     total_spent_federal_funding: 10585.15
   - high_priority_program: true
     ip_rate: 39.89
@@ -455,7 +463,7 @@ agencies:
     total_spent_federal_funding: 14604.95
   relative_change: 7.09
   susceptible_programs: 8
-  total_spent_federal_funding: 66237.99
+  total_spent_federal_funding: 66238.42
 - agency: HUD
   agency_name: Department of Housing and Urban Development
   high_priority_programs: 0
@@ -468,6 +476,7 @@ agencies:
       Rental Assistance - Project Based Section 8 - Rental Housing Assistance Program-
       Section 236 - Housing for Persons with Disability- Section 811
     relative_change: 0.0
+    slug: hud-housing-rental-housing-assistance-program-rhap-project-b-6dfc0485
     total_spent_federal_funding: 16458.25
   - high_priority_program: false
     ip_rate: 0.0
@@ -475,6 +484,7 @@ agencies:
       - Tenant Based Rental Assistance Section 8 - Housing Certificate Fund & Tenant
       Based Rental Assistance
     relative_change: 0.0
+    slug: hud-public-and-indian-housing-rental-housing-assistance-prog-485c7c79
     total_spent_federal_funding: 33980.76
   relative_change: 0.0
   susceptible_programs: 2
@@ -482,16 +492,16 @@ agencies:
 - agency: DOL
   agency_name: Department of Labor
   high_priority_programs: 2
-  improper_payments_rate: 13.24
+  improper_payments_rate: 12.16
   num_programs: 57
   programs:
   - high_priority_program: true
-    ip_rate: 14.41
+    ip_rate: 13.14
     program_name: Employment & Training Administration - Federal State Unemployment
       Insurance
-    relative_change: 0.0
+    relative_change: -1.27
     slug: dol-employment-training-administration-federal-state-unemplo-f85701dc
-    total_spent_federal_funding: 35196.61
+    total_spent_federal_funding: 37679.47
   - high_priority_program: true
     ip_rate: 2.78
     program_name: Office of Workers' Compensation - Federal Employees' Compensation
@@ -499,9 +509,9 @@ agencies:
     relative_change: 0.43
     slug: dol-office-of-workers-compensation-federal-employees-compens-3801803f
     total_spent_federal_funding: 3954.92
-  relative_change: -0.05
+  relative_change: -1.13
   susceptible_programs: 2
-  total_spent_federal_funding: 39151.53
+  total_spent_federal_funding: 41634.39
 - agency: DHS
   agency_name: Department of Homeland Security
   high_priority_programs: 0
@@ -512,6 +522,7 @@ agencies:
     ip_rate: 4.31
     program_name: Federal Emergency Management Agency - Funeral Assistance
     relative_change: 0.81
+    slug: dhs-federal-emergency-management-agency-funeral-assistance
     total_spent_federal_funding: 301.49
   - high_priority_program: false
     ip_rate: 0.1
@@ -525,6 +536,7 @@ agencies:
     program_name: Immigration and Customs Enforcement - Procurement, Construction,
       and Improvements - Disaster Supplemental Funds
     relative_change: null
+    slug: dhs-immigration-and-customs-enforcement-procurement-construc-4f2d4747
     total_spent_federal_funding: 16.0
   relative_change: -0.32
   susceptible_programs: 3
@@ -545,6 +557,7 @@ agencies:
     ip_rate: 9.12
     program_name: Universal Service Fund – Lifeline
     relative_change: 3.14
+    slug: fcc-universal-service-fund-lifeline
     total_spent_federal_funding: 829.6
   relative_change: 1.88
   susceptible_programs: 2
@@ -1177,6 +1190,15 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
+- agency: NTSB
+  agency_name: National Transportation Safety Board
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 0
+  programs: []
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
 - agency: NBRC
   agency_name: Northern Border Regional Commission
   high_priority_programs: 0
@@ -1330,7 +1352,7 @@ agencies:
   agency_name: Selective Service System
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 0
+  num_programs: 1
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1358,7 +1380,7 @@ agencies:
   agency_name: Surface Transportation Board
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 0
+  num_programs: 1
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1462,7 +1484,7 @@ agencies:
   susceptible_programs: 0
   total_spent_federal_funding: 0
 - agency: USHMM
-  agency_name: United States Holocaust memorial Museum
+  agency_name: United States Holocaust Memorial Museum
   high_priority_programs: 0
   improper_payments_rate: 0
   num_programs: 0

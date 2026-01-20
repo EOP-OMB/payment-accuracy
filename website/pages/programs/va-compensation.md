@@ -2,60 +2,6 @@
 Agency: VA
 Agency_Name: Department of Veterans Affairs
 Data_By_Year:
-- Hide_Improper_Payment_Estimates_Doughnut_Chart: true
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: true
-  Hide_Overpayments_Outside_Control_Amount: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Overpayments_Within_Control_Amount: true
-  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Within_Failure_to_Access_Data: true
-  Hide_Overpayments_Within_Inability_to_Access_Data: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: true
-  Hide_Program_Results_Future_Outlook: true
-  Hide_Program_Results_Future_Outlook_Baseline: true
-  Hide_Program_Results_Future_Outlook_Baseline_Table: true
-  Hide_Program_Results_Future_Outlook_Explanation: true
-  Hide_Program_Results_Future_Outlook_Needs: true
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_Technical_IP_Amount: true
-  Hide_Underpayments_Amount: true
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Failure_to_Access_Data: true
-  Hide_Underpayments_Inability_to_Access_Data: true
-  Improper_Payments_Rate: 0
-  Insufficient_Documentation_to_Determine: 0.0
-  Program_Design_or_Structural_Issue: 0.0
-  Year: 2022
-  detail_Reduction_Target: null
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
 - Agency_Needs_Satisfied: 'While any amount of improper payment is unacceptable, VA
     continues to make progress in identifying and preventing these from occurring.
     Improper
@@ -160,6 +106,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 1480.98
   Margin_of_Error: '0.93'
   Non_Monetary_Loss_Amount: '385.85'
+  Outlays: 157452.95
   Overpayment_Combined_Mitigations_Planned: Audit, Cross Enterprise Sharing, Training
   Overpayment_Combined_Mitigations_Taken: Audit, Cross Enterprise Sharing, Training
   Payment_Accuracy_Rate: 98.50903396856013
@@ -206,7 +153,7 @@ Data_By_Year:
   detail_Reduction_Target: '1.4'
   eligibility_aggregated:
   - Theme: Death
-    Theme_Description: Identifies whether a person is dead
+    Theme_Description: Date of death of the recipient/beneficiary
   - Theme: Dependency
     Theme_Description: Describes who the recipient/beneficiary relies on as a primary
       source of support
@@ -231,17 +178,15 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2022, 2025]'
-Outlays: 157452.95
-Overpayment_Amounts: '[0, 480.74]'
-Payment_Accuracy_Amounts: '[0, 155105.38]'
-Payment_Accuracy_Rate: 98.50903396856013
+Improper_Payments_Data_Years: '[2025]'
+Overpayment_Amounts: '[480.74]'
+Payment_Accuracy_Amounts: '[155105.38]'
 Phase_2_Program: 0
 Program_Name: Compensation
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0]'
-Underpayment_Amounts: '[0, 385.85]'
-Unknown_Amounts: '[0, 1480.98]'
+Technically_Improper_Amounts: '[0]'
+Underpayment_Amounts: '[385.85]'
+Unknown_Amounts: '[1480.98]'
 fpi_link: https://fpi.omb.gov/program/64.109
 layout: program-specific
 permalink: program/va-compensation

@@ -2,6 +2,99 @@
 Agency: DOW
 Agency_Name: Department of War
 Data_By_Year:
+- Agency_Needs_Satisfied: "Internal Controls\nThe Department has the internal controls\
+    \ in place to support the reduction of improper payments in the DoD Travel Pay\
+    \ program to the levels the Department has targeted.  In addition, OUSD(C) is\
+    \ committed to the coordination of activities between the Risk Management/Internal\
+    \ Control Program and the Payment Integrity Program to leverage best practices\
+    \ in internal controls.\nHuman Capital \nThe Department has the human capital\
+    \ it needs to reduce improper payments in the DoD Travel Pay program to the levels\
+    \ the Department has targeted.  However, as the DoD Travel Pay program evolves\
+    \ and DoD operations change, additional skill sets and personnel resources may\
+    \ be needed to sustain and advance the program.\nInformation Systems and Other\
+    \ Infrastructure \nThe Department has the information systems and other infrastructure\
+    \ it needs to reduce improper payments in the DoD Travel Pay program to the levels\
+    \ the Department has targeted.  The primary system currently used by the Department\
+    \ to process travel payments is the Defense Travel System (DTS).  DTS received\
+    \ an unmodified System and Organizational Control (SOC) 1 Type 2 report under\
+    \ Statement on Standards for Attestation Engagements (SSAE) No. 18 in FY 2021.\
+    \  However, DTS will be replaced by an SAP Concur system called MyTravel, which\
+    \ also received an unmodified SOC 1 Type 2 report under SSAE No. 18 in FY 2021.\
+    \  Moreover, the Automated Disbursing System, the Centralized Disbursing System,\
+    \ and the Deployable Disbursing System, which are the primary disbursing systems\
+    \ for the Department, received an unmodified SOC 1 Type 2 report under SSAE No.\
+    \ 18 in FY 2021.  As technology advances, the Department continues to consider\
+    \ ways to improve the accuracy and efficiency of travel pay through implementation\
+    \ of new travel and entitlement processing systems and enhancements to existing\
+    \ systems.\n"
+  Confidence_Level: '>95%'
+  Corrective_Actions_Proportion: 'In FY 2021, the Travel Pay program estimated improper
+    and unknown payments decreased by $91.60 million, from $314.97 million in FY 2020
+    to $223.37 million in FY 2021. The primary root cause of improper payments for
+    this program was attributed to Statutory Requirements of Program Were Not Met
+    category, which accounted for $147.89 million '
+  End_Date: 07/2021
+  Future_Outlook_Has_Baseline: 'Yes'
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 244.2
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0348431587
+  Improper_Payments_Rate: 3.19074227
+  Insufficient_Documentation_to_Determine: 14.36
+  Is_Lowest_IP_And_Unknown_Rate: 'No'
+  Margin_of_Error: '0.3'
+  Non_Monetary_Loss_Amount: '163.24'
+  Outlays: 6550.2
+  Outlays_Current_Year_Plus_1_Amount: 7433.31
+  Payment_Accuracy_Rate: 96.59002778541114
+  Program_Design_or_Structural_Issue: 147.89
+  Start_Date: 08/2019
+  Technical_IP_Amount: '147.89'
+  Unknown_Curent_Year_Plus_1_Amount: 14.8
+  Unknown_Payments_Rate: 0.21922994717718544
+  Unknown_Why: "Key supporting documentation was not provided to the post payment\
+    \ review team to validate the accuracy of the payment.  \n"
+  Year: 2021
+  overpayments:
+    Address_Location: 45.76
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 45.76
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '45.76'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Address_Location: 15.35
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 15.35
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '15.35'
 - Agency_Needs_Satisfied: "Internal Controls:\nThe Department has the internal controls\
     \ in place to support the reduction of improper payments in the DoD Travel Pay\
     \ program to the levels the Department has targeted, and the Department is making\
@@ -94,6 +187,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '0.41'
   Non_Monetary_Loss_Amount: '251.82'
+  Outlays: 8405.22
   Outlays_Current_Year_Plus_1_Amount: 9033.43
   Payment_Accuracy_Rate: 95.6161766140565
   Program_Additional_Information: The DoD Travel Pay program includes payments disbursed
@@ -282,6 +376,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: 'No'
   Margin_of_Error: '0.7'
   Non_Monetary_Loss_Amount: '333.69'
+  Outlays: 9734.78
   Outlays_Current_Year_Plus_1_Amount: 9929.48
   Overpayment_Mitigations_Planned: Training
   Overpayment_Mitigations_Taken: Training
@@ -402,17 +497,15 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023]'
-Outlays: 0
-Overpayment_Amounts: '[107.21, 99.01]'
-Payment_Accuracy_Amounts: '[8036.750000000001, 9238.75]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2021, 2022, 2023]'
+Overpayment_Amounts: '[45.76, 107.21, 99.01]'
+Payment_Accuracy_Amounts: '[6326.839999999999, 8036.750000000001, 9238.75]'
 Phase_2_Program: 0
 Program_Name: DoD Travel Pay
 Scorecard_Links: []
-Technically_Improper_Amounts: '[238.25, 310.54]'
-Underpayment_Amounts: '[13.57, 23.15]'
-Unknown_Amounts: '[9.44, 63.33]'
+Technically_Improper_Amounts: '[147.89, 238.25, 310.54]'
+Underpayment_Amounts: '[15.35, 13.57, 23.15]'
+Unknown_Amounts: '[14.36, 9.44, 63.33]'
 layout: program-specific
 permalink: program/dow-dod-travel-pay
 ---

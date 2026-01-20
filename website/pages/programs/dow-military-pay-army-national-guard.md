@@ -191,6 +191,7 @@ Data_By_Year:
     ARNG achieves PIIA compliance.
   Margin_of_Error: '0.41'
   Non_Monetary_Loss_Amount: '22.189999999999998'
+  Outlays: 4839.37
   Outlays_Current_Year_Plus_1_Amount: 5202.33
   Overpayment_Mitigations_Planned: Training
   Overpayment_Mitigations_Taken: Change Process, Training
@@ -345,6 +346,7 @@ Data_By_Year:
   Hide_Underpayments_Failure_to_Access_Data: true
   Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
+  Outlays: 0
   Year: 2025
   detail_IP_Causes: null
   detail_No_Estimates_Why: 'During PIIA Review Year 2024, the Military Pay Army –
@@ -364,8 +366,8 @@ Data_By_Year:
     the broader context outlined in Report No. DODIG-2025-105, Audit of the Department
     of Defense’s FY 2024 Compliance with Payment Integrity Information Act Requirements,
     which highlighted systemic challenges in establishing a reliable Universe of Transactions
-    (UoT) across DoD programs, impacting PIIA compliance for multiple consecutive
-    years.
+    (UoT) across the Department''s programs, impacting PIIA compliance for multiple
+    consecutive years.
 
 
     While the Military Pay Army – National Guard program achieved low IP/UP estimates,
@@ -380,7 +382,7 @@ Data_By_Year:
 
 
     Given the previously reported low susceptibility to significant improper and unknown
-    payments and recognizing the broader UoT challenges affecting DoD PIIA compliance,
+    payments and recognizing the broader UoT challenges affecting DoW PIIA compliance,
     the Office of the Under Secretary of War – Comptroller coordinated with OMB and
     the DoD OIG before strategically transitioning the Military Pay Army – National
     Guard program to Phase 1 for FY 2026. Therefore, the Army will not report IP/UP
@@ -399,17 +401,15 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2024, 2025]'
-Outlays: 0
-Overpayment_Amounts: '[4.24, 0]'
-Payment_Accuracy_Amounts: '[4783.849999999999, 0]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2024]'
+Overpayment_Amounts: '[4.24]'
+Payment_Accuracy_Amounts: '[4783.849999999999]'
 Phase_2_Program: 0
 Program_Name: Military Pay Army – National Guard
 Scorecard_Links: []
-Technically_Improper_Amounts: '[14.67, 0]'
-Underpayment_Amounts: '[7.52, 0]'
-Unknown_Amounts: '[29.09, 0]'
+Technically_Improper_Amounts: '[14.67]'
+Underpayment_Amounts: '[7.52]'
+Unknown_Amounts: '[29.09]'
 layout: program-specific
 permalink: program/dow-military-pay-army-national-guard
 ---

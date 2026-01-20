@@ -2,60 +2,6 @@
 Agency: CNCS
 Agency_Name: Corporation for National and Community Service
 Data_By_Year:
-- Hide_Improper_Payment_Estimates_Doughnut_Chart: true
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: true
-  Hide_Overpayments_Outside_Control_Amount: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Overpayments_Within_Control_Amount: true
-  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Within_Failure_to_Access_Data: true
-  Hide_Overpayments_Within_Inability_to_Access_Data: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: true
-  Hide_Program_Results_Future_Outlook: true
-  Hide_Program_Results_Future_Outlook_Baseline: true
-  Hide_Program_Results_Future_Outlook_Baseline_Table: true
-  Hide_Program_Results_Future_Outlook_Explanation: true
-  Hide_Program_Results_Future_Outlook_Needs: true
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_Technical_IP_Amount: true
-  Hide_Underpayments_Amount: true
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Failure_to_Access_Data: true
-  Hide_Underpayments_Inability_to_Access_Data: true
-  Improper_Payments_Rate: 0
-  Insufficient_Documentation_to_Determine: 0.0
-  Program_Design_or_Structural_Issue: 0.0
-  Year: 2022
-  detail_Reduction_Target: null
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
 - Actions_Taken:
   - Action_Taken: Planned
     Action_Type: Training
@@ -176,6 +122,7 @@ Data_By_Year:
     $10M for its susceptible programs. NST is well under that rate.
   Margin_of_Error: '1.76'
   Non_Monetary_Loss_Amount: '0'
+  Outlays: 106.31
   Outlays_Current_Year_Plus_1_Amount: 106.31
   Payment_Accuracy_Rate: 96.84883830307591
   Program_Design_or_Structural_Issue: 0.0
@@ -263,17 +210,15 @@ Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2024]'
-Outlays: 0
-Overpayment_Amounts: '[0, 0]'
-Payment_Accuracy_Amounts: '[0, 102.96000000000001]'
-Payment_Accuracy_Rate: 0
+Improper_Payments_Data_Years: '[2024]'
+Overpayment_Amounts: '[0]'
+Payment_Accuracy_Amounts: '[102.96000000000001]'
 Phase_2_Program: 0
 Program_Name: National Service Trust
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0]'
-Underpayment_Amounts: '[0, 0]'
-Unknown_Amounts: '[0, 3.35]'
+Technically_Improper_Amounts: '[0]'
+Underpayment_Amounts: '[0]'
+Unknown_Amounts: '[3.35]'
 layout: program-specific
 permalink: program/cncs-national-service-trust
 ---

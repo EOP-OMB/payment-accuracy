@@ -41,6 +41,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '4316.68'
+  Outlays: 153811.639541
   Outlays_Current_Year_Plus_1_Amount: 17329.146978
   Payment_Accuracy_Rate: 95.50312965869122
   Program_Additional_Information: The Small Business Act authorizes the SBA to make
@@ -193,6 +194,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '634.38'
+  Outlays: 38931.71
   Outlays_Current_Year_Plus_1_Amount: 0
   Overpayment_Mitigations_Planned: Audit, Training
   Overpayment_Mitigations_Taken: Audit, Training
@@ -287,10 +289,8 @@ Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2022, 2023]'
-Outlays: 0
 Overpayment_Amounts: '[2600.03, 2537.39]'
 Payment_Accuracy_Amounts: '[146894.929541, 35759.94]'
-Payment_Accuracy_Rate: 0
 Phase_2_Program: 0
 Program_Name: COVID-Economic Injury Disaster Loan (EIDL)
 Scorecard_Links:

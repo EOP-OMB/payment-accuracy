@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Commercial
 - Compliant_1A: true
   Compliant_1B: true
@@ -50,6 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Employee
 - Compliant_1A: true
   Compliant_1B: true
@@ -62,6 +64,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Payroll
 - Compliant_1A: true
   Compliant_1B: true
@@ -74,6 +77,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Purchase Cards
 - Compliant_1A: true
   Compliant_1B: true
@@ -86,6 +90,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Relocation
 - Compliant_1A: true
   Compliant_1B: true
@@ -98,6 +103,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Travel Cards
 - Compliant_1A: true
   Compliant_1B: true
@@ -110,6 +116,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: U.S. Nuclear Regulatory Commission Minority Serving Institutions Program (MSIP)
 - Compliant_1A: true
   Compliant_1B: true
@@ -122,6 +129,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: U.S. Nuclear Regulatory Commission Office of Research Financial Assistance
     Program
 - Compliant_1A: true
@@ -135,6 +143,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: U.S. Nuclear Regulatory Commission Scholarship and Fellowship Program
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -144,27 +153,17 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Agency Reporting
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Commercial
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Employee
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
-    MethodologyChanged: 0
-    Program_Name: Government Charge Cards
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Payroll
     Slug: null
@@ -184,23 +183,23 @@ Risks:
     Program_Name: Travel Cards
     Slug: null
     Susceptible: null
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: U.S. Nuclear Regulatory Commission Minority Serving Institutions
       Program (MSIP)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: U.S. Nuclear Regulatory Commission Office of Research Financial
       Assistance Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: U.S. Nuclear Regulatory Commission Scholarship and Fellowship Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   SubstantialChangesMade: null
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
@@ -213,11 +212,13 @@ Years_Available:
 - 2024
 - 2023
 - 2022
+- 2021
 detail_Additional_IP_Information: Effective stewardship of taxpayer funds is a critical
   responsibility of the NRC, and the Chief Financial Officer has the responsibility
   for all financial management operations and activities at the NRC. The agency has
   recently modernized the applicable SORNs to include language that covers the Do
   Not Pay process which will aid in the reduction of improper payments, if any.
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: At the Nuclear Regulatory Commission vendor files are uploaded
   quarterly into DNP to see which vendors are flagged as DNP.  The Nuclear Regulatory
@@ -229,6 +230,7 @@ detail_DNP_Discussion: At the Nuclear Regulatory Commission vendor files are upl
   daily payment schedules reviews have not returned a match.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'Nuclear Regulatory Commission’s (NRC) Inspector General
   concluded that the agency was compliant with the Payment Integrity Information Act
   of 2019 (PIIA) in the most recent compliance audit. PIIA requires agencies to review
@@ -251,6 +253,7 @@ detail_Executive_Summary: 'Nuclear Regulatory Commission’s (NRC) Inspector Gen
   at or above the threshold levels set by PIIA. Lastly, the NRC maintains payment
   integrity through strong pre-payment eligibility controls and continuous monitoring.'
 detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
@@ -259,4 +262,5 @@ detail_Recovery_Not_Cost_Effective_Justification: null
 detail_Risks_Substantial_Changes_Made: null
 layout: agency-specific
 permalink: agency/NRC.html
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

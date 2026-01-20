@@ -40,6 +40,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '0.33'
   Non_Monetary_Loss_Amount: '19.69'
+  Outlays: 41255.81
   Outlays_Current_Year_Plus_1_Amount: 46497.89
   Payment_Accuracy_Rate: 99.38006307475239
   Program_Additional_Information: This year marks the first time CMS has measured
@@ -265,6 +266,7 @@ Data_By_Year:
   Is_Lowest_IP_And_Unknown_Rate: Unknown
   Margin_of_Error: '0.4'
   Non_Monetary_Loss_Amount: '11.028457'
+  Outlays: 46497.89
   Outlays_Current_Year_Plus_1_Amount: 55742.05
   Overpayment_Mitigations_Planned: Audit, Automation, Predictive Analytics, Training
   Overpayment_Mitigations_Taken: Audit, Automation, Predictive Analytics, Training
@@ -545,6 +547,7 @@ Data_By_Year:
     the tolerable rate for this program
   Margin_of_Error: '0.6'
   Non_Monetary_Loss_Amount: '408.56'
+  Outlays: 55707.64
   Outlays_Current_Year_Plus_1_Amount: 73812.75
   Overpayment_Mitigations_Planned: Audit, Automation, Predictive Analytics, Training
   Overpayment_Mitigations_Taken: Audit, Automation, Predictive Analytics, Training
@@ -623,23 +626,20 @@ Data_By_Year:
     infrastructure to reduce Improper Payments and Unknown Payments to the tolerable
     rate.
   Confidence_Level: 95% to <100%
-  Corrective_Actions_Adequacy_Association_Implementation: The planned and completed
-    actions provide a number of corrective action plans designed to target the APTC
-    error rate. Audits, automation, education, and risk models are all key corrective
-    action plans to reduce the error rate and address the causes of improper payments.
-  Corrective_Actions_Appropriateness: HHS developed effective corrective actions and
-    mitigation strategies that are focused on identified root causes for improper
-    payments and plans to continue these actions in FY 2026.  The payments that fall
-    into the overpayment category are largely related to manual administrative errors
-    and process errors. In particular the majority of overpayments occurred because
-    of system defects within the Exchanges that may impact APTC payments. Corrective
-    actions focused on identifying and remediating system defects are the best mitigation
-    strategy since they are closely aligned with the largest drivers of the error
-    rate. In addition to remediating system defects, HHS also plans to use staff training,
-    audits, and risk models to address the root causes of improper payments in FY
-    2026.
-  Corrective_Actions_Proportion: The planned and completed actions provide a number
-    of corrective action plans designed to target the APTC error rate. Audits, automation,
+  Corrective_Actions_Adequacy_Association_Implementation: HHS addresses improper payments
+    in APTC through several corrective actions. To ensure that the corrective actions
+    are effectively implemented and prioritized,  HHS has continued to prioritize
+    a number of corrective action plans designed to target the APTC error rate. Audits,
+    automation, education, and risk models are all key corrective action plans that
+    have been prioritized as a way to reduce APTC improper payments.
+  Corrective_Actions_Appropriateness: In FY 2026, HHS will continue to implement corrective
+    actions including health plan training, expanded and accelerated contract-specific
+    Risk Adjustment Data Validation (RADV) audits, and investigations to identify
+    potential fraud and recover overpayments.
+  Corrective_Actions_Proportion: Annually, the agency identifies the root causes of
+    improper payments and underpayments and develops specific corrective actions to
+    address them. The planned and completed actions provide a number of corrective
+    action plans designed to target the drivers of the APTC error rate. Audits, automation,
     education, and risk models are all key corrective action plans to reduce the error
     rate and address the causes of improper payments.
   End_Date: 12/2023
@@ -681,6 +681,7 @@ Data_By_Year:
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '0.54'
   Non_Monetary_Loss_Amount: '282.44'
+  Outlays: 73812.75
   Overpayment_Combined_Mitigations_Planned: Audit, Automation, Predictive Analytics,
     Training
   Overpayment_Combined_Mitigations_Taken: Audit, Automation, Predictive Analytics,
@@ -698,20 +699,22 @@ Data_By_Year:
   Technical_IP_Amount: '282.44'
   Unknown_Payments_Rate: 0
   Year: 2025
-  detail_IP_Causes: 'The primary causes of improper payments for FY2025 were consumer
-    identity errors associated with accepting documents with discrepancies in required
-    data elements and errors related to payments for overlapping coverage.
+  detail_IP_Causes: 'The primary root cause of improper payments were overpayments
+    due to manual errors where the Federally-facilitated Exchange accepted consumer
+    submitted documentation with unacceptable name and date of birth variances to
+    resolve an eligibility verification issue and improperly inputting information
+    in the income
 
+    verification tool. The second root cause was technically improper payments which
+    are situations where payments are made to eligible recipients for correct
 
-    For the consumer identity errors, consumer documents containing dates of birth
-    which did not match the date of birth on the application were accepted. Additionally,
-    a consumer submitted document was accepted where the name on the document differed
-    significantly from that on the application.
+    amounts but failed to satisfy all legally applicable requirements relevant to
+    payment. In these cases, the system failed to conduct a periodic data match required
+    to check Medicare eligibility or enrollment but the Exchange  later confirmed
+    that the applicant was not eligible or enrolled in Medicare and therefore eligible
+    for APTC.
 
-
-    For the overlapping coverage errors, application members were identified as receiving
-    APTC on at least one additional active policy outside of the FEIPM sampled applications.
-    These were identified using shared demographic information.'
+    '
   detail_No_Estimates_Why: null
   detail_Overpayments_Due_To_Data_DNE: '0.0'
   detail_Overpayments_Due_To_Failure: '375.02'
@@ -748,18 +751,37 @@ Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
 Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
-Outlays: 73812.75
 Overpayment_Amounts: '[236.07, 260.725629, 154.38, 375.02]'
 Payment_Accuracy_Amounts: '[41000.049999999996, 46226.135914, 55144.700000000004,
   73155.29]'
-Payment_Accuracy_Rate: 99.1092866747276
 Phase_2_Program: 0
 Program_Name: Centers for Medicare & Medicaid Services (CMS) - Advance Premium Tax
   Credit (APTC)
 Scorecard_Links:
+- Link: assets/scorecards/Q1 2024/Centers for Medicare & Medicaid Services (CMS) Advance
+    Premium Tax Credit (APTC).pdf
+  QuarterYear: Q1 2024
+- Link: assets/scorecards/Q2 2024/Centers for Medicare & Medicaid Services (CMS) Advance
+    Premium Tax Credit (APTC).pdf
+  QuarterYear: Q2 2024
+- Link: assets/scorecards/Q3 2024/Centers for Medicare & Medicaid Service (CMS) Advance
+    Premium Tax Credit (APTC).pdf
+  QuarterYear: Q3 2024
 - Link: assets/scorecards/Q4 2024/Centers for Medicare & Medicaid Services (CMS) -
     Advance Premium Tax Credit (APTC).pdf
   QuarterYear: Q4 2024
+- Link: assets/scorecards/Q1 2025/Centers for Medicare & Medicaid (CMS) - Advance
+    Premium Tax Credit (APTC).pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q2 2025/Centers for Medicare & Medicaid Services (CMS) -
+    Advanced Premium Tax Credit (APTC).pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q3 2025/Centers for Medicare & Medicaid Services (CMS) -
+    Advanced Premium Tax Credit (APTC).pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/Centers for Medicare & Medicaid Services (CMS) -
+    Advanced Premium Tax Credit (APTC).pdf
+  QuarterYear: Q4 2025
 Technically_Improper_Amounts: '[0, 11.028457, 408.56, 282.44]'
 Underpayment_Amounts: '[19.69, 0, 0, 0]'
 Unknown_Amounts: '[0, 0, 0, 0]'

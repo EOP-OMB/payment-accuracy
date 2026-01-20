@@ -38,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Japan-U.S. Friendship Commission Grants
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
