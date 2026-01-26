@@ -294,6 +294,12 @@ Payment_Accuracy_Amounts: '[146894.929541, 35759.94]'
 Phase_2_Program: 0
 Program_Name: COVID-Economic Injury Disaster Loan (EIDL)
 Scorecard_Links:
+- Link: assets/scorecards/Q2 2023/COVID-Economic Injury Disaster Loan (EIDL).pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/COVID-Economic Injury Disaster Loan (EIDL).pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/COVID- Economic Injury Disaster Loan (EIDL).pdf
+  QuarterYear: Q4 2023
 - Link: assets/scorecards/Q1 2024/COVID-Economic Injury Disaster Loan (EIDL).pdf
   QuarterYear: Q1 2024
 - Link: assets/scorecards/Q2 2024/COVID-Economic Injury Disaster Loan (EIDL).pdf

@@ -241,8 +241,8 @@ Data_By_Year:
   Technical_IP_Amount: '23.02'
   Underpayment_Mitigations_Planned: Change Process, Cross Enterprise Sharing, Training
   Underpayment_Mitigations_Taken: Change Process, Cross Enterprise Sharing, Training
-  Unknown_Mitigations_Planned: Change Process, Cross Enterprise Sharing, Training
-  Unknown_Mitigations_Taken: Change Process, Cross Enterprise Sharing, Training
+  Unknown_Mitigations_Planned: Change Process,Cross Enterprise Sharing,Training
+  Unknown_Mitigations_Taken: Change Process,Cross Enterprise Sharing,Training
   Unknown_Payments_Rate: 3.6048192771084335
   Year: 2025
   detail_IP_Causes: 'Several recurring causes contribute to improper and unknown payments

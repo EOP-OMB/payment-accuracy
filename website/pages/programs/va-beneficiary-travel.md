@@ -415,7 +415,7 @@ Data_By_Year:
     Medical Centers responsible for claims processing. For this reason, we are unable
     to conclude whether the payment is proper or improper at time of payment without
     that documentation.
-  Unknown_Mitigations_Planned: Automation, Change Process
+  Unknown_Mitigations_Planned: Automation,Change Process
   Unknown_Mitigations_Taken: Automation
   Unknown_Payments_Rate: 0.9690892950629367
   Unknown_Why: The payments are considered unknown payments when VA had lacking or
@@ -779,7 +779,7 @@ Data_By_Year:
     processing purposes. For this reason, we are unable to conclude whether the payment
     is proper or improper at time of payment without that documentation.
   Unknown_Mitigations_Planned: Training
-  Unknown_Mitigations_Taken: Automation, Change Process
+  Unknown_Mitigations_Taken: Automation,Change Process
   Unknown_Payments_Rate: 0.9480287707533395
   Unknown_Why: The payments are considered unknown payments when VA had missing or
     insufficient documentation related to authorization, receiving, eligibility, or

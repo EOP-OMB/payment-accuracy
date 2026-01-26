@@ -40,19 +40,6 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: '*Internal Apportionment from OSEC*'
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
   Name: Agricultural Conservation Easement Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -2075,21 +2062,6 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Food and Nutrition Service (FNS) Child and Adult Care Food Program (CACFP)
-    Family Day Care Homes (FDCH) - Tiering Decisions
-  Slug: usda-food-and-nutrition-service-fns-child-and-adult-care-foo-48fe4550
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
   Name: Food and Nutrition Service (FNS) Food Safety Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -2274,6 +2246,19 @@ PIIA2019_Compliant_Programs:
   Compliant_Overall: true
   Hide_Compliance_Section: true
   Name: Integrated Activities
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Internal Apportionment from OSEC
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -4294,6 +4279,20 @@ PIIA2019_NonCompliant_Programs:
   Compliant_6: true
   Compliant_Overall: false
   Hide_Compliance_Section: true
+  Name: Food and Nutrition Service (FNS) Child and Adult Care Food Program
+  Slug: usda-food-and-nutrition-service-fns-child-and-adult-care-foo-7e972464
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: false
+  Hide_Compliance_Section: true
   Name: Livestock Forage Disaster Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -4331,11 +4330,6 @@ Payment_Accuracy_Rates: '[96.03409359220693, 97.78785114411266, 91.8725489339364
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: '*Internal Apportionment from OSEC*'
-    Slug: null
-    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Agricultural and Food Policy Research Centers
@@ -5062,7 +5056,7 @@ Risks:
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Food and Nutrition Service (FNS) Child and Adult Care Food Program
-    Slug: null
+    Slug: usda-food-and-nutrition-service-fns-child-and-adult-care-foo-7e972464
     Susceptible: 'Yes'
   - Fiscal_Year: null
     MethodologyChanged: 0
@@ -5237,6 +5231,11 @@ Risks:
     Program_Name: Integrated Activities
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Internal Apportionment from OSEC
+    Slug: null
+    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: International Agricultural Education Fellowship Program

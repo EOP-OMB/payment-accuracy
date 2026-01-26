@@ -275,8 +275,8 @@ Data_By_Year:
   Technical_IP_Amount: '18.185'
   Underpayment_Mitigations_Planned: Automation
   Underpayment_Mitigations_Taken: Audit, Change Process, Training
-  Unknown_Mitigations_Planned: Automation, Change Process
-  Unknown_Mitigations_Taken: Audit, Change Process, Training
+  Unknown_Mitigations_Planned: Automation,Change Process
+  Unknown_Mitigations_Taken: Audit,Change Process,Training
   Unknown_Payments_Rate: 0.03487093736471519
   Year: 2025
   detail_IP_Causes: "Carriers who reported improper payments and unknown payments\

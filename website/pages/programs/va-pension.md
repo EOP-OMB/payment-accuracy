@@ -800,8 +800,8 @@ Data_By_Year:
     there was a change in income. Until due process is complete, VA cannot make a
     final determination and the payment must be classified as unknown. Payments must
     also continue unchanged until the 60-day due process period concludes.
-  Unknown_Mitigations_Planned: Audit, Automation, Training
-  Unknown_Mitigations_Taken: Audit, Automation
+  Unknown_Mitigations_Planned: Audit,Automation,Training
+  Unknown_Mitigations_Taken: Audit,Automation
   Unknown_Payments_Rate: 3.060970950565466
   Unknown_Why: If a benefit payment is identified as a potential overpayment and has
     yet to enter due process or is currently in due process, a determination of whether
@@ -1019,8 +1019,8 @@ Data_By_Year:
   Technical_IP_Amount: '0.0'
   Underpayment_Mitigations_Planned: Audit, Automation, Training
   Underpayment_Mitigations_Taken: Audit, Automation, Training
-  Unknown_Mitigations_Planned: Audit, Automation, Training
-  Unknown_Mitigations_Taken: Audit, Automation, Training
+  Unknown_Mitigations_Planned: Audit,Automation,Training
+  Unknown_Mitigations_Taken: Audit,Automation,Training
   Unknown_Payments_Rate: 1.2315874576395325
   Year: 2025
   detail_IP_Causes: 'VA overpayments are within the agency''s control and occured
@@ -1091,6 +1091,48 @@ Payment_Accuracy_Amounts: '[4510.98, 3732.33, 3442.98, 3224.3499999999995, 3195.
 Phase_2_Program: 0
 Program_Name: Pension
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2018/Pension-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
+- Link: assets/scorecards/Q2 2019/Pension Getting Payments Right Scorecard FY 2019
+    Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q3 2019/Pension Getting Payments Right Scorecard FY 2019
+    Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q4 2019/Pension Getting Payments Right Scorecard FY 2019
+    Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q1 2020/Pension Getting Payments Right Scorecard FY 2020
+    Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q3 2020/Pension Getting Payments Right Scorecard FY 2020
+    Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q4 2020/Pension Getting Payments Right Scorecard FY 2020
+    Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q1 2021/Pension Payments Integrity Scorecard FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q2 2021/Pension Payments Integrity Scorecard FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q3 2021/Pension Payments Integrity Scorecard FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2021/Pension Payments Integrity Scorecard FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q1 2022/Pension Payments Integrity Scorecard FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q2 2022/Pension Payments Integrity Scorecard FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q3 2022/Pension Payments Integrity Scorecard FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q4 2022/Pension Payments Integrity Scorecard FY 2022 Q4.pdf
+  QuarterYear: Q4 2022
+- Link: assets/scorecards/Q2 2023/Pension.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/Pension.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/Pension.pdf
+  QuarterYear: Q4 2023
 - Link: assets/scorecards/Q1 2024/Pension.pdf
   QuarterYear: Q1 2024
 - Link: assets/scorecards/Q2 2024/Pension.pdf

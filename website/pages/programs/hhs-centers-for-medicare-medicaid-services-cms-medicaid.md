@@ -922,6 +922,52 @@ Payment_Accuracy_Amounts: '[356450.74, 435240.49, 536576.77, 579734.2399999999, 
 Phase_2_Program: 0
 Program_Name: Centers for Medicare & Medicaid Services (CMS) - Medicaid
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2018/Medicaid-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
+- Link: assets/scorecards/Q2 2019/Medicaid Getting Payments Right Scorecard FY 2019
+    Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q3 2019/Medicaid Getting Payments Right Scorecard FY 2019
+    Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q4 2019/Medicaid Getting Payments Right Scorecard FY 2019
+    Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q1 2020/Medicaid Getting Payments Right Scorecard FY 2020
+    Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q3 2020/Medicaid Getting Payments Right Scorecard FY 2020
+    Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q4 2020/Medicaid Getting Payments Right Scorecard FY 2020
+    Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q1 2021/Medicaid Payments Integrity Scorecard FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q2 2021/Medicaid Payments Integrity Scorecard FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q3 2021/Medicaid Payments Integrity Scorecard FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2021/Medicaid Payments Integrity Scorecard FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q1 2022/CMS Medicaid Payments Integrity Scorecard FY 2022
+    Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q2 2022/CMS Medicaid Payments Integrity Scorecard FY 2022
+    Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q3 2022/CMS Medicaid Payments Integrity Scorecard FY 2022
+    Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q4 2022/Centers for Medicare _ Medicaid Services (CMS) Medicaid
+    Payments Integrity Scorecard FY 2022 Q4.pdf
+  QuarterYear: Q4 2022
+- Link: assets/scorecards/Q2 2023/Centers for Medicare & Medicaid Services (CMS) Medicaid.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/Centers for Medicare & Medicaid Services (CMS) Medicaid.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/Centers for Medicare _ Medicaid Services (CMS) Medicaid.pdf
+  QuarterYear: Q4 2023
 - Link: assets/scorecards/Q1 2024/Centers for Medicare & Medicaid Services (CMS) Medicaid.pdf
   QuarterYear: Q1 2024
 - Link: assets/scorecards/Q2 2024/Centers for Medicare & Medicaid Services (CMS) Medicaid.pdf

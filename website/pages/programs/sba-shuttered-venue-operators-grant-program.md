@@ -201,8 +201,8 @@ Data_By_Year:
   Technical_IP_Amount: '1321.029'
   Underpayment_Mitigations_Planned: Training
   Underpayment_Mitigations_Taken: Training
-  Unknown_Mitigations_Planned: Change Process, Training
-  Unknown_Mitigations_Taken: Change Process, Training
+  Unknown_Mitigations_Planned: Change Process,Training
+  Unknown_Mitigations_Taken: Change Process,Training
   Unknown_Payments_Rate: 29.04965009458781
   Year: 2025
   detail_IP_Causes: 'The predominant root cause identified for the Shuttered Venue

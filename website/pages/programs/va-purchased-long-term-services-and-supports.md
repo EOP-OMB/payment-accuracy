@@ -418,7 +418,7 @@ Data_By_Year:
     the billed amount on the claim or the paid amount is accurate. For this reason,
     we are unable to conclude whether the payment is proper or improper at time of
     payment without that documentation.
-  Unknown_Mitigations_Planned: Automation, Change Process
+  Unknown_Mitigations_Planned: Automation,Change Process
   Unknown_Mitigations_Taken: Change Process
   Unknown_Payments_Rate: 1.482960022062819
   Unknown_Why: The payments are considered unknown payments when VA had lacking or
@@ -797,8 +797,8 @@ Data_By_Year:
     or information. The missing documentation or information needed from the will
     assist VA in determining whether or not the billed amount on the claim or the
     paid amount is accurate.
-  Unknown_Mitigations_Planned: Change Process, Training
-  Unknown_Mitigations_Taken: Automation, Change Process
+  Unknown_Mitigations_Planned: Change Process,Training
+  Unknown_Mitigations_Taken: Automation,Change Process
   Unknown_Payments_Rate: 1.8312796006162977
   Unknown_Why: The payments are considered unknown payments when VA had missing or
     insufficient documentation to validate that clean claim requirements were met
@@ -1057,7 +1057,7 @@ Data_By_Year:
   Underpayment_Mitigations_Planned: Change Process
   Underpayment_Mitigations_Taken: Audit, Automation
   Unknown_Mitigations_Planned: Change Process
-  Unknown_Mitigations_Taken: Change Process, Training
+  Unknown_Mitigations_Taken: Change Process,Training
   Unknown_Payments_Rate: 0.6253657857794768
   Year: 2025
   detail_IP_Causes: VA overpayments are within the agency's control and occurred when
@@ -1120,6 +1120,41 @@ Payment_Accuracy_Amounts: '[708.2099999999998, 1423.6199999999994, 2244.27999999
 Phase_2_Program: 0
 Program_Name: Purchased Long Term Services and Supports
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2018/Purchased-Long-Term-Services-and-Support-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
+- Link: assets/scorecards/Q2 2019/Purchased Long Term Services and Support Getting
+    Payments Right Scorecard FY 2019 Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q3 2019/Purchased Long Term Services and Support Getting
+    Payments Right Scorecard FY 2019 Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q4 2019/Purchased Long Term Services and Support Getting
+    Payments Right Scorecard FY 2019 Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q1 2020/Purchased Long Term Services and Support Getting
+    Payments Right Scorecard FY 2020 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q3 2020/Purchased Long Term Services and Support Getting
+    Payments Right Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q4 2020/Purchased Long Term Services and Support Getting
+    Payments Right Scorecard FY 2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q1 2021/Purchased Long Term Services and Support Payments
+    Integrity Scorecard FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q1 2022/Purchased Long Term Services and Supports Payments
+    Integrity Scorecard FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q2 2022/Purchased Long Term Services and Supports Payments
+    Integrity Scorecard FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q3 2022/Purchased Long Term Services and Supports Payments
+    Integrity Scorecard FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q4 2022/Purchased Long Term Services and Supports Payments
+    Integrity Scorecard FY 2022 Q4.pdf
+  QuarterYear: Q4 2022
 - Link: assets/scorecards/Q1 2024/Purchased Long Term Services and Supports.pdf
   QuarterYear: Q1 2024
 - Link: assets/scorecards/Q2 2024/Puchased Long Term Services and Supports.pdf

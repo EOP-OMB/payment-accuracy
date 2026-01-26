@@ -297,9 +297,8 @@ agencies:
   - high_priority_program: true
     ip_rate: 10.5
     program_name: Food and Nutrition Service (FNS) Child and Adult Care Food Program
-      (CACFP) Family Day Care Homes (FDCH) - Tiering Decisions
-    relative_change: 10.37
-    slug: usda-food-and-nutrition-service-fns-child-and-adult-care-foo-48fe4550
+    relative_change: null
+    slug: usda-food-and-nutrition-service-fns-child-and-adult-care-foo-7e972464
     total_spent_federal_funding: 4245.0
   - high_priority_program: false
     ip_rate: 0.0

@@ -671,7 +671,7 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
 Overpayment_Amounts: '[0, 298.069226, 0, 0, 0]'
@@ -679,7 +679,25 @@ Payment_Accuracy_Amounts: '[16989.8779863013, 29419.1372, 19847.47693227, 19191.
   24982.374]'
 Phase_2_Program: 0
 Program_Name: 7(a) Loan Guarantees Approvals
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q1 2021/7(a) Guaranty Approvals Payments Integrity Scorecard
+    FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q2 2021/7(a) Guaranty Approvals Payments Integrity Scorecard
+    FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q3 2021/7(a) Guaranty Approvals Payments Integrity Scorecard
+    FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2021/7(a) Guaranty Approvals Payments Integrity Scorecard
+    FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q2 2023/7(a) Loan Guarantees Approvals.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/7(a) Loan Guarantees Approvals.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/7(a) Loan Guarantees Approvals.pdf
+  QuarterYear: Q4 2023
 Technically_Improper_Amounts: '[352.6144726987, 0, 262.740596, 1103.348154, 1632.514]'
 Underpayment_Amounts: '[0, 0, 0, 0, 0]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'

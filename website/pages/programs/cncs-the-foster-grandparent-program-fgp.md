@@ -499,7 +499,7 @@ Data_By_Year:
     Criminal History Check information; missing or incomplete program participants
     income eligibility information, missing program participate timesheets; and missing
     program policy.'
-  Unknown_Mitigations_Planned: Change Process, Training
+  Unknown_Mitigations_Planned: Change Process,Training
   Unknown_Mitigations_Taken: Training
   Unknown_Payments_Rate: 14.498510427010924
   Unknown_Why: The AmeriCorps Payment Integrity Assessment uses documentation submitted
@@ -704,7 +704,7 @@ Data_By_Year:
   Technical_IP_Amount: '0.0'
   Underpayment_Mitigations_Planned: Change Process, Training
   Underpayment_Mitigations_Taken: Training
-  Unknown_Mitigations_Planned: Change Process, Training
+  Unknown_Mitigations_Planned: Change Process,Training
   Unknown_Mitigations_Taken: Training
   Unknown_Payments_Rate: 20.607352157698458
   Year: 2025

@@ -721,6 +721,59 @@ Payment_Accuracy_Amounts: '[11737.93, 11519.81, 13657.069999999998, 23287.95, 22
 Phase_2_Program: 0
 Program_Name: Federal Crop Insurance Corporation (FCIC)
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2018/Federal-Crop-Insurance-Corporation-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
+- Link: assets/scorecards/Q2 2019/Federal Crop Insurance Corporation Getting Payments
+    Right Scorecard FY 2019 Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q3 2019/Federal Crop Insurance Corporation Getting Payments
+    Right Scorecard FY 2019 Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q4 2019/Federal Crop Insurance Corporation Getting Payments
+    Right Scorecard FY 2019 Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q1 2020/Federal Crop Insurance Corporation Getting Payments
+    Right Scorecard FY 2020 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q3 2020/Federal Crop Insurance Corporation Getting Payments
+    Right Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q4 2020/Federal Crop Insurance Corporation Getting Payments
+    Right Scorecard FY 2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q1 2021/Federal Crop Insurance Corporation Payments Integrity
+    Scorecard FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q2 2021/Federal Crop Insurance Corporation Payments Integrity
+    Scorecard FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q3 2021/Federal Crop Insurance Corporation Payments Integrity
+    Scorecard FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2021/Federal Crop Insurance Corporation Payments Integrity
+    Scorecard FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q1 2022/RMA Federal Crop Insurance Corporation (FCIC) Payments
+    Integrity Scorecard FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q2 2022/RMA Federal Crop Insurance Corporation (FCIC) Payments
+    Integrity Scorecard FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q3 2022/RMA Federal Crop Insurance Corporation (FCIC) Payments
+    Integrity Scorecard FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q4 2022/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC) Payments Integrity Scorecard FY 2022 Q4.pdf
+  QuarterYear: Q4 2022
+- Link: assets/scorecards/Q2 2023/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/Risk Managment Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q4 2023
 - Link: assets/scorecards/Q1 2024/Risk Management Agency (RMA) Federal Crop Insurance
     Corporation (FCIC).pdf
   QuarterYear: Q1 2024

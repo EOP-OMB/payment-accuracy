@@ -758,6 +758,15 @@ Phase_2_Program: 0
 Program_Name: Centers for Medicare & Medicaid Services (CMS) - Advance Premium Tax
   Credit (APTC)
 Scorecard_Links:
+- Link: assets/scorecards/Q2 2023/Centers for Medicare & Medicaid Services (CMS) Advance
+    Premium Tax Credit (APTC).pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/Centers for Medicare & Medicaid Services (CMS) Advance
+    Premium Tax Credit (APTC).pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/Centeres for Medicare _ Medicaid Services (CMS)
+    Advance Premium Tax Credit (APTC).pdf
+  QuarterYear: Q4 2023
 - Link: assets/scorecards/Q1 2024/Centers for Medicare & Medicaid Services (CMS) Advance
     Premium Tax Credit (APTC).pdf
   QuarterYear: Q1 2024

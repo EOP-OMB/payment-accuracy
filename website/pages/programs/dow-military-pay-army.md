@@ -489,14 +489,26 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2021, 2022, 2023]'
 Overpayment_Amounts: '[27.55, 63.41, 8.75]'
 Payment_Accuracy_Amounts: '[44190.03999999999, 39243.36, 40085.05]'
 Phase_2_Program: 0
 Program_Name: Military Pay - Army
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q1 2021/Military Pay - Army Payments Integrity Scorecard
+    FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q2 2021/Military Pay - Army Payments Integrity Scorecard
+    FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q3 2021/Military Pay - Army Payments Integrity Scorecard
+    FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2021/Military Pay - Army Payments Integrity Scorecard
+    FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
 Technically_Improper_Amounts: '[42.79, 76.95, 58.65]'
 Underpayment_Amounts: '[38.44, 0, 0.2]'
 Unknown_Amounts: '[1405.67, 677.64, 168.15]'

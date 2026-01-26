@@ -570,14 +570,26 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2021, 2022, 2023]'
 Overpayment_Amounts: '[0, 16.63, 11.84]'
 Payment_Accuracy_Amounts: '[412187.61, 389924.18999999994, 404483.18999999994]'
 Phase_2_Program: 0
 Program_Name: Commercial Pay
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q1 2021/Defense Finance and Accounting Service Commercial
+    Pay Payments Integrity Scorecard FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q2 2021/Defense Finance and Accounting Service Commercial
+    Pay Payments Integrity Scorecard FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q3 2021/Defense Finance and Accounting Service Commercial
+    Pay Payments Integrity Scorecard FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2021/Defense Finance and Accounting Service Commercial
+    Pay Payments Integrity Scorecard FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
 Technically_Improper_Amounts: '[0, 0, 119.21]'
 Underpayment_Amounts: '[0, 6.89, 2.56]'
 Unknown_Amounts: '[0, 43.96, 104.37]'

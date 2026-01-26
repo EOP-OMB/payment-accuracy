@@ -2229,7 +2229,7 @@ Data_By_Year:
     Training
   Underpayment_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence, Change
     Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change, Training
-  Unknown_Mitigations_Planned: Automation, Training
+  Unknown_Mitigations_Planned: Automation,Training
   Unknown_Mitigations_Taken: Training
   Unknown_Payments_Rate: 1.7167173529776294
   Year: 2025
@@ -2385,6 +2385,50 @@ Payment_Accuracy_Amounts: '[334817.83999999997, 66310.65000000001, 23513.6, 2958
 Phase_2_Program: 0
 Program_Name: Employment & Training Administration - Federal State Unemployment Insurance
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2018/Unemployment-Insurance-Getting-Payments-right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
+- Link: assets/scorecards/Q2 2019/Unemployment Insurance Getting Payments right Scorecard
+    FY 2019 Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q3 2019/Unemployment Insurance Getting Payments right Scorecard
+    FY 2019 Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q4 2019/Unemployment Insurance Getting Payments right Scorecard
+    FY 2019 Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q1 2021/Unemployment Insurance Payments Integrity Scorecard
+    FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q2 2021/Unemployment Insurance Payments Integrity Scorecard
+    FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q3 2021/Unemployment Insurance Payments Integrity Scorecard
+    FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2021/Unemployment Insurance Payments Integrity Scorecard
+    FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q1 2022/Employment and Training Administration - Federal
+    State Unemployment Insurance Payments Integrity Scorecard FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q2 2022/Employment and Training Administration - Federal
+    State Unemployment Insurance Payments Integrity Scorecard FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q3 2022/Employment and Training Administration - Federal
+    State Unemployment Insurance Payments Integrity Scorecard FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q4 2022/Employment _ Training Administration - Federal State
+    Unemployment Insurance Payments Integrity Scorecard FY 2022 Q4.pdf
+  QuarterYear: Q4 2022
+- Link: assets/scorecards/Q2 2023/Employment & Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/Employment & Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/Employment _ Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q4 2023
 - Link: assets/scorecards/Q1 2024/Employment & Training Administration - Federal State
     Unemployment Insurance.pdf
   QuarterYear: Q1 2024

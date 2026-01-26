@@ -792,8 +792,8 @@ Data_By_Year:
     \ (UPs) have been attributable to:\n•\tMissing proof of payment to subrecipient\
     \ vendors for supplies and equipment\n•\tLabor timesheets and documentation of\
     \ recipient salary / payroll detail\n•\tEtc."
-  Unknown_Mitigations_Planned: Audit, Automation, Change Process, Training
-  Unknown_Mitigations_Taken: Audit, Automation, Change Process, Training
+  Unknown_Mitigations_Planned: Audit,Automation,Change Process,Training
+  Unknown_Mitigations_Taken: Audit,Automation,Change Process,Training
   Unknown_Payments_Rate: 3.514596529794602
   Unknown_Why: "Payments are considered Unknown Payments (UPs) when the associated\
     \ recipient and subrecipient(s), if applicable, fail to provide adequate supporting\
@@ -1132,8 +1132,8 @@ Data_By_Year:
     For additional detail on the DHS FY 2026 budget, please refer to the DHS.gov website.'
   Start_Date: 10/2022
   Technical_IP_Amount: '0.0'
-  Unknown_Mitigations_Planned: Audit, Automation, Change Process, Training
-  Unknown_Mitigations_Taken: Audit, Automation, Change Process, Training
+  Unknown_Mitigations_Planned: Audit,Automation,Change Process,Training
+  Unknown_Mitigations_Taken: Audit,Automation,Change Process,Training
   Unknown_Payments_Rate: 1.1264529736072526
   Year: 2025
   detail_IP_Causes: "Due to the nature of the Public Assistance program, the Federal\

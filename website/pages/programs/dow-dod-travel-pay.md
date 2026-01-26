@@ -495,14 +495,31 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2021, 2022, 2023]'
 Overpayment_Amounts: '[45.76, 107.21, 99.01]'
 Payment_Accuracy_Amounts: '[6326.839999999999, 8036.750000000001, 9238.75]'
 Phase_2_Program: 0
 Program_Name: DoD Travel Pay
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q4 2018/Travel-Pay-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
+- Link: assets/scorecards/Q2 2019/Travel Pay Getting Payments Right Scorecard FY 2019
+    Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q3 2019/Travel Pay Getting Payments Right Scorecard FY 2019
+    Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q4 2019/Travel Pay Getting Payments Right Scorecard FY 2019
+    Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q2 2023/DoD Travel Pay.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/DoD Travel Pay.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/DoD Travel Pay.pdf
+  QuarterYear: Q4 2023
 Technically_Improper_Amounts: '[147.89, 238.25, 310.54]'
 Underpayment_Amounts: '[15.35, 13.57, 23.15]'
 Unknown_Amounts: '[14.36, 9.44, 63.33]'

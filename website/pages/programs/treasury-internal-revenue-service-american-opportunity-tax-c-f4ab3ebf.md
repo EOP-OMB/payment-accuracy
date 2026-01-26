@@ -1073,6 +1073,48 @@ Payment_Accuracy_Amounts: '[5255.5599999999995, 3596.0700000000006, 3569.54, 374
 Phase_2_Program: 0
 Program_Name: Internal Revenue Service - American Opportunity Tax Credit
 Scorecard_Links:
+- Link: assets/scorecards/Q1 2020/American Opportunity Tax Credit Getting Payments
+    Right Scorecard FY 2002 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q3 2020/American Opportunity Tax Credit Getting Payments
+    Right Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q4 2020/American Opportunity Tax Credit Getting Payments
+    Right Scorecard FY 2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q1 2021/American Opportunity Tax Credit Payments Integrity
+    Scorecard FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q2 2021/American Opportunity Tax Credit Payments Integrity
+    Scorecard FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q3 2021/American Opportunity Tax Credit Payments Integrity
+    Scorecard FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2021/American Opportunity Tax Credit Payments Integrity
+    Scorecard FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q1 2022/Internal Revenue Service - American Opportunity
+    Tax Credit Payments Integrity Scorecard FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q2 2022/Internal Revenue Service - American Opportunity
+    Tax Credit Payments Integrity Scorecard FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q3 2022/Internal Revenue Service - American Opportunity
+    Tax Credit Payments Integrity Scorecard FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q4 2022/Internal Revenue Service - American Opportunity
+    Tax Credit Payments Integrity Scorecard FY 2022 Q4.pdf
+  QuarterYear: Q4 2022
+- Link: assets/scorecards/Q2 2023/Internal Revenue Service - American Opportunity
+    Tax Credit.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/Internal Revenue Service - American Opportunity
+    Tax Credit.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/Internal Revenue Service - American Opportunity
+    Tax Credit.pdf
+  QuarterYear: Q4 2023
 - Link: assets/scorecards/Q1 2024/Internal Revenue Service - American Opportunity
     Tax Credit.pdf
   QuarterYear: Q1 2024

@@ -972,7 +972,7 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
 Overpayment_Amounts: '[8.14, 74.24, 86.36, 10.07, 2.98]'
@@ -980,7 +980,16 @@ Payment_Accuracy_Amounts: '[2572.4, 5912.06, 2010.7199999999998, 309.91999999999
   259.40999999999997]'
 Phase_2_Program: 0
 Program_Name: Agriculture Risk/Price Loss Coverage Program
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q1 2020/FSA Agriculture Risk and Price Loss Coverage Getting
+    Payments Right Scorecard FY 2020 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q3 2020/FSA Agriculture Risk and Price Loss Coverage Getting
+    Payments Right Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q4 2020/FSA Agriculture Risk and Price Loss Coverage Getting
+    Payments Right Scorecard FY 2020 Q4.png
+  QuarterYear: Q4 2020
 Technically_Improper_Amounts: '[54.8, 304.54, 102.77, 35.35, 15.68]'
 Underpayment_Amounts: '[0, 0, 0, 0, 0]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'

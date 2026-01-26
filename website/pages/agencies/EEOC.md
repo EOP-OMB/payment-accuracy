@@ -147,11 +147,6 @@ Risks:
     Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Education Evaluation and Technical Assistance Grants
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
     Program_Name: Employment Discrimination Private Bar Program (Private Attorney
       Referral)
     Slug: null

@@ -257,14 +257,53 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2021, 2022]'
 Overpayment_Amounts: '[124.15, 105.83]'
 Payment_Accuracy_Amounts: '[19588.149999999998, 20612.649999999998]'
 Phase_2_Program: 0
 Program_Name: Military Health Benefits - Healthcare
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q1 2020/Military Health Benefits Getting Payments Right
+    Scorecard FY 2020 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q3 2020/Military Health Benefits Getting Payments Right
+    Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q4 2020/Military Health Benefits Getting Payments Right
+    Scorecard FY 2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q1 2021/Military Health Benefits Payments Integrity Scorecard
+    FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q2 2021/Military Health Benefits Payments Integrity Scorecard
+    FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q3 2021/Military Health Benefits Payments Integrity Scorecard
+    FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2021/Military Health Benefits Payments Integrity Scorecard
+    FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q1 2022/Military Health Benefits Payments Integrity Scorecard
+    FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q2 2022/Military Health Benefits Payments Integrity Scorecard
+    FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q3 2022/Military Health Benefits Payments Integrity Scorecard
+    FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q4 2022/Military Health Benefits - Healthcare Payments Integrity
+    Scorecard FY 2022 Q4.pdf
+  QuarterYear: Q4 2022
+- Link: assets/scorecards/Q2 2023/Military Health Benefits - Healthcare.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/Military Health Benefits - Healthcare.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/Military Health Benefits - Healthcare.pdf
+  QuarterYear: Q4 2023
 Technically_Improper_Amounts: '[0, 0]'
 Underpayment_Amounts: '[43.83, 43.77]'
 Unknown_Amounts: '[0, 0]'

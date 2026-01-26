@@ -1286,11 +1286,11 @@ Risks:
       Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2020'
     MethodologyChanged: 0
     Program_Name: Community Planning and Development - Neighborhood Initiatives Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Community Planning and Development - Neighborhood Stabilization
@@ -1476,11 +1476,11 @@ Risks:
     Program_Name: Housing - Energy Innovation Fund
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Housing - Flexible Subsidy
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Housing - Green and Resilient Retrofit Program (GRRP)
@@ -1552,12 +1552,12 @@ Risks:
     Program_Name: Office of Inspector General (OIG)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Policy Development and Research - PDR Managed Technical Assistance
       Grants
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Policy Development and Research - Research and Technology

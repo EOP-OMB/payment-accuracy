@@ -922,7 +922,7 @@ Data_By_Year:
   Technical_IP_Actions_Planned: Change Process
   Technical_IP_Actions_Taken: Change Process
   Technical_IP_Amount: '1.13'
-  Unknown_Mitigations_Planned: Change Process, Training
+  Unknown_Mitigations_Planned: Change Process,Training
   Unknown_Mitigations_Taken: Change Process
   Unknown_Payments_Rate: 5.245395092098159
   Year: 2025

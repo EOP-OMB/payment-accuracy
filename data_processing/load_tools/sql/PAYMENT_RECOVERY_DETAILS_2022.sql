@@ -11,6 +11,7 @@ WHERE [Fiscal_Year] = ? AND [Agency] = ? AND [Program_Name] IS NULL AND
         'op amt recapture outside of payment recapture audits',
         'op amt identified through payment recapture audits',
         'op amt recaptured through payment recapture audits',
+        'op next fy recapture rate target through payment recapture audit',
         'aging of outstanding op identified amt 0 - 6 months',
         'aging of outstanding op identified amt 6 months to 1 year',
         'aging of outstanding op identified determined not collectable',

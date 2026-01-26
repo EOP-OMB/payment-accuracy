@@ -68,6 +68,10 @@ class GovernmentWideReport(Report):
             "Stats": query.fetch_all(self.cursor, query.QUERY_TYPES.IP_GW_STATS, (self.year,), self.year)[0]
         }
 
+        # Prior year may have calculated the reduction target rate differently
+        prior_year_stats = query.fetch_all(self.cursor, query.QUERY_TYPES.IP_GW_STATS, (self.year - 1,), self.year - 1)[0]
+        self.data["IPData"]["Stats"]["reduction_target_rate_prior_year"] = prior_year_stats["reduction_target_rate_current_year"]
+
     # Special section for congressional report #9 only
     def fetch_dnp_data(self):
         if (self.id != 9):
