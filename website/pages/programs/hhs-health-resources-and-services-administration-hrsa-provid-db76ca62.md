@@ -193,7 +193,7 @@ Data_By_Year:
     Number (TINs) of the health-care providers that provided services and submitted
     claims for the some claimed that were paid.
   Unknown_Mitigations_Planned: Change Process
-  Unknown_Mitigations_Taken: Audit, Change Process, Training
+  Unknown_Mitigations_Taken: Audit,Change Process,Training
   Unknown_Payments_Rate: 0.011858246982634026
   Unknown_Why: A payment is considered “Unknown” when an agency is unable to obtain
     the documentation needed for a reviewer to determine whether the payment was made

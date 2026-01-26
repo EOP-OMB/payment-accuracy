@@ -748,6 +748,35 @@ Payment_Accuracy_Amounts: '[48775.303, 47891.172999999995, 51083.69710361001, 53
 Phase_2_Program: 0
 Program_Name: Federal Highway Administration Highway Planning and Construction
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2018/Federal-Highway-Administration-Highway-Planning-and-Construction-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
+- Link: assets/scorecards/Q3 2019/Federal Highway Administration Highway Planning
+    and Construction Getting Payments Right Scorecard FY 2019 Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q4 2019/Federal Highway Administration Highway Planning
+    and Construction Getting Payments Right Scorecard FY 2019 Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q1 2020/Federal Highway Administration Highway Planning
+    and Construction Getting Payments Right Scorecard FY 2020 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q3 2020/Federal Highway Administration Highway Planning
+    and Construction Getting Payments Right Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q4 2020/Federal Highway Administration Highway Planning
+    and Construction Getting Payments Right Scorecard FY 2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q1 2022/Federal Highway Administration Highway Planning
+    and Construction Payments Integrity Scorecard FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q2 2022/Federal Highway Administration Highway Planning
+    and Construction Payments Integrity Scorecard FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q3 2022/Federal Highway Administration Highway Planning
+    and Construction Payments Integrity Scorecard FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q4 2022/Federal Highway Administration Highway Planning
+    and Construction Payments Integrity Scorecard FY 2022 Q4.pdf
+  QuarterYear: Q4 2022
 - Link: assets/scorecards/Q1 2025/Federal Highway Administration Highway Planning
     and Construction.pdf
   QuarterYear: Q1 2025

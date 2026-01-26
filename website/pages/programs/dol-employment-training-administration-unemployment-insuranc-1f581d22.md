@@ -166,7 +166,7 @@ Data_By_Year:
     date.
   Underpayment_Mitigations_Taken: Cross Enterprise Sharing, Training
   Unknown_Due_To_States_Amount: '21086.40'
-  Unknown_Mitigations_Taken: Cross Enterprise Sharing, Training
+  Unknown_Mitigations_Taken: Cross Enterprise Sharing,Training
   Unknown_Payments_Rate: 17.397599216454587
   Unknown_Why: These payments are unknown since their accuracy could not be definitively
     established or refuted. For the PUA program, payment accuracy assessments were

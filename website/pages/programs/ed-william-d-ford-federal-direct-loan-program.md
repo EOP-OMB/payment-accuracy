@@ -1068,10 +1068,10 @@ Data_By_Year:
     C.
 
     '
-  Unknown_Mitigations_Planned: Audit, Behavioral/Psych Influence, Change Process,
-    Cross Enterprise Sharing, Predictive Analytics, Training
-  Unknown_Mitigations_Taken: Audit, Behavioral/Psych Influence, Change Process, Cross
-    Enterprise Sharing, Predictive Analytics, Training
+  Unknown_Mitigations_Planned: Audit,Behavioral/Psych Influence,Change Process,Cross
+    Enterprise Sharing,Predictive Analytics,Training
+  Unknown_Mitigations_Taken: Audit,Behavioral/Psych Influence,Change Process,Cross
+    Enterprise Sharing,Predictive Analytics,Training
   Unknown_Payments_Rate: 0.007313560725855906
   Unknown_Why: 'FSA leverages compliance audit data to estimate improper payments
     and unknown payments. In some
@@ -1334,10 +1334,10 @@ Data_By_Year:
     Cross Enterprise Sharing, Predictive Analytics, Training
   Underpayment_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence, Change
     Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change, Training
-  Unknown_Mitigations_Planned: Audit, Behavioral/Psych Influence, Change Process,
-    Cross Enterprise Sharing, Predictive Analytics, Training
-  Unknown_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence, Change
-    Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change, Training
+  Unknown_Mitigations_Planned: Audit,Behavioral/Psych Influence,Change Process,Cross
+    Enterprise Sharing,Predictive Analytics,Training
+  Unknown_Mitigations_Taken: Audit,Automation,Behavioral/Psych Influence,Change Process,Cross
+    Enterprise Sharing,Predictive Analytics,Statutory Change,Training
   Unknown_Payments_Rate: 0.0037692784736284646
   Year: 2025
   detail_IP_Causes: "FSA diligently works to identify the causes of improper payments\
@@ -1398,14 +1398,52 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 1
 Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
 Overpayment_Amounts: '[86.43, 103.21, 67.82, 83, 208.27]'
 Payment_Accuracy_Amounts: '[84235.0, 83186.12999999999, 83221.39, 85873.41, 89309.93000000001]'
 Phase_2_Program: 0
 Program_Name: William D. Ford Federal Direct Loan Program
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q4 2018/Direct-Loan-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
+- Link: assets/scorecards/Q2 2019/Direct Loan Getting Payments Right Scorecard FY
+    2019 Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q3 2019/Direct Loan Getting Payments Right Scorecard FY
+    2019 Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q4 2019/Direct Loan Getting Payments Right Scorecard FY
+    2019 Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q1 2020/Direct Loan Getting Payments Right Scorecard FY
+    2020 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q3 2020/Direct Loan Getting Payments Right Scorecard FY
+    2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q4 2020/Direct Loan Getting Payments Right Scorecard FY
+    2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q1 2021/Direct Loan Payments Integrity Scorecard FY 2021
+    Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q2 2021/Direct Loan Payments Integrity Scorecard FY 2021
+    Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q3 2021/Direct Loan Payments Integrity Scorecard FY 2021
+    Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2021/Direct Loan Payments Integrity Scorecard FY 2021
+    Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q2 2023/William D. Ford Federal Direct Loan Program.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/William D. Ford Federal Direct Loan Program.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/William D. Ford Federal Direct Loan Program.pdf
+  QuarterYear: Q4 2023
 Technically_Improper_Amounts: '[371.91, 503.77, 500.84, 719.45, 669.83]'
 Underpayment_Amounts: '[16.03, 17.3, 18, 6.08, 11.51]'
 Unknown_Amounts: '[0, 4.33, 0, 6.34, 3.4]'

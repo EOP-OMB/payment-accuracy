@@ -2,18 +2,7 @@
 Agency: TREASURY
 Agency_Name: Department of the Treasury
 Fiscal_Year: 2025
-High_Priority_Links:
-- Link: assets/scorecards/Q4 2025/Internal Revenue Service - Additional Child Tax
-    Credit.pdf
-  Program_Name: Internal Revenue Service - Additional Child Tax Credit
-- Link: assets/scorecards/Q4 2025/Internal Revenue Service - American Opportunity
-    Tax Credit.pdf
-  Program_Name: Internal Revenue Service - American Opportunity Tax Credit
-- Link: assets/scorecards/Q4 2025/Internal Revenue Service - Earned Income Tax Credit.pdf
-  Program_Name: Internal Revenue Service - Earned Income Tax Credit
-- Link: assets/scorecards/Q4 2025/Internal Revenue Service - Refundable Premium Assistance
-    Tax Credit.pdf
-  Program_Name: Internal Revenue Service - Refundable Premium Assistance Tax Credit
+High_Priority_Links: []
 Page_Name: 2025_TREASURY_2
 ProgramSurveyData:
 - Answers:

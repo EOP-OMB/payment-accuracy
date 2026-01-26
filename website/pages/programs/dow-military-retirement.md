@@ -457,7 +457,7 @@ Data_By_Year:
     reabsorbed into DFAS. In order to conclude whether or not these payments are proper
     or improper, the Military Retirement will need to receive documentation from both
     the payee and the Branch of Service.
-  Unknown_Mitigations_Planned: Change Process, Training
+  Unknown_Mitigations_Planned: Change Process,Training
   Unknown_Mitigations_Taken: Training
   Unknown_Payments_Rate: 0.0390906354933502
   Unknown_Why: Out of 2,114 samples reviewed, the Military Retirement program had
@@ -535,14 +535,41 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2021, 2022, 2023]'
 Overpayment_Amounts: '[74.65, 369.45, 75.49]'
 Payment_Accuracy_Amounts: '[49837.77, 51455.36, 58998.24]'
 Phase_2_Program: 0
 Program_Name: Military Retirement
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q1 2020/Military Retirement Getting Payments Right Scorecard
+    FY 2020 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q3 2020/Military Retirement Getting Payments Right Scorecard
+    FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q4 2020/Military Retirement Getting Payments Right Scorecard
+    FY 2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q1 2021/Military Retirement Payments Integrity Scorecard
+    FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q2 2021/Military Retirement Payments Integrity Scorecard
+    FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q3 2021/Military Retirement Payments Integrity Scorecard
+    FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2021/Military Retirement Payments Integrity Scorecard
+    FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q2 2023/Military Retirement.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/Military Retirement.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/Military Retirement.pdf
+  QuarterYear: Q4 2023
 Technically_Improper_Amounts: '[0.05, 1.3, 3.52]'
 Underpayment_Amounts: '[3.54, 5.75, 44.23]'
 Unknown_Amounts: '[98.49, 42.33, 23.12]'

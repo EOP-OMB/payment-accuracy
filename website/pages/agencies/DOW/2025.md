@@ -10,7 +10,7 @@ Hide_Do_Not_Pay: false
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: false
 Hide_PIIA2019: false
-Hide_Recovery_Audits: true
+Hide_Recovery_Audits: false
 Hide_Recovery_Details: false
 Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
@@ -683,26 +683,26 @@ Payment_Accuracy_Rates: '[99.62431026022188, 99.67386288085508, 99.7630292669445
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Civilian Pay – Army
     Slug: dow-civilian-pay-army
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'Yes'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Civilian Pay – Department of Air Force (DAF)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Civilian Pay – Navy
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Civilian Pay – Other Defense Organization (ODO)
     Slug: dow-civilian-pay-other-defense-organization-odo
-    Susceptible: null
+    Susceptible: 'Yes'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Computerized Accounts Payable System (CAPS/ CAPS-W)
@@ -719,221 +719,221 @@ Risks:
       (DEAMS)
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Enterprise Business System (EBS)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Financial Accounting and Budgetary System (FABS)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Commercial Pay – General Fund Enterprise Business System (GFEBS)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Integrated Accounts Payable System (IAPS)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Mechanization of Contract Administration Services
       (MOCAS)
     Slug: dow-commercial-pay-mechanization-of-contract-administration--94c59ea7
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Navy Enterprise and Resource Planning (NERP)
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Commercial Pay – ONEPAY
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Standard Automated Voucher Examination System (SAVES)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Transportation Financial Management System (TFMS)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Commercial Pay - U.S. Army Corps of Engineers (USACE)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Military Health Benefits – Administrative
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Military Health Benefits – TRICARE East Region Program (East)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Military Health Benefits – TRICARE Medicare Eligible Program (TMEP)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Military Health Benefits – TRICARE Overseas Program (TOP)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Military Health Benefits – TRICARE Pharmacy Program (TPharm)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Military Health Benefits – TRICARE West Region Program (West)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Military Pay Army – Active Duty
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Military Pay Army – National Guard
     Slug: dow-military-pay-army-national-guard
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'Yes'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Military Pay Army – Reserve
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Military Pay Department of Air Force (DAF) – Active Duty
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Military Pay Department of Air Force (DAF) – Air National Guard
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Military Pay Department of Air Force (DAF) – Reserve
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Military Pay Marie Corps – Reserve
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Military Pay Marine Corps – Active Duty
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Military Pay Navy – Active Duty
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Military Pay Navy – Reserve
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Military Retirement – Annuitant Pay
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'Yes'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Military Retirement – Combat Related Special Compensation
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Military Retirement – Retired Pay
     Slug: null
-    Susceptible: null
+    Susceptible: 'Yes'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: NSA Grants
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Travel Pay - U.S. Army Corps of Engineers (USACE)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Travel Pay Army – Defense Travel System (DTS)
     Slug: null
-    Susceptible: null
+    Susceptible: 'Yes'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Travel Pay Army – Integrated Automated Travel System (IATS)
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Travel Pay Department of Air Force (DAF) – Defense Travel System
       (DTS)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'Yes'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Travel Pay Department of Air Force (DAF) - Reserve Travel System
       (RTS)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Travel Pay Marine Corps – Defense Travel System (DTS)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Travel Pay Marine Corps – Integrated Automated Travel System (IATS)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Travel Pay Marine Corps - MARINE CORPS TOTAL FORCE SYSTEM (MCTFS)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Travel Pay Navy – Defense Travel System (DTS)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Travel Pay Navy – Integrated Automated Travel System (IATS)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Travel Pay Other Defense Organization (ODO) – Defense Travel System
       (DTS)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'Yes'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Travel Pay Other Defense Organization (ODO) – Integrated Automated
       Travel System (IATS)
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[246.60999999999999, 455.27, 765.32023, 405.33, 1138.75]'
 Underpayment_Amounts: '[113.6, 70.46000000000001, 71.53999999999999, 49.42, 482.45]'

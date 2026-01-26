@@ -469,7 +469,7 @@ Data_By_Year:
   Start_Date: 04/2024
   Technical_IP_Amount: '0.0'
   Unknown_Mitigations_Planned: Training
-  Unknown_Mitigations_Taken: Audit, Training
+  Unknown_Mitigations_Taken: Audit,Training
   Unknown_Payments_Rate: 8.113328994514493
   Year: 2025
   detail_IP_Causes: The predominant cause of improper payments in the PPP Guaranty

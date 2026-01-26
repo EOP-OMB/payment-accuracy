@@ -498,7 +498,7 @@ Data_By_Year:
     or the documentation required. In all instances, HHS is unable to determine if
     the payment is proper or improper without the documentation to conclude if the
     expenditures qualified as an allowable use of funds under the Head Start program.
-  Unknown_Mitigations_Planned: Audit, Change Process, Training
+  Unknown_Mitigations_Planned: Audit,Change Process,Training
   Unknown_Mitigations_Taken: Training
   Unknown_Payments_Rate: 8.452035936820751
   Unknown_Why: Payments are unknown for the Head Start program because at the time
@@ -751,8 +751,8 @@ Data_By_Year:
     Training
   Underpayment_Mitigations_Taken: Audit, Change Process, Cross Enterprise Sharing,
     Training
-  Unknown_Mitigations_Planned: Audit, Change Process, Cross Enterprise Sharing, Training
-  Unknown_Mitigations_Taken: Audit, Change Process, Cross Enterprise Sharing, Training
+  Unknown_Mitigations_Planned: Audit,Change Process,Cross Enterprise Sharing,Training
+  Unknown_Mitigations_Taken: Audit,Change Process,Cross Enterprise Sharing,Training
   Unknown_Payments_Rate: 8.615637817970955
   Year: 2025
   detail_IP_Causes: The causes of the improper payments and unknown payments in the

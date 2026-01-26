@@ -39,7 +39,7 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Charge Card Program– Tennessee Valley Authority
+  Name: Charge Card Program - Tennessee Valley Authority
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -52,7 +52,7 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Payroll Program – Tennessee Valley Authority
+  Name: Payroll Program - Tennessee Valley Authority
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true

@@ -348,8 +348,8 @@ Data_By_Year:
     to the travel, which resulted in a change in price/expense incurred.  If so, this
     would be an improper payment with either an overpayment or underpayment.  If not,
     it would be a technically improper payment.
-  Unknown_Mitigations_Planned: Automation, Behavioral/Psych Influence, Training
-  Unknown_Mitigations_Taken: Automation, Behavioral/Psych Influence, Training
+  Unknown_Mitigations_Planned: Automation,Behavioral/Psych Influence,Training
+  Unknown_Mitigations_Taken: Automation,Behavioral/Psych Influence,Training
   Unknown_Payments_Rate: 2.2800196933942245
   Unknown_Why: "The primary cause for Department of the Air Force's Defense Travel\
     \ System (DTS) unknown payments were payments awaiting corrective action by travelers\
@@ -668,8 +668,8 @@ Data_By_Year:
   Technical_IP_Amount: '105.02'
   Underpayment_Mitigations_Planned: Automation, Behavioral/Psych Influence, Training
   Underpayment_Mitigations_Taken: Automation, Behavioral/Psych Influence, Training
-  Unknown_Mitigations_Planned: Automation, Behavioral/Psych Influence, Training
-  Unknown_Mitigations_Taken: Automation, Behavioral/Psych Influence, Training
+  Unknown_Mitigations_Planned: Automation,Behavioral/Psych Influence,Training
+  Unknown_Mitigations_Taken: Automation,Behavioral/Psych Influence,Training
   Unknown_Payments_Rate: 1.105553167376607
   Year: 2025
   detail_IP_Causes: 'The Department of the Air Force (DAF) Defense Travel System (DTS)

@@ -8,12 +8,7 @@ SELECT
     100 * ([sums].[total_unknown_current_year]) / CAST([sums].[total_outlays_current_year] AS REAL) AS [unknown_rate_current_year],
     [sums].[total_improper_current_year] + [sums].[total_unknown_current_year] AS [total_unknown_and_improper_amount],
     100 * ([sums].[total_improper_current_year] + [sums].[total_unknown_current_year]) / CAST([sums].[total_outlays_current_year] AS REAL) AS [unknown_and_improper_rate_current_year],
-    100 * ([cy_target].[total_unknown_and_improper_next_year]) / CAST((
-        CASE WHEN [sums].[total_outlays_next_year] IS NULL OR [sums].[total_outlays_next_year] = 0 THEN [sums].[total_outlays_current_year] ELSE [sums].[total_outlays_next_year] END
-    ) AS REAL) AS [reduction_target_rate_current_year],
-    100 * ([py_target].[total_unknown_and_improper_next_year]) / CAST((
-        CASE WHEN [py_sums].[total_outlays_next_year] IS NULL OR [py_sums].[total_outlays_next_year] = 0 THEN [py_sums].[total_outlays_current_year] ELSE [py_sums].[total_outlays_next_year] END
-    ) AS REAL) AS [reduction_target_rate_prior_year],
+    [cy_target].[reduction_target_rate_current_year],
     100 * [sums].[total_automation_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_automation],
     100 * [sums].[total_behavioral_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_behavioral],
     100 * [sums].[total_training_responses] / CAST([program].[unique_program_count] AS REAL) AS [response_rate_training],
@@ -55,30 +50,30 @@ LEFT JOIN (
 ON [sums].[Fiscal_Year] = [py_sums].[Fiscal_Year] + 1
 LEFT JOIN (
     SELECT
-        [Fiscal_Year],
-        SUM([value]) AS [total_unknown_and_improper_next_year]
-    FROM (
-        SELECT
-            [cyp20].[agency],
-            [cyp20].[Program Name],
-            [cyp20].[Fiscal_Year],
-            ([cyp16].[value]/ 100.0) * [cyp20].[value] AS [value]
-        FROM [congressional_reports_program] [cyp20]
-        LEFT JOIN (
+	    SUM([outlays]) AS [total_outlays_for_programs_with_targets],
+        SUM([target_ip]) AS [total_unknown_and_improper_next_year],
+		100 * CASE WHEN SUM([outlays]) = 0 THEN 0 ELSE SUM([target_ip])/SUM([outlays]) END AS [reduction_target_rate_current_year],
+        [program_outlays_and_targets].[Fiscal_Year] FROM (
             SELECT
-                *
-            FROM [congressional_reports_program]
-            WHERE LOWER([key]) = 'cyp16' AND [value] IS NOT NULL
-        ) [cyp16]
-        ON
-            [cyp20].[agency] = [cyp16].[agency] AND
-            [cyp20].[Program Name] = [cyp16].[Program Name] AND
-            [cyp20].[Fiscal_Year] = [cyp16].[Fiscal_Year]
-        WHERE
-            LOWER([cyp20].[key]) = 'cyp20_1' AND
-            [cyp20].[value] IS NOT NULL AND
-            [cyp16].[value] IS NOT NULL) [cy_targets]
-    GROUP BY [Fiscal_Year]
+                COALESCE([cy_outlays].[value],0) AS [outlays],
+                COALESCE([ny_targets].[value],0) AS [target_rate],
+                COALESCE([cy_outlays].[value],0) * COALESCE([ny_targets].[value],0) / 100 AS [target_ip],
+                [cy_outlays].[Fiscal_Year]
+            FROM (
+                SELECT
+                    *
+                FROM [congressional_reports_program]
+                WHERE [key] = 'cyp1') [cy_outlays]
+            JOIN (
+                SELECT
+                    *
+                FROM [congressional_reports_program]
+                -- exclude programs that did not report a target rate from the denominator
+                WHERE [key] = 'cyp20_1'  AND COALESCE(CAST([value] AS REAL),0) > 0) [ny_targets]
+            ON
+                [cy_outlays].[Program Name] = [ny_targets].[Program Name] AND
+                [cy_outlays].[Fiscal_Year] = [ny_targets].[Fiscal_Year]) [program_outlays_and_targets]
+    GROUP BY [program_outlays_and_targets].[Fiscal_Year]
 ) [cy_target]
 ON [sums].[Fiscal_Year] = [cy_target].[Fiscal_Year]
 LEFT JOIN (
@@ -91,34 +86,6 @@ LEFT JOIN (
         FROM [congressional_reports]
         GROUP BY [Fiscal_Year]) [agency_sums]
 ON [sums].[Fiscal_Year] = [agency_sums].[Fiscal_Year]
-LEFT JOIN (
-    SELECT
-        [Fiscal_Year],
-        SUM([value]) AS [total_unknown_and_improper_next_year]
-    FROM (
-        SELECT
-            [cyp20].[agency],
-            [cyp20].[Program Name],
-            [cyp20].[Fiscal_Year],
-            ([cyp16].[value]/ 100.0) * [cyp20].[value] AS [value]
-        FROM [congressional_reports_program] [cyp20]
-        LEFT JOIN (
-            SELECT
-                *
-            FROM [congressional_reports_program]
-            WHERE LOWER([key]) = 'cyp16' AND [value] IS NOT NULL
-        ) [cyp16]
-        ON
-            [cyp20].[agency] = [cyp16].[agency] AND
-            [cyp20].[Program Name] = [cyp16].[Program Name] AND
-            [cyp20].[Fiscal_Year] = [cyp16].[Fiscal_Year]
-        WHERE
-            LOWER([cyp20].[key]) = 'cyp20_1' AND
-            [cyp20].[value] IS NOT NULL AND
-            [cyp16].[value] IS NOT NULL) [cy_targets]
-    GROUP BY [Fiscal_Year]
-) [py_target]
-ON [sums].[Fiscal_Year] = [py_target].[Fiscal_Year] + 1
 -- count of programs that provided estimates
 --  (denominator for actions taken response rates)
 LEFT JOIN (

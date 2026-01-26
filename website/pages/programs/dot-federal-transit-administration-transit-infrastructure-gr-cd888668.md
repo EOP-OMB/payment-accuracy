@@ -641,6 +641,15 @@ Phase_2_Program: 0
 Program_Name: Federal Transit Administration Transit Infrastructure Grants - COVID
   Relief Funds
 Scorecard_Links:
+- Link: assets/scorecards/Q2 2023/Federal Transit Administration Transit Infrastructure
+    Grants - COVID Relief Funds.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/Federal Transit Administration Transit Infrastructure
+    Grants - COVID Relief Funds.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/Federal Transit Administration Transit Infrastructure
+    Grants - COVID Relief Funds.pdf
+  QuarterYear: Q4 2023
 - Link: assets/scorecards/Q1 2024/Federal Transit Administration Transit Infrastructure
     Grants - COVID Relief Funds.pdf
   QuarterYear: Q1 2024

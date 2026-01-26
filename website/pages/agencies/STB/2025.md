@@ -47,7 +47,12 @@ Payment_Accuracy_Rate_Min: 0
 Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
-  Assessments: []
+  Assessments:
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Rail Carriers
+    Slug: null
+    Susceptible: 'No'
   SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'

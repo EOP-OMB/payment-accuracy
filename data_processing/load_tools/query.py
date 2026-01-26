@@ -386,11 +386,14 @@ query_type_by_year = {
         }, answers))
     },
     QUERY_TYPES.IP_GW_STATS: {
+        2022: {
+            "query": get_sql_file("IP_GW_STATS_2022.sql")
+        },
         2023: {
-            "query": get_sql_file("IP_GW_STATS_2023.sql")
+            "query": get_sql_file("IP_GW_STATS_2022.sql")
         },
         2024: {
-            "query": get_sql_file("IP_GW_STATS_2023.sql")
+            "query": get_sql_file("IP_GW_STATS_2022.sql")
         },
         2025: {
             "query": get_sql_file("IP_GW_STATS_2025.sql")

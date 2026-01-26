@@ -10,10 +10,10 @@ Hide_Do_Not_Pay: false
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
 Hide_PIIA2019: false
-Hide_Recovery_Audits: true
+Hide_Recovery_Audits: false
 Hide_Recovery_Details: false
 Hide_Recovery_Info: false
-Hide_Risk_Assessment_Results: true
+Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
 Hide_Supplemental_Info: false
 Hide_Supplemental_Payment_Integrity: true
@@ -47,7 +47,12 @@ Payment_Accuracy_Rate_Min: 0
 Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
-  Assessments: []
+  Assessments:
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Barry M. Goldwater Scholarship Program
+    Slug: null
+    Susceptible: null
   SubstantialChangesMade: null
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'

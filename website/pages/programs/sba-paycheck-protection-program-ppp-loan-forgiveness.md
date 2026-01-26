@@ -476,8 +476,8 @@ Data_By_Year:
   Technical_IP_Amount: '0.0'
   Underpayment_Mitigations_Planned: Audit, Training
   Underpayment_Mitigations_Taken: Audit, Training
-  Unknown_Mitigations_Planned: Audit, Training
-  Unknown_Mitigations_Taken: Audit, Training
+  Unknown_Mitigations_Planned: Audit,Training
+  Unknown_Mitigations_Taken: Audit,Training
   Unknown_Payments_Rate: 0.17376880849887447
   Year: 2025
   detail_IP_Causes: "PPP Loan Forgiveness payments are reviewed after the SBA has\
@@ -528,6 +528,12 @@ Payment_Accuracy_Amounts: '[27542.726001999996, 1128.11187577, 245.4609999999999
 Phase_2_Program: 0
 Program_Name: Paycheck Protection Program (PPP) Loan Forgiveness
 Scorecard_Links:
+- Link: assets/scorecards/Q2 2023/Paycheck Protection Loan Program (PPP).pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/Paycheck Protection Loan Program (PPP).pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/Paycheck Protection Loan Program (PPP).pdf
+  QuarterYear: Q4 2023
 - Link: assets/scorecards/Q1 2024/Paycheck Protection Program (PPP) Loan Forgiveness.pdf
   QuarterYear: Q1 2024
 - Link: assets/scorecards/Q2 2024/Paycheck Protection Program (PPP) Loan Forgiveness.pdf

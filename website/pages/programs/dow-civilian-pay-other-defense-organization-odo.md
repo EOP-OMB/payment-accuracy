@@ -293,8 +293,8 @@ Data_By_Year:
     \ office for key supporting documentation related to overseas employees. However,\
     \ during this audit year, CHRA informed the DHA that they were unable to provide\
     \ the documentation on time (likely due to the reshuffling of personnel). \n"
-  Unknown_Mitigations_Planned: Automation, Change Process
-  Unknown_Mitigations_Taken: Automation, Change Process
+  Unknown_Mitigations_Planned: Automation,Change Process
+  Unknown_Mitigations_Taken: Automation,Change Process
   Unknown_Payments_Rate: 3.1293880866268347
   Unknown_Why: The Department’s unknown payments were primarily a result of the lack
     of sufficient key supporting documentation (KSD) to substantiate whether payments

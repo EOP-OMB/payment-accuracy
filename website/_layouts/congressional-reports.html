@@ -327,7 +327,17 @@ permalink: /
                     </div>
                 {% endif %}
 
+                {% assign current_year_selected = false %}
+                {% if page.Fiscal_Year == site.data.shared.Fiscal_Year %}
+                    {% assign current_year_selected = true %}
+                {% endif %}
+
+                {% assign has_high_priority_links = false %}
                 {% if page.High_Priority_Links != nil and page.High_Priority_Links.size > 0 %}
+                    {% assign has_high_priority_links = true %}
+                {% endif %}
+
+                {% if has_high_priority_links == true or current_year_selected == true %}
                     <!-- Additional Section for CR #2 -->
                     <div class="grid-row">
                         <div class="grid-col-12">
@@ -339,12 +349,18 @@ permalink: /
                                         </button>
                                     </h4>
                                     <div id="risks-accordion" class="usa-accordion__content usa-prose">
-                                        {% for link in page.High_Priority_Links %}
-                                            <a href="{{ link.Link | absolute_url }}" target="_blank">
-                                                {{ link.Program_Name }}
-                                            </a>
-                                            <br />
-                                        {% endfor %}
+                                        {% if has_high_priority_links == true %}
+                                            {% for link in page.High_Priority_Links %}
+                                                <a href="{{ link.Link | absolute_url }}" target="_blank">
+                                                    {{ link.Program_Name }}
+                                                </a>
+                                                <br />
+                                            {% endfor %}
+                                        {% else %}
+                                            <p>
+                                                Payment Integrity scorecards for current year high-priority programs will be displayed here as they become available. Payment Integrity scorecards are published approximately two months after the close of each fiscal quarter.
+                                            </p>
+                                        {% endif %}
                                     </div>
                                 </div>
                             </div>

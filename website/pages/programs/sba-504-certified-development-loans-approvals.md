@@ -645,14 +645,32 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
 Overpayment_Amounts: '[0, 198.962331, 0, 0, 0]'
 Payment_Accuracy_Amounts: '[6130.433774, 9819.549186, 6925.825512, 6042.0, 7053.626]'
 Phase_2_Program: 0
 Program_Name: 504 Certified Development Loans Approvals
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q1 2021/504 Certified Development Company Guaranty Approvals
+    Payments Integrity Scorecard FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q2 2021/504 Certified Development Company Guaranty Approvals
+    Payments Integrity Scorecard FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q3 2021/504 Certified Development Company Guaranty Approvals
+    Payments Integrity Scorecard FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2021/504 Certified Development Company Guaranty Approvals
+    Payments Integrity Scorecard FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q2 2023/504 Certified Development Loans Approvals.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/504 Certified Development Loans Approvals.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/504 Certified Development Loans Approvals.pdf
+  QuarterYear: Q4 2023
 Technically_Improper_Amounts: '[195.090496, 0, 196.703368, 236.73, 338.415]'
 Underpayment_Amounts: '[0, 0, 0, 0, 0]'
 Unknown_Amounts: '[31.47027, 2.278483, 27.71412, 50.43, 0]'

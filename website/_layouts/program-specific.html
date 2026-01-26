@@ -369,7 +369,7 @@ permalink: /
                                         {% endif %}
 
                                         {% assign hide_mitigations_accordion = false %}
-                                        {% if hide_overpayment_combined_mitigations == true %}
+                                        {% if hide_overpayment_combined_mitigations == true and hide_underpayment_mitigations == true and hide_technical_ip_mitigations == true and hide_unknown_mitigations == true %}
                                             {% assign hide_mitigations_accordion = true %}
                                         {% endif %}
 

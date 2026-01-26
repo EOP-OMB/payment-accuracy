@@ -237,6 +237,7 @@ def hide_agency_specific_sections(agencyObj):
     agencyObj["Hide_Recovery_Audits"] = \
         ("detail_Overpayment_Conditions" not in agencyObj or agencyObj["detail_Overpayment_Conditions"] is None or agencyObj["detail_Overpayment_Conditions"] == '') and \
         ("detail_Recovery_Methods_Audits" not in agencyObj or agencyObj["detail_Recovery_Methods_Audits"] is None or agencyObj["detail_Recovery_Methods_Audits"] == '') and \
+        ("detail_Overpayment_Conditions_And_Methods" not in agencyObj or agencyObj["detail_Overpayment_Conditions_And_Methods"] is None or agencyObj["detail_Overpayment_Conditions_And_Methods"] == '') and \
         ("detail_Recovery_Not_Cost_Effective_Justification" not in agencyObj or agencyObj["detail_Recovery_Not_Cost_Effective_Justification"] is None or agencyObj["detail_Recovery_Not_Cost_Effective_Justification"] == '') and \
         ("detail_Recovery_Not_Cost_Effective_Programs" not in agencyObj or agencyObj["detail_Recovery_Not_Cost_Effective_Programs"] is None or agencyObj["detail_Recovery_Not_Cost_Effective_Programs"] == '')
     agencyObj["Hide_Disposition_of_Funds_Table"] = recoveryAuditsSkipped or (("recovery_Disposition_of_Funds_through_recovery_audit_Administer_Auditor" not in agencyObj or agencyObj["recovery_Disposition_of_Funds_through_recovery_audit_Administer_Auditor"] is None) and \

@@ -711,7 +711,7 @@ Data_By_Year:
   Start_Date: 10/2023
   Technical_IP_Amount: '0.0'
   Unknown_Mitigations_Planned: Automation
-  Unknown_Mitigations_Taken: Automation, Change Process, Cross Enterprise Sharing
+  Unknown_Mitigations_Taken: Automation,Change Process,Cross Enterprise Sharing
   Unknown_Payments_Rate: 26.411131195600994
   Year: 2025
   detail_IP_Causes: "In fiscal year (FY) 2025, HUD analyzed the full population of\

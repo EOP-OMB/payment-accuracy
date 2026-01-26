@@ -235,7 +235,7 @@ Data_By_Year:
     DA 5960s, without the signature on the drill form, the ARNG cannot conclude if
     the payment was proper or improper.
   Unknown_Mitigations_Planned: Training
-  Unknown_Mitigations_Taken: Change Process, Training
+  Unknown_Mitigations_Taken: Change Process,Training
   Unknown_Payments_Rate: 0.6011113016776978
   Unknown_Why: The Military Pay Army National Guard (ARNG) program scenarios are broad
     and complex based upon the requirements to authorize an entitlement or deduction.

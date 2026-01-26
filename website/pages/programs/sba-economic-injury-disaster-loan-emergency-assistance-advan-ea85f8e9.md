@@ -243,14 +243,23 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2022, 2023]'
 Overpayment_Amounts: '[766.34, 5.07]'
 Payment_Accuracy_Amounts: '[7083.499278, 69.46000000000001]'
 Phase_2_Program: 0
 Program_Name: Economic Injury Disaster Loan Emergency Assistance (Advance)
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q2 2023/Economic Injury Disaster Loan Emergency Assistance
+    (Advance).pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/Economic Injury Disaster Loan Emergency Assistance
+    (Advance).pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/Economic Injury Disaster Loan Emergency Assistance
+    (Advance).pdf
+  QuarterYear: Q4 2023
 Technically_Improper_Amounts: '[0, 0]'
 Underpayment_Amounts: '[0, 0]'
 Unknown_Amounts: '[0, 0]'

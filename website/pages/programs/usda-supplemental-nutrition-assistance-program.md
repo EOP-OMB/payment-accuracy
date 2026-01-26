@@ -839,6 +839,38 @@ Payment_Accuracy_Amounts: '[67213.93000000001, 79545.72, 83289.2]'
 Phase_2_Program: 0
 Program_Name: Supplemental Nutrition Assistance Program
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2018/Special-Supplemental-Nutrition-Program-for-Women-Infants-and-Children-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
+- Link: assets/scorecards/Q2 2019/Supplemental Nutrition Assistance Program Getting
+    Payments Right Scorecard FY 2019 Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q3 2019/Supplemental Nutrition Assistance Program Getting
+    Payments Right Scorecard FY 2019 Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q4 2019/Supplemental Nutrition Assistance Program Getting
+    Payments Right Scorecard FY 2019 Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q1 2020/Supplemental Nutrition Assistance Program Getting
+    Payments Right Scorecard FY 2020 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q3 2020/Supplemental Nutrition Assistance Program Getting
+    Payments Right Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q4 2020/Supplemental Nutrition Assistance Program Getting
+    Payments Right Scorecard FY 2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q1 2021/Supplemental Nutrition Assistance Program Payments
+    Integrity Scorecard FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q2 2021/Supplemental Nutrition Assistance Program Payments
+    Integrity Scorecard FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q3 2021/Supplemental Nutrition Assistance Program Payments
+    Integrity Scorecard FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2021/Supplemental Nutrition Assistance Program Payments
+    Integrity Scorecard FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
 - Link: assets/scorecards/Q1 2024/Food and Nutrition Service (FNS) supplemental Nutrition
     Assistance Program (SNAP).pdf
   QuarterYear: Q1 2024

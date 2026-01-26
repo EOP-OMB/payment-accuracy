@@ -130,8 +130,8 @@ Data_By_Year:
   Technical_IP_Amount: '0.0'
   Underpayment_Mitigations_Planned: Audit, Cross Enterprise Sharing, Training
   Underpayment_Mitigations_Taken: Audit, Training
-  Unknown_Mitigations_Planned: Audit, Cross Enterprise Sharing, Training
-  Unknown_Mitigations_Taken: Audit, Training
+  Unknown_Mitigations_Planned: Audit,Cross Enterprise Sharing,Training
+  Unknown_Mitigations_Taken: Audit,Training
   Unknown_Payments_Rate: 0.9405857432331372
   Year: 2025
   detail_IP_Causes: Overpayments were within the agency’s control and occurred when
@@ -176,14 +176,25 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 1
 Improper_Payments_Data_Years: '[2025]'
 Overpayment_Amounts: '[480.74]'
 Payment_Accuracy_Amounts: '[155105.38]'
 Phase_2_Program: 0
 Program_Name: Compensation
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q4 2018/Compensation-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
+- Link: assets/scorecards/Q2 2019/Compensation Getting Payments Right Scorecard FY
+    2019 Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q3 2019/Compensation Getting Payments Right Scorecard FY
+    2019 Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q4 2019/Compensation Getting Payments Right Scorecard FY
+    2019 Q4.pdf
+  QuarterYear: Q4 2019
 Technically_Improper_Amounts: '[0]'
 Underpayment_Amounts: '[385.85]'
 Unknown_Amounts: '[1480.98]'

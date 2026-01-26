@@ -590,10 +590,10 @@ Data_By_Year:
     auditors did not retain the documentation, or if the auditor is unable to provide
     FSA the supplemental information timely, FSA records unknown payments in accordance
     with OMB Circular A-123, Appendix C.'
-  Unknown_Mitigations_Planned: Audit, Behavioral/Psych Influence, Change Process,
-    Cross Enterprise Sharing, Predictive Analytics, Training
-  Unknown_Mitigations_Taken: Audit, Behavioral/Psych Influence, Change Process, Cross
-    Enterprise Sharing, Predictive Analytics, Training
+  Unknown_Mitigations_Planned: Audit,Behavioral/Psych Influence,Change Process,Cross
+    Enterprise Sharing,Predictive Analytics,Training
+  Unknown_Mitigations_Taken: Audit,Behavioral/Psych Influence,Change Process,Cross
+    Enterprise Sharing,Predictive Analytics,Training
   Unknown_Payments_Rate: 0.010979756814071935
   Unknown_Why: 'FSA leverages compliance audit data to estimate improper payments
     and unknown payments. In some instances, FSA is unable to discern whether the
@@ -1155,10 +1155,10 @@ Data_By_Year:
     C.
 
     '
-  Unknown_Mitigations_Planned: Audit, Behavioral/Psych Influence, Change Process,
-    Cross Enterprise Sharing, Predictive Analytics, Training
-  Unknown_Mitigations_Taken: Audit, Behavioral/Psych Influence, Change Process, Cross
-    Enterprise Sharing, Predictive Analytics, Training
+  Unknown_Mitigations_Planned: Audit,Behavioral/Psych Influence,Change Process,Cross
+    Enterprise Sharing,Predictive Analytics,Training
+  Unknown_Mitigations_Taken: Audit,Behavioral/Psych Influence,Change Process,Cross
+    Enterprise Sharing,Predictive Analytics,Training
   Unknown_Payments_Rate: 0.03221628004099923
   Unknown_Why: 'FSA leverages compliance audit data to estimate improper payments
     and unknown payments. In some instances, FSA is unable to discern whether the
@@ -1440,10 +1440,10 @@ Data_By_Year:
     Cross Enterprise Sharing, Predictive Analytics, Training
   Underpayment_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence, Change
     Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change, Training
-  Unknown_Mitigations_Planned: Audit, Behavioral/Psych Influence, Change Process,
-    Cross Enterprise Sharing, Predictive Analytics, Training
-  Unknown_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence, Change
-    Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change, Training
+  Unknown_Mitigations_Planned: Audit,Behavioral/Psych Influence,Change Process,Cross
+    Enterprise Sharing,Predictive Analytics,Training
+  Unknown_Mitigations_Taken: Audit,Automation,Behavioral/Psych Influence,Change Process,Cross
+    Enterprise Sharing,Predictive Analytics,Statutory Change,Training
   Unknown_Payments_Rate: 0.014799270804118754
   Year: 2025
   detail_IP_Causes: "FSA diligently works to identify the causes of improper payments\
@@ -1520,6 +1520,56 @@ Payment_Accuracy_Amounts: '[26180.219999999998, 25543.469999999998, 27876.86, 32
 Phase_2_Program: 0
 Program_Name: Federal Pell Grant Program
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2018/Pell-Grant-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
+- Link: assets/scorecards/Q2 2019/Pell Grant Getting Payments Right Scorecard FY 2019
+    Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q3 2019/Pell Grant Getting Payments Right Scorecard FY 2019
+    Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q4 2019/Pell Grant Getting Payments Right Scorecard FY 2019
+    Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q1 2020/Pell Grant Getting Payments Right Scorecard FY 2020
+    Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q3 2020/Pell Grant Getting Payments Right Scorecard FY 2020
+    Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q4 2020/Pell Grant Getting Payments Right Scorecard FY 2020
+    Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q1 2021/Pell Grant Payments Integrity Scorecard FY 2021
+    Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q2 2021/Pell Grant Payments Integrity Scorecard FY 2021
+    Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q3 2021/Pell Grant Payments Integrity Scorecard FY 2021
+    Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2021/Pell Grant Payments Integrity Scorecard FY 2021
+    Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q1 2022/Federal Pell Grant Program Payments Integrity Scorecard
+    FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q2 2022/Federal Pell Grant Program Payments Integrity Scorecard
+    FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q3 2022/Federal Pell Grant Program Payments Integrity Scorecard
+    FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q4 2022/Federal Pell Grant Program Payments Integrity Scorecard
+    FY 2022 Q4.pdf
+  QuarterYear: Q4 2022
+- Link: assets/scorecards/Q2 2023/Federal Pell Grant Program.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/Federal Pell Grant Program.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/Federal Pell Grant Program.pdf
+  QuarterYear: Q4 2023
 - Link: assets/scorecards/Q1 2024/Federal Pell Grant Program.pdf
   QuarterYear: Q1 2024
 - Link: assets/scorecards/Q2 2024/Federal Pell Grant Program.pdf

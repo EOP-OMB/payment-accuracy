@@ -382,7 +382,7 @@ def test_ScorecardsMappingFormat():
 
     df = csv_to_dataframe(path)
     assert_has_rows(df)
-    assert_column_count(df, 5)
+    assert_column_count(df, 6)
     assert_column_count_is_consistent(path)
     assert_no_duplicates(df, ['QuarterYear', 'Program_Name'])
     assert_no_duplicates(df, ['QuarterYear', 'Link'])

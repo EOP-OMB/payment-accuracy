@@ -577,14 +577,17 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2021, 2022, 2023]'
 Overpayment_Amounts: '[0, 1.48, 6.65]'
 Payment_Accuracy_Amounts: '[66463.98999999999, 46878.499999999985, 46926.78]'
 Phase_2_Program: 0
 Program_Name: Civilian Pay
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q1 2021/Civilian Pay Payments Integrity Scorecard FY 2021
+    Q1.pdf
+  QuarterYear: Q1 2021
 Technically_Improper_Amounts: '[48.27, 126.01, 252.27]'
 Underpayment_Amounts: '[0, 0.05, 0.61]'
 Unknown_Amounts: '[5.5, 29.91, 53.12]'

@@ -9,7 +9,6 @@ SELECT
     [sums].[total_improper_current_year] + [sums].[total_unknown_current_year] AS [total_unknown_and_improper_amount],
     100 * ([sums].[total_improper_current_year] + [sums].[total_unknown_current_year]) / CAST([sums].[total_outlays_current_year] AS REAL) AS [unknown_and_improper_rate_current_year],
     100 * ([cy_target].[total_unknown_and_improper_next_year]) / CAST([sums].[total_outlays_next_year] AS REAL) AS [reduction_target_rate_current_year],
-    100 * ([py_target].[total_unknown_and_improper_next_year]) / CAST([py_sums].[total_outlays_next_year] AS REAL) AS [reduction_target_rate_prior_year],
     100 * [sums].[total_automation_responses] / CAST([sums].[total_any_responses] AS REAL) AS [response_rate_automation],
     100 * [sums].[total_behavioral_responses] / CAST([sums].[total_any_responses] AS REAL) AS [response_rate_behavioral],
     100 * [sums].[total_training_responses] / CAST([sums].[total_any_responses] AS REAL) AS [response_rate_training],
@@ -42,16 +41,6 @@ FROM (
             [Fiscal_Year]
         FROM [congressional_reports_program]
         GROUP BY [Fiscal_Year]) [sums]
-LEFT JOIN (
-    SELECT
-            SUM(CASE WHEN LOWER([key]) = 'cyp1' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_current_year,
-            SUM(CASE WHEN LOWER([key]) = 'cyp27' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_improper_current_year,
-            SUM(CASE WHEN LOWER([key]) = 'cyp7' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_unknown_current_year,
-            SUM(CASE WHEN LOWER([key]) = 'cyp16' AND [value] IS NOT NULL AND [value] <> '' THEN [value] ELSE 0 END) AS total_outlays_next_year,
-            [Fiscal_Year]
-        FROM [congressional_reports_program]
-        GROUP BY [Fiscal_Year]) [py_sums]
-ON [sums].[Fiscal_Year] = [py_sums].[Fiscal_Year] + 1
 LEFT JOIN (
     SELECT
         [Fiscal_Year],

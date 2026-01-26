@@ -576,7 +576,7 @@ Data_By_Year:
     source documents (The provider failed to submit their revenue, expenditures, lost
     revenues in the HRSA provider relief portal. HRSA DPI has reviewed Datamart and
     Salesforce to confirm the provider failed to report and are not in compliance.
-  Unknown_Mitigations_Taken: Audit, Change Process, Predictive Analytics, Training
+  Unknown_Mitigations_Taken: Audit,Change Process,Predictive Analytics,Training
   Unknown_Payments_Rate: 0.061252268602540835
   Unknown_Why: Reporting Period 4 'Provider was paid for expenses and/or losses that
     were reimbursed by other sources' could not be tested as the source documents
@@ -621,7 +621,7 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2022, 2023, 2024]'
 Overpayment_Amounts: '[409.48, 0, 0]'
@@ -629,7 +629,16 @@ Payment_Accuracy_Amounts: '[126051.02, 21392.059999999998, 6167.39]'
 Phase_2_Program: 0
 Program_Name: Health Resources and Services Administration (HRSA) - Provider Relief
   Fund General and Targeted
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q2 2023/Health Resources and Services Administration (HRSA)
+    - Provider Relief Fund General and Targeted.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/Health Resources and Services Administration (HRSA)
+    - Provider Relief Fund General and Targeted.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/Health Resources and Services Administration (HRSA)
+    - Provider Relief Fund General and Targeted.pdf
+  QuarterYear: Q4 2023
 Technically_Improper_Amounts: '[0, 0, 0]'
 Underpayment_Amounts: '[0, 22.31, 0.03]'
 Unknown_Amounts: '[0, 0, 3.78]'

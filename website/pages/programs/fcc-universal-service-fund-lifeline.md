@@ -688,14 +688,58 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
 Overpayment_Amounts: '[117.36, 37.21, 11.501, 46.9, 75.63]'
 Payment_Accuracy_Amounts: '[719.5, 569.53, 515.349, 737.9200000000001, 753.97]'
 Phase_2_Program: 0
 Program_Name: Universal Service Fund – Lifeline
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q4 2018/Universal-Service-Funds-Lifeline-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
+- Link: assets/scorecards/Q2 2019/Universal Service Funds - Lifeline Getting Payments
+    Right Scorecard FY 2019 Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q3 2019/Universal Service Funds - Lifeline Getting Payments
+    Right Scorecard FY 2019 Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q4 2019/Universal Service Funds - Lifeline Getting Payments
+    Right Scorecard FY 2019 Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q1 2020/Universal Service Funds - Lifeline Getting Payments
+    Right Scorecard FY 2020 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q3 2020/Universal Service Funds - Lifeline Getting Payments
+    Right Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q4 2020/Universal Service Funds - Lifeline Getting Payments
+    Right Scorecard FY 2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q1 2021/Universal Service Funds - Lifeline Payments Integrity
+    Scorecard FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q2 2021/Universal Service Funds - Lifeline Payments Integrity
+    Scorecard FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q3 2021/Universal Service Funds - Lifeline Payments Integrity
+    Scorecard FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2021/Universal Service Funds - Lifeline Payments Integrity
+    Scorecard FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q1 2022/Universal Service Fund - Lifeline Payments Integrity
+    Scorecard FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q2 2022/Universal Service Fund - Lifeline Payments Integrity
+    Scorecard FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q3 2022/Universal Service Fund - Lifeline Payments Integrity
+    Scorecard FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q4 2022/Universal Service Fund - Lifeline Payments Integrity
+    Scorecard FY 2022 Q4.pdf
+  QuarterYear: Q4 2022
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[0, 0, 0, 0, 0]'
 Unknown_Amounts: '[18.33, 0, 0, 0, 0]'

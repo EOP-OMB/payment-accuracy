@@ -623,14 +623,23 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024]'
 Overpayment_Amounts: '[62.19, 80.562, 32.903, 31.11]'
 Payment_Accuracy_Amounts: '[2034.6999999999998, 2076.7780000000002, 2032.707, 2425.24]'
 Phase_2_Program: 0
 Program_Name: Universal Service Fund - Schools and Libraries
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q1 2020/Universal Services Fund - Schools & Libraries Getting
+    Payments Right Scorecard FY 2020 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q3 2020/Universal Services Fund - Schools & Libraries Getting
+    Payments Right Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q4 2020/Universal Services Fund - Schools & Libraries Getting
+    Payments Right Scorecard FY 2020 Q4.png
+  QuarterYear: Q4 2020
 Technically_Improper_Amounts: '[0, 0, 0, 0]'
 Underpayment_Amounts: '[0, 0, 0, 0]'
 Unknown_Amounts: '[0, 0, 0, 0]'

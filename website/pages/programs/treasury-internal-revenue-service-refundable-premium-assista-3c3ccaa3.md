@@ -981,6 +981,15 @@ Payment_Accuracy_Amounts: '[1529.04, 2721.4, 1646.85, 1793.8700000000003]'
 Phase_2_Program: 0
 Program_Name: Internal Revenue Service - Refundable Premium Assistance Tax Credit
 Scorecard_Links:
+- Link: assets/scorecards/Q2 2023/Internal Revenue Service - Refundable Premium Assistance
+    Tax Credit.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/Internal Revenue Service - Refundable Premium Assistance
+    Tax Credit.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/Internal Revenue Service - Refundable Premium Assistance
+    Tax Credit.pdf
+  QuarterYear: Q4 2023
 - Link: assets/scorecards/Q1 2024/Internal Revenue Service - Refundable Premium Assistance
     Tax Credit.pdf
   QuarterYear: Q1 2024

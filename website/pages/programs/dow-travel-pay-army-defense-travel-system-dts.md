@@ -599,8 +599,8 @@ Data_By_Year:
   Technical_IP_Amount: '97.85'
   Underpayment_Mitigations_Planned: Audit, Change Process, Training
   Underpayment_Mitigations_Taken: Audit, Training
-  Unknown_Mitigations_Planned: Audit, Change Process, Training
-  Unknown_Mitigations_Taken: Audit, Training
+  Unknown_Mitigations_Planned: Audit,Change Process,Training
+  Unknown_Mitigations_Taken: Audit,Training
   Unknown_Payments_Rate: 4.9664456024001264
   Year: 2025
   detail_IP_Causes: 'The causes of improper payments and unknown payments within the
