@@ -144,7 +144,37 @@ permalink: /
 
                                 <table class="usa-table usa-table--borderless recovery-audits-and-activites">
                                     <tbody>
-                                        {% if page.recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits != nil and page.recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits != 0 %}
+                                        {% assign recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits_Missing = false %}
+                                        {% if page.recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits == nil or page.recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits == 0 %}
+                                            {% assign recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits_Missing = true %}
+                                        {% endif %}
+
+                                        {% assign recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits_Missing = false %}
+                                        {% if page.recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits == nil or page.recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits == 0 %}
+                                            {% assign recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits_Missing = true %}
+                                        {% endif %}
+
+                                        {% assign recovery_Activities_Both_Missing = false %}
+                                        {% if recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits_Missing == true and recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits_Missing == true %}
+                                            {% assign recovery_Activities_Both_Missing = true %}
+                                        {% endif %}
+
+                                        {% assign recovery_OP_Amt_Identified_through_Payment_Recapture_Audits_Missing = false %}
+                                        {% if page.recovery_OP_Amt_Identified_through_Payment_Recapture_Audits == nil or page.recovery_OP_Amt_Identified_through_Payment_Recapture_Audits == 0 %}
+                                            {% assign recovery_OP_Amt_Identified_through_Payment_Recapture_Audits_Missing = true %}
+                                        {% endif %}
+
+                                        {% assign recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits_Missing = false %}
+                                        {% if page.recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits == nil or page.recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits == 0 %}
+                                            {% assign recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits_Missing = true %}
+                                        {% endif %}
+
+                                        {% assign recovery_Audits_Both_Missing = false %}
+                                        {% if recovery_OP_Amt_Identified_through_Payment_Recapture_Audits_Missing == true and recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits_Missing == true %}
+                                            {% assign recovery_Audits_Both_Missing = true %}
+                                        {% endif %}
+
+                                        {% if recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits_Missing == false %}
                                             <tr>
                                                 <td>Overpayment amount identified through recovery activities</td>
                                                 <td class="amount-col">
@@ -153,20 +183,17 @@ permalink: /
                                             </tr>
                                         {% endif %}
 
-                                        {% if page.recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits != nil and page.recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits != 0 %}
+                                        {% if recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits_Missing == false %}
                                             <tr>
                                                 <td>Overpayment amount recovered through recovery activities</td>
                                                 <td class="amount-col">
                                                     ${{ page.recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits | round: 2 | thousands_separator }} M
                                                 </td>
                                             </tr>
-                                        {% endif %}
-
-                                        {% if page.recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits != nil and page.recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits != 0 %}
                                             <tr>
                                                 <td>Recovery activities recovery rate</td>
                                                 <td class="amount-col">
-                                                    {% if page.recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits == 0 or page.recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits == nil %}
+                                                    {% if recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits_Missing == true %}
                                                         0 %
                                                     {% else %}
                                                         {{ page.recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits | times: 100 | divided_by: page.recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits | round: 2 | thousands_separator }} %
@@ -175,7 +202,7 @@ permalink: /
                                             </tr>
                                         {% endif %}
 
-                                        {% if page.recovery_OP_Amt_Identified_through_Payment_Recapture_Audits != nil and page.recovery_OP_Amt_Identified_through_Payment_Recapture_Audits != 0 %}
+                                        {% if recovery_OP_Amt_Identified_through_Payment_Recapture_Audits_Missing == false %}
                                             <tr>
                                                 <td>Overpayment amount identified through recovery audits</td>
                                                 <td class="amount-col">
@@ -184,20 +211,17 @@ permalink: /
                                             </tr>
                                         {% endif %}
 
-                                        {% if page.recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits != nil and page.recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits != 0 %}
+                                        {% if recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits_Missing == false %}
                                             <tr>
                                                 <td>Overpayment amount recovered through recovery audits</td>
                                                 <td class="amount-col">
                                                     ${{ page.recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits | round: 2 | thousands_separator }} M
                                                 </td>
                                             </tr>
-                                        {% endif %}
-
-                                        {% if page.recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits != nil and page.recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits != 0 %}
                                             <tr>
                                                 <td>Recovery audit recovery rate</td>
                                                 <td class="amount-col">
-                                                    {% if page.recovery_OP_Amt_Identified_through_Payment_Recapture_Audits == 0 or page.recovery_OP_Amt_Identified_through_Payment_Recapture_Audits == nil %}
+                                                    {% if recovery_OP_Amt_Identified_through_Payment_Recapture_Audits_Missing == true %}
                                                         0 %
                                                     {% else %}
                                                         {{ page.recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits | times: 100 | divided_by: page.recovery_OP_Amt_Identified_through_Payment_Recapture_Audits | round: 2 | thousands_separator }} %
@@ -215,35 +239,38 @@ permalink: /
                                             </tr>
                                         {% endif %}
 
-                                        {% if page.recovery_Total_Overpayment_Amount_Identified != nil and page.recovery_Total_Overpayment_Amount_Identified != 0 %}
-                                            <tr>
-                                                <td>Overpayment amount identified for recapture</td>
-                                                <td class="amount-col">
-                                                    ${{ page.recovery_Total_Overpayment_Amount_Identified | round: 2 | thousands_separator }} M
-                                                </td>
-                                            </tr>
-                                        {% endif %}
+                                        <!-- if either section is 0, the totals will not convey any new information -->
+                                        {% if recovery_Audits_Both_Missing == false and recovery_Activities_Both_Missing == false %}
+                                            {% if page.recovery_Total_Overpayment_Amount_Identified != nil and page.recovery_Total_Overpayment_Amount_Identified != 0 %}
+                                                <tr>
+                                                    <td>Overpayment amount identified for recapture</td>
+                                                    <td class="amount-col">
+                                                        ${{ page.recovery_Total_Overpayment_Amount_Identified | round: 2 | thousands_separator }} M
+                                                    </td>
+                                                </tr>
+                                            {% endif %}
 
-                                        {% if page.recovery_Total_Overpayment_Amount_Recovered != nil and page.recovery_Total_Overpayment_Amount_Recovered != 0 %}
-                                            <tr>
-                                                <td>Overpayment amount recovered</td>
-                                                <td class="amount-col">
-                                                    ${{ page.recovery_Total_Overpayment_Amount_Recovered | round: 2 | thousands_separator }} M
-                                                </td>
-                                            </tr>
-                                        {% endif %}
+                                            {% if page.recovery_Total_Overpayment_Amount_Recovered != nil and page.recovery_Total_Overpayment_Amount_Recovered != 0 %}
+                                                <tr>
+                                                    <td>Overpayment amount recovered</td>
+                                                    <td class="amount-col">
+                                                        ${{ page.recovery_Total_Overpayment_Amount_Recovered | round: 2 | thousands_separator }} M
+                                                    </td>
+                                                </tr>
+                                            {% endif %}
 
-                                        {% if page.recovery_Total_Overpayment_Amount_Recovered != nil and page.recovery_Total_Overpayment_Amount_Recovered != 0 %}
-                                            <tr>
-                                                <td>Overpayment recovery rate</td>
-                                                <td class="amount-col">
-                                                    {% if page.recovery_Total_Overpayment_Amount_Identified == 0 or page.recovery_Total_Overpayment_Amount_Identified == nil %}
-                                                        0 %
-                                                    {% else %}
-                                                        {{ page.recovery_Total_Overpayment_Amount_Recovered | times: 100 | divided_by: page.recovery_Total_Overpayment_Amount_Identified | round: 2 | thousands_separator }} %
-                                                    {% endif %}
-                                                </td>
-                                            </tr>
+                                            {% if page.recovery_Total_Overpayment_Amount_Recovered != nil and page.recovery_Total_Overpayment_Amount_Recovered != 0 %}
+                                                <tr>
+                                                    <td>Overpayment recovery rate</td>
+                                                    <td class="amount-col">
+                                                        {% if page.recovery_Total_Overpayment_Amount_Identified == 0 or page.recovery_Total_Overpayment_Amount_Identified == nil %}
+                                                            0 %
+                                                        {% else %}
+                                                            {{ page.recovery_Total_Overpayment_Amount_Recovered | times: 100 | divided_by: page.recovery_Total_Overpayment_Amount_Identified | round: 2 | thousands_separator }} %
+                                                        {% endif %}
+                                                    </td>
+                                                </tr>
+                                            {% endif %}
                                         {% endif %}
                                     </tbody>
                                 </table>
@@ -449,7 +476,7 @@ permalink: /
                         </div>
                     {% endunless %}
 
-                    {% if page.Confirmed_Fraud != nil and page.Confirmed_Fraud != 0 %}
+                    {% if page.Confirmed_Fraud != nil %}
                         <div class="usa-accordion__item warning">
                             <h4 class="usa-accordion__heading">
                                 <button class="usa-accordion__button" aria-expanded="false" aria-controls="accordion-4">

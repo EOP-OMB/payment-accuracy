@@ -137,7 +137,7 @@ SurveyData:
   SortOrder: 4
   Subheading: ''
   Type: TEXT
-SurveyName: Survey Responses
+SurveyName: Agency Plan to Come Into Compliance
 layout: congressional-reports
 permalink: /resources/congressional-reports/2024_TREASURY_7
 title: Agency Compliance Plan

@@ -18,7 +18,7 @@ CONGRESSIONAL_REPORTS = [
     {
         "Id": 1,
         "Name": "Agency Risk Assessments Report",
-        "SurveyName": "Survey Responses",
+        "SurveyName": "Agency Risk Assessments",
         "IsGovernmentWide": False
     },
     {
@@ -30,13 +30,13 @@ CONGRESSIONAL_REPORTS = [
     {
         "Id": 3,
         "Name": "Improper Payment and Unknown Payment Estimation Report",
-        "SurveyName": "Survey Responses",
+        "SurveyName": "Improper Payment and Unknown Payment Estimation",
         "IsGovernmentWide": False
     },
     {
         "Id": 4,
         "Name": "Agency Actions to Reduce Improper Payments Report",
-        "SurveyName": "Survey Responses",
+        "SurveyName": "Agency Actions to Reduce Improper Payments",
         "IsGovernmentWide": False
     },
     {
@@ -48,25 +48,25 @@ CONGRESSIONAL_REPORTS = [
     {
         "Id": 6,
         "Name": "OMB Government Wide Improper Payment Report",
-        "SurveyName": "Survey Responses",
+        "SurveyName": "OMB Government Wide Improper Payment Report",
         "IsGovernmentWide": True
     },
     {
         "Id": 7,
         "Name": "Agency Compliance Plan",
-        "SurveyName": "Survey Responses",
+        "SurveyName": "Agency Plan to Come Into Compliance",
         "IsGovernmentWide": False
     },
     {
         "Id": 8,
         "Name": "Agency Noncompliance Report",
-        "SurveyName": "Survey Responses",
+        "SurveyName": "Noncompliance Report",
         "IsGovernmentWide": False
     },
     {
         "Id": 9,
         "Name": "OMB Do Not Pay Working System Report",
-        "SurveyName": "Survey Responses",
+        "SurveyName": "OMB Do Not Pay Working System",
         "IsGovernmentWide": True
     }
 ]
