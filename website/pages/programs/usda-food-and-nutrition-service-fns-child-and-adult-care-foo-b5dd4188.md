@@ -385,6 +385,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q3 2025/Food and Nutrition Service (FNS) Child and Adult
     Care Food Program (CACFP) Centers.pdf
   QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/Food and Nutrition Service (FNS) Child and Adult
+    Care Food Program (CACFP) Family Day Care Homes (FDCH) - Tiering Decisions.pdf
+  QuarterYear: Q4 2025
 Technically_Improper_Amounts: '[0]'
 Underpayment_Amounts: '[130.95]'
 Unknown_Amounts: '[0]'

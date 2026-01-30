@@ -764,7 +764,7 @@ Description: USDA's Child and Adult Care Food Program (CACFP) provides federal r
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: false
+Hide_Scorecard_Links: true
 High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024]'
 Overpayment_Amounts: '[1.48, 2.58, 0, 0.78]'
@@ -772,10 +772,7 @@ Payment_Accuracy_Amounts: '[360.65999999999997, 4347.9400000000005, 627.23, 775.
 Phase_2_Program: 0
 Program_Name: Food and Nutrition Service (FNS) Child and Adult Care Food Program (CACFP)
   Family Day Care Homes (FDCH) - Tiering Decisions
-Scorecard_Links:
-- Link: assets/scorecards/Q4 2025/Food and Nutrition Service (FNS) Child and Adult
-    Care Food Program (CACFP) Family Day Care Homes (FDCH) - Tiering Decisions.pdf
-  QuarterYear: Q4 2025
+Scorecard_Links: []
 Technically_Improper_Amounts: '[0, 0, 0, 0]'
 Underpayment_Amounts: '[0.48, 0.48, 0, 0.25]'
 Unknown_Amounts: '[0, 0, 0, 0]'

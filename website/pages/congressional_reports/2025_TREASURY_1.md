@@ -1598,7 +1598,7 @@ SurveyData:
   SortOrder: 4
   Subheading: ''
   Type: TEXT
-SurveyName: Survey Responses
+SurveyName: Agency Risk Assessments
 layout: congressional-reports
 permalink: /resources/congressional-reports/2025_TREASURY_1
 title: Agency Risk Assessments Report

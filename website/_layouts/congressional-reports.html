@@ -337,35 +337,44 @@ permalink: /
                     {% assign has_high_priority_links = true %}
                 {% endif %}
 
-                {% if has_high_priority_links == true or current_year_selected == true %}
-                    <!-- Additional Section for CR #2 -->
-                    <div class="grid-row">
-                        <div class="grid-col-12">
-                            <div class="usa-accordion congressional-reports-accordion">
-                                <div class="usa-accordion__item">
-                                    <h4 class="usa-accordion__heading">
-                                        <button class="usa-accordion__button" aria-expanded="true" aria-controls="risks-accordion">
-                                            See the Most Recent Quarterly Scorecard for Additional Information About Actions to Recover Improper Payments
-                                        </button>
-                                    </h4>
-                                    <div id="risks-accordion" class="usa-accordion__content usa-prose">
-                                        {% if has_high_priority_links == true %}
-                                            {% for link in page.High_Priority_Links %}
-                                                <a href="{{ link.Link | absolute_url }}" target="_blank">
-                                                    {{ link.Program_Name }}
-                                                </a>
-                                                <br />
-                                            {% endfor %}
-                                        {% else %}
-                                            <p>
-                                                Payment Integrity scorecards for current year high-priority programs will be displayed here as they become available. Payment Integrity scorecards are published approximately two months after the close of each fiscal quarter.
-                                            </p>
-                                        {% endif %}
+                {% if page.Report_Id == '2' %}
+                    {% assign has_program_survey_data = false %}
+                    {% if page.ProgramSurveyData != nil and page.ProgramSurveyData.size > 0 %}
+                        {% assign has_program_survey_data = true %}
+                    {% endif %}
+
+                    {% if has_program_survey_data == true %}
+                        {% if has_high_priority_links == true or current_year_selected == true %}
+                            <!-- Additional Section for CR #2 -->
+                            <div class="grid-row">
+                                <div class="grid-col-12">
+                                    <div class="usa-accordion congressional-reports-accordion">
+                                        <div class="usa-accordion__item">
+                                            <h4 class="usa-accordion__heading">
+                                                <button class="usa-accordion__button" aria-expanded="true" aria-controls="risks-accordion">
+                                                    See the Most Recent Quarterly Scorecard for Additional Information About Actions to Recover Improper Payments
+                                                </button>
+                                            </h4>
+                                            <div id="risks-accordion" class="usa-accordion__content usa-prose">
+                                                {% if has_high_priority_links == true %}
+                                                    {% for link in page.High_Priority_Links %}
+                                                        <a href="{{ link.Link | absolute_url }}" target="_blank">
+                                                            {{ link.Program_Name }}
+                                                        </a>
+                                                        <br />
+                                                    {% endfor %}
+                                                {% else %}
+                                                    <p>
+                                                        Payment Integrity scorecards for current year high-priority programs will be displayed here as they become available. Payment Integrity scorecards are published approximately two months after the close of each fiscal quarter.
+                                                    </p>
+                                                {% endif %}
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
+                        {% endif %}
+                    {% endif %}
                 {% endif %}
 
                 {% if page.IPData != nil %}
