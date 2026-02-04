@@ -877,19 +877,19 @@ Risks:
     Susceptible: 'No'
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
-    Program_Name: Travel Pay Army – Defense Travel System (DTS)
-    Slug: null
+    Program_Name: Travel Pay Army – Defense Travel System (DTS)
+    Slug: dow-travel-pay-army-defense-travel-system-dts
     Susceptible: 'Yes'
   - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Travel Pay Army – Integrated Automated Travel System (IATS)
+    Program_Name: Travel Pay Army – Integrated Automated Travel System (IATS)
     Slug: null
     Susceptible: null
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
-    Program_Name: Travel Pay Department of Air Force (DAF) – Defense Travel System
+    Program_Name: Travel Pay Department of Air Force (DAF) – Defense Travel System
       (DTS)
-    Slug: null
+    Slug: dow-travel-pay-department-of-air-force-daf-defense-travel-sy-58c53287
     Susceptible: 'Yes'
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
@@ -899,12 +899,12 @@ Risks:
     Susceptible: 'No'
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
-    Program_Name: Travel Pay Marine Corps – Defense Travel System (DTS)
+    Program_Name: Travel Pay Marine Corps – Defense Travel System (DTS)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
-    Program_Name: Travel Pay Marine Corps – Integrated Automated Travel System (IATS)
+    Program_Name: Travel Pay Marine Corps – Integrated Automated Travel System (IATS)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2024'
@@ -914,25 +914,25 @@ Risks:
     Susceptible: 'No'
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
-    Program_Name: Travel Pay Navy – Defense Travel System (DTS)
+    Program_Name: Travel Pay Navy – Defense Travel System (DTS)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
-    Program_Name: Travel Pay Navy – Integrated Automated Travel System (IATS)
+    Program_Name: Travel Pay Navy – Integrated Automated Travel System (IATS)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
-    Program_Name: Travel Pay Other Defense Organization (ODO) – Defense Travel System
+    Program_Name: Travel Pay Other Defense Organization (ODO) – Defense Travel System
       (DTS)
-    Slug: null
+    Slug: dow-travel-pay-other-defense-organization-odo-defense-travel-346a386c
     Susceptible: 'Yes'
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Travel Pay Other Defense Organization (ODO) – Integrated Automated
-      Travel System (IATS)
-    Slug: null
+      Travel System (IATS)
+    Slug: dow-travel-pay-other-defense-organization-odo-integrated-aut-4e4e490f
     Susceptible: 'No'
   SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[246.60999999999999, 455.27, 765.32023, 405.33, 1138.75]'
