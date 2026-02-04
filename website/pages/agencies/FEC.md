@@ -3,8 +3,9 @@ Agency: FEC
 Agency_Name: Federal Election Commission
 Confirmed_Fraud: null
 Eligibility_Themes: []
-Fiscal_Year: 2024
+Fiscal_Year: 2025
 Hide_Disposition_of_Funds: true
+Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
@@ -37,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Federal Election Campaign Act (FECA)
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -46,11 +48,12 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
     Program_Name: Federal Election Campaign Act (FECA)
     Slug: null
     Susceptible: 'No'
-  SubstantialChangesMade: 'No'
+  SubstantialChangesMade: null
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -58,62 +61,34 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2025
 - 2024
 - 2023
 - 2022
 - 2021
-detail_CAP5: null
-detail_agy1: null
-detail_ara1: 'No'
-detail_ara2: 'No'
-detail_ara2_1: null
-detail_ara2_2: null
-detail_ara2_3: As part of the invoice  payment process, the FEC looks for potential
-  recoverable amounts.  With a low percentage of improper payments, and a low dollar
-  amount of invoices, it is not cost effective to procure recovery audits.  However,
-  this process is ongoing and the FEC will continue to assess whether recovery audits
-  are cost effective or applicable.
-detail_ara2_3_2: Federal Election Campaign Act
-detail_arp10: null
-detail_arp11: null
-detail_arp12: null
-detail_arp14: null
-detail_arp15: null
-detail_arp16: null
-detail_arp16_5: null
-detail_arp17: null
-detail_arp18: null
-detail_arp4: null
-detail_arp4_1: '0.0'
-detail_arp5: null
-detail_arp5_1: null
-detail_arp7: null
-detail_arp8: null
-detail_arp9: null
-detail_cap3: null
-detail_cap4: null
-detail_com1: Compliant
-detail_dpa1: 'Yes'
-detail_dpa2: 'Yes'
-detail_dpa3: My Agency did not identify any incorrect Information
-detail_dpa5: The FEC uses a shared service provider.  The shared service provider
-  performs this function for us.
-detail_exs1: 'FEC is in the first year of the assessment cycle. The FEC performs risk
-  assessments at least once every three years. The agency’s only program (FECA) is
-  considered to be in Phase 1 and are not likely have an
-
-  annual amount of improper payments (IP) plus an annual unknown payments (UP) above
-  the statutory threshold. The FEC risk of improper payments has been low over the
-  years as well as during the testing
-
-  performed during the most recent risk assessment. Business processes have not changed
-  during this cycle and the risk remains low. The overall risk was found to be low.'
-detail_pcp12_1: null
-detail_pcp14: The OIG performed an audit of Improper and unknown payments.  The OIG
-  did not report any recommendations.
-detail_raa8: 'No'
-detail_raa9: null
+detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
+detail_Compliance_Status: Compliant
+detail_DNP_Discussion: The agency uses a shared service provider that uses Do Not
+  Pay. We have not been informed of any instances when the Do Not Pay toll has identified
+  a potential improper payment.
+detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
+detail_DNP_Reduced: 'No'
+detail_Disposition_of_Funds: null
+detail_Executive_Summary: The FEC performs risk assessments at least once every three
+  years. The FEC does not have any programs or activities that are susceptible to
+  significant improper payments and is only required to perform an improper payment
+  risk assessment.
+detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
+detail_PIIA_Incentives: null
+detail_PIIA_Official: null
+detail_Recovery_Audits_Skipped: 'No'
+detail_Recovery_Justifications_Audits: null
+detail_Recovery_Not_Cost_Effective_Justification: The FEC has not identified any overpayments
+  during this reporting period. There has not been a cause to conduct recovery audits.
+detail_Risks_Substantial_Changes_Made: null
 layout: agency-specific
 permalink: agency/FEC.html
-recovery_Recovery_Audit_Amount_Identified_This_Reporting_Period_Determined_Not_Collectable_Rate: 0.0
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

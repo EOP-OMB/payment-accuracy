@@ -3,16 +3,17 @@ Agency: SSS
 Agency_Name: Selective Service System
 Confirmed_Fraud: null
 Eligibility_Themes: []
-Fiscal_Year: 2024
+Fiscal_Year: 2025
 Hide_Disposition_of_Funds: true
+Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
 Hide_PIIA2019: false
-Hide_Recovery_Audits: true
+Hide_Recovery_Audits: false
 Hide_Recovery_Details: false
 Hide_Recovery_Info: false
-Hide_Risk_Assessment_Results: true
+Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
 Hide_Supplemental_Info: false
 Hide_Supplemental_Payment_Integrity: false
@@ -22,19 +23,37 @@ Improper_Payments_Rate_Min: 0
 Improper_Payments_Rates: '[]'
 Is_Placeholder: false
 Overpayment_Amounts: '[]'
-Overpayment_Amounts_Identified: '[]'
-Overpayment_Amounts_Recovered: '[]'
-Overpayment_Years: '[]'
+Overpayment_Amounts_Identified: '[0.01]'
+Overpayment_Amounts_Recovered: '[0.005]'
+Overpayment_Years: '[2025]'
 PIIA2019_Compliant_Programs: []
-PIIA2019_NonCompliant_Programs: []
+PIIA2019_NonCompliant_Programs:
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: false
+  Hide_Compliance_Section: true
+  Name: Payroll
 Payment_Accuracy_Amounts: '[]'
 Payment_Accuracy_Rate_Max: 0
 Payment_Accuracy_Rate_Min: 0
 Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
-  Assessments: []
-  SubstantialChangesMade: null
+  Assessments:
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Payroll
+    Slug: null
+    Susceptible: 'No'
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -42,54 +61,53 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2025
 - 2024
-detail_CAP5: null
-detail_agy1: SSS is utilizing the payment tools needed to ensure a robust process
-  with little to no risk. We are committed and audited for compliance to ensure we
-  are vigilant.
-detail_ara1: 'No'
-detail_ara2: 'No'
-detail_ara2_1: null
-detail_ara2_2: null
-detail_ara2_3: null
-detail_ara2_3_2: null
-detail_arp10: null
-detail_arp11: null
-detail_arp12: null
-detail_arp14: null
-detail_arp15: null
-detail_arp16: null
-detail_arp16_5: null
-detail_arp17: null
-detail_arp18: Due to the stringent use of the IPP system and strict internal controls
-  SSS utilizes, we did not experience any overpayments that needed to be recovered.
-detail_arp4: null
-detail_arp4_1: '0.0'
-detail_arp5: null
-detail_arp5_1: null
-detail_arp7: null
-detail_arp8: null
-detail_arp9: null
-detail_cap3: null
-detail_cap4: null
-detail_com1: Compliant
-detail_dpa1: 'Yes'
-detail_dpa2: 'Yes'
-detail_dpa3: My Agency did not identify any incorrect Information
-detail_dpa5: Utilizing SAM.gov and the IPP system SSS has ensured that proper entities
-  are identified and up to date with information input. This system has been utilized
-  for the majority of non-government entity. This allows SSS to catch improper payment
-  prior to them being initiated or even entered in most cases.
-detail_exs1: During FY24, Selective Service System (SSS) utilized Sam.gov and the
-  IPP payment system as well as a partnership with DOI’s Interior Business Center
-  to ensure payment integrity. Additionally, SSS preforms internal audits as well
-  as external financial audits annually.
-detail_pcp12_1: null
-detail_pcp14: No recommendations were provided to further improve prevention and reduction
-  of improper payments and unknown payments in the SSS
-detail_raa8: null
-detail_raa9: null
+detail_Additional_IP_Information: The SSS is utilizing the payment tools needed to
+  ensure a robust process with no material risk. We are committed and audited for
+  compliance to ensure we are vigilant in the proper administration of our funding.
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
+detail_Compliance_Status: Non-Compliant
+detail_DNP_Discussion: The Internal Business Center (IBC) utilizes the Do Not Pay
+  Working System to ensure we are complying routinely scrubbing our data against the
+  database. The IBC provides this data to the Treasury weekly which Treasury matches
+  to various files including the Death Master File (DMF) from the SSA.
+detail_DNP_Frequency_Identify: Annually
+detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: null
+detail_Executive_Summary: During FY25, the Selective Service System (SSS) utilized
+  Sam.gov and the IPP payment system as well as a partnership with DOI’s Interior
+  Business Center to ensure payment integrity. Additionally, the SSS performs internal
+  audits as well as external financial audits annually. The SSS performed their FY24
+  PIIA audit with external auditors that concluded during fiscal year 2025.
+detail_OIG_Recommendations: The SSS does not have an OIG, but for FY 2024, an independent
+  auditor conducted PIIA audit. SSS was compliant with PIIA requirements applicable
+  and reported information on paymentaccuracy.gov; however, SSS did not conduct an
+  improper payment risk assessment in a timely manner for each program with annual
+  outlays greater than $10M at least once in the last three years. SSS evaluated the
+  risk assessment after submitting FY24 PIIA survey.
+detail_Overpayment_Conditions_And_Methods: null
+detail_PIIA_Incentives: The performance agreements for the responsible official(s)
+  did not include specific incentives or consequences tied directly to achieving Payment
+  Integrity Information Act (PIIA) compliance. Instead, accountability was addressed
+  through standard performance expectations requiring officials to fulfill statutory
+  and regulatory responsibilities, including addressing weaknesses identified in payment
+  integrity processes. Although no incentive mechanisms drove the corrective actions,
+  the official(s) were expected to take timely and effective action to resolve the
+  issue as part of their routine management duties. The agency achieved compliance
+  through internal oversight, collaboration, and a commitment to meeting federal requirements
+  rather than through performance-based incentives.
+detail_PIIA_Official: Alexander Rud, Chief Financial Officer
+detail_Recovery_Audits_Skipped: 'No'
+detail_Recovery_Justifications_Audits: null
+detail_Recovery_Not_Cost_Effective_Justification: The SSS’s total budget is 31M and
+  only payroll is over the 10M threshold. The SSS has determined that it is not cost-effective
+  to conduct recovery audits in any one program and relies on the financial audit,
+  our system controls between the SSS and IBC, and routine PIIA audits.
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/SSS.html
-recovery_Recovery_Audit_Amount_Identified_This_Reporting_Period_Determined_Not_Collectable_Rate: 0.0
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.01
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.005
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

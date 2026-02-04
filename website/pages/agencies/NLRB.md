@@ -3,8 +3,9 @@ Agency: NLRB
 Agency_Name: National Labor Relations Board
 Confirmed_Fraud: null
 Eligibility_Themes: []
-Fiscal_Year: 2024
+Fiscal_Year: 2025
 Hide_Disposition_of_Funds: true
+Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
@@ -37,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Administrative Law Judges
 - Compliant_1A: true
   Compliant_1B: true
@@ -49,6 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Board Adjudication
 - Compliant_1A: true
   Compliant_1B: true
@@ -61,6 +64,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Case Handling
 - Compliant_1A: true
   Compliant_1B: true
@@ -73,6 +77,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Mission Support
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -82,11 +87,27 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2023
-    Program_Name: National Labor Relations Board
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Administrative Law Judges
     Slug: null
     Susceptible: 'No'
-  SubstantialChangesMade: null
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Board Adjudication
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Case Handling
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Mission Support
+    Slug: null
+    Susceptible: 'No'
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -94,79 +115,44 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2025
 - 2024
 - 2023
 - 2022
-detail_CAP5: null
-detail_agy1: null
-detail_ara1: 'No'
-detail_ara2: 'No'
-detail_ara2_1: null
-detail_ara2_2: null
-detail_ara2_3: null
-detail_ara2_3_2: null
-detail_arp10: null
-detail_arp11: null
-detail_arp12: null
-detail_arp14: null
-detail_arp15: null
-detail_arp16: null
-detail_arp16_5: null
-detail_arp17: null
-detail_arp18: null
-detail_arp4: null
-detail_arp4_1: '0.0'
-detail_arp5: null
-detail_arp5_1: null
-detail_arp7: null
-detail_arp8: null
-detail_arp9: null
-detail_cap3: null
-detail_cap4: null
-detail_com1: Compliant
-detail_dpa1: 'Yes'
-detail_dpa2: 'Yes'
-detail_dpa3: My Agency did not identify any incorrect Information
-detail_dpa5: The NLRB have not used all the reports from the Do Not Pay Initiative.
+detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
+detail_Compliance_Status: Compliant
+detail_DNP_Discussion: The NLRB has used the available reports in the Do Not Pay System.
   In the long run, the Do Not Pay initiative will help reduce the improper payments.
-detail_exs1: 'The PIIA (Payment Integrity and Information Act) amends government-wide
-  improper payment reporting requirements by repealing and replacing the Improper
-  Payments Information Act of 2002 (IPIA), the Improper Payments Elimination and Recovery
-  Act of 2010 (IPERA), the Improper Payments Elimination and Recovery Act of 2012
-  (IPERIA), and the Fraud Reduction and Data Analytics (FRDAA).
-
-
-  The NLRB is required by the PIIA to assess the disbursement process and estimate
-  the amount of improper payments every three years. The NLRB’s latest IPIA assessment
-  and review performed by an independent consultant in FY 2022 concluded that the
-  NLRB program and activities were at a low risk for improper payments.
-
-
-  For FY 2024, NLRB processed $301,528,874 in disbursements which included payroll
-  and benefits of $235,107,439 and travel of $1,216,528. In addition, the NLRB paid
-  $65,204,907 to vendors which accounted for 22 percent of the total disbursements.
-
-
-  The NLRB’s independent review evaluated the procedures in the Agency’s payment and
-  disbursement processes. It also tested and assessed the design and effectiveness
-  of internal controls. Given these controls, the IPIA assessment found no improper
-  payment in the testing and found that the estimated improper payments to be within
-  the thresholds defined by IPIA. Thus, improper payments for the NLRB’s programs
-  did not exceed $10 million and 1.5 percent of the program total expenditures or
-  $100 million of the total program expenditures. The Agency estimates the improper
+detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
+detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: null
+detail_Executive_Summary: The NLRB is required by the PIIA to assess the disbursement
+  process and estimate the approximate amount of improper payments every three years.
+  In FY 2025, the NLRB PIIA assessment and review was performed by an independent
+  consultant. The NLRB’s independent review evaluated the procedures in the Agency’s
+  payment and disbursement processes and  concluded that the NLRB’s programs were
+  at a low risk for improper payments. Thus, improper payments for the NLRB’s programs
+  did not exceed $10.0 million and 1.5 percent of the program total expenditures or
+  $100.0 million of the total program expenditures. The Agency estimates the improper
   payments rate to be at most 1.5 percent and the improper payment amount to be no
-  more than $4,522,933. Therefore, the NLRB has effective procedures and controls
-  in place for its payment and disbursement processes. The NLRB has reasonable assurance
-  that controls over financial and non-financial operations are sufficient. No additional
-  reporting requirements are necessary.
-
-  '
-detail_pcp12_1: null
-detail_pcp14: The OIG did not provide recommendations to further improve prevention
-  of improper payments.
-detail_raa8: null
-detail_raa9: null
+  more than $4,636,376. In addition, the testing confirmed that Phase 2 testing for
+  commercial vendor payments did not exceed the statutory thresholds, further supporting
+  the low-risk designation for all NLRB programs. Based on these results, NLRB programs
+  do not require additional Phase 2 testing for the purpose of producing an annual
+  improper payment or unknown payment estimate, and no programs are subject to reporting
+  as “susceptible to significant improper payments” in the FY 2025 submission. Therefore,
+  the NLRB has effective procedures and controls in place for its payment and disbursement
+  processes.
+detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
+detail_PIIA_Incentives: null
+detail_PIIA_Official: null
+detail_Recovery_Audits_Skipped: 'No'
+detail_Recovery_Justifications_Audits: null
+detail_Recovery_Not_Cost_Effective_Justification: null
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/NLRB.html
-recovery_Recovery_Audit_Amount_Identified_This_Reporting_Period_Determined_Not_Collectable_Rate: 0.0
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

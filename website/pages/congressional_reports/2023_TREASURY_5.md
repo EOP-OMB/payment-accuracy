@@ -347,7 +347,7 @@ SurveyData:
   SortOrder: 17
   Subheading: ''
   Type: TEXT
-SurveyName: Survey Responses
+SurveyName: Actions to Recover Report
 layout: congressional-reports
 permalink: /resources/congressional-reports/2023_TREASURY_5
 title: Agency Actions to Recover Improper Payments Identified in a Recovery Audit

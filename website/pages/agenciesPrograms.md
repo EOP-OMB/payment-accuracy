@@ -3,29 +3,29 @@ agencies:
 - agency: HHS
   agency_name: Department of Health and Human Services
   high_priority_programs: 7
-  improper_payments_rate: 5.57
-  num_programs: 314
+  improper_payments_rate: 5.83
+  num_programs: 391
   programs:
   - high_priority_program: true
     ip_rate: 4.93
     program_name: Administration for Children and Families (ACF) - Child Care and
       Development Fund
-    relative_change: 3.79
+    relative_change: -0.01
     slug: hhs-administration-for-children-and-families-acf-child-care--ceed93a7
-    total_spent_federal_funding: 17096.0
+    total_spent_federal_funding: 18698.59
   - high_priority_program: false
-    ip_rate: 4.82
+    ip_rate: 5.72
     program_name: Administration for Children and Families (ACF) - Foster Care Title
       IV-E
-    relative_change: 4.82
+    relative_change: 0.9
     slug: hhs-administration-for-children-and-families-acf-foster-care-db6759bf
-    total_spent_federal_funding: 1293.0
+    total_spent_federal_funding: 1295.0
   - high_priority_program: false
-    ip_rate: 3.53
+    ip_rate: 1.68
     program_name: Administration for Children and Families (ACF) - Head Start
-    relative_change: 1.7
+    relative_change: -1.85
     slug: hhs-administration-for-children-and-families-acf-head-start
-    total_spent_federal_funding: 11041.6
+    total_spent_federal_funding: 11726.7
   - high_priority_program: false
     ip_rate: 0.0
     program_name: Administration for Children and Families (ACF) - Temporary Assistance
@@ -34,232 +34,272 @@ agencies:
     slug: hhs-administration-for-children-and-families-acf-temporary-a-7b2a86d9
     total_spent_federal_funding: 0.0
   - high_priority_program: true
-    ip_rate: 1.01
+    ip_rate: 0.89
     program_name: Centers for Medicare & Medicaid Services (CMS) - Advance Premium
       Tax Credit (APTC)
-    relative_change: 0.43
+    relative_change: -0.12
     slug: hhs-centers-for-medicare-medicaid-services-cms-advance-premi-155942da
-    total_spent_federal_funding: 55707.64
+    total_spent_federal_funding: 73812.75
   - high_priority_program: true
-    ip_rate: 6.11
+    ip_rate: 7.05
     program_name: Centers for Medicare & Medicaid Services (CMS) - Children's Health
       Insurance Program (CHIP)
-    relative_change: -6.7
+    relative_change: 0.95
     slug: hhs-centers-for-medicare-medicaid-services-cms-children-s-he-067288b6
-    total_spent_federal_funding: 17587.75
+    total_spent_federal_funding: 19448.78
   - high_priority_program: true
-    ip_rate: 5.09
+    ip_rate: 6.12
     program_name: Centers for Medicare & Medicaid Services (CMS) - Medicaid
-    relative_change: -3.48
+    relative_change: 1.03
     slug: hhs-centers-for-medicare-medicaid-services-cms-medicaid
-    total_spent_federal_funding: 610833.37
+    total_spent_federal_funding: 610988.02
   - high_priority_program: true
-    ip_rate: 5.61
+    ip_rate: 6.09
     program_name: Centers for Medicare & Medicaid Services (CMS) - Medicare Advantage
       (Part C)
-    relative_change: -0.4
+    relative_change: 0.48
     slug: hhs-centers-for-medicare-medicaid-services-cms-medicare-adva-ef65c066
-    total_spent_federal_funding: 339932.01
+    total_spent_federal_funding: 388716.84
   - high_priority_program: true
-    ip_rate: 7.66
+    ip_rate: 6.55
     program_name: Centers for Medicare & Medicaid Services (CMS) - Medicare Fee-for-Service
       (FFS)
-    relative_change: 0.28
+    relative_change: -1.11
     slug: hhs-centers-for-medicare-medicaid-services-cms-medicare-fee--db617d96
-    total_spent_federal_funding: 413719.24
+    total_spent_federal_funding: 439878.69
   - high_priority_program: true
-    ip_rate: 3.7
+    ip_rate: 4.0
     program_name: Centers for Medicare & Medicaid Services (CMS) - Medicare Prescription
       Drug Benefit (Part D)
-    relative_change: -0.02
+    relative_change: 0.3
     slug: hhs-centers-for-medicare-medicaid-services-cms-medicare-pres-20f8411b
-    total_spent_federal_funding: 96521.39
-  - high_priority_program: false
-    ip_rate: 0.0
-    program_name: Health Resources and Services Administration (HRSA) - Provider Relief
-      Fund General and Targeted
-    relative_change: -0.1
-    slug: hhs-health-resources-and-services-administration-hrsa-provid-5122b669
-    total_spent_federal_funding: 6171.2
-  - high_priority_program: false
-    ip_rate: 0.9
-    program_name: Health Resources and Services Administration (HRSA) - Provider Relief
-      Fund Uninsured
-    relative_change: null
-    slug: hhs-health-resources-and-services-administration-hrsa-provid-db76ca62
-    total_spent_federal_funding: 19269.29
-  relative_change: -1.45
-  susceptible_programs: 12
-  total_spent_federal_funding: 1589172.49
+    total_spent_federal_funding: 105559.08
+  relative_change: 0.26
+  susceptible_programs: 10
+  total_spent_federal_funding: 1670124.45
 - agency: SSA
   agency_name: Social Security Administration
-  high_priority_programs: 2
-  improper_payments_rate: 0.75
-  num_programs: 3
+  high_priority_programs: 3
+  improper_payments_rate: 0.76
+  num_programs: 11
   programs:
   - high_priority_program: true
-    ip_rate: 0.3
-    program_name: Old-Age, Survivors, and Disability Insurance (OASDI)
-    relative_change: -0.35
-    slug: ssa-old-age-survivors-and-disability-insurance-oasdi
-    total_spent_federal_funding: 1352425.85
+    ip_rate: 1.63
+    program_name: Disability Insurance (DI)
+    relative_change: null
+    slug: ssa-disability-insurance-di
+    total_spent_federal_funding: 143442.52
   - high_priority_program: true
-    ip_rate: 10.62
+    ip_rate: 0.13
+    program_name: Old-Age and Survivors Insurance (OASI)
+    relative_change: -0.18
+    slug: ssa-old-age-and-survivors-insurance-oasi
+    total_spent_federal_funding: 1287478.75
+  - high_priority_program: true
+    ip_rate: 11.58
     program_name: Supplemental Security Income (SSI)
-    relative_change: 1.41
+    relative_change: 0.96
     slug: ssa-supplemental-security-income-ssi
-    total_spent_federal_funding: 61048.75
-  relative_change: -0.28
-  susceptible_programs: 2
-  total_spent_federal_funding: 1413474.59
-- agency: DOD
-  agency_name: Department of Defense
+    total_spent_federal_funding: 63290.88
+  relative_change: 0.01
+  susceptible_programs: 3
+  total_spent_federal_funding: 1494212.15
+- agency: DOW
+  agency_name: Department of War
   high_priority_programs: 0
-  improper_payments_rate: 0.25
-  num_programs: 48
+  improper_payments_rate: 0.72
+  num_programs: 49
   programs:
   - high_priority_program: false
-    ip_rate: 0.27
+    ip_rate: 0.0
     program_name: Civilian Pay – Army
-    relative_change: null
-    slug: dod-civilian-pay-army
-    total_spent_federal_funding: 13979.87
+    relative_change: -0.27
+    slug: dow-civilian-pay-army
+    total_spent_federal_funding: 0.0
   - high_priority_program: false
-    ip_rate: 1.44
+    ip_rate: 1.47
     program_name: Civilian Pay – Other Defense Organization (ODO)
-    relative_change: null
-    slug: dod-civilian-pay-other-defense-organization-odo
-    total_spent_federal_funding: 10304.89
+    relative_change: 0.03
+    slug: dow-civilian-pay-other-defense-organization-odo
+    total_spent_federal_funding: 11127.95
   - high_priority_program: false
-    ip_rate: 0.04
+    ip_rate: 0.54
     program_name: Commercial Pay – Mechanization of Contract Administration Services
       (MOCAS)
-    relative_change: null
-    slug: dod-commercial-pay-mechanization-of-contract-administration--57e2db4b
-    total_spent_federal_funding: 222333.38
+    relative_change: 0.5
+    slug: dow-commercial-pay-mechanization-of-contract-administration--94c59ea7
+    total_spent_federal_funding: 225038.87
   - high_priority_program: false
-    ip_rate: 0.55
+    ip_rate: 0.0
     program_name: Military Pay Army – National Guard
-    relative_change: null
-    slug: dod-military-pay-army-national-guard
-    total_spent_federal_funding: 4839.37
+    relative_change: -0.55
+    slug: dow-military-pay-army-national-guard
+    total_spent_federal_funding: 0.0
   - high_priority_program: false
-    ip_rate: 6.9
+    ip_rate: 6.27
     program_name: Travel Pay Army – Defense Travel System (DTS)
-    relative_change: null
-    slug: dod-travel-pay-army-defense-travel-system-dts
-    total_spent_federal_funding: 2190.85
+    relative_change: -0.64
+    slug: dow-travel-pay-army-defense-travel-system-dts
+    total_spent_federal_funding: 2533.2
   - high_priority_program: false
-    ip_rate: 7.45
+    ip_rate: 6.47
     program_name: Travel Pay Department of Air Force (DAF) – Defense Travel System
       (DTS)
+    relative_change: -0.98
+    slug: dow-travel-pay-department-of-air-force-daf-defense-travel-sy-58c53287
+    total_spent_federal_funding: 2558.9
+  - high_priority_program: false
+    ip_rate: 7.39
+    program_name: Travel Pay Other Defense Organization (ODO) – Defense Travel System
+      (DTS)
     relative_change: null
-    slug: dod-travel-pay-department-of-air-force-daf-defense-travel-sy-4c65b680
-    total_spent_federal_funding: 2356.12
-  relative_change: 0.08
-  susceptible_programs: 6
-  total_spent_federal_funding: 256004.48
+    slug: dow-travel-pay-other-defense-organization-odo-defense-travel-346a386c
+    total_spent_federal_funding: 415.0
+  - high_priority_program: false
+    ip_rate: 7.54
+    program_name: Travel Pay Other Defense Organization (ODO) – Integrated Automated
+      Travel System (IATS)
+    relative_change: null
+    slug: dow-travel-pay-other-defense-organization-odo-integrated-aut-4e4e490f
+    total_spent_federal_funding: 14.73
+  relative_change: 0.47
+  susceptible_programs: 8
+  total_spent_federal_funding: 241688.65
+- agency: VA
+  agency_name: Department of Veterans Affairs
+  high_priority_programs: 3
+  improper_payments_rate: 1.09
+  num_programs: 91
+  programs:
+  - high_priority_program: false
+    ip_rate: 5.95
+    program_name: Beneficiary Travel
+    relative_change: -1.19
+    slug: va-beneficiary-travel
+    total_spent_federal_funding: 2053.35
+  - high_priority_program: true
+    ip_rate: 0.55
+    program_name: Compensation
+    relative_change: null
+    slug: va-compensation
+    total_spent_federal_funding: 157452.95
+  - high_priority_program: false
+    ip_rate: 1.12
+    program_name: Medical Care Contracts and Agreements
+    relative_change: 1.03
+    slug: va-medical-care-contracts-and-agreements
+    total_spent_federal_funding: 1333.36
+  - high_priority_program: true
+    ip_rate: 8.75
+    program_name: Pension
+    relative_change: -2.04
+    slug: va-pension
+    total_spent_federal_funding: 3549.89
+  - high_priority_program: false
+    ip_rate: 4.11
+    program_name: Purchased Long Term Services and Supports
+    relative_change: -7.58
+    slug: va-purchased-long-term-services-and-supports
+    total_spent_federal_funding: 7330.11
+  - high_priority_program: false
+    ip_rate: 0.02
+    program_name: Supplies and Materials
+    relative_change: -5.79
+    slug: va-supplies-and-materials
+    total_spent_federal_funding: 3939.2
+  - high_priority_program: true
+    ip_rate: 2.23
+    program_name: VA Community Care
+    relative_change: 0.33
+    slug: va-va-community-care
+    total_spent_federal_funding: 25444.18
+  relative_change: -3.46
+  susceptible_programs: 7
+  total_spent_federal_funding: 201103.04
 - agency: ED
   agency_name: Department of Education
-  high_priority_programs: 1
-  improper_payments_rate: 0.91
-  num_programs: 92
+  high_priority_programs: 2
+  improper_payments_rate: 0.71
+  num_programs: 126
   programs:
   - high_priority_program: false
     ip_rate: 0.0
     program_name: Education Stabilization Fund
-    relative_change: -0.0
+    relative_change: 0.0
     slug: ed-education-stabilization-fund
-    total_spent_federal_funding: 64650.62
+    total_spent_federal_funding: 55570.27
   - high_priority_program: true
-    ip_rate: 2.61
+    ip_rate: 1.05
     program_name: Federal Pell Grant Program
-    relative_change: -0.21
+    relative_change: -1.56
     slug: ed-federal-pell-grant-program
-    total_spent_federal_funding: 32995.74
-  - high_priority_program: false
-    ip_rate: 0.93
+    total_spent_federal_funding: 39934.4
+  - high_priority_program: true
+    ip_rate: 0.99
     program_name: William D. Ford Federal Direct Loan Program
-    relative_change: 0.23
+    relative_change: 0.05
     slug: ed-william-d-ford-federal-direct-loan-program
-    total_spent_federal_funding: 86688.28
-  relative_change: 0.28
+    total_spent_federal_funding: 90202.94
+  relative_change: -0.2
   susceptible_programs: 3
-  total_spent_federal_funding: 184334.64
-- agency: USDA
-  agency_name: Department of Agriculture
-  high_priority_programs: 6
-  improper_payments_rate: 9.11
-  num_programs: 162
+  total_spent_federal_funding: 185707.61
+- agency: OPM
+  agency_name: Office of Personnel Management
+  high_priority_programs: 1
+  improper_payments_rate: 0.25
+  num_programs: 7
   programs:
   - high_priority_program: false
-    ip_rate: 12.78
-    program_name: Commodity Credit Corporation (CCC) Agriculture Risk Coverage and
-      Price Loss Coverage (ARC/PLC)
-    relative_change: 4.18
-    slug: usda-commodity-credit-corporation-ccc-agriculture-risk-cover-32a1d32e
-    total_spent_federal_funding: 355.34
-  - high_priority_program: false
-    ip_rate: 9.71
-    program_name: Commodity Credit Corporation (CCC) Coronavirus Food Assistance Program
-      (CFAP)
-    relative_change: 3.06
-    slug: usda-commodity-credit-corporation-ccc-coronavirus-food-assis-a5111436
-    total_spent_federal_funding: 357.02
+    ip_rate: 0.11
+    program_name: Federal Employees Health Benefits - Experience Rated Carriers
+    relative_change: 0.11
+    slug: opm-federal-employees-health-benefits-experience-rated-carri-510c90c7
+    total_spent_federal_funding: 67219.3
   - high_priority_program: true
-    ip_rate: 12.9
+    ip_rate: 0.33
+    program_name: Federal Retirement Services
+    relative_change: 0.02
+    slug: opm-federal-retirement-services
+    total_spent_federal_funding: 109364.53
+  relative_change: -0.07
+  susceptible_programs: 2
+  total_spent_federal_funding: 176583.83
+- agency: USDA
+  agency_name: Department of Agriculture
+  high_priority_programs: 5
+  improper_payments_rate: 9.05
+  num_programs: 325
+  programs:
+  - high_priority_program: false
+    ip_rate: 6.71
+    program_name: Agriculture Risk/Price Loss Coverage Program
+    relative_change: -6.07
+    slug: usda-agriculture-risk-price-loss-coverage-program
+    total_spent_federal_funding: 278.07
+  - high_priority_program: false
+    ip_rate: 6.41
     program_name: Commodity Credit Corporation (CCC) Livestock Forage Disaster Program
-      (LFP)
-    relative_change: -0.77
-    slug: usda-commodity-credit-corporation-ccc-livestock-forage-disas-35478fa9
-    total_spent_federal_funding: 1838.51
+    relative_change: -6.48
+    slug: usda-commodity-credit-corporation-ccc-livestock-forage-disas-ee97674e
+    total_spent_federal_funding: 1201.47
   - high_priority_program: false
-    ip_rate: 11.61
-    program_name: Commodity Credit Corporation (CCC) Noninsured Crop Disaster Assistance
-      Program (NAP)
-    relative_change: 1.14
-    slug: usda-commodity-credit-corporation-ccc-noninsured-crop-disast-812b00e1
-    total_spent_federal_funding: 314.86
-  - high_priority_program: false
-    ip_rate: 45.16
-    program_name: Farm Service Agency (FSA) Emergency Conservation Program - Disasters
-      (ECP-Disasters)
-    relative_change: 4.75
-    slug: usda-farm-service-agency-fsa-emergency-conservation-program--37d5ea4e
-    total_spent_federal_funding: 100.69
+    ip_rate: 55.5
+    program_name: Emergency Conservation Program
+    relative_change: 10.34
+    slug: usda-emergency-conservation-program
+    total_spent_federal_funding: 132.83
   - high_priority_program: true
-    ip_rate: 8.7
+    ip_rate: 3.29
+    program_name: Federal Crop Insurance Corporation (FCIC)
+    relative_change: 0.87
+    slug: usda-federal-crop-insurance-corporation-fcic
+    total_spent_federal_funding: 22925.06
+  - high_priority_program: true
+    ip_rate: 10.5
     program_name: Food and Nutrition Service (FNS) Child and Adult Care Food Program
-      (CACFP) Centers
     relative_change: null
-    slug: usda-food-and-nutrition-service-fns-child-and-adult-care-foo-40f15880
-    total_spent_federal_funding: 3295.63
-  - high_priority_program: false
-    ip_rate: 0.13
-    program_name: Food and Nutrition Service (FNS) Child and Adult Care Food Program
-      (CACFP) Family Day Care Homes (FDCH) - Tiering Decisions
-    relative_change: 0.13
-    slug: usda-food-and-nutrition-service-fns-child-and-adult-care-foo-48fe4550
-    total_spent_federal_funding: 776.63
-  - high_priority_program: true
-    ip_rate: 7.37
-    program_name: Food and Nutrition Service (FNS) National School Lunch Program (NSLP)
-    relative_change: 4.99
-    slug: usda-food-and-nutrition-service-fns-national-school-lunch-pr-21fee4a2
-    total_spent_federal_funding: 19604.98
-  - high_priority_program: true
-    ip_rate: 7.61
-    program_name: Food and Nutrition Service (FNS) School Breakfast Program (SBP)
-    relative_change: 4.62
-    slug: usda-food-and-nutrition-service-fns-school-breakfast-program-ee15542e
-    total_spent_federal_funding: 5284.73
-  - high_priority_program: false
-    ip_rate: 1.42
-    program_name: Food and Nutrition Service (FNS) Special Supplemental Nutrition
-      Program for Women, Infants, and Children (WIC)
-    relative_change: -0.37
-    slug: usda-food-and-nutrition-service-fns-special-supplemental-nut-937321d1
-    total_spent_federal_funding: 4426.09
+    slug: usda-food-and-nutrition-service-fns-child-and-adult-care-foo-7e972464
+    total_spent_federal_funding: 4245.0
   - high_priority_program: false
     ip_rate: 0.0
     program_name: Food and Nutrition Service (FNS) Summer Food Service Program (SFSP)
@@ -267,387 +307,314 @@ agencies:
     slug: usda-food-and-nutrition-service-fns-summer-food-service-prog-919c7233
     total_spent_federal_funding: 0.0
   - high_priority_program: true
-    ip_rate: 11.68
-    program_name: Food and Nutrition Service (FNS) Supplemental Nutrition Assistance
-      Program (SNAP)
-    relative_change: 0.13
-    slug: usda-food-and-nutrition-service-fns-supplemental-nutrition-a-8824f439
-    total_spent_federal_funding: 90061.62
-  - high_priority_program: true
-    ip_rate: 2.43
-    program_name: Risk Management Agency (RMA) Federal Crop Insurance Corporation
-      (FCIC)
-    relative_change: -0.21
-    slug: usda-risk-management-agency-rma-federal-crop-insurance-corpo-a2b2c5e8
-    total_spent_federal_funding: 23867.31
-  relative_change: 0.98
-  susceptible_programs: 13
-  total_spent_federal_funding: 150283.41
-- agency: OPM
-  agency_name: Office of Personnel Management
-  high_priority_programs: 1
-  improper_payments_rate: 0.32
-  num_programs: 7
-  programs:
+    ip_rate: 6.98
+    program_name: National School Lunch Program
+    relative_change: -0.39
+    slug: usda-national-school-lunch-program
+    total_spent_federal_funding: 19914.0
   - high_priority_program: false
-    ip_rate: 0.0
-    program_name: Federal Employees Health Benefits - Experience Rated Carriers
-    relative_change: 0.0
-    slug: opm-federal-employees-health-benefits-experience-rated-carri-510c90c7
-    total_spent_federal_funding: 0.0
+    ip_rate: 10.56
+    program_name: Noninsured Crop Disaster Assistance Program
+    relative_change: -1.05
+    slug: usda-noninsured-crop-disaster-assistance-program
+    total_spent_federal_funding: 185.78
   - high_priority_program: true
-    ip_rate: 0.32
-    program_name: Federal Retirement Services
-    relative_change: -0.04
-    slug: opm-federal-retirement-services
-    total_spent_federal_funding: 106883.57
-  relative_change: -0.04
-  susceptible_programs: 2
-  total_spent_federal_funding: 106883.57
+    ip_rate: 7.24
+    program_name: School Breakfast Program
+    relative_change: -0.36
+    slug: usda-school-breakfast-program
+    total_spent_federal_funding: 5914.0
+  - high_priority_program: true
+    ip_rate: 10.93
+    program_name: Supplemental Nutrition Assistance Program
+    relative_change: -0.75
+    slug: usda-supplemental-nutrition-assistance-program
+    total_spent_federal_funding: 93509.72
+  relative_change: -0.06
+  susceptible_programs: 10
+  total_spent_federal_funding: 148305.93
 - agency: TREASURY
   agency_name: Department of the Treasury
   high_priority_programs: 4
-  improper_payments_rate: 21.91
-  num_programs: 93
+  improper_payments_rate: 26.54
+  num_programs: 285
   programs:
   - high_priority_program: false
     ip_rate: 0.0
     program_name: Departmental Offices - Emergency Rental Assistance
-    relative_change: null
+    relative_change: 0.0
     slug: treasury-departmental-offices-emergency-rental-assistance
     total_spent_federal_funding: 0.0
-  - high_priority_program: false
-    ip_rate: 0.0
-    program_name: Departmental Offices - Pandemic Relief for Aviation Workers
-    relative_change: null
-    slug: treasury-departmental-offices-pandemic-relief-for-aviation-w-da17ec73
-    total_spent_federal_funding: 0.0
   - high_priority_program: true
-    ip_rate: 10.73
+    ip_rate: 13.61
     program_name: Internal Revenue Service - Additional Child Tax Credit
-    relative_change: -3.75
+    relative_change: 2.88
     slug: treasury-internal-revenue-service-additional-child-tax-credi-6179b194
-    total_spent_federal_funding: 32120.77
+    total_spent_federal_funding: 33434.81
   - high_priority_program: true
-    ip_rate: 27.65
+    ip_rate: 30.68
     program_name: Internal Revenue Service - American Opportunity Tax Credit
-    relative_change: -3.98
+    relative_change: 3.03
     slug: treasury-internal-revenue-service-american-opportunity-tax-c-f4ab3ebf
-    total_spent_federal_funding: 5176.49
-  - high_priority_program: false
-    ip_rate: 0.0
-    program_name: Internal Revenue Service - Child and Dependent Care Tax Credit
-    relative_change: null
-    slug: treasury-internal-revenue-service-child-and-dependent-care-t-244e2e2b
-    total_spent_federal_funding: 0.0
+    total_spent_federal_funding: 5008.07
   - high_priority_program: true
-    ip_rate: 27.28
+    ip_rate: 32.69
     program_name: Internal Revenue Service - Earned Income Tax Credit
-    relative_change: -6.19
+    relative_change: 5.41
     slug: treasury-internal-revenue-service-earned-income-tax-credit
-    total_spent_federal_funding: 58436.98
+    total_spent_federal_funding: 64676.8
   - high_priority_program: true
-    ip_rate: 28.54
+    ip_rate: 31.61
     program_name: Internal Revenue Service - Refundable Premium Assistance Tax Credit
-    relative_change: 2.5
+    relative_change: 3.07
     slug: treasury-internal-revenue-service-refundable-premium-assista-3c3ccaa3
-    total_spent_federal_funding: 2304.58
+    total_spent_federal_funding: 2623.05
   - high_priority_program: false
     ip_rate: 0.0
     program_name: Internal Revenue Service - US Coronavirus Payments
-    relative_change: null
+    relative_change: 0.0
     slug: treasury-internal-revenue-service-us-coronavirus-payments
     total_spent_federal_funding: 0.0
   - high_priority_program: false
     ip_rate: 0.0
     program_name: Internal Revenue Service - US Coronavirus Refundable Credits
-    relative_change: null
+    relative_change: 0.0
     slug: treasury-internal-revenue-service-us-coronavirus-refundable--d7f596f0
     total_spent_federal_funding: 0.0
-  relative_change: -10.17
-  susceptible_programs: 9
-  total_spent_federal_funding: 98038.82
+  relative_change: 4.63
+  susceptible_programs: 7
+  total_spent_federal_funding: 105742.73
+- agency: DOT
+  agency_name: Department of Transportation
+  high_priority_programs: 1
+  improper_payments_rate: 3.57
+  num_programs: 57
+  programs:
+  - high_priority_program: true
+    ip_rate: 3.86
+    program_name: Federal Highway Administration Highway Planning and Construction
+    relative_change: 1.9
+    slug: dot-federal-highway-administration-highway-planning-and-cons-c624cb7b
+    total_spent_federal_funding: 61788.59
+  - high_priority_program: false
+    ip_rate: 0.16
+    program_name: Federal Transit Administration Transit Infrastructure Grants - COVID
+      Relief Funds
+    relative_change: -1.4
+    slug: dot-federal-transit-administration-transit-infrastructure-gr-cd888668
+    total_spent_federal_funding: 5279.3
+  relative_change: 1.67
+  susceptible_programs: 2
+  total_spent_federal_funding: 67067.89
 - agency: SBA
   agency_name: Small Business Administration
   high_priority_programs: 2
-  improper_payments_rate: 5.2
-  num_programs: 34
+  improper_payments_rate: 12.29
+  num_programs: 40
   programs:
   - high_priority_program: false
-    ip_rate: 3.74
+    ip_rate: 4.58
     program_name: 504 Certified Development Loans Approvals
-    relative_change: 0.99
+    relative_change: 0.84
     slug: sba-504-certified-development-loans-approvals
-    total_spent_federal_funding: 6329.16
+    total_spent_federal_funding: 7392.04
   - high_priority_program: false
-    ip_rate: 5.44
+    ip_rate: 6.13
     program_name: 7(a) Loan Guarantees Approvals
-    relative_change: 4.13
+    relative_change: 0.7
     slug: sba-7-a-loan-guarantees-approvals
-    total_spent_federal_funding: 20294.4
+    total_spent_federal_funding: 26614.89
   - high_priority_program: false
-    ip_rate: 5.34
+    ip_rate: 1.07
     program_name: 7(a) Loan Guarantees Purchases
-    relative_change: -0.81
+    relative_change: -4.28
     slug: sba-7-a-loan-guarantees-purchases
-    total_spent_federal_funding: 1394.74
-  - high_priority_program: false
-    ip_rate: 3.62
+    total_spent_federal_funding: 2115.5
+  - high_priority_program: true
+    ip_rate: 4.87
     program_name: Disaster Assistance Loans
-    relative_change: -0.32
+    relative_change: 1.25
     slug: sba-disaster-assistance-loans
-    total_spent_federal_funding: 1175.7
-  - high_priority_program: true
-    ip_rate: 21.09
+    total_spent_federal_funding: 3223.82
+  - high_priority_program: false
+    ip_rate: 19.04
     program_name: Paycheck Protection Program (PPP) Loan Forgiveness
-    relative_change: 19.15
+    relative_change: -2.04
     slug: sba-paycheck-protection-program-ppp-loan-forgiveness
-    total_spent_federal_funding: 1507.2
-  - high_priority_program: true
-    ip_rate: 24.47
+    total_spent_federal_funding: 303.85
+  - high_priority_program: false
+    ip_rate: 5.17
     program_name: Paycheck Protection Program (PPP) Loan Guaranty Purchases
-    relative_change: 22.95
+    relative_change: -19.3
     slug: sba-paycheck-protection-program-ppp-loan-guaranty-purchases
-    total_spent_federal_funding: 6792.08
+    total_spent_federal_funding: 1398.23
   - high_priority_program: false
-    ip_rate: 0.0
-    program_name: Restaurant Revitalization Fund
-    relative_change: null
-    slug: sba-restaurant-revitalization-fund
-    total_spent_federal_funding: 28599.51
-  - high_priority_program: false
-    ip_rate: 0.0
-    program_name: Shuttered Venue Operators Grant Program
-    relative_change: null
-    slug: sba-shuttered-venue-operators-grant-program
-    total_spent_federal_funding: 0.0
-  relative_change: 1.33
-  susceptible_programs: 8
-  total_spent_federal_funding: 66092.79
-- agency: DOT
-  agency_name: Department of Transportation
-  high_priority_programs: 2
-  improper_payments_rate: 1.9
-  num_programs: 41
-  programs:
-  - high_priority_program: true
-    ip_rate: 1.96
-    program_name: Federal Highway Administration Highway Planning and Construction
-    relative_change: 1.92
-    slug: dot-federal-highway-administration-highway-planning-and-cons-c624cb7b
-    total_spent_federal_funding: 54459.55
-  - high_priority_program: true
-    ip_rate: 1.56
-    program_name: Federal Transit Administration Transit Infrastructure Grants - COVID
-      Relief Funds
-    relative_change: -0.52
-    slug: dot-federal-transit-administration-transit-infrastructure-gr-cd888668
-    total_spent_federal_funding: 9747.28
-  relative_change: 1.2
-  susceptible_programs: 2
-  total_spent_federal_funding: 64206.84
-- agency: DHS
-  agency_name: Department of Homeland Security
-  high_priority_programs: 1
-  improper_payments_rate: 0.47
-  num_programs: 103
-  programs:
-  - high_priority_program: false
-    ip_rate: 3.5
-    program_name: Federal Emergency Management Agency (FEMA) - Funeral Assistance
-    relative_change: null
-    slug: dhs-federal-emergency-management-agency-fema-funeral-assista-16e39bc0
-    total_spent_federal_funding: 1697.56
-  - high_priority_program: true
     ip_rate: 0.34
-    program_name: Federal Emergency Management Agency (FEMA) - Public Assistance -
-      Validate as You Go
+    program_name: Section 1112 Payments for SBA’s business loan programs
     relative_change: null
-    slug: dhs-federal-emergency-management-agency-fema-public-assistan-2b9d938d
-    total_spent_federal_funding: 39724.05
-  - high_priority_program: false
-    ip_rate: 0.0
-    program_name: U.S. Customs and Border Protection (CBP) - Procurement, Construction,
-      and Improvements - Disaster Supplemental Funds
-    relative_change: 0.0
-    slug: dhs-u-s-customs-and-border-protection-cbp-procurement-constr-75cbfdad
-    total_spent_federal_funding: 19.67
-  relative_change: 0.47
-  susceptible_programs: 3
-  total_spent_federal_funding: 41441.28
-- agency: VA
-  agency_name: Department of Veterans Affairs
-  high_priority_programs: 3
-  improper_payments_rate: 4.54
-  num_programs: 96
-  programs:
-  - high_priority_program: false
-    ip_rate: 7.14
-    program_name: Beneficiary Travel
-    relative_change: 1.28
-    slug: va-beneficiary-travel
-    total_spent_federal_funding: 1849.1
-  - high_priority_program: false
-    ip_rate: 0.54
-    program_name: Communications, Utilities, and Other Rent
-    relative_change: -0.65
-    slug: va-communications-utilities-and-other-rent
-    total_spent_federal_funding: 2326.8
-  - high_priority_program: false
-    ip_rate: 0.09
-    program_name: Medical Care Contracts and Agreements
-    relative_change: -1.58
-    slug: va-medical-care-contracts-and-agreements
-    total_spent_federal_funding: 1236.77
+    slug: sba-section-1112-payments-for-sba-s-business-loan-programs
+    total_spent_federal_funding: 10585.15
   - high_priority_program: true
-    ip_rate: 10.79
-    program_name: Pension
-    relative_change: -0.06
-    slug: va-pension
-    total_spent_federal_funding: 3742.93
-  - high_priority_program: true
-    ip_rate: 11.69
-    program_name: Purchased Long Term Services and Supports
-    relative_change: -25.54
-    slug: va-purchased-long-term-services-and-supports
-    total_spent_federal_funding: 5620.66
-  - high_priority_program: false
-    ip_rate: 5.82
-    program_name: Supplies and Materials
-    relative_change: 3.27
-    slug: va-supplies-and-materials
-    total_spent_federal_funding: 3705.91
-  - high_priority_program: true
-    ip_rate: 1.9
-    program_name: VA Community Care
-    relative_change: -2.87
-    slug: va-va-community-care
-    total_spent_federal_funding: 21981.87
-  relative_change: -3.71
-  susceptible_programs: 7
-  total_spent_federal_funding: 40464.04
-- agency: DOL
-  agency_name: Department of Labor
-  high_priority_programs: 1
-  improper_payments_rate: 13.29
-  num_programs: 44
-  programs:
-  - high_priority_program: true
-    ip_rate: 14.41
-    program_name: Employment & Training Administration - Federal State Unemployment
-      Insurance
-    relative_change: -0.41
-    slug: dol-employment-training-administration-federal-state-unemplo-f85701dc
-    total_spent_federal_funding: 35196.61
-  - high_priority_program: false
-    ip_rate: 2.34
-    program_name: Office of Workers' Compensation - Federal Employees' Compensation
-      Act
-    relative_change: -0.09
-    slug: dol-office-of-workers-compensation-federal-employees-compens-3801803f
-    total_spent_federal_funding: 3625.11
-  relative_change: -4.22
-  susceptible_programs: 2
-  total_spent_federal_funding: 38821.72
+    ip_rate: 39.89
+    program_name: Shuttered Venue Operators Grant Program
+    relative_change: 39.89
+    slug: sba-shuttered-venue-operators-grant-program
+    total_spent_federal_funding: 14604.95
+  relative_change: 7.09
+  susceptible_programs: 8
+  total_spent_federal_funding: 66238.42
 - agency: HUD
   agency_name: Department of Housing and Urban Development
   high_priority_programs: 0
   improper_payments_rate: 0.0
-  num_programs: 49
+  num_programs: 85
   programs:
   - high_priority_program: false
     ip_rate: 0.0
-    program_name: Housing - Rental Housing Assistance Program - Project Based Rental
-      Assistance - Project Based Section 8 - Rental Housing Assistance Program - Section
-      236 -Housing for Persons with Disability - Section 811
+    program_name: Housing - Rental Housing Assistance Program (RHAP) - Project Based
+      Rental Assistance - Project Based Section 8 - Rental Housing Assistance Program-
+      Section 236 - Housing for Persons with Disability- Section 811
     relative_change: 0.0
-    slug: hud-housing-rental-housing-assistance-program-project-based--7c3c0b0a
-    total_spent_federal_funding: 15236.6
+    slug: hud-housing-rental-housing-assistance-program-rhap-project-b-6dfc0485
+    total_spent_federal_funding: 16458.25
   - high_priority_program: false
     ip_rate: 0.0
-    program_name: Public and Indian Housing - Rental Housing Assistance Program -
-      Tenant Based Rental Assistance - Section 8 - Housing Certificate Fund & Tenant
+    program_name: Public and Indian Housing - Rental Housing Assistance Program (RHAP)
+      - Tenant Based Rental Assistance Section 8 - Housing Certificate Fund & Tenant
       Based Rental Assistance
     relative_change: 0.0
-    slug: hud-public-and-indian-housing-rental-housing-assistance-prog-eaeacd55
-    total_spent_federal_funding: 0.0
-  relative_change: null
+    slug: hud-public-and-indian-housing-rental-housing-assistance-prog-485c7c79
+    total_spent_federal_funding: 33980.76
+  relative_change: 0.0
   susceptible_programs: 2
-  total_spent_federal_funding: 15236.6
+  total_spent_federal_funding: 50439.01
+- agency: DOL
+  agency_name: Department of Labor
+  high_priority_programs: 2
+  improper_payments_rate: 12.16
+  num_programs: 57
+  programs:
+  - high_priority_program: true
+    ip_rate: 13.14
+    program_name: Employment & Training Administration - Federal State Unemployment
+      Insurance
+    relative_change: -1.27
+    slug: dol-employment-training-administration-federal-state-unemplo-f85701dc
+    total_spent_federal_funding: 37679.47
+  - high_priority_program: true
+    ip_rate: 2.78
+    program_name: Office of Workers' Compensation - Federal Employees' Compensation
+      Act
+    relative_change: 0.43
+    slug: dol-office-of-workers-compensation-federal-employees-compens-3801803f
+    total_spent_federal_funding: 3954.92
+  relative_change: -1.13
+  susceptible_programs: 2
+  total_spent_federal_funding: 41634.39
+- agency: DHS
+  agency_name: Department of Homeland Security
+  high_priority_programs: 0
+  improper_payments_rate: 0.15
+  num_programs: 176
+  programs:
+  - high_priority_program: false
+    ip_rate: 4.31
+    program_name: Federal Emergency Management Agency - Funeral Assistance
+    relative_change: 0.81
+    slug: dhs-federal-emergency-management-agency-funeral-assistance
+    total_spent_federal_funding: 301.49
+  - high_priority_program: false
+    ip_rate: 0.1
+    program_name: Federal Emergency Management Agency - Public Assistance - Validate
+      as You Go
+    relative_change: -0.25
+    slug: dhs-federal-emergency-management-agency-public-assistance-va-f772be13
+    total_spent_federal_funding: 21313.03
+  - high_priority_program: false
+    ip_rate: 0.23
+    program_name: Immigration and Customs Enforcement - Procurement, Construction,
+      and Improvements - Disaster Supplemental Funds
+    relative_change: null
+    slug: dhs-immigration-and-customs-enforcement-procurement-construc-4f2d4747
+    total_spent_federal_funding: 16.0
+  relative_change: -0.32
+  susceptible_programs: 3
+  total_spent_federal_funding: 21630.52
 - agency: FCC
   agency_name: Federal Communications Commission
   high_priority_programs: 0
-  improper_payments_rate: 3.15
+  improper_payments_rate: 5.03
   num_programs: 13
   programs:
   - high_priority_program: false
-    ip_rate: 4.45
+    ip_rate: 3.26
     program_name: Universal Service Fund - High Cost Legacy
-    relative_change: 1.58
+    relative_change: -1.2
     slug: fcc-universal-service-fund-high-cost-legacy
-    total_spent_federal_funding: 1835.09
+    total_spent_federal_funding: 1911.35
   - high_priority_program: false
-    ip_rate: 5.98
-    program_name: Universal Service Fund - Lifeline
-    relative_change: 3.79
+    ip_rate: 9.12
+    program_name: Universal Service Fund – Lifeline
+    relative_change: 3.14
     slug: fcc-universal-service-fund-lifeline
-    total_spent_federal_funding: 784.82
-  - high_priority_program: false
-    ip_rate: 1.27
-    program_name: Universal Service Fund - Schools and Libraries
-    relative_change: -0.33
-    slug: fcc-universal-service-fund-schools-and-libraries
-    total_spent_federal_funding: 2456.35
-  relative_change: 1.43
-  susceptible_programs: 3
-  total_spent_federal_funding: 5076.26
-- agency: EPA
-  agency_name: Environmental Protection Agency
-  high_priority_programs: 0
-  improper_payments_rate: 0.77
-  num_programs: 14
-  programs:
-  - high_priority_program: false
-    ip_rate: 0.77
-    program_name: Grants - Environmental Protection Agency
-    relative_change: null
-    slug: epa-grants-environmental-protection-agency
-    total_spent_federal_funding: 1720.31
-  relative_change: null
-  susceptible_programs: 1
-  total_spent_federal_funding: 1720.31
+    total_spent_federal_funding: 829.6
+  relative_change: 1.88
+  susceptible_programs: 2
+  total_spent_federal_funding: 2740.95
 - agency: CNCS
   agency_name: Corporation for National and Community Service
   high_priority_programs: 0
-  improper_payments_rate: 1.76
-  num_programs: 16
+  improper_payments_rate: 2.64
+  num_programs: 17
   programs:
   - high_priority_program: false
-    ip_rate: 1.92
+    ip_rate: 2.55
     program_name: AmeriCorps State and National
-    relative_change: -2.48
+    relative_change: 0.63
     slug: cncs-americorps-state-and-national
-    total_spent_federal_funding: 411.81
+    total_spent_federal_funding: 384.39
   - high_priority_program: false
-    ip_rate: 0.0
-    program_name: National Service Trust
-    relative_change: null
-    slug: cncs-national-service-trust
-    total_spent_federal_funding: 106.31
-  - high_priority_program: false
-    ip_rate: 3.12
+    ip_rate: 2.99
     program_name: The Foster Grandparent Program (FGP)
-    relative_change: 0.35
+    relative_change: -0.13
     slug: cncs-the-foster-grandparent-program-fgp
-    total_spent_federal_funding: 90.63
-  relative_change: -2.46
-  susceptible_programs: 3
-  total_spent_federal_funding: 608.75
-- agency: USAID
-  agency_name: Agency for International Development
+    total_spent_federal_funding: 93.85
+  relative_change: 0.87
+  susceptible_programs: 2
+  total_spent_federal_funding: 478.24
+- agency: ACOUS
+  agency_name: Administrative Conference of the US
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 483
+  num_programs: 1
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: ARC
+  agency_name: Appalachian Regional Commission
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 5
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: BGSF
+  agency_name: Barry Goldwater Scholarship and Excellence in Education Fund
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 1
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -675,7 +642,7 @@ agencies:
   agency_name: Consumer Product Safety Commission
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 2
+  num_programs: 4
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -686,8 +653,7 @@ agencies:
   susceptible_programs: 0
   total_spent_federal_funding: 0
 - agency: CSOSA
-  agency_name: Court Services and Offender Supervision Agency for the District of
-    Columbia
+  agency_name: Court Services and Offender Supervision Agency for the District
   high_priority_programs: 0
   improper_payments_rate: 0
   num_programs: 2
@@ -714,11 +680,39 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
+- agency: DRA
+  agency_name: Delta Regional Authority
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 1
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: DENALI
+  agency_name: Denali Commission
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 3
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
 - agency: DOC
   agency_name: Department of Commerce
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 63
+  num_programs: 64
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -760,7 +754,7 @@ agencies:
   agency_name: Department of State
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 42
+  num_programs: 41
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -774,7 +768,7 @@ agencies:
   agency_name: Department of the Interior
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 43
+  num_programs: 375
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -798,11 +792,25 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
+- agency: EPA
+  agency_name: Environmental Protection Agency
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 134
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
 - agency: EEOC
   agency_name: Equal Employment Opportunity Commission
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 3
+  num_programs: 8
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -816,7 +824,7 @@ agencies:
   agency_name: Executive Office of the President
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 2
+  num_programs: 8
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -827,7 +835,7 @@ agencies:
   susceptible_programs: 0
   total_spent_federal_funding: 0
 - agency: EXIM
-  agency_name: Export-Import Bank of the United States
+  agency_name: Export-Import Bank of the U.S.
   high_priority_programs: 0
   improper_payments_rate: 0
   num_programs: 4
@@ -882,11 +890,25 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
+- agency: ASC
+  agency_name: Federal Financial Institutions Examination Council Appraisal Subcommittee
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 2
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
 - agency: FLRA
   agency_name: Federal Labor Relations Authority
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 0
+  num_programs: 5
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -928,7 +950,7 @@ agencies:
   agency_name: General Services Administration
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 25
+  num_programs: 48
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -942,7 +964,7 @@ agencies:
   agency_name: Gulf Coast Ecosystem Restoration Council
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 3
+  num_programs: 2
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -952,11 +974,11 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
-- agency: IMLS
-  agency_name: Institute of Museum and Library Services
+- agency: IAF
+  agency_name: Inter-American Foundation
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 5
+  num_programs: 2
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -966,11 +988,48 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
-- agency: DFC
-  agency_name: International Development Finance Corporation
+- agency: USAID
+  agency_name: International Assistance Programs (USAID)
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 4
+  num_programs: 0
+  programs: []
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: JMF
+  agency_name: James Madison Memorial Fellowship Foundation (JMMFF)
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 1
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: JUFC
+  agency_name: Japan-U.S. Friendship Commission
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 1
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: LOC
+  agency_name: Library of Congress
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 6
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -984,7 +1043,7 @@ agencies:
   agency_name: Merit Systems Protection Board
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 0
+  num_programs: 1
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -998,7 +1057,22 @@ agencies:
   agency_name: Millennium Challenge Corporation
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 5
+  num_programs: 6
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: MUSP
+  agency_name: Morris K. Udall Scholarship and Excellence in National Environmental
+    Policy Foundation
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 3
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1012,7 +1086,7 @@ agencies:
   agency_name: National Aeronautics and Space Administration
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 110
+  num_programs: 76
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1036,11 +1110,25 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
+- agency: NCUA
+  agency_name: National Credit Union Administration
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 1
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
 - agency: NEA
   agency_name: National Endowment for the Arts
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 37
+  num_programs: 3
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1054,7 +1142,7 @@ agencies:
   agency_name: National Endowment for the Humanities
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 4
+  num_programs: 10
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1110,11 +1198,25 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
+- agency: NBRC
+  agency_name: Northern Border Regional Commission
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 1
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
 - agency: NRC
   agency_name: Nuclear Regulatory Commission
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 4
+  num_programs: 9
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1161,6 +1263,20 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
+- agency: PBGC
+  agency_name: PENSION BENEFIT GUARANTY CORPORATION
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 7
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
 - agency: PC
   agency_name: Peace Corps
   high_priority_programs: 0
@@ -1175,11 +1291,11 @@ agencies:
   relative_change: null
   susceptible_programs: 0
   total_spent_federal_funding: 0
-- agency: PBGC
-  agency_name: Pension Benefit Guaranty Corporation
+- agency: PISC
+  agency_name: Permitting Council
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 6
+  num_programs: 1
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1193,7 +1309,7 @@ agencies:
   agency_name: Privacy and Civil Liberties Oversight Board
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 0
+  num_programs: 2
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1221,7 +1337,7 @@ agencies:
   agency_name: Securities and Exchange Commission
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 9
+  num_programs: 6
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1235,7 +1351,21 @@ agencies:
   agency_name: Selective Service System
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 0
+  num_programs: 1
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: SCRC
+  agency_name: Southeast Crescent Regional Commission
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 1
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1249,7 +1379,7 @@ agencies:
   agency_name: Surface Transportation Board
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 0
+  num_programs: 1
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1264,6 +1394,48 @@ agencies:
   high_priority_programs: 0
   improper_payments_rate: 0
   num_programs: 3
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: IMLS
+  agency_name: The Institute of Museum and Library Services
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 11
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: CCR
+  agency_name: U.S. Commission on Civil Rights
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 1
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: DFC
+  agency_name: US International Development Finance Corporation
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 4
   programs:
   - high_priority_program: false
     ip_rate: 0
@@ -1297,10 +1469,38 @@ agencies:
   susceptible_programs: 0
   total_spent_federal_funding: 0
 - agency: USAGM
-  agency_name: United States Agency for Global Media
+  agency_name: United States Agency for Global Media, BBG
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 9
+  num_programs: 10
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: USHMM
+  agency_name: United States Holocaust Memorial Museum
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 0
+  programs:
+  - high_priority_program: false
+    ip_rate: 0
+    program_name: null
+    relative_change: null
+    total_spent_federal_funding: 0
+  relative_change: null
+  susceptible_programs: 0
+  total_spent_federal_funding: 0
+- agency: USIP
+  agency_name: United States Institute of Peace
+  high_priority_programs: 0
+  improper_payments_rate: 0
+  num_programs: 1
   programs:
   - high_priority_program: false
     ip_rate: 0

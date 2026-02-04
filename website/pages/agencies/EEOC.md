@@ -3,8 +3,9 @@ Agency: EEOC
 Agency_Name: Equal Employment Opportunity Commission
 Confirmed_Fraud: null
 Eligibility_Themes: []
-Fiscal_Year: 2024
+Fiscal_Year: 2025
 Hide_Disposition_of_Funds: true
+Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
@@ -37,7 +38,8 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Travel and Transportation - Equal Employment Opportunity Commission
+  Hide_Compliance_Section: true
+  Name: Communications, Utilities, and Misc. Charges
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -49,20 +51,88 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Vendor Payments - Equal Employment Opportunity Commission
-PIIA2019_NonCompliant_Programs:
-- Compliant_1A: false
+  Hide_Compliance_Section: true
+  Name: Employment Discrimination Private Bar Program (Private Attorney Referral)
+- Compliant_1A: true
   Compliant_1B: true
-  Compliant_2A: false
-  Compliant_2B: false
+  Compliant_2A: true
+  Compliant_2B: true
   Compliant_3: true
   Compliant_4: true
   Compliant_5A: true
   Compliant_5B: true
   Compliant_5C: true
   Compliant_6: true
-  Compliant_Overall: false
-  Name: Pay and Benefits (Payroll)
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Equipment
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Pay and Benefits
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Rental Payments to GSA
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Supplies and Materials
+  Slug: va-supplies-and-materials
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Travel
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Vendor Payments
+PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
 Payment_Accuracy_Rate_Max: 0
 Payment_Accuracy_Rate_Min: 0
@@ -70,12 +140,45 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2024
-    Program_Name: Pay and Benefits (Payroll)
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Communications, Utilities, and Misc. Charges
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Employment Discrimination Private Bar Program (Private Attorney
+      Referral)
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Equipment
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: Pay and Benefits
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
-    Program_Name: Vendor Payments - Equal Employment Opportunity Commission
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Rental Payments to GSA
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Supplies and Materials
+    Slug: va-supplies-and-materials
+    Susceptible: null
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Travel
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Vendor Payments
     Slug: null
     Susceptible: 'No'
   SubstantialChangesMade: 'No'
@@ -86,108 +189,53 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2025
 - 2024
 - 2023
 - 2022
-detail_CAP5: 'It was recommended that EEOC implement agency-wide Improper Payment
-  Risk Assessment Standard Operating Procedures (SOP) based on OMB A-123 Appendix
-  C guidance and identify a responsible point of contact for each significant program.
-  The responsible party should report results of their risk assessment to the EEOC
-  responsible official.   It was also recommended to implement an SOP to ensure annual
-  compliance with OMB A-136 PIIA review and reporting requirements.   The agency developed
-  and implemented an agency-wide PIIA policy on December 28, 2023, to address compliance
-  with OMB A-136 PIIA review and reporting requirements and risk assessment procedures.  The
-  agency has also conducted an Improper Payment risk assessment of the Pay and Benefits
-  (Payroll) Program and concluded that the Pay and Benefits (Payroll) Program is not
-  susceptible to significant improper payments or unknown payments.  The agency will
-  also report the results of the Pay and Benefits risk assessment in the agency''s
-  financial report.
-
-  '
-detail_agy1: null
-detail_ara1: 'Yes'
-detail_ara2: 'No'
-detail_ara2_1: null
-detail_ara2_2: null
-detail_ara2_3: "The OMB guidance addresses implementing payment recapture audits,\
-  \ for programs and activities that expend $1 million or more annually, provided\
-  \ it is cost-effective to do so. In accordance with the OMB guidance, the EEOC reviewed\
-  \ its programs and activities and determined that none of the agency’s programs\
-  \ or activities was susceptible to making significant improper payments and that\
-  \ the implementation of a payment recapture audit would not be cost-effective. \n"
-detail_ara2_3_2: 'Pay and Benefits (Payroll); Travel and Transportation; Vendor Payments
-
-  '
-detail_arp10: null
-detail_arp11: null
-detail_arp12: null
-detail_arp14: null
-detail_arp15: null
-detail_arp16: null
-detail_arp16_5: null
-detail_arp17: null
-detail_arp18: null
-detail_arp4: null
-detail_arp4_1: '0.0'
-detail_arp5: null
-detail_arp5_1: null
-detail_arp7: null
-detail_arp8: null
-detail_arp9: null
-detail_cap3: 'Dr. Jiashen You, Director of EEOC''s Office of Enterprise Data and Analytics
-  (OEDA)
-
-  '
-detail_cap4: 'In a performance agreement for the official, incentives and consequences
-  are meant to be aligned with the official''s efforts to enhance payment accuracy,
-  prevent fraud, and bring the agency into compliance. Incentives may include financial
-  rewards, recognition, and access to additional training and development opportunities
-  to enhance skills and expertise. Conversely, consequences may include being held
-  accountable for any significant lapses in payment integrity due to gross negligence,
-  reputational impact which might affect their future career prospects, and legal
-  consequences for the agency. Effective performance agreements create a strong incentive
-  for the official(s) to diligently work toward improving payment accuracy and preventing
-  fraud, as their professional advancement and reputation, as well as the reputation
-  of the agency, are directly affected by their ability to meet these goals.
-
-  '
-detail_com1: Non-Compliant
-detail_dpa1: 'No'
-detail_dpa2: null
-detail_dpa3: null
-detail_dpa5: 'The EEOC does not presently use the Do Not Pay Initiative (DNP) as the
-  EEOC is cross-serviced by the Department of Interior, Interior Business Center (DOI/IBC)
-  for accounting system support and accounts payable processing.  As a result, the
-  implementation of the DNP initiative is a joint responsibility between the EEOC
-  and IBC. Prior to making a new contract award, the EEOC utilizes the System for
-  Award Management (SAM) to see if the vendor is excluded from receiving contracts.
+detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
+detail_Compliance_Status: Compliant
+detail_DNP_Discussion: The EEOC is cross-serviced by the Department of Interior, Interior
+  Business Center (DOI/IBC) for accounting system support and accounts payable processing.  As
+  a result, the implementation of the DNP initiative is a joint responsibility between
+  the EEOC and IBC. Prior to making a new contract award, the EEOC utilizes the System
+  for Award Management (SAM) to see if the vendor is excluded from receiving contracts.
   If SAM does not list any exclusions, the EEOC submits a new vendor request to IBC.
   The IBC Vendor Maintenance Team verifies EEOC’s entire new employee and Non-Federal
   Vendor requests against the Department of Treasury’s DNP database and if the IBC
   Vendor Maintenance Team finds a positive match, they notify the EEOC. The EEOC reviews
   the match, determines if the payment is proper, and reports the result.
-
-  '
-detail_exs1: "\"In Fiscal Year (FY) 2024, the Equal Employment Opportunity Commission\
-  \ (EEOC) conducted Improper Payment Testing over its Transaction Universe in accordance\
-  \ with OMB Circular A-123, Appendix C, OMB Memorandum M-21-19, Section VIII, and\
-  \ Standard Operating Procedures. Accordingly, for FY 2024, the EEOC conducted scheduled\
-  \ reviews and audits of Payroll, Vendor Payments, and Travel Payments.  \nThe agency\
-  \ developed and implemented a Payment Integrity Information Act Policy and developed\
-  \ Standard Operating Procedures for Risk Assessments.\nIn FY 2024, the agency also\
-  \ conducted an Improper Payment risk assessment of the Pay and Benefits Program\
-  \ and determined that the Pay and Benefits Program is not susceptible to significant\
-  \ improper payments or unknown payments.  \"\n"
-detail_pcp12_1: '3.0'
-detail_pcp14: "It was recommended that EEOC implement agency-wide Improper Payment\
-  \ Risk Assessment Standard Operating Procedures (SOP) based on OMB A-123 Appendix\
-  \ C guidance and identify a responsible point of contact for each significant program.\
-  \ The responsible party should report results of their risk assessment to the EEOC\
-  \ responsible official.   It was also recommended to implement an SOP to ensure\
-  \ annual compliance with OMB A-136 PIIA review and reporting requirements.   \n"
-detail_raa8: 'No'
-detail_raa9: null
+detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
+detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: null
+detail_Executive_Summary: In Fiscal Year (FY) 2025, the Equal Employment Opportunity
+  Commission (EEOC) conducted Improper Payment Testing over its Transaction Universe
+  in accordance with OMB Circular A-123, Appendix C, OMB Memorandum M-21-19, Section
+  VIII, and Standard Operating Procedures. Accordingly, in FY 2025, the EEOC conducted
+  scheduled reviews and audits of Benefits and Payroll, Vendor Payments, and Travel
+  Payments.  Moreover, the agency administered a Payment Integrity Survey across Programs
+  and determined that the Agency has a low overall rating for fraud and improper payment
+  risk. The agency conducted an Improper Payment Risk Assessment of the Travel Program
+  and the Vendor Payments Program, which includes Other Contractual Services, Rental
+  Payments, and State and Local Programs, and determined that the assessed programs
+  are not susceptible to significant improper payments or unknown payments.
+detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
+detail_PIIA_Incentives: null
+detail_PIIA_Official: null
+detail_Recovery_Audits_Skipped: 'No'
+detail_Recovery_Justifications_Audits: null
+detail_Recovery_Not_Cost_Effective_Justification: The OMB guidance addresses implementing
+  payment recapture audits, for programs and activities that expend $1 million or
+  more annually, provided it is cost-effective to do so. In accordance with the OMB
+  guidance, the EEOC reviewed its programs and activities and determined that none
+  of the agency’s programs or activities was susceptible to making significant improper
+  payments and that the implementation of a payment recapture audit would not be cost-effective.
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/EEOC.html
-recovery_Recovery_Audit_Amount_Identified_This_Reporting_Period_Determined_Not_Collectable_Rate: 0.0
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.0
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.0
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

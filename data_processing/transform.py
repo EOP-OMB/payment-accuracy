@@ -27,8 +27,11 @@ EXTRACTED_PRINCIPAL_TABLE_COLUMNS_CSV_NAME = "MY_OMB_ImproperPayment_Payment_Acc
 EXTRACTED_PAYMENT_RECOVERY_DETAILS_CSV_NAME = "MY_OMB_ImproperPayment_Payment_Recovery_Details_unpivotted_vw.csv"
 EXTRACTED_PAYMENT_CONFIRMED_FRAUD_CSV_NAME = "MY_OMB_ImproperPayment_Payment_Confirmed_Fraud_vw.csv"
 EXTRACTED_PROGRAM_COMPLIANCE_CSV_NAME = "MY_OMB_ImproperPayment_Payment_Program_Compliance_vw.csv"
+EXTRACTED_FY25_RISKS_CSV_NAME = "Risk_Assessment_FULL_FY25.csv"
 EXTRACTED_RISKS_CSV_NAME = "MY_OMB_ImproperPayment_Payment_Risk_Assessments_vw.csv"
+EXTRACTED_RISKS_METHODOLOGY_CHANGED_CSV_NAME = "RiskAssessmentMethodologyChanges.csv"
 ELIGIBILITY_THEMES_CSV_NAME = "Eligibility_Themes.csv"
+ELIGIBILITY_THEMES_DESCRIPTIONS_CSV_NAME = "Eligibility_Themes_Descriptions.csv"
 EXTRACTED_RECOVERY_AMOUNTS_CSV_NAME = "MY_OMB_ImproperPayment_Payment_Accuracy_Rate_and_Amt_of_Recovery_vw.csv"
 EXTRACTED_SURVEY_ROOT_CAUSE = "KPI_ImproperPaymentSurveyRootCause_vw_IP.csv"
 EXTRACTED_IP_ROOT_CAUSES = "MY_OMB_ImproperPayment_Payment_IP_Root_Causes_vw.csv"
@@ -36,6 +39,8 @@ ACTIONS_DATE_MAPPING = "ActionsDateMapping.csv"
 EXTRACTED_MITIGATION_STRATEGIES_CSV_NAME = "MY_OMB_ImproperPayment_Mitigation_Strategies_vw.csv"
 EXTRACTED_CONGRESSIONAL_REPORTS_AGENCY_CSV_NAME = "MY_OMB_ImproperPayment_PaymentAccuracy_AgencyData_raw_vw-Congressional.csv"
 EXTRACTED_CONGRESSIONAL_REPORTS_PROGRAM_CSV_NAME = "MY_OMB_ImproperPayment_PaymentAccuracy_ProgramData_raw_vw-Congressional.csv"
+FPI_MAPPING_CSV_NAME = "FPIMapping.csv"
+SCORECARD_LINKS_CSV_NAME = "Program_Scorecard_Links.csv"
 
 ALL_PROGRAMS_DATA_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_ALL_PROGRAMS_CSV_NAME)
 PROGRAM_DATA_RAW_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_PROGRAM_DATA_RAW_CSV_NAME)
@@ -45,8 +50,11 @@ PRINCIPAL_TABLE_COLUMNS_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY,
 PAYMENT_RECOVERY_DETAILS_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_PAYMENT_RECOVERY_DETAILS_CSV_NAME)
 PAYMENT_CONFIRMED_FRAUD_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_PAYMENT_CONFIRMED_FRAUD_CSV_NAME)
 PROGRAM_COMPLIANCE_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_PROGRAM_COMPLIANCE_CSV_NAME)
+FY25_RISKS_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_FY25_RISKS_CSV_NAME)
 RISKS_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_RISKS_CSV_NAME)
+RISKS_METHODOLOGY_CHANGED_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_RISKS_METHODOLOGY_CHANGED_CSV_NAME)
 ELIGIBILITY_THEMES_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, ELIGIBILITY_THEMES_CSV_NAME)
+ELIGIBILITY_THEMES_DESCRIPTIONS_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, ELIGIBILITY_THEMES_DESCRIPTIONS_CSV_NAME)
 RECOVERY_AMOUNTS_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_RECOVERY_AMOUNTS_CSV_NAME)
 SURVEY_ROOT_CAUSE_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_SURVEY_ROOT_CAUSE)
 IP_ROOT_CAUSES_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_IP_ROOT_CAUSES)
@@ -54,6 +62,8 @@ ACTION_DATE_MAPPING_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, ACT
 MITIGATION_STRATEGIES_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_MITIGATION_STRATEGIES_CSV_NAME)
 CONGRESSIONAL_REPORTS_AGENCY_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_CONGRESSIONAL_REPORTS_AGENCY_CSV_NAME)
 CONGRESSIONAL_REPORTS_PROGRAM_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_CONGRESSIONAL_REPORTS_PROGRAM_CSV_NAME)
+FPI_MAPPING_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, FPI_MAPPING_CSV_NAME)
+SCORECARD_LINKS_DATA_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, SCORECARD_LINKS_CSV_NAME)
 
 ALL_PROGRAMS_DATA_AGGREGATION_DROP_TABLE_SQL = """
     DROP TABLE IF EXISTS all_programs_data_aggregation;
@@ -156,12 +166,17 @@ ALL_PROGRAMS_DATA_AGGREGATION_SELECT_AND_INSERT_SQL = """
     FROM all_programs_data a
         LEFT JOIN (
             SELECT
-                Fiscal_Year,
-                Agency,
-                Program_Name
-            FROM principal_table_columns
-            WHERE Column_names = 'app3_1'
-                AND Reporting_Phases_Current_FY = 'Phase 2'
+                [Agency],
+                [Program_Name],
+                [Fiscal_Year]
+            FROM
+                [principal_table_columns]
+            WHERE
+                [Reporting_Phases_Current_FY] = 'Phase 2'
+            GROUP BY
+                [Agency],
+                [Program_Name],
+                [Fiscal_Year]
         ) b
         ON a.[Agency] = b.[Agency]
             AND a.[Program_Name] = b.[Program_Name]
@@ -172,7 +187,7 @@ ALL_PROGRAMS_DATA_AGGREGATION_SELECT_AND_INSERT_SQL = """
                 agency,
                 [Program Name]
             FROM program_data_raw
-            WHERE [key] = 'cyp19' AND LOWER([value]) = 'yes'
+            WHERE LOWER([key]) = 'cyp19' AND LOWER([value]) = 'yes'
         ) c
         ON a.[Agency] = c.[agency]
             AND a.[Program_Name] = c.[Program Name]
@@ -331,8 +346,7 @@ SIGNIFICANT_OR_HIGH_PRIORITY_PROGRAMS_CREATE_VIEW_SQL = f"""
             Agency,
             Program_Name
         FROM principal_table_columns
-        WHERE Column_names = 'app3_1'
-            AND Reporting_Phases_Current_FY = 'Phase 2'
+        WHERE Reporting_Phases_Current_FY = 'Phase 2'
             AND Fiscal_Year IN ({",".join(map(str, PROGRAM_SPECIFIC_FISCAL_YEARS))})
     """
 
@@ -397,7 +411,7 @@ CONGRESSIONAL_REPORTS_DROP_VIEW_SQL = [
     "DROP VIEW IF EXISTS congressional_report_4_2025_programs",
 ]
 
-# Each query needs an [Agency], [Fiscal_Year], [Key], [Question], [Answer], and [SortOrder]
+# Each query needs an [Agency], [Fiscal_Year], [Key], [Question], and [Answer]
 CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
     """
     CREATE VIEW congressional_report_1_2024 AS
@@ -406,17 +420,9 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         [Fiscal_Year],
         [Key],
         [Title] AS [Question],
-        [value] AS [Answer],
-        CASE [Key]
-            WHEN 'raa6_1' THEN 0
-            WHEN 'raa6_2' THEN 1
-            WHEN 'raa7_1' THEN 2
-            WHEN 'raa7_2' THEN 3
-            WHEN 'raa8' THEN 4
-            WHEN 'raa8_1' THEN 5
-        END AS [SortOrder]
+        [value] AS [Answer]
     FROM [congressional_reports]
-    WHERE [Key] IN (
+    WHERE LOWER([Key]) IN (
         'raa6_1',
         'raa6_2',
         'raa7_1',
@@ -432,17 +438,9 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         [Fiscal_Year],
         [Key],
         [Title] AS [Question],
-        [value] AS [Answer],
-        CASE [Key]
-            WHEN 'raa6_1' THEN 0
-            WHEN 'raa6_2' THEN 1
-            WHEN 'raa7_1' THEN 2
-            WHEN 'raa7_2' THEN 3
-            WHEN 'raa8' THEN 4
-            WHEN 'raa8_1' THEN 5
-        END AS [SortOrder]
+        [value] AS [Answer]
     FROM [congressional_reports]
-    WHERE [Key] IN (
+    WHERE LOWER([Key]) IN (
         'raa6_1',
         'raa6_2',
         'raa7_1',
@@ -458,12 +456,9 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         [Fiscal_Year],
         [Key],
         [Title] AS [Question],
-        [value] AS [Answer],
-        CASE [Key]
-            WHEN 'ara2_1' THEN 0
-        END AS [SortOrder]
+        [value] AS [Answer]
     FROM [congressional_reports]
-    WHERE [Key] IN (
+    WHERE LOWER([Key]) IN (
         'ara2_1'
     )
     """,
@@ -474,12 +469,9 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         [Fiscal_Year],
         [Key],
         [Title] AS [Question],
-        [value] AS [Answer],
-        CASE [Key]
-            WHEN 'arp17_1' THEN 0
-        END AS [SortOrder]
+        [value] AS [Answer]
     FROM [congressional_reports]
-    WHERE [Key] IN (
+    WHERE LOWER([Key]) IN (
         'arp17_1'
     )
     """,
@@ -492,35 +484,15 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         [congressional_reports].[Title] AS [Question],
         CASE
             --set calculated field to NULL when numerator is NULL
-            WHEN [congressional_reports].[Key] == 'arp4_1' AND [arp4].[value] IS NULL THEN NULL
-            ELSE [congressional_reports].[value] END AS [Answer],
-        CASE [congressional_reports].[Key]
-            WHEN 'arp17' THEN 0
-            WHEN 'ara2_1' THEN 1
-            WHEN 'arp6' THEN 2
-            WHEN 'arp3_1' THEN 3
-            WHEN 'arp7' THEN 4
-            WHEN 'arp8' THEN 5
-            WHEN 'arp9' THEN 6
-            WHEN 'arp10' THEN 7
-            WHEN 'arp11' THEN 8
-            WHEN 'arp12' THEN 9
-            WHEN 'arp5' THEN 10
-            WHEN 'arp5_1' THEN 11
-            WHEN 'arp14' THEN 12
-            WHEN 'arp15' THEN 13
-            WHEN 'arp4' THEN 14
-            WHEN 'arp4_1' THEN 15
-            WHEN 'ara2_2' THEN 16
-            WHEN 'ara2_3' THEN 17
-        END AS [SortOrder]
+            WHEN LOWER([congressional_reports].[Key]) == 'arp4_1' AND [arp4].[value] IS NULL THEN NULL
+            ELSE [congressional_reports].[value] END AS [Answer]
     FROM [congressional_reports]
     LEFT JOIN
-        (SELECT * FROM [congressional_reports] WHERE [Key] = 'arp4') [arp4]
+        (SELECT * FROM [congressional_reports] WHERE LOWER([Key]) = 'arp4') [arp4]
     ON
         [congressional_reports].[agency] = [arp4].[agency] AND
         [congressional_reports].[Fiscal_Year] = [arp4].[Fiscal_Year]
-    WHERE [congressional_reports].[Key] IN (
+    WHERE LOWER([congressional_reports].[Key]) IN (
         'arp17',
         'ara2_1',
         'arp6',
@@ -550,29 +522,15 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         [congressional_reports].[Title] AS [Question],
         CASE
             --set calculated field to NULL when numerator is NULL
-            WHEN [congressional_reports].[Key] == 'arp4_1' AND [arp4].[value] IS NULL THEN NULL
-            ELSE [congressional_reports].[value] END AS [Answer],
-        CASE [congressional_reports].[Key]
-            WHEN 'arp17_1' THEN 0
-            WHEN 'arp6' THEN 1
-            WHEN 'arp3_1' THEN 2
-            WHEN 'dis1' THEN 3
-            WHEN 'arp5' THEN 4
-            WHEN 'arp5_1' THEN 5
-            WHEN 'arp14' THEN 6
-            WHEN 'arp15' THEN 7
-            WHEN 'arp4' THEN 8
-            WHEN 'arp4_1' THEN 9
-            WHEN 'ara2_2' THEN 10
-            WHEN 'ara2_3' THEN 11
-        END AS [SortOrder]
+            WHEN LOWER([congressional_reports].[Key]) == 'arp4_1' AND [arp4].[value] IS NULL THEN NULL
+            ELSE [congressional_reports].[value] END AS [Answer]
     FROM [congressional_reports]
     LEFT JOIN
-        (SELECT * FROM [congressional_reports] WHERE [Key] = 'arp4') [arp4]
+        (SELECT * FROM [congressional_reports] WHERE LOWER([Key]) = 'arp4') [arp4]
     ON
         [congressional_reports].[agency] = [arp4].[agency] AND
         [congressional_reports].[Fiscal_Year] = [arp4].[Fiscal_Year]
-    WHERE [congressional_reports].[Key] IN (
+    WHERE LOWER([congressional_reports].[Key]) IN (
         'arp17_1',
         'arp6',
         'arp3_1',
@@ -594,24 +552,17 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         [congressional_reports].[Fiscal_Year],
         [congressional_reports].[Key],
         [congressional_reports].[Title] AS [Question],
-        [congressional_reports].[value] AS [Answer],
-        CASE [congressional_reports].[Key]
-            WHEN 'com1' THEN 0
-            WHEN 'pcp01_1' THEN 1
-            WHEN 'CAP5' THEN 2
-            WHEN 'cap3' THEN 3
-            WHEN 'cap4' THEN 4
-        END AS [SortOrder]
+        [congressional_reports].[value] AS [Answer]
     FROM [congressional_reports]
     LEFT JOIN
-        (SELECT * FROM [congressional_reports] WHERE [Key] = 'com1') [com1]
+        (SELECT * FROM [congressional_reports] WHERE LOWER([Key]) = 'com1') [com1]
     ON
         [congressional_reports].[agency] = [com1].[agency] AND
         [congressional_reports].[Fiscal_Year] = [com1].[Fiscal_Year]
-    WHERE [congressional_reports].[Key] IN (
+    WHERE LOWER([congressional_reports].[Key]) IN (
         'com1',
         'pcp01_1',
-        'CAP5',
+        'cap5',
         'cap3',
         'cap4'
     -- only report non-compliant agencies
@@ -624,22 +575,17 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         [congressional_reports].[Fiscal_Year],
         [congressional_reports].[Key],
         [congressional_reports].[Title] AS [Question],
-        [congressional_reports].[value] AS [Answer],
-        CASE [congressional_reports].[Key]
-            WHEN 'com1' THEN 0
-            WHEN 'pcp01_1' THEN 1
-            WHEN 'CAP5' THEN 2
-        END AS [SortOrder]
+        [congressional_reports].[value] AS [Answer]
     FROM [congressional_reports]
     LEFT JOIN
-        (SELECT * FROM [congressional_reports] WHERE [Key] = 'com1') [com1]
+        (SELECT * FROM [congressional_reports] WHERE LOWER([Key]) = 'com1') [com1]
     ON
         [congressional_reports].[agency] = [com1].[agency] AND
         [congressional_reports].[Fiscal_Year] = [com1].[Fiscal_Year]
-    WHERE [congressional_reports].[Key] IN (
+    WHERE LOWER([congressional_reports].[Key]) IN (
         'com1',
         'pcp01_1',
-        'CAP5'
+        'cap5'
     -- only report non-compliant agencies
     ) AND UPPER([com1].[value]) LIKE 'NON%'
     """,
@@ -651,21 +597,7 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         [congressional_reports_program].[Fiscal_Year],
         [key] AS [Key],
         [Title] AS [Question],
-        [value] AS [Answer],
-        CASE [Key]
-            WHEN 'cyp21_app1_8' THEN 0
-            WHEN 'cyp5_app1_8' THEN 1
-            WHEN 'cyp6_app1_8' THEN 2
-            WHEN 'cyp7_app1_8' THEN 3
-            WHEN 'app1_1' THEN 4
-            WHEN 'app2_1' THEN 5
-            WHEN 'app3_1' THEN 6
-            WHEN 'app4_1' THEN 7
-            WHEN 'app5_1' THEN 8
-            WHEN 'app6_1' THEN 9
-            WHEN 'app7_1' THEN 10
-            WHEN 'app8_1' THEN 11
-        END AS [SortOrder]
+        [value] AS [Answer]
     FROM [congressional_reports_program]
     INNER JOIN (
         SELECT
@@ -679,7 +611,7 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         [high_priority].[Agency] = [congressional_reports_program].[agency] AND
         [high_priority].[Program_Name] = [congressional_reports_program].[Program Name] AND
         [high_priority].[Fiscal_Year] = [congressional_reports_program].[Fiscal_Year]
-    WHERE [Key] IN (
+    WHERE LOWER([Key]) IN (
         'cyp21_app1_8',
         'cyp5_app1_8',
         'cyp6_app1_8',
@@ -702,14 +634,7 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         [congressional_reports_program].[Fiscal_Year],
         [key] AS [Key],
         [Title] AS [Question],
-        [value] AS [Answer],
-        CASE [Key]
-            WHEN 'cyp21_app1_8' THEN 0
-            WHEN 'cyp5_app1_8' THEN 1
-            WHEN 'cyp6_app1_8' THEN 2
-            WHEN 'cyp7_app1_8' THEN 3
-            WHEN 'atpapp30_1' THEN 4
-        END AS [SortOrder]
+        [value] AS [Answer]
     FROM [congressional_reports_program]
     INNER JOIN (
         SELECT
@@ -723,7 +648,7 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         [high_priority].[Agency] = [congressional_reports_program].[agency] AND
         [high_priority].[Program_Name] = [congressional_reports_program].[Program Name] AND
         [high_priority].[Fiscal_Year] = [congressional_reports_program].[Fiscal_Year]
-    WHERE [Key] IN (
+    WHERE LOWER([Key]) IN (
         'cyp21_app1_8',
         'cyp5_app1_8',
         'cyp6_app1_8',
@@ -739,28 +664,9 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         [Fiscal_Year],
         [key] AS [Key],
         [Title] AS [Question],
-        [value] AS [Answer],
-        CASE [Key]
-            WHEN 'rac3' THEN 0
-            WHEN 'cyp1' THEN 1
-            WHEN 'cyp27' THEN 2
-            WHEN 'cyp28' THEN 3
-            WHEN 'cyp21' THEN 4
-            WHEN 'cyp22' THEN 5
-            WHEN 'cyp2' THEN 6
-            WHEN 'cyp3' THEN 7
-            WHEN 'cyp26' THEN 8
-            WHEN 'cyp5' THEN 9
-            WHEN 'cyp23' THEN 10
-            WHEN 'cyp6' THEN 11
-            WHEN 'cyp25' THEN 12
-            WHEN 'cyp7' THEN 13
-            WHEN 'cyp24' THEN 14
-            WHEN 'cyp30' THEN 15
-            WHEN 'cyp29' THEN 16
-        END AS [SortOrder]
+        [value] AS [Answer]
     FROM [congressional_reports_program]
-    WHERE [Key] IN (
+    WHERE LOWER([Key]) IN (
         'rac3',
         'cyp1',
         'cyp27',
@@ -788,47 +694,9 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         [Fiscal_Year],
         [key] AS [Key],
         [Title] AS [Question],
-        [value] AS [Answer],
-        CASE [Key]
-            WHEN 'rac3' THEN 0
-            WHEN 'cyp1' THEN 1
-            WHEN 'cyp27' THEN 2
-            WHEN 'cyp28' THEN 3
-            WHEN 'cyp30' THEN 6
-            WHEN 'cyp29' THEN 7
-            WHEN 'cyp21' THEN 8
-            WHEN 'cyp20_1' THEN 9
-            WHEN 'cyp22' THEN 10
-            WHEN 'cyp2_1' THEN 11
-            WHEN 'cyp4_1' THEN 12
-            WHEN 'cyp2_cop1' THEN 13
-            WHEN 'cyp3_cop4' THEN 14
-            WHEN 'cyp2_cop2' THEN 15
-            WHEN 'cyp3_cop5' THEN 16
-            WHEN 'cyp2_cop3' THEN 17
-            WHEN 'cyp3_cop6' THEN 18
-            WHEN 'cyp5' THEN 19
-            WHEN 'cyp23' THEN 20
-            WHEN 'cyp5_cup1' THEN 21
-            WHEN 'cyp5_cup2' THEN 22
-            WHEN 'cyp5_cup3' THEN 23
-            WHEN 'cyp6' THEN 24
-            WHEN 'cyp25' THEN 25
-            WHEN 'cyp6_1' THEN 26
-            WHEN 'cyp7' THEN 27
-            WHEN 'cyp24' THEN 28
-            WHEN 'cyp8' THEN 29
-            WHEN 'cyp7_ucp3' THEN 30
-            WHEN 'cyp7_ucp3_1' THEN 31
-            WHEN 'cyp7_ucp2' THEN 32
-            WHEN 'cyp7_ucp2_1' THEN 33
-            WHEN 'cyp7_ucp1' THEN 34
-            WHEN 'cyp7_ucp1_1' THEN 35
-            WHEN 'cyp7_ucp4' THEN 36
-            WHEN 'cyp7_ucp4_1' THEN 37
-        END AS [SortOrder]
+        [value] AS [Answer]
     FROM [congressional_reports_program]
-    WHERE [Key] IN (
+    WHERE LOWER([Key]) IN (
         'rac3',
         'cyp1',
         'cyp27',
@@ -874,33 +742,9 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
         [Fiscal_Year],
         [key] AS [Key],
         [Title] AS [Question],
-        [value] AS [Answer],
-        CASE [Key]
-            WHEN 'rac3' THEN 0
-            WHEN 'cyp1' THEN 1
-            WHEN 'cyp27' THEN 2
-            WHEN 'cyp28' THEN 3
-            WHEN 'cyp30' THEN 6
-            WHEN 'cyp29' THEN 7
-            WHEN 'cyp20_1' THEN 8
-            WHEN 'cyp30_1' THEN 9
-            WHEN 'cyp21' THEN 10
-            WHEN 'cyp22' THEN 11
-            WHEN 'cyp21_cop7' THEN 12
-            WHEN 'cyp21_cop8' THEN 13
-            WHEN 'cyp21_cop9' THEN 14
-            WHEN 'cyp5' THEN 15
-            WHEN 'cyp23' THEN 16
-            WHEN 'cyp5_cup1' THEN 17
-            WHEN 'cyp5_cup2' THEN 18
-            WHEN 'cyp5_cup3' THEN 19
-            WHEN 'cyp6' THEN 20
-            WHEN 'cyp25' THEN 21
-            WHEN 'cyp7' THEN 22
-            WHEN 'cyp24' THEN 23
-        END AS [SortOrder]
+        [value] AS [Answer]
     FROM [congressional_reports_program]
-    WHERE [Key] IN (
+    WHERE LOWER([Key]) IN (
         'rac3',
         'cyp1',
         'cyp27',
@@ -932,7 +776,7 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
 conn = sqlite3.connect(TRANSFORMED_DB_FILE_PATH)
 cur = conn.cursor()
 
-def load_csv_to_sqlite(path: str, table_name: str, conn: sqlite3.Connection):
+def load_csv_to_sqlite(path: str, table_name: str, conn: sqlite3.Connection, drop_duplicates = False, data_types = None):
     """
     Loads a CSV file into a specified SQLite table.
     """
@@ -943,7 +787,15 @@ def load_csv_to_sqlite(path: str, table_name: str, conn: sqlite3.Connection):
     with open(path, encoding="utf-8-sig") as f:
         csv_data = f.read()
     
-    df = pd.read_csv(StringIO(csv_data))
+    df = None
+    if data_types is None:
+        df = pd.read_csv(StringIO(csv_data))
+    else:
+        df = pd.read_csv(StringIO(csv_data), dtype=data_types)
+
+    if drop_duplicates:
+        df = df.drop_duplicates()
+
     df.to_sql(table_name, conn, if_exists="replace", index=False)
     conn.commit()
     print(f"Successfully loaded data into '{table_name}'")
@@ -972,11 +824,24 @@ def load_payment_confirmed_fraud_file(conn):
 def load_program_compliance_file(conn):
     load_csv_to_sqlite(PROGRAM_COMPLIANCE_PATH, "program_compliance", conn)
 
+def load_fy25_risks_file(conn):
+    # force TEXT datatype in sqlite
+    data_types = {
+        'Fiscal_Year_Last_Conducted': 'str'
+    }
+    load_csv_to_sqlite(FY25_RISKS_PATH, "fy25_risks", conn, False, data_types)
+
 def load_risks_file(conn):
     load_csv_to_sqlite(RISKS_PATH, "risks", conn)
 
+def load_risks_methodology_changed_file(conn):
+    load_csv_to_sqlite(RISKS_METHODOLOGY_CHANGED_PATH, "risks_methodology_changed", conn)
+
 def load_eligibility_themes_file(conn):
     load_csv_to_sqlite(ELIGIBILITY_THEMES_PATH, "eligibility_themes", conn)
+
+def load_eligibility_themes_descriptions_file(conn):
+    load_csv_to_sqlite(ELIGIBILITY_THEMES_DESCRIPTIONS_PATH, "eligibility_themes_descriptions", conn)
 
 def load_recovery_amounts_file(conn):
     load_csv_to_sqlite(RECOVERY_AMOUNTS_PATH, "recovery_amounts", conn)
@@ -998,6 +863,12 @@ def load_congressional_reports_files(conn):
 
 def load_congressional_reports_files_program(conn):
     load_csv_to_sqlite(CONGRESSIONAL_REPORTS_PROGRAM_PATH, "congressional_reports_program", conn)
+
+def load_fpi_mapping(conn):
+    load_csv_to_sqlite(FPI_MAPPING_PATH, "program_to_aln", conn, True)
+
+def load_program_scorecard_links(conn):
+    load_csv_to_sqlite(SCORECARD_LINKS_DATA_PATH, "program_scorecard_links", conn)
 
 def transform_and_insert_all_programs_data_aggregation_data():
     """
@@ -1041,38 +912,6 @@ def transform_and_insert_all_agencies_years_data():
     cur.execute(ALL_AGENCIES_YEARS_CREATE_VIEW_SQL)
     conn.commit()
 
-def transform_and_insert_quarterly_scorecards():
-    """
-    Generate scorecard links.
-    """
-    cur.execute(QUARTERLY_SCORECARD_LINKS_DROP_VIEW_SQL)
-    cur.execute(QUARTERLY_SCORECARD_LINKS_CREATE_VIEW_SQL)
-
-    scorecardsDirectory = os.path.join(BASE_DIR, "..", "website", "assets", "scorecards")
-    for dirname in os.listdir(scorecardsDirectory):
-        if not os.path.isfile(os.path.join(scorecardsDirectory, dirname)):
-            for filename in os.listdir(os.path.join(scorecardsDirectory, dirname)):
-                sanitizedFilename = filename.replace("'","''")
-                quarter = dirname[1:2]
-                year = dirname[3:7]
-                insertQuery = f"""
-                    INSERT INTO program_scorecard_links (
-                        QuarterYear,
-                        Quarter,
-                        Year,
-                        Program_Name,
-                        Link
-                    ) VALUES (
-                        '{dirname}',
-                        {quarter},
-                        {year},
-                        '{sanitizedFilename.rstrip(".pdf")}',
-                        'assets/scorecards/{dirname}/{sanitizedFilename}'
-                    );
-                """
-                cur.execute(insertQuery)
-    conn.commit()
-
 def recreate_year_mapped_views():
     for drop_query in CONGRESSIONAL_REPORTS_DROP_VIEW_SQL:
         cur.execute(drop_query)
@@ -1090,8 +929,11 @@ load_principal_table_columns_file(conn)
 load_payment_recovery_details_file(conn)
 load_payment_confirmed_fraud_file(conn)
 load_program_compliance_file(conn)
+load_fy25_risks_file(conn)
 load_risks_file(conn)
+load_risks_methodology_changed_file(conn)
 load_eligibility_themes_file(conn)
+load_eligibility_themes_descriptions_file(conn)
 load_recovery_amounts_file(conn)
 load_survey_root_cause_file(conn)
 load_ip_root_causes_file(conn)
@@ -1099,12 +941,13 @@ load_actions_date_mapping_file(conn)
 load_mitigation_strategies_file(conn)
 load_congressional_reports_files(conn)
 load_congressional_reports_files_program(conn)
+load_fpi_mapping(conn)
+load_program_scorecard_links(conn)
 transform_and_insert_all_programs_data_aggregation_data()
 transform_and_insert_all_agencies_data_aggregation_data()
 transform_and_insert_government_wide_data_aggregation_data()
 transform_and_insert_significant_or_high_priority_programs_data()
 transform_and_insert_all_agencies_years_data()
-transform_and_insert_quarterly_scorecards()
 recreate_year_mapped_views()
 
 conn.close()

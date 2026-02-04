@@ -380,11 +380,11 @@ function initImproperPayments() {
         'improper-payment-estimates-table',
         ['', ...years],
         [
-            'Proper Payments Total',
-            'Improper Payments Total',
+            'Proper payments total',
+            'Improper payments total',
             'Overpayment',
             'Underpayment',
-            'Technically Improper',
+            'Technically improper',
             'Unknown'
         ],
         [
@@ -460,8 +460,8 @@ function initIdentificationAndRecovery() {
         'identified-and-recovered-table',
         ['', ...years],
         [
-            'Overpayment Amount Identified for Recapture',
-            'Overpayment Amount Recovered'
+            'Overpayment amount identified for recapture',
+            'Overpayment amount recovered'
         ],
         [
             identifiedSeries,

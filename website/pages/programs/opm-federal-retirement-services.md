@@ -3,9 +3,19 @@ Agency: OPM
 Agency_Name: Office of Personnel Management
 Data_By_Year:
 - Confidence_Level: '>90%'
+  Corrective_Actions_Proportion: Retirement Services consistently meets its acceptable
+    target rate and commitment to addressing improper payments.  This is a high priority
+    for the Retirement Services.
   End_Date: 09/2021
+  Future_Outlook_Has_Baseline: 'Yes'
   Hide_Improper_Payment_Estimates_Doughnut_Chart: false
   Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
   Hide_Program_Results_Additional_Information: true
   Hide_Program_Results_Corrective_Actions: false
   Hide_Program_Results_Future_Outlook: false
@@ -16,29 +26,24 @@ Data_By_Year:
   Hide_Program_Results_Improper_Payments: false
   Hide_Program_Results_Tabs: false
   Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
-  Hide_cyp3_cop4: true
-  Hide_cyp3_cop5: true
-  Hide_cyp3_cop6: true
   IP_Current_Year_Plus_1_Amount: 313.62
   IP_Unknown_Current_Year_Plus_1_Rate: 0.0038256647
   Improper_Payments_Rate: 0.38205812
   Insufficient_Documentation_to_Determine: 10.86
+  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
   Margin_of_Error: '0.0'
+  Non_Monetary_Loss_Amount: '91.53'
+  Outlays: 83707.16
   Outlays_Current_Year_Plus_1_Amount: 84761.74
   Payment_Accuracy_Rate: 99.60496808158345
   Program_Design_or_Structural_Issue: 0.0
   Start_Date: 10/2020
+  Technical_IP_Amount: '0.0'
   Unknown_Curent_Year_Plus_1_Amount: 10.65
   Unknown_Payments_Rate: 0.012973800568553514
+  Unknown_Why: Additional information is needed in order to determine if the recipient
+    is receiving the correct monthly benefit.
   Year: 2021
-  cyp15: 'Yes'
-  cyp26: '91.53'
-  cyp6: '0.0'
-  cyp8: Additional information is needed in order to determine if the recipient is
-    receiving the correct monthly benefit.
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -46,7 +51,7 @@ Data_By_Year:
     Failure_to_Access_Data: 228.28
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp2: '228.28'
+    Overpayments_Within_Control_Amount: '228.28'
   overpayments_outside:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -54,10 +59,7 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp3: '0.0'
-  rnp3: Retirement Services consistently meets its acceptable target rate and commitment
-    to addressing improper payments.  This is a high priority for the Retirement Services.
-  rtp1: 'Yes'
+    Overpayments_Outside_Control_Amount: '0.0'
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -65,11 +67,46 @@ Data_By_Year:
     Failure_to_Access_Data: 91.53
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp5: '91.53'
-- Confidence_Level: 95% to <100%
+    Underpayments_Amount: '91.53'
+- Agency_Needs_Satisfied: Using the existing corrective actions, RS’s improper payment
+    rate is 0.37 percent which is well below the OMB 10 percent threshold. Improper
+    payments include both overpayments and underpayments. The improper payment rate
+    for overpayments was 0.28 percent.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Proportion: "An upgrade to the current legacy system is needed\
+    \ to properly categorize the root causes of improper payments. A Retirement Services\
+    \ Information Technology Modernization Plan has been created. OPM sought to obtain\
+    \ funding via the Technology Modernization Fund (TMF) but was recently denied.\
+    \ Retirement Services leadership continues to be committed to modernizing and\
+    \ is currently working to prioritize and identify funding in FY 2024.  RS was\
+    \ unable to properly categorize $88.08 million in overpayments.  However, Retirement\
+    \ Services uses regular Quality Assurance audits to assess accuracy and the corresponding\
+    \ value of improper payments, as well as to identify any training or systemic\
+    \ deficiencies.  \n\nDelayed reporting or sometimes no reporting by the annuitant's\
+    \ family or other sources, can result in an improper payment.  OPM conducts two\
+    \ matches to detect deaths that are unreported or delayed reporting of deaths.\
+    \  The Consolidated Death Match (CDM) is compared with OPM’s annuity roll weekly\
+    \ to identify annuitants who are reported as deceased by the SSA. The Validated\
+    \ Agency Match System processes the death information in order to terminate Federal\
+    \ benefits and prevent subsequent improper payments. Collection actions are initiated\
+    \ for any overpayments that are discovered. The SSA Death Master File (DMF) match\
+    \ is conducted yearly and is also compared with OPM’s annuity roll and the SSA\
+    \ Death Master File (DMF).  \n\nThe improper payment rate decreased from FY 2021\
+    \ to FY 2022 which demonstrates the effectiveness of the current corrective actions.\
+    \   \n"
   End_Date: 09/2022
+  Future_Outlook_Has_Baseline: 'Yes'
+  Future_Outlook_Reduction_Vs_Estimated: Per OMB guidelines the program is not required
+    to establish a reduction target until a baseline has been determined.  We are
+    still within the window of 24 months to establish a baseline.
   Hide_Improper_Payment_Estimates_Doughnut_Chart: false
   Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
   Hide_Program_Results_Additional_Information: true
   Hide_Program_Results_Corrective_Actions: false
   Hide_Program_Results_Future_Outlook: false
@@ -80,36 +117,45 @@ Data_By_Year:
   Hide_Program_Results_Improper_Payments: false
   Hide_Program_Results_Tabs: false
   Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
-  Hide_cyp3_cop4: true
-  Hide_cyp3_cop5: true
-  Hide_cyp3_cop6: true
   IP_Current_Year_Plus_1_Amount: 332.28
   IP_Unknown_Current_Year_Plus_1_Rate: 0.0037339956
   IP_Unknown_Target_Rate: 0.0038
   Improper_Payments_Rate: 0.3706644
   Insufficient_Documentation_to_Determine: 12.13
+  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
+  Is_Tolerable_Why: RS ensured that the current internal controls, human capital,
+    information systems, and other infrastructure remained in place.  Using the existing
+    corrective actions, the improper payment rate has consistently been at or below
+    0.38 percent and we expect the same for FY 2023.  The improper payment rate for
+    RS remains significantly below the OMB threshold of 10 percent for non-compliance.  Improper
+    payments include both overpayments and underpayments.  The improper payment rate
+    for overpayments only is 0.28%.  Last fiscal year, the improper payment was 0.38
+    percent.  This fiscal year the improper payment rate reduced to 0.37 percent.  However,
+    OPM will further evaluate the current corrective actions to determine if any can
+    be expanded, resulting in an even lower improper payment rate.
   Margin_of_Error: '1.03'
+  Non_Monetary_Loss_Amount: '81.13'
+  Outlays: 87898.92
   Outlays_Current_Year_Plus_1_Amount: 92300.59
   Payment_Accuracy_Rate: 99.61553566300928
   Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: An upgrade to the current legacy system is needed to
+    properly categorize the root causes of improper payments. A Retirement Services
+    Information Technology Modernization Plan has been created. OPM sought to obtain
+    funding via the Technology Modernization Fund (TMF) but was recently denied. Retirement
+    Services leadership continues to be committed to modernizing and is currently
+    working to prioritize and identify funding in FY 2024.
   Start_Date: 10/2021
+  Technical_IP_Amount: '0'
   Unknown_Curent_Year_Plus_1_Amount: 12.37
   Unknown_Payments_Rate: 0.013799942024316112
-  Year: 2022
-  cyp15: 'Yes'
-  cyp20_2: Per OMB guidelines the program is not required to establish a reduction
-    target until a baseline has been determined.  We are still within the window of
-    24 months to establish a baseline.
-  cyp26: '81.13'
-  cyp6: '0'
-  cyp8: Payments are unknown when it is discovered that additional information is
-    needed to determine if the recipient is receiving the correct monthly benefit.  Insufficient
+  Unknown_Why: Payments are unknown when it is discovered that additional information
+    is needed to determine if the recipient is receiving the correct monthly benefit.  Insufficient
     evidence can also result in unknown payments.  Insufficient or missing information
     that affect the average salary and length of service are the most common reasons
     for  unknown payments.
+  Year: 2022
+  detail_Reduction_Target: '.38'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -117,20 +163,20 @@ Data_By_Year:
     Failure_to_Access_Data: 244.68
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp2: '244.68'
-    cyp2_1: There are barriers to preventing improper payments. The status of an annuitant's
-      death may go unreported. OPM relies on annuitant's family members and other
-      sources to officially report the annuitant's death.  However, OPM conducts surveys
-      and matches to mitigate potential improper payments resulting from these events.
-      OPM conducts two matches to identify discrepancies that may exist between the
-      OPM annuity roll and the Social Security Administration’s (SSA) pay system.
-      The Consolidated Death Match (CDM) is compared with OPM’s annuity roll weekly
-      to identify annuitants who are reported as deceased by SSA. The Validated Agency
-      Match System processes the death information in order to terminate Federal benefits
-      and prevent subsequent improper payments. Collection actions are initiated for
-      any overpayments that are discovered. The SSA Death Master File (DMF) match
-      is conducted yearly and is also compared with OPM’s annuity roll and the SSA
-      Death Master File (DMF).
+    Overpayments_Within_Control_Amount: '244.68'
+    Overpayments_Within_Control_Why: There are barriers to preventing improper payments.
+      The status of an annuitant's death may go unreported. OPM relies on annuitant's
+      family members and other sources to officially report the annuitant's death.  However,
+      OPM conducts surveys and matches to mitigate potential improper payments resulting
+      from these events. OPM conducts two matches to identify discrepancies that may
+      exist between the OPM annuity roll and the Social Security Administration’s
+      (SSA) pay system. The Consolidated Death Match (CDM) is compared with OPM’s
+      annuity roll weekly to identify annuitants who are reported as deceased by SSA.
+      The Validated Agency Match System processes the death information in order to
+      terminate Federal benefits and prevent subsequent improper payments. Collection
+      actions are initiated for any overpayments that are discovered. The SSA Death
+      Master File (DMF) match is conducted yearly and is also compared with OPM’s
+      annuity roll and the SSA Death Master File (DMF).
   overpayments_outside:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -138,38 +184,7 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp3: '0'
-  rap5: Using the existing corrective actions, RS’s improper payment rate is 0.37
-    percent which is well below the OMB 10 percent threshold. Improper payments include
-    both overpayments and underpayments. The improper payment rate for overpayments
-    was 0.28 percent.
-  rap6: An upgrade to the current legacy system is needed to properly categorize the
-    root causes of improper payments. A Retirement Services Information Technology
-    Modernization Plan has been created. OPM sought to obtain funding via the Technology
-    Modernization Fund (TMF) but was recently denied. Retirement Services leadership
-    continues to be committed to modernizing and is currently working to prioritize
-    and identify funding in FY 2024.
-  rnp3: "An upgrade to the current legacy system is needed to properly categorize\
-    \ the root causes of improper payments. A Retirement Services Information Technology\
-    \ Modernization Plan has been created. OPM sought to obtain funding via the Technology\
-    \ Modernization Fund (TMF) but was recently denied. Retirement Services leadership\
-    \ continues to be committed to modernizing and is currently working to prioritize\
-    \ and identify funding in FY 2024.  RS was unable to properly categorize $88.08\
-    \ million in overpayments.  However, Retirement Services uses regular Quality\
-    \ Assurance audits to assess accuracy and the corresponding value of improper\
-    \ payments, as well as to identify any training or systemic deficiencies.  \n\n\
-    Delayed reporting or sometimes no reporting by the annuitant's family or other\
-    \ sources, can result in an improper payment.  OPM conducts two matches to detect\
-    \ deaths that are unreported or delayed reporting of deaths.  The Consolidated\
-    \ Death Match (CDM) is compared with OPM’s annuity roll weekly to identify annuitants\
-    \ who are reported as deceased by the SSA. The Validated Agency Match System processes\
-    \ the death information in order to terminate Federal benefits and prevent subsequent\
-    \ improper payments. Collection actions are initiated for any overpayments that\
-    \ are discovered. The SSA Death Master File (DMF) match is conducted yearly and\
-    \ is also compared with OPM’s annuity roll and the SSA Death Master File (DMF).\
-    \  \n\nThe improper payment rate decreased from FY 2021 to FY 2022 which demonstrates\
-    \ the effectiveness of the current corrective actions.   \n"
-  rtp1: 'Yes'
+    Overpayments_Outside_Control_Amount: '0'
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -177,8 +192,19 @@ Data_By_Year:
     Failure_to_Access_Data: 81.13
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp5: '81.13'
+    Underpayments_Amount: '81.13'
 - Actions_Taken:
+  - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2024
+    Description_Action_Taken: 'OPM’s annuity calculations have automated and manual
+      components. The manual components are subject to human error. Errors can include
+      entering incorrect effective dates, salary rates, and/or tours of duty, which
+      all impact annuity calculations. Identifying specific skill gaps and developing
+      target training
+
+      improves accuracy which affects improper payments.'
+    Mitigation_Strategy: app3_1
   - Action_Taken: Planned
     Action_Type: Audit
     Completion_Date: FY2024
@@ -203,17 +229,6 @@ Data_By_Year:
       training to improve accuracy. The staff that completes the specific workload
       increased their knowledge base which impacts internal accuracy goals.
     Mitigation_Strategy: atp3_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2024
-    Description_Action_Taken: 'OPM’s annuity calculations have automated and manual
-      components. The manual components are subject to human error. Errors can include
-      entering incorrect effective dates, salary rates, and/or tours of duty, which
-      all impact annuity calculations. Identifying specific skill gaps and developing
-      target training
-
-      improves accuracy which affects improper payments.'
-    Mitigation_Strategy: app3_1
   - Action_Taken: Completed
     Action_Type: Audit
     Completion_Date: FY2023 Q4
@@ -243,118 +258,16 @@ Data_By_Year:
       should have been reported as deceased. Using these mechanisms, in FY 2023 Retirement
       Services collected $208.5 million in improper payments.'
     Mitigation_Strategy: atp6_1
+  Agency_Needs_Satisfied: Using the existing internal controls, human capital, and
+    information systems and other infrastructure RS was able to reduce the Improper
+    Payments and Unknown Payments to the tolerable rate. The FY 2023 Improper Payments
+    and Unknown Payments rate is 0.38 percent. The improper payment rate for overpayments
+    was 0.24 percent.
   Confidence_Level: 95% to <100%
-  End_Date: 09/2023
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
-  Hide_cyp3_cop4: true
-  Hide_cyp3_cop5: true
-  Hide_cyp3_cop6: true
-  IP_Current_Year_Plus_1_Amount: 351.31
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.0036366828
-  IP_Unknown_Target_Rate: 0.0037
-  Improper_Payments_Rate: 0.35419140000000005
-  Insufficient_Documentation_to_Determine: 23.5
-  Margin_of_Error: '1.29'
-  Outlays_Current_Year_Plus_1_Amount: 103327.68
-  Payment_Accuracy_Rate: 99.62115003759644
-  Program_Design_or_Structural_Issue: 0.0
-  Start_Date: 10/2022
-  Unknown_Curent_Year_Plus_1_Amount: 24.46
-  Unknown_Payments_Rate: 0.02465856284859076
-  Year: 2023
-  cyp15: 'Yes'
-  cyp20_2: RS is committed to the objective of reducing improper payments.  OPM set
-    a goal of lowering the improper rate by 0.01 percent for each subsequent year.  The
-    current Improper Payment and Unknown Payment rate was 0.38 percent.  Therefore,
-    the RS reduction target is 0.37 percent.
-  cyp26: '113.22'
-  cyp2_app1_8: Audit, Training
-  cyp2_atp1_8: Audit, Training
-  cyp5_app1_8: Audit, Training
-  cyp5_atp1_8: Audit, Training
-  cyp6: '0'
-  cyp7_app1_8: Audit, Training
-  cyp7_atp1_8: Audit, Training
-  cyp7_ucp4: '23.5'
-  cyp7_ucp4_1: Federal agencies are required to provide complete retirement packages.
-    Through audits, the Quality Assurance Group identifies retirement claims that
-    need additional information or clarification to determine if a recipient is receiving
-    the correct monthly benefit. Insufficient or missing evidence can result in unknown
-    payments. These types of errors can impact the amount of the improper payment
-    amount. The improper payment amount is also impacted by the length of time it
-    takes to receive sufficient information. The payment cannot be moved out of the
-    unknown category and classified as proper or improper until all necessary documentation
-    is received.
-  cyp8: Payments are unknown when it is discovered that additional information is
-    needed to determine if the recipient is receiving the correct monthly benefit.
-    Insufficient evidence can also result in unknown payments. Insufficient or missing
-    information that affect the average salary and length of service are the most
-    common reasons for unknown payments.
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 224.33
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    cyp2: '224.33'
-    cyp2_1: Overpayments within the agency’s control are generally the result of antiquated
-      systems that fail to automate the processing of available intra-agency data
-      while the payments are being processed. Additionally, the outdated systems fail
-      to provide large quantities of specific data in order to pinpoint risk areas
-      of improper payments. For example, overpayments occurred because the death data
-      isn’t directly linked to the payment file to allow for immediate suspension
-      of accounts. The overpayments are considered to be within the agency’s control
-      because RS has access to the death data. The agency has put measures in place
-      to mitigate improper payments to include annuitant surveys sent electronically
-      or by mail to solicit eligibility. It also conducts a Consolidated Death Match
-      (CDM), comparing the annuity roll to the full death master file from SSA on
-      a weekly cadence, suspending and dropping accounts on the list that fail to
-      respond to notices. The agency also utilizes Bureau of Fiscal Services’ Do Not
-      Pay (DNP) portal, conducting monthly searches of annuitants who are reported
-      as deceased through the death data sources (i.e. EVVE-FOD, DOD, DOS, AIS-OBIT,
-      AIS-PROB, PACER, DMF-Public), verifying death and stopping further payments.
-  overpayments_eligibility:
-  - Key: cyp2_dit6_1
-    Payment_Type: Overpayments Within Agency Control
-    Theme: Deceased
-    Theme_Description: Date of death of the recipient/beneficiary
-    Value: '224.330000'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    cyp3: '0'
-  rap5: Using the existing internal controls, human capital, and information systems
-    and other infrastructure RS was able to reduce the Improper Payments and Unknown
-    Payments to the tolerable rate. The FY 2023 Improper Payments and Unknown Payments
-    rate is 0.38 percent. The improper payment rate for overpayments was 0.24 percent.
-  rap6: An upgrade to the current legacy system is needed to categorize the root causes
-    of improper payments properly. RS leadership is working on modernization initiatives
-    to prevent improper payments. RS is working with OPM leadership to prioritize
-    and identify funding. An IT Roadmap has been delivered, and the costs to modernize
-    have been assessed through fiscal year 2028.
-  rnp3: 'An upgrade to the current legacy system is needed to properly categorize
-    the root causes of improper payments. A Retirement Services Information Technology
-    Modernization Plan has been created. OPM sought to obtain funding via the Technology
-    Modernization Fund (TMF) but was recently denied.
+  Corrective_Actions_Proportion: 'An upgrade to the current legacy system is needed
+    to properly categorize the root causes of improper payments. A Retirement Services
+    Information Technology Modernization Plan has been created. OPM sought to obtain
+    funding via the Technology Modernization Fund (TMF) but was recently denied.
 
     Retirement Services leadership continues to be committed to modernizing and is
     currently working to prioritize and identify funding in FY 2024. RS was unable
@@ -379,7 +292,130 @@ Data_By_Year:
 
     The improper payment rate decreased from FY 2022 to FY 2023 which demonstrates
     the effectiveness of the current corrective actions.'
-  rtp1: 'Yes'
+  End_Date: 09/2023
+  Future_Outlook_Has_Baseline: 'Yes'
+  Future_Outlook_Reduction_Vs_Estimated: RS is committed to the objective of reducing
+    improper payments.  OPM set a goal of lowering the improper rate by 0.01 percent
+    for each subsequent year.  The current Improper Payment and Unknown Payment rate
+    was 0.38 percent.  Therefore, the RS reduction target is 0.37 percent.
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Program_Results_Additional_Information: true
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Current_Year_Plus_1_Amount: 351.31
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0036366828
+  IP_Unknown_Target_Rate: 0.0037
+  Improper_Payments_Rate: 0.35419140000000005
+  Insufficient_Documentation_to_Determine: 23.5
+  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
+  Is_Tolerable_Why: "The improper payment rate has consistently been at or below 0.38\
+    \ percent using the existing corrective actions.  In the FY 2022 survey, RS predicted\
+    \ that the Improper Payment Rate and Unknown Payment rate would be at or below\
+    \ 0.38 percent for FY 2023.  RS has successfully met the predicted expectation.\
+    \  Therefore, 0.38 percent remains the tolerable rate.  In addition, the improper\
+    \ payment rate for RS remains significantly below the OMB threshold of 10 percent\
+    \ for non-compliance.  OPM will continue to further evaluate the current corrective\
+    \ actions to determine if any can be expanded, resulting in an even lower improper\
+    \ payment rate.  \n\n"
+  Margin_of_Error: '1.29'
+  Non_Monetary_Loss_Amount: '113.22'
+  Outlays: 95301.58
+  Outlays_Current_Year_Plus_1_Amount: 103327.68
+  Overpayment_Mitigations_Planned: Audit, Training
+  Overpayment_Mitigations_Taken: Audit, Training
+  Payment_Accuracy_Rate: 99.62115003759644
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: An upgrade to the current legacy system is needed to
+    categorize the root causes of improper payments properly. RS leadership is working
+    on modernization initiatives to prevent improper payments. RS is working with
+    OPM leadership to prioritize and identify funding. An IT Roadmap has been delivered,
+    and the costs to modernize have been assessed through fiscal year 2028.
+  Start_Date: 10/2022
+  Technical_IP_Amount: '0'
+  Underpayment_Mitigations_Planned: Audit, Training
+  Underpayment_Mitigations_Taken: Audit, Training
+  Unknown_Curent_Year_Plus_1_Amount: 24.46
+  Unknown_Documentation_Why: Federal agencies are required to provide complete retirement
+    packages. Through audits, the Quality Assurance Group identifies retirement claims
+    that need additional information or clarification to determine if a recipient
+    is receiving the correct monthly benefit. Insufficient or missing evidence can
+    result in unknown payments. These types of errors can impact the amount of the
+    improper payment amount. The improper payment amount is also impacted by the length
+    of time it takes to receive sufficient information. The payment cannot be moved
+    out of the unknown category and classified as proper or improper until all necessary
+    documentation is received.
+  Unknown_Due_To_Scenario_Not_Specified_Amount: '23.5'
+  Unknown_Due_To_Scenario_Not_Specified_Description: Federal agencies are required
+    to provide complete retirement packages. Through audits, the Quality Assurance
+    Group identifies retirement claims that need additional information or clarification
+    to determine if a recipient is receiving the correct monthly benefit. Insufficient
+    or missing evidence can result in unknown payments. These types of errors can
+    impact the amount of the improper payment amount. The improper payment amount
+    is also impacted by the length of time it takes to receive sufficient information.
+    The payment cannot be moved out of the unknown category and classified as proper
+    or improper until all necessary documentation is received.
+  Unknown_Mitigations_Planned: Audit,Training
+  Unknown_Mitigations_Taken: Audit,Training
+  Unknown_Payments_Rate: 0.02465856284859076
+  Unknown_Why: Payments are unknown when it is discovered that additional information
+    is needed to determine if the recipient is receiving the correct monthly benefit.
+    Insufficient evidence can also result in unknown payments. Insufficient or missing
+    information that affect the average salary and length of service are the most
+    common reasons for unknown payments.
+  Year: 2023
+  detail_Reduction_Target: '.37'
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 224.33
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '224.33'
+    Overpayments_Within_Control_Why: Overpayments within the agency’s control are
+      generally the result of antiquated systems that fail to automate the processing
+      of available intra-agency data while the payments are being processed. Additionally,
+      the outdated systems fail to provide large quantities of specific data in order
+      to pinpoint risk areas of improper payments. For example, overpayments occurred
+      because the death data isn’t directly linked to the payment file to allow for
+      immediate suspension of accounts. The overpayments are considered to be within
+      the agency’s control because RS has access to the death data. The agency has
+      put measures in place to mitigate improper payments to include annuitant surveys
+      sent electronically or by mail to solicit eligibility. It also conducts a Consolidated
+      Death Match (CDM), comparing the annuity roll to the full death master file
+      from SSA on a weekly cadence, suspending and dropping accounts on the list that
+      fail to respond to notices. The agency also utilizes Bureau of Fiscal Services’
+      Do Not Pay (DNP) portal, conducting monthly searches of annuitants who are reported
+      as deceased through the death data sources (i.e. EVVE-FOD, DOD, DOS, AIS-OBIT,
+      AIS-PROB, PACER, DMF-Public), verifying death and stopping further payments.
+  overpayments_eligibility:
+  - Key: cyp2_dit6_1
+    Payment_Type: Overpayments Within Agency Control
+    Theme: Deceased
+    Theme_Description: Date of death of the recipient/beneficiary
+    Value: '224.330000'
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+    Overpayments_Outside_Control_Amount: '0'
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -387,7 +423,7 @@ Data_By_Year:
     Failure_to_Access_Data: 113.22
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp5: '113.22'
+    Underpayments_Amount: '113.22'
   underpayments_eligibility:
   - Key: cyp5_dit8_1
     Payment_Type: Underpayments
@@ -404,27 +440,6 @@ Data_By_Year:
       all of which impact annuity calculations. Identifying specific skill gaps and
       developing targeted training can enhance accuracy and reduce improper payments.
     Mitigation_Strategy: app3_1
-  - Action_Taken: Completed
-    Action_Type: Audit
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: RS acknowledges the occurrence of improper payments;
-      however, systemic limitations hinder the provision of detailed specificity.
-      OPM's systems were not designed to analyze large data sets. Consequently, based
-      on OMB's established root cause categories, only "failure to access data" is
-      applicable. Overpayments within the agency’s purview result from family members
-      or other sources failing to report an annuitant's death. These overpayments
-      are deemed under the agency’s control because RS has access to the Do Not Pay
-      file but is unable to search Do Not Pay prior to each recurring payment. Nevertheless,
-      OPM engages in ongoing internal control activities, including surveys and data
-      matching, to reduce potential improper payments from these occurrences. OPM
-      performed the Consolidated Death Match (CDM) to identify discrepancies between
-      the OPM annuity roll and the Social Security Administration’s (SSA) pay system.
-      This weekly match helps identify annuitants reported deceased by the SSA, while
-      the Validated Agency Match System processes death information to terminate federal
-      benefits and prevent further improper payments. Collection actions are initiated
-      for any discovered overpayments.  Additionally, OPM utilizes the Treasury's
-      Do Not Pay Portal to identify annuitants who should have been reported deceased.
-    Mitigation_Strategy: atp6_1
   - Action_Taken: Planned
     Action_Type: Audit
     Completion_Date: FY2025
@@ -455,10 +470,84 @@ Data_By_Year:
       specific data analysis, with overpayments largely attributed to failures in
       reporting annuitant deaths.
     Mitigation_Strategy: atp3_1
+  - Action_Taken: Completed
+    Action_Type: Audit
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: RS acknowledges the occurrence of improper payments;
+      however, systemic limitations hinder the provision of detailed specificity.
+      OPM's systems were not designed to analyze large data sets. Consequently, based
+      on OMB's established root cause categories, only "failure to access data" is
+      applicable. Overpayments within the agency’s purview result from family members
+      or other sources failing to report an annuitant's death. These overpayments
+      are deemed under the agency’s control because RS has access to the Do Not Pay
+      file but is unable to search Do Not Pay prior to each recurring payment. Nevertheless,
+      OPM engages in ongoing internal control activities, including surveys and data
+      matching, to reduce potential improper payments from these occurrences. OPM
+      performed the Consolidated Death Match (CDM) to identify discrepancies between
+      the OPM annuity roll and the Social Security Administration’s (SSA) pay system.
+      This weekly match helps identify annuitants reported deceased by the SSA, while
+      the Validated Agency Match System processes death information to terminate federal
+      benefits and prevent further improper payments. Collection actions are initiated
+      for any discovered overpayments.  Additionally, OPM utilizes the Treasury's
+      Do Not Pay Portal to identify annuitants who should have been reported deceased.
+    Mitigation_Strategy: atp6_1
+  Agency_Needs_Satisfied: Using the existing internal controls, human capital, and
+    information systems and other infrastructure RS was able to reduce the Improper
+    Payments and Unknown Payments to achieve the tolerable rate. The FY 2024 Improper
+    Payments and Unknown Payments rate is 0.33 percent. The improper payment rate
+    for overpayments was 0.32 percent.
   Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy: The corrective actions provided focus on the steps
+    RS has taken to accurately categorize the root causes of improper payments.  RS
+    continues to request addition funding from OMB to achieve this goal. The use of
+    Quality Assurance audits help assess accuracy and identify any training or systemic
+    deficiencies.  The improper payment rate decreased from FY2023 to FY2024, demonstrates
+    the effectiveness of the current corrective actions.
+  Corrective_Actions_Association: An upgrade to the current legacy system is necessary
+    to accurately categorize the root causes of improper payments. RS is currently
+    seeking additional funding to enhance process automation.  The FY 2025 Congressional
+    Budget Justification includes $6.5 million for improving the online retirement
+    application and digital file system.   RS is unable to properly categorize $243.70
+    million in overpayments. However, regular Quality Assurance audits help assess
+    accuracy and identify any training or systemic deficiencies.  Delayed or absent
+    reporting from an annuitant's family or other sources can result in improper payments.
+    The improper payment rate decreased from FY 2023 to FY 2024, demonstrating the
+    effectiveness of current corrective actions.
+  Corrective_Actions_Implementation: The corrective actions provided focus on the
+    steps RS has taken to accurately categorize the root causes of improper payments.  RS
+    continues to request addition funding from OMB to achieve this goal. The use of
+    Quality Assurance audits help assess accuracy and identify any training or systemic
+    deficiencies.  Delayed or absent reporting from an annuitant's family or other
+    sources can result in imroper payments.  RS plans to use the Death Record Scoring
+    Tool (DRC Scoring Tool).  This tool is a product used to identify payments at
+    risk of being issued to a deceased payee.  The goal of adding this tool to the
+    corrective actions is to reduce improper payments.   The improper payment rate
+    decreased from FY2023 to FY2024, demonstrates the effectiveness of the current
+    corrective actions.
+  Corrective_Actions_Proportion: An upgrade to the current legacy system is necessary
+    to accurately categorize the root causes of improper payments. RS is currently
+    seeking additional funding to enhance process automation.  The FY 2025 Congressional
+    Budget Justification includes $6.5 million for improving the online retirement
+    application and digital file system.   RS is unable to properly categorize $243.70
+    million in overpayments. However, regular Quality Assurance audits help assess
+    accuracy and identify any training or systemic deficiencies.  Delayed or absent
+    reporting from an annuitant's family or other sources can result in improper payments.
+    The improper payment rate decreased from FY 2023 to FY 2024, demonstrating the
+    effectiveness of current corrective actions.
   End_Date: 09/2024
+  Future_Outlook_Has_Baseline: 'Yes'
+  Future_Outlook_Reduction_Vs_Estimated: RS is committed to the objective of reducing
+    improper payments. OPM set a goal of lowering the improper rate by 0.01 percent
+    for each subsequent year. The current Improper Payment and Unknown Payment rate
+    was 0.33 percent.
   Hide_Improper_Payment_Estimates_Doughnut_Chart: false
   Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
   Hide_Program_Results_Additional_Information: false
   Hide_Program_Results_Corrective_Actions: false
   Hide_Program_Results_Future_Outlook: false
@@ -469,77 +558,75 @@ Data_By_Year:
   Hide_Program_Results_Improper_Payments: false
   Hide_Program_Results_Tabs: false
   Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
-  Hide_cyp3_cop4: true
-  Hide_cyp3_cop5: true
-  Hide_cyp3_cop6: true
+  IP_Accountability_Description: The Retirement Services Associate Director is accountable
+    for the improper payment rate.  This criteria is an item included in the annual
+    performance appraisal.  In addition, RS operation managers are held accountable
+    for achieving accuracy in the initial adjudication of claims.  The Quality Assurance
+    audit results provide the accuracy rate.   Another step taken is the Annual Assurance
+    Statement and Management Controls.  The Retirment Services Associate Director
+    sign a memo statement that she is aware of the internal controls and meeting the
+    requirements of the Federal Managers' Financial Integrity Act (FMFIA)
   IP_Current_Year_Plus_1_Amount: 371.61
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.003209730566
+  IP_Unknown_Current_Year_Plus_1_Rate: 0.0032097306
   IP_Unknown_Target_Rate: 0.0031
-  Improper_Payments_Rate: 0.3157173736
+  Improper_Payments_Rate: 0.31571737
   Insufficient_Documentation_to_Determine: 11.94
+  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
+  Is_Tolerable_Why: The improper payment rate has consistently remained at or below
+    0.38 percent due to existing corrective actions. In the FY 2023 survey, RS projected
+    that the Improper Payment Rate and Unknown Payment rate would stay at or below
+    0.37 percent for FY 2024. RS successfully met this expectation, maintaining 0.38
+    percent as the tolerable rate. Additionally, RS’s improper payment rate remains
+    significantly below the OMB threshold of 10 percent for non-compliance. OPM will
+    continue to evaluate current corrective actions to determine if any can be expanded
+    to further reduce the improper payment rate.
   Margin_of_Error: '0.34'
+  Non_Monetary_Loss_Amount: '93.75'
+  Outlays: 106883.57
   Outlays_Current_Year_Plus_1_Amount: 119872.99
+  Overpayment_Mitigations_Planned: Audit, Training
+  Overpayment_Mitigations_Taken: Audit, Training
   Payment_Accuracy_Rate: 99.67311159236166
   Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: An upgrade to the current legacy system is essential
+    for properly categorizing the root causes of improper payments. RS leadership
+    is actively pursuing modernization initiatives to prevent such payments, collaborating
+    with OPM leadership to prioritize and secure funding. An IT Roadmap has been delivered,
+    with modernization costs assessed through FY 2028.
   Start_Date: 10/2023
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: Audit, Training
+  Underpayment_Mitigations_Taken: Audit, Training
   Unknown_Curent_Year_Plus_1_Amount: 13.15
+  Unknown_Documentation_Why: Federal agencies are required to provide complete retirement
+    packages. Through audits, the Quality Assurance Group identifies retirement claims
+    that need additional information or clarification to determine if a recipient
+    is receiving the correct monthly benefit. Insufficient or missing evidence can
+    result in unknown payments. These types of errors can impact the amount of the
+    improper payment amount. The improper payment amount is also impacted by the length
+    of time it takes to receive sufficient information. The payment cannot be moved
+    out of the unknown category and classified as proper or improper until all necessary
+    documentation is received.
+  Unknown_Due_To_Scenario_Not_Specified_Amount: '11.94'
+  Unknown_Due_To_Scenario_Not_Specified_Description: Federal agencies are required
+    to provide complete retirement packages. Through audits, the Quality Assurance
+    Group identifies retirement claims that need additional information or clarification
+    to determine if a recipient is receiving the correct monthly benefit. Insufficient
+    or missing evidence can result in unknown payments. These types of errors can
+    impact the amount of the improper payment amount. The improper payment amount
+    is also impacted by the length of time it takes to receive sufficient information.
+    The payment cannot be moved out of the unknown category and classified as proper
+    or improper until all necessary documentation is received.
+  Unknown_Mitigations_Planned: Audit,Training
+  Unknown_Mitigations_Taken: Audit,Training
   Unknown_Payments_Rate: 0.01117103405135139
+  Unknown_Why: Payments may be classified as unknown when additional information is
+    required to confirm the accuracy of a recipient's monthly benefit. Insufficient
+    or missing evidence can also result in unknown payments.  More accurate Agency
+    application submissions would potentially mitigate common causes of unknown payments.
   Year: 2024
-  act17_1: An upgrade to the current legacy system is necessary to accurately categorize
-    the root causes of improper payments. RS is currently seeking additional funding
-    to enhance process automation.  The FY 2025 Congressional Budget Justification
-    includes $6.5 million for improving the online retirement application and digital
-    file system.   RS is unable to properly categorize $243.70 million in overpayments.
-    However, regular Quality Assurance audits help assess accuracy and identify any
-    training or systemic deficiencies.  Delayed or absent reporting from an annuitant's
-    family or other sources can result in improper payments. The improper payment
-    rate decreased from FY 2023 to FY 2024, demonstrating the effectiveness of current
-    corrective actions.
-  act17_2: The corrective actions provided focus on the steps RS has taken to accurately
-    categorize the root causes of improper payments.  RS continues to request addition
-    funding from OMB to achieve this goal. The use of Quality Assurance audits help
-    assess accuracy and identify any training or systemic deficiencies.  The improper
-    payment rate decreased from FY2023 to FY2024, demonstrates the effectiveness of
-    the current corrective actions.
-  act17_3: The corrective actions provided focus on the steps RS has taken to accurately
-    categorize the root causes of improper payments.  RS continues to request addition
-    funding from OMB to achieve this goal. The use of Quality Assurance audits help
-    assess accuracy and identify any training or systemic deficiencies.  Delayed or
-    absent reporting from an annuitant's family or other sources can result in imroper
-    payments.  RS plans to use the Death Record Scoring Tool (DRC Scoring Tool).  This
-    tool is a product used to identify payments at risk of being issued to a deceased
-    payee.  The goal of adding this tool to the corrective actions is to reduce improper
-    payments.   The improper payment rate decreased from FY2023 to FY2024, demonstrates
-    the effectiveness of the current corrective actions.
-  cyp15: 'Yes'
-  cyp20_2: RS is committed to the objective of reducing improper payments. OPM set
-    a goal of lowering the improper rate by 0.01 percent for each subsequent year.
-    The current Improper Payment and Unknown Payment rate was 0.33 percent.
-  cyp26: '93.75'
-  cyp2_app1_8: Audit, Training
-  cyp2_atp1_8: Audit, Training
-  cyp5_app1_8: Audit, Training
-  cyp5_atp1_8: Audit, Training
-  cyp6: '0.0'
-  cyp7_app1_8: Audit, Training
-  cyp7_atp1_8: Audit, Training
-  cyp7_ucp4: '11.94'
-  cyp7_ucp4_1: Federal agencies are required to provide complete retirement packages.
-    Through audits, the Quality Assurance Group identifies retirement claims that
-    need additional information or clarification to determine if a recipient is receiving
-    the correct monthly benefit. Insufficient or missing evidence can result in unknown
-    payments. These types of errors can impact the amount of the improper payment
-    amount. The improper payment amount is also impacted by the length of time it
-    takes to receive sufficient information. The payment cannot be moved out of the
-    unknown category and classified as proper or improper until all necessary documentation
-    is received.
-  cyp8: Payments may be classified as unknown when additional information is required
-    to confirm the accuracy of a recipient's monthly benefit. Insufficient or missing
-    evidence can also result in unknown payments.  More accurate Agency application
-    submissions would potentially mitigate common causes of unknown payments.
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: '0.31'
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -547,19 +634,19 @@ Data_By_Year:
     Failure_to_Access_Data: 243.7
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp2: '243.7'
-    cyp2_1: 'Overpayments within the agency''s control typically stem from outdated
-      systems that do not automate the processing of available intra-agency data during
-      payment processing. These antiquated systems lack the capability to provide
-      comprehensive data necessary for identifying risk areas related to improper
-      payments. For instance, overpayments often occur because death data is not directly
-      linked to the payment file, preventing immediate account suspensions. Although
-      the agency has access to this death data, overpayments are still considered
-      within our control.  To mitigate improper payments, the agency employs several
-      measures, including: Annuitant Surveys: These are sent electronically or by
-      mail to verify eligibility.   Do Not Pay (DNP) Portal: Monthly searches are
-      performed to verify deaths reported through various sources (e.g., EVVE-FOD,
-      DOD, DOS) to prevent further payments.'
+    Overpayments_Within_Control_Amount: '243.7'
+    Overpayments_Within_Control_Why: 'Overpayments within the agency''s control typically
+      stem from outdated systems that do not automate the processing of available
+      intra-agency data during payment processing. These antiquated systems lack the
+      capability to provide comprehensive data necessary for identifying risk areas
+      related to improper payments. For instance, overpayments often occur because
+      death data is not directly linked to the payment file, preventing immediate
+      account suspensions. Although the agency has access to this death data, overpayments
+      are still considered within our control.  To mitigate improper payments, the
+      agency employs several measures, including: Annuitant Surveys: These are sent
+      electronically or by mail to verify eligibility.   Do Not Pay (DNP) Portal:
+      Monthly searches are performed to verify deaths reported through various sources
+      (e.g., EVVE-FOD, DOD, DOS) to prevent further payments.'
   overpayments_eligibility:
   - Key: cyp2_dit6_1
     Payment_Type: Overpayments Within Agency Control
@@ -573,36 +660,7 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp3: '0.0'
-  rap5: Using the existing internal controls, human capital, and information systems
-    and other infrastructure RS was able to reduce the Improper Payments and Unknown
-    Payments to achieve the tolerable rate. The FY 2024 Improper Payments and Unknown
-    Payments rate is 0.33 percent. The improper payment rate for overpayments was
-    0.32 percent.
-  rap6: An upgrade to the current legacy system is essential for properly categorizing
-    the root causes of improper payments. RS leadership is actively pursuing modernization
-    initiatives to prevent such payments, collaborating with OPM leadership to prioritize
-    and secure funding. An IT Roadmap has been delivered, with modernization costs
-    assessed through FY 2028.
-  rnp3: An upgrade to the current legacy system is necessary to accurately categorize
-    the root causes of improper payments. RS is currently seeking additional funding
-    to enhance process automation.  The FY 2025 Congressional Budget Justification
-    includes $6.5 million for improving the online retirement application and digital
-    file system.   RS is unable to properly categorize $243.70 million in overpayments.
-    However, regular Quality Assurance audits help assess accuracy and identify any
-    training or systemic deficiencies.  Delayed or absent reporting from an annuitant's
-    family or other sources can result in improper payments. The improper payment
-    rate decreased from FY 2023 to FY 2024, demonstrating the effectiveness of current
-    corrective actions.
-  rnp4: The Retirement Services Associate Director is accountable for the improper
-    payment rate.  This criteria is an item included in the annual performance appraisal.  In
-    addition, RS operation managers are held accountable for achieving accuracy in
-    the initial adjudication of claims.  The Quality Assurance audit results provide
-    the accuracy rate.   Another step taken is the Annual Assurance Statement and
-    Management Controls.  The Retirment Services Associate Director sign a memo statement
-    that she is aware of the internal controls and meeting the requirements of the
-    Federal Managers' Financial Integrity Act (FMFIA)
-  rtp1: 'Yes'
+    Overpayments_Outside_Control_Amount: '0.0'
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -610,13 +668,167 @@ Data_By_Year:
     Failure_to_Access_Data: 93.75
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp5: '93.75'
+    Underpayments_Amount: '93.75'
   underpayments_eligibility:
   - Key: cyp5_dit8_1
     Payment_Type: Underpayments
     Theme: Education
     Theme_Description: The education level or enrollment status of the recipient/beneficiary
     Value: '93.750000'
+- Agency_Needs_Satisfied: Using the existing internal controls, human capital, and
+    information systems and other infrastructure RS was able to reduce the Improper
+    Payments and Unknown Payments to achieve the tolerable rate. The FY 2025 Improper
+    Payments and Unknown Payments rate is 0.33 percent. The improper payment rate
+    for overpayments was 0.32 percent.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: 'Although Retirement Services
+    is unable to fully categorize $265.22 million in overpayments, corrective actions
+    within the agency have been implemented using a risk-based approach that prioritizes
+    causes associated with improper and unknown payment rates. Retirement Services
+    coordinates corrective efforts across program, policy, and technology functions
+    to ensure actions are timely, measurable, and aligned with identified deficiencies.
+    Modernization initiatives are prioritized to address system limitations that impede
+    accurate payment processing, while interim controls such as quality assurance
+    reviews, management oversight, and staff training are applied to mitigate risk
+    during implementation. These actions are tracked through established governance
+    and reporting processes to ensure accountability and consistent execution.
+
+
+    The corrective actions are specifically focused on addressing the underlying causes
+    of improper and unknown payments, including manual processing, delayed reporting,
+    insufficient documentation, and legacy system constraints. System modernization,
+    enhanced data integration, and strengthened quality assurance controls are adequate
+    to address both the magnitude and complexity of the identified risks. Ongoing
+    audits and monitoring indicate improvements in payment accuracy and increased
+    visibility into error trends, allowing management to further refine corrective
+    actions. While some improper and unknown payments persist due to factors outside
+    the agency’s direct control, such as delayed third-party reporting, the actions
+    implemented to date are reducing risk exposure and are expected to continue lowering
+    improper and unknown payment amounts as modernization efforts mature.'
+  Corrective_Actions_Appropriateness: 'OPM performed the Consolidated Death Match
+    (CDM) to identify discrepancies between the OPM annuity roll and the Social Security
+    Administration’s (SSA) pay system. This weekly match helps identify annuitants
+    reported deceased by the SSA, while the Validated Agency Match System processes
+    death information to terminate federal benefits and prevent further improper payments.
+    Collection actions are initiated for any discovered overpayments. Additionally,
+    OPM utilizes the Treasury''s Do Not Pay Portal to identify annuitants who should
+    have been reported deceased.
+
+    OPM’s annuity calculations involve both automated and manual components, the latter
+    being susceptible to human error. Mistakes can arise from incorrect entries of
+    effective dates, salary rates, or tours of duty, all of which impact annuity calculations.
+    Identifying specific skill gaps and developing targeted training can enhance accuracy
+    and reduce improper payments.
+
+    RS uses the Death Record Confidence Scoring Tool (DRCST), which is an automated
+    process that matches data from the Death Master File with the Consolidated Death
+    Match. Furthermore, the Quality Assurance Group will maintain feedback through
+    monthly and quarterly reports, offering recommendations as needed. These reports
+    will include specific analyses to uncover trends that may not be immediately apparent,
+    allowing for informed resource decisions and ensuring compliance with policies
+    governing benefit determinations and payments. The Death Record Confidence Scoring
+    Tool (DRC Scoring Tool) is a product used to identify payments at risk of being
+    issued to a deceased payee. The DRC Scoring Tool converts information into a confidence
+    score based on the likelihood the individual is truly deceased. The Office of
+    Payment Integrity at the Department of the Treasury then uses the confidence score
+    in combination with payment information within the customer’s dataset to identify
+    the records that have the greatest potential impact for at-risk dollars.'
+  Corrective_Actions_Proportion: 'An upgrade to the current legacy system is necessary
+    to accurately categorize the root causes of improper payments. In FY 2026 OPM,
+    through RS will continue to advance its modernization agenda, focusing on deploying
+    digital tools to improve service delivery.  The modernization effort centers on
+    four key components: the Online Retirement Application (ORA), Employee Retirement
+    Record (ERR), Digital File System (DFS), and the Janus retirement calculator.  Together
+    these innovations will dramatically streamline operations and improve service
+    delivery while reducing costs.  RS is unable to properly categorize $265.22 million
+    in overpayments. However, regular Quality Assurance audits help assess accuracy
+    and identify any training or systemic deficiencies. Delayed or absent reporting
+    from an annuitant''s family or other sources can result in improper payments.'
+  End_Date: 09/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: The Retirement Services Associate Director is accountable
+    for the improper payment rate. This criteria is an item included in the annual
+    performance appraisal. In addition, RS operation managers are held accountable
+    for achieving accuracy in the initial adjudication of claims. The Quality Assurance
+    audit results provide the accuracy rate. Another step taken is the Annual Assurance
+    Statement and Management Controls. The Retirement Services Associate Director
+    signs a memo statement that aware of the internal controls and meeting the requirements
+    of the Federal Managers' Financial Integrity Act (FMFIA).
+  IP_Unknown_Target_Rate: 0.0034
+  Improper_Payments_Rate: 0.3328135731
+  Insufficient_Documentation_to_Determine: 13.99
+  Margin_of_Error: '0.41'
+  Non_Monetary_Loss_Amount: '98.76'
+  Outlays: 109364.53
+  Overpayment_Combined_Mitigations_Planned: Audit, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Training
+  Payment_Accuracy_Rate: 99.65439434522327
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: An upgrade to the current legacy system is essential
+    for properly categorizing the root causes of improper payments. RS leadership
+    is actively pursuing modernization initiatives to prevent such payments, collaborating
+    with OPM leadership to prioritize and secure funding. An IT Roadmap has been delivered,
+    with modernization costs assessed through FY 2028.
+  Start_Date: 10/2024
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: Audit, Training
+  Underpayment_Mitigations_Taken: Audit, Training
+  Unknown_Mitigations_Planned: Audit,Training
+  Unknown_Mitigations_Taken: Audit,Training
+  Unknown_Payments_Rate: 0.012792081674012589
+  Year: 2025
+  detail_IP_Causes: RS acknowledges the occurrence of improper payments; however,
+    systemic limitations hinder the provision of detailed specificity. OPM's systems
+    were not designed to analyze large data sets. Consequently, based on OMB's established
+    root cause categories, only "failure to access data" is applicable. Overpayments
+    within the agency’s purview result from family members or other sources failing
+    to report an annuitant's death. These overpayments are deemed under the agency’s
+    control because RS has access to the Do Not Pay file but is unable to search Do
+    Not Pay prior to each recurring payment. Nevertheless, OPM engages in ongoing
+    internal control activities, including surveys and data matching, to reduce potential
+    improper payments from these occurrences.
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '265.22'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '0.34'
+  eligibility_aggregated:
+  - Theme: Death
+    Theme_Description: Date of death of the recipient/beneficiary
+  - Theme: Education
+    Theme_Description: The education level or enrollment status of the recipient/beneficiary
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 265.22
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '265.22'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 98.76
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '98.76'
 Description: RS provides Federal employees, retirees and their families with benefits
   that offer choice, value, and quality to be a competitive employer. Eligible retirees
   and survivors generally receive recurring monthly benefits. The status of an annuitant
@@ -626,19 +838,50 @@ Description: RS provides Federal employees, retirees and their families with ben
   other sources. Delayed or the absence of reporting can result in improper payments.
   To mitigate improper payments, RS conducts various surveys and matches. An additional
   barrier is the legacy system doesn't provide the needed granularity for root cause.
-Fiscal_Year: 2024
+Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024]'
-Outlays: 106883.57
-Overpayment_Amounts: '[228.28, 244.68, 224.33, 243.7]'
-Payment_Accuracy_Amounts: '[83376.49, 87560.98, 94940.53, 106534.18000000001]'
-Payment_Accuracy_Rate: 99.67311159236166
-Phase_2_Program: 1
+Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[228.28, 244.68, 224.33, 243.7, 265.22]'
+Payment_Accuracy_Amounts: '[83376.49, 87560.98, 94940.53, 106534.18000000001, 108986.56]'
+Phase_2_Program: 0
 Program_Name: Federal Retirement Services
 Scorecard_Links:
+- Link: assets/scorecards/Q3 2019/Total Program Retirement Getting Payments Right
+    Scorecard FY 2019 Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q4 2019/Total Program Retirement Getting Payments Right
+    Scorecard FY 2019 Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q1 2021/Total Program Retirement Payments Integrity Scorecard
+    FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q2 2021/Total Program Retirement Payments Integrity Scorecard
+    FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q3 2021/Total Program Retirement Payments Integrity Scorecard
+    FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q1 2022/Federal Retirement Services Payments Integrity Scorecard
+    FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q2 2022/Federal Retirement Services Payments Integrity Scorecard
+    FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q3 2022/Federal Retirement Services Payments Integrity Scorecard
+    FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q4 2022/Federal Retirement Services Payments Integrity Scorecard
+    FY 2022 Q4.pdf
+  QuarterYear: Q4 2022
+- Link: assets/scorecards/Q2 2023/Federal Retirement Services.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q3 2023/Federal Retirement Services.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q4 2023/Federal Retirement Services.pdf
+  QuarterYear: Q4 2023
 - Link: assets/scorecards/Q1 2024/Federal Retirement Services.pdf
   QuarterYear: Q1 2024
 - Link: assets/scorecards/Q2 2024/Federal Retirement Services.pdf
@@ -651,10 +894,13 @@ Scorecard_Links:
   QuarterYear: Q1 2025
 - Link: assets/scorecards/Q2 2025/Federal Retirement Services.pdf
   QuarterYear: Q2 2025
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[91.53, 81.13, 113.22, 93.75]'
-Unknown_Amounts: '[10.86, 12.13, 23.5, 11.94]'
-fpi_link: https://fpi.omb.gov/
+- Link: assets/scorecards/Q3 2025/Federal Retirement Services.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q4 2025/Federal Retirement Services.pdf
+  QuarterYear: Q4 2025
+Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
+Underpayment_Amounts: '[91.53, 81.13, 113.22, 93.75, 98.76]'
+Unknown_Amounts: '[10.86, 12.13, 23.5, 11.94, 13.99]'
 layout: program-specific
 permalink: program/opm-federal-retirement-services
 ---

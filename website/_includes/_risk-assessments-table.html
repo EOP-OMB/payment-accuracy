@@ -3,16 +3,18 @@
 {% endif %}
 
 {% if include.Risks.SubstantialChangesMade == 'Yes' %}
-    <p><strong>The Agency made substantial changes to the methodology of the review conducted for risk for improper payments for the reporting cycle.</strong></p>
+    <p><strong>The agency made substantial changes to the methodology of the review conducted for risk for improper payments for the reporting cycle.</strong></p>
 {% endif %}
 
+{% assign show_footnote = false %}
 {% if include.Risks.Assessments.size > 0 %}
     <table class="usa-table--borderless usa-table" id="risk-assessments-table">
         <thead>
             <tr>
-                <th data-sortable scope="col" role="columnheader" class="padding-2 cursor-pointer">Program Name</th>
-                <th data-sortable scope="col" role="columnheader" class="padding-2 cursor-pointer">When was the last improper payment Risk Assessment conducted?</th>
+                <th data-sortable scope="col" role="columnheader" class="padding-2 cursor-pointer">Program name</th>
+                <th data-sortable scope="col" role="columnheader" class="padding-2 cursor-pointer">When was the last improper payment risk assessment conducted?</th>
                 <th data-sortable scope="col" role="columnheader" class="padding-2 cursor-pointer">Likely to be susceptible to significant improper payments?</th>
+                <th data-sortable scope="col" role="columnheader" class="padding-2 cursor-pointer">Substantial changes made to the assessment methodology used for the reporting cycle</th>
             </tr>
         </thead>
         <tbody>
@@ -26,17 +28,37 @@
                         {% endif %}
                     </td>
                     <td data-sort-value="{{ risk.Fiscal_Year }}">
-                        {{ risk.Fiscal_Year }}
+                        {% if risk.Fiscal_Year == nil %}
+                            *
+                            {% assign show_footnote = true %}
+                        {% else %}
+                            {{ risk.Fiscal_Year }}
+                        {% endif %}
                     </td>
                     <td data-sort-value="{{ risk.Susceptible }}">
                         {% if risk.Susceptible == 'Yes' %}
                             <img src="/assets/img/orange-check.svg" alt="No"> Yes
-                        {% else %}
+                        {% elsif risk.Susceptible == 'No' %}
                             <img src="/assets/img/green-x.svg" alt="No"> No
+                        {% else %}
+                        {% endif %}
+                    </td>
+                    <td data-sort-value="{{ risk.MethodologyChanged }}">
+                        {% if risk.MethodologyChanged == 1 %}
+                            Yes
                         {% endif %}
                     </td>
                 </tr>
             {% endfor %}
         </tbody>
     </table>
+{% endif %}
+
+{% if show_footnote == true %}
+    <p id="risk-assessments-footnote">* Assessment year is not displayed because one or more of the following statements is true:</p>
+    <ol id="risk-assessments-footnote-bullets">
+        <li>Not required to conduct a risk assessment under the Payment Integrity Information Act of 2019,</li>
+        <li>Already assessed for improper payment risk under a different name in a prior reporting period, and/or</li>
+        <li>New and planning to perform a risk assessment in the future.</li>
+    </ol>
 {% endif %}

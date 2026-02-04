@@ -3,8 +3,9 @@ Agency: STB
 Agency_Name: Surface Transportation Board
 Confirmed_Fraud: null
 Eligibility_Themes: []
-Fiscal_Year: 2024
+Fiscal_Year: 2025
 Hide_Disposition_of_Funds: true
+Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
@@ -12,7 +13,7 @@ Hide_PIIA2019: false
 Hide_Recovery_Audits: true
 Hide_Recovery_Details: true
 Hide_Recovery_Info: true
-Hide_Risk_Assessment_Results: true
+Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
 Hide_Supplemental_Info: false
 Hide_Supplemental_Payment_Integrity: true
@@ -25,7 +26,20 @@ Overpayment_Amounts: '[]'
 Overpayment_Amounts_Identified: '[]'
 Overpayment_Amounts_Recovered: '[]'
 Overpayment_Years: '[]'
-PIIA2019_Compliant_Programs: []
+PIIA2019_Compliant_Programs:
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Rail Carriers
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
 Payment_Accuracy_Rate_Max: 0
@@ -33,8 +47,13 @@ Payment_Accuracy_Rate_Min: 0
 Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
-  Assessments: []
-  SubstantialChangesMade: null
+  Assessments:
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Rail Carriers
+    Slug: null
+    Susceptible: 'No'
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -42,135 +61,63 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2025
 - 2024
 - 2023
-detail_CAP5: null
-detail_agy1: null
-detail_ara1: 'No'
-detail_ara2: 'No'
-detail_ara2_1: null
-detail_ara2_2: null
-detail_ara2_3: null
-detail_ara2_3_2: null
-detail_arp10: null
-detail_arp11: null
-detail_arp12: null
-detail_arp14: null
-detail_arp15: null
-detail_arp16: null
-detail_arp16_5: null
-detail_arp17: null
-detail_arp18: null
-detail_arp4: null
-detail_arp4_1: '0.0'
-detail_arp5: null
-detail_arp5_1: null
-detail_arp7: null
-detail_arp8: null
-detail_arp9: null
-detail_cap3: null
-detail_cap4: null
-detail_com1: Compliant
-detail_dpa1: 'No'
-detail_dpa2: null
-detail_dpa3: null
-detail_dpa5: The STB does not use the Do Not Pay
-detail_exs1: "The information presented in this report complies with guidance provided\
-  \ in the Payment Integrity Information Act of 2019; OMB Circular A-136, and Appendix\
-  \ C to OMB Circular A-123, M-21-19, Requirements for Payment Integrity Improvement.\n\
-  The guidance requires agencies to assess every Federal program with annual outlays\
-  \ greater than $10 million dollars, at least triennially, for improper payment risk,\
-  \ measure the accuracy of payments annually, and initiate program improvements to\
-  \ ensure payment integrity. On November 20, 2009, Executive Order 13520, Reducing\
-  \ Improper Payments and Eliminating Waste in Federal Programs, was issued for the\
-  \ purpose of intensifying efforts to eliminate payment error, waste, fraud, and\
-  \ abuse in the major programs administered by the Federal government, while continuing\
-  \ to ensure that the right people receive the right payment for the right reason\
-  \ at the right time. The supporting website, https://paymentaccuracy.gov/, contains\
-  \ the following information:\n\n•\tCurrent and historical rates and amounts of improper\
-  \ payments for Federal agencies;\n•\tWhy improper payments occur; and\n•\tWhat agencies\
-  \ are doing to reduce and recover improper payments.\nProgram Review\nThe STB has\
-  \ only one program for budget purposes. The FY 2024 appropriated funding for the\
-  \ program is $47.452 million. All the agency’s transactions are either employee\
-  \ payroll and benefits, intra-governmental, or non-Federal transactions.\n\nThe\
-  \ STB does not maintain its own financial management system but uses a shared service\
-  \ provider, ESC, to process all accounting transactions and the DOI processes payroll\
-  \ and benefits. ESC is subject to external audit in accordance with the Standards\
-  \ for Attestation Engagements (SSAE) 18, Attestation Standards: Clarification and\
-  \ Recodification. The STB examines the SSAE No. 18 audit results annually to determine\
-  \ if the shared service provider’s internal controls are operating effectively.\
-  \ The Board also evaluates the internal controls required to supplement the shared\
-  \ service provider’s controls as outlined in the SSAE 18.\n\nIntra-governmental\
-  \ transactions, accounts payables, and payments to agency employees are reviewed\
-  \ as part of the agency’s internal control program under OMB Circular A-123, Appendix\
-  \ A, Internal Control over Financial Reporting and Appendix C, Requirements for\
-  \ Payment Integrity Improvement.\n\nBased on OMB Circular A-123, the STB’s program\
-  \ was reviewed to identify those activities that were susceptible to significant\
-  \ improper payments. For FY 2024, the STB Federal and non-Federal payment was $16\
-  \ million, and payroll was $28.1 million for a combined total of\n \n$44.1 million.\
-  \ The Payment Integrity Information Act defines “significant” as either (1) improper\
-  \ payments that exceed both $10 million and 1.5% of program disbursements; or (2)\
-  \ improper payments in excess of $100 million. Significant improper payments in\
-  \ the STB’s program needed to exceed both $0.6 million (1.5% improper payment rate)\
-  \ and $10 million of all non-Federal payments and payments to Federal employees.\
-  \ No material improper payments were identified by the STB in FY 2024 for significant\
-  \ improper payment reporting.\nIn addition, the following risk factors, likely to\
-  \ contribute to improper payments, were applied to the STB’s appropriated funds.\n\
-  1.\tAny new programs or activity in the agency.\n2.\tComplexity of the activity\
-  \ with respect to correct payments amounts.\n3.\tVolume of payments made annually.\n\
-  4.\tRecent major changes in activity funding, authority, practice, or procedures.\n\
-  5.\tLevel, experience, and quality of training for personnel responsible for certifying\
-  \ that payments are accurate.\n6.\tInherent risks of improper payments due to the\
-  \ nature of agency operations.\n7.\tSignificant deficiencies in the audit reports\
-  \ of the agency that included Inspector General audit findings or external financial\
-  \ audit findings.\n8.\tResults from prior improper payment work.\n\nIn FY 2024,\
-  \ zero (-) improper payments were discovered. The STB will continue evaluating its\
-  \ programs based on identified risk factors to prevent improper payments from occurring,\
-  \ but the overall risk is low/not significant.\n\nImproper Payments Strategy\nThe\
-  \ Payment Integrity Information Act requires agencies to conduct payment recapture\
-  \ audits with respect to each program and activity of the agency with expenditures\
-  \ of $1 million or more annually, if conducting such audits would be cost-effective.\
-  \ The STB addresses proper management of payments by:\n•\tpreventing payment errors\
-  \ through documented processes and internal controls;\n•\tdetecting overpayment\
-  \ and underpayments through control testing.\nDue to the STB’s limited staffing\
-  \ levels for its accounting and financial reporting functions, such support services\
-  \ are provided under contract with ESC. Coordinating with ESC has greatly enhanced\
-  \ the STB's capabilities for identification of improper payments using detailed\
-  \ internal controls at both the STB and ESC. The STB obtains contracting support\
-  \ from DOT, which follows established pre-enrollment, pre-award, and pre-payment\
-  \ processes for all acquisition awards. Pre-enrollment procedures include cross\
-  \ referencing applicants against the GSA System for Award Management (SAM) exclusion\
-  \ records. ESC reviews Federal and commercial databases to verify past performance,\
-  \ Federal government debt, integrity, and business ethics. For prepayment processes,\
-  \ ESC verifies an entity against both SAM and the\n \nInternal Revenue Service’s\
-  \ Taxpayer Identification Number Match Program before establishing the entity as\
-  \ a vendor in its core financial accounting system.\nRecapture of Improper Payments\
-  \ Reporting\nThe Payment Integrity Information Act of 2019 requires agencies to\
-  \ conduct recovery audits with respect to each program and activity of the agency\
-  \ that expends $1 million or more annually, if conducting such audits would be cost-effective.\n\
-  Once the STB has identified an improper payment with a non-Federal vendor, it is\
-  \ STB’s policy to aggressively correct the improper payment. Upon research and analysis\
-  \ of supporting documentation, the vendor is contacted for resolution (in the case\
-  \ of underpayment to the agency). If the contract is ongoing, the Board will offset\
-  \ the amount to be recovered on the next billing. For all other contracts, the vendor\
-  \ is contacted, and a receivable is established for collection. If the vendor does\
-  \ not provide payment, the debt is entered into the Treasury Offset Program. If\
-  \ an improper payment is identified as an overpayment to the STB, the vendor is\
-  \ promptly paid.\nThe table below shows the result of improper payments (in millions\
-  \ of dollars) identified during FY 2024.\n\n\nReason for Improper Payment\t\nOverpayment\t\
-  \nUnderpayment\tTotal Amount Overpayment Recaptured\tTotal Amount Underpayment Paid\n\
-  Failure to verify vendor invoice amount\t$\t0.0\t$\t0.0\t$\t0.0\t$\t0.0\nAdministrative\
-  \ processing\t0.0\t0.0\t0.0\t0.0\nTotal\t$\t0.0\t$\t0.0\t$\t0.0\t$\t0.0\nThe following\
-  \ table shows cumulative overpayments (in millions of dollars) through FY 2024.\n\
-  \nReason for Improper Payment\t\nOverpayment\t\nUnderpayment\tTotal Amount\nOverpayment\n\
-  Recaptured\tTotal Amount Underpayment Paid\nFailure to verify vendor invoice amount\t\
-  $\t0.0\t$\t0.0\t$\t0.0\t$\t0.0\n\nAdministrative processing\t\n0.0\t\n0.0\t\n0.0\t\
-  \n0.0\n\nTotal\t\n$\t0.0\t\n$\t0.0\t\n$\t0.0\t\n$\t0.0\n"
-detail_pcp12_1: null
-detail_pcp14: No recommendations were made.
-detail_raa8: null
-detail_raa9: null
+detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
+detail_Compliance_Status: Compliant
+detail_DNP_Discussion: The agency submitted a SORN for its payment request management
+  system Fraxion to the Federal Register for publication. On or around 09/01/25, the
+  SORN was approved. Additionally, our shared services provider, ESC uses the Do Not
+  Pay working system to verify vendors prior to issuing payments for invoices on the
+  agency's behalf. Based upon our interaction with the ESC, the system has mitigated
+  potential issuances of payments that are improper.
+detail_DNP_Frequency_Identify: null
+detail_DNP_Reduced: null
+detail_Disposition_of_Funds: null
+detail_Executive_Summary: 'The STB does not maintain its own financial management
+  system but uses a shared service provider, ESC, to process all accounting transactions
+  and the DOI processes payroll and benefits. ESC is subject to external audit in
+  accordance with the Standards for Attestation Engagements (SSAE) 18, Attestation
+  Standards: Clarification and Recodification. The STB examines the SSAE No. 18 audit
+  results annually to determine if the shared service provider’s internal controls
+  are operating effectively. The Board also evaluates the internal controls required
+  to supplement the shared service provider’s controls as outlined in the SSAE 18.
+  Intra-governmental transactions, accounts payables, and payments to agency employees
+  are reviewed as part of the agency’s internal control program under OMB Circular
+  A-123, Appendix A, Internal Control over Financial Reporting and Appendix C, Requirements
+  for Payment Integrity Improvement. Based on OMB Circular A-123, the STB’s program
+  was reviewed to identify those activities that were susceptible to significant improper
+  payments. For FY 2025, the STB Federal and non- Federal payment was $17.2 million,
+  and payroll was $28.8 million for a combined total of $46 million. The Payment Integrity
+  Information Act defines “significant” as either (1) improper payments that exceed
+  both $10 million and 1.5% of program disbursements; or (2) improper payments in
+  excess of $100 million. Significant improper payments in the STB’s program needed
+  to exceed both $0.6 million (1.5% improper payment rate) and $10 million of all
+  non- Federal payments and payments to Federal employees. No material improper payments
+  were identified by the STB in FY 2025 for significant improper payment reporting.
+  In addition, the following risk factors, likely to contribute to improper payments,
+  were applied to the STB’s appropriated funds. • Any new programs or activity in
+  the agency. • Complexity of the activity with respect to correct payments amounts.
+  • Volume of payments made annually. • Recent major changes in activity funding,
+  authority, practice, or procedures. • Level, experience, and quality of training
+  for personnel responsible for certifying that payments are accurate. • Inherent
+  risks of improper payments due to the nature of agency operations. • Significant
+  deficiencies in the audit reports of the agency that included Inspector General
+  audit findings or external financial audit findings. • Results from prior improper
+  payment work. In FY 2025, zero (-) improper payments were discovered. The STB will
+  continue evaluating its programs based on identified risk factors to prevent improper
+  payments from occurring, but the overall risk is low/not significant.'
+detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
+detail_PIIA_Incentives: null
+detail_PIIA_Official: null
+detail_Recovery_Audits_Skipped: 'No'
+detail_Recovery_Justifications_Audits: null
+detail_Recovery_Not_Cost_Effective_Justification: null
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/STB.html
-recovery_Recovery_Audit_Amount_Identified_This_Reporting_Period_Determined_Not_Collectable_Rate: 0.0
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

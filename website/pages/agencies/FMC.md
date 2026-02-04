@@ -3,28 +3,29 @@ Agency: FMC
 Agency_Name: Federal Maritime Commission
 Confirmed_Fraud: null
 Eligibility_Themes: []
-Fiscal_Year: 2024
-Hide_Disposition_of_Funds: true
+Fiscal_Year: 2025
+Hide_Disposition_of_Funds: false
+Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
 Hide_PIIA2019: false
-Hide_Recovery_Audits: true
-Hide_Recovery_Details: true
-Hide_Recovery_Info: true
+Hide_Recovery_Audits: false
+Hide_Recovery_Details: false
+Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
 Hide_Supplemental_Info: false
-Hide_Supplemental_Payment_Integrity: true
+Hide_Supplemental_Payment_Integrity: false
 Improper_Payments_Data_Years: '[]'
 Improper_Payments_Rate_Max: 0
 Improper_Payments_Rate_Min: 0
 Improper_Payments_Rates: '[]'
 Is_Placeholder: false
 Overpayment_Amounts: '[]'
-Overpayment_Amounts_Identified: '[]'
-Overpayment_Amounts_Recovered: '[]'
-Overpayment_Years: '[]'
+Overpayment_Amounts_Identified: '[0.039]'
+Overpayment_Amounts_Recovered: '[0.039]'
+Overpayment_Years: '[2025]'
 PIIA2019_Compliant_Programs: []
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -33,16 +34,8 @@ Payment_Accuracy_Rate_Min: 0
 Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
-  Assessments:
-  - Fiscal_Year: 2020
-    Program_Name: Office of Inspector General
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2020
-    Program_Name: Operations and Administration
-    Slug: null
-    Susceptible: 'No'
-  SubstantialChangesMade: null
+  Assessments: []
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -50,75 +43,95 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2025
 - 2024
 - 2023
 - 2022
 - 2021
-detail_CAP5: null
-detail_agy1: null
-detail_ara1: 'No'
-detail_ara2: 'No'
-detail_ara2_1: null
-detail_ara2_2: null
-detail_ara2_3: null
-detail_ara2_3_2: null
-detail_arp10: null
-detail_arp11: null
-detail_arp12: null
-detail_arp14: null
-detail_arp15: null
-detail_arp16: null
-detail_arp16_5: null
-detail_arp17: null
-detail_arp18: null
-detail_arp4: null
-detail_arp4_1: '0.0'
-detail_arp5: null
-detail_arp5_1: null
-detail_arp7: null
-detail_arp8: null
-detail_arp9: null
-detail_cap3: null
-detail_cap4: null
-detail_com1: Compliant
-detail_dpa1: 'No'
-detail_dpa2: null
-detail_dpa3: null
-detail_dpa5: The FMC works with BFS who utilizes this tool actively.
-detail_exs1: "The Federal Maritime Commission (FMC) conducted a comprehensive set\
-  \ of payment integrity activities to ensure compliance with federal financial management\
-  \ requirements and promote the efficient use of public funds. These activities align\
-  \ with the Payment Integrity Information Act (PIIA) and the agency’s commitment\
-  \ to preventing, detecting, and recovering improper payments. Key activities include\
-  \ the following: \n1.\tImproper Payment Identification and Monitoring\n•\tConducted\
-  \ quarterly and annual reviews of disbursements to identify potential improper payments,\
-  \ including overpayments, underpayments, and duplicate transactions.\n•\tMonitored\
-  \ travel reimbursements, payroll, vendor payments, and inter-agency transactions\
-  \ to ensure compliance with payment guidelines.\n2.\tTravel and Vendor Payment Reviews\n\
-  •\tReconciled CBA and IBA travel card statements monthly to detect and address potential\
-  \ overdue accounts or errors.\n•\tReviewed all purchase card (P-Card) transactions\
-  \ and vendor payments to confirm proper authorization and allocation.\n3.\tCoordination\
-  \ with Auditors and Compliance Reporting\n•\tCollaborated with external auditors\
-  \ to support the Annual Financial Statement Audit and ensure adherence to federal\
-  \ payment integrity standards.\n•\tSubmitted Financial Statements and Treasury Reports\
-  \ (GTAS) on a timely basis, ensuring payment data accuracy for transparency and\
-  \ audit compliance.\n4.\t G-Invoicing and Inter-Agency Reconciliations\n•\tManaged\
-  \ inter-agency agreements through G-Invoicing and resolved discrepancies in 7600A/B\
-  \ forms to ensure accurate payments.\n•\tProcessed Inter-Agency Payments and Collections\
-  \ (IPACs) to prevent misclassification of federal funds and ensure alignment with\
-  \ agency financial obligations.\nThe FMC’s payment integrity activities reflect\
-  \ the agency’s proactive approach to safeguarding public funds, ensuring compliance\
-  \ with federal financial management standards, and maintaining operational excellence.\
-  \ Through diligent monitoring, reconciliation, and collaboration with auditors,\
-  \ the FMC continues to minimize improper payments and enhance accountability in\
-  \ its financial operations.\n"
-detail_pcp12_1: null
-detail_pcp14: The most recent compliance report from the Federal Maritime Commission's
-  (FMC) Office of the Inspector General (OIG) FMC was found compliant with the Payment
-  Integrity Information Act (PIIA) requirements for fiscal year 2023
-detail_raa8: null
-detail_raa9: null
+detail_Additional_IP_Information: The Federal Maritime Commission (FMC) continues
+  to strengthen its enterprise-wide payment integrity framework by expanding oversight
+  processes, enhancing internal controls, and leveraging government-wide services
+  operated by the Bureau of the Fiscal Service (BFS). While the FMC is a small, non-High-Priority
+  agency with historically low improper payment risk, the Commission maintains a proactive
+  posture to ensure that all disbursements are accurate, lawful, and fully aligned
+  with Federal financial management standards.
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '0'
+detail_Compliance_Status: Compliant
+detail_DNP_Discussion: The Federal Maritime Commission incorporates the Do Not Pay
+  (DNP) Working System into its pre-payment and pre-award processes to verify vendor
+  eligibility and prevent disbursements to ineligible or suspended entities. Importantly,
+  the Bureau of the Fiscal Service (BFS) conducts all DNP checks on behalf of FMC
+  as part of Treasury’s centralized payment processing, ensuring that every FMC transaction
+  is screened before funds are disbursed. This layered control structure enhances
+  compliance with the Payment Integrity Information Act (PIIA) and significantly reduces
+  the risk of improper payments or awards. Based on current results and the continued
+  absence of identified improper payments, BFS’s execution of DNP checks for FMC has
+  proven effective in maintaining the Commission’s already low-risk payment environment.
+detail_DNP_Frequency_Identify: Annually
+detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: The amounts recovered through the Commission’s recovery
+  audits were returned to the appropriate Treasury accounts and made available for
+  authorized agency purposes in accordance with federal financial management requirements.
+  These recovered funds help ensure that program resources are accurately accounted
+  for and can be redirected to support legitimate mission needs
+detail_Executive_Summary: 'The FMC does not currently have any programs in Phase 1
+  or Phase 2 with cash outlays over $10 million dollars.  During Fiscal Year 2024,
+  the Federal Maritime Commission (FMC) maintained a low-risk payment environment
+  and demonstrated strong compliance with the Payment Integrity Information Act (PIIA).
+  The Commission continued to execute a robust set of internal controls that include
+  pre-payment reviews, obligation validation, vendor verification, and quarterly reconciliations
+  performed in coordination with the Bureau of the Fiscal Service (BFS). These controls
+  ensure that disbursements are accurate, lawful, and fully aligned with federal financial
+  management standards.
+
+
+  A key component of FMC’s payment integrity framework is the use of the Do Not Pay
+  (DNP) Working System, which is conducted by BFS on behalf of the FMC for all Treasury-processed
+  transactions. This enterprise-level screening provides pre-payment detection of
+  ineligible vendors, expired or suspended entities, and other high-risk conditions.
+  No improper payments or improper awards were identified during this reporting period,
+  demonstrating that DNP checks and FMC’s internal review procedures are functioning
+  effectively.
+
+
+  The Commission also performed routine reviews of payroll, travel, contracts, and
+  interagency agreements, confirming proper documentation, timely obligation of funds,
+  and complete adherence to fiscal law and OMB A-11 requirements. Monthly and quarterly
+  reconciliations, GTAS reporting, and management oversight ensured the accuracy of
+  financial data and the early detection of any anomalies.
+
+
+  Overall, the FMC’s FY 2024 payment integrity activities confirm that the agency’s
+  strong control environment, combined with BFS’s centralized DNP screening, has effectively
+  prevented improper payments, maintained high levels of accuracy in financial execution,
+  and upheld the Commission’s reputation as a low-risk, well-managed federal entity.'
+detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: During FY 2024, improper payments identified
+  through recovery audits primarily resulted from administrative errors in both the
+  payroll and travel reimbursement systems. These conditions arose from miscoded transactions
+  and incorrect reimbursements that were not immediately detected during routine processing.
+  The Commission strengthened review procedures, enhanced supervisory oversight, and
+  improved system controls to prevent recurrence of these issues. All improper payments
+  were promptly recovered through established collection processes, including payroll
+  adjustments and reimbursement offsets. The effectiveness of the recovery audits
+  and internal controls demonstrates the Commission’s continued commitment to safeguarding
+  federal resources and maintaining a strong payment integrity posture.
+detail_PIIA_Incentives: null
+detail_PIIA_Official: null
+detail_Recovery_Audits_Skipped: 'Yes'
+detail_Recovery_Justifications_Audits: null
+detail_Recovery_Not_Cost_Effective_Justification: null
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/FMC.html
-recovery_Recovery_Audit_Amount_Identified_This_Reporting_Period_Determined_Not_Collectable_Rate: 0.0
+recovery_Aging_of_Outstanding_OP_Identified_Amt_0_-_6_months: 0.0
+recovery_Aging_of_Outstanding_OP_Identified_Amt_6_months_to_1_year: 0.0
+recovery_Aging_of_Outstanding_OP_Identified_determined_not_collectable: 0.0
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.0
+recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 0.039
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.0
+recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.039
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
+recovery_Total_Overpayment_Amount_Identified: 0.039
+recovery_Total_Overpayment_Amount_Recovered: 0.039
 ---

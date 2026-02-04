@@ -37,13 +37,17 @@ def mock_csv_data(tmp_path):
     payment_recovery_details = extracted_dir / "MY_OMB_ImproperPayment_Payment_Recovery_Details_unpivotted_vw.csv"
     payment_confirmed_fraud = extracted_dir / "MY_OMB_ImproperPayment_Payment_Confirmed_Fraud_vw.csv"
     eligibility_themes = extracted_dir / "Eligibility_Themes.csv"
+    eligibility_themes_descriptions = extracted_dir / "Eligibility_Themes_Descriptions.csv"
+    fy25_risks = extracted_dir / "Risk_Assessment_FULL_FY25.csv"
     risks = extracted_dir / "MY_OMB_ImproperPayment_Payment_Risk_Assessments_vw.csv"
+    risks_methodology_changed = extracted_dir / "RiskAssessmentMethodologyChanges.csv"
     new_risks = extracted_dir / "MY_OMB_ImproperPayment_Payment_New_Risk_Assessments_vw.csv"
     recovery_amounts = extracted_dir / "MY_OMB_ImproperPayment_Payment_Accuracy_Rate_and_Amt_of_Recovery_vw.csv"
     program_compliance = extracted_dir / "MY_OMB_ImproperPayment_Payment_Program_Compliance_vw.csv"
     survey_root_cause = extracted_dir / "KPI_ImproperPaymentSurveyRootCause_vw_IP.csv"
     ip_root_causes = extracted_dir / "MY_OMB_ImproperPayment_Payment_IP_Root_Causes_vw.csv"
     congressional_reports = extracted_dir / "MY_OMB_ImproperPayment_PaymentAccuracy_AgencyData_raw_vw-Congressional.csv"
+    fpi_mapping = extracted_dir / "FPIMapping.csv"
 
     all_programs_sample_csv_data = (
         "Agency,Program_Name,Fiscal_Year,Outlays_($M),IP_Amount($M),IP_Unknown_Amount_($M)"
@@ -99,10 +103,28 @@ def mock_csv_data(tmp_path):
         "\ndit10,Marital Status"
     )
 
+    eligibility_themes_descriptions_sample_csv_data = (
+        "theme,description"
+        "\nAddress/Location,the address"
+        "\nMarital Status,the status"
+    )
+
+    fy25_risks_sample_csv_data = (
+        "Agency,Fiscal_Year,Program_Name,Fiscal_Year_Last_Conducted,Susceptible"
+        "\nAB,2022,Rehabilitation Act Section 502,,"
+        "\nAB,2023,Rehabilitation Act Section 502,,"
+    )
+
     risks_sample_csv_data = (
         "Agency,Fiscal_Year,Program_Name,in_draft,Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_,raa6_2,raa7_2,Updated_Program_Name,Original_Program_Name"
         "\nAgency1,2024,Program1,0.0,,,,Program1,Program1"
         "\nAgency1,2024,Program2,0.0,,Yes,No,Program2,Program2"
+    )
+
+    risks_methodology_changed_sample_csv_data = (
+        "Agency,Program_Name,Fiscal_Year"
+        "\nAgency1,Program1,2025"
+        "\nAgency1,Program2,2025"
     )
 
     new_risks_sample_csv_data = (
@@ -141,6 +163,12 @@ def mock_csv_data(tmp_path):
         "\nCFTC,raa6_1,[raa6_1]Did the agency perform any Improper Payment Risk Assessments for programs in Phase 1 in the current reporting period? (Unit - Yes/No),No,2024"
     )
 
+    fpi_mapping_sample_csv_data = (
+        "Agency,Program Name,Assistance Listing Number"
+        "\nDOD,Program 1,11.000"
+        "\nDOD,Program 2,22.000"
+    )
+
     all_programs.write_text(all_programs_sample_csv_data, encoding="utf-8-sig")
     program_data_raw.write_text(program_data_raw_sample_csv_data, encoding="utf-8-sig")
     agency_data_raw.write_text(agency_data_raw_sample_csv_data, encoding="utf-8-sig")
@@ -149,13 +177,17 @@ def mock_csv_data(tmp_path):
     payment_recovery_details.write_text(payment_recovery_details_sample_csv_data, encoding="utf-8-sig")
     payment_confirmed_fraud.write_text(payment_confirmed_fraud_sample_csv_data, encoding="utf-8-sig")
     eligibility_themes.write_text(eligibility_themes_sample_csv_data, encoding="utf-8-sig")
+    eligibility_themes_descriptions.write_text(eligibility_themes_descriptions_sample_csv_data, encoding="utf-8-sig")
+    fy25_risks.write_text(fy25_risks_sample_csv_data, encoding="utf-8-sig")
     risks.write_text(risks_sample_csv_data, encoding="utf-8-sig")
+    risks_methodology_changed.write_text(risks_methodology_changed_sample_csv_data, encoding="utf-8-sig")
     new_risks.write_text(new_risks_sample_csv_data, encoding="utf-8-sig")
     recovery_amounts.write_text(recovery_amounts_sample_csv_data, encoding="utf-8-sig")
     program_compliance.write_text(program_compliance_sample_csv_data, encoding="utf-8-sig")
     survey_root_cause.write_text(survey_root_cause_sample_csv_data, encoding="utf-8-sig")
     ip_root_causes.write_text(ip_root_causes_sample_csv_data, encoding="utf-8-sig")
     congressional_reports.write_text(congressional_reports_sample_csv_data, encoding="utf-8-sig")
+    fpi_mapping.write_text(fpi_mapping_sample_csv_data, encoding="utf-8-sig")
 
     return {
         "ALL_PROGRAMS_DATA_PATH": str(all_programs),
@@ -166,11 +198,15 @@ def mock_csv_data(tmp_path):
         "PAYMENT_RECOVERY_DETAILS_PATH": str(payment_recovery_details),
         "PAYMENT_CONFIRMED_FRAUD_PATH": str(payment_confirmed_fraud),
         "ELIGIBILITY_THEMES_PATH": str(eligibility_themes),
+        "ELIGIBILITY_THEMES_DESCRIPTIONS_PATH": str(eligibility_themes_descriptions),
+        "FY25_RISKS_PATH": str(fy25_risks),
         "RISKS_PATH": str(risks),
+        "RISKS_METHODOLOGY_CHANGED_PATH": str(risks_methodology_changed),
         "NEW_RISKS_PATH": str(new_risks),
         "RECOVERY_AMOUNTS_PATH": str(recovery_amounts),
         "PROGRAM_COMPLIANCE_PATH": str(program_compliance),
         "SURVEY_ROOT_CAUSE_PATH": str(survey_root_cause),
         "IP_ROOT_CAUSES_PATH": str(ip_root_causes),
         "CONGRESSIONAL_REPORTS_PATH": str(congressional_reports),
+        "FPI_MAPPING_PATH": str(fpi_mapping)
     }

@@ -4,23 +4,21 @@ from enum import Enum
 Store various constants used across the data processing process.
 """
 
-FISCAL_YEAR = 2024
+FISCAL_YEAR = 2025
 
 # expected format:  Q<1-4> YYYY
-LAST_QUARTERLY_SURVEY = "Q1 2025"
+LAST_QUARTERLY_SURVEY = "Q4 2025"
 COUNT_GOVERNMENT_WIDE_YEARS_DISPLAYED = 5
-COUNT_AGENCY_SPECIFIC_YEARS_DISPLAYED = 4
+COUNT_AGENCY_SPECIFIC_YEARS_DISPLAYED = 5
 COUNT_AGENCY_SPECIFIC_YEARS_DISPLAYED_FOR_RECOVERY = 5
-COUNT_PROGRAM_SPECIFIC_YEARS_DISPLAYED = 4
-COUNT_CONGRESSIONAL_REPORTS_YEARS_DISPLAYED = 2
-
-DEFAULT_SURVEY_NAME = "Survey Responses"
+COUNT_PROGRAM_SPECIFIC_YEARS_DISPLAYED = 5
+COUNT_CONGRESSIONAL_REPORTS_YEARS_DISPLAYED = 3
 
 CONGRESSIONAL_REPORTS = [
     {
         "Id": 1,
         "Name": "Agency Risk Assessments Report",
-        "SurveyName": "Survey Responses",
+        "SurveyName": "Agency Risk Assessments",
         "IsGovernmentWide": False
     },
     {
@@ -32,43 +30,43 @@ CONGRESSIONAL_REPORTS = [
     {
         "Id": 3,
         "Name": "Improper Payment and Unknown Payment Estimation Report",
-        "SurveyName": "Survey Responses",
+        "SurveyName": "Improper Payment and Unknown Payment Estimation",
         "IsGovernmentWide": False
     },
     {
         "Id": 4,
         "Name": "Agency Actions to Reduce Improper Payments Report",
-        "SurveyName": "Survey Responses",
+        "SurveyName": "Agency Actions to Reduce Improper Payments",
         "IsGovernmentWide": False
     },
     {
         "Id": 5,
         "Name": "Agency Actions to Recover Improper Payments Identified in a Recovery Audit Report",
-        "SurveyName": "Survey Responses",
+        "SurveyName": "Actions to Recover Report",
         "IsGovernmentWide": False
     },
     {
         "Id": 6,
         "Name": "OMB Government Wide Improper Payment Report",
-        "SurveyName": "Survey Responses",
+        "SurveyName": "OMB Government Wide Improper Payment Report",
         "IsGovernmentWide": True
     },
     {
         "Id": 7,
         "Name": "Agency Compliance Plan",
-        "SurveyName": "Survey Responses",
+        "SurveyName": "Agency Plan to Come Into Compliance",
         "IsGovernmentWide": False
     },
     {
         "Id": 8,
         "Name": "Agency Noncompliance Report",
-        "SurveyName": "Survey Responses",
+        "SurveyName": "Noncompliance Report",
         "IsGovernmentWide": False
     },
     {
         "Id": 9,
-        "Name": "OMB Do Not Pay Initiative Report",
-        "SurveyName": "Survey Responses",
+        "Name": "OMB Do Not Pay Working System Report",
+        "SurveyName": "OMB Do Not Pay Working System",
         "IsGovernmentWide": True
     }
 ]
@@ -134,491 +132,581 @@ class CONGRESSIONAL_REPORTS_REQUIREMENT_TYPES(Enum):
 
 CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING = {
     "2023": {
-        "1": {
-            "raa6_1": {
+        "1": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "",
-                "subheading": ""
+                "subheading": "",
+                "key": "raa6_1"
             },
-            "raa6_2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "heading": "",
-                "subheading": ""
+                "subheading": "",
+                "key": "raa6_2"
             },
-            "raa7_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "",
-                "subheading": ""
+                "subheading": "",
+                "key": "raa7_1"
             },
-            "raa7_2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "heading": "",
-                "subheading": ""
+                "subheading": "",
+                "key": "raa7_2"
             },
-            "raa8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "",
-                "subheading": ""
+                "subheading": "",
+                "key": "raa8"
             }
-        },
-        "2": {
-            "ara2_1": {
+        ],
+        "2": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Methods Used to Recover Improper Payments Identified in Recovery Audits",
-                "subheading": ""
+                "subheading": "",
+                "key": "ara2_1"
             }
-        },
-        "5": {
-            "arp17": {
+        ],
+        "5": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Conditions Giving Rise to Improper Payments Identified in Recovery Audits, How Those Conditions are Being Resolved, & Methods Used to Recover Improper Payments Identified in Recovery Audits",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp17"
             },
-            "ara2_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Conditions Giving Rise to Improper Payments Identified in Recovery Audits, How Those Conditions are Being Resolved, & Methods Used to Recover Improper Payments Identified in Recovery Audits",
-                "subheading": ""
+                "subheading": "",
+                "key": "ara2_1"
             },
-            "arp6": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "Overpayment Amount Recovered",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp6"
             },
-            "arp3_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "heading": "Overpayment Amount Recovered",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp3_1"
             },
-            "arp7": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "How Recovered Amounts Have Been Disposed Of",
-                "subheading": "Used to administer the Recovery Audits and Activities Program"
+                "subheading": "Used to administer the Recovery Audits and Activities Program",
+                "key": "arp7"
             },
-            "arp8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "How Recovered Amounts Have Been Disposed Of",
-                "subheading": "Used for a Financial Management Improvement Program"
+                "subheading": "Used for a Financial Management Improvement Program",
+                "key": "arp8"
             },
-            "arp9": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "How Recovered Amounts Have Been Disposed Of",
-                "subheading": "Used for the original purpose"
+                "subheading": "Used for the original purpose",
+                "key": "arp9"
             },
-            "arp10": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "How Recovered Amounts Have Been Disposed Of",
-                "subheading": "Used for Inspector General Activities"
+                "subheading": "Used for Inspector General Activities",
+                "key": "arp10"
             },
-            "arp11": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "How Recovered Amounts Have Been Disposed Of",
-                "subheading": "Returned to Treasury"
+                "subheading": "Returned to Treasury",
+                "key": "arp11"
             },
-            "arp12": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "How Recovered Amounts Have Been Disposed Of",
-                "subheading": "Returned to the Original Account"
+                "subheading": "Returned to the Original Account",
+                "key": "arp12"
             },
-            "arp5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "Overpayment Amount Outstanding",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp5"
             },
-            "arp5_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "heading": "Overpayment Amount Outstanding",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp5_1"
             },
-            "arp14": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "Aging Schedule of the Amounts Outstanding",
-                "subheading": "0 to 6 Months Outstanding"
+                "subheading": "0 to 6 Months Outstanding",
+                "key": "arp14"
             },
-            "arp15": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "Aging Schedule of the Amounts Outstanding",
-                "subheading": "6 to 12 Months Outstanding"
+                "subheading": "6 to 12 Months Outstanding",
+                "key": "arp15"
             },
-            "arp4": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "Overpayment Amount Determined to Not Be Collectible",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp4"
             },
-            "arp4_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "heading": "Overpayment Amount Determined to Not Be Collectible",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp4_1"
             },
-            "ara2_2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Overpayment Amount Determined to Not Be Collectible",
-                "subheading": ""
+                "subheading": "",
+                "key": "ara2_2"
             },
-            "ara2_3": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Justification for the Determination that Performing Recovery Audits are Not Cost-Effective",
-                "subheading": ""
+                "subheading": "",
+                "key": "ara2_3"
             }
-        },
-        "7": {
-            "com1": {
+        ],
+        "7": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Compliance Status",
-                "subheading": ""
+                "subheading": "",
+                "key": "com1"
             },
-            "pcp01_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "heading": "Non-Compliant Programs",
-                "subheading": ""
+                "subheading": "",
+                "key": "pcp01_1"
             },
-            "CAP5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Measurable Milestones To Be Accomplished in Order to Achieve Compliance For Each Program",
-                "subheading": ""
+                "subheading": "",
+                "key": "cap5"
             },
-            "cap3": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Senior Agency Official Accountable for Bringing Each Program into Compliance",
-                "subheading": ""
+                "subheading": "",
+                "key": "cap3"
             },
-            "cap4": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Accountability Mechanism Tied to the Success of the Senior Agency Official Bringing Each Program into Compliance",
-                "subheading": ""
+                "subheading": "",
+                "key": "cap4"
             }
-        },
-        "8": {
-            "com1": {
+        ],
+        "8": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Compliance Status",
-                "subheading": ""
+                "subheading": "",
+                "key": "com1"
             },
-            "pcp01_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "heading": "List of Each Program That Was Determined To Not Be In Compliance",
-                "subheading": ""
+                "subheading": "",
+                "key": "pcp01_1"
             },
-            "CAP5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Actions That Are Planned to Bring Each Program into Compliance",
-                "subheading": ""
+                "subheading": "",
+                "key": "cap5"
             }
-        }
+        ]
     },
     "2024": {
-        "1": {
-            "raa6_1": {
+        "1": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "",
-                "subheading": ""
+                "subheading": "",
+                "key": "raa6_1"
             },
-            "raa6_2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "heading": "",
-                "subheading": ""
+                "subheading": "",
+                "key": "raa6_2"
             },
-            "raa7_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "",
-                "subheading": ""
+                "subheading": "",
+                "key": "raa7_1"
             },
-            "raa7_2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "heading": "",
-                "subheading": ""
+                "subheading": "",
+                "key": "raa7_2"
             },
-            "raa8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "",
-                "subheading": ""
+                "subheading": "",
+                "key": "raa8"
             }
-        },
-        "2": {
-            "ara2_1": {
+        ],
+        "2": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Methods Used to Recover Improper Payments Identified in Recovery Audits",
-                "subheading": ""
+                "subheading": "",
+                "key": "ara2_1"
             }
-        },
-        "5": {
-            "arp17": {
+        ],
+        "5": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Conditions Giving Rise to Improper Payments Identified in Recovery Audits, How Those Conditions are Being Resolved, & Methods Used to Recover Improper Payments Identified in Recovery Audits",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp17"
             },
-            "ara2_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Conditions Giving Rise to Improper Payments Identified in Recovery Audits, How Those Conditions are Being Resolved, & Methods Used to Recover Improper Payments Identified in Recovery Audits",
-                "subheading": ""
+                "subheading": "",
+                "key": "ara2_1"
             },
-            "arp6": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "Overpayment Amount Recovered",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp6"
             },
-            "arp3_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "heading": "Overpayment Amount Recovered",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp3_1"
             },
-            "arp7": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "How Recovered Amounts Have Been Disposed Of",
-                "subheading": "Used to administer the Recovery Audits and Activities Program"
+                "subheading": "Used to administer the Recovery Audits and Activities Program",
+                "key": "arp7"
             },
-            "arp8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "How Recovered Amounts Have Been Disposed Of",
-                "subheading": "Used for a Financial Management Improvement Program"
+                "subheading": "Used for a Financial Management Improvement Program",
+                "key": "arp8"
             },
-            "arp9": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "How Recovered Amounts Have Been Disposed Of",
-                "subheading": "Used for the original purpose"
+                "subheading": "Used for the original purpose",
+                "key": "arp9"
             },
-            "arp10": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "How Recovered Amounts Have Been Disposed Of",
-                "subheading": "Used for Inspector General Activities"
+                "subheading": "Used for Inspector General Activities",
+                "key": "arp10"
             },
-            "arp11": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "How Recovered Amounts Have Been Disposed Of",
-                "subheading": "Returned to Treasury"
+                "subheading": "Returned to Treasury",
+                "key": "arp11"
             },
-            "arp12": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "How Recovered Amounts Have Been Disposed Of",
-                "subheading": "Returned to the Original Account"
+                "subheading": "Returned to the Original Account",
+                "key": "arp12"
             },
-            "arp5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "Overpayment Amount Outstanding",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp5"
             },
-            "arp5_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "heading": "Overpayment Amount Outstanding",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp5_1"
             },
-            "arp14": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "Aging Schedule of the Amounts Outstanding",
-                "subheading": "0 to 6 Months Outstanding"
+                "subheading": "0 to 6 Months Outstanding",
+                "key": "arp14"
             },
-            "arp15": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "Aging Schedule of the Amounts Outstanding",
-                "subheading": "6 to 12 Months Outstanding"
+                "subheading": "6 to 12 Months Outstanding",
+                "key": "arp15"
             },
-            "arp4": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "Overpayment Amount Determined to Not Be Collectible",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp4"
             },
-            "arp4_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "heading": "Overpayment Amount Determined to Not Be Collectible",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp4_1"
             },
-            "ara2_2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Overpayment Amount Determined to Not Be Collectible",
-                "subheading": ""
+                "subheading": "",
+                "key": "ara2_2"
             },
-            "ara2_3": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Justification for the Determination that Performing Recovery Audits are Not Cost-Effective",
-                "subheading": ""
+                "subheading": "",
+                "key": "ara2_3"
             }
-        },
-        "7": {
-            "com1": {
+        ],
+        "7": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Compliance Status",
-                "subheading": ""
+                "subheading": "",
+                "key": "com1"
             },
-            "pcp01_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "heading": "Non-Compliant Programs",
-                "subheading": ""
+                "subheading": "",
+                "key": "pcp01_1"
             },
-            "CAP5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Measurable Milestones To Be Accomplished in Order to Achieve Compliance For Each Program",
-                "subheading": ""
+                "subheading": "",
+                "key": "cap5"
             },
-            "cap3": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Senior Agency Official Accountable for Bringing Each Program into Compliance",
-                "subheading": ""
+                "subheading": "",
+                "key": "cap3"
             },
-            "cap4": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Accountability Mechanism Tied to the Success of the Senior Agency Official Bringing Each Program into Compliance",
-                "subheading": ""
+                "subheading": "",
+                "key": "cap4"
             }
-        },
-        "8": {
-            "com1": {
+        ],
+        "8": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Compliance Status",
-                "subheading": ""
+                "subheading": "",
+                "key": "com1"
             },
-            "pcp01_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "heading": "List of Each Program That Was Determined To Not Be In Compliance",
-                "subheading": ""
+                "subheading": "",
+                "key": "pcp01_1"
             },
-            "CAP5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Actions That Are Planned to Bring Each Program into Compliance",
-                "subheading": ""
+                "subheading": "",
+                "key": "cap5"
             }
-        }
+        ]
     },
     "2025": {
-        "1": {
-            "raa6_1": {
+        "1": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "",
-                "subheading": ""
+                "subheading": "",
+                "key": "raa6_1"
             },
-            "raa6_2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "heading": "",
-                "subheading": ""
+                "subheading": "",
+                "key": "raa6_2"
             },
-            "raa7_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "",
-                "subheading": ""
+                "subheading": "",
+                "key": "raa7_1"
             },
-            "raa7_2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "heading": "",
-                "subheading": ""
+                "subheading": "",
+                "key": "raa7_2"
             },
-            "raa8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "",
-                "subheading": ""
+                "subheading": "",
+                "key": "raa8"
             }
-        },
-        "2": {
-            "arp17_1": {
+        ],
+        "2": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Methods Used to Recover Improper Payments Identified in Recovery Audits"
                 "",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp17_1"
             }
-        },
-        "5": {
-            "arp17_1": {
+        ],
+        "5": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Conditions Giving Rise to Improper Payments Identified in Recovery Audits, How Those Conditions are Being Resolved, & Methods Used to Recover Improper Payments Identified in Recovery Audits",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp17_1"
             },
-            "arp6": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "Overpayment Amount Recovered",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp6"
             },
-            "arp3_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "heading": "Overpayment Amount Recovered",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp3_1"
             },
-            "dis1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "How Recovered Amounts Have Been Disposed Of",
-                "subheading": ""
+                "subheading": "",
+                "key": "dis1"
             },
-            "arp5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "Overpayment Amount Outstanding",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp5"
             },
-            "arp5_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "heading": "Overpayment Amount Outstanding",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp5_1"
             },
-            "arp14": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "Aging Schedule of the Amounts Outstanding",
-                "subheading": "0 to 6 Months Outstanding"
+                "subheading": "0 to 6 Months Outstanding",
+                "key": "arp14"
             },
-            "arp15": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "Aging Schedule of the Amounts Outstanding",
-                "subheading": "6 to 12 Months Outstanding"
+                "subheading": "6 to 12 Months Outstanding",
+                "key": "arp15"
             },
-            "arp4": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "heading": "Overpayment Amount Determined to Not Be Collectible",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp4"
             },
-            "arp4_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "heading": "Overpayment Amount Determined to Not Be Collectible",
-                "subheading": ""
+                "subheading": "",
+                "key": "arp4_1"
             },
-            "ara2_2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Overpayment Amount Determined to Not Be Collectible",
-                "subheading": ""
+                "subheading": "",
+                "key": "ara2_2"
             },
-            "ara2_3": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Justification for the Determination that Performing Recovery Audits are Not Cost-Effective",
-                "subheading": ""
+                "subheading": "",
+                "key": "ara2_3"
             }
-        },
-        "7": {
-            "com1": {
+        ],
+        "7": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Compliance Status",
-                "subheading": ""
+                "subheading": "",
+                "key": "com1"
             },
-            "pcp01_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "heading": "Non-Compliant Programs",
-                "subheading": ""
+                "subheading": "",
+                "key": "pcp01_1"
             },
-            "CAP5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Measurable Milestones To Be Accomplished in Order to Achieve Compliance For Each Program",
-                "subheading": ""
+                "subheading": "",
+                "key": "cap5"
             },
-            "cap3": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Senior Agency Official Accountable for Bringing Each Program into Compliance",
-                "subheading": ""
+                "subheading": "",
+                "key": "cap3"
             },
-            "cap4": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Accountability Mechanism Tied to the Success of the Senior Agency Official Bringing Each Program into Compliance",
-                "subheading": ""
+                "subheading": "",
+                "key": "cap4"
             }
-        },
-        "8": {
-            "com1": {
+        ],
+        "8": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Compliance Status",
-                "subheading": ""
+                "subheading": "",
+                "key": "com1"
             },
-            "pcp01_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "heading": "List of Each Program That Was Determined To Not Be In Compliance",
-                "subheading": ""
+                "subheading": "",
+                "key": "pcp01_1"
             },
-            "CAP5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "heading": "Actions That Are Planned to Bring Each Program into Compliance",
-                "subheading": ""
+                "subheading": "",
+                "key": "cap5"
             }
-        }
+        ]
     }
 }
 
@@ -1557,927 +1645,1107 @@ CONGRESSIONAL_REPORTS_REQUIREMENTS_MAPPING = {
 
 CONGRESSIONAL_REPORTS_FIELD_TO_TYPE_MAPPING_PROGRAMS = {
     "2023": {
-        "2": {
-            "cyp21_app1_8": {
+        "2": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "subheading": "Overpayments",
-                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)"
+                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)",
+                "key": "cyp21_app1_8"
             },
-            "cyp5_app1_8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "subheading": "Underpayments",
-                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)"
+                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)",
+                "key": "cyp5_app1_8"
             },
-            "cyp6_app1_8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "subheading": "Technically Improper Payments",
-                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)"
+                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)",
+                "key": "cyp6_app1_8"
             },
-            "cyp7_app1_8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "subheading": "Unknown Payments",
-                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)"
+                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)",
+                "key": "cyp7_app1_8"
             },
-            "app1_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "app1_1"
             },
-            "app2_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "app2_1"
             },
-            "app3_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "app3_1"
             },
-            "app4_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "app4_1"
             },
-            "app5_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "app5_1"
             },
-            "app6_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "app6_1"
             },
-            "app7_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "app7_1"
             },
-            "app8_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "app8_1"
             }
-        },
-        "3": {
-            "rac3": {
+        ],
+        "3": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": ""
+                "heading": "",
+                "key": "rac3"
             },
-            "cyp1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "",
-                "heading": "Annual Outlay Amount"
+                "heading": "Annual Outlay Amount",
+                "key": "cyp1"
             },
-            "cyp27": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "",
-                "heading": "Improper Payment Estimate"
+                "heading": "Improper Payment Estimate",
+                "key": "cyp27"
             },
-            "cyp28": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "",
-                "heading": "Improper Payment Estimate"
+                "heading": "Improper Payment Estimate",
+                "key": "cyp28"
             },
-            "cyp21": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Monetary Loss",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp21"
             },
-            "cyp22": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Monetary Loss",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp22"
             },
-            "cyp2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Overpayments Within the Agency Control",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp2"
             },
-            "cyp3": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Overpayments Outside the Agency Control",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp3"
             },
-            "cyp26": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Non-Monetary Loss",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp26"
             },
-            "cyp5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Underpayments",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp5"
             },
-            "cyp23": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Underpayments",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp23"
             },
-            "cyp6": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Technically Improper Payments",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp6"
             },
-            "cyp25": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Technically Improper Payments",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp25"
             },
-            "cyp7": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "",
-                "heading": "Unknown Payment Estimate"
+                "heading": "Unknown Payment Estimate",
+                "key": "cyp7"
             },
-            "cyp24": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "",
-                "heading": "Unknown Payment Estimate"
+                "heading": "Unknown Payment Estimate",
+                "key": "cyp24"
             },
-            "cyp30": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "",
-                "heading": "Improper Payment and Unknown Payment Estimate"
+                "heading": "Improper Payment and Unknown Payment Estimate",
+                "key": "cyp30"
             },
-            "cyp29": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "",
-                "heading": "Improper Payment and Unknown Payment Estimate"
+                "heading": "Improper Payment and Unknown Payment Estimate",
+                "key": "cyp29"
             }
-        },
-        "4": {
-            "rac3": {
+        ],
+        "4": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": ""
+                "heading": "",
+                "key": "rac3"
             },
-            "cyp1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Annual Outlay Amount",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp1"
             },
-            "cyp27": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Improper Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp27"
             },
-            "cyp28": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Improper Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp28"
             },
-            "cyp7": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp7"
             },
-            "cyp24": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Unknown Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp24"
             },
-            "cyp30": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Improper Payment and Unknown Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp30"
             },
-            "cyp29": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Improper Payment and Unknown Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp29"
             },
-            "cyp20_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Improper Payment and Unknown Payment Reduction Target",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp20_1"
             },
-            "cyp21": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
-                "subheading": "Overpayments",
-                "heading": "Causes of Improper Payments"
+                "subheading": "Breakdown of Payments by Cause Category\nOverpayments",
+                "heading": "Causes of Improper Payments",
+                "key": "cyp21"
             },
-            "cyp22": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
-                "subheading": "Overpayments",
-                "heading": "Causes of Improper Payments"
+                "subheading": "Breakdown of Payments by Cause Category\nOverpayments",
+                "heading": "Causes of Improper Payments",
+                "key": "cyp22"
             },
-            "cyp2_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
-                "subheading": "Overpayments",
-                "heading": "Causes of Improper Payments"
+                "subheading": "Breakdown of Payments by Cause Category\nOverpayments",
+                "heading": "Causes of Improper Payments",
+                "key": "cyp2_1"
             },
-            "cyp4_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
-                "subheading": "Overpayments",
-                "heading": "Causes of Improper Payments"
+                "subheading": "Breakdown of Payments by Cause Category\nOverpayments",
+                "heading": "Causes of Improper Payments",
+                "key": "cyp4_1"
             },
-            "cyp2_cop1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Overpayments that Occurred Because the Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment Does Not Exist",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp2_cop1"
             },
-            "cyp3_cop4": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Overpayments that Occurred Because the Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment Does Not Exist",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp3_cop4"
             },
-            "cyp2_cop2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Overpayments that Occurred Because of an Inability to Access the Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp2_cop2"
             },
-            "cyp3_cop5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Overpayments that Occurred Because of an Inability to Access the Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp3_cop5"
             },
-            "cyp2_cop3": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Overpayments that Occurred Because of a Failure to Access Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp2_cop3"
             },
-            "cyp3_cop6": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Overpayments that Occurred Because of a Failure to Access Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp3_cop6"
             },
-            "cyp5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Underpayments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp5"
             },
-            "cyp23": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Underpayments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp23"
             },
-            "cyp5_cup1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Underpayments that Occurred Because the Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment Does Not Exist",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp5_cup1"
             },
-            "cyp5_cup2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Underpayments that Occurred Because of an Inability to Access the Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp5_cup2"
             },
-            "cyp5_cup3": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Underpayments that Occurred Because of a Failure to Access Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp5_cup3"
             },
-            "cyp6": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Technically Improper Payments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp6"
             },
-            "cyp25": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Technically Improper Payments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp25"
             },
-            "cyp6_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Technically Improper Payments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp6_1"
             },
-            "cyp7": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Payments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7"
             },
-            "cyp24": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Unknown Payments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp24"
             },
-            "cyp8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Payments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp8"
             },
-            "cyp7_ucp3": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the States",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7_ucp3"
             },
-            "cyp7_ucp3_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the States",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7_ucp3_1"
             },
-            "cyp7_ucp2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the Applicants",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7_ucp2"
             },
-            "cyp7_ucp2_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the Applicants",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7_ucp2_1"
             },
-            "cyp7_ucp1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the Vendors or Providers",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7_ucp1"
             },
-            "cyp7_ucp1_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the Vendors or Providers",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7_ucp1_1"
             },
-            "cyp7_ucp4": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from A Specific Scenario",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7_ucp4"
             },
-            "cyp7_ucp4_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from A Specific Scenario",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7_ucp4_1"
             }
-        }
+        ]
     },
     "2024": {
-        "2": {
-            "cyp21_app1_8": {
+        "2": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "subheading": "Overpayments",
-                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)"
+                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)",
+                "key": "cyp21_app1_8"
             },
-            "cyp5_app1_8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "subheading": "Underpayments",
-                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)"
+                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)",
+                "key": "cyp5_app1_8"
             },
-            "cyp6_app1_8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "subheading": "Technically Improper Payments",
-                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)"
+                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)",
+                "key": "cyp6_app1_8"
             },
-            "cyp7_app1_8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "subheading": "Unknown Payments",
-                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)"
+                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)",
+                "key": "cyp7_app1_8"
             },
-            "app1_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "app1_1"
             },
-            "app2_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "app2_1"
             },
-            "app3_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "app3_1"
             },
-            "app4_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "app4_1"
             },
-            "app5_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "app5_1"
             },
-            "app6_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "app6_1"
             },
-            "app7_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "app7_1"
             },
-            "app8_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "app8_1"
             }
-        },
-        "3": {
-            "rac3": {
+        ],
+        "3": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": ""
+                "heading": "",
+                "key": "rac3"
             },
-            "cyp1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "",
-                "heading": "Annual Outlay Amount"
+                "heading": "Annual Outlay Amount",
+                "key": "cyp1"
             },
-            "cyp27": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "",
-                "heading": "Improper Payment Estimate"
+                "heading": "Improper Payment Estimate",
+                "key": "cyp27"
             },
-            "cyp28": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "",
-                "heading": "Improper Payment Estimate"
+                "heading": "Improper Payment Estimate",
+                "key": "cyp28"
             },
-            "cyp21": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Monetary Loss",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp21"
             },
-            "cyp22": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Monetary Loss",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp22"
             },
-            "cyp2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Overpayments Within the Agency Control",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp2"
             },
-            "cyp3": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Overpayments Outside the Agency Control",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp3"
             },
-            "cyp26": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Non-Monetary Loss",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp26"
             },
-            "cyp5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Underpayments",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp5"
             },
-            "cyp23": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Underpayments",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp23"
             },
-            "cyp6": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Technically Improper Payments",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp6"
             },
-            "cyp25": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Technically Improper Payments",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp25"
             },
-            "cyp7": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "",
-                "heading": "Unknown Payment Estimate"
+                "heading": "Unknown Payment Estimate",
+                "key": "cyp7"
             },
-            "cyp24": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "",
-                "heading": "Unknown Payment Estimate"
+                "heading": "Unknown Payment Estimate",
+                "key": "cyp24"
             },
-            "cyp30": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "",
-                "heading": "Improper Payment and Unknown Payment Estimate"
+                "heading": "Improper Payment and Unknown Payment Estimate",
+                "key": "cyp30"
             },
-            "cyp29": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "",
-                "heading": "Improper Payment and Unknown Payment Estimate"
+                "heading": "Improper Payment and Unknown Payment Estimate",
+                "key": "cyp29"
             }
-        },
-        "4": {
-            "rac3": {
+        ],
+        "4": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": ""
+                "heading": "",
+                "key": "rac3"
             },
-            "cyp1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Annual Outlay Amount",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp1"
             },
-            "cyp27": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Improper Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp27"
             },
-            "cyp28": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Improper Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp28"
             },
-            "cyp7": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp7"
             },
-            "cyp24": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Unknown Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp24"
             },
-            "cyp30": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Improper Payment and Unknown Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp30"
             },
-            "cyp29": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Improper Payment and Unknown Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp29"
             },
-            "cyp20_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Improper Payment and Unknown Payment Reduction Target",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp20_1"
             },
-            "cyp21": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
-                "subheading": "Overpayments",
-                "heading": "Causes of Improper Payments"
+                "subheading": "Breakdown of Payments by Cause Category\nOverpayments",
+                "heading": "Causes of Improper Payments",
+                "key": "cyp21"
             },
-            "cyp22": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
-                "subheading": "Overpayments",
-                "heading": "Causes of Improper Payments"
+                "subheading": "Breakdown of Payments by Cause Category\nOverpayments",
+                "heading": "Causes of Improper Payments",
+                "key": "cyp22"
             },
-            "cyp2_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
-                "subheading": "Overpayments",
-                "heading": "Causes of Improper Payments"
+                "subheading": "Breakdown of Payments by Cause Category\nOverpayments",
+                "heading": "Causes of Improper Payments",
+                "key": "cyp2_1"
             },
-            "cyp4_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
-                "subheading": "Overpayments",
-                "heading": "Causes of Improper Payments"
+                "subheading": "Breakdown of Payments by Cause Category\nOverpayments",
+                "heading": "Causes of Improper Payments",
+                "key": "cyp4_1"
             },
-            "cyp2_cop1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Overpayments that Occurred Because the Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment Does Not Exist",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp2_cop1"
             },
-            "cyp3_cop4": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Overpayments that Occurred Because the Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment Does Not Exist",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp3_cop4"
             },
-            "cyp2_cop2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Overpayments that Occurred Because of an Inability to Access the Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp2_cop2"
             },
-            "cyp3_cop5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Overpayments that Occurred Because of an Inability to Access the Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp3_cop5"
             },
-            "cyp2_cop3": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Overpayments that Occurred Because of a Failure to Access Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp2_cop3"
             },
-            "cyp3_cop6": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Overpayments that Occurred Because of a Failure to Access Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp3_cop6"
             },
-            "cyp5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Underpayments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp5"
             },
-            "cyp23": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Underpayments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp23"
             },
-            "cyp5_cup1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Underpayments that Occurred Because the Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment Does Not Exist",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp5_cup1"
             },
-            "cyp5_cup2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Underpayments that Occurred Because of an Inability to Access the Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp5_cup2"
             },
-            "cyp5_cup3": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Underpayments that Occurred Because of a Failure to Access Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp5_cup3"
             },
-            "cyp6": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Technically Improper Payments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp6"
             },
-            "cyp25": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Technically Improper Payments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp25"
             },
-            "cyp6_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Technically Improper Payments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp6_1"
             },
-            "cyp7": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Payments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7"
             },
-            "cyp24": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Unknown Payments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp24"
             },
-            "cyp8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Payments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp8"
             },
-            "cyp7_ucp3": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the States",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7_ucp3"
             },
-            "cyp7_ucp3_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the States",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7_ucp3_1"
             },
-            "cyp7_ucp2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the Applicants",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7_ucp2"
             },
-            "cyp7_ucp2_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the Applicants",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7_ucp2_1"
             },
-            "cyp7_ucp1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the Vendors or Providers",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7_ucp1"
             },
-            "cyp7_ucp1_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from the Vendors or Providers",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7_ucp1_1"
             },
-            "cyp7_ucp4": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from A Specific Scenario",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7_ucp4"
             },
-            "cyp7_ucp4_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "Unknown Due to Insufficient or Lack of Documentation from A Specific Scenario",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7_ucp4_1"
             }
-        }
+        ]
     },
     "2025": {
-        "2": {
-            "cyp21_app1_8": {
+        "2": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "subheading": "Overpayments",
-                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)"
+                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)",
+                "key": "cyp21_app1_8"
             },
-            "cyp5_app1_8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "subheading": "Underpayments",
-                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)"
+                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)",
+                "key": "cyp5_app1_8"
             },
-            "cyp6_app1_8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "subheading": "Technically Improper Payments",
-                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)"
+                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)",
+                "key": "cyp6_app1_8"
             },
-            "cyp7_app1_8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MULTISELECT_TEXT,
                 "subheading": "Unknown Payments",
-                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)"
+                "heading": "Type(s) of Corrective Actions Planned to Prevent Future Improper Payments (by payment type)",
+                "key": "cyp7_app1_8"
             },
-            "atpapp30_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments"
+                "heading": "Actions Intended to Prevent Future Improper Payments and Unknown Payments",
+                "key": "atpapp30_1"
             }
-        },
-        "3": {
-            "rac3": {
+        ],
+        "3": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": ""
+                "heading": "",
+                "key": "rac3"
             },
-            "cyp1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "",
-                "heading": "Annual Outlay Amount"
+                "heading": "Annual Outlay Amount",
+                "key": "cyp1"
             },
-            "cyp27": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "",
-                "heading": "Improper Payment Estimate"
+                "heading": "Improper Payment Estimate",
+                "key": "cyp27"
             },
-            "cyp28": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "",
-                "heading": "Improper Payment Estimate"
+                "heading": "Improper Payment Estimate",
+                "key": "cyp28"
             },
-            "cyp21": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Monetary Loss",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp21"
             },
-            "cyp22": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Monetary Loss",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp22"
             },
-            "cyp2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Overpayments Within the Agency Control",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp2"
             },
-            "cyp3": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Overpayments Outside the Agency Control",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp3"
             },
-            "cyp26": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Non-Monetary Loss",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp26"
             },
-            "cyp5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Underpayments",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp5"
             },
-            "cyp23": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Underpayments",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp23"
             },
-            "cyp6": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Technically Improper Payments",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp6"
             },
-            "cyp25": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Technically Improper Payments",
-                "heading": "Makeup of Improper Payment Estimate"
+                "heading": "Makeup of Improper Payment Estimate",
+                "key": "cyp25"
             },
-            "cyp7": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "",
-                "heading": "Unknown Payment Estimate"
+                "heading": "Unknown Payment Estimate",
+                "key": "cyp7"
             },
-            "cyp24": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "",
-                "heading": "Unknown Payment Estimate"
+                "heading": "Unknown Payment Estimate",
+                "key": "cyp24"
             },
-            "cyp30": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "",
-                "heading": "Improper Payment and Unknown Payment Estimate"
+                "heading": "Improper Payment and Unknown Payment Estimate",
+                "key": "cyp30"
             },
-            "cyp29": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "",
-                "heading": "Improper Payment and Unknown Payment Estimate"
+                "heading": "Improper Payment and Unknown Payment Estimate",
+                "key": "cyp29"
             }
-        },
-        "4": {
-            "rac3": {
+        ],
+        "4": [
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": ""
+                "heading": "",
+                "key": "rac3"
             },
-            "cyp1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Annual Outlay Amount",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp1"
             },
-            "cyp27": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Improper Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp27"
             },
-            "cyp28": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Improper Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp28"
             },
-            "cyp7": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp7"
             },
-            "cyp24": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Unknown Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp24"
             },
-            "cyp30": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Improper Payment and Unknown Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp30"
             },
-            "cyp29": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Improper Payment and Unknown Payment Estimate",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp29"
             },
-            "cyp20_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Improper Payment and Unknown Payment Reduction Target",
-                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target"
+                "heading": "Improper Payment & Unknown Payment Estimates and Reduction Target",
+                "key": "cyp20_1"
             },
-            "cyp30_1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.TEXT,
                 "subheading": "",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp30_1"
             },
-            "cyp21": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
-                "subheading": "Overpayments",
-                "heading": "Causes of Improper Payments"
+                "subheading": "Breakdown of Payments by Cause Category\nOverpayments",
+                "heading": "Causes of Improper Payments",
+                "key": "cyp21"
             },
-            "cyp22": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
-                "subheading": "Overpayments",
-                "heading": "Causes of Improper Payments"
+                "subheading": "Breakdown of Payments by Cause Category\nOverpayments",
+                "heading": "Causes of Improper Payments",
+                "key": "cyp22"
             },
-            "cyp21_cop7": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Overpayments that Occurred Because the Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment Does Not Exist",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp21_cop7"
             },
-            "cyp21_cop8": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Overpayments that Occurred Because of an Inability to Access the Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp21_cop8"
             },
-            "cyp21_cop9": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Overpayments that Occurred Because of a Failure to Access Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp21_cop9"
             },
-            "cyp5": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Underpayments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp5"
             },
-            "cyp23": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Underpayments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp23"
             },
-            "cyp5_cup1": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Underpayments that Occurred Because the Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment Does Not Exist",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp5_cup1"
             },
-            "cyp5_cup2": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Underpayments that Occurred Because of an Inability to Access the Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp5_cup2"
             },
-            "cyp5_cup3": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Amount of Underpayments that Occurred Because of a Failure to Access Data/Information Needed to Validate Payment Accuracy Prior to Making a Payment",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp5_cup3"
             },
-            "cyp6": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Technically Improper Payments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp6"
             },
-            "cyp25": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Technically Improper Payments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp25"
             },
-            "cyp7": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.MILLIONS_OF_DOLLARS,
                 "subheading": "Unknown Payments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp7"
             },
-            "cyp24": {
+            {
                 "type": CONGRESSIONAL_REPORTS_FIELD_TYPES.PERCENTAGE,
                 "subheading": "Unknown Payments",
-                "heading": "Causes of Improper Payments"
+                "heading": "Causes of Improper Payments",
+                "key": "cyp24"
             }
-        }
+        ]
     }
 }

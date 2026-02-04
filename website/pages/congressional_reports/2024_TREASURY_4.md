@@ -69,31 +69,28 @@ ProgramSurveyData:
   Program: Departmental Offices - Pandemic Relief for Aviation Workers
   SortOrder: 1
 - ActionsTaken:
-  - Action_Taken: Completed
+  - Action_Taken: Planned
     Action_Type: Change Process
-    Completion_Date: FY2024 Q4
-    Description_Action_Taken: The IRS held its annual Dependent Database (DDb) meeting
-      with stakeholders in Taxpayer Services, Small Business & Self Employed, and
-      IT divisions, to evaluate the effectiveness of prior-year compliance filters
-      and enhance future filters for audit selection of returns claiming the Additional
-      Child Tax Credit (ACTC) and to identify improvement opportunities for next filing
-      season. This process involves analyzing data from prior years to fine-tune criteria
-      used to flag potentially erroneous returns. For example, patterns from prior
-      filing seasons can reveal common errors, and by refining the IRS filters, the
-      IRS can better prioritize returns with higher likelihoods of errors and prevent
-      improper payments by intervening earlier in the process. Due to the taxpayer’s
-      misrepresentation or misunderstanding of key points of eligibility requirements,
-      especially for self-employment or other income not reported to the IRS by third-parties,
-      and reliance on taxpayer self-certification, errors (both unintentional and
-      intentional) can occur. The annual Dependent Database (DDb) meeting helps to
-      mitigate the refundable tax credits improper payment primary root causes (1)
-      data/information needed does not exist at the point of return filing and (2)
-      inability to access data/information at the time the return is filed. Improved
-      compliance filters can identify non-compliance issues after returns are filed
-      but before payments are issued, helping to reduce improper payments. The primary
-      result of this effort enhances allocating resources to areas in which errors
+    Completion_Date: FY2025
+    Description_Action_Taken: The IRS will continue to hold the annual Dependent Database
+      (DDb) meetings with stakeholders in Taxpayer Services, Small Business & Self
+      Employed, and IT divisions, to review and adjust the value of prior-year compliance
+      filters for audit selection of returns claiming the Additional Child Tax Credit
+      (ACTC). Based on analysis of prior-year data, the IRS refines the IRS filters
+      to better prioritize returns with higher likelihoods of errors; this helps prevent
+      improper payments by intervening earlier in the process. The annual Dependent
+      Database (DDb) meeting helps to mitigate the refundable tax credits (RTCs) improper
+      payment primary root causes (1) data/information needed does not exist at the
+      point of return filing and (2) inability to access data/information at the time
+      the return is filed. Due to the taxpayer’s misrepresentation or misunderstanding
+      of key points of eligibility requirements, especially for self-employment or
+      other income not reported to the IRS by third-parties, and reliance on taxpayer
+      self-certification, errors (both unintentional and intentional) can occur. Improved
+      compliance filters can enhance these issues after returns are filed but before
+      payments are issued, helping to reduce improper payments. The primary result
+      of this approach is enhanced targeting of resources to areas in which errors
       are most likely to occur.
-    Mitigation_Strategy: atp4_1
+    Mitigation_Strategy: app4_1
   - Action_Taken: Planned
     Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2025
@@ -122,6 +119,31 @@ ProgramSurveyData:
       burden on taxpayers and the IRS.
     Mitigation_Strategy: app5_1
   - Action_Taken: Completed
+    Action_Type: Change Process
+    Completion_Date: FY2024 Q4
+    Description_Action_Taken: The IRS held its annual Dependent Database (DDb) meeting
+      with stakeholders in Taxpayer Services, Small Business & Self Employed, and
+      IT divisions, to evaluate the effectiveness of prior-year compliance filters
+      and enhance future filters for audit selection of returns claiming the Additional
+      Child Tax Credit (ACTC) and to identify improvement opportunities for next filing
+      season. This process involves analyzing data from prior years to fine-tune criteria
+      used to flag potentially erroneous returns. For example, patterns from prior
+      filing seasons can reveal common errors, and by refining the IRS filters, the
+      IRS can better prioritize returns with higher likelihoods of errors and prevent
+      improper payments by intervening earlier in the process. Due to the taxpayer’s
+      misrepresentation or misunderstanding of key points of eligibility requirements,
+      especially for self-employment or other income not reported to the IRS by third-parties,
+      and reliance on taxpayer self-certification, errors (both unintentional and
+      intentional) can occur. The annual Dependent Database (DDb) meeting helps to
+      mitigate the refundable tax credits improper payment primary root causes (1)
+      data/information needed does not exist at the point of return filing and (2)
+      inability to access data/information at the time the return is filed. Improved
+      compliance filters can identify non-compliance issues after returns are filed
+      but before payments are issued, helping to reduce improper payments. The primary
+      result of this effort enhances allocating resources to areas in which errors
+      are most likely to occur.
+    Mitigation_Strategy: atp4_1
+  - Action_Taken: Completed
     Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2024 Q4
     Description_Action_Taken: The IRS leveraged data-sharing agreements with the Office
@@ -142,28 +164,6 @@ ProgramSurveyData:
       of returns. This is especially important given the lack of a pre-approval process
       for these credits.
     Mitigation_Strategy: atp5_1
-  - Action_Taken: Planned
-    Action_Type: Change Process
-    Completion_Date: FY2025
-    Description_Action_Taken: The IRS will continue to hold the annual Dependent Database
-      (DDb) meetings with stakeholders in Taxpayer Services, Small Business & Self
-      Employed, and IT divisions, to review and adjust the value of prior-year compliance
-      filters for audit selection of returns claiming the Additional Child Tax Credit
-      (ACTC). Based on analysis of prior-year data, the IRS refines the IRS filters
-      to better prioritize returns with higher likelihoods of errors; this helps prevent
-      improper payments by intervening earlier in the process. The annual Dependent
-      Database (DDb) meeting helps to mitigate the refundable tax credits (RTCs) improper
-      payment primary root causes (1) data/information needed does not exist at the
-      point of return filing and (2) inability to access data/information at the time
-      the return is filed. Due to the taxpayer’s misrepresentation or misunderstanding
-      of key points of eligibility requirements, especially for self-employment or
-      other income not reported to the IRS by third-parties, and reliance on taxpayer
-      self-certification, errors (both unintentional and intentional) can occur. Improved
-      compliance filters can enhance these issues after returns are filed but before
-      payments are issued, helping to reduce improper payments. The primary result
-      of this approach is enhanced targeting of resources to areas in which errors
-      are most likely to occur.
-    Mitigation_Strategy: app4_1
   ActionsTakenAdditionalData:
     Accountability: "The IRS has a strong internal control environment around refundable\
       \ credit programs administered and makes decisions based on overall cost-benefit\
@@ -275,6 +275,20 @@ ProgramSurveyData:
     Subheading: Improper Payment Estimate
     Type: PERCENTAGE
   - Agency: TREASURY
+    Answer: '0.0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp7
+    SortOrder: 4
+    Subheading: Unknown Payment Estimate
+    Type: MILLIONS_OF_DOLLARS
+  - Agency: TREASURY
+    Answer: '0.0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp24
+    SortOrder: 5
+    Subheading: Unknown Payment Estimate
+    Type: PERCENTAGE
+  - Agency: TREASURY
     Answer: '3446.56'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp30
@@ -292,7 +306,7 @@ ProgramSurveyData:
     Answer: '10.73'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp20_1
-    SortOrder: 9
+    SortOrder: 8
     Subheading: Improper Payment and Unknown Payment Reduction Target
     Type: PERCENTAGE
   - Agency: TREASURY
@@ -300,7 +314,9 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp22
     SortOrder: 10
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: The overpayments outside of the agency control include the inability to
@@ -314,7 +330,9 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp4_1
     SortOrder: 12
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: TEXT
   - Agency: TREASURY
     Answer: '3239.77'
@@ -386,6 +404,28 @@ ProgramSurveyData:
   SortOrder: 2
 - ActionsTaken:
   - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2025
+    Description_Action_Taken: The IRS will continue to educate tax professionals on
+      their due diligence requirements regarding the American Opportunity Tax Credit
+      (AOTC), through venues such as the annual IRS Nationwide Tax Forums and the
+      Latino Tax Fest. These events provide a platform for the IRS to reach a broad
+      audience of tax preparers, helping them understand their obligations when assisting
+      taxpayers in claiming the AOTC. This is important because a root cause of AOTC
+      improper payments is misunderstanding the eligibility criteria for the credit.
+      Because tax preparers assist in filing returns claiming refundable tax credits
+      (RTCs), any lack of awareness or lack of oversight at the preparer level has
+      a cascading effect on improper payments. Training will help clarify what is
+      required to substantiate claims, such as documentation for qualifying educational
+      expenses. The IRS is re-aligning its efforts to further its strategic initiatives;
+      accordingly, the IRS is investing in taxpayer outreach and education, in lieu
+      of conducting additional pre-refund audits. By helping taxpayers file accurate
+      returns upfront, quickly fixing errors that delay refunds and ensuring taxpayers
+      claim the credits and deductions for which they are eligible, the IRS will correct
+      payment accuracy issues without substantially increasing the burden on taxpayers
+      and the IRS.
+    Mitigation_Strategy: app3_1
+  - Action_Taken: Planned
     Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: The IRS will continue to hold the annual Dependent Database
@@ -413,28 +453,6 @@ ProgramSurveyData:
       which they are eligible, the IRS will correct payment accuracy issues without
       substantially increasing the burden on taxpayers and the IRS.
     Mitigation_Strategy: app4_1
-  - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2025
-    Description_Action_Taken: The IRS will continue to educate tax professionals on
-      their due diligence requirements regarding the American Opportunity Tax Credit
-      (AOTC), through venues such as the annual IRS Nationwide Tax Forums and the
-      Latino Tax Fest. These events provide a platform for the IRS to reach a broad
-      audience of tax preparers, helping them understand their obligations when assisting
-      taxpayers in claiming the AOTC. This is important because a root cause of AOTC
-      improper payments is misunderstanding the eligibility criteria for the credit.
-      Because tax preparers assist in filing returns claiming refundable tax credits
-      (RTCs), any lack of awareness or lack of oversight at the preparer level has
-      a cascading effect on improper payments. Training will help clarify what is
-      required to substantiate claims, such as documentation for qualifying educational
-      expenses. The IRS is re-aligning its efforts to further its strategic initiatives;
-      accordingly, the IRS is investing in taxpayer outreach and education, in lieu
-      of conducting additional pre-refund audits. By helping taxpayers file accurate
-      returns upfront, quickly fixing errors that delay refunds and ensuring taxpayers
-      claim the credits and deductions for which they are eligible, the IRS will correct
-      payment accuracy issues without substantially increasing the burden on taxpayers
-      and the IRS.
-    Mitigation_Strategy: app3_1
   - Action_Taken: Completed
     Action_Type: Training
     Completion_Date: FY2024 Q4
@@ -589,6 +607,20 @@ ProgramSurveyData:
     Subheading: Improper Payment Estimate
     Type: PERCENTAGE
   - Agency: TREASURY
+    Answer: '0.0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp7
+    SortOrder: 4
+    Subheading: Unknown Payment Estimate
+    Type: MILLIONS_OF_DOLLARS
+  - Agency: TREASURY
+    Answer: '0.0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp24
+    SortOrder: 5
+    Subheading: Unknown Payment Estimate
+    Type: PERCENTAGE
+  - Agency: TREASURY
     Answer: '1431.3'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp30
@@ -606,7 +638,7 @@ ProgramSurveyData:
     Answer: '27.65'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp20_1
-    SortOrder: 9
+    SortOrder: 8
     Subheading: Improper Payment and Unknown Payment Reduction Target
     Type: PERCENTAGE
   - Agency: TREASURY
@@ -614,7 +646,9 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp22
     SortOrder: 10
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: These overpayments outside of agency control include the inability to
@@ -629,7 +663,9 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp4_1
     SortOrder: 12
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: TEXT
   - Agency: TREASURY
     Answer: '529.58'
@@ -889,6 +925,20 @@ ProgramSurveyData:
     Subheading: Improper Payment Estimate
     Type: PERCENTAGE
   - Agency: TREASURY
+    Answer: '0.0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp7
+    SortOrder: 4
+    Subheading: Unknown Payment Estimate
+    Type: MILLIONS_OF_DOLLARS
+  - Agency: TREASURY
+    Answer: '0.0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp24
+    SortOrder: 5
+    Subheading: Unknown Payment Estimate
+    Type: PERCENTAGE
+  - Agency: TREASURY
     Answer: '15941.61'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp30
@@ -906,7 +956,7 @@ ProgramSurveyData:
     Answer: '27.28'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp20_1
-    SortOrder: 9
+    SortOrder: 8
     Subheading: Improper Payment and Unknown Payment Reduction Target
     Type: PERCENTAGE
   - Agency: TREASURY
@@ -914,7 +964,9 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp22
     SortOrder: 10
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: These overpayments include the inability to authenticate data, primarily
@@ -928,7 +980,9 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp4_1
     SortOrder: 12
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: TEXT
   - Agency: TREASURY
     Answer: '14985.11'
@@ -1000,27 +1054,6 @@ ProgramSurveyData:
   SortOrder: 5
 - ActionsTaken:
   - Action_Taken: Planned
-    Action_Type: Cross Enterprise Sharing
-    Completion_Date: FY2025
-    Description_Action_Taken: The IRS will continue to leverage data-sharing agreements
-      with the Department of Health and Human Services (HHS), Centers for Medicare
-      and Medicaid Services (CMS) to access critical information that aids in validating
-      eligibility for the Premium Tax Credit (PTC). This data-sharing involves the
-      exchange of key data points, such as income thresholds and enrollment in a qualified
-      health plan. With this information, the IRS can more accurately assess whether
-      taxpayers meet the eligibility requirements for the PTC. Cross Enterprise Sharing
-      allows the IRS to detect discrepancies in taxpayer filings, such as the taxpayer
-      not being in a qualified health plan and prevent improper payments during the
-      return processing stage. An additional root cause of improper payments of refundable
-      tax credits (RTCs), in addition to data needed does not exist and inability
-      to access data, is taxpayer misreporting or misunderstanding of eligibility
-      requirements. Given that RTCs rely heavily on taxpayer self-reported information,
-      taxpayers may inaccurately claim the PTC due to misunderstanding income limits
-      or dependency. By leveraging third-party data sources from CMS, the IRS can
-      verify key elements of returns. This is especially important given the lack
-      of a pre-approval process for these credits.
-    Mitigation_Strategy: app5_1
-  - Action_Taken: Planned
     Action_Type: Change Process
     Completion_Date: FY2025
     Description_Action_Taken: The IRS will continue to hold the annual Dependent Database
@@ -1043,6 +1076,27 @@ ProgramSurveyData:
       and deductions for which they are eligible, the IRS will correct payment accuracy
       issues without substantially increasing the burden on taxpayers and the IRS.
     Mitigation_Strategy: app4_1
+  - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
+    Completion_Date: FY2025
+    Description_Action_Taken: The IRS will continue to leverage data-sharing agreements
+      with the Department of Health and Human Services (HHS), Centers for Medicare
+      and Medicaid Services (CMS) to access critical information that aids in validating
+      eligibility for the Premium Tax Credit (PTC). This data-sharing involves the
+      exchange of key data points, such as income thresholds and enrollment in a qualified
+      health plan. With this information, the IRS can more accurately assess whether
+      taxpayers meet the eligibility requirements for the PTC. Cross Enterprise Sharing
+      allows the IRS to detect discrepancies in taxpayer filings, such as the taxpayer
+      not being in a qualified health plan and prevent improper payments during the
+      return processing stage. An additional root cause of improper payments of refundable
+      tax credits (RTCs), in addition to data needed does not exist and inability
+      to access data, is taxpayer misreporting or misunderstanding of eligibility
+      requirements. Given that RTCs rely heavily on taxpayer self-reported information,
+      taxpayers may inaccurately claim the PTC due to misunderstanding income limits
+      or dependency. By leveraging third-party data sources from CMS, the IRS can
+      verify key elements of returns. This is especially important given the lack
+      of a pre-approval process for these credits.
+    Mitigation_Strategy: app5_1
   - Action_Taken: Completed
     Action_Type: Change Process
     Completion_Date: FY2024 Q4
@@ -1197,6 +1251,20 @@ ProgramSurveyData:
     Subheading: Improper Payment Estimate
     Type: PERCENTAGE
   - Agency: TREASURY
+    Answer: '0.0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp7
+    SortOrder: 4
+    Subheading: Unknown Payment Estimate
+    Type: MILLIONS_OF_DOLLARS
+  - Agency: TREASURY
+    Answer: '0.0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp24
+    SortOrder: 5
+    Subheading: Unknown Payment Estimate
+    Type: PERCENTAGE
+  - Agency: TREASURY
     Answer: '657.73'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp30
@@ -1214,7 +1282,7 @@ ProgramSurveyData:
     Answer: '28.54'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp20_1
-    SortOrder: 9
+    SortOrder: 8
     Subheading: Improper Payment and Unknown Payment Reduction Target
     Type: PERCENTAGE
   - Agency: TREASURY
@@ -1222,7 +1290,9 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp22
     SortOrder: 10
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: These overpayments outside of the agency control include the inability
@@ -1237,7 +1307,9 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp4_1
     SortOrder: 12
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: TEXT
   - Agency: TREASURY
     Answer: '572.23'

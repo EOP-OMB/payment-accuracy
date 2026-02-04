@@ -50,7 +50,7 @@ class GovernmentWideReport(Report):
         self.filename = str(year) + '_' + str(self.id)
 
         self.data['permalink'] = '/resources/congressional-reports/' + self.filename
-        self.data['Agency'] = '*'
+        self.data['Agency'] = '_'
         self.data['Agency_Name'] = "Government Wide"
         self.data['Page_Name'] = self.filename
 
@@ -68,6 +68,10 @@ class GovernmentWideReport(Report):
             "Stats": query.fetch_all(self.cursor, query.QUERY_TYPES.IP_GW_STATS, (self.year,), self.year)[0]
         }
 
+        # Prior year may have calculated the reduction target rate differently
+        prior_year_stats = query.fetch_all(self.cursor, query.QUERY_TYPES.IP_GW_STATS, (self.year - 1,), self.year - 1)[0]
+        self.data["IPData"]["Stats"]["reduction_target_rate_prior_year"] = prior_year_stats["reduction_target_rate_current_year"]
+
     # Special section for congressional report #9 only
     def fetch_dnp_data(self):
         if (self.id != 9):
@@ -78,11 +82,15 @@ class GovernmentWideReport(Report):
             "Stats": query.fetch_all(self.cursor, query.QUERY_TYPES.DNP_GW_STATS, (self.year,), self.year)[0]
         }
 
+    # Used to determine whether report should be shown
+    # These should generally have data, but adding a method for consistency
+    def has_data(self):
+        return "IPData" in self.data or "DoNotPayData" in self.data
+
 class AgencyReport(Report):
-    def __init__(self, cursor: sqlite3.Cursor, year, agency_code, id, SLUGIFIED_PROGRAM_NAME_MAPPINGS):
+    def __init__(self, cursor: sqlite3.Cursor, year, agency_code, id):
         super().__init__(cursor, year, id)
         self.agency_code = agency_code
-        self.SLUGIFIED_PROGRAM_NAME_MAPPINGS = SLUGIFIED_PROGRAM_NAME_MAPPINGS
         self.filename = str(year) + '_' + str(agency_code) + '_' + str(self.id)
 
         self.data['permalink'] = '/resources/congressional-reports/' + self.filename
@@ -138,16 +146,20 @@ class AgencyReport(Report):
             self.data["SurveyName"] = self.get_agency_survey_name()
             self.data["SurveyData"] = []
 
-        for survey_result in survey_results_filtered:
-            mapping = agency_survey_field_mapping[survey_result["Key"]]
-            self.data["SurveyData"].append({
-                "Heading": mapping["heading"],
-                "Subheading": mapping["subheading"],
-                "Answer": self.format_answer(survey_result["Answer"], mapping),
-                "SortOrder": survey_result["SortOrder"],
-                "Key": survey_result["Key"],
-                "Type": mapping["type"].name
-            })
+        survey_item_sort_order = 0
+        for mapping in agency_survey_field_mapping:
+            survey_results_by_key = {str(item["Key"]).lower(): item for item in survey_results_filtered}
+            survey_result_for_mapping = survey_results_by_key.get(mapping["key"], None)
+            if survey_result_for_mapping is not None:
+                self.data["SurveyData"].append({
+                    "Heading": mapping["heading"],
+                    "Subheading": mapping["subheading"],
+                    "Answer": self.format_answer(survey_result_for_mapping["Answer"], mapping),
+                    "SortOrder": survey_item_sort_order,
+                    "Key": survey_result_for_mapping["Key"],
+                    "Type": mapping["type"].name
+                })
+            survey_item_sort_order += 1
 
     def fetch_program_data(self):
         program_survey_view = self.get_program_survey_view()
@@ -165,15 +177,22 @@ class AgencyReport(Report):
 
         program_sort_order = 0
         for program_name, survey_results in survey_results_by_program:
-            answers = list(map(lambda row: {
-                "Agency": row["Agency"],
-                "Heading": program_survey_field_mapping[row["Key"]]["heading"],
-                "Subheading": program_survey_field_mapping[row["Key"]]["subheading"],
-                "Answer": self.format_answer(row["Answer"], program_survey_field_mapping[row["Key"]]),
-                "SortOrder": row["SortOrder"],
-                "Key": row["Key"],
-                "Type": program_survey_field_mapping[row["Key"]]["type"].name
-            }, survey_results))
+            survey_results_by_key = {str(item["Key"]).lower(): item for item in survey_results}
+            answers = []
+            survey_item_sort_order = 0
+            for mapping in program_survey_field_mapping:
+                survey_result_for_mapping = survey_results_by_key.get(mapping["key"], None)
+                if survey_result_for_mapping is not None:
+                    answers.append({
+                        "Agency": survey_result_for_mapping["Agency"],
+                        "Heading": mapping["heading"],
+                        "Subheading": mapping["subheading"],
+                        "Answer": self.format_answer(survey_result_for_mapping["Answer"], mapping),
+                        "SortOrder": survey_item_sort_order,
+                        "Key": mapping["key"],
+                        "Type": mapping["type"].name
+                    })
+                survey_item_sort_order += 1
 
             if len(answers) > 0:
                 self.data["ProgramSurveyData"].append({
@@ -201,10 +220,11 @@ class AgencyReport(Report):
                     "Program_Name": risk["Program_Name"],
                     "Susceptible": risk["Susceptible"],
                     "Fiscal_Year": risk["Fiscal_Year"],
-                    "Slug": self.SLUGIFIED_PROGRAM_NAME_MAPPINGS[risk["Program_Name"]] if risk["Program_Name"] in self.SLUGIFIED_PROGRAM_NAME_MAPPINGS else None
+                    "MethodologyChanged": risk["MethodologyChanged"],
+                    "Slug": query.get_slug(self.cursor, risk["Program_Name"])
                 }, assessments)),
-                "AdditionalInformation": query.get_agency_survey_answer(self.cursor, self.year, self.agency_code, query.KEY_TYPES.RISKS_ADDITIONAL_INFORMATION),
-                "SubstantialChangesMade": query.get_agency_survey_answer(self.cursor, self.year, self.agency_code, query.KEY_TYPES.RISKS_SUBSTANTIAL_CHANGES_MADE)
+                "AdditionalInformation": query.get_agency_survey_answer(self.cursor, self.year, self.agency_code, query.KEY_TYPES.Risks_Additional_Information),
+                "SubstantialChangesMade": query.get_agency_survey_answer(self.cursor, self.year, self.agency_code, query.KEY_TYPES.Risks_Substantial_Changes_Made)
             }
 
     # Special section for congressional report #2 only
@@ -215,7 +235,8 @@ class AgencyReport(Report):
         self.data["High_Priority_Links"] = query.fetch_all(
             self.cursor,
             query.QUERY_TYPES.HIGH_PRIORITY_SCORECARD_LINKS,
-            (self.year, self.agency_code),
+            # load the most recent scorecard, never exceeding fiscal year + 1
+            (self.year + 1, self.agency_code),
             self.year
         )
 
@@ -236,3 +257,37 @@ class AgencyReport(Report):
             additional_data = query.fetch_all(self.cursor, query.QUERY_TYPES.ACTIONS_TAKEN_ADDITIONAL_INFO, (program_data["Program"], self.agency_code, self.year), self.year)
             if len(additional_data) > 0:
                 program_data["ActionsTakenAdditionalData"] = additional_data
+
+    # Used to determine whether report should be shown
+    def has_data(self):
+        has_agency_survey_data = False
+        if "SurveyData" in self.data:
+            if "Hide_Survey" not in self.data or self.data["Hide_Survey"] == False:
+                has_agency_survey_data = len(self.data["SurveyData"]) > 0
+
+        has_program_survey_data = False
+        if "ProgramSurveyData" in self.data:
+            if "Hide_Program_Survey" not in self.data or self.data["Hide_Program_Survey"] == False:
+                has_program_survey_data = len(self.data["ProgramSurveyData"]) > 0
+
+        has_report_specific_data = False
+        if self.id == 1:
+            if "Risks" in self.data:
+                if "Assessments" in self.data["Risks"]:
+                    has_report_specific_data = len(self.data["Risks"]["Assessments"]) > 0
+        if self.id == 2:
+            # For report #2, only count high priority links and/or program survey data
+            has_agency_survey_data = False
+            if "High_Priority_Links" in self.data:
+                has_report_specific_data = len(self.data["High_Priority_Links"]) > 0
+        # Report #4 depends on ProgramSurveyData
+        if self.id == 4:
+            has_actions_taken = False
+            if "ActionsTaken" in self.data:
+                has_actions_taken = len(self.data["ActionsTaken"]) > 0
+            has_additional_info = False
+            if "ActionsTakenAdditionalData" in self.data:
+                has_additional_info = len(self.data["ActionsTakenAdditionalData"]) > 0
+            has_report_specific_data = has_actions_taken or has_additional_info
+
+        return has_agency_survey_data or has_program_survey_data or has_report_specific_data

@@ -3,8 +3,9 @@ Agency: NSF
 Agency_Name: National Science Foundation
 Confirmed_Fraud: null
 Eligibility_Themes: []
-Fiscal_Year: 2024
+Fiscal_Year: 2025
 Hide_Disposition_of_Funds: true
+Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
@@ -22,9 +23,9 @@ Improper_Payments_Rate_Min: 0
 Improper_Payments_Rates: '[]'
 Is_Placeholder: false
 Overpayment_Amounts: '[]'
-Overpayment_Amounts_Identified: '[15.1334559426, 6.705, 13.9, 9.71, 35.42]'
-Overpayment_Amounts_Recovered: '[12.73936033, 6.405, 10.0, 9.88, 32.7]'
-Overpayment_Years: '[2020, 2021, 2022, 2023, 2024]'
+Overpayment_Amounts_Identified: '[6.705, 13.9, 9.71, 35.42, 16.01]'
+Overpayment_Amounts_Recovered: '[6.405, 10.0, 9.88, 32.7, 16.01]'
+Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
 PIIA2019_Compliant_Programs:
 - Compliant_1A: true
   Compliant_1B: true
@@ -37,6 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Contracts and Individual Payments
 - Compliant_1A: true
   Compliant_1B: true
@@ -49,6 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Grants and Cooperative Agreements
 - Compliant_1A: true
   Compliant_1B: true
@@ -61,6 +64,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Payments to Employees
 - Compliant_1A: true
   Compliant_1B: true
@@ -73,6 +77,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Purchase Cards - National Science Foundation
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
@@ -82,27 +87,27 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
     Program_Name: Contracts and Individual Payments
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
     Program_Name: Grants and Cooperative Agreements
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
     Program_Name: Payments to Employees
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
-    Program_Name: Purchase Cards
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
     Program_Name: Purchase Cards - National Science Foundation
     Slug: null
     Susceptible: 'No'
-  SubstantialChangesMade: 'No'
+  SubstantialChangesMade: null
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -110,78 +115,47 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2025
 - 2024
 - 2023
 - 2022
 - 2021
-detail_CAP5: null
-detail_agy1: null
-detail_ara1: 'Yes'
-detail_ara2: 'No'
-detail_ara2_1: null
-detail_ara2_2: null
-detail_ara2_3: NSF does not conduct recovery audits. NSF's analysis determined that
-  it would not be cost effective for the agency to conduct a recovery audit program.
-  No circumstances have changed within any of NSF's programs that require an additional
-  recovery audit cost-effectiveness analysis.
-detail_ara2_3_2: Grants and Cooperative Agreements, Contracts and Individual Payments,
-  NSF Purchase Cards and Payments to Employees.
-detail_arp10: null
-detail_arp11: null
-detail_arp12: null
-detail_arp14: null
-detail_arp15: null
-detail_arp16: null
-detail_arp16_5: null
-detail_arp17: null
-detail_arp18: 'NSF recovery activities include but are not limited to: resolution
-  of questioned costs identified in audit reports, agency post-payment reviews, and
-  other remittances received during normal payment operations. Not all remittances
-  that NSF receives through normal payment operations are considered overpayments
-  as defined in PIIA. However, NSF includes all of these operational remittances in
-  its overpayments identified and recovered totals for completeness. For audit resolution
-  and agency post-payment reviews, NSF uses
-
-  electronic notices/letters to identify and recover overpayments identified through
-  these specific recovery activities.'
-detail_arp4: null
-detail_arp4_1: '0.0'
-detail_arp5: null
-detail_arp5_1: null
-detail_arp7: null
-detail_arp8: null
-detail_arp9: null
-detail_cap3: null
-detail_cap4: null
-detail_com1: Compliant
-detail_dpa1: 'Yes'
-detail_dpa2: 'Yes'
-detail_dpa3: Annually
-detail_dpa5: 'All NSF payments are compliant with Treasury’s Payment Application Modernization
-  format and are screened against the following data sources: Social Security Death
-  Master File (DMF) [public information] and the GSA System for Award Management (SAM)
-  Exclusion Records [restricted information]. Any subsequent matches are viewable
-  in Treasury’s DNP online portal for adjudication purposes. There was 1 positive
-  DNP match on a payment of $400 that NSF issued in FY2024 which was ultimately determined
+detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
+detail_Compliance_Status: Compliant
+detail_DNP_Discussion: 'All NSF payments are compliant with Treasury’s Payment Application
+  Modernization format and are screened against the following data sources: Social
+  Security Death Master File (DMF) [public information] and the GSA System for Award
+  Management (SAM) Exclusion Records [restricted information]. Any subsequent matches
+  are viewable in Treasury’s DNP online portal for adjudication purposes. There was
+  1 positive DNP match to a payment of $400 that NSF issued in FY2025 which was determined
   to be proper.'
-detail_exs1: NSF has one mission program of Grants and Cooperative Agreements and
-  three other mission-related activities – Contracts and Individual Payments, NSF
-  Purchase Cards and Payments to Employees. NSF conducts risk assessments for all
-  programs with outlays over $10M on a three-year risk assessment cycle. NSF conducted
-  its most recent risk assessment in FY 2024, which concluded that the agency does
-  not have any programs which are likely to be susceptible to significant improper
+detail_DNP_Frequency_Identify: Annually
+detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: null
+detail_Executive_Summary: NSF has one mission program of Grants and Cooperative Agreements
+  and three other mission-related activities – Contracts and Individual Payments,
+  NSF Purchase Cards and Payments to Employees. NSF conducts risk assessments for
+  all programs with outlays over $10M on a three-year risk assessment cycle. The most
+  recent risk assessment was performed in FY 2024, which concluded that the agency
+  does not have any programs which are likely to be susceptible to significant improper
   payments. Based on NSF’s risk assessment, all of these programs and activities are
-  considered Phase I in accordance with the Payment Integrity Information Act of 2019
-  (PIIA).
-detail_pcp12_1: null
-detail_pcp14: NSF-OIG did not provide recommendations to further improve prevention
-  nor reduction of improper payments and unknown payments for the program in their
-  most recent PIIA compliance report.
-detail_raa8: 'No'
-detail_raa9: null
+  considered Phase I in accordance with Payment Integrity Information Act of 2019
+  (PIIA). NSF Purchase Cards outlays were below the $10M threshold for FY 2025.
+detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: null
+detail_PIIA_Incentives: null
+detail_PIIA_Official: null
+detail_Recovery_Audits_Skipped: 'No'
+detail_Recovery_Justifications_Audits: null
+detail_Recovery_Not_Cost_Effective_Justification: NSF does not conduct recovery audits.
+  NSF's analysis determined that it would not be cost effective for the agency to
+  conduct a recovery audit program.  No circumstances have changed within any of NSF's
+  programs that require an additional recovery audit cost-effectiveness analysis.
+detail_Risks_Substantial_Changes_Made: null
 layout: agency-specific
 permalink: agency/NSF.html
-recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 35.42
-recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 32.7
-recovery_Recovery_Audit_Amount_Identified_This_Reporting_Period_Determined_Not_Collectable_Rate: 0.0
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 16.01
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 16.01
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

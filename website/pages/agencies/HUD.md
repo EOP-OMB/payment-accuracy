@@ -3,8 +3,9 @@ Agency: HUD
 Agency_Name: Department of Housing and Urban Development
 Confirmed_Fraud: 0
 Eligibility_Themes: []
-Fiscal_Year: 2024
+Fiscal_Year: 2025
 Hide_Disposition_of_Funds: false
+Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: false
@@ -16,15 +17,15 @@ Hide_Risk_Assessment_Results: false
 Hide_Sparklines: false
 Hide_Supplemental_Info: false
 Hide_Supplemental_Payment_Integrity: true
-Improper_Payments_Data_Years: '[2021, 2022, 2024]'
+Improper_Payments_Data_Years: '[2021, 2022, 2024, 2025]'
 Improper_Payments_Rate_Max: 0.0
 Improper_Payments_Rate_Min: 0
-Improper_Payments_Rates: '[0.00026860630350464276, 0, 0]'
+Improper_Payments_Rates: '[0.00026860630350464276, 0, 0, 0]'
 Is_Placeholder: false
-Overpayment_Amounts: '[0.1023, 0, 0]'
-Overpayment_Amounts_Identified: '[1027.87500327, 23.8033333, 45.02, 40.38, 26.02]'
-Overpayment_Amounts_Recovered: '[389.05692327, 33.38139648, 26.55, 25.47, 30.25]'
-Overpayment_Years: '[2020, 2021, 2022, 2023, 2024]'
+Overpayment_Amounts: '[0.1023, 0, 0, 0]'
+Overpayment_Amounts_Identified: '[23.8033333, 45.02, 40.38, 26.02, 24.81]'
+Overpayment_Amounts_Recovered: '[33.38139648, 26.55, 25.47, 30.25, 23.86]'
+Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
 PIIA2019_Compliant_Programs:
 - Compliant_1A: true
   Compliant_1B: true
@@ -37,6 +38,21 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Appalachian Regional Commission (ARC)
+    Projects
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Community Planning and Development - Capacity Building
 - Compliant_1A: true
   Compliant_1B: true
@@ -49,8 +65,8 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Community Planning and Development - Community Development Block Grant - Disaster
-    Recovery Assistance - Sandy
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Community Development Block Grant – DRAA-Sandy
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -62,7 +78,9 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Community Planning and Development - Community Development Block Grants
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Community Development Block Grant – Disaster
+    Recovery
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -74,8 +92,9 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Community Planning and Development - Community Development Fund - Congressional
-    Earmarks
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Community Development Block Grants (CDBG)
+    - CDBG Insular Areas - CDBG Entitlement - CDBG Non-Entitlement
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -87,6 +106,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Community Planning and Development - Community Development Fund - Recovery
     Act
 - Compliant_1A: true
@@ -100,8 +120,9 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Community Planning and Development - Congressional Earmarks - Economic Development
-    Initiative - Special Projects/Neighborhood Initiatives
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Community Development Loan Guarantees-
+    Section 108
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -113,8 +134,9 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Community Planning and Development - Disaster Recovery Assistance (Louisiana,
-    Texas, West Virginia, Hurricane IKE, Other Disasters)
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Community Project Funding - Community
+    Project/Congressional Funding
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -126,7 +148,9 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Community Planning and Development - HOME Investment Partnerships Program
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Congressional Earmarks – Economic Development
+    Initiative – Special Projects /Neighborhood Initiatives
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -138,6 +162,74 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - DOT SURFACE TRANSPORTATION PROJ
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - EMPOWERMENT ZONES, ENTERPRISE COMMUNITIES
+    AND RENEWAL COMMUNITIES
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Economic Development Initiative (EDI)/Brownfields
+    Redevelopment Economic Development Initiatives (BEDI)
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - HOME Investments Partnership Program
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - HOPE 3 Technical Assistance
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Community Planning and Development - Homeless Assistance Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -150,6 +242,34 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Homeless Prevention Rapid Re-Housing
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Housing Certificate Fund & Tenant Based
+    Rental Assistance
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Community Planning and Development - Housing Opportunities for Persons with
     AIDS
 - Compliant_1A: true
@@ -163,6 +283,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Community Planning and Development - Housing Trust Fund
 - Compliant_1A: true
   Compliant_1B: true
@@ -175,8 +296,8 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Community Planning and Development - Project Based Section 8 (Renewal of Expiring
-    Section 8 Mod Rehab Single Room Occupancy)
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Nehemiah Housing Opportunity Grants
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -188,6 +309,61 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Neighborhood Initiatives Program
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Neighborhood Stabilization Program
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: 'Community Planning and Development - Office of University Partnership Grants:
+    (Special Purpose Grants)'
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Project Based Section 8 - Renewal of
+    Expiring Sec. 8 Mod Rehab SRO
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Community Planning and Development - Public Laws 115-123, 115-56, and 115-72
 - Compliant_1A: true
   Compliant_1B: true
@@ -200,7 +376,8 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Community Planning and Development - Self-Help Homeownership Opportunity Program
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Rural Housing and Economic Development
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -212,6 +389,60 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Rural Innovation Fund
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Self-Help Homeownership Opportunity Program
+    (SHOP)
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Sustainable Communities Initiative Program
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Community Planning and Development - Veterans Housing Rehab Program
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Fair Housing and Equal Opportunity - Fair Housing Assistance Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -224,6 +455,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Fair Housing and Equal Opportunity - Fair Housing Initiatives Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -236,6 +468,21 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Federal Housing Administration - Contracts/Grants (includes Single Family
+    Upfront Grants)
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Federal Housing Administration - Federal Finance Bank Direct Loans
 - Compliant_1A: true
   Compliant_1B: true
@@ -248,6 +495,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Federal Housing Administration - Financial Analysis & Controls Division
 - Compliant_1A: true
   Compliant_1B: true
@@ -260,7 +508,8 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Federal Housing Administration - Home Equity Conversion Mortgage Claims
+  Hide_Compliance_Section: true
+  Name: Federal Housing Administration - Home Equity Conversion Mortgage (HECM) Claims
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -272,7 +521,8 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Federal Housing Administration - Home Equity Conversion Mortgage Notes
+  Hide_Compliance_Section: true
+  Name: Federal Housing Administration - Home Equity Conversion Mortgage (HECM) Notes
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -284,7 +534,8 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Federal Housing Administration - Multi-Family Insurance Claims
+  Hide_Compliance_Section: true
+  Name: Federal Housing Administration - Multi-Family Insurance Claims (MFIC)
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -296,6 +547,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Federal Housing Administration - Multi-Family Notes
 - Compliant_1A: true
   Compliant_1B: true
@@ -308,6 +560,33 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Federal Housing Administration - Multi-Family Premium Refunds
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Federal Housing Administration - MultiFamily Property
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Federal Housing Administration - Other Disbursements
 - Compliant_1A: true
   Compliant_1B: true
@@ -320,6 +599,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Federal Housing Administration - Single Family Claims
 - Compliant_1A: true
   Compliant_1B: true
@@ -332,8 +612,8 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Federal Housing Administration - Single Family Property (Single Family Acquired
-    Asset Management System)
+  Hide_Compliance_Section: true
+  Name: Federal Housing Administration - Single Family Notes
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -345,6 +625,35 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Federal Housing Administration - Single Family Premium Refunds - Distributive
+    Shares and Refund System (DSRS)
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Federal Housing Administration - Single Family Property (Single Family Acquired
+    Asset Management System) (SAMS)
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Federal Housing Administration - Title I Claims
 - Compliant_1A: true
   Compliant_1B: true
@@ -357,7 +666,8 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Ginnie Mae - Grants, Subsidies, And Contributions
+  Hide_Compliance_Section: true
+  Name: Federal Housing Administration - Title I Notes
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -369,7 +679,8 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Ginnie Mae - Master Sub-Servicer Default Activity
+  Hide_Compliance_Section: true
+  Name: Ginnie Mae - Guarantees of Mortgage-backed Securities Financing Account
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -381,7 +692,8 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Ginnie Mae - Other Contractual Services
+  Hide_Compliance_Section: true
+  Name: Ginnie Mae - Guarantees of Mortgage-backed Securities Liquidating Account
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -393,6 +705,98 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Ginnie Mae - Guarantees of Mortgage-backed Securities Loan Guarantee Program
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Housing - College Housing Debt Service Grants
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Housing - Emergency Homeowners' Loan Program - DL Financing Acct
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Housing - Emergency Homeowners' Relief Fund
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Housing - Energy Innovation Fund
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Housing - Flexible Subsidy
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Housing - Green Retrofit Program for Multifamily Housing - Recovery Act
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Housing - Green and Resilient Retrofit Program (GRRP)
 - Compliant_1A: true
   Compliant_1B: true
@@ -405,6 +809,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Housing - Housing Counseling Assistance
 - Compliant_1A: true
   Compliant_1B: true
@@ -417,7 +822,8 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Housing - Housing for Special Populations - Capital Advance portion of expenditures,
+  Hide_Compliance_Section: true
+  Name: Housing - Housing for Special Populations- Capital Advance portion of expenditures,
     Section 202
 - Compliant_1A: true
   Compliant_1B: true
@@ -430,7 +836,9 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Housing - Project-Based Rental Assistance Section 8 Moderate Rehabilitation
+  Hide_Compliance_Section: true
+  Name: Housing - Housing for the Elderly or Handicapped- DL Liquidating Acct- Section
+    202
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -442,7 +850,8 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Housing - Rental Housing Assistance Program - Section 236
+  Hide_Compliance_Section: true
+  Name: Housing - Manufactured Housing
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -454,8 +863,8 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Housing - Section 811 Housing for Persons with Disabilities (Project Rental
-    Assistance Contract and Capital Advance)
+  Hide_Compliance_Section: true
+  Name: Housing - MultiFamily Upfront Grants- GI AND SRI INSURANCE FUND
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -467,6 +876,47 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Housing - Rent Supplement
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Housing - Rental Housing Assistance Program- Section 236
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Housing - Section 811 Housing for Persons with Disabilities (PRAC and Capital
+    Advance)
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Office of Healthy Homes Lead Hazard Control - Lead Hazard Reduction
 - Compliant_1A: true
   Compliant_1B: true
@@ -479,7 +929,8 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
-  Name: Office of Inspector General - Department of Housing and Urban Development
+  Hide_Compliance_Section: true
+  Name: Office of Inspector General (OIG)
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -491,6 +942,20 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Policy Development and Research - PDR Managed Technical Assistance Grants
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Policy Development and Research - Research and Technology
 - Compliant_1A: true
   Compliant_1B: true
@@ -503,6 +968,21 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Public and Indian Housing - Assisted Housing Inspections and Risk Assessments
+    (AHIRA)
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Public and Indian Housing - Choice Neighborhoods Initiative
 - Compliant_1A: true
   Compliant_1B: true
@@ -515,6 +995,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Public and Indian Housing - Family Self-Sufficiency Program
 - Compliant_1A: true
   Compliant_1B: true
@@ -527,6 +1008,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Public and Indian Housing - Indian Community Development Block Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -539,6 +1021,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Public and Indian Housing - Indian Housing Loan Guarantee Program - Sec. 184
 - Compliant_1A: true
   Compliant_1B: true
@@ -551,6 +1034,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Public and Indian Housing - Native American Housing Block Grants
 - Compliant_1A: true
   Compliant_1B: true
@@ -563,6 +1047,20 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Public and Indian Housing - Native Hawaiian Housing Block Grants
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Public and Indian Housing - Native Hawaiian Housing Loan Guarantee Program
     - Sec. 184a
 - Compliant_1A: true
@@ -576,6 +1074,21 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Public and Indian Housing - Project-Based Rental Assistance Section 8 Moderate
+    Rehabilitation
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Public and Indian Housing - Public Housing Capital Fund
 - Compliant_1A: true
   Compliant_1B: true
@@ -588,6 +1101,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Public and Indian Housing - Public Housing Operating Fund
 - Compliant_1A: true
   Compliant_1B: true
@@ -600,481 +1114,929 @@ PIIA2019_Compliant_Programs:
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Public and Indian Housing - Revitalization of Severely Distressed Public Housing
+    (HOPE VI)
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Salaries and Expenses
 PIIA2019_NonCompliant_Programs:
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
   Compliant_2B: true
-  Compliant_3: false
+  Compliant_3: true
   Compliant_4: true
   Compliant_5A: true
   Compliant_5B: true
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
-  Name: Housing - Rental Housing Assistance Program - Project Based Rental Assistance
-    - Project Based Section 8 - Rental Housing Assistance Program - Section 236 -Housing
-    for Persons with Disability - Section 811
-  Slug: hud-housing-rental-housing-assistance-program-project-based--7c3c0b0a
+  Hide_Compliance_Section: true
+  Name: Housing - Rental Housing Assistance Program (RHAP) - Project Based Rental
+    Assistance - Project Based Section 8 - Rental Housing Assistance Program- Section
+    236 - Housing for Persons with Disability- Section 811
+  Slug: hud-housing-rental-housing-assistance-program-rhap-project-b-6dfc0485
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
   Compliant_2B: true
-  Compliant_3: false
+  Compliant_3: true
   Compliant_4: true
   Compliant_5A: true
   Compliant_5B: true
   Compliant_5C: true
   Compliant_6: true
   Compliant_Overall: false
-  Name: Public and Indian Housing - Rental Housing Assistance Program - Tenant Based
-    Rental Assistance - Section 8 - Housing Certificate Fund & Tenant Based Rental
+  Hide_Compliance_Section: true
+  Name: Public and Indian Housing - Rental Housing Assistance Program (RHAP) - Tenant
+    Based Rental Assistance Section 8 - Housing Certificate Fund & Tenant Based Rental
     Assistance
-  Slug: hud-public-and-indian-housing-rental-housing-assistance-prog-eaeacd55
-Payment_Accuracy_Amounts: '[38085.377166169994, 1535.59, 15191.36]'
+  Slug: hud-public-and-indian-housing-rental-housing-assistance-prog-485c7c79
+Payment_Accuracy_Amounts: '[38085.377166169994, 1535.59, 15191.36, 44610.97]'
 Payment_Accuracy_Rate_Max: 100.0
-Payment_Accuracy_Rate_Min: 99.7
-Payment_Accuracy_Rates: '[99.9997299920337, 99.81280102959434, 99.70308336505519]'
+Payment_Accuracy_Rate_Min: 88.4
+Payment_Accuracy_Rates: '[99.9997299920337, 99.81280102959434, 99.70308336505519,
+  88.44537194524635]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: 2023
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Community Planning and Development - Appalachian Regional Commission
+      (ARC) Projects
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2023'
+    MethodologyChanged: 0
     Program_Name: Community Planning and Development - Capacity Building
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
     Program_Name: Community Planning and Development - Community Development Block
-      Grant - Disaster Recovery Assistance - Sandy
+      Grant – Disaster Recovery
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2023'
+    MethodologyChanged: 0
     Program_Name: Community Planning and Development - Community Development Block
-      Grants
+      Grant – DRAA-Sandy
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: Community Planning and Development - Community Development Block
+      Grants (CDBG) - CDBG Insular Areas - CDBG Entitlement - CDBG Non-Entitlement
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
     Program_Name: Community Planning and Development - Community Development Fund
-      - Congressional Earmarks
+      - Recovery Act
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2020
+    Susceptible: null
+  - Fiscal_Year: '2020'
+    MethodologyChanged: 0
     Program_Name: Community Planning and Development - Community Development Loan
       Guarantees- Section 108
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
-    Program_Name: Community Planning and Development - Congressional Earmarks - Economic
-      Development Initiative - Special Projects/Neighborhood Initiatives
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: Community Planning and Development - Community Project Funding -
+      Community Project/Congressional Funding
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2022
-    Program_Name: Community Planning and Development - Disaster Recovery Assistance
-      (Louisiana, Texas, West Virginia, Hurricane IKE, Other Disasters)
+  - Fiscal_Year: '2020'
+    MethodologyChanged: 0
+    Program_Name: Community Planning and Development - Congressional Earmarks – Economic
+      Development Initiative – Special Projects /Neighborhood Initiatives
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
-    Program_Name: Community Planning and Development - Economic Development Initiative/Brownfields
-      Redevelopment Economic Development Initiative
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Community Planning and Development - DOT SURFACE TRANSPORTATION
+      PROJ
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2022
-    Program_Name: Community Planning and Development - HOME Investment Partnerships
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Community Planning and Development - Economic Development Initiative
+      (EDI)/Brownfields Redevelopment Economic Development Initiatives (BEDI)
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Community Planning and Development - EMPOWERMENT ZONES, ENTERPRISE
+      COMMUNITIES AND RENEWAL COMMUNITIES
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Community Planning and Development - HOME Investments Partnership
       Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
+    MethodologyChanged: 0
     Program_Name: Community Planning and Development - Homeless Assistance Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2022
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Community Planning and Development - Homeless Prevention Rapid Re-Housing
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Community Planning and Development - HOPE 3 Technical Assistance
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Community Planning and Development - Housing Certificate Fund &
+      Tenant Based Rental Assistance
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
     Program_Name: Community Planning and Development - Housing Opportunities for Persons
       with AIDS
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
     Program_Name: Community Planning and Development - Housing Trust Fund
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
+    MethodologyChanged: 0
     Program_Name: Community Planning and Development - Nehemiah Housing Opportunity
       Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2020'
+    MethodologyChanged: 0
+    Program_Name: Community Planning and Development - Neighborhood Initiatives Program
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2023'
+    MethodologyChanged: 0
     Program_Name: Community Planning and Development - Neighborhood Stabilization
       Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
-    Program_Name: Community Planning and Development - Project Based Section 8 (Renewal
-      of Expiring Section 8 Mod Rehab Single Room Occupancy)
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: 'Community Planning and Development - Office of University Partnership
+      Grants: (Special Purpose Grants)'
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Community Planning and Development - Project Based Section 8 - Renewal
+      of Expiring Sec. 8 Mod Rehab SRO
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
     Program_Name: Community Planning and Development - Public Laws 115-123, 115-56,
       and 115-72
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
+    MethodologyChanged: 0
     Program_Name: Community Planning and Development - Rural Housing and Economic
       Development
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
+  - Fiscal_Year: '2020'
+    MethodologyChanged: 0
     Program_Name: Community Planning and Development - Rural Innovation Fund
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
     Program_Name: Community Planning and Development - Self-Help Homeownership Opportunity
-      Program
+      Program (SHOP)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Community Planning and Development - Sustainable Communities Initiative
+      Program
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Community Planning and Development - Veterans Housing Rehab Program
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2023'
+    MethodologyChanged: 0
     Program_Name: Fair Housing and Equal Opportunity - Fair Housing Assistance Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
+    MethodologyChanged: 0
     Program_Name: Fair Housing and Equal Opportunity - Fair Housing Initiatives Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
+  - Fiscal_Year: '2020'
+    MethodologyChanged: 0
     Program_Name: Federal Housing Administration - Contracts/Grants (includes Single
       Family Upfront Grants)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
+  - Fiscal_Year: '2020'
+    MethodologyChanged: 0
     Program_Name: Federal Housing Administration - Federal Finance Bank Direct Loans
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2022
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Housing Administration - Financial Analysis & Controls Division
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
     Program_Name: Federal Housing Administration - Home Equity Conversion Mortgage
-      Claims
+      (HECM) Claims
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2022
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
     Program_Name: Federal Housing Administration - Home Equity Conversion Mortgage
-      Notes
+      (HECM) Notes
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2022
-    Program_Name: Federal Housing Administration - Multi-Family Insurance Claims
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Federal Housing Administration - Multi-Family Insurance Claims (MFIC)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
     Program_Name: Federal Housing Administration - Multi-Family Notes
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2021
+  - Fiscal_Year: '2021'
+    MethodologyChanged: 0
     Program_Name: Federal Housing Administration - Multi-Family Premium Refunds
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Federal Housing Administration - MultiFamily Property
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2023'
+    MethodologyChanged: 0
     Program_Name: Federal Housing Administration - Other Disbursements
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
     Program_Name: Federal Housing Administration - Single Family Claims
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
+  - Fiscal_Year: '2020'
+    MethodologyChanged: 0
     Program_Name: Federal Housing Administration - Single Family Notes
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2019
+  - Fiscal_Year: '2019'
+    MethodologyChanged: 0
     Program_Name: Federal Housing Administration - Single Family Premium Refunds -
-      Distributive Shares and Refund System
+      Distributive Shares and Refund System (DSRS)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
+    MethodologyChanged: 0
     Program_Name: Federal Housing Administration - Single Family Property (Single
-      Family Acquired Asset Management System)
+      Family Acquired Asset Management System) (SAMS)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
+  - Fiscal_Year: '2020'
+    MethodologyChanged: 0
     Program_Name: Federal Housing Administration - Title I Claims
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
+  - Fiscal_Year: '2020'
+    MethodologyChanged: 0
     Program_Name: Federal Housing Administration - Title I Notes
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2021
-    Program_Name: Ginnie Mae - Contractor Payments
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Ginnie Mae - Guarantees of Mortgage-backed Securities Financing
+      Account
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
-    Program_Name: Ginnie Mae - Master Sub-Servicer Default Activity
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Ginnie Mae - Guarantees of Mortgage-backed Securities Liquidating
+      Account
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
-    Program_Name: Ginnie Mae - Other Contractual Services
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Ginnie Mae - Guarantees of Mortgage-backed Securities Loan Guarantee
+      Program
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2021
-    Program_Name: Ginnie Mae - Pass Through Assistance Program (PTAP)
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Housing - College Housing Debt Service Grants
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2020
-    Program_Name: Ginnie Mae - Refunds Program
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Housing - Emergency Homeowners' Loan Program - DL Financing Acct
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2020
-    Program_Name: Ginnie Mae - Soldiers' and Sailors' Civil Relief Act Program Reimbursement
-      and Multi-Family 1% Reimbursement Program
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Housing - Emergency Homeowners' Relief Fund
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2019
-    Program_Name: Ginnie Mae - Unclaimed Security Holder Payments
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Housing - Energy Innovation Fund
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2019
+    Susceptible: null
+  - Fiscal_Year: '2019'
+    MethodologyChanged: 0
     Program_Name: Housing - Flexible Subsidy
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Housing - Green and Resilient Retrofit Program (GRRP)
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Housing - Green Retrofit Program for Multifamily Housing - Recovery
+      Act
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
     Program_Name: Housing - Housing Counseling Assistance
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
-    Program_Name: Housing - Housing for Special Populations - Capital Advance portion
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: Housing - Housing for Special Populations- Capital Advance portion
       of expenditures, Section 202
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Housing - Housing for the Elderly or Handicapped- DL Liquidating
+      Acct- Section 202
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2020'
+    MethodologyChanged: 0
     Program_Name: Housing - Manufactured Housing
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2022
-    Program_Name: Housing - Project-Based Rental Assistance Section 8 Moderate Rehabilitation
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Housing - MultiFamily Upfront Grants- GI AND SRI INSURANCE FUND
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2019
+    Susceptible: null
+  - Fiscal_Year: '2019'
+    MethodologyChanged: 0
     Program_Name: Housing - Rent Supplement
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
-    Program_Name: Housing - Rental Housing Assistance Program - Section 236
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Housing - Rental Housing Assistance Program (RHAP) - Project Based
+      Rental Assistance - Project Based Section 8 - Rental Housing Assistance Program-
+      Section 236 - Housing for Persons with Disability- Section 811
+    Slug: hud-housing-rental-housing-assistance-program-rhap-project-b-6dfc0485
+    Susceptible: 'Yes'
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: Housing - Rental Housing Assistance Program- Section 236
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
-    Program_Name: Housing - Section 811 Housing for Persons with Disabilities (Project
-      Rental Assistance Contract and Capital Advance)
+  - Fiscal_Year: '2023'
+    MethodologyChanged: 0
+    Program_Name: Housing - Section 811 Housing for Persons with Disabilities (PRAC
+      and Capital Advance)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
-    Program_Name: Information Technology Fund - Other Contractual Services
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
     Program_Name: Office of Healthy Homes Lead Hazard Control - Lead Hazard Reduction
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
-    Program_Name: Office of Inspector General - Other Contractual Services
+  - Fiscal_Year: '2020'
+    MethodologyChanged: 0
+    Program_Name: Office of Inspector General (OIG)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2022
-    Program_Name: Office of the Chief Procurement Officer - Payments to Federal Contractors
-      - Transformation Initiative
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Policy Development and Research - PDR Managed Technical Assistance
+      Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
+    MethodologyChanged: 0
     Program_Name: Policy Development and Research - Research and Technology
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Public and Indian Housing - Assisted Housing Inspections and Risk
+      Assessments (AHIRA)
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2023'
+    MethodologyChanged: 0
     Program_Name: Public and Indian Housing - Choice Neighborhoods Initiative
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2024
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
     Program_Name: Public and Indian Housing - Family Self-Sufficiency Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2022
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
     Program_Name: Public and Indian Housing - Indian Community Development Block Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Public and Indian Housing - Indian Housing Loan Guarantee Program
+      - Sec. 184
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2023'
+    MethodologyChanged: 0
     Program_Name: Public and Indian Housing - Native American Housing Block Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
     Program_Name: Public and Indian Housing - Native Hawaiian Housing Block Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
-    Program_Name: Public and Indian Housing - Native Hawaiian Housing and Indian Home
-      Loan Guarantee - Section 184 Program Account
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Public and Indian Housing - Native Hawaiian Housing Loan Guarantee
+      Program - Sec. 184a
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2022'
+    MethodologyChanged: 0
+    Program_Name: Public and Indian Housing - Project-Based Rental Assistance Section
+      8 Moderate Rehabilitation
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2022
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
     Program_Name: Public and Indian Housing - Public Housing Capital Fund
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2023
+  - Fiscal_Year: '2023'
+    MethodologyChanged: 0
     Program_Name: Public and Indian Housing - Public Housing Operating Fund
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: 2020
-    Program_Name: Public and Indian Housing - Title VI Indian Federal Guarantees
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Public and Indian Housing - Rental Housing Assistance Program (RHAP)
+      - Tenant Based Rental Assistance Section 8 - Housing Certificate Fund & Tenant
+      Based Rental Assistance
+    Slug: hud-public-and-indian-housing-rental-housing-assistance-prog-485c7c79
+    Susceptible: 'Yes'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Public and Indian Housing - Revitalization of Severely Distressed
+      Public Housing (HOPE VI)
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: 2023
+    Susceptible: null
+  - Fiscal_Year: '2023'
+    MethodologyChanged: 0
     Program_Name: Salaries and Expenses
     Slug: null
     Susceptible: 'No'
   SubstantialChangesMade: 'No'
-Technically_Improper_Amounts: '[0, 0, 0]'
-Underpayment_Amounts: '[0, 0, 0]'
-Unknown_Amounts: '[0.00053383, 2.88, 45.24]'
-Unknown_Payments_Rate_Max: 0.3
+Technically_Improper_Amounts: '[0, 0, 0, 0]'
+Underpayment_Amounts: '[0, 0, 0, 0]'
+Unknown_Amounts: '[0.00053383, 2.88, 45.24, 5828.040000000001]'
+Unknown_Payments_Rate_Max: 11.6
 Unknown_Payments_Rate_Min: 0.0
-Unknown_Payments_Rates: '[1.4016627859226142e-06, 0.18719897040566277, 0.29691663494480397]'
+Unknown_Payments_Rates: '[1.4016627859226142e-06, 0.18719897040566277, 0.29691663494480397,
+  11.554628054753653]'
 Years_Available:
+- 2025
 - 2024
 - 2023
 - 2022
 - 2021
-detail_CAP5: "OIG did not make any new recommendations in 2024-FO-0006 but the three\
-  \ recommendations from prior reports remain open:\n\n2022-FO-0005 2A - Develop and\
-  \ implement a plan that ensures the continuity of adequate internal controls over\
-  \ the PIH-TBRA program to detect and prevent improper payments, which can be implemented\
-  \ in a virtual environment. This plan should include how HUD can review tenant files\
-  \ or other information that validates tenant data remotely without compromising\
-  \ PII. \n\n2023-FO-0009 1A - Establish an improper payment council within HUD that\
-  \ consists of senior accountable officials from across the Department with a role\
-  \ in the effort that would work to identify risks and challenges to compliance and\
-  \ identify solutions as a collaborative group. This is a priority open recommendation.\
-  \ A final action target date has not been established for this recommendation because\
-  \ OCFO has not provided an acceptable proposed management decision*.\n\n2024-IG-0001\
-  \ - Develop and execute a detailed plan and timeline for both testing and reporting\
-  \ estimates of improper payments in the PIH-TBRA and PBRA programs in compliance\
-  \ with Federal law and OMB guidance.\n\nTBRA: Attempted to leverage an existing\
-  \ Housing Assistance Payment Reconciliation report to report Payee Tier IP/UP rate\
-  \ in FY24. Ultimately, this approach did not meet the Payment Integrity requirements\
-  \ nor have the necessary precision for reporting. PIH is undergoing system modernization\
-  \ which will provide visibility at the tenant level and will allow for lower-level\
-  \ testing. System modernization completion date is targeted for FY27.\n\nPBRA: HUD\
-  \ published IP/UP rate for the Payee Tier for this program in FY24 based upon OMB\
-  \ guidance.\n* HUD does not agree with recommendation 2023-FO-0009 1A."
-detail_agy1: null
-detail_ara1: 'Yes'
-detail_ara2: 'Yes'
-detail_ara2_1: "Office of Healthy Homes Lead Hazard Control - Lead Hazard Reduction\n\
-  During grant execution, the Office of Lead Hazard Control and Healthy Homes (OLHCHH)\
-  \ reviews grantee invoices, vouchers and supporting documentation. If an improper\
-  \ payment is identified, the Government Technical Representative (GTR) or the COR,\
-  \ as applicable, provides fund recipients with documentation of the determination\
-  \ of the improper payment, the regulatory, grant-specific, and/or contractual basis\
-  \ for recovering the improper payment, a due date for recoupment, and a due-process\
-  \ opportunity to appeal. The appeal, if made, goes to the Grants Division Director\
-  \ (for grants) or the COR (for contracts), as applicable. Should the request not\
-  \ be appealed, or the appeal denied, and the funding recipient did not refund the\
-  \ improper payment, the matter would be referred to the OGC for action. \nDuring\
-  \ the close-out of a grant, if it is determined that a financial error occurred,\
-  \ the grantee is asked to provide an explanation for the problem and, if required\
-  \ by the GTR, the grantee submits a check to resolve the financial shortfall. The\
-  \ COR forwards the check and a letter of explanation to the Budget Officer for the\
-  \ recapturing of funds. \nIn addition, the GTR includes a copy of the check and\
-  \ the letter of explanation with the close-out package to the Grants Officer. The\
-  \ Grants Officer documents the returned funds on form HUD-1044 (Assistance Award/Assistance).\
-  \ OLHCHH’s process assures quality spending and monitoring for reimbursable funding.\
-  \ The likelihood of improper reimbursements are low due to several reasons. OLHCHH\
-  \ is a reimbursement program; the funds distributed are for services that have already\
-  \ been completed and invoiced. Additionally, every three months, grantees submit\
-  \ information on work performed and provide a financial statement using the Federal\
-  \ Financial Report (SF-425), HUD-Part 3 Budget form, and supporting documentation.\
-  \ The SF-425, HUD-Part 3 Budget form, and the LOCCS VRS Request Voucher for Grant\
-  \ Payment (form HUD-27053) must match data in LOCCS and all totals must be the same.\
-  \ Under remote monitoring, a GTR performs a review to ensure accuracy, as needed.\
-  \ On-site monitoring is conducted once a year after a risk analysis is completed\
-  \ and/or high-risk is determined for each grantee. Poor performing grantees are\
-  \ required to submit weekly or monthly reports. During grant execution, the OLHCHH\
-  \ reviews grantee invoices, vouchers and supporting documentation. If an improper\
-  \ payment is identified, the GTR or the COR, as applicable, provides fund recipients\
-  \ with documentation of the determination of the improper payment, the regulatory,\
-  \ grant-specific, and/or contractual basis for recovering the improper payment,\
-  \ a due date for recoupment, and a due-process opportunity to appeal. The appeal,\
-  \ if made, goes to the Grants Division Director (for grants) or the COR (for contracts),\
-  \ as applicable. Should the request not be appealed, or the appeal denied, and the\
-  \ funding recipient did not refund the improper payment, the matter would be referred\
-  \ to the OGC for action. \nDuring the close-out of a grant, if it is determined\
-  \ that a financial error occurred, the grantee is asked to provide an explanation\
-  \ for the problem and, if required by the GTR, the grantee submits a check to resolve\
-  \ the financial shortfall. The COR forwards the check and a letter of explanation\
-  \ to the Budget Officer for the recapturing of funds. \nIn addition, the GTR includes\
-  \ a copy of the check and the letter of explanation with the close-out package to\
-  \ the Grants Officer. The Grants Officer documents the returned funds on form HUD-1044\
-  \ (Assistance Award/Assistance). OLHCHH’s process assures quality spending and monitoring\
-  \ for reimbursable funding. The risks of improper reimbursements are low due to\
-  \ several reasons. OLHCHH is a reimbursement program; the funds distributed are\
-  \ for services that have already been completed and invoiced. Additionally, every\
-  \ three months, grantees submit information on work performed and provide a financial\
-  \ statement using the Federal Financial Report (SF-425), HUD-Part 3 Budget form,\
-  \ and supporting documentation. The SF-425, HUD-Part 3 Budget form, and the LOCCS\
-  \ VRS Request Voucher for Grant Payment (form HUD-27053) must match data in LOCCS\
-  \ and all totals must be the same. Under remote monitoring, a GTR performs a review\
-  \ to ensure accuracy, as needed. On-site monitoring is conducted once a year after\
-  \ a risk analysis is completed and/or high-risk is determined for each grantee.\
-  \ Poor performing grantees are required to submit weekly or monthly reports.\n\n\
-  Salaries and Expenses\nFor the Payroll, Benefits and Retirement Division (PBRD),\
-  \ The Office of the Chief Human Capital Officer (OCHCO) reviews the unpaid report\
-  \ to ensure all HUD employees are paid based on their certified timecard for the\
-  \ Personnel Office Identifier (POI) 4408. If erroneous payments were made due to\
-  \ an error in personnel and benefits, OCHCO then takes the necessary action(s) to\
-  \ rectify the mistake. For example, OCHCO collaborates with the BFS and the Department\
-  \ of Agriculture’s National Finance Center (NFC) to run all the necessary reports\
-  \ to determine where the discrepancy was made. Once the source has been identified,\
-  \ OCHCO corrects the issue or determines if it is feasible to correct the improper\
-  \ payment. Through the PBRD quality review process, overpayments are identified\
-  \ and validated. Once validated and corrected through the NFC database, the debt\
-  \ is generated, and the employee is notified of the indebtedness. After due process,\
-  \ the collection process is initiated. \nAlso, the Human Resources (HR) Division\
-  \ performs a quality review based on the personnel data generated from the NFC FOCUS\
-  \ report or NFC Reporting Center application for personnel and benefits actions.\
-  \ The report data is used to determine, personnel data or duty locations which will\
-  \ cause an overpayment for the employee. If so, the History Correction Update Processing\
-  \ (HCUP) system is used to correct the error, which will automatically generate\
-  \ a bill if it is within twenty-six (26) pay periods. Outside of the pay period\
-  \ timeframe, HR will manually calculate the amount owed and enter the data to be\
-  \ submitted to NFC via the Special Payroll Processing System (SPPS). The employee\
-  \ will be informed of the indebtedness; and have an opportunity to setup a payment\
-  \ plan. \nAs part of the bi-weekly payroll projection process, OCFO-Budget runs\
-  \ reports from OBI’s repository of payroll reports and flags any payroll corrections\
-  \ or unusual payroll activities for program budget offices. Upon request and on\
-  \ an ad-hoc basis, OCFO-Budget provides assistance in the correction of improper\
-  \ payroll payments by running reports from OBI’s repository of payroll reports (Cost\
-  \ and Hours report) and providing data regarding payroll corrections to program\
-  \ budget offices and Treasury’s ARC. \nThe Administrative Control of Funds Policies\
-  \ Handbook outlines procedures and points to additional guidance program offices\
-  \ follow that can lead to the identification, recovery, and prevention of future\
-  \ improper payments.\n\nMultiFamily Notes\nThe MFNSB is responsible for overseeing\
+detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '6.99'
+detail_Compliance_Status: Non-Compliant
+detail_DNP_Discussion: 'As of May 1st, 2025, HUD successfully reestablished its Computer
+  Matching Agreement (CMA) with the Department of the Treasury to use Treasury''s
+  Do Not Pay working system. This partnership will better enable HUD to detect potential
+  fraud, waste, and abuse by comparing data such as Social Security Numbers and names
+  of individuals applying for or receiving benefits. It will also facilitate batch
+  matching and continuous monitoring of disbursements, streamlining eligibility verification
+  processes and reducing fraud risk. The CMA represents a significant step toward
+  compliance with the requirements of the Payment Integrity Information Act (PIIA)
+  of 2019, including addressing HUD’s Office of the Inspector General (OIG) findings
+  in its fiscal year (FY) 2025 PIIA audit. HUD already started realizing the benefits
+  of Treasury’s Do Not Pay databases. For instance, HUD referenced Do Not Pay to flag
+  over $75 million of unknown payments made on behalf of deceased tenants in FY 2024
+  across the Tenant-Based Rental Assistance and Project-Based Rental Assistance high-risk
+  rental assistance programs. This new discovery enables HUD to strengthen its controls
+  over its payment processes, and, as it expands the use of Do Not Pay in FY 2026,
+  positions HUD to prevent and reduce improper payments.
+
+  '
+detail_DNP_Frequency_Identify: null
+detail_DNP_Reduced: null
+detail_Disposition_of_Funds: 'Single Family Claims:
+
+
+  The recovered amounts were returned to the original account. The funds are returned
+  by the servicer to the Mutual Mortgage Insurance (MMI) fund as a lump sum payment
+  as identified through our audit that is remitted through either HUD’s Accounts Receivable
+  System or collected from the Albany Financial Operations Center’s Debt Collection
+  process.
+
+  '
+detail_Executive_Summary: "HUD Enhances Rental Assistance Integrity, Uncovers Significant\
+  \ Deficiencies in the FY 2024 Payment Accuracy \n\nIn fiscal year 2025, HUD made\
+  \ significant strides in enhancing the integrity of rental assistance, supported\
+  \ by significant collaboration between program offices across HUD. \n\nThe OCFO\
+  \ introduced innovative methods and advanced analytics to evaluate tenant and recipient\
+  \ records. This approach allowed HUD to analyze millions of payment records from\
+  \ FY 2024, rather than relying on traditional sampling of just a few hundred records.\
+  \ As a result, HUD gained greater insights into potential risks and issues while\
+  \ identifying problematic records and estimating payments errors. This analytical\
+  \ strategy enables HUD to detect eligibility and payment errors more effectively,\
+  \ ensuring that taxpayer dollars are used efficiently.\n\nHUD disbursed just under\
+  \ $50 billion in federal rental assistance to non-federal entities (i.e., housing\
+  \ authorities, contract administrators, and landlords) during FY 2024, including\
+  \ more than $16 billion in Project-Based Rental Assistance (PBRA) and over $33 billion\
+  \ in Tenant-Based Rental Assistance (TBRA), serving more than four million households.\
+  \ This disbursement of funding design along with complex eligibility and program\
+  \ requirements, increased the risk of payment errors and highlights the necessity\
+  \ for more robust monitoring and verification tools for the rental assistance programs.\
+  \ \n\nThe directive from the Biden Administration to push funding out the door with\
+  \ minimal oversight and the design of HUD's rental assistance programs placed substantial\
+  \ trust and responsibility in these non-federal entities, such as housing authorities,\
+  \ contract administrators, and landlords, to accurately assess tenant eligibility\
+  \ for two of the most complex rental assistance programs. Moreover, the Biden Administration\
+  \ did not provide HUD with effective tools, technology, or access to the evidence\
+  \ necessary to verify whether these entities were properly enforcing the intricate\
+  \ rules governing rental assistance. Additionally, some HUD regulations added to\
+  \ the complexity and weaknesses in the program design. \n\nFor the first time, HUD\
+  \ evaluated all 4+ million tenant records and the registration status of more than\
+  \ 21,000 recipient organizations, uncovering eligibility issues affecting more than\
+  \ 200,000 tenants and identifying questionable payments totaling $5.8 billion (including\
+  \ approximately $4.3 billion (26.4%) of PBRA payments and $1.5 billion (4.4%) of\
+  \ TBRA payments).\n \nOther Management Actions: \nThroughout FY 2025, HUD undertook\
+  \ a series of additional initiatives to reduce fraud, waste and abuse and mitigate\
+  \ the causes of improper and unknown payments. \n\nIn addition, during FY 2025 the\
+  \ Office of Multifamily Housing and the Office of Public and Indian Housing strengthened\
+  \ controls with pre-award verifications to improve SAM.gov registration status,\
+  \ ensuring that funds were not paid to ineligible entities. \n\nHUD reestablished\
+  \ its Computer Matching Agreement with the Department of the Treasury as of May\
+  \ 1, 2025, and is working to enable near-real-time eligibility verification through\
+  \ the Treasury Do Not Pay verification portal. \n\nThe OCFO established the Strike\
+  \ Force to enhance efforts in eliminating fraud, corruption, and immigration violations\
+  \ within Public Housing Agencies (PHAs) as mandated by new regulations. To fulfill\
+  \ these mandates, the Strike Force utilizes publicly available information, compiles\
+  \ data from across HUD and identifies potential risk factors associated with PHAs\
+  \ and their personnel. This thorough analysis allows HUD to create detailed preliminary\
+  \ risk assessments and intelligence reports, which are then presented to relevant\
+  \ law enforcement agencies. This process accelerates the detection and resolution\
+  \ of possible misconduct, and the tailored methodology has already significantly\
+  \ decreased the research and reporting time from weeks to just days. During FY 2025,\
+  \ this collaborative initiative has initiated reviews for 23 PHAs and made five\
+  \ law enforcement referrals for further investigation.\n\nAdditionally, the Strike\
+  \ Force offers valuable insights to both HUD programs and the OCFO concerning program\
+  \ risks, control failures, and potential improper payments. For instance, the Strike\
+  \ Force has identified three risk areas related to PHAs:\n \n• Questionable business\
+  \ relationships between PHA leadership and entities such as nonprofits and limited\
+  \ liability corporations, often lacking sufficient public information about their\
+  \ business purposes and funding sources \n\n• Persistent personal legal and financial\
+  \ pressures on PHA leadership, which can increase their motivation to commit fraud\
+  \ \n\n• Multiple PHAs engaging the same vendors, raising concerns about whether\
+  \ those vendors can allocate enough time to provide quality service to each specific\
+  \ PHA \n\nThis year, HUD conducted its first collaboration with the Department of\
+  \ Homeland Security to identify potential ineligible non-citizens receiving rental\
+  \ assistance in the Section 8 and Section 9 portfolio, including the Operating Fund,\
+  \ TBRA and PBRA programs. A total of 8.8 million tenant records were analyzed, confirming\
+  \ U.S. citizenship and non-citizen eligibility for 8.6 million citizen and non-citizen\
+  \ eligible tenants. The analysis of the records indicates that thousands of ineligible\
+  \ non-citizens are potentially receiving assistance under the programs. \n\nWhile\
+  \ HUD made remarkable strides in FY 2025, significant issues remain, which will\
+  \ be remediated through Project Voucher. Overall, HUD's comprehensive review and\
+  \ Project Voucher represent a significant commitment to enhance program integrity,\
+  \ prevent future payment errors, and ensure federal funds are allocated U.S. citizens\
+  \ and eligible non-citizens. With Project Voucher, HUD is paving the way for a more\
+  \ accountable and transparent rental assistance system. As the agency continues\
+  \ to strengthen its oversight mechanisms, it underscores a crucial message: Integrity\
+  \ in housing assistance is paramount for deserving communities across the nation.\
+  \ \n\n"
+detail_OIG_Recommendations: "In May 2025, HUD's Office of the Inspector General (OIG)\
+  \ reported that HUD did not comply with the Payment Integrity Information Act (PIIA)\
+  \ in fiscal year (FY) 2024. HUD did not report compliant estimates of improper and\
+  \ unknown payments made in FY 2023 for the Office of Public and Indian Housing’s\
+  \ (PIH) Tenant-Based Rental Assistance (TBRA) program and the Office of Multifamily\
+  \ Housing Programs’ Project-Based Rental Assistance (PBRA) program. Additionally,\
+  \ OIG noted that HUD did not consistently use Treasury’s Do Not Pay resources for\
+  \ prepayment verification, following the expiration of its Computer Matching Agreement\
+  \ (CMA) with Treasury in 2019. \n\nIn FY 2025, HUD made tremendous progress in addressing\
+  \ these findings and bringing the programs into compliance. \n\nFor the first time\
+  \ ever, HUD evaluated the complete population of PBRA and TBRA program outlays made\
+  \ in FY 2024, to evaluate tenant and recipient records and produce an unknown payment\
+  \ estimate. The shift from traditional testing using sub-sampling and statistical\
+  \ methods to analyzing the full population of payments eliminated the need for sampling\
+  \ and extrapolation and enables HUD to address the systematic data and control weaknesses\
+  \ that lead to improper and unknown payments. This major accomplishment went beyond\
+  \ OIG’s recommendation to create a plan for testing and reporting estimates of improper\
+  \ payments (Recommendation #2024-IG-0001) and accomplished the mission objective\
+  \ to report an unknown payment estimate for its TBRA and PBRA programs. \n\nHUD\
+  \ reestablished its CMA with Treasury, as of May 1st, 2025 and already started realizing\
+  \ the benefits of the Do Not Pay databases. For instance, HUD referenced Do Not\
+  \ Pay to flag payments made on behalf of deceased tenants in FY 2024 for its high-risk\
+  \ rental assistance programs. The PIH and Multifamily Housing Offices are actively\
+  \ investigating these payments and assessing prevention measures for the future.\
+  \ This CMA represents a significant step toward compliance with the PIIA requirements\
+  \ and addressing OIG’s recommendations for consistent use of Do Not Pay (Recommendation\
+  \ #2025-FO0006-002-A) and addressing identified potential payment errors (Recommendation\
+  \ #2025-FO-0006-002-B). With HUD expanding its use of Do Not Pay in FY 2026, the\
+  \ Department is positioned to further mitigate improper payments. \n\nOne identified\
+  \ area of risk included payments to entities without an active SAM.gov registration.\
+  \ During FY 2025 the Office of Multifamily Housing and the Office of Public and\
+  \ Indian Housing strengthened controls with pre-award verifications to improve SAM.gov\
+  \ registration status, ensuring that funds were not paid to ineligible entities.\
+  \ This supported addressing OIG’s recommendation to investigate entities with expired\
+  \ SAM.gov registrations (Recommendation #2025-FO-0006-002-C). \n\nBecause of the\
+  \ increased collaboration from senior officials in the Trump Administration, an\
+  \ initiative recommended by OIG in 2023 (Recommendation #2023-FO-0009) now prioritized\
+  \ by the current Administration, HUD stands better positioned to comprehensively\
+  \ and strategically identify and address its risk through an optimal use of resources.\
+  \ In FY 2026, HUD plans to continue to implement longlasting solutions that better\
+  \ steward taxpayer dollars, align with Secretary Turner’s vision, and strengthen\
+  \ payment integrity. \n"
+detail_Overpayment_Conditions_And_Methods: "Lead Hazard Reduction\n\nDuring grant\
+  \ or contract execution, the Office of Lead Hazard Control and Healthy Homes (OLHCHH)\
+  \ reviews funding recipient invoices, vouchers and supporting documentation. If\
+  \ an improper payment is identified, the Government Technical Representative (GTR)\
+  \ or the Contracting Officer’s Representative (COR), as applicable, provides the\
+  \ funding recipient with documentation of the determination of the improper payment,\
+  \ the regulatory, grant-specific, and/or contractual basis for recovering the improper\
+  \ payment, a due date for recoupment, a request for the funding recipient explanation\
+  \ for the problem, and a description of the appeal process the funding recipient\
+  \ may choose to use. \n\nOLHCHH’s grant and contract monitoring processes assure\
+  \ quality spending and monitoring for reimbursable funding. The likelihood of grant\
+  \ payments (virtually all the OLHCHH’s payments) being improper is low for several\
+  \ reasons: OLHCHH’s grant programs are a reimbursement programs; the funds distributed\
+  \ are for services that have already been completed and invoiced, and have had the\
+  \ invoices and supporting documentation reviewed and approved by the GTR. Additionally,\
+  \ every three months, grantees submit detailed information on work performed and\
+  \ provide a financial statement using the Federal Financial Report (SF-425), HUD-Part\
+  \ 3 Budget form, and supporting documentation. The SF-425, HUD-Part 3 Budget form,\
+  \ and the LOCCS VRS Request Voucher for Grant Payment (form HUD-27053) must match\
+  \ data in LOCCS and all totals must be the same. Under remote monitoring, a GTR\
+  \ performs a review to ensure accuracy, as needed. On-site monitoring is conducted\
+  \ once a year (provided OLHCHH travel funds are available) after a risk analysis\
+  \ is completed and/or a grant is determined to be high risk. A poorly performing\
+  \ grantee is required to submit weekly or monthly progress reports (vs. the standard\
+  \ quarterly reports), as determined by the GTR based on the severity of the grantee’s\
+  \ performance.  \n\nA funding recipient may appeal a GTR’s or COR’s finding of improper\
+  \ payment to the Grants Division Director (for grants) or the Business Operations\
+  \ Division Director (for contracts). If the appeal is denied, the funding recipient\
+  \ may submit a second-level appeal to the Office’s Deputy Director. If the funding\
+  \ recipient does not refund the improper payment although the request for recovery\
+  \ was not appealed, or although the highest-level appeal was denied, the matter\
+  \ is sent to OGC for action. \n\nIf the funding recipient submits a check for overpayment,\
+  \ the GTR or COR forwards the check, the funding recipient’s letter of explanation,\
+  \ and a cover message to the OLHCHH’s Budget Officer to initiate recapturing the\
+  \ funds. For grants, the Grants Officer documents the returned funds on form HUD-1044\
+  \ (Assistance Award/Assistance). For contracts, the COR documents the returned funds\
+  \ in the Contract File. The Budget Officer works with HUD’s OCFO and, as applicable,\
+  \ with Treasury on having the proceeds of the check deposited in the applicable\
+  \ OLHCHH or Treasury account.  \"\n\nHome Equity Conversion Mortgage (HECM) Claims\n\
+  \nThe Office of Housing-Federal Housing Administration’s (HSNG–FHA) recovery audit\
+  \ program is part of its overall program of effective internal control over payments.\
+  \ Internal control policies and procedures establishes a system to monitor improper\
+  \ payments and their causes, and includes controls and actions for detecting, preventing,\
+  \ and recovering improper payments. On a recurring basis, these programs generate\
+  \ reports that identify potentially duplicate disbursements. These disbursements\
+  \ are researched, and recovery actions are initiated for payments deemed improper.\
+  \ As part of the recapture audit plan, internal control documents and files are\
+  \ reviewed, and post claim reviews are performed. \n\nUnder Title I and Other Debt\
+  \ Collection Guidance Handbook 4740.2, the Financial Operation Center (FOC) is primarily\
+  \ responsible for generic debt collection and customer service activities, including\
+  \ responding to debtor inquiries regarding pay-off, payment plans, compromises,\
+  \ disputes, and appeals. The debt referral package primarily consists of copies\
+  \ of legal documents, mortgages, deeds of trust, judgments and other recorded lien\
+  \ documents, lien assignment documents, repayment agreements, credit reports, correspondence\
+  \ to/from debtors, and compromise agreements and supporting documents. \n\nThe Debt\
+  \ Collection Asset Management System (DCAMS) is the application used to support\
+  \ the generic debt collection process. DCAMS is designed to automatically send collection\
+  \ letters, report delinquent debt to credit bureaus and HUD’s Credit Alert Interactive\
+  \ Voice Response System (CAIVRS), assess penalties and administrative costs, and\
+  \ refer eligible debts to the Treasury Offset Program (TOP) and Cross-Servicing.\
+  \ Based on predefined criteria and the status of that case as reflected in DCAMS\
+  \ data fields (not later than 180 days after the demand letter), DCAMS is consistently\
+  \ updated to prevent improper referral for TOP offset. \n\nFor internal offsets,\
+  \ over-claimed amounts (negative claims) occur when the mortgagee owes FHA. The\
+  \ Single-Family Claims Branch (SFCB) sends billing letters to lenders for the excess\
+  \ amounts claimed and tracks the receivables using the Accounts Receivables Sub-system\
+  \ (ARS). Receivables are established in SFCB’s ARS and identified by an FHA case\
+  \ number. Each FHA case number is further identified by Section of the Act (which\
+  \ is linked to the appropriate fund) and endorsement date. This later date identifies\
+  \ the cohort year. The Holder of record to which the claim funds were originally\
+  \ disbursed is identified in ARS as the debtor, by default. When the receivable\
+  \ is subsequently liquidated by funds remitted by a Mortgagee or by offset, the\
+  \ collected amount is posted to the previously identified FHA case number, Section\
+  \ of the Act, and cohort year. \n\nIf a payment is not received from a lender within\
+  \ 90 days, the receivable is offset against subsequent claims by the lender until\
+  \ the full amount of the receivable is satisfied. If a receivable is not satisfied\
+  \ within 120-150 days, it is referred to the FOC in Albany, NY for enforced collection\
+  \ actions. At that time, the FOC officially confirms acceptance of the transfer\
+  \ of an aged delinquent debt, and that receivables have been removed from the ARS\
+  \ with the notation that it has been referred to the FOC for recovery. \n\nAnother\
+  \ avenue by which improper payments are recaptured is through Post Claim Reviews\
+  \ for Title II Single Family Insurance Claims. Post Claims Reviews are not performed\
+  \ for HECM Claims. A statistical sample of settled claims is reviewed for compliance\
+  \ with FHA servicing and claim filing requirements. A report on findings, is prepared\
+  \ and issued to the individual mortgagee. Mortgagees can refute the findings by\
+  \ providing additional documents before a final report is issued. If the Mortgagee\
+  \ chooses to pay the monetary findings prior to HUD’s issuance of the final report,\
+  \ those funds are deposited to ARS, which applies them to the Mortgage Insurance\
+  \ (MI) fund. Upon issuance of the final report, it is referred to the FOC which\
+  \ establishes it as a receivable and tracks it until paid in full. If a lender is\
+  \ overpaid on a Multifamily claim, the Multifamily Claims Branch will demand the\
+  \ overage back from the lender. If the lender fails to respond to their demands,\
+  \ the debt is referred to the FOC for collection. Lastly, for Treasury Cross-Servicing,\
+  \ the collection of generic debt is governed by the Debt Collection Improvement\
+  \ Act and HUD policies (Title I and Other Debt Collection Guidance 4740.2). The\
+  \ Act requires federal agencies to refer eligible delinquent debts to Treasury (for\
+  \ Cross-Servicing and TOP) when the debt is 120 days delinquent. \n\nThe Treasury’s\
+  \ TOP allows federal agencies to report delinquent non-tax debt to the BFS. BFS\
+  \ performs computer matching with disbursement data and processes an offset when\
+  \ an appropriate match is determined. After referral, Treasury and its private collection\
+  \ agencies are responsible for contacting the debtor to collect the payment of the\
+  \ debt. The Treasury’s Cross-Servicing is a process used by BFS to refer the debt\
+  \ collection to a private collection agency, among other actions, to collect delinquent\
+  \ debts on behalf of Federal Agencies. \n\nThe FOC’s recapture process establishes\
+  \ receivables in DCAMS and issues a demand notice to the debtor(s). If the debt\
+  \ remains unpaid, DCAMS issues a “Notice of Intent” warning regarding enforced collection\
+  \ measures and informs the debtor regarding their due process rights. DCAMS automatically\
+  \ reports information to credit bureaus and CAIVRS. Penalty and administrative cost\
+  \ charges are also automatically assessed if warranted. \n\nIf the debt remains\
+  \ unpaid, it is referred to Treasury (within 180 days) for offset via the government-wide\
+  \ TOP and for direct collection action by Treasury and Treasury contracted private\
+  \ collection agencies. Treasury also initiates referral to the Department of Justice\
+  \ (DOJ) for civil litigation and/or initiates Administrative Wage Garnishment (AWG)\
+  \ action if they deem such action to be appropriate. \n\nIf Treasury’s Cross-Servicing\
+  \ action is not successful, Treasury “returns” the debt to the FOC. If older than\
+  \ two years, the receivable is written-off and the case is reclassified “currently\
+  \ not collectible.” The FOC keeps the case open if offset via TOP appears fruitful\
+  \ or if other collection measures are applicable (e.g., AWG action by HUD). Otherwise,\
+  \ the FOC terminates collection action, closes the case, and the system issues an\
+  \ IRS Form 1099C “Cancellation of Debt,” the following January if appropriate. Write-off,\
+  \ Termination, close-out, and 1099C issuance can also occur at any point in the\
+  \ above collection cycle if determined appropriate (e.g., debtor is discharged as\
+  \ bankrupt). \n\nCollections from debtors to HUD go to the Treasury Lockbox Network\
+  \ or Pay.gov. Collections from debtors to Treasury or DOJ come to HUD via interagency\
+  \ transfer (i.e., Intra-Governmental Payment and Collection (IPAC)). No matter the\
+  \ route, all payments are posted to the receivable in DCAMS. \"\n\nHome Equity Conversion\
+  \ Mortgage (HECM) Notes\n\nThe Office of Housing-Federal Housing Administration’s\
+  \ (HSNG–FHA) recovery audit program is part of its overall program of effective\
+  \ internal control over payments. Internal control policies and procedures establishes\
+  \ a system to monitor improper payments and their causes, and includes controls\
+  \ and actions for detecting, preventing, and recovering improper payments. On a\
+  \ recurring basis, these programs generate reports that identify potentially duplicate\
+  \ disbursements. These disbursements are researched, and recovery actions are initiated\
+  \ for payments deemed improper. As part of the recapture audit plan, internal control\
+  \ documents and files are reviewed, and post claim reviews are performed. \n\nUnder\
+  \ Title I and Other Debt Collection Guidance Handbook 4740.2, the Financial Operation\
+  \ Center (FOC) is primarily responsible for generic debt collection and customer\
+  \ service activities, including responding to debtor inquiries regarding pay-off,\
+  \ payment plans, compromises, disputes, and appeals. The debt referral package primarily\
+  \ consists of copies of legal documents, mortgages, deeds of trust, judgments and\
+  \ other recorded lien documents, lien assignment documents, repayment agreements,\
+  \ credit reports, correspondence to/from debtors, and compromise agreements and\
+  \ supporting documents. \n\nThe Debt Collection Asset Management System (DCAMS)\
+  \ is the application used to support the generic debt collection process. DCAMS\
+  \ is designed to automatically send collection letters, report delinquent debt to\
+  \ credit bureaus and HUD’s Credit Alert Interactive Voice Response System (CAIVRS),\
+  \ assess penalties and administrative costs, and refer eligible debts to the Treasury\
+  \ Offset Program (TOP) and Cross-Servicing. Based on predefined criteria and the\
+  \ status of that case as reflected in DCAMS data fields (not later than 180 days\
+  \ after the demand letter), DCAMS is consistently updated to prevent improper referral\
+  \ for TOP offset. \n\nFor internal offsets, over-claimed amounts (negative claims)\
+  \ occur when the mortgagee owes FHA. The Single-Family Claims Branch (SFCB) sends\
+  \ billing letters to lenders for the excess amounts claimed and tracks the receivables\
+  \ using the Accounts Receivables Sub-system (ARS). Receivables are established in\
+  \ SFCB’s ARS and identified by an FHA case number. Each FHA case number is further\
+  \ identified by Section of the Act (which is linked to the appropriate fund) and\
+  \ endorsement date. This later date identifies the cohort year. The Holder of record\
+  \ to which the claim funds were originally disbursed is identified in ARS as the\
+  \ debtor, by default. When the receivable is subsequently liquidated by funds remitted\
+  \ by a Mortgagee or by offset, the collected amount is posted to the previously\
+  \ identified FHA case number, Section of the Act, and cohort year. \n\nIf a payment\
+  \ is not received from a lender within 90 days, the receivable is offset against\
+  \ subsequent claims by the lender until the full amount of the receivable is satisfied.\
+  \ If a receivable is not satisfied within 120-150 days, it is referred to the FOC\
+  \ in Albany, NY for enforced collection actions. At that time, the FOC officially\
+  \ confirms acceptance of the transfer of an aged delinquent debt, and that receivables\
+  \ have been removed from the ARS with the notation that it has been referred to\
+  \ the FOC for recovery. \n\nAnother avenue by which improper payments are recaptured\
+  \ is through Post Claim Reviews for Title II Single Family Insurance Claims. Post\
+  \ Claims Reviews are not performed for HECM Claims. A statistical sample of settled\
+  \ claims is reviewed for compliance with FHA servicing and claim filing requirements.\
+  \ A report on findings, is prepared and issued to the individual mortgagee. Mortgagees\
+  \ can refute the findings by providing additional documents before a final report\
+  \ is issued. If the Mortgagee chooses to pay the monetary findings prior to HUD’s\
+  \ issuance of the final report, those funds are deposited to ARS, which applies\
+  \ them to the Mortgage Insurance (MI) fund. Upon issuance of the final report, it\
+  \ is referred to the FOC which establishes it as a receivable and tracks it until\
+  \ paid in full. If a lender is overpaid on a Multifamily claim, the Multifamily\
+  \ Claims Branch will demand the overage back from the lender. If the lender fails\
+  \ to respond to their demands, the debt is referred to the FOC for collection. Lastly,\
+  \ for Treasury Cross-Servicing, the collection of generic debt is governed by the\
+  \ Debt Collection Improvement Act and HUD policies (Title I and Other Debt Collection\
+  \ Guidance 4740.2). The Act requires federal agencies to refer eligible delinquent\
+  \ debts to Treasury (for Cross-Servicing and TOP) when the debt is 120 days delinquent.\
+  \ \n\nThe Treasury’s TOP allows federal agencies to report delinquent non-tax debt\
+  \ to the BFS. BFS performs computer matching with disbursement data and processes\
+  \ an offset when an appropriate match is determined. After referral, Treasury and\
+  \ its private collection agencies are responsible for contacting the debtor to collect\
+  \ the payment of the debt. The Treasury’s Cross-Servicing is a process used by BFS\
+  \ to refer the debt collection to a private collection agency, among other actions,\
+  \ to collect delinquent debts on behalf of Federal Agencies. \n\nThe FOC’s recapture\
+  \ process establishes receivables in DCAMS and issues a demand notice to the debtor(s).\
+  \ If the debt remains unpaid, DCAMS issues a “Notice of Intent” warning regarding\
+  \ enforced collection measures and informs the debtor regarding their due process\
+  \ rights. DCAMS automatically reports information to credit bureaus and CAIVRS.\
+  \ Penalty and administrative cost charges are also automatically assessed if warranted.\
+  \ \n\nIf the debt remains unpaid, it is referred to Treasury (within 180 days) for\
+  \ offset via the government-wide TOP and for direct collection action by Treasury\
+  \ and Treasury contracted private collection agencies. Treasury also initiates referral\
+  \ to the Department of Justice (DOJ) for civil litigation and/or initiates Administrative\
+  \ Wage Garnishment (AWG) action if they deem such action to be appropriate. \n\n\
+  If Treasury’s Cross-Servicing action is not successful, Treasury “returns” the debt\
+  \ to the FOC. If older than two years, the receivable is written-off and the case\
+  \ is reclassified “currently not collectible.” The FOC keeps the case open if offset\
+  \ via TOP appears fruitful or if other collection measures are applicable (e.g.,\
+  \ AWG action by HUD). Otherwise, the FOC terminates collection action, closes the\
+  \ case, and the system issues an IRS Form 1099C “Cancellation of Debt,” the following\
+  \ January if appropriate. Write-off, Termination, close-out, and 1099C issuance\
+  \ can also occur at any point in the above collection cycle if determined appropriate\
+  \ (e.g., debtor is discharged as bankrupt). \n\nCollections from debtors to HUD\
+  \ go to the Treasury Lockbox Network or Pay.gov. Collections from debtors to Treasury\
+  \ or DOJ come to HUD via interagency transfer (i.e., Intra-Governmental Payment\
+  \ and Collection (IPAC)). No matter the route, all payments are posted to the receivable\
+  \ in DCAMS. \"\n\n \n\nMultifamily Notes\n\nThe MFNSB is responsible for overseeing\
   \ all fiscal loan servicing activities for MF and Healthcare mortgage notes assigned\
   \ to the Secretary. MF and Healthcare notes include both the Mutual Mortgage Insurance\
   \ /Cooperative Management Housing Insurance and General Insurance /Special Risk\
   \ Insurance for financing and liquidating accounts. The FHA has contracted with\
   \ a Servicing and Accounting Contractor and utilizes their proprietary-owned system\
   \ to maintain records for all transactions relating to the assignment, servicing,\
-  \ and disposition of the MF notes portfolio. The MFNSB is responsible for overseeing\
-  \ all fiscal loan servicing activities for MF and Healthcare mortgage notes assigned\
-  \ to the Secretary. MF and Healthcare notes include both the Mutual Mortgage Insurance\
-  \ /Cooperative Management Housing Insurance and General Insurance /Special Risk\
-  \ Insurance for financing and liquidating accounts. The FHA has contracted with\
-  \ a Servicing and Accounting Contractor and utilizes their proprietary-owned system\
-  \ to maintain records for all transactions relating to the assignment, servicing,\
-  \ and disposition of the MF notes portfolio. Each note is serviced in accordance\
+  \ and disposition of the MF notes portfolio.  Each note is serviced in accordance\
   \ with the mortgage and mortgage note documents. Servicing activities include billing,\
   \ collections, disbursements, escrow management, and processing of terminations.\
   \ Servicing activities are performed daily until termination of the note from the\
-  \ system. \nTaxes and R4R escrows are incorporated into the note and managed by\
+  \ system. \n\nTaxes and R4R escrows are incorporated into the note and managed by\
   \ the note. Amounts collected are all pre-determined by the language within the\
   \ note itself. Payment amounts (R4R costs, insurance, taxes and miscellaneous A/P)\
-  \ are calculated based on invoices submitted. \nAll disbursements are initially\
+  \ are calculated based on invoices submitted. \n\nAll disbursements are initially\
   \ processed by the contractor. However, the Multifamily Notes Servicing Branch (MFNSB)\
   \ staff have final approval on all disbursements. No disbursements are made by the\
   \ contractor without approval from the MFNSB. Disbursements are approved by HUD.\
-  \ \nEach payment request has an invoice and physical approval. Separation of duties\
+  \ \n\nEach payment request has an invoice and physical approval. Separation of duties\
   \ is maintained for the disbursement process. Contract staff create the transmittal\
   \ to allow the disbursement; a second contract staff approves the transmittal; a\
   \ third contract staff creates the disbursement. None of the staff have the authority\
@@ -1084,31 +2046,317 @@ detail_ara2_1: "Office of Healthy Homes Lead Hazard Control - Lead Hazard Reduct
   \ data matching analytics to verify key information for disbursements such as project\
   \ name, address, FHA number, iREMS number, and dollar amount. For payment schedules\
   \ the Tax ID Number, Routing Number, Deposit Account Number, and Dollar Amount are\
-  \ validated against supporting documentation to ensure accuracy. \nOnce the disbursements\
+  \ validated against supporting documentation to ensure accuracy. \n\nOnce the disbursements\
   \ are reviewed and approved by MFNSB, they are sent to the Cash Management Branch\
   \ (CMB) for certification and processing. Payments are disbursed directly to the\
   \ vendor responsible for collecting the disbursement and applying the funds to the\
   \ expense. Contract staff perform daily banking functions to ensure all checks have\
-  \ been cashed and ACH transactions processed. \nOnce the Certifying Officer in CMB\
-  \ certifies the schedule for payment, CMB sends the Secure Payment System (SPS)\
+  \ been cashed and ACH transactions processed. \n\nOnce the Certifying Officer in\
+  \ CMB certifies the schedule for payment, CMB sends the Secure Payment System (SPS)\
   \ Report via email to the MFNSB. Staff compares the schedule payment package to\
   \ the daily SPS Report and to the Goal Report Agency Location Codes (ALC) Payment\
   \ Details to ensure the payment information is correct. In addition, all cash activities\
   \ are reconciled through monthly accounting reconciliations. These payments are\
-  \ also post payment checked \nOn a monthly basis, the MFNSB Chief conducts random\
+  \ also post-payment checked. \n\nOn a monthly basis, the MFNSB Chief conducts random\
   \ sampling of payment schedules. A sampling of 20% of paid schedules is selected\
   \ and reviewed for accuracy of information and payment. There have been no inaccuracies\
   \ or overpayments cited. In the event of an overpayment of taxes or hazard insurance,\
   \ the contractor will work with the tax authority or insurance provider to recoup\
-  \ the overpayment. If the contractor is unable to recover the funds they will escalate\
-  \ the issue to MFNSB, which will work with the account executive, the Office of\
-  \ General Counsel, and the program area to ensure the overpayment is recaptured.\
-  \ In the event of an overpayment of R4R, the contractor will work with the management\
-  \ agent to recoup the overpayment. If the management agent fails to return the overpayment\
-  \ within 30 days, MFNSB will notify the account executive and program area. The\
-  \ overpayment will be included in the next scheduled billing statement and the management\
-  \ agent will be issued a formal notification of the action.\n\nFederal Housing Administration\n\
-  The Office of Housing-Federal Housing Administration’s (HSNG–FHA) recovery audit\
+  \ the overpayment. If the contractor is unable to recover the funds, they will escalate\
+  \ the issue to MFNSB, which will work with the Account Executive, the Office of\
+  \ General Counsel, and the appropriate program area to ensure the overpayment is\
+  \ recaptured. In the event of an overpayment of R4R, the contractor will work with\
+  \ the Management Agent to recoup the overpayment. If the Management Agent fails\
+  \ to return the overpayment within 30 days, MFNSB will notify the Account Executive\
+  \ and the appropriate program area. The overpayment will be included in the next\
+  \ scheduled billing statement and the Management Agent will be issued a formal notification\
+  \ of the action.\"\n\n \n\nMultifamily Property\n\nThe Office of Housing-Federal\
+  \ Housing Administration’s (HSNG–FHA) recovery audit program is part of its overall\
+  \ program of effective internal control over payments. Internal control policies\
+  \ and procedures establish a system to monitor improper payments and their causes,\
+  \ and include controls and actions for detecting, preventing, and recovering improper\
+  \ payments. On a recurring basis, these programs generate reports that identify\
+  \ potentially duplicate disbursements. These disbursements are researched, and recovery\
+  \ actions are initiated for payments deemed improper.\n\nThe Servicing and Accounting\
+  \ Contractor perform all Multi Family (MF) Property accounting. The MF Property\
+  \ Accountant prepares monthly cash reconciliations to ensure that all cash activity\
+  \ processed at the Servicing and Accounting Contractor facility agrees with FHA’s\
+  \ cash activity maintained in the Cash Contracts and Funds Control (CCFC) module\
+  \ within FHASL and Source System Report (DT) SGL File Translation Report. Any discrepancies\
+  \ are researched and corrected immediately through the Cash Management Branch or\
+  \ the Servicing and Accounting Contractor as appropriate. The MF Property Accountant\
+  \ performs this reconciliation by utilizing a standard GLD Excel cash template (Cash\
+  \ Receipts and Cash Disbursements); to reconcile monthly cash activities posted\
+  \ through CCFC and the source system report mentioned above Cash Activity Report\
+  \ (14R) and the General Ledger (GL) cash accounts. The cash report reflects Lockbox,\
+  \ Fedwire, ACH, and Intra-Governmental Payment and Collection, fund splits, and\
+  \ transfers for both collection and disbursement transactions. The DT SGL File Translation\
+  \ Report reflects all accounting activities processed in source system by contractors\
+  \ and during regular cash reconciliation process, MF Property Accountant resolves\
+  \ any discrepancies between 14R (CCFC)/GL and the source system before month end\
+  \ closing.\n\nThe MF Property Accountant reconciles cash between the GL and the\
+  \ Cash Activity Report and posts the necessary Cash-in-Transit (CIT) Journal Entry\
+  \ (JE)s to balance the two modules within Federal Housing Administration Subsidiary\
+  \ Ledger (FHASL) for receipts and disbursements. The CIT journal is reviewed, approved,\
+  \ and posted by the Multi Family Accounting Branch (MFAB) Chief or Designee.\n\n\
+  The CIT amounts, if any, are reflected in the monthly Excel cash reconciliation.\
+  \ The Preparer, Reviewer, and Approver sign the monthly Cash Reconciliation to ensure\
+  \ its validity. In some cases, the reviewer and approver may be the same individual.\
+  \ Each morning, a file is generated through the CSMS and is transferred to the HUD\
+  \ processing server. The file is then picked up by the Trivoli (Autosys) program\
+  \ that loads the daily property accounting transactions into the proper FHASL Standard\
+  \ General Ledger (SGL) accounts. The monthly SGL Trial Balance Source System Report,\
+  \ and the Detailed Transaction Report used for reconciliation, are produced through\
+  \ the Property module within Comprehensive Servicing and Monitoring System (CSMS).\
+  \ The MF Property Accountant downloads the information from the CSMS Trial Balance\
+  \ Report into the Excel file and saves it on the share drive. Then the GLD Systems\
+  \ Accountant uploads the file to the Auto-Rec database and then notifies the MF\
+  \ Property Accountant to run the reconciliation. The MF Property Automated Reconciliation\
+  \ is reviewed and signed by the Preparer, Reviewer, and Approver. In some cases,\
+  \ the Reviewer and the Approver may be the same individual.\n\nEach month, the MF\
+  \ Property Accountant prepares a reconciliation between cash, receivables, payables,\
+  \ and budgetary accounts. This reconciliation provides accounting area specific\
+  \ information on any variances within the budgetary accounts that should be reflected\
+  \ when cash collections and/or payables are recorded within the GL. The MF Property\
+  \ Accountant runs the trial balance query in FHASL, imports the results into the\
+  \ standard proprietary, budgetary template and the reconciliation template is automatically\
+  \ updated to show any variances. The MF Property Accountant is responsible for researching\
+  \ any variances and makes appropriate adjustments to ensure that budgetary, cash\
+  \ and obligation activity is accurately reported for the month and fiscal year.\
+  \ The MF Property Proprietary/Budgetary Reconciliation is reviewed and signed by\
+  \ the Preparer, Reviewer, and Approver. In some cases, the Reviewer and the Approver\
+  \ may be the same individual.\n\nAt the end of every month, the MF Property Accountant\
+  \ is responsible for comparing Accounts Payable activity by account totals from\
+  \ the source system and the GL Trial Balance Report. If there are any differences\
+  \ between what is reported by servicing and what was sent to FHASL via the Federal\
+  \ Transaction Repository (FTR) process, the MF Property Accountant will research\
+  \ and resolve the difference. The Preparer, Reviewer, and Approver sign the Accounts\
+  \ Payable Reconciliation to ensure its validity. In some cases, the reviewer and\
+  \ the approver may be the same individual.\n\nAt the end of every month, the MF\
+  \ Property Accountant is responsible for comparing Accounts Receivable activity\
+  \ by fund from the source system and the GL Trial Balance Report. If there are any\
+  \ differences between what is reported by servicing and what was sent to FHASL via\
+  \ the FTR process, the MF Property Accountant will research and resolve the difference.\
+  \ The Preparer, Reviewer, and Approver sign the Accounts Receivable Reconciliation\
+  \ to ensure its validity. In some cases, the reviewer and the approver will be the\
+  \ same individual.\n\nThe quarterly Roll Forward Report is also prepared using data\
+  \ extracted from the Servicing and Accounting Contractor’s CSMS Property database.\
+  \ The monthly Inventory Report is cumulative and gives all accounting transaction\
+  \ totals that impact the property capitalized income and expense ending balances,\
+  \ to include Profit and Loss on sold properties. Additions (new acquisitions) and\
+  \ deletions (sales) are included in the Roll Forward Report. FHASL will reflect\
+  \ the same principal balances if there are no adjusting entries from HUD.\n\nThe\
+  \ MF Property Accountant prepares monthly JEs prior to the GL month-end close. If\
+  \ JEs are recorded by the Servicing and Accounting Contractor incorrectly or cross\
+  \ over into the next accounting period, manual entries are necessary to adjust property\
+  \ accounts. This is done upon receipt of source documentation (i.e. Collection Report,\
+  \ Disbursement check register, and CSMS Gather Balance Reports). The MF Property\
+  \ manual transactions relate to CIT (unconfirmed cash) entries for cash differences\
+  \ between CSMS and the Cash Activity Report. The MF Property Accountant manually\
+  \ keys the entries into FHASL by fund, cohort, and program code. All Manual JEs\
+  \ are reviewed, approved, and posted by the MFAB Chief or Designee.\n\nOn a quarterly\
+  \ basis, the Servicing and Accounting Contractor assesses the allowance for losses\
+  \ on the property inventory to report the property inventory at its net realizable\
+  \ value. The assessment is based on various reports generated from CSMS. The loss\
+  \ allowance calculation methodology is based on loss rates that take into consideration\
+  \ the acquisition cost, capitalized expenses, cost to dispose of the properties,\
+  \ and proceeds from property sales. The MF Accountant will prepare the Quarterly\
+  \ Allowance entry. The MFAB Chief or Designee reviews, approves, and posts the Property\
+  \ Allowance JEs.\"\n\n \n\nSingle Family Claims\n\nThe Office of Housing-Federal\
+  \ Housing Administration’s (HSNG–FHA) recovery audit program is part of its overall\
+  \ program of effective internal control over payments. Internal control policies\
+  \ and procedures establishes a system to monitor improper payments and their causes,\
+  \ and includes controls and actions for detecting, preventing, and recovering improper\
+  \ payments. On a recurring basis, these programs generate reports that identify\
+  \ potentially duplicate disbursements. These disbursements are researched, and recovery\
+  \ actions are initiated for payments deemed improper. As part of the recapture audit\
+  \ plan, internal control documents and files are reviewed, and post claim reviews\
+  \ are performed. \n\nUnder Title I and Other Debt Collection Guidance Handbook 4740.2,\
+  \ the Financial Operation Center (FOC) is primarily responsible for generic debt\
+  \ collection and customer service activities, including responding to debtor inquiries\
+  \ regarding pay-off, payment plans, compromises, disputes, and appeals. The debt\
+  \ referral package primarily consists of copies of legal documents, mortgages, deeds\
+  \ of trust, judgments and other recorded lien documents, lien assignment documents,\
+  \ repayment agreements, credit reports, correspondence to/from debtors, and compromise\
+  \ agreements and supporting documents. \n\nThe FOC is responsible for managing the\
+  \ business operations for the Title I loan program, which includes registering and\
+  \ endorsing loans for insurance, billing and collecting premiums, and examining\
+  \ claims for loss and approving them for payment. The FOC is also responsible for\
+  \ performing the debt collection and servicing activities for Title I Notes (defaulted\
+  \ Title I loans) and generic debts (other FHA debts). \n\nThe Title I program authorizes\
+  \ HUD to insure lenders against default on loans used to finance property improvements\
+  \ and to purchase manufactured homes. Lenders are required to pay premiums covering\
+  \ the insurance of their loans and submit applications for insurance benefits for\
+  \ defaulted loans. HUD is required to collect the unpaid loan balance, including\
+  \ eligible expenses, from the defaulted borrower. \n\nThe FOC’s Title I Insurance\
+  \ Processing Branch (TIIPB) is responsible for evaluating and approving lender applications\
+  \ for insurance benefits. The lender’s application must include loan information\
+  \ and any documentation necessary for the TIIPB to calculate a claim payment. There\
+  \ are three types of claims: initial, resubmitted, and supplemental. An initial\
+  \ claim is a first submission. A resubmitted claim is one that the TIIPB had previously\
+  \ denied. A supplemental claim is an additional claim for the same loan when the\
+  \ lender finds documentation for expenses not included in the initial claim. TIIPB\
+  \ support staff establish the claim in the Title I Insurance and Claims System (TIIS/F72).\
+  \ The process includes assigning a claim number, entering the date the claim was\
+  \ received, and assigning the claim to a TIIPB examiner. The examiner conducts a\
+  \ full review of the claim to determine whether the loan complies with Title I underwriting\
+  \ and servicing requirements and whether expenses claimed by the lender are supported\
+  \ by the documentation provided. If these conditions are satisfied, the examiner\
+  \ processes the claim calculation and authorization for payment in TIIS/F72. TIIS/F72\
+  \ processes the payments authorized on the same day in a single batch file, sends\
+  \ the file to Treasury’s Payment Application Modernization system, and sends another\
+  \ file to the Cash Management Branch to authorize the Treasury disbursement. TIIS/F72\
+  \ sends a file of paid claims to the Debt Collection and Management System – Title\
+  \ I (DCAMS-TI/F71), which converts the paid claims to notes receivable. The FOC’s\
+  \ Asset Recovery Division (ARD) is responsible for pursuing collection against the\
+  \ debtor (defaulted borrower). \n\nThe TIIPB conducts quality reviews of paid Title\
+  \ I claims to ensure consistent processing and examination quality. Each month,\
+  \ the TIIPB Branch Chief randomly selects 10% of paid claims for review. The Branch\
+  \ Chief either reviews the claim themselves or assigns them to examiners for a peer\
+  \ review. The reviewer conducts a full examination of the claim and reports whether\
+  \ the claim payment was conforming (compliant/no deficiencies), deficient (minor\
+  \ issues to address), unacceptable (serious issues to address), or mitigated (issues\
+  \ found but readily resolved). The outcomes of quality reviews are documented in\
+  \ both the Case Notes screen of TIIS/F72 and in the Title I Quality Reviews folder\
+  \ of the FOC’s SharePoint site. \n\nIf the review identified a deficiency that resulted\
+  \ in an overpaid claim, the TIIPB Branch Chief or examiner will issue a request\
+  \ to the lender for a full (for an unacceptable claim) or partial (for a deficient\
+  \ claim) repurchase of the loan. The request instructs the lender to repurchase\
+  \ the loan by remitting payment to a designated lockbox within 30 days or to ask\
+  \ for a reconsideration of the repurchase request within 10 days. If the lender\
+  \ fails to submit documentation that satisfactorily resolves the deficiency or to\
+  \ remit payment within the established timeframes, TIIPB issues a repurchase demand\
+  \ which gives the lender 30 days to remit the repurchase funds and informs the lender\
+  \ of the actions HUD will take if the funds aren’t remitted, including transferring\
+  \ the unpaid repurchase to the FOC’s ARD for delinquent debt collection, which includes\
+  \ referral to the Treasury Offset Program (TOP) for administrative offset. \n\n\
+  Both paid and unpaid repurchase requests and demands involve coordination between\
+  \ the FOC’s TIIPB and ARD. The ARD ensures that the Title I Note receivable is reclassified\
+  \ as a full or partial repurchase. Payments for full and partial repurchases are\
+  \ sent to the Title I Notes lockbox which transmits a collection file to DCAMS-TI/F71\
+  \ to credit the funds to the Title I Note receivable associated with the claim.\
+  \ The ARD notifies the TIIPB when repurchase funds are received and the TIIPB updates\
+  \ the claim record in TIIS/F72 (subfunction J04). For full repurchases, the ARD\
+  \ closes the Title I Note receivable as repurchased. Before closing out the receivable,\
+  \ the ARD will issue the debtor (defaulted Title I borrower) a refund for any non-repurchase\
+  \ collections received. The TIIPB returns the original claim binder to the lender\
+  \ along with an executed reassignment of the Title I promissory note and lien, if\
+  \ applicable. \n\nUnpaid full or partial repurchase requests and demands are transferred\
+  \ to the ARD for delinquent debt collection. The ARD establishes a Title I Repurchase\
+  \ receivable in the Debt Collection and Asset Management System – Generic Debt (DCAMS-GD/F71A),\
+  \ which initiates the collection process by issuing an automated demand letter describing\
+  \ the debt and instructing the lender to remit payment in full within 30 days or\
+  \ contact the designated ARD Debt Servicing Representative (DSR) to request a plan\
+  \ to repay the debt in installments. If the lender does not pay the debt in full\
+  \ or enter a repayment plan within 30 days, DCAMS-GD/F71A issues a Notice of Intent\
+  \ (NOI) to Collect by Administrative Offset. The NOI notifies the lender that HUD\
+  \ intends to refer the debt to the TOP, describes the TOP process for administrative\
+  \ offset of federal payments, and provides the lender with steps to take to contest\
+  \ the basis of the debt or the amount demanded by filing an appeal with HUD’s Board\
+  \ of Appeals (BOA) within 65 days. If the lender files an appeal, DCAMS-GD/F71A\
+  \ suspends referral to TOP pending a decision and order from the BOA administrative\
+  \ law judge. (BOA adjudicates appeals by gathering and evaluating statements and\
+  \ documents from both parties.) If the BOA judge issues a decision and order declaring\
+  \ the debt unenforceable, the ARD closes the debt as unenforceable and notifies\
+  \ the TIIPB. The TIIPB will reverse the pending repurchase in TIIS/F72. If the decision\
+  \ and order results in a dismissal of the lender’s appeal, the DSR updates debt\
+  \ status in DCAMS-GD/F71A making the debt eligible for referral to TOP. DCAMS-GD/F71A\
+  \ refers eligible debts that are 121 or more days delinquent to TOP and the Treasury\
+  \ Cross-Servicing Program. DCAMS-GD/F71A also reports lenders to commercial credit\
+  \ reporting agencies (Dun & Bradstreet, Experian, and Equifax). \n\nThe TIIPB may,\
+  \ rather than transfer the unpaid repurchase to the ARD for delinquent debt collection,\
+  \ pursue internal offset of payments on subsequent claims submitted by the lender.\
+  \ In most cases, however, it’s more effective to transfer the debt to the ARD, since\
+  \ any federal payment made to the lender, including Title I claim payments, will\
+  \ be collected through TOP. \n\nCollections, both voluntary and involuntary, received\
+  \ on a Title Repurchase debt are credited to the account. When a debt is paid in\
+  \ full, the ARD makes entries in DCAMS-GD/F71A to close out the debt as paid in\
+  \ full and to close out the Title I Note receivable as unenforceable. The TIIPB\
+  \ makes entries in TIIS/F72 (subfunction J04) to acknowledge satisfaction of the\
+  \ repurchase demand and returns the original claim binder to the lender along with\
+  \ an executed reassignment of the Title I Promissory Note and lien, if applicable.\
+  \ \n\nIf the ARD concludes that the Title I Repurchase debt is uncollectible, it\
+  \ takes steps to close out the debt in DCAMS-GD/F71A, which will issue an IRS Form\
+  \ 1099-C to the lender and report the debt accordingly to the IRS. The TIIPB will\
+  \ pursue secondary recovery activities on the uncollectible repurchase by internally\
+  \ offsetting future claims payments to the lender or blocking payments on subsequent\
+  \ claims submitted by the lender. The TIIPB may also refer the lender to FHA’s Mortgagee\
+  \ Review Board for sanctions \n\nThe Debt Collection Asset Management System (DCAMS)\
+  \ is the application used to support the generic debt collection process. DCAMS\
+  \ is designed to automatically send collection letters, report delinquent debt to\
+  \ credit bureaus and HUD’s Credit Alert Interactive Voice Response System (CAIVRS),\
+  \ assess penalties and administrative costs, and refer eligible debts to the TOP\
+  \ and Cross-Servicing. Based on predefined criteria and the status of that case\
+  \ as reflected in DCAMS data fields (not later than 180 days after the demand letter),\
+  \ DCAMS is consistently updated to prevent improper referral for TOP offset. \n\n\
+  For internal offsets, over-claimed amounts (negative claims) occur when the mortgagee\
+  \ owes FHA. The Single-Family Claims Branch (SFCB) sends billing letters to lenders\
+  \ for the excess amounts claimed and tracks the receivables using the Accounts Receivables\
+  \ Sub-system (ARS). Receivables are established in SFCB’s ARS and identified by\
+  \ an FHA case number. Each FHA case number is further identified by Section of the\
+  \ Act (which is linked to the appropriate fund) and endorsement date. This later\
+  \ date identifies the cohort year. The Holder of record to which the claim funds\
+  \ were originally disbursed is identified in ARS as the debtor, by default. When\
+  \ the receivable is subsequently liquidated by funds remitted by a Mortgagee or\
+  \ by offset, the collected amount is posted to the previously identified FHA case\
+  \ number, Section of the Act, and cohort year. \n\nIf payment is not received from\
+  \ a lender within 90 days, the receivable is offset against subsequent claims by\
+  \ the lender until the full amount of the receivable is satisfied. If a receivable\
+  \ is not satisfied within 120-150 days, it is referred to the FOC in Albany, NY\
+  \ for enforced collection actions. At that time, the FOC officially confirms acceptance\
+  \ of the transfer of an aged delinquent debt, and that receivables have been removed\
+  \ from the ARS with the notation that it has been referred to the FOC for recovery.\
+  \ \n\nAnother avenue by which improper payments are recaptured is through Post Claim\
+  \ Reviews for title II Single Family Insurance Claims. A statistical sample of settled\
+  \ claims is reviewed for compliance with FHA servicing and claim filing requirements.\
+  \ A report on findings is prepared and issued to the individual mortgagee. Mortgagees\
+  \ can refute the findings by providing additional documents before a final report\
+  \ is issued. If the Mortgagee chooses to pay the monetary findings prior to HUD’s\
+  \ issuance of the final report, those funds are deposited to ARS, which applies\
+  \ them to the Mortgage Insurance (MI) fund. Upon issuance of the final report, it\
+  \ is referred to the FOC which establishes it as a receivable and tracks it until\
+  \ paid in full. If a lender is overpaid on a Multifamily claim, the Multifamily\
+  \ Claims Branch will demand the overage back from the lender, which is usually resolved\
+  \ within 30 days of final settlement. The mortgagee either returns the overpaid\
+  \ funds or files a supplemental claim. If the overpayment is not resolved within\
+  \ the 30-day or 60-day period after final settlement, the reviewer sends a follow-up\
+  \ letter at the end of each period advising the mortgagee of the penalties and interest\
+  \ assessed. If it is still not resolved after 90 days, the overpayment is electronically\
+  \ transferred to HUD’s FOC in Albany, New York for collection. Lastly, for Treasury\
+  \ Cross-Servicing, the collection of generic debt is governed by the Debt Collection\
+  \ Improvement Act and HUD policies (Title I and Other Debt Collection Guidance 4740.2).\
+  \ The Act requires federal agencies to refer eligible delinquent debts to Treasury\
+  \ (for Cross-Servicing and TOP) when the debt is 120 days delinquent. \n\nThe Treasury’s\
+  \ TOP allows federal agencies to report delinquent non-tax debt to the BFS. BFS\
+  \ performs computer matching with disbursement data and processes an offset when\
+  \ an appropriate match is determined. After referral, Treasury and its private collection\
+  \ agencies are responsible for contacting the debtor to collect the payment of the\
+  \ debt. The Treasury’s Cross-Servicing is a process used by BFS to refer the debt\
+  \ collection to a private collection agency, among other actions, to collect delinquent\
+  \ debts on behalf of Federal Agencies. \n\nThe FOC’s recapture process establishes\
+  \ receivables in DCAMS and issues a demand notice to the debtor(s). If the debt\
+  \ remains unpaid, DCAMS issues a “Notice of Intent” warning regarding enforced collection\
+  \ measures and informs the debtor regarding their due process rights. DCAMS automatically\
+  \ reports information to credit bureaus and CAIVRS. Penalty and administrative cost\
+  \ charges are also automatically assessed if warranted. \n\nIf the debt remains\
+  \ unpaid, it is referred to Treasury (within 180 days) for offset via the government-wide\
+  \ TOP and for direct collection action by Treasury and Treasury contracted private\
+  \ collection agencies. Treasury also initiates referral to the Department of Justice\
+  \ (DOJ) for civil litigation and/or initiates Administrative Wage Garnishment (AWG)\
+  \ action if they deem such action to be appropriate. \n\nIf Treasury’s Cross-Servicing\
+  \ action is not successful, Treasury “returns” the debt to the FOC. If older than\
+  \ two years, the receivable is written-off and the case is reclassified “currently\
+  \ not collectible.” The FOC keeps the case open if offset via TOP appears fruitful\
+  \ or if other collection measures are applicable (e.g., AWG action by HUD). Otherwise,\
+  \ the FOC terminates collection action, closes the case, and the system issues an\
+  \ IRS Form 1099C “Cancellation of Debt,” the following January if appropriate. Write-off,\
+  \ Termination, close-out, and 1099C issuance can also occur at any point in the\
+  \ above collection cycle if determined appropriate (e.g., debtor is discharged as\
+  \ bankrupt). \n\nCollections from debtors to HUD go to the Treasury Lockbox Network\
+  \ or Pay.gov. Collections from debtors to Treasury or DOJ come to HUD via interagency\
+  \ transfer (i.e., Intra-Governmental Payment and Collection (IPAC)). No matter the\
+  \ route, all payments are posted to the receivable in DCAMS.  \"\n\n \n\nOther Disbursements\n\
+  \nThe Office of Housing-Federal Housing Administration’s (HSNG–FHA) recovery audit\
   \ program is part of its overall program of effective internal control over payments.\
   \ Internal control policies and procedures establishes a system to monitor improper\
   \ payments and their causes, and includes controls and actions for detecting, preventing,\
@@ -1116,28 +2364,28 @@ detail_ara2_1: "Office of Healthy Homes Lead Hazard Control - Lead Hazard Reduct
   \ reports that identify potentially duplicate disbursements. These disbursements\
   \ are researched, and recovery actions are initiated for payments deemed improper.\
   \ As part of the recapture audit plan, internal control documents and files are\
-  \ reviewed, and post claim reviews are performed.\nUnder Title I and Other Debt\
+  \ reviewed, and post claim reviews are performed. \n\nUnder Title I and Other Debt\
   \ Collection Guidance Handbook 4740.2, the Financial Operation Center (FOC) is primarily\
   \ responsible for generic debt collection and customer service activities, including\
   \ responding to debtor inquiries regarding pay-off, payment plans, compromises,\
   \ disputes, and appeals. The debt referral package primarily consists of copies\
   \ of legal documents, mortgages, deeds of trust, judgments and other recorded lien\
   \ documents, lien assignment documents, repayment agreements, credit reports, correspondence\
-  \ to/from debtors, and compromise agreements and supporting documents.\nThe FOC\
+  \ to/from debtors, and compromise agreements and supporting documents. \n\nThe FOC\
   \ is responsible for managing the business operations for the Title I loan program,\
   \ which includes registering and endorsing loans for insurance, billing and collecting\
   \ premiums, and examining claims for loss and approving them for payment. The FOC\
   \ is also responsible for performing the debt collection and servicing activities\
-  \ for Title I Notes (defaulted Title I loans) and generic debts (other FHA debts).\n\
-  The Title I program authorizes HUD to insure lenders against default on loans used\
-  \ to finance property improvements and to purchase manufactured homes. Lenders are\
-  \ required to pay premiums covering the insurance of their loans and submit applications\
-  \ for insurance benefits for defaulted loans. HUD is required to collect the unpaid\
-  \ loan balance, including eligible expenses, from the defaulted borrower.\nThe FOC’s\
-  \ Title I Insurance Processing Branch (TIIPB) is responsible for evaluating and\
-  \ approving lender applications for insurance benefits. The lender’s application\
+  \ for Title I Notes (defaulted Title I loans) and generic debts (other FHA debts).\
+  \ \n\nThe Title I program authorizes HUD to insure lenders against default on loans\
+  \ used to finance property improvements and to purchase manufactured homes. Lenders\
+  \ are required to pay premiums covering the insurance of their loans and submit\
+  \ applications for insurance benefits for defaulted loans. HUD is required to collect\
+  \ the unpaid loan balance, including eligible expenses, from the defaulted borrower.\
+  \ \n\nThe FOC’s Title I Insurance Processing Branch (TIIPB) is responsible for evaluating\
+  \ and approving lender applications for insurance benefits. The lender’s application\
   \ must include loan information and any documentation necessary for the TIIPB to\
-  \ calculate a claim payment. There are three types of claim: initial, resubmitted,\
+  \ calculate a claim payment. There are three types of claims: initial, resubmitted,\
   \ and supplemental. An initial claim is a first submission. A resubmitted claim\
   \ is one that the TIIPB had previously denied. A supplemental claim is an additional\
   \ claim for the same loan when the lender finds documentation for expenses not included\
@@ -1154,7 +2402,7 @@ detail_ara2_1: "Office of Healthy Homes Lead Hazard Control - Lead Hazard Reduct
   \ Treasury disbursement. TIIS/F72 sends a file of paid claims to the Debt Collection\
   \ and Management System – Title I (DCAMS-TI/F71), which converts the paid claims\
   \ to notes receivable. The FOC’s Asset Recovery Division (ARD) is responsible for\
-  \ pursuing collection against the debtor (defaulted borrower).\nThe TIIPB conducts\
+  \ pursuing collection against the debtor (defaulted borrower). \n\nThe TIIPB conducts\
   \ quality reviews of paid Title I claims to ensure consistent processing and examination\
   \ quality. Each month, the TIIPB Branch Chief randomly selects 10% of paid claims\
   \ for review. The Branch Chief either reviews the claim themselves or assigns them\
@@ -1163,7 +2411,7 @@ detail_ara2_1: "Office of Healthy Homes Lead Hazard Control - Lead Hazard Reduct
   \ deficient (minor issues to address), unacceptable (serious issues to address),\
   \ or mitigated (issues found but readily resolved). The outcomes of quality reviews\
   \ are documented in both the Case Notes screen of TIIS/F72 and in the Title I Quality\
-  \ Reviews folder of the FOC’s SharePoint site.\nIf the review identified a deficiency\
+  \ Reviews folder of the FOC’s SharePoint site. \n\nIf the review identified a deficiency\
   \ that resulted in an overpaid claim, the TIIPB Branch Chief or examiner will issue\
   \ a request to the lender for a full (for an unacceptable claim) or partial (for\
   \ a deficient claim) repurchase of the loan. The request instructs the lender to\
@@ -1175,7 +2423,7 @@ detail_ara2_1: "Office of Healthy Homes Lead Hazard Control - Lead Hazard Reduct
   \ the lender of the actions HUD will take if the funds aren’t remitted, including\
   \ transferring the unpaid repurchase to the FOC’s ARD for delinquent debt collection,\
   \ which includes referral to the Treasury Offset Program (TOP) for administrative\
-  \ offset.\nBoth paid and unpaid repurchase requests and demands involve coordination\
+  \ offset. \n\nBoth paid and unpaid repurchase requests and demands involve coordination\
   \ between the FOC’s TIIPB and ARD. The ARD ensures that the Title I Note receivable\
   \ is reclassified as a full or partial repurchase. Payments for full and partial\
   \ repurchases are sent to the Title I Notes lockbox which transmits a collection\
@@ -1186,13 +2434,13 @@ detail_ara2_1: "Office of Healthy Homes Lead Hazard Control - Lead Hazard Reduct
   \ closing out the receivable, the ARD will issue the debtor (defaulted Title I borrower)\
   \ a refund for any non-repurchase collections received. The TIIPB returns the original\
   \ claim binder to the lender along with an executed reassignment of the Title I\
-  \ promissory note and lien, if applicable.\nUnpaid full or partial repurchase requests\
-  \ and demands are transferred to the ARD for delinquent debt collection. The ARD\
-  \ establishes a Title I Repurchase receivable in the Debt Collection and Asset Management\
-  \ System – Generic Debt (DCAMS-GD/F71A), which initiates the collection process\
-  \ by issuing an automated demand letter describing the debt and instructing the\
-  \ lender to remit payment in full within 30 days or contact the designated ARD Debt\
-  \ Servicing Representative (DSR) to request a plan to repay the debt in installments.\
+  \ promissory note and lien, if applicable. \n\nUnpaid full or partial repurchase\
+  \ requests and demands are transferred to the ARD for delinquent debt collection.\
+  \ The ARD establishes a Title I Repurchase receivable in the Debt Collection and\
+  \ Asset Management System – Generic Debt (DCAMS-GD/F71A), which initiates the collection\
+  \ process by issuing an automated demand letter describing the debt and instructing\
+  \ the lender to remit payment in full within 30 days or contact the designated ARD\
+  \ Debt Servicing Representative (DSR) to request a plan to repay the debt in installments.\
   \ If the lender does not pay the debt in full or enter a repayment plan within 30\
   \ days, DCAMS-GD/F71A issues a Notice of Intent (NOI) to Collect by Administrative\
   \ Offset. The NOI notifies the lender that HUD intends to refer the debt to the\
@@ -1209,87 +2457,174 @@ detail_ara2_1: "Office of Healthy Homes Lead Hazard Control - Lead Hazard Reduct
   \ making the debt eligible for referral to TOP. DCAMS-GD/F71A refers eligible debts\
   \ that are 121 or more days delinquent to TOP and the Treasury Cross-Servicing Program.\
   \ DCAMS-GD/F71A also reports lenders to commercial credit reporting agencies (Dun\
-  \ & Bradstreet, Experian, and Equifax).\nThe TIIPB may, rather than transfer the\
-  \ unpaid repurchase to the ARD for delinquent debt collection, pursue internal offset\
-  \ of payments on subsequent claims submitted by the lender. In most cases, however,\
-  \ it’s more effective to transfer the debt to the ARD, since any federal payment\
-  \ made to the lender, including Title I claim payments, will be collected through\
-  \ TOP.\nCollections, both voluntary and involuntary, received on a Title Repurchase\
-  \ debt are credited to the account. When a debt is paid in full, the ARD makes entries\
-  \ in DCAMS-GD/F71A to close out the debt as paid in full and to close out the Title\
-  \ I Note receivable as unenforceable. The TIIPB makes entries in TIIS/F72 (subfunction\
-  \ J04) to acknowledge satisfaction of the repurchase demand and returns the original\
-  \ claim binder to the lender along with an executed reassignment of the Title I\
-  \ Promissory Note and lien, if applicable.\n If the ARD concludes that the Title\
-  \ I Repurchase debt is uncollectible, it takes steps to close out the debt in DCAMS-GD/F71A,\
-  \ which will issue an IRS Form 1099-C to the lender and report the debt accordingly\
-  \ to the IRS. The TIIPB will pursue secondary recovery activities on the uncollectible\
-  \ repurchase by internally offsetting future claims payments to the lender or blocking\
-  \ payments on subsequent claims submitted by the lender. The TIIPB may also refer\
-  \ the lender to FHA’s Mortgagee Review Board for sanctions\nThe Debt Collection\
-  \ Asset Management System (DCAMS) is the application used to support the generic\
-  \ debt collection process. DCAMS is designed to automatically send collection letters,\
-  \ report delinquent debt to credit bureaus and HUD’s Credit Alert Interactive Voice\
-  \ Response System (CAIVRS), assess penalties and administrative costs, and refer\
-  \ eligible debts to the TOP and Cross-Servicing. Based on predefined criteria and\
-  \ the status of that case as reflected in DCAMS data fields (not later than 180\
-  \ days after the demand letter), DCAMS is consistently updated to prevent improper\
-  \ referral for TOP offset.\nFor internal offsets, over-claimed amounts (negative\
-  \ claims) occur when the mortgagee owes FHA. The Single-Family Claims Branch (SFCB)\
-  \ sends billing letters to lenders for the excess amounts claimed and tracks the\
-  \ receivables using the Accounts Receivables Sub-system (ARS). Receivables are established\
-  \ in SFCB’s ARS and identified by an FHA case number. Each FHA case number is further\
-  \ identified by Section of the Act (which is linked to the appropriate fund) and\
-  \ endorsement date. This later date identifies the cohort year. The Holder of record\
-  \ to which the claim funds were originally disbursed is identified in ARS as the\
-  \ debtor, by default. When the receivable is subsequently liquidated by funds remitted\
-  \ by a Mortgagee or by offset, the collected amount is posted to the previously\
-  \ identified FHA case number, Section of the Act, and cohort year.\nIf a payment\
-  \ is not received from a lender within 90 days, the receivable is offset against\
-  \ subsequent claims by the lender until the full amount of the receivable is satisfied.\
-  \ If a receivable is not satisfied within 120-150 days, it is referred to the FOC\
-  \ in Albany, NY for enforced collection actions. At that time, the FOC officially\
-  \ confirms acceptance of the transfer of an aged delinquent debt, and that receivables\
-  \ have been removed from the ARS with the notation that it has been referred to\
-  \ the FOC for recovery.\nAnother avenue by which improper payments are recaptured\
-  \ is through Post Claim Reviews for title II Single Family Insurance Claims. A statistical\
-  \ sample of settled claims is reviewed for compliance with FHA servicing and claim\
-  \ filing requirements. A report on findings, is prepared and issued to the individual\
-  \ mortgagee. Mortgagees can refute the findings by providing additional documents\
-  \ before a final report is issued. If the Mortgagee chooses to pay the monetary\
-  \ findings prior to HUD’s issuance of the final report, those funds are deposited\
-  \ to ARS, which applies them to the Mortgage Insurance (MI) fund. Upon issuance\
-  \ of the final report, it is referred to the FOC which establishes it as a receivable\
-  \ and tracks it until paid in full. If a lender is overpaid on a Multifamily claim,\
-  \ the Multifamily Claims Branch will demand the overage back from the lender, which\
-  \ is usually resolved within 30 days of final settlement. The mortgagee either returns\
-  \ the overpaid funds or files a supplemental claim. If the overpayment is not resolved\
-  \ within the 30-day or 60-day period after final settlement, the reviewer sends\
-  \ a follow-up letter at the end of each period advising the mortgagee of the penalties\
-  \ and interest assessed. If still not resolved after 90 days, the overpayment is\
-  \ electronically transferred to HUD’s FOC in Albany, New York for collection. Lastly,\
+  \ & Bradstreet, Experian, and Equifax). \n\nThe TIIPB may, rather than transfer\
+  \ the unpaid repurchase to the ARD for delinquent debt collection, pursue internal\
+  \ offset of payments on subsequent claims submitted by the lender. In most cases,\
+  \ however, it’s more effective to transfer the debt to the ARD, since any federal\
+  \ payment made to the lender, including Title I claim payments, will be collected\
+  \ through TOP. \n\nCollections, both voluntary and involuntary, received on a Title\
+  \ Repurchase debt are credited to the account. When a debt is paid in full, the\
+  \ ARD makes entries in DCAMS-GD/F71A to close out the debt as paid in full and to\
+  \ close out the Title I Note receivable as unenforceable. The TIIPB makes entries\
+  \ in TIIS/F72 (subfunction J04) to acknowledge satisfaction of the repurchase demand\
+  \ and returns the original claim binder to the lender along with an executed reassignment\
+  \ of the Title I Promissory Note and lien, if applicable. \n\nIf the ARD concludes\
+  \ that the Title I Repurchase debt is uncollectible, it takes steps to close out\
+  \ the debt in DCAMS-GD/F71A, which will issue an IRS Form 1099-C to the lender and\
+  \ report the debt accordingly to the IRS. The TIIPB will pursue secondary recovery\
+  \ activities on the uncollectible repurchase by internally offsetting future claims\
+  \ payments to the lender or blocking payments on subsequent claims submitted by\
+  \ the lender. The TIIPB may also refer the lender to FHA’s Mortgagee Review Board\
+  \ for sanctions \n\nThe Debt Collection Asset Management System (DCAMS) is the application\
+  \ used to support the generic debt collection process. DCAMS is designed to automatically\
+  \ send collection letters, report delinquent debt to credit bureaus and HUD’s Credit\
+  \ Alert Interactive Voice Response System (CAIVRS), assess penalties and administrative\
+  \ costs, and refer eligible debts to the TOP and Cross-Servicing. Based on predefined\
+  \ criteria and the status of that case as reflected in DCAMS data fields (not later\
+  \ than 180 days after the demand letter), DCAMS is consistently updated to prevent\
+  \ improper referral for TOP offset. \n\nFor internal offsets, over-claimed amounts\
+  \ (negative claims) occur when the mortgagee owes FHA. The Single-Family Claims\
+  \ Branch (SFCB) sends billing letters to lenders for the excess amounts claimed\
+  \ and tracks the receivables using the Accounts Receivables Sub-system (ARS). Receivables\
+  \ are established in SFCB’s ARS and identified by an FHA case number. Each FHA case\
+  \ number is further identified by Section of the Act (which is linked to the appropriate\
+  \ fund) and endorsement date. This later date identifies the cohort year. The Holder\
+  \ of record to which the claim funds were originally disbursed is identified in\
+  \ ARS as the debtor, by default. When the receivable is subsequently liquidated\
+  \ by funds remitted by a Mortgagee or by offset, the collected amount is posted\
+  \ to the previously identified FHA case number, Section of the Act, and cohort year.\
+  \ \n\nIf payment is not received from a lender within 90 days, the receivable is\
+  \ offset against subsequent claims by the lender until the full amount of the receivable\
+  \ is satisfied. If a receivable is not satisfied within 120-150 days, it is referred\
+  \ to the FOC in Albany, NY for enforced collection actions. At that time, the FOC\
+  \ officially confirms acceptance of the transfer of an aged delinquent debt, and\
+  \ that receivables have been removed from the ARS with the notation that it has\
+  \ been referred to the FOC for recovery. \n\nAnother avenue by which improper payments\
+  \ are recaptured is through Post Claim Reviews for title II Single Family Insurance\
+  \ Claims. A statistical sample of settled claims is reviewed for compliance with\
+  \ FHA servicing and claim filing requirements. A report on findings is prepared\
+  \ and issued to the individual mortgagee. Mortgagees can refute the findings by\
+  \ providing additional documents before a final report is issued. If the Mortgagee\
+  \ chooses to pay the monetary findings prior to HUD’s issuance of the final report,\
+  \ those funds are deposited to ARS, which applies them to the Mortgage Insurance\
+  \ (MI) fund. Upon issuance of the final report, it is referred to the FOC which\
+  \ establishes it as a receivable and tracks it until paid in full. If a lender is\
+  \ overpaid on a Multifamily claim, the Multifamily Claims Branch will demand the\
+  \ overage back from the lender, which is usually resolved within 30 days of final\
+  \ settlement. The mortgagee either returns the overpaid funds or files a supplemental\
+  \ claim. If the overpayment is not resolved within the 30-day or 60-day period after\
+  \ final settlement, the reviewer sends a follow-up letter at the end of each period\
+  \ advising the mortgagee of the penalties and interest assessed. If it is still\
+  \ not resolved after 90 days, the overpayment is electronically transferred to HUD’s\
+  \ FOC in Albany, New York for collection. Lastly, for Treasury Cross-Servicing,\
+  \ the collection of generic debt is governed by the Debt Collection Improvement\
+  \ Act and HUD policies (Title I and Other Debt Collection Guidance 4740.2). The\
+  \ Act requires federal agencies to refer eligible delinquent debts to Treasury (for\
+  \ Cross-Servicing and TOP) when the debt is 120 days delinquent. \n\nThe Treasury’s\
+  \ TOP allows federal agencies to report delinquent non-tax debt to the BFS. BFS\
+  \ performs computer matching with disbursement data and processes an offset when\
+  \ an appropriate match is determined. After referral, Treasury and its private collection\
+  \ agencies are responsible for contacting the debtor to collect the payment of the\
+  \ debt. The Treasury’s Cross-Servicing is a process used by BFS to refer the debt\
+  \ collection to a private collection agency, among other actions, to collect delinquent\
+  \ debts on behalf of Federal Agencies. \n\nThe FOC’s recapture process establishes\
+  \ receivables in DCAMS and issues a demand notice to the debtor(s). If the debt\
+  \ remains unpaid, DCAMS issues a “Notice of Intent” warning regarding enforced collection\
+  \ measures and informs the debtor regarding their due process rights. DCAMS automatically\
+  \ reports information to credit bureaus and CAIVRS. Penalty and administrative cost\
+  \ charges are also automatically assessed if warranted. \n\nIf the debt remains\
+  \ unpaid, it is referred to Treasury (within 180 days) for offset via the government-wide\
+  \ TOP and for direct collection action by Treasury and Treasury contracted private\
+  \ collection agencies. Treasury also initiates referral to the Department of Justice\
+  \ (DOJ) for civil litigation and/or initiates Administrative Wage Garnishment (AWG)\
+  \ action if they deem such action to be appropriate. \n\nIf Treasury’s Cross-Servicing\
+  \ action is not successful, Treasury “returns” the debt to the FOC. If older than\
+  \ two years, the receivable is written-off and the case is reclassified “currently\
+  \ not collectible.” The FOC keeps the case open if offset via TOP appears fruitful\
+  \ or if other collection measures are applicable (e.g., AWG action by HUD). Otherwise,\
+  \ the FOC terminates collection action, closes the case, and the system issues an\
+  \ IRS Form 1099C “Cancellation of Debt,” the following January if appropriate. Write-off,\
+  \ Termination, close-out, and 1099C issuance can also occur at any point in the\
+  \ above collection cycle if determined appropriate (e.g., debtor is discharged as\
+  \ bankrupt). \n\nCollections from debtors to HUD go to the Treasury Lockbox Network\
+  \ or Pay.gov. Collections from debtors to Treasury or DOJ come to HUD via interagency\
+  \ transfer (i.e., Intra-Governmental Payment and Collection (IPAC)). No matter the\
+  \ route, all payments are posted to the receivable in DCAMS. \"\n\nMultifamily Insurance\
+  \ Claims\n\nThe Office of Housing-Federal Housing Administration’s (HSNG–FHA) recovery\
+  \ audit program is part of its overall program of effective internal control over\
+  \ payments. Internal control policies and procedures establishes a system to monitor\
+  \ improper payments and their causes, and includes controls and actions for detecting,\
+  \ preventing, and recovering improper payments. On a recurring basis, these programs\
+  \ generate reports that identify potentially duplicate disbursements. These disbursements\
+  \ are researched, and recovery actions are initiated for payments deemed improper.\
+  \ As part of the recapture audit plan, internal control documents and files are\
+  \ reviewed, and post claim reviews are performed. \n\nUnder Title I and Other Debt\
+  \ Collection Guidance Handbook 4740.2, the Financial Operation Center (FOC) is primarily\
+  \ responsible for generic debt collection and customer service activities, including\
+  \ responding to debtor inquiries regarding pay-off, payment plans, compromises,\
+  \ disputes, and appeals. The debt referral package primarily consists of copies\
+  \ of legal documents, mortgages, deeds of trust, judgments and other recorded lien\
+  \ documents, lien assignment documents, repayment agreements, credit reports, correspondence\
+  \ to/from debtors, and compromise agreements and supporting documents. \n\nThe Debt\
+  \ Collection Asset Management System (DCAMS) is the application used to support\
+  \ the generic debt collection process. DCAMS is designed to automatically send collection\
+  \ letters, report delinquent debt to credit bureaus and HUD’s Credit Alert Interactive\
+  \ Voice Response System (CAIVRS), assess penalties and administrative costs, and\
+  \ refer eligible debts to the Treasury Offset Program (TOP) and Cross-Servicing.\
+  \ Based on predefined criteria and the status of that case as reflected in DCAMS\
+  \ data fields (not later than 180 days after the demand letter), DCAMS is consistently\
+  \ updated to prevent improper referral for TOP offset. \n\nFor internal offsets,\
+  \ over-claimed amounts (negative claims) occur when the mortgagee owes FHA. The\
+  \ Single-Family Claims Branch (SFCB) sends billing letters to lenders for the excess\
+  \ amounts claimed and tracks the receivables using the Accounts Receivables Sub-system\
+  \ (ARS). Receivables are established in SFCB’s ARS and identified by an FHA case\
+  \ number. Each FHA case number is further identified by Section of the Act (which\
+  \ is linked to the appropriate fund) and endorsement date. This later date identifies\
+  \ the cohort year. The Holder of record to which the claim funds were originally\
+  \ disbursed is identified in ARS as the debtor, by default. When the receivable\
+  \ is subsequently liquidated by funds remitted by a Mortgagee or by offset, the\
+  \ collected amount is posted to the previously identified FHA case number, Section\
+  \ of the Act, and cohort year. \n\nIf a payment is not received from a lender within\
+  \ 90 days, the receivable is offset against subsequent claims by the lender until\
+  \ the full amount of the receivable is satisfied. If a receivable is not satisfied\
+  \ within 120-150 days, it is referred to the FOC in Albany, NY for enforced collection\
+  \ actions. At that time, the FOC officially confirms acceptance of the transfer\
+  \ of an aged delinquent debt, and that receivables have been removed from the ARS\
+  \ with the notation that it has been referred to the FOC for recovery. \n\nAnother\
+  \ avenue by which improper payments are recaptured is through Post Claim Reviews\
+  \ for title II Single Family Insurance Claims. A statistical sample of settled claims\
+  \ is reviewed for compliance with FHA servicing and claim filing requirements. A\
+  \ report on findings, is prepared and issued to the individual mortgagee. Mortgagees\
+  \ can refute the findings by providing additional documents before a final report\
+  \ is issued. If the Mortgagee chooses to pay the monetary findings prior to HUD’s\
+  \ issuance of the final report, those funds are deposited to ARS, which applies\
+  \ them to the Mortgage Insurance (MI) fund. Upon issuance of the final report, it\
+  \ is referred to the FOC which establishes it as a receivable and tracks it until\
+  \ paid in full. If a lender is overpaid on a Multifamily claim, the Multifamily\
+  \ Claims Branch will demand the overage back from the lender. If the lender fails\
+  \ to respond to their demands, the debt is referred to the FOC for collection. Lastly,\
   \ for Treasury Cross-Servicing, the collection of generic debt is governed by the\
   \ Debt Collection Improvement Act and HUD policies (Title I and Other Debt Collection\
   \ Guidance 4740.2). The Act requires federal agencies to refer eligible delinquent\
-  \ debts to Treasury (for Cross-Servicing and TOP) when the debt is 120 days delinquent.\n\
-  The Treasury’s TOP allows federal agencies to report delinquent non-tax debt to\
-  \ the BFS. BFS performs computer matching with disbursement data and processes an\
-  \ offset when an appropriate match is determined. After referral, Treasury and its\
-  \ private collection agencies are responsible for contacting the debtor to collect\
+  \ debts to Treasury (for Cross-Servicing and TOP) when the debt is 120 days delinquent.\
+  \ \n\nThe Treasury’s TOP allows federal agencies to report delinquent non-tax debt\
+  \ to the BFS. BFS performs computer matching with disbursement data and processes\
+  \ an offset when an appropriate match is determined. After referral, Treasury and\
+  \ its private collection agencies are responsible for contacting the debtor to collect\
   \ the payment of the debt. The Treasury’s Cross-Servicing is a process used by BFS\
   \ to refer the debt collection to a private collection agency, among other actions,\
-  \ to collect delinquent debts on behalf of Federal Agencies.\nThe FOC’s recapture\
+  \ to collect delinquent debts on behalf of Federal Agencies. \n\nThe FOC’s recapture\
   \ process establishes receivables in DCAMS and issues a demand notice to the debtor(s).\
   \ If the debt remains unpaid, DCAMS issues a “Notice of Intent” warning regarding\
   \ enforced collection measures and informs the debtor regarding their due process\
   \ rights. DCAMS automatically reports information to credit bureaus and CAIVRS.\
-  \ Penalty and administrative cost charges are also automatically assessed if warranted.\n\
-  If the debt remains unpaid, it is referred to Treasury (within 180 days) for offset\
-  \ via the government-wide TOP and for direct collection action by Treasury and Treasury\
-  \ contracted private collection agencies. Treasury also initiates referral to the\
-  \ Department of Justice (DOJ) for civil litigation and/or initiates Administrative\
-  \ Wage Garnishment (AWG) action if they deem such action to be appropriate.\nIf\
-  \ Treasury’s Cross-Servicing action is not successful, Treasury “returns” the debt\
+  \ Penalty and administrative cost charges are also automatically assessed if warranted.\
+  \ \n\nIf the debt remains unpaid, it is referred to Treasury (within 180 days) for\
+  \ offset via the government-wide TOP and for direct collection action by Treasury\
+  \ and Treasury contracted private collection agencies. Treasury also initiates referral\
+  \ to the Department of Justice (DOJ) for civil litigation and/or initiates Administrative\
+  \ Wage Garnishment (AWG) action if they deem such action to be appropriate. \n\n\
+  If Treasury’s Cross-Servicing action is not successful, Treasury “returns” the debt\
   \ to the FOC. If older than two years, the receivable is written-off and the case\
   \ is reclassified “currently not collectible.” The FOC keeps the case open if offset\
   \ via TOP appears fruitful or if other collection measures are applicable (e.g.,\
@@ -1297,62 +2632,679 @@ detail_ara2_1: "Office of Healthy Homes Lead Hazard Control - Lead Hazard Reduct
   \ case, and the system issues an IRS Form 1099C “Cancellation of Debt,” the following\
   \ January if appropriate. Write-off, Termination, close-out, and 1099C issuance\
   \ can also occur at any point in the above collection cycle if determined appropriate\
-  \ (e.g., debtor is discharged as bankrupt).\nCollections from debtors to HUD go\
-  \ to the Treasury Lockbox Network or Pay.gov. Collections from debtors to Treasury\
+  \ (e.g., debtor is discharged as bankrupt). \n\nCollections from debtors to HUD\
+  \ go to the Treasury Lockbox Network or Pay.gov. Collections from debtors to Treasury\
   \ or DOJ come to HUD via interagency transfer (i.e., Intra-Governmental Payment\
   \ and Collection (IPAC)). No matter the route, all payments are posted to the receivable\
-  \ in DCAMS.\n"
-detail_ara2_2: null
-detail_ara2_3: "I. Nature of the Program\nRHAP - Tenant Based Rental Assistance Section\
-  \ 8 Housing Certificate Fund & Tenant Based Rental Assistance\n\nA payment recapture\
-  \ audit was deemed not be cost-beneficial based on the nature of these programs.\
-  \ Collectability is a concern as tenants may no longer be receiving housing assistance\
-  \ when the overpayments are identified, or many may not be able to repay the subsidy\
-  \ with their own resources. HSNG Owners/ PIH PHAs use the Enterprise Income Verification\
-  \ (EIV) system to verify tenant employment/income information and reduce administrative\
-  \ and subsidy payment errors in accordance with HUD administrative guidance. The\
-  \ program Points of Contact (POC) use EIV to monitor the owner’s compliance with\
-  \ access and use of the system. However, tenant files are stored locally at each\
-  \ Multifamily property and some RHAP activities are administered by PHAs nationwide.\
-  \ A recovery audit would involve substantial travel costs in addition to staff time.\
-  \ There are also no centralized computer database capturing documents used to support\
-  \ the rental subsidy determinations. Therefore, the cost of any additional attempts\
-  \ to recover improper payments would exceed the benefit of improper payments recovered.\n\
-  \nII. Lack of Empirical Evidence\nChoice Neighborhoods Initiative\nFamily Self-Sufficiency\
-  \ Program\nPublic Housing Capital Fund\nPublic Housing Operating Fund\nRevitalization\
-  \ of Severely Distressed Public Housing (HOPE VI)\nResearch and Technology\n\nThe\
-  \ results of HUD’s payment integrity risk assessments identified these programs\
-  \ as not susceptible to significant improper payments. There is no empirical evidence,\
-  \ either through risk assessments, A-123 internal control reviews, and other monitoring\
-  \ reviews, that suggests significant improper payments exist within these programs\
-  \ and activities, and it is not likely that HUD would realize any benefit to payment\
-  \ recapture audits of these programs. Therefore, the cost of any additional attempts\
-  \ to recover improper payments would exceed the benefit of improper payments recovered.\n\
-  \nIII. Similar Overpayment Recovery Activities for CPD Programs\nCapacity Building\n\
-  Community Development Fund - Disaster Recovery Assistance (Hurricane Harvey, Irma,\
-  \ Maria)\nCommunity Development Fund - Disaster Recovery Assistance (Louisiana,\
-  \ Texas, West Virginia, Hurricane IKE, Other Disasters)\nNeighborhood Stabilization\
-  \ Program\nProject Based Section 8 - Renewal of Expiring Sec. 8 Mod Rehab SRO\n\
-  Self-Help Homeowner Opportunity Program (SHOP)\nCommunity Project Funding - Community\
-  \ Project/Congressional Funding\n\nThe CPD funds have a monitoring process in place\
-  \ to assess the quality of performance of the grantee over time and promptly resolve\
-  \ the findings of audits and other reviews. Monitoring provides information about\
-  \ program participants that is critical for making informed judgments about program\
-  \ effectiveness and management efficiency. It also helps in identifying instances\
-  \ of fraud, waste, and abuse. The process involves frequent telephone/email contacts,\
-  \ written communications, analysis of reports and audits, and periodic meetings.\
-  \ Monitoring also provides opportunities to identify program participant accomplishments\
-  \ as well as successful management/ implementation/evaluation techniques that might\
-  \ be replicated by other CPD program participants. \nParties involved include Special\
-  \ Need Assistance Programs (SNAP), Field Offices, Office of Policy Development and\
-  \ Coordination (OPDC), Office of Rural Housing and Economic Development (ORHED),\
-  \ Office of General Counsel (OGC), Budget and OCFO. CPD’s program exhibit 34-1a,\
-  \ Guide for Review of Financial Management and Audits, is designed to monitor non-federal\
-  \ entity’s compliance with requirements of Subparts D and F of 2 Code of Federal\
-  \ Regulations (CFR) part 200, Uniform Administrative Requirements, Cost Principles,\
-  \ and Audit Requirements for Federal Awards, except for cost allowability, procurement\
-  \ and equipment. During the monitoring process, program expenditures are reviewed\
-  \ to determine if improper payments were made. If identified CPD determines whether\
+  \ in DCAMS. \"\n\n \n\nTitle I Claims\n\nThe Office of Housing-Federal Housing Administration’s\
+  \ (HSNG–FHA) recovery audit program is part of its overall program of effective\
+  \ internal control over payments. Internal control policies and procedures establishes\
+  \ a system to monitor improper payments and their causes, and includes controls\
+  \ and actions for detecting, preventing, and recovering improper payments. On a\
+  \ recurring basis, these programs generate reports that identify potentially duplicate\
+  \ disbursements. These disbursements are researched, and recovery actions are initiated\
+  \ for payments deemed improper. As part of the recapture audit plan, internal control\
+  \ documents and files are reviewed, and post claim reviews are performed. \n\nUnder\
+  \ Title I and Other Debt Collection Guidance Handbook 4740.2, the Financial Operation\
+  \ Center (FOC) is primarily responsible for generic debt collection and customer\
+  \ service activities, including responding to debtor inquiries regarding pay-off,\
+  \ payment plans, compromises, disputes, and appeals. The debt referral package primarily\
+  \ consists of copies of legal documents, mortgages, deeds of trust, judgments and\
+  \ other recorded lien documents, lien assignment documents, repayment agreements,\
+  \ credit reports, correspondence to/from debtors, and compromise agreements and\
+  \ supporting documents. \n\nThe FOC is responsible for managing the business operations\
+  \ for the Title I loan program, which includes registering and endorsing loans for\
+  \ insurance, billing and collecting premiums, and examining claims for loss and\
+  \ approving them for payment. The FOC is also responsible for performing the debt\
+  \ collection and servicing activities for Title I Notes (defaulted Title I loans)\
+  \ and generic debts (other FHA debts). \n\nThe Title I program authorizes HUD to\
+  \ insure lenders against default on loans used to finance property improvements\
+  \ and to purchase manufactured homes. Lenders are required to pay premiums covering\
+  \ the insurance of their loans and submit applications for insurance benefits for\
+  \ defaulted loans. HUD is required to collect the unpaid loan balance, including\
+  \ eligible expenses, from the defaulted borrower. \n\nThe FOC’s Title I Insurance\
+  \ Processing Branch (TIIPB) is responsible for evaluating and approving lender applications\
+  \ for insurance benefits. The lender’s application must include loan information\
+  \ and any documentation necessary for the TIIPB to calculate a claim payment. There\
+  \ are three types of claims: initial, resubmitted, and supplemental. An initial\
+  \ claim is a first submission. A resubmitted claim is one that the TIIPB had previously\
+  \ denied. A supplemental claim is an additional claim for the same loan when the\
+  \ lender finds documentation for expenses not included in the initial claim. TIIPB\
+  \ support staff establish the claim in the Title I Insurance and Claims System (TIIS/F72).\
+  \ The process includes assigning a claim number, entering the date the claim was\
+  \ received, and assigning the claim to a TIIPB examiner. The examiner conducts a\
+  \ full review of the claim to determine whether the loan complies with Title I underwriting\
+  \ and servicing requirements and whether expenses claimed by the lender are supported\
+  \ by the documentation provided. If these conditions are satisfied, the examiner\
+  \ processes the claim calculation and authorization for payment in TIIS/F72. TIIS/F72\
+  \ processes the payments authorized on the same day in a single batch file, sends\
+  \ the file to Treasury’s Payment Application Modernization system, and sends another\
+  \ file to the Cash Management Branch to authorize the Treasury disbursement. TIIS/F72\
+  \ sends a file of paid claims to the Debt Collection and Management System – Title\
+  \ I (DCAMS-TI/F71), which converts the paid claims to notes receivable. The FOC’s\
+  \ Asset Recovery Division (ARD) is responsible for pursuing collection against the\
+  \ debtor (defaulted borrower). \n\nThe TIIPB conducts quality reviews of paid Title\
+  \ I claims to ensure consistent processing and examination quality. Each month,\
+  \ the TIIPB Branch Chief randomly selects 10% of paid claims for review. The Branch\
+  \ Chief either reviews the claim themselves or assigns them to examiners for a peer\
+  \ review. The reviewer conducts a full examination of the claim and reports whether\
+  \ the claim payment was conforming (compliant/no deficiencies), deficient (minor\
+  \ issues to address), unacceptable (serious issues to address), or mitigated (issues\
+  \ found but readily resolved). The outcomes of quality reviews are documented in\
+  \ both the Case Notes screen of TIIS/F72 and in the Title I Quality Reviews folder\
+  \ of the FOC’s SharePoint site. \n\nIf the review identified a deficiency that resulted\
+  \ in an overpaid claim, the TIIPB Branch Chief or examiner will issue a request\
+  \ to the lender for a full (for an unacceptable claim) or partial (for a deficient\
+  \ claim) repurchase of the loan. The request instructs the lender to repurchase\
+  \ the loan by remitting payment to a designated lockbox within 30 days or to ask\
+  \ for a reconsideration of the repurchase request within 10 days. If the lender\
+  \ fails to submit documentation that satisfactorily resolves the deficiency or to\
+  \ remit payment within the established timeframes, TIIPB issues a repurchase demand\
+  \ which gives the lender 30 days to remit the repurchase funds and informs the lender\
+  \ of the actions HUD will take if the funds aren’t remitted, including transferring\
+  \ the unpaid repurchase to the FOC’s ARD for delinquent debt collection, which includes\
+  \ referral to the Treasury Offset Program (TOP) for administrative offset. \n\n\
+  Both paid and unpaid repurchase requests and demands involve coordination between\
+  \ the FOC’s TIIPB and ARD. The ARD ensures that the Title I Note receivable is reclassified\
+  \ as a full or partial repurchase. Payments for full and partial repurchases are\
+  \ sent to the Title I Notes lockbox which transmits a collection file to DCAMS-TI/F71\
+  \ to credit the funds to the Title I Note receivable associated with the claim.\
+  \ The ARD notifies the TIIPB when repurchase funds are received and the TIIPB updates\
+  \ the claim record in TIIS/F72 (subfunction J04). For full repurchases, the ARD\
+  \ closes the Title I Note receivable as repurchased. Before closing out the receivable,\
+  \ the ARD will issue the debtor (defaulted Title I borrower) a refund for any non-repurchase\
+  \ collections received. The TIIPB returns the original claim binder to the lender\
+  \ along with an executed reassignment of the Title I promissory note and lien, if\
+  \ applicable. \n\nUnpaid full or partial repurchase requests and demands are transferred\
+  \ to the ARD for delinquent debt collection. The ARD establishes a Title I Repurchase\
+  \ receivable in the Debt Collection and Asset Management System – Generic Debt (DCAMS-GD/F71A),\
+  \ which initiates the collection process by issuing an automated demand letter describing\
+  \ the debt and instructing the lender to remit payment in full within 30 days or\
+  \ contact the designated ARD Debt Servicing Representative (DSR) to request a plan\
+  \ to repay the debt in installments. If the lender does not pay the debt in full\
+  \ or enter a repayment plan within 30 days, DCAMS-GD/F71A issues a Notice of Intent\
+  \ (NOI) to Collect by Administrative Offset. The NOI notifies the lender that HUD\
+  \ intends to refer the debt to the TOP, describes the TOP process for administrative\
+  \ offset of federal payments, and provides the lender with steps to take to contest\
+  \ the basis of the debt or the amount demanded by filing an appeal with HUD’s Board\
+  \ of Appeals (BOA) within 65 days. If the lender files an appeal, DCAMS-GD/F71A\
+  \ suspends referral to TOP pending a decision and order from the BOA administrative\
+  \ law judge. (BOA adjudicates appeals by gathering and evaluating statements and\
+  \ documents from both parties.) If the BOA judge issues a decision and order declaring\
+  \ the debt unenforceable, the ARD closes the debt as unenforceable and notifies\
+  \ the TIIPB. The TIIPB will reverse the pending repurchase in TIIS/F72. If the decision\
+  \ and order results in a dismissal of the lender’s appeal, the DSR updates debt\
+  \ status in DCAMS-GD/F71A making the debt eligible for referral to TOP. DCAMS-GD/F71A\
+  \ refers eligible debts that are 121 or more days delinquent to TOP and the Treasury\
+  \ Cross-Servicing Program. DCAMS-GD/F71A also reports lenders to commercial credit\
+  \ reporting agencies (Dun & Bradstreet, Experian, and Equifax). \n\nThe TIIPB may,\
+  \ rather than transfer the unpaid repurchase to the ARD for delinquent debt collection,\
+  \ pursue internal offset of payments on subsequent claims submitted by the lender.\
+  \ In most cases, however, it’s more effective to transfer the debt to the ARD, since\
+  \ any federal payment made to the lender, including Title I claim payments, will\
+  \ be collected through TOP. \n\nCollections, both voluntary and involuntary, received\
+  \ on a Title Repurchase debt are credited to the account. When a debt is paid in\
+  \ full, the ARD makes entries in DCAMS-GD/F71A to close out the debt as paid in\
+  \ full and to close out the Title I Note receivable as unenforceable. The TIIPB\
+  \ makes entries in TIIS/F72 (subfunction J04) to acknowledge satisfaction of the\
+  \ repurchase demand and returns the original claim binder to the lender along with\
+  \ an executed reassignment of the Title I Promissory Note and lien, if applicable.\
+  \ \n\nIf the ARD concludes that the Title I Repurchase debt is uncollectible, it\
+  \ takes steps to close out the debt in DCAMS-GD/F71A, which will issue an IRS Form\
+  \ 1099-C to the lender and report the debt accordingly to the IRS. The TIIPB will\
+  \ pursue secondary recovery activities on the uncollectible repurchase by internally\
+  \ offsetting future claims payments to the lender or blocking payments on subsequent\
+  \ claims submitted by the lender. The TIIPB may also refer the lender to FHA’s Mortgagee\
+  \ Review Board for sanctions \n\nThe Debt Collection Asset Management System (DCAMS)\
+  \ is the application used to support the generic debt collection process. DCAMS\
+  \ is designed to automatically send collection letters, report delinquent debt to\
+  \ credit bureaus and HUD’s Credit Alert Interactive Voice Response System (CAIVRS),\
+  \ assess penalties and administrative costs, and refer eligible debts to the TOP\
+  \ and Cross-Servicing. Based on predefined criteria and the status of that case\
+  \ as reflected in DCAMS data fields (not later than 180 days after the demand letter),\
+  \ DCAMS is consistently updated to prevent improper referral for TOP offset. \n\n\
+  For internal offsets, over-claimed amounts (negative claims) occur when the mortgagee\
+  \ owes FHA. The Single-Family Claims Branch (SFCB) sends billing letters to lenders\
+  \ for the excess amounts claimed and tracks the receivables using the Accounts Receivables\
+  \ Sub-system (ARS). Receivables are established in SFCB’s ARS and identified by\
+  \ an FHA case number. Each FHA case number is further identified by Section of the\
+  \ Act (which is linked to the appropriate fund) and endorsement date. This later\
+  \ date identifies the cohort year. The Holder of record to which the claim funds\
+  \ were originally disbursed is identified in ARS as the debtor, by default. When\
+  \ the receivable is subsequently liquidated by funds remitted by a Mortgagee or\
+  \ by offset, the collected amount is posted to the previously identified FHA case\
+  \ number, Section of the Act, and cohort year. \n\nIf payment is not received from\
+  \ a lender within 90 days, the receivable is offset against subsequent claims by\
+  \ the lender until the full amount of the receivable is satisfied. If a receivable\
+  \ is not satisfied within 120-150 days, it is referred to the FOC in Albany, NY\
+  \ for enforced collection actions. At that time, the FOC officially confirms acceptance\
+  \ of the transfer of an aged delinquent debt, and that receivables have been removed\
+  \ from the ARS with the notation that it has been referred to the FOC for recovery.\
+  \ \n\nAnother avenue by which improper payments are recaptured is through Post Claim\
+  \ Reviews for title II Single Family Insurance Claims. A statistical sample of settled\
+  \ claims is reviewed for compliance with FHA servicing and claim filing requirements.\
+  \ A report on findings is prepared and issued to the individual mortgagee. Mortgagees\
+  \ can refute the findings by providing additional documents before a final report\
+  \ is issued. If the Mortgagee chooses to pay the monetary findings prior to HUD’s\
+  \ issuance of the final report, those funds are deposited to ARS, which applies\
+  \ them to the Mortgage Insurance (MI) fund. Upon issuance of the final report, it\
+  \ is referred to the FOC which establishes it as a receivable and tracks it until\
+  \ paid in full. If a lender is overpaid on a Multifamily claim, the Multifamily\
+  \ Claims Branch will demand the overage back from the lender, which is usually resolved\
+  \ within 30 days of final settlement. The mortgagee either returns the overpaid\
+  \ funds or files a supplemental claim. If the overpayment is not resolved within\
+  \ the 30-day or 60-day period after final settlement, the reviewer sends a follow-up\
+  \ letter at the end of each period advising the mortgagee of the penalties and interest\
+  \ assessed. If it is still not resolved after 90 days, the overpayment is electronically\
+  \ transferred to HUD’s FOC in Albany, New York for collection. Lastly, for Treasury\
+  \ Cross-Servicing, the collection of generic debt is governed by the Debt Collection\
+  \ Improvement Act and HUD policies (Title I and Other Debt Collection Guidance 4740.2).\
+  \ The Act requires federal agencies to refer eligible delinquent debts to Treasury\
+  \ (for Cross-Servicing and TOP) when the debt is 120 days delinquent. \n\nThe Treasury’s\
+  \ TOP allows federal agencies to report delinquent non-tax debt to the BFS. BFS\
+  \ performs computer matching with disbursement data and processes an offset when\
+  \ an appropriate match is determined. After referral, Treasury and its private collection\
+  \ agencies are responsible for contacting the debtor to collect the payment of the\
+  \ debt. The Treasury’s Cross-Servicing is a process used by BFS to refer the debt\
+  \ collection to a private collection agency, among other actions, to collect delinquent\
+  \ debts on behalf of Federal Agencies. \n\nThe FOC’s recapture process establishes\
+  \ receivables in DCAMS and issues a demand notice to the debtor(s). If the debt\
+  \ remains unpaid, DCAMS issues a “Notice of Intent” warning regarding enforced collection\
+  \ measures and informs the debtor regarding their due process rights. DCAMS automatically\
+  \ reports information to credit bureaus and CAIVRS. Penalty and administrative cost\
+  \ charges are also automatically assessed if warranted. \n\nIf the debt remains\
+  \ unpaid, it is referred to Treasury (within 180 days) for offset via the government-wide\
+  \ TOP and for direct collection action by Treasury and Treasury contracted private\
+  \ collection agencies. Treasury also initiates referral to the Department of Justice\
+  \ (DOJ) for civil litigation and/or initiates Administrative Wage Garnishment (AWG)\
+  \ action if they deem such action to be appropriate. \n\nIf Treasury’s Cross-Servicing\
+  \ action is not successful, Treasury “returns” the debt to the FOC. If older than\
+  \ two years, the receivable is written-off and the case is reclassified “currently\
+  \ not collectible.” The FOC keeps the case open if offset via TOP appears fruitful\
+  \ or if other collection measures are applicable (e.g., AWG action by HUD). Otherwise,\
+  \ the FOC terminates collection action, closes the case, and the system issues an\
+  \ IRS Form 1099C “Cancellation of Debt,” the following January if appropriate. Write-off,\
+  \ Termination, close-out, and 1099C issuance can also occur at any point in the\
+  \ above collection cycle if determined appropriate (e.g., debtor is discharged as\
+  \ bankrupt). \n\nCollections from debtors to HUD go to the Treasury Lockbox Network\
+  \ or Pay.gov. Collections from debtors to Treasury or DOJ come to HUD via interagency\
+  \ transfer (i.e., Intra-Governmental Payment and Collection (IPAC)). No matter the\
+  \ route, all payments are posted to the receivable in DCAMS.\"\n\n \n\nContracts/Grants\
+  \ (includes Single Family Upfront Grants)\n\nThe Office of Housing-Federal Housing\
+  \ Administration’s (HSNG–FHA) recovery audit program is part of its overall program\
+  \ of effective internal control over payments. Internal control policies and procedures\
+  \ establishes a system to monitor improper payments and their causes, and includes\
+  \ controls and actions for detecting, preventing, and recovering improper payments.\
+  \ On a recurring basis, these programs generate reports that identify potentially\
+  \ duplicate disbursements. These disbursements are researched, and recovery actions\
+  \ are initiated for payments deemed improper. As part of the recapture audit plan,\
+  \ internal control documents and files are reviewed, and post claim reviews are\
+  \ performed. \n\nUnder Title I and Other Debt Collection Guidance Handbook 4740.2,\
+  \ the Financial Operation Center (FOC) is primarily responsible for generic debt\
+  \ collection and customer service activities, including responding to debtor inquiries\
+  \ regarding pay-off, payment plans, compromises, disputes, and appeals. The debt\
+  \ referral package primarily consists of copies of legal documents, mortgages, deeds\
+  \ of trust, judgments and other recorded lien documents, lien assignment documents,\
+  \ repayment agreements, credit reports, correspondence to/from debtors, and compromise\
+  \ agreements and supporting documents. \n\nThe FOC is responsible for managing the\
+  \ business operations for the Title I loan program, which includes registering and\
+  \ endorsing loans for insurance, billing and collecting premiums, and examining\
+  \ claims for loss and approving them for payment. The FOC is also responsible for\
+  \ performing the debt collection and servicing activities for Title I Notes (defaulted\
+  \ Title I loans) and generic debts (other FHA debts). \n\nThe Title I program authorizes\
+  \ HUD to insure lenders against default on loans used to finance property improvements\
+  \ and to purchase manufactured homes. Lenders are required to pay premiums covering\
+  \ the insurance of their loans and submit applications for insurance benefits for\
+  \ defaulted loans. HUD is required to collect the unpaid loan balance, including\
+  \ eligible expenses, from the defaulted borrower. \n\nThe FOC’s Title I Insurance\
+  \ Processing Branch (TIIPB) is responsible for evaluating and approving lender applications\
+  \ for insurance benefits. The lender’s application must include loan information\
+  \ and any documentation necessary for the TIIPB to calculate a claim payment. There\
+  \ are three types of claims: initial, resubmitted, and supplemental. An initial\
+  \ claim is a first submission. A resubmitted claim is one that the TIIPB had previously\
+  \ denied. A supplemental claim is an additional claim for the same loan when the\
+  \ lender finds documentation for expenses not included in the initial claim. TIIPB\
+  \ support staff establish the claim in the Title I Insurance and Claims System (TIIS/F72).\
+  \ The process includes assigning a claim number, entering the date the claim was\
+  \ received, and assigning the claim to a TIIPB examiner. The examiner conducts a\
+  \ full review of the claim to determine whether the loan complies with Title I underwriting\
+  \ and servicing requirements and whether expenses claimed by the lender are supported\
+  \ by the documentation provided. If these conditions are satisfied, the examiner\
+  \ processes the claim calculation and authorization for payment in TIIS/F72. TIIS/F72\
+  \ processes the payments authorized on the same day in a single batch file, sends\
+  \ the file to Treasury’s Payment Application Modernization system, and sends another\
+  \ file to the Cash Management Branch to authorize the Treasury disbursement. TIIS/F72\
+  \ sends a file of paid claims to the Debt Collection and Management System – Title\
+  \ I (DCAMS-TI/F71), which converts the paid claims to notes receivable. The FOC’s\
+  \ Asset Recovery Division (ARD) is responsible for pursuing collection against the\
+  \ debtor (defaulted borrower). \n\nThe TIIPB conducts quality reviews of paid Title\
+  \ I claims to ensure consistent processing and examination quality. Each month,\
+  \ the TIIPB Branch Chief randomly selects 10% of paid claims for review. The Branch\
+  \ Chief either reviews the claim themselves or assigns them to examiners for a peer\
+  \ review. The reviewer conducts a full examination of the claim and reports whether\
+  \ the claim payment was conforming (compliant/no deficiencies), deficient (minor\
+  \ issues to address), unacceptable (serious issues to address), or mitigated (issues\
+  \ found but readily resolved). The outcomes of quality reviews are documented in\
+  \ both the Case Notes screen of TIIS/F72 and in the Title I Quality Reviews folder\
+  \ of the FOC’s SharePoint site. \n\nIf the review identified a deficiency that resulted\
+  \ in an overpaid claim, the TIIPB Branch Chief or examiner will issue a request\
+  \ to the lender for a full (for an unacceptable claim) or partial (for a deficient\
+  \ claim) repurchase of the loan. The request instructs the lender to repurchase\
+  \ the loan by remitting payment to a designated lockbox within 30 days or to ask\
+  \ for a reconsideration of the repurchase request within 10 days. If the lender\
+  \ fails to submit documentation that satisfactorily resolves the deficiency or to\
+  \ remit payment within the established timeframes, TIIPB issues a repurchase demand\
+  \ which gives the lender 30 days to remit the repurchase funds and informs the lender\
+  \ of the actions HUD will take if the funds aren’t remitted, including transferring\
+  \ the unpaid repurchase to the FOC’s ARD for delinquent debt collection, which includes\
+  \ referral to the Treasury Offset Program (TOP) for administrative offset. \n\n\
+  Both paid and unpaid repurchase requests and demands involve coordination between\
+  \ the FOC’s TIIPB and ARD. The ARD ensures that the Title I Note receivable is reclassified\
+  \ as a full or partial repurchase. Payments for full and partial repurchases are\
+  \ sent to the Title I Notes lockbox which transmits a collection file to DCAMS-TI/F71\
+  \ to credit the funds to the Title I Note receivable associated with the claim.\
+  \ The ARD notifies the TIIPB when repurchase funds are received and the TIIPB updates\
+  \ the claim record in TIIS/F72 (subfunction J04). For full repurchases, the ARD\
+  \ closes the Title I Note receivable as repurchased. Before closing out the receivable,\
+  \ the ARD will issue the debtor (defaulted Title I borrower) a refund for any non-repurchase\
+  \ collections received. The TIIPB returns the original claim binder to the lender\
+  \ along with an executed reassignment of the Title I promissory note and lien, if\
+  \ applicable. \n\nUnpaid full or partial repurchase requests and demands are transferred\
+  \ to the ARD for delinquent debt collection. The ARD establishes a Title I Repurchase\
+  \ receivable in the Debt Collection and Asset Management System – Generic Debt (DCAMS-GD/F71A),\
+  \ which initiates the collection process by issuing an automated demand letter describing\
+  \ the debt and instructing the lender to remit payment in full within 30 days or\
+  \ contact the designated ARD Debt Servicing Representative (DSR) to request a plan\
+  \ to repay the debt in installments. If the lender does not pay the debt in full\
+  \ or enter a repayment plan within 30 days, DCAMS-GD/F71A issues a Notice of Intent\
+  \ (NOI) to Collect by Administrative Offset. The NOI notifies the lender that HUD\
+  \ intends to refer the debt to the TOP, describes the TOP process for administrative\
+  \ offset of federal payments, and provides the lender with steps to take to contest\
+  \ the basis of the debt or the amount demanded by filing an appeal with HUD’s Board\
+  \ of Appeals (BOA) within 65 days. If the lender files an appeal, DCAMS-GD/F71A\
+  \ suspends referral to TOP pending a decision and order from the BOA administrative\
+  \ law judge. (BOA adjudicates appeals by gathering and evaluating statements and\
+  \ documents from both parties.) If the BOA judge issues a decision and order declaring\
+  \ the debt unenforceable, the ARD closes the debt as unenforceable and notifies\
+  \ the TIIPB. The TIIPB will reverse the pending repurchase in TIIS/F72. If the decision\
+  \ and order results in a dismissal of the lender’s appeal, the DSR updates debt\
+  \ status in DCAMS-GD/F71A making the debt eligible for referral to TOP. DCAMS-GD/F71A\
+  \ refers eligible debts that are 121 or more days delinquent to TOP and the Treasury\
+  \ Cross-Servicing Program. DCAMS-GD/F71A also reports lenders to commercial credit\
+  \ reporting agencies (Dun & Bradstreet, Experian, and Equifax). \n\nThe TIIPB may,\
+  \ rather than transfer the unpaid repurchase to the ARD for delinquent debt collection,\
+  \ pursue internal offset of payments on subsequent claims submitted by the lender.\
+  \ In most cases, however, it’s more effective to transfer the debt to the ARD, since\
+  \ any federal payment made to the lender, including Title I claim payments, will\
+  \ be collected through TOP. \n\nCollections, both voluntary and involuntary, received\
+  \ on a Title Repurchase debt are credited to the account. When a debt is paid in\
+  \ full, the ARD makes entries in DCAMS-GD/F71A to close out the debt as paid in\
+  \ full and to close out the Title I Note receivable as unenforceable. The TIIPB\
+  \ makes entries in TIIS/F72 (subfunction J04) to acknowledge satisfaction of the\
+  \ repurchase demand and returns the original claim binder to the lender along with\
+  \ an executed reassignment of the Title I Promissory Note and lien, if applicable.\
+  \ \n\nIf the ARD concludes that the Title I Repurchase debt is uncollectible, it\
+  \ takes steps to close out the debt in DCAMS-GD/F71A, which will issue an IRS Form\
+  \ 1099-C to the lender and report the debt accordingly to the IRS. The TIIPB will\
+  \ pursue secondary recovery activities on the uncollectible repurchase by internally\
+  \ offsetting future claims payments to the lender or blocking payments on subsequent\
+  \ claims submitted by the lender. The TIIPB may also refer the lender to FHA’s Mortgagee\
+  \ Review Board for sanctions \n\nThe Debt Collection Asset Management System (DCAMS)\
+  \ is the application used to support the generic debt collection process. DCAMS\
+  \ is designed to automatically send collection letters, report delinquent debt to\
+  \ credit bureaus and HUD’s Credit Alert Interactive Voice Response System (CAIVRS),\
+  \ assess penalties and administrative costs, and refer eligible debts to the TOP\
+  \ and Cross-Servicing. Based on predefined criteria and the status of that case\
+  \ as reflected in DCAMS data fields (not later than 180 days after the demand letter),\
+  \ DCAMS is consistently updated to prevent improper referral for TOP offset. \n\n\
+  For internal offsets, over-claimed amounts (negative claims) occur when the mortgagee\
+  \ owes FHA. The Single-Family Claims Branch (SFCB) sends billing letters to lenders\
+  \ for the excess amounts claimed and tracks the receivables using the Accounts Receivables\
+  \ Sub-system (ARS). Receivables are established in SFCB’s ARS and identified by\
+  \ an FHA case number. Each FHA case number is further identified by Section of the\
+  \ Act (which is linked to the appropriate fund) and endorsement date. This later\
+  \ date identifies the cohort year. The Holder of record to which the claim funds\
+  \ were originally disbursed is identified in ARS as the debtor, by default. When\
+  \ the receivable is subsequently liquidated by funds remitted by a Mortgagee or\
+  \ by offset, the collected amount is posted to the previously identified FHA case\
+  \ number, Section of the Act, and cohort year. \n\nIf payment is not received from\
+  \ a lender within 90 days, the receivable is offset against subsequent claims by\
+  \ the lender until the full amount of the receivable is satisfied. If a receivable\
+  \ is not satisfied within 120-150 days, it is referred to the FOC in Albany, NY\
+  \ for enforced collection actions. At that time, the FOC officially confirms acceptance\
+  \ of the transfer of an aged delinquent debt, and that receivables have been removed\
+  \ from the ARS with the notation that it has been referred to the FOC for recovery.\
+  \ \n\nAnother avenue by which improper payments are recaptured is through Post Claim\
+  \ Reviews for title II Single Family Insurance Claims. A statistical sample of settled\
+  \ claims is reviewed for compliance with FHA servicing and claim filing requirements.\
+  \ A report on findings is prepared and issued to the individual mortgagee. Mortgagees\
+  \ can refute the findings by providing additional documents before a final report\
+  \ is issued. If the Mortgagee chooses to pay the monetary findings prior to HUD’s\
+  \ issuance of the final report, those funds are deposited to ARS, which applies\
+  \ them to the Mortgage Insurance (MI) fund. Upon issuance of the final report, it\
+  \ is referred to the FOC which establishes it as a receivable and tracks it until\
+  \ paid in full. If a lender is overpaid on a Multifamily claim, the Multifamily\
+  \ Claims Branch will demand the overage back from the lender, which is usually resolved\
+  \ within 30 days of final settlement. The mortgagee either returns the overpaid\
+  \ funds or files a supplemental claim. If the overpayment is not resolved within\
+  \ the 30-day or 60-day period after final settlement, the reviewer sends a follow-up\
+  \ letter at the end of each period advising the mortgagee of the penalties and interest\
+  \ assessed. If it is still not resolved after 90 days, the overpayment is electronically\
+  \ transferred to HUD’s FOC in Albany, New York for collection. Lastly, for Treasury\
+  \ Cross-Servicing, the collection of generic debt is governed by the Debt Collection\
+  \ Improvement Act and HUD policies (Title I and Other Debt Collection Guidance 4740.2).\
+  \ The Act requires federal agencies to refer eligible delinquent debts to Treasury\
+  \ (for Cross-Servicing and TOP) when the debt is 120 days delinquent. \n\nThe Treasury’s\
+  \ TOP allows federal agencies to report delinquent non-tax debt to the BFS. BFS\
+  \ performs computer matching with disbursement data and processes an offset when\
+  \ an appropriate match is determined. After referral, Treasury and its private collection\
+  \ agencies are responsible for contacting the debtor to collect the payment of the\
+  \ debt. The Treasury’s Cross-Servicing is a process used by BFS to refer the debt\
+  \ collection to a private collection agency, among other actions, to collect delinquent\
+  \ debts on behalf of Federal Agencies. \n\nThe FOC’s recapture process establishes\
+  \ receivables in DCAMS and issues a demand notice to the debtor(s). If the debt\
+  \ remains unpaid, DCAMS issues a “Notice of Intent” warning regarding enforced collection\
+  \ measures and informs the debtor regarding their due process rights. DCAMS automatically\
+  \ reports information to credit bureaus and CAIVRS. Penalty and administrative cost\
+  \ charges are also automatically assessed if warranted. \n\nIf the debt remains\
+  \ unpaid, it is referred to Treasury (within 180 days) for offset via the government-wide\
+  \ TOP and for direct collection action by Treasury and Treasury contracted private\
+  \ collection agencies. Treasury also initiates referral to the Department of Justice\
+  \ (DOJ) for civil litigation and/or initiates Administrative Wage Garnishment (AWG)\
+  \ action if they deem such action to be appropriate. \n\nIf Treasury’s Cross-Servicing\
+  \ action is not successful, Treasury “returns” the debt to the FOC. If older than\
+  \ two years, the receivable is written-off and the case is reclassified “currently\
+  \ not collectible.” The FOC keeps the case open if offset via TOP appears fruitful\
+  \ or if other collection measures are applicable (e.g., AWG action by HUD). Otherwise,\
+  \ the FOC terminates collection action, closes the case, and the system issues an\
+  \ IRS Form 1099C “Cancellation of Debt,” the following January if appropriate. Write-off,\
+  \ Termination, close-out, and 1099C issuance can also occur at any point in the\
+  \ above collection cycle if determined appropriate (e.g., debtor is discharged as\
+  \ bankrupt). \n\nCollections from debtors to HUD go to the Treasury Lockbox Network\
+  \ or Pay.gov. Collections from debtors to Treasury or DOJ come to HUD via interagency\
+  \ transfer (i.e., Intra-Governmental Payment and Collection (IPAC)). No matter the\
+  \ route, all payments are posted to the receivable in DCAMS.  \"\n\n \n\nSingle\
+  \ Family Property (SAMS)\n\nThe Office of Housing-Federal Housing Administration’s\
+  \ (HSNG–FHA) recovery audit program is part of its overall program of effective\
+  \ internal control over payments. Internal control policies and procedures establishes\
+  \ a system to monitor improper payments and their causes, and includes controls\
+  \ and actions for detecting, preventing, and recovering improper payments. On a\
+  \ recurring basis, these programs generate reports that identify potentially duplicate\
+  \ disbursements. These disbursements are researched, and recovery actions are initiated\
+  \ for payments deemed improper. As part of the recapture audit plan, internal control\
+  \ documents and files are reviewed, and post claim reviews are performed. \n\nUnder\
+  \ Title I and Other Debt Collection Guidance Handbook 4740.2, the Financial Operation\
+  \ Center (FOC) is primarily responsible for generic debt collection and customer\
+  \ service activities, including responding to debtor inquiries regarding pay-off,\
+  \ payment plans, compromises, disputes, and appeals. The debt referral package primarily\
+  \ consists of copies of legal documents, mortgages, deeds of trust, judgments and\
+  \ other recorded lien documents, lien assignment documents, repayment agreements,\
+  \ credit reports, correspondence to/from debtors, and compromise agreements and\
+  \ supporting documents. \n\nThe FOC is responsible for managing the business operations\
+  \ for the Title I loan program, which includes registering and endorsing loans for\
+  \ insurance, billing and collecting premiums, and examining claims for loss and\
+  \ approving them for payment. The FOC is also responsible for performing the debt\
+  \ collection and servicing activities for Title I Notes (defaulted Title I loans)\
+  \ and generic debts (other FHA debts). \n\nThe Title I program authorizes HUD to\
+  \ insure lenders against default on loans used to finance property improvements\
+  \ and to purchase manufactured homes. Lenders are required to pay premiums covering\
+  \ the insurance of their loans and submit applications for insurance benefits for\
+  \ defaulted loans. HUD is required to collect the unpaid loan balance, including\
+  \ eligible expenses, from the defaulted borrower. \n\nThe FOC’s Title I Insurance\
+  \ Processing Branch (TIIPB) is responsible for evaluating and approving lender applications\
+  \ for insurance benefits. The lender’s application must include loan information\
+  \ and any documentation necessary for the TIIPB to calculate a claim payment. There\
+  \ are three types of claims: initial, resubmitted, and supplemental. An initial\
+  \ claim is a first submission. A resubmitted claim is one that the TIIPB had previously\
+  \ denied. A supplemental claim is an additional claim for the same loan when the\
+  \ lender finds documentation for expenses not included in the initial claim. TIIPB\
+  \ support staff establish the claim in the Title I Insurance and Claims System (TIIS/F72).\
+  \ The process includes assigning a claim number, entering the date the claim was\
+  \ received, and assigning the claim to a TIIPB examiner. The examiner conducts a\
+  \ full review of the claim to determine whether the loan complies with Title I underwriting\
+  \ and servicing requirements and whether expenses claimed by the lender are supported\
+  \ by the documentation provided. If these conditions are satisfied, the examiner\
+  \ processes the claim calculation and authorization for payment in TIIS/F72. TIIS/F72\
+  \ processes the payments authorized on the same day in a single batch file, sends\
+  \ the file to Treasury’s Payment Application Modernization system, and sends another\
+  \ file to the Cash Management Branch to authorize the Treasury disbursement. TIIS/F72\
+  \ sends a file of paid claims to the Debt Collection and Management System – Title\
+  \ I (DCAMS-TI/F71), which converts the paid claims to notes receivable. The FOC’s\
+  \ Asset Recovery Division (ARD) is responsible for pursuing collection against the\
+  \ debtor (defaulted borrower). \n\nThe TIIPB conducts quality reviews of paid Title\
+  \ I claims to ensure consistent processing and examination quality. Each month,\
+  \ the TIIPB Branch Chief randomly selects 10% of paid claims for review. The Branch\
+  \ Chief either reviews the claim themselves or assigns them to examiners for a peer\
+  \ review. The reviewer conducts a full examination of the claim and reports whether\
+  \ the claim payment was conforming (compliant/no deficiencies), deficient (minor\
+  \ issues to address), unacceptable (serious issues to address), or mitigated (issues\
+  \ found but readily resolved). The outcomes of quality reviews are documented in\
+  \ both the Case Notes screen of TIIS/F72 and in the Title I Quality Reviews folder\
+  \ of the FOC’s SharePoint site. \n\nIf the review identified a deficiency that resulted\
+  \ in an overpaid claim, the TIIPB Branch Chief or examiner will issue a request\
+  \ to the lender for a full (for an unacceptable claim) or partial (for a deficient\
+  \ claim) repurchase of the loan. The request instructs the lender to repurchase\
+  \ the loan by remitting payment to a designated lockbox within 30 days or to ask\
+  \ for a reconsideration of the repurchase request within 10 days. If the lender\
+  \ fails to submit documentation that satisfactorily resolves the deficiency or to\
+  \ remit payment within the established timeframes, TIIPB issues a repurchase demand\
+  \ which gives the lender 30 days to remit the repurchase funds and informs the lender\
+  \ of the actions HUD will take if the funds aren’t remitted, including transferring\
+  \ the unpaid repurchase to the FOC’s ARD for delinquent debt collection, which includes\
+  \ referral to the Treasury Offset Program (TOP) for administrative offset. \n\n\
+  Both paid and unpaid repurchase requests and demands involve coordination between\
+  \ the FOC’s TIIPB and ARD. The ARD ensures that the Title I Note receivable is reclassified\
+  \ as a full or partial repurchase. Payments for full and partial repurchases are\
+  \ sent to the Title I Notes lockbox which transmits a collection file to DCAMS-TI/F71\
+  \ to credit the funds to the Title I Note receivable associated with the claim.\
+  \ The ARD notifies the TIIPB when repurchase funds are received and the TIIPB updates\
+  \ the claim record in TIIS/F72 (subfunction J04). For full repurchases, the ARD\
+  \ closes the Title I Note receivable as repurchased. Before closing out the receivable,\
+  \ the ARD will issue the debtor (defaulted Title I borrower) a refund for any non-repurchase\
+  \ collections received. The TIIPB returns the original claim binder to the lender\
+  \ along with an executed reassignment of the Title I promissory note and lien, if\
+  \ applicable. \n\nUnpaid full or partial repurchase requests and demands are transferred\
+  \ to the ARD for delinquent debt collection. The ARD establishes a Title I Repurchase\
+  \ receivable in the Debt Collection and Asset Management System – Generic Debt (DCAMS-GD/F71A),\
+  \ which initiates the collection process by issuing an automated demand letter describing\
+  \ the debt and instructing the lender to remit payment in full within 30 days or\
+  \ contact the designated ARD Debt Servicing Representative (DSR) to request a plan\
+  \ to repay the debt in installments. If the lender does not pay the debt in full\
+  \ or enter a repayment plan within 30 days, DCAMS-GD/F71A issues a Notice of Intent\
+  \ (NOI) to Collect by Administrative Offset. The NOI notifies the lender that HUD\
+  \ intends to refer the debt to the TOP, describes the TOP process for administrative\
+  \ offset of federal payments, and provides the lender with steps to take to contest\
+  \ the basis of the debt or the amount demanded by filing an appeal with HUD’s Board\
+  \ of Appeals (BOA) within 65 days. If the lender files an appeal, DCAMS-GD/F71A\
+  \ suspends referral to TOP pending a decision and order from the BOA administrative\
+  \ law judge. (BOA adjudicates appeals by gathering and evaluating statements and\
+  \ documents from both parties.) If the BOA judge issues a decision and order declaring\
+  \ the debt unenforceable, the ARD closes the debt as unenforceable and notifies\
+  \ the TIIPB. The TIIPB will reverse the pending repurchase in TIIS/F72. If the decision\
+  \ and order results in a dismissal of the lender’s appeal, the DSR updates debt\
+  \ status in DCAMS-GD/F71A making the debt eligible for referral to TOP. DCAMS-GD/F71A\
+  \ refers eligible debts that are 121 or more days delinquent to TOP and the Treasury\
+  \ Cross-Servicing Program. DCAMS-GD/F71A also reports lenders to commercial credit\
+  \ reporting agencies (Dun & Bradstreet, Experian, and Equifax). \n\nThe TIIPB may,\
+  \ rather than transfer the unpaid repurchase to the ARD for delinquent debt collection,\
+  \ pursue internal offset of payments on subsequent claims submitted by the lender.\
+  \ In most cases, however, it’s more effective to transfer the debt to the ARD, since\
+  \ any federal payment made to the lender, including Title I claim payments, will\
+  \ be collected through TOP. \n\nCollections, both voluntary and involuntary, received\
+  \ on a Title Repurchase debt are credited to the account. When a debt is paid in\
+  \ full, the ARD makes entries in DCAMS-GD/F71A to close out the debt as paid in\
+  \ full and to close out the Title I Note receivable as unenforceable. The TIIPB\
+  \ makes entries in TIIS/F72 (subfunction J04) to acknowledge satisfaction of the\
+  \ repurchase demand and returns the original claim binder to the lender along with\
+  \ an executed reassignment of the Title I Promissory Note and lien, if applicable.\
+  \ \n\nIf the ARD concludes that the Title I Repurchase debt is uncollectible, it\
+  \ takes steps to close out the debt in DCAMS-GD/F71A, which will issue an IRS Form\
+  \ 1099-C to the lender and report the debt accordingly to the IRS. The TIIPB will\
+  \ pursue secondary recovery activities on the uncollectible repurchase by internally\
+  \ offsetting future claims payments to the lender or blocking payments on subsequent\
+  \ claims submitted by the lender. The TIIPB may also refer the lender to FHA’s Mortgagee\
+  \ Review Board for sanctions \n\nThe Debt Collection Asset Management System (DCAMS)\
+  \ is the application used to support the generic debt collection process. DCAMS\
+  \ is designed to automatically send collection letters, report delinquent debt to\
+  \ credit bureaus and HUD’s Credit Alert Interactive Voice Response System (CAIVRS),\
+  \ assess penalties and administrative costs, and refer eligible debts to the TOP\
+  \ and Cross-Servicing. Based on predefined criteria and the status of that case\
+  \ as reflected in DCAMS data fields (not later than 180 days after the demand letter),\
+  \ DCAMS is consistently updated to prevent improper referral for TOP offset. \n\n\
+  For internal offsets, over-claimed amounts (negative claims) occur when the mortgagee\
+  \ owes FHA. The Single-Family Claims Branch (SFCB) sends billing letters to lenders\
+  \ for the excess amounts claimed and tracks the receivables using the Accounts Receivables\
+  \ Sub-system (ARS). Receivables are established in SFCB’s ARS and identified by\
+  \ an FHA case number. Each FHA case number is further identified by Section of the\
+  \ Act (which is linked to the appropriate fund) and endorsement date. This later\
+  \ date identifies the cohort year. The Holder of record to which the claim funds\
+  \ were originally disbursed is identified in ARS as the debtor, by default. When\
+  \ the receivable is subsequently liquidated by funds remitted by a Mortgagee or\
+  \ by offset, the collected amount is posted to the previously identified FHA case\
+  \ number, Section of the Act, and cohort year. \n\nIf payment is not received from\
+  \ a lender within 90 days, the receivable is offset against subsequent claims by\
+  \ the lender until the full amount of the receivable is satisfied. If a receivable\
+  \ is not satisfied within 120-150 days, it is referred to the FOC in Albany, NY\
+  \ for enforced collection actions. At that time, the FOC officially confirms acceptance\
+  \ of the transfer of an aged delinquent debt, and that receivables have been removed\
+  \ from the ARS with the notation that it has been referred to the FOC for recovery.\
+  \ \n\nAnother avenue by which improper payments are recaptured is through Post Claim\
+  \ Reviews for title II Single Family Insurance Claims. A statistical sample of settled\
+  \ claims is reviewed for compliance with FHA servicing and claim filing requirements.\
+  \ A report on findings is prepared and issued to the individual mortgagee. Mortgagees\
+  \ can refute the findings by providing additional documents before a final report\
+  \ is issued. If the Mortgagee chooses to pay the monetary findings prior to HUD’s\
+  \ issuance of the final report, those funds are deposited to ARS, which applies\
+  \ them to the Mortgage Insurance (MI) fund. Upon issuance of the final report, it\
+  \ is referred to the FOC which establishes it as a receivable and tracks it until\
+  \ paid in full. If a lender is overpaid on a Multifamily claim, the Multifamily\
+  \ Claims Branch will demand the overage back from the lender, which is usually resolved\
+  \ within 30 days of final settlement. The mortgagee either returns the overpaid\
+  \ funds or files a supplemental claim. If the overpayment is not resolved within\
+  \ the 30-day or 60-day period after final settlement, the reviewer sends a follow-up\
+  \ letter at the end of each period advising the mortgagee of the penalties and interest\
+  \ assessed. If it is still not resolved after 90 days, the overpayment is electronically\
+  \ transferred to HUD’s FOC in Albany, New York for collection. Lastly, for Treasury\
+  \ Cross-Servicing, the collection of generic debt is governed by the Debt Collection\
+  \ Improvement Act and HUD policies (Title I and Other Debt Collection Guidance 4740.2).\
+  \ The Act requires federal agencies to refer eligible delinquent debts to Treasury\
+  \ (for Cross-Servicing and TOP) when the debt is 120 days delinquent. \n\nThe Treasury’s\
+  \ TOP allows federal agencies to report delinquent non-tax debt to the BFS. BFS\
+  \ performs computer matching with disbursement data and processes an offset when\
+  \ an appropriate match is determined. After referral, Treasury and its private collection\
+  \ agencies are responsible for contacting the debtor to collect the payment of the\
+  \ debt. The Treasury’s Cross-Servicing is a process used by BFS to refer the debt\
+  \ collection to a private collection agency, among other actions, to collect delinquent\
+  \ debts on behalf of Federal Agencies. \n\nThe FOC’s recapture process establishes\
+  \ receivables in DCAMS and issues a demand notice to the debtor(s). If the debt\
+  \ remains unpaid, DCAMS issues a “Notice of Intent” warning regarding enforced collection\
+  \ measures and informs the debtor regarding their due process rights. DCAMS automatically\
+  \ reports information to credit bureaus and CAIVRS. Penalty and administrative cost\
+  \ charges are also automatically assessed if warranted. \n\nIf the debt remains\
+  \ unpaid, it is referred to Treasury (within 180 days) for offset via the government-wide\
+  \ TOP and for direct collection action by Treasury and Treasury contracted private\
+  \ collection agencies. Treasury also initiates referral to the Department of Justice\
+  \ (DOJ) for civil litigation and/or initiates Administrative Wage Garnishment (AWG)\
+  \ action if they deem such action to be appropriate. \n\nIf Treasury’s Cross-Servicing\
+  \ action is not successful, Treasury “returns” the debt to the FOC. If older than\
+  \ two years, the receivable is written-off and the case is reclassified “currently\
+  \ not collectible.” The FOC keeps the case open if offset via TOP appears fruitful\
+  \ or if other collection measures are applicable (e.g., AWG action by HUD). Otherwise,\
+  \ the FOC terminates collection action, closes the case, and the system issues an\
+  \ IRS Form 1099C “Cancellation of Debt,” the following January if appropriate. Write-off,\
+  \ Termination, close-out, and 1099C issuance can also occur at any point in the\
+  \ above collection cycle if determined appropriate (e.g., debtor is discharged as\
+  \ bankrupt). \n\nCollections from debtors to HUD go to the Treasury Lockbox Network\
+  \ or Pay.gov. Collections from debtors to Treasury or DOJ come to HUD via interagency\
+  \ transfer (i.e., Intra-Governmental Payment and Collection (IPAC)). No matter the\
+  \ route, all payments are posted to the receivable in DCAMS.\""
+detail_PIIA_Incentives: "The Trump Administration leadership team has reinvigorated\
+  \ its commitment to developing a more efficient, accountable, and transparent HUD.\
+  \ This renewed focus prioritizes a comprehensive oversight of federal funds and\
+  \ strengthening payment integrity. \n\nThe Senior Executive Service Critical Elements\
+  \ listed below describe the performance mechanisms HUD senior officials fulfill\
+  \ in achieving the Trump Administration’s priorities related to payment integrity\
+  \ and eliminating waste. Through their fulfillment, HUD is better positioned to\
+  \ optimize the use and oversight of federal funds. \n\nCritical Element 1: Faithful\
+  \ Administration of the Law and the President’s Policies: This is the most critical\
+  \ element for reviewing the job performance of someone who serves under the elected\
+  \ President. All senior executives must clearly and demonstrably execute congressionally\
+  \ authorized tasks pursuant to the leadership and executive authority of the President.\
+  \ Faithful administration of one’s role in the Executive Branch requires commitment\
+  \ to the principles of the Founding, including equality under the law and democratic\
+  \ self-government. Senior executives must demonstrate specific results that align\
+  \ with and advance the President’s specific policy agenda. \n\nCritical Element\
+  \ 2: Government Efficiency: Senior executives are expected to drive efficiency in\
+  \ government and save time and money for the American taxpayer. They should achieve\
+  \ demonstrable improvements in efficiency, productivity, and quality of work and\
+  \ government services, including significant reductions in costs and paperwork.\
+  \ They must use government resources in a cost-effective manner, budget effectively,\
+  \ and adhere to budgetary and fiscal constraints. \n\nHUD’s accountable officials\
+  \ exceeded these performance incentives. In less than a year they have results,\
+  \ including generating unprecedented visibility into its payments and producing\
+  \ an unknown payment estimate for the high-risk rental assistance programs. They\
+  \ have also outlined goals to address identified control deficiencies through technology,\
+  \ automation, and process improvements. The leadership’s unrelenting focus on program\
+  \ integrity continues to drive HUD’s successful progress.\n"
+detail_PIIA_Official: 'Frank Cassidy, Principal Deputy Assistant Secretary for Housing
+
+  Benjamin Hobbs, Principal Deputy Assistant Secretary, Office of Public and Indian
+  Housing
+
+  Irving Dennis, Principal Deputy Chief Financial Officer
+
+  '
+detail_Recovery_Audits_Skipped: 'Yes'
+detail_Recovery_Justifications_Audits: 'Single Family Claims
+
+
+  For the F22-2342200 Amerinational Community Services, LLC review, Post Claims billed
+  $45,700.97 on 9/6/24.  The Albany Financial Operations Center received only $45,614.65
+  on 9/17/24, and wrote off the remaining debt of $86.32, as per FOC policy, amounts
+  under $100 are written off.
+
+  For the F22-3008400 Cenlar Federal Savings Bank review, Post Claims billed $4,155,216.45
+  on 8/14/24. Cenlar appealed the amount with HUD, and on 6/17/25 reached a settlement
+  agreement to reduce the billed amount to $3,184,092.88, therefore reducing the original
+  billed amount by $971,123.57 as part of the settlement.
+
+  '
+detail_Recovery_Not_Cost_Effective_Justification: "I. Lack of Empirical Evidence\n\
+  \n-              Research and Technology\n\n-              Public Housing Operating\
+  \ Fund\n\n-              Revitalization of Severely Distressed Public Housing (HOPE\
+  \ VI)\n\n-              Public Housing Capital Fund\n\n-              Choice Neighborhoods\
+  \ Initiative\n\n-              Family Self-Sufficiency Program\n\n \n\nThe results\
+  \ of HUD’s payment integrity risk assessments identified these programs as not susceptible\
+  \ to significant improper payments. There is no empirical evidence, either through\
+  \ risk assessments, A-123 internal control reviews, and other monitoring reviews,\
+  \ that suggests significant improper payments exist within these programs and activities,\
+  \ and it is not likely that HUD would realize any benefit to payment recapture audits\
+  \ of these programs. Therefore, the cost of any additional attempts to recover improper\
+  \ payments would exceed the benefit of improper payments recovered.\"\n\n \n\nII.\
+  \ Similar Overpayment Recovery Activities for CPD Programs\n\n-              Community\
+  \ Development Block Grant – Disaster Recovery\n\n-              Public Laws 115-123,\
+  \ 115-56, and 115-72\n\n-              Self-Help Homeownership Opportunity Program\
+  \ (SHOP)\n\n-              Neighborhood Stabilization Program\n\n-             \
+  \ Project Based Section 8 - Renewal of Expiring Sec. 8 Mod Rehab SRO\n\nCommunity\
+  \ Planning and Development (CPD) funds have a monitoring process in place to assess\
+  \ the quality of performance of the grantee over time and promptly resolve the findings\
+  \ of audits and other reviews. Monitoring provides information about program participants\
+  \ that is critical for making informed judgments about program effectiveness and\
+  \ management efficiency. It also helps in identifying instances of fraud, waste,\
+  \ and abuse. The process involves frequent telephone/email contacts, written communications,\
+  \ analysis of reports and audits, and periodic meetings. Monitoring also provides\
+  \ opportunities to identify program participant accomplishments as well as successful\
+  \ management/ implementation/evaluation techniques that might be replicated by other\
+  \ CPD program participants.\n\nParties involved include Special Need Assistance\
+  \ Programs (SNAP), Field Offices, Office of Policy Development and Coordination\
+  \ (OPDC), Office of Rural Housing and Economic Development (ORHED), Office of General\
+  \ Counsel (OGC), Budget and OCFO. CPD’s program exhibit 34-1a, Guide for Review\
+  \ of Financial Management and Audits, is designed to monitor non-federal entity’s\
+  \ compliance with requirements of Subparts D and F of 2 Code of Federal Regulations\
+  \ (CFR) part 200, Uniform Administrative Requirements, Cost Principles, and Audit\
+  \ Requirements for Federal Awards, except for cost allowability, procurement and\
+  \ equipment. During the monitoring process, program expenditures are reviewed to\
+  \ determine if improper payments were made. If identified CPD determines whether\
   \ the appropriate corrective actions took place. In most cases, CPD will recapture\
   \ overpayments by offsetting future draws. Overpayments in the Neighborhood Stabilization\
   \ Program are addressed through reduction of future allocations as opposed to future\
@@ -1364,326 +3316,679 @@ detail_ara2_3: "I. Nature of the Program\nRHAP - Tenant Based Rental Assistance 
   \ 6200-05, whereas any remittance of more than $2,000 must be sent via wire transfer\
   \ to the Department of U.S. Treasury’s Financial Communications System (TFCS). CPD\
   \ programs could also withhold additional funding until the overpayment has been\
-  \ recovered. \nIn addition, the results of HUD’s payment integrity risk assessment\
+  \ recovered.\n\nIn addition, the results of HUD’s payment integrity risk assessment\
   \ identified these programs as not susceptible to significant improper payments.\
   \ Therefore, the cost of any additional attempts to recover improper payments would\
-  \ exceed the benefit of improper payments recovered.\n\nIV. Similar Overpayment\
-  \ Recovery Activities for Ginnie Mae Programs\n2500-Contractor Payments\n3300-Master\
-  \ Sub-Servicer (MSS) Default Activity\n\nFor any overpayments identified, Ginnie\
-  \ Mae will either request reimbursement or offset future payments to the contractor.\
-  \ However, if there are no future invoices to be provided, Ginnie Mae will request\
-  \ reimbursement for the improper payment. To recover overpayments made to the General\
-  \ Services Administration (GSA) for invoice payments to a vendor, Ginnie Mae will\
-  \ process an IPAC. When the cost of recovering improper payments is greater than\
-  \ the benefits, then Ginnie Mae will not pursue any further actions than mitigating\
-  \ strategies as outlined already. \nAs it relates to the Pass-Through Assistance\
-  \ Program (PTAP) program, which is new for 2021, the process for identifying improper\
-  \ payments includes validation of the request against the loan and pool information\
-  \ submitted to the Reporting and Feedback System (RFS), evaluation of the issuers\
-  \ equity and liquidity as reported with the PTAP request, and evaluation of the\
-  \ custodial account balance from which the Investor payments will be drawn.\nThe\
-  \ PTAP disbursement process is the same as in all Ginnie Mae disbursement requests.\
-  \ The PTAP disbursement request is processed for review and approval for payment.\
-  \ All payment requests are approved by an Independent Certifying Officer (ICO) (who\
-  \ accepts personal financial responsibility and criminal liability for improper\
-  \ payments they certify). The cost of recovering improper payments would exceed\
-  \ the benefit of improper payments recovered and would not be beneficial to the\
-  \ program.\n\nV. Similar Overpayment Recovery Activities for Other Rental Assistance\
-  \ Programs\nProject-Based Rental Assistance Section 8 Moderate Rehabilitation\n\
-  Rental Housing Assistance Program – Section 236\n\nThe results of HUD’s payment\
+  \ exceed the benefit of improper payments recovered.\"\n\n \n\nIII. Similar Overpayment\
+  \ Recovery Activities for Ginnie Mae Programs\n\n-              Financing Account\n\
+  \n-              Program Account (Mandatory)\n\nFor any overpayments identified,\
+  \ Ginnie Mae will either request reimbursement or offset future payments to the\
+  \ contractor. However, if there are no future invoices to be provided, Ginnie Mae\
+  \ will request reimbursement for the improper payment. To recover overpayments made\
+  \ to the General Services Administration (GSA) for invoice payments to a vendor,\
+  \ Ginnie Mae will process an IPAC. As the cost of recovering improper payments is\
+  \ greater than the benefits, then Ginnie Mae will not pursue any further actions\
+  \ than mitigating strategies as outlined already.\"\n\n \n\nIV. Similar Overpayment\
+  \ Recovery Activities for Other Rental Assistance Programs\n\n-              Project-Based\
+  \ Rental Assistance Section 8 Moderate Rehabilitation\n\nThe results of HUD’s payment\
   \ integrity risk assessment identified these programs as not susceptible to significant\
-  \ improper payments. All owners receiving funding from these programs are mandated\
-  \ by 24 CFR 5.233 to fully utilize HUD’s EIV system. EIV is a web-based application\
-  \ which provides owners with employment, wage, unemployment compensation and social\
-  \ security benefit information for tenants participating in HUD’s assisted housing\
-  \ programs. Tenant Rental Assistance Certification System (TRACS) is a system developed\
-  \ to improve the fiscal control over assisted housing programs and acts as the sole\
-  \ repository of all tenant certification data, assistance contract data and crucial\
-  \ payment data. EIV is matched against TRACS and a variance of $2,400 per year generates\
-  \ an error and owners are required to follow-up with the tenant and resolve the\
-  \ error. If an overpayment is identified, tenants may pay the owner in a lump sum\
-  \ or by entering into a repayment agreement. Therefore, the cost of any additional\
-  \ attempts to recover improper payments would exceed the benefit of improper payments\
-  \ recovered.\n\nOf the thirty-eight (38) programs excluded from a Payment Recapture\
-  \ Audit, the remaining twenty (20) programs have other mechanisms in place to recover\
-  \ overpayments.\n\nFair Housing Assistance Program\nFair Housing Initiative Program\n\
-  Housing Counseling Assistance\nCommunity Development Block Grant  – DRAA-Sandy\n\
-  Community Development Block Grants (CDBG)\nIndian Community Development Block Grants\n\
-  Homeless Assistance Grants\nHOME Investments Partnership Program\nNative Hawaiian\
-  \ Housing Block Grants\nSection 811 Housing for Persons with Disabilities (PRAC\
-  \ and Capital Advance) \nRental Housing Assistance Program (RHAP) - Project Based\
-  \ Rental Assistance\nOffice of Inspector General\nHousing Opportunities for Persons\
-  \ with AIDS\nNative American Housing Block Grants\nHousing for Special Populations-\
-  \ Capital Advance portion of expenditures, Section 202\nHousing Trust Fund\nProject\
-  \ Based Section 8 - Renewal of Expiring Sec. 8 Mod Rehab SRO\nSalaries & Expense\
-  \ Travel Program\nSalaries & Expense Purchase Card Program\nIndian Home Loan Guarantee\
-  \ Program - Sec. 184\n"
-detail_ara2_3_2: '1.Ginnie Mae - Contractor Payments
-
-  2.Ginnie Mae - Master Sub-Servicer Default Activity
-
-  3.Community Planning and Development - Capacity Building
-
-  4.Public and Indian Housing - Choice Neighborhoods Initiative
-
-  5.Community Planning and Development - Community Development Block Grant - Disaster
-  Recovery Assistance - Sandy
-
-  6.Community Planning and Development - Community Development Block Grants
-
-  7.Community Planning and Development - Public Laws 115-123, 115-56, and 115-72
-
-  8.Community Planning and Development - Disaster Recovery Assistance (Louisiana,
-  Texas, West Virginia, Hurricane IKE, Other Disasters)
-
-  9.Community Planning and Development - Community Development Fund - Congressional
-  Earmarks
-
-  10.Fair Housing and Equal Opportunity - Fair Housing Assistance Program
-
-  11.Fair Housing and Equal Opportunity - Fair Housing Initiatives Program
-
-  12.Public and Indian Housing - Family Self-Sufficiency Program
-
-  13.Community Planning and Development - HOME Investment Partnerships Program
-
-  14.Community Planning and Development - Homeless Assistance Grants
-
-  15.Housing - Housing Counseling Assistance
-
-  16.Housing - Housing for Special Populations - Capital Advance portion of expenditures,
-  Section 202
-
-  17.Community Planning and Development - Housing Opportunities for Persons with AIDS
-
-  18.Community Planning and Development - Housing Trust Fund
-
-  19.Public and Indian Housing - Indian Community Development Block Grants
-
-  20.Public and Indian Housing - Indian Housing Loan Guarantee Program - Sec. 184
-
-  21.Housing - Manufactured Housing
-
-  22.Public and Indian Housing - Native American Housing Block Grants
-
-  23.Public and Indian Housing - Native Hawaiian Housing Block Grants
-
-  24.Community Planning and Development - Neighborhood Stabilization Program
-
-  25.Office of Inspector General
-
-  26.Community Planning and Development - Project Based Section 8 (Renewal of Expiring
-  Section 8 Mod Rehab Single Room Occupancy)
-
-  27.Housing - Project-Based Rental Assistance Section 8 Moderate Rehabilitation
-
-  28.Public and Indian Housing - Public Housing Capital Fund
-
-  29.Public and Indian Housing - Public Housing Operating Fund
-
-  30.Housing - Rental Housing Assistance Program - Project Based Rental Assistance
-  - Project Based Section 8 - Rental Housing Assistance Program - Section 236 -Housing
-  for Persons with Disability - Section 811
-
-  31.Housing - Rental Housing Assistance Program - Section 236
-
-  32.Policy Development and Research - Research and Technology
-
-  33.Public and Indian Housing - Revitalization of Severely Distressed Public Housing
-  (HOPE VI)
-
-  34.Public and Indian Housing - Rental Housing Assistance Program - Tenant Based
-  Rental Assistance - Section 8 - Housing Certificate Fund & Tenant Based Rental Assistance
-
-  35.Housing - Section 811 Housing for Persons with Disabilities (Project Rental Assistance
-  Contract and Capital Advance)
-
-  36.Community Planning and Development - Self-Help Homeownership Opportunity Program
-
-  '
-detail_arp10: '0.0'
-detail_arp11: '0.0'
-detail_arp12: '7.11'
-detail_arp14: '0.0'
-detail_arp15: '0.004825'
-detail_arp16: '5.78'
-detail_arp16_5: '2.4'
-detail_arp17: 'In March 1985, the Department of Housing and Urban Development (HUD)
-  implemented an automated payment system for claiming Federal Housing Administration
-  (FHA) single family mortgage insurance benefits.  This is an on-line database management
-  system with control exercised primarily on an exception basis. The system was designed
-  to speed the payment of mortgagees’ claims, reduce paperwork burdens, enhance the
-  level of control, and improve service.  The integrity of this automated claims processing
-  system is dependent on mortgagee compliance with HUD’s claim processing requirements.  Expenses
-  are reported by category on the claim form and must be supported by a complete claim
-  file maintained by the mortgagee.  Mortgagees are not required to furnish receipts
-  for reimbursable expenses at the time insurance benefits are claimed.  Therefore
-  at the time the claims are paid to the mortgagee, they would not have provided documentation
-  to support all of the amounts and expenses claimed, as the amounts may have been
-  automatically processed.  After the claims have been paid to the mortgagee, a post
-  claim review will be conducted to audit the servicer''s portfolio to determine if
-  any amounts are inappropriate, unsupported, or overpaid, and therefore is recovered
-  in a post claim review.
-
-  '
-detail_arp18: null
-detail_arp4: '0.0'
-detail_arp4_1: '0.0'
-detail_arp5: '0.004825'
-detail_arp5_1: '0.22031963470319638'
-detail_arp7: '0.0'
-detail_arp8: '0.0'
-detail_arp9: '0.0'
-detail_cap3: 'Julia Gordon, Assistant Secretary for Housing – Federal Housing Commissioner
-
-  Richard Monocchio, Principal Deputy Assistant Secretary, Office of Public and Indian
-  Housing
-
-  Vinay V. Singh, Chief Financial Officer and Chief Artificial Intelligence Officer
-
-  Damon Smith, General Counsel'
-detail_cap4: 'The GDAS (General Deputy Assistant Secretary) or equivalent are incentivized
-  through the SES performance elements to develop and implement an organizational
-  vision that integrates key organizational and program goals, priorities, values,
-  and other factors. Assesses and adjusts to changing situations, implementing innovative
-  solutions to make organizational improvements, ranging from incremental improvements
-  to major shifts in direction or approach, as appropriate. Balances change and continuity;
-  continually strives to improve service and program performance; creates a work environment
-  that encourages creative thinking, collaboration, and transparency; and maintains
-  program focus, even under adversity. Further, HUD is incentivized to continue to
-  demonstrate progress via the audit resolution process.
-
-  '
-detail_com1: Non-Compliant
-detail_dpa1: 'No'
-detail_dpa2: null
-detail_dpa3: null
-detail_dpa5: 'The U.S. Department of Housing and Urban Development (HUD) was mandated
-  to use the Treasury''s Do Not Pay (DNP) Initiative to verify the eligibility of
-  recipients before awarding federal funds and prior to each payment disbursement,
-  as per the Payment Integrity Information Act (PIIA) of 2019. However, due to the
-  expiration of HUD''s Computer Matching Agreement (CMA) with the Treasury in 2019,
-  the agency has been unable to fully utilize DNP. This lapse has resulted in payments
-  to entities with inactive or unregistered System for Award Management (SAM) statuses,
-  indicating that the DNP Initiative has not been utilized consistently across HUD
-  programs. Consequently, there has been an increase in the risk of improper payments,
-  suggesting that the DNP Initiative, while potentially effective in reducing improper
-  payments, has not been fully leveraged by the agency, thus failing to reduce improper
-  payments as intended. HUD is currently clearing signatures for an updated computer
-  matching agreement with Treasury.
-
-  '
-detail_exs1: "In FY 2024, HUD conducted a comprehensive risk assessment of its disbursement\
-  \ processes and programs using FY 2023 payment data. This rigorous assessment revealed\
-  \ no additional programs susceptible to significant improper payments, a significant\
-  \ achievement considering that prior-year analyses had identified two such programs.\
-  \ \n\nThe Department of Housing and Urban Development (HUD) embarked on a critical\
-  \ mission: to ensure the integrity of its payment systems and safeguard taxpayer\
-  \ dollars while effectively delivering essential housing assistance. This journey,\
-  \ mandated by the Payment Integrity Information Act of 2019 (PIIA), proved far more\
-  \ complex than initially anticipated, especially concerning Multifamily rental assistance\
-  \ programs, as well as the Tenant Based Rental Assistance program. Specifically,\
-  \ the Multifamily portfolio   is comprised of (Section 8, Section 202, and Section\
-  \ 811), and will be referred to as project-based rental assistance (PBRA). The sheer\
-  \ scale and intricacy of this program presented a formidable challenge to payment\
-  \ integrity testing.  For the PBRA program, HUD is entrusted with the stewardship\
-  \ of over $15 billion in funds, that vast majority of which is paid  through contract\
-  \ administrators to property owners on behalf of the tenants the program serves.\
-  \ This multi-layered process, involving hardcopy documentation maintained by various\
-  \ entities introduces significant challenges for payment integrity testing.\n\n\
-  In prior years, validating payments and identifying populations for testing within\
-  \ PBRA was a manual, resource-intensive process, hampered by decentralized document\
-  \ retention and varying procedures at the contract administrators. The existing\
-  \ basic sub-sampling approach yielded limited insights and risked overlooking errors\
-  \ further down the payment chain. HUD recognized the need for a transformation and\
-  \ responded with a series of innovations.\n\nNew templates and automation processes\
-  \ were introduced to streamline payment reconciliation and enhance data accuracy.\
-  \ The shift from basic sub-sampling to a sophisticated, statistically valid, discrete\
-  \ population testing methodology for FY2024 represented a significant leap forward.\
-  \ This approach independently tested both payment accuracy (Payee Tier) and tenant\
-  \ eligibility (Eligibility Tier),  providing unprecedented visibility into errors,\
-  \ their root causes at all levels, and precision rates. The payee tier measures\
-  \ the rate of accuracy of HUD payments to contract administrators, and the tenant\
-  \ eligibility tier measures the accuracy of contract administrator payments to property\
-  \ owners. This year HUD is only able to report on the payee tier payment accuracy.\
-  \ HUD does not yet have sufficient data to report on the eligibility tier payment\
-  \ accuracy. HUD aimed to reduce the burden on contract administrators while maintaining\
-  \ statistical validity. To protect sensitive information (PII), a secure SharePoint\
-  \ site was established, ensuring data privacy in the collection process from recipients.\
-  \ Robotic Process Automation (RPA) streamlined the tedious process of document collection\
-  \ and recipient coordination.\n\nThe variability in the contract administrators’\
-  \ processes, controls, and documentation retention amplify the risk of improper\
-  \ payments, especially in the Payee Tier (payments from contract administrators\
-  \ to property owners),    a high-risk area highlighted by both HUD and the Office\
-  \ of Inspector General (OIG). This prompted HUD to focus significant resources on\
-  \ the Payee Tier testing, understanding that heightened risk exists outside HUD’s\
-  \ direct control.\n\nHUD's enhanced FY2024 testing strategy did result in a reliable\
-  \ measurement of the Payee Tier: The Payee Tier showed a reliable (96% precision\
-  \ rate) unknown payment rate of a mere 0.30% ($45.2 million), significantly below\
-  \ statutory thresholds. This success demonstrates HUD's commitment to protecting\
-  \ taxpayer money. Eligibility Tier testing, however, revealed significant difficulties\
-  \ in retrieving evidence from the contract administrators to support the timely\
-  \ verification of tenant eligibility and any error rate estimation would be misleading\
-  \ based on a lack of precision in extrapolating an error rate.  The lack of precision\
-  \ prevented production of a reliable error rate for the Eligibility Tier.  As corrective\
-  \ actions, HUD is working to improve contract administrators’ timely evidence collection,\
-  \ retention, and submission through training and outreach. By implementing new technologies,\
-  \ refining methodologies, and engaging actively with stakeholders, HUD is not only\
-  \ safeguarding taxpayer dollars but also ensuring that vital housing assistance\
-  \ reaches those who need it most. While challenges remain, the progress made reflects\
-  \ HUD's dedication to transparency, efficiency, and accountability in managing its\
-  \ programs. HUD   will also continue working to improve the payment integrity and\
-  \ exploring a methodology that will ensure that tenant eligibility is accurate and\
-  \ reliable.   During FY 2024, HUD assessed existing technology solutions and planned\
-  \ improvements to determine effective controls within the Tenant Based Rental Assistance\
-  \ program for preventing and detecting improper payments as documented by the Public\
-  \ and Indian Housing IT modernization plan.  Currently, HUD’s Office of Public and\
-  \ Indian Housing (PIH) Office of Field Operations (OFO) uses the Compliance Monitoring\
-  \ Review (CMR) tool and the Enterprise Income Verification (EIV) system to verify\
-  \ and validate information, such as accurate payment standards, income eligibility,\
-  \ eligibility determination, in PHA tenant files for accuracy.  Public housing agency’s\
-  \ (PHAs) subject to reviews are selected at random and performed both on site and\
-  \ in the virtual environment.  HUD explored using existing reports to estimate improper\
-  \ payment rates.  Existing reports did not meet stringent payment integrity requirements\
-  \ and could not produce reliable errors with an adequate precision rate that addressed\
-  \ the full payment life cycle, which includes payments from HUD to public housing\
-  \ authorities (PHAs), from PHAs to landlords, and considerations for eligibility\
-  \ verification.  HUD will continue the Public and Indian Housing IT modernization\
-  \ plan and determine approaches to test sub-populations. By exploring other approaches\
-  \ for testing, such as subdividing the TBRA PHA populations, HUD will be able to\
-  \ support some level of testing along with modernization efforts and tailor the\
-  \ testing approach. HUD’s modernization plans will benefit efforts to test the full\
-  \ payment life cycle for both payee and eligibility tiers through improvements to\
-  \ HUD’s Enterprise Voucher Management System (eVMS) and the Enhanced EIV tool.\n\
-  \n"
-detail_pcp12_1: '3.0'
-detail_pcp14: HUD OIG issued recommendations in Management alert 2024-IG-0001. HUD
-  OIG didn't recommend any additional recommendations within the most recent compliance
-  report 2024-FO-0006.
-detail_raa8: 'No'
-detail_raa9: null
+  \ improper payments. In addition, PIH has a comprehensive recovery process. The\
+  \ amount in the Risk Assessment matrix constitutes the offsets for the Mod Rehab\
+  \ program in fiscal year 2024. PIH processes a Year End Settlement at the end of\
+  \ each PHA’s fiscal year. The settlement determines how much money is owed to the\
+  \ PHA or overpayments made to the PHA. Overpayments are offset from the following\
+  \ year’s approved payment schedule. Any additional efforts that go beyond the recovery\
+  \ activities would not likely result in findings of additional overpayments. Therefore,\
+  \ a payment recapture audit would not be cost beneficial.\"\n\n \n\nPublic and Indian\
+  \ Housing - Rental Housing Assistance Program - Tenant Based Rental Assistance -\
+  \ Section 8 - Housing Certificate Fund & Tenant Based Rental Assistance\n\nThe Housing\
+  \ Choice Voucher Program, QAD, DCRA team are the central point of contact for PHAs,\
+  \ the Field Office, CFO Accounting Operations Center (AOC), Financial Management\
+  \ Center, Financial Management Division, Departmental Claims Collection Officer,\
+  \ and Treasury. We comply with and follow the Debt Collection Improvement Act of\
+  \ 1996, OMB requirements, and other applicable statutory and regulatory guidance\
+  \ in collecting debts owe to HUD and/or Treasury. These debts, along with associated\
+  \ supporting documentation, are tracked and monitored on our site. We utilized HUD\
+  \ secure systems, such as ARCATS, PIH Information Center (PIC), Financial Assessment\
+  \ Submission PHA (FASPHA), and Voucher Management System (VMS), operate under a\
+  \ formal policy and procedures manual that outlines a detailed step-by-step debt\
+  \ collection process, and reconciled our debts quarterly to HUD’s CFO Accounting\
+  \ Operations Center accounts receivable ledger. Our main purpose is to ensure that\
+  \ funds become available to provide rental assistance for more families as intended\
+  \ in the Appropriation’s Law. Therefore, the cost of any additional attempts to\
+  \ recover improper payments would exceed the benefit of improper payments recovered.\"\
+  \n\n \n\nFair Housing and Equal Opportunity - Fair Housing Assistance Program\n\n\
+  A payment recapture audit could yield a negative return as disbursements to the\
+  \ grantee are made under grants and fixed amount cooperative agreements. Guidance\
+  \ is issued annually that outlines how payments will be made for the year. Funds\
+  \ to grantees are for reimbursements of work already performed. Each case submitted\
+  \ for reimbursement is reviewed. However, if an overpayment is identified, the Office\
+  \ of Fair Housing and Equal Opportunity (FHEO) FHAP Division instructs grantees\
+  \ to send a refund to the US Bank HUDFAD Collections account, which is successful\
+  \ at recovering overpayments. Furthermore, the results of HUD’s payment integrity\
+  \ risk assessment identified this program to be at low likelihood of significant\
+  \ improper payments. \"\n\n \n\nFair Housing and Equal Opportunity - Fair Housing\
+  \ Initiatives Program\n\nThere continue to be monitoring processes in place to ensure\
+  \ a grantee complies with the terms and conditions of the award. The process involves\
+  \ frequent telephone/email contacts, written communications, analysis of program\
+  \ and financial reports, and periodic meetings. Some cases involve referrals to\
+  \ the Departmental Enforcement Center (DEC) [including one case referred in FY2024\
+  \ which is still under review]. HUD reserves the right to withhold future payments\
+  \ if the grantee fails to comply with the terms of the grant. Any erroneous payments\
+  \ made by the grantee must be refunded to HUD. Funds can be returned electronically\
+  \ or by check. Furthermore, the results of HUD’s payment integrity risk assessment\
+  \ identified this program to be at low likelihood of significant improper payments.\
+  \ Therefore, the cost of any additional attempts to recover improper payments would\
+  \ exceed the benefit of improper payments recovered. \"\n\n \n\nHousing - Rental\
+  \ Housing Assistance Program - Section 236\n\nFollowing the pre-payment of a Section\
+  \ 236 loan, HUD can allow the Owner’s Interest Reduction Payment subsidy stream\
+  \ to remain in place even after the underlying Section 236 loan is prepaid as long\
+  \ as the project continues to operate as a Section 236 project through the remaining\
+  \ term of the original 236 financing, plus five years. The schedule of payment is\
+  \ established contractually in an Agreement between HUD and the Owner at the time\
+  \ of the pre-payment and is unaffected by changes in the management and occupancy\
+  \ of the property. Accordingly, there is very low risk of overpayment. Annual reconciliation\
+  \ is performed to determine if HUD needs to recapture funds for those who paid off\
+  \ their mortgage before maturity and did not utilize the decoupling program. Therefore,\
+  \ the cost of any additional attempts to recover improper payments would exceed\
+  \ the benefit of improper payments recovered. \"\n\n \n\nHousing - Housing Counseling\
+  \ Assistance\n\nThe most recent risk assessment determined the Housing Counseling\
+  \ Assistance program (HCP) to be at low risk for making significant improper payments.\
+  \ HCP has determined that as a result of the current oversight protocols used, it\
+  \ is not cost effective to implement an additional payment recapture audit plan.\
+  \ A payment recapture audit plan would add an additional cost burden that would\
+  \ exceed the benefit of any improper payments recovered. HCP uses Office of Management\
+  \ and Budget (OMB) and HUD’s Grants Management and Financial policies as a framework\
+  \ to provide oversight for grant activities and payments. HCP also implements both\
+  \ front-end (i.e. prior to payment) and back-end (i.e. subsequent to payment) monitoring\
+  \ protocols and quality control measures to help identify and mitigate the risk\
+  \ of significant improper payments.?\n\nThe current monitoring protocols and payment\
+  \ policies include the following: HCP uses the reimbursement payment method for\
+  \ housing counseling grant activities. HCP staff review expenditures as a part of\
+  \ the drawdown approval process. There is a standard operating procedure that provides\
+  \ staff guidance on reviewing grantee expenditures submitted for reimbursement.\
+  \ Training is also offered periodically to provide guidance on reviewing and processing\
+  \ reimbursement requests. HCP uses an electronic review checklist (developed in\
+  \ InfoPath) that guides staff through the review and approval of grant activity\
+  \ reports and expenditure information submitted for payment reimbursements. Additionally,\
+  \ HCP has an internal customer service Inbox to which reviewers can submit inquiries\
+  \ for clarification, which helps ensure that the proper procedures are followed.\n\
+  \nHCP conducts performance reviews during which staff review documentation to ensure\
+  \ that services billed to the HUD grant were properly conducted. If during a performance\
+  \ review, an improper payment is discovered, findings are documented, and grantees\
+  \ are required to return any improper payments identified.\n\nAs necessary, HCP\
+  \ staff work with contractors to identify organizations that have received overpayments.\
+  \ The team collects supporting documentation to validate the amount of the overpayment.\
+  \ Overpayments are identified with the aid of tools within Microsoft Excel and InfoPath\
+  \ software.\n\nThe current Quality Control Measures include HCP uses a two-tiered\
+  \ process to review and approve LOCCS payment forms submitted for reimbursement.\
+  \ HCP staff complete an initial review of LOCCS payment forms. Additionally, HCP\
+  \ LOCCS approvers also complete a second quality control review of LOCCS payment\
+  \ forms submitted by grantees.?As necessary, HCP staff also use contractors to conduct\
+  \ financial reviews on grantees. During these reviews, contractors sample grantee\
+  \ records and financial systems to ensure that grantees have proper documentation\
+  \ to support reimbursement requests and payments from HUD. Contractors will also\
+  \ review grantee financial policies and procedures to ensure that measures are in\
+  \ place to safeguard against misuse of funds.\n\nThe various systems used in the\
+  \ process include: The LOCCS Payment System, InfoPath, Microsoft Excel. Key Parties\
+  \ involved in the process include: HCP – Grantee Points of Contact (POC), LOCCS\
+  \ Voucher Approvers, HCP Management Staff, Support Contractor. \"\n\n \n\nCommunity\
+  \ Development Block Grant  – DRAA-Sandy\n\nThe CPD Community Development Block Grant\
+  \ – DRAA-Sandy program monitors disaster recovery activities for Federally declared\
+  \ disaster areas affected by Hurricane Sandy. The grantee submits a quarterly performance\
+  \ report using the Disaster Recovery Grant Reporting (DRGR) system that is reviewed\
+  \ by CPD field offices or HUD headquarters. The performance reports are used to\
+  \ review the grant expenditures and accomplishments for all CDBG-DR funded activities.\
+  \ The grantee also uses the DRGR system to submit vouchers and drawdown funds. After\
+  \ a voucher is created and submitted by a grantee Drawdown Requester, the voucher\
+  \ line items must be reviewed and approved by the grantee Drawdown Approver. If\
+  \ a line item is approved, it is either sent to the Line of Credit Control System\
+  \ (LOCCS) for processing, or, if the grant drawdown threshold of $5 million has\
+  \ been reached, it is sent to HUD for review and approval before it can be submitted\
+  \ to LOCCS. CPD also monitors the grantee’s efforts to prevent the duplication of\
+  \ benefits and ensure programmatic compliance.\n\nCPD’s program exhibit 34-1a, Guide\
+  \ for Review of Financial Management and Audits, is designed to monitor non-federal\
+  \ entity’s compliance with requirements Subparts D and F of 2 CFR part 200, Uniform\
+  \ Administrative Requirements, Cost Principles, and Audit Requirements for Federal\
+  \ Awards, except for cost allowability, procurement, and equipment. The exhibits\
+  \ located in Chapter 6 of the CPD Monitoring Handbook, serve the purpose of capturing\
+  \ improper payments identified in the program file-level reviews during on-site\
+  \ or remote monitoring. If any improper payments are identified the reviewer must\
+  \ indicate on the monitoring exhibit the program area, amount, type of improper\
+  \ payment and corrective action. The grantee is notified of any improper payments\
+  \ identified during the monitoring review at the exit conference. If the grantee\
+  \ is unable to provide documentation to resolve the improper payment, a finding\
+  \ will be issued in the Monitoring Report which is transmitted to the grantee within\
+  \ 90 days of the monitoring review. In most cases, CPD recaptures overpayments by\
+  \ offsetting future draws. If there are no remaining funds on the grant, HUD typically\
+  \ instructs the grantee to either repay funds from non-federal sources to their\
+  \ grant’s line of credit in LOCCS, or to Treasury’s account if the grant has closed\
+  \ or the funding availability period has expired. Additionally, CPD may also withhold\
+  \ additional funding until the overpayment has been recovered.\n\nAdditionally,\
+  \ HUD monitors all high-risk grantees annually and, in some instances, bi-annually.\
+  \ Although these monitoring engagements do not exclusively include a review of improper\
+  \ payments, the reviewers are able to identify improper payments during the file\
+  \ review. If a grantee must repay HUD, CPD will coordinate with the applicable offices\
+  \ depending on the amount being repaid. A remittance to the line of credit of less\
+  \ than $2,000 may be made by sending a check to HUD-FAD Collections Ft. Worth, whereas\
+  \ any remittance of more than $2,000 must be sent via wire transfer to the Department\
+  \ of U.S. Treasury Financial Communications System (TFCS).\n\nPrior improper payment\
+  \ testing showed the program's improper payment rate was under the threshold for\
+  \ being susceptible to significant improper payments.?In addition, the results of\
+  \ HUD’s payment integrity risk assessment identified this program is not susceptible\
+  \ to significant improper payments. Therefore, the cost of any additional attempts\
+  \ to recover improper payments would exceed the benefit of improper payments recovered.\
+  \ \"\n\n \n\nCommunity Development Block Grants (CDBG)\n\n-CDBG Insular Areas\n\n\
+  -CDBG Entitlement\n\n-CDBG Non-Entitlement\n\nThese CPD funds have a robust risk\
+  \ analysis and monitoring process in place to assess the quality of performance\
+  \ of the grantee over time and promptly resolve the findings of audits and other\
+  \ reviews. Monitoring provides information about program participants that is critical\
+  \ for making informed judgments about compliance, program effectiveness and management\
+  \ efficiency. It also helps in identifying instances of fraud, waste, and abuse.\
+  \ Monitoring also provides opportunities to identify program participant accomplishments\
+  \ as well as successful management/ implementation/evaluation techniques that might\
+  \ be replicated by other CPD program  participants. \n\nParties involved include\
+  \ all those responsible for the programs covered by the CPD Monitoring Handbook\
+  \ HUD Handbook 6509.2), including Office of Block Grant Assistance (OBGA), SNAP,\
+  \ CPD Field Offices, OPDC, ORHED, OGC, Budget and OCFO. CPD’s program exhibit 34-1a,\
+  \ Guide for Review of Financial Management and Audits, is designed to monitor non-federal\
+  \ entity’s compliance with requirements of Subparts D and F of 2 CFR part 200, Uniform\
+  \ Administrative Requirements, Cost Principles, and Audit Requirements for Federal\
+  \ Awards, except for cost allowability, procurement and equipment (which are covered\
+  \ in other exhibits). During the monitoring process, program expenditures are reviewed\
+  \ to determine if improper payments were made. If identified CPD determines whether\
+  \ the appropriate corrective actions took place. If there are no remaining funds\
+  \ on the grant, HUD will typically advise the grantee to either repay funds from\
+  \ non-federal funds sources to their grant’s line of credit in LOCCS or to the Treasury’s\
+  \ account if the grant has been closed. A remittance to the line of credit of less\
+  \ than $2,000 may be made by sending a check to HUD-FAD Collections Ft. Worth PO\
+  \ Box 6200-05, whereas any remittance of more than $2,000 must be sent via wire\
+  \ transfer to the TFCS. Provided that required due process is followed and completed,\
+  \ CPD programs could also withhold additional funding until the overpayment has\
+  \ been recovered. For CDBG, recovery actions must conform to regulatory requirements\
+  \ at subpart) of 24 CFR part 570.\n\nIn addition, the results of HUD’s payment integrity\
+  \ risk assessment identified these programs as not susceptible to significant improper\
+  \ payments. Therefore, the cost of any additional attempts to recover improper payments\
+  \ would exceed the benefit of improper payments recovered.\"\n\n \n\nIndian Community\
+  \ Development Block Grants\n\nAfter the Congress appropriates funds for the Indian\
+  \ Community Development Block Grants program, HUD publishes a Notice of Funding\
+  \ Opportunity (NOFO), which includes the factors and criteria used to competitively\
+  \ award the funding. After grant applications are submitted, the Area ONAP Grants\
+  \ Management Directors make award recommendations based on the NOFO criteria. Then,\
+  \ the Headquarters Director of Grants Management concurs or rejects the award recommendations.\
+  \ In addition, the program has processes in place to ensure the grant award matches\
+  \ the amount on the grant agreement. \n\nIf an overpayment was discovered, the program\
+  \ would notify the recipient and request the return of the overpayment. There have\
+  \ been no occurrences of an overpayment to date.\n\nThe results of HUD’s payment\
+  \ integrity risk assessment identified this program to be at low likelihood of significant\
+  \ improper payments. Therefore, the cost of any additional attempts to recover improper\
+  \ payments would exceed the benefit of improper payments recovered.\"\n\n \n\nCommunity\
+  \ Planning and Development - Capacity Building\n\nThe Rural Capacity Building (RCB)\
+  \ program has a monitoring process in place to assess the quality of grantee performance\
+  \ over time and to ensure timely resolution of audit findings and other reviews.\
+  \ This process is essential for making informed decisions about program effectiveness\
+  \ and management efficiency. It also helps detect and address instances of fraud,\
+  \ waste, and abuse. RCB monitoring activities include regular communication through\
+  \ phone calls and emails, written correspondence, analysis of submitted reports\
+  \ and audits, and periodic meetings with grantees.\n\nMonitoring not only helps\
+  \ identify areas for improvement but also highlights grantee accomplishments and\
+  \ effective practices in management, implementation, and evaluation that could be\
+  \ shared across the RCB network. The parties involved in this oversight process\
+  \ may include HQ Operations, the Office of Rural Housing and Economic Development\
+  \ (ORHED), the Office of Policy Development and Coordination (OPDC), the Office\
+  \ of General Counsel (OGC), and HUD’s Budget and Chief Financial Officer (OCFO)\
+  \ teams.\n\nThe monitoring process follows CPD’s program Exhibit 34-1a, Guide for\
+  \ Review of Financial Management and Audits, which evaluates grantee compliance\
+  \ with Subparts D and F of 2 CFR Part 200—Uniform Administrative Requirements, Cost\
+  \ Principles, and Audit Requirements for Federal Awards (excluding cost allowability,\
+  \ procurement, and equipment). Program expenditures are reviewed to identify any\
+  \ improper payments. If overpayments are detected, corrective actions are assessed.\
+  \ Typically, HUD will recover these funds by offsetting future draws through LOCCS.\
+  \ In cases where no funds remain on the grant, the grantee may be required to return\
+  \ the overpayment using non-federal sources, either to the grant’s line of credit\
+  \ or to the U.S. Treasury if the grant has closed.\n\nIf the amount to be repaid\
+  \ is less than $2,000, the grantee may remit payment by check to HUD-FAD Collections\
+  \ in Fort Worth. Amounts over $2,000 must be sent via wire transfer through the\
+  \ U.S. Treasury’s Financial Communications System (TFCS). Additionally, RCB funds\
+  \ may be withheld until the overpayment is fully recovered.\n\nImportantly, HUD’s\
+  \ payment integrity risk assessment has determined that the RCB program is not susceptible\
+  \ to significant improper payments. As a result, the cost of further recovery efforts\
+  \ would generally outweigh the benefit of any remaining improper payment recovery.\"\
+  \n\n \n\nCommunity Planning and Development - Homeless Assistance Grants\n\nThe\
+  \ grants funded under the HAG programs are set amounts, meaning that when we award\
+  \ funds they are processed to load in LOCCS for the Continuum of Care and Youth\
+  \ Homelessness Demonstration Programs or IDIS for Emergency Solutions Grants based\
+  \ on the amount we awarded. Because these are set amounts, there is not a way for\
+  \ recipients to draw more funds than they were awarded. If they attempt to draw\
+  \ more funds, the financial systems, LOCCS or IDIS, will reject the draw request\
+  \ at which point the recipient would need to adjust the draw request and resubmit\
+  \ within the available amount indicated in the financial system.\n\nThese CPD funds\
+  \ also have a monitoring process in place to assess the quality of performance of\
+  \ the grantee over time and promptly resolve the findings of audits and other reviews.\
+  \ Monitoring provides information about program participants that is critical for\
+  \ making informed judgments about program effectiveness and management efficiency.\
+  \ It also helps in identifying instances of fraud, waste, and abuse. The process\
+  \ involves frequent telephone/email contacts, written communications, analysis of\
+  \ reports and audits, and periodic meetings. Monitoring also provides opportunities\
+  \ to identify program participant accomplishments as well as successful management/implementation/evaluation\
+  \ techniques that might be replicated by other CPD program grantees.\n\nParties\
+  \ involved include the Office of SNAPS, Field Offices, ORHED, OGC, Budget and OCFO.\
+  \ CPD’s program exhibit 34-1, Guide for Review of Financial Management and Audits,\
+  \ is designed to monitor non-federal entity’s compliance with requirements of Subparts\
+  \ D and F of 2 CFR part 200, Uniform Administrative Requirements, Cost Principles,\
+  \ and Audit Requirements for Federal Awards, except for cost allowability, procurement\
+  \ and equipment. During the monitoring process, program expenditures are reviewed\
+  \ to determine if improper payments were made. If identified CPD determines whether\
+  \ the appropriate corrective actions took place. In most cases, CPD will recapture\
+  \ improper payments by offsetting future draws. If there are no remaining funds\
+  \ on the grant, HUD will typically instruct the grantee to either repay funds from\
+  \ non-federal funds sources to their grant’s line of credit in the electronic Line\
+  \ of Credit Control System (LOCCS) or to the Treasury’s account if the grant has\
+  \ been closed. A remittance to the line of credit of less than $2,000 may be made\
+  \ by sending a check to HUD-FAD Collections Ft. Worth PO Box 6200-05, whereas any\
+  \ remittance of more than $2,000 must be sent via wire transfer to the TFCS. CPD\
+  \ programs could also withhold additional funding until the overpayment has been\
+  \ recovered.\n\nIn addition, the results of HUD’s payment integrity risk assessment\
+  \ identified these programs as not susceptible to significant improper payments.\
+  \ Therefore, the cost of any additional attempts to recover improper payments would\
+  \ exceed the benefit of improper payments recovered.\"\n\n \n\nCommunity Planning\
+  \ and Development - HOME Investment Partnerships Program\n\nThese CPD funds have\
+  \ a monitoring process in place to assess the quality of performance of the grantee\
+  \ over time and promptly resolve the findings of audits and other reviews. Monitoring\
+  \ provides information about program participants that is critical for making informed\
+  \ judgments about program effectiveness and management efficiency. It also helps\
+  \ in identifying instances of fraud, waste, and abuse. The process involves frequent\
+  \ telephone/email contacts, written communications, analysis of reports and audits,\
+  \ and periodic meetings. Monitoring also provides opportunities to identify program\
+  \ participant accomplishments as well as successful management/implementation/evaluation\
+  \ techniques that might be replicated by other CPD program participants.\n\nParties\
+  \ involved include Office of Affordable Housing Programs (OAHP), CPD Office of Field\
+  \ Management, CPD Field Offices, OGC, CPD Budget and OCFO. CPD’s program exhibit\
+  \ 34-1, Guide for Review of Financial Management and Audits, is designed to monitor\
+  \ non-federal entity’s compliance with requirements of Subparts D and F of 2 CFR\
+  \ part 200, Uniform Administrative Requirements, Cost Principles, and Audit Requirements\
+  \ for Federal Awards, except for cost allowability, procurement and equipment. During\
+  \ the monitoring process, program expenditures are reviewed to determine if improper\
+  \ payments were made. If identified, CPD determines whether the appropriate corrective\
+  \ actions took place. By statute, a HOME participating jurisdiction must expend\
+  \ HOME funds for eligible costs within 15 days of disbursing funds from its HOME\
+  \ Investment Trust Fund Treasury account. HOME participating jurisdictions are required\
+  \ to repay funds used for ineligible costs or activities and are required to return\
+  \ funds that were drawn in excess of need. A repayment is typically made to the\
+  \ participating jurisdiction’s HOME Investment Trust Fund local account and is then\
+  \ used by the participating jurisdiction for another eligible HOME activity cost.\
+  \ A participating jurisdiction may also request a voluntary grant reduction in lieu\
+  \ of repayment, which is an offset against current or future HOME grants. Participating\
+  \ jurisdictions typically only repay their HOME Investment Trust Fund Treasury account\
+  \ if the ineligible cost was drawn for a program administration and planning activity.\n\
+  \nIn addition, the results of HUD’s payment integrity risk assessment identified\
+  \ these programs as not susceptible to significant improper payments. Therefore,\
+  \ the cost of any additional attempts to recover improper payments would exceed\
+  \ the benefit of improper payments recovered. \"\n\n \n\nNative Hawaiian Housing\
+  \ Block Grants\n\nThe Native Hawaiian Housing Block Grants program has a single\
+  \ grantee and has not experienced any overpayment. In the event of an overpayment,\
+  \ the relationship with the single grantee is that the recipient would voluntarily\
+  \ return the funds. The cost of any additional attempts to recover improper payments\
+  \ would exceed the benefit of improper payments recovered. \"\n\n \n\nHousing -\
+  \ Section 811 Housing for Persons with Disabilities (Project Rental Assistance Contract\
+  \ and Capital Advance)\n\nThe results of HUD’s payment integrity risk assessments\
+  \ identified these programs as not susceptible to significant improper payments.\
+  \ All owners receiving PRAC funding are mandated by 24 CFR 5.233 to fully utilize\
+  \ HUD’s EIV system. EIV is a web-based application which provides owners with employment,\
+  \ wage, unemployment compensation and social security benefit information for tenants\
+  \ participating in HUD’s assisted housing programs. Tenant Rental Assistance Certification\
+  \ System (TRACS) is a system developed to improve the fiscal control over assisted\
+  \ housing programs and acts as the sole repository of all tenant certification data,\
+  \ assistance contract data and crucial payment data. EIV is matched against TRACS\
+  \ and a variance of $2,400 per year generates an error and owners are required to\
+  \ follow up with the tenant and resolve the error. If an overpayment is identified,\
+  \ tenants may pay the owner in a lump sum or by entering into a repayment agreement.\
+  \ Therefore, the cost of any additional attempts to recover improper payments would\
+  \ exceed the benefit of improper payments recovered.\n\nThe 811 Capital Advance\
+  \ proceeds may be disbursed to Owners following initial closing to meet bills which\
+  \ are due and payable including bills submitted by contractors covering work completed\
+  \ and/or materials delivered to and stored on or off the building site.?The owner\
+  \ applies for disbursements using form HUD-92403-CA, Requisition for Disbursements\
+  \ of Capital Advance Funds.?HUD staff review the request for disbursements in accordance\
+  \ with Handbooks 4470.1 REV-1, 4480.1 and Housing Notice 2014-10. With each disbursement\
+  \ the owner must submit bills or receipts as required and current extensions of\
+  \ title policy, as well as evidence of compliance with the Fair Labor Standers Act\
+  \ (FLSA), zoning, building and other local requirements.?HUD monitors construction\
+  \ progress and completes inspections during construction.?The owner is required\
+  \ to cost certify the end of the construction phase to reach final endorsement of\
+  \ the Capital Advance.?If an overpayment is identified during the construction phase\
+  \ of the project, the HUD staff will require reimbursement of those funds prior\
+  \ to final endorsement.\n\nPrior improper payment testing showed the program's improper\
+  \ payment rate was under the threshold for being susceptible to significant improper\
+  \ payments.?In addition, the results of HUD’s payment integrity risk assessment\
+  \ identified this program is not susceptible to significant improper payments. Therefore,\
+  \ the cost of any additional attempts to recover improper payments would exceed\
+  \ the benefit of improper payments recovered. \"\n\n \n\nHousing - Rental Housing\
+  \ Assistance Program - Project Based Rental Assistance - Project Based Section 8\
+  \ - Rental Housing Assistance Program - Section 236 -Housing for Persons with Disability\
+  \ - Section 811\n\nA payment recapture audit was deemed not to be cost-beneficial\
+  \ based on the nature of these programs. All owners receiving funding from these\
+  \ programs are mandated by 24 CFR 5.233 to fully utilize HUD’s EIV system. EIV is\
+  \ a web-based application which provides owners with employment, wage, unemployment\
+  \ compensation and social security benefit information for tenants participating\
+  \ in HUD’s assisted housing programs to verify tenant information and reduce administrative\
+  \ and subsidy payment errors in accordance with HUD administrative guidance. The\
+  \ program Points of Contact (POC) use EIV to monitor the owner’s compliance with\
+  \ access and use of the system. However, tenant files are stored locally at each\
+  \ Multifamily property and some RHAP activities are administered by PHAs nationwide.\
+  \ A recovery audit would involve substantial travel costs in addition to staff time.\
+  \ There are also no centralized computer database capturing documents used to support\
+  \ the rental subsidy determinations.\n\nThe Tenant Rental Assistance Certification\
+  \ System (TRACS) is a system developed to improve the fiscal control over assisted\
+  \ housing programs and acts as the sole repository of all tenant certification data,\
+  \ assistance contract data and crucial payment data. EIV is matched against TRACS\
+  \ and a variance of $2,400 per year generates an error and owners are required to\
+  \ follow up with the tenant and resolve the error. If an overpayment is identified,\
+  \ tenants may pay the owner in a lump sum or by entering into a repayment agreement.\
+  \ In addition to tenant repayment agreements, MF monitors when owners receive overpayments\
+  \ of assistance. In these cases, a Repayment Agreement is required, and Accounts\
+  \ Receivable is established on the HUD Balance Sheet, repayments are set up in LOCCS\
+  \ through a monthly offset of the monthly voucher payment. Collectability is a concern\
+  \ as tenants may no longer be receiving housing assistance when the overpayments\
+  \ are identified, or many may not be able to repay the subsidy with their own resources.\
+  \ Therefore, the cost of any additional attempts to recover improper payments would\
+  \ exceed the benefit of improper payments recovered. \"\n\n \n\nOIG\n\nHUD-OIG regularly\
+  \ reviews contractual awards, budget execution summaries, and any HUD-OIG regularly\
+  \ reviews contractual awards, budget execution summaries, and any other outgoing\
+  \ payments to ensure they are accurate and in line with operating plan or contractual\
+  \ award documents. This review is a constant ongoing process that takes place regularly\
+  \ during budget execution, procurement planning, or after-action review sessions.\
+  \ OIG budget and procurement personnel meet regularly to review all contractual\
+  \ obligations and outlays.\n\nIn the event of an inaccurate or improper payment\
+  \ the OIG would alert the necessary parties and leadership of the mistake and work\
+  \ with BFS or other assisted acquisition partners to reclaim any mistaken payment.\
+  \ \"\n\n \n\nCommunity Planning and Development - Housing Opportunities for Persons\
+  \ with AIDS\n\nThese CPD funds have a monitoring process in place to assess the\
+  \ quality of performance of the grantee over time and promptly resolve the findings\
+  \ of audits and other reviews. Monitoring provides information about program participants\
+  \ that is critical for making informed judgments about program effectiveness and\
+  \ management efficiency. It also helps in identifying instances of fraud, waste,\
+  \ and abuse. The process involves frequent telephone/email contacts, written communications,\
+  \ analysis of reports and audits, and periodic meetings. Monitoring also provides\
+  \ opportunities to identify program participant accomplishments as well as successful\
+  \ management/ implementation/evaluation techniques that might be replicated by other\
+  \ CPD program participants.\n\nParties involved include OSN, Field Offices, OPDC,\
+  \ ORHED, OGC, Budget and OCFO. CPD’s program exhibit 34-1, Guide for Review of Financial\
+  \ Management and Audits, is designed to monitor non-federal entity’s compliance\
+  \ with requirements of Subparts D and F of 2 CFR part 200, Uniform Administrative\
+  \ Requirements, Cost Principles, and Audit Requirements for Federal Awards, except\
+  \ for cost allowability, procurement and equipment. During the monitoring process,\
+  \ program expenditures are reviewed to determine if improper payments were made.\
+  \ If identified CPD determines whether the appropriate corrective actions took place.\
+  \ CPD will request repayment using non-federal funds to either the local account\
+  \ or LOCCS or will recapture overpayments by offsetting future draws. If the grant\
+  \ has been closed, repayments are sent to the Treasury’s account A remittance to\
+  \ the line of credit of less than $2,000 may be made by sending a check to HUD-FAD\
+  \ Collections Ft. Worth PO Box 6200-05, whereas any remittance of more than $2,000\
+  \ must be sent via wire transfer to the TFCS. CPD programs could also withhold additional\
+  \ funding until the overpayment has been recovered.\n\nIn addition, the results\
+  \ of HUD’s payment integrity risk assessment identified these programs as not susceptible\
+  \ to significant improper payments. Therefore, the cost of any additional attempts\
+  \ to recover improper payments would exceed the benefit of improper payments recovered.\
+  \ \"\n\n \n\nPublic and Indian Housing - Native American Housing Block Grants\n\n\
+  The Native American Housing Block Grants program awards funds based on a formula\
+  \ that was drafted in consultation with Tribes. Eligible NAHBG recipients, which\
+  \ are federally recognized Indian tribes and a limited number of State-recognized\
+  \ tribes grandfathered from the previous programs under the 1937 Housing Act, do\
+  \ not – in general – change from one year to the next.\n\nEach year, the NAHBG grantee\
+  \ submits an Indian Housing Plan (IHP), which includes a description of how funds\
+  \ will be used, and they are not able to access funds until HUD has reviewed and\
+  \ approved the IHP.\n\nNAHBG overpayments are identified through manual reviews\
+  \ of paper documentation, the Line of Credit Control System (the IT system used\
+  \ for grant recipient payments), and the Grants Evaluation and Management System\
+  \ (the IT system used for grant recipient reporting). Once identified, the recipient\
+  \ is notified and requested to return the overpayment. In most cases, the recipient\
+  \ of the overpayment agrees to return the overpayment or permits HUD to recover\
+  \ the overpayment through offset of future grants over time.\n\nThe results of HUD’s\
+  \ payment integrity risk assessment identified this program to be at low likelihood\
+  \ of significant improper payments. Implementing a payment recapture audit plan\
+  \ would duplicate the process in place. Therefore, the cost of any additional attempts\
+  \ to recover improper payments would exceed the benefit of improper payments recovered.\
+  \ \"\n\n \n\nHousing - Housing for Special Populations - Capital Advance portion\
+  \ of expenditures, Section 202\n\nThe results of HUD’s payment integrity risk assessment\
+  \ identified these programs as not susceptible to significant improper payments.\
+  \ The 202 Capital Advance proceeds may be disbursed to Owners following initial\
+  \ closing to meet bills which are due and payable including bills submitted by contractors\
+  \ covering work completed and/or materials delivered to and stored on or off the\
+  \ building site. The owner applies for disbursements using form HUD-92403-CA, Requisition\
+  \ for Disbursements of Capital Advance Funds. HUD staff review the request for disbursements\
+  \ in accordance with Handbooks 4470.1 REV-1, 4480.1 and Housing Notice 2014-10.\
+  \ With each disbursement the owner must submit bills or receipts as required and\
+  \ current extensions of title policy, as well of evidence of compliance with the\
+  \ Fair Labor Standards Act (FLSA), zoning, building and other local requirements.\
+  \ HUD monitors construction progress and completes inspections during construction.\
+  \ The owner is required to cost certify the end of the construction phase to reach\
+  \ final endorsement of the Capital Advance. If an overpayment is identified during\
+  \ the construction phase of the project, the HUD staff will require reimbursement\
+  \ of those funds prior to final endorsement.\n\nTherefore, the cost of any additional\
+  \ attempts to recover improper payments would exceed the benefit of improper payment\
+  \ recovered. \"\n\n \n\nManufactured Housing\n\nOverpayments are significantly rare\
+  \ as funds are automatically calculated based on the monthly production and shipment\
+  \ of manufactured homes. When overpayments are made to contractors that provide\
+  \ support to the MH program, the Contracting Officer's Representative (COR) contacts\
+  \ the Contracting Officer (CO) to recapture funds. When overpayments are made to\
+  \ state partners (state-administered programs), the overpayment is documented, and\
+  \ the adjustment or recapture of the funds is made the following month. Furthermore,\
+  \ the results of HUD’s payment integrity risk assessment identified this program\
+  \ to be at low likelihood of significant improper payments. Therefore, the cost\
+  \ of any additional attempts to recover improper payments would exceed the benefit\
+  \ of improper payments recovered.\n\nPayment eligibility decisions are made within\
+  \ HUD. Payment decisions as it relates to the states is primarily driven by the\
+  \ National Manufactured Housing Construction and Safety Standards (MHCSS) Act of\
+  \ 1974 and HUD regulations. Payments regarding contracts are made based on the Government\
+  \ cost estimate for services and the CO’s evaluation of the contractor costs proposed.\
+  \ The CO ensures proposed costs are fair and reasonable prior to awarding contracts\
+  \ and making payments.\n\nThe Office of Manufactured Housing Programs (OMHP) does\
+  \ not use any systems to process payments as payments are processed outside our\
+  \ office. The Fort Worth Accounting Center (FWAC) processes payments for states\
+  \ and the Office of the Chief Procurement Officer (OCPO) and Housing’s Procurement\
+  \ Management Division (PMD) processes payments for contracts with support from FWAC.\
+  \ Key parties involved are the states, OMHP, COR, OCPO CO, and PMD COR. \"\n\n \n\
+  \nCommunity Planning and Development - Housing Trust Fund\n\nThese CPD funds have\
+  \ a monitoring process in place to assess the quality of performance of the grantee\
+  \ over time and promptly resolve the findings of audits and other reviews. Monitoring\
+  \ provides information about program participants that is critical for making informed\
+  \ judgments about program effectiveness and management efficiency. It also helps\
+  \ in identifying instances of fraud, waste, and abuse. The process involves frequent\
+  \ telephone/email contacts, written communications, analysis of reports and audits,\
+  \ and periodic meetings. Monitoring also provides opportunities to identify program\
+  \ participant accomplishments as well as successful management/ implementation/evaluation\
+  \ techniques that might be replicated by other CPD program participants.\n\nParties\
+  \ involved include OAHP, CPD Office of Field Management, CPD Field Offices, OGC,\
+  \ CPD Budget and OCFO. CPD’s program exhibit 34-1, Guide for Review of Financial\
+  \ Management and Audits, is designed to monitor non-federal entity’s compliance\
+  \ with requirements of Subparts D and F of 2 CFR part 200, Uniform Administrative\
+  \ Requirements, Cost Principles, and Audit Requirements for Federal Awards, except\
+  \ for cost allowability, procurement and equipment. During the monitoring process,\
+  \ program expenditures are reviewed to determine if improper payments were made.\
+  \ If identified CPD determines whether the appropriate corrective actions took place.\
+  \ A Housing Trust Fund (HTF) grantee must expend HTF funds for eligible costs after\
+  \ disbursing funds from its HTF Treasury account. Grantees are required to repay\
+  \ funds used for ineligible costs or activities and are required to return funds\
+  \ that were drawn in excess of need. A repayment is typically made to the grantee’s\
+  \ HTF local account and is then used by the grantee for another eligible HTF activity\
+  \ cost. A grantee may also request a voluntary grant reduction in lieu of repayment,\
+  \ which is an offset against current or future HTF grants. Grantees typically only\
+  \ repay their HTF Treasury account if the ineligible cost was drawn for a program\
+  \ administration and planning activity.\n\nIn addition, the results of HUD’s payment\
+  \ integrity risk assessment identified these programs as not susceptible to significant\
+  \ improper payments. Therefore, the cost of any additional attempts to recover improper\
+  \ payments would exceed the benefit of improper payments recovered. \"\n\n \n\n\
+  Salaries and Expenses\n\nThe Office of the Chief Human Capital Officer (OCHCO),\
+  \ Payroll, Benefits and Retirement Division (PBRD) conducts ongoing reviews of the\
+  \ unpaid report to ensure all HUD employees are paid based on their certified timecard\
+  \ for the Personnel Office Identifier (POI) 4408. Through the PBRD quality review\
+  \ process, overpayments are identified and validated. If erroneous payments are\
+  \ identified due to an error in processing personnel and benefits actions, OCHCO\
+  \ takes the necessary action(s) to rectify the mistake.\n\nFor example, OCHCO collaborates\
+  \ with the US Department of Treasury's Bureau of Fiscal Services (BFS) and the Department\
+  \ of Agriculture's National Finance Center (NFC) to run the necessary reports to\
+  \ determine where the discrepancy was made. Once the source has been identified,\
+  \ OCHCO corrects the issue or determines if it is feasible to correct the improper\
+  \ payment.\n\nOnce validated and corrected through the NFC database, the debt is\
+  \ established, and the employee is notified of the indebtedness. After due process,\
+  \ the collection process is initiated.\n\nThe Human Resources (HR) Division also\
+  \ performs quality reviews based on the personnel data generated from the NFC FOCUS\
+  \ report or NFC Reporting Center application for personnel and benefits actions.\n\
+  \nThe report data is used to determine personnel data or duty locations which will\
+  \ cause an overpayment for the employee. If so, the History Correction Update Processing\
+  \ (HCUP) system is used to correct the error, which will automatically generate\
+  \ a bill if it is within twenty-six (26) pay periods. Outside of the pay period\
+  \ timeframe, HR will manually calculate the amount owed and enter the data to be\
+  \ submitted to NFC via the Special Payroll Processing System (SPPS).\n\nEmployees\
+  \ are informed of their indebtedness and have an opportunity to setup a payment\
+  \ plan.\n\nAs part of the bi-weekly payroll projection process, OCFO-Budget runs\
+  \ reports from OBI's repository of payroll reports and flags any payroll corrections\
+  \ or unusual payroll activities for program budget offices.\n\nUpon request and\
+  \ on an ad-hoc basis, OCFO-Budget assists in the correction of improper payroll\
+  \ payments by running reports from OBI's repository of payroll reports (Cost and\
+  \ Hours report) and providing data regarding payroll corrections to program budget\
+  \ offices and Treasury's ARC.\n\nTherefore, the cost of any additional attempts\
+  \ to recover improper payments would exceed the benefit of improper payments recovered.\
+  \  \"\n\n \n\nSalaries and Expense Purchase Card Program\n\nOn a monthly basis,\
+  \ OCPO monitors all transactions that are processed by the cardholders.  If they\
+  \ identify any questionable purchases, they request supporting documentation from\
+  \ the Cardholder (CH) with the Approving Official (AO) copied on those requests.\
+  \ Once the support is reviewed, OCPO will communicate any findings or concerns with\
+  \ the AO for further review and validation.  If the AO determines the products were\
+  \ not for a valid need, the cardholder would be tasked with returning the products\
+  \ to the vendor for a credit. Purchases deemed not to be mission related could also\
+  \ be recovered by offsetting the cardholder’s salary or other penalties established\
+  \ in the OCPO Government Purchase Card Policy: Consequences for Fraud and Misuse.\
+  \  The AO could also be held monetarily liable (or other adverse action) if they\
+  \ approved the purchase.  The cost of any additional attempts to recover improper\
+  \ payments would exceed the benefit of improper payments recovered.\"\n\n \n\nSalaries\
+  \ and Expenses Travel Program\n\nOverpayments for travel services are either self-identified\
+  \ by the traveler or by Treasury’s Bureau of Fiscal Services (BFS) Administrative\
+  \ Resources Center (ARC) Travel Services random audit. If an overpayment is determined,\
+  \ ARC Travel Services contacts HUD to verify and request concurrence to set up the\
+  \ Accounts Receivable (AR). The AR email/letter to the traveler with a copy to HUDTravelQuestions@hud.gov\
+  \ includes the Traveler’s Name, Travel Authorization/Voucher Number, Reason Overpayment\
+  \ was Determined, Payment Due Date, Overpayment Amount, and an Overpayment Number.\
+  \ The email/letter includes where to mail the check or money order and the possible\
+  \ consequences for failure to adhere by the 90-day due date. If no payment is received\
+  \ by the 90th day, the BFS Accounts Receivable Branch (ARB) will forward the overpayment\
+  \ due to BFS Debt Management Services for salary offset. ARC then sets up an AR\
+  \ in the ARB to establish the receivable in the Oracle Business Intelligence (OBI)\
+  \ Financial System. HUD has the ability to query OBI and determine the outstanding\
+  \ overpayments due.\n\nThe cost of any additional attempts to recover overpayments\
+  \ would exceed the benefit of improper payments recovered.\"\n\n \n\nGreen and Resilient\
+  \ Retrofit Program (GRRP)\n\nThe GRRP program is subject to HUD’s financial oversight,\
+  \ which includes processes to prevent overpayments for identified eligible costs\
+  \ or projects that fail to meet program requirements. \n\nPayments under GRRP fall\
+  \ under two categories: grants and contracts. All grant payment requests are required\
+  \ to include documentation which is reviewed and approved prior to payment being\
+  \ made. GRRP grant award money is only disbursed as reimbursement after review and\
+  \ approval by HUD of the evidence of the work done and of eligible costs incurred.\
+  \  Additionally, 10% of grant funds are withheld until the Awardee submits and HUD\
+  \ reviews and approves a final third-party review done by an independent auditor\
+  \ to confirm the validity of the project expenditures and the completion of the\
+  \ required work.\n\nContract payments follow the normal HUD procurement process.\
+  \ FAC-COR and FAC-P/PM personnel approve payment only for valid expenditures with\
+  \ documented results.\n\nAs a result of these controls for grants and contracts,\
+  \ it is very unlikely that overpayments are made in GRRP. Accordingly, it would\
+  \ not be cost-beneficial to expend funds to identify and recapture overpayments\
+  \ which are exceedingly unlikely to occur.\"\n\n \n\nPDR Managed Technical Assistance\
+  \ Grants\n\nThe Community Compass Technical Assistance (CCTA) is a Cooperative Agreement\
+  \ based program that features substantial government involvement in the day-to-day\
+  \ activities of the awards. This includes the initial tasking of work to the grantee,\
+  \ approving wage rates, reviewing and approving TA work plans, ongoing monitoring\
+  \ and participation in TA strategies and execution, reviewing quarterly performance\
+  \ reports (QPRs), and reviewing/approving high risk (over threshold) reimbursement\
+  \ requests. CCTA’s model is Demand-Response; meaning HUD tasks the grantee (TA Provider)\
+  \ with work as a result of a program need. The Technical Assistance (TA) Provider\
+  \ responds with a work plan the HUD program and Government Technical Representative\
+  \ (GTR) approve of before work begins.\n\nHUD Government Technical Monitors (GTM)\
+  \ and HUD GTRs are substantially involved with CCTA work and grantee activities\
+  \ daily. For reimbursement requests, GTRs manually review each voucher over the\
+  \ grant threshold (currently 1/36th of the total grant $). For FY 2024, these manual\
+  \ reviews accounted for approximately 57% of the total financial outlays for CCTA.\
+  \ Over threshold voucher reviews are an on-going monitoring effort to provide frequent\
+  \ review and feedback to grantees to mitigate a future need to request repayment\
+  \ to HUD for an improper payment. CCTA also engages new and existing grantees on\
+  \ TA Site Visits that started in FY 2024 and includes TA on their internal SOPs,\
+  \ financial statements, reimbursements, and other grant administration topics. CCTA\
+  \ also manages ICR rate adjustments and adjudicates payments and repayments as needed.\n\
+  \nCCTA formally monitors grantees based on an approved risk model. Part of the formal\
+  \ monitoring event is a review of a set of completed vouchers. CCTA started formal\
+  \ monitoring in 2021.\n\nDRGR has system checks to ensure approved work plans, projects,\
+  \ and award thresholds are not exceeded for payments, which are based on a work\
+  \ plan.  If a recapture is identified, CCTA uses Pay.gov to receive repayments.\
+  \  Then, grantees fill out a form with their grant number and follow the instructions\
+  \ for repayment. LOCCS Ft. Worth staff monitor for repayments and credit the grants\
+  \ and the funds shown in DRGR.  Repayments are not common in our cooperative agreement,\
+  \ reimbursable program, due to our demand response nature and substantial government\
+  \ involvement in all aspects of the TA.\n\nIn summary, CCTA uses a pre-payment focused\
+  \ effort to ensure improper or overpayments are not made, complimented with a variety\
+  \ of risk-based monitoring methods for post payments and ongoing performance.  The\
+  \ cost of any additional methods to investigate possible overpayments would exceed\
+  \ the benefit of improper payments recovered. Therefore, the cost would outweigh\
+  \ the benefit of executing a payment recapture audit.\"\n\n \n\nCommunity Project\
+  \ Funding - Community Project/Congressional Funding\n\nCPD employs a semi-annual\
+  \ reporting process as outlined in the individual re-agreement(s), to monitor CPF\
+  \ grantee performance and manage risks, in accordance with 24 CFR 75.25. Starting\
+  \ in FY2025, OED will employ an enterprise risk management strategy based on the\
+  \ framework established in 2 CFR 200.206, which more effectively balances the overall\
+  \ CPF portfolio risk with the available resources to manage it.  Due to the politically\
+  \ sensitive nature of the grants the risk of slow implementation or funds recapture\
+  \ poses the greatest risks for the Department. To address these risks, the Office\
+  \ has identified four key risk categories and will assess them annually to continuously\
+  \ improve the process: grantee responsiveness and performance, grant oversight and\
+  \ slow spending, timely reimbursements, and closeout.\n\nGrantee responsiveness\
+  \ and performance are critical factors in the successful distribution of funds and\
+  \ completion of projects. Grantees who fail to submit necessary materials or reach\
+  \ the grant agreement stage present significant challenges. To address the risk\
+  \ of grantees not initiating their projects, the Community Planning and Development\
+  \ (CPD) will implement several measures. These include tracking the number of grants\
+  \ that have not commenced, contacting grantees who have not submitted materials\
+  \ on a quarterly basis, reviewing a sample of semi-annual performance reports as\
+  \ stipulated in grant agreements, and providing technical assistance to grantees.\n\
+  \nIn terms of grant oversight and slow spending, the Community Planning Fund (CPF)\
+  \ mandates that funds be obligated by the Department of Administrative Services\
+  \ (DAS) for Economic Development within 120 days of the appropriation's publication.\
+  \ Grantees are allotted eight years to utilize the funds and close the grants before\
+  \ the Department of Treasury (USDT) can recapture the money, with the first CPF\
+  \ funds subject to recapture starting in September 2030. To mitigate the risk of\
+  \ fund recapture by the USDT, CPD will track the number of grants that have not\
+  \ begun drawing funds, develop benchmarks for grantee expenditures starting in year\
+  \ four, and continue to provide technical assistance to grantees.\n\nTimely reimbursements\
+  \ are essential for the CPF portfolio's performance, which relies on grantees' prompt\
+  \ expenditures, project implementation, and access to timely reimbursements. To\
+  \ ensure compliance with Congress's intent and adherence to 2 CFR 200 and other\
+  \ applicable requirements regarding eligible costs, CPD will review a sample of\
+  \ submitted vouchers, approve vouchers exceeding $500,000 before funds are drawn,\
+  \ establish a procedure for addressing ineligible costs, and offer technical assistance\
+  \ to grantees.\"\n\n \n\nIndian Housing Loan Guarantee Program - Section 184\n\n\
+  No funds are directly disbursed to an individual; HUD only disburses funds to Section\
+  \ 184-approved lenders in the event of a default or claim. In the event of a default\
+  \ and claim, the financial lender submits an application for a loan guarantee (claim\
+  \ request) and supporting documentation (including payment history, collection records,\
+  \ evaluation of the borrower’s capacity, and loss mitigation efforts) to HUD. If\
+  \ the claim is approved by HUD, a disbursement is made to the financial lender.\n\
+  \nIf an overpayment is discovered, the Office of Loan Guarantee (OLG) advises the\
+  \ lender of the overpayment, and the lender remits overpaid funds to OLG. Lenders\
+  \ must be approved to participate in the program. Approved lenders are cooperative\
+  \ in accessing the overpayment amount and repaying any amount to which they are\
+  \ not entitled. Furthermore, the results of HUD’s payment integrity risk assessment\
+  \ identified this program to be at low likelihood of significant improper payments.\
+  \ Therefore, the cost of any additional attempts to recover improper payments would\
+  \ exceed the benefit of improper payments recovered."
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/HUD.html
-recovery_Aging_of_Outstanding_OP_Identified_Amt_0_-_6_months: 0.0
-recovery_Aging_of_Outstanding_OP_Identified_Amt_6_months_to_1_year: 0.004825
-recovery_Aging_of_Outstanding_OP_Identified_Amt_over_1_year: 5.78
-recovery_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: 0.004825
-recovery_Aging_of_Outstanding_OP_Identified_determined_not_collectable: 0.0
-recovery_Disposition_of_Funds_Through_Office_of_Inspector_General: 0.0
-recovery_Disposition_of_Funds_Through_Original_Purpose: 0.0
-recovery_Disposition_of_Funds_Through_Returned_to_Treasury: 0.0
-recovery_Disposition_of_Funds_through_FM_Improvement_Activities: 0.0
-recovery_Disposition_of_Funds_through_recovery_audit_Administer_Auditor: 0.0
-recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 23.83
-recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 2.19
-recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 23.14
-recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 7.11
-recovery_OP_Next_FY_Recapture_Rate_Target_through_Payment_Recapture_Audit: 0.75
-? recovery_Recovery_Audit_Amount_Identified_In_Prior_Reporting_Periods_Determined_Not_Collectable_During_This_Reporting_Period
-: 2.4
-recovery_Recovery_Audit_Amount_Identified_This_Reporting_Period_Determined_Not_Collectable_Rate: 0.0
-recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.2203196347
-recovery_Returned_to_Original_Account: 7.11
-recovery_Total_Overpayment_Amount_Identified: 26.02
-recovery_Total_Overpayment_Amount_Recovered: 30.25
+recovery_Aging_of_Outstanding_OP_Identified_Amt_0_-_6_months: 6.99
+recovery_Aging_of_Outstanding_OP_Identified_Amt_6_months_to_1_year: 0.0
+recovery_Aging_of_Outstanding_OP_Identified_determined_not_collectable: 0.97
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 17.06
+recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 7.75
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 23.08
+recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.78
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 90.1935483871
+recovery_Total_Overpayment_Amount_Identified: 24.81
+recovery_Total_Overpayment_Amount_Recovered: 23.86
 ---

@@ -6,24 +6,6 @@ Page_Name: 2023_TREASURY_4
 ProgramSurveyData:
 - ActionsTaken:
   - Action_Taken: Planned
-    Action_Type: Cross Enterprise Sharing
-    Completion_Date: FY2024
-    Description_Action_Taken: The IRS will continue to collaborate with the Department
-      of Health and Human Services (HHS) Office of Child Support enforcement (OCSE),
-      and the Social Security Administration (SSA), to more accurately validate refunds
-      entitled to a taxpayer; thus, allowing the IRS to enforce laws passed by Congress
-      more effectively
-    Mitigation_Strategy: app5_1
-  - Action_Taken: Completed
-    Action_Type: Cross Enterprise Sharing
-    Completion_Date: FY2022 Q4
-    Description_Action_Taken: The IRS leveraged data sharing pursuant to various interagency
-      agreements, e.g., Department of Health and Human Services (HHS) Office of Child
-      Support enforcement (OCSE), and the Social Security Administration (SSA), to
-      more accurately validate refunds entitled to a taxpayer; thus, allowing the
-      IRS to enforce laws passed by Congress more effectively.
-    Mitigation_Strategy: atp5_1
-  - Action_Taken: Planned
     Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: The IRS will continue to hold the annual Dependent Database
@@ -32,6 +14,15 @@ ProgramSurveyData:
       compliance filters for audit selection of returns claiming the Additional Child
       Tax Credit (ACTC) and identify improvement opportunities for next filing season.
     Mitigation_Strategy: app4_1
+  - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
+    Completion_Date: FY2024
+    Description_Action_Taken: The IRS will continue to collaborate with the Department
+      of Health and Human Services (HHS) Office of Child Support enforcement (OCSE),
+      and the Social Security Administration (SSA), to more accurately validate refunds
+      entitled to a taxpayer; thus, allowing the IRS to enforce laws passed by Congress
+      more effectively
+    Mitigation_Strategy: app5_1
   - Action_Taken: Completed
     Action_Type: Change Process
     Completion_Date: FY2022 Q4
@@ -44,6 +35,15 @@ ProgramSurveyData:
       \ information, updates and training on various tax-related topics, such as tax\
       \ law changes to refundable tax credits.\t"
     Mitigation_Strategy: atp4_1
+  - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
+    Completion_Date: FY2022 Q4
+    Description_Action_Taken: The IRS leveraged data sharing pursuant to various interagency
+      agreements, e.g., Department of Health and Human Services (HHS) Office of Child
+      Support enforcement (OCSE), and the Social Security Administration (SSA), to
+      more accurately validate refunds entitled to a taxpayer; thus, allowing the
+      IRS to enforce laws passed by Congress more effectively.
+    Mitigation_Strategy: atp5_1
   ActionsTakenAdditionalData:
     Needs1: The IRS has what is needed with respect to internal control, human capital
       and information system and other infrastructure to reduce Additional Child Tax
@@ -90,6 +90,20 @@ ProgramSurveyData:
     Subheading: Improper Payment Estimate
     Type: PERCENTAGE
   - Agency: TREASURY
+    Answer: '0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp7
+    SortOrder: 4
+    Subheading: Unknown Payment Estimate
+    Type: MILLIONS_OF_DOLLARS
+  - Agency: TREASURY
+    Answer: '0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp24
+    SortOrder: 5
+    Subheading: Unknown Payment Estimate
+    Type: PERCENTAGE
+  - Agency: TREASURY
     Answer: '546.13'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp30
@@ -107,7 +121,7 @@ ProgramSurveyData:
     Answer: '14.48'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp20_1
-    SortOrder: 9
+    SortOrder: 8
     Subheading: Improper Payment and Unknown Payment Reduction Target
     Type: PERCENTAGE
   - Agency: TREASURY
@@ -115,7 +129,9 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp22
     SortOrder: 10
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: The challenge in administering refundable tax credits (RTCs) is that RTCs
@@ -138,7 +154,9 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp4_1
     SortOrder: 12
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: TEXT
   - Agency: TREASURY
     Answer: '513.36'
@@ -217,15 +235,6 @@ ProgramSurveyData:
       (AOTC), through venues such as the annual IRS Nationwide Tax Forums and the
       Latino Tax Fest.
     Mitigation_Strategy: app3_1
-  - Action_Taken: Completed
-    Action_Type: Change Process
-    Completion_Date: FY2022 Q4
-    Description_Action_Taken: "The IRS held its annual Dependent Database (DDb) meetings\
-      \ with stakeholders in the Wage & Investment, Small Business & Self Employed,\
-      \ and IT divisions, to adjust the value of prior-year compliance filters for\
-      \ audit selection of returns claiming the American Opportunity Tax Credit (AOTC)\
-      \ and identify improvement opportunities for the filing season. \t"
-    Mitigation_Strategy: atp4_1
   - Action_Taken: Planned
     Action_Type: Change Process
     Completion_Date: FY2024
@@ -245,6 +254,15 @@ ProgramSurveyData:
       information, updates and training on various tax-related topics, such as tax
       law changes to refundable tax credits.
     Mitigation_Strategy: atp3_1
+  - Action_Taken: Completed
+    Action_Type: Change Process
+    Completion_Date: FY2022 Q4
+    Description_Action_Taken: "The IRS held its annual Dependent Database (DDb) meetings\
+      \ with stakeholders in the Wage & Investment, Small Business & Self Employed,\
+      \ and IT divisions, to adjust the value of prior-year compliance filters for\
+      \ audit selection of returns claiming the American Opportunity Tax Credit (AOTC)\
+      \ and identify improvement opportunities for the filing season. \t"
+    Mitigation_Strategy: atp4_1
   ActionsTakenAdditionalData:
     Needs1: The IRS has what is needed with respect to internal control, human capital
       and information system and other infrastructure to reduce American Opportunity
@@ -295,6 +313,20 @@ ProgramSurveyData:
     Subheading: Improper Payment Estimate
     Type: PERCENTAGE
   - Agency: TREASURY
+    Answer: '0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp7
+    SortOrder: 4
+    Subheading: Unknown Payment Estimate
+    Type: MILLIONS_OF_DOLLARS
+  - Agency: TREASURY
+    Answer: '0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp24
+    SortOrder: 5
+    Subheading: Unknown Payment Estimate
+    Type: PERCENTAGE
+  - Agency: TREASURY
     Answer: '1651.38'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp30
@@ -312,7 +344,7 @@ ProgramSurveyData:
     Answer: '31.63'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp20_1
-    SortOrder: 9
+    SortOrder: 8
     Subheading: Improper Payment and Unknown Payment Reduction Target
     Type: PERCENTAGE
   - Agency: TREASURY
@@ -320,7 +352,9 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp22
     SortOrder: 10
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: The challenge in administering refundable tax credits (RTCs) is that RTCs
@@ -342,7 +376,9 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp4_1
     SortOrder: 12
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: TEXT
   - Agency: TREASURY
     Answer: '611.01'
@@ -414,15 +450,6 @@ ProgramSurveyData:
   SortOrder: 1
 - ActionsTaken:
   - Action_Taken: Planned
-    Action_Type: Cross Enterprise Sharing
-    Completion_Date: FY2024
-    Description_Action_Taken: The IRS will continue to leverage data sharing pursuant
-      to various interagency agreements, e.g., Department of Health and Human Services
-      (HHS) Office of Child Support enforcement (OCSE), and the Social Security Administration
-      (SSA), to more accurately validate refunds entitled to a taxpayer; thus, allowing
-      the IRS to enforce laws passed by Congress more effectively.
-    Mitigation_Strategy: app5_1
-  - Action_Taken: Planned
     Action_Type: Change Process
     Completion_Date: FY2024
     Description_Action_Taken: The IRS will continue to hold the annual Dependent Database
@@ -436,15 +463,15 @@ ProgramSurveyData:
       the complex eligibility requirements. The IRS will analyze returns claiming
       the EITC and identify improvement opportunities for next filing season.
     Mitigation_Strategy: app4_1
-  - Action_Taken: Completed
+  - Action_Taken: Planned
     Action_Type: Cross Enterprise Sharing
-    Completion_Date: FY2022 Q4
-    Description_Action_Taken: The IRS leveraged data sharing pursuant to various interagency
-      agreements, e.g., Department of Health and Human Services (HHS) Office of Child
-      Support enforcement (OCSE), and the Social Security Administration (SSA), to
-      more accurately validate refunds entitled to a taxpayer; thus, allowing the
-      IRS to enforce laws passed by Congress more effectively.
-    Mitigation_Strategy: atp5_1
+    Completion_Date: FY2024
+    Description_Action_Taken: The IRS will continue to leverage data sharing pursuant
+      to various interagency agreements, e.g., Department of Health and Human Services
+      (HHS) Office of Child Support enforcement (OCSE), and the Social Security Administration
+      (SSA), to more accurately validate refunds entitled to a taxpayer; thus, allowing
+      the IRS to enforce laws passed by Congress more effectively.
+    Mitigation_Strategy: app5_1
   - Action_Taken: Completed
     Action_Type: Change Process
     Completion_Date: FY2022 Q4
@@ -454,6 +481,15 @@ ProgramSurveyData:
       selection of returns claiming the Earned Income Tax Credit (EITC) and identify
       improvement opportunities for the filing season.
     Mitigation_Strategy: atp4_1
+  - Action_Taken: Completed
+    Action_Type: Cross Enterprise Sharing
+    Completion_Date: FY2022 Q4
+    Description_Action_Taken: The IRS leveraged data sharing pursuant to various interagency
+      agreements, e.g., Department of Health and Human Services (HHS) Office of Child
+      Support enforcement (OCSE), and the Social Security Administration (SSA), to
+      more accurately validate refunds entitled to a taxpayer; thus, allowing the
+      IRS to enforce laws passed by Congress more effectively.
+    Mitigation_Strategy: atp5_1
   ActionsTakenAdditionalData:
     Needs1: The IRS has what is needed with respect to internal control, human capital
       and information system and other infrastructure to reduce Earned Income Tax
@@ -502,6 +538,20 @@ ProgramSurveyData:
     Subheading: Improper Payment Estimate
     Type: PERCENTAGE
   - Agency: TREASURY
+    Answer: '0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp7
+    SortOrder: 4
+    Subheading: Unknown Payment Estimate
+    Type: MILLIONS_OF_DOLLARS
+  - Agency: TREASURY
+    Answer: '0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp24
+    SortOrder: 5
+    Subheading: Unknown Payment Estimate
+    Type: PERCENTAGE
+  - Agency: TREASURY
     Answer: '21881.11'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp30
@@ -519,7 +569,7 @@ ProgramSurveyData:
     Answer: '33.47'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp20_1
-    SortOrder: 9
+    SortOrder: 8
     Subheading: Improper Payment and Unknown Payment Reduction Target
     Type: PERCENTAGE
   - Agency: TREASURY
@@ -527,7 +577,9 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp22
     SortOrder: 10
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: The challenge in administering refundable tax credits (RTCs) is that RTCs
@@ -550,7 +602,9 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp4_1
     SortOrder: 12
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: TEXT
   - Agency: TREASURY
     Answer: '20568.24'
@@ -630,6 +684,14 @@ ProgramSurveyData:
       filters for audit selection of returns claiming the Premium Tax Credit (PTC)
       and identify improvement opportunities for next filing season.
     Mitigation_Strategy: app4_1
+  - Action_Taken: Planned
+    Action_Type: Cross Enterprise Sharing
+    Completion_Date: FY2024
+    Description_Action_Taken: The IRS will continue to collaborate with the Department
+      of Health and Human Services (HHS), Centers for Medicare and Medicaid Services
+      (CMS) through the Premium Tax Credit Workgroup and Sub-Workgroup on issues related
+      to improper payments of the  Premium Tax Credit (PTC).
+    Mitigation_Strategy: app5_1
   - Action_Taken: Completed
     Action_Type: Change Process
     Completion_Date: FY2022 Q4
@@ -650,14 +712,6 @@ ProgramSurveyData:
       \ updates and training on various tax-related topics, such as tax law changes\
       \ to refundable tax credits.\t"
     Mitigation_Strategy: atp5_1
-  - Action_Taken: Planned
-    Action_Type: Cross Enterprise Sharing
-    Completion_Date: FY2024
-    Description_Action_Taken: The IRS will continue to collaborate with the Department
-      of Health and Human Services (HHS), Centers for Medicare and Medicaid Services
-      (CMS) through the Premium Tax Credit Workgroup and Sub-Workgroup on issues related
-      to improper payments of the  Premium Tax Credit (PTC).
-    Mitigation_Strategy: app5_1
   ActionsTakenAdditionalData:
     Needs1: The IRS has support with respect to internal control, human capital and
       information system and other infrastructure to reduce Net Premium Tax Credit
@@ -704,6 +758,20 @@ ProgramSurveyData:
     Subheading: Improper Payment Estimate
     Type: PERCENTAGE
   - Agency: TREASURY
+    Answer: '0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp7
+    SortOrder: 4
+    Subheading: Unknown Payment Estimate
+    Type: MILLIONS_OF_DOLLARS
+  - Agency: TREASURY
+    Answer: '0'
+    Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
+    Key: cyp24
+    SortOrder: 5
+    Subheading: Unknown Payment Estimate
+    Type: PERCENTAGE
+  - Agency: TREASURY
     Answer: '958.15'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp30
@@ -721,7 +789,7 @@ ProgramSurveyData:
     Answer: '26.04'
     Heading: Improper Payment & Unknown Payment Estimates and Reduction Target
     Key: cyp20_1
-    SortOrder: 9
+    SortOrder: 8
     Subheading: Improper Payment and Unknown Payment Reduction Target
     Type: PERCENTAGE
   - Agency: TREASURY
@@ -729,7 +797,9 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp22
     SortOrder: 10
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: PERCENTAGE
   - Agency: TREASURY
     Answer: The challenge in administering refundable tax credits (RTCs) is that RTCs
@@ -750,7 +820,9 @@ ProgramSurveyData:
     Heading: Causes of Improper Payments
     Key: cyp4_1
     SortOrder: 12
-    Subheading: Overpayments
+    Subheading: 'Breakdown of Payments by Cause Category
+
+      Overpayments'
     Type: TEXT
   - Agency: TREASURY
     Answer: '833.59'

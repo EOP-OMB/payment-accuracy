@@ -3,8 +3,9 @@ Agency: PCLOB
 Agency_Name: Privacy and Civil Liberties Oversight Board
 Confirmed_Fraud: null
 Eligibility_Themes: []
-Fiscal_Year: 2024
-Hide_Disposition_of_Funds: false
+Fiscal_Year: 2025
+Hide_Disposition_of_Funds: true
+Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
@@ -12,10 +13,10 @@ Hide_PIIA2019: false
 Hide_Recovery_Audits: false
 Hide_Recovery_Details: false
 Hide_Recovery_Info: false
-Hide_Risk_Assessment_Results: true
+Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
 Hide_Supplemental_Info: false
-Hide_Supplemental_Payment_Integrity: false
+Hide_Supplemental_Payment_Integrity: true
 Improper_Payments_Data_Years: '[]'
 Improper_Payments_Rate_Max: 0
 Improper_Payments_Rate_Min: 0
@@ -25,7 +26,33 @@ Overpayment_Amounts: '[]'
 Overpayment_Amounts_Identified: '[]'
 Overpayment_Amounts_Recovered: '[]'
 Overpayment_Years: '[]'
-PIIA2019_Compliant_Programs: []
+PIIA2019_Compliant_Programs:
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Mission Activities
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Operational Activities
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
 Payment_Accuracy_Rate_Max: 0
@@ -33,8 +60,18 @@ Payment_Accuracy_Rate_Min: 0
 Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
-  Assessments: []
-  SubstantialChangesMade: null
+  Assessments:
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Mission Activities
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Operational Activities
+    Slug: null
+    Susceptible: 'No'
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -42,99 +79,55 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2025
 - 2024
 - 2023
 - 2022
 - 2021
-detail_CAP5: null
-detail_agy1: In FY 2024, PCLOB defined 2 programs, Mission Activities and Operational
-  Activities to improve reporting of agency expenses. Neither one of these programs
-  had outlays that exceeded $10M. Total outlays for the agency was approximately $11M.
-detail_ara1: 'Yes'
-detail_ara2: 'Yes'
-detail_ara2_1: Invoices processed through the Invoice Processing Platform (IPP) are
-  subject to a monthly post payment audit of 10% of the total paid IPP invoices for
-  that month.  Invoices not processed through the Invoice Processing Platform (IPP)
-  in excess of $2,500.00 are subject to secondary review before being paid.  Invoices
-  under $2,500.00 are subject to review through statistical sampling procedures.  Travel
-  vouchers processed through the Concur Government Edition (CGE) travel system are
-  subject to a post payment audit based on a random sample of all reimbursements under
-  $2,500.   All payments of $2,500.00 and higher are excluded from the population.
-  These payments require a 100% post payment audit review. Relocation vouchers processed
-  through the MoveLINQ system are subject to 100% pre-payment audit and review.   For
-  payment customers, once the vouchers have been pre-audited and approved for payment,
-  they are interfaced to Oracle the financial system where they are paid.
-detail_ara2_2: null
-detail_ara2_3: null
-detail_ara2_3_2: null
-detail_arp10: null
-detail_arp11: null
-detail_arp12: null
-detail_arp14: null
-detail_arp15: null
-detail_arp16: '0.0'
-detail_arp16_5: '0.0'
-detail_arp17: Invoices processed through the Invoice Processing Platform (IPP) are
-  subject to a monthly post payment audit of 10% of the total paid IPP invoices for
-  that month.  Invoices not processed through the Invoice Processing Platform (IPP)
-  in excess of $2,500.00 are subject to secondary review before being paid.  Invoices
-  under $2,500.00 are subject to review through statistical sampling procedures.  Travel
-  vouchers processed through the Concur Government Edition (CGE) travel system are
-  subject to a post payment audit based on a random sample of all reimbursements under
-  $2,500.   All payments of $2,500.00 and higher are excluded from the population.
-  These payments require a 100% post payment audit review. Relocation vouchers processed
-  through the MoveLINQ system are subject to 100% pre-payment audit and review.   For
-  payment customers, once the vouchers have been pre-audited and approved for payment,
-  they are interfaced to Oracle the financial system where they are paid.
-detail_arp18: Traveler Expenses Claimed Over Allowable Amount identified during Travel
-  Post Payment Audit. Agency reclaimed funds of $875.
-detail_arp4: null
-detail_arp4_1: '0.0'
-detail_arp5: '0'
-detail_arp5_1: '0'
-detail_arp7: null
-detail_arp8: null
-detail_arp9: null
-detail_cap3: null
-detail_cap4: null
-detail_com1: Compliant
-detail_dpa1: 'Yes'
-detail_dpa2: 'Yes'
-detail_dpa3: My Agency did not identify any incorrect Information
-detail_dpa5: PCLOB's financial service provider, ARC, runs the DNP process each week.
-  According to our service provider, this has historically helped them reduce improper
-  payments for their customers.
-detail_exs1: 'PCLOB''s financial service provider (ARC) completes a number of activities
-  throughout the year. ARC runs the DNP process on a weekly basis. On a monthly basis,
-  ARC prepares Prompt Pay, Discounts Lost,
-
-  and Improper Payment metrics, and any identified improper payments are uploaded
-  to connect.gov website. Also, ARC randomly samples 10% of PCLOB''s previous month''s
-  IPP activity to test for improper
-
+detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
+detail_Compliance_Status: Compliant
+detail_DNP_Discussion: PCLOB's financial service provider, ARC, runs the DNP process
+  each week. According to our service provider, this has historically helped them
+  reduce improper payments for their customers.
+detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
+detail_DNP_Reduced: 'Yes'
+detail_Disposition_of_Funds: null
+detail_Executive_Summary: PCLOB's financial service provider (ARC) completes a number
+  of activities throughou tthe year. ARC runs the DNP process on a weekly basis. On
+  a monthly basis, ARC prepares Prompt Pay, Discounts Lost, and Improper Payment metrics,
+  and any identified improper payments are uploaded to connect.gov website. Also,
+  ARC randomly samples 10% of PCLOB's previous month's IPP activity to test for improper
   payments. This ensures that IPP system controls are operating as intended and provides
   info on COR performance. On a quarterly basis, ARC posts a quarterly report with
-  PCLOB''s Prompt Pay, Discounts Lost, and Improper Payment data to MAX. On an annual
-  basis, in March/April, ARC completes a PIIA risk assessment over the prior year''s
-  data. In FY 2023, PCLOB had zero IPs.'
-detail_pcp12_1: null
-detail_pcp14: PCLOB does not have an OIG. ARC had no recommendations for improvements
-  to further improve prevention and reduction of IPs and UPs within PCLOB since the
-  agency was assessed at low risk.
-detail_raa8: null
-detail_raa9: null
+  PCLOB's Prompt Pay, Discounts Lost, and Improper Payment data to Connect. On an
+  annual basis, in March/April, ARC completes a PIIA risk assessment over the prior
+  year's data. In FY 2025, PCLOB had zero IPs.
+detail_OIG_Recommendations: null
+detail_Overpayment_Conditions_And_Methods: Invoices processed through the Invoice
+  Processing Platform (IPP) are subject to a monthly post payment audit of 10% of
+  the total paid IPP invoices for that month. Invoices not processed through IPP in
+  excess of $2,500.00 are subject to secondary review before being paid. Invoices
+  under $2,500.00 are subject to review through statistical sampling procedures. Travel
+  vouchers processed through the Concur Government Edition (CGE) travel system are
+  subject to a post payment audit based on a random sample of all reimbursements under
+  $2,500. All payments of $2,500.00 and higher are excluded from the population. These
+  payments require a 100% post payment audit review. Relocation vouchers processed
+  through the MoveLINQ system are subject to 100% pre-payment audit and review. For
+  payment customers, once the vouchers have been pre-audited and approved for payment,
+  they are interfaced to Oracle the financial system where they are paid.
+detail_PIIA_Incentives: null
+detail_PIIA_Official: null
+detail_Recovery_Audits_Skipped: 'Yes'
+detail_Recovery_Justifications_Audits: null
+detail_Recovery_Not_Cost_Effective_Justification: null
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/PCLOB.html
-recovery_Aging_of_Outstanding_OP_Identified_Amt_over_1_year: 0.0
-recovery_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: 0.0
 recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.0
 recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 0.0
 recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.0
 recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.0
-recovery_OP_Next_FY_Recapture_Rate_Target_through_Payment_Recapture_Audit: 1.0
-? recovery_Recovery_Audit_Amount_Identified_In_Prior_Reporting_Periods_Determined_Not_Collectable_During_This_Reporting_Period
-: 0.0
-recovery_Recovery_Audit_Amount_Identified_This_Reporting_Period_Determined_Not_Collectable_Rate: 0.0
 recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 recovery_Total_Overpayment_Amount_Identified: 0.0
 recovery_Total_Overpayment_Amount_Recovered: 0.0

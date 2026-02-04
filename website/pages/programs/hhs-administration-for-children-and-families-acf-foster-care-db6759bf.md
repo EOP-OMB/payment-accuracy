@@ -4,59 +4,17 @@ Agency_Name: Department of Health and Human Services
 Data_By_Year:
 - Hide_Improper_Payment_Estimates_Doughnut_Chart: true
   Hide_Improper_Payment_Estimates_Doughnut_Stats: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: true
-  Hide_Program_Results_Future_Outlook: true
-  Hide_Program_Results_Future_Outlook_Baseline: true
-  Hide_Program_Results_Future_Outlook_Baseline_Table: true
-  Hide_Program_Results_Future_Outlook_Explanation: true
-  Hide_Program_Results_Future_Outlook_Needs: true
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp2: true
-  Hide_cyp2_cop1: true
-  Hide_cyp2_cop2: true
-  Hide_cyp2_cop3: true
-  Hide_cyp3: true
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
-  Hide_cyp3_cop4: true
-  Hide_cyp3_cop5: true
-  Hide_cyp3_cop6: true
-  Hide_cyp5: true
-  Hide_cyp5_cup1: true
-  Hide_cyp5_cup2: true
-  Hide_cyp5_cup3: true
-  Hide_cyp6: true
-  Improper_Payments_Rate: 0
-  Insufficient_Documentation_to_Determine: 0.0
-  Program_Design_or_Structural_Issue: 0.0
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-- Hide_Improper_Payment_Estimates_Doughnut_Chart: true
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: true
+  Hide_Overpayments_Outside_Control_Amount: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Control_Amount: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
   Hide_Program_Results_Additional_Information: false
   Hide_Program_Results_Corrective_Actions: true
   Hide_Program_Results_Future_Outlook: true
@@ -67,75 +25,50 @@ Data_By_Year:
   Hide_Program_Results_Improper_Payments: false
   Hide_Program_Results_Tabs: false
   Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp2: true
-  Hide_cyp2_cop1: true
-  Hide_cyp2_cop2: true
-  Hide_cyp2_cop3: true
-  Hide_cyp3: true
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
-  Hide_cyp3_cop4: true
-  Hide_cyp3_cop5: true
-  Hide_cyp3_cop6: true
-  Hide_cyp5: true
-  Hide_cyp5_cup1: true
-  Hide_cyp5_cup2: true
-  Hide_cyp5_cup3: true
-  Hide_cyp6: true
+  Hide_Technical_IP_Amount: true
+  Hide_Underpayments_Amount: true
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
   Improper_Payments_Rate: 0
   Insufficient_Documentation_to_Determine: 0.0
-  Program_Design_or_Structural_Issue: 0.0
-  Year: 2022
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-  pro1: "The Department of Health and Human Services (HHS) did not report the IV-E\
-    \ Foster Care national improper payment rate for FYs 2021 and 2022 due to a lack\
-    \ of new data, stemming from the postponement of reviews during the COVID-19 public\
-    \ health emergency.  Nevertheless, HHS continues to focus targeted corrective\
-    \ action efforts on continuous quality improvement and heightened communication\
-    \ and outreach to states regarding best practices to address and prevent payment\
-    \ errors in preparation for when the IV-E Reviews resume.  HHS relied on previous\
-    \ data and experiences to develop and update its corrective action plans.  Traditionally,\
-    \ all improper payments (100 percent) in the Title IV-E Foster Care Program are\
-    \ administrative or process errors due to incorrect case classification and payment\
-    \ processing by state agencies (e.g., Failure to Access Data/Information).  The\
-    \ Title IV-E Foster Care Program designs corrective action plans to help states\
-    \ address the improper payments that contribute most to Title IV-E improper payments.\
-    \  Targeted corrective actions to reduce and prevent the types of payment errors\
-    \ driving previous performance include: \n\n     - HHS works with states to emphasize\
-    \ and develop strategies for continuous program improvement.  HHS emphasizes viewing\
-    \ the quality assurance process as ongoing and developing sound program improvements\
-    \ that support systemic change and sustain improvement efforts. A continuous quality\
-    \ improvement effort helps maintain an awareness of the ongoing needs rather than\
-    \ only in a review year, which reduces incidences of improper payments overall.\n\
-    \n     - In response to the Family First Act, enacted as Title VII of the Bipartisan\
-    \ Budget Act of 2018, HHS issued written guidance and conducted a series of webinars\
-    \ in FY 2018 and has continued to provide guidance through written responses to\
-    \ many questions in FYs 2019 – 2022. These exchanges with states helped to resolve\
-    \ challenging eligibility questions. They also provided opportunities to explain\
-    \ various aspects of the Title IV-E requirements, clarify documentation requirements,\
-    \ and assist states’ understanding of complex policy concepts and their determination\
-    \ on whether a child meets Title IV-E eligibility requirements for foster care\
-    \ maintenance payments. HHS will continue using lessons learned from this process\
-    \ to inform future guidance and education.  In FY 2023, HHS expects to issue an\
-    \ updated title IV-E review guide, instrument and instructions and will conduct\
-    \ webinars and outreach to deepen federal and state staff knowledge of the federal\
-    \ requirements. \n\n     - HHS, through its interactions with states,  encouraged\
-    \ effective communication between state child welfare agencies and licensing agencies\
-    \ to further promote adequate documentation of licensing and safety check compliance.\
+  Outlays: 0
+  Program_Additional_Information: "The Department of Health and Human Services (HHS)\
+    \ did not report the IV-E Foster Care national improper payment rate for FYs 2021\
+    \ and 2022 due to a lack of new data, stemming from the postponement of reviews\
+    \ during the COVID-19 public health emergency.  Nevertheless, HHS continues to\
+    \ focus targeted corrective action efforts on continuous quality improvement and\
+    \ heightened communication and outreach to states regarding best practices to\
+    \ address and prevent payment errors in preparation for when the IV-E Reviews\
+    \ resume.  HHS relied on previous data and experiences to develop and update its\
+    \ corrective action plans.  Traditionally, all improper payments (100 percent)\
+    \ in the Title IV-E Foster Care Program are administrative or process errors due\
+    \ to incorrect case classification and payment processing by state agencies (e.g.,\
+    \ Failure to Access Data/Information).  The Title IV-E Foster Care Program designs\
+    \ corrective action plans to help states address the improper payments that contribute\
+    \ most to Title IV-E improper payments.  Targeted corrective actions to reduce\
+    \ and prevent the types of payment errors driving previous performance include:\
+    \ \n\n     - HHS works with states to emphasize and develop strategies for continuous\
+    \ program improvement.  HHS emphasizes viewing the quality assurance process as\
+    \ ongoing and developing sound program improvements that support systemic change\
+    \ and sustain improvement efforts. A continuous quality improvement effort helps\
+    \ maintain an awareness of the ongoing needs rather than only in a review year,\
+    \ which reduces incidences of improper payments overall.\n\n     - In response\
+    \ to the Family First Act, enacted as Title VII of the Bipartisan Budget Act of\
+    \ 2018, HHS issued written guidance and conducted a series of webinars in FY 2018\
+    \ and has continued to provide guidance through written responses to many questions\
+    \ in FYs 2019 – 2022. These exchanges with states helped to resolve challenging\
+    \ eligibility questions. They also provided opportunities to explain various aspects\
+    \ of the Title IV-E requirements, clarify documentation requirements, and assist\
+    \ states’ understanding of complex policy concepts and their determination on\
+    \ whether a child meets Title IV-E eligibility requirements for foster care maintenance\
+    \ payments. HHS will continue using lessons learned from this process to inform\
+    \ future guidance and education.  In FY 2023, HHS expects to issue an updated\
+    \ title IV-E review guide, instrument and instructions and will conduct webinars\
+    \ and outreach to deepen federal and state staff knowledge of the federal requirements.\
+    \ \n\n     - HHS, through its interactions with states,  encouraged effective\
+    \ communication between state child welfare agencies and licensing agencies to\
+    \ further promote adequate documentation of licensing and safety check compliance.\
     \  Assisting states with developing and applying techniques to effectively engage\
     \ foster care providers in a partnership to reduce or eliminate improper payments\
     \ is integral to success.  HHS will also continue to encourage states to regularly\
@@ -158,46 +91,9 @@ Data_By_Year:
     \ Title IV-E eligibility issues to Tribes operating or planning to operate the\
     \ Title IV-E Foster Care Program, many of whom have limited previous experience\
     \ in matters relating to Title IV-E eligibility determinations."
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-- Hide_Improper_Payment_Estimates_Doughnut_Chart: true
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: true
-  Hide_Program_Results_Additional_Information: false
-  Hide_Program_Results_Corrective_Actions: true
-  Hide_Program_Results_Future_Outlook: true
-  Hide_Program_Results_Future_Outlook_Baseline: true
-  Hide_Program_Results_Future_Outlook_Baseline_Table: true
-  Hide_Program_Results_Future_Outlook_Explanation: true
-  Hide_Program_Results_Future_Outlook_Needs: true
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp2: true
-  Hide_cyp2_cop1: true
-  Hide_cyp2_cop2: true
-  Hide_cyp2_cop3: true
-  Hide_cyp3: true
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
-  Hide_cyp3_cop4: true
-  Hide_cyp3_cop5: true
-  Hide_cyp3_cop6: true
-  Hide_cyp5: true
-  Hide_cyp5_cup1: true
-  Hide_cyp5_cup2: true
-  Hide_cyp5_cup3: true
-  Hide_cyp6: true
-  Improper_Payments_Rate: 0
-  Insufficient_Documentation_to_Determine: 0.0
   Program_Design_or_Structural_Issue: 0.0
-  Year: 2023
-  cyp26: '0'
+  Year: 2022
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -212,42 +108,98 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-  pro1: "Since its initial baseline reporting in FY 2004, HHS has continued to focus\
-    \ on identifying and reducing improper payments through ongoing corrective actions,\
-    \ including on-site reviews, post-on-site review activities, the Court Improvement\
-    \ Program, enhanced use of automated information systems, publicizing best practices,\
-    \ other continuous quality improvement efforts and targeted outreach. In response\
-    \ to the COVID-19 Public Health Emergency, HHS postponed conducting Title IV-E\
-    \ Reviews beginning in April 2020, thus affecting improper payment reporting for\
-    \ the Title IV-E Foster Care program because the Title IV-E Reviews provide data\
-    \ used in the calculation of the Title IV-E Foster Care National Error Rate. Although\
-    \ HHS did not conduct any new reviews in FY 2023, HHS relied on previous data\
-    \ and experiences to develop and update its corrective action plans, which are\
-    \ designed to help states address the improper payments that contribute most to\
-    \ Title IV-E improper payments. Targeted corrective actions to reduce and prevent\
-    \ the types of payment errors that drove previous performance include but are\
-    \ not limited to:\n\n•\tEmphasizing Quality Improvement by engaging with Title\
-    \ IV-E agencies to enhance the understanding of program compliance requirements;\n\
-    •\tCoordinated efforts with IV-E agencies to share successful strategies among\
-    \ states;\n•\tInstituting improvements that support systemic change and sustain\
-    \ improvement efforts;\n•\tConducting outreach to Title IV-E agencies regarding\
-    \ changes in federal requirements resulting from the Family First Act, enacted\
-    \ as Title VII of the Bipartisan Budget Act of 2018, which changed the federal\
-    \ statutory requirements for staff safety checks at childcare institutions and\
-    \ placed other restrictions on use of non-family based foster care. \n•\tHHS issued\
-    \ written guidance and conducted a series of webinars, which provided opportunities\
-    \ to explain various aspects of the Title IV-E requirements, clarified documentation\
-    \ requirements, and assisted states’ understanding of complex policy concepts\
-    \ and their determination on Title IV-E eligibility requirements for foster care\
-    \ maintenance payments; \n•\tProviding ongoing technical assistance and training\
-    \ opportunities to all stakeholders as needed or requested; and\n•\tReviewing\
-    \ Title IV-E quarterly claims submitted by states and addressing claim errors\
-    \ and anomalies on an ongoing basis.\n\nHHS will resume conducting Title IV-E\
-    \ Reviews in FY 2024. To prepare for resuming Title IV-E Reviews, HHS conducted\
+  underpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+- Hide_Improper_Payment_Estimates_Doughnut_Chart: true
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: true
+  Hide_Overpayments_Outside_Control_Amount: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Control_Amount: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: true
+  Hide_Program_Results_Future_Outlook: true
+  Hide_Program_Results_Future_Outlook_Baseline: true
+  Hide_Program_Results_Future_Outlook_Baseline_Table: true
+  Hide_Program_Results_Future_Outlook_Explanation: true
+  Hide_Program_Results_Future_Outlook_Needs: true
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Technical_IP_Amount: true
+  Hide_Underpayments_Amount: true
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  Improper_Payments_Rate: 0
+  Insufficient_Documentation_to_Determine: 0.0
+  Non_Monetary_Loss_Amount: '0'
+  Outlays: 0
+  Program_Additional_Information: "Since its initial baseline reporting in FY 2004,\
+    \ HHS has continued to focus on identifying and reducing improper payments through\
+    \ ongoing corrective actions, including on-site reviews, post-on-site review activities,\
+    \ the Court Improvement Program, enhanced use of automated information systems,\
+    \ publicizing best practices, other continuous quality improvement efforts and\
+    \ targeted outreach. In response to the COVID-19 Public Health Emergency, HHS\
+    \ postponed conducting Title IV-E Reviews beginning in April 2020, thus affecting\
+    \ improper payment reporting for the Title IV-E Foster Care program because the\
+    \ Title IV-E Reviews provide data used in the calculation of the Title IV-E Foster\
+    \ Care National Error Rate. Although HHS did not conduct any new reviews in FY\
+    \ 2023, HHS relied on previous data and experiences to develop and update its\
+    \ corrective action plans, which are designed to help states address the improper\
+    \ payments that contribute most to Title IV-E improper payments. Targeted corrective\
+    \ actions to reduce and prevent the types of payment errors that drove previous\
+    \ performance include but are not limited to:\n\n•\tEmphasizing Quality Improvement\
+    \ by engaging with Title IV-E agencies to enhance the understanding of program\
+    \ compliance requirements;\n•\tCoordinated efforts with IV-E agencies to share\
+    \ successful strategies among states;\n•\tInstituting improvements that support\
+    \ systemic change and sustain improvement efforts;\n•\tConducting outreach to\
+    \ Title IV-E agencies regarding changes in federal requirements resulting from\
+    \ the Family First Act, enacted as Title VII of the Bipartisan Budget Act of 2018,\
+    \ which changed the federal statutory requirements for staff safety checks at\
+    \ childcare institutions and placed other restrictions on use of non-family based\
+    \ foster care. \n•\tHHS issued written guidance and conducted a series of webinars,\
+    \ which provided opportunities to explain various aspects of the Title IV-E requirements,\
+    \ clarified documentation requirements, and assisted states’ understanding of\
+    \ complex policy concepts and their determination on Title IV-E eligibility requirements\
+    \ for foster care maintenance payments; \n•\tProviding ongoing technical assistance\
+    \ and training opportunities to all stakeholders as needed or requested; and\n\
+    •\tReviewing Title IV-E quarterly claims submitted by states and addressing claim\
+    \ errors and anomalies on an ongoing basis.\n\nHHS will resume conducting Title\
+    \ IV-E Reviews in FY 2024. To prepare for resuming Title IV-E Reviews, HHS conducted\
     \ two training webinars in March 2023 for HHS staff, covering the updated Review\
     \ Instrument and its instructions, and in April 2023 conducted two training webinars\
     \ for Title IV-E agencies, offering guidance on using the Review Instrument and\
     \ its instructions to assess eligibility when reviews resume in FY 2024.\n"
+  Program_Design_or_Structural_Issue: 0.0
+  Year: 2023
+  detail_Reduction_Target: null
+  overpayments:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
+  overpayments_outside:
+    Address_Location: 0.0
+    Contractor_Provider_Status: 0.0
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Financial: 0.0
+    Inability_to_Access_Data: 0.0
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -256,6 +208,16 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
 - Actions_Taken:
+  - Action_Taken: Planned
+    Action_Type: Training
+    Completion_Date: FY2025
+    Description_Action_Taken: HHS will continue to utilize training as a corrective
+      action in the Title IV-E Foster Care Program. HHS recorded a series of videos
+      to provide on-demand training on the Title IV-E Foster Care Eligibility Reviews
+      instrument and how compliance is assessed.  These videos will be finalized and
+      released in FY 2025, making them available as on-demand training for Title IV-E
+      agencies and federal staff.
+    Mitigation_Strategy: app3_1
   - Action_Taken: Planned
     Action_Type: Cross Enterprise Sharing
     Completion_Date: FY2025
@@ -269,22 +231,23 @@ Data_By_Year:
       require a Program Improvement Plan for states not in substantial compliance.
     Mitigation_Strategy: app5_1
   - Action_Taken: Planned
-    Action_Type: Training
-    Completion_Date: FY2025
-    Description_Action_Taken: HHS will continue to utilize training as a corrective
-      action in the Title IV-E Foster Care Program. HHS recorded a series of videos
-      to provide on-demand training on the Title IV-E Foster Care Eligibility Reviews
-      instrument and how compliance is assessed.  These videos will be finalized and
-      released in FY 2025, making them available as on-demand training for Title IV-E
-      agencies and federal staff.
-    Mitigation_Strategy: app3_1
-  - Action_Taken: Completed
     Action_Type: Audit
+    Completion_Date: FY2025
+    Description_Action_Taken: HHS will continue to utilize audits as a corrective
+      action in the Title IV-E Foster Care Program. HHS will continue to review states'
+      Title IV-E quarterly claims to address and rectify claiming errors and anomalies.
+    Mitigation_Strategy: app6_1
+  - Action_Taken: Completed
+    Action_Type: Training
     Completion_Date: FY2024 Q4
-    Description_Action_Taken: HHS utilized audits as a corrective action in the Title
-      IV-E Foster Care Program. HHS continuously reviews Title IV-E quarterly claims
-      to address and correct any errors or anomalies in state submissions.
-    Mitigation_Strategy: atp6_1
+    Description_Action_Taken: HHS utilized training as a corrective action in the
+      Title IV-E Foster Care Program.  HHS conducted trainings for federal and state
+      reviewers on the Title IV-E Review Instrument and Instructions to prepare for
+      the Title IV-E Foster Care Eligibility Reviews.  HHS also offered monthly office
+      hours to address specific eligibility questions and review instrument sections.  In
+      addition, HHS provided guidance and communication with states to strengthen
+      Title IV-E programs, including the Foster Care program, and improve their effectiveness.
+    Mitigation_Strategy: atp3_1
   - Action_Taken: Completed
     Action_Type: Change Process
     Completion_Date: FY2024 Q4
@@ -305,28 +268,77 @@ Data_By_Year:
       for identified overpayments; and requires a Program Improvement Plan for states
       not in substantial compliance.
     Mitigation_Strategy: atp5_1
-  - Action_Taken: Planned
-    Action_Type: Audit
-    Completion_Date: FY2025
-    Description_Action_Taken: HHS will continue to utilize audits as a corrective
-      action in the Title IV-E Foster Care Program. HHS will continue to review states'
-      Title IV-E quarterly claims to address and rectify claiming errors and anomalies.
-    Mitigation_Strategy: app6_1
   - Action_Taken: Completed
-    Action_Type: Training
+    Action_Type: Audit
     Completion_Date: FY2024 Q4
-    Description_Action_Taken: HHS utilized training as a corrective action in the
-      Title IV-E Foster Care Program.  HHS conducted trainings for federal and state
-      reviewers on the Title IV-E Review Instrument and Instructions to prepare for
-      the Title IV-E Foster Care Eligibility Reviews.  HHS also offered monthly office
-      hours to address specific eligibility questions and review instrument sections.  In
-      addition, HHS provided guidance and communication with states to strengthen
-      Title IV-E programs, including the Foster Care program, and improve their effectiveness.
-    Mitigation_Strategy: atp3_1
+    Description_Action_Taken: HHS utilized audits as a corrective action in the Title
+      IV-E Foster Care Program. HHS continuously reviews Title IV-E quarterly claims
+      to address and correct any errors or anomalies in state submissions.
+    Mitigation_Strategy: atp6_1
+  Agency_Needs_Satisfied: HHS has not determined if it has what is needed with respect
+    to internal controls, human capital and information system and other infrastructure
+    to reduce improper payments and unknown payments to the tolerable rate because
+    HHS has not determined a tolerable rate for the Foster Care program.   In FY 2024,
+    HHS resumed conducting onsite Title IV-E Foster Care Eligibility Reviews, following
+    a nearly four-year suspension due to the COVID-19 pandemic.   The IV-E Review
+    protocol is not conducted specifically for improper payment estimation but is
+    instead governed by regulations authorizing federal monitoring of child welfare
+    programs.  Data from the Title IV-E Foster Care Eligibility Reviews are used to
+    calculate the Foster Care Error Rate.
   Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy: The corrective actions taken by HHS are adequate for
+    the Title IV-E Foster Care Program because the assistance is targeted to address
+    the specific root causes of errors for each reviewed state. In FY 2024, HHS resumed
+    conducting onsite Title IV-E Foster Care Eligibility Reviews, following a nearly
+    four-year suspension due to the response to the COVID-19 pandemic. The adequacy
+    of these corrective actions is reflected in the low FY 2024 reported error rate
+    of 4.82%.
+  Corrective_Actions_Association: The actions taken by HHS were focused on the cause
+    of the Improper Payments and Unknown Payments in the Title IV-E Foster Care Program
+    because the assistance was targeted to address the root causes of errors because
+    HHS identified specific root causes of errors and associated corrective actions
+    for each reviewed state. In FY 2024, HHS resumed conducting onsite Title IV-E
+    Foster Care Eligibility Reviews, following a nearly four-year suspension due to
+    the response to the COVID-19 pandemic.  Although HHS did not conduct any new reviews
+    during the period of suspension, HHS relied on previous data and experiences to
+    develop and update its corrective action plans, which are designed to help states
+    address the improper payments that contribute most to Title IV-E improper payments.  The
+    adequacy of these actions is reflected in the low FY 2024 reported error rate
+    of 4.82%.
+  Corrective_Actions_Implementation: The effective implementation and prioritization
+    of the corrective actions taken for the Title IV-E Foster Care Program are evidenced
+    in HHS's continued development and delivery of corrective actions to reduce the
+    occurrence of Improper and Unknown Payments despite the nearly four-year suspension
+    of calculating and reporting an error rate due to the COVID-19 pandemic. Although
+    HHS did not conduct any new reviews during the period of suspension, HHS relied
+    on previous data and experiences to develop and update its corrective action plans
+    to help states address the root causes that contributed most to Title IV-E improper
+    payments.  Since HHS did not calculate and report an Improper Payment and Unknown
+    Payment rate from FY 2020 through FY 2023, we cannot determine if the actions
+    are effective in reducing the rate, however, the FY 2024 reported error rate of
+    4.82% is significantly less than the statutory threshold of 10%.
+  Corrective_Actions_Proportion: HHS anticipates that the level of planned or completed
+    corrective actions will address the cause of the Improper Payments and potential
+    Unknown Payments proportional to the severity of the associated amount and rate
+    of the root cause.  During the Title IV-E Foster Care Eligibility Reviews, HHS
+    identified specific root causes of errors and associated corrective actions for
+    each reviewed state.  In FY 2024, HHS resumed conducting onsite Title IV-E reviews,
+    following a nearly four-year suspension due to the response to the COVID-19 pandemic.  During
+    the period of the suspension, HHS relied on previous data and experiences to develop
+    and update its corrective action plans, which are designed to help states address
+    the improper payments that contribute most to Title IV-E improper payments.  The
+    adequacy of these actions is reflected in the low FY 2024 reported error rate
+    of 4.82%.
   End_Date: 05/2023
+  Future_Outlook_Has_Baseline: 'No'
   Hide_Improper_Payment_Estimates_Doughnut_Chart: false
   Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
   Hide_Program_Results_Additional_Information: false
   Hide_Program_Results_Corrective_Actions: false
   Hide_Program_Results_Future_Outlook: false
@@ -337,58 +349,105 @@ Data_By_Year:
   Hide_Program_Results_Improper_Payments: false
   Hide_Program_Results_Tabs: false
   Hide_Program_Results_Unknown_Payments: false
-  Hide_cyp2_cop1: true
-  Hide_cyp2_cop2: true
-  Hide_cyp2_cop3: true
-  Hide_cyp3_cop1: true
-  Hide_cyp3_cop2: true
-  Hide_cyp3_cop3: true
+  IP_Accountability_Description: HHS evaluates its processes and controls each year
+    in accordance with the requirements of the Office of Management and Budget Circular
+    A-123, Management’s Responsibility for Enterprise Risk Management and Internal
+    Controls, which includes Appendix C, Requirements for Payment Integrity Improvement.
+    As part of this annual assessment, HHS requires its offices to complete an Internal
+    Control and Risk Management Certification that is signed by a senior member of
+    the applicable office. Further, the HHS Operating Division prepares an assurance
+    statement which represents the HHS Operating Division head's informed judgement
+    as to the overall adequacy and effectiveness of Internal controls within the HHS
+    Operating Division related to operations, reporting, and compliance. In addition,
+    non-federal entities that receive federal funds, including states, local governments,
+    tribes, and non-profit organizations, are subject to audit requirements under
+    the Single Audit Act of 1984, as amended in 1996. The implementing guidance, Uniform
+    Administrative Requirements, Cost Principles, and Audit Requirements for Federal
+    Awards, that was in effect during FY 2023, required Single Audits for nonfederal
+    entities that expend $750,000 or more in federal awards during the nonfederal
+    entity’s fiscal year. With the Office of Management and Budget's April 2024 released
+    revisions to the Uniform Guidance, the threshold increases to $1,000,000 effective
+    October 01, 2024.  In addition to the improper payment error rate calculation
+    activities, overpayments are identified and recovered through Single Audits and
+    HHS Office of Inspector General audits.  For each of the aforementioned activities,
+    recipients are subject to disallowances for any expenditures not made in accordance
+    with program regulations.
   IP_Current_Year_Plus_1_Amount: 0
   IP_Unknown_Current_Year_Plus_1_Rate: 0
-  Improper_Payments_Rate: 4.8197989172
+  Improper_Payments_Rate: 4.81979892
   Insufficient_Documentation_to_Determine: 0.0
+  Is_Lowest_IP_And_Unknown_Rate: Unknown because the agency has not yet determined
+    the tolerable rate for this program
   Margin_of_Error: '3.0'
+  Non_Monetary_Loss_Amount: '1.16'
+  Outlays: 1293
   Outlays_Current_Year_Plus_1_Amount: 1294
   Payment_Accuracy_Rate: 95.18020108275329
+  Program_Additional_Information: "Since its initial baseline reporting in FY 2004,\
+    \ HHS has continued to focus on identifying and reducing improper payments through\
+    \ ongoing corrective actions, including on-site reviews, post-on-site review activities,\
+    \ the Court Improvement Program, enhanced use of automated information systems,\
+    \ publicizing best practices, other continuous quality improvement efforts and\
+    \ targeted outreach. \n\nIn response to the COVID-19 Public Health Emergency,\
+    \ HHS postponed conducting Title IV-E Reviews beginning in April 2020, thus affecting\
+    \ improper payment reporting for the Title IV-E Foster Care program because the\
+    \ Title IV-E Reviews provide data used in the calculation of the Title IV-E Foster\
+    \ Care National Error Rate.  Although HHS did not conduct any new reviews in FY\
+    \ 2023, HHS relied on previous data and experiences to develop and update its\
+    \ corrective action plans, which are designed to help states address the improper\
+    \ payments that contribute most to Title IV-E improper payments. Targeted corrective\
+    \ actions to reduce and prevent the types of payment errors that drove previous\
+    \ performance include but are not limited to:\n• Emphasizing Quality Improvement\
+    \ by engaging with Title IV-E agencies to enhance the understanding\nof program\
+    \ compliance requirements;\n• Coordinated efforts with IV-E agencies to share\
+    \ successful strategies among states;\n• Instituting improvements that support\
+    \ systemic change and sustain improvement efforts;\n• Conducting outreach to Title\
+    \ IV-E agencies regarding changes in federal requirements resulting from the Family\
+    \ First Act, enacted as Title VII of the Bipartisan Budget Act of 2018, which\
+    \ changed the federal statutory requirements for staff safety checks at childcare\
+    \ institutions and placed other restrictions on use of non-family based foster\
+    \ care.\n• HHS issued written guidance and conducted a series of webinars, which\
+    \ provided opportunities to explain various aspects of the Title IV-E requirements,\
+    \ clarified documentation requirements, and assisted states’ understanding of\
+    \ complex policy concepts and their determination on Title IV-E eligibility requirements\
+    \ for foster care maintenance payments;\n• Providing ongoing technical assistance\
+    \ and training opportunities to all stakeholders as needed or requested; and\n\
+    • Reviewing Title IV-E quarterly claims submitted by states and addressing claim\
+    \ errors and anomalies on an ongoing basis.\n\nHHS resumed conducting Title IV-E\
+    \ Reviews in FY 2024. To prepare for resuming Title IV-E Reviews, HHS conducted\
+    \ two training webinars in March 2023 for HHS staff, covering the updated Review\
+    \ Instrument and its instructions, and in April 2023 conducted two training webinars\
+    \ for Title IV-E agencies, offering guidance on using the Review Instrument and\
+    \ its instructions to assess eligibility when reviews resumed in FY 2024.\n"
   Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: The HHS FY 2025 Justification of Estimates for Appropriations
+    Committees includes a request for $10.68 billion for the Payments for Foster Care,
+    Prevention, and Permanency appropriation, which provides funding for the Title
+    IV-E Foster Care  and other related programs.  This appropriation also supports
+    administrative and training costs. This account is subject to sequestration of
+    administrative costs in an otherwise exempt account in accordance with the Balanced
+    Budget and Emergency Deficit Control Act of 1985 (P.L. 99-177), as amended by
+    the Budget Control Act of 2011 (P.L. 112-25), which affects funding for certain
+    activities under Foster Care, and other related programs.  Other than administrative
+    and training costs, no request were made for resources specifically for establishing
+    and maintaining payment integrity.
   Start_Date: 06/2022
+  Technical_IP_Amount: '0.0'
+  Tolerable_Rate_Not_Determined_Reason: HHS has not determined the tolerable rate
+    for this program because in FY 2024, HHS resumed conducting onsite Title IV-E
+    Foster Care Eligibility Reviews, following a nearly four-year suspension due to
+    the COVID-19 pandemic.   The IV-E Review protocol is not conducted specifically
+    for improper payment estimation but is instead governed by regulations authorizing
+    federal monitoring of child welfare programs.  Data from the Title IV-E Foster
+    Care Eligibility Reviews are used to calculate the Foster Care Error Rate.
+  Underpayment_Mitigations_Planned: Audit, Cross Enterprise Sharing, Training
+  Underpayment_Mitigations_Taken: Audit, Change Process, Cross Enterprise Sharing,
+    Training
   Unknown_Curent_Year_Plus_1_Amount: 0
   Unknown_Payments_Rate: 0
   Year: 2024
-  act17_1: The actions taken by HHS were focused on the cause of the Improper Payments
-    and Unknown Payments in the Title IV-E Foster Care Program because the assistance
-    was targeted to address the root causes of errors because HHS identified specific
-    root causes of errors and associated corrective actions for each reviewed state.
-    In FY 2024, HHS resumed conducting onsite Title IV-E Foster Care Eligibility Reviews,
-    following a nearly four-year suspension due to the response to the COVID-19 pandemic.  Although
-    HHS did not conduct any new reviews during the period of suspension, HHS relied
-    on previous data and experiences to develop and update its corrective action plans,
-    which are designed to help states address the improper payments that contribute
-    most to Title IV-E improper payments.  The adequacy of these actions is reflected
-    in the low FY 2024 reported error rate of 4.82%.
-  act17_2: The corrective actions taken by HHS are adequate for the Title IV-E Foster
-    Care Program because the assistance is targeted to address the specific root causes
-    of errors for each reviewed state. In FY 2024, HHS resumed conducting onsite Title
-    IV-E Foster Care Eligibility Reviews, following a nearly four-year suspension
-    due to the response to the COVID-19 pandemic. The adequacy of these corrective
-    actions is reflected in the low FY 2024 reported error rate of 4.82%.
-  act17_3: The effective implementation and prioritization of the corrective actions
-    taken for the Title IV-E Foster Care Program are evidenced in HHS's continued
-    development and delivery of corrective actions to reduce the occurrence of Improper
-    and Unknown Payments despite the nearly four-year suspension of calculating and
-    reporting an error rate due to the COVID-19 pandemic. Although HHS did not conduct
-    any new reviews during the period of suspension, HHS relied on previous data and
-    experiences to develop and update its corrective action plans to help states address
-    the root causes that contributed most to Title IV-E improper payments.  Since
-    HHS did not calculate and report an Improper Payment and Unknown Payment rate
-    from FY 2020 through FY 2023, we cannot determine if the actions are effective
-    in reducing the rate, however, the FY 2024 reported error rate of 4.82% is significantly
-    less than the statutory threshold of 10%.
-  cyp15: 'No'
-  cyp26: '1.16'
-  cyp5_app1_8: Audit, Cross Enterprise Sharing, Training
-  cyp5_atp1_8: Audit, Change Process, Cross Enterprise Sharing, Training
-  cyp6: '0.0'
+  detail_No_Estimates_Why: null
+  detail_Reduction_Target: null
   overpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -396,11 +455,11 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp2: '0.0'
+    Overpayments_Within_Control_Amount: '0.0'
   overpayments_eligibility:
   - Key: cyp3_dit5_1
     Payment_Type: Overpayments Outside Agency Control
-    Theme: Contractor of Provider Status
+    Theme: Contractor or Provider Status
     Theme_Description: "Status or standing of contractor or provider, including recipient\
       \ eligibility to \r\nprovide medical services"
     Value: '61.160000'
@@ -411,115 +470,16 @@ Data_By_Year:
     Failure_to_Access_Data: 61.16
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp3: '61.16'
-    cyp4_1: Overpayments are outside of HHS's control because Title IV-E Foster Care
-      Program is a federally funded, state-administered grant program, with funds
-      awarded to states/recipients.  HHS administers formula and entitlement grants
-      to support states and tribes in operating their child welfare systems, including
-      foster care, and the information systems necessary to support these programs.
-      States and tribes do not compete for these funds. Rather, they are distributed
-      based on predetermined reimbursement rates and eligibility requirements, based
-      on claims submitted by each jurisdiction to reimburse allowable costs the jurisdictions
-      have certified as accurate.
-  pro1: "Since its initial baseline reporting in FY 2004, HHS has continued to focus\
-    \ on identifying and reducing improper payments through ongoing corrective actions,\
-    \ including on-site reviews, post-on-site review activities, the Court Improvement\
-    \ Program, enhanced use of automated information systems, publicizing best practices,\
-    \ other continuous quality improvement efforts and targeted outreach. \n\nIn response\
-    \ to the COVID-19 Public Health Emergency, HHS postponed conducting Title IV-E\
-    \ Reviews beginning in April 2020, thus affecting improper payment reporting for\
-    \ the Title IV-E Foster Care program because the Title IV-E Reviews provide data\
-    \ used in the calculation of the Title IV-E Foster Care National Error Rate. \
-    \ Although HHS did not conduct any new reviews in FY 2023, HHS relied on previous\
-    \ data and experiences to develop and update its corrective action plans, which\
-    \ are designed to help states address the improper payments that contribute most\
-    \ to Title IV-E improper payments. Targeted corrective actions to reduce and prevent\
-    \ the types of payment errors that drove previous performance include but are\
-    \ not limited to:\n• Emphasizing Quality Improvement by engaging with Title IV-E\
-    \ agencies to enhance the understanding\nof program compliance requirements;\n\
-    • Coordinated efforts with IV-E agencies to share successful strategies among\
-    \ states;\n• Instituting improvements that support systemic change and sustain\
-    \ improvement efforts;\n• Conducting outreach to Title IV-E agencies regarding\
-    \ changes in federal requirements resulting from the Family First Act, enacted\
-    \ as Title VII of the Bipartisan Budget Act of 2018, which changed the federal\
-    \ statutory requirements for staff safety checks at childcare institutions and\
-    \ placed other restrictions on use of non-family based foster care.\n• HHS issued\
-    \ written guidance and conducted a series of webinars, which provided opportunities\
-    \ to explain various aspects of the Title IV-E requirements, clarified documentation\
-    \ requirements, and assisted states’ understanding of complex policy concepts\
-    \ and their determination on Title IV-E eligibility requirements for foster care\
-    \ maintenance payments;\n• Providing ongoing technical assistance and training\
-    \ opportunities to all stakeholders as needed or requested; and\n• Reviewing Title\
-    \ IV-E quarterly claims submitted by states and addressing claim errors and anomalies\
-    \ on an ongoing basis.\n\nHHS resumed conducting Title IV-E Reviews in FY 2024.\
-    \ To prepare for resuming Title IV-E Reviews, HHS conducted two training webinars\
-    \ in March 2023 for HHS staff, covering the updated Review Instrument and its\
-    \ instructions, and in April 2023 conducted two training webinars for Title IV-E\
-    \ agencies, offering guidance on using the Review Instrument and its instructions\
-    \ to assess eligibility when reviews resumed in FY 2024.\n"
-  rap5: HHS has not determined if it has what is needed with respect to internal controls,
-    human capital and information system and other infrastructure to reduce improper
-    payments and unknown payments to the tolerable rate because HHS has not determined
-    a tolerable rate for the Foster Care program.   In FY 2024, HHS resumed conducting
-    onsite Title IV-E Foster Care Eligibility Reviews, following a nearly four-year
-    suspension due to the COVID-19 pandemic.   The IV-E Review protocol is not conducted
-    specifically for improper payment estimation but is instead governed by regulations
-    authorizing federal monitoring of child welfare programs.  Data from the Title
-    IV-E Foster Care Eligibility Reviews are used to calculate the Foster Care Error
-    Rate.
-  rap6: The HHS FY 2025 Justification of Estimates for Appropriations Committees includes
-    a request for $10.68 billion for the Payments for Foster Care, Prevention, and
-    Permanency appropriation, which provides funding for the Title IV-E Foster Care  and
-    other related programs.  This appropriation also supports administrative and training
-    costs. This account is subject to sequestration of administrative costs in an
-    otherwise exempt account in accordance with the Balanced Budget and Emergency
-    Deficit Control Act of 1985 (P.L. 99-177), as amended by the Budget Control Act
-    of 2011 (P.L. 112-25), which affects funding for certain activities under Foster
-    Care, and other related programs.  Other than administrative and training costs,
-    no request were made for resources specifically for establishing and maintaining
-    payment integrity.
-  rnp3: HHS anticipates that the level of planned or completed corrective actions
-    will address the cause of the Improper Payments and potential Unknown Payments
-    proportional to the severity of the associated amount and rate of the root cause.  During
-    the Title IV-E Foster Care Eligibility Reviews, HHS identified specific root causes
-    of errors and associated corrective actions for each reviewed state.  In FY 2024,
-    HHS resumed conducting onsite Title IV-E reviews, following a nearly four-year
-    suspension due to the response to the COVID-19 pandemic.  During the period of
-    the suspension, HHS relied on previous data and experiences to develop and update
-    its corrective action plans, which are designed to help states address the improper
-    payments that contribute most to Title IV-E improper payments.  The adequacy of
-    these actions is reflected in the low FY 2024 reported error rate of 4.82%.
-  rnp4: HHS evaluates its processes and controls each year in accordance with the
-    requirements of the Office of Management and Budget Circular A-123, Management’s
-    Responsibility for Enterprise Risk Management and Internal Controls, which includes
-    Appendix C, Requirements for Payment Integrity Improvement. As part of this annual
-    assessment, HHS requires its offices to complete an Internal Control and Risk
-    Management Certification that is signed by a senior member of the applicable office.
-    Further, the HHS Operating Division prepares an assurance statement which represents
-    the HHS Operating Division head's informed judgement as to the overall adequacy
-    and effectiveness of Internal controls within the HHS Operating Division related
-    to operations, reporting, and compliance. In addition, non-federal entities that
-    receive federal funds, including states, local governments, tribes, and non-profit
-    organizations, are subject to audit requirements under the Single Audit Act of
-    1984, as amended in 1996. The implementing guidance, Uniform Administrative Requirements,
-    Cost Principles, and Audit Requirements for Federal Awards, that was in effect
-    during FY 2023, required Single Audits for nonfederal entities that expend $750,000
-    or more in federal awards during the nonfederal entity’s fiscal year. With the
-    Office of Management and Budget's April 2024 released revisions to the Uniform
-    Guidance, the threshold increases to $1,000,000 effective October 01, 2024.  In
-    addition to the improper payment error rate calculation activities, overpayments
-    are identified and recovered through Single Audits and HHS Office of Inspector
-    General audits.  For each of the aforementioned activities, recipients are subject
-    to disallowances for any expenditures not made in accordance with program regulations.
-  rtp1: Unknown because the agency has not yet determined the tolerable rate for this
-    program
-  rtp4_2: HHS has not determined the tolerable rate for this program because in FY
-    2024, HHS resumed conducting onsite Title IV-E Foster Care Eligibility Reviews,
-    following a nearly four-year suspension due to the COVID-19 pandemic.   The IV-E
-    Review protocol is not conducted specifically for improper payment estimation
-    but is instead governed by regulations authorizing federal monitoring of child
-    welfare programs.  Data from the Title IV-E Foster Care Eligibility Reviews are
-    used to calculate the Foster Care Error Rate.
+    Overpayments_Outside_Control_Amount: '61.16'
+    Overpayments_Outside_Control_Why: Overpayments are outside of HHS's control because
+      Title IV-E Foster Care Program is a federally funded, state-administered grant
+      program, with funds awarded to states/recipients.  HHS administers formula and
+      entitlement grants to support states and tribes in operating their child welfare
+      systems, including foster care, and the information systems necessary to support
+      these programs. States and tribes do not compete for these funds. Rather, they
+      are distributed based on predetermined reimbursement rates and eligibility requirements,
+      based on claims submitted by each jurisdiction to reimburse allowable costs
+      the jurisdictions have certified as accurate.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 1.16
@@ -527,32 +487,316 @@ Data_By_Year:
     Failure_to_Access_Data: 1.16
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-    cyp5: '1.16'
+    Underpayments_Amount: '1.16'
   underpayments_eligibility:
   - Key: cyp5_dit5_1
     Payment_Type: Underpayments
-    Theme: Contractor of Provider Status
+    Theme: Contractor or Provider Status
     Theme_Description: "Status or standing of contractor or provider, including recipient\
       \ eligibility to \r\nprovide medical services"
     Value: '1.160000'
+- Agency_Needs_Satisfied: HHS has not yet determined whether its current internal
+    controls, human capital resources, information systems, and related infrastructure
+    are sufficient to reduce improper or unknown payments to a tolerable rate because
+    a tolerable rate for the Title IV-E Foster Care program has not been established.
+    Although onsite Title IV-E Foster Care Eligibility Reviews resumed in FY 2024
+    after a four-year suspension due to the COVID-19 pandemic, these reviews are designed
+    for federal monitoring rather than for determining the level of investment needed
+    to further reduce improper payments. As a result, while the review data contribute
+    to calculating the Foster Care Error Rate, they do not by themselves provide the
+    information necessary to assess whether existing agency controls and infrastructure
+    are adequate to achieve a theoretically tolerable rate. Consequently, HHS currently
+    lacks the basis for evaluating whether additional investments or process improvements
+    would yield cost-effective reductions in improper or unknown payments.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: 'HHS effectively implements
+    and prioritizes corrective actions for the Title IV-E Foster Care Program by continuously
+    refining its strategies to address the root causes of Improper Payments and Unknown
+    Payments, even during periods when new review data are unavailable. The agency’s
+    commitment is demonstrated by its sustained development and delivery of corrective
+    actions throughout the nearly four-year suspension of onsite reviews during the
+    COVID-19 pandemic. During this period, HHS relied on historical review findings,
+    prior state performance, and accumulated program knowledge to update its corrective
+    action plans and ensure that states continued to receive guidance tailored to
+    the factors contributing most to improper payments. These actions remained focused
+    squarely on the underlying causes—such as documentation deficiencies or eligibility
+    determination errors—and were targeted to help states strengthen controls and
+    improve compliance. The prioritization of these corrective actions is further
+    evidenced by the agency’s resumption of onsite Title IV-E Foster Care Eligibility
+    Reviews in FY 2024, signaling a return to full oversight and a renewed emphasis
+    on data-driven error reduction.
+
+    The adequacy of the corrective actions is reflected in the relatively low error
+    rates reported following the review suspension. Although the FY 2025 error rate
+    increased to 5.72% from 4.82% in FY 2024, the overall rate remains well below
+    the statutory threshold of 10%, indicating that the corrective measures continue
+    to exert a stabilizing effect on payment accuracy despite the lack of recent review
+    data from FY 2020–FY 2023. Because HHS did not calculate or report improper or
+    unknown payment rates during those four fiscal years, it is not possible to determine
+    long-term trends in effectiveness; however, the modest increase observed in FY
+    2025 does not diminish the broader evidence that the corrective actions are appropriately
+    targeted and operationally sound. By aligning corrective actions with clearly
+    identified root causes for each state and maintaining focus on error-prone areas,
+    HHS has positioned the Title IV-E Foster Care Program to make measurable progress
+    in reducing improper and unknown payments as routine reviews and monitoring activities
+    continue moving forward.'
+  Corrective_Actions_Appropriateness: 'HHS has implemented a series of corrective
+    actions to address the underlying causes of improper and unknown payments within
+    the Title IV-E Foster Care Program. As part of these efforts, HHS expanded training
+    opportunities for federal and state reviewers to strengthen the accuracy of eligibility
+    determinations. These trainings included comprehensive instruction on the Title
+    IV-E Review Instrument and Instructions, as well as monthly office hours to answer
+    eligibility-related questions and clarify complex sections of the review tool.
+    These trainings were conducted throughout FY 2025 and will continue on a recurring
+    basis. In addition, HHS increased communication with states by issuing clarifying
+    guidance designed to improve program effectiveness and reinforce understanding
+    of Title IV-E requirements.
+
+    To further support compliance, HHS updated the Title IV-E Review section of its
+    website in FY 2024. These updates included revised review guides, posted review
+    schedules for FY 2024–2026, and the publication of final state review reports.
+    HHS also intensified its outreach efforts by reviewing state policies, providing
+    interpretation of federal requirements, and clarifying eligibility standards to
+    reduce misinterpretation of complex payment rules. At the conclusion of each Title
+    IV-E Foster Care Eligibility Review, HHS issues a detailed, state-specific report
+    outlining improper payment findings, promising practices, and required corrective
+    actions. For states not in substantial compliance, HHS mandates the development
+    and implementation of a Program Improvement Plan and imposes disallowances for
+    overpayments identified during the review.
+
+    In addition to training and guidance, HHS employs audits and ongoing monitoring
+    as key corrective actions. HHS conducts continuous reviews of state Title IV-E
+    quarterly claims to identify and correct anomalies or errors in real time. These
+    activities have been ongoing throughout FY HHS has implemented a series of corrective
+    actions to address the underlying causes of improper and unknown payments within
+    the Title IV-E Foster Care Program. As part of these efforts, HHS expanded training
+    opportunities for federal and state reviewers to strengthen the accuracy of eligibility
+    determinations. These trainings included comprehensive instruction on the Title
+    IV-E Review Instrument and Instructions, as well as monthly office hours to answer
+    eligibility-related questions and clarify complex sections of the review tool.
+    These trainings were conducted throughout FY 2025 and will continue on a recurring
+    basis. In addition, HHS increased communication with states by issuing clarifying
+    guidance designed to improve program effectiveness and reinforce understanding
+    of Title IV-E requirements.
+
+    To further support compliance, HHS updated the Title IV-E Review section of its
+    website in FY 2024. These updates included revised review guides, posted review
+    schedules for FY 2024–2026, and the publication of final state review reports.
+    HHS also intensified its outreach efforts by reviewing state policies, providing
+    interpretation of federal requirements, and clarifying eligibility standards to
+    reduce misinterpretation of complex payment rules. At the conclusion of each Title
+    IV-E Foster Care Eligibility Review, HHS issues a detailed, state-specific report
+    outlining improper payment findings, promising practices, and required corrective
+    actions. For states not in substantial compliance, HHS mandates the development
+    and implementation of a Program Improvement Plan and imposes disallowances for
+    overpayments identified during the review.
+
+    In addition to training and guidance, HHS employs audits and ongoing monitoring
+    as key corrective actions. HHS conducts continuous reviews of state Title IV-E
+    quarterly claims to identify and correct anomalies or errors in real time. These
+    activities have been ongoing throughout FY 2025 and will continue into FY 2026
+    to help prevent future improper payments and ensure sustained compliance. This
+    audit process supports early detection of issues and enables timely technical
+    assistance to states.
+
+    HHS will expand its training strategy in FY 2026 by releasing a series of new
+    on-demand training videos covering the Title IV-E Foster Care Eligibility Review
+    Instrument and compliance assessment methods. These resources provide consistent,
+    easily accessible guidance for state agencies and federal staff. HHS will also
+    continue cross-enterprise collaboration with Title IV-E agencies to reinforce
+    understanding of federal requirements and support the sharing of effective practices
+    among states. Combined with ongoing audits and quarterly claim reviews, these
+    actions will strengthen program integrity and reduce the likelihood of future
+    improper and unknown payments.'
+  Corrective_Actions_Proportion: HHS anticipates that the level of planned or completed
+    corrective actions will address the cause of the Improper Payments and potential
+    Unknown Payments proportional to the severity of the associated amount and rate
+    of the root cause.  During the Title IV-E Foster Care Eligibility Reviews, HHS
+    identified specific root causes of errors and associated corrective actions for
+    each reviewed state.  In FY 2024, HHS resumed conducting onsite Title IV-E reviews,
+    following a nearly four-year suspension due to the response to the COVID-19 pandemic.  During
+    the period of the suspension, HHS relied on previous data and experiences to develop
+    and update its corrective action plans, which are designed to help states address
+    the improper payments that contribute most to Title IV-E improper payments.  The
+    adequacy of these actions is reflected in the low FY 2025 reported error rate
+    of 5.72%.
+  End_Date: 05/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: true
+  Hide_Program_Results_Future_Outlook_Baseline_Table: true
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: 'HHS employs a multilayered approach to ensure that
+    executive managers, program officials, and, where appropriate, state and local
+    governments are held accountable for meeting improper payment reduction goals.
+    Each year, HHS conducts a comprehensive assessment of internal controls in accordance
+    with OMB Circular A-123, Management’s Responsibility for Enterprise Risk Management
+    and Internal Controls, including Appendix C, which specifically addresses payment
+    integrity improvement. As part of this process, senior officials in each HHS office
+    must complete and sign an Internal Control and Risk Management Certification,
+    affirming their responsibility for maintaining effective controls that prevent,
+    detect, and reduce improper payments. Operating Divisions also submit annual assurance
+    statements, which require leadership to evaluate and attest to the adequacy of
+    internal controls over operations, financial reporting, and compliance—including
+    controls related to payment accuracy.
+
+    Beyond federal leadership accountability, HHS ensures that states, local governments,
+    tribes, and nonprofit organizations receiving federal funds meet accountability
+    standards through the Single Audit process. Entities that expend at least $1,000,000
+    in federal awards are required to undergo an annual Single Audit. These audits
+    evaluate if recipients have effective controls in place and if federal funds,
+    including for the Foster Care program, are spent in accordance with applicable
+    requirements. Findings from Single Audits and HHS Office of Inspector General
+    (OIG) audits are used to identify overpayments and may result in the repayment
+    of disallowed costs, complementing enforcement mechanisms for improper payment
+    recovery.
+
+    HHS further reinforces accountability by using audit results, monitoring activities,
+    and internal reviews to guide corrective action expectations for both internal
+    leadership and external recipients. Executive managers and program offices are
+    expected to address identified weaknesses promptly, and failure to do so can influence
+    performance evaluations and oversight decisions. Collectively, these steps create
+    a robust framework that emphasizes oversight, prevention, and timely recovery
+    of overpayments, ensuring all levels of program administration are responsible
+    for maintaining strong payment integrity.
+
+    '
+  IP_Unknown_Target_Rate: 0
+  Improper_Payments_Rate: 5.7196911197
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '1.7'
+  Non_Monetary_Loss_Amount: '7.77'
+  Outlays: 1295
+  Overpayment_Combined_Mitigations_Planned: Audit, Cross Enterprise Sharing, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Cross Enterprise Sharing, Training
+  Payment_Accuracy_Rate: 94.28030888030888
+  Program_Additional_Information: "Since baseline reporting began in FY 2004, HHS\
+    \ has implemented a long-term strategy to identify, reduce, and prevent improper\
+    \ payments across the Title IV-E Foster Care program.  Efforts include on-site\
+    \ reviews, post-review follow-up, Court Improvement Program initiatives, increased\
+    \ automation, dissemination of best practices, continuous quality improvement\
+    \ efforts and targeted outreach. \n\nBeginning April 2020, HHS paused Title IV-E\
+    \ Reviews, which affected calculation of the National Error Rate, because these\
+    \ reviews generate the data used for error rate estimation. Despite the pause\
+    \ in reviews, HHS continued improper payment reduction efforts by relying on historical\
+    \ review data, prior state performance, lessons learned from past reviews, and\
+    \ experiences to develop and update its corrective action plans. HHS emphasized\
+    \ several strategic actions to reduce and prevent the types of payment errors\
+    \ that drove previous performance including but are not limited to:\n•\tQuality\
+    \ Improvement and Compliance Support\n•\tEnhanced engagement with Title IV-E agencies\
+    \ on program compliance details.\n•\tReinforcement of documentation and eligibility\
+    \ determination expectations.\n•\tSharing State Best Practices\n•\tFacilitated\
+    \ coordinated exchanges among states to highlight effective strategies.\n•\tSystemic\
+    \ and Sustainable Improvement\n•\tEncouraged structural changes that create lasting\
+    \ improvements in program operations.\n•\tFamily First Prevention Services Act\
+    \ (FFPSA) Guidance\n•\tConducted outreach on new federal requirements related\
+    \ to:\no\tStaff safety checks for childcare institutions\no\tRestrictions on use\
+    \ of non-family-based foster care\n•\tIssued written guidance on these statutory\
+    \ changes.\n•\tWebinars and Policy Clarification\n•\tDelivered a series of webinars\
+    \ to clarify:\no\tTitle IV-E eligibility standards\no\tFederal documentation requirements\n\
+    o\tComplex policy concepts\n•\tSupported state eligibility determinations for\
+    \ foster care maintenance payments.\n•\tOngoing Technical Assistance\n•\tContinued\
+    \ training and technical support for state agencies and stakeholders.\n•\tQuarterly\
+    \ Claims Review\n•\tMaintained continuous review of state Title IV-E quarterly\
+    \ claims.\n•\tIdentified and corrected claim anomalies and potential errors.\n\
+    \n"
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: The HHS FY 2026 Justification of Estimates for Appropriations
+    Committees includes a request for $10.447 billion for the Payments for Foster
+    Care, Prevention, and Permanency appropriation, which supports the Title IV-E
+    Foster Care program and related activities. This funding also covers administrative
+    and training costs necessary for program operations. The account is subject to
+    sequestration of administrative funding under the Balanced Budget and Emergency
+    Deficit Control Act of 1985, as amended, which affects certain Foster Care–related
+    activities. Aside from administrative and training resources, the budget submission
+    does not request additional funding specifically dedicated to establishing or
+    maintaining payment integrity.
+  Start_Date: 06/2024
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: Audit, Cross Enterprise Sharing, Training
+  Underpayment_Mitigations_Taken: Audit, Cross Enterprise Sharing, Training
+  Unknown_Payments_Rate: 0
+  Year: 2025
+  detail_IP_Causes: 'The primary root causes of the improper and unknown payments
+    in the FY 2025 Title IV-E program stemmed largely from state-level administrative
+    errors related to case classification, eligibility determination, and payment
+    processing. In several instances, state agencies did not consistently apply federal
+    eligibility criteria when coding foster care or adoption assistance cases, which
+    led to payments being issued to cases that lacked complete or accurate supporting
+    documentation. These errors frequently involved missing court orders, incomplete
+    AFDC-related eligibility verification, or outdated placement information that
+    had not been reconciled with current case records. Because Title IV-E reimbursement
+    is contingent on strict federal requirements, even minor documentation gaps resulted
+    in otherwise valid payments being classified as improper.
+
+    Another significant factor contributing to improper payments was inconsistent
+    adherence to state administrative protocols. Some agencies experienced delays
+    in updating case management systems following changes in a child’s placement,
+    licensing status of foster homes, or permanency goals. As a result, payments continued
+    to be issued under incorrect program codes or at incorrect reimbursement rates.
+    Inadequate training, staff turnover, and heavy caseloads also contributed to misinterpretation
+    of federal guidelines, increasing the likelihood of processing errors and misclassification
+    of allowable versus unallowable costs.
+
+    Lastly, the combination of legacy information systems and varied documentation
+    standards across counties contributed to an environment in which errors were more
+    likely to occur. Many states continued to rely on hybrid electronic-paper processes
+    or outdated verification workflows that were not aligned with current Title IV-E
+    payment integrity expectations. The lack of standardized documentation templates,
+    insufficient automated controls, and limited quality assurance checks prior to
+    claim submission all increased the risk that payments would be improperly coded
+    or unverifiable. Strengthening system integration, improving documentation practices,
+    and enhancing training will be critical to reducing both improper and unknown
+    payments in future reporting cycles.'
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '66.3'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '0.0'
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 66.3
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '66.3'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 7.77
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '7.77'
 Description: null
-Fiscal_Year: 2024
+Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024]'
-Outlays: 1293
-Overpayment_Amounts: '[0, 0, 0, 61.16]'
-Payment_Accuracy_Amounts: '[0, 0, 0, 1230.6799999999998]'
-Payment_Accuracy_Rate: 95.18020108275329
-Phase_2_Program: 1
+Improper_Payments_Data_Years: '[2024, 2025]'
+Overpayment_Amounts: '[61.16, 66.3]'
+Payment_Accuracy_Amounts: '[1230.6799999999998, 1220.93]'
+Phase_2_Program: 0
 Program_Name: Administration for Children and Families (ACF) - Foster Care Title IV-E
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[0, 0, 0, 1.16]'
-Unknown_Amounts: '[0, 0, 0, 0]'
-fpi_link: https://fpi.omb.gov/
+Technically_Improper_Amounts: '[0, 0]'
+Underpayment_Amounts: '[1.16, 7.77]'
+Unknown_Amounts: '[0, 0]'
+fpi_link: https://fpi.omb.gov/program/93.658
 layout: program-specific
 permalink: program/hhs-administration-for-children-and-families-acf-foster-care-db6759bf
 ---
