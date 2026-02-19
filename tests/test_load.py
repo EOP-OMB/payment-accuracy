@@ -6,6 +6,16 @@ import pytest
 import yaml
 from unittest.mock import MagicMock, mock_open, patch
 
+load.WEBSITE_DIR = "/tmp"
+load.HOME_MARKUP_FILE_PATH = os.path.join(load.WEBSITE_DIR, "pages", "home.md")
+load.AGENY_WIDE_FILE_PATH = os.path.join(load.WEBSITE_DIR, "pages", "agenciesPrograms.md")
+load.AGENCY_SPECIFIC_DIR = os.path.join(load.WEBSITE_DIR, "pages", "agencies")
+load.PROGRAM_SPECIFIC_DIR = os.path.join(load.WEBSITE_DIR, "pages", "programs")
+load.CONGRESSIONAL_REPORTS_MARKUP_PATH = os.path.join(load.WEBSITE_DIR, "pages", "congressional_reports.md")
+load.CONGRESSIONAL_REPORTS_DIR = os.path.join(load.WEBSITE_DIR, "pages", "congressional_reports")
+load.SHARED_DATA_PATH = os.path.join(load.WEBSITE_DIR, "shared.yml")
+load.CONGRESSIONAL_REPORTS_SHARED_DATA_PATH = os.path.join(load.WEBSITE_DIR, "congressional_reports.yml")
+
 @pytest.fixture
 def mock_cursor():
     return MagicMock()
