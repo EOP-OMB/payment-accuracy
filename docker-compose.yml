@@ -1,11 +1,60 @@
 services:
   website:
     build:
-      context: ./website
+      context: .
+      dockerfile: ./website/Dockerfile
+      args:
+        TEST_ENV: ${TEST_ENV:-false}
     ports:
       - "8080:8080"         
     networks:
       - internal
+    healthcheck:
+      test: ["CMD", "wget", "--quiet", "--tries=1", "--spider", "http://localhost:8080"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+      start_period: 10s
+
+  cypress:
+    build:
+      context: ./cypress
+      dockerfile: Dockerfile
+    profiles:
+      - test
+    depends_on:
+      website:
+        condition: service_healthy
+    networks:
+      - internal
+    environment:
+      - WEBSITE_URL=http://website:8080
+      - TEST_ENV=${TEST_ENV:-false}
+      - CYPRESS_baseUrl=http://website:8080
+    volumes:
+      - ./cypress:/app/cypress
+      - ./website/pages:/app/website-pages:ro
+      - ./cypress/md:/app/cypress-md:ro
+      - ./cypress/cypress-image-diff-screenshots:/app/cypress-image-diff-screenshots
+    entrypoint: ["/app/entrypoint.sh"]
+
+  data-pipeline-tests:
+    build:
+      context: ./tests
+      dockerfile: Dockerfile
+    profiles:
+      - test
+    networks:
+      - internal
+    environment:
+      - TEST_ENV=${TEST_ENV:-false}
+      - "TRANSFORMED_DB_FILE_PATH=:memory:"
+    volumes:
+      - ./tests:/app
+      - ./data_processing:/data_processing:ro
+      - ./website/assets/:/website/assets:ro
+      - ./website/pages:/website/pages:ro
+    entrypoint: ["/app/entrypoint.sh"]
 
 volumes:
   esdata:
@@ -14,4 +63,3 @@ volumes:
 networks:
   internal:
     driver: bridge
-##testing ecr

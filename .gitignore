@@ -9,3 +9,8 @@ venv
 /website/_site
 __pycache__/
 /data_processing/transformed
+
+# visual regression tests
+cypress/cypress-image-diff-screenshots/comparison/
+cypress/cypress-image-diff-screenshots/diff/
+cypress/reports/
