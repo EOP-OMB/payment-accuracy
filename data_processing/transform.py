@@ -15,7 +15,11 @@ PROGRAM_SPECIFIC_FISCAL_YEARS = list(range(config.FISCAL_YEAR - config.COUNT_PRO
 # transformed database, for use in the load / generate stage
 TRANSFORMED_FILES_DIRECTORY = "transformed"
 TRANSFORMED_DB_FILE_NAME = "transformed_data.db"
-TRANSFORMED_DB_FILE_PATH = os.path.join(BASE_DIR, TRANSFORMED_FILES_DIRECTORY, TRANSFORMED_DB_FILE_NAME)
+
+# allow override for testing purposes
+transformed_db_file_path = os.environ.get('TRANSFORMED_DB_FILE_PATH')
+if transformed_db_file_path is  None:
+    transformed_db_file_path = os.path.join(BASE_DIR, TRANSFORMED_FILES_DIRECTORY, TRANSFORMED_DB_FILE_NAME)
 
 # extracted file paths
 EXTRACTED_FILES_DIRECTORY = "extracted"
@@ -773,7 +777,7 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
 
 # establish a database connection to store transformed data that is used
 # in the load / generate stage
-conn = sqlite3.connect(TRANSFORMED_DB_FILE_PATH)
+conn = sqlite3.connect(transformed_db_file_path)
 cur = conn.cursor()
 
 def load_csv_to_sqlite(path: str, table_name: str, conn: sqlite3.Connection, drop_duplicates = False, data_types = None):

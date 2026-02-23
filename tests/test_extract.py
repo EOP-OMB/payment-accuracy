@@ -402,11 +402,13 @@ def test_AllScorecardsMappedOnce():
     for dirname in os.listdir(SCORECARD_FILES_DIRECTORY):
         if not os.path.isfile(os.path.join(SCORECARD_FILES_DIRECTORY, dirname)):
             for filename in os.listdir(os.path.join(SCORECARD_FILES_DIRECTORY, dirname)):
-                expected_link = os.path.join("assets", "scorecards", dirname, filename)
-                filtered_df = df.query(f'Link == "{expected_link}"')
-                if (len(filtered_df) != 1):
-                    print(f"{expected_link} scorecard not mapped once")
-                assert(len(filtered_df) == 1)
+                # ignore hidden files, like .DS_Store
+                if not filename.startswith('.'):
+                    expected_link = os.path.join("assets", "scorecards", dirname, filename)
+                    filtered_df = df.query(f'Link == "{expected_link}"')
+                    if (len(filtered_df) != 1):
+                        print(f"{expected_link} scorecard not mapped once")
+                    assert(len(filtered_df) == 1)
 
 # ensures that all scorecards will be displayed on the website (i.e. Program_Name is correct)
 def test_ScorecardProgramsActive():

@@ -1,0 +1,16 @@
+{
+  "name": "payment-accuracy-cypress",
+  "version": "1.0.0",
+  "description": "Cypress tests for Payment Accuracy website",
+  "scripts": {
+    "cypress:run": "cypress run --browser chromium",
+    "cypress:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^14.0.0",
+    "js-yaml": "^4.1.0",
+    "cypress-image-diff-js": "^2.2.0",
+    "cypress-image-diff-html-report": "^1.0.0"
+  }
+}
+

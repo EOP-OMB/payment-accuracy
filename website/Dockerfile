@@ -6,6 +6,7 @@ FROM ruby:3.4.2 AS build-image
 ARG http_proxy
 ARG https_proxy
 ARG no_proxy
+ARG TEST_ENV=false
 
 ENV NODE_VERSION=18.17.1
 ENV NVM_DIR=/root/.nvm
@@ -34,12 +35,30 @@ RUN apt-get clean && \
     npm install --legacy-peer-deps chart.js && \
     bundle install
 
+# Copy prepare-test-files.sh script and cypress directory (needed for test profile)
+COPY ./prepare-test-files.sh /prepare-test-files.sh
+COPY ./cypress /cypress
+
+# Copy website files
 COPY . /app
+
+# Conditionally run prepare-test-files.sh
+RUN if [ "${TEST_ENV}" = "true" ]; then \
+        echo "Test profile detected. Preparing test markdown files..."; \
+        chmod +x /prepare-test-files.sh && \
+        cd / && \
+        TEST_ENV=true /prepare-test-files.sh || echo "Warning: prepare-test-files.sh failed"; \
+    else \
+        echo "Test profile not active. Skipping test file preparation."; \
+    fi
+
 RUN bundle exec jekyll clean && \
     bundle exec jekyll build && \
     npx gulp updateUswds && \
     npx gulp bundleChart
 
+RUN BUILD_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ") && \
+    echo "<!-- Deployment Date: ${BUILD_DATE} -->" >> /app/_site/index.html
 
 # Stage 2: Build the final nginx image
 #          This stage is responsible for building the final nginx image that
@@ -55,6 +74,6 @@ ENV http_proxy=$http_proxy \
     HTTP_PROXY=$http_proxy \
     HTTPS_PROXY=$https_proxy \
     NO_PROXY=$no_proxy
-COPY nginx.conf /etc/nginx/nginx.conf
+COPY ./nginx.conf /etc/nginx/nginx.conf
 COPY --from=0 /app/_site /usr/share/nginx/html
 EXPOSE 8080

@@ -15,9 +15,6 @@ sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')
 # Making sure config is in the path
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'data_processing')))
 
-# Import modules for patching
-import config
-
 @pytest.fixture
 def in_memory_db():
     conn = sqlite3.connect(":memory:")
