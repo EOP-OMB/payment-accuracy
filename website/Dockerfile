@@ -19,8 +19,8 @@ ENV http_proxy=$http_proxy \
     NO_PROXY=$no_proxy
 
 WORKDIR /app
-COPY ./website/Gemfile /app/Gemfile
-COPY ./website/package.json /app/package.json
+COPY ./Gemfile /app/Gemfile
+COPY ./package.json /app/package.json
 RUN apt-get clean && \
     apt-get update && \
     apt-get install -y curl git && \
@@ -40,7 +40,7 @@ COPY ./prepare-test-files.sh /prepare-test-files.sh
 COPY ./cypress /cypress
 
 # Copy website files
-COPY ./website /app
+COPY . /app
 
 # Conditionally run prepare-test-files.sh
 RUN if [ "${TEST_ENV}" = "true" ]; then \
@@ -74,6 +74,6 @@ ENV http_proxy=$http_proxy \
     HTTP_PROXY=$http_proxy \
     HTTPS_PROXY=$https_proxy \
     NO_PROXY=$no_proxy
-COPY ./website/nginx.conf /etc/nginx/nginx.conf
+COPY ./nginx.conf /etc/nginx/nginx.conf
 COPY --from=0 /app/_site /usr/share/nginx/html
 EXPOSE 8080

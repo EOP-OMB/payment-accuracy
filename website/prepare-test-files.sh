@@ -3,7 +3,7 @@
 
 set -e
 
-CYPRESS_MD_DIR="cypress/md"
+CYPRESS_MD_DIR="app/cypress/md"
 WEBSITE_PAGES_DIR="app/pages"
 TEST_PAGES_DIR="${WEBSITE_PAGES_DIR}/tests"
 
