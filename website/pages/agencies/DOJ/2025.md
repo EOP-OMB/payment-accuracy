@@ -1,7 +1,7 @@
 ---
 Agency: DOJ
 Agency_Name: Department of Justice
-Confirmed_Fraud: null
+Confirmed_Fraud: 0.89
 Eligibility_Themes: []
 Fiscal_Year: 2025
 Hide_Disposition_of_Funds: false

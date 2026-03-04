@@ -21,6 +21,39 @@ def mock_cursor():
     return MagicMock()
 
 @pytest.fixture
+def fpi_output_file_data():
+    return {
+        "slugify_query": [
+            {
+                "Agency": "A1",
+                "Program_Name": "Salaries & Expenses"
+            },
+            {
+                "Agency": "A1",
+                "Program_Name": "Plant and Animal Disease, Pest Control, and Animal Care"
+            }
+        ],
+        "output_query": [
+            {
+                "program_id": "10.001",
+                "improper_payment_program_name": "Salaries & Expenses",
+                "fiscal_year": 2025,
+                "outlays": None,
+                "improper_payment_amount": None,
+                "insufficient_documentation_amount": None
+            },
+            {
+                "program_id": "10.025",
+                "improper_payment_program_name": "Plant and Animal Disease, Pest Control, and Animal Care",
+                "fiscal_year": 2021,
+                "outlays": 2,
+                "improper_payment_amount": 1,
+                "insufficient_documentation_amount": 0
+            }
+        ]
+    }
+
+@pytest.fixture
 def homepage_sample_data():
     return {
         "min_max_rates": [{
@@ -92,6 +125,25 @@ def homepage_sample_data():
             }
         ]
     }
+
+def test_generate_fpi_output_file(mock_cursor, fpi_output_file_data):
+    mock_cursor.fetchall.side_effect = [
+        fpi_output_file_data['slugify_query'],
+        fpi_output_file_data['output_query']
+    ]
+
+    with patch("builtins.open", mock_open()) as mocked_file:
+        with patch("os.makedirs") as mocked_makedirs:
+            query.slugifyProgramNames(mock_cursor)
+            load.generate_fpi_output_file(mock_cursor)
+
+            mocked_file.assert_called_once_with(load.FPI_OUTPUT_FILE, 'w', encoding='utf-8')
+            handle = mocked_file()
+            written_content = ''.join(call.args[0] for call in handle.write.call_args_list)
+
+            assert 'program_id,improper_payment_program_name,fiscal_year,outlays,improper_payment_amount,insufficient_documentation_amount,slug' in written_content
+            assert '10.001,Salaries & Expenses,2025,,,,' in written_content
+            assert '10.025,"Plant and Animal Disease, Pest Control, and Animal Care",2021,2,1,0,' in written_content
 
 def test_generate_home_page(mock_cursor, homepage_sample_data):
     mock_cursor.fetchall.side_effect = [
@@ -912,13 +964,14 @@ def congressional_reports_sample_data():
 
 def test_generate_agency_programs_page(mock_cursor, agency_programs_sample_data):
     mock_cursor.fetchall.side_effect = [
-        agency_programs_sample_data["program_specific_data_points"],
         agency_programs_sample_data["programs_for_slugging"],
+        agency_programs_sample_data["program_specific_data_points"],
         agency_programs_sample_data["agency_specific_data_points"]
     ]
 
     with patch("builtins.open", mock_open()) as mocked_file:
         with patch("os.makedirs") as mocked_makedirs:
+            query.slugifyProgramNames(mock_cursor)
             load.generate_agency_programs_page(mock_cursor)
 
             mocked_file.assert_called_once_with(load.AGENY_WIDE_FILE_PATH, 'w', encoding='utf-8')

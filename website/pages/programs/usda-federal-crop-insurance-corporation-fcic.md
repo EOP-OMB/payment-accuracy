@@ -691,6 +691,11 @@ Data_By_Year:
   detail_Overpayments_Due_To_Failure: '190.02'
   detail_Overpayments_Due_To_Inability: '168.51'
   detail_Reduction_Target: '3.0'
+  eligibility_aggregated:
+  - Theme: Other
+    Theme_Description: "RMAâ\x80\x99s improper payments are the result of process\
+      \ or procedural errors, calculation errors, certification errors, and other\
+      \ variables applicable to the federal crop insurance program."
   overpayments:
     Data_Needed_Does_Not_Exist: 0.0
     Failure_to_Access_Data: 190.02

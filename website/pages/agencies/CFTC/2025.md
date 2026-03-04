@@ -1,7 +1,7 @@
 ---
 Agency: CFTC
 Agency_Name: Commodity Futures Trading Commission
-Confirmed_Fraud: null
+Confirmed_Fraud: 0.0
 Eligibility_Themes: []
 Fiscal_Year: 2025
 Hide_Disposition_of_Funds: true

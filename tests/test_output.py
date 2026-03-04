@@ -325,3 +325,84 @@ class TestAgencyDataQuality:
                 assert 'improper_payments_rate' in agency, \
                     f"High-spending agency {agency.get('agency_name')} missing IP rate"
 
+class TestAssistanceListingURLs:
+    """Tests to verify that Assistance Listing Numbers have valid FPI URLs"""
+
+    @pytest.mark.skip(reason="Awaiting review of FPIMapping.csv")
+    def test_assistance_listing_urls_exist(self):
+        """
+        Verify that all fpi_links are valid
+        """
+        import glob
+        import requests
+        from collections import OrderedDict
+
+        # Extract fpi_link from each file
+        programs_dir = os.path.join(BASE_DIR, "..", "website", "pages", "programs")
+        assert os.path.exists(programs_dir), f"Programs directory not found at {programs_dir}"
+        program_files = glob.glob(os.path.join(programs_dir, "*.md"))
+        assert len(program_files) > 0, "No program markdown files found"
+        fpi_links = {}
+        for filepath in program_files:
+            frontmatter = parse_markdown_frontmatter(filepath)
+            fpi_link = frontmatter.get('fpi_link')
+            if fpi_link:
+                program_name = frontmatter.get('Program_Name', os.path.basename(filepath))
+                agency = frontmatter.get('Agency', 'Unknown')
+                fpi_links[fpi_link] = {
+                    'program': program_name,
+                    'agency': agency,
+                    'assistance_number': fpi_link.rsplit('/', 1)[-1],
+                    'file': os.path.basename(filepath)
+                }
+        assert len(fpi_links) > 0, "No Assistance Listing Numbers found in CSV"
+
+        # Test each URL
+        failed_urls = []
+        for url, info in fpi_links.items():
+            try:
+                response = requests.get(url, timeout=10)
+
+                # the page should contain the assistance number
+                # if it does not, the user was redirected
+                if info['assistance_number'] not in response.text:
+                    failed_urls.append({
+                        'number': info['assistance_number'],
+                        'agency': info['agency'],
+                        'program': info['program'],
+                        'url': url,
+                        'status_code': response.status_code
+                    })
+
+                if response.status_code != 200:
+                    failed_urls.append({
+                        'number': info['assistance_number'],
+                        'agency': info['agency'],
+                        'program': info['program'],
+                        'url': url,
+                        'status_code': response.status_code
+                    })
+            except requests.RequestException as e:
+                failed_urls.append({
+                    'number': info['assistance_number'],
+                    'agency': info['agency'],
+                    'program': info['program'],
+                    'url': url,
+                    'error': str(e)
+                })
+
+        # Build detailed error message if any URLs failed
+        if failed_urls:
+            error_msg = f"\n{len(failed_urls)} out of {len(fpi_links)} Assistance Listing URLs failed:\n"
+            for item in failed_urls[:10]:  # Show first 10 failures
+                error_msg += f"\n  - {item['number']} ({item['agency']} - {item['program']})"
+                error_msg += f"\n    URL: {item['url']}"
+                if 'status_code' in item:
+                    error_msg += f"\n    Status Code: {item['status_code']}"
+                else:
+                    error_msg += f"\n    Error: {item['error']}"
+
+            if len(failed_urls) > 10:
+                error_msg += f"\n\n  ... and {len(failed_urls) - 10} more failures"
+
+            pytest.fail(error_msg)

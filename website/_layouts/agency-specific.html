@@ -476,21 +476,19 @@ permalink: /
                         </div>
                     {% endunless %}
 
-                    {% if page.Confirmed_Fraud != nil %}
-                        <div class="usa-accordion__item warning">
-                            <h4 class="usa-accordion__heading">
-                                <button class="usa-accordion__button" aria-expanded="false" aria-controls="accordion-4">
-                                    Confirmed fraud
-                                </button>
-                            </h4>
-                            <div id="accordion-4" class="usa-accordion__content usa-prose">
-                                <p>
-                                    Intentional monetary loss improper payments are more commonly referred to as financial fraud and are overpayments that occur
-                                    on purpose.  This agency reported ${{ page.Confirmed_Fraud | round: 2 | thousands_separator }}M of confirmed fraud in this reporting cycle.
-                                </p>
-                            </div>
+                    <div class="usa-accordion__item warning">
+                        <h4 class="usa-accordion__heading">
+                            <button class="usa-accordion__button" aria-expanded="false" aria-controls="accordion-4">
+                                Confirmed fraud
+                            </button>
+                        </h4>
+                        <div id="accordion-4" class="usa-accordion__content usa-prose">
+                            <p>
+                                Intentional monetary loss improper payments are more commonly referred to as financial fraud and are overpayments that occur
+                                on purpose.  This agency reported ${{ page.Confirmed_Fraud | round: 2 | thousands_separator }}M of confirmed fraud in this reporting cycle.
+                            </p>
                         </div>
-                    {% endif %}
+                    </div>
                 </div>
             </div>
         {% endunless %}

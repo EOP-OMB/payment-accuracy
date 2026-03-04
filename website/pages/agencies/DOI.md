@@ -1,7 +1,7 @@
 ---
 Agency: DOI
 Agency_Name: Department of the Interior
-Confirmed_Fraud: null
+Confirmed_Fraud: 26.12
 Eligibility_Themes: []
 Fiscal_Year: 2025
 Hide_Disposition_of_Funds: true

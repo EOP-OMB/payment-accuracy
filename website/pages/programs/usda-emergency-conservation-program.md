@@ -1234,6 +1234,10 @@ Data_By_Year:
   detail_Overpayments_Due_To_Failure: '61.72'
   detail_Overpayments_Due_To_Inability: '0.0'
   detail_Reduction_Target: '45.07'
+  eligibility_aggregated:
+  - Theme: Other
+    Theme_Description: Review of various eligibility documents required to be submitted
+      by the producer before payment is made.
   overpayments:
     Data_Needed_Does_Not_Exist: 0.0
     Failure_to_Access_Data: 61.72

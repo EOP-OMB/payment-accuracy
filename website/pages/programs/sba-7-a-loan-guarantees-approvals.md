@@ -655,6 +655,8 @@ Data_By_Year:
   - Theme: Financial
     Theme_Description: The financial position or status of a beneficiary, recipient,
       or their family
+  - Theme: Other
+    Theme_Description: data entry errors, lack of substantiating document
   overpayments:
     Data_Needed_Does_Not_Exist: 0.0
     Failure_to_Access_Data: 0.0

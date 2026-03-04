@@ -23,6 +23,7 @@ QUERY_TYPES = Enum('QUERY_TYPES', [
     'DNP_SURVEY_RESULTS',
     'ELIGIBILITY_THEME_DETAILS',
     'FPI_LINK',
+    'FPI_OUTPUT',
     'HIGH_PRIORITY_SCORECARD_LINKS',
     'IP_HIGHEST_PERFORMING_AGENCIES',
     'IP_GW_RATE_EXTREMES',
@@ -213,6 +214,13 @@ def risk_assessments_mapper(cursor, assessments):
         del assessment["Agency"]
 
     return assessments
+
+def fpi_output_mapper(cursor, rows):
+    rows = default_mapper(cursor, rows)
+    for row in rows:
+        row["slug"] = get_slug(cursor, row["improper_payment_program_name"])
+
+    return rows
 
 def actions_taken_mapper(cursor, actions):
     return list(map(lambda x: {
@@ -572,6 +580,10 @@ query_type_by_year = {
     },
     QUERY_TYPES.FPI_LINK: {
         "query": get_sql_file("FPI_LINK.sql")
+    },
+    QUERY_TYPES.FPI_OUTPUT: {
+        "query": get_sql_file("FPI_OUTPUT.sql"),
+        "mapper": fpi_output_mapper
     },
     QUERY_TYPES.DID_NOT_REPORT: {
         2019: {
