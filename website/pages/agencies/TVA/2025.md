@@ -1,7 +1,7 @@
 ---
 Agency: TVA
 Agency_Name: Tennessee Valley Authority
-Confirmed_Fraud: null
+Confirmed_Fraud: 0.403
 Eligibility_Themes: []
 Fiscal_Year: 2025
 Hide_Disposition_of_Funds: false

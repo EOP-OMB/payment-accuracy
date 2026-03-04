@@ -2,7 +2,7 @@
 Agency: MUSP
 Agency_Name: Morris K. Udall Scholarship and Excellence in National Environmental
   Policy Foundation
-Confirmed_Fraud: null
+Confirmed_Fraud: 0.0
 Eligibility_Themes: []
 Fiscal_Year: 2025
 Hide_Disposition_of_Funds: true

@@ -1,7 +1,7 @@
 ---
 Agency: DOE
 Agency_Name: Department of Energy
-Confirmed_Fraud: null
+Confirmed_Fraud: 20.04
 Eligibility_Themes: []
 Fiscal_Year: 2025
 Hide_Disposition_of_Funds: true

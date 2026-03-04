@@ -660,6 +660,27 @@ Data_By_Year:
     Theme_Description: Identifies whether a person is sick/healthy
   - Theme: Military Status
     Theme_Description: The condition of being, or having been in the uniformed services
+  - Theme: Other
+    Theme_Description: "Yes to All, AND Other - The tenant file contains evidence\
+      \ of the tenant's eligibility in the program. In addition to the data reflected\
+      \ on this list, the following information would have helped prevent \nimproper\
+      \ payments:\nIncome data (e.g., from W-2 and 1099)\n1099 reporting from the\
+      \ Department of the Treasury, including legal entity name and Taxpayer Identification\
+      \ Number (TIN) for 1099 reporting \nSocial Security Number (SSN) verification,\
+      \ including the issue date and the individualâ\x80\x99s name, from the Social\
+      \ Security Administration to each tenant\nSupplemental Nutrition Assistance\
+      \ Program (SNAP) benefits and other relevant data from the Department of Agriculture\
+      \ (USDA)\nTemporary Assistance for Needy Families (TANF) and Tribal TANF benefits\
+      \ and other relevant data from the Department of Health and Human Services (HHS)\n\
+      Child Support payments and benefits data from HHS\nVeteran benefits information\
+      \ from the Department of Veterans Affairs (VA)\nDebts due to the federal government\
+      \ from the Department of the Treasury \nSpending patterns of tenants\nImmigration\
+      \ and U.S. citizenship information from the Department of Homeland Security,\
+      \ U.S. Citizenship and Immigration Services (USCIS) Systematic Alien Verification\
+      \ Entitlements (SAVE) \n\nWith direct access to the tenant file and other supporting\
+      \ information, HUD would be able to validate the housing assistance subsidy\
+      \ and tenant eligibility, confirm payment eligibility prior to payment, and\
+      \ ultimately better prevent improper payments.\n"
   - Theme: Prisoner Status
     Theme_Description: Eligibility for benefits or payment based on prisoner status
   - Theme: Receiving Benefits from Other Sources
