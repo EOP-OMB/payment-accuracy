@@ -608,6 +608,8 @@ Data_By_Year:
   - Theme: Financial
     Theme_Description: The financial position or status of a beneficiary, recipient,
       or their family
+  - Theme: Other
+    Theme_Description: fail to properly determine eligibility
   overpayments:
     Data_Needed_Does_Not_Exist: 0.0
     Failure_to_Access_Data: 17.133

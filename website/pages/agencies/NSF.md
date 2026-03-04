@@ -1,7 +1,7 @@
 ---
 Agency: NSF
 Agency_Name: National Science Foundation
-Confirmed_Fraud: null
+Confirmed_Fraud: 2.32
 Eligibility_Themes: []
 Fiscal_Year: 2025
 Hide_Disposition_of_Funds: true

@@ -1,7 +1,7 @@
 ---
 Agency: HHS
 Agency_Name: Department of Health and Human Services
-Confirmed_Fraud: 3510
+Confirmed_Fraud: 3510.0
 Eligibility_Themes: []
 Fiscal_Year: 2025
 Hide_Disposition_of_Funds: false

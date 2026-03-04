@@ -1,7 +1,7 @@
 ---
 Agency: DOC
 Agency_Name: Department of Commerce
-Confirmed_Fraud: null
+Confirmed_Fraud: 1.0
 Eligibility_Themes: []
 Fiscal_Year: 2025
 Hide_Disposition_of_Funds: true

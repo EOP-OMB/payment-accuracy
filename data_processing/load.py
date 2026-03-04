@@ -3,6 +3,7 @@ Creates markdown files for static site generation.
 """
 
 import config
+import csv
 from itertools import groupby
 from operator import itemgetter
 from collections import defaultdict
@@ -28,6 +29,7 @@ SHARED_DATA_PATH = os.path.join(SHARED_DATA_DIR, "shared.yml")
 CONGRESSIONAL_REPORTS_SHARED_DATA_PATH = os.path.join(SHARED_DATA_DIR, "congressional_reports.yml")
 AGENCY_DATA_POINTS_FILE_PATH = os.path.join(WEBSITE_DIR, "data", "agency_data_points.json")
 DB_FULL_PATH = os.path.join(BASE_DIR, DB_FILE_PATH)
+FPI_OUTPUT_FILE = os.path.join(WEBSITE_DIR, "assets", "files", "improper-payment-program-mapping.csv")
 
 def generate_home_page(cursor: sqlite3.Cursor):
     """
@@ -120,7 +122,6 @@ def generate_agency_specific_pages_for_year(cursor: sqlite3.Cursor, year):
             "Agency": agency["Agency"],
             "Agency_Name": agency["Agency_Name"],
             "Fiscal_Year": agency["Fiscal_Year"],
-            "Confirmed_Fraud": agency["Confirmed_Fraud"],
             "layout": "agency-specific",
             "Years_Available": list(map(lambda x: x["Fiscal_Year"], yearsAvailable)),
             "Is_Placeholder": False
@@ -133,6 +134,13 @@ def generate_agency_specific_pages_for_year(cursor: sqlite3.Cursor, year):
         for detail in details.values():
             key = "detail_" + detail["Name"]
             agencyObj[key] = detail["value"]
+
+        # use aggregated programs data, unless an agency-specific survey answer was provided
+        agencyObj["Confirmed_Fraud"] = agency["Confirmed_Fraud"]
+        if "detail_Confirmed_Fraud" in agencyObj:
+            if agencyObj["detail_Confirmed_Fraud"] is not None:
+                agencyObj["Confirmed_Fraud"] = float(agencyObj["detail_Confirmed_Fraud"])
+            del agencyObj["detail_Confirmed_Fraud"]
 
         recoveryDetails = query.fetch_all(cursor, query.QUERY_TYPES.PAYMENT_RECOVERY_DETAILS, (year, agency["Agency"]), year)
 
@@ -1019,6 +1027,24 @@ def generate_congressional_shared_data(yearsToGenerate, agencyNameRowsLookup, ag
         yaml.dump(yamlData, file, allow_unicode=True)
         file.write('---\n')
 
+def generate_fpi_output_file(cursor):
+    with open(FPI_OUTPUT_FILE, 'w', encoding='utf-8') as file:
+        fpi_output_rows = query.fetch_all(
+            cursor,
+            query.QUERY_TYPES.FPI_OUTPUT,
+            (config.FISCAL_YEAR,)
+        )
+        csv_writer = csv.writer(file)
+        headers = fpi_output_rows[0].keys()
+        csv_writer.writerow(headers)
+        for row in fpi_output_rows:
+            csv_writer.writerow([
+                str(('' if val is None else val))
+                for val in row.values()
+            ])
+
+    print("Successfully generated fpi output file")
+
 def main():
     try:
         conn = sqlite3.connect(DB_FULL_PATH)
@@ -1032,6 +1058,7 @@ def main():
         generate_placeholder_agency_specific_pages(cursor)
         generate_congressional_reports_pages(cursor)
         generate_program_specific_pages(cursor)
+        generate_fpi_output_file(cursor)
 
     except sqlite3.Error as e:
         print(f"Database error occurred: {e}")

@@ -769,6 +769,12 @@ Data_By_Year:
   detail_Overpayments_Due_To_Failure: '66.3'
   detail_Overpayments_Due_To_Inability: '0.0'
   detail_Reduction_Target: '0.0'
+  eligibility_aggregated:
+  - Theme: Other
+    Theme_Description: Additional data/information would not have helped prevent the
+      improper payments because improper payments stemmed largely from state-level
+      administrative errors related to case classification, eligibility determination,
+      and payment processing.
   overpayments:
     Data_Needed_Does_Not_Exist: 0.0
     Failure_to_Access_Data: 66.3

@@ -23,7 +23,8 @@ WITH [key_map]([Key],[Name]) AS (
 		('cap5','OIG_Recommendations'),
 		('agy1','Additional_IP_Information'),
         ('raa8','Risks_Substantial_Changes_Made'),
-        ('raa9','Risks_Additional_Information')
+        ('raa9','Risks_Additional_Information'),
+		('fra5','Confirmed_Fraud')
 	) AS temp_table
 )
 SELECT

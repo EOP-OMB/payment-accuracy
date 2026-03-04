@@ -1,7 +1,7 @@
 ---
 Agency: DOT
 Agency_Name: Department of Transportation
-Confirmed_Fraud: 0
+Confirmed_Fraud: 0.0
 Eligibility_Themes: []
 Fiscal_Year: 2025
 Hide_Disposition_of_Funds: false

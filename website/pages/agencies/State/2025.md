@@ -1,7 +1,7 @@
 ---
 Agency: STATE
 Agency_Name: Department of State
-Confirmed_Fraud: null
+Confirmed_Fraud: 36.363427
 Eligibility_Themes: []
 Fiscal_Year: 2025
 Hide_Disposition_of_Funds: false
