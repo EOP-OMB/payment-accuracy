@@ -807,9 +807,6 @@ Scorecard_Links:
 - Link: assets/scorecards/Q4 2024/Administration for Children and Families - (ACF)
     Head Start.pdf
   QuarterYear: Q4 2024
-- Link: assets/scorecards/Q2 2025/Administration for Children and Families (ACF) -
-    Head Start.pdf
-  QuarterYear: Q2 2025
 Technically_Improper_Amounts: '[0, 364.73, 188.38]'
 Underpayment_Amounts: '[9.97, 9.19, 5.47]'
 Unknown_Amounts: '[355.59, 933.24, 1010.33]'
