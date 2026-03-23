@@ -462,47 +462,31 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
-- Agency_Needs_Satisfied: "The agency has many of the essential components needed\
-    \ to reduce improper payments and unknown payments. While HUD made remarkable\
-    \ strides in fiscal year (FY) 2025, significant issues still remain and enhancements\
-    \ in human capital, information systems, and infrastructure are needed to continue\
-    \ to improve payment integrity. HUD launched Project Voucher, a whole-of-agency\
-    \ transformation effort to improve the integrity and efficiency of its rental\
-    \ assistance programs. The initiative aims to eliminate fraud, waste, and abuse,\
-    \ maximize resources, and ensure responsible stewardship of taxpayer dollars,\
-    \ while establishing greater visibility and traceability in rental assistance\
-    \ payments. This initiative would enable improved collection, management, and\
-    \ assessment of critical tenant eligibility information and documentation, such\
-    \ as proof of identify, housing, income, assets, applicable income deductions,\
-    \ and complete HUD forms for applicable participants. HUD is also conducting a\
-    \ study to confirm that its programs are using taxpayer dollars for the correct\
-    \ purpose. The study includes gathering data and information that links the impact\
-    \ of the taxpayer dollars spent for each program to the outcomes for people who\
-    \ benefit from HUD's programs related to affordable housing, poverty, and other\
-    \ measures. Together, these projects will aim to further reveal the additional\
-    \ internal controls, human capital, information systems, and other policy and\
-    \ infrastructure needs required to reduce improper and unknown payments. \n\n\
-    By strengthening these areas, the agency aims to achieve a level of reduction\
-    \ in unknown payments that justifies the associated expenditures. This approach\
-    \ ensures that the cost of implementing further controls do not exceed the savings\
-    \ gained from preventing or recovering improper payments. These projects represent\
-    \ a significant commitment to enhancing program integrity, preventing future payment\
-    \ errors, and ensuring federal funds are allocated to U.S. citizens and eligible\
-    \ non-citizens. \n\nThe Department is actively prioritizing resources to address\
-    \ payment integrity objectives under Project HUD Unified Grant System (HUGS) and\
-    \ Project Voucher. Project HUGS and Project Voucher are designed to deliver full\
-    \ transparency into the flow of HUD funds, tracing dollars from the Department\
-    \ all the way to the ultimate beneficiary, whether a family receiving rental assistance,\
-    \ a developer building affordable housing, or a nonprofit providing services.\
-    \ The end result of this effort is continuous financial monitoring that allows\
-    \ HUD to move beyond episodic reviews and instead embed accountability and financial\
-    \ best practices into day-to-day operations. By streamlining processes and integrating\
-    \ modern analytics, HUD will generate more timely and accurate financial reporting\
-    \ while strengthening its payment integrity program. Powered by machine learning\
-    \ and advanced analytics, this approach enables HUD to detect anomalies, predict\
-    \ risks, and proactively safeguard funds with a level of precision and scale not\
-    \ possible through manual oversight, ensuring that funds are used as intended.\n\
-    \n"
+- Agency_Needs_Satisfied: The agency has many of the essential components needed to
+    reduce improper payments and unknown payments. While HUD made remarkable strides
+    in fiscal year (FY) 2025, significant issues still remain and enhancements in
+    human capital, information systems, and infrastructure are needed to continue
+    to improve payment integrity. HUD launched Project Voucher, a whole-of-agency
+    transformation effort to improve the integrity and efficiency of its rental assistance
+    programs. The initiative aims to eliminate fraud, waste, and abuse, maximize resources,
+    and ensure responsible stewardship of taxpayer dollars, while establishing greater
+    visibility and traceability in rental assistance payments. This initiative would
+    enable improved collection, management, and assessment of critical tenant eligibility
+    information and documentation, such as proof of identify, housing, income, assets,
+    applicable income deductions, and complete HUD forms for applicable participants.
+    HUD is also conducting a study to confirm that its programs are using taxpayer
+    dollars for the correct purpose. The study includes gathering data and information
+    that links the impact of the taxpayer dollars spent for each program to the outcomes
+    for people who benefit from HUD's programs related to affordable housing, poverty,
+    and other measures. Together, these projects will aim to further reveal the additional
+    internal controls, human capital, information systems, and other policy and infrastructure
+    needs required to reduce improper and unknown payments. By strengthening these
+    areas, the agency aims to achieve a level of reduction in unknown payments that
+    justifies the associated expenditures. This approach ensures that the cost of
+    implementing further controls do not exceed the savings gained from preventing
+    or recovering improper payments. These projects represent a significant commitment
+    to enhancing program integrity, preventing future payment errors, and ensuring
+    federal funds are allocated to U.S. citizens and eligible non-citizens.
   Confidence_Level: There is no confidence level associated with the estimate
   Corrective_Actions_Adequacy_Association_Implementation: "Optimizing the use of its\
     \ resources to effectively prioritize and implement corrective actions reflects\
@@ -542,7 +526,7 @@ Data_By_Year:
     \ \n"
   Corrective_Actions_Appropriateness: "To address the causes of unknown payments and\
     \ prevent future unknown payments, a series of corrective actions have been taken\
-    \ and planned for fiscal year (FY) 2026. \n\nIn FY 2025, HUD introduced innovative\
+    \ and planned for fiscal year (FY) 2026. \nIn FY 2025, HUD introduced innovative\
     \ methods and advanced analytics to evaluate tenant and recipient records. This\
     \ approach allowed HUD to analyze millions of payment records from FY 2024, rather\
     \ than relying on traditional sampling of just a few hundred records. As a result,\
@@ -550,10 +534,10 @@ Data_By_Year:
     \ problematic records and estimating payments errors. This analytical strategy\
     \ enables HUD to detect eligibility and payment errors more effectively as well\
     \ as address the disbursement of funding design and complex eligibility and program\
-    \ requirements, which increases the risk of payment errors.\n\nFor the first time,\
+    \ requirements, which increases the risk of payment errors.\nFor the first time,\
     \ HUD evaluated all tenant records across the rental assistance programs, uncovering\
     \ eligibility issue  totaling  billions in unknown Project-Based Rental Assistance\
-    \ (PBRA) payments. \n\nHUD immediately took action to remediate these findings.\
+    \ (PBRA) payments. \nHUD immediately took action to remediate these findings.\
     \ During FY 2025 the Office of Multifamily Housing strengthened controls with\
     \ pre-award verifications to improve SAM.gov registration status, ensuring that\
     \ funds were not paid to ineligible entities. HUD also reestablished its Computer\
@@ -564,14 +548,14 @@ Data_By_Year:
     \ made on behalf of deceased tenants in FY 2024 under the PBRA program. Further,\
     \ the Office of Multifamily Housing is actively investigating the rest of the\
     \ $4.3 billion of unknown payments, to take corrective action and prevent further\
-    \ issues. \n\nThis year, HUD conducted its first collaboration with the Department\
+    \ issues. \nThis year, HUD conducted its first collaboration with the Department\
     \ of Homeland Security to identify potential ineligible non-citizens receiving\
     \ rental assistance in the Section 8 and Section 9 portfolio, including the Operating\
     \ Fund, Tenant-Based Rental Assistance and PBRA programs. A total of 8.8 million\
     \ tenant records were analyzed, confirming U.S. citizenship and non-citizen eligibility\
     \ for 8.6 million citizen and non-citizen eligible tenants. The analysis of the\
     \ records indicates that thousands of ineligible non-citizens are potentially\
-    \ receiving assistance under the programs. \n\nHUD also launched Project Voucher,\
+    \ receiving assistance under the programs. \nHUD also launched Project Voucher,\
     \ a whole-of-agency transformation effort to improve the integrity and efficiency\
     \ of its rental assistance programs. The initiative aims to eliminate fraud, waste,\
     \ and abuse, maximize resources, and ensure responsible stewardship of taxpayer\
@@ -583,18 +567,18 @@ Data_By_Year:
     \ to affordable housing, poverty, and other measures. HUD's comprehensive reviews,\
     \ Project Voucher, and research efforts represent a significant commitment to\
     \ enhance program integrity, prevent future payment errors, and ensure federal\
-    \ funds are allocated to those who genuinely need assistance. \n\nIn FY 2026,\
-    \ HUD plans to continue the progress made in FY 2025. By increasing its use of\
-    \ automation tools designed to identify SAM.gov registrations expired or soon\
-    \ to be expired, prior to processing payments, HUD aims to further reduce the\
-    \ risk of payments being made to ineligible entities. Additionally, performing\
-    \ near-real-time eligibility verification through the Treasury Do Not Pay verification\
-    \ portal will enhance HUD’s ability to reduce fraud and prevent improper payments.\
-    \ With Project Voucher and HUD’s research efforts, HUD is paving the way for a\
-    \ more accountable and transparent rental assistance system. Ultimately, the greater\
-    \ visibility into the unknown payments has enabled HUD to begin to design technology,\
-    \ process, and policy improvements that will strengthen its payment integrity\
-    \ programs in the long-run. \n\n\n"
+    \ funds are allocated to those who genuinely need assistance. \nIn FY 2026, HUD\
+    \ plans to continue the progress made in FY 2025. By increasing its use of automation\
+    \ tools designed to identify SAM.gov registrations expired or soon to be expired,\
+    \ prior to processing payments, HUD aims to further reduce the risk of payments\
+    \ being made to ineligible entities. Additionally, performing near-real-time eligibility\
+    \ verification through the Treasury Do Not Pay verification portal will enhance\
+    \ HUD’s ability to reduce fraud and prevent improper payments. With Project Voucher\
+    \ and HUD’s research efforts, HUD is paving the way for a more accountable and\
+    \ transparent rental assistance system. Ultimately, the greater visibility into\
+    \ the unknown payments has enabled HUD to begin to design technology, process,\
+    \ and policy improvements that will strengthen its payment integrity programs\
+    \ in the long-run."
   Corrective_Actions_Proportion: "The planned and completed actions in the corrective\
     \ action plan are strategically designed to address the root causes of HUD's unknown\
     \ payments, reflecting a proportional response to the severity of these issues.\
