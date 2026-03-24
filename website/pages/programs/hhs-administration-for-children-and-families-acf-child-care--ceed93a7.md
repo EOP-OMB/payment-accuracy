@@ -918,6 +918,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q1 2025/Administration for Children and Families (ACF) -
     Child Care and Development Fund.pdf
   QuarterYear: Q1 2025
+- Link: assets/scorecards/Q2 2025/Administration for Children and Families (ACF) -
+    Child Care and Development Fund_updated.pdf
+  QuarterYear: Q2 2025
 - Link: assets/scorecards/Q3 2025/Administration for Children and Families (ACF) -
     Child Care and Development Fund.pdf
   QuarterYear: Q3 2025

@@ -333,28 +333,33 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Financial: 0.0
     Inability_to_Access_Data: 0.0
-- Agency_Needs_Satisfied: "In HUD’s Audit Management Systems (AMS), Headquarters’\
-    \ Primary Organization Heads (HPOHs) assign Program Office Management Points of\
-    \ Contact and Audit Liaison Officers to manage Single Audit Act (SAA) responsibilities.\
-    \ Assigned Program staff are responsible for developing and submitting management\
-    \ letters to auditees regarding resolution findings in their single audit report\
-    \ associated with an Assistance Listing Number (ALN) and working with auditees\
-    \ to ensure reports are submitted timely and findings are resolved. Audit Liaison\
-    \ Officers are responsible for approving the closure of findings where applicable.\
-    \ Audits are performed in accordance with the Single Audit Act (31 U.S.C. Chapter\
-    \ 75) and the Uniform Guidance audit requirements in 2 CFR Part 200, Subpart F,\
-    \ which govern how federal award recipients are evaluated by independent auditors.\
-    \ The submission, monitoring, and tracking of findings resulting from these audit\
-    \ reports are under the direct authority and responsibility of each applicable\
-    \ HPOH and are tracked in HUD's audit tracking system's SAA module. HUD’s Departmental\
-    \ Single Audit Act policy requires all program offices to use the SAA module for\
-    \ documenting and tracking Single Audit reviews. SAA audits can involve more than\
-    \ one program, agency, or State and local governments, etc. Entities receiving\
-    \ federal financial assistance may be required to have an audit performed in accordance\
-    \ with the SAA of 1984 as amended and the OMB Circular A-133. \n\nHUD also conducts\
-    \ program oversight through the Section Eight Management Assessment Program (SEMAP),\
-    \ a system used by HUD to measure the performance of Public Housing Agencies (PHAs)\
-    \ that administer the Housing Choice Voucher (HCV) Program.\n"
+- Agency_Needs_Satisfied: "The agency has many of the essential components needed\
+    \ to reduce improper payments and unknown payments. While HUD made remarkable\
+    \ strides in fiscal year (FY) 2025, significant issues still remain and enhancements\
+    \ in human capital, information systems, and infrastructure are needed to continue\
+    \ to improve payment integrity. HUD launched Project Voucher, a whole-of-agency\
+    \ transformation effort to improve the integrity and efficiency of its rental\
+    \ assistance programs. The initiative aims to eliminate fraud, waste, and abuse,\
+    \ maximize resources, and ensure responsible stewardship of taxpayer dollars,\
+    \ while establishing greater visibility and traceability in rental assistance\
+    \ payments. This initiative would enable improved collection, management, and\
+    \ assessment of critical tenant eligibility information and documentation, such\
+    \ as proof of identify, housing, income, assets, applicable income deductions,\
+    \ and complete HUD forms for applicable participants. HUD is also conducting a\
+    \ study to confirm that its programs are using taxpayer dollars for the correct\
+    \ purpose. The study includes gathering data and information that links the impact\
+    \ of the taxpayer dollars spent for each program to the outcomes for people who\
+    \ benefit from HUD's programs related to affordable housing, poverty, and other\
+    \ measures. Together, these projects will aim to further reveal the additional\
+    \ internal controls, human capital, information systems, and other policy and\
+    \ infrastructure needs required to reduce improper and unknown payments. \nBy\
+    \ strengthening these areas, the agency aims to achieve a level of reduction in\
+    \ unknown payments that justifies the associated expenditures. This approach ensures\
+    \ that the cost of implementing further controls do not exceed the savings gained\
+    \ from preventing or recovering improper payments. These projects represent a\
+    \ significant commitment to enhancing program integrity, preventing future payment\
+    \ errors, and ensuring federal funds are allocated to U.S. citizens and eligible\
+    \ non-citizens."
   Confidence_Level: There is no confidence level associated with the estimate
   Corrective_Actions_Adequacy_Association_Implementation: "Optimizing the use of its\
     \ resources to effectively prioritize and implement corrective actions reflects\
@@ -392,89 +397,67 @@ Data_By_Year:
     \ As the agency continues to strengthen its oversight mechanisms, it underscores\
     \ a crucial message: integrity in housing assistance is paramount for deserving\
     \ communities across the nation. \n"
-  Corrective_Actions_Appropriateness: "To address the causes of unknown payments and\
-    \ prevent future unknown payments, a series of corrective actions have been taken\
-    \ and planned for fiscal year (FY) 2026. \n\nIn FY 2025 HUD introduced innovative\
-    \ methods and advanced analytics to evaluate tenant and recipient records. This\
-    \ approach allowed HUD to analyze millions of payment records from FY 2024, rather\
-    \ than relying on traditional sampling of just a few hundred records. As a result,\
-    \ HUD gained greater insights into potential risks and issues while identifying\
-    \ problematic records and estimating payments errors. This analytical strategy\
-    \ enables HUD to detect eligibility and payment errors more effectively as well\
-    \ as address the disbursement of funding design and complex eligibility and program\
-    \ requirements, which increases the risk of payment errors. \n\nFor the first\
-    \ time, HUD evaluated all tenant records across the rental assistance programs,\
-    \ uncovering eligibility issue  totaling  billions in unknown Tenant-Based Rental\
-    \ Assistance (TBRA) payments.\n\nHUD immediately took action to remediate these\
-    \ findings. During FY 2025 the Office of Public and Indian Housing (PIH) strengthened\
-    \ controls with pre-award verifications to improve SAM.gov registration status,\
-    \ ensuring that funds were not paid to ineligible entities. HUD also reestablished\
-    \ its Computer Matching Agreement with the Department of the Treasury as of May\
-    \ 1, 2025, and is working to enable near-real-time eligibility verification through\
-    \ the Treasury Do Not Pay verification portal. HUD already realized the benefits\
-    \ of Treasury’s Do Not Pay databases, referencing the databases to flag over $69\
-    \ million in payments made on behalf of deceased tenants in FY 2024 under the\
-    \ TBRA program. Further, PIH is actively investigating the approximately $1.5\
-    \ billion of unknown payments to take corrective action and prevent further issues.\
-    \ \n\nThis year, HUD conducted its first collaboration with the Department of\
-    \ Homeland Security to identify potential ineligible non-citizens receiving rental\
-    \ assistance in the Section 8 and Section 9 portfolio, including the Operating\
-    \ Fund, TBRA and PBRA programs. A total of 8.8 million tenant records were analyzed,\
-    \ confirming U.S. citizenship and non-citizen eligibility for 8.6 million citizen\
-    \ and non-citizen eligible tenants. The analysis of the records indicates that\
-    \ thousands of ineligible non-citizens are potentially receiving assistance under\
-    \ the programs. \n\nThe OCFO established the Strike Force to enhance efforts in\
-    \ eliminating fraud, corruption, and immigration violations within Public Housing\
-    \ Agencies (PHAs) as mandated by new regulations. To fulfill these mandates, the\
-    \ Strike Force utilizes publicly available information, compiles data from across\
-    \ HUD and identifies potential risk factors associated with PHAs and their personnel.\
-    \ This analysis enables the team to compile detailed, preliminary risk assessments\
-    \ and intelligence reports and present them to the appropriate law enforcement\
-    \ agency, expediting the detection and resolution of possible misconduct. \n\n\
-    HUD also launched Project Voucher, a whole-of-agency transformation effort to\
-    \ improve the integrity and efficiency of its rental assistance programs. The\
-    \ initiative aims to eliminate fraud, waste, and abuse, maximize resources, and\
-    \ ensure responsible stewardship of taxpayer dollars, while establishing greater\
-    \ visibility and traceability in rental assistance payments. Additionally, HUD\
-    \ is conducting a study to confirm that its programs are using taxpayer dollars\
-    \ for the correct purpose. The study includes gathering data and information that\
-    \ links the impact of the taxpayer dollars spent for each program to the outcomes\
-    \ for people who benefit from HUD's programs related to affordable housing, poverty,\
-    \ and other measures. HUD's comprehensive reviews, Project Voucher, and research\
-    \ efforts represent a significant commitment to enhance program integrity, prevent\
-    \ future payment errors, and ensure federal funds are allocated to those who genuinely\
-    \ need assistance. \n\nIn FY 2026, HUD plans to continue the progress made in\
-    \ FY 2025. By increasing its use of automation tools designed to identify SAM.gov\
-    \ registrations expired or soon to be expired, prior to processing payments, HUD\
-    \ aims to further reduce the risk of payments being made to ineligible entities.\
-    \ Additionally, performing near-real-time eligibility verification through the\
-    \ Treasury Do Not Pay verification portal will enhance HUD’s ability to reduce\
-    \ fraud and prevent improper payments. With Project Voucher and research efforts,\
-    \ HUD is paving the way for a more accountable and transparent rental assistance\
-    \ system. Further, Strike Force investigations will aim to reveal opportunities\
-    \ for greater accountability across PHAs. Ultimately, the greater visibility into\
-    \ the unknown payments has enabled HUD to begin to design technology, process,\
-    \ and policy improvements that will strengthen its payment integrity programs\
-    \ in the long-run. \nThe planned and completed actions in the corrective action\
-    \ plan are strategically designed to address the root causes of HUD's unknown\
-    \ payments, reflecting a proportional response to the severity of these issues.\
-    \ For example, the Office of Public and Indian Housing strengthened controls with\
-    \ pre-award verifications to improve SAM.gov registration status, ensuring that\
-    \ funds were not paid to ineligible entities. Additionally, performing near-real-time\
-    \ eligibility verification through the Treasury Do Not Pay verification portal\
-    \ will enhance HUD’s ability to reduce fraud and prevent improper payments. For\
-    \ example, the insights gained from Do Not Pay have enabled HUD to investigate\
-    \ $69 million of unknown payments made on behalf of deceased tenants. The Office\
-    \ of the Chief Financial Officer (OCFO) established the Strike Force to enhance\
-    \ efforts in eliminating fraud, corruption, and immigration violations within\
-    \ Public Housing Agencies (PHAs) as mandated by new regulations. The agency’s\
-    \ Project Voucher transformation effort also aims to bring greater visibility\
-    \ and traceability in rental assistance payments. \n\nOverall, greater collaboration\
-    \ and visibility into payment and tenant data enables HUD to comprehensively identify\
-    \ unknown payments and generate targeted remediation strategies to address the\
-    \ severity of the issues identified. This multifaceted strategy not only aims\
-    \ to rectify existing problems identified from payments made in FY 2024 but also\
-    \ establishes mechanisms for preventing future occurrences.\n"
+  Corrective_Actions_Appropriateness: To address the causes of unknown payments and
+    prevent future unknown payments, a series of corrective actions have been taken
+    and planned for fiscal year (FY) 2026. In FY 2025 HUD introduced innovative methods
+    and advanced analytics to evaluate tenant and recipient records. This approach
+    allowed HUD to analyze millions of payment records from FY 2024, rather than relying
+    on traditional sampling of just a few hundred records. As a result, HUD gained
+    greater insights into potential risks and issues while identifying problematic
+    records and estimating payments errors. This analytical strategy enables HUD to
+    detect eligibility and payment errors more effectively as well as address the
+    disbursement of funding design and complex eligibility and program requirements,
+    which increases the risk of payment errors. For the first time, HUD evaluated
+    all tenant records across the rental assistance programs, uncovering eligibility
+    issue totaling billions in unknown Tenant-Based Rental Assistance (TBRA) payments.
+    HUD immediately took action to remediate these findings. During FY 2025 the Office
+    of Public and Indian Housing (PIH) strengthened controls with pre-award verifications
+    to improve SAM.gov registration status, ensuring that funds were not paid to ineligible
+    entities. HUD also reestablished its Computer Matching Agreement with the Department
+    of the Treasury as of May 1, 2025, and is working to enable near-real-time eligibility
+    verification through the Treasury Do Not Pay verification portal. HUD already
+    realized the benefits of Treasury’s Do Not Pay databases, referencing the databases
+    to flag over $69 million in payments made on behalf of deceased tenants in FY
+    2024 under the TBRA program. Further, PIH is actively investigating the approximately
+    $1.5 billion of unknown payments to take corrective action and prevent further
+    issues. This year, HUD conducted its first collaboration with the Department of
+    Homeland Security to identify potential ineligible non-citizens receiving rental
+    assistance in the Section 8 and Section 9 portfolio, including the Operating Fund,
+    TBRA and PBRA programs. A total of 8.8 million tenant records were analyzed, confirming
+    U.S. citizenship and non-citizen eligibility for 8.6 million citizen and non-citizen
+    eligible tenants. The analysis of the records indicates that thousands of ineligible
+    non-citizens are potentially receiving assistance under the programs. The OCFO
+    established the Strike Force to enhance efforts in eliminating fraud, corruption,
+    and immigration violations within Public Housing Agencies (PHAs) as mandated by
+    new regulations. To fulfill these mandates, the Strike Force utilizes publicly
+    available information, compiles data from across HUD and identifies potential
+    risk factors associated with PHAs and their personnel. This analysis enables the
+    team to compile detailed, preliminary risk assessments and intelligence reports
+    and present them to the appropriate law enforcement agency, expediting the detection
+    and resolution of possible misconduct. HUD also launched Project Voucher, a whole-of-agency
+    transformation effort to improve the integrity and efficiency of its rental assistance
+    programs. The initiative aims to eliminate fraud, waste, and abuse, maximize resources,
+    and ensure responsible stewardship of taxpayer dollars, while establishing greater
+    visibility and traceability in rental assistance payments. Additionally, HUD is
+    conducting a study to confirm that its programs are using taxpayer dollars for
+    the correct purpose. The study includes gathering data and information that links
+    the impact of the taxpayer dollars spent for each program to the outcomes for
+    people who benefit from HUD's programs related to affordable housing, poverty,
+    and other measures. HUD's comprehensive reviews, Project Voucher, and research
+    efforts represent a significant commitment to enhance program integrity, prevent
+    future payment errors, and ensure federal funds are allocated to those who genuinely
+    need assistance. In FY 2026, HUD plans to continue the progress made in FY 2025.
+    By increasing its use of automation tools designed to identify SAM.gov registrations
+    expired or soon to be expired, prior to processing payments, HUD aims to further
+    reduce the risk of payments being made to ineligible entities. Additionally, performing
+    near-real-time eligibility verification through the Treasury Do Not Pay verification
+    portal will enhance HUD’s ability to reduce fraud and prevent improper payments.
+    With Project Voucher and research efforts, HUD is paving the way for a more accountable
+    and transparent rental assistance system. Further, Strike Force investigations
+    will aim to reveal opportunities for greater accountability across PHAs. Ultimately,
+    the greater visibility into the unknown payments has enabled HUD to begin to design
+    technology, process, and policy improvements that will strengthen its payment
+    integrity programs in the long-run.
   Corrective_Actions_Proportion: "The planned and completed actions in the corrective\
     \ action plan are strategically designed to address the root causes of HUD's unknown\
     \ payments, reflecting a proportional response to the severity of these issues.\
