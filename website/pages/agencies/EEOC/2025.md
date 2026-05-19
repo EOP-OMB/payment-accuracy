@@ -208,6 +208,7 @@ detail_DNP_Discussion: The EEOC is cross-serviced by the Department of Interior,
   the match, determines if the payment is proper, and reports the result.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: In Fiscal Year (FY) 2025, the Equal Employment Opportunity
   Commission (EEOC) conducted Improper Payment Testing over its Transaction Universe

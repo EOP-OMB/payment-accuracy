@@ -238,6 +238,7 @@ detail_DNP_Discussion: The grants management office performs a check of recipien
   uploads vendor and payment records to DNP and end dates any records that have issues.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: NEH conducts risk assessments for all programs with outlays
   over $10M on an annual basis. The results of those assessments indicate NEH does

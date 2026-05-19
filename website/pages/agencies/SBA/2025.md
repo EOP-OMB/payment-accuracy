@@ -803,6 +803,7 @@ detail_DNP_Discussion: The Agency has implemented real-time API calls to DNP for
   performed by the Agency.
 detail_DNP_Frequency_Identify: Daily
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: "SBA has a robust payment integrity process that is constantly\
   \ evolving to respond to laws, regulations, executive orders, and the results of\

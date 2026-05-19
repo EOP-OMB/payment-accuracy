@@ -5337,6 +5337,7 @@ detail_DNP_Discussion: The Do Not Pay (DNP) portal implementation provides Treas
   listed above, the Customer Care accountant is notified to follow up with the customer.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: Treasury follows the rules of disposition of overpayments
   recovered with a recovery audit as outlined by OMB Circular A-123, Appendix C. Majority
   of the recovered amounts were returned to Treasury or returned to the original purpose.

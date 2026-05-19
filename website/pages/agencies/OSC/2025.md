@@ -72,6 +72,7 @@ detail_DNP_Discussion: My agency has run Do Not Pay reports, and since the agenc
   is so small, it has not had any instances where there was incorrect information.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: OSC is a small agency that maintains strong internal controls
   to ensure payment accuracy and integrity with its various vendors and partners,

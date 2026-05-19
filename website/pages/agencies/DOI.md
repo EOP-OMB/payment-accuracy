@@ -6933,6 +6933,7 @@ detail_DNP_Discussion: In FY 2025, the Department continued its close collaborat
   qualified to receive federal payments.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: The Payment Integrity Information Act of 2019 (PIIA), enacted
   on March 2, 2020 (P.L. 116-117), consolidated previous improper payment laws and

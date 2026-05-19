@@ -113,6 +113,7 @@ detail_DNP_Discussion: Our financial system shared service provider, Enterprise 
   does not exceed the obligated amount.
 detail_DNP_Frequency_Identify: Monthly
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: In review of the annual program appropriations threshold
   for risk assessment of improper payment, which is either $10 million or 1.5% of

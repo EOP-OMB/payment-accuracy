@@ -69,6 +69,7 @@ detail_DNP_Discussion: The Federal Maritime Commission incorporates the Do Not P
   proven effective in maintaining the Commission’s already low-risk payment environment.
 detail_DNP_Frequency_Identify: Annually
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: The amounts recovered through the Commission’s recovery
   audits were returned to the appropriate Treasury accounts and made available for
   authorized agency purposes in accordance with federal financial management requirements.

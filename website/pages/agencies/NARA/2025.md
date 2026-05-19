@@ -185,6 +185,7 @@ detail_DNP_Discussion: NARA's financial shared service provider, the Department 
   is taken. No NARA payments were reported to have been stopped by DNP in FY 2025.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: NARA’s Inspector General concluded that the agency was compliant
   with the Payment Integrity Information Act of 2019 (PIIA) in the most recent compliance

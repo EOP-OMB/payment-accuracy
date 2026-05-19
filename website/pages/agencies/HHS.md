@@ -7689,6 +7689,7 @@ detail_DNP_Discussion: HHS continues to use the Do Not Pay Working System to str
   payment integrity efforts.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: Recovered amounts are generally returned to the program
   accounts or trust funds from which the improper payments originated, ensuring the
   funds continue to support their intended purposes. In Medicare Fee-for-Service,

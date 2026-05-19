@@ -248,5 +248,5 @@ SurveyData:
 SurveyName: Actions to Recover Improper Payments
 layout: congressional-reports
 permalink: /resources/congressional-reports/2025_TREASURY_2
-title: Agency High-Priority Program Report
+title: Agency Annual High-Priority Program Report
 ---

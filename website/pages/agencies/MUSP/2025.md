@@ -106,6 +106,7 @@ detail_DNP_Discussion: We are in the process of working with our financial servi
   provider to reestablish use this program.
 detail_DNP_Frequency_Identify: null
 detail_DNP_Reduced: null
+detail_DNP_Used: 'No'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'The Morris K. Udall and Stewart L. Udall Foundation is
   a small federal agency with 24 full-time employees. Because of our size, we have

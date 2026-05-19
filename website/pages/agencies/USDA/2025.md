@@ -6070,6 +6070,7 @@ detail_DNP_Discussion: USDA used the Do Not Pay Portal data services and analyti
   account verification and death data sources.
 detail_DNP_Frequency_Identify: Quarterly
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'For Fiscal Year (FY) 2025, USDA had a total of 159 programs
   that were either in Phase 1 or Phase 2 category. The total number of programs decreased

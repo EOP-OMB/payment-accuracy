@@ -117,6 +117,7 @@ detail_DNP_Discussion: 'CSOSA and its financial system service provider, the Dep
   funds.'
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: CSOSA was compliant with the Payment Integrity Information
   Act of 2019 (PIIA). CSOSA maintains payment integrity through strong payment controls

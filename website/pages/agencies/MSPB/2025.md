@@ -76,6 +76,7 @@ detail_DNP_Discussion: The Do Not Pay system did not flag any improper payments 
   payment.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: MSPB is compliant with the Payment Integrity Information
   Act of 2019 and does not have any improper payments to report for this period. The

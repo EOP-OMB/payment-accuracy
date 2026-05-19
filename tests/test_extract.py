@@ -7,6 +7,7 @@ import csv
 import os
 import pandas as pd
 import pytest
+import re
 import sys
 from io import StringIO
 
@@ -63,6 +64,17 @@ def all_agencies_mapped(df, columnIndex, codes):
             print("Mapping error:  Agency code " + str(df.iloc[i, columnIndex]) + " not found!")
             return False
     return True
+
+def assert_alns_valid(df, columnIndex):
+    valid = True
+    # expect 2 characters, a dot, and then 3 digits
+    pattern = r"^..\.\d{3}$"
+    for i in range(df.shape[0]):
+        text = str(df.iloc[i, columnIndex])
+        if not re.fullmatch(pattern, text):
+            print("Invalid ALN error: " + text)
+            valid = False
+    assert valid
 
 def assert_no_duplicates(df, keysList):
     duplicates = df.groupby(keysList).filter(lambda x: len(x) > 1)
@@ -362,6 +374,7 @@ def test_FPIMapping(get_agency_codes):
     assert_has_rows(df)
     assert_column_count(df, 3)
     assert_column_count_is_consistent(path)
+    assert_alns_valid(df, 2)
     # spreadsheet contains duplicate entries - they will be ignored during transform
     assert_all_agencies_mapped(df, 0, get_agency_codes)
 

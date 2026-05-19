@@ -140,20 +140,20 @@ Agencies_Dropdown:
 Reports_Dropdown:
 - Id: '1'
   IsGovernmentWide: false
-  Name: Agency Risk Assessments Report
+  Name: Annual Risk Assessment Report
 - Id: '2'
   IsGovernmentWide: false
-  Name: Agency High-Priority Program Report
+  Name: Agency Annual High-Priority Program Report
 - Id: '3'
   IsGovernmentWide: false
-  Name: Improper Payment and Unknown Payment Estimation Report
+  Name: Annual Improper Payment Estimation Report
 - Id: '4'
   IsGovernmentWide: false
-  Name: Agency Actions to Reduce Improper Payments Report
+  Name: Annual Report on Actions to Reduce Improper Payments
 - Id: '5'
   IsGovernmentWide: false
-  Name: Agency Actions to Recover Improper Payments Identified in a Recovery Audit
-    Report
+  Name: Annual Report on Actions to Recover Improper Payments Identified in a Recovery
+    Audit
 - Id: '6'
   IsGovernmentWide: true
   Name: OMB Government Wide Improper Payment Report

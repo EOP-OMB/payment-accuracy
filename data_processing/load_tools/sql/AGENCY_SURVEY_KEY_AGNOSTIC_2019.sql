@@ -11,6 +11,7 @@ WITH [key_map]([Key],[Name]) AS (
 		('ara2_3_2','Recovery_Not_Cost_Effective_Programs'),
 		('ara2_3','Recovery_Not_Cost_Effective_Justification'),
 		('dis1','Disposition_of_Funds'),
+		('dpa1','DNP_Used'),
 		('dpa2','DNP_Reduced'),
 		('dpa3','DNP_Frequency_Identify'),
 		('dpa4','DNP_Frequency_Correction'),

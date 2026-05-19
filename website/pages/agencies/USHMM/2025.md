@@ -53,6 +53,7 @@ detail_DNP_Discussion: The Museum has been working with the Department of Treasu
   they are ready to resume.
 detail_DNP_Frequency_Identify: null
 detail_DNP_Reduced: null
+detail_DNP_Used: 'No'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: For the reporting period of Fiscal Year 2025, the United
   States Holocaust Memorial Museum has continued its commitment to minimizing improper

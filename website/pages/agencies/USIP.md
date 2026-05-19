@@ -69,6 +69,7 @@ detail_DNP_Discussion: USIP processes payments through our financial system thro
   GSA.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: For this reporting period, The US Institute of Peace (USIP)
   continued its commitment to safeguarding federal funds and ensuring payment accuracy

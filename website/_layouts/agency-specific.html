@@ -506,18 +506,22 @@ permalink: /
                             </h4>
                             <div id="accordion-1b" class="usa-accordion__content usa-prose">
                                 <p>{{ page.detail_DNP_Discussion | newline_to_br }}</p>
-                                <p><strong>The Working System has {% if page.detail_DNP_Reduced != 'Yes' %}not {% endif %}reduced/prevented improper payments:</strong></p>
-                                <p>
-                                    {% assign detail_DNP_Frequency_Identify_downcase = page.detail_DNP_Frequency_Identify | downcase %}
-                                    {% if detail_DNP_Frequency_Identify_downcase == 'my agency did not identify any incorrect information' %}
-                                        {{page.Agency}} has not identitied incorrect information in the Working System.
-                                    {% else %}
-                                        The Working System strives to maintain accurate data.  However, the past year, {{page.Agency}} has identified incorrect information in the Working System {{ page.detail_DNP_Frequency_Identify }}.
-                                        {% if page.detail_DNP_Frequency_Correction != nil %}
-                                            Corrections were made to incorrect information that {{ page.Agency }} identified in the Working System {{ page.detail_DNP_Frequency_Correction }}.
+                                {% assign detail_DNP_Used = page.detail_DNP_Used | downcase %}
+                                {% if detail_DNP_Used == 'yes' %}
+                                    {% assign detail_DNP_Reduced = page.detail_DNP_Reduced | downcase %}
+                                    <p><strong>The Working System has {% if detail_DNP_Reduced != 'yes' %}not {% endif %}reduced/prevented improper payments:</strong></p>
+                                    <p>
+                                        {% assign detail_DNP_Frequency_Identify_downcase = page.detail_DNP_Frequency_Identify | downcase %}
+                                        {% if detail_DNP_Frequency_Identify_downcase == 'my agency did not identify any incorrect information' %}
+                                            {{page.Agency}} has not identitied incorrect information in the Working System.
+                                        {% else %}
+                                            The Working System strives to maintain accurate data.  However, the past year, {{page.Agency}} has identified incorrect information in the Working System {{ page.detail_DNP_Frequency_Identify }}.
+                                            {% if page.detail_DNP_Frequency_Correction != nil %}
+                                                Corrections were made to incorrect information that {{ page.Agency }} identified in the Working System {{ page.detail_DNP_Frequency_Correction }}.
+                                            {% endif %}
                                         {% endif %}
-                                    {% endif %}
-                                </p>
+                                    </p>
+                                {% endif %}
                             </div>
                         </div>
                     {% endunless %}

@@ -136,6 +136,7 @@ detail_DNP_Discussion: 'We have determined that our current business processes, 
   '
 detail_DNP_Frequency_Identify: Monthly
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: The RRB has benefit paying and non-benefit paying programs
   with outlays over $10M. The benefit paying programs consist of railroad retirement
