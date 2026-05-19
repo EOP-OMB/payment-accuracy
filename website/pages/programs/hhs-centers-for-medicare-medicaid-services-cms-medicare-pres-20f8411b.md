@@ -751,7 +751,7 @@ Scorecard_Links:
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[682.75, 37.87, 1019.84, 522.44, 522.61]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'
-fpi_link: https://fpi.omb.gov/program/93.77
+fpi_link: https://fpi.omb.gov/program/93.770
 layout: program-specific
 permalink: program/hhs-centers-for-medicare-medicaid-services-cms-medicare-pres-20f8411b
 ---

@@ -479,19 +479,6 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Mine Health and Safety and Safety Counseling and Technical Assistance
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
   Name: Mine Safety and Health Administration
 - Compliant_1A: true
   Compliant_1B: true
@@ -506,6 +493,20 @@ PIIA2019_Compliant_Programs:
   Compliant_Overall: true
   Hide_Compliance_Section: true
   Name: Mine Safety and Health Administration - Brookwood-Sago Grant
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Mine Safety and Health Administration - Mine Health and Safety Counseling
+    and Technical Assistance
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -977,11 +978,6 @@ Risks:
     Program_Name: International Labor Affairs Bureau
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2022'
-    MethodologyChanged: 0
-    Program_Name: Mine Health and Safety and Safety Counseling and Technical Assistance
-    Slug: null
-    Susceptible: 'No'
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Mine Safety and Health Administration
@@ -992,6 +988,12 @@ Risks:
     Program_Name: Mine Safety and Health Administration - Brookwood-Sago Grant
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Mine Safety and Health Administration - Mine Health and Safety Counseling
+      and Technical Assistance
+    Slug: null
+    Susceptible: null
   - Fiscal_Year: '2022'
     MethodologyChanged: 0
     Program_Name: Mine Safety and Health Administration - Mine Health and Safety Project
@@ -1040,7 +1042,7 @@ Risks:
     Program_Name: Office of Labor-Management Standards
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2022'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Office of Workers' Compensation - Coal Mine Workers' Compensation
     Slug: null
@@ -1057,7 +1059,7 @@ Risks:
       Act
     Slug: dol-office-of-workers-compensation-federal-employees-compens-3801803f
     Susceptible: 'Yes'
-  - Fiscal_Year: '2022'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Office of Workers' Compensation - Longshore and Harbor Workers Compensation
     Slug: null
@@ -1096,7 +1098,7 @@ Risks:
       Technical Assistance
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Women's Bureau
     Slug: null
@@ -1153,6 +1155,7 @@ detail_DNP_Discussion: "DOL programs conduct pre-payment reviews against databas
   \ implement adjudication of those matches. \n"
 detail_DNP_Frequency_Identify: Quarterly
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: At DOL, only the UI program has determined that a recovery
   audit program is cost effective. Any Federal UC funds are returned to Treasury for
   use as required by law. Any state UI dollars recovered are returned to state UI

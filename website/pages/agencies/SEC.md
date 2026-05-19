@@ -179,6 +179,7 @@ detail_DNP_Discussion: 'The SEC utilizes the Do Not Pay (DNP) Initiative by eval
   improper in order to research and request return of a payment, if needed.'
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: The SEC assesses its payment integrity in a number of ways
   each fiscal year. During FY2025, the agency conducted internal controls activities

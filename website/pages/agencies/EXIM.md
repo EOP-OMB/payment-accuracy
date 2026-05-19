@@ -135,6 +135,7 @@ detail_DNP_Discussion: EXIM complies with all aspects of the Do Not Pay Initiati
   and the System for Award Management (SAM) exclusion records.
 detail_DNP_Frequency_Identify: null
 detail_DNP_Reduced: null
+detail_DNP_Used: 'No'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'The Payment Integrity Information Act of 2019 (PIIA) requires
   agencies to review and assess all programs and activities they administer and identify

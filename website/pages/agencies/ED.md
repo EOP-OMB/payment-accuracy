@@ -2373,6 +2373,7 @@ detail_DNP_Discussion: The Department of Education utilizes the Treasury's Do No
   from occurring.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: "Federal Student Aid's (FSA’s) Federal Pell Grant (Pell)\
   \ and William D. Ford Direct Loan (Direct Loan) programs are considered Phase 2\

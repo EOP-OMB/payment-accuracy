@@ -102,6 +102,7 @@ detail_DNP_Discussion: "The Do Not Pay (DNP) solution is a governmentwide initia
   \ any improper payments for the Commission."
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: "On March 2, 2020, the Payment Integrity Information Act\
   \ of 2019 (PIIA) repealed the Improper Payments Information Act of 2002 (IPIA),\

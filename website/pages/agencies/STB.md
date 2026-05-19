@@ -75,6 +75,7 @@ detail_DNP_Discussion: The agency submitted a SORN for its payment request manag
   potential issuances of payments that are improper.
 detail_DNP_Frequency_Identify: null
 detail_DNP_Reduced: null
+detail_DNP_Used: 'No'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'The STB does not maintain its own financial management
   system but uses a shared service provider, ESC, to process all accounting transactions

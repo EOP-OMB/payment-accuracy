@@ -960,5 +960,5 @@ Requirements:
   Type: REGULAR
 layout: congressional-reports
 permalink: /resources/congressional-reports/2023_TREASURY_4
-title: Agency Actions to Reduce Improper Payments Report
+title: Annual Report on Actions to Reduce Improper Payments
 ---

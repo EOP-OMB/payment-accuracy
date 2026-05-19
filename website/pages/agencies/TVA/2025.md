@@ -112,6 +112,7 @@ detail_DNP_Discussion: The Tennessee Valley Authority currently does not utilize
   Do Not Pay Initiative as part of its processes.
 detail_DNP_Frequency_Identify: null
 detail_DNP_Reduced: null
+detail_DNP_Used: 'No'
 detail_Disposition_of_Funds: For the amounts originating from projects or accounts
   that have since been closed, the funds have been returned to a Tennessee Valley
   Authority Corporate Account. For amounts originating from fiscal year 2025, the

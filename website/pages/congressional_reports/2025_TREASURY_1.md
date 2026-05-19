@@ -1563,12 +1563,14 @@ SurveyData:
   - Fiscal Service - Payment to Legal Services Corporation
   - Fiscal Service - Payment to Resolution Funds Corporation
   - Fiscal Service - Resident Tuition Sup
-  - Fiscal Service - School Improvement
   - Fiscal Service - Travel Promotion Fund, Corp for Travel Promotion
+  - Internal Revenue Service - Additional Child Tax Credit
   - Internal Revenue Service - Advanced Manufacturing Investment Credit
+  - Internal Revenue Service - American Opportunity Tax Credit
   - Internal Revenue Service - Build American Bond Payments, Recovery Act
   - Internal Revenue Service - Clean Vehicle Credit
   - Internal Revenue Service - Credit for Previously Owned Clean Vehicles
+  - Internal Revenue Service - Earned Income Tax Credit
   - Internal Revenue Service - Elective Payment for Energy Prop and Electricity Produced
   - Internal Revenue Service - Energy Security
   - Internal Revenue Service - Payment to Issuer of New Clean Renewable Energy Bonds
@@ -1576,6 +1578,7 @@ SurveyData:
     Bond
   - Internal Revenue Service - Payment to Issuer of Qualified School Construction
     Bonds
+  - Internal Revenue Service - Refundable Premium Assistance Tax Credit
   - Office of International Assistance - Clean Tech Fund Loans Financing Acct
   - Office of International Assistance - Contribution to African Development Bank
   - Office of International Assistance - Contribution to International Bank Reconstruction
@@ -1592,14 +1595,24 @@ SurveyData:
   SortOrder: 2
   Subheading: ''
   Type: TEXT
+- Answer:
+  - Internal Revenue Service - Additional Child Tax Credit
+  - Internal Revenue Service - American Opportunity Tax Credit
+  - Internal Revenue Service - Earned Income Tax Credit
+  - Internal Revenue Service - Refundable Premium Assistance Tax Credit
+  Heading: ''
+  Key: raa7_2
+  SortOrder: 3
+  Subheading: ''
+  Type: MULTISELECT_TEXT
 - Answer: 'Yes'
   Heading: ''
   Key: raa8
   SortOrder: 4
   Subheading: ''
   Type: TEXT
-SurveyName: Agency Risk Assessments
+SurveyName: Annual Risk Assessment
 layout: congressional-reports
 permalink: /resources/congressional-reports/2025_TREASURY_1
-title: Agency Risk Assessments Report
+title: Annual Risk Assessment Report
 ---

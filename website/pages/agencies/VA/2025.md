@@ -1852,6 +1852,7 @@ detail_DNP_Discussion: "In FY 2025, VA performed a full assessment of its use of
   \ available from TWS on the results of single search and continuous monitoring."
 detail_DNP_Frequency_Identify: Annually
 detail_DNP_Reduced: 'No'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: "VA determined the distribution of overpayments recovered\
   \ through a recovery audit in accordance with disposition requirements. More details\
   \ on these are provided below:\nVeterans Health Administration \nFor the VA Community\

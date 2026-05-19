@@ -112,6 +112,7 @@ detail_DNP_Discussion: EAC is serviced by BFS ARC Financial Management Services.
   for review and deactivated immediately, so they cannot be used to pay future payments.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'The EAC maintains payment integrity through internal controls,
   annual recapture audits, post-payment audits, and a structured three-year risk assessment

@@ -221,6 +221,7 @@ detail_DNP_Discussion: 'DOE uses the Do Not Pay portal within the Treasury Worki
   '
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: DOE’s Inspector General concluded that the agency was compliant
   with the Payment Integrity Information Act of 2019 (PIIA) in the most recent compliance

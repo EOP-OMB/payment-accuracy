@@ -371,6 +371,7 @@ detail_DNP_Discussion: AmeriCorps does not use the Do Not Pay Initiative in its 
   did not experience a reduction in improper payments due to the Do Not Pay initiative.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: "As the federal agency for national service and volunteering,\
   \ AmeriCorps brings leadership, resources, coordination, focus, and scale to America’s\

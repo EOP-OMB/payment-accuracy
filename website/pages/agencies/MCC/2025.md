@@ -177,6 +177,7 @@ detail_DNP_Discussion: On a weekly basis, the shared service provider that MCC u
   MCC did not identify any improper payments through the Do Not Pay initiative.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: "The USAID Office of Inspector General (OIG) concluded that\
   \ the Millennium Challenge Corporation (MCC) was compliant with the Payment Integrity\

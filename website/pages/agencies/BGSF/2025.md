@@ -77,6 +77,7 @@ detail_DNP_Discussion: "The Goldwater Foundation utilizes GSA's External Service
   \ fiscal year indicating any improper payments or awards."
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: The Barry Goldwater Scholarship & Excellence in Education
   Foundation does not currently have any programs with annual outlays over $10M. Therefore,

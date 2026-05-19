@@ -79,6 +79,7 @@ detail_DNP_Discussion: 'Peace Corps uses the following DNP Portal services to ve
   Treasury. The Do Not Pay Working System has not reduced Improper Payments.'
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'Peace Corps is a small agency operating under one program.
   Peace Corps does not have activities that are susceptible to the threshold limits

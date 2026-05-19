@@ -200,6 +200,7 @@ detail_DNP_Discussion: 'OPM''s Retirement Services (RS) uses the Do Not Pay (DNP
   carrier applicants in the FEHB Program. OPM did not identify any incorrect information.'
 detail_DNP_Frequency_Identify: Monthly
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'OPM is committed to advancing a transparent, accountable,
   and collaborative financial management environment to fulfill its Federal requirements

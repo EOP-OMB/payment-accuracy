@@ -1428,6 +1428,7 @@ detail_DNP_Discussion: NASA enrolled in the Department of the Treasury’s Do No
   payments for FY 2025.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: "In its review of NASA’s Compliance with the Payment Integrity\
   \ Information Act for Fiscal Year 2024 (IG-25-005), the NASA Office of the Inspector\

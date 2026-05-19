@@ -187,6 +187,7 @@ detail_DNP_Discussion: PBGC participates in the U.S. Department of the Treasuryâ
   stream.
 detail_DNP_Frequency_Identify: Monthly
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: The PBGC Inspector General concluded in its report issued
   on March 24, 2025, that the agency was compliant with the Payment Integrity Information

@@ -83,6 +83,7 @@ detail_DNP_Discussion: USITC uses the Do Not Pay Initiative to review payment el
   funds.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: USITC Inspector General concluded that the agency was compliant
   with the Payment Integrity Information Act of of 2019 (PIIA) in the most recent

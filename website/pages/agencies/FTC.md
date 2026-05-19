@@ -93,6 +93,7 @@ detail_DNP_Discussion: 'FTC''s shared service provider validates vendor data wee
   vendors on an on-going basis during its pre-award contract process.'
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: The Payment Integrity Information Act of 2019 requires agencies
   to identify programs that may be susceptible to significant improper payments and

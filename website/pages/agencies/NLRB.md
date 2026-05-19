@@ -126,6 +126,7 @@ detail_DNP_Discussion: The NLRB has used the available reports in the Do Not Pay
   In the long run, the Do Not Pay initiative will help reduce the improper payments.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: The NLRB is required by the PIIA to assess the disbursement
   process and estimate the approximate amount of improper payments every three years.

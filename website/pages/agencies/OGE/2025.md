@@ -84,6 +84,7 @@ detail_DNP_Discussion: OGE uses the Do Not Pay Working System as a check and bal
   has had a positive impact of reducing improper payments.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: The U.S. Office of Government Ethics (OGE) is compliant
   with the Payment Integrity Information Act of 2019 (PIIA). OGE does not currently

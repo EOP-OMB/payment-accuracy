@@ -98,6 +98,7 @@ detail_DNP_Discussion: "The implementation of the Do Not Pay (DNP) initiative is
   \  \n"
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'DNFSB conducts periodic review of all programs and activities
   to identify those that may be susceptible to improper payments.  In Fiscal Year

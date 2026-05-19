@@ -928,6 +928,7 @@ detail_DNP_Discussion: Treasury screens each of GSA's summary schedules against 
   payments at GSA.
 detail_DNP_Frequency_Identify: Daily
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: GSA’s recovery audit contractor receives contingency-based
   fees from the overpayments recovered.  The remaining recoveries are returned to
   the original account - (i.e. Rental of Space program).

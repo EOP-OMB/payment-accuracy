@@ -92,6 +92,7 @@ detail_DNP_Discussion: PCLOB's financial service provider, ARC, runs the DNP pro
   reduce improper payments for their customers.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: PCLOB's financial service provider (ARC) completes a number
   of activities throughou tthe year. ARC runs the DNP process on a weekly basis. On
