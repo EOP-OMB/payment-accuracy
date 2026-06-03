@@ -469,20 +469,6 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Travel Pay Department of Air Force (DAF) – Defense Travel System (DTS)
-  Slug: dow-travel-pay-department-of-air-force-daf-defense-travel-sy-58c53287
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
   Name: Travel Pay Marine Corps - MARINE CORPS TOTAL FORCE SYSTEM (MCTFS)
 - Compliant_1A: true
   Compliant_1B: true
@@ -662,6 +648,20 @@ PIIA2019_NonCompliant_Programs:
   Hide_Compliance_Section: true
   Name: Travel Pay Army – Defense Travel System (DTS)
   Slug: dow-travel-pay-army-defense-travel-system-dts
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: false
+  Hide_Compliance_Section: true
+  Name: Travel Pay Department of Air Force (DAF) – Defense Travel System (DTS)
+  Slug: dow-travel-pay-department-of-air-force-daf-defense-travel-sy-58c53287
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
