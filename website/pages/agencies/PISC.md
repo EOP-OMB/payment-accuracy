@@ -82,6 +82,7 @@ detail_DNP_Discussion: The Permitting Council leverages GSA as a shared services
   compliant with the EO. Thus our payments and all programs are compliant.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: The Permitting Council is compliant and maintained Payment
   Integrity during the latest reporting period. To maintain compliance of payment

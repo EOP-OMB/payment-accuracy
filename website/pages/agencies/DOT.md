@@ -1119,6 +1119,7 @@ detail_DNP_Discussion: "An important part of the Department’s program integrit
   \ funds.\n"
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: In fiscal year 2025, recaptured overpayments resulting
   from DOT errors were returned to the program or activity’s original purpose. A majority
   of DOT funds are available until expended enabling the Department return recovered

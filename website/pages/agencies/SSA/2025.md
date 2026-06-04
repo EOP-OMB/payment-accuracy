@@ -311,6 +311,7 @@ detail_DNP_Discussion: 'We use the Department of the Treasury (Treasury) Do Not 
   information verified by SSA), we use our internal data to verify incarceration.'
 detail_DNP_Frequency_Identify: Weekly
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'The most recent Office of the Inspector General (OIG) Payment
   Integrity Information Act of 2019 (PIIA) annual compliance audit was for fiscal

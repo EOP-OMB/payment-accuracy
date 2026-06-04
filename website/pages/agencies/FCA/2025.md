@@ -72,6 +72,7 @@ detail_DNP_Discussion: While the Farm Credit Administration does not directly us
   Federal government.
 detail_DNP_Frequency_Identify: null
 detail_DNP_Reduced: null
+detail_DNP_Used: 'No'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: The Farm Credit Administration (FCA) Inspector General (IG)
   determined that the agency is in compliance with the requirements of the Payment

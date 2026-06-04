@@ -156,19 +156,6 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Diplomatic Programs
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
   Name: Diplomatic Programs, Diplomatic Policy and Support
 - Compliant_1A: true
   Compliant_1B: true
@@ -620,11 +607,6 @@ Risks:
     Susceptible: 'No'
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
-    Program_Name: Diplomatic Programs
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 0
     Program_Name: Diplomatic Programs, Diplomatic Policy and Support
     Slug: null
     Susceptible: 'No'
@@ -829,6 +811,7 @@ detail_DNP_Discussion: "The Department of State reviewed potential improper paym
   \ laws.\n\n"
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: Amounts recovered were returned to original purpose.
 detail_Executive_Summary: "For over a decade, laws and regulations have evolved to\
   \ improve payment accuracy and strengthen public confidence in Federal programs.\

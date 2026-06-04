@@ -74,6 +74,7 @@ detail_DNP_Discussion: NCUA's shared service provider, Enterprise Services Cente
   grant awards or loan payments during this period.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: NCUA operates on a calendar year basis; therefore, payment
   integrity activities are still ongoing for the current year. NCUA's risk assessments

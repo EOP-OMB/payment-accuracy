@@ -754,7 +754,7 @@ agencies:
   agency_name: Department of State
   high_priority_programs: 0
   improper_payments_rate: 0
-  num_programs: 41
+  num_programs: 40
   programs:
   - high_priority_program: false
     ip_rate: 0

@@ -74,6 +74,7 @@ detail_DNP_Discussion: The agency uses a shared service provider that uses Do No
   a potential improper payment.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: The FEC performs risk assessments at least once every three
   years. The FEC does not have any programs or activities that are susceptible to

@@ -230,6 +230,7 @@ detail_DNP_Discussion: At the Nuclear Regulatory Commission vendor files are upl
   daily payment schedules reviews have not returned a match.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'Nuclear Regulatory Commission’s (NRC) Inspector General
   concluded that the agency was compliant with the Payment Integrity Information Act

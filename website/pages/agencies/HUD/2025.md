@@ -1677,6 +1677,7 @@ detail_DNP_Discussion: 'As of May 1st, 2025, HUD successfully reestablished its 
   '
 detail_DNP_Frequency_Identify: null
 detail_DNP_Reduced: null
+detail_DNP_Used: 'No'
 detail_Disposition_of_Funds: 'Single Family Claims:
 
 

@@ -1277,6 +1277,7 @@ detail_DNP_Discussion: 'The Department in FY 2025 utilized the Do Not Pay portal
   '
 detail_DNP_Frequency_Identify: Annually
 detail_DNP_Reduced: 'No'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'The Department of Commerce (DOC) Office of Inspector General
   concluded that the agency was compliant with the Payment Integrity Information Act

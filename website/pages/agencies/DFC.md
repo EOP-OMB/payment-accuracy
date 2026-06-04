@@ -129,6 +129,7 @@ detail_DNP_Discussion: DFC uses the Do Not Pay (DNP) Initiative to reduce the ri
   instances where the DNP Initiative has reduced improper payments or awards.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: DFC has designed and implemented internal controls to promote
   payment integrity and assesses the risk of payment integrity to its programs on

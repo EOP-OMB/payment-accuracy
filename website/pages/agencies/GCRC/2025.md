@@ -122,6 +122,7 @@ detail_DNP_Discussion: 'As part of our shared service arrangement with the Burea
   compliance with federal payment integrity requirements.'
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: Recovered amounts are returned to the funding source
   from which the improper payment originated, ensuring compliance with federal financial
   management requirements. These funds are then available for their intended program

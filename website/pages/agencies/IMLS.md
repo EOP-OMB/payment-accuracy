@@ -255,6 +255,7 @@ detail_DNP_Discussion: Using the DNP Business Center helps IMLS to improve the q
   of improper payments to deceased individuals.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: An important part of the IMLS’s program integrity efforts
   design to prevent, identify, and reduce improper payments, is integrating the Treasury

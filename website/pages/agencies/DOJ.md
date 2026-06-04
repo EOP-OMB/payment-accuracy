@@ -158,6 +158,7 @@ detail_DNP_Discussion: Our agency actively utilizes the Do Not Pay (DNP) Working
   to reducing improper payments and improving overall payment integrity.
 detail_DNP_Frequency_Identify: Monthly
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: DOJ determined that amounts recaptured through recovery
   audits were used for the original purpose or returned to the original account. Improper
   payment amounts that were not identified through recovery audits were also returned

@@ -170,8 +170,7 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Commercial Pay – Mechanization of Contract Administration Services (MOCAS)
-  Slug: dow-commercial-pay-mechanization-of-contract-administration--94c59ea7
+  Name: Commercial Pay – Navy Enterprise and Resource Planning (NERP)
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -327,7 +326,7 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Military Pay Marie Corps – Reserve
+  Name: Military Pay Marine Corps – Active Duty
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -340,7 +339,7 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Military Pay Marine Corps – Active Duty
+  Name: Military Pay Marine Corps – Reserve
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -457,8 +456,7 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Travel Pay Department of Air Force (DAF) – Defense Travel System (DTS)
-  Slug: dow-travel-pay-department-of-air-force-daf-defense-travel-sy-58c53287
+  Name: Travel Pay Department of Air Force (DAF) - Reserve Travel System (RTS)
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -581,7 +579,8 @@ PIIA2019_NonCompliant_Programs:
   Compliant_6: true
   Compliant_Overall: false
   Hide_Compliance_Section: true
-  Name: Commercial Pay – Navy Enterprise and Resource Planning (NERP)
+  Name: Commercial Pay – Mechanization of Contract Administration Services (MOCAS)
+  Slug: dow-commercial-pay-mechanization-of-contract-administration--94c59ea7
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -661,7 +660,8 @@ PIIA2019_NonCompliant_Programs:
   Compliant_6: true
   Compliant_Overall: false
   Hide_Compliance_Section: true
-  Name: Travel Pay Department of Air Force (DAF) - Reserve Travel System (RTS)
+  Name: Travel Pay Department of Air Force (DAF) – Defense Travel System (DTS)
+  Slug: dow-travel-pay-department-of-air-force-daf-defense-travel-sy-58c53287
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -687,7 +687,7 @@ Risks:
     MethodologyChanged: 0
     Program_Name: Civilian Pay – Army
     Slug: dow-civilian-pay-army
-    Susceptible: 'Yes'
+    Susceptible: 'No'
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Civilian Pay – Department of Air Force (DAF)
@@ -713,12 +713,12 @@ Risks:
     Program_Name: Commercial Pay – Defense Agencies Initiative (DAI)
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Defense Enterprise Accounting Management System
       (DEAMS)
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Enterprise Business System (EBS)
@@ -744,12 +744,12 @@ Risks:
     Program_Name: Commercial Pay – Mechanization of Contract Administration Services
       (MOCAS)
     Slug: dow-commercial-pay-mechanization-of-contract-administration--94c59ea7
-    Susceptible: 'No'
-  - Fiscal_Year: null
+    Susceptible: 'Yes'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Commercial Pay – Navy Enterprise and Resource Planning (NERP)
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Commercial Pay – ONEPAY
@@ -765,7 +765,7 @@ Risks:
     Program_Name: Commercial Pay – Transportation Financial Management System (TFMS)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Commercial Pay - U.S. Army Corps of Engineers (USACE)
     Slug: null
@@ -809,7 +809,7 @@ Risks:
     MethodologyChanged: 0
     Program_Name: Military Pay Army – National Guard
     Slug: dow-military-pay-army-national-guard
-    Susceptible: 'Yes'
+    Susceptible: 'No'
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Military Pay Army – Reserve
@@ -832,14 +832,14 @@ Risks:
     Susceptible: 'No'
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
-    Program_Name: Military Pay Marie Corps – Reserve
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2024'
-    MethodologyChanged: 0
     Program_Name: Military Pay Marine Corps – Active Duty
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Military Pay Marine Corps – Reserve
+    Slug: null
+    Susceptible: null
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Military Pay Navy – Active Duty
@@ -902,7 +902,7 @@ Risks:
     Program_Name: Travel Pay Marine Corps – Defense Travel System (DTS)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Travel Pay Marine Corps – Integrated Automated Travel System (IATS)
     Slug: null
@@ -922,12 +922,12 @@ Risks:
     Program_Name: Travel Pay Navy – Integrated Automated Travel System (IATS)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Travel Pay Other Defense Organization (ODO) – Defense Travel System
       (DTS)
     Slug: dow-travel-pay-other-defense-organization-odo-defense-travel-346a386c
-    Susceptible: 'Yes'
+    Susceptible: null
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Travel Pay Other Defense Organization (ODO) – Integrated Automated
@@ -978,6 +978,7 @@ detail_DNP_Discussion: 'Within the Department of War (DoW), the Do Not Pay (DNP)
   '
 detail_DNP_Frequency_Identify: Weekly
 detail_DNP_Reduced: 'No'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: The Department reclassifies recovered funds to their
   original intended purpose whenever possible. This ensures recovered resources are
   reinvested in alignment with established programmatic objectives and priorities,

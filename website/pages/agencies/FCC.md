@@ -309,6 +309,7 @@ detail_DNP_Discussion: The FCC has established several critical financial contro
   will not issue the award.
 detail_DNP_Frequency_Identify: Monthly
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: The FCC continuously aims to use funds for their intended
   purpose. When available, funds are returned to the appropriate account to be used
   for the intended purpose.

@@ -321,7 +321,7 @@ Scorecard_Links: []
 Technically_Improper_Amounts: '[2202.94, 699.31, 0]'
 Underpayment_Amounts: '[0, 0.008591, 6.4e-05]'
 Unknown_Amounts: '[0, 4707.02, 0]'
-fpi_link: https://fpi.omb.gov/program/84.01
+fpi_link: https://fpi.omb.gov/program/84.010
 layout: program-specific
 permalink: program/ed-title-i-grants-to-local-educational-agencies
 ---

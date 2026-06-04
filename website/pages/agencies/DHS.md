@@ -3412,6 +3412,7 @@ detail_DNP_Discussion: "Across the Department, many DHS Components utilize the D
   \ further DHS review and adjudication to determine the appropriateness of the payment."
 detail_DNP_Frequency_Identify: Monthly
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: "In the wake of the September 11, 2001, terrorist attacks,\
   \ Congress passed the Homeland Security Act (P.L. 107-296), which established the\

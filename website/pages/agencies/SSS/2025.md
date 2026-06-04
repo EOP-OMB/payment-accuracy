@@ -74,6 +74,7 @@ detail_DNP_Discussion: The Internal Business Center (IBC) utilizes the Do Not Pa
   to various files including the Death Master File (DMF) from the SSA.
 detail_DNP_Frequency_Identify: Annually
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: During FY25, the Selective Service System (SSS) utilized
   Sam.gov and the IPP payment system as well as a partnership with DOI’s Interior

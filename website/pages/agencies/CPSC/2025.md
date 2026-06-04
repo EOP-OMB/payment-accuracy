@@ -128,6 +128,7 @@ detail_DNP_Discussion: The U.S. CPSC is a small, non-CFO Act agency that leverag
   the use of DNP via the financial shared services provider - ARC.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'CPSC has two programs we report on based on our appropriations:
   “Payroll” and “Non-Payroll.” Of the $102M disbursed for payroll program activities,

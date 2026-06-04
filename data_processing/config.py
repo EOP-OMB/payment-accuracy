@@ -17,32 +17,32 @@ COUNT_CONGRESSIONAL_REPORTS_YEARS_DISPLAYED = 3
 CONGRESSIONAL_REPORTS = [
     {
         "Id": 1,
-        "Name": "Agency Risk Assessments Report",
-        "SurveyName": "Agency Risk Assessments",
+        "Name": "Annual Risk Assessment Report",
+        "SurveyName": "Annual Risk Assessment",
         "IsGovernmentWide": False
     },
     {
         "Id": 2,
-        "Name": "Agency High-Priority Program Report",
+        "Name": "Agency Annual High-Priority Program Report",
         "SurveyName": "Actions to Recover Improper Payments",
         "IsGovernmentWide": False
     },
     {
         "Id": 3,
-        "Name": "Improper Payment and Unknown Payment Estimation Report",
-        "SurveyName": "Improper Payment and Unknown Payment Estimation",
+        "Name": "Annual Improper Payment Estimation Report",
+        "SurveyName": "Annual Improper Payment Estimation",
         "IsGovernmentWide": False
     },
     {
         "Id": 4,
-        "Name": "Agency Actions to Reduce Improper Payments Report",
-        "SurveyName": "Agency Actions to Reduce Improper Payments",
+        "Name": "Annual Report on Actions to Reduce Improper Payments",
+        "SurveyName": "Annual Report on Actions to Reduce Improper Payments",
         "IsGovernmentWide": False
     },
     {
         "Id": 5,
-        "Name": "Agency Actions to Recover Improper Payments Identified in a Recovery Audit Report",
-        "SurveyName": "Actions to Recover Report",
+        "Name": "Annual Report on Actions to Recover Improper Payments Identified in a Recovery Audit",
+        "SurveyName": "Annual Report on Actions to Recover Improper Payments Identified in a Recovery Audit",
         "IsGovernmentWide": False
     },
     {

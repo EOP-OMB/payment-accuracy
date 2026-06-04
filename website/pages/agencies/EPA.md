@@ -2554,6 +2554,7 @@ detail_DNP_Discussion: For more than seven years the agency has not had any Impr
   payment but each case the payment has been adjudicated as proper.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: 'To sustain the Payment Integrity at the EPA, the agency
   maintains a proactive process of conducting regular risk assessments of its programs
