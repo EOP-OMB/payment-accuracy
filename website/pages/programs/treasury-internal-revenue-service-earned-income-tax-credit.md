@@ -1155,6 +1155,8 @@ Scorecard_Links:
   QuarterYear: Q3 2025
 - Link: assets/scorecards/Q4 2025/Internal Revenue Service - Earned Income Tax Credit.pdf
   QuarterYear: Q4 2025
+- Link: assets/scorecards/Q2 2026/Internal Revenue Service - Earned Income Tax Credit.pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[0, 0, 0, 0, 0]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'

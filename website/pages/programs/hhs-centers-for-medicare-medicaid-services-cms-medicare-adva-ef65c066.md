@@ -750,6 +750,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q4 2025/Centers for Medicare & Medicaid Services (CMS) -
     Medicare Advantage (Part C).pdf
   QuarterYear: Q4 2025
+- Link: assets/scorecards/Q2 2026/Centers for Medicare & Medicaid Services (CMS) -
+    Medicare Advantage (Part C).pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[8005.86, 1254.76, 1902.04, 1862.68, 2230.78]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'

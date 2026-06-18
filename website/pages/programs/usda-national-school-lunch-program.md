@@ -1420,6 +1420,8 @@ Scorecard_Links:
   QuarterYear: Q3 2025
 - Link: assets/scorecards/Q4 2025/National School Lunch Program.pdf
   QuarterYear: Q4 2025
+- Link: assets/scorecards/Q2 2026/National School Lunch Program.pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[231.38, 45.6, 215.9, 362.84, 354.43]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'

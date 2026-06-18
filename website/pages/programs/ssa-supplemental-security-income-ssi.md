@@ -3392,6 +3392,8 @@ Scorecard_Links:
   QuarterYear: Q3 2025
 - Link: assets/scorecards/Q4 2025/Supplemental Security Income (SSI).pdf
   QuarterYear: Q4 2025
+- Link: assets/scorecards/Q2 2026/Supplemental Security Income (SSI).pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[760.05100812, 873.49255433, 680.79686085, 877.87106996, 982.40635791]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'

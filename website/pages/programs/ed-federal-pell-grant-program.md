@@ -1586,6 +1586,8 @@ Scorecard_Links:
   QuarterYear: Q3 2025
 - Link: assets/scorecards/Q4 2025/Federal Pell Grant Program.pdf
   QuarterYear: Q4 2025
+- Link: assets/scorecards/Q2 2026/Federal Pell Grant Program.pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[97.32, 190.86, 166.48, 131.14, 76.88]'
 Underpayment_Amounts: '[149.88, 147.49, 238.75, 271.83, 6.13]'
 Unknown_Amounts: '[8.36, 7.03, 3.15, 10.63, 5.91]'
