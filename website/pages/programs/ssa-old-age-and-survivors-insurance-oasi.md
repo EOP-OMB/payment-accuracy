@@ -2767,6 +2767,8 @@ Scorecard_Links:
   QuarterYear: Q3 2025
 - Link: assets/scorecards/Q4 2025/Old-Age and Survivors Insurance (OASI).pdf
   QuarterYear: Q4 2025
+- Link: assets/scorecards/Q2 2026/Old-Age and Survivors Insurance (OASI).pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[693.86, 518.71838629, 1822.96083857, 833.35906235, 470.17835446]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'

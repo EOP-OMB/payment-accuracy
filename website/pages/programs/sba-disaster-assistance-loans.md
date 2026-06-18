@@ -659,14 +659,16 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 1
 Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
 Overpayment_Amounts: '[31.65462, 15.65, 33.13, 24.5921315, 125.077]'
 Payment_Accuracy_Amounts: '[472.131033, 1098.903985, 837.35, 1133.16286485, 3066.7969999999996]'
 Phase_2_Program: 0
 Program_Name: Disaster Assistance Loans
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q2 2026/Disaster Assistance Loans.pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[0, 12.44, 0, 0, 0]'
 Underpayment_Amounts: '[41.189347, 6.6, 1.16, 17.94462671, 31.942]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'

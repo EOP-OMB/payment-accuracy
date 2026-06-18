@@ -944,6 +944,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q4 2025/Centers for Medicare & Medicaid Services (CMS) -
     Medicare Fee-for-Service (FFS).pdf
   QuarterYear: Q4 2025
+- Link: assets/scorecards/Q2 2026/Centers for Medicare & Medicaid Services (CMS) -
+    Medicare Fee-for-Service (FFS).pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[449.31, 778.7244549895, 1015.34, 701.98, 956.8825]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'

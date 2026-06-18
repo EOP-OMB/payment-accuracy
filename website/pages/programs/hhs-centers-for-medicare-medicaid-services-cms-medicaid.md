@@ -988,6 +988,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q4 2025/Centers for Medicare & Medicaid Services (CMS) -
     Medicaid.pdf
   QuarterYear: Q4 2025
+- Link: assets/scorecards/Q2 2026/Centers for Medicare & Medicaid Services (CMS) -
+    Medicaid.pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[0, 0, 1175.84, 1604.79, 2100.5]'
 Underpayment_Amounts: '[367.51, 369.34, 336.21, 123.91, 256.75]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'
