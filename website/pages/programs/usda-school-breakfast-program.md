@@ -1392,6 +1392,8 @@ Scorecard_Links:
   QuarterYear: Q3 2025
 - Link: assets/scorecards/Q4 2025/School Breakfast Program.pdf
   QuarterYear: Q4 2025
+- Link: assets/scorecards/Q2 2026/School Breakfast Program.pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[84.11, 20.67, 63.72, 95.97, 103.49]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'

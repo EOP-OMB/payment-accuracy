@@ -767,7 +767,7 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 1
 Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
 Overpayment_Amounts: '[63.5, 76.99, 63.26, 75.14, 100.15]'
@@ -775,7 +775,10 @@ Payment_Accuracy_Amounts: '[2856.96, 2831.59, 3183.7999999999997, 3540.200000000
   3845.17]'
 Phase_2_Program: 0
 Program_Name: Office of Workers' Compensation - Federal Employees' Compensation Act
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q2 2026/Office of Workers_ Compensation - Federal Employees_
+    Compensation Act.pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[0.28, 3.93, 5.01, 7, 0]'
 Underpayment_Amounts: '[15.43, 7.54, 11.21, 2.77, 9.6]'
 Unknown_Amounts: '[2.54, 3.26, 0, 0, 0]'

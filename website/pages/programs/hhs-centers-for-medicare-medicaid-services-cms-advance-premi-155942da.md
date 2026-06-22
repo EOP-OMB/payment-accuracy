@@ -791,6 +791,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q4 2025/Centers for Medicare & Medicaid Services (CMS) -
     Advanced Premium Tax Credit (APTC).pdf
   QuarterYear: Q4 2025
+- Link: assets/scorecards/Q2 2026/Centers for Medicare & Medicaid Services (CMS) -
+    Advance Premium Tax Credit (APTC).pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[0, 11.028457, 408.56, 282.44]'
 Underpayment_Amounts: '[19.69, 0, 0, 0]'
 Unknown_Amounts: '[0, 0, 0, 0]'

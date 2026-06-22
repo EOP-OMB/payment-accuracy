@@ -802,6 +802,8 @@ Scorecard_Links:
   QuarterYear: Q3 2025
 - Link: assets/scorecards/Q4 2025/Federal Crop Insurance Corporation (FCIC).pdf
   QuarterYear: Q4 2025
+- Link: assets/scorecards/Q2 2026/Federal Crop Insurance Corporation (FCIC).pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[15.13, 15.21, 8.12, 5.43, 396.5]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'

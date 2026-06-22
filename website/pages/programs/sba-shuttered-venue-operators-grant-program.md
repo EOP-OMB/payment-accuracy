@@ -245,14 +245,16 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 1
 Improper_Payments_Data_Years: '[2025]'
 Overpayment_Amounts: '[4484.637]'
 Payment_Accuracy_Amounts: '[4535.970000000001]'
 Phase_2_Program: 0
 Program_Name: Shuttered Venue Operators Grant Program
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q2 2026/Shuttered Venue Operators Grant Program.pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[1321.029]'
 Underpayment_Amounts: '[20.625]'
 Unknown_Amounts: '[4242.686]'

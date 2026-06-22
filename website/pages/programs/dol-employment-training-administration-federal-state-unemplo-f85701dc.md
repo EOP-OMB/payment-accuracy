@@ -2453,6 +2453,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q4 2025/Employment & Training Administration - Federal State
     Unemployment Insurance.pdf
   QuarterYear: Q4 2025
+- Link: assets/scorecards/Q2 2026/Employment & Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[3440, 522.49, 154.54, 157.68, 187.64]'
 Unknown_Amounts: '[864.56, 582.25, 461.7, 538.97, 646.85]'

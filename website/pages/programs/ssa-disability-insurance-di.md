@@ -715,14 +715,16 @@ Description: null
 Fiscal_Year: 2025
 Hide_Integrity_Results: false
 Hide_Program_Results: false
-Hide_Scorecard_Links: true
+Hide_Scorecard_Links: false
 High_Priority_Program: 1
 Improper_Payments_Data_Years: '[2025]'
 Overpayment_Amounts: '[1832.46657241]'
 Payment_Accuracy_Amounts: '[141104.76727318]'
 Phase_2_Program: 0
 Program_Name: Disability Insurance (DI)
-Scorecard_Links: []
+Scorecard_Links:
+- Link: assets/scorecards/Q2 2026/Disability Insurance (DI).pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[0]'
 Underpayment_Amounts: '[505.28626289]'
 Unknown_Amounts: '[0]'

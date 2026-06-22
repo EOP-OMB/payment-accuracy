@@ -789,6 +789,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q4 2025/Federal Highway Administration Highway Planning
     and Construction.pdf
   QuarterYear: Q4 2025
+- Link: assets/scorecards/Q2 2026/Federal Highway Administration Highway Planning
+    and Construction.pdf
+  QuarterYear: Q2 2026
 Technically_Improper_Amounts: '[266.886, 516.098, 0, 3.626828, 277.0818]'
 Underpayment_Amounts: '[1.056, 0.105, 3.10659903, 0.798271, 88.2421]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'
