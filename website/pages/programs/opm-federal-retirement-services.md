@@ -900,6 +900,8 @@ Scorecard_Links:
   QuarterYear: Q4 2025
 - Link: assets/scorecards/Q2 2026/Federal Retirement Services.pdf
   QuarterYear: Q2 2026
+- Link: assets/scorecards/Q3 2026/Federal Retirement Services.pdf
+  QuarterYear: Q3 2026
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[91.53, 81.13, 113.22, 93.75, 98.76]'
 Unknown_Amounts: '[10.86, 12.13, 23.5, 11.94, 13.99]'

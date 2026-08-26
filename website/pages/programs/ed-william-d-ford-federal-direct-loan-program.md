@@ -1446,6 +1446,8 @@ Scorecard_Links:
   QuarterYear: Q4 2023
 - Link: assets/scorecards/Q2 2026/William D. Ford Federal Direct Loan Program.pdf
   QuarterYear: Q2 2026
+- Link: assets/scorecards/Q3 2026/William D. Ford Federal Direct Loan Program.pdf
+  QuarterYear: Q3 2026
 Technically_Improper_Amounts: '[371.91, 503.77, 500.84, 719.45, 669.83]'
 Underpayment_Amounts: '[16.03, 17.3, 18, 6.08, 11.51]'
 Unknown_Amounts: '[0, 4.33, 0, 6.34, 3.4]'

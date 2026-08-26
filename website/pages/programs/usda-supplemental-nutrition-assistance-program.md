@@ -896,6 +896,8 @@ Scorecard_Links:
   QuarterYear: Q4 2025
 - Link: assets/scorecards/Q2 2026/Supplemental Nutrition Assistance Program.pdf
   QuarterYear: Q2 2026
+- Link: assets/scorecards/Q3 2026/Supplemental Nutrition Assistance Program.pdf
+  QuarterYear: Q3 2026
 Technically_Improper_Amounts: '[0, 0, 0]'
 Underpayment_Amounts: '[1295.12, 1480.51, 1558.47]'
 Unknown_Amounts: '[0, 0, 0]'

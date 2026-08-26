@@ -1151,6 +1151,8 @@ Scorecard_Links:
   QuarterYear: Q4 2025
 - Link: assets/scorecards/Q2 2026/Pension.pdf
   QuarterYear: Q2 2026
+- Link: assets/scorecards/Q3 2026/Pension.pdf
+  QuarterYear: Q3 2026
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[12.26, 0.46, 1.21, 22.23, 38.47]'
 Unknown_Amounts: '[2.63, 0, 0, 114.57, 43.72]'

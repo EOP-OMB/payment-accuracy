@@ -197,6 +197,8 @@ Scorecard_Links:
   QuarterYear: Q4 2019
 - Link: assets/scorecards/Q2 2026/Compensation.pdf
   QuarterYear: Q2 2026
+- Link: assets/scorecards/Q3 2026/Compensation.pdf
+  QuarterYear: Q3 2026
 Technically_Improper_Amounts: '[0]'
 Underpayment_Amounts: '[385.85]'
 Unknown_Amounts: '[1480.98]'
