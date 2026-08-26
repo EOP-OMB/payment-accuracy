@@ -930,6 +930,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q2 2026/Administration for Children and Families (ACF) -
     Child Care and Development Fund.pdf
   QuarterYear: Q2 2026
+- Link: assets/scorecards/Q3 2026/Administration for Children and Families (ACF) -
+    Child Care and Development Fund.pdf
+  QuarterYear: Q3 2026
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[37.17, 23.13, 17.91, 67.45, 75.99]'
 Unknown_Amounts: '[408.94, 230.53, 209.39, 0, 0]'

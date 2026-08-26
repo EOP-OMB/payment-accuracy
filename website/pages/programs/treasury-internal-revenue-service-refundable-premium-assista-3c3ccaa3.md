@@ -1017,6 +1017,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q2 2026/Internal Revenue Service - Refundable Premium Assistance
     Tax Credit.pdf
   QuarterYear: Q2 2026
+- Link: assets/scorecards/Q3 2026/Internal Revenue Service - Refundable Premium Assistance
+    Tax Credit.pdf
+  QuarterYear: Q3 2026
 Technically_Improper_Amounts: '[0, 0, 0, 0]'
 Underpayment_Amounts: '[0, 0, 0, 0]'
 Unknown_Amounts: '[0, 0, 0, 0]'

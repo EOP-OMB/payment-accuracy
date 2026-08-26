@@ -725,6 +725,8 @@ Program_Name: Disability Insurance (DI)
 Scorecard_Links:
 - Link: assets/scorecards/Q2 2026/Disability Insurance (DI).pdf
   QuarterYear: Q2 2026
+- Link: assets/scorecards/Q3 2026/Disability Insurance (DI).pdf
+  QuarterYear: Q3 2026
 Technically_Improper_Amounts: '[0]'
 Underpayment_Amounts: '[505.28626289]'
 Unknown_Amounts: '[0]'

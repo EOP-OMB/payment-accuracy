@@ -751,6 +751,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q2 2026/Centers for Medicare & Medicaid Services (CMS) -
     Medicare Prescription Drug Benefit (Part D).pdf
   QuarterYear: Q2 2026
+- Link: assets/scorecards/Q3 2026/Centers for Medicare & Medicaid Services (CMS) -
+    Medicare Prescription Drug Benefit (Part D).pdf
+  QuarterYear: Q3 2026
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[682.75, 37.87, 1019.84, 522.44, 522.61]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'

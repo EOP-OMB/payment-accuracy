@@ -1008,6 +1008,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q2 2026/Centers for Medicare & Medicaid Services (CMS) -
     Children_s Health Insurance Program (CHIP).pdf
   QuarterYear: Q2 2026
+- Link: assets/scorecards/Q3 2026/Centers for Medicare & Medicaid Services (CMS) -
+    Children_s Health Insurance Program (CHIP).pdf
+  QuarterYear: Q3 2026
 Technically_Improper_Amounts: '[0, 0, 13.09, 51.81, 61.2051]'
 Underpayment_Amounts: '[1.68, 1.52, 0.97, 2.46, 5.7284]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'

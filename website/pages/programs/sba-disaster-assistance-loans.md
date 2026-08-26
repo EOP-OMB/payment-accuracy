@@ -669,6 +669,8 @@ Program_Name: Disaster Assistance Loans
 Scorecard_Links:
 - Link: assets/scorecards/Q2 2026/Disaster Assistance Loans.pdf
   QuarterYear: Q2 2026
+- Link: assets/scorecards/Q3 2026/Disaster Assistance Loans.pdf
+  QuarterYear: Q3 2026
 Technically_Improper_Amounts: '[0, 12.44, 0, 0, 0]'
 Underpayment_Amounts: '[41.189347, 6.6, 1.16, 17.94462671, 31.942]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'
