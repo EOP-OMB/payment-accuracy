@@ -1028,6 +1028,8 @@ Scorecard_Links:
   QuarterYear: Q4 2025
 - Link: assets/scorecards/Q2 2026/VA Community Care.pdf
   QuarterYear: Q2 2026
+- Link: assets/scorecards/Q3 2026/VA Community Care.pdf
+  QuarterYear: Q3 2026
 Technically_Improper_Amounts: '[527.2, 311.13, 0, 0, 0]'
 Underpayment_Amounts: '[184.94, 0.54, 5.36, 0, 15.34]'
 Unknown_Amounts: '[173, 280.57, 32.85, 0, 40.19]'

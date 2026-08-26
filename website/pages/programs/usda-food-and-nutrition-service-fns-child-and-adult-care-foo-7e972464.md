@@ -295,6 +295,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q2 2026/Food and Nutrition Service (FNS) Child and Adult
     Care Food Program.pdf
   QuarterYear: Q2 2026
+- Link: assets/scorecards/Q3 2026/Food and Nutrition Service (FNS) Child and Adult
+    Care Food Program.pdf
+  QuarterYear: Q3 2026
 Technically_Improper_Amounts: '[0]'
 Underpayment_Amounts: '[133.74]'
 Unknown_Amounts: '[0]'

@@ -6,6 +6,7 @@ information in a SQLite database for generation of mardown files.
 import config
 import os
 import pandas as pd
+import requests
 import sqlite3
 from io import StringIO
 
@@ -396,6 +397,16 @@ QUARTERLY_SCORECARD_LINKS_CREATE_VIEW_SQL = """
         Year INT,
         Program_Name VARCHAR(100),
         Link VARCHAR(118)
+    );
+"""
+
+ACTIVE_ALNS_DROP_TABLE_SQL = """
+    DROP TABLE IF EXISTS active_alns;
+"""
+
+ACTIVE_ALNS_CREATE_TABLE_SQL = """
+    CREATE TABLE active_alns (
+        aln VARCHAR(10) PRIMARY KEY
     );
 """
 
@@ -874,6 +885,25 @@ def load_fpi_mapping(conn):
 def load_program_scorecard_links(conn):
     load_csv_to_sqlite(SCORECARD_LINKS_DATA_PATH, "program_scorecard_links", conn)
 
+def load_active_alns(conn):
+    sam_url = "https://sam.gov/api/prod/sgs/v1/search/?index=cfda" \
+        + "&page=0&mode=search&size=10000&is_active=true"
+    active_alns = set()
+
+    r = requests.get(sam_url, timeout=60)
+    r.raise_for_status()
+    for listing in r.json()["_embedded"]["results"]:
+        active_alns.add(listing["programNumber"])
+
+    cur.execute(ACTIVE_ALNS_DROP_TABLE_SQL)
+    cur.execute(ACTIVE_ALNS_CREATE_TABLE_SQL)
+    cur.executemany(
+        "INSERT INTO active_alns (aln) VALUES (?)",
+        [(aln,) for aln in sorted(active_alns)],
+    )
+    conn.commit()
+    print(f"Successfully loaded {len(active_alns)} rows into 'active_alns'")
+
 def transform_and_insert_all_programs_data_aggregation_data():
     """
     Query program level data into transformed database.
@@ -925,6 +955,7 @@ def recreate_year_mapped_views():
 
     conn.commit()
 
+load_active_alns(conn)
 load_all_programs_file(conn)
 load_program_data_raw_file(conn)
 load_agency_data_raw_file(conn)

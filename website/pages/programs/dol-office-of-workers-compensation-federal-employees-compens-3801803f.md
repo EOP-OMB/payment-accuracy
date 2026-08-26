@@ -779,6 +779,9 @@ Scorecard_Links:
 - Link: assets/scorecards/Q2 2026/Office of Workers_ Compensation - Federal Employees_
     Compensation Act.pdf
   QuarterYear: Q2 2026
+- Link: assets/scorecards/Q3 2026/Office of Workers_ Compensation - Federal Employees_
+    Compensation Act.pdf
+  QuarterYear: Q3 2026
 Technically_Improper_Amounts: '[0.28, 3.93, 5.01, 7, 0]'
 Underpayment_Amounts: '[15.43, 7.54, 11.21, 2.77, 9.6]'
 Unknown_Amounts: '[2.54, 3.26, 0, 0, 0]'
