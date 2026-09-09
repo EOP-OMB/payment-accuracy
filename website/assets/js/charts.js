@@ -21,7 +21,7 @@ function downloadCsvFromString(csvString, filename = 'data.csv') {
     document.body.removeChild(link);
 }
 
-function renderTable(tableId, columnHeaders, rowHeaders, dataSeries, showPercentages) {
+function renderTable(tableId, columnHeaders, rowHeaders, dataSeries, totals, showPercentages) {
     const table = document.getElementById(tableId);
     const thead = table.querySelector('thead');
     const tbody = table.querySelector('tbody');
@@ -35,13 +35,6 @@ function renderTable(tableId, columnHeaders, rowHeaders, dataSeries, showPercent
         headerRow.appendChild(headerCell);
     }
     thead.appendChild(headerRow);
-
-    let totals = new Array(dataSeries.length).fill(0);;
-    for (let i = 0; i < dataSeries.length; i++) {
-        for (let j = 0; j < dataSeries[i].length; j++) {
-            totals[j] += dataSeries[i][j];
-        }
-    }
 
     for (let i = 0; i < dataSeries.length; i++) {
         const row = document.createElement('tr');
@@ -351,12 +344,19 @@ function initImproperPayments() {
     const showPercentages = chartElement.getAttribute('data-show-percentages') === "true";
 
     let improperPaymentSeries = [];
+    let totalSeries = [];
     for (i = 0; i < overpaymentSeries.length; ++i) {
         improperPaymentSeries.push(
             overpaymentSeries[i] +
             underpaymentSeries[i] +
             technicallyImproperSeries[i]
-        )
+        );
+
+        totalSeries.push(
+            paymentAccuracySeries[i] +
+            improperPaymentSeries[i] +
+            unknownSeries[i]
+        );
     }
 
     const datasets = [
@@ -395,6 +395,7 @@ function initImproperPayments() {
             technicallyImproperSeries,
             unknownSeries
         ],
+        totalSeries,
         showPercentages
     );
 
@@ -467,6 +468,11 @@ function initIdentificationAndRecovery() {
             identifiedSeries,
             recoveredSeries
         ],
+        [
+            identifiedSeries,
+            recoveredSeries
+        ],
+        identifiedSeries,
         false
     );
 
