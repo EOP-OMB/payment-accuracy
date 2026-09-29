@@ -63,7 +63,7 @@ RUN BUILD_DATE=$(date -u +"%Y-%m-%dT%H:%M:%SZ") && \
 # Stage 2: Build the final nginx image
 #          This stage is responsible for building the final nginx image that
 #          contains the static files generated in Stage 1.
-FROM nginxinc/nginx-unprivileged:alpine AS runtime-image
+FROM registry.access.redhat.com/hi/nginx:1.30 AS runtime-image
 ARG http_proxy
 ARG https_proxy
 ARG no_proxy

@@ -3,8 +3,8 @@ FROM cypress/factory
 
 WORKDIR /app
 
-# Install browser
-RUN apt update && apt install -y chromium
+# Install browser and curl (used by entrypoint.sh to wait for the website)
+RUN apt update && apt install -y chromium curl
 
 # Install Node.js dependencies
 COPY package.json package-lock.json* ./
