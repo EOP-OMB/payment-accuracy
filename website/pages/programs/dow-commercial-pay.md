@@ -1,6 +1,6 @@
 ---
 Agency: DOW
-Agency_Name: Department of Defense
+Agency_Name: Department of War
 Data_By_Year:
 - Agency_Needs_Satisfied: "Internal Controls:\nThe Department has the internal controls\
     \ in place to support the reduction of improper payments in the Commercial Pay\

@@ -1,6 +1,6 @@
 ---
 Agency: DOW
-Agency_Name: Department of Defense
+Agency_Name: Department of War
 Data_By_Year:
 - Agency_Needs_Satisfied: "While the DON has what it needs to effectively remediate\
     \ control issues, the US Navy DTS Program recognizes that mitigation strategies\

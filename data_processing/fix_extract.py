@@ -112,6 +112,32 @@ def fix_dod_acronyms():
         write_text(path, text, bom, newline)
         print(f"{replacements} DOD acronym(s) replaced in {filename}")
 
+def fix_dod_name():
+    filename = "IP_Agency_POCs.csv"
+    path = extracted_path(filename)
+    text, bom, newline = read_text(path)
+    records, trailing_newline = csv_records(text)
+    if not records:
+        return
+
+    header = parse_record(records[0])
+    name_index = header.index("Agency_Name")
+    replacements = 0
+    for index, record in enumerate(records[1:], start=1):
+        row = parse_record(record)
+        if len(row) <= name_index or row[name_index].strip() != "Department of Defense":
+            continue
+        row[name_index] = "Department of War"
+        records[index] = render_row(row, record.startswith('"'))
+        replacements += 1
+
+    if replacements:
+        text = newline.join(records)
+        if trailing_newline:
+            text += newline
+        write_text(path, text, bom, newline)
+        print(f"{replacements} DOD names(s) replaced in {filename}")
+
 
 def remove_blank_agency_lines(filename):
     path = extracted_path(filename)
@@ -153,6 +179,7 @@ def main():
     print("Fixing known quality issues in extracted CSV files...")
     fix_contractor_of_provider()
     fix_dod_acronyms()
+    fix_dod_name()
     remove_blank_agencies_from_all_programs()
     remove_blank_agencies_from_root_causes()
     print("Quality issues fixed.")

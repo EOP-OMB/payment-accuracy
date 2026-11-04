@@ -97,7 +97,7 @@ agencies:
   susceptible_programs: 3
   total_spent_federal_funding: 1652954.5
 - agency: DOW
-  agency_name: Department of Defense
+  agency_name: Department of War
   high_priority_programs: 2
   improper_payments_rate: 0.3
   num_programs: 121

@@ -1,6 +1,6 @@
 ---
 Agency: DOW
-Agency_Name: Department of Defense
+Agency_Name: Department of War
 Data_By_Year:
 - Agency_Needs_Satisfied: The Military Retirement - Annuitant Pay program possesses
     the necessary internal controls, reinforced by upstream policy coordination with

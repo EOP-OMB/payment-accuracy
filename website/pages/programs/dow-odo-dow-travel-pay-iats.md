@@ -1,6 +1,6 @@
 ---
 Agency: DOW
-Agency_Name: Department of Defense
+Agency_Name: Department of War
 Data_By_Year:
 - Confidence_Level: 90% to <95%
   End_Date: 09/2024
