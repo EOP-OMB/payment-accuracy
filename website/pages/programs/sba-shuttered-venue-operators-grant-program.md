@@ -174,7 +174,7 @@ Data_By_Year:
     are identified, the program takes appropriate actions in accordance with established
     procedures. This approach maintains accountability and program integrity.
   IP_Unknown_Target_Rate: 0
-  Improper_Payments_Rate: 39.8925857109
+  Improper_Payments_Rate: 39.89258571
   Insufficient_Documentation_to_Determine: 4242.686
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '1341.654'
@@ -242,11 +242,11 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '20.625'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
-High_Priority_Program: 1
+High_Priority_Program: 0
 Improper_Payments_Data_Years: '[2025]'
 Overpayment_Amounts: '[4484.637]'
 Payment_Accuracy_Amounts: '[4535.970000000001]'

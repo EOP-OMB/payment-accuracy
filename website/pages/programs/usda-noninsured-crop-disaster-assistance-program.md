@@ -2,67 +2,6 @@
 Agency: USDA
 Agency_Name: Department of Agriculture
 Data_By_Year:
-- Confidence_Level: '>90%'
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: true
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: true
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  IP_Current_Year_Plus_1_Amount: 16.48
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.0998787879
-  Improper_Payments_Rate: 12.301487269999999
-  Insufficient_Documentation_to_Determine: 0.0
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '3.0'
-  Non_Monetary_Loss_Amount: '7.77'
-  Outlays: 79.34
-  Outlays_Current_Year_Plus_1_Amount: 165
-  Payment_Accuracy_Rate: 87.69851273002268
-  Program_Design_or_Structural_Issue: 7.19
-  Start_Date: 10/2019
-  Technical_IP_Amount: '7.19'
-  Unknown_Curent_Year_Plus_1_Amount: 0
-  Unknown_Payments_Rate: 0
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 1.99
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '1.99'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.0'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.58
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '0.58'
 - Agency_Needs_Satisfied: "Farm Service Agency continues to strategically take the\
     \ necessary steps to strengthen internal controls measures, establish uniform\
     \ consistency for compliance processes, and improve accountability. Farm Service\
@@ -910,7 +849,7 @@ Data_By_Year:
     \ reviews by FPAC-PAR, serve as validation checkpoints to measure whether the\
     \ control environment is preventing improper payments and correcting deficiencies.\n"
   IP_Unknown_Target_Rate: 0.0996
-  Improper_Payments_Rate: 10.5608784584
+  Improper_Payments_Rate: 10.560878460000001
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '3.975'
   Non_Monetary_Loss_Amount: '4.67'
@@ -973,21 +912,249 @@ Data_By_Year:
     Failure_to_Access_Data: 0.98
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.98'
+- Agency_Needs_Satisfied: 'The Noninsured Crop Disaster Assistance Program (NAP) has
+    established internal controls, training programs, management reviews, and monitoring
+    activities designed to reduce improper payments and maintain payment integrity.
+    These controls include National and State Office training, monthly policy review
+    calls, State Executive Director Delegate Reviews, and ongoing monitoring of payment
+    integrity findings, all of which are focused on addressing the primary causes.
+
+
+    The Agency notes that full implementation of this plan is contingent on available
+    staffing and resources. Like many federal programs operating within evolving budget
+    environments, NAP will continue adapting implementation timelines and oversight
+    procedures based on capacity constraints, while prioritizing core program integrity
+    functions.
+
+
+    FSA continues to invest in human capital through targeted training and oversight
+    activities to strengthen employee knowledge of eligibility, compliance, and documentation
+    requirements. In addition, planned FY2027 enhancements of NAP software are expected
+    to improve information systems and internal controls by providing additional eligibility
+    validations, compliance checks, and audit support tools. Together, these internal
+    controls, personnel investments, and technology improvements position the program
+    to continue reducing improper payments and maintaining effective payment integrity
+    oversight while evaluating the cost-effectiveness of future investments.'
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: 'Corrective actions are
+    effectively implemented and prioritized through structured, agency wide training
+    that is scheduled according to operational timelines and program implementation
+    deadlines. State Office refresher trainings reinforce expectations at the county
+    level, ensuring consistent understanding of Noninsured Crop Disaster Assistance
+    Program (NAP) requirements. These actions directly address the root causes of
+    Improper Payments by focusing on documentation accuracy, eligibility verification,
+    and correct application of program policy. Evidence of effective implementation
+    and prioritization includes full employee participation opportunities, recurring
+    refresher sessions, and the agency’s demonstrated year over year reduction in
+    the PIIA rate, which reflects the impact of training delivered.
+
+
+    Corrective actions such as training mitigate root causes by improving staff understanding
+    before payments are issued. Early results indicate that these actions are adequate
+    and aligned with the issues they are meant to correct. The observed decline in
+    improper payments suggests that these corrective actions are not only reducing
+    current Improper Payments but are expected to continue maintaining or lowering
+    error rates.'
+  Corrective_Actions_Appropriateness: "FSA Corrective Actions Taken\n\nTraining:\n\
+    -Continued monthly Noninsured Crop Disaster Assistance Program (NAP) calls with\
+    \ State Office program specialists that incorporate policy review, training, and\
+    \ discussion of recurring program issues and improper payment trends. These calls\
+    \ remain ongoing and provide continuous reinforcement of eligibility, compliance,\
+    \ and documentation requirements. State specialists then provide the training\
+    \ to their county offices. \n-Jan. 2026: Issued FSA Notice IA-14 (FY 2025 National\
+    \ Payment Integrity Reviews for DAFP (Deputy Administrator for Farm Programs)\
+    \ Programs). This notice provides State and County Offices with information for\
+    \ training and guidance on FY 2025 PIIA review findings for NAP and other DAFP\
+    \ programs. The notice outlined common error trends, provided policy references\
+    \ for each finding, identified required corrective actions, and reinforced the\
+    \ use of the CCC-770 (Noninsured Crop Disaster Assistance Program Checklist) checklist\
+    \ and State Executive Director (SED) Delegate Reviews to support accurate eligibility\
+    \ determinations and payment approvals. The notice served as a foundational training\
+    \ resource for State and County Offices and was used to increase awareness of\
+    \ payment integrity requirements and strengthen compliance with program policies.\n\
+    -Amendment 25 (Mar. 2026) – policy enhancements for mechanically harvested and\
+    \ grazed forage.\n\nAudit:\n-District Director (DD) Reviews: Pursuant to FSA 1-NAP\
+    \ (Rev.2) par. 12 (NAP for 2015 and Subsequent Years), FSA strengthened internal\
+    \ controls by implementing the CCC-770 NAP review and reporting process. DDs or\
+    \ authorized delegates are required to review the first 5 yield-based, first 5\
+    \ grazing, and first 5 value loss applications submitted in each Service Center\
+    \ before approval or disapproval to verify eligibility determinations, supporting\
+    \ documentation, payment calculations, and compliance with program requirements.\
+    \ Review findings and corrective actions are documented through the Internal Control\
+    \ Reviews SharePoint and monitored by State and National Offices to identify common\
+    \ findings, target training opportunities, strengthen oversight, and improve program\
+    \ administration. These reviews continue to serve as a key preventive control\
+    \ for identifying and correcting errors before improper payments are issued. \n\
+    \nThese training and monitoring activities help address both cause categories\
+    \ of Statutory Requirements Not Met and Failure to Access Data/Information Needed\
+    \ by identifying processing errors before they become widespread and reinforcing\
+    \ compliance with program requirements.\n\nCorrective Actions Planned\nAutomation\
+    \ (FY 2027, Q4):\n-Automated NAP Grass for Grazing worksheet -  Grazing payment\
+    \ errors were caused by incorrect data being entered in the Grass for Grazing\
+    \ Worksheet, which is an excel spreadsheet requiring data to be entered manually.\
+    \ This manual process has been identified as a software enhancement to automate\
+    \ the process preventing many of these specific data entry errors. \n\nTraining\
+    \ (continuous throughout FY 2027):\n-Continued monthly NAP calls with State Office\
+    \ program specialists that incorporate policy review, training, and discussion\
+    \ of recurring program issues and improper payment trends. These calls remain\
+    \ ongoing and provide continuous reinforcement of eligibility, compliance, and\
+    \ documentation requirements. State specialists then provide the training to their\
+    \ county offices.  \n-Issue the annual Integrity and Accountability (IA) Notice\
+    \ notifying state and county offices of FY 2026 PIIA review results, policy reminders,\
+    \ corrective action requirements and training guidance. The notice will highlight\
+    \ common findings, provide policy references, reinforce eligibility and compliance\
+    \ requirements, and support National and State-led training efforts for County\
+    \ Office staff. \n\nAudit (FY 2027 Q1):\n-SED Delegate Reviews: FSA plans to strengthen\
+    \ internal controls by enhancing the CCC-770 NAP review and reporting process.\
+    \ Review findings and corrective actions will be documented through the Internal\
+    \ Control Reviews SharePoint and monitored by State and National Offices to identify\
+    \ common findings, target training opportunities, strengthen oversight, and improve\
+    \ program administration.\n\nThe corrective actions completed during FY2026 and\
+    \ planned for FY2027 are intended to reduce the frequency of improper payments\
+    \ through a combination of training, management oversight, monitoring, and automated\
+    \ system controls. Completed actions have strengthened employee awareness and\
+    \ management review processes, while the planned software modernization effort\
+    \ is expected to provide additional internal controls to improve compliance, support\
+    \ payment accuracy, and reduce the risk of future improper payments.\n\n"
+  Corrective_Actions_Proportion: 'The level of planned and completed corrective actions
+    appropriately aligns with the severity of the Noninsured Crop Disaster Assistance
+    Program’s (NAP’s) FY2026 improper payment rate of 7.18 percent and the associated
+    improper payment amount of $20.37M of $283.78M in outlays. These actions directly
+    target the three major cause categories identified through payment integrity testing:
+    Failure to Access Data/Overpayment ($6.42M), Failure to Access Data/Underpayment
+    ($3.92M), and Statutory Requirements Not Met ($10.02M). Because these categories
+    largely stemmed from human error, including data entry mistakes, inaccurate administrative
+    processing, missing eligibility verification, and documentation review deficiencies,
+    NAP has prioritized corrective actions that strengthen employee training, reinforce
+    management oversight, and expand internal control reviews.  Completed efforts
+    in FY2026, such as the issuance of National Amendment 25, monthly policy review
+    calls, and annual payment integrity guidance, have already enhanced clarity and
+    compliance related to eligibility determinations, acreage reporting, lease documentation,
+    and use of the NAP Grass for Grazing Worksheet.
+
+    In addition, NAP is implementing new State Executive Director Designee Prepayment
+    Reviews policy, to be issued in FY2027, which adds a targeted layer of oversight
+    to identify and correct processing errors before payments are issued. These activities
+    are proportionate to the fact that all FY2026 overpayments were determined to
+    be within the Agency''s control and can therefore be mitigated through strengthened
+    procedural checks, training, and supervisory review.  Planned modernization of
+    NAP software will further address core root causes by incorporating automated
+    eligibility validations, integrated use of the NAP Grass for Grazing Worksheet,
+    enhanced internal controls, and improved management reporting and audit capabilities.
+    Together, these efforts demonstrate a comprehensive, risk-based approach that
+    corresponds to the magnitude of the improper payment amounts and is expected to
+    improve program accuracy, reduce future improper payment, and support more consistent
+    compliance.  Development and implementation of the Improper Payment Trend Analysis
+    Tool is ongoing and will provide additional insight to support timely and targeted
+    corrective actions.'
+  End_Date: 09/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: Performance standards in Agency notices, including
+    FSA Notices PM 3051 and PM 3068, established mandatory criteria for internal control
+    implementation, maintenance, and oversight, including integrating controls into
+    program processes, analyzing data for risks, elevating concerns, and completing
+    corrective actions within required timeframes. As outlined in the previous Notices
+    mentioned, these standards apply to positions such as State Executive Directors,
+    District Directors, County Executive Directors, headquarters supervisors, and
+    program specialists, who are accountable for preventing improper payments and
+    detecting and correcting overpayments. To view the most recent mandatory performance
+    plans templates, see FSA Notice PM-3088 FY2025 Performance Plans.
+  IP_Unknown_Target_Rate: 0.0696
+  Improper_Payments_Rate: 7.1745718514
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '3.523'
+  Non_Monetary_Loss_Amount: '13.94'
+  Outlays: 283.78
+  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app3]Training, [app6]Audit'
+  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp6]Audit'
+  Payment_Accuracy_Rate: 92.82190429205723
+  Program_Additional_Information: The agency reviewed and refined FY 2026 testing
+    criteria so that payments are evaluated solely against statute and regulation,
+    consistent with Appendix C to OMB Circular A-123 (M-21-19). This update will result
+    in more accurate and compliant assessments of improper payments. This refinement
+    is a critical driver of our reduced improper payment rates in FY 2026. By aligning
+    testing strictly with statutory and regulatory requirements, FSA and PAR now ensure
+    improper payments are accurate and compliant with regulatory criteria.
+  Program_Design_or_Structural_Issue: 10.02
+  Resources_Requested_For_IP: FSA did not submit a budget request for FY 2026 related
+    to payment integrity needs because current internal controls, and system infrastructure
+    are sufficient to maintain improper payment levels within acceptable thresholds.
+    Planned improvements are being developed through ongoing enterprise modernization
+    efforts. Staff training needs have been met through updated curriculum delivered
+    in FY 2026, and no additional funding is required to sustain these improvements.
+    As a result, the program has the resources necessary to maintain and further reduce
+    improper payments without requiring new or expanded budget authority.
+  Start_Date: 10/2024
+  Technical_IP_Actions_Planned: '[app1]Automation, [app3]Training, [app6]Audit'
+  Technical_IP_Actions_Taken: '[atp3]Training, [atp6]Audit'
+  Technical_IP_Amount: '10.02'
+  Underpayment_Mitigations_Planned: '[app1]Automation, [app3]Training, [app6]Audit'
+  Underpayment_Mitigations_Taken: '[atp3]Training, [atp6]Audit'
+  Unknown_Payments_Rate: 0
+  Year: 2026
+  detail_IP_Causes: "The primary cause categories of the improper payments identified\
+    \ was Statutory Requirements Not Met and Failure to Access Data. \n\nCounty office\
+    \ staff were contacted to establish the root cause of each improper payment. Root\
+    \ causes of these findings were mostly attributed to human error. While some examples\
+    \ of these are due to incorrect data entries or the wrong selection made in a\
+    \ software system, others are mistakes that were not caught prior to payment processing.\
+    \ Some errors were made due to misunderstanding or misinterpreting policy requirements\
+    \ or mistakes attributed to more complex payment scenarios."
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '6.42'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '6.96'
+  eligibility_aggregated:
+  - Theme: Other
+    Theme_Description: Accurate acreage reporting
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 6.42
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '6.42'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 3.92
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '3.92'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[1.99, 6.4, 9.62, 27.41, 14.95]'
-Payment_Accuracy_Amounts: '[69.58000000000001, 161.01, 214.76, 278.30999999999995,
-  166.16000000000003]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[6.4, 9.62, 27.41, 14.95, 6.42]'
+Payment_Accuracy_Amounts: '[161.01, 214.76, 278.30999999999995, 166.16000000000003,
+  263.41999999999996]'
 Phase_2_Program: 0
 Program_Name: Noninsured Crop Disaster Assistance Program
 Scorecard_Links: []
-Technically_Improper_Amounts: '[7.19, 10.41, 15.3, 8.85, 3.69]'
-Underpayment_Amounts: '[0.58, 0.03, 0.18, 0.29, 0.98]'
+Technically_Improper_Amounts: '[10.41, 15.3, 8.85, 3.69, 10.02]'
+Underpayment_Amounts: '[0.03, 0.18, 0.29, 0.98, 3.92]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/10.451
 layout: program-specific

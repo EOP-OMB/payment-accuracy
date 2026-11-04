@@ -2,116 +2,6 @@
 Agency: TREASURY
 Agency_Name: Department of the Treasury
 Data_By_Year:
-- Agency_Needs_Satisfied: 'Not Applicable.
-
-
-    '
-  Confidence_Level: '>95%'
-  Corrective_Actions_Proportion: The IRS runs various automated checks of certain
-    data on a tax return before payment of a refund but is otherwise limited in its
-    ability to question and correct the taxpayer’s claim. The IRS must deploy a variety
-    of costly enforcement tools, including audits, to verify the information on the
-    tax return and then prevent the payment of tax refunds or collect any tax due.
-    As a result, the IRS allocates a disproportionate amount of its enforcement resources
-    to audit returns that claim one or more RTCs. This creates several problems. Because
-    lower-income taxpayers make up the majority of those claiming RTCs, they are subjected
-    to a disproportionate number of audits (RTC claimants are audited at almost three
-    times the rate of other taxpayers.) Since lower-income taxpayers make up a significant
-    portion of taxpayers claiming RTCs, auditing these taxpayers can lead to a negative
-    perception of IRS’s treatment of taxpayers. This runs counter to the IRS’s mission
-    of fairness to all taxpayers.
-  End_Date: 12/2018
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Within_Failure_to_Access_Data: true
-  Hide_Overpayments_Within_Inability_to_Access_Data: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: true
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Failure_to_Access_Data: true
-  Hide_Underpayments_Inability_to_Access_Data: true
-  IP_Current_Year_Plus_1_Amount: 0
-  Improper_Payments_Rate: 13.25706328
-  Insufficient_Documentation_to_Determine: 0.0
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '5.37'
-  Non_Monetary_Loss_Amount: '0.0'
-  Outlays: 39366.26
-  Outlays_Current_Year_Plus_1_Amount: 0
-  Payment_Accuracy_Rate: 86.74293671788989
-  Program_Design_or_Structural_Issue: 0.0
-  Resources_Requested_For_IP: "The IRS has internal controls in place to verify eligibility\
-    \ when data is available.  Treasury and IRS analyses have consistently found that\
-    \ refundable tax credit (RTC) overclaims are largely attributable to the statutory\
-    \ design and complex eligibility requirements, and not rooted in internal control\
-    \ weaknesses, financial management deficiencies, or reporting failures.  Therefore,\
-    \ the IRS works with Treasury to develop legislative proposals that will improve\
-    \ RTC compliance and reduce erroneous payments. \n\nFor  FY 2021 , the Administration\
-    \ included the following proposals in its Budget submission:\n\nProvide the IRS\
-    \ with greater flexibility to address correctable errors: This proposal would\
-    \ have  expanded the instances in which the IRS could correct a taxpayer’s return\
-    \ including cases where: (1) the information provided by the taxpayer does not\
-    \ match the information contained in government databases or Form W-2, or from\
-    \ other third party databases as the Secretary of the Treasury determines by regulation;\
-    \ (2) the taxpayer has exceeded the lifetime limit for claiming a deduction or\
-    \ credit; or (3) the taxpayer has failed to include with his or her return certain\
-    \ documentation that is required to be included on or attached to the return.\
-    \ This proposal would make it easier for the IRS to correct obvious taxpayer errors,\
-    \ directly improving tax compliance and reducing EITC and other RTC overclaims.\n\
-    \nIncrease Oversight of Paid Tax Return Preparers: This proposal would have explicitly\
-    \ provided that the Secretary of the Treasury have the authority to regulate all\
-    \ paid tax return preparers. This would promote high-quality services from paid\
-    \ tax preparers, decrease collection costs, increase revenues, and increase confidence\
-    \ in the tax system.\n\nFor  FY 2022 , the Administration again included in its\
-    \ Budget submission increased oversight of paid tax return preparers as a proposal,\
-    \ as well as the following additional proposal:\n\nIncrease penalties on ghost\
-    \ preparers: The proposal would increase the penalty amount to the greater of\
-    \ $500 per return or 100 percent of the income derived per return by a ghost preparer.\
-    \ The proposal would also increase the limitations period during which the penalty\
-    \ may be assessed from three years to six years.  The proposal would be effective\
-    \ for returns required to be filed after December 31, 2021."
-  Start_Date: 01/2018
-  Technical_IP_Amount: '0.0'
-  Unknown_Curent_Year_Plus_1_Amount: 0
-  Unknown_Payments_Rate: 0
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '0.0'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 4905.68
-    Failure_to_Access_Data: 0.0
-    Financial: 950.8684
-    Inability_to_Access_Data: 313.13
-    Overpayments_Outside_Control_Amount: '5218.81'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: "To reduce overclaim rates to less than 10 percent, to meet\
     \ Payment Integrity Information Act (PIIA) compliance standards, the IRS estimated,\
     \ in a Fiscal Year 2021 study, that it would need additional or reallocated resources\
@@ -439,23 +329,6 @@ Data_By_Year:
     Financial: 70.9969
     Inability_to_Access_Data: 32.77
     Overpayments_Outside_Control_Amount: '546.13'
-    Overpayments_Outside_Control_Why: The challenge in administering refundable tax
-      credits (RTCs) is that RTCs do not have the characteristics of a typical payment
-      program. The regulatory structure of the Additional Child Tax Credit (ACTC),
-      to include the lack of a preapproval process and IRS reliance on taxpayer self-certification
-      that tax returns are accurate, is the primary root cause of ACTC improper payments.
-      Specifically, at the time of filing/payment the IRS cannot readily authenticate
-      eligibility for the credit, i.e., whether a claimed child in fact qualifies,
-      meeting the many nuances of the Age, Relationship, Residency and Joint Return
-      Tests. This is due to the fact that the data needed to validate eligibility
-      is not available or does not exist. In addition, data is not available for IRS
-      to identify taxpayer income misreporting related to self-employment income and
-      other income where the income is not reported to the IRS by a third party. Finally,  each
-      year there are many taxpayers who claim and receive ACTC for the first time,
-      who have to understand and apply complex requirements. The statutory structure
-      and design for administering refundable tax credit refunds, including ACTC,
-      prevents the IRS from verifying or validating such pertinent data  prior to
-      making a refund.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -841,15 +714,6 @@ Data_By_Year:
     Financial: 448.0528
     Inability_to_Access_Data: 206.79
     Overpayments_Outside_Control_Amount: '3446.56'
-    Overpayments_Outside_Control_Why: The overpayments outside of the agency control
-      include the inability to authenticate data, primarily because the data does
-      not exist.  Authentication is difficult because the IRS relies primarily on
-      self-reported information from taxpayers, and there is a lack of internal or
-      external databases available with information that would help the IRS determine
-      eligibility.  These overpayments also include the inability to authenticate
-      data due to program design limitations. Barriers caused by program design occur
-      when information needed to confirm payment accuracy is not available at the
-      time the return is processed.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -1008,7 +872,7 @@ Data_By_Year:
     restructuring. Nonetheless, leadership is held accountable through defined appraisal
     criteria to drive progress toward long-term improper payment reduction goals.'
   IP_Unknown_Target_Rate: 0.1361
-  Improper_Payments_Rate: 13.6072255233
+  Improper_Payments_Rate: 13.60722552
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '2.89'
   Non_Monetary_Loss_Amount: '0'
@@ -1085,96 +949,283 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
+- Agency_Needs_Satisfied: The IRS has established strong internal controls, data-driven
+    compliance processes, and targeted outreach to reduce improper and unknown payments.
+    However, statutory limitations, including limited math error authority and the
+    lack of regulatory oversight of unenrolled paid return preparers, restrict the
+    IRS's ability to prevent errors before refunds are issued. If provided with additional
+    legislative authority, the IRS could more effectively leverage its existing systems,
+    workforce, and compliance tools to improve payment accuracy. With those authorities
+    in place, additional investments in compliance systems, staffing, and enforcement
+    activities would likely yield benefits that outweigh their costs by preventing
+    improper payments and reducing the need for post-refund recovery efforts.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: 'The IRS prioritizes and
+    implements corrective actions for refundable tax credits (RTCs) using a data-driven
+    approach that addresses both the structural and behavioral causes of improper
+    and unknown payments. Because RTCs rely on taxpayer self-certification and generally
+    do not include a pre-approval process, the IRS focuses on improving payment accuracy
+    through targeted compliance activities, taxpayer and tax professional education,
+    and collaboration with third-party partners, including tax software providers
+    and other federal agencies.
+
+
+    Corrective actions are prioritized based on improper payment risk, return error
+    trends, and opportunities to strengthen eligibility verification. These efforts
+    include refining compliance filters through annual Dependent Database (DDb) meetings,
+    using data-sharing agreements with federal partners to validate key eligibility
+    information, and improving taxpayer and preparer understanding of refundable tax
+    credit requirements. Although these actions strengthen payment integrity, the
+    IRS''s ability to prevent improper payments before refunds are issued remains
+    limited by statute. The IRS will continue refining its corrective actions while
+    working within its existing authority and leveraging available data and outreach
+    tools to improve payment accuracy.'
+  Corrective_Actions_Appropriateness: 'The IRS implemented targeted corrective actions
+    across its refundable tax credit programs to reduce improper and unknown payments.
+    These efforts, completed or planned for completion by the fourth quarter of FY
+    2026, reflect a coordinated, data-driven approach to improving payment accuracy
+    across the Earned Income Tax Credit (EITC), Additional Child Tax Credit (ACTC),
+    American Opportunity Tax Credit (AOTC), and Net Premium Tax Credit (Net PTC) programs.
+
+
+    To strengthen compliance, the IRS conducted its annual Dependent Database (DDb)
+    meeting with stakeholders from Taxpayer Services, Small Business/Self-Employed,
+    and Information Technology to review prior-year results and refine compliance
+    filters used to select returns for examination. The IRS also leveraged cross-enterprise
+    data sharing with federal partners, including the Office of Child Support Services
+    (OCSS), the Social Security Administration (SSA), and the Centers for Medicare
+    & Medicaid Services (CMS), to verify eligibility and identify discrepancies before
+    refunds were issued.
+
+
+    The IRS also continued providing annual due diligence training for tax professionals
+    through the IRS Nationwide Tax Forums and filing season readiness webinars. These
+    outreach efforts help improve understanding of refundable tax credit eligibility
+    requirements, support accurate return preparation, and address improper payments
+    caused by taxpayer or preparer error. Together, these actions demonstrate the
+    IRS''s commitment to continuously improving payment integrity while minimizing
+    burden on taxpayers.'
+  Corrective_Actions_Proportion: 'Refundable tax credits (RTCs) present unique payment
+    integrity challenges because they are administered through the tax system and
+    do not operate like traditional payment programs with upfront eligibility determinations.
+    As a result, the IRS must generally rely on taxpayer self-certification of eligibility
+    at the time a return is filed, increasing the risk of improper and unknown payments.
+    Contributing factors to improper payments of RTCs include the inability to verify
+    certain eligibility requirements before refunds are issued, misreported income,
+    and taxpayer misunderstanding of complex eligibility rules.
+
+
+    To address these risks, the IRS has implemented a layered, data-driven approach
+    that combines compliance, technology, and outreach. Annual Dependent Database
+    (DDb) meetings help refine compliance filters used to better identify returns
+    with a higher likelihood of errors before refunds are issued. The IRS also uses
+    data-sharing agreements with federal partners, including the Office of Child Support
+    Services, the Social Security Administration, and the Centers for Medicare & Medicaid
+    Services, to verify key eligibility information and strengthen payment integrity.
+    In addition, the IRS provides ongoing outreach and education to taxpayers and
+    tax professionals to improve understanding of refundable tax credit requirements
+    and promote accurate return preparation. Together, these efforts help address
+    the root causes of improper payments while recognizing that achieving the statutory
+    improper payment target would require significant changes to refundable tax credit
+    programs, including legislative action.'
+  End_Date: 12/2024
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Accountability_Description: The IRS promotes accountability for reducing improper
+    payments through regular oversight reviews, program monitoring, and collaboration
+    across the bureau. Executive managers and program officials identify opportunities
+    to improve payment accuracy and oversee corrective actions to strengthen internal
+    controls and compliance. The IRS also works with external partners, including
+    paid preparers and software developers, to improve filing accuracy and help prevent
+    improper payments. Program results are regularly reviewed, and processes are updated
+    to address emerging risks and improve payment integrity. However, achieving the
+    statutory improper payment target will require significant changes to refundable
+    tax credit programs, including legislative action.
+  IP_Unknown_Target_Rate: 0.1564
+  Improper_Payments_Rate: 15.6399871596
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '1.69'
+  Non_Monetary_Loss_Amount: '0'
+  Outlays: 34298.11
+  Overpayment_Combined_Mitigations_Planned: '[app4]Change Process, [app5]Cross Enterprise
+    Sharing'
+  Overpayment_Combined_Mitigations_Taken: '[atp4]Change Process, [atp5]Cross Enterprise
+    Sharing'
+  Payment_Accuracy_Rate: 84.36001284035768
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: 'The IRS has requested targeted investments to support
+    payment integrity through enhancing compliance tools and technology modernization.
+    The agency is prioritizing technology upgrades aimed at expanding automation,
+    improving data integration, and enhancing system uniformity to better support
+    audit selections and taxpayer data validation. These modernization efforts are
+    designed to standardize data across the enterprise, strengthen analytics and reporting,
+    and accelerate the delivery of digital services, which will ultimately improve
+    the agency’s ability to prevent and detect improper and unknown payments.
+
+
+    A key initiative is the continued expansion of the Enterprise Case Management
+    (ECM) system. The IRS projected that by the end of calendar year 2025, approximately
+    15,000 staff would be using ECM to reduce time and cost associated with critical
+    compliance functions. Furthermore, during the 2025 filing season, the IRS used
+    new identity theft filters that successfully identified and prevented issuance
+    of approximately $1 billion in fraudulent refunds across more than 84,000 tax
+    returns. These resource allocations reflect a strategic, data-driven approach
+    to improving payment integrity while maximizing return on investment.'
+  Start_Date: 01/2024
+  Technical_IP_Amount: '0.0'
+  Unknown_Payments_Rate: 0
+  Year: 2026
+  detail_IP_Causes: These overpayments include the inability to authenticate data,
+    primarily because the data does not exist. Authentication is difficult because
+    the IRS relies primarily on self-reported information from taxpayers, and there
+    is a lack of internal or external databases available with information that would
+    help the IRS determine eligibility. These overpayments also include the inability
+    to authenticate data due to program design limitations. Barriers caused by program
+    design occur when information needed to confirm payment accuracy is not available
+    at the time the return is processed.
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '5042.37'
+  detail_Overpayments_Due_To_Failure: '0.0'
+  detail_Overpayments_Due_To_Inability: '321.85'
+  detail_Reduction_Target: '15.64'
+  eligibility_aggregated:
+  - Theme: Citizenship
+    Theme_Description: "Recognized as a United States citizen through birth or naturalization,\
+      \ or as a \r\nlawfully present non-citizen in the United States"
+  - Theme: Dependency
+    Theme_Description: Describes who the recipient/beneficiary relies on as a primary
+      source of support
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  - Theme: Identity
+    Theme_Description: Able to establish that someone is uniquely who they claim to
+      be
+  - Theme: Marital Status
+    Theme_Description: A person's state of being single, married, separated, divorced,
+      or widowed
+  - Theme: Residency
+    Theme_Description: Status of recipient's living location or arrangement
+  overpayments:
+    Data_Needed_Does_Not_Exist: 5042.37
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 321.85
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '5364.22'
+  underpayments:
+    Underpayments_Amount: '0.0'
 Description: 'The Additional Child Tax Credit (ACTC) is a social benefits program
   for working families that is administered through the Internal Revenue Code.  $4.28B
   of ACTC overclaims are from the inability to authenticate eligibility because the
   data needed does not exist at the time of filing.  $0.27B of ACTC overclaims are
   from program design limitations because the claim eligibility and validation data
   is not available when the tax return is processed. '
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[5218.81, 5182.37, 546.13, 3446.56, 4549.55]'
-Payment_Accuracy_Amounts: '[34147.450000000004, 27659.000000000004, 3225.49, 28674.21,
-  28885.26]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[5182.37, 546.13, 3446.56, 4549.55, 5364.22]'
+Payment_Accuracy_Amounts: '[27659.000000000004, 3225.49, 28674.21, 28885.26, 28933.89]'
 Phase_2_Program: 0
 Program_Name: Internal Revenue Service - Additional Child Tax Credit
 Scorecard_Links:
-- Link: assets/scorecards/Q1 2020/Additional Child Tax Credit Getting Payments Right
-    Scorecard FY 2020 Q1.png
-  QuarterYear: Q1 2020
-- Link: assets/scorecards/Q3 2020/Additional Child Tax Credit Getting Payments Right
-    Scorecard FY 2020 Q3.png
-  QuarterYear: Q3 2020
-- Link: assets/scorecards/Q4 2020/Additional Child Tax Credit Getting Payments Right
-    Scorecard FY 2020 Q4.png
-  QuarterYear: Q4 2020
-- Link: assets/scorecards/Q1 2021/Additional Child Tax Credit Payments Integrity Scorecard
-    FY 2021 Q1.pdf
-  QuarterYear: Q1 2021
-- Link: assets/scorecards/Q2 2021/Additional Child Tax Credit Payments Integrity Scorecard
-    FY 2021 Q2.pdf
-  QuarterYear: Q2 2021
-- Link: assets/scorecards/Q3 2021/Additional Child Tax Credit Payments Integrity Scorecard
-    FY 2021 Q3.pdf
-  QuarterYear: Q3 2021
-- Link: assets/scorecards/Q4 2021/Additional Child Tax Credit Payments Integrity Scorecard
-    FY 2021 Q4.pdf
-  QuarterYear: Q4 2021
-- Link: assets/scorecards/Q1 2022/Internal Revenue Service - Additional Child Tax
-    Credit Payments Integrity Scorecard FY 2022 Q1.pdf
-  QuarterYear: Q1 2022
-- Link: assets/scorecards/Q2 2022/Internal Revenue Service - Additional Child Tax
-    Credit Payments Integrity Scorecard FY 2022 Q2.pdf
-  QuarterYear: Q2 2022
-- Link: assets/scorecards/Q3 2022/Internal Revenue Service - Additional Child Tax
-    Credit Payments Integrity Scorecard FY 2022 Q3.pdf
-  QuarterYear: Q3 2022
-- Link: assets/scorecards/Q4 2022/Internal Revenue Service - Additional Child Tax
-    Credit Payments Integrity Scorecard FY 2022 Q4.pdf
-  QuarterYear: Q4 2022
-- Link: assets/scorecards/Q2 2023/Internal Revenue Service - Additional Child Tax
-    Credit.pdf
-  QuarterYear: Q2 2023
-- Link: assets/scorecards/Q3 2023/Internal Revenue Service - Additional Child Tax
-    Credit.pdf
-  QuarterYear: Q3 2023
-- Link: assets/scorecards/Q4 2023/Internal Reveneu Service - Additional Child Tax
-    Credit.pdf
-  QuarterYear: Q4 2023
-- Link: assets/scorecards/Q1 2024/Internal Revenue Service - Additional Child Tax
-    Credit.pdf
-  QuarterYear: Q1 2024
-- Link: assets/scorecards/Q2 2024/Internal Revenue Service - Additional Child Tax
-    Credit.pdf
-  QuarterYear: Q2 2024
-- Link: assets/scorecards/Q3 2024/Internal Revenue Service - Additional Child Tax
-    Credit.pdf
-  QuarterYear: Q3 2024
-- Link: assets/scorecards/Q4 2024/Internal Revenue Service - Additional Child Tax
-    Credit.pdf
-  QuarterYear: Q4 2024
-- Link: assets/scorecards/Q1 2025/Internal Revenue Service - Additional Child Tax
-    Credit.pdf
-  QuarterYear: Q1 2025
-- Link: assets/scorecards/Q2 2025/Internal Revenue Service - Additional Child Tax
-    Credit.pdf
-  QuarterYear: Q2 2025
-- Link: assets/scorecards/Q3 2025/Internal Revenue Service - Additional Child Tax
-    Credit.pdf
-  QuarterYear: Q3 2025
-- Link: assets/scorecards/Q4 2025/Internal Revenue Service - Additional Child Tax
-    Credit.pdf
-  QuarterYear: Q4 2025
-- Link: assets/scorecards/Q2 2026/Internal Revenue Service - Additional Child Tax
-    Credit.pdf
-  QuarterYear: Q2 2026
 - Link: assets/scorecards/Q3 2026/Internal Revenue Service - Additional Child Tax
     Credit.pdf
   QuarterYear: Q3 2026
+- Link: assets/scorecards/Q2 2026/Internal Revenue Service - Additional Child Tax
+    Credit.pdf
+  QuarterYear: Q2 2026
+- Link: assets/scorecards/Q4 2025/Internal Revenue Service - Additional Child Tax
+    Credit.pdf
+  QuarterYear: Q4 2025
+- Link: assets/scorecards/Q3 2025/Internal Revenue Service - Additional Child Tax
+    Credit.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q2 2025/Internal Revenue Service - Additional Child Tax
+    Credit.pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q1 2025/Internal Revenue Service - Additional Child Tax
+    Credit.pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q4 2024/Internal Revenue Service - Additional Child Tax
+    Credit.pdf
+  QuarterYear: Q4 2024
+- Link: assets/scorecards/Q3 2024/Internal Revenue Service - Additional Child Tax
+    Credit.pdf
+  QuarterYear: Q3 2024
+- Link: assets/scorecards/Q2 2024/Internal Revenue Service - Additional Child Tax
+    Credit.pdf
+  QuarterYear: Q2 2024
+- Link: assets/scorecards/Q1 2024/Internal Revenue Service - Additional Child Tax
+    Credit.pdf
+  QuarterYear: Q1 2024
+- Link: assets/scorecards/Q4 2023/Internal Reveneu Service - Additional Child Tax
+    Credit.pdf
+  QuarterYear: Q4 2023
+- Link: assets/scorecards/Q3 2023/Internal Revenue Service - Additional Child Tax
+    Credit.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q2 2023/Internal Revenue Service - Additional Child Tax
+    Credit.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q4 2022/Internal Revenue Service - Additional Child Tax
+    Credit Payments Integrity Scorecard FY 2022 Q4.pdf
+  QuarterYear: Q4 2022
+- Link: assets/scorecards/Q3 2022/Internal Revenue Service - Additional Child Tax
+    Credit Payments Integrity Scorecard FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q2 2022/Internal Revenue Service - Additional Child Tax
+    Credit Payments Integrity Scorecard FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q1 2022/Internal Revenue Service - Additional Child Tax
+    Credit Payments Integrity Scorecard FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q4 2021/Additional Child Tax Credit Payments Integrity Scorecard
+    FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q3 2021/Additional Child Tax Credit Payments Integrity Scorecard
+    FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q2 2021/Additional Child Tax Credit Payments Integrity Scorecard
+    FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q1 2021/Additional Child Tax Credit Payments Integrity Scorecard
+    FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q4 2020/Additional Child Tax Credit Getting Payments Right
+    Scorecard FY 2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q3 2020/Additional Child Tax Credit Getting Payments Right
+    Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q1 2020/Additional Child Tax Credit Getting Payments Right
+    Scorecard FY 2020 Q1.png
+  QuarterYear: Q1 2020
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[0, 0, 0, 0, 0]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'

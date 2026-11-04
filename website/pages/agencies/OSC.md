@@ -3,7 +3,7 @@ Agency: OSC
 Agency_Name: Office of Special Counsel
 Confirmed_Fraud: 0.0
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -16,7 +16,7 @@ Hide_Recovery_Info: true
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
 Hide_Supplemental_Info: false
-Hide_Supplemental_Payment_Integrity: true
+Hide_Supplemental_Payment_Integrity: false
 Improper_Payments_Data_Years: '[]'
 Improper_Payments_Rate_Max: 0
 Improper_Payments_Rate_Min: 0
@@ -61,24 +61,31 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-detail_Additional_IP_Information: null
+detail_Additional_IP_Information: OSC utilizes a shared service provider, DOI/IBC,
+  for its financial system management and accounting operations.  In conjunction with
+  DOI/IBC, OSC has been able to avoid any improper payments in its programs, given
+  OSC's programs are miniscule compared to many other agencies.
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: My agency has run Do Not Pay reports, and since the agency
-  is so small, it has not had any instances where there was incorrect information.
+detail_DNP_Discussion: Our shared service provider utilizes the DNP portal from Treasury.
+  Specifically, IBC utilizes the “Online Search” and “Continuous Monitoring” services
+  that help identify suppliers that may need to be inactivated in OFF and help prevent
+  improper payments based on this data.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: OSC is a small agency that maintains strong internal controls
-  to ensure payment accuracy and integrity with its various vendors and partners,
-  both inside and outside of government.  OSC has had a clean audit opinion for a
-  number of years now, which is reflective of this fact.
-detail_OIG_Recommendations: null
+detail_Executive_Summary: OSC is compliant with the Payment Integrity Information
+  Act (PIIA) through a variety of methods. OSC utilizes Department of Interior – Interior
+  Business Center’s (IBC) Oracle Federal Financials (OFF) shared services solution
+  to create and maintain our financial management processes and business solutions,
+  which aids greatly in this process. Namely, IBC utilizes the DNP Portal, Death Screening,
+  TIN validation, and Bank Account Verification.
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

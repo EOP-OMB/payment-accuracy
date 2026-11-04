@@ -2,94 +2,6 @@
 Agency: DOL
 Agency_Name: Department of Labor
 Data_By_Year:
-- Agency_Needs_Satisfied: 'The program has staff responsible for reducing and establishing
-    and maintaining sufficient internal controls towards the reduction of IPs. The
-    program utilizes the Integrated Federal Employees Compensation System (iFECS)
-    to administer the program. iFECS is a major application that provides a case management
-    system to support core business functions and includes three sub-components, the
-    Agency Query System (AQS), the Claimant Query System (CQS) and the Employees''
-    Compensation Operations and Management Portal (ECOMP). iFECS was established to
-    provide FECA with an automated case management system. The system provides data
-    processing, financial and program management, as well as decision support functionalities
-    to authorized users. iFECS maintains an automated record of all claims filed,
-    adjudicatory statuses and benefits paid and denied. Data on entitlement and benefits
-    payment status maintained on iFECS is available in accordance with the Privacy
-    Act to authorized claimants, authorized representatives, and authorized user organizations
-    verbally via telephone and in paper/electronic formats.
-
-    '
-  Confidence_Level: '>90%'
-  Corrective_Actions_Proportion: "The program implemented new operational and performance\
-    \ plans which include requirements  to measure and accountability review of payments\
-    \ will assist in identifying individual employee is training needs to help them\
-    \ improve payment accuracy where needed. The program continues to expand innovative\
-    \ learning processes with resource modules, video, and simulations for policy\
-    \ and procedures to prevent IPs. \n"
-  End_Date: 06/2021
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  IP_Current_Year_Plus_1_Amount: 93
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.0318333333
-  Improper_Payments_Rate: 2.69540036
-  Insufficient_Documentation_to_Determine: 2.54
-  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
-  Margin_of_Error: '2.0'
-  Non_Monetary_Loss_Amount: '15.71'
-  Outlays: 2938.71
-  Outlays_Current_Year_Plus_1_Amount: 3000
-  Payment_Accuracy_Rate: 97.21816715497617
-  Program_Design_or_Structural_Issue: 0.28
-  Start_Date: 07/2020
-  Technical_IP_Amount: '0.28'
-  Unknown_Curent_Year_Plus_1_Amount: 2.5
-  Unknown_Payments_Rate: 0.0864324822796397
-  Unknown_Why: "The program is unable to discern whether the payment was proper or\
-    \ improper as a result of insufficient documentation or discrepancies involving\
-    \ various elements of payments. The beneficiaries employing Federal agency, is\
-    \ required to provide all salary information when a claim for wage-loss is submitted.\
-    \ In most instances, the information provided by the Federal employing agency\
-    \ is incomplete or inaccurate. This highlights the ongoing challenges facing the\
-    \ program’s payment process, namely reliance on reporting by other Federal agencies\
-    \ to provide accurate information. \n"
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 4.78
-    Overpayments_Within_Control_Amount: '4.78'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 41.32
-    Data_Needed_Does_Not_Exist: 41.32
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 17.4
-    Overpayments_Outside_Control_Amount: '58.72'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 15.43
-    Underpayments_Amount: '15.43'
 - Agency_Needs_Satisfied: The agency has sufficient resources to reduce improper and
     unknown payments.  There is sufficient staff to conduct the necessary audits and
     reviews as well as the necessary infrastructure to update information systems.  Additionally,
@@ -395,15 +307,6 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 12.4
     Overpayments_Outside_Control_Amount: '55.82'
-    Overpayments_Outside_Control_Why: 'Inability to access data/information needed
-      is outside of the agencies control. Statutory and regulatory barriers limit
-      the program’s ability to stop or adjust payments based on a medical review.
-      The program cannot directly access wage data or dual benefit eligibility data
-      housed by other Federal agencies. The
-
-      program continues to explore cost-effective methods to mitigate improper payments,
-      through training, cross agency communication and via annual benefit entitlement
-      questionnaires.'
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -610,12 +513,6 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 32.86
     Overpayments_Outside_Control_Amount: '72.2'
-    Overpayments_Outside_Control_Why: Inability to access data/information needed
-      is outside of the agency’s control.    The program cannot directly access wage
-      data or dual benefit eligibility data housed by other federal agencies. The
-      program continues to explore cost-effective methods to mitigate improper payments
-      through training, cross agency communication and via annual benefit entitlement
-      questionnaires.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -703,7 +600,7 @@ Data_By_Year:
     conducts quarterly meetings with the OIG and the medical bill contractor's staff
     to discuss the identification of potentially fraudulent activity.
   IP_Unknown_Target_Rate: 0.0305
-  Improper_Payments_Rate: 2.7750245263999997
+  Improper_Payments_Rate: 2.77502453
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '2.5'
   Non_Monetary_Loss_Amount: '9.6'
@@ -763,28 +660,174 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Inability_to_Access_Data: 8.09
     Underpayments_Amount: '9.6'
+- Agency_Needs_Satisfied: 'The program has resources to reduce improper and unknown
+    payments.  There is staff to conduct the necessary audits and reviews as well
+    as the necessary infrastructure to update information systems.  Additionally,
+    the program has working arrangements with other federal agencies to provide the
+    information needed to issue payments.
+
+    '
+  Confidence_Level: 90% to <95%
+  Corrective_Actions_Adequacy_Association_Implementation: 'The course of action planned
+    allows the program to monitor payments and to identify potential IPs/UPs and their
+    root causes at multiple levels.  Additionally, the use of data allows the program
+    to combine individual audit findings into trends to perform root cause analysis.  This
+    multilayered approach can lead to identifying trends, which will lead to better
+    training and potentially automated controls to reduce future improper payments.
+
+    '
+  Corrective_Actions_Appropriateness: "The program has a robust training program in\
+    \ place to prevent improper payments.  Training is done at the unit/office level\
+    \ as well as through the National Office.  There is also training for corrective\
+    \ actions available using online platforms. \n\nThe program will continue to use\
+    \ training corrective action plans to prevent future improper and unknown payments.\
+    \  As a result of staff turnover training continues through the year and the program\
+    \ utilizes on the spot corrective action and training to ensure issues are identified\
+    \ on the case level.\n\nThis corrective action is iterative and cyclical, the\
+    \ program provides ongoing training to staff - it is never complete.\n"
+  Corrective_Actions_Proportion: "The program plans to continue to utilize resources\
+    \ provided by Treasury's program integrity center.  It will continue to utilize\
+    \ its current audit corrective actions with its staff and medical bill pay contractors.\
+    \  As needed, the program may add additional auditing actions to identify areas\
+    \ that may be of concern to stakeholders.  \n\nAdditionally, the program will\
+    \ fully cooperate with the OIG's auditing program as part of the department's\
+    \ annual financial reporting requirements.  Unit/Office level actions will focus\
+    \ on issues that cause IP's/UP's such as compensation rate reviews and official\
+    \ pay rate determinations.  Use of Treasury's program will help the program's\
+    \ effort to focus on the cause of eligibility issues such as  deceased persons.\
+    \  Monthly medical bill payment audits ensure the program's medical bill contractors\
+    \ are processing payments consistent with program requirements.  The course of\
+    \ action planned allows the program to monitor payments and identify potential\
+    \ IP/UP's and their root causes at multiple levels.  \n\nAdditionally, the use\
+    \ of data allows the program to combine individual audit findings into trends\
+    \ to perform a root cause analysis.  This multilayered approach can lead to identifying\
+    \ trends, which will lead to better training and potentially automated controls\
+    \ to reduce future improper payments.  \n\nThe program will continue to prioritize\
+    \ payment processing and the identification of improper payments.  Each week,\
+    \ the program makes millions of dollars of payments, and regular monitoring is\
+    \ key to future root cause analysis.  The program will also look for opportunities\
+    \ that may lead to implementation of systematic controls as well as its efforts\
+    \ to address over and under payments after they have been identified.\n"
+  End_Date: 06/2026
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: 'The program has staff responsible for establishing
+    and maintaining internal controls toward the reduction of IPs.  The program incorporates
+    internal controls into the annual performance standards of program managers and
+    subordinate staff to ensure focus on understating and preventing IPs.  Program
+    managers are held responsible and accountable for meeting proper payment rates.  On
+    a monthly basis, managers are required to submit results of IPs identified through
+    audit results and supervisor reviews.  The program also conducts quarterly meetings
+    with the OIG and the medical bill contractor''s staff to discuss the identification
+    of potentially fraudulent activity.
+
+    '
+  IP_Unknown_Target_Rate: 0.03
+  Improper_Payments_Rate: 2.8777645926999997
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '2.5'
+  Non_Monetary_Loss_Amount: '1.62'
+  Outlays: 4095.54
+  Overpayment_Combined_Mitigations_Planned: '[app3]Training'
+  Overpayment_Combined_Mitigations_Taken: '[atp3]Training'
+  Payment_Accuracy_Rate: 97.12223540729671
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: 'In FY 2027, the FECA program will continue its ongoing
+    program integrity efforts through data analytics, payment audits, and improper
+    payment reporting to ensure compliance with PIIA.
+
+    '
+  Start_Date: 07/2025
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: '[app3]Training'
+  Underpayment_Mitigations_Taken: '[atp3]Training'
+  Unknown_Payments_Rate: 0
+  Year: 2026
+  detail_IP_Causes: "The program’s improper and unknown payments are broken down into\
+    \ 3 categories; medical payments; compensation payments and rolling 3-year average\
+    \ of adjudicated fraud.  \n\nThe program utilizes a medical bill pay contractor\
+    \ to process claims for reimbursement for services.  The bill pay system is automated\
+    \ and coded to process reimbursements based on inputs from providers and staff,\
+    \ which may include miss keyed data elements.   \n \nCompensation payments determined\
+    \ to be improper, or unknown are caused by a lack of available data to support\
+    \ dependency and marital status determinations.  Another cause is the program’s\
+    \ inability to access payrate information from payroll service providers and benefit\
+    \ payments being made by other federal agencies.  \nAdjudicated fraud is determined\
+    \ by the courts, and the program has no control over the amount of restitution\
+    \ awarded each year.  \n\nHowever, the program’s Program Integrity Unit (PIU)\
+    \ plays an integral role in identifying fraud through different types of audit\
+    \ procedures and collaborates with the OIG community and Department of Justice\
+    \ to pursue civil and criminal charges, whenever appropriate.  \n"
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '94.92'
+  detail_Overpayments_Due_To_Failure: '0.29'
+  detail_Overpayments_Due_To_Inability: '21.03'
+  detail_Reduction_Target: '3.0'
+  eligibility_aggregated:
+  - Theme: Dependency
+    Theme_Description: Describes who the recipient/beneficiary relies on as a primary
+      source of support
+  - Theme: Employment
+    Theme_Description: The employment status of the recipient/beneficiary
+  - Theme: Marital Status
+    Theme_Description: A person's state of being single, married, separated, divorced,
+      or widowed
+  - Theme: Receiving Benefits from Other Sources
+    Theme_Description: Beneficiary or recipient is receiving benefits from an additional
+      source
+  overpayments:
+    Data_Needed_Does_Not_Exist: 94.92
+    Failure_to_Access_Data: 0.29
+    Inability_to_Access_Data: 21.03
+    Overpayments_Within_Control_Amount: '39.45'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '76.79'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.01
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 1.61
+    Underpayments_Amount: '1.62'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[63.5, 76.99, 63.26, 75.14, 100.15]'
-Payment_Accuracy_Amounts: '[2856.96, 2831.59, 3183.7999999999997, 3540.2000000000003,
-  3845.17]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[76.99, 63.26, 75.14, 100.15, 116.24]'
+Payment_Accuracy_Amounts: '[2831.59, 3183.7999999999997, 3540.2000000000003, 3845.17,
+  3977.6800000000003]'
 Phase_2_Program: 0
 Program_Name: Office of Workers' Compensation - Federal Employees' Compensation Act
 Scorecard_Links:
-- Link: assets/scorecards/Q2 2026/Office of Workers_ Compensation - Federal Employees_
-    Compensation Act.pdf
-  QuarterYear: Q2 2026
 - Link: assets/scorecards/Q3 2026/Office of Workers_ Compensation - Federal Employees_
     Compensation Act.pdf
   QuarterYear: Q3 2026
-Technically_Improper_Amounts: '[0.28, 3.93, 5.01, 7, 0]'
-Underpayment_Amounts: '[15.43, 7.54, 11.21, 2.77, 9.6]'
-Unknown_Amounts: '[2.54, 3.26, 0, 0, 0]'
+- Link: assets/scorecards/Q2 2026/Office of Workers_ Compensation - Federal Employees_
+    Compensation Act.pdf
+  QuarterYear: Q2 2026
+Technically_Improper_Amounts: '[3.93, 5.01, 7, 0, 0]'
+Underpayment_Amounts: '[7.54, 11.21, 2.77, 9.6, 1.62]'
+Unknown_Amounts: '[3.26, 0, 0, 0, 0]'
 layout: program-specific
 permalink: program/dol-office-of-workers-compensation-federal-employees-compens-3801803f
 ---

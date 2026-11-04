@@ -3,7 +3,7 @@ Agency: DFC
 Agency_Name: US International Development Finance Corporation
 Confirmed_Fraud: 0.0
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -27,6 +27,19 @@ Overpayment_Amounts_Identified: '[]'
 Overpayment_Amounts_Recovered: '[]'
 Overpayment_Years: '[]'
 PIIA2019_Compliant_Programs:
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Agency General Administration
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -87,26 +100,31 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: Agency General Administration
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Debt Financing Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Equity Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Insurance Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Project Development Finance
     Slug: null
-    Susceptible: 'No'
+    Susceptible: null
   SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
@@ -115,6 +133,7 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 detail_Additional_IP_Information: null
@@ -122,23 +141,23 @@ detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: DFC uses the Do Not Pay (DNP) Initiative to reduce the risk
   of improper payments. DFC disburses payments through its shared service provider,
-  Department of Treasury's Bureau of Fiscal Services (BFS), and its programmatic payments
-  are validated against the DNP database prior to disbursement. In addition, DFC uses
-  DNP as part of its due diligence activities by validating project counterparties
-  against the DNP database prior to project commitment. DFC has not identified specific
-  instances where the DNP Initiative has reduced improper payments or awards.
+  Department of Treasury's Bureau of Fiscal Services (BFS), and its programmatic payments,
+  $ 2,627,372,320.72 in FY 2026, are validated against the DNP database prior to disbursement.
+  In addition, DFC uses DNP as part of its due diligence activities by validating
+  project counterparties against the DNP database prior to project commitment. DFC
+  has not identified specific instances where the DNP Initiative has reduced improper
+  payments.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: DFC has designed and implemented internal controls to promote
-  payment integrity and assesses the risk of payment integrity to its programs on
-  an annual basis. The FY2025 payment integrity risk assessment did not identify any
-  programs that are likely to be susceptible to significant improper payments. In
-  FY 2025, DFC’s OIG assessed the Corporation’s payment integrity processes and compliance
-  with the Payment Integrity Information Act of 2019 and determined that DFC complied
-  with the the statute and OMB guidance for preventing and reducing improper payments.
-detail_OIG_Recommendations: null
+detail_Executive_Summary: DFC has designed and implemented internal controls to mitigate
+  risks to payment integrity and conducts an annual payment integrity risk assessment.
+  The FY 2026 payment integrity risk assessment did not identify any programs that
+  are likely to be susceptible to significant improper payments. In FY 2026, DFC’s
+  OIG assessed the Corporation’s payment integrity processes and compliance with the
+  Payment Integrity Information Act of 2019 and determined that DFC complied with
+  the statute and OMB guidance for preventing and reducing improper payments.
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

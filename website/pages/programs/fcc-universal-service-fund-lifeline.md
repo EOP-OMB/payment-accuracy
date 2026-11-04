@@ -2,80 +2,6 @@
 Agency: FCC
 Agency_Name: Federal Communications Commission
 Data_By_Year:
-- Agency_Needs_Satisfied: The Lifeline Program has the internal controls, human capital,
-    information systems, and other infrastructure it requires to reduce IPs to the
-    targeted levels.
-  Confidence_Level: '>95%'
-  Corrective_Actions_Proportion: The Lifeline program will continue to find ways to
-    identify effective methods to reduce improper payments.
-  End_Date: 12/2020
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Within_Failure_to_Access_Data: true
-  Hide_Overpayments_Within_Inability_to_Access_Data: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Failure_to_Access_Data: true
-  Hide_Underpayments_Inability_to_Access_Data: true
-  IP_Current_Year_Plus_1_Amount: 125.25
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.1543974995
-  Improper_Payments_Rate: 13.72326617
-  Insufficient_Documentation_to_Determine: 18.33
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '3.97'
-  Non_Monetary_Loss_Amount: '0.0'
-  Outlays: 855.19
-  Outlays_Current_Year_Plus_1_Amount: 927.8
-  Payment_Accuracy_Rate: 84.13335048351829
-  Program_Design_or_Structural_Issue: 0.0
-  Start_Date: 01/2020
-  Technical_IP_Amount: '0.0'
-  Unknown_Curent_Year_Plus_1_Amount: 18
-  Unknown_Payments_Rate: 2.143383341713537
-  Unknown_Why: 'The unknown payments exist in Texas and California where both states
-    have opted out of using the National Verifier.  The National Verifier increases
-    program integrity by applying a consistent eligibility standard for Lifeline Program
-    participants.  For most Lifeline participants living in opt-out states, eligibility
-    determinations are processed by a state agency or its administrator.  '
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '0.0'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 117.36
-    Inability_to_Access_Data: 117.36
-    Overpayments_Outside_Control_Amount: '117.36'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: The Lifeline program has the internal controls, human capital,
     information systems and other infrastructure it requires to reduce improper payments
     to the targeted levels.
@@ -311,12 +237,6 @@ Data_By_Year:
     Financial: 11.501
     Inability_to_Access_Data: 11.501
     Overpayments_Outside_Control_Amount: '11.501'
-    Overpayments_Outside_Control_Why: Overpayments are outside of agency control because
-      documentation is not required to receive payment.  Carriers are required to
-      retain documentation  and to make it available upon request.  to demonstrate
-      how it evaluates the usage of its subscribers.  USAC depends on the carrier
-      to follow Commission rules related to non-usage. The collection of documentation
-      in advance would prevent timely payment and would be cost prohibitive.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -528,12 +448,6 @@ Data_By_Year:
     Financial: 0.57
     Inability_to_Access_Data: 0.0
     Overpayments_Outside_Control_Amount: '0.57'
-    Overpayments_Outside_Control_Why: Overpayments are outside of agency control because
-      documentation is not required to receive payment.  Carriers are required to
-      retain documentation and to make it available upon request.  To demonstrate
-      how it evaluates the usage of it's subscribers.  USAC depends on the carrier
-      to follow Commission rules related to non-usage.  The collection of documentation
-      in advance would prevent timely payment and would be cost prohibitive.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -628,7 +542,7 @@ Data_By_Year:
     the reporting and recovery of improper payments. All improper payments are deemed
     collectible and funding is either recovered or is in the process of being recovered.'
   IP_Unknown_Target_Rate: 0.09
-  Improper_Payments_Rate: 9.1164416586
+  Improper_Payments_Rate: 9.116441660000001
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '7.37'
   Non_Monetary_Loss_Amount: '0'
@@ -684,65 +598,222 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
+- Agency_Needs_Satisfied: The Lifeline program has the internal controls, human capital,
+    information systems and other infrastructure it requires to reduce improper payments
+    to targeted levels. The FCC and USAC will continue to expand internal controls
+    as necessary and will develop the human capital to ensure it meets its goals.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: The most impactful corrective
+    actions are focused on the robust Quality Assurance process to confirm eligibility.
+    USAC manually reviews appropriate documentation to confirm that a consumer is
+    eligible to participate in the Lifeline program and is not receiving duplicative
+    support. The Lifeline Program will review the root cause of the errors identified
+    in the assessments and will work with ETCs and opt-out state administrators.
+  Corrective_Actions_Appropriateness: "The major findings are caused by inadequate\
+    \ documentation related to usage. To address usage inadequate documentation, Lifeline\
+    \ implemented a process to review claim and de-enrollment non-usage data and perform\
+    \ outreach to potentially non-compliant Eligible Telecommunication Carriers (ETCs).\
+    \ Lifeline’s Program Integrity Assurance reviews continuously evolve in response\
+    \ to suspicious document trends by implementing an Optical Character Recognition\
+    \ to further identify suspicious and re-used documents.\n\nUSAC's Lifeline Program\
+    \ team continues to develop multiple outreach activities,\nincluding updates to\
+    \ the website training materials, conducting webinar(s) focused on common audit\
+    \ findings, prior PQA reviews and communicating best practices based on the observations.\
+    \ USAC provides annual training and implemented an Online Training Library to\
+    \ provide program participants with tools that they can access at their convenience.\
+    \  The training is developed on an ongoing basis throughout each fiscal year.\
+    \ \n\nThrough USAC's Risk Management Council meetings, the different USF program\
+    \ teams discussed strategic initiatives and risk that may impact USAC's goals.\
+    \ The Risk Management Council meetings will continue to provide an opportunity\
+    \ to analyze and respond to identified changes and related risks to maintain an\
+    \ effective internal control system as well as effective enterprise systems management.\
+    \ The meetings are completed on an ongoing quarterly basis. \n\nMonthly meetings\
+    \ are held between USAC's Audit and Assurance Division (AAD) and USAC leadership\
+    \ to discuss findings identified by AAD. During these meetings, corrective actions\
+    \ are discussed to prevent similar findings in the future. The webinars are completed\
+    \ on an ongoing annual basis.\n"
+  Corrective_Actions_Proportion: USAC and its manual review vendor have robust Quality
+    Assurance (QA) processes in place. Based on the results of the review, the team
+    will perform updates to training and materials. In addition, individual coaching
+    is provided to review agents for effective error detection. The QA process has
+    also been used to perform a trend analysis. Identifying the trends will provide
+    a proactive approach to addressing common errors. The Lifeline program team will
+    continue to review the root cause of the errors identified in the QA process.
+  End_Date: 12/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Accountability_Description: The FCC works through it's program administrator,
+    USAC, to complete payment recapture audits known as Beneficiary and Contributor
+    Audit Program (BCAP). BCAP audits are designed to identify overpayments that must
+    be recaptured, assess compliance with FCC rules, and deter waste, fraud, and abuse.
+    Further, the FCC works through USAC's improper payment testing program known as
+    Payment Quality Assurance (PQA). Through PQA, USAC utilizes a statistical sampling
+    methodology to estimate the annual amount of improper payments.    The goal of
+    the PQA assessment plan is to estimate an improper payment error rate based on
+    non-compliance with FCC rules. To recover improper payments, the FCC and USAC
+    have implemented an enterprise recovery policy to standardize the reporting and
+    recovery of improper payments. All improper payments are deemed collectible and
+    funding is either recovered or is in the process of being recovered.
+  IP_Unknown_Target_Rate: 0.098
+  Improper_Payments_Rate: 14.452681132
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '7.97'
+  Non_Monetary_Loss_Amount: '0'
+  Outlays: 924.05
+  Overpayment_Combined_Mitigations_Planned: '[app3]Training, [app5]Cross Enterprise
+    Sharing, [app6]Audit'
+  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp5]Cross Enterprise
+    Sharing, [atp6]Audit'
+  Payment_Accuracy_Rate: 85.54731886802662
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: The FY 2028 FCC budget submission includes multiple
+    anticipated improvements and proposals that would help the Lifeline Program come
+    into compliance in the future. The first major step has already been taken to
+    revoke an exception provided by the Commission that allowed the California Public
+    Utilities Commission (CPUC) to use its own processes for federal Lifeline eligibility
+    verifications. Other efforts worth noting, throughout 2024 and 2025, Lifeline’s
+    administrator (USAC) upgraded its contracts with technology vendors and signed
+    new ones for services that use optical character recognition (OCR) and artificial
+    intelligence (AI) to flag suspicious documentation and verify applicants’ identities
+    prior to enrollment. An anti-fraud detection tool developed by Thomson Reuters
+    was deployed by USAC in August 2026. Special attention will be given to the two
+    Eligible Telecommunications Carrier (ETCs) responsible for 80% of improper payments
+    related to non-usage, including targeted Program Integrity Assurance reviews to
+    ensure adherence to non-usage rules and mitigate future risks. Overall, the FCC
+    will continue to direct its administrator, USAC, to continue regular reviews for
+    all ETCs to ensure consistent compliance with Commission rules.
+  Start_Date: 01/2025
+  Technical_IP_Amount: '0.0'
+  Unknown_Payments_Rate: 0
+  Year: 2026
+  detail_IP_Causes: "The major cause of Lifeline improper payments is Usage - Inadequate\
+    \ Documentation, which is 73% of the total improper payments. This is an indicator\
+    \ that personally identifiable information on the eligibility documentation did\
+    \ not agree or was not listed. In addition, dated tax form exceeding two years\
+    \ from enrollment were used to determine eligibility usage inadequate documentation\
+    \ is caused when usage documentation provided was not adequate to support the\
+    \ subscriber's continued eligibility to receive Lifeline benefits. Examples of\
+    \ why the documentation was inadequate may include, but is not limited to, no\
+    \ usage during the 30 days prior to the snapshot date. The documentation provided\
+    \ does not demonstrate qualified usage during the 30 days prior to the snapshot\
+    \ date.\n\nUSAC's Lifeline Program team continues to develop multiple outreach\
+    \ activities,\nincluding updates to the website training materials, conducting\
+    \ webinar(s) focused on common audit findings, prior PQA reviews and communicating\
+    \ best practices based on the observations. USAC provides annual training and\
+    \ implemented an Online Training Library to provide program participants with\
+    \ tools that they can access at their convenience.  The training is developed\
+    \ on an ongoing basis throughout each fiscal year. \n\nThrough USAC's Risk Management\
+    \ Council meetings, the different USF program teams discussed strategic initiatives\
+    \ and risk that may impact USAC’s goals. The Risk Management Council meetings\
+    \ will continue to provide an opportunity to analyze and respond to identified\
+    \ changes and related risks to maintain an effective internal control system as\
+    \ well as effective enterprise systems management. The meetings are completed\
+    \ on an ongoing quarterly basis. \n\nMonthly meetings are held between USAC’s\
+    \ Audit and Assurance Division (AAD) and USAC leadership to discuss findings identified\
+    \ by AAD. During these meetings, corrective actions are discussed to prevent similar\
+    \ findings in the future. The webinars are completed on an ongoing annual basis."
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '105.52'
+  detail_Overpayments_Due_To_Inability: '28.03'
+  detail_Reduction_Target: '9.8'
+  eligibility_aggregated:
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  - Theme: Receiving Benefits from Other Sources
+    Theme_Description: Beneficiary or recipient is receiving benefits from an additional
+      source
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 105.52
+    Inability_to_Access_Data: 28.03
+    Overpayments_Within_Control_Amount: '28.03'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '105.52'
+  underpayments:
+    Underpayments_Amount: '0.0'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
-High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[117.36, 37.21, 11.501, 46.9, 75.63]'
-Payment_Accuracy_Amounts: '[719.5, 569.53, 515.349, 737.9200000000001, 753.97]'
+High_Priority_Program: 1
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[37.21, 11.501, 46.9, 75.63, 133.55]'
+Payment_Accuracy_Amounts: '[569.53, 515.349, 737.9200000000001, 753.97, 790.5]'
 Phase_2_Program: 0
 Program_Name: Universal Service Fund – Lifeline
 Scorecard_Links:
-- Link: assets/scorecards/Q4 2018/Universal-Service-Funds-Lifeline-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
-  QuarterYear: Q4 2018
-- Link: assets/scorecards/Q2 2019/Universal Service Funds - Lifeline Getting Payments
-    Right Scorecard FY 2019 Q2.pdf
-  QuarterYear: Q2 2019
-- Link: assets/scorecards/Q3 2019/Universal Service Funds - Lifeline Getting Payments
-    Right Scorecard FY 2019 Q3.pdf
-  QuarterYear: Q3 2019
-- Link: assets/scorecards/Q4 2019/Universal Service Funds - Lifeline Getting Payments
-    Right Scorecard FY 2019 Q4.pdf
-  QuarterYear: Q4 2019
-- Link: assets/scorecards/Q1 2020/Universal Service Funds - Lifeline Getting Payments
-    Right Scorecard FY 2020 Q1.png
-  QuarterYear: Q1 2020
-- Link: assets/scorecards/Q3 2020/Universal Service Funds - Lifeline Getting Payments
-    Right Scorecard FY 2020 Q3.png
-  QuarterYear: Q3 2020
-- Link: assets/scorecards/Q4 2020/Universal Service Funds - Lifeline Getting Payments
-    Right Scorecard FY 2020 Q4.png
-  QuarterYear: Q4 2020
-- Link: assets/scorecards/Q1 2021/Universal Service Funds - Lifeline Payments Integrity
-    Scorecard FY 2021 Q1.pdf
-  QuarterYear: Q1 2021
-- Link: assets/scorecards/Q2 2021/Universal Service Funds - Lifeline Payments Integrity
-    Scorecard FY 2021 Q2.pdf
-  QuarterYear: Q2 2021
-- Link: assets/scorecards/Q3 2021/Universal Service Funds - Lifeline Payments Integrity
-    Scorecard FY 2021 Q3.pdf
-  QuarterYear: Q3 2021
-- Link: assets/scorecards/Q4 2021/Universal Service Funds - Lifeline Payments Integrity
-    Scorecard FY 2021 Q4.pdf
-  QuarterYear: Q4 2021
-- Link: assets/scorecards/Q1 2022/Universal Service Fund - Lifeline Payments Integrity
-    Scorecard FY 2022 Q1.pdf
-  QuarterYear: Q1 2022
-- Link: assets/scorecards/Q2 2022/Universal Service Fund - Lifeline Payments Integrity
-    Scorecard FY 2022 Q2.pdf
-  QuarterYear: Q2 2022
-- Link: assets/scorecards/Q3 2022/Universal Service Fund - Lifeline Payments Integrity
-    Scorecard FY 2022 Q3.pdf
-  QuarterYear: Q3 2022
 - Link: assets/scorecards/Q4 2022/Universal Service Fund - Lifeline Payments Integrity
     Scorecard FY 2022 Q4.pdf
   QuarterYear: Q4 2022
+- Link: assets/scorecards/Q3 2022/Universal Service Fund - Lifeline Payments Integrity
+    Scorecard FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q2 2022/Universal Service Fund - Lifeline Payments Integrity
+    Scorecard FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q1 2022/Universal Service Fund - Lifeline Payments Integrity
+    Scorecard FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q4 2021/Universal Service Funds - Lifeline Payments Integrity
+    Scorecard FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q3 2021/Universal Service Funds - Lifeline Payments Integrity
+    Scorecard FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q2 2021/Universal Service Funds - Lifeline Payments Integrity
+    Scorecard FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q1 2021/Universal Service Funds - Lifeline Payments Integrity
+    Scorecard FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q4 2020/Universal Service Funds - Lifeline Getting Payments
+    Right Scorecard FY 2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q3 2020/Universal Service Funds - Lifeline Getting Payments
+    Right Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q1 2020/Universal Service Funds - Lifeline Getting Payments
+    Right Scorecard FY 2020 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q4 2019/Universal Service Funds - Lifeline Getting Payments
+    Right Scorecard FY 2019 Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q3 2019/Universal Service Funds - Lifeline Getting Payments
+    Right Scorecard FY 2019 Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q2 2019/Universal Service Funds - Lifeline Getting Payments
+    Right Scorecard FY 2019 Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q4 2018/Universal-Service-Funds-Lifeline-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[0, 0, 0, 0, 0]'
-Unknown_Amounts: '[18.33, 0, 0, 0, 0]'
+Unknown_Amounts: '[0, 0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/32.003
 layout: program-specific
 permalink: program/fcc-universal-service-fund-lifeline

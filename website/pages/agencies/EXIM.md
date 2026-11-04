@@ -3,7 +3,7 @@ Agency: EXIM
 Agency_Name: Export-Import Bank of the U.S.
 Confirmed_Fraud: 0.0
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -87,27 +87,27 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Cash-Control Disbursements
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Long-Term Authorizations
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Medium-Term Authorizations
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Short-Term Authorizations
     Slug: null
     Susceptible: 'No'
-  SubstantialChangesMade: null
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -115,6 +115,7 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
@@ -122,57 +123,48 @@ Years_Available:
 detail_Additional_IP_Information: null
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: EXIM complies with all aspects of the Do Not Pay Initiative
-  through its Character, Reputational, and Transaction Integrity (CRTI) process. All
-  transactions within the three authorization-based payment programs (Short-Term,
-  Medium-Term, and Long-Term) undergo CRTI checks. As part of CRTI, participant names
-  are screened against a clearinghouse database containing over 400 databases and
-  20 directories to ensure compliance with various “Know Your Customer” (KYC) and
-  EXIM due diligence requirements. Additionally, EXIM does not disburse funds directly
-  to payees. Instead, payments are processed through the U.S. Department of the Treasury’s
-  Secure Payment System. All disbursements undergo payment integration, during which
-  the Do Not Pay portal automatically matches files against the Death Master File
-  and the System for Award Management (SAM) exclusion records.
-detail_DNP_Frequency_Identify: null
-detail_DNP_Reduced: null
-detail_DNP_Used: 'No'
+detail_DNP_Discussion: EXIM utilizes Treasury’s Do Not Pay services as part of Treasury’s
+  payment process. All disbursements undergo payment integration, during which the
+  Do Not Pay portal automatically matches files against the Death Master File and
+  System for Award Management (SAM) exclusion records. EXIM has documented examples
+  demonstrating that this control is functioning as intended; however, EXIM has not
+  identified evidence during the reporting period demonstrating that use of the Do
+  Not Pay Working System reduced or prevented improper payments or awards. Accordingly,
+  EXIM has reported “No” in response to DPA2.
+detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
+detail_DNP_Reduced: 'No'
+detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: 'The Payment Integrity Information Act of 2019 (PIIA) requires
-  agencies to review and assess all programs and activities they administer and identify
-  those determined to be susceptible to significant improper payments. The Office
-  of Management and Budget’s (OMB) Circular A-123, Appendix C, Requirements for Payment
-  Integrity Improvement, requires that agencies assess all programs with annual outlays
-  greater than $10,000,000 for improper payment (IP) risk at least once every three
-  years. The Export-Import Bank of the United States (EXIM) supports compliance with
-  PIIA and OMB guidance through its Payment Integrity program, which consists of four
-  distinct components: Short-term Authorizations, Medium-term Authorizations, Long-
-  term Authorizations, and Cash control Disbursements. Per OMB guidance, risk assessments
-  of all EXIM programs are conducted every three years. In the interim years, risk
-  assessments evaluating programs that experience significant legislative changes
-  and/or significant increase in funding will be performed to determine if the agency
-  continues to be at low risk for making significant improper payments, at or above
-  the threshold levels set by OMB. In FY 2023, EXIM conducted a comprehensive risk
-  assessment of all four programs and determined that none of its programs were risk-susceptible
-  for making significant improper payments in the preceding year. Throughout FYs 2024
-  and 2025, EXIM remained compliant with PIIA and applicable OMB guidance, including
-  Circular A-123, Appendix C, Requirements for Payment Integrity Improvement, revised
-  as of March 5, 2021, and Circular A-136, Financial Reporting Requirements, revised
-  July 14, 2025. In accordance with PIIA and OMB requirements, the next risk assessment
-  of all four programs will be performed in FY 2026.
-
-
-  PIIA also requires Federal agencies to report annually on their efforts according
-  to guidance promulgated by OMB. Annually, EXIM submits data to OMB as part of the
-  Annual Data Call. It is collected and published on www.paymentaccuracy.gov,which
-  provides current and historical information about improper payments made under Federal
-  programs, as well as extensive information about how improper payments are defined
-  and tracked. For detailed results of EXIM’s compliance efforts under PIIA, please
-  refer to the PaymentAccuracy.gov website.  As part of the Annual Data Call, EXIM
-  also submits the agency’s designated Payment Integrity Point of Contact to OMB,
-  as required.
-
-  '
-detail_OIG_Recommendations: null
+detail_Executive_Summary: "The Payment Integrity Information Act of 2019 (PIIA) requires\
+  \ agencies to review and assess all programs and activities they administer and\
+  \ identify those determined to be susceptible to significant improper payments.\
+  \ \n\nOMB requires that agencies assess all programs with annual outlays greater\
+  \ than $10.0 million for improper payment risk at least once every three years.\
+  \ EXIM complies with PIIA and OMB requirements through the activities of its Payment\
+  \ Integrity program, which comprises four separate programs: short-term authorizations,\
+  \ medium-term authorizations, long-term authorizations, and cash-control disbursements.\
+  \ Risk assessments over each of the four programs are performed at least once every\
+  \ three years. In the interim years, EXIM evaluates whether any programs experienced\
+  \ significant legislative changes and/or significant increases in funding that would\
+  \ warrant an off-cycle risk assessment to determine if the program is at risk for\
+  \ making significant improper payments, at or above the threshold levels set by\
+  \ OMB. In FY 2026, EXIM conducted a comprehensive risk assessment of all four programs\
+  \ and determined that none of its programs were risk-susceptible for making significant\
+  \ improper payments in the preceding fiscal year.  Throughout FYs 2025 and 2026,\
+  \ EXIM remained compliant with PIIA and applicable OMB guidance, including Circular\
+  \ A-123, Appendix C, Requirements for Payment Integrity Improvement, revised as\
+  \ of March 5, 2021, and Circular A-136, Financial Reporting Requirements, revised\
+  \ May 29, 2026. In accordance with PIIA and OMB requirements, the next risk assessment\
+  \ of all four programs will be performed in FY 2029.\n\nPIIA also requires Federal\
+  \ agencies to report annually on their efforts according to guidance promulgated\
+  \ by OMB. Annually, EXIM submits data to OMB as part of the Annual Data Call. It\
+  \ is collected and published on www.paymentaccuracy.govwhich provides current and\
+  \ historical information about improper payments made under Federal programs, as\
+  \ well as extensive information about how improper payments are defined and tracked.\
+  \ For detailed results of EXIM’s compliance efforts under PIIA, to include recovery\
+  \ information and risk assessment results, please refer to the paymentaccuracy.gov.\
+  \ As part of the Annual Data Call, EXIM also submits the agency’s designated Payment\
+  \ Integrity Point of Contact to OMB, as required."
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
@@ -186,7 +178,7 @@ detail_Recovery_Not_Cost_Effective_Justification: EXIM reviewed all its programs
   technologies to analyze payment records and supporting documentation. Therefore,
   it has been determined that it is not cost-effective to conduct recovery audits
   to identify and recover overpayments.
-detail_Risks_Substantial_Changes_Made: null
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/EXIM.html
 recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0

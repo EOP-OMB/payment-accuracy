@@ -1,9 +1,9 @@
 ---
 Agency: TREASURY
 Agency_Name: Department of the Treasury
-Confirmed_Fraud: 349.94
+Confirmed_Fraud: 88.29
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: false
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -16,17 +16,17 @@ Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: false
 Hide_Supplemental_Info: false
-Hide_Supplemental_Payment_Integrity: false
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Hide_Supplemental_Payment_Integrity: true
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
 Improper_Payments_Rate_Max: 32.1
 Improper_Payments_Rate_Min: 21.9
-Improper_Payments_Rates: '[22.696875651497386, 26.471068551901556, 32.07894128911711,
-  21.90683241597563, 26.53705838689809]'
+Improper_Payments_Rates: '[26.471068551901556, 32.07894128911711, 21.90683241597563,
+  26.53705838689809, 27.23439941354967]'
 Is_Placeholder: false
-Overpayment_Amounts: '[26063.190000000002, 25967.34, 25036.77, 21477.2, 28061.01]'
-Overpayment_Amounts_Identified: '[425.65924, 101.39, 86.43, 78.81, 1877.67]'
-Overpayment_Amounts_Recovered: '[425.62882, 97.92, 59.2, 67.29, 34.69]'
-Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[25967.34, 25036.77, 21477.2, 28061.01, 30728.02]'
+Overpayment_Amounts_Identified: '[101.39, 86.43, 78.81, 1877.67, 76.18]'
+Overpayment_Amounts_Recovered: '[97.92, 59.2, 67.29, 34.69, 19.01]'
+Overpayment_Years: '[2022, 2023, 2024, 2025, 2026]'
 PIIA2019_Compliant_Programs:
 - Compliant_1A: true
   Compliant_1B: true
@@ -328,35 +328,7 @@ PIIA2019_Compliant_Programs:
   Compliant_Overall: true
   Hide_Compliance_Section: true
   Name: Community Development Financial Institutions - Emergency Support Program -
-    Equitable Recovery Program
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: Community Development Financial Institutions - Emergency Support Program -
     Non Federal Financial Assistance Related Payments
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: Community Development Financial Institutions - Emergency Support Program -
-    Rapid Response Program
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -508,6 +480,19 @@ PIIA2019_Compliant_Programs:
   Hide_Compliance_Section: true
   Name: Community Development Financial Institutions Fund - Community Development
     Financial Institutions (CDFI) Program- Small Dollar Loan Program
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Community Development Financial Institutions Fund - Financing
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -847,7 +832,7 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Departmental Offices - Coronavirus Capital Projects Fund
+  Name: Departmental Offices - Assist to FNMA & FHLMC
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -860,7 +845,46 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Departmental Offices - Coronavirus Relief Fund
+  Name: Departmental Offices - Committee on Foreign Investment in the US Fund
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Departmental Offices - Contribution to IMF Facilities and Trust Funds
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Departmental Offices - Contribution to IMF Facilities and Trust Funds Financing
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Departmental Offices - Coronavirus Capital Projects Fund
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -939,6 +963,32 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
+  Name: Departmental Offices - Exchange Stabilization Fund
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Departmental Offices - Federal Financing Bank
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Departmental Offices - Federal Research Fund
 - Compliant_1A: true
   Compliant_1B: true
@@ -953,6 +1003,19 @@ PIIA2019_Compliant_Programs:
   Compliant_Overall: true
   Hide_Compliance_Section: true
   Name: Departmental Offices - Homeowners Assistance Fund
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Departmental Offices - IT System Modernization and Working Capital Fund
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -1004,7 +1067,47 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
+  Name: Departmental Offices - Pandemic Relief for Aviation Workers
+  Slug: treasury-departmental-offices-pandemic-relief-for-aviation-w-da17ec73
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Departmental Offices - Salaries and Expenses
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Departmental Offices - Small Business Lending Fund- Financing
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Departmental Offices - State HFA Direct Loan Financing Account
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -1033,19 +1136,6 @@ PIIA2019_Compliant_Programs:
   Hide_Compliance_Section: true
   Name: Departmental Offices - State Small Business Credit Initiative- Technical Assistance
     Grant Program
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: Departmental Offices - Transportation Services Economic Relief
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -1270,6 +1360,34 @@ PIIA2019_Compliant_Programs:
   Compliant_Overall: true
   Hide_Compliance_Section: true
   Name: District of Columbia (DC) Pensions - DC Federal Pension Fund
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: District of Columbia (DC) Pensions - Federal Payment to DC Judicial Survivors
+    and Annuity Fund
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: District of Columbia (DC) Pensions - Federal Payment to Federal DC Pension
+    Fund
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -2122,6 +2240,19 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
+  Name: Financial Crimes Enforcement Network - Financial Integrity Fund
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Financial Crimes Enforcement Network - Salaries and Expenses
 - Compliant_1A: true
   Compliant_1B: true
@@ -2187,6 +2318,19 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
+  Name: Fiscal Service - Credit Reform - Interest on Uninvested Fund
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Fiscal Service - DC Water & Sewer
 - Compliant_1A: true
   Compliant_1B: true
@@ -2226,7 +2370,34 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Fiscal Service - Federal Payment of School Improvement
+  Name: Fiscal Service - Federal Interest Liabilities to States, Bureau of Fiscal
+    Service, Treasury
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Fiscal Service - Federal Payment - DC Water and Sewer
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Fiscal Service - Federal Payment- School Improvement
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -2265,7 +2436,72 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
+  Name: Fiscal Service - Fiscal Management Services- Salaries and Expenses
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Fiscal Service - Fiscal Service Administrative Salaries and Expenses
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Fiscal Service - Fiscal Service Debt Sinking Fund
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Fiscal Service - Gain/Loss on Buyback of US Treasury Securities
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Fiscal Service - Gifts to Reduce Public Debt
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Fiscal Service - HOPE Reserve Fund
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -2330,6 +2566,19 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
+  Name: Fiscal Service - Payment of Government Losses in Shipment
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Fiscal Service - Payment to Legal Services Corporation
 - Compliant_1A: true
   Compliant_1B: true
@@ -2344,6 +2593,19 @@ PIIA2019_Compliant_Programs:
   Compliant_Overall: true
   Hide_Compliance_Section: true
   Name: Fiscal Service - Payment to Resolution Funds Corporation
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Fiscal Service - Public Debt Principal
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -2382,6 +2644,19 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
+  Name: Fiscal Service - Relief by Public and Private Law
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Fiscal Service - Resident Tuition Sup
 - Compliant_1A: true
   Compliant_1B: true
@@ -2395,7 +2670,7 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Fiscal Service - Travel Promotion Fund, Corp for Travel Promotion
+  Name: Fiscal Service - Restitution of Foregone Interest
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -2408,7 +2683,7 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Fiscal Service- CMIA, Net Interest Pd to States
+  Name: Fiscal Service - Travel Promotion Fund, Corp for Travel Promotion
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -2883,20 +3158,6 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Internal Revenue Service - Taxpayer Services- Exchange of Federal Information
-    with State Agencies
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
   Name: Internal Revenue Service - Taxpayer Services- Lower Income Taxpayer Clinics
 - Compliant_1A: true
   Compliant_1B: true
@@ -3165,7 +3426,21 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Office of Financial Stability - Salaries and Expenses
+  Name: Office of Financial Stability - Home Affordable Modification Program
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Office of Financial Stability - Troubled Asset Relief Program Equity Purchase
+    Financing Account
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -3217,7 +3492,33 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
+  Name: Office of International Assistance - Contribution to Clean Technology Fund
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Office of International Assistance - Contribution to European Bank for Reconstruction
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Office of International Assistance - Contribution to Inter-Amer Development
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -3257,6 +3558,20 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
+  Name: Office of International Assistance - Contribution to International Finance
+    Corporation
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Office of International Assistance - Contribution to Multilat INV Guar
 - Compliant_1A: true
   Compliant_1B: true
@@ -3272,6 +3587,19 @@ PIIA2019_Compliant_Programs:
   Hide_Compliance_Section: true
   Name: Office of International Assistance - Contribution to the Asian Development
     Fund
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Office of International Assistance - Debt Restructuring
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -3311,6 +3639,33 @@ PIIA2019_Compliant_Programs:
   Compliant_Overall: true
   Hide_Compliance_Section: true
   Name: Office of International Assistance - International Fund for Agriculture Development
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Office of International Assistance - Treasury International Assistance Programs
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Office of International Assistance - Treasury International Assistance Programs
+    Guaranteed Loan Financing
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -3785,12 +4140,12 @@ PIIA2019_NonCompliant_Programs:
   Hide_Compliance_Section: true
   Name: Internal Revenue Service - Refundable Premium Assistance Tax Credit
   Slug: treasury-internal-revenue-service-refundable-premium-assista-3c3ccaa3
-Payment_Accuracy_Amounts: '[88768.43, 72129.72, 53010.59999999999, 76561.62000000001,
-  77681.72]'
+Payment_Accuracy_Amounts: '[72129.72, 53010.59999999999, 76561.62000000001, 77681.72,
+  82099.95]'
 Payment_Accuracy_Rate_Max: 78.1
 Payment_Accuracy_Rate_Min: 67.9
-Payment_Accuracy_Rates: '[77.30312434850262, 73.52893144809845, 67.92105871088289,
-  78.09316758402437, 73.46294161310192]'
+Payment_Accuracy_Rates: '[73.52893144809845, 67.92105871088289, 78.09316758402437,
+  73.46294161310192, 72.76560058645033]'
 Risks:
   AdditionalInformation: null
   Assessments:
@@ -3825,7 +4180,7 @@ Risks:
     Program_Name: Advanced nuclear power production credit
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Alcohol and Tobacco Tax and Trade Bureau - Internal Revenue Collection
       Puerto Rico
@@ -3911,31 +4266,7 @@ Risks:
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Community Development Financial Institutions - Emergency Support
-      Program - Equitable Recovery Program
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2024'
-    MethodologyChanged: 0
-    Program_Name: Community Development Financial Institutions - Emergency Support
       Program - Non Federal Financial Assistance Related Payments
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2024'
-    MethodologyChanged: 0
-    Program_Name: Community Development Financial Institutions - Emergency Support
-      Program - Rapid Response Program
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 1
-    Program_Name: Community Development Financial Institutions Fund - Capital Magnet
-      Fund
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 1
-    Program_Name: Community Development Financial Institutions Fund - Capital Magnet
-      Fund - Non Financial Assistance Related Payments
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2024'
@@ -3963,35 +4294,52 @@ Risks:
     Slug: null
     Susceptible: null
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
+    Program_Name: Community Development Financial Institutions Fund - Capital Magnet
+      Fund
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Community Development Financial Institutions Fund - Capital Magnet
+      Fund - Non Financial Assistance Related Payments
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
     Program_Name: Community Development Financial Institutions Fund - Community Development
       Financial Institutions (CDFI) Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
     Program_Name: Community Development Financial Institutions Fund - Community Development
       Financial Institutions (CDFI) Program- Bank Enterprise Award Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
     Program_Name: Community Development Financial Institutions Fund - Community Development
       Financial Institutions (CDFI) Program- Native Initiatives
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
     Program_Name: Community Development Financial Institutions Fund - Community Development
       Financial Institutions (CDFI) Program- Non-Federal Financial Assistance Payments
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
     Program_Name: Community Development Financial Institutions Fund - Community Development
       Financial Institutions (CDFI) Program- Small Dollar Loan Program
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Community Development Financial Institutions Fund - Financing
+    Slug: null
+    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Credit for construction of new energy efficient homes
@@ -4039,6 +4387,12 @@ Risks:
     Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
+    Program_Name: Deductibility of State and local property tax on owner-occupied
+      homes
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
     Program_Name: Deductibility of casualty losses
     Slug: null
     Susceptible: null
@@ -4072,12 +4426,6 @@ Risks:
     MethodologyChanged: 0
     Program_Name: Deductibility of nonbusiness State and local taxes other than on
       owner-occupied homes
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Deductibility of State and local property tax on owner-occupied
-      homes
     Slug: null
     Susceptible: null
   - Fiscal_Year: null
@@ -4121,18 +4469,36 @@ Risks:
     Program_Name: Deferral of tax on shipping companies
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Departmental Offices - Assist to FNMA & FHLMC
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Departmental Offices - Committee on Foreign Investment in the US
+      Fund
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Departmental Offices - Contribution to IMF Facilities and Trust
+      Funds
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: Departmental Offices - Contribution to IMF Facilities and Trust
+      Funds Financing
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
     Program_Name: Departmental Offices - Coronavirus Capital Projects Fund
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2022'
-    MethodologyChanged: 0
-    Program_Name: Departmental Offices - Coronavirus Relief Fund
-    Slug: null
-    Susceptible: 'No'
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
     Program_Name: Departmental Offices - Cybersecurity Enhancement Account
     Slug: null
     Susceptible: 'No'
@@ -4156,8 +4522,18 @@ Risks:
     Program_Name: Departmental Offices - Emergency Rental Assistance
     Slug: treasury-departmental-offices-emergency-rental-assistance
     Susceptible: 'Yes'
+  - Fiscal_Year: '2021'
+    MethodologyChanged: 0
+    Program_Name: Departmental Offices - Exchange Stabilization Fund
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Departmental Offices - Federal Financing Bank
+    Slug: null
+    Susceptible: null
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
     Program_Name: Departmental Offices - Federal Research Fund
     Slug: null
     Susceptible: 'No'
@@ -4166,7 +4542,13 @@ Risks:
     Program_Name: Departmental Offices - Homeowners Assistance Fund
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Departmental Offices - IT System Modernization and Working Capital
+      Fund
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Departmental Offices - International Affairs Technical Assistance
     Slug: null
@@ -4177,37 +4559,47 @@ Risks:
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
     Program_Name: Departmental Offices - Office of Terrorism and Financial Intelligence
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: '2022'
+    MethodologyChanged: 0
+    Program_Name: Departmental Offices - Pandemic Relief for Aviation Workers
+    Slug: treasury-departmental-offices-pandemic-relief-for-aviation-w-da17ec73
+    Susceptible: 'No'
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
     Program_Name: Departmental Offices - Salaries and Expenses
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
+    Program_Name: Departmental Offices - Small Business Lending Fund- Financing
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Departmental Offices - State HFA Direct Loan Financing Account
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
     Program_Name: Departmental Offices - State Small Business Credit Initiative- Non-
       Federal Financial Assistance Payments
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: '2023'
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Departmental Offices - State Small Business Credit Initiative- Technical
       Assistance Grant Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2022'
-    MethodologyChanged: 0
-    Program_Name: Departmental Offices - Transportation Services Economic Relief
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Departmental Offices - Treasury Forfeiture Fund- Equitable Sharing
     Slug: null
-    Susceptible: 'No'
+    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Departmental Offices- Air Carrier Worker Support
@@ -4289,12 +4681,24 @@ Risks:
     Slug: null
     Susceptible: null
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
     Program_Name: District of Columbia (DC) Pensions - DC Federal Pension Fund
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: District of Columbia (DC) Pensions - Federal Payment to DC Judicial
+      Survivors and Annuity Fund
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: District of Columbia (DC) Pensions - Federal Payment to Federal
+      DC Pension Fund
+    Slug: null
+    Susceptible: null
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
     Program_Name: District of Columbia Pensions - DC Judicial Retirement & Survivors
       Annuity Fund
     Slug: null
@@ -4362,6 +4766,11 @@ Risks:
     Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
+    Program_Name: Exclusion of GI bill benefits
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
     Program_Name: Exclusion of benefits and allowances to armed forces personnel
     Slug: null
     Susceptible: null
@@ -4389,11 +4798,6 @@ Risks:
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Exclusion of employer-provided educational assistance
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Exclusion of GI bill benefits
     Slug: null
     Susceptible: null
   - Fiscal_Year: null
@@ -4626,7 +5030,12 @@ Risks:
       method)
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Financial Crimes Enforcement Network - Financial Integrity Fund
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Financial Crimes Enforcement Network - Salaries and Expenses
     Slug: null
@@ -4636,54 +5045,100 @@ Risks:
     Program_Name: Fiscal Service - American Indian & Alaskan Native
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
     Program_Name: Fiscal Service - Check Forgery Insurance Fund
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
     Program_Name: Fiscal Service - Claims for Contract Disputes
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
     Program_Name: Fiscal Service - Corporation for Public Broadcasting
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Fiscal Service - Credit Reform - Interest on Uninvested Fund
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Fiscal Service - DC Water & Sewer
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
     Program_Name: Fiscal Service - Debt Collection Special Fund
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
     Program_Name: Fiscal Service - Emergency Planning & Security
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Fiscal Service - Federal Payment of School Improvement
+    Program_Name: Fiscal Service - Federal Interest Liabilities to States, Bureau
+      of Fiscal Service, Treasury
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Fiscal Service - Federal Payment - DC Water and Sewer
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Fiscal Service - Federal Payment- School Improvement
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Fiscal Service - Federal Reserve Bank Reimbursement Fund
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
     Program_Name: Fiscal Service - Financial Agent Services
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Fiscal Service - Fiscal Management Services- Salaries and Expenses
+    Slug: null
+    Susceptible: null
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
     Program_Name: Fiscal Service - Fiscal Service Administrative Salaries and Expenses
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Fiscal Service - Fiscal Service Debt Sinking Fund
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Fiscal Service - Gain/Loss on Buyback of US Treasury Securities
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Fiscal Service - Gifts to Reduce Public Debt
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Fiscal Service - HOPE Reserve Fund
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: Fiscal Service - Interest on Uninvested Funds
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2024'
@@ -4691,13 +5146,8 @@ Risks:
     Program_Name: Fiscal Service - Interest on the Public Debt (indefinite)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
-    Program_Name: Fiscal Service - Interest on Uninvested Funds
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 1
     Program_Name: Fiscal Service - Judgements, Court of Claims
     Slug: null
     Susceptible: 'No'
@@ -4706,33 +5156,53 @@ Risks:
     Program_Name: Fiscal Service - Judgements, U.S. Courts
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Fiscal Service - Payment of Government Losses in Shipment
+    Slug: null
+    Susceptible: null
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
     Program_Name: Fiscal Service - Payment to Legal Services Corporation
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
     Program_Name: Fiscal Service - Payment to Resolution Funds Corporation
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Fiscal Service - Public Debt Principal
+    Slug: null
+    Susceptible: null
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Fiscal Service - Refund Money Erroneously Received
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Fiscal Service - Reimbursements to Federal Reserve Banks
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Fiscal Service - Relief by Public and Private Law
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
     Program_Name: Fiscal Service - Resident Tuition Sup
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: Fiscal Service - Restitution of Foregone Interest
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
     Program_Name: Fiscal Service - Travel Promotion Fund, Corp for Travel Promotion
     Slug: null
     Susceptible: 'No'
@@ -4744,11 +5214,6 @@ Risks:
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Fiscal Service- Claims for Damages
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Fiscal Service- CMIA, Net Interest Pd to States
     Slug: null
     Susceptible: null
   - Fiscal_Year: null
@@ -4823,7 +5288,7 @@ Risks:
     Program_Name: Internal Revenue Service - Additional Child Tax Credit
     Slug: treasury-internal-revenue-service-additional-child-tax-credi-6179b194
     Susceptible: 'Yes'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Internal Revenue Service - Advanced Manufacturing Investment Credit
     Slug: null
@@ -4844,17 +5309,17 @@ Risks:
     Program_Name: Internal Revenue Service - Business Systems Modernization
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Internal Revenue Service - Child and Dependent Care Tax Credit
     Slug: treasury-internal-revenue-service-child-and-dependent-care-t-244e2e2b
     Susceptible: 'Yes'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Internal Revenue Service - Clean Vehicle Credit
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Internal Revenue Service - Credit for Previously Owned Clean Vehicles
     Slug: null
@@ -4864,7 +5329,7 @@ Risks:
     Program_Name: Internal Revenue Service - Earned Income Tax Credit
     Slug: treasury-internal-revenue-service-earned-income-tax-credit
     Susceptible: 'Yes'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Internal Revenue Service - Elective Payment for Energy Prop and
       Electricity Produced
@@ -4924,7 +5389,7 @@ Risks:
     Program_Name: Internal Revenue Service - Refund - Corporations
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Internal Revenue Service - Refund Collection - Interest
     Slug: null
@@ -4943,12 +5408,6 @@ Risks:
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Internal Revenue Service - Tax Law Enforcement
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2024'
-    MethodologyChanged: 0
-    Program_Name: Internal Revenue Service - Taxpayer Services- Exchange of Federal
-      Information with State Agencies
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2024'
@@ -4975,12 +5434,12 @@ Risks:
       Assistance Matching Grant Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Internal Revenue Service - US Coronavirus Payments
     Slug: treasury-internal-revenue-service-us-coronavirus-payments
     Susceptible: 'Yes'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Internal Revenue Service - US Coronavirus Refundable Credits
     Slug: treasury-internal-revenue-service-us-coronavirus-refundable--d7f596f0
@@ -4992,12 +5451,12 @@ Risks:
     Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Internal Revenue Service- Federal Tax Lien Revolving Fund
+    Program_Name: Internal Revenue Service- FHWA Allocation
     Slug: null
     Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Internal Revenue Service- FHWA Allocation
+    Program_Name: Internal Revenue Service- Federal Tax Lien Revolving Fund
     Slug: null
     Susceptible: null
   - Fiscal_Year: null
@@ -5062,17 +5521,23 @@ Risks:
     Susceptible: null
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
-    Program_Name: Office of Financial Stability - Salaries and Expenses
+    Program_Name: Office of Financial Stability - Home Affordable Modification Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Office of Financial Stability - Troubled Asset Relief Program Equity
+      Purchase Financing Account
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
     Program_Name: Office of International Assistance - Clean Tech Fund Loans Financing
       Acct
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
     Program_Name: Office of International Assistance - Contribution to African Development
       Bank
     Slug: null
@@ -5083,34 +5548,57 @@ Risks:
       Fund
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: Office of International Assistance - Contribution to Clean Technology
+      Fund
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Office of International Assistance - Contribution to European Bank
       for Reconstruction
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Office of International Assistance - Contribution to Inter-Amer
+      Development
+    Slug: null
+    Susceptible: null
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
     Program_Name: Office of International Assistance - Contribution to International
       Bank Reconstruction
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Office of International Assistance - Contribution to International
       Development Association
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Office of International Assistance - Contribution to International
+      Finance Corporation
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
     Program_Name: Office of International Assistance - Contribution to Multilat INV
       Guar
     Slug: null
-    Susceptible: 'No'
+    Susceptible: null
   - Fiscal_Year: '2025'
-    MethodologyChanged: 1
+    MethodologyChanged: 0
     Program_Name: Office of International Assistance - Contribution to the Asian Development
       Fund
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: Office of International Assistance - Debt Restructuring
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2023'
@@ -5129,12 +5617,24 @@ Risks:
       Development
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: Office of International Assistance - Treasury International Assistance
+      Programs
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Office of International Assistance - Treasury International Assistance
+      Programs Guaranteed Loan Financing
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Office of the Comptroller of the Currency - Assessment Funds
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Office of the Inspector General - Salaries and Expenses
     Slug: null
@@ -5198,11 +5698,6 @@ Risks:
     Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Special deduction for teacher expenses
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
     Program_Name: Special Employee Stock Ownership Plan (ESOP) rules
     Slug: null
     Susceptible: null
@@ -5216,6 +5711,11 @@ Risks:
     Program_Name: Special Inspector General for Troubled Asset Relief Program
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: Special deduction for teacher expenses
+    Slug: null
+    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Special rules for certain film and TV production
@@ -5261,12 +5761,12 @@ Risks:
     Program_Name: Tonnage tax
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Treasury Franchise Fund
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Treasury Inspector General for Tax Administration
     Slug: null
@@ -5291,7 +5791,7 @@ Risks:
     Program_Name: Work opportunity tax credit
     Slug: null
     Susceptible: null
-  SubstantialChangesMade: 'Yes'
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
 Underpayment_Amounts: '[0, 0, 0, 0, 0]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'
@@ -5299,189 +5799,214 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[0, 0, 0, 0, 0]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-- 2021
-detail_Additional_IP_Information: 'The Risk Assessment Results table includes several
-  Internal Revenue Service tax expenditures. Majority of those tax expenditures do
-  not have federal outlays; therefore, the requirements of the Payment Integrity Information
-  Act (PIIA) do not apply.
-
-
-  Confirmed Fraud:
-
-
-  Approximately $45.2 million of the Confirmed Fraud had been previously reported
-  on the FY 24 report. FY25 reflects correct confirmed fraud amounts.
-
-  '
-detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '4.89'
+detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '0.33999999999999997'
 detail_Compliance_Status: Non-Compliant
-detail_DNP_Discussion: The Do Not Pay (DNP) portal implementation provides Treasury
-  with the ability to prevent improper payments by reviewing vendor files and verifying
-  recipient eligibility before federal funds are disbursed. The use of DNP is considered
-  on Treasury's IP risk assessments. In fiscal year 25, all applicable fund groups
-  who completed risk assessments indicated that they used the DNP portal prior to
-  payment disbursement. Additionally, with the exception of a few Treasury programs,
-  Treasury data is verified through the DNP portal at the payment integration level,
-  which matches payments against death data at the time of disbursement. The DNP portal
-  returns back to the Treasury payment systems any entities that should not receive
-  payment if there is a positive match. Weekly, the Vendor Supply Group submits a
-  list of all active suppliers to the DNP to verify eligibility. Most results that
-  return from DNP as ineligible are related to deceased individuals or suppliers that
-  do not have a current SAM.gov registration. All suppliers determined to be ineligible
-  for payment are immediately deactivated (end dated) so they cannot be used. If the
-  system flagged the vendor as ineligible for payment for reasons other than those
-  listed above, the Customer Care accountant is notified to follow up with the customer.
+detail_DNP_Discussion: "In FY 2026, the Department of the Treasury (Treasury) continued\
+  \ implementation of Do Not Pay (DNP) capabilities to support Executive Order 14249,\
+  \ Protecting America’s Bank Account Against Fraud, Waste, and Abuse, the Payment\
+  \ Integrity Information Act (PIIA), and OMB Memorandum M-25-32, Preventing Improper\
+  \ Payments and Protecting Privacy through Do Not Pay. Treasury expanded technical\
+  \ connections to enable award eligibility screening within financial and award systems\
+  \ and advanced implementation of DNP Payment Verification capabilities through Department-wide\
+  \ governance, bureau planning, technical working sessions, executive oversight,\
+  \ and collaboration with the Bureau of the Fiscal Service's Do Not Pay Program Management\
+  \ Office.\nDuring FY 2026, Treasury completed the first five phases of DNP onboarding,\
+  \ providing Department-wide access to pre-award and pre-payment eligibility screening.\
+  \ Activities included completing System of Records Notice (SORN) reviews, submitting\
+  \ Program Assistance Listings (PALs), executing standard agency agreements, submitting\
+  \ required service requests and attestations, conducting matching program assessments,\
+  \ publishing Federal Register notices for applicable waivers, and completing technical\
+  \ onboarding and user training. Treasury is preparing Computer Matching Agreements\
+  \ (CMAs) for FY 2027 for programs that are not eligible for a waiver under OMB Memorandum\
+  \ M-25-32.\nWith regards to payment verification, Treasury completed Business Rule\
+  \ Request and Notification (BRRAN) or programmatic exemption activities for the\
+  \ Deceased Payee, Taxpayer Identification Number (TIN), and Bank Account Verification\
+  \ services. Beginning in January 2026, Treasury initiated reviews of Death Master\
+  \ File flags and returned payments. In May 2026, monitoring expanded to include\
+  \ TIN and Bank Account Verification results. Treasury continues to review flagged\
+  \ transactions and returned payments in accordance with the DNP implementation schedule.\
+  \  As of April 2026, approximately 124 Treasury programs were utilizing DNP services.\n\
+  Treasury utilizes a range of Do Not Pay (DNP) pre-award and pre-payment services\
+  \ to strengthen payment integrity and prevent improper awards. These services include\
+  \ Web Portal Search, which enables both single and multi-record searches; in FY\
+  \ 2026, Treasury users conducted 28,765 searches and identified 319,583 matches\
+  \ against DNP data sources. Treasury also employs Do Not Pay Connect, in FY 2026,\
+  \ Treasury user conducted 180,644 searches and identified 161,918 matches.  Legacy\
+  \ services such as Batch Matching and Continuous Monitoring are still being used\
+  \ to compare agency-submitted files against DNP sources, either as a one-time check\
+  \ or through ongoing updates. Screening frequency for Continuous Monitoring varies\
+  \ by file—occurring daily, weekly, or monthly as needed—and, as of August 2026,\
+  \ Treasury screened a total of 21,564,644 BatchMatch and Continuous Monitoring (ConMon)\
+  \ records. \nAdditionally, Treasury leverages Do Not Pay (DNP) services to enhance\
+  \ payment verification processes, including the identification of deceased individuals\
+  \ to prevent improper payments. These efforts are part of the broader pre-award\
+  \ and pre-payment strategies, which involve tools like Web Portal Search for online\
+  \ single and multi-record checks. By utilizing these services, Treasury programs\
+  \ can ensure that payments are not issued to ineligible recipients, thereby supporting\
+  \ payment integrity and reducing financial risk. In FY 2026, Treasury screened 21,232,801\
+  \ payments totaling $299,116,568,239, and returned 7,193 improper payments, totaling\
+  \ $161,408,709. \nThese efforts support Treasury's payment integrity objectives\
+  \ by identifying potentially ineligible recipients before awards are issued and\
+  \ payments are made, strengthening internal controls, and reducing the risk of improper\
+  \ payments.\n"
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: Treasury follows the rules of disposition of overpayments
-  recovered with a recovery audit as outlined by OMB Circular A-123, Appendix C. Majority
-  of the recovered amounts were returned to Treasury or returned to the original purpose.
-  We also had amounts disposed to the Office of the Inspector General and to financial
+  recovered with a recovery audit as outlined by OMB Circular A-123, Appendix C.  Majority
+  of the recovered amounts were returned to Treasury or returned to the original purpose.  We
+  also had amounts disposed to the Office of the Inspector General and to the financial
   management improvement program (FMIP).
-detail_Executive_Summary: 'In accordance with the Payment Integrity Information Act
-  of 2019 (PIIA), Treasury requires programs in Phase 1 to conduct an improper payment
-  risk assessment for all programs a with annual outlays greater than $10 million
-  for improper payment risk at least once every three years to determine whether the
-  total annual improper payments plus the unknown payments are collectively likely
-  to be above the statutory threshold for the given year. In addition, Treasury requires
-  an off-cycle improper payment risk assessment for new programs and for programs
-  that had a significant change in legislation or funding levels. For off-cycle years,
-  Treasury requires programs to complete a certification that states there have been
-  no major changes to program funding or legislation that could impact the risk of
-  improper payments. In fiscal year (FY) 2025, 37 programs completed an improper payment
-  risk assessment and all were determined to be not susceptible to significant improper
-  payments. Treasury reports error rates as outlined in PIIA and the Office of Management
-  and Budget’s (OMB) Circular A-123, Appendix C, for four Internal Revenue Service
-  (IRS) refundable tax credits (RTCs): 1. Earned Income Tax Credit (EITC), 2. American
-  Opportunity Tax Credit (AOTC), 3. Additional Child Tax Credit (ACTC), and 4. Net
-  Premium Tax Credit (net PTC). The root cause of the errors for these RTCs is not
-  the result of internal control deficiencies, but rather they are largely the result
-  of factors beyond the IRS’s control, such as the statutory design of the RTCs, the
-  complexity of the eligibility requirements, the lack of comprehensive third-party
-  data for verification, and the IRS’s reliance on taxpayers’ self-certification of
-  the accuracy of their returns. The IRS has continuously deployed various tools in
-  an effort to lower the improper payment error rate. These tools include training,
-  such as the nationwide tax forum, due diligence training module and webinars, cross
-  enterprise sharing with other Federal agencies, and change processes such as hosting
-  annual Dependent Database meetings with stakeholders to adjust the value of prior-year
-  compliance filters for audit selection of returns claiming the RTCs and identifying
-  improvement opportunities for the filing season. Deployment of enforcement tools
-  has had minimal impact on lowering the error rate. The IRS continues significant
-  efforts to bring its improper payment rate for these RTC programs to less than 10
-  percent. The estimated improper payment rates for the RTCs for FY 2024 and FY 2025
-  were not statistically different. In addition to the four IRS RTC programs, the
-  following COVID-19 pandemic relief programs were determined to be susceptible to
-  significant improper payments based on prior IP risk assessments: 1. IRS Coronavirus
-  Refundable Credits in FY 2021, 2. IRS Coronavirus Payments in FY 2021, and 3. Office
-  of Capital Access’ Emergency Rental Assistance (ERA) Program in FY 2023. In August
-  2022, Treasury determined that due to the short-term nature of COVID-19 pandemic
-  relief programs, quantifying the amount and rate of improper payments, assessing
-  the root cause, and developing corrective action plans to reduce payment errors
-  in the future would provide minimal value and be an ineffective use of resources.
-  Therefore, for its COVID-19 pandemic relief programs, Treasury decided it would
-  not report an improper payment estimate in its Agency Financial Report or on paymentaccuracy.gov.
-  These programs remain in the improper payment risk assessment rotation, and Treasury
-  has other recovery activities and mechanisms in place to identify and recover improper
-  payments for these programs. In FY 2024, Treasury’s Office of Inspector General
-  concluded that Treasury was non-compliant with one of the 10 PIIA reporting requirements.
-  Specifically, Treasury did not comply with the requirement to report an improper
-  payment rate of less than 10 percent for four the IRS RTC programs mentioned above
-  (EITC, AOTC, ACTC, and net PTC). Without significant legislative action and restructuring,
-  meeting a target compliance date is a significant challenge.'
-detail_OIG_Recommendations: Treasury was not in compliance with PIIA for FY 2024 for
-  not reporting an improper payment error rate of less than 10% for the IRS Earned
-  Income Tax Credit, Additional Child Tax Credit, American Opportunity Tax Credit,
-  and the refundable Premium Assistance Tax Credit. OIG did not provide any recommendations
-  regarding this non-compliant criteria. Refundable tax credit overclaims are not
-  the result of internal control weaknesses that the IRS can remediate internally,
-  but are in fact the result of factors beyond the Agency's control under the current
-  law and existing authority.
-detail_Overpayment_Conditions_And_Methods: Accounts payable, pension, grants, and
-  loan payments use pre-payment and post payment reviews to recoup overpayments. Invoices
-  processed through the Invoice Processing Platform (IPP) are subject to a monthly
-  post payment audit of 10% of the total paid IPP invoices for that month. Invoices
-  not processed through the IPP in excess of $2,500.00 are subject to secondary review
-  before being paid. Invoices under$2,500.00 are subject to review through statistical
-  sampling procedures. Travel vouchers processed through the Concur Government Edition
-  (CGE) travel system are subject to a post payment audit based on a random sample
-  of all reimbursements under $2,500.00. All payments $2,500.00 require a 100% post
-  payment audit review. Relocation vouchers processed through the MoveLINQ system
-  are subject to 100% pre-payment audit and review. Relocation periodically reconciles
-  moveLINQ advances (feeder) to Oracle (financial system) advances to ensure the two
-  systems are in sync. They validate W-2's to ensure estimated accruals reconcile
-  to actual accruals to verify the correct amount of taxes were deducted. Accruals
-  are balanced by accounting string under general ledger to ensure accruals collected
-  were paid. Relocation also balances moveLINQ to Oracle each tax period to ensure
-  wages and taxes reconcile between the two systems. They also verify outstanding
-  balances and billed amounts on obligations within the moveLINQ system reconciles
-  to outstanding balances and billed amounts in Oracle. These efforts confirm there
-  are no duplicate payments and taxes are collected and paid at the appropriate rate.
-  Furthermore, the Do Not Pay (DNP) portal implementation has provided a way for bureau's/office's
-  procurement and payable offices to review vendor files prior to disbursement. It
-  has also given them an opportunity to review the monthly payment file results to
-  identify any improper payments made to a vendor in the DNP portal.
-detail_PIIA_Incentives: The IRS continues significant efforts to bring its payment
-  programs to an improper rate of less than 10 percent. The IRS captures metrics related
-  to pre-refund activities and works closely with internal and external partners to
-  expand outreach efforts. Many of these metrics are tied to the pre-refund examination
-  program and IRS's continued approach to improve refundable tax credit audits. The
-  Refund Integrity and Compliance Services (RICS) Director conducts quarterly operational
-  reviews with Refundable Credits Examination Operations (RCEO) and Refundable Credits
-  Program Management (RCPM) on the refundable credits program. The RICS and RCPM Directors
-  and managers have performance plan commitments that address enhancements emphasizing
-  tax return accuracy and reducing improper payments. Proactive actions are being
-  taken to improve the audit response rates and taxpayer’s filing behavior for refundable
-  credits to decrease the audit selection volume. The IRS performance plans have a
-  balanced approach which include outreach and compliance. The IRS looks to find ways
-  to enhance the taxpayer experience and improve the knowledge of taxpayers and paid
-  return preparers on the eligibility and criteria for RTCs. Without significant legislative
-  action and restructuring of programs, meeting a target compliance date will be a
-  significant challenge.
-detail_PIIA_Official: Ishmael Alejo, Director, IRS Refund Integrity and Compliance
-  Services (RICS), Refundable Credits Program Management (RCPM)
+detail_Executive_Summary: "Each year, bureaus and offices (hereafter referred to as\
+  \ “components”) are required to conduct PIIA risk assessments on all material programs\
+  \ (i.e., programs with total non-federal disbursement amounts equal to or greater\
+  \ than $10 million) at least once every three years to identify the risk of susceptibility\
+  \ to significant improper payments.  OMB defines susceptibility to significant improper\
+  \ payments as gross annual improper payments exceeding both 1.5 percent and $10\
+  \ million in total program outlays, or $100 million at any rate. Treasury requires\
+  \ an off-cycle improper payment risk assessment for programs that had a significant\
+  \ change in legislation or funding levels.  For off-cycle years, Treasury requires\
+  \ programs to complete a certification that states there have been no major changes\
+  \ to program funding or legislation that could impact the risk of improper payments.\n\
+  \nIn fiscal year (FY) 2026, 35 programs completed an improper payment risk assessment\
+  \ based on prior year non-federal disbursements.  Three Internal Revenue Service\
+  \ (IRS) programs— U.S. Coronavirus Payments , U.S. Coronavirus Refundable Credits\
+  \ , and Child and Dependent Care Tax Credit—were determined to be susceptible to\
+  \ significant improper payments.  These three programs were deemed susceptible to\
+  \ significant improper payments in prior years, however, since they do not report\
+  \ error rates, they remain in the three-year risk assessment rotation schedule.\
+  \  The remaining 32 programs who conducted risk assessments were determined not\
+  \ susceptible to significant improper payments. \n\nTreasury reports error rates\
+  \ as outlined in PIIA and the OMB Appendix C, for four IRS refundable tax credits\
+  \ (RTCs): 1. Earned Income Tax Credit (EITC), 2. American Opportunity Tax Credit\
+  \ (AOTC), 3. Additional Child Tax Credit (ACTC), and 4. Net Premium Tax Credit (net\
+  \ PTC).  The IRS estimates that for FY 2026, 32.2  percent ($22.7 billion) of the\
+  \ total EITC payments of $70.6 billion were improper.  For the AOTC, the IRS estimates\
+  \ that for FY 2026, 33.8 percent ($1.7 billion) of the total payments of $4.9 billion\
+  \ were improper.  For the ACTC, the IRS estimates that for FY 2026, 15.6 percent\
+  \ ($5.4 billion) of the total payments of $34.3 billion were improper.  For net\
+  \ PTC, the IRS estimates that for FY 2026, 33.3 percent ($1.0 billion) of the total\
+  \ payments of $3.0 billion were improper.  The root cause of these overpayments\
+  \ include the inability to authenticate data, primarily because the data does not\
+  \ exist. Authentication is difficult because the IRS relies primarily on self-reported\
+  \ information from taxpayers, and there is a lack of internal or external databases\
+  \ available with information that would help the IRS determine eligibility.  These\
+  \ overpayments also include the inability to authenticate data due to program design\
+  \ limitations.  Barriers caused by program design occur when information needed\
+  \ to confirm payment accuracy is not available at the time the return is processed.\
+  \  The IRS has a robust enforcement program for its refundable tax credits, which\
+  \ consist of examinations and audits, math error notices, and document matching.\
+  \ Further discussion of these RTCs, along with root cause and mitigation strategies,\
+  \ are summarized in the following sections.\n\nIn addition to the four IRS RTC programs,\
+  \ certain COVID-19 pandemic relief programs were determined to be susceptible to\
+  \ significant improper payments.  Because of their short-term nature, we did not\
+  \ report estimates of improper payments for these programs.  However, Treasury continues\
+  \ to conduct risk assessments of these programs in accordance with OMB guidelines.\n\
+  \nOne of Treasury’s COVID-19 pandemic relief programs, the Emergency Rental Assistance\
+  \ Program (ERA), is susceptible to significant improper payments.  At Congress’\
+  \ direction, Treasury created and implemented this program under extraordinary emergency\
+  \ conditions and on an expedited timeframe.  Treasury is actively identifying and\
+  \ attempting to recover those payments deemed to be improper under this program.\n\
+  \nIn addition, three IRS COVID-19 pandemic relief programs—the Child and Dependent\
+  \ Care Tax Credit (CDCTC), U.S. Coronavirus Payments, and U.S. Coronavirus Refundable\
+  \ Credits—are susceptible to significant improper payments.  The American Rescue\
+  \ Plan Act of 2021 temporarily expanded the CDCTC for Tax Year 2021, including making\
+  \ the credit refundable and increasing the amount of eligible expenses and the maximum\
+  \ credit rate.  The IRS emphasized outreach and education to help taxpayers, tax\
+  \ preparers, and filing platforms understand the temporary eligibility requirements\
+  \ and changes to the credit, rather than relying on additional pre-refund audits.\
+  \  Although the temporary provisions have expired, the IRS continues to address\
+  \ Tax Year 2021 claims through its established compliance process.\n\nTreasury’s\
+  \ Office of Inspector General (OIG) concluded that Treasury was non-compliant with\
+  \ two of the 10 PIIA reporting requirements for FY 25.  Specifically, Treasury did\
+  \ not comply with the requirements to report an improper payment rate of less than\
+  \ 10 percent for four the IRS RTC programs mentioned above (EITC, AOTC, ACTC, and\
+  \ net PTC) and did not demonstrate improvements to payment integrity.  The OIG did\
+  \ not provide any recommendations regarding these non-compliant criteria.  Refundable\
+  \ tax credit overclaims are not a result of internal control weaknesses that the\
+  \ IRS can remediate internally but are factors beyond the Agency’s control under\
+  \ current law and existing authority.  Without significant legislative action and\
+  \ restructuring, meeting a target compliance date is a significant challenge."
+detail_Overpayment_Conditions_And_Methods: "Many of Treasury's overpayments are payroll\
+  \ related. These overpayments include issues such as corrected timecards, Federal\
+  \ Employees Group Life Insurance corrections, duplicate cash awards, etc. These\
+  \ conditions are identified and resolved by utilizing mitigation strategies and\
+  \ corrective actions that are appropriate to the severity of the error, such as\
+  \ post payment reviews.\n\nAccounts payable, pension, grants, and loan payments\
+  \ use pre-payment and post payment reviews to recoup overpayments.  Invoices processed\
+  \ through the Invoice Processing Platform (IPP) are subject to a monthly post payment\
+  \ audit of 10% of the total paid IPP invoices for that month. Invoices not processed\
+  \ through the IPP in excess of $2,500.00 are subject to secondary review before\
+  \ being paid. Invoices under $2,500.00 are subject to review through statistical\
+  \ sampling procedures. Travel vouchers processed through the Concur Government Edition\
+  \ (CGE) travel system are subject to a post payment audit based on a random sample\
+  \ of all reimbursements under $2,500.00.  All payments $2,500.00 require a 100%\
+  \ post payment audit review.  Relocation vouchers processed through the moveLINQ\
+  \ system are subject to 100% pre-payment audit and review.  Relocation periodically\
+  \ reconciles moveLINQ advances (feeder) to Oracle (financial system) advances to\
+  \ ensure the two systems are in sync. They validate W-2's to ensure estimated accruals\
+  \ reconcile to actual accruals to verify the correct amount of taxes were deducted.\
+  \ Accruals are balanced by accounting string under general ledger to ensure accruals\
+  \ collected were paid. Relocation also balances moveLINQ to Oracle each tax period\
+  \ to ensure wages and taxes reconcile between the two systems. They also verify\
+  \ outstanding balances and billed amounts on obligations within the moveLINQ system\
+  \ reconciles to outstanding balances and billed amounts in Oracle. These efforts\
+  \ confirm there are no duplicate payments and taxes are collected and paid at the\
+  \ appropriate rate. \n\nFurthermore, the Do Not Pay (DNP) portal implementation\
+  \ has provided a way for bureau's/office's procurement and payable offices to review\
+  \ vendor files prior to disbursement. It has also given them an opportunity to review\
+  \ the monthly payment file results to identify any improper payments made to a vendor\
+  \ in the DNP portal.\n"
+detail_PIIA_Incentives: "The IRS continues to take significant steps to reduce improper\
+  \ payments through pre-refund compliance activities, data-driven oversight, and\
+  \ taxpayer and tax professional outreach. The IRS monitors program performance through\
+  \ regular operational reviews and collaboration among program offices to identify\
+  \ opportunities to improve payment accuracy and strengthen compliance. The IRS also\
+  \ works with internal and external partners to improve taxpayer understanding of\
+  \ refundable tax credit eligibility and promote accurate return filing. Although\
+  \ these efforts strengthen payment integrity, the IRS's ability to reduce improper\
+  \ payments remains constrained by the statutory design of refundable tax credit\
+  \ programs. Without significant legislative changes and program restructuring, meeting\
+  \ the statutory improper payment target will remain a significant challenge.\t\t\
+  \t\t\t"
+detail_PIIA_Official: Ishmael Alejo, Director - Refundable Credits Program Management
 detail_Recovery_Audits_Skipped: 'Yes'
-detail_Recovery_Justifications_Audits: Majority of these cases were erroneous personnel
-  actions that when corrected resulted in overpayment to the employee. 5 U.S.C. Section
-  5584 authorizes waivers of debt claims due to the United States if it can be shown
-  there is no indication of fraud, misrepresentation, fault, or lack of good faith
-  on the part of the employee. Since the debt was established due to a corrected personnel
-  action, the decision to grant or deny the waiver turns on fault. Fault exists if,
-  in light of all the circumstances, it is found that the individual knew or should
-  have known that they received an erroneous payment.
+detail_Recovery_Justifications_Audits: null
 detail_Recovery_Not_Cost_Effective_Justification: "Treasury has several Components\
   \ that have approved justifications for the determination that recovery auditing\
   \ is not cost-effective for their programs. Majority of these justifications stated\
-  \ that these programs are consistently determined to be low risk for significant\
-  \ improper payments through their improper payment risk assessments. These programs\
+  \ that \n\n- these programs are consistently determined to be low risk for significant\
+  \ improper payments through their improper payment risk assessments, \n- these programs\
   \ conduct recovery activities such as pre-payment and post-payment reviews, ongoing\
   \ monitoring and enforcement, reviews of Single Audit Act reports, compliance testing\
-  \ procedures, and desk reviews, and the results of analyses determined that the\
-  \ employee/contractor costs to conduct recovery auditing outweighed the amount recovered.\
-  \ \n\nPer the Office of Management and Budget's (OMB) letter to the Treasury Assistant\
-  \ Secretary for Management, dated March 20, 2014, the Internal Revenue Service (IRS)\
-  \ custodial/bond programs are exempt from recovery auditing. Treasury considers\
-  \ these payments negative revenue receipts, not outlays, and thereby exempts them\
-  \ from improper payment requirements. OMB agreed that this is a reasonable approach,\
-  \ however these custodial/bond programs are still required to conduct improper payment\
-  \ risk assessments. Additionally, the IRS submitted a cost-effective justification\
-  \ for recovery auditing for their administrative programs, which conduct recovery\
-  \ activities, as stated above, in lieu of recovery audits."
-detail_Risks_Substantial_Changes_Made: 'Yes'
+  \ procedures, and desk reviews, and \n- the results of analyses determined that\
+  \ the employee/contractor costs to conduct recovery auditing outweighed the amount\
+  \ recovered.\n\nPer the Office of Management and Budget's (OMB) letter to the Treasury\
+  \ Assistant Secretary for Management, dated March 20, 2014, the Internal Revenue\
+  \ Service (IRS) custodial/bond programs are exempt from recovery auditing. Treasury\
+  \ considers these payments negative revenue receipts, not outlays, and thereby exempts\
+  \ them from improper payment requirements. OMB agreed that this is a reasonable\
+  \ approach, however these custodial/bond programs are still required to conduct\
+  \ improper payment risk assessments. \n\nAdditionally, the IRS submitted a cost-effective\
+  \ justification for recovery auditing for their administrative programs, which conduct\
+  \ recovery activities, as stated above, in lieu of recovery audits."
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/TREASURY.html
-recovery_Aging_of_Outstanding_OP_Identified_Amt_0_-_6_months: 4.85
-recovery_Aging_of_Outstanding_OP_Identified_Amt_6_months_to_1_year: 0.04
-recovery_Aging_of_Outstanding_OP_Identified_determined_not_collectable: 0.08
-recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 1872.58
-recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 5.09
-recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 34.49
-recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.2
-recovery_Recovery_Audit_Amount_Outstanding_Rate: 96.0707269155
-recovery_Total_Overpayment_Amount_Identified: 1877.67
-recovery_Total_Overpayment_Amount_Recovered: 34.69
+recovery_Aging_of_Outstanding_OP_Identified_Amt_0_-_6_months: 0.04
+recovery_Aging_of_Outstanding_OP_Identified_Amt_6_months_to_1_year: 0.3
+recovery_Aging_of_Outstanding_OP_Identified_determined_not_collectable: 0.0
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 75.73
+recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 0.45
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 18.62
+recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.39
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 75.555555556
+recovery_Total_Overpayment_Amount_Identified: 76.18
+recovery_Total_Overpayment_Amount_Recovered: 19.01
 ---

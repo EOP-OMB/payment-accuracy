@@ -2,91 +2,6 @@
 Agency: DHS
 Agency_Name: Department of Homeland Security
 Data_By_Year:
-- Agency_Needs_Satisfied: Program is reflective of disaster supplemental funding that
-    was received by DHS to respond to the Hurricane Harvey, Irma, and Maria disasters
-    that occurred in the 2017 / 2018 timeframe. Due to the burden of testing and reporting,
-    Disaster Supplemental Funding programs are tested and reported two years in arrears.
-    As such, by the time that remedial action is taken and/or is realized in the PIIA
-    testing results, the total value of annual disbursements is expected to be below
-    the threshold for PIIA action. DHS will continue to make process and internal
-    control improvements to improve the payment management processes as it relates
-    to supplemental funding but feels that internal control, human capital, information
-    system, and infrastructure needs have been met.
-  Confidence_Level: '>90%'
-  Corrective_Actions_Proportion: FEMA Leadership prioritizes the annual PIIA assessments
-    and has high expectations of reducing IPs and UPs. FEMA Leadership stresses the
-    importance of being a good steward of taxpayer dollars which is trickled down
-    the FEMA levels of hierarchy. Root cause analyses are performed at the completion
-    of PIIA testing for each program which are used a basis for creating the respective
-    MAPs as well as improving the respective internal control environments. Overall,
-    the IPs and UPs are decreasing. Additionally, FEMA will be conducting training
-    and require routine meetings with stakeholders as needed.
-  End_Date: 09/2019
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Failure_to_Access_Data: true
-  Hide_Underpayments_Inability_to_Access_Data: true
-  IP_Current_Year_Plus_1_Amount: 29.341
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.0649996146
-  Improper_Payments_Rate: 1.5270394200000001
-  Insufficient_Documentation_to_Determine: 214.4877
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '11.99027'
-  Non_Monetary_Loss_Amount: '0.0'
-  Outlays: 3935.144
-  Outlays_Current_Year_Plus_1_Amount: 2062.643
-  Payment_Accuracy_Rate: 93.02239257318156
-  Program_Design_or_Structural_Issue: 0.0
-  Start_Date: 10/2018
-  Technical_IP_Amount: '0.0'
-  Unknown_Curent_Year_Plus_1_Amount: 104.73
-  Unknown_Payments_Rate: 5.450568009709429
-  Unknown_Why: Insufficient or lack of documentation from the States and/or regions
-    to perform sufficient testing to determine the appropriateness and accuracy of
-    the payment.
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 60.0912
-    Financial: 60.0912
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '60.0912'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.0'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: DHS has what is needed with respect to internal controls,
     human capital and information system and other infrastructure to reduce improper
     payments and unknown payments to the tolerable rate for the Federal Emergency
@@ -1039,7 +954,7 @@ Data_By_Year:
     \ processes to review and examine for improper payments, to include but not limited\
     \ to duplicate payment reviews, card payment reviews, payroll analysis, etc."
   IP_Unknown_Target_Rate: 0.015
-  Improper_Payments_Rate: 0.09570018159999999
+  Improper_Payments_Rate: 0.09570018
   Insufficient_Documentation_to_Determine: 240.08131401
   Margin_of_Error: '1.27'
   Non_Monetary_Loss_Amount: '0'
@@ -1209,6 +1124,367 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
+- Agency_Needs_Satisfied: 'As the Federal Emergency Management Agency (FEMA) Public
+    Assistance - Validate as You Go (VAYGo) program is reporting an estimated error
+    rate of 1.17 percent, FEMA is confident that the agency has what is needed with
+    respect to internal controls, human capital and information system and other infrastructure
+    to sustain Improper Payments (IPs) and Unknown Payments (UPs) at a tolerable rate.
+    Existing controls, trained personnel, VAYGo oversight processes, and supporting
+    systems provide FEMA with the capability to prevent, detect, validate, and, when
+    appropriate, recover improper payments while continuing to address documentation-related
+    unknown payments. As such, no additional resources have been requested for the
+    program in the DHS fiscal year (FY) 2027 budget as a result of the Payment Integrity
+    Information Act (PIIA) assessment. Based on the program’s historical improvement
+    in payment integrity results and the corrective actions already implemented or
+    underway, FEMA has determined that additional program specific investments are
+    not currently necessary for the program to achieve and sustain the tolerable error
+    rate of 1.5 percent. FEMA will continue to monitor payment integrity results and
+    reassess whether additional resources or controls are warranted through future
+    review cycles.
+
+
+    The Disaster Relief Fund (DRF) is the appropriation FEMA uses to direct, coordinate,
+    manage, and fund eligible response and recovery efforts associated with domestic
+    major disasters and emergencies that overwhelm State and tribal resources pursuant
+    to the Robert T. Stafford Disaster Relief and Emergency Assistance Act, P.L. 93-288
+    (as amended), 42 U.S. Code sections 5121-5207. Specifically, the DRF can provide
+    funding for Stafford Act declarations or activities that include: (1) pre-declaration
+    surge activities; (2) emergency declarations; (3) major disaster declarations;
+    (4) fire management assistance grants (FMAGs); and (5) Disaster Readiness and
+    Support (DRS) activities. Through the DRF, FEMA can authorize Federal disaster
+    support activities as well as eligible State, local, tribal, and territorial (SLTT)
+    actions such as emergency protection and debris removal. The DRF also funds the
+    repair and rebuilding of eligible disaster damaged infrastructure, eligible hazard
+    mitigation projects, financial assistance to eligible disaster survivors, and
+    FMAGs for eligible large wildfires. To continue to support disaster response,
+    FEMA included proposed budget allocations to address ongoing Stafford Act disasters
+    in the FY 2027 budget request which includes continued DRF funding for Public
+    Assistance.
+
+
+    For additional details on the DHS FY 2027 budget, please refer to the DHS.gov
+    website.
+
+    '
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: 'The Federal Emergency Management
+    Agency (FEMA) has prioritized corrective actions that address the primary root-cause
+    type of insufficient or unavailable supporting documentation needed to validate
+    Public Assistance drawdowns. Because Public Assistance payment validation relies
+    on documentation from recipients, subrecipients, and vendors, FEMA focuses on
+    sustained training, interim directives, reimbursement-package requirements, and
+    follow-up with recipients to obtain missing information. For example, FEMA uses
+    ongoing Validate as You Go (VAYGo) disbursement oversight to request, collect,
+    and review supporting documentation needed to validate payment amounts and determine
+    whether unknown payments are proper or improper. These actions mitigate the root
+    cause by improving the completeness and availability of documentation required
+    to support payment eligibility, cost reasonableness, and drawdown accuracy.
+
+
+    FEMA considers these actions effectively implemented and appropriately prioritized
+    because annual payment-integrity reviews and ongoing VAYGo oversight monitor documentation
+    availability and payment validation results. The 2026 assessment of FY 2024 disbursement
+    activity reported that the consolidated Improper Payment (IP) and Unknown Payment
+    (UP) error rate declined from approximately 4 percent, as published in 2024, to
+    1.17 percent, as published in 2026. This result provides evidence that the corrective
+    actions and related oversight have strengthened documentation collection and payment
+    validation and are helping lower and sustain the consolidated error rate. FEMA
+    will continue to monitor these controls through the 2027 payment integrity review
+    cycle and will use the results to determine whether additional corrective actions
+    are necessary.
+
+    '
+  Corrective_Actions_Appropriateness: 'The Federal Emergency Management Agency (FEMA)
+    identified that Improper Payment (IPs) and Unknown Payments (UPs) were primarily
+    associated with insufficient or unavailable documentation needed to validate drawdown
+    accuracy before or during payment review. To mitigate this root cause, FEMA enhanced
+    the Grants Manager / Grants Portal and developed the Validate as You Go (VAYGo)
+    Module to allow applicants, recipients, and subrecipients to submit, retain, and
+    respond to requests for documentation throughout the Public Assistance grant life
+    cycle. These automation enhancements improve access to documentation supporting
+    work eligibility, cost eligibility, drawdown amounts, and final cost reconciliation,
+    thereby reducing the risk that FEMA approves payments that cannot be validated.
+
+
+    FEMA also addressed inconsistent application of documentation and payment-validation
+    requirements through policy, procedural, and training actions. FEMA issued Public
+    Assistance Program and Policy Guide Version 5.0 on January 6, 2025, to consolidate
+    program policy and procedural requirements across the grant life cycle. FEMA also
+    provides Public Assistance training guides, Grants Portal video tutorials, and
+    VAYGo University training for Regional and recipient stakeholders to reinforce
+    documentation, eligibility, and cost-validation requirements. In late FY 2026,
+    FEMA implemented the Applicant-Managed process for incidents declared on or after
+    September 1, 2026. This helps mitigate documentation and cost-validation deficiencies
+    by providing clearer requirements, improving stakeholder understanding, and allowing
+    FEMA to track project progress and provide assistance when needed.
+
+
+    FEMA monitors the implementation and effectiveness of these actions through annual
+    payment integrity reviews and ongoing VAYGo disbursement oversight. The 2026 assessment
+    of FY 2024 disbursement activity reported a reduction in the consolidated IP and
+    UP error rate from approximately 4 percent, as published in 2024, to 1.17 percent,
+    as published in 2026. This result provides evidence that the actions, together
+    with related program oversight, have strengthened documentation availability and
+    payment validation and appropriately sustained an error rate below established
+    thresholds to be considered susceptible to significant improper payments. However,
+    FEMA will continue to monitor the controls through the 2027 payment integrity
+    review cycle and will use the results to determine whether further corrective
+    actions are needed.
+
+    '
+  Corrective_Actions_Proportion: 'Public Assistance is designed to reimburse everything
+    from an hour of overtime to the replacement of an entire wastewater treatment
+    facility. It is designed to be flexible and support the range of recovery needs.
+    The program delivery model, built on standard roles and processes, enables the
+    Federal Emergency Management Agency (FEMA) to employ a risk-based approach that
+    recognizes that not all applicants or projects require the same level of resources,
+    documentation, or oversight. FEMA adjusts its approach based on risks. The risk-based
+    approach balances developing policy, delivering the program, and prioritizing
+    resources to maintain an efficient use of resources. FEMA prioritizes resources
+    and effort where risk and complexity are high. That means ensuring personnel and
+    technical resources are made available, and administrative oversight is more in-depth,
+    where a disaster, applicant, or project represents a higher risk in one or more
+    of the four risk areas–Mission, Finances, Program, and Reputation. By contrast,
+    FEMA limits level of effort, resources, and administrative oversight where risk
+    is low. That means assigning fewer personnel or technical resources and decreasing
+    requirements and level of review where an applicant or project does not pose a
+    significant risk in one or more of the four risk areas.
+
+
+    FEMA’s corrective action plan addresses the root-cause type of documentation availability
+    and payment-validation deficiencies, which primarily result in unknown payments
+    when recipients or subrecipients do not provide sufficient records to validate
+    drawdown amounts. This root cause has historically accounted for more than 90
+    percent of the total reported payment error value. FEMA’s approach is proportionate
+    to the severity of the documentation-related error amount and rate because it
+    directs resources to the transactions most likely to affect the program’s improper-payment
+    and unknown-payment results without imposing unnecessary burden on lower-risk
+    recipients. FEMA will continue to monitor error trends and documentation results
+    through payment-integrity reviews and adjust corrective actions if the associated
+    dollar amount or error rate does not decline. FEMA remains committed to streamlining
+    and automating the Public Assistance process, training relevant parties and stakeholders,
+    ensuring that policy and process documentation is current and available, and maintaining
+    consistent and regular oversight through internal reviews and audit activity while
+    not overburdening grant recipients.
+
+    '
+  End_Date: 09/2024
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Accountability_Description: 'Department-wide, Component program managers are
+    responsible for completing internal control work on payment processing as part
+    of the Department’s Office of Management and Budget (OMB) Circular No. A-123 efforts.
+    They are further responsible for establishing and maintaining sufficient internal
+    controls, including a control environment that prevents improper payments from
+    being made, effectively managing improper payment risks, and promptly detecting
+    and recovering any improper payments that may occur. Management’s efforts around
+    improper payments are subject to an annual compliance review by the DHS’s Office
+    of Inspector General (OIG). These measures are designed to hold the appropriate
+    personnel accountable for meeting applicable improper payment reduction targets
+    and establishing and maintaining strong internal controls around payment management.
+
+
+    The goals and requirements for strong payment integrity are communicated Department-wide
+    to all levels of staff throughout the DHS Office of the Chief Financial Officer
+    and to relevant program office and procurement staff. The Department has taken
+    extensive measures to ensure that managers, accountable officers, to include Component
+    Senior Financial Officers, programs officials, States, and localities are held
+    accountable for reducing and recapturing improper payments. The Department’s CFO
+    and senior staff have incorporated improper payment expectations and performance
+    in their annual performance plans.
+
+
+    The Federal Emergency Management Agency (FEMA) regularly engages with recipients
+    and process owners in monthly remediation meetings to ensure that appropriate
+    accountable officials are actively taking actions to reduce Improper Payments
+    (IPs) and identify and categorize Unknown Payment (UP) transactions as either
+    proper or improper. If a transaction is deemed proper, no further action is taken.
+    If a transaction is deemed technically improper, FEMA requires a corrective action
+    be put in place in order resolve issues surrounding procedures, policies, and
+    trainings. If a transaction is deemed improper and is associated with monetary
+    loss, then the transaction is submitted through the FEMA debt collection process
+    including Notice of Potential Debt Letters and Treasury Offset, if applicable.
+
+
+    In addition, FEMA tracks any changes to the program. Training, information sharing,
+    and the documentation of new processes will be prioritized. Payment management
+    reviews related to Internal Control over Financial Reporting are conducted within
+    the DHS control environment each fiscal year accompanied with processes to review
+    and examine for improper payments, to include but not limited to duplicate payment
+    reviews, card payment reviews, payroll analysis, etc. These oversight and monitoring
+    activities provide evidence that accountability mechanisms are operating and that
+    responsible personnel are taking actions to prevent, detect, and recover improper
+    payments.
+
+    '
+  IP_Unknown_Target_Rate: 0.015
+  Improper_Payments_Rate: 0.4336917266
+  Insufficient_Documentation_to_Determine: 142.38060964
+  Margin_of_Error: '3.11'
+  Non_Monetary_Loss_Amount: '0'
+  Outlays: 19308.57616453
+  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app3]Training, [app4]Change
+    Process, [app6]Audit'
+  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp3]Training, [atp4]Change
+    Process, [atp6]Audit'
+  Payment_Accuracy_Rate: 98.82891257717188
+  Program_Additional_Information: "The Federal Emergency Management Agency (FEMA)\
+    \ Public Assistance program provides supplemental grants to state, tribal, territorial,\
+    \ and local governments, and certain types of private non-profits so communities\
+    \ can quickly respond to and recover from major disasters or emergencies. After\
+    \ an event like a hurricane, tornado, earthquake or wildfire, communities need\
+    \ help to cover their costs for debris removal, life-saving emergency protective\
+    \ measures, and restoring public infrastructure. FEMA provides this assistance\
+    \ based on authority in statutes, executive orders, regulations, and policies.\
+    \ The four basic components of eligibility are applicant, facility, work and cost.\n\
+    •\tAn applicant must be a state, territory, tribe, local government or private\
+    \ nonprofit organization.\n•\tA facility must be a building, public works system,\
+    \ equipment or natural feature.\n•\tWork is categorized as either \"emergency\"\
+    \ or \"permanent.\" It must be required as a result of the declared incident,\
+    \ located within the designated disaster area, and is the legal responsibility\
+    \ of the applicant.\n•\tCost is the funding tied directly to eligible work, and\
+    \ must be adequately documented, authorized, necessary and reasonable. Eligible\
+    \ costs include labor, equipment, materials, contract work, as well as direct\
+    \ and indirect administrative costs.\n\nIn 2019, FEMA implemented the Validate\
+    \ as You Go (VAYGo) grants payment review process for major disaster declarations\
+    \ resulting from the Harvey, Irma, and Maria disasters, to comply with statutory\
+    \ improper payment review and reporting requirements to significantly reduce project\
+    \ closeout documentation requirements for recipients with proven effective internal\
+    \ control processes. In December 2020, FEMA expanded VAYGo to all Public Assistance\
+    \ and Fire Management Assistance Grants major disasters and emergency declarations\
+    \ beginning with disasters declared in fiscal year (FY) 2020.\n\nFEMA began using\
+    \ information provided in FEMA Grants Manager / Grants Portal to review documentation\
+    \ and information provided on Public Assistance Projects. VAYGo’s goal is to improve\
+    \ grants management internal control processes by consistently assessing payment\
+    \ error rates to identify potential payment integrity issues. VAYGo payment integrity\
+    \ testing results allows recipients to remediate questioned costs and take appropriate\
+    \ actions to strengthen internal controls in grant lifecycle processes. This will\
+    \ prevent or reduce the likelihood of future improper payments. The program intends\
+    \ to strengthen grants management internal controls while decreasing the complexity\
+    \ and burden of the grants management process for both FEMA and recipients.\n\n\
+    On March 13, 2020, the Presidential declaration of a nationwide COVID-19 emergency\
+    \ increased the level of federal response from FEMA, as well as support to state,\
+    \ local, tribal, and territorial partners across the nation. The agency’s response\
+    \ to COVID-19 was unprecedented. When the White House directed FEMA to lead operations,\
+    \ COVID-19 became the first national pandemic response that FEMA has led since\
+    \ it was established in 1979. It was also the first time in U.S. history the President\
+    \ declared a nationwide emergency under Section 501b of the Stafford Act and authorized\
+    \ Major Disaster Declarations for all states and territories for the same incident.\
+    \ FEMA, through its 10 Regions, managed 59 concurrent Presidential Major Disaster\
+    \ Declarations for COVID-19 and worked with over 91 tribal nations.\n\nAs the\
+    \ COVID-19 specific disaster declaration was so wide reaching and impacted so\
+    \ many individuals, the span of the public assistance provided is extensive. To\
+    \ sufficiently assess the appropriateness of these payments, the request for information\
+    \ is broad and often takes a substantial amount of time to obtain the necessary\
+    \ documentation and of adequate quality and completeness to enable auditability.\
+    \ While the assessment results indicate that additional corrective actions and\
+    \ enhancements are needed to collect sufficient documentation to reduce Unknown\
+    \ Payments (UPs), the reduction in the overall Improper Payment (IP) and UP error\
+    \ rate published in 2026 (1.17 percent) shows sustained improvement over the 2025\
+    \ published IP and UP error rate (1.22 percent). Corrective action efforts will\
+    \ continue to heavily focus on obtaining sufficient supporting documentation to\
+    \ see future improvements related to the UP error rate. DHS remains fully committed\
+    \ to providing transparent, accurate, and complete reporting and upholding payment\
+    \ integrity.\n"
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: 'No additional resources have been requested specifically
+    for the Federal Emergency Management Agency (FEMA) Public Assistance – Validate
+    as You Go (VAYGo) program in the DHS fiscal year (FY) 2027 budget. However, to
+    continue to support disaster response, FEMA included proposed budget allocations
+    to address ongoing Stafford Act disasters in the FY 2027 budget request which
+    includes continued Disaster Relief Fund (DRF) funding for Public Assistance.
+
+
+    The FEMA Public Assistance – VAYGo program has adequate resourcing with respect
+    to internal controls, human capital and information system, and other infrastructure
+    to sustain the reduced Improper Payments (IPs) and Unknown Payments (UPs) rate
+    at the tolerable level of 1.5 percent and therefore did not have a budget request
+    related to payment integrity improvements.
+
+
+    For additional details on the DHS FY 2027 Budget, please refer to the DHS.gov
+    website.
+
+    '
+  Start_Date: 10/2023
+  Technical_IP_Amount: '0.0'
+  Unknown_Mitigations_Planned: '[app1]Automation,[app3]Training,[app4]Change Process,[app6]Audit'
+  Unknown_Mitigations_Taken: '[atp1]Automation,[atp3]Training,[atp4]Change Process,[atp6]Audit'
+  Unknown_Payments_Rate: 0.7373956962272248
+  Year: 2026
+  detail_IP_Causes: "Due to the nature of the Public Assistance program, the Federal\
+    \ Emergency Management Agency (FEMA) is reliant on additional parties, such as\
+    \ states, territories, etc., to oversee and execute payments on behalf of the\
+    \ program. However, FEMA retains oversight of drawdown activity and DHS considers\
+    \ the resulting payments within the agency’s control. Improper Payments (IPs),\
+    \ including overpayments, occurred when drawdown costs could not be reconciled\
+    \ to applicable grant documentation or when the documentation demonstrated that\
+    \ the claimed amount was incorrect. Specific improper-payment scenarios included\
+    \ missing contract amendments needed to substantiate price changes, invoices that\
+    \ did not support the total drawdown amount, use of incorrect utility or labor\
+    \ rates, and claims for erroneous expenses.\n\nFor the FEMA testing over the fiscal\
+    \ year (FY) 2024 disbursements conducted in 2026, FEMA identified improper payments,\
+    \ specifically overpayments, across a total of 16 states and territories. The\
+    \ largest contributors for identified improper payments tied to California (Region\
+    \ IX), accounting for over 83% of the identified overpayments identified through\
+    \ sample testing. For the assessed disbursement period, the COVID-19 pandemic\
+    \ response was the principal disaster associated with the identified overpayments\
+    \ and extrapolated IP amount. These errors resulted when FEMA’s testing determined\
+    \ that the claimed drawdown amount did not align with the active award documentation,\
+    \ applicable rates, or supported eligible costs.\n\nFEMA also identified documentation\
+    \ deficiencies as the primary root-cause type for Unknown Payments (UPs). UPs\
+    \ occurred when recipients or subrecipients did not provide records required by\
+    \ the grant agreement to support the drawdown amount, preventing FEMA from determining\
+    \ whether the payment was proper or improper. Examples included missing documentation\
+    \ of contracts and subsequent contract amendments; missing labor timesheets and\
+    \ payroll records; and absent documentation supporting purchase orders, invoices,\
+    \ and staffing orders. \n\nFor FY 2024 disbursements tested in 2026, FEMA was\
+    \ unable to obtain sufficient documentation for payments involving 17 states and\
+    \ territories. The largest contributors for the lack of supporting documentation\
+    \ provided tied to New York (Region II), Connecticut (Region I), Massachusetts\
+    \ (Region I), and New Hampshire (Region I). The COVID-19 pandemic response was\
+    \ the principal disaster associated with these UPs and the resulting extrapolated\
+    \ UP amount.\n"
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '83.73969735'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '1.5'
+  eligibility_aggregated:
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 83.73969735
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '83.73969735'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Underpayments_Amount: '0.0'
 Description: The Federal Emergency Management Agency (FEMA) Public Assistance program
   provides supplemental grants to state, local, tribal, and territorial (SLTT) governments,
   and certain types of private non-profits for emergency response and long-term disaster
@@ -1218,33 +1494,33 @@ Description: The Federal Emergency Management Agency (FEMA) Public Assistance pr
   size and the level of burden to collect the necessary supporting documentation serves
   as a limitation to FEMA in improving the prevention of improper payments due to
   the inability to readily match information related to financial eligibility.
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2024, 2025]'
-Overpayment_Amounts: '[60.0912, 52.18718638, 136.34674255, 20.39661299]'
-Payment_Accuracy_Amounts: '[3660.5651, 4525.06078369, 38191.563677210004, 21052.55684987]'
+Improper_Payments_Data_Years: '[2022, 2024, 2025, 2026]'
+Overpayment_Amounts: '[52.18718638, 136.34674255, 20.39661299, 83.73969735]'
+Payment_Accuracy_Amounts: '[4525.06078369, 38191.563677210004, 21052.55684987, 19082.45585754]'
 Phase_2_Program: 0
 Program_Name: Federal Emergency Management Agency - Public Assistance - Validate as
   You Go
 Scorecard_Links:
-- Link: assets/scorecards/Q1 2025/Federal Emergency Management Agency (FEMA) - Public
-    Assistance - Validate as You Go.pdf
-  QuarterYear: Q1 2025
-- Link: assets/scorecards/Q2 2025/Federal Emergency Management Agency (FEMA) - Public
-    Assistance - Validate as You Go.pdf
-  QuarterYear: Q2 2025
-- Link: assets/scorecards/Q3 2025/Federal Emergency Management Agency (FEMA) - Public
-    Assistance - Validate as You Go.pdf
-  QuarterYear: Q3 2025
 - Link: assets/scorecards/Q4 2025/Federal Emergency Management Agency - Public Assistance
     - Validate as You Go.pdf
   QuarterYear: Q4 2025
+- Link: assets/scorecards/Q3 2025/Federal Emergency Management Agency (FEMA) - Public
+    Assistance - Validate as You Go.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q2 2025/Federal Emergency Management Agency (FEMA) - Public
+    Assistance - Validate as You Go.pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q1 2025/Federal Emergency Management Agency (FEMA) - Public
+    Assistance - Validate as You Go.pdf
+  QuarterYear: Q1 2025
 Technically_Improper_Amounts: '[0, 0, 0, 0]'
 Underpayment_Amounts: '[0, 0, 0, 0]'
-Unknown_Amounts: '[214.4877, 190.69534214, 1396.1401011, 240.08131401]'
+Unknown_Amounts: '[190.69534214, 1396.1401011, 240.08131401, 142.38060964]'
 fpi_link: https://fpi.omb.gov/program/97.036
 layout: program-specific
 permalink: program/dhs-federal-emergency-management-agency-public-assistance-va-f772be13

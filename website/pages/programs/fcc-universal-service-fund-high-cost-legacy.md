@@ -220,12 +220,6 @@ Data_By_Year:
     Financial: 40.67
     Inability_to_Access_Data: 40.67
     Overpayments_Outside_Control_Amount: '40.67'
-    Overpayments_Outside_Control_Why: The main cause of the overpayments is related
-      to inadequate documentation- assets.  The carrier is responsible for maintaining
-      adequate documentation.  Documentation, such as invoices, work orders and other
-      documentation related to assets, should be maintained to verify the asset transactions
-      were recorded in the proper amount.  Documentation should be kept current and
-      maintained by the carrier to allow for auditor review.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -417,12 +411,6 @@ Data_By_Year:
     Financial: 55.18
     Inability_to_Access_Data: 55.18
     Overpayments_Outside_Control_Amount: '55.18'
-    Overpayments_Outside_Control_Why: The main cause of the overpayments is related
-      to inadequate documentation- assets. The carrier is responsible for maintaining
-      adequate documentation. Documentation, such as invoices, work orders and other
-      documentation related to assets, should be maintained to verify the asset transactions
-      were recorded in the proper amount. Documentation should be kept current and
-      maintained by the carrier to allow for auditor review.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -518,7 +506,7 @@ Data_By_Year:
     improper payments are deemed collectible and USAC has either recovered or is in
     the process of recovering the improper payments.'
   IP_Unknown_Target_Rate: 0.03
-  Improper_Payments_Rate: 3.2568603342999998
+  Improper_Payments_Rate: 3.25686033
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '1.89'
   Non_Monetary_Loss_Amount: '29.59'
@@ -566,21 +554,144 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Inability_to_Access_Data: 29.59
     Underpayments_Amount: '29.59'
+- Agency_Needs_Satisfied: The High Cost program has the internal controls, human capital,
+    information systems, and other infrastructure it requires to reduce improper payments
+    to the target levels. The FCC and USAC will continue to expand internal controls
+    as necessary and will develop the human capital to ensure it meets its goals.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: "The Risk Management Council\
+    \ (RMC) Meeting, compromised of USAC and FCC staff, provides a collaborative space\
+    \ for programs to discuss efforts used to mitigate improper payments on a quarterly\
+    \ basis. During the RMC Meeting and during subsequent follow-up discussions, management\
+    \ reviews improper payments and prioritizes the largest monetary impact findings,\
+    \ accordingly.  \n\nDuring the RMC meetings, management has an opportunity to\
+    \ discuss effective improper payment mitigation strategies. This process has enabled\
+    \ USAC management to institutionalize corrective actions as part of its program\
+    \ integrity efforts, which will prevent future instances of improper payments.\
+    \  USAC leadership is implementing a quarterly review process to discuss progress\
+    \ towards executing these corrective actions."
+  Corrective_Actions_Appropriateness: In July 2026, USAC High Cost introduced a new
+    compliance layer, Special Compliance Review, by developing additional Program
+    Integrity Assurance (PIA) procedures leveraging enhanced analytics and testing
+    capabilities on a sample basis to identify potential violations. The SCR will
+    continue annually with evaluation of root causes to mitigate improper payments.
+  Corrective_Actions_Proportion: The High Cost program will continue to focus on PIA
+    activities to mitigate improper payments.  The results of the program integrity
+    are anticipated to have a major impact on the root cause related to the improper
+    payment rate. The PIA activities include collaborating with USAC's Audit and Assurance
+    Division partners to provide the annual Circle of Life webinars, meeting with
+    NECA monthly, and continue existing analysis and data validation for legacy funds.
+    The annual Circle of Life webinar references FCC rules and provides common error
+    examples and recommends best practices to avoid these findings. The monthly NECA
+    meeting is used by High Cost to evaluate processes based on audit finding feedback.
+    With the annual data validation, High Cost compares projected and actual cost
+    study data that determines carriers' support.
+  End_Date: 12/2024
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: The FCC works through its program administrator,
+    USAC to complete payment recapture audits known as Beneficiary and Contributor
+    Audit Program (BCAP).  BCAP audits are designed to identify underpayments with
+    FCC rules, overpayments that must be recaptured, assess compliance with FCC rules,
+    and deter waste, fraud, and abuse. USAC’s improper payment testing program is
+    known as Payment Quality Assurance (PQA). Through PQA, USAC utilizes a statistical
+    sampling methodology to estimate the annual amount of improper payments in the
+    USF-HC, USF-LL, USF-RHC, and USF-S&L programs. The goal of the PQA assessment
+    plan is to estimate an improper payment error rate based on non-compliance with
+    FCC rules. To recover improper payments, USAC has implemented an enterprise recovery
+    policy to standardize the reporting and recovery of improper payments. USAC improper
+    payments are deemed collectible and USAC has either recovered or is in the process
+    of recovering the improper payments.
+  IP_Unknown_Target_Rate: 0.018
+  Improper_Payments_Rate: 1.8220550782000002
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '1.94'
+  Non_Monetary_Loss_Amount: '26.97'
+  Outlays: 1680.52
+  Overpayment_Combined_Mitigations_Planned: '[app3]Training, [app5]Cross Enterprise
+    Sharing, [app6]Audit'
+  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp5]Cross Enterprise
+    Sharing, [atp6]Audit'
+  Payment_Accuracy_Rate: 98.17794492180991
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: The High Cost program team did not identify additional
+    resources needed to improve the overall structure of the program in its most current
+    budget submission. The FCC and USAC continue to work to reduce the high-cost improper
+    payment rate.
+  Start_Date: 01/2024
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: '[app3]Training, [app5]Cross Enterprise Sharing,
+    [app6]Audit'
+  Underpayment_Mitigations_Taken: '[atp3]Training, [atp5]Cross Enterprise Sharing,
+    [atp6]Audit'
+  Unknown_Payments_Rate: 0
+  Year: 2026
+  detail_IP_Causes: "The major causes of the High Cost improper payments are incorrect\
+    \ depreciation method and inadequate documentation. These major causes make up\
+    \ 80% of the improper payment rate. The minor improper payment reasons include\
+    \ Support Not Used for Intended Purposes, Lack of Documentation (Assets and General\
+    \ Ledger), Inaccurate Loop Count, Inaccurate SLC Revenue, Inaccurate Consumer\
+    \ Broadband Only Loop Count and Improper Part 36 Reporting.\n  \nIncorrect depreciation\
+    \ method could be caused by the following: 1) used the ending balance instead\
+    \ of the average monthly balance, 2) used an incorrect rate or 3) there was an\
+    \ error in the calculation.  Inadequate documentation - assets could be caused\
+    \ by the following: 1) missing invoices or inventory documents OR 2) documentation\
+    \ didn't support the spread of overhead."
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '0.0'
+  detail_Overpayments_Due_To_Inability: '3.65'
+  detail_Reduction_Target: '1.8'
+  eligibility_aggregated:
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 3.65
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '3.65'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 26.97
+    Failure_to_Access_Data: 0.0
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '26.97'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2023, 2024, 2025]'
-Overpayment_Amounts: '[40.67, 55.18, 32.66]'
-Payment_Accuracy_Amounts: '[1744.29, 1753.34, 1849.1]'
+Improper_Payments_Data_Years: '[2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[40.67, 55.18, 32.66, 3.65]'
+Payment_Accuracy_Amounts: '[1744.29, 1753.34, 1849.1, 1649.8999999999999]'
 Phase_2_Program: 0
 Program_Name: Universal Service Fund - High Cost Legacy
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0]'
-Underpayment_Amounts: '[11.04, 26.57, 29.59]'
-Unknown_Amounts: '[0, 0, 0]'
+Technically_Improper_Amounts: '[0, 0, 0, 0]'
+Underpayment_Amounts: '[11.04, 26.57, 29.59, 26.97]'
+Unknown_Amounts: '[0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/32.002
 layout: program-specific
 permalink: program/fcc-universal-service-fund-high-cost-legacy

@@ -197,20 +197,6 @@ Data_By_Year:
     Financial: 13.19
     Inability_to_Access_Data: 13.19
     Overpayments_Outside_Control_Amount: '13.19'
-    Overpayments_Outside_Control_Why: "For the agency's Grants program, overpayments\
-      \ occur when a recipient erroneously overdraws funds in advance of immediate\
-      \ cash needs or uses funds for unallowable costs. \nThe EPA seeks to prevent\
-      \ improper payments through mechanisms such as:  (Prior to the issuance of a\
-      \ grant award,) the agency’s Compliance Team conduct pre-award certification\
-      \ of non-profit recipients that receive awards in excess of $200K to ensure\
-      \ their written policies and procedures specify acceptable internal controls\
-      \ for safeguarding federal funds. Re-certifications are conducted every four\
-      \ years. Grants Management Officers (GMOs) concur on all certifications. EPA\
-      \ conducts annual baseline monitoring reviews of all recipients to ensure overall\
-      \ compliance with assistance agreement terms and conditions, as well as all\
-      \ applicable federal regulations. If deemed necessary, recipients can be placed\
-      \ on a reimbursement payment plan which requires submission of cost documentation\
-      \ (receipts, invoices, etc.) for review and approval prior to receiving reimbursement."
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -220,7 +206,7 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true

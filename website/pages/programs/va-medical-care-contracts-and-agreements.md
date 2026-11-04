@@ -2,75 +2,6 @@
 Agency: VA
 Agency_Name: Department of Veterans Affairs
 Data_By_Year:
-- Agency_Needs_Satisfied: VA does not have additional program needs.
-  Confidence_Level: '>90%'
-  Corrective_Actions_Proportion: VA continues to prioritize and implement effective
-    corrective actions and mitigation strategies that reduce improper payments agency-wide.
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Failure_to_Access_Data: true
-  Hide_Underpayments_Inability_to_Access_Data: true
-  IP_Current_Year_Plus_1_Amount: 26.29
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.0998983441
-  Improper_Payments_Rate: 3.1286373700000003
-  Insufficient_Documentation_to_Determine: 128.16
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '5.92'
-  Non_Monetary_Loss_Amount: '19.49'
-  Outlays: 996.6
-  Outlays_Current_Year_Plus_1_Amount: 1052.57
-  Payment_Accuracy_Rate: 84.01163957455348
-  Program_Design_or_Structural_Issue: 19.49
-  Start_Date: 10/2019
-  Technical_IP_Amount: '19.49'
-  Unknown_Curent_Year_Plus_1_Amount: 78.86
-  Unknown_Payments_Rate: 12.859723058398554
-  Unknown_Why: VA had lacking or insufficient documentation to validate whether a
-    payment was proper or not.
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 8.7675
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 11.69
-    Financial: 2.9225
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '11.69'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.0'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: The Medical Care Contracts and Agreements program has not
     yet determined the tolerable rate. VA is working to determine all requirements
     for establishing a tolerable rate per Office of Management and Budget guidance
@@ -896,7 +827,7 @@ Data_By_Year:
 
     local governments are not involved in the execution of this program.'
   IP_Unknown_Target_Rate: 0.06
-  Improper_Payments_Rate: 1.1249775004
+  Improper_Payments_Rate: 1.1249775
   Insufficient_Documentation_to_Determine: 69.94
   Margin_of_Error: '2.88'
   Non_Monetary_Loss_Amount: '1.13'
@@ -981,21 +912,251 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
+- Agency_Needs_Satisfied: VA is committed to process improvements that ensure payments
+    for contracted services for Veterans are accurate, timely, and aligned with contract
+    requirements through effective implementation of corrective actions and oversight.
+    VA continues to demonstrate that it possesses the internal controls, human capital,
+    and advanced technological capabilities necessary to effectively reduce improper
+    and unknown payments. In FY 2026, VA reduced improper and unknown payments in
+    the Medical Care Contracts and Agreements program by $34.36 million or 2.85%.
+    VA has the systems and infrastructure to support timely notification and remediation
+    of contract‑related payment errors, helping reduce improper and unknown payments.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: 'VA updates corrective action
+    plans annually based on testing results, and no less than quarterly, to ensure
+    actions are appropriately and formally prioritized and designed to mitigate the
+    causes of improper and unknown payments. VA monitors the progress and results
+    of the implementation throughout the reporting year to ensure corrective actions
+    remain on schedule and responsive to identified risks. Additionally, an effectiveness
+    review is performed annually to measure if an action reduced or is properly designed
+    to reduce improper and unknown payments for a specific root cause based on a set
+    benchmark. The annual effectiveness review process allows VA to create or update
+    actions as necessary to ensure continued progress in the remediation of improper
+    and unknown payments. If areas for improvement are identified, VA conducts a root
+    cause analysis to refine the program’s mitigation strategies to ensure they addressed
+    and reduced root causes of error.
+
+
+    VA conducted a corrective action plan effectiveness review of the program’s FY
+    2024 corrective action plan using FY 2025 test results. The review concluded that
+    the overall FY 2024 corrective action plan was ineffective. The overall error
+    rate increased from 2.28% to 6.37% in FY 2025, the program did not meet its intended
+    benchmarks, and errors where payments exceeded the contract rate and requirements
+    increased, as did insufficient documentation errors related to pricing. The program
+    refocused corrective actions in FY 2025, which resulted in a $34.36 million decrease
+    or 2.85% despite a $104.47 million increase in spending.
+
+
+    The Medical Care Contracts and Agreements program''s contract compliance notification
+    corrective actions notify responsible parties of improper procedures and outline
+    steps to remediate them, helping reduce improper and unknown payments caused by
+    missing or unvalidated documentation in the payment process. As a result of this
+    corrective action, related errors decreased from $61.23 million in FY 2025 to
+    $14.71 million in FY 2026. This reduction provides evidence of the effective implementation
+    of the contract compliance notification corrective actions.'
+  Corrective_Actions_Appropriateness: "Change process actions taken included notifying\
+    \ contracting officers and/or contracting officer representatives of improper\
+    \ payment errors and suggested solutions related to claim not paid according to\
+    \ contract, unauthorized commitments, and invoice pricing does not reconcile to\
+    \ contract to avoid future improper payments made on contracts. VA also notified\
+    \ contracting personnel of incorrect procurement procedures for resolution and\
+    \ updated contract language and required contracting officers to validate that\
+    \ contract line items adhered to policies and procedures. These corrective actions\
+    \ strengthened internal controls and mitigated risks within existing processes.\
+    \ These actions were completed on May 15, 2026. Change process activities also\
+    \ occurred in FY 2025 contributing to a reduction of $46.52 million in improper\
+    \ and unknown payments between FY 2025 and FY 2026. The program will continue\
+    \ notifying contracting officers and/or contracting officer representatives of\
+    \ improper payment errors and suggesting solutions in FY 2027. \n\nOutcomes of\
+    \ these corrective actions taken in prior years have been effective and the program\
+    \ continues to see reductions in improper and unknown payment testing results.\
+    \ In FY 2027, the program will evaluate the effectiveness and impact of these\
+    \ corrective actions and determine whether they successfully mitigated the identified\
+    \ root causes.\n\nChange process actions planned include ensuring lab services\
+    \ contracts include itemized line items and adhere to the proper format required\
+    \ for accurate payment processing. These corrective actions strengthen internal\
+    \ controls and mitigate risks within existing processes. The estimated completion\
+    \ date is December 31, 2026."
+  Corrective_Actions_Proportion: 'The corrective action plan executed in FY 2026 was
+    designed to address root causes identified in FY 2025 testing. While all error
+    causes were included, VA prioritized those associated with monetary loss and developed
+    corrective actions proportional to the severity of those causes. In FY 2025 testing,
+    70.63% of monetary loss transactions occurred because the payment was certified
+    without verifying that the billed amount matched the contract price schedule,
+    which resulted in $9.80 million in projected monetary losses. The remaining 29.37%
+    of overpayments occurred because payments were certified without confirming that
+    the number of patients billed matched the required patient roster documentation,
+    which resulted in $4.07 million in projected monetary losses. These errors received
+    an intentional focus in the FY 2026 corrective action plan. VA implemented change
+    process corrective actions to prevent payments from being made in the incorrect
+    amount and not in accordance with the contract, which resulted in a $10.20 million
+    reduction in monetary losses related to these errors.
+
+
+    The program did not have any underpayments identified in FY 2025 testing or addressed
+    in the FY 2026 corrective action plan.
+
+
+    In FY 2025 testing, 100% of technically improper payments occurred because VA
+    lacked evidence the purchase was made by an authorized individual, which resulted
+    in $1.13 million in projected technically improper payments. VA implemented change
+    process corrective actions to notify contracting officers and/or contracting officer
+    representatives of improper payment errors and recommend solutions related to
+    unauthorized commitments, resulting in no such errors identified in FY 2026 testing.
+
+
+    In FY 2025 testing, 100% of unknown payments occurred because VA had missing or
+    insufficient documentation related to pricing documentation, which resulted in
+    $69.94 million in projected unknown payments. VA implemented change process corrective
+    actions to notify contracting officers and/or contracting officer representatives
+    of unknown payment errors and suggested solutions to avoid future improper payments
+    made on contracts, resulting in a $23.02 million reduction in related errors in
+    FY 2026 testing. The FY 2026 corrective action plan to address these issues with
+    change process solutions includes improving contract processes for lab services
+    contracts to ensure payment accuracy, aimed at reducing insufficient documentation
+    and unknown payments.'
+  End_Date: 09/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Accountability_Description: "The Senior Accountable Official for the Medical\
+    \ Care Contracts and Agreements program, the Executive Director of Office of Procurement\
+    \ Operations, is responsible for compliance with the Payment Integrity Information\
+    \ Act of 2019, accountable for reducing improper and unknown payments, and completing\
+    \ required activities timely. The Senior Accountable Official and other VA executive\
+    \ managers must establish and maintain internal controls in accordance with Federal\
+    \ standards outlined by the Government Accountability Office in the Standards\
+    \ for Internal Control in the Federal Government. \n\nVA has an established process\
+    \ to recover overpayments. For VHA, after conducting payment integrity reviews\
+    \ and recovery audits to identify overpayments, they are tracked in a monetary\
+    \ loss and collections database. The overpayments are sent to the Financial Services\
+    \ Center to be processed, and a bill of collection is established. Once recovered,\
+    \ the database is updated for collection status. \n\nVA has roughly 430,000 employees\
+    \ and does not standardize position titles or performance metrics for establishing\
+    \ and maintaining internal controls or identifying and recovering overpayments.\
+    \ Payment integrity functions are dispersed geographically across the continental\
+    \ United States as well as outside the Continental United States and extend well\
+    \ beyond VA’s finance employees. For example, Contracting Officer Representatives\
+    \ responsible for validating invoices match contract prices are found throughout\
+    \ VA offices and programs, with many performing these functions as other duties\
+    \ as assigned.\n\nVA actively monitors the progress programs made in improving\
+    \ payment integrity as required by VA Financial Policy. Specifically, the Medical\
+    \ Care Contracts and Agreements program's corrective action plan drives the improvement\
+    \ of existing or implementation of new internal controls necessary to address\
+    \ the true root causes of errors found in payment integrity testing. Through the\
+    \ description of root causes, monitoring of milestones and tasks, and measurement\
+    \ against set benchmarks, the Senior Accountable Official is held accountable\
+    \ for reducing improper and unknown payments via effective corrective actions.\
+    \ VA reviews corrective actions for effectiveness both informally by discussing\
+    \ testing results and corrective actions in regularly scheduled meetings with\
+    \ programs executive managers and/or staff as well as formal effectiveness reviews\
+    \ in accordance with VA Financial Policy. In July 2026, the Government Accountability\
+    \ Office evaluated VA’s process of evaluating effectiveness using established\
+    \ benchmarks and found no deficiencies or areas of improvement. These measures\
+    \ ensure that payment integrity remains a visible and prioritized responsibility\
+    \ among management and staff throughout the agency. \n\nState and local governments\
+    \ do not participate in the execution of this program."
+  IP_Unknown_Target_Rate: 0.0325
+  Improper_Payments_Rate: 0.25524575229999996
+  Insufficient_Documentation_to_Determine: 46.92
+  Margin_of_Error: '2.24'
+  Non_Monetary_Loss_Amount: '0'
+  Outlays: 1437.83
+  Overpayment_Combined_Mitigations_Taken: '[atp4]Change Process'
+  Payment_Accuracy_Rate: 96.48150337661615
+  Program_Additional_Information: 'The Medical Care Contracts and Agreements program
+    continues to prioritize and implement corrective actions and mitigation strategies
+    that reduce improper and unknown payments. From FY 2025 to FY 2026, the Medical
+    Care Contracts and Agreements program reduced its improper and unknown payment
+    error rate from 6.37% to 3.52%, a reduction of 2.85%.
+
+
+    The Office of Inspector General completed its review of the FY 2025 reporting
+    for the Medical Care Contracts and Agreements program and determined that the
+    program met all Payment Integrity Information Act of 2019 requirements. The review
+    confirmed that the program reported information as required in the Agency Financial
+    Report and paymentaccuracy.gov, published statistically valid projections of improper
+    and unknown payments, published a corrective action plan and reported an improper
+    and unknown payment rate of less than 10 percent.'
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: At this time, VA is not aware of additional program
+    needs. VA has not requested additional resources in the most recent budget submission
+    to establish and maintain internal controls to reduce improper payments and unknown
+    payments. VA continues to develop and implement corrective actions to reduce improper
+    and unknown payments and has not identified a tolerable rate for this program;
+    however, current resources are sufficient to continue implementation of corrective
+    actions.
+  Start_Date: 10/2024
+  Technical_IP_Amount: '0.0'
+  Unknown_Mitigations_Planned: '[app4]Change Process'
+  Unknown_Mitigations_Taken: '[atp4]Change Process'
+  Unknown_Payments_Rate: 3.263250871104373
+  Year: 2026
+  detail_IP_Causes: "Overpayments occurred when the program failed to access the data/information\
+    \ needed to validate that the correct dollar amount was billed according to the\
+    \ contract price schedule when certifying the payment. \n\nNo underpayments were\
+    \ found during testing. \n\nUnknown payments were attributed to missing or insufficient\
+    \ documentation required to validate whether a payment was proper or improper\
+    \ related to pricing documentation. Specifically, VA was unable to determine the\
+    \ appropriate pricing due to the lack of information in the contract price schedule.\
+    \ Without documentation supporting the appropriate information per the contract\
+    \ or per the invoice, the program is unable to determine whether the amount paid\
+    \ is proper or improper. Due to insufficient documentation, VA categorized the\
+    \ payments as unknown.\n\nNo technically improper payments were found during testing."
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '3.67'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '3.25'
+  eligibility_aggregated:
+  - Theme: Contractor or Provider Status
+    Theme_Description: "Status or standing of contractor or provider, including recipient\
+      \ eligibility to \r\nprovide medical services"
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 3.67
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '3.67'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Underpayments_Amount: '0.0'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[11.69, 5.34, 0.39, 0.65, 13.87]'
-Payment_Accuracy_Amounts: '[837.26, 972.46, 1112.93, 1208.53, 1248.4199999999998]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[5.34, 0.39, 0.65, 13.87, 3.67]'
+Payment_Accuracy_Amounts: '[972.46, 1112.93, 1208.53, 1248.4199999999998, 1387.2399999999998]'
 Phase_2_Program: 0
 Program_Name: Medical Care Contracts and Agreements
 Scorecard_Links: []
-Technically_Improper_Amounts: '[19.49, 22.21, 19.02, 0.48, 1.13]'
+Technically_Improper_Amounts: '[22.21, 19.02, 0.48, 1.13, 0]'
 Underpayment_Amounts: '[0, 0, 0, 0, 0]'
-Unknown_Amounts: '[128.16, 50.94, 26.31, 27.11, 69.94]'
+Unknown_Amounts: '[50.94, 26.31, 27.11, 69.94, 46.92]'
 layout: program-specific
 permalink: program/va-medical-care-contracts-and-agreements
 ---

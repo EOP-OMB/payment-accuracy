@@ -3,7 +3,7 @@ Agency: OGE
 Agency_Name: Office of Government Ethics
 Confirmed_Fraud: 0.0
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -48,7 +48,7 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Office of Government Ethics-Salaries and Expenses
     Slug: null
@@ -61,49 +61,53 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
 detail_Additional_IP_Information: OGE is a micro-agency with a small budget and limited
-  resources. Payments to all service providers is closely monitored and reviewed at
-  several distinct and separate levels both internal to OGE and external at our financial
-  management services provider. Any questionable invoice is thoroughly reviewed, evaluated
-  and if necessary validated with the vendor prior to payment to ensure accuracy and
-  validity of the payment. OGE takes this responsibility very seriously.
+  resources. All payments made by OGE are closely monitored and constantly reviewed
+  at several distinct and separate levels both internal to OGE and external at our
+  financial management services provider. Any questionable invoice or payment is thoroughly
+  reviewed, evaluated, and if necessary, validated with the appropriate parties prior
+  to payment to ensure accuracy and validity of the payment. OGE takes payment integrity
+  very seriously.
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: OGE uses the Do Not Pay Working System as a check and balance
-  to ensure no improper payments are being made in coordination with its Shared Service
-  Financial Management Services provider, the Bureau of Fiscal Service, Administrative
-  Resources Center. Activity reports are reviewed monthly, averaging about 20 payments
-  worth over $300,000 for payment eligibility and against Do Not Pay databases to
-  ensure proper payments are being made. The Do Not Pay Working System validates OGE's
-  proper payment integrity. OGE has not been notified of any improper payments during
-  the reporting period, as such, it can be assured that the Do Not Pay Working System
-  has had a positive impact of reducing improper payments.
+detail_DNP_Discussion: OGE uses the Do Not Pay Working System to ensure no improper
+  payments are being made in coordination with its shared services financial management
+  services provider, the Bureau of Fiscal Service, Center for Financial Management
+  (CFM). Continuous monitoring against the DO NOT PAY List is achieved by daily submissions
+  of ALL active suppliers to the DNP system. Activity reports are reviewed monthly,
+  averaging about 13 payments worth over $320,000 for payment eligibility, all of
+  which are run against Do Not Pay databases to ensure proper payments are being made.
+  The Do Not Pay Working System validates OGE's proper payment integrity. OGE has
+  not been notified of any improper payments during the reporting period. As such,
+  OGE can confirm that the Do Not Pay Working System has had a positive impact of
+  reducing improper payments.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
 detail_Executive_Summary: The U.S. Office of Government Ethics (OGE) is compliant
-  with the Payment Integrity Information Act of 2019 (PIIA). OGE does not currently
-  have any programs with annual outlays over $10 million. Therefore, under PIAA, OGE
-  does not have any programs that are susceptible to significant improper payments.
-  OGE maintains proper payment integrity with multiple levels of pre-payment internal
-  controls and constant monitoring of payment activities.
-detail_OIG_Recommendations: null
+  with the Payment Integrity Information Act of 2019 (PIIA). OGE has one program (Salaries  and
+  Expenses) with annual outlays over $10 million that may be susceptible to improper
+  payments. OGE maintains proper payment integrity with multiple levels of pre-payment
+  internal controls both within the OGE management structure and in conjunction with
+  our financial management shared service provider, Treasury's Center for Financial
+  Management (CFM) conducting constant monitoring of all agency payment activities.
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
 detail_Recovery_Justifications_Audits: null
-detail_Recovery_Not_Cost_Effective_Justification: OGE has no programs that meet PIIA
-  criteria and no improper payments have been identified or made by OGE negating the
-  need to conduct recovery audits.  Based on the extensive internal controls both
-  at OGE and our shared service provider along with the small number of payments and
-  small value of payments made, OGE has determined that it is neither needed nor cost
-  effective to conduct recovery audits for its program.
+detail_Recovery_Not_Cost_Effective_Justification: OGE has made no improper payments
+  during the reporting period, and none were identified. Therefore, recovery audits
+  were not necessary. Given the extensive internal controls maintained by OGE and
+  its shared service financial management provider (BFS, CFM), as well as the limited
+  number and relatively low value of payments processed, OGE determined that conducting
+  recovery audits would not be necessary or cost-effective for its program.
 detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/OGE.html

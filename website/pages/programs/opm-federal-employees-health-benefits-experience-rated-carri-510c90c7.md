@@ -245,7 +245,7 @@ Data_By_Year:
     obtaining payment integrity information, establish a baseline, and, if necessary,
     a reduction target.'
   IP_Unknown_Target_Rate: 0.0014
-  Improper_Payments_Rate: 0.10620610450000001
+  Improper_Payments_Rate: 0.1062061
   Insufficient_Documentation_to_Determine: 23.44
   Margin_of_Error: '2.5'
   Non_Monetary_Loss_Amount: '44.482'
@@ -321,21 +321,235 @@ Data_By_Year:
     Failure_to_Access_Data: 18.361
     Inability_to_Access_Data: 7.582
     Underpayments_Amount: '26.297'
+- Agency_Needs_Satisfied: HI has continued to adjust workloads and priorities for
+    staff to maintain mission critical operations while operating with fewer resources.
+    HI has strengthened its contracts with carriers regarding identification and recovery
+    of overpayments outside the statistical sampling for PIIA Reporting. As additional
+    information becomes available and new oversight activities begin, HI will evaluate
+    the human capital requirements and information systems necessary to ensure the
+    costs of reducing and recovering IPs do not exceed the amounts prevented or recovered.
+    HI continues to leverage technology to streamline processes, improve precision,
+    and further develop in-house expertise necessary to stay in compliance with PIIA,
+    while minimizing amounts paid to outside contractors. OPM plans to continue these
+    efforts and to leverage lessons learned in developing and implementing its Sampling
+    and Estimation Methodology Plan to minimize IPs and maximize program oversight.
+    As potential improvements are identified, the costs and resources required to
+    implement changes to achieve those improvements will be evaluated to determine
+    whether costs associated with preventing and recovering IPs would exceed the value
+    of the improper payments prevented and recovered.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: 'HI requires all Carriers
+    who have identified and reported IPs and UPs to develop corrective action plans
+    designed to correct the causes of improper and unknown payments and prevent future
+    improper and unknown payments. Future reports from Carriers must include updates
+    on prior years’ findings. This is the second year HI has been able to generate
+    statistically valid data for the Experience-Rated Carriers. HI is working to establish
+    a baseline as well as to evaluate the efficacy of Carriers’ corrective action
+    plans. HI will monitor future reports from Carriers, require Carriers to use standardized
+    corrective action plan formats, and monitor Carriers’ improper payment rates year-over-year
+    to evaluate whether Carriers’ corrective actions are adequate and having the appropriate
+    impact on improper and unknown payments.
+
+
+    In a review of the FY2025 Corrective Action Plans, HI noted many instances where
+    Carriers either planned or have taken actions to implement policy changes or trainings
+    to mitigate or eliminate future IPs and UPs based on their root cause analyses.
+    Carriers have reported corrections and recoveries of numerous specific overpayments
+    identified in the sampling and testing.'
+  Corrective_Actions_Appropriateness: 'All of the improper payments identified and
+    reported by the ER Activity are outside the direct control of OPM. However, OPM
+    requires Carriers who have identified and reported IPs and UPs to develop corrective
+    action plans (CAPs) designed to correct the causes of improper and unknown payments
+    and prevent future improper and unknown payments. Carriers are responsible for
+    implementing, monitoring, and evaluating their corrective action plan’s effectiveness,
+    with assistance and oversight from OPM. Carriers are required to take transaction-level
+    corrective actions to address identified IPs, including reprocessing claims, issuing
+    additional payments for underpaid claims, recovering or refunding overpayments,
+    crediting amounts to the applicable program, and recording correcting journal
+    entries or administrative-expense true-ups. These actions address the immediate
+    financial impact of pricing errors, benefit-adjudication errors, administrative
+    allocation issues, and other individual findings. Carriers are also expected to
+    implement broader process and system changes intended to prevent recurrence if
+    taking those actions is expected to result in cost savings to the program. Corrective
+    actions for UPs focus primarily on documentation availability and contract management.
+
+
+    Most corrective actions identified by Carriers have already been taken, but some
+    have completion dates in the future. Carriers are required to report on prior
+    years’ findings annually. OPM will monitor future reports from carriers to identify
+    whether the CAPs have been effective in reducing improper and unknown payments.'
+  Corrective_Actions_Proportion: 'Carriers are required to identify the root cause
+    type for all identified improper payments. Corrective action plans also identify
+    actions either planned or taken to prevent repeated occurrence of the causes of
+    IPs and UPs. OPM does not require Carriers to pursue recoveries for identified
+    IPs when the cost of pursuing those recoveries will exceed the value of the funds
+    recovered.
+
+
+    Most of the corrective actions planned and taken by Carriers involve changes in
+    processes and training directed at the root causes of the IPs and UPs. The types
+    of root causes typically included failure to access data, inability to determine
+    if the payment was proper and failing to meet statutory requirements. Corrective
+    actions typically include automation, behavioral/psychological influences, and
+    auditing to identify and correct errors. The value of process changes and training
+    which is directed at the root causes can be estimated by projecting the savings
+    to the program similar to how the projected improper payment is estimated. For
+    example, an individual overpayment of $25 may result in a statistical projection
+    of over $140,000 in overpayments for a carrier in a year. A process change that
+    successfully prevents future overpayments from the same root cause would save
+    approximately $140,000 the following year, and in subsequent years. Carriers are
+    expected to use this type of analysis to ensure that the level of corrective action
+    proportionate to the savings anticipated to be realized.'
+  End_Date: 12/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: 'OPM is committed to effective oversight and administration
+    of all its activities. The structure of the Experience-Rated Activity is one in
+    which the individual Carriers bear the risk of claims, not the Federal Government.
+    This structure serves dual purposes of mitigating risk to the government and incentivizing
+    Carriers to minimize improper payments. In addition, OPM requires Carriers to
+    proactively identify erroneous payments through robust internal controls and statistically
+    valid reviews. Those requirements are in addition to the statistically valid sampling
+    and testing the Experience-Rated Activity requires of Carriers to provide the
+    data necessary to produce a statistically valid IP estimate. Additionally, OPM
+    requires Carriers to take prompt and diligent actions to recover erroneous payments
+    and to report on the average time between the discovery of an erroneous payment
+    and the initiation of recovery efforts for the erroneous payment. Failure of Carriers
+    to act timely to recover erroneous payments will negatively impact their performance
+    assessment scores and may result in charges to the program being disallowed. Carriers’
+    failure to comply with contract requirements and respond to OPM inquiries can
+    also impact Carriers’ performance assessments, which impacts the Carriers’ service
+    fees.
+
+
+    OPM is working to establish a baseline and is on track to continue the process
+    for obtaining statistically valid IP estimates for the Experience-Rated Activity.
+    Since baseline data is not available, OPM’s reduction target for FY2027 has been
+    established by determining what the ER Carrier Activity IP and UP rate would have
+    been if all carriers had reported the results of sampling and testing. The Contracting
+    Office and Payment Integrity Team intend to work with the Carrier to ensure that
+    required sampling, testing, and reporting are completed. If the Carrier is not
+    compliant next year, HI will consider additional actions with respect to the Carrier.
+    Additionally, if the reduction target is not met, HI will evaluate whether it
+    has sufficient information to establish a baseline. If so, OPM will establish
+    a baseline, and evaluate the data collected to identify any program wide changes
+    or carrier specific changes that may reduce improper and unknown payments and
+    establish a reduction target that is both aggressive and realistic given the practical
+    limitations of the payment systems.'
+  IP_Unknown_Target_Rate: 0.0029
+  Improper_Payments_Rate: 0.24315799770000002
+  Insufficient_Documentation_to_Determine: 130.249
+  Margin_of_Error: '2.5'
+  Non_Monetary_Loss_Amount: '95.2696'
+  Outlays: 71370.628
+  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app3]Training, [app4]Change
+    Process, [app6]Audit'
+  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp4]Change Process, [atp6]Audit'
+  Payment_Accuracy_Rate: 99.57434535955042
+  Program_Design_or_Structural_Issue: 32.152
+  Resources_Requested_For_IP: OPM’s budget submission did not request specific resources
+    to establish and maintain payment integrity for the Experience-Rated Activity.
+    OPM has numerous mechanisms in place to prevent and recover improper payments.
+    OPM will use existing personnel and resources to analyze the data being collected
+    to establish a baseline, identify a tolerable rate and maintain or improve the
+    improper payment and unknown payment rate and therefore has not made a budget
+    request.
+  Start_Date: 10/2024
+  Technical_IP_Actions_Planned: '[app3]Training, [app4]Change Process'
+  Technical_IP_Actions_Taken: '[atp3]Training, [atp4]Change Process, [atp6]Audit'
+  Technical_IP_Amount: '32.152'
+  Underpayment_Mitigations_Planned: '[app1]Automation, [app3]Training, [app4]Change
+    Process, [app6]Audit'
+  Underpayment_Mitigations_Taken: '[atp3]Training, [atp4]Change Process, [atp6]Audit'
+  Unknown_Mitigations_Planned: '[app3]Training,[app4]Change Process'
+  Unknown_Mitigations_Taken: '[atp1]Automation,[atp3]Training,[atp4]Change Process,[atp6]Audit'
+  Unknown_Payments_Rate: 0.18249664273656105
+  Year: 2026
+  detail_IP_Causes: 'Carriers who reported improper payments and unknown payments
+    in the sampling and testing were required to identify a root cause type for each
+    improper or unknown payment identified. The most common root cause category of
+    improper payments was Failure to Access Data or Information. This was the cause
+    of approximately 46.3% of the projected IP and UP. The second most common root
+    cause type was Unable to Determine whether Proper or Improper, resulting in UP.
+    This root cause type accounted for approximately 42.9% of projected IP and UP.
+    This category was impacted directly by one Carrier that was unable to complete
+    sampling and testing, which resulted in 100% of that carrier’s outlays being determined
+    to be unknown payments. The third most common root cause type was Statutory Requirements
+    of Program Were Not Met, which was the cause of approximately 10.6% of the projected
+    IP and UP. The remaining root cause type was Inability to Access Data or Information,
+    which accounted for approximately 0.2% of all projected IP and UP.
+
+
+    Carriers reported a variety of specific root causes for each of the root cause
+    types identified above. These include human errors, system errors, and recordkeeping
+    errors. Scenarios of human errors include improper application of Medicare Allowance
+    to members covered by Medicare, improper application of coordination of benefits,
+    and improper application of retroactive provider agreements. Scenarios of system
+    errors and recordkeeping errors include contract terms not being entered into
+    systems timely, records not being maintained, coordination of benefits being applied
+    improperly, issues arising from platform migration, identified required adjustments
+    not being performed, and allocation methodologies not being updated to account
+    for the PSHB Program.'
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.00012'
+  detail_Overpayments_Due_To_Failure: '77.56407'
+  detail_Overpayments_Due_To_Inability: '0.7096'
+  detail_Reduction_Target: '0.29'
+  eligibility_aggregated:
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  - Theme: Military Status
+    Theme_Description: The condition of being, or having been in the uniformed services
+  - Theme: Receiving Benefits from Other Sources
+    Theme_Description: Beneficiary or recipient is receiving benefits from an additional
+      source
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.00012
+    Failure_to_Access_Data: 77.56407
+    Inability_to_Access_Data: 0.7096
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '78.27379'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 63.0692
+    Inability_to_Access_Data: 0.0484
+    Underpayments_Amount: '63.1176'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2025]'
-Overpayment_Amounts: '[26.909]'
-Payment_Accuracy_Amounts: '[67124.469]'
+Improper_Payments_Data_Years: '[2025, 2026]'
+Overpayment_Amounts: '[26.909, 78.27379]'
+Payment_Accuracy_Amounts: '[67124.469, 71066.83561]'
 Phase_2_Program: 0
 Program_Name: Federal Employees Health Benefits - Experience Rated Carriers
 Scorecard_Links: []
-Technically_Improper_Amounts: '[18.185]'
-Underpayment_Amounts: '[26.297]'
-Unknown_Amounts: '[23.44]'
+Technically_Improper_Amounts: '[18.185, 32.152]'
+Underpayment_Amounts: '[26.297, 63.1176]'
+Unknown_Amounts: '[23.44, 130.249]'
 layout: program-specific
 permalink: program/opm-federal-employees-health-benefits-experience-rated-carri-510c90c7
 ---

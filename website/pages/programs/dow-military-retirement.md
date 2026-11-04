@@ -1,96 +1,7 @@
 ---
 Agency: DOW
-Agency_Name: Department of War
+Agency_Name: Department of Defense
 Data_By_Year:
-- Agency_Needs_Satisfied: "Internal Controls \nThe Department has internal controls\
-    \ in place to support the reduction of improper payments in the Military Retirement\
-    \ program to the levels the Department has targeted.  As part of the internal\
-    \ control framework for this program, the DFAS Director of R&A Pay has identified\
-    \ and documented known risks associated with the processes for providing pay services\
-    \ to the customers of the Military Retirement program.  Along with identifying\
-    \ these risks by process, the Director of R&A Pay instituted key controls and\
-    \ control activities over pre-review of payments and certifying officer legislation,\
-    \ and developed an internal post-payment review process to mitigate the documented\
-    \ risks.  The Director also tests the controls to ensure their effectiveness and\
-    \ documents the test results.  Moreover, the Military Retirement Fund received\
-    \ an unmodified audit opinion on its financial statements in FY 2020. \nHuman\
-    \ Capital\nCurrently, the Department has the human capital it needs to reduce\
-    \ improper payments in the Military Retirement program to the levels the Department\
-    \ has targeted.  In fact, a goal of the Director of R&A Pay is to reduce their\
-    \ end strength and associated labor dollars.  Part of the goal of the R&A reorganization\
-    \ effort is to create additional efficiencies and unify purpose among teams and\
-    \ across functions.  R&A Pay has positioned itself to support the prevention of\
-    \ improper payments with existing resources.\nInformation Systems and Other Infrastructure\
-    \ \nThe Department has the information systems and other infrastructure it needs\
-    \ to reduce improper payments in the Military Retirement program to the levels\
-    \ the Department has targeted.  Moreover, the Automated Disbursing System, the\
-    \ Centralized Disbursing System, and the Deployable Disbursing System, which are\
-    \ the primary disbursing systems for the Department, received an unmodified System\
-    \ and Organizational Control (SOC) 1 Type 2 report under Statement on Standards\
-    \ for Attestation Engagements (SSAE) No. 18 in FY 2021.  As technology advances,\
-    \ the Department continues to consider improving the accuracy and efficiency of\
-    \ Military Retirement through implementation of new retiree and annuitant pay\
-    \ systems and enhancements to existing systems.\n"
-  Confidence_Level: '>95%'
-  Corrective_Actions_Proportion: "In FY 2021, the Military Retirement program estimated\
-    \ improper and unknown payments decreased by $175.76 million, from $352.49 million\
-    \ in FY 2020 to $176.73 million in FY 2021.  \n"
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'No'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: true
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Improper_Payments_Rate: 0.15643463
-  Insufficient_Documentation_to_Determine: 98.49
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '0.24'
-  Non_Monetary_Loss_Amount: '3.59'
-  Outlays: 50014.5
-  Payment_Accuracy_Rate: 99.64664247368263
-  Program_Design_or_Structural_Issue: 0.05
-  Start_Date: 10/2019
-  Technical_IP_Amount: '0.05'
-  Unknown_Payments_Rate: 0.19692289236121524
-  Unknown_Why: The Military Retirement post pay review team could not locate the additional
-    Key Supporting Documentation timely enough to substantiate the validity of the
-    sampled payment within the allotted time for the PIIA compliance audit.
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 59.79
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '59.79'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 14.86
-    Overpayments_Outside_Control_Amount: '14.86'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 3.54
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '3.54'
 - Agency_Needs_Satisfied: "Internal Controls:\nThe Department has internal controls\
     \ in place to support the reduction of improper payments in the Military Retirement\
     \ program to the levels the Department has targeted.  As part of the internal\
@@ -506,17 +417,6 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.26
     Overpayments_Outside_Control_Amount: '0.26'
-    Overpayments_Outside_Control_Why: For the Department's Military Retirement Payment
-      Integrity program, the Retired and Annuitant (R&A) Operations Team has no control
-      over when they receive notification of a member’s death. There are controls
-      in place to try to prevent paying deceased members including monthly SSA death
-      match. It is still nearly impossible to prevent every payment to a deceased
-      member due to timing of death and method of notification. Significant progress
-      in lowering Monetary Loss outside of the Agency control was realized in FY 2023
-      through the corrective actions employed and the partnership with the Veterans
-      Affairs Administration. In FY 2022, there was a projected Monetary Loss outside
-      of the Agency control of $318.10 million; however, in FY 2023 that amount was
-      reduced down to $264 thousand.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -532,47 +432,47 @@ Data_By_Year:
     Theme_Description: The condition of being, or having been in the uniformed services
     Value: '44.230000'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023]'
-Overpayment_Amounts: '[74.65, 369.45, 75.49]'
-Payment_Accuracy_Amounts: '[49837.77, 51455.36, 58998.24]'
+Improper_Payments_Data_Years: '[2022, 2023]'
+Overpayment_Amounts: '[369.45, 75.49]'
+Payment_Accuracy_Amounts: '[51455.36, 58998.24]'
 Phase_2_Program: 0
 Program_Name: Military Retirement
 Scorecard_Links:
-- Link: assets/scorecards/Q1 2020/Military Retirement Getting Payments Right Scorecard
-    FY 2020 Q1.png
-  QuarterYear: Q1 2020
-- Link: assets/scorecards/Q3 2020/Military Retirement Getting Payments Right Scorecard
-    FY 2020 Q3.png
-  QuarterYear: Q3 2020
-- Link: assets/scorecards/Q4 2020/Military Retirement Getting Payments Right Scorecard
-    FY 2020 Q4.png
-  QuarterYear: Q4 2020
-- Link: assets/scorecards/Q1 2021/Military Retirement Payments Integrity Scorecard
-    FY 2021 Q1.pdf
-  QuarterYear: Q1 2021
-- Link: assets/scorecards/Q2 2021/Military Retirement Payments Integrity Scorecard
-    FY 2021 Q2.pdf
-  QuarterYear: Q2 2021
-- Link: assets/scorecards/Q3 2021/Military Retirement Payments Integrity Scorecard
-    FY 2021 Q3.pdf
-  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2023/Military Retirement.pdf
+  QuarterYear: Q4 2023
+- Link: assets/scorecards/Q3 2023/Military Retirement.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q2 2023/Military Retirement.pdf
+  QuarterYear: Q2 2023
 - Link: assets/scorecards/Q4 2021/Military Retirement Payments Integrity Scorecard
     FY 2021 Q4.pdf
   QuarterYear: Q4 2021
-- Link: assets/scorecards/Q2 2023/Military Retirement.pdf
-  QuarterYear: Q2 2023
-- Link: assets/scorecards/Q3 2023/Military Retirement.pdf
-  QuarterYear: Q3 2023
-- Link: assets/scorecards/Q4 2023/Military Retirement.pdf
-  QuarterYear: Q4 2023
-Technically_Improper_Amounts: '[0.05, 1.3, 3.52]'
-Underpayment_Amounts: '[3.54, 5.75, 44.23]'
-Unknown_Amounts: '[98.49, 42.33, 23.12]'
+- Link: assets/scorecards/Q3 2021/Military Retirement Payments Integrity Scorecard
+    FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q2 2021/Military Retirement Payments Integrity Scorecard
+    FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q1 2021/Military Retirement Payments Integrity Scorecard
+    FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q4 2020/Military Retirement Getting Payments Right Scorecard
+    FY 2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q3 2020/Military Retirement Getting Payments Right Scorecard
+    FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q1 2020/Military Retirement Getting Payments Right Scorecard
+    FY 2020 Q1.png
+  QuarterYear: Q1 2020
+Technically_Improper_Amounts: '[1.3, 3.52]'
+Underpayment_Amounts: '[5.75, 44.23]'
+Unknown_Amounts: '[42.33, 23.12]'
 layout: program-specific
 permalink: program/dow-military-retirement
 ---

@@ -2,77 +2,6 @@
 Agency: SBA
 Agency_Name: Small Business Administration
 Data_By_Year:
-- Confidence_Level: '>95%'
-  Corrective_Actions_Proportion: Corrective Actions are structured based on the Root
-    Cause of the Improper Payment.  Root causes are shared with management throughout
-    the review cycle.  Corrective Actions, such as External training, are formulated
-    to address root causes of improper payments.  Collaboration and communication
-    with other offices within SBA about improper payments focuses on specific loans,
-    lenders, and root causes of the improper payment.
-  End_Date: 03/2021
-  Future_Outlook_Has_Baseline: 'No'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Within_Failure_to_Access_Data: true
-  Hide_Overpayments_Within_Inability_to_Access_Data: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: true
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: true
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Failure_to_Access_Data: true
-  Hide_Underpayments_Inability_to_Access_Data: true
-  Improper_Payments_Rate: 3.06891086
-  Insufficient_Documentation_to_Determine: 31.47027
-  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
-  Margin_of_Error: '3.0'
-  Non_Monetary_Loss_Amount: '195.090496'
-  Outlays: 6356.99454
-  Payment_Accuracy_Rate: 96.43603963202396
-  Program_Design_or_Structural_Issue: 195.090496
-  Start_Date: 04/2020
-  Technical_IP_Amount: '195.090496'
-  Unknown_Payments_Rate: 0.4950495049504951
-  Unknown_Why: Based on the data and information available at the time of review,
-    SBA was unable to determine whether the payment was proper or improper.
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '0.0'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.0'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: The agency has what is needed with respect to internal controls,
     human capital and information system and other infrastructure to reduce improper
     payments and unknown payments to the tolerable rate.
@@ -587,7 +516,7 @@ Data_By_Year:
     \ senior management has established and maintained sufficient and appropriate\
     \ control environment."
   IP_Unknown_Target_Rate: 0.0456
-  Improper_Payments_Rate: 4.5780996073999995
+  Improper_Payments_Rate: 4.57809961
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '338.415'
@@ -641,39 +570,204 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
+- Agency_Needs_Satisfied: 'The agency has the internal controls, human capital, information
+    systems, and other infrastructure necessary to reduce improper payments and unknown
+    payments in the 504 Loan Guaranty Approval Program to a level at which further
+    expenditures to reduce improper payments would exceed the benefits of additional
+    reductions. Payment integrity risks are mitigated through pre-disbursement reviews,
+    quality control oversight, documentation validation, and corrective actions taken
+    at the loan level to ensure compliance with statutory, regulatory, and SBA Loan
+    Program requirements.
+
+
+    Based on the technical nature of the improper payments identified and the fact
+    that deficiencies are generally detected and resolved prior to disbursement, existing
+    controls are appropriate and proportionate to the program’s risk profile. The
+    agency will continue to monitor risk trends and adjust controls as necessary to
+    maintain effective oversight while ensuring that payment integrity efforts remain
+    cost-effective.'
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: It is important to note
+    that all Improper Payments identified in the 504 Loan Approvals Program are classified
+    as Technical Improper Payments. The agency’s corrective action plan focuses on
+    ensuring that deficiencies leading to Technical Improper Payments and Unknown
+    Payments are identified, corrected, and prevented. The SOP governing 504 Loan
+    Approvals was recently implemented and has updated and published all related job
+    aids and resources. Prior to the new SOP becoming effective, the SBA provided
+    lender, internal, and external training on the new policy, with additional targeted
+    training planned based on the findings identified through PIIA reviews. OFPO provides
+    feedback to lenders and employees, obtains additional documentation from lenders
+    when necessary, and will recapture funds when improper payments are confirmed.
+    Significant lender-level deficiencies—based on severity or recurring patterns—are
+    shared with the Office of Credit Risk Management (OCRM) for consideration in its
+    risk-based review process and with the Office of Financial Assistance (OFA) to
+    support policy refinement. These corrective actions together ensure that the agency’s
+    response is proportional to the underlying root causes and supports measurable
+    reductions in Improper Payments and Unknown Payments.
+  Corrective_Actions_Appropriateness: "QC provided feedback to the Lender/ CDCs involved\
+    \ as well as to the 504 Loan approval center on all PIIA findings.   In addition,\
+    \ continual training is conducted by SBA and the 504 Loan approval center to external\
+    \ and internal parties involved in loan decisions.  Plans for improvement include\
+    \ the following: \n• Collaborating with the Office of Credit Risk Management (OCRM)\
+    \ to recommend that specific lender deficiencies be monitored and incorporated\
+    \ into Risk Based Reviews; \n• Collaborating with the Office of Financial Assistance\
+    \ (OFA) to inform the office of deficiencies identified for potential incorporation\
+    \ into policy, regulatory, or standard operating procedure rewrite or update;\
+    \ and \n• Conducting external training for lenders to ensure that appropriate\
+    \ documentation is obtained and analyzed prior to loan approval that policy requirements\
+    \ are met. \nThe corrective actions are currently in process. The SBA will continue\
+    \ to share the loan level and lender deficiencies identified during the reviews\
+    \ with the OFA and the OCRM. The SBA will also continue its efforts to ensure\
+    \ that CDC deficiencies are monitored."
+  Corrective_Actions_Proportion: The agency’s corrective actions are designed to address
+    the causes of Improper Payments and Unknown Payments in proportion to the severity
+    and frequency of the associated root causes. The Office of Financial Program Operations
+    (OFPO) shares targeted loan-level deficiencies with the Office of Credit Risk
+    Management (OCRM) and the Office of Financial Assistance (OFA) when issues reflect
+    significant severity or recurring lender-specific trends. These referrals allow
+    OCRM to consider the deficiencies in its risk-based review process and enable
+    OFA to determine whether policy updates or clarifications are warranted. The SOP
+    for 504 approvals was updated and became effective this year with all related
+    job aids and resources updated and published to reflect current requirements.
+    OFPO also provides targeted lender training and internal staff training to reinforce
+    expectations and reduce common error types. Quality Control Specialists monitor
+    each deficiency from identification through completion of corrective actions and
+    obtain additional documentation from lenders when necessary. Where appropriate,
+    the SBA will cancel the loan guaranty. Collectively, these efforts ensure corrective
+    measures are commensurate with risk and support continued reductions in Improper
+    Payments and Unknown Payments. All Improper Payments were considered Technically
+    Improper, and were resolved through obtaining additional documentation, loan modification,
+    or cancellation of the loan authorization.
+  End_Date: 03/2026
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Accountability_Description: "As a means to reduce and/or eliminate the occurrence\
+    \ of improper payments, a Corrective Action Plan has been developed for the program.\
+    \ \nIn addition, managers are held accountable for meeting the program's improper\
+    \ payment rate and unknown payment rate reductions targets. These targets are\
+    \ incorporated into managers' annual performance appraisal goals. Quality Control\
+    \ Specialist for 504 approvals monitors errors from identification through completion\
+    \ of the corrective action. Senior management provides oversight to ensure program\
+    \ milestones are met. Senior management is responsible for maintaining sufficient\
+    \ internal controls to prevent improper payments and developing the Quality Control/Improvement\
+    \ Program to determine whether the loan is proper or improper payment. In addition,\
+    \ senior management has established and maintained sufficient and appropriate\
+    \ control environment."
+  IP_Unknown_Target_Rate: 0.0269
+  Improper_Payments_Rate: 2.1713367692
+  Insufficient_Documentation_to_Determine: 39.42
+  Margin_of_Error: '3.0'
+  Non_Monetary_Loss_Amount: '164.35'
+  Outlays: 7569.07
+  Payment_Accuracy_Rate: 97.30785948603989
+  Program_Design_or_Structural_Issue: 164.35
+  Resources_Requested_For_IP: In the most recent budget submission, the agency requested
+    to maintain current resources  to support workforce capacity and operational activities
+    required to ensure payment integrity of the 504 Loan Approval process during testing,
+    recoupment, and closeout. These resources are intended to support staff responsible
+    for post-504 loan approval reviews, improper payment identification, recovery
+    efforts, and closeout activities. Despite overall resource constraints in fiscal
+    year 2026, the program prioritized available staffing and funding to sustain payment
+    integrity functions and ensure compliance through the recoupment and closeout
+    phase.
+  Start_Date: 04/2025
+  Technical_IP_Actions_Planned: '[app3]Training'
+  Technical_IP_Actions_Taken: '[atp3]Training'
+  Technical_IP_Amount: '164.35'
+  Unknown_Mitigations_Planned: '[app3]Training'
+  Unknown_Mitigations_Taken: '[atp3]Training'
+  Unknown_Payments_Rate: 0.5208037447136835
+  Year: 2026
+  detail_IP_Causes: 'The predominant causes for 504 Loan Approval Improper Payments
+    and Unknown payments were inadequate CDC due diligence and documentation. The
+    primary Root Causes involved include "Job creation", "Collateral", "Use of Proceeds".   1)
+    Job creation:  CDCs did not always demonstrate that projects met the 504 loan
+    program''s economic development requirements. Generally, projects must create
+    or retain one job for every $90,000 of debenture financing, or every $140,000
+    for small manufacturers and Energy Public Policy Goal projects.  In one case during
+    the PIIA review, SBA found that an approved project did not create any job opportunities
+    outside of the owner''s involvement.  2) Collateral: CDCs did not adequately complete
+    or respond to required environmental due diligence for real property collateral.  In
+    one case during the PIIA review, the Lender/ CDC was largely unresponsive to SBA''s
+    Environmental Team requests for additional information and investigation regarding
+    potential contamination.  In this instance, the CDC chose to cancel the loan authorization
+    during the PIIA review.  3) Use of Proceeds:  CDCs did not always ensure that
+    504 proceeds complied with program requirements.  In one change of ownership transaction,
+    the acquisition cost exceeded the allowable amount, limited to the lower of the
+    appraised ''as-is'' value or the actual purchase price, and the CDC submitted
+    a loan modification to resolve the issue.  In another case, a debt refinance was
+    ineligible because a significant portion of the existing debt had not been used
+    to acquire Eligible Fixed Assets.'
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: null
+  detail_Overpayments_Due_To_Failure: null
+  detail_Overpayments_Due_To_Inability: null
+  detail_Reduction_Target: '2.69'
+  eligibility_aggregated:
+  - Theme: Other
+    Theme_Description: QC provided feedback to the Lender/ CDCs involved as well as
+      to the 504 Loan approval center on all PIIA findings.
+  overpayments:
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Underpayments_Amount: '0.0'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[0, 198.962331, 0, 0, 0]'
-Payment_Accuracy_Amounts: '[6130.433774, 9819.549186, 6925.825512, 6042.0, 7053.626]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[198.962331, 0, 0, 0, 0]'
+Payment_Accuracy_Amounts: '[9819.549186, 6925.825512, 6042.0, 7053.626, 7365.299999999999]'
 Phase_2_Program: 0
 Program_Name: 504 Certified Development Loans Approvals
 Scorecard_Links:
-- Link: assets/scorecards/Q1 2021/504 Certified Development Company Guaranty Approvals
-    Payments Integrity Scorecard FY 2021 Q1.pdf
-  QuarterYear: Q1 2021
-- Link: assets/scorecards/Q2 2021/504 Certified Development Company Guaranty Approvals
-    Payments Integrity Scorecard FY 2021 Q2.pdf
-  QuarterYear: Q2 2021
-- Link: assets/scorecards/Q3 2021/504 Certified Development Company Guaranty Approvals
-    Payments Integrity Scorecard FY 2021 Q3.pdf
-  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2023/504 Certified Development Loans Approvals.pdf
+  QuarterYear: Q4 2023
+- Link: assets/scorecards/Q3 2023/504 Certified Development Loans Approvals.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q2 2023/504 Certified Development Loans Approvals.pdf
+  QuarterYear: Q2 2023
 - Link: assets/scorecards/Q4 2021/504 Certified Development Company Guaranty Approvals
     Payments Integrity Scorecard FY 2021 Q4.pdf
   QuarterYear: Q4 2021
-- Link: assets/scorecards/Q2 2023/504 Certified Development Loans Approvals.pdf
-  QuarterYear: Q2 2023
-- Link: assets/scorecards/Q3 2023/504 Certified Development Loans Approvals.pdf
-  QuarterYear: Q3 2023
-- Link: assets/scorecards/Q4 2023/504 Certified Development Loans Approvals.pdf
-  QuarterYear: Q4 2023
-Technically_Improper_Amounts: '[195.090496, 0, 196.703368, 236.73, 338.415]'
+- Link: assets/scorecards/Q3 2021/504 Certified Development Company Guaranty Approvals
+    Payments Integrity Scorecard FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q2 2021/504 Certified Development Company Guaranty Approvals
+    Payments Integrity Scorecard FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q1 2021/504 Certified Development Company Guaranty Approvals
+    Payments Integrity Scorecard FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+Technically_Improper_Amounts: '[0, 196.703368, 236.73, 338.415, 164.35]'
 Underpayment_Amounts: '[0, 0, 0, 0, 0]'
-Unknown_Amounts: '[31.47027, 2.278483, 27.71412, 50.43, 0]'
+Unknown_Amounts: '[2.278483, 27.71412, 50.43, 0, 39.42]'
 fpi_link: https://fpi.omb.gov/program/59.041
 layout: program-specific
 permalink: program/sba-504-certified-development-loans-approvals

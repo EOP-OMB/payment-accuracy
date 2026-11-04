@@ -2,116 +2,6 @@
 Agency: DOL
 Agency_Name: Department of Labor
 Data_By_Year:
-- Agency_Needs_Satisfied: "Employment and Training Administration (ETA) requests administrative\
-    \ funding in its budgetary submission to Congress.  This funding varies based\
-    \ on the projected economic conditions in the country and/or states.\n\nAs in\
-    \ prior year reporting, overpayments reported for July 2020 through June 2021\
-    \ for the regular Unemployment Insurance (UI) program do not represent a monetary\
-    \ loss to the federal government. The benefits paid under the regular UI program\
-    \ are funded by state-assessed and state-collected taxes and are not federal tax\
-    \ dollars.  The UI program is administered by state agencies, which are required\
-    \ by statute to pay benefits when due. Payments were initially made to the right\
-    \ recipients for the right amounts. Subsequent information, which was not available\
-    \ to the agency at the time of the payment, identified an issue resulting in an\
-    \ overpayment. All overpayments recovered by the state agencies are returned to\
-    \ the state UI Trust Funds for the payment of future UI benefits, and are not\
-    \ available for any other federal purpose.  Additionally, these monetary losses\
-    \ are outside the agency's control.  \n\nAs in prior year reporting, estimated\
-    \ overpayments reported for July 2020 through June 2021 for Other Reason (1) include\
-    \ those payments which are required by statute to pay benefits “when due” under\
-    \ the Social Security Act section 300 and Supreme Court Decision Java vs California.\
-    \ Reported IP were initially made to the right recipients, for the right amounts,\
-    \ at the time required by law.  Subsequent information, which was not available\
-    \ to the state agencies at the time of the payment, identified an issue resulting\
-    \ in an underpayment or overpayment.  However, please note that all overpayments\
-    \ recovered by the state agencies must be returned to the state Unemployment Trust\
-    \ Fund for the payment of future UI benefits, and are not available for payment\
-    \ integrity or any other Federal purpose."
-  Confidence_Level: '>95%'
-  Corrective_Actions_Proportion: 'ETA has developed numerous strategies to assist
-    the states in reducing their improper payment rates consistent with the requirements
-    of federal and state law.  Additional funding has been provided to the states
-    in implementing the different strategies.
-
-
-    Through the American Rescue Plan Act, DOL is providing grants to states to fund
-    fraud prevention efforts, including identity versification, to improve equity,
-    and to fund recommendations to improve state operations identified through the
-    Tiger Team initiative.  DOL created the Tiger Team initiative to provide states
-    with multi-disciplined experts to help identify solutions to challenges included
-    in the area of fraud.  DOL also has executed blanket purchase agreements with
-    three identity verification providers that states can use to access such services
-    and issued guidance and conditioned grants to states to require the sharing of
-    data with DOL''s OIG.  DOL has started UI IT modernization pilots to develop modules
-    in key areas for states to use in modernizing their IT operations.'
-  End_Date: 06/2021
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  IP_Current_Year_Plus_1_Amount: 6159.1
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.17
-  Improper_Payments_Rate: 18.71400115
-  Insufficient_Documentation_to_Determine: 864.56
-  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
-  Margin_of_Error: '1.0'
-  Non_Monetary_Loss_Amount: '3440.0'
-  Outlays: 412964.6
-  Outlays_Current_Year_Plus_1_Amount: 36230
-  Payment_Accuracy_Rate: 81.07664434191211
-  Program_Design_or_Structural_Issue: 0.0
-  Resources_Requested_For_IP: Employment and Training Administration (ETA) requests
-    administrative funding in its budgetary submission to Congress.  This funding
-    varies based on the projected economic conditions in the country and/or states.
-  Start_Date: 07/2020
-  Technical_IP_Amount: '0.0'
-  Unknown_Curent_Year_Plus_1_Amount: 0
-  Unknown_Payments_Rate: 0.20935450641531989
-  Unknown_Why: "For the UI program, payments are considered unknown when the program\
-    \ cannot discern whether a payment is proper or improper as a result of insufficient\
-    \ or lack of documentation, or is still going through the review of a payment\
-    \ at the time that the program must finish their sampling and report its results.\
-    \ \n\nFor this data call the Unknown amount is estimated for the BAM sample cases\
-    \ that were not completed as of the AFR and OMB Data Call reporting deadlines.\
-    \ The Unknown amount is a weighted estimate of the population total based on the\
-    \ amount of UI benefits for the incomplete BAM sample payments."
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 27479.64
-    Financial: 0.0
-    Inability_to_Access_Data: 1829.07
-    Overpayments_Within_Control_Amount: '29308.71'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 44533.49
-    Overpayments_Outside_Control_Amount: '44533.49'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 638.53
-    Financial: 0.0
-    Inability_to_Access_Data: 2801.47
-    Underpayments_Amount: '3440.0'
 - Confidence_Level: 95% to <100%
   End_Date: 06/2022
   Hide_Improper_Payment_Estimates_Doughnut_Chart: false
@@ -1108,29 +998,6 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 3084.41
     Overpayments_Outside_Control_Amount: '3084.41'
-    Overpayments_Outside_Control_Why: 'The UI program is a unique federal-state partnership
-      based on Federal law but administered through individual state laws by 53 state
-      UI agencies. States vary in their information technology systems, level of automation,
-      staffing capacity, and methods and strategies for prevention, detection, and
-      recovery of improper payments and fraud. Additionally, no two states'' written
-      laws, regulations, and policies specifying eligibility conditions are identical,
-      and differences in these conditions influence the potential for error and improper
-      payments. Two states could have identical laws but may interpret them quite
-      differently. States with stringent or complex provisions tend to have higher
-      improper payment rates than
-
-      those with simpler, more straightforward provisions.
-
-
-      Furthermore, Section 303(a)(1) of the Social Security Act requires UI payments
-      to be made “when due” and, once a person is determined eligible, this law  prohibits
-      states from suspending payments until an official determination has been made
-      that payments are no longer due. This statutory factor requires states to make
-      payments that may later be determined as improper as a result of obtaining new
-      information. For good policy reasons, states must continue paying benefits until
-      due process occurs (notice and an opportunity for a hearing is provided before
-      benefit payments are stopped). This UI program structural feature is a primary
-      driver for top root causes of UI improper payments.'
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -1861,28 +1728,6 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 3933.39
     Overpayments_Outside_Control_Amount: '3933.39'
-    Overpayments_Outside_Control_Why: "The UI program is a unique federal-state partnership\
-      \ based on Federal law but administered through individual state laws by 53\
-      \ state UI agencies. States vary in their information technology (IT) systems,\
-      \ level of automation, staffing capacity, and methods and strategies for prevention,\
-      \ detection, and recovery of improper payments and fraud. Additionally, no two\
-      \ states' written laws, regulations, and policies specifying eligibility conditions\
-      \ are identical, and differences in these conditions influence the potential\
-      \ for error and improper payments. Two states could have identical laws but\
-      \ may interpret them quite differently. States with stringent or complex provisions\
-      \ tend to have higher improper payment rates than those with simpler, more straightforward\
-      \ provisions.\n\nFurthermore, Section 303(a)(1) of the Social Security Act (SSA)\
-      \ requires UI payments to be made “when due” and, once a person is determined\
-      \ eligible, this law prohibits states from suspending payments until an official\
-      \ determination has been made that payments are no longer due. This statutory\
-      \ factor requires states to make payments that may later be determined as improper\
-      \ as a result of obtaining new information. For good policy reasons, states\
-      \ must continue paying benefits until due process occurs (notice and an opportunity\
-      \ for a hearing is provided before benefit payments are stopped). This UI program\
-      \ structural feature is a primary driver for top root causes of UI improper\
-      \ payments.  Moreover, unlike many other benefit programs, eligibility for UI\
-      \ benefits is determined on a weekly basis.  There are more opportunities to\
-      \ make errors and for improper payments to be created.  \n"
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -2179,7 +2024,7 @@ Data_By_Year:
     \ antifraud strategies to support states in reducing improper payments and mitigating\
     \ fraud risks.\n"
   IP_Unknown_Target_Rate: 0.0999
-  Improper_Payments_Rate: 13.1440012293
+  Improper_Payments_Rate: 13.144001229999999
   Insufficient_Documentation_to_Determine: 646.85
   Margin_of_Error: '0.87'
   Non_Monetary_Loss_Amount: '187.64'
@@ -2364,6 +2209,356 @@ Data_By_Year:
     Failure_to_Access_Data: 47.05
     Inability_to_Access_Data: 140.59
     Underpayments_Amount: '187.64'
+- Agency_Needs_Satisfied: "IPs and unknown payments are driven by the processes and\
+    \ performance of 53 different SWAs. Factors that prevent states from reducing\
+    \ IPs include variation in state organizational structures and infrastructure\
+    \ such as outdated IT systems, loss of experienced staff and constraints in onboarding\
+    \ new staff, as well as complex and/or stringent state-specific UI laws for eligibility\
+    \ requirements such as work search activities. The reduction and/or flat-funding\
+    \ of Federal administrative grants to states is also a significant factor that\
+    \ inhibits state progress towards reducing the improper payment rate.\n\nDOL is\
+    \ constrained in its ability to hold states accountable for intermediary progress.\
+    \ Specifically, if DOL determines a state is out of conformity and/or substantial\
+    \ compliance with federal law, it can withhold certification of a state's law\
+    \ after notice and hearing. This results in the loss of Federal unemployment tax\
+    \ credits for employers in the state and/or the state's ability to receive administrative\
+    \ grants to operate the program.  Additionally, Federal law does not provide DOL\
+    \ with the authority to prescribe beyond a certain level how states administer\
+    \ the program. \n"
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: 'DOL applies Government
+    Accountability Office’s (GAO) Fraud Risk Framework to UI integrity work through
+    a continuous cycle: assessing risks via its UI Fraud Risk Profile, tracking mitigation
+    strategies through its UI Integrity Strategic Plan, and evaluating outcomes to
+    refine approaches. When a strategy proves effective, ETA reassesses risk ratings
+    and reprioritizes efforts toward remaining high risks; when ineffective, it develops
+    new controls. This cycle repeats until risks fall within acceptable tolerance
+    levels.
+
+
+    Since the UI program is primarily funded by employers through state and Federal
+    tax liability and administered through a Federal-state partnership, both DOL and
+    state UI agencies have a vested interest in ensuring UI program integrity and
+    are jointly responsible for managing the process of assessing and mitigating fraud
+    risks to the UI program, reducing IPs, and prioritizing payment integrity activities.
+    ETA provides funding, monitors state performance, issues guidance, and offers
+    training and resources, but states alone determine eligibility and are responsible
+    for directly preventing, detecting, and recovering IPs. ETA requires states to
+    report, in their IAP submission, their state-specific UI antifraud strategy, which
+    includes state actions to evaluate UI fraud risks and implement and maintain sufficient
+    controls to effectively prevent fraud and reduce IPs. States are also required
+    to report on how they are addressing the model national UI standards, efforts
+    to target the root cause of IPs, and actions taken to recover overpayments.
+
+
+    Reducing the UI IP rate below 10 percent remains a DOL priority. While ETA''s
+    FY 2026 antifraud and IP reduction strategies have proven adequate, as identified
+    by a continued year-over-year decline in the IP rate since 2021, the rate remains
+    above the 10% threshold. ETA remains committed to further risk assessment and
+    strategy implementation to bring the program into compliance with PIIA.
+
+    '
+  Corrective_Actions_Appropriateness: "Since February 2025, the Department of Labor's\
+    \ (DOL) Employment and Training Administration (ETA) has approached strengthening\
+    \ Unemployment Insurance (UI) program integrity and reducing IPs through a multi-layered\
+    \ strategy emphasizing transparency, accountability, and innovation. Key actions\
+    \ include holding states accountable for performance, investing in systemwide\
+    \ improvements, expanding access to training and data resources, strengthening\
+    \ ID verification, partnering with DOL’s Office of Inspector General (OIG), and\
+    \ issuing program guidance. These efforts are outlined in ETA's UI Integrity Strategic\
+    \ Plan, which contains the UI antifraud and IP reduction strategies.\n\nIn FY\
+    \ 2026, DOL took aggressive action to hold states accountable for combatting fraud,\
+    \ addressing high IP rates, and improving UI program performance. In February,\
+    \ ETA sent individual notices to each state regarding specific performance measures,\
+    \ including the IP rate, and the resulting level of engagement they could expect\
+    \ from ETA as a result of this performance. In March, ETA convened state and federal\
+    \ leaders from all 53 state workforce agencies to discuss performance, integrity\
+    \ initiatives, policy issues, and reemployment strategies. Between March and September,\
+    \ ETA deployed UI Strike Teams to the worst-performing states, resulting in 22\
+    \ onsite engagements and one additional engagement to assess to what extent fraud\
+    \ was impacting the state’s UI program. In June, ETA launched public State Performance\
+    \ Scorecards (https://oui.doleta.gov/unemploy/performance/StatePerfScorecard.html),\
+    \ tracking metrics like IP and fraud rates and benefit timeliness measures.  In\
+    \ July, ETA issued model national UI standards for states to adopt to improve\
+    \ UI integrity, following a letter from the Secretary to state governors demanding\
+    \ action on fraud and performance. Results from the UI Strike Team engagements\
+    \ and ETA’s model national UI standards are being incorporated into state FY 2027\
+    \ State Quality Service Plans (SQSP) (see UIPL No. 14-26).\n\nETA also leveraged\
+    \ funding to support integrity goals. The Reemployment Services and Eligibility\
+    \ Assessment (RESEA) program is aimed at improving employment outcomes and reducing\
+    \ fraud. In March 2026, ETA awarded over $38 million in grants to 46 states that\
+    \ met or exceeded their RESEA duration and reemployment outcome targets for FY\
+    \ 2025. In July 2026, ETA announced the latest Operating Guidance (see UIPL No.\
+    \ 13-26) and is providing states with over $415.6 million in grants to continue\
+    \ operation of their RESEA programs. \n \nETA deepened collaboration with the\
+    \ DOL OIG to safeguard taxpayer dollars and address UI fraud and performance issues.\
+    \ The partnership included regular meetings on emerging fraud trends, coordination\
+    \ with states, financial institutions, and unclaimed property agencies to recover\
+    \ unspent pandemic-era UI funds on prepaid debit cards, and joint engagement through\
+    \ UI Strike Team visits to strengthen DOL OIG and state relationships. DOL also\
+    \ published a final rule requiring states to share confidential UI information\
+    \ with federal officials, including DOL-OIG ensuring proper oversight and accountability\
+    \ for the UI program.\n\nFinally, ETA advanced technology data programs and ID\
+    \ verification infrastructure. It deployed Unemployment.gov as an informational\
+    \ website in January and is set to launch an initial pilot in early FY 2027, providing\
+    \ a national front door for benefit applications with built-in fraud checks. It\
+    \ also upgraded ID verification by moving Login.gov to a higher assurance level\
+    \ and integrating USPS in-person proofing, having verified over 532,000 IDs and\
+    \ proofed over 377,000 others since February 2025. Additionally, the Integrity\
+    \ Data Hub (IDH) a multi-state fraud-detection data system, expanded access to\
+    \ Treasury's Do Not Pay (DNP) database and enhanced tools for identifying employer\
+    \ tax fraud schemes.\n"
+  Corrective_Actions_Proportion: "ETA's UI Integrity Strategic Plan ties each antifraud\
+    \ and IP reduction strategy to risks identified in the UI Fraud Risk Profile.\
+    \  ETA is coordinating across multiple stakeholders, including through the Vice\
+    \ President’s Task Force to Eliminate Fraud (Fraud Task Force), which includes\
+    \ strong representation from DOL’s Secretary and Inspector General.  In June 2026,\
+    \ DOL issued a letter to the governors of all 53 states and territories, announcing\
+    \ its intent to crack down on UI fraud and mismanagement, using enforcement tools\
+    \ like withholding administrative funds. In July 2026, ETA followed up with letters\
+    \ to states, outlining the model national UI standards and expectations that states\
+    \ describe how they are addressing the model standards as part of their strategic\
+    \ planning for SQSP. ETA issued UIPL No. 14-26 in September 2026 to describe requirements\
+    \ for states’ FY 2027 SQSP, which included ETA’s National Priorities for the UI\
+    \ program and further amplified the model national UI standards.  States are also\
+    \ required to submit an Integrity Action Plan (IAP) detailing their antifraud\
+    \ efforts.\n\nUI fraud falls into two categories: eligibility fraud (false information\
+    \ to obtain benefits, like not reporting work) and ID fraud (using stolen or fake\
+    \ identities, including account takeovers and fictitious employer schemes). While\
+    \ fraud is a contributing factor to IPs, most IPs are not because of fraud. Eligibility-related\
+    \ non-fraud issues have and continue to be the primary drivers of UI IPs, with\
+    \ the top three leading root causes for 2026 being Work Search, BYE, and Separation\
+    \ issue errors. These eligibility related IPs are caused by claimant misunderstanding,\
+    \ employer response delays, and/or state administrative mistakes, and states are\
+    \ addressing these errors through plain-language communication and behavioral\
+    \ insights (BI) techniques like honesty prompts and nudges.\n\nDOL also supports\
+    \ states through several other strategic investments, including, but not limited\
+    \ to: \n•\tState Information Data Exchange System (SIDES): Streamlines employer\
+    \ information requests leading to more timely and accurate benefit determinations.\
+    \ \n•\tThe UI Integrity Center: Provides access to the Integrity Data Hub (IDH)\
+    \ for crossmatching and data analytics, technical assistance, consultative services,\
+    \ training, and BI support to states to improve UI program integrity. \n•\tUI\
+    \ Information Technology Support Center (ITSC): Offers products and services to\
+    \ support states with IT modernization in UI programs.\n•\tUI Interstate Connection\
+    \ Network (ICON): Supports the exchange of information for states to process interstate\
+    \ benefits claims and collect overpayments. \n\nTogether, these investments form\
+    \ a comprehensive, risk-prioritized approach to reducing UI fraud and IPs.\n"
+  End_Date: 06/2026
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: "Through the SQSP process, states are required to\
+    \ submit IAPs to identify state-specific root causes of IPs and strategies to\
+    \ address each root cause. Additionally, states with IP rates at or above 10 percent\
+    \ are required to develop corrective action plans (CAPs) aimed at reducing their\
+    \ IP rate. States are also required to report allegations which the state reasonably\
+    \ believes constitutes UI fraud, waste, abuse, mismanagement, or misconduct to\
+    \ the DOL OIG (see UIPL No. 04-17, Change 1). ETA’s oversight process includes\
+    \ UI Strike Team engagements with states reporting a high IP rate or chronic poor\
+    \ performance; regular reviews of CAP milestones and updates; peer reviews for\
+    \ BAM, Appeals, and Benefits Timeliness and Quality; and monitoring and technical\
+    \ assistance to states on an ongoing basis. In FY 2026, ETA conducted a national\
+    \ BAM peer review with all states, providing intensive training in BAM coding,\
+    \ alongside UI Strike Team observations aimed at improving program performance.\n\
+    \nFurther, ETA’s Agency Management Plan (AMP) outlines the following “Strategic\
+    \ Goal” for UI program integrity:\n•\tReducing the Improper Payment Rate. ETA\
+    \ will hold states accountable by 1) prioritizing its resources toward more direct\
+    \ oversight of the UI program; 2) addressing root cause issues and providing system\
+    \ supports and tools to states whose performance has fallen short of acceptable\
+    \ levels; and 3) coordinating with the DOL OIG to strengthen UI fraud prevention\
+    \ and detection across the UI program, including direct engagement with states\
+    \ to address UI fraud. These efforts will support reduction of the Improper Payment\
+    \ Rate. \n\nETA’s AMP also outlines the following “Strategic Goal” for the timely\
+    \ payment of UI benefits:\n•\tLeveraging Strategic DOL Investments: ETA will support\
+    \ the timeliness of UI benefit payments by encouraging states to fully leverage\
+    \ the IDH and SIDES. These systems help ensure timely and accurate responses from\
+    \ employers and support states in detecting potential fraud and IPs by facilitating\
+    \ information collection from relevant stakeholders, enabling crossmatching with\
+    \ key data sources, and supporting data analytics to help states prioritize investigations.\
+    \ These efforts will support improvements in timely payment of benefits, appeals\
+    \ promptness, and strengthened integrity in the UI system.\n\nETA executive leadership\
+    \ and Office of Unemployment Insurance managers are held accountable, through\
+    \ annual performance appraisals, for advancing the AMP Strategic Goals.\n"
+  IP_Unknown_Target_Rate: 0.099
+  Improper_Payments_Rate: 12.3959954094
+  Insufficient_Documentation_to_Determine: 956.95
+  Margin_of_Error: '0.8'
+  Non_Monetary_Loss_Amount: '176.49'
+  Outlays: 40021.07
+  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app2]Behavioral/Psych
+    Influence, [app3]Training, [app4]Change Process, [app5]Cross Enterprise Sharing,
+    [app6]Audit, [app7]Predictive Analytics, [app8]Statutory Change'
+  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych
+    Influence, [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing,
+    [atp6]Audit, [atp7]Predictive Analytics, [atp8]Statutory Change'
+  Payment_Accuracy_Rate: 85.21288911066095
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: As part of the FY 2028 budget submission, DOL included
+    a comprehensive UI Program Integrity Package that contains proposed legislative
+    reforms. These reforms are necessary to give DOL appropriate tools to more effectively
+    oversee the UI program and further support states’ efforts to build and sustain
+    a robust, resilient, and stable UI program. The UI Program Integrity Package contains
+    provisions designed to provide new and expanded tools and controls for states
+    to help improve efforts to ensure entitled workers are properly paid and to prevent
+    fraud and IPs in the UI system. Specific measures aim to improve front-end fraud
+    prevention, support timely and accurate benefit payments, and address GAO and
+    DOL OIG recommendations. DOL also requested additional funding for state workforce
+    agencies to enhanced UI wage records, use a uniform set of wage record data definitions,
+    increase the employer UI tax file reporting to monthly, and conduct regular crossmatches
+    and data analytics to prevent and detect UI fraud.
+  Start_Date: 07/2025
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: '[app1]Automation, [app2]Behavioral/Psych Influence,
+    [app3]Training, [app4]Change Process, [app5]Cross Enterprise Sharing, [app6]Audit,
+    [app7]Predictive Analytics, [app8]Statutory Change'
+  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych Influence,
+    [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing, [atp6]Audit,
+    [atp7]Predictive Analytics, [atp8]Statutory Change'
+  Unknown_Mitigations_Planned: '[app1]Automation,[app3]Training,[app4]Change Process'
+  Unknown_Mitigations_Taken: '[atp3]Training'
+  Unknown_Payments_Rate: 2.3911154799209515
+  Year: 2026
+  detail_IP_Causes: "Unemployment Insurance (UI) improper payment (IP) estimates are\
+    \ based on results of the Benefit Accuracy Measurement (BAM) survey, which examines\
+    \ a nationwide statistically valid sample of payments made in the three largest\
+    \ permanently authorized Unemployment Compensation (UC) programs: State UI program,\
+    \ Unemployment Compensation for Federal Employees (UCFE), and Unemployment Compensation\
+    \ for Ex-service members (UCX). In addition to estimating the UI IP rate, ETA\
+    \ produces data from the BAM survey identifying the top root causes of IPs. The\
+    \ top root causes of UI IPs for 2026 were: Work Search, Benefit Year Earnings\
+    \ (BYE), and Separation IPs.\n\nRoot Cause – Work Search. Work Search IPs occur\
+    \ when UI claimants fail to properly document or report their work search efforts\
+    \ or fail to comply with state work search requirements. Federal law requires\
+    \ that, as a condition of eligibility, all states require UI claimants to make\
+    \ an active search for work. However, the specific work search requirements vary\
+    \ greatly across state laws and states do not uniformly require UI claimants to\
+    \ report these activities prior to releasing payment. Most Work Search overpayments\
+    \ do not typically occur due to fraudulent activity. Many Work Search IPs result\
+    \ from mistakes made by claimants, either because the claimant misunderstood the\
+    \ state’s work search requirements or because the claimant did not keep good records\
+    \ documenting their work search efforts. Further, if a claimant does provide documentation\
+    \ of their work search efforts, states struggle to verify work search attempts\
+    \ with employers. Most employers do not maintain detailed records of all job inquiries\
+    \ and/or applications and there are a lack of incentives for employers to do so.\n\
+    \nRoot Cause – BYE. BYE IPs often occur when a UI claimant intentionally or unintentionally\
+    \ fails to report earnings or underreports their earnings to receive benefits\
+    \ – when intentionally withheld, state law may find it to be fraudulent. BYE IPs\
+    \ may also result from a UI claimant’s misunderstanding regarding how to report\
+    \ their earnings. For example, a UI claimant may report only their net wages instead\
+    \ of their gross wages, as required. Another common cause of BYE IPs occurs when\
+    \ a UI claimant waits to report their earnings from employment until they are\
+    \ paid by the employer instead of reporting their earnings when they are earned.\n\
+    \nRoot Cause – Separations. Separation IPs occur when UI claimants receive benefits\
+    \ and are later determined to be ineligible due to a disqualifying separation\
+    \ from previous employment. Employer participation is critical for maintaining\
+    \ program integrity and states must request information from employers on the\
+    \ reason for the claimant’s separation from employment. However, if states are\
+    \ unable to get timely and accurate information from employers, states are legally\
+    \ required to make a determination using the best available information (also\
+    \ known as the “payment when due” requirement discussed in more detail below).\
+    \ Failure of employers or their third-party administrators to provide timely and\
+    \ adequate information on the reason for an individual’s separation from employment\
+    \ presents a major challenge to addressing Separation IPs. Additionally, individuals\
+    \ may misrepresent or misunderstand their separation reason at the time of filing\
+    \ – either intentionally (which may result in a finding of fraud under state UI\
+    \ law) or unintentionally (e.g., when communication at the time of separation\
+    \ between the worker and their employer was unclear).\n\nUnknown Payments. Unknown\
+    \ payments occur when the Federal deadlines for IP reporting come earlier than\
+    \ BAM deadlines for case completion. If BAM does not have time to complete all\
+    \ cases prior to Federal IP reporting, outstanding cases become unknown IPs. Unknown\
+    \ IPs are also caused by insufficient and/or untrained state BAM staff which can\
+    \ lead to delays in completing cases timely. \n\nUI as a Federal-State Partnership.\
+    \ The UI program is a federal-state partnership based on Federal law and administered\
+    \ through individual state laws by 53 different workforce agencies (SWAs), which\
+    \ are the 50 states, the District of Columbia, the Commonwealth of Puerto Rico,\
+    \ and the U.S. Virgin Islands. See 26 U.S.C. § 3306(j)(1). States vary in their\
+    \ organizational structures within state government and infrastructure, such as\
+    \ IT systems, level of automation, and staffing capacity. While all states must\
+    \ meet certain federal requirements, state laws vary in methods and strategies\
+    \ for prevention, detection, and recovery of IPs. Additionally, no two states'\
+    \ laws, regulations, and policies specifying UI eligibility conditions are identical,\
+    \ and differences in these conditions influence the potential for error and IPs.\
+    \ \n\nState agencies operate the UI program and administer benefit payments. Thus,\
+    \ overpayments originate from state UI agency program administration issues. DOL’s\
+    \ oversight role requires holding states accountable and if DOL determines a state\
+    \ is out of conformity and/or substantial compliance with Federal law, it can\
+    \ withhold certification of a state's law after notice and hearing. This results\
+    \ in the loss of federal unemployment tax credits for employers in the state and/or\
+    \ the state's ability to receive federal administrative grants to operate the\
+    \ program. DOL does not have enforcement authority to compel such efforts at a\
+    \ more intermediate level, such as by withholding a portion of funding to address\
+    \ any issues. Additionally, Federal law does not provide DOL with the authority\
+    \ to prescribe, beyond a certain level, how states administer the program. \n\n\
+    “Payment When Due” Provision. Section 303(a)(1) of the Social Security Act requires\
+    \ UI payments to be made when due, meaning once a person is determined initially\
+    \ eligible, states are prohibited from suspending payments beyond a certain time\
+    \ period if a new eligibility issue arises and while it is investigated – until\
+    \ an official determination on the new eligibility issue has been made that payments\
+    \ are no longer due. Put another way, after an individual is determined to be\
+    \ eligible, states must continue paying benefits until due process occurs (notice\
+    \ and an opportunity for a hearing is provided before benefit payments are stopped)\
+    \ for the newly-discovered issue.  This means that some payments may later be\
+    \ determined improper as a result of obtaining new information. Moreover, unlike\
+    \ many other benefit programs, eligibility for UI benefits is determined on a\
+    \ weekly basis and this frequency creates more opportunities for errors.  \n\n\
+    For many IPs in the UI program, a state UI agency may identify an issue but fail\
+    \ to properly or timely follow its procedures for due process and resolution.\
+    \ Alternatively, the issue could have been the result of a third-party error/incorrect\
+    \ information. IPs may also occur in instances where the state agency was resolving\
+    \ the error or had detected the error as a result of a crossmatch (e.g., National\
+    \ Directory of New Hires or wage records) and an issue was detected after the\
+    \ payment was made because the data was not available in the crossmatch data source\
+    \ at the time the payment was due by law.\n"
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '807.82'
+  detail_Overpayments_Due_To_Inability: '3976.7'
+  detail_Reduction_Target: '9.9'
+  eligibility_aggregated:
+  - Theme: Citizenship
+    Theme_Description: "Recognized as a United States citizen through birth or naturalization,\
+      \ or as a \r\nlawfully present non-citizen in the United States"
+  - Theme: Dependency
+    Theme_Description: Describes who the recipient/beneficiary relies on as a primary
+      source of support
+  - Theme: Employment
+    Theme_Description: The employment status of the recipient/beneficiary
+  - Theme: Identity
+    Theme_Description: Able to establish that someone is uniquely who they claim to
+      be
+  - Theme: Receiving Benefits from Other Sources
+    Theme_Description: Beneficiary or recipient is receiving benefits from an additional
+      source
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 807.82
+    Inability_to_Access_Data: 3976.7
+    Overpayments_Within_Control_Amount: '971.35'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '3813.17'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 35.58
+    Inability_to_Access_Data: 140.92
+    Underpayments_Amount: '176.49'
 Description: "The UC programs provide temporary, partial wage replacement to eligible\
   \ workers. Programs included in the monetary loss calculation include the traditional\
   \ state UI, UCFE, UCX, EB, EUC08 benefits, and PEUC and FPUC CARES Act benefits.\
@@ -2373,95 +2568,95 @@ Description: "The UC programs provide temporary, partial wage replacement to eli
   \ requirement to pay benefits quickly \nwith requirement to prevent fraud and improper\
   \ payments; \n(3) 53 jurisdictions with different IT systems; and\n(4) increasingly\
   \ sophisticated/evolving fraud schemes, including identity fraud.\n"
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[73842.2, 17820.21, 4019.44, 4915.56, 4764.95]'
-Payment_Accuracy_Amounts: '[334817.83999999997, 66310.65000000001, 23513.6, 29584.399999999998,
-  32080.030000000006]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[17820.21, 4019.44, 4915.56, 4764.95, 4784.52]'
+Payment_Accuracy_Amounts: '[66310.65000000001, 23513.6, 29584.399999999998, 32080.030000000006,
+  34103.11000000001]'
 Phase_2_Program: 0
 Program_Name: Employment & Training Administration - Federal State Unemployment Insurance
 Scorecard_Links:
-- Link: assets/scorecards/Q4 2018/Unemployment-Insurance-Getting-Payments-right-Score-Card-FY-2019-Q1.pdf
-  QuarterYear: Q4 2018
-- Link: assets/scorecards/Q2 2019/Unemployment Insurance Getting Payments right Scorecard
-    FY 2019 Q2.pdf
-  QuarterYear: Q2 2019
-- Link: assets/scorecards/Q3 2019/Unemployment Insurance Getting Payments right Scorecard
-    FY 2019 Q3.pdf
-  QuarterYear: Q3 2019
-- Link: assets/scorecards/Q4 2019/Unemployment Insurance Getting Payments right Scorecard
-    FY 2019 Q4.pdf
-  QuarterYear: Q4 2019
-- Link: assets/scorecards/Q1 2021/Unemployment Insurance Payments Integrity Scorecard
-    FY 2021 Q1.pdf
-  QuarterYear: Q1 2021
-- Link: assets/scorecards/Q2 2021/Unemployment Insurance Payments Integrity Scorecard
-    FY 2021 Q2.pdf
-  QuarterYear: Q2 2021
-- Link: assets/scorecards/Q3 2021/Unemployment Insurance Payments Integrity Scorecard
-    FY 2021 Q3.pdf
-  QuarterYear: Q3 2021
-- Link: assets/scorecards/Q4 2021/Unemployment Insurance Payments Integrity Scorecard
-    FY 2021 Q4.pdf
-  QuarterYear: Q4 2021
-- Link: assets/scorecards/Q1 2022/Employment and Training Administration - Federal
-    State Unemployment Insurance Payments Integrity Scorecard FY 2022 Q1.pdf
-  QuarterYear: Q1 2022
-- Link: assets/scorecards/Q2 2022/Employment and Training Administration - Federal
-    State Unemployment Insurance Payments Integrity Scorecard FY 2022 Q2.pdf
-  QuarterYear: Q2 2022
-- Link: assets/scorecards/Q3 2022/Employment and Training Administration - Federal
-    State Unemployment Insurance Payments Integrity Scorecard FY 2022 Q3.pdf
-  QuarterYear: Q3 2022
-- Link: assets/scorecards/Q4 2022/Employment _ Training Administration - Federal State
-    Unemployment Insurance Payments Integrity Scorecard FY 2022 Q4.pdf
-  QuarterYear: Q4 2022
-- Link: assets/scorecards/Q2 2023/Employment & Training Administration - Federal State
-    Unemployment Insurance.pdf
-  QuarterYear: Q2 2023
-- Link: assets/scorecards/Q3 2023/Employment & Training Administration - Federal State
-    Unemployment Insurance.pdf
-  QuarterYear: Q3 2023
-- Link: assets/scorecards/Q4 2023/Employment _ Training Administration - Federal State
-    Unemployment Insurance.pdf
-  QuarterYear: Q4 2023
-- Link: assets/scorecards/Q1 2024/Employment & Training Administration - Federal State
-    Unemployment Insurance.pdf
-  QuarterYear: Q1 2024
-- Link: assets/scorecards/Q2 2024/Employment & Training Administration - Federal State
-    Unemployment Insurance.pdf
-  QuarterYear: Q2 2024
-- Link: assets/scorecards/Q3 2024/Employment & Training Administration - Federal State
-    Unemployment Insurance.pdf
-  QuarterYear: Q3 2024
-- Link: assets/scorecards/Q4 2024/Employment & Training Administration - Federal State
-    Unemployment Insurance.pdf
-  QuarterYear: Q4 2024
-- Link: assets/scorecards/Q1 2025/Employment & Training Administration - Federal State
-    Unemployment Insurance.pdf
-  QuarterYear: Q1 2025
-- Link: assets/scorecards/Q2 2025/Employment & Training Administration - Federal State
-    Unemployment Insurance.pdf
-  QuarterYear: Q2 2025
-- Link: assets/scorecards/Q3 2025/Employment & Training Administration - Federal State
-    Unemployment Insurance.pdf
-  QuarterYear: Q3 2025
-- Link: assets/scorecards/Q4 2025/Employment & Training Administration - Federal State
-    Unemployment Insurance.pdf
-  QuarterYear: Q4 2025
-- Link: assets/scorecards/Q2 2026/Employment & Training Administration - Federal State
-    Unemployment Insurance.pdf
-  QuarterYear: Q2 2026
 - Link: assets/scorecards/Q3 2026/Employment & Training Administration - Federal State
     Unemployment Insurance.pdf
   QuarterYear: Q3 2026
+- Link: assets/scorecards/Q2 2026/Employment & Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q2 2026
+- Link: assets/scorecards/Q4 2025/Employment & Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q4 2025
+- Link: assets/scorecards/Q3 2025/Employment & Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q2 2025/Employment & Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q1 2025/Employment & Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q4 2024/Employment & Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q4 2024
+- Link: assets/scorecards/Q3 2024/Employment & Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q3 2024
+- Link: assets/scorecards/Q2 2024/Employment & Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q2 2024
+- Link: assets/scorecards/Q1 2024/Employment & Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q1 2024
+- Link: assets/scorecards/Q4 2023/Employment _ Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q4 2023
+- Link: assets/scorecards/Q3 2023/Employment & Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q2 2023/Employment & Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q4 2022/Employment _ Training Administration - Federal State
+    Unemployment Insurance Payments Integrity Scorecard FY 2022 Q4.pdf
+  QuarterYear: Q4 2022
+- Link: assets/scorecards/Q3 2022/Employment and Training Administration - Federal
+    State Unemployment Insurance Payments Integrity Scorecard FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q2 2022/Employment and Training Administration - Federal
+    State Unemployment Insurance Payments Integrity Scorecard FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q1 2022/Employment and Training Administration - Federal
+    State Unemployment Insurance Payments Integrity Scorecard FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q4 2021/Unemployment Insurance Payments Integrity Scorecard
+    FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q3 2021/Unemployment Insurance Payments Integrity Scorecard
+    FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q2 2021/Unemployment Insurance Payments Integrity Scorecard
+    FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q1 2021/Unemployment Insurance Payments Integrity Scorecard
+    FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q4 2019/Unemployment Insurance Getting Payments right Scorecard
+    FY 2019 Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q3 2019/Unemployment Insurance Getting Payments right Scorecard
+    FY 2019 Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q2 2019/Unemployment Insurance Getting Payments right Scorecard
+    FY 2019 Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q4 2018/Unemployment-Insurance-Getting-Payments-right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
-Underpayment_Amounts: '[3440, 522.49, 154.54, 157.68, 187.64]'
-Unknown_Amounts: '[864.56, 582.25, 461.7, 538.97, 646.85]'
+Underpayment_Amounts: '[522.49, 154.54, 157.68, 187.64, 176.49]'
+Unknown_Amounts: '[582.25, 461.7, 538.97, 646.85, 956.95]'
 fpi_link: https://fpi.omb.gov/program/17.225
 layout: program-specific
 permalink: program/dol-employment-training-administration-federal-state-unemplo-f85701dc

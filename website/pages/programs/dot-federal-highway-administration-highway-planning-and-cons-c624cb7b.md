@@ -2,76 +2,6 @@
 Agency: DOT
 Agency_Name: Department of Transportation
 Data_By_Year:
-- Agency_Needs_Satisfied: FHWA has the internal controls, human capital, and information
-    systems necessary to identify and maintain improper payments to a tolerable rate.
-  Confidence_Level: '>95%'
-  Corrective_Actions_Proportion: FHWA’s HCF monitors FIRE Program findings and recommendations
-    to address identified procedure and internal control weaknesses to ensure they
-    are addressed by its accessible units (AU). The AUs develop responses for procedural
-    and internal control weaknesses based on the various reviews completed for FIRE
-    and other program evaluations. HCF monitors the AUs implementation periodically
-    and assesses the AUs yearly performance documentation. The HCF monitors the AUs
-    progress to ensure timely and effective response actions were completed.
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Within_Failure_to_Access_Data: true
-  Hide_Overpayments_Within_Inability_to_Access_Data: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  IP_Current_Year_Plus_1_Amount: 499.37
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.01
-  Improper_Payments_Rate: 1.40820749
-  Insufficient_Documentation_to_Determine: 0.0
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '708.045'
-  Non_Monetary_Loss_Amount: '267.942'
-  Outlays: 49471.971
-  Outlays_Current_Year_Plus_1_Amount: 49937
-  Payment_Accuracy_Rate: 98.59179251216815
-  Program_Design_or_Structural_Issue: 266.886
-  Start_Date: 10/2019
-  Technical_IP_Amount: '266.886'
-  Unknown_Curent_Year_Plus_1_Amount: 0
-  Unknown_Payments_Rate: 0
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '0.0'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 428.726
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '428.726'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 1.056
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '1.056'
 - Agency_Needs_Satisfied: At the Federal level, the program has what is needed with
     respect to internal controls, human capital, and information systems to reduce
     improper payments and unknown payments to the tolerable rate.
@@ -312,42 +242,6 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Overpayments_Outside_Control_Amount: '20.465669'
-    Overpayments_Outside_Control_Why: 'FHWA’s Highway Planning and Construction program
-      is not administered at the Federal level and overpayments are outside of FHWA
-      control when grant recipients make administrative errors. The program supports
-      States and Local Public Agencies (LPA) in the design, construction, and maintenance
-      of the Nation’s highway system and various federally and tribal owned lands.
-      FHWA funds provides the financial resources and mechanism to perform these activities.
-      Tax dollars are allocated and distributed by FHWA directly to the State DOTs,
-      as a direct-recipient, or LPAs, as sub-recipients, for eligible activities.
-      In turn, the State DOTs provide oversight of LPA projects and ensure that local
-      agencies that receive and deliver federally funded projects comply with Federal
-      and State requirements.
-
-
-      In recognition of FHWA’s assignment of responsibilities to the State DOTs, Congress
-      requires that a formal written agreement be established between FWHA and each
-      State DOT regarding the use of federal funds. The State DOT, acting on behalf
-      of FHWA, is expected to exercise judgments similar to FHWA based on Federal
-      laws, regulations, and policies. These responsibilities provide assurance that
-      approval actions will be performed in accordance with State policies, practices
-      and standards and all requirements of federal law.
-
-
-      Two important characteristics of FHWA Highway Planning and Construction financial
-      assistance are that it is both a reimbursable and a matching program. Reimbursable
-      means that FHWA pays grantees and subrecipients the actual eligible expenses
-      incurred. Money is not provided in advance, so a State DOT or LPA must initially
-      finance the project and request reimbursement. A matching program means that
-      the Federal funds are matched with State or local resources to cover the total
-      project cost. Thus, State DOTs and LPAs are responsible for the accuracy of
-      their reimbursement requests in accordance applicable Federal and State requirements.
-
-
-      In summary, much of the authority for administering the FHWA financial assistance
-      falls to the State DOTs, which are responsible for providing oversight and to
-      ensure compliance with Federal and State requirements including the accuracy
-      of payment requests.'
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -543,36 +437,6 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Overpayments_Outside_Control_Amount: '1063.936073'
-    Overpayments_Outside_Control_Why: "The Federal Highway Administration's (FHWA)\
-      \ Highway Planning and Construction program is not administered at the Federal\
-      \ level and overpayments are outside of FHWA control when grant recipients make\
-      \ administrative errors. The program supports States and Local Public Agencies\
-      \ (LPA) in the design, construction, and maintenance of the Nation’s highway\
-      \ system and various federally and tribal owned lands. FHWA funds provide the\
-      \ financial resources and mechanism to perform these activities. Tax dollars\
-      \ are allocated and distributed by FHWA directly to the State DOTs, as a direct-recipient,\
-      \ or LPAs, as sub-recipients, for eligible activities. In turn, the State DOTs\
-      \ provide oversight of LPA projects and ensure that local agencies that receive\
-      \ and deliver federally funded projects comply with Federal and State requirements.\n\
-      \nIn recognition of FHWA’s assignment of responsibilities to the State DOTs,\
-      \ Congress requires that a formal written agreement be established between FWHA\
-      \ and each State DOT regarding the use of federal funds. The State DOT is expected\
-      \ to exercise judgments similar to FHWA based on Federal laws, regulations,\
-      \ and policies. These responsibilities provide assurance that approval actions\
-      \ will be performed in accordance with State policies, practices and standards\
-      \ and all requirements of federal law.\n\nTwo important characteristics of FHWA\
-      \ Highway Planning and Construction financial assistance are that it is both\
-      \ a reimbursable and a matching program. Reimbursable means that FHWA pays grantees\
-      \ and\n \nsubrecipients the actual eligible expenses incurred. Money is not\
-      \ provided in advance, so a State DOT or LPA must initially finance the project\
-      \ and request reimbursement. A matching program means that the Federal funds\
-      \ are matched with State or local resources to cover the total project cost.\
-      \ Thus, State DOTs and LPAs are responsible for the accuracy of their reimbursement\
-      \ requests in accordance with applicable Federal and State requirements.\n\n\
-      In summary, much of the authority for administering the FHWA financial assistance\
-      \ falls to the State DOTs, which are responsible for providing oversight and\
-      \ to ensure compliance with Federal and State requirements including the accuracy\
-      \ of payment requests."
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -658,7 +522,7 @@ Data_By_Year:
     for project authorizations that do not meet federal requirements and will recover
     funding that was reimbursed but later determined to be improper.
   IP_Unknown_Target_Rate: 0.0286
-  Improper_Payments_Rate: 3.8647698554999996
+  Improper_Payments_Rate: 3.86476986
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '2.46'
   Non_Monetary_Loss_Amount: '365.3239'
@@ -736,68 +600,68 @@ Description: The Federal Highway Administration’s (FHWA) Highway Planning and 
   HPC is not administered at the Federal level and overpayments are outside of FHWA
   control when grant recipients make administrative errors.  The program is susceptible
   to improper payments and reported a phase 2 estimate for FY 2025.
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
-High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[428.726, 32.75, 20.465669, 1063.936073, 2022.6628]'
-Payment_Accuracy_Amounts: '[48775.303, 47891.172999999995, 51083.69710361001, 53391.192328000005,
+High_Priority_Program: 0
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[32.75, 20.465669, 1063.936073, 2022.6628]'
+Payment_Accuracy_Amounts: '[47891.172999999995, 51083.69710361001, 53391.192328000005,
   59400.600699999995]'
 Phase_2_Program: 0
 Program_Name: Federal Highway Administration Highway Planning and Construction
 Scorecard_Links:
-- Link: assets/scorecards/Q4 2018/Federal-Highway-Administration-Highway-Planning-and-Construction-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
-  QuarterYear: Q4 2018
-- Link: assets/scorecards/Q3 2019/Federal Highway Administration Highway Planning
-    and Construction Getting Payments Right Scorecard FY 2019 Q3.pdf
-  QuarterYear: Q3 2019
-- Link: assets/scorecards/Q4 2019/Federal Highway Administration Highway Planning
-    and Construction Getting Payments Right Scorecard FY 2019 Q4.pdf
-  QuarterYear: Q4 2019
-- Link: assets/scorecards/Q1 2020/Federal Highway Administration Highway Planning
-    and Construction Getting Payments Right Scorecard FY 2020 Q1.png
-  QuarterYear: Q1 2020
-- Link: assets/scorecards/Q3 2020/Federal Highway Administration Highway Planning
-    and Construction Getting Payments Right Scorecard FY 2020 Q3.png
-  QuarterYear: Q3 2020
-- Link: assets/scorecards/Q4 2020/Federal Highway Administration Highway Planning
-    and Construction Getting Payments Right Scorecard FY 2020 Q4.png
-  QuarterYear: Q4 2020
-- Link: assets/scorecards/Q1 2022/Federal Highway Administration Highway Planning
-    and Construction Payments Integrity Scorecard FY 2022 Q1.pdf
-  QuarterYear: Q1 2022
-- Link: assets/scorecards/Q2 2022/Federal Highway Administration Highway Planning
-    and Construction Payments Integrity Scorecard FY 2022 Q2.pdf
-  QuarterYear: Q2 2022
-- Link: assets/scorecards/Q3 2022/Federal Highway Administration Highway Planning
-    and Construction Payments Integrity Scorecard FY 2022 Q3.pdf
-  QuarterYear: Q3 2022
-- Link: assets/scorecards/Q4 2022/Federal Highway Administration Highway Planning
-    and Construction Payments Integrity Scorecard FY 2022 Q4.pdf
-  QuarterYear: Q4 2022
-- Link: assets/scorecards/Q1 2025/Federal Highway Administration Highway Planning
-    and Construction.pdf
-  QuarterYear: Q1 2025
-- Link: assets/scorecards/Q2 2025/Federal Highway Administration Highway Planning
-    and Construction.pdf
-  QuarterYear: Q2 2025
-- Link: assets/scorecards/Q3 2025/Federal Highway Administration Highway Planning
-    and Construction.pdf
-  QuarterYear: Q3 2025
-- Link: assets/scorecards/Q4 2025/Federal Highway Administration Highway Planning
-    and Construction.pdf
-  QuarterYear: Q4 2025
-- Link: assets/scorecards/Q2 2026/Federal Highway Administration Highway Planning
-    and Construction.pdf
-  QuarterYear: Q2 2026
 - Link: assets/scorecards/Q3 2026/Federal Highway Administration Highway Planning
     and Construction.pdf
   QuarterYear: Q3 2026
-Technically_Improper_Amounts: '[266.886, 516.098, 0, 3.626828, 277.0818]'
-Underpayment_Amounts: '[1.056, 0.105, 3.10659903, 0.798271, 88.2421]'
-Unknown_Amounts: '[0, 0, 0, 0, 0]'
+- Link: assets/scorecards/Q2 2026/Federal Highway Administration Highway Planning
+    and Construction.pdf
+  QuarterYear: Q2 2026
+- Link: assets/scorecards/Q4 2025/Federal Highway Administration Highway Planning
+    and Construction.pdf
+  QuarterYear: Q4 2025
+- Link: assets/scorecards/Q3 2025/Federal Highway Administration Highway Planning
+    and Construction.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q2 2025/Federal Highway Administration Highway Planning
+    and Construction.pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q1 2025/Federal Highway Administration Highway Planning
+    and Construction.pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q4 2022/Federal Highway Administration Highway Planning
+    and Construction Payments Integrity Scorecard FY 2022 Q4.pdf
+  QuarterYear: Q4 2022
+- Link: assets/scorecards/Q3 2022/Federal Highway Administration Highway Planning
+    and Construction Payments Integrity Scorecard FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q2 2022/Federal Highway Administration Highway Planning
+    and Construction Payments Integrity Scorecard FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q1 2022/Federal Highway Administration Highway Planning
+    and Construction Payments Integrity Scorecard FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q4 2020/Federal Highway Administration Highway Planning
+    and Construction Getting Payments Right Scorecard FY 2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q3 2020/Federal Highway Administration Highway Planning
+    and Construction Getting Payments Right Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q1 2020/Federal Highway Administration Highway Planning
+    and Construction Getting Payments Right Scorecard FY 2020 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q4 2019/Federal Highway Administration Highway Planning
+    and Construction Getting Payments Right Scorecard FY 2019 Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q3 2019/Federal Highway Administration Highway Planning
+    and Construction Getting Payments Right Scorecard FY 2019 Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q4 2018/Federal-Highway-Administration-Highway-Planning-and-Construction-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
+Technically_Improper_Amounts: '[516.098, 0, 3.626828, 277.0818]'
+Underpayment_Amounts: '[0.105, 3.10659903, 0.798271, 88.2421]'
+Unknown_Amounts: '[0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/20.205
 layout: program-specific
 permalink: program/dot-federal-highway-administration-highway-planning-and-cons-c624cb7b

@@ -1,9 +1,9 @@
 ---
 Agency: GSA
 Agency_Name: General Services Administration
-Confirmed_Fraud: 69.8
+Confirmed_Fraud: 46.7
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: false
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -23,10 +23,23 @@ Improper_Payments_Rate_Min: 0
 Improper_Payments_Rates: '[]'
 Is_Placeholder: false
 Overpayment_Amounts: '[]'
-Overpayment_Amounts_Identified: '[31.560051, 70.71, 31.14, 26.15, 15.33]'
-Overpayment_Amounts_Recovered: '[28.711836, 46.82, 26.91, 23.02, 18.48]'
-Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts_Identified: '[70.71, 31.14, 26.15, 15.33, 15.71]'
+Overpayment_Amounts_Recovered: '[46.82, 26.91, 23.02, 18.48, 8.19]'
+Overpayment_Years: '[2022, 2023, 2024, 2025, 2026]'
 PIIA2019_Compliant_Programs:
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Acquisition Services Fund - Operating
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -377,6 +390,19 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
+  Name: Office of Centralized Acquisition Services (OCAS)
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Office of Products and Programs
 - Compliant_1A: true
   Compliant_1B: true
@@ -659,6 +685,11 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: Acquisition Services Fund - Operating
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Acquisition Workforce Training
@@ -724,7 +755,7 @@ Risks:
     Program_Name: Electronic Government
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Employee Payments
     Slug: null
@@ -747,6 +778,11 @@ Risks:
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Government-wide Policy (Reimbursable)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2019'
+    MethodologyChanged: 0
+    Program_Name: IT Modernization and Development
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2025'
@@ -774,11 +810,6 @@ Risks:
     Program_Name: Integrated Award Environment
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2019'
-    MethodologyChanged: 0
-    Program_Name: IT Modernization and Development
-    Slug: null
-    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Lapsed Balances
@@ -787,6 +818,11 @@ Risks:
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Multiyear 2021-2025 ARP
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: Office of Centralized Acquisition Services (OCAS)
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2024'
@@ -819,7 +855,7 @@ Risks:
     Program_Name: Professional Services and Human Capital
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Purchase Cards
     Slug: null
@@ -907,77 +943,104 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-- 2021
 detail_Additional_IP_Information: null
-detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '0.26'
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '2.1'
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: Treasury screens each of GSA's summary schedules against the
-  Do Not Pay system daily. Very few matches are returned. Most matches are for salary
-  payments and are false positives (there is a valid reason for the payment). The
-  Financial Management Systems Operations and Maintenance Division sends the GSA’s
-  financial management system, Pegasys, vendor table to the Do Not Pay portal on the
-  10th of each month. The matches are researched in Pegasys to verify that the vendor
-  has been marked "Debarred" or "Inactive". The Debarment flag is interfaced from
-  SAM. The Inactive flag is manually adjusted in Pegasys if the Debarment has not
-  yet interfaced into Pegasys or if a vendor on the Death Master List (provided by
-  Treasury) is identified. The Do Not Pay initiative continues to help reduce improper
-  payments at GSA.
-detail_DNP_Frequency_Identify: Daily
+detail_DNP_Discussion: 'GSA uses the Do Not Pay System prior to payment disbursement
+  as part of its ongoing efforts to prevent improper payments. Treasury screens each
+  of GSA''s Payment Automation Manager (PAM) files against certain sources in the
+  Do Not Pay system when submitted, and returns matches with indicators of risk. Most
+  matches for salary payments are timing related due to recently deceased employees
+  who did not have their HR action processed before the payroll cycle was disbursed.
+  In addition, GSA’s financial management system vendors are submitted to the Do Not
+  Pay portal each month. Any matches are researched to verify that the vendor has
+  been marked "Debarred" or "Inactive" to prevent future payments. These processes
+  along with others reduce the risk of improper payments for over $27 billion dollars
+  of GSA payments in FY 2026. In FY 2026, twelve payments for $78,000 were returned
+  by Do Not Pay.
+
+
+
+  In FY 2025 and FY 2026, GSA completed new Do Not Pay onboarding requirements as
+  outlined in Executive Order (EO) 14249 (Protecting America’s Bank Account Against
+  Fraud, Waste, and Abuse) and Office of Management and Budget (OMB) Memorandum M-25-32.
+  GSA documented programs and payment types, updated data access agreements and system
+  of records notices (SORNs) for Privacy Act-related data, completed an analysis of
+  matching program requirements, and worked with the Do Not Pay team to identify user
+  and data exchange requirements. The Do Not Pay initiative continues to help reduce
+  improper payments at GSA.
+
+  '
+detail_DNP_Frequency_Identify: Weekly
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: GSA’s recovery audit contractor receives contingency-based
   fees from the overpayments recovered.  The remaining recoveries are returned to
   the original account - (i.e. Rental of Space program).
-detail_Executive_Summary: 'GSA was found to be compliant in the most recent OIG Annual
-  Compliance Review. Currently, GSA doesn''t have any programs in Phase 2.  GSA completed
-  three risk assessments in FY25.  All of the risk assessments found that the programs
-  were not likely to be susceptible to significant improper payments.
-
-
-
-  GSA achieves and maintains Payment Integrity Act compliance using multiple methods
-  which includes monitoring all GSA programs through Data Act reporting, ongoing risk
-  assessments, internal control reviews, assurance statements, researching incidents
-  of reported improper payments, monitoring claims activities, and ongoing recovery
-  audit activities. In addition, GSA continued recovery audit activities with ongoing
-  audits of rental of space activities and continues to track claims related to improper
-  payments.  Finally, GSA continues to analyze and expand audit recovery areas when
-  warranted based on evidence found during the course of the year.'
-detail_OIG_Recommendations: null
-detail_Overpayment_Conditions_And_Methods: "Recovery Audit and recovery method\nGSA's\
-  \ Recovery Audit contractor reviews GSA’s rental of space program.  The auditor\
-  \ develops a detailed, monthly rental payment schedule from lease contracts and\
-  \ other lease documentation.  This payment schedule is compared to actual payments\
-  \ by month from the lease commencement date to the most recent payment. If discrepancies\
-  \ are discovered, they are quantified and identified as to the nature and origin.\
-  \ A review of real estate tax adjustments is also done for each lease. Tax adjustments\
-  \ are reviewed for accuracy on the part of the Lessor’s submission of tax bills.\n\
-  \nConditions and Resolutions for GSA’s rental of space program\nCondition 1: The\
-  \ payment of real estate taxes in most leases is designed to be a passthrough from\
-  \ the landlord’s real estate tax bill.  The landlord pays the taxing authority and\
-  \ GSA pays the landlord for its share based on percentage occupancy of the building.\
-  \  The real estate payment is incorporated into the GSA annual rent payment.  If\
-  \ the actual taxes are more than the amount paid through rent, GSA owes the landlord\
-  \ the difference.  If the actual taxes are less than the amount paid through rent,\
-  \ the landlord owes GSA the difference.  Recoveries arise when Lessor fails to report\
-  \ either of these two scenarios by not sending GSA the appropriate tax bills.  \n\
-  Resolution 1: GSA has established agencywide procedures to perform annual reviews\
-  \ of all leases when the landlord does not send in taxes.  These procedures have\
-  \ significantly decreased improper payments in this area in recent years.\n\n\n\
-  Condition 2: There are several variables that can cause overpayments at the start\
-  \ up of a lease such as broker commission credits, free rent credits, and credits\
-  \ for holdover payments on a preceding lease, etc.  The overpayments exist if these\
-  \ credits are not entered in the billing system (REXUS) or not properly transferred\
-  \ from the billing system to the payment system (Pegasys).\nResolution 2: Checklists\
-  \ have been developed in GSA's regions to ensure that all credits are entered into\
-  \ the billing system (REXUS).  Also, in July of 2020, the REXUS to Pegasys interface\
-  \ automatically transfers data from REXUS to Pegasys so that it is no longer a manual\
-  \ process of entering credit data for leases into Pegasys which has helped reduce\
-  \ errors."
+detail_Executive_Summary: "The Payment Integrity Information Act of 2019 (PIIA) and\
+  \ other payment integrity statutes are designed to prevent improper payments, reduce\
+  \ waste, and ensure that federal funds are spent appropriately. By law, GSA is required\
+  \ to identify programs that may be susceptible to significant erroneous payments\
+  \ and perform activities to reduce improper payments. The Office of Inspector General\
+  \ (OIG) determined that GSA complied with PIIA requirements for Fiscal Year 2025\
+  \ during its annual audit.\n\nGSA achieves and maintains PIIA compliance using multiple\
+  \ methods: \n* monitors all GSA DATA Act programs\n* performs ongoing risk assessments,\
+  \ conducts internal control reviews, completes assurance statements\n* researches\
+  \ incidents of reported improper payments\n* monitors claims activities\n* conducts\
+  \ ongoing recovery audit activities \n* uses Treasury’s Do Not Pay system to reduce\
+  \ the risk of improper payments to ineligible recipients\n* complies with new onboarding\
+  \ requirements as outlined in Executive Order (EO) 14249, Protecting America’s Bank\
+  \ Account Against Fraud, Waste, and Abuse and Office of Management and Budget (OMB)\
+  \ Memorandum M-25-32.\n\nNone of GSA's programs are classified as high-risk or high-priority\
+  \ for improper payment reporting, and those with outlays over $10 million per year\
+  \ receive an improper payment risk assessment on an on-going three-year cycle. In\
+  \ FY 2026, GSA completed three improper payment risk assessments for programs, none\
+  \ of which were found likely to be susceptible to significant improper payments\
+  \ (Phase 1).  \n\nOMB Circular A-123, Appendix C, requires federal agencies to conduct\
+  \ recovery audits to identify and recover overpayments for programs with $1 million\
+  \ in outlays if conducting such an audit is cost effective for the agency. GSA contracts\
+  \ a recovery audit for the Rental of Space program. Rent overpayments, rent credits,\
+  \ and real estate tax credits are common sources of overpayments. The recovery audit\
+  \ for the Rental of Space program has allowed GSA to detect errors, recover overpayments,\
+  \ and identify opportunities for process improvement. In addition to the recovery\
+  \ audit, GSA has implemented system integrations and enhanced internal controls\
+  \ significantly reducing  overpayments from this program.\n"
+detail_Overpayment_Conditions_And_Methods: "Recovery Audit and Recovery Method\n\n\
+  GSA's Recovery Audit contractor reviews GSA’s Rental of Space program. GSA utilizes\
+  \ this program to lease privately-owned buildings to meet federal agency space needs.\
+  \ The recovery auditor develops a detailed, monthly rental payment schedule from\
+  \ lease contracts and other lease documentation. This payment schedule is compared\
+  \ to actual payments by month from the lease commencement date to the most recent\
+  \ payment. If discrepancies are discovered, they are quantified and identified as\
+  \ to the nature and origin. A review of real estate tax adjustments is also done\
+  \ for each lease. Tax adjustments are reviewed for accuracy on the part of the Lessor’s\
+  \ submission of tax bills.\n\n\nConditions and Resolutions for GSA’s Rental of Space\
+  \ Program\n\nCondition 1: The payment of real estate taxes in most leases is designed\
+  \ to be a passthrough from the landlord’s real estate tax bill.  The landlord pays\
+  \ the taxing authority and GSA pays the landlord for its share based on percentage\
+  \ occupancy of the building. The real estate payment is incorporated into the GSA\
+  \ annual rent payment. If the actual taxes are more than the amount paid through\
+  \ rent, GSA owes the landlord the difference. If the actual taxes are less than\
+  \ the amount paid through rent, the landlord owes GSA the difference. Recoveries\
+  \ arise when the Lessor fails to report either of these two scenarios by not sending\
+  \ GSA the appropriate tax bills.  \nResolution 1: GSA has established agencywide\
+  \ procedures to perform annual reviews of all leases when the landlord does not\
+  \ send in real estate taxes. These procedures have significantly decreased improper\
+  \ payments in this area in recent years.\n\n\nCondition 2: There are several tools\
+  \ that GSA uses in lease agreements to provide the best value when leasing space\
+  \ for federal agencies. Examples include broker commission credits, free rent credits,\
+  \ and credits for holdover payments on a preceding lease, etc. These tools may lead\
+  \ to overpayments if these credits are not properly recorded in the billing system\
+  \ or not transferred from the billing system to the financial management system.\n\
+  Resolution 2: Checklists have been developed to ensure that all credits are recorded\
+  \ in the billing system. As of 2020, the billing system interfaces to the financial\
+  \ management system to send lease credits automatically, so that it is no longer\
+  \ a manual entry process."
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'Yes'
@@ -986,14 +1049,14 @@ detail_Recovery_Not_Cost_Effective_Justification: null
 detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/GSA.html
-recovery_Aging_of_Outstanding_OP_Identified_Amt_0_-_6_months: 0.26
+recovery_Aging_of_Outstanding_OP_Identified_Amt_0_-_6_months: 2.1
 recovery_Aging_of_Outstanding_OP_Identified_Amt_6_months_to_1_year: 0.0
 recovery_Aging_of_Outstanding_OP_Identified_determined_not_collectable: 0.0
-recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 13.16
-recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 2.17
-recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 16.28
-recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 2.2
-recovery_Recovery_Audit_Amount_Outstanding_Rate: 11.9815668203
-recovery_Total_Overpayment_Amount_Identified: 15.33
-recovery_Total_Overpayment_Amount_Recovered: 18.48
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 12.1
+recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 3.61
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 6.43
+recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 1.76
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 58.171745152
+recovery_Total_Overpayment_Amount_Identified: 15.71
+recovery_Total_Overpayment_Amount_Recovered: 8.19
 ---

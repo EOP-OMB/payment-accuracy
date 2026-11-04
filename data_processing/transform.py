@@ -791,7 +791,16 @@ CONGRESSIONAL_REPORTS_CREATE_VIEW_SQL = [
 conn = sqlite3.connect(transformed_db_file_path)
 cur = conn.cursor()
 
-def load_csv_to_sqlite(path: str, table_name: str, conn: sqlite3.Connection, drop_duplicates = False, data_types = None):
+def fiscal_year_as_int(value):
+    """Parse Fiscal_Year as an integer so values like 2026.0 are stored without a decimal."""
+    if value is None:
+        return None
+    text = str(value).strip()
+    if text == "" or text.lower() == "nan":
+        return None
+    return int(float(text))
+
+def load_csv_to_sqlite(path: str, table_name: str, conn: sqlite3.Connection, drop_duplicates = False, data_types = None, converters = None):
     """
     Loads a CSV file into a specified SQLite table.
     """
@@ -802,11 +811,12 @@ def load_csv_to_sqlite(path: str, table_name: str, conn: sqlite3.Connection, dro
     with open(path, encoding="utf-8-sig") as f:
         csv_data = f.read()
     
-    df = None
-    if data_types is None:
-        df = pd.read_csv(StringIO(csv_data))
-    else:
-        df = pd.read_csv(StringIO(csv_data), dtype=data_types)
+    read_csv_kwargs = {}
+    if data_types is not None:
+        read_csv_kwargs["dtype"] = data_types
+    if converters is not None:
+        read_csv_kwargs["converters"] = converters
+    df = pd.read_csv(StringIO(csv_data), **read_csv_kwargs)
 
     if drop_duplicates:
         df = df.drop_duplicates()
@@ -834,7 +844,7 @@ def load_payment_recovery_details_file(conn):
     load_csv_to_sqlite(PAYMENT_RECOVERY_DETAILS_PATH, "payment_recovery_details", conn)
 
 def load_payment_confirmed_fraud_file(conn):
-    load_csv_to_sqlite(PAYMENT_CONFIRMED_FRAUD_PATH, "payment_confirmed_fraud", conn)
+    load_csv_to_sqlite(PAYMENT_CONFIRMED_FRAUD_PATH, "payment_confirmed_fraud", conn, converters={"Fiscal_Year": fiscal_year_as_int})
 
 def load_program_compliance_file(conn):
     load_csv_to_sqlite(PROGRAM_COMPLIANCE_PATH, "program_compliance", conn)
@@ -859,13 +869,13 @@ def load_eligibility_themes_descriptions_file(conn):
     load_csv_to_sqlite(ELIGIBILITY_THEMES_DESCRIPTIONS_PATH, "eligibility_themes_descriptions", conn)
 
 def load_recovery_amounts_file(conn):
-    load_csv_to_sqlite(RECOVERY_AMOUNTS_PATH, "recovery_amounts", conn)
+    load_csv_to_sqlite(RECOVERY_AMOUNTS_PATH, "recovery_amounts", conn, converters={"Fiscal_Year": fiscal_year_as_int})
 
 def load_survey_root_cause_file(conn):
     load_csv_to_sqlite(SURVEY_ROOT_CAUSE_PATH, "survey_root_cause", conn)
 
 def load_ip_root_causes_file(conn):
-    load_csv_to_sqlite(IP_ROOT_CAUSES_PATH, "ip_root_causes", conn)
+    load_csv_to_sqlite(IP_ROOT_CAUSES_PATH, "ip_root_causes", conn, converters={"Fiscal_Year": fiscal_year_as_int})
 
 def load_actions_date_mapping_file(conn):
     load_csv_to_sqlite(ACTION_DATE_MAPPING_PATH, "actions_date_mapping", conn)

@@ -2,96 +2,6 @@
 Agency: USDA
 Agency_Name: Department of Agriculture
 Data_By_Year:
-- Agency_Needs_Satisfied: The agency has the necessary internal controls human capital,
-    and information systems and other infrastructure support to reduce IPs and UPs.  The
-    rate was reduced by more than 30% from the previous year.  This is a significant
-    accomplishment and a strong indication that the internal controls are working.
-  Confidence_Level: '>90%'
-  Corrective_Actions_Proportion: "•FSA’s New Internal Review Documentation and Tracking\
-    \ System (IRDTS) - FSA has invested in developing IRDTS, a centralized, automated\
-    \ internal control tracking system that allows FSA Management (at all levels)\
-    \ to complete and track internal program audits and reviews.  IRDTS allows FSA\
-    \ to incorporate manual-paper based internal control processes in Service Centers\
-    \ into automated processes.  The objectives for IRDTS are to improve and enhance\
-    \ oversight capabilities to State and National program managers and formally document\
-    \ review results for program analysis.  LFP is scheduled to implement a review\
-    \ in FY22.  \n•Establishing Annual Compliance Training - Training will be required\
-    \ to create awareness and prepare new and existing employees with the tools to\
-    \ confidently handle situations, protecting Agency’s values, policies, and commitment\
-    \ to applicable compliance laws.  Annual training will be established for all\
-    \ FSA employees.  The estimated timeframe for establishing this training is by\
-    \ January 30, 2022. \n•National LFP training was held in March 18, May 5, June\
-    \ 24, and September 30, 2020 to review policy,  common program questions and to\
-    \ discuss root causes of FY 2020 improper payments and policy review associated\
-    \ with those findings.  This training was conducted at a more localized level\
-    \ providing smaller sessions to individual states as they triggered for program\
-    \ implementation versus having one national training that may only affect a small\
-    \ portion of the nation at the time of training.  \n•A monthly LFP policy/software\
-    \ call with state specialists has been established to review program policy and\
-    \ procedures, discuss any questions submitted.   \n"
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Failure_to_Access_Data: true
-  Hide_Underpayments_Inability_to_Access_Data: true
-  IP_Current_Year_Plus_1_Amount: 17.02
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.0799061033
-  Improper_Payments_Rate: 8.00150972
-  Insufficient_Documentation_to_Determine: 0.0
-  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
-  Margin_of_Error: '3.0'
-  Non_Monetary_Loss_Amount: '11.82'
-  Outlays: 158.97
-  Outlays_Current_Year_Plus_1_Amount: 213
-  Payment_Accuracy_Rate: 91.99849028118513
-  Program_Design_or_Structural_Issue: 11.82
-  Start_Date: 10/2019
-  Technical_IP_Amount: '11.82'
-  Unknown_Curent_Year_Plus_1_Amount: 0
-  Unknown_Payments_Rate: 0
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.9
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '0.9'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.0'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: "Farm Service Agency continues to strategically take the\
     \ necessary steps to strengthen internal controls measures, establish uniform\
     \ consistency for compliance processes, and improve accountability. Farm Service\
@@ -977,7 +887,7 @@ Data_By_Year:
     \ reviews by FPAC-PAR, serve as validation checkpoints to measure whether the\
     \ control environment is preventing improper payments and correcting deficiencies.\n"
   IP_Unknown_Target_Rate: 0.063
-  Improper_Payments_Rate: 6.4121451222
+  Improper_Payments_Rate: 6.41214512
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '3.285'
   Non_Monetary_Loss_Amount: '18.36'
@@ -1034,6 +944,252 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
+- Agency_Needs_Satisfied: "The Livestock Forage Disaster Program (LFP) has established\
+    \ internal controls, training programs, management reviews, monitoring activities,\
+    \ and technology improvement initiatives to reduce improper payments and maintain\
+    \ payment integrity within LFP. These internal control activities include National\
+    \ and State Office training, monthly policy review calls, State Executive Director\
+    \ Delegate Reviews, and ongoing monitoring of PIIA findings and software / audit\
+    \ support tool modernization, all focused on addressing the primary improper payment\
+    \ root causes. \n\nFSA continues to invest in human capital through targeted training\
+    \ and oversight activities to strengthen employee knowledge of eligibility, compliance,\
+    \ and documentation requirements.  \n\nIn addition, planned FY2027 enhancements\
+    \ through the LFP software modernization project are expected to improve information\
+    \ systems and internal controls by providing additional eligibility validations,\
+    \ compliance checks, and audit support tools. Together, these internal controls,\
+    \ personnel investments, and technology improvements position the program to continue\
+    \ reducing improper payments and maintaining effective payment integrity oversight\
+    \ while evaluating the cost-effectiveness of future investments. \n\nThe Agency\
+    \ notes that full implementation of this plan is contingent on the available staffing\
+    \ and resources component. However. like many federal programs operating within\
+    \ evolving budget environments, LFP will continue adapting implementation timelines\
+    \ and oversight procedures based on capacity constraints, while prioritizing core\
+    \ program integrity functions."
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: "The Livestock Forage Disaster\
+    \ Program (LFP) has prioritized corrective actions that directly address the primary\
+    \ root cause categories identified through FY 2026 payment integrity testing:\
+    \ Statutory Requirements Not Met and Failure to Access Data/Information Needed.\
+    \ Identified root causes included inaccurate administrative processing, missing\
+    \ eligibility verification, and documentation review deficiencies. Corrective\
+    \ actions are implemented through national and state-level training, issuance\
+    \ of annual payment integrity directives, monthly LFP policy calls, and State\
+    \ Executive Director (SED) Delegate Reviews.  \n\nNational LFP training was conducted\
+    \ in Aug. 2026, followed by State and then County Office training by Sept. 2026,\
+    \ ensuring that guidance and corrective actions were consistently implemented\
+    \ throughout the Agency. These actions are focused on the specific causes of improper\
+    \ payments, including deficiencies in eligibility determinations, acreage reporting,\
+    \ lease documentation, Adjusted Gross Income (AGI) compliance, and required certifications.\
+    \  \n\nThese corrective actions are adequate because they combine training, management\
+    \ oversight, and monitoring activities targeted at the error types identified\
+    \ through the payment integrity reviews. For example, SED Delegate Reviews require\
+    \ review of the first five LFP applications processed by participating counties,\
+    \ providing an additional control to identify and correct errors before they become\
+    \ systemic. Review results are tracked and used to identify counties requiring\
+    \ additional oversight or training, demonstrating both effective implementation\
+    \ and prioritization of corrective actions.  \n\nPlanned FY 2027 actions, including\
+    \ LFP software modernization, will further strengthen eligibility validations,\
+    \ compliance reviews, internal controls, and audit capabilities. \n\nCollectively,\
+    \ these actions are expected to reduce improper payments and maintain or lower\
+    \ the improper payment rate by improving compliance with statutory requirements,\
+    \ strengthening review of supporting documentation, and preventing any recurring\
+    \ administrative errors before payment approval."
+  Corrective_Actions_Appropriateness: "Corrective Actions Taken: \nFSA implemented\
+    \ training and audit corrective actions to strengthen compliance with eligibility\
+    \ requirements and improve review of supporting documentation.  \n\nTraining:\
+    \   \n-Continued Monthly Livestock Disaster Program calls with State Office program\
+    \ specialists that incorporate policy review, training, and discussion of recurring\
+    \ program issues and improper payment trends. These calls remain ongoing and provide\
+    \ continuous reinforcement of eligibility, compliance, and documentation requirements.\
+    \ State specialists then provide the training to their county offices. Focused\
+    \ training occurred in: \n-In Feb. 2026, FY 2025 PIIA results and FSA Notice IA-14\
+    \ (FY 2025 National Payment Integrity Reviews for DAFP (Deputy Program Administrator\
+    \ for Farm Programs) Programs) were reviewed.   \n-In Sept. 2026, national training\
+    \ questions received were reviewed, providing answers with statutory and policy\
+    \ references. \n-In Jan. 2026, FSA Notice IA-14 was issued, providing State and\
+    \ County Offices with information for training and guidance on FY 2025 PIIA review\
+    \ findings for LFP and other DAFP programs. The notice outlined common error trends,\
+    \ provided policy references for each finding, identified required corrective\
+    \ actions, and reinforced the use of the CCC-770 (LFP Checklist) and State Executive\
+    \ Director Delegate Reviews to support accurate eligibility determinations and\
+    \ payment approvals. The notice served as a foundational training resource for\
+    \ State and County Offices and was used to increase awareness of payment integrity\
+    \ requirements and strengthen compliance with program policies. \n-In Aug. 2026,\
+    \ national LFP training was conducted for State Office program specialists with\
+    \ emphasis on acreage reporting requirements, lease documentation, eligibility\
+    \ determinations, compliance requirements, and recurring PIIA findings. Following\
+    \ the national training, all State Offices completed training for County Office\
+    \ staff by Sept. 2026.  \n\nAudit:  \nSED Delegate Reviews, pursuant to FSA Notice\
+    \ LFP-6 (CCC-770 LFP District Director (DD) Reviews), issued August 15, 2025,\
+    \ FSA strengthened internal controls by enhancing the CCC-770 LFP review and reporting\
+    \ process. DDs or authorized delegates are required to review the first five LFP\
+    \ applications submitted in each Service Center before approval or disapproval\
+    \ to verify eligibility determinations, supporting documentation, payment calculations,\
+    \ and compliance with program requirements. Review findings and corrective actions\
+    \ are documented through the Internal Control Reviews SharePoint and monitored\
+    \ by State and National Offices to identify common findings, target training opportunities,\
+    \ strengthen oversight, and improve program administration. These reviews continue\
+    \ to serve as a key preventive control for identifying and correcting errors before\
+    \ improper payments are issued.  \n\nThese training and audit activities assist\
+    \ in addressing both root cause categories of Statutory Requirements Not Met and\
+    \ Failure to Access Data/Information Needed by identifying processing errors before\
+    \ they become widespread and reinforcing compliance with program requirements.\n\
+    \nCorrective Actions Planned: \nIn FY 2027, LFP will focus on automation modernization,\
+    \ targeted training, and continued oversight to address the causes of improper\
+    \ payments identified in FY 2026. These efforts are intended to strengthen eligibility\
+    \ and compliance reviews, improve internal controls, and reduce the risk of recurring\
+    \ payment errors. \n\nAutomation (FY 2027 Q2, Q3):\nThe LFP software modernization\
+    \ project is expected to include enhanced system validations for eligibility and\
+    \ compliance requirements, along with tools designed to support internal controls,\
+    \ management oversight, and targeted audits. These planned enhancements will continue\
+    \ to help mitigate findings related to statutory compliance by validating required\
+    \ eligibility criteria before payment issuance and will reduce findings associated\
+    \ with missing or unsupported documentation by strengthening system controls and\
+    \ review capabilities.\n\nTraining (Continuous throughout FY 2027):\n-Monthly\
+    \ Livestock Disaster Program calls with State Office program specialists that\
+    \ incorporate policy review, training, and discussion of recurring program issues\
+    \ and improper payment trends will remain ongoing and provide continuous reinforcement\
+    \ of eligibility, compliance, and documentation requirements. State specialists\
+    \ then provide the training to their county offices.  \n-In Nov. 2026, FY 2026\
+    \ PIIA review results will be reviewed in alignment with statutory and policy\
+    \ references.   \n-The annual Integrity and Accountability (IA) Notice will be\
+    \ issued, notifying State and County Offices of FY 2026 PIIA results, policy reminders,\
+    \ corrective action requirements, and training guidance. The notice will highlight\
+    \ common findings, provide policy references, reinforce eligibility and compliance\
+    \ requirements, and support National and State-led training efforts for County\
+    \ Office staff. \n-Training will be conducted after completion of LFP software\
+    \ modernization. \n-In FY2027, the LFP software modernization project is expected\
+    \ to enhance this process through improved internal controls, automated eligibility\
+    \ and compliance validations, management oversight tools, and audit capabilities\
+    \ that support early identification and prevention of payment errors.  \n\nCorrective\
+    \ actions completed during FY2026 and planned for FY2027 are intended to reduce\
+    \ the frequency of improper payments through a combination of training, management\
+    \ oversight, monitoring, and automated system controls. Completed actions have\
+    \ strengthened employee awareness and management review processes, while the planned\
+    \ software modernization effort is expected to provide additional internal controls\
+    \ to improve compliance, support payment accuracy, and reduce the risk of future\
+    \ improper payments."
+  Corrective_Actions_Proportion: "The corrective actions implemented and planned by\
+    \ the Livestock Forage Disaster Program (LFP) are commensurate with LFP’s FY 2026\
+    \ improper payment rate of 4.55 percent and the associated improper payment amount\
+    \ of $41.56M of $913.56B in outlays. The actions are specifically designed  to\
+    \ address the two primary cause categories identified through payment integrity\
+    \ testing: Failure to Access Data/Information Needed ($22.68M) and Statutory Requirements\
+    \ Not Met, ($18.87M). Both root causes were primarily attributable to the following\
+    \ root causes inaccurate administrative processing, missing eligibility verification,\
+    \ and documentation review deficiencies. LFP prioritized corrective actions focused\
+    \ on employee training, management oversight, and internal control reviews.  \
+    \ \n\nDuring FY 2026, National LFP training, State, and County Office training,\
+    \ monthly policy review calls, and annual payment integrity guidance reinforced\
+    \ requirements related to eligibility determinations, acreage reporting, lease\
+    \ documentation, AD-1026 (Highly Erodible Land Conservation (HELC) and Wetland\
+    \ Conservation (WC) Certification) certifications, and Adjusted Gross Income (AGI)\
+    \ compliance. \n\nLFP also continued State Executive Director (SED) Delegate Reviews\
+    \ which provide an additional level of oversight through application reviews and\
+    \ identification of processing errors requiring corrective action. These activities\
+    \ are appropriate given that all FY 2026 overpayments were determined to be within\
+    \ the Agency's control and can be mitigated through strengthened oversight and\
+    \ compliance reviews.  \n\nIn FY 2027, FSA will build on these efforts through\
+    \ LFP software modernization, which is expected to incorporate enhanced eligibility\
+    \ validations, internal controls, management reporting, and audit capabilities.\
+    \ Collectively, these completed and planned actions represent a comprehensive\
+    \ and risk-based approach that is aligned with the magnitude of the improper payment\
+    \ amount and is expected to strengthen program compliance, improve payment accuracy,\
+    \ and reduce future improper payment rates."
+  End_Date: 09/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Accountability_Description: Performance standards in Agency notices, including
+    FSA Notices PM 3051 and PM 3068, established mandatory criteria for internal control
+    implementation, maintenance, and oversight, including integrating controls into
+    program processes, analyzing data for risks, elevating concerns, and completing
+    corrective actions within required timeframes. As outlined in the previous Notices
+    mentioned, these standards apply to positions such as State Executive Directors,
+    District Directors, County Executive Directors, headquarters supervisors, and
+    program specialists, who are accountable for preventing improper payments and
+    detecting and correcting overpayments. To view the most recent mandatory performance
+    plans templates, see FSA Notice PM-3088 FY2025 Performance Plans.
+  IP_Unknown_Target_Rate: 0.045
+  Improper_Payments_Rate: 4.5481413372
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '3.122'
+  Non_Monetary_Loss_Amount: '18.87'
+  Outlays: 913.56
+  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app3]Training'
+  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp6]Audit'
+  Payment_Accuracy_Rate: 95.4507640439599
+  Program_Additional_Information: The agency reviewed and refined FY 2026 testing
+    criteria so that payments are evaluated solely against statute and regulation,
+    consistent with Appendix C to OMB Circular A-123 (M-21-19). This update will result
+    in more accurate and compliant assessments of improper payments. This refinement
+    is a critical driver of our reduced improper payment rates in FY 2026. By aligning
+    testing strictly with statutory and regulatory requirements, FSA and PAR now ensure
+    improper payments are accurate and compliant with regulatory criteria.
+  Program_Design_or_Structural_Issue: 18.87
+  Resources_Requested_For_IP: The Livestock Forage Disaster Program (LFP) did not
+    submit a budget request for FY 2026 related to payment‑integrity needs as current
+    internal controls and system infrastructure are sufficient to maintain improper
+    payment levels within acceptable thresholds. Planned improvements are being developed
+    through ongoing enterprise modernization efforts. Staff training needs have been
+    met through updated curriculum delivered in FY 2026, and no additional funding
+    is required to sustain these improvements. As a result, the program has the resources
+    necessary to maintain and further reduce improper payments without requiring new
+    or expanded budget authority.
+  Start_Date: 10/2024
+  Technical_IP_Actions_Planned: '[app1]Automation, [app3]Training'
+  Technical_IP_Actions_Taken: '[atp3]Training, [atp6]Audit'
+  Technical_IP_Amount: '18.87'
+  Unknown_Payments_Rate: 0
+  Year: 2026
+  detail_IP_Causes: 'The causes of the improper payments identified were statutory
+    requirements not met and failure to access data.
+
+
+    County office staff were contacted to establish the root cause of each improper
+    payment. Root causes were attributed mostly to human error, training and oversight
+    issues. Examples include information lost from emails and paper files and working
+    with a mix of manual documents and information in software systems. Lack of familiarity
+    with program requirements, reported by newer staff or in cases of more complex
+    scenarios resulted in improper payments.'
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '22.68'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '4.5'
+  eligibility_aggregated:
+  - Theme: Other
+    Theme_Description: Accurate acreage reporting
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 22.68
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '22.68'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Underpayments_Amount: '0.0'
 Description: LFP provides payments to eligible livestock producers who have covered
   livestock and are producers of grazed forage crop acreage that have suffered a grazing
   loss due to a qualifying drought or fire during the normal grazing period for the
@@ -1043,32 +1199,32 @@ Description: LFP provides payments to eligible livestock producers who have cove
   requirements. Most errors could be resolved through additional resources to provide
   human capital and software enhancement; however, known barriers primarily are a
   result of lack of funding and resources.
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[0.9, 15.85, 27.78, 102.19, 58.68]'
-Payment_Accuracy_Amounts: '[146.25, 502.54999999999995, 1065.06, 1601.4199999999998,
-  1124.43]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[15.85, 27.78, 102.19, 58.68, 22.68]'
+Payment_Accuracy_Amounts: '[502.54999999999995, 1065.06, 1601.4199999999998, 1124.43,
+  872.01]'
 Phase_2_Program: 0
 Program_Name: Commodity Credit Corporation (CCC) Livestock Forage Disaster Program
 Scorecard_Links:
-- Link: assets/scorecards/Q1 2025/Commodity Credit Corporation (CCC) Livestock Forage
-    Disaster Program (LFP).pdf
-  QuarterYear: Q1 2025
-- Link: assets/scorecards/Q2 2025/Commodity Credit Corporation (CCC) Livestock Forage
-    Distaster Program (LFP).pdf
-  QuarterYear: Q2 2025
-- Link: assets/scorecards/Q3 2025/Commodity Credit Corporation (CCC) Livestock Forage
-    Distaster Program (LFP).pdf
-  QuarterYear: Q3 2025
 - Link: assets/scorecards/Q4 2025/Commodity Credit Corporation (CCC) Livestock Forage
     Distaster Program.pdf
   QuarterYear: Q4 2025
-Technically_Improper_Amounts: '[11.82, 35.03, 140.62, 134.9, 18.36]'
-Underpayment_Amounts: '[0, 0.62, 0.15, 0, 0]'
+- Link: assets/scorecards/Q3 2025/Commodity Credit Corporation (CCC) Livestock Forage
+    Distaster Program (LFP).pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q2 2025/Commodity Credit Corporation (CCC) Livestock Forage
+    Distaster Program (LFP).pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q1 2025/Commodity Credit Corporation (CCC) Livestock Forage
+    Disaster Program (LFP).pdf
+  QuarterYear: Q1 2025
+Technically_Improper_Amounts: '[35.03, 140.62, 134.9, 18.36, 18.87]'
+Underpayment_Amounts: '[0.62, 0.15, 0, 0, 0]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/10.109
 layout: program-specific

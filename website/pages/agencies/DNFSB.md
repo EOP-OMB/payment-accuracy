@@ -3,16 +3,16 @@ Agency: DNFSB
 Agency_Name: Defense Nuclear Facilities Safety Board
 Confirmed_Fraud: 0.0
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
 Hide_PIIA2019: false
-Hide_Recovery_Audits: true
+Hide_Recovery_Audits: false
 Hide_Recovery_Details: true
-Hide_Recovery_Info: true
+Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
 Hide_Supplemental_Info: false
@@ -48,12 +48,12 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Salaries and Expenses (Direct)
     Slug: null
     Susceptible: 'No'
-  SubstantialChangesMade: null
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -61,69 +61,88 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-detail_Additional_IP_Information: "At the conclusion of the Fiscal Year (FY) 2024\
-  \ Performance Audit of DNFSB’s compliance with the Payment Integrity Information\
-  \ Act, the OIG determined that DNFSB complied with the requirements of the PIIA\
-  \ for FY 2024. The OIG also assessed DNFSB’s compliance with OMB guidance and corresponding\
-  \ reporting instructions and determined that DNFSB met the applicable requirements\
-  \ for PIIA compliance for the one program identified as susceptible to improper\
-  \ payments (IP) or unknown payments (UP). The OIG found DNFSB’s reporting of and\
-  \ performance in reducing and recapturing IPs and UPs to be generally accurate and\
-  \ complete. \n\nDNFSB maintains payment integrity by executing internal controls\
-  \ over each payment to mitigate any risk of improper payment and prevent fraud,\
-  \ waste and abuse.  DNFSB works with its shared service provider Department of Interior,\
-  \ Interior Business Center (DOI/IBC) for accounting system support and accounts\
-  \ payable processing.  The agency and DOI/IBC ensure all requirements for Payment\
-  \ Integrity Information Act (PIIA) are properly documented and completed.\n"
+detail_Additional_IP_Information: Not applicable
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: "The implementation of the Do Not Pay (DNP) initiative is a\
-  \ joint responsibility between DNFSB and the shared service provider, Department\
-  \ of Interior, Interior Business Center (DOI/IBC). When an agency submits requests\
-  \ to add a new supplier in IBC’s Oracle Financial System (OFF), IBC’s Vendor Maintenance\
-  \ Team uses the DNP Online Portal to review the supplier data to ensure that they\
-  \ are not listed as in DNP as ineligible to receive payments from government agencies\
-  \ before being established in OFF. This action ensures that suppliers in Oracle\
-  \ are all valid at the time of creation and is one of the steps to prevent improper\
-  \ payments for customer agencies.  \n\nIn addition to validating the supplier on\
-  \ the DNP portal, IBC also uses a custom solution to evaluate each vendor record\
-  \ against various approved data sources that house records indicating payments should\
-  \ not be made by a federal agency. DNFSB evaluates the data in the financial system\
-  \ and confirms the suppliers are eligible for payment.  All suppliers submitted\
-  \ by DNFSB in Fiscal Year 2025 were eligible to receive payments from the government.\
-  \  \n"
+detail_DNP_Discussion: "The implementation of the Do Not Pay [DNP] initiative is a\
+  \ joint responsibility between DNFSB and our shared service provider, Interior Business\
+  \ Center [IBC].  DNFSB utilizes IBC’s Oracle Federal Financials [OFF] shared services\
+  \ solution to create and maintain our financial management processes and business\
+  \ solutions.\n\nTreasury’s DNP portal offers multiple options [such as Online Search,\
+  \ Batch Monitoring, Continuous Monitoring, Payment Integration, and Web Service/API]\
+  \ for agencies to validate their supplier data against DNP approved data sources.\
+  \ IBC utilizes the “Online Search” and “Continuous Monitoring” services that help\
+  \ identify suppliers that may need to be inactivated in OFF and help prevent improper\
+  \ payments based on this data.\n\nEach week IBC interfaces all Non-Federal and Employee\
+  \ Vendors to DNP, which evaluates each vendor record against various approved data\
+  \ sources that house records indicating payments should not be made by a federal\
+  \ agency:\n1.\tDeath Screening: IBC’s Vendor Management process has been enhanced\
+  \ to monitor vendor records that have Match Source = DMF [Death Master File] and\
+  \ Match Level = Conclusive and proactively end-date the matched suppliers in Oracle.\
+  \ Given this change, IBC has not encountered any records with “Potential Returns”\
+  \ in production for our customer agencies.\n2.\tTIN Validation: IBC’s Out-of-the-box\
+  \ solution already transmits the required data elements to meet Treasury’s TIN Validation\
+  \ requirement. However, IBC is working with Treasury DNP team and PAM team to analyze\
+  \ the data against the TIN validation rules. IBC is actively work on TIN Validation\
+  \ errors and to identify and implement a solution to prevent “Potential Returns”\
+  \ on payments.\n3.\tBank Account Verification: Treasury has released the standards\
+  \ for Bank Account Verification process. IBC is currently validating the requirements\
+  \ and will work with Treasury and should there be any questions in this process.\
+  \ \n\nIBC shares results of each DNP evaluation weekly with DNFSB using IBC’s Oracle\
+  \ Analytic Server [OAS] reporting system.  DNFSB evaluates the data in the financial\
+  \ system and confirms the suppliers are eligible for payment.  All suppliers submitted\
+  \ by DNFSB in FY 2026 were eligible to receive payments from the government.  \n"
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: 'DNFSB conducts periodic review of all programs and activities
-  to identify those that may be susceptible to improper payments.  In Fiscal Year
-  (FY) 2023, DNFSB performed a risk assessment of outlays exceeding $10 million, based
-  on OMB guidance M-21-19, annual Improper Payment (IP) or Unknown Payment (UP) above
-  $10,000,000 and 1.5% of the program’s total annual outlays are considered to be
-  above the statutory threshold.  As a result, the overall DNFSB risk score is low,
-  below the statutory threshold, and is deemed not susceptible to improper payments;
-  comprehensive risk assessments are not required for any DNFSB programs.  The next
-  risk assessment is scheduled for FY 2026.
-
-
-  Throughout the year, DNFSB maintains payment integrity by executing internal controls
-  over each payment to mitigate any risk of improper payments and prevent fraud, waste
-  and abuse.
-
-  '
-detail_OIG_Recommendations: null
+detail_Executive_Summary: "DNFSB maintains payment integrity by executing internal\
+  \ controls over all payments to mitigate any risk of improper payment and prevent\
+  \ fraud, waste and abuse.  DNFSB also conducts periodic reviews of all programs\
+  \ and activities to identify those that may be susceptible to improper payments.\
+  \  \n\nIn Fiscal Year [FY] 2026, DNFSB performed a tri-annual Improper Payment [IP]\
+  \ Risk Assessment of outlays exceeding $10 million, based on Office of Management\
+  \ and Budget (OMB) guidance M-21-19.  DNFSB’s assessment identified one program\
+  \ with outlays above the statutory threshold of $10 million and 1.5% of the total\
+  \ annual outlays.  As required, this program underwent a qualitative risk assessment\
+  \ to determine susceptibility to improper payments (IP) or unknown payments (UP).\
+  \ As a result, DNFSB determined that this program is not susceptible to IP or UP,\
+  \ so a payment recapture audit is not cost effective.  The next IP Risk Assessment\
+  \ is scheduled for FY 2029.\n\nAdditionally, in FY 2026, the Office of the Inspector\
+  \ General [OIG] conducted a performance audit of the DNFSB’s compliance with the\
+  \ Payment Integrity Information Act of 2019 [PIIA] for FY 2025. Based on the procedures\
+  \ performed and the evidence obtained, the OIG concluded that DNFSB met the applicable\
+  \ PIIA compliance requirements for the one program identified with annual outlays\
+  \ exceeding $10 million.  The OIG also confirmed that DNFSB published the required\
+  \ payment integrity information in the accompanying materials to its FY 2025 Agency\
+  \ Financial Report [AFR]. The OIG confirmed that DNFSB’s FY 2025 reporting related\
+  \ to IP and UP prevention, identification, and recovery activities was consistent\
+  \ with the requirements of the PIIA and applicable OMB guidance. Additionally, the\
+  \ OIG verified DNFSB’s conclusion that a payment recapture audit would not be cost\
+  \ effective, as the program did not incur IPs or UPs that met the PIIA threshold\
+  \ for testing.\n"
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
 detail_Recovery_Justifications_Audits: null
-detail_Recovery_Not_Cost_Effective_Justification: null
-detail_Risks_Substantial_Changes_Made: null
+detail_Recovery_Not_Cost_Effective_Justification: DNFSB determined that conducting
+  recovery audits is not cost effective because the FY 2026 Improper Payment Risk
+  Assessment found that the agency’s only program with outlays above the $10 million
+  threshold is not susceptible to improper or unknown payments. Since the program
+  did not incur improper payments at levels that meet statutory thresholds for testing,
+  the expected return from a recovery audit would not justify the cost of performing
+  one. The Office of the Inspector General later confirmed these conclusions during
+  its FY 2025 PIIA compliance audit, validating that a payment recapture audit would
+  provide minimal benefit. As a result, DNFSB determined that resources are better
+  allocated to maintaining existing internal controls rather than conducting recovery
+  audits.
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/DNFSB.html
 recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0

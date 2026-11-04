@@ -1,104 +1,7 @@
 ---
 Agency: DOW
-Agency_Name: Department of War
+Agency_Name: Department of Defense
 Data_By_Year:
-- Agency_Needs_Satisfied: "Internal Controls \nThe Navy has internal controls in place\
-    \ that support the reduction of improper payments in its Military Pay program\
-    \ to the levels the Department has targeted.  Moreover, Military Pay Services,\
-    \ which support the end-to-end delivery of payroll processing services, received\
-    \ an unmodified System and Organizational Control (SOC) 1 Type 2 report under\
-    \ Statement on Standards for Attestation Engagements (SSAE) No. 18 in FY 2021.\n\
-    Human Capital\nThe Navy has the human capital it needs to reduce improper payments\
-    \ in the Military Pay program to the levels the Department has targeted.  However,\
-    \ as the Navy’s Military Pay program evolves and DoD operations change, additional\
-    \ skill sets and personnel resources may be needed to sustain and advance the\
-    \ program.\nInformation Systems and Other Infrastructure \nThe Navy has the information\
-    \ systems and other infrastructure it needs to reduce improper payments in the\
-    \ Military Pay program to the levels the Department has targeted.  However, as\
-    \ technology advances, the Navy and the Department continue to improve the accuracy\
-    \ and efficiency of Military Pay through implementation of new integrated pay\
-    \ and personnel processing systems.  The primary system currently used by the\
-    \ Navy and the Department to process Military Pay is the Defense Joint Military\
-    \ Pay System (DJMS).  The general and application controls of DJMS were included\
-    \ in the scope of the Military Pay Services FY 2021 Statement on Standards for\
-    \ Attestation Engagements (SSAE) No. 18 examination, which received an unmodified\
-    \ System and Organizational Control (SOC) 1 Type 2 report.  However, DJMS is a\
-    \ legacy entitlement system requiring manual handoffs and processing.  As such,\
-    \ the Navy continues to integrate its various active and reserve duty military\
-    \ personnel and pay systems into a single integrated solution called the Navy\
-    \ Personnel and Pay (NP2) System, with initial operating capabilities planned\
-    \ for FY 2022, and full operating capabilities in FY 2025.\nMoreover, the Automated\
-    \ Disbursing System, the Centralized Disbursing System, and the Deployable Disbursing\
-    \ System, which are the primary disbursing systems for the Department, received\
-    \ an unmodified SOC 1 Type 2 report under SSAE No. 18 in FY 2021.  \n"
-  Confidence_Level: '>95%'
-  Corrective_Actions_Proportion: 'The corrective actions taken for this program were
-    attributed to increase communication within the Department. This included establishing
-    a robust timeline to improve the key supporting documentation response process.
-    As a result of the corrective actions, the Military Pay - Navy program estimated
-    improper and unknown payments decreased by $45.97 million, from $51.40 million
-    in FY 2020 to $5.43 million in FY 2021.  '
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'No'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Within_Failure_to_Access_Data: true
-  Hide_Overpayments_Within_Inability_to_Access_Data: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: true
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Improper_Payments_Rate: 0.01717296
-  Insufficient_Documentation_to_Determine: 0.98
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '0.03'
-  Non_Monetary_Loss_Amount: '4.45'
-  Outlays: 25912.83
-  Payment_Accuracy_Rate: 99.97904512938186
-  Program_Design_or_Structural_Issue: 0.0
-  Start_Date: 10/2019
-  Technical_IP_Amount: '0.0'
-  Unknown_Payments_Rate: 0.0037819103509728574
-  Unknown_Why: 'Key supporting documentation was not provided in a timely manner to
-    the PIIA post payment review team to determine the validity of the sampled payment. '
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '0.0'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.0'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 4.45
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '4.45'
 - Agency_Needs_Satisfied: 'Internal Controls:
 
     The Navy has internal controls in place that support the reduction of improper
@@ -476,20 +379,20 @@ Data_By_Year:
     Theme_Description: The condition of being, or having been in the uniformed services
     Value: '0.390000'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023]'
-Overpayment_Amounts: '[0, 0.42, 0.00047]'
-Payment_Accuracy_Amounts: '[25907.4, 23784.230000000003, 24492.8793]'
+Improper_Payments_Data_Years: '[2022, 2023]'
+Overpayment_Amounts: '[0.42, 0.00047]'
+Payment_Accuracy_Amounts: '[23784.230000000003, 24492.8793]'
 Phase_2_Program: 0
 Program_Name: Military Pay - Navy
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0.59, 0.00023]'
-Underpayment_Amounts: '[4.45, 0.09, 0.39]'
-Unknown_Amounts: '[0.98, 0, 13.53]'
+Technically_Improper_Amounts: '[0.59, 0.00023]'
+Underpayment_Amounts: '[0.09, 0.39]'
+Unknown_Amounts: '[0, 13.53]'
 layout: program-specific
 permalink: program/dow-military-pay-navy
 ---

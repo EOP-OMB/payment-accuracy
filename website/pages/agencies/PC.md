@@ -3,7 +3,7 @@ Agency: PC
 Agency_Name: Peace Corps
 Confirmed_Fraud: 0.0
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -23,9 +23,9 @@ Improper_Payments_Rate_Min: 0
 Improper_Payments_Rates: '[]'
 Is_Placeholder: false
 Overpayment_Amounts: '[]'
-Overpayment_Amounts_Identified: '[0.153549, 0.22624118, 0.12600097, 0.095]'
-Overpayment_Amounts_Recovered: '[0.011867, 0.21109616, 0.07280847, 0.081]'
-Overpayment_Years: '[2022, 2023, 2024, 2025]'
+Overpayment_Amounts_Identified: '[0.153549, 0.22624118, 0.12600097, 0.095, 0.126]'
+Overpayment_Amounts_Recovered: '[0.011867, 0.21109616, 0.07280847, 0.081, 0.079]'
+Overpayment_Years: '[2022, 2023, 2024, 2025, 2026]'
 PIIA2019_Compliant_Programs:
 - Compliant_1A: true
   Compliant_1B: true
@@ -61,69 +61,56 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
+- 2026
+- 2025
 - 2025
 - 2024
+- 2024
 - 2023
+- 2023
+- 2022
 - 2022
 detail_Additional_IP_Information: null
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: 'Peace Corps uses the following DNP Portal services to verify
-  eligibility status of
-
-  payment recipients: Online Single Search, Continuous Monitoring, and Payment
-
-  Integration. We use the following DNP Databases: OFAC Online Single Search,
-
-  Continuous Monitoring, and Payment Integration for all USD payments processed via
-  Treasury. The Do Not Pay Working System has not reduced Improper Payments.'
+detail_DNP_Discussion: 'The Peace Corps uses the Do Not Pay Working System on a daily
+  basis for all payments processed by the U.S. Treasury and uses the following Do
+  Not Pay services to verify payment recipient eligibility: Online Single Search,
+  Continuous Monitoring, and Payment Verification. Peace Corps payments totaling $79.5
+  million were reviewed using Do Not Pay in FY 2026. Use of Do Not Pay has not reduced
+  improper payments at the Peace Corps.'
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: 'Peace Corps is a small agency operating under one program.
-  Peace Corps does not have activities that are susceptible to the threshold limits
-  for significant improper payments exceeding 1.5% of all activity disbursements made
-  during the fiscal year reported. The identified improper payments were 0.028% of
-  our total agency FY25 outlays.
-
-  Peace Corps performs a combination of invoice review, post-audit verification, and
-
-  sampling to ensure improper payments are prevented, identified, and recovered
-
-  whenever feasible. Peace Corps'' recovery rate in FY25 was 86%. Peace Corps
-
-  certifying officers review all invoices USDE 2,500 and above and perform weekly
-
-  reviews of sampled invoices (5%) below USDE 2500 for disbursements and monthly review
-  of all purchase card transactions. Any payments identified as improper are logged
-  and monitored quarterly for recovery steps. Follow up continues until recovery is
-  complete. If recovery is not possible, Peace Corps engages with Treasury CRS to
-  assist if internal efforts are unsuccessful. As a last resort, Peace Corps writes
-  off debts that are deemed uncollectable or not in the best interest of the agency.
-  Peace Corps'' agency compliance status is compliant.
-
-  '
-detail_OIG_Recommendations: null
+detail_Executive_Summary: The Peace Corps is a small agency operating under one major
+  program. The Peace Corps most recently conducted an Improper Payment Risk Assessment
+  for its one program in FY 2024 and concluded the program is not likely to have an
+  annual amount of improper payments and unknown payments above the statutory threshold.
+  The Peace Corps performs extensive advance certification reviews of payments in
+  excess of $2,500, as well as post-payment audits of disbursements on a continuous
+  basis to ensure improper payments are prevented, identified, and recovered whenever
+  feasible. Any payments identified as improper are logged and tracked until resolution.
+  The Peace Corps is compliant with requirements under the Payment Integrity Information
+  Act of 2019 (PIIA).
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
 detail_Recovery_Justifications_Audits: null
-detail_Recovery_Not_Cost_Effective_Justification: 'In general, the agency does not
-  make large payments that would be considered high risk (block grants, cost reimbursable
+detail_Recovery_Not_Cost_Effective_Justification: In general, the agency does not
+  make large payments that would be considered high-risk (block grants, cost-reimbursable
   contracts, payments in advance of performance, mandatory benefits payments). Additionally,
-  Peace Corps performs extensive advance certification reviews on any payments in
-  excess of $2500 as well as Post payment audits of disbursements on a continuous
+  the Peace Corps performs extensive advance certification reviews on any payments
+  in excess of $2,500 as well as post-payment audits of disbursements on a continuous
   basis. These preventative and recovery activities are an effective and efficient
-  way of identifying the limited instances of overpayments. Conducting a formal recovery
-  audit would not be cost-effective.
-
-  '
+  way of identifying the limited instances of improper payments. Conducting a formal
+  recovery audit would not be cost-effective.
 detail_Risks_Substantial_Changes_Made: null
 layout: agency-specific
 permalink: agency/PC.html
-recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.095
-recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.081
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.126
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.079
 recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

@@ -1,9 +1,9 @@
 ---
 Agency: RRB
 Agency_Name: Railroad Retirement Board
-Confirmed_Fraud: 1.33
+Confirmed_Fraud: 0.588
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -23,9 +23,9 @@ Improper_Payments_Rate_Min: 0
 Improper_Payments_Rates: '[]'
 Is_Placeholder: false
 Overpayment_Amounts: '[]'
-Overpayment_Amounts_Identified: '[79.94, 78.7, 92.3, 91.6, 94.5]'
-Overpayment_Amounts_Recovered: '[76.39, 69.6, 81.2, 79.7, 81.0]'
-Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts_Identified: '[78.7, 92.3, 91.6, 94.5, 95.8]'
+Overpayment_Amounts_Recovered: '[69.6, 81.2, 79.7, 81.0, 81.8]'
+Overpayment_Years: '[2022, 2023, 2024, 2025, 2026]'
 PIIA2019_Compliant_Programs:
 - Compliant_1A: true
   Compliant_1B: true
@@ -87,12 +87,12 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Employee Payments – Railroad Retirement Board
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Railroad Retirement Act
     Slug: null
@@ -102,7 +102,7 @@ Risks:
     Program_Name: Railroad Unemployment Insurance Act
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Vendor Payments – Railroad Retirement Board
     Slug: null
@@ -115,75 +115,119 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-- 2021
 detail_Additional_IP_Information: null
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: 'We have determined that our current business processes, data
-  sources, and the Do Not Pay Initiative are effective in detecting and preventing
-  benefit overpayments. As a benefit paying agency, the RRB receives pre-payment information
-  regarding benefit entitlement at other agencies and wage information. We have ongoing
-  data sources established and in use for this information, which includes benefit
-  entitlement and wages from SSA, employers, and our application process. We also
-  receive post-payment wage information through established sources such as wage matching
-  programs with the fifty states. In addition, we receive death data directly from
-  SSA and CMS, which provides us with detailed death information.
+detail_DNP_Discussion: 'The agency has determined that our current business processes,
+  data sources, and the Do Not Pay Initiative are effective in detecting and preventing
+  benefit overpayments. As a benefits paying agency, the RRB receives pre-payment
+  information regarding benefit entitlement at other agencies and wage information.
+  We have ongoing data sources established and in use for this information, which
+  include benefit entitlement and wage data from SSA, employers, and our application
+  process. We also receive post-payment wage information through established sources
+  such as the State Wage Match program. In addition, we receive death data directly
+  from SSA and CMS, which provides detailed and timely death information. Collectively,
+  these data exchanges enable the RRB to verify eligibility prior to payment and to
+  identify post-payment changes that may affect benefit amounts. When combined with
+  internal business rules and review procedures, these data sources form a comprehensive
+  framework for minimizing
 
-  '
-detail_DNP_Frequency_Identify: Monthly
+  improper payments and maintaining payment accuracy. The RRB uses Do Not Pay Payment
+  Verification services daily and monthly as a pre-payment control to screen benefit
+  payments against multiple data sources, including the Death Master File (DMF). Current
+  results indicate that Do Not Pay provides an additional layer of review and supports
+  existing controls. Match rates to date remain below one percent of total payments;
+  in FY 2026 to date, Do Not Pay screened 4.49 million RRB payments totaling $12.13
+  billion and matched 4.87 thousand in payments (totaling $12.71 million) via DMF
+  data.'
+detail_DNP_Frequency_Identify: Daily
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: The RRB has benefit paying and non-benefit paying programs
-  with outlays over $10M. The benefit paying programs consist of railroad retirement
-  and survivor benefit (RRA) payments and railroad unemployment and sickness insurance
-  benefit (RUIA) payments. Non-benefit paying programs include vendor payments and
-  employee payments (payroll, travel, and other reimbursable expenses). During FY
-  2025, the RRB conducted a risk assessment for the RUIA program. The risk assessment
-  concluded that the program is still below the statutory thresholds for significant
-  improper payments under the Payment Integrity Information Act (PIIA) and shall remain
-  in Phase 1. In FY 2025, the Railroad Employee Equity and Fairness (REEF) Act was
-  signed into law and as a result, another risk assessment will be conducted for the
-  RUIA program in FY 2026.  Additionally, the RRA, vendor payments, and employee payments
-  programs are scheduled to conduct risk assessments in FY 2026.
-detail_OIG_Recommendations: null
+detail_Executive_Summary: "The RRB has benefit paying and non-benefit paying programs.\
+  \ The benefit paying programs consist of railroad retirement and survivor benefit\
+  \ (RRA) payments and railroad unemployment and sickness insurance benefit (RUIA)\
+  \ payments. Non-benefit paying programs include vendor payments and employee payments.\
+  \  The RRB’s benefit paying and non-benefit paying programs have consistently fallen\
+  \ below the statutory thresholds for “significant improper payments” as defined\
+  \ by the PIIA. As a result, these programs operate under Phase 1 guidance under\
+  \ OMB Circular A-123, Appendix C (M-21-19), which places them in a three-year risk\
+  \ assessment cycle unless there are major changes to the program that would require\
+  \ an earlier assessment.\n\nThe RRB’s OIG found the agency compliant with the PIIA\
+  \ in their most recent audit, “The Railroad Retirement Board Complied with the Payment\
+  \ Integrity Information Act for Fiscal Year 2024 (25-05).” One of the recommendations\
+  \ focused on consolidating the payment integrity portions of the separate assessable\
+  \ units within the Bureau of Fiscal Operations (BFO) and the Office of Programs\
+  \ (OP), into one Payment Integrity Assessable Unit (AU) for the entire agency. The\
+  \ RRB concurred with this recommendation and created a new Payment Integrity AU\
+  \ in fiscal year 2026. This new AU will follow the Enterprise Risk Management model,\
+  \ evaluate payment integrity risks and controls across BFO and OP, and will undergo\
+  \ full testing of control techniques in fiscal year 2027. The Payment Integrity\
+  \ AU has officials from both BFO and OP who are responsible for certifying each\
+  \ organization’s payment integrity controls.  The RRB is confident that this new\
+  \ AU will maintain and strengthen payment integrity for the agency.\n\nThe RRA program\
+  \ underwent its regularly scheduled risk assessment in FY 2026. The assessment reflected\
+  \ that the program continues to report estimates under the statutory thresholds\
+  \ of “significant improper payments” and should remain under Phase 1 guidelines.\
+  \ As a result, the next scheduled risk assessment for the RRA program will be in\
+  \ fiscal year 2029.  In the interim, the program will continue to undergo monitoring\
+  \ which includes quality assurance and validation reviews. The RRA program also\
+  \ features monitoring and program integrity activities including representative\
+  \ payee monitoring, parental custody monitoring, disabled ineligible persons included\
+  \ (IPI) monitoring, super-aged monitoring, and the centenarian program.    \n\n\
+  In regard to an RUIA risk assessment, the program is not scheduled for its next\
+  \ regular assessment until FY 2028.  However, the RRB considered whether passage\
+  \ of the Railroad Employee Equity and Fairness (REEF) Act, which permanently ended\
+  \ the 5.7% sequestration cut to RUIA and sickness benefits, constituted a major\
+  \ change to the RUIA program requiring an off-cycle assessment. OMB Circular A-123,\
+  \ Appendix C, indicates agencies have discretion to determine whether or not to\
+  \ proceed with such an assessment and should only do so if a particular factor (i.e.\
+  \ REEF) would be significant enough to “cause the program to become likely to make\
+  \ IPs and UPs that would collectively be above the statutory threshold.” Because\
+  \ agency systems were reprogrammed to prevent sequestration cuts, and REEF required\
+  \ retroactive payments for known amounts resulting from claims previously paid,\
+  \ REEF would not cause the program to become likely to make future IPs and UPs.\
+  \ Therefore, the agency did not complete an off-cycle assessment in FY 2026.\n\n\
+  Non-benefits-paying programs’ also conducted risk assessments in FY 2026 and results\
+  \ concluded that both vendor payments and employee payments continue to report under\
+  \ the statutory thresholds of $100 million or 10 million and 1.5% of each program’s\
+  \ outlays and should continue to report under Phase 1 guidelines. As a result, the\
+  \ vendor payments and employee payments programs are scheduled to conduct risk assessments\
+  \ in fiscal year 2029. Quality Assurance Reports (QARs) are performed by the Management\
+  \ Controls and Compliance Section and conducted annually during on-cycle and off-cycle\
+  \ years for Vendor and Employee Payment programs. QARs are used to validate the\
+  \ effectiveness and compliance of each program’s internal processes and procedures.\
+  \ The new Payment Integrity AU will further strengthen payment integrity efforts\
+  \ for the vendor payment and employee payment programs."
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
 detail_Recovery_Justifications_Audits: null
-detail_Recovery_Not_Cost_Effective_Justification: 'The agency remains diligent in
-  its efforts to recover overpayments and prevent improper payments. It conducts numerous
-  quality assurance reviews targeting vendor and employee payment programs. These
-  reviews form a robust monitoring framework that consistently yields a zero percent
-  error rate. The most recent results for Fiscal Year 2024 showed no evidence of improper
-  payments.
-
-
-  Additionally, the agency performs a bi-weekly payroll review that includes comparing
-  an HR Links report—showing hours certified by supervisors—with a General Services
-  Administration (GSA) report identifying payroll amounts for the same period. The
-  totals from these two reports are reconciled to ensure accuracy. To date,
-
-  this process has revealed no indication of improper payroll payments.
-
-
-  Given the effectiveness of current internal controls, implementing a formal payment
-  recapture audit program or alternative method for vendor and employee payments would
-  not be cost-effective. Overall, the agency''s existing activities constitute a comprehensive
-  and effective alternative to a formal recapture audit program.
-
-
-  Nevertheless, despite the agency’s rigorous controls, some improper payments may
-  still occur due to factors such as delayed or incomplete information.'
+detail_Recovery_Not_Cost_Effective_Justification: "The agency remains diligent in\
+  \ its efforts to recover overpayments and prevent improper payments. Quality Assurance\
+  \ Reports (QARs) targeting vendor and employee payment programs are conducted annually\
+  \ during on-cycle and off-cycle years. These reviews form a robust monitoring framework\
+  \ that consistently yields a zero percent error rate. The most recent results for\
+  \ Fiscal Year 2025 showed no evidence of improper payments. \n\nAdditionally, the\
+  \ agency performs a bi-weekly payroll review that includes comparing an HR Links\
+  \ report—showing hours certified by supervisors—with a General Services Administration\
+  \ (GSA) report identifying payroll amounts for the same period. The totals from\
+  \ these two reports are reconciled. To date, this process has revealed no indication\
+  \ of improper payroll payments. \n\nGiven the effectiveness of current internal\
+  \ controls, implementing a formal payment recapture audit program or alternative\
+  \ method for vendor and employee payments would not be cost-effective. Overall,\
+  \ the agency's existing activities constitute a comprehensive and effective alternative\
+  \ to a formal recapture audit program."
 detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/RRB.html
-recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 94.5
-recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 81.0
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 95.8
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 81.8
 recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

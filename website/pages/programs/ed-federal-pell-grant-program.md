@@ -2,90 +2,6 @@
 Agency: ED
 Agency_Name: Department of Education
 Data_By_Year:
-- Agency_Needs_Satisfied: 'FSA has the internal controls, human capital, and information
-    systems and other infrastructure needed to reduce IPs and UPs to the tolerable
-    rate. However, FSA must also continue to rely on controls established by external
-    entities that receive funds and make payments on behalf of FSA for programs including
-    Pell Grants and Direct Loans.  These entities are outside of FSA’s operational
-    control.  FSA will continue to leverage data from program reviews and Single Audit
-    Act compliance audits to identify and address root causes of IPs and UPs made
-    by external entities; however, any requirements for additional monitoring and
-    sources of data would require additional resources. FSA will also continue to
-    pursue implementation of the FUTURE Act to improve verification of applicants’
-    and borrowers’ income data. '
-  Confidence_Level: '>95%'
-  Corrective_Actions_Proportion: To effectively prevent Pell Grant IPs and UPs from
-    occurring, FSA evaluates the root causes of IPs and UPs identified. This root
-    cause analysis is used to help formulate effective correction actions. FSA prioritizes
-    efforts to prevent IPs and UPs from occurring, such as implementation of the FUTURE
-    Act.  When evaluating corrective actions to address the underlying root causes
-    of Pell Grant IPs and UPs, FSA considers whether the corrective action being contemplated
-    aligns with the program mission. For corrective actions that are implemented,
-    FSA monitors the status of the corrective actions through quarterly outreach to
-    corrective action owners, and collects closure evidence to evaluate the effectiveness
-    and progress of each individual mitigation strategy which informs whether the
-    corrective action can be refined, intensified, expanded, or should be discontinued
-    or replaced.
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  IP_Current_Year_Plus_1_Amount: 574.68
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.0197999322
-  Improper_Payments_Rate: 1.95130845
-  Insufficient_Documentation_to_Determine: 8.36
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '0.45'
-  Non_Monetary_Loss_Amount: '247.2'
-  Outlays: 26709.77
-  Outlays_Current_Year_Plus_1_Amount: 29490
-  Payment_Accuracy_Rate: 98.01739213778329
-  Program_Design_or_Structural_Issue: 97.32
-  Start_Date: 10/2019
-  Technical_IP_Amount: '97.32'
-  Unknown_Curent_Year_Plus_1_Amount: 9.22
-  Unknown_Payments_Rate: 0.031299408418717194
-  Unknown_Why: FSA is unable to discern whether these payments are proper or improper
-    due to insufficient documentation maintained by the related schools and/or their
-    auditors.
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 238.0
-    Financial: 207.06
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '238.0'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 35.99
-    Financial: 31.3113
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '35.99'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 149.88
-    Financial: 131.8944
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '149.88'
 - Agency_Needs_Satisfied: "FSA has the internal controls, human capital, and information\
     \ systems and other infrastructure needed to reduce IPs and UPs to the tolerable\
     \ rate. FSA continues to implement a multi-year corrective action plan to implement\
@@ -647,22 +563,6 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Overpayments_Outside_Control_Amount: '22.35'
-    Overpayments_Outside_Control_Why: 'The Pell Grant program structure per the Higher
-      Education Act of 1965 (HEA) requires that funds pass through an intermediary
-      non-federal entity (i.e., participating institutes of higher education) before
-      reaching the ultimate beneficiary (i.e., the student). FSA cannot control improper
-      payments made by institutions receiving FSA funding, because FSA does not control
-      the payment process (i.e., the distribution of the funds between the institution
-      and student). Errors made by institutions for incorrect financial aid determination,
-      credit balance deficiencies, student withdrawal deficiencies, and documentation
-      deficiencies are outside of FSA''s control.
-
-
-      The HEA does provide FSA authority to require the intermediary to impose certain
-      internal controls or mitigation strategies to prevent these IPs, and FSA exercises
-      this authority. FSA has established an integrated system of complementary oversight
-      functions to help prevent, detect, and recover IPs and UPs, and ensure compliance
-      by all participating institutions.'
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -1226,24 +1126,6 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Overpayments_Outside_Control_Amount: '19.71'
-    Overpayments_Outside_Control_Why: 'The Pell Grant program structure per the Higher
-      Education Act of 1965 (HEA) requires that funds pass through an intermediary
-      non-federal entity (i.e., participating institutes of higher education) before
-      reaching the ultimate beneficiary (i.e., the student). FSA cannot control improper
-      payments made by institutions receiving FSA funding, because FSA does not control
-      the payment process (i.e., the distribution of the funds between the institution
-      and student). Errors made by institutions for incorrect financial aid determination,
-      credit balance deficiencies, student withdrawal deficiencies, and documentation
-      deficiencies are outside of FSA''s control.
-
-
-      The HEA does provide FSA authority to require the intermediary to impose certain
-      internal controls or mitigation strategies to prevent these IPs, and FSA exercises
-      this authority. FSA has established an integrated system of complementary oversight
-      functions to help prevent, detect, and recover IPs and UPs, and ensure compliance
-      by all participating institutions.
-
-      '
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -1398,7 +1280,7 @@ Data_By_Year:
     identifying risks and potential improper payments made by schools. FSA has worked
     with fund recipients to resolve audit findings timely.'
   IP_Unknown_Target_Rate: 0.0107
-  Improper_Payments_Rate: 1.0534276213
+  Improper_Payments_Rate: 1.05342762
   Insufficient_Documentation_to_Determine: 5.91
   Margin_of_Error: '1.78'
   Non_Monetary_Loss_Amount: '83.00999999999999'
@@ -1499,6 +1381,244 @@ Data_By_Year:
     Failure_to_Access_Data: 6.13
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '6.13'
+- Agency_Needs_Satisfied: The Pell program achieved its tolerable rate. FSA has the
+    internal controls, human capital, and information systems and other infrastructure
+    needed to continue to maintain improper payment (IP) and unknown payment (UP)
+    estimates within the tolerable rate band. FSA must also continue to rely on controls
+    established by external entities that receive funds and make payments on behalf
+    of FSA for programs including Pell Grants. These entities are outside of FSA’s
+    operational control. FSA will continue to leverage data from program reviews and
+    Single Audit Act compliance audits to identify and address root causes of IPs
+    and UPs made by external entities.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: "The agency has demonstrated\
+    \ a strategic and targeted approach to implementing corrective actions, prioritizing\
+    \ those that directly address significant root causes of improper payments. By\
+    \ leveraging the authorities provided in the Fostering Undergraduate by Unlocking\
+    \ Resources for Education (FUTURE) Act, FSA developed and executed a corrective\
+    \ action plan to obtain federal tax information (FTI) directly from the IRS. This\
+    \ initiative, including the use of the Future Act Direct Data Exchange (FA-DDX)\
+    \ and FTI systems, automates the transfer of accurate income data for students\
+    \ and families directly from the IRS, significantly reducing the likelihood of\
+    \ misreported information on the Free Application for Federal Student Aid (FAFSA)\
+    \ form. The expansion of these solutions to include individuals with taxpayer\
+    \ identification numbers further strengthens the agency’s efforts to minimize\
+    \ errors and unknown payments. This is a prime example of how FSA’s corrective\
+    \ actions are prioritized for payment integrity and how FSA implements continuous\
+    \ improvement to address emerging risks and populations.\n \nThe adequacy of these\
+    \ corrective actions is reinforced by the agency's comprehensive support and oversight\
+    \ mechanisms. FSA maintains a robust internal control framework, including program\
+    \ risk assessments and reviews, which help to identify and address vulnerabilities\
+    \ in payment processes. The agency also provides ongoing training, guidance, and\
+    \ resources to school financial aid administrators, which specifically target\
+    \ the root causes of improper payments at the institutional level. Activities\
+    \ such as clarifying verification requirements, responding to administrator questions,\
+    \ and utilizing compliance audits under the Single Audit Act support that corrective\
+    \ actions are not only well-implemented but also effective in reducing both improper\
+    \ and unknown payments. Timely resolution of audit findings and cross-enterprise\
+    \ sharing of best practices further contribute to sustained improvement in payment\
+    \ integrity, indicating that the agency’s actions are both adequate and successful\
+    \ in reducing payment errors."
+  Corrective_Actions_Appropriateness: "FSA undertook a broad range of corrective actions\
+    \ throughout FY 2026 to target the root causes of improper and unknown payments.\
+    \ A cornerstone of FSA’s corrective actions was the continued implementation of\
+    \ the Fostering Undergraduate by Unlocking Resources for Education (FUTURE) Act\
+    \ Direct Data Exchange (FA-DDX), in partnership with the Treasury, which enabled\
+    \ secure cross-enterprise sharing of federal tax information (FTI) directly from\
+    \ the IRS. Actions such as  the monitoring of FTI retrieval continued to occur\
+    \ through FY 2026 Q4 and have demonstrated a  high success rate from the IRS for\
+    \ the verification of income data for applicants and borrowers, particularly those\
+    \ involved in income-driven repayment (IDR) plans. Access to real-time tax data\
+    \ has eased the administrative burden for borrowers, facilitated accurate validation\
+    \ of IDR payments, and allowed FSA and loan servicers to track changes and address\
+    \ discrepancies.\n \nAdditional efforts included the implementation of behavioral\
+    \ and process-driven strategies, such as the ability to report verification to\
+    \ the Free Application for Federal Student Aid (FAFSA) Partner Portal. FSA worked\
+    \ alongside the Department as there was an implementation of a new fraud detection\
+    \ system within the 2025-26 FAFSA. Specifically, providing the ability to screen\
+    \ every applicant using advanced, risk-based identity checks. This allows for\
+    \ the protection of federal aid dollars, reduction of identity-related fraud,\
+    \ and distribution of aid to legitimate applicants with minimal disruption. These\
+    \ measures, completed Q3 of FY 2026, leveraged both behavioral insights and process\
+    \ improvements to support applicants providing correct and complete information.\n\
+    \ \nTo further safeguard payment accuracy, FSA delivered a suite of free trainings\
+    \ and updated guidance for school financial aid administrators, helping institutions\
+    \ stay current on verification requirements and compliance issues. This information\
+    \ was published in the FSA Handbook and made available to the public.\n \nAudit\
+    \ and oversight functions formed the final layer of FSA’s approach. Throughout\
+    \ FY 2026, FSA performed program reviews of selected schools and monitored annual\
+    \ Single Audit Act compliance audits conducted by independent auditors. Schools\
+    \ with identified deficiencies were required to develop corrective action plans,\
+    \ which FSA then monitored and evaluated for effectiveness. When improper payments\
+    \ were traced and deemed recoverable, FSA established accounts receivable and\
+    \ pursued collections. All oversight and corrective actions were completed by\
+    \ the end of FY 2026 Q4."
+  Corrective_Actions_Proportion: "Preventing improper payments (IPs) is a top Administration\
+    \ and agency priority. To effectively prevent IPs and unknown payments (UPs) from\
+    \ occurring, FSA evaluates the root causes of IPs and UPs identified. This root\
+    \ cause analysis is used to help formulate effective correction actions and prioritize\
+    \ efforts to prevent IPs and UPs from occurring. For example, FSA's most impactful\
+    \ root cause over the last five years for total IP in aggregate across all programs\
+    \ has been improper payments due to misreported income. FSA has invested significant\
+    \ resources and worked cross-agency with the IRS to implement the authorities\
+    \ provided in the Fostering Undergraduate by Unlocking Resources for Education\
+    \ (FUTURE) Act to obtain federal tax information data (FTI) directly from the\
+    \ IRS. FSA has continued to monitor the use of the FUTURE Act Direct Data Exchange\
+    \ (FA-DDX) system and the FTI retrieval from the IRS demonstrated high success\
+    \ rates for both the Free Application for Federal Student Aid (FAFSA) and income-driven\
+    \ repayment (IDR) plans.\n \nFSA relies on the expertise of its subject matter\
+    \ experts and owners of the corrective actions to identify any changes for its\
+    \ corrective actions. FSA monitors the status of the corrective actions through\
+    \ periodic outreach to corrective action owners and collects closure evidence\
+    \ to evaluate the effectiveness and progress of each individual mitigation strategy.\
+    \ This process informs whether the corrective action can be refined, intensified,\
+    \ expanded, or should be discontinued or replaced.\n"
+  End_Date: 09/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: "FSA managers and staff are held accountable for\
+    \ maintaining effective controls and payment integrity. FSA performs an annual\
+    \ assessment of the effectiveness of its internal controls, including those controls\
+    \ designed to prevent or detect improper payments. Any deficiencies identified\
+    \ are remediated and retested within the next assessment cycle.\n \nFSA has an\
+    \ integrated system of complementary oversight functions to help prevent, detect,\
+    \ and recover improper payments, and confirm compliance by all participating parties.\
+    \ This includes conducting program reviews to confirm that schools meet requirements\
+    \ for institutional eligibility, financial responsibility, and administrative\
+    \ capability. Program reviews evaluate schools’ compliance with federal requirements,\
+    \ assess monetary liabilities for errors in performance which are calculated based\
+    \ on program review findings, and identify actions schools must take to make whole\
+    \ the Higher Education Act’s Title IV programs or recipients for any funds that\
+    \ were improperly managed and prevent the same problems from recurring. FSA also\
+    \ uses Single Audit Act compliance audits as a key source of identifying risks\
+    \ and potential improper payments made by schools. FSA has worked with fund recipients\
+    \ to resolve audit findings timely.\n"
+  IP_Unknown_Target_Rate: 0.0035
+  Improper_Payments_Rate: 0.3416735264
+  Insufficient_Documentation_to_Determine: 4.66
+  Margin_of_Error: '0.37'
+  Non_Monetary_Loss_Amount: '119.89'
+  Outlays: 39177.75
+  Overpayment_Combined_Mitigations_Planned: '[app2]Behavioral/Psych Influence, [app3]Training,
+    [app4]Change Process, [app5]Cross Enterprise Sharing, [app6]Audit, [app7]Predictive
+    Analytics'
+  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych
+    Influence, [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing,
+    [atp6]Audit, [atp7]Predictive Analytics, [atp8]Statutory Change'
+  Payment_Accuracy_Rate: 99.6464319671242
+  Program_Additional_Information: 'FSA places the highest value on maintaining the
+    integrity of all types of payments made to support the billions of dollars in
+    federal funds it disburses annually reach intended recipients in the right amount
+    and for the right purpose, including for the Pell Grant program. FSA conducts
+    payment integrity by establishing effective policies, business processes, systems,
+    and controls over key payment activities, including those pertaining to: payment
+    data quality, cash management, third-party oversight, assessments of audit reports,
+    and financial reporting. Accordingly, FSA maintains a robust internal control
+    framework that includes controls designed to help prevent, detect, and recover
+    improper payments. In designing controls, FSA strives to strike the right balance
+    between making timely and accurate payments and ensuring that controls put in
+    place are cost effective, not overly burdensome, and do not deter intended beneficiaries
+    from obtaining funds they are entitled to receive.'
+  Program_Design_or_Structural_Issue: 108.11
+  Resources_Requested_For_IP: 'The FY 2027 budget provides $2.1 billion for the Student
+    Aid Administration, which is straight lined from the FY 2025 appropriation. This
+    funding is essential to support students and student loan borrowers. The funding
+    would allow FSA to continue to operate the student aid programs, implement critical
+    improvements to student loan servicing, continue to modernize its digital infrastructure,
+    and provide for the administration of the financial aid programs through a simplified
+    and streamlined application process for students and borrowers.
+
+    '
+  Start_Date: 10/2024
+  Technical_IP_Actions_Planned: '[app2]Behavioral/Psych Influence, [app3]Training,
+    [app4]Change Process, [app5]Cross Enterprise Sharing, [app6]Audit, [app7]Predictive
+    Analytics'
+  Technical_IP_Actions_Taken: '[atp1]Automation, [atp2]Behavioral/Psych Influence,
+    [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing, [atp6]Audit,
+    [atp7]Predictive Analytics, [atp8]Statutory Change'
+  Technical_IP_Amount: '108.11'
+  Underpayment_Mitigations_Planned: '[app2]Behavioral/Psych Influence, [app3]Training,
+    [app4]Change Process, [app5]Cross Enterprise Sharing, [app6]Audit, [app7]Predictive
+    Analytics'
+  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych Influence,
+    [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing, [atp6]Audit,
+    [atp7]Predictive Analytics, [atp8]Statutory Change'
+  Unknown_Mitigations_Planned: '[app2]Behavioral/Psych Influence,[app3]Training,[app4]Change
+    Process,[app5]Cross Enterprise Sharing,[app6]Audit,[app7]Predictive Analytics'
+  Unknown_Mitigations_Taken: '[atp1]Automation,[atp2]Behavioral/Psych Influence,[atp3]Training,[atp4]Change
+    Process,[atp5]Cross Enterprise Sharing,[atp6]Audit,[atp7]Predictive Analytics,[atp8]Statutory
+    Change'
+  Unknown_Payments_Rate: 0.011894506448175303
+  Year: 2026
+  detail_IP_Causes: "FSA diligently works to identify the causes of improper payments\
+    \ and unknown payments, adhering to the guidance outlined in the OMB Circular\
+    \ A-123, Appendix C (A-123C). According to this guidance, causes of improper and\
+    \ unknown payments are classified into five cause categories. Historically, FSA\
+    \ has identified such payments in three of these categories: (1) Failure to access\
+    \ data or information needed to verify payments; (2) Statutory requirements of\
+    \ the program not being met; and (3) Unable to determine whether proper or improper\
+    \ (i.e., unknown payments).\n \nIn addition to using the OMB A-123C framework\
+    \ for identifying the causes of improper and unknown payments, FSA takes a detailed\
+    \ approach to identifying the root causes for its Phase 2 programs. This is accomplished\
+    \ through the Sampling and Estimation Methodology Plan (S&EMP), which leverages\
+    \ data from compliance audits. By analyzing these data sources, FSA is able to\
+    \ pinpoint specific root causes that contribute to improper payments and unknown\
+    \ payments within its programs.\n \nFor FY 2026, FSA’s fieldwork revealed that\
+    \ the most impactful root causes of improper and unknown payments stemmed from\
+    \ several distinct areas. First, documentation deficiencies played a critical\
+    \ role, particularly instances where required notifications, such as informing\
+    \ students of impending disbursements, were not provided prior to the release\
+    \ of Title IV funds. Second, errors related to student withdrawals, such as mistakes\
+    \ in the calculation or processing of Return of Title IV Funds (R2T4), contributed\
+    \ to improper payments. Finally, verification deficiencies involving conflicting\
+    \ student information and fraudulent student information resulted in funds being\
+    \ disbursed to students who had not completed the verification process.\n \nFSA's\
+    \ commitment to understanding and mitigating improper payments extends beyond\
+    \ identification of root causes as described above. The agency actively coordinates\
+    \ with its stakeholders to confirm that all potential root causes are considered\
+    \ during its testing procedures. Through extensive fieldwork and stakeholder collaboration,\
+    \ FSA has currently identified 47 program-specific root cause categories for improper\
+    \ payments and unknown payments. This comprehensive approach enables FSA to continually\
+    \ refine its processes and reduce the risk of improper payments across its portfolio."
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '13.97'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '0.35'
+  eligibility_aggregated:
+  - Theme: Education
+    Theme_Description: The education level or enrollment status of the recipient/beneficiary
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 13.97
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '13.97'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 11.78
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '11.78'
 Description: The Pell Grant program provides need-based grants to low-income undergraduate
   and certain post baccalaureate students to promote access to postsecondary education.
   Root causes of Pell overpayments include incorrect calculation of Return of Title
@@ -1508,91 +1628,91 @@ Description: The Pell Grant program provides need-based grants to low-income und
   entity before reaching the ultimate beneficiary (student). The statute provides
   FSA authority to require the third-party to impose certain internal controls or
   mitigation strategies, and FSA exercises this authority.
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
-High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[273.99, 240.61, 403.92, 458.55, 337.67]'
-Payment_Accuracy_Amounts: '[26180.219999999998, 25543.469999999998, 27876.86, 32123.589999999997,
-  39507.810000000005]'
+High_Priority_Program: 0
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[240.61, 403.92, 458.55, 337.67, 13.97]'
+Payment_Accuracy_Amounts: '[25543.469999999998, 27876.86, 32123.589999999997, 39507.810000000005,
+  39039.229999999996]'
 Phase_2_Program: 0
 Program_Name: Federal Pell Grant Program
 Scorecard_Links:
-- Link: assets/scorecards/Q4 2018/Pell-Grant-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
-  QuarterYear: Q4 2018
-- Link: assets/scorecards/Q2 2019/Pell Grant Getting Payments Right Scorecard FY 2019
-    Q2.pdf
-  QuarterYear: Q2 2019
-- Link: assets/scorecards/Q3 2019/Pell Grant Getting Payments Right Scorecard FY 2019
-    Q3.pdf
-  QuarterYear: Q3 2019
-- Link: assets/scorecards/Q4 2019/Pell Grant Getting Payments Right Scorecard FY 2019
-    Q4.pdf
-  QuarterYear: Q4 2019
-- Link: assets/scorecards/Q1 2020/Pell Grant Getting Payments Right Scorecard FY 2020
-    Q1.png
-  QuarterYear: Q1 2020
-- Link: assets/scorecards/Q3 2020/Pell Grant Getting Payments Right Scorecard FY 2020
-    Q3.png
-  QuarterYear: Q3 2020
-- Link: assets/scorecards/Q4 2020/Pell Grant Getting Payments Right Scorecard FY 2020
-    Q4.png
-  QuarterYear: Q4 2020
-- Link: assets/scorecards/Q1 2021/Pell Grant Payments Integrity Scorecard FY 2021
-    Q1.pdf
-  QuarterYear: Q1 2021
-- Link: assets/scorecards/Q2 2021/Pell Grant Payments Integrity Scorecard FY 2021
-    Q2.pdf
-  QuarterYear: Q2 2021
-- Link: assets/scorecards/Q3 2021/Pell Grant Payments Integrity Scorecard FY 2021
-    Q3.pdf
-  QuarterYear: Q3 2021
-- Link: assets/scorecards/Q4 2021/Pell Grant Payments Integrity Scorecard FY 2021
-    Q4.pdf
-  QuarterYear: Q4 2021
-- Link: assets/scorecards/Q1 2022/Federal Pell Grant Program Payments Integrity Scorecard
-    FY 2022 Q1.pdf
-  QuarterYear: Q1 2022
-- Link: assets/scorecards/Q2 2022/Federal Pell Grant Program Payments Integrity Scorecard
-    FY 2022 Q2.pdf
-  QuarterYear: Q2 2022
-- Link: assets/scorecards/Q3 2022/Federal Pell Grant Program Payments Integrity Scorecard
-    FY 2022 Q3.pdf
-  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q3 2026/Federal Pell Grant Program.pdf
+  QuarterYear: Q3 2026
+- Link: assets/scorecards/Q2 2026/Federal Pell Grant Program.pdf
+  QuarterYear: Q2 2026
+- Link: assets/scorecards/Q4 2025/Federal Pell Grant Program.pdf
+  QuarterYear: Q4 2025
+- Link: assets/scorecards/Q3 2025/Federal Pell Grant Program.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q2 2025/Federal Pell Grant Program.pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q1 2025/Federal Pell Grant Program.pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q4 2024/Federal Pell Grant Program.pdf
+  QuarterYear: Q4 2024
+- Link: assets/scorecards/Q3 2024/Federal Pell Grant Program.pdf
+  QuarterYear: Q3 2024
+- Link: assets/scorecards/Q2 2024/Federal Pell Grant Program.pdf
+  QuarterYear: Q2 2024
+- Link: assets/scorecards/Q1 2024/Federal Pell Grant Program.pdf
+  QuarterYear: Q1 2024
+- Link: assets/scorecards/Q4 2023/Federal Pell Grant Program.pdf
+  QuarterYear: Q4 2023
+- Link: assets/scorecards/Q3 2023/Federal Pell Grant Program.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q2 2023/Federal Pell Grant Program.pdf
+  QuarterYear: Q2 2023
 - Link: assets/scorecards/Q4 2022/Federal Pell Grant Program Payments Integrity Scorecard
     FY 2022 Q4.pdf
   QuarterYear: Q4 2022
-- Link: assets/scorecards/Q2 2023/Federal Pell Grant Program.pdf
-  QuarterYear: Q2 2023
-- Link: assets/scorecards/Q3 2023/Federal Pell Grant Program.pdf
-  QuarterYear: Q3 2023
-- Link: assets/scorecards/Q4 2023/Federal Pell Grant Program.pdf
-  QuarterYear: Q4 2023
-- Link: assets/scorecards/Q1 2024/Federal Pell Grant Program.pdf
-  QuarterYear: Q1 2024
-- Link: assets/scorecards/Q2 2024/Federal Pell Grant Program.pdf
-  QuarterYear: Q2 2024
-- Link: assets/scorecards/Q3 2024/Federal Pell Grant Program.pdf
-  QuarterYear: Q3 2024
-- Link: assets/scorecards/Q4 2024/Federal Pell Grant Program.pdf
-  QuarterYear: Q4 2024
-- Link: assets/scorecards/Q1 2025/Federal Pell Grant Program.pdf
-  QuarterYear: Q1 2025
-- Link: assets/scorecards/Q2 2025/Federal Pell Grant Program.pdf
-  QuarterYear: Q2 2025
-- Link: assets/scorecards/Q3 2025/Federal Pell Grant Program.pdf
-  QuarterYear: Q3 2025
-- Link: assets/scorecards/Q4 2025/Federal Pell Grant Program.pdf
-  QuarterYear: Q4 2025
-- Link: assets/scorecards/Q2 2026/Federal Pell Grant Program.pdf
-  QuarterYear: Q2 2026
-- Link: assets/scorecards/Q3 2026/Federal Pell Grant Program.pdf
-  QuarterYear: Q3 2026
-Technically_Improper_Amounts: '[97.32, 190.86, 166.48, 131.14, 76.88]'
-Underpayment_Amounts: '[149.88, 147.49, 238.75, 271.83, 6.13]'
-Unknown_Amounts: '[8.36, 7.03, 3.15, 10.63, 5.91]'
+- Link: assets/scorecards/Q3 2022/Federal Pell Grant Program Payments Integrity Scorecard
+    FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q2 2022/Federal Pell Grant Program Payments Integrity Scorecard
+    FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q1 2022/Federal Pell Grant Program Payments Integrity Scorecard
+    FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q4 2021/Pell Grant Payments Integrity Scorecard FY 2021
+    Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q3 2021/Pell Grant Payments Integrity Scorecard FY 2021
+    Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q2 2021/Pell Grant Payments Integrity Scorecard FY 2021
+    Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q1 2021/Pell Grant Payments Integrity Scorecard FY 2021
+    Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q4 2020/Pell Grant Getting Payments Right Scorecard FY 2020
+    Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q3 2020/Pell Grant Getting Payments Right Scorecard FY 2020
+    Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q1 2020/Pell Grant Getting Payments Right Scorecard FY 2020
+    Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q4 2019/Pell Grant Getting Payments Right Scorecard FY 2019
+    Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q3 2019/Pell Grant Getting Payments Right Scorecard FY 2019
+    Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q2 2019/Pell Grant Getting Payments Right Scorecard FY 2019
+    Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q4 2018/Pell-Grant-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
+Technically_Improper_Amounts: '[190.86, 166.48, 131.14, 76.88, 108.11]'
+Underpayment_Amounts: '[147.49, 238.75, 271.83, 6.13, 11.78]'
+Unknown_Amounts: '[7.03, 3.15, 10.63, 5.91, 4.66]'
 fpi_link: https://fpi.omb.gov/program/84.063
 layout: program-specific
 permalink: program/ed-federal-pell-grant-program

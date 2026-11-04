@@ -2,73 +2,6 @@
 Agency: USDA
 Agency_Name: Department of Agriculture
 Data_By_Year:
-- Agency_Needs_Satisfied: 'Risk Management Agency has achieved a tolerable rate.  The
-    agency continuously assesses internal controls, human capital, and information
-    systems to assure a tolerable rate can be maintained.  '
-  Confidence_Level: '>95%'
-  Corrective_Actions_Proportion: 'Risk Management Agency continues to maintain or
-    reduce the amount of improper payments which indicates the actions taken to reduce
-    improper payments is working. '
-  End_Date: 07/2019
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  IP_Current_Year_Plus_1_Amount: 205.5
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.0209051365
-  Improper_Payments_Rate: 1.4149533
-  Insufficient_Documentation_to_Determine: 0.0
-  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
-  Margin_of_Error: '0.069'
-  Non_Monetary_Loss_Amount: '15.13'
-  Outlays: 11906.4
-  Outlays_Current_Year_Plus_1_Amount: 9830.12
-  Payment_Accuracy_Rate: 98.58504669757441
-  Program_Design_or_Structural_Issue: 0.0
-  Start_Date: 06/2018
-  Technical_IP_Amount: '0.0'
-  Unknown_Curent_Year_Plus_1_Amount: 0
-  Unknown_Payments_Rate: 0
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 43.46
-    Financial: 0.0
-    Inability_to_Access_Data: 109.88
-    Overpayments_Within_Control_Amount: '153.34'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.0'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 4.5
-    Financial: 0.0
-    Inability_to_Access_Data: 10.63
-    Underpayments_Amount: '15.13'
 - Agency_Needs_Satisfied: At this time, the agency has the necessary resources to
     reduce improper payments.  This assumes that the program remains at the current
     size.  If the program expands, additional resources may be necessary.
@@ -317,18 +250,6 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 167.58
     Overpayments_Outside_Control_Amount: '167.58'
-    Overpayments_Outside_Control_Why: The Risk Management Agency (RMA) partners with
-      private insurance companies, Approved Insurance Providers (AIPs), to deliver
-      the federal crop insurance program through agents who sell policies directly
-      to producers.  The Standard Reinsurance Agreement which is an agreement between
-      RMA and the AIPs restricts agents and AIPs from influencing the premium for
-      a given policy, such as a producer's certification.  Overpayments outside the
-      agency's control typically consist of certification errors by the policyholder.  These
-      errors include, but are not limited to; inadvertent errors, misinterpretation
-      of policy, calculation errors, or the inability to support certifications when
-      documentation is requested.  These types of errors are determined to be outside
-      the agency's control or unavoidable because they take place during certification
-      stages of the crop insurance program.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -520,13 +441,6 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 107.12
     Overpayments_Outside_Control_Amount: '573.93'
-    Overpayments_Outside_Control_Why: The Federal Crop Insurance Program is a public-private
-      partnership.  USDA's Risk Management Agency (RMA) regulates the program while
-      private companies, Approved Insurance Providers (AIPs), are responsible for
-      the sale and servicing of the policies.  RMA's reported overpayments outside
-      the agency's control are the result of external stakeholders not following federal
-      crop insurance policies and procedures or administrative errors that occurred
-      during the crop insurance life cycle.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -650,7 +564,7 @@ Data_By_Year:
     that are made, and recover improper payments.  The Farm Production and Conservation
     (FPAC) Business Center also provides oversight of RMA's internal controls.
   IP_Unknown_Target_Rate: 0.03
-  Improper_Payments_Rate: 3.2934701152
+  Improper_Payments_Rate: 3.29347012
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '2.5'
   Non_Monetary_Loss_Amount: '396.5'
@@ -708,6 +622,216 @@ Data_By_Year:
     Failure_to_Access_Data: 382.34
     Inability_to_Access_Data: 14.16
     Underpayments_Amount: '396.5'
+- Agency_Needs_Satisfied: RMA currently has the human capital and information systems
+    necessary to effectively administer and oversee the Federal Crop Insurance Program.
+    However, as the Agency continues to experience growth in program offerings, participation
+    levels, and program complexity, it remains committed to regularly assessing its
+    workforce capacity and technological resources. Through ongoing evaluations of
+    staffing needs, data analytics capabilities, and information systems, RMA works
+    to ensure that its oversight and compliance functions remain effective and scalable.
+    This proactive approach helps safeguard program integrity, maintain strong internal
+    controls, and ensure that the Agency is well-positioned to address emerging risks
+    and operational demands without compromising the integrity of the crop insurance
+    program.
+  Confidence_Level: 90% to <95%
+  Corrective_Actions_Adequacy_Association_Implementation: "For FCIC Corrective Action\
+    \ Plans (CAPs) are developed through a data-driven, collaborative process that\
+    \ begins with the extraction and analysis of review results to identify the root\
+    \ causes of improper payments.  Once the root causes are established, RMA engages\
+    \ with regional compliance offices and other divisions within Risk Management\
+    \ Agency to evaluate whether planned or future initiatives will adequately address\
+    \ the root causes identified.\n\nBased on the scope and impact of the root cause,\
+    \ corrective actions may include the initiation of new program reviews, recommending\
+    \ policy or procedure changes, issuing Informational Memorandums, or implementing\
+    \ and carrying out other targeted initiatives.  This strategic, coordinated approach\
+    \ ensures that corrective actions are both effective and aligned with broader\
+    \ compliance and program integrity goals.  \n\nRMA’s comprehensive analysis of\
+    \ improper payment root cause data enables the development of targeted corrective\
+    \ action plans based on cause category, error types, crop insurance lifecycle\
+    \ stages, crop types, states, insurance plans, and other key variables. From there,\
+    \ corrective action plans are designed to influence or change behavior, update\
+    \ current procedures, disseminate informational memorandums, revise policy language,\
+    \ introduce new policy language or procedures, and leverage data analytics.  They\
+    \ are also closely integrated with ongoing internal processes such as the AIP\
+    \ Performance Reviews. This approach, combined with continuous root cause analysis\
+    \ and aligned corrective action efforts from other RMA initiatives has proven\
+    \ to be effective as exhibited in RMA’s ability to  consistently report one of\
+    \ the lowest improper payment rate across USDA, all while administering a multi-billion-dollar\
+    \ federal crop insurance program.\n"
+  Corrective_Actions_Appropriateness: 'RMA conducted a comprehensive analysis of current
+    and historic Improper Payment Review (IPR) results to identify underlying error
+    patterns, program vulnerabilities, and opportunities for targeted risk mitigation.
+    Reviewed results associated with nonzero weighted improper payment dollars were
+    analyzed using advanced data analytics and natural language processing techniques
+    to evaluate narratives, identify recurring themes, and detect relationships among
+    error conditions.
+
+
+    Results were categorized and analyzed across multiple dimensions, including error
+    type, crop insurance lifecycle stage, and associated improper payment dollars
+    to identify potential root cause characteristics. The analysis identified a recurring
+    sequence of errors, which subsequently increased the likelihood and magnitude
+    of claim calculation errors. By identifying these relationships and recurring
+    patterns, RMA obtained a more comprehensive understanding of the underlying factors
+    contributing to improper payments. The results of this root cause analysis informed
+    the development of targeted corrective actions, including enhancements to documentation
+    and verification requirements, strengthened validation procedures, and expanded
+    use of data analytics. This data-driven approach supports informed decision-making,
+    strengthens program integrity.
+
+
+    To address improper payments resulting from limited access to data and information,
+    the Risk Management Agency (RMA) plans to implement a proactive program review
+    process that identifies and notifies Approved Insurance Providers (AIPs) of potential
+    share discrepancies after certification but before Federal Crop Insurance Corporation
+    (FCIC) deadlines for policy corrections. This corrective action is intended to
+    provide AIPs with sufficient time to investigate and resolve share discrepancies
+    before they result in improper payments. The planned review process will serve
+    as an early intervention control designed to identify and mitigate risks before
+    payments are finalized. By identifying potential errors earlier in the process,
+    RMA can reduce the likelihood of inaccurate payments, improve compliance with
+    program requirements, and strengthen overall program administration. Development
+    and implementation of this review process are currently planned, with full completion
+    anticipated by December 2027.
+
+
+    To further address the causes of improper payments and strengthen compliance with
+    Standard Reinsurance Agreements (SRAs), RMA will implement a corrective action
+    plan through the Approved Insurance Provider Review (APR) process. This effort
+    will include a detailed evaluation of AIP quality control procedures to assess
+    compliance with SRA requirements and the effectiveness of internal controls used
+    to ensure payment accuracy. The review will focus on documentation, payment processing
+    practices, and adherence to Appendix IV requirements. By conducting targeted analyses
+    and increasing oversight of quality control processes, RMA will identify areas
+    for improvement and require corrective actions where deficiencies are identified.
+    Strengthened quality control reviews will help ensure that payment determinations
+    are supported by complete and accurate documentation and that AIPs consistently
+    follow established requirements.  Implementation of this corrective action is
+    planned for completion by October 2027.
+
+    '
+  Corrective_Actions_Proportion: "RMA uses comprehensive root cause analysis to identify\
+    \ the underlying factors driving payment errors and to assess their impact on\
+    \ improper payment rates and dollar amounts. This comprehensive analysis incorporates\
+    \ historical improper payment review results spanning multiple years rather than\
+    \ relying on a single year of data. By evaluating long-term trends, RMA is able\
+    \ to distinguish persistent, systemic issues from isolated or one-time occurrences,\
+    \ providing a more accurate assessment of root cause severity. This broader perspective\
+    \ enables the Agency to better understand the magnitude and frequency of improper\
+    \ payments associated with specific root causes, ensuring that corrective actions\
+    \ are appropriately prioritized and proportionate to the level of risk and financial\
+    \ impact identified. \n\nWhen necessary, RMA's corrective actions are integrated\
+    \ with existing oversight activities, including AIP Performance Reviews and other\
+    \ compliance initiatives, to maximize effectiveness and avoid duplication of effort.\
+    \ This coordinated approach allows RMA to address both systemic and isolated causes\
+    \ of improper payments while continuously monitoring outcomes and adjusting actions\
+    \ as needed. The use of data analytics further strengthens the agency’s ability\
+    \ to target corrective measures at the specific causes and conditions contributing\
+    \ to errors. By tailoring corrective actions to the magnitude and nature of each\
+    \ root cause, RMA ensures that mitigation efforts are proportionate, effective,\
+    \ and sustainable."
+  End_Date: 06/2024
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: The Risk Management Agency (RMA) Administrator, Associate
+    Administrators, and Deputy Administrators for Compliance, Product Management,
+    and Insurance Services are held accountable through their annual performance plans
+    for establishing and maintaining effective internal controls to prevent improper
+    payments. These performance expectations also include ensuring controls are in
+    place to detect improper payments when they occur and to support the timely recovery
+    of identified improper payments. The Farm Production and Conservation (FPAC) Business
+    Center also provides oversight of RMA's internal controls.
+  IP_Unknown_Target_Rate: 0.03
+  Improper_Payments_Rate: 5.6102942171
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '2.5'
+  Non_Monetary_Loss_Amount: '271.69'
+  Outlays: 20704.44
+  Overpayment_Combined_Mitigations_Planned: '[app6]Audit'
+  Overpayment_Combined_Mitigations_Taken: '[atp4]Change Process'
+  Payment_Accuracy_Rate: 94.38970578291419
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: The Working Families Tax Cut Act provided additional
+    funding for program integrity. With that additional funding RMA plans to hire
+    additional resources. Once those resources are on board, RMA will reevaluate the
+    need for additional resources.
+  Start_Date: 07/2023
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: '[app6]Audit'
+  Underpayment_Mitigations_Taken: '[atp4]Change Process'
+  Unknown_Payments_Rate: 0
+  Year: 2026
+  detail_IP_Causes: "A significant root cause of RMA’s reported improper payments\
+    \ were associated with deficiencies in quality control processes conducted at\
+    \ the Approved Insurance Provider (AIP) level. Through the Standard Reinsurance\
+    \ Agreement (SRA), AIPs are required, in part, to maintain quality control programs,\
+    \ internal controls, and compliance processes designed to identify and prevent\
+    \ errors before they result in improper payments.  RMA, through the improper payment\
+    \ review, identified weaknesses in these oversight activities reducing the effectiveness\
+    \ of internal controls designed to detect and prevent errors before payments are\
+    \ made, increasing the likelihood that certification, procedural, administrative,\
+    \ or claims-related errors result in improper payments\n\nCertification type errors\
+    \ generally occur when policyholders certify inaccurate information used to establish\
+    \ or service their policies, such as acreage, share, production, or other underwriting\
+    \ and claim-related data. Improper payments associated with the accuracy of certifications\
+    \ may also result when policyholders are unable to support certifications with\
+    \ acceptable documentation or records during subsequent reviews. Although the\
+    \ information provided by the policyholder may have been used in good faith during\
+    \ policy administration, the lack of adequate supporting documentation can ultimately\
+    \ result in the payment being determined improper. Certification errors continue\
+    \ to be one of the primary root causes identified through RMA's payment integrity\
+    \ and compliance activities. \n\nImproper payments also occurred as a result of\
+    \ process, procedural, and administrative errors. In many cases, the data and\
+    \ information needed to make the correct payment are available and accessible;\
+    \ however, established policies and procedures are not carried out correctly during\
+    \ program delivery. Examples include errors in determining production to count,\
+    \ inadvertent keying mistakes, data entry inaccuracies, procedural oversights,\
+    \ and errors in applying policy provisions. These types of errors can occur despite\
+    \ the existence of clear program requirements and often reflect breakdowns in\
+    \ administrative controls rather than deficiencies in policy design. Because the\
+    \ Federal Crop Insurance Program is a large and complex program involving numerous\
+    \ transactions and participants, human error remains an ongoing challenge. \n"
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '568.32'
+  detail_Overpayments_Due_To_Inability: '321.57'
+  detail_Reduction_Target: '3.0'
+  eligibility_aggregated:
+  - Theme: Other
+    Theme_Description: RMA's improper payments are the results of process or procedural
+      errors, calculation errors, certification errors, and other variables applicable
+      to the federal crop insurance program.
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 568.32
+    Inability_to_Access_Data: 321.57
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '889.89'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 270.17
+    Inability_to_Access_Data: 1.52
+    Underpayments_Amount: '271.69'
 Description: 'RMA administers the Federal Crop Insurance Program which provides crop
   insurance to farmers and ranchers. Approved Insurance Providers (AIPs) sell and
   service the policies through a partnership with RMA and share in the risk associated
@@ -715,99 +839,100 @@ Description: 'RMA administers the Federal Crop Insurance Program which provides 
   cause of improper payments (i.e., administrative, certification, process errors,
   etc.) can be identified along with a means of reducing barriers that may prevent
   payments from being proper. '
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[153.34, 289.44, 361.7, 573.93, 358.53]'
-Payment_Accuracy_Amounts: '[11737.93, 11519.81, 13657.069999999998, 23287.95, 22170.030000000002]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[289.44, 361.7, 573.93, 358.53, 889.89]'
+Payment_Accuracy_Amounts: '[11519.81, 13657.069999999998, 23287.95, 22170.030000000002,
+  19542.86]'
 Phase_2_Program: 0
 Program_Name: Federal Crop Insurance Corporation (FCIC)
 Scorecard_Links:
-- Link: assets/scorecards/Q4 2018/Federal-Crop-Insurance-Corporation-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
-  QuarterYear: Q4 2018
-- Link: assets/scorecards/Q2 2019/Federal Crop Insurance Corporation Getting Payments
-    Right Scorecard FY 2019 Q2.pdf
-  QuarterYear: Q2 2019
-- Link: assets/scorecards/Q3 2019/Federal Crop Insurance Corporation Getting Payments
-    Right Scorecard FY 2019 Q3.pdf
-  QuarterYear: Q3 2019
-- Link: assets/scorecards/Q4 2019/Federal Crop Insurance Corporation Getting Payments
-    Right Scorecard FY 2019 Q4.pdf
-  QuarterYear: Q4 2019
-- Link: assets/scorecards/Q1 2020/Federal Crop Insurance Corporation Getting Payments
-    Right Scorecard FY 2020 Q1.png
-  QuarterYear: Q1 2020
-- Link: assets/scorecards/Q3 2020/Federal Crop Insurance Corporation Getting Payments
-    Right Scorecard FY 2020 Q3.png
-  QuarterYear: Q3 2020
-- Link: assets/scorecards/Q4 2020/Federal Crop Insurance Corporation Getting Payments
-    Right Scorecard FY 2020 Q4.png
-  QuarterYear: Q4 2020
-- Link: assets/scorecards/Q1 2021/Federal Crop Insurance Corporation Payments Integrity
-    Scorecard FY 2021 Q1.pdf
-  QuarterYear: Q1 2021
-- Link: assets/scorecards/Q2 2021/Federal Crop Insurance Corporation Payments Integrity
-    Scorecard FY 2021 Q2.pdf
-  QuarterYear: Q2 2021
-- Link: assets/scorecards/Q3 2021/Federal Crop Insurance Corporation Payments Integrity
-    Scorecard FY 2021 Q3.pdf
-  QuarterYear: Q3 2021
-- Link: assets/scorecards/Q4 2021/Federal Crop Insurance Corporation Payments Integrity
-    Scorecard FY 2021 Q4.pdf
-  QuarterYear: Q4 2021
-- Link: assets/scorecards/Q1 2022/RMA Federal Crop Insurance Corporation (FCIC) Payments
-    Integrity Scorecard FY 2022 Q1.pdf
-  QuarterYear: Q1 2022
-- Link: assets/scorecards/Q2 2022/RMA Federal Crop Insurance Corporation (FCIC) Payments
-    Integrity Scorecard FY 2022 Q2.pdf
-  QuarterYear: Q2 2022
-- Link: assets/scorecards/Q3 2022/RMA Federal Crop Insurance Corporation (FCIC) Payments
-    Integrity Scorecard FY 2022 Q3.pdf
-  QuarterYear: Q3 2022
-- Link: assets/scorecards/Q4 2022/Risk Management Agency (RMA) Federal Crop Insurance
-    Corporation (FCIC) Payments Integrity Scorecard FY 2022 Q4.pdf
-  QuarterYear: Q4 2022
-- Link: assets/scorecards/Q2 2023/Risk Management Agency (RMA) Federal Crop Insurance
-    Corporation (FCIC).pdf
-  QuarterYear: Q2 2023
-- Link: assets/scorecards/Q3 2023/Risk Management Agency (RMA) Federal Crop Insurance
-    Corporation (FCIC).pdf
-  QuarterYear: Q3 2023
-- Link: assets/scorecards/Q4 2023/Risk Managment Agency (RMA) Federal Crop Insurance
-    Corporation (FCIC).pdf
-  QuarterYear: Q4 2023
-- Link: assets/scorecards/Q1 2024/Risk Management Agency (RMA) Federal Crop Insurance
-    Corporation (FCIC).pdf
-  QuarterYear: Q1 2024
-- Link: assets/scorecards/Q2 2024/Risk Management Agency (RMA) Federal Crop Insurance
-    Corporation (FCIC).pdf
-  QuarterYear: Q2 2024
-- Link: assets/scorecards/Q3 2024/Risk Management Agency (RMA) Federal Crop Insurance
-    Corporation (FCIC).pdf
-  QuarterYear: Q3 2024
-- Link: assets/scorecards/Q4 2024/Risk Management Agency (RMA) Federal Crop Insurance
-    Corporation (FCIC).pdf
-  QuarterYear: Q4 2024
-- Link: assets/scorecards/Q1 2025/Risk Management Agency (RMA) Federal Crop Insurance
-    Corporation (FCIC).pdf
-  QuarterYear: Q1 2025
-- Link: assets/scorecards/Q2 2025/Risk Management Agency (RMA) Federal Crop Insurance
-    Corporation (FCIC).pdf
-  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q3 2026/Federal Crop Insurance Corporation (FCIC).pdf
+  QuarterYear: Q3 2026
+- Link: assets/scorecards/Q2 2026/Federal Crop Insurance Corporation (FCIC).pdf
+  QuarterYear: Q2 2026
+- Link: assets/scorecards/Q4 2025/Federal Crop Insurance Corporation (FCIC).pdf
+  QuarterYear: Q4 2025
 - Link: assets/scorecards/Q3 2025/Risk Management Agency (RMA) Federal Crop Insurance
     Corporation (FCIC).pdf
   QuarterYear: Q3 2025
-- Link: assets/scorecards/Q4 2025/Federal Crop Insurance Corporation (FCIC).pdf
-  QuarterYear: Q4 2025
-- Link: assets/scorecards/Q2 2026/Federal Crop Insurance Corporation (FCIC).pdf
-  QuarterYear: Q2 2026
-- Link: assets/scorecards/Q3 2026/Federal Crop Insurance Corporation (FCIC).pdf
-  QuarterYear: Q3 2026
+- Link: assets/scorecards/Q2 2025/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q1 2025/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q4 2024/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q4 2024
+- Link: assets/scorecards/Q3 2024/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q3 2024
+- Link: assets/scorecards/Q2 2024/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q2 2024
+- Link: assets/scorecards/Q1 2024/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q1 2024
+- Link: assets/scorecards/Q4 2023/Risk Managment Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q4 2023
+- Link: assets/scorecards/Q3 2023/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q2 2023/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC).pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q4 2022/Risk Management Agency (RMA) Federal Crop Insurance
+    Corporation (FCIC) Payments Integrity Scorecard FY 2022 Q4.pdf
+  QuarterYear: Q4 2022
+- Link: assets/scorecards/Q3 2022/RMA Federal Crop Insurance Corporation (FCIC) Payments
+    Integrity Scorecard FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q2 2022/RMA Federal Crop Insurance Corporation (FCIC) Payments
+    Integrity Scorecard FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q1 2022/RMA Federal Crop Insurance Corporation (FCIC) Payments
+    Integrity Scorecard FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q4 2021/Federal Crop Insurance Corporation Payments Integrity
+    Scorecard FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q3 2021/Federal Crop Insurance Corporation Payments Integrity
+    Scorecard FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q2 2021/Federal Crop Insurance Corporation Payments Integrity
+    Scorecard FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q1 2021/Federal Crop Insurance Corporation Payments Integrity
+    Scorecard FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q4 2020/Federal Crop Insurance Corporation Getting Payments
+    Right Scorecard FY 2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q3 2020/Federal Crop Insurance Corporation Getting Payments
+    Right Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q1 2020/Federal Crop Insurance Corporation Getting Payments
+    Right Scorecard FY 2020 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q4 2019/Federal Crop Insurance Corporation Getting Payments
+    Right Scorecard FY 2019 Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q3 2019/Federal Crop Insurance Corporation Getting Payments
+    Right Scorecard FY 2019 Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q2 2019/Federal Crop Insurance Corporation Getting Payments
+    Right Scorecard FY 2019 Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q4 2018/Federal-Crop-Insurance-Corporation-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
-Underpayment_Amounts: '[15.13, 15.21, 8.12, 5.43, 396.5]'
+Underpayment_Amounts: '[15.21, 8.12, 5.43, 396.5, 271.69]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/10.450
 layout: program-specific

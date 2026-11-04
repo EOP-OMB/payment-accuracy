@@ -2,79 +2,6 @@
 Agency: USDA
 Agency_Name: Department of Agriculture
 Data_By_Year:
-- Agency_Needs_Satisfied: The agency has the necessary internal controls human capital,
-    and information systems and other infrastructure support to reduce IPs and UPs.  The
-    rate was reduced by more than 50% from the previous year.  This is a significant
-    accomplishment and a strong indication that the internal controls are working.
-  Confidence_Level: '>90%'
-  Corrective_Actions_Proportion: 'Weekly calls with the State Office Specialist and
-    other staff as appropriate are held to review program policies and procedures;
-    and answering any questions the field office staff may have related to program
-    policies and procedures.  During the weekly calls, the Program Manager makes sure
-    policy guidance (new, revised or existing) is clarified and repeated (when necessary) '
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Failure_to_Access_Data: true
-  Hide_Underpayments_Inability_to_Access_Data: true
-  IP_Current_Year_Plus_1_Amount: 129.45
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.0238003309
-  Improper_Payments_Rate: 2.3883066299999998
-  Insufficient_Documentation_to_Determine: 0.0
-  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
-  Margin_of_Error: '3.0'
-  Non_Monetary_Loss_Amount: '54.8'
-  Outlays: 2635.34
-  Outlays_Current_Year_Plus_1_Amount: 5439
-  Payment_Accuracy_Rate: 97.61169336783868
-  Program_Design_or_Structural_Issue: 54.8
-  Start_Date: 10/2019
-  Technical_IP_Amount: '54.8'
-  Unknown_Curent_Year_Plus_1_Amount: 0
-  Unknown_Payments_Rate: 0
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 8.14
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '8.14'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.0'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: "Farm Service Agency continues to strategically take the\
     \ necessary steps to strengthen internal controls measures, establish uniform\
     \ consistency for compliance processes, and improve accountability. Farm Service\
@@ -915,7 +842,7 @@ Data_By_Year:
     \ reviews by FPAC-PAR, serve as validation checkpoints to measure whether the\
     \ control environment is preventing improper payments and correcting deficiencies.\n"
   IP_Unknown_Target_Rate: 0.0637
-  Improper_Payments_Rate: 6.7105405114
+  Improper_Payments_Rate: 6.71054051
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '3.807'
   Non_Monetary_Loss_Amount: '15.68'
@@ -975,31 +902,29 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[8.14, 74.24, 86.36, 10.07, 2.98]'
-Payment_Accuracy_Amounts: '[2572.4, 5912.06, 2010.7199999999998, 309.91999999999996,
-  259.40999999999997]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[74.24, 86.36, 10.07, 2.98]'
+Payment_Accuracy_Amounts: '[5912.06, 2010.7199999999998, 309.91999999999996, 259.40999999999997]'
 Phase_2_Program: 0
 Program_Name: Agriculture Risk/Price Loss Coverage Program
 Scorecard_Links:
-- Link: assets/scorecards/Q1 2020/FSA Agriculture Risk and Price Loss Coverage Getting
-    Payments Right Scorecard FY 2020 Q1.png
-  QuarterYear: Q1 2020
-- Link: assets/scorecards/Q3 2020/FSA Agriculture Risk and Price Loss Coverage Getting
-    Payments Right Scorecard FY 2020 Q3.png
-  QuarterYear: Q3 2020
 - Link: assets/scorecards/Q4 2020/FSA Agriculture Risk and Price Loss Coverage Getting
     Payments Right Scorecard FY 2020 Q4.png
   QuarterYear: Q4 2020
-Technically_Improper_Amounts: '[54.8, 304.54, 102.77, 35.35, 15.68]'
-Underpayment_Amounts: '[0, 0, 0, 0, 0]'
-Unknown_Amounts: '[0, 0, 0, 0, 0]'
-fpi_link: https://fpi.omb.gov/program/10.113
+- Link: assets/scorecards/Q3 2020/FSA Agriculture Risk and Price Loss Coverage Getting
+    Payments Right Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q1 2020/FSA Agriculture Risk and Price Loss Coverage Getting
+    Payments Right Scorecard FY 2020 Q1.png
+  QuarterYear: Q1 2020
+Technically_Improper_Amounts: '[304.54, 102.77, 35.35, 15.68]'
+Underpayment_Amounts: '[0, 0, 0, 0]'
+Unknown_Amounts: '[0, 0, 0, 0]'
 layout: program-specific
 permalink: program/usda-agriculture-risk-price-loss-coverage-program
 ---

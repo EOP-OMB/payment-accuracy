@@ -320,17 +320,6 @@ Data_By_Year:
     Financial: 38.935
     Inability_to_Access_Data: 0.0
     Overpayments_Outside_Control_Amount: '155.74'
-    Overpayments_Outside_Control_Why: The Food and Nutrition Service (FNS) programs
-      are State-managed federal programs. As such, program payments provided by FNS
-      go to various State agencies (SAs), which then pass through the funds to local
-      agencies and sponsors, and ultimately to program recipients. Improper payments
-      identified during the course of a review, audit, or other operational oversight
-      activities can be recovered either through direct billing or through an offset
-      of future program payments earned. FNS has been advised by our Office of General
-      Counsel that since program statutes are very specific in describing circumstances
-      under which recoveries of improper payments are to be made, recoveries made
-      on the basis of a statistical sample or estimation procedure would not be appropriate,
-      and that FNS would need new statutory authority to pursue such collections.
   underpayments:
     Address_Location: 32.7375
     Contractor_Provider_Status: 0.0
@@ -364,7 +353,7 @@ Data_By_Year:
       source
     Value: '32.737500'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
@@ -376,18 +365,18 @@ Phase_2_Program: 0
 Program_Name: Food and Nutrition Service (FNS) Child and Adult Care Food Program (CACFP)
   Family Day Care Homes (FDCH) - Centers
 Scorecard_Links:
-- Link: assets/scorecards/Q1 2025/Food and Nutrition Service (FNS) Child and Adult
-    Care Food Program (CACFP) Centers.pdf
-  QuarterYear: Q1 2025
-- Link: assets/scorecards/Q2 2025/Food and Nutrition Service (FNS) Child and Adult
-    Care Food Program (CACFP) Centers.pdf
-  QuarterYear: Q2 2025
-- Link: assets/scorecards/Q3 2025/Food and Nutrition Service (FNS) Child and Adult
-    Care Food Program (CACFP) Centers.pdf
-  QuarterYear: Q3 2025
 - Link: assets/scorecards/Q4 2025/Food and Nutrition Service (FNS) Child and Adult
     Care Food Program (CACFP) Family Day Care Homes (FDCH) - Tiering Decisions.pdf
   QuarterYear: Q4 2025
+- Link: assets/scorecards/Q3 2025/Food and Nutrition Service (FNS) Child and Adult
+    Care Food Program (CACFP) Centers.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q2 2025/Food and Nutrition Service (FNS) Child and Adult
+    Care Food Program (CACFP) Centers.pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q1 2025/Food and Nutrition Service (FNS) Child and Adult
+    Care Food Program (CACFP) Centers.pdf
+  QuarterYear: Q1 2025
 Technically_Improper_Amounts: '[0]'
 Underpayment_Amounts: '[130.95]'
 Unknown_Amounts: '[0]'

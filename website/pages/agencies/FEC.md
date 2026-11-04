@@ -1,18 +1,18 @@
 ---
 Agency: FEC
 Agency_Name: Federal Election Commission
-Confirmed_Fraud: 0.0
+Confirmed_Fraud: null
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
-Hide_Do_Not_Pay: false
+Hide_Do_Not_Pay: true
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
 Hide_PIIA2019: false
-Hide_Recovery_Audits: false
+Hide_Recovery_Audits: true
 Hide_Recovery_Details: true
-Hide_Recovery_Info: false
+Hide_Recovery_Info: true
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
 Hide_Supplemental_Info: false
@@ -61,35 +61,11 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-- 2021
-detail_Additional_IP_Information: null
-detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
-detail_Compliance_Status: Compliant
-detail_DNP_Discussion: The agency uses a shared service provider that uses Do Not
-  Pay. We have not been informed of any instances when the Do Not Pay toll has identified
-  a potential improper payment.
-detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
-detail_DNP_Reduced: 'No'
-detail_DNP_Used: 'Yes'
-detail_Disposition_of_Funds: null
-detail_Executive_Summary: The FEC performs risk assessments at least once every three
-  years. The FEC does not have any programs or activities that are susceptible to
-  significant improper payments and is only required to perform an improper payment
-  risk assessment.
-detail_OIG_Recommendations: null
-detail_Overpayment_Conditions_And_Methods: null
-detail_PIIA_Incentives: null
-detail_PIIA_Official: null
-detail_Recovery_Audits_Skipped: 'No'
-detail_Recovery_Justifications_Audits: null
-detail_Recovery_Not_Cost_Effective_Justification: The FEC has not identified any overpayments
-  during this reporting period. There has not been a cause to conduct recovery audits.
-detail_Risks_Substantial_Changes_Made: null
 layout: agency-specific
 permalink: agency/FEC.html
-recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

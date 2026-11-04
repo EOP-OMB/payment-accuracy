@@ -2,75 +2,6 @@
 Agency: SBA
 Agency_Name: Small Business Administration
 Data_By_Year:
-- Confidence_Level: '>95%'
-  Corrective_Actions_Proportion: 'Corrective Actions are structured based on the Root
-    Cause of the Improper Payment.  Root causes are shared with management throughout
-    the review cycle.  Corrective Actions, such as External training is formulated
-    to address root causes of improper payments.  Collaboration and communication
-    with other offices within SBA about improper payments focuses on specific loans,
-    lenders and root causes of the improper payment.  '
-  End_Date: 03/2021
-  Future_Outlook_Has_Baseline: 'No'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Within_Failure_to_Access_Data: true
-  Hide_Overpayments_Within_Inability_to_Access_Data: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: true
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: true
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Failure_to_Access_Data: true
-  Hide_Underpayments_Inability_to_Access_Data: true
-  Improper_Payments_Rate: 2.03323988
-  Insufficient_Documentation_to_Determine: 0.0
-  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
-  Margin_of_Error: '3.0'
-  Non_Monetary_Loss_Amount: '352.61447269865'
-  Outlays: 17342.492459
-  Payment_Accuracy_Rate: 97.96676012094382
-  Program_Design_or_Structural_Issue: 352.6144726987
-  Start_Date: 04/2020
-  Technical_IP_Amount: '352.614472698654'
-  Unknown_Payments_Rate: 0
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '0.0'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.0'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: The agency has what is needed with respect to internal controls,
     human capital and information system and other infrastructure to reduce improper
     payments and unknown payments to the tolerable rate.
@@ -594,7 +525,7 @@ Data_By_Year:
     is proper or improper payment. In addition, senior management has established
     and maintained sufficient and appropriate control environment.
   IP_Unknown_Target_Rate: 0.0579
-  Improper_Payments_Rate: 6.1338375724
+  Improper_Payments_Rate: 6.133837570000001
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '1632.514'
@@ -669,38 +600,192 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
+- Agency_Needs_Satisfied: The agency has implemented and maintained internal controls,
+    staffing structures, and information systems sufficient to support ongoing Payment
+    Integrity activities for the 7(a) Loan Guaranty Approval Program. Existing quality
+    control reviews, lender oversight, training, and referral processes are designed
+    to address the primary root causes of improper payments, including eligibility
+    determinations, documentation sufficiency, and data accuracy. Based on the current
+    risk profile of the program, additional investments beyond those already in place
+    would not be cost-effective relative to the level of improper payments identified.
+    The agency will continue to monitor program risk and adjust controls as necessary
+    to ensure that payment integrity efforts remain proportional and effective.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: The agency’s corrective
+    action plan focuses on ensuring that deficiencies leading to Improper Payments
+    and Unknown Payments are identified, corrected, and prevented. The SOP governing
+    7(a) Loan Approvals was updated and published, including all related job aids
+    and resources. Prior to the new SOP becoming effective, the SBA provided internal
+    and external training on the new policy, with additional targeted training planned
+    based on the findings identified through PIIA reviews. OFPO provides feedback
+    to lenders and employees, and obtains additional documentation from lenders when
+    necessary. Significant lender-level deficiencies—based on severity or recurring
+    patterns—are shared with the Office of Credit Risk Management (OCRM) for consideration
+    in its risk-based review process and with the Office of Financial Assistance (OFA)
+    to support policy refinement. These corrective actions together ensure that the
+    agency’s response is proportional to the underlying root causes and supports measurable
+    reductions in Improper Payments and Unknown Payments.
+  Corrective_Actions_Appropriateness: 'The Small Business Administration has implemented
+    and continues to execute corrective actions focused on strengthening lender compliance,
+    improving documentation quality, and reinforcing oversight of delegated loan approvals
+    within the 7(a) Loan Guaranty Approval Program. Actions taken emphasize collaboration
+    among the Office of Financial Program Operations, the Loan Guaranty Processing
+    Center, the Office of Financial Assistance, and the Office of Credit Risk Management
+    to ensure that deficiencies identified through Payment Integrity reviews are communicated,
+    addressed, and incorporated into policy guidance and training. Feedback on critical
+    and non-critical findings is provided directly to lenders during the review process
+    to reinforce expectations related to eligibility determinations, loan structure,
+    and supporting documentation.
+
+    Training remains a central corrective action. The Agency has continued to deliver
+    lender and internal staff training through established forums, including recurring
+    stakeholder calls, policy-focused briefings, and training-on-demand resources
+    covering eligibility requirements, underwriting standards, documentation expectations,
+    and system data accuracy. These efforts are designed to address the most common
+    root causes identified during reviews, including incomplete credit memoranda,
+    insufficient substantiation, and inaccuracies in system data entries. Lenders
+    are encouraged to participate in Agency-provided training, and review feedback
+    is routinely used to inform updates to training content.
+
+    Process improvements and audit-related actions further support payment integrity.
+    Quality control reviews continue to assess lender adherence to statutory and policy
+    requirements, document findings in permanent loan records, and elevate concerns
+    when warranted. Where patterns of deficiencies are identified, referrals are made
+    to the Office of Credit Risk Management for additional review, supervision, or
+    targeted outreach. These actions reinforce accountability while supporting continuous
+    improvement in lender practices and internal oversight.
+
+    Collectively, these actions are intended to reduce the likelihood of future improper
+    payments by strengthening front-end compliance, improving documentation quality
+    at the time of approval, and ensuring that identified risks are addressed through
+    coordinated oversight, training, and quality control activities. No unknown payments
+    were identified during the review period, and corrective actions remain focused
+    on preventing improper payments attributable to documentation, eligibility, and
+    process deficiencies.'
+  Corrective_Actions_Proportion: Corrective actions for specific loans are tracked
+    at the loan level through a centralized database. The Quality Control Specialists
+    for 7(a) Loan Guaranty Approvals monitors errors from identification through completion
+    of the corrective actions. OFPO management provides oversight to ensure that milestones
+    are met. Improper payments identified as a result of the FY 2026 PIIA reviews
+    have been resolved through recommendations to reduce or cancel the loan guaranty,
+    efforts to obtain additional documentation, and/or referral to other offices.
+    Corrective actions are initiated within 120 days and are generally taken within
+    the fiscal year.
+  End_Date: 03/2026
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Accountability_Description: As a means to reduce and/or eliminate the occurrence
+    of improper payments, a Corrective Action Plan has been developed for the program.
+    In addition, managers are held accountable for meeting the program's improper
+    payment rate and unknown payment rate reductions targets. These targets are incorporated
+    into managers' annual performance appraisal goals. Senior management provides
+    oversight to ensure program milestones are met. Senior management is responsible
+    for maintaining sufficient internal controls to prevent improper payments and
+    developing the Quality Control/Improvement Program to determine whether the loan
+    is proper or improper payment. In addition, senior management has established
+    and maintained sufficient and appropriate control environment.
+  IP_Unknown_Target_Rate: 0.0722
+  Improper_Payments_Rate: 8.3049448275
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '3.0'
+  Non_Monetary_Loss_Amount: '1985.9'
+  Outlays: 23912.26
+  Payment_Accuracy_Rate: 91.69505517253492
+  Program_Design_or_Structural_Issue: 1985.9
+  Resources_Requested_For_IP: In the most recent budget submission, the agency requested
+    to maintain current resources to support workforce capacity and operational activities
+    required to ensure payment integrity of the 7(a) Loan Approval process during
+    testing, recoupment, and closeout. These resources are intended to support staff
+    responsible for post loan approval reviews, improper payment identification, recovery
+    efforts, and closeout activities. Despite overall resource constraints in fiscal
+    year 2026, the program prioritized available staffing and funding to sustain payment
+    integrity functions and ensure compliance through the recoupment and closeout
+    phase.
+  Start_Date: 04/2025
+  Technical_IP_Actions_Planned: '[app3]Training, [app4]Change Process, [app6]Audit'
+  Technical_IP_Actions_Taken: '[atp3]Training, [atp4]Change Process, [atp6]Audit'
+  Technical_IP_Amount: '1985.9'
+  Unknown_Payments_Rate: 0
+  Year: 2026
+  detail_IP_Causes: Approximately 90 percent of all 7(a) Loan Guaranty Approvals are
+    performed by lenders with delegated authority to evaluate, process, close, and
+    disburse 7(a) loans. Lenders with delegated authority were responsible for all
+    but one of the identified improper payments for 7(a) Loan Guaranty Approvals in
+    FY 2026. Improper payments in the 7(a) Loan Guaranty Approval Program were caused
+    by lenders’ failure to verify all components of loan eligibility (program integrity
+    issues or project structure issues), lenders’ failure to provide loan documentation,
+    and data entry errors. Because the improper payments for these 7(a) approvals
+    are technically improper, the OMB root cause is identified as Statutory Requirements
+    of Program Were Not Met.
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: null
+  detail_Overpayments_Due_To_Failure: null
+  detail_Overpayments_Due_To_Inability: null
+  detail_Reduction_Target: '7.22'
+  eligibility_aggregated:
+  - Theme: Other
+    Theme_Description: Lenders' failure to verify all components of loan eligibility,
+      provide loan documentation, and data entry errors.
+  overpayments:
+    Overpayments_Within_Control_Amount: '0.0'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Underpayments_Amount: '0.0'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[0, 298.069226, 0, 0, 0]'
-Payment_Accuracy_Amounts: '[16989.8779863013, 29419.1372, 19847.47693227, 19191.05527239,
-  24982.374]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[298.069226, 0, 0, 0, 0]'
+Payment_Accuracy_Amounts: '[29419.1372, 19847.47693227, 19191.05527239, 24982.374,
+  21926.359999999997]'
 Phase_2_Program: 0
 Program_Name: 7(a) Loan Guarantees Approvals
 Scorecard_Links:
-- Link: assets/scorecards/Q1 2021/7(a) Guaranty Approvals Payments Integrity Scorecard
-    FY 2021 Q1.pdf
-  QuarterYear: Q1 2021
-- Link: assets/scorecards/Q2 2021/7(a) Guaranty Approvals Payments Integrity Scorecard
-    FY 2021 Q2.pdf
-  QuarterYear: Q2 2021
-- Link: assets/scorecards/Q3 2021/7(a) Guaranty Approvals Payments Integrity Scorecard
-    FY 2021 Q3.pdf
-  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q4 2023/7(a) Loan Guarantees Approvals.pdf
+  QuarterYear: Q4 2023
+- Link: assets/scorecards/Q3 2023/7(a) Loan Guarantees Approvals.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q2 2023/7(a) Loan Guarantees Approvals.pdf
+  QuarterYear: Q2 2023
 - Link: assets/scorecards/Q4 2021/7(a) Guaranty Approvals Payments Integrity Scorecard
     FY 2021 Q4.pdf
   QuarterYear: Q4 2021
-- Link: assets/scorecards/Q2 2023/7(a) Loan Guarantees Approvals.pdf
-  QuarterYear: Q2 2023
-- Link: assets/scorecards/Q3 2023/7(a) Loan Guarantees Approvals.pdf
-  QuarterYear: Q3 2023
-- Link: assets/scorecards/Q4 2023/7(a) Loan Guarantees Approvals.pdf
-  QuarterYear: Q4 2023
-Technically_Improper_Amounts: '[352.6144726987, 0, 262.740596, 1103.348154, 1632.514]'
+- Link: assets/scorecards/Q3 2021/7(a) Guaranty Approvals Payments Integrity Scorecard
+    FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q2 2021/7(a) Guaranty Approvals Payments Integrity Scorecard
+    FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q1 2021/7(a) Guaranty Approvals Payments Integrity Scorecard
+    FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+Technically_Improper_Amounts: '[0, 262.740596, 1103.348154, 1632.514, 1985.9]'
 Underpayment_Amounts: '[0, 0, 0, 0, 0]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/59.012

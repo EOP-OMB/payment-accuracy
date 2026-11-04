@@ -2,78 +2,6 @@
 Agency: HUD
 Agency_Name: Department of Housing and Urban Development
 Data_By_Year:
-- Agency_Needs_Satisfied: "Testing at the Tier 1 level showed an IP and UP rate under\
-    \ the Tolerable Rate. However, HUD relies on many manual processes that put the\
-    \ sustainability of this position at risk. The current tolerable rate was met\
-    \ with HUD’s internal controls, human capital and information system and other\
-    \ infrastructure. \n"
-  Confidence_Level: '>90%'
-  Corrective_Actions_Proportion: 'The success of any planned actions will be determined
-    by reviewing the annual IP and UP rate and the root cause of any improper payment
-    identified.
-
-    '
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'No'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Within_Failure_to_Access_Data: true
-  Hide_Overpayments_Within_Inability_to_Access_Data: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: true
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Failure_to_Access_Data: true
-  Hide_Underpayments_Inability_to_Access_Data: true
-  Improper_Payments_Rate: 0
-  Insufficient_Documentation_to_Determine: 0.0
-  Margin_of_Error: '0.0'
-  Non_Monetary_Loss_Amount: '0.0'
-  Outlays: 24645.6
-  Payment_Accuracy_Rate: 100
-  Program_Design_or_Structural_Issue: 0.0
-  Start_Date: 10/2019
-  Technical_IP_Amount: '0.0'
-  Unknown_Payments_Rate: 0
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '0.0'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.0'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '0.0'
 - Hide_Improper_Payment_Estimates_Doughnut_Chart: true
   Hide_Improper_Payment_Estimates_Doughnut_Stats: true
   Hide_Overpayments_Outside_Control_Amount: true
@@ -684,23 +612,22 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2025]'
-Overpayment_Amounts: '[0, 0]'
-Payment_Accuracy_Amounts: '[24645.6, 32499.530000000002]'
+Improper_Payments_Data_Years: '[2025]'
+Overpayment_Amounts: '[0]'
+Payment_Accuracy_Amounts: '[32499.530000000002]'
 Phase_2_Program: 0
 Program_Name: Public and Indian Housing - Rental Housing Assistance Program (RHAP)
   - Tenant Based Rental Assistance Section 8 - Housing Certificate Fund & Tenant Based
   Rental Assistance
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0]'
-Underpayment_Amounts: '[0, 0]'
-Unknown_Amounts: '[0, 1481.23]'
-fpi_link: https://fpi.omb.gov/program/14.856
+Technically_Improper_Amounts: '[0]'
+Underpayment_Amounts: '[0]'
+Unknown_Amounts: '[1481.23]'
 layout: program-specific
 permalink: program/hud-public-and-indian-housing-rental-housing-assistance-prog-485c7c79
 ---

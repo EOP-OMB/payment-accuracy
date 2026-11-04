@@ -1,9 +1,9 @@
 ---
 Agency: DOC
 Agency_Name: Department of Commerce
-Confirmed_Fraud: 1.0
+Confirmed_Fraud: 3.3
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -14,18 +14,18 @@ Hide_Recovery_Audits: false
 Hide_Recovery_Details: false
 Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
-Hide_Sparklines: false
+Hide_Sparklines: true
 Hide_Supplemental_Info: false
 Hide_Supplemental_Payment_Integrity: true
-Improper_Payments_Data_Years: '[2021, 2022]'
+Improper_Payments_Data_Years: '[2022]'
 Improper_Payments_Rate_Max: 5.6
-Improper_Payments_Rate_Min: 0.0
-Improper_Payments_Rates: '[2.7367268746579092e-05, 5.563480741797433]'
+Improper_Payments_Rate_Min: 5.6
+Improper_Payments_Rates: '[5.563480741797433]'
 Is_Placeholder: false
-Overpayment_Amounts: '[5e-05, 3.7]'
-Overpayment_Amounts_Identified: '[5.106, 2.8, 22.5, 33.6, 51.7]'
-Overpayment_Amounts_Recovered: '[3.092, 2.6, 18.88, 31.5, 51.0]'
-Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[3.7]'
+Overpayment_Amounts_Identified: '[2.8, 22.5, 33.6, 51.7, 24.0]'
+Overpayment_Amounts_Recovered: '[2.6, 18.88, 31.5, 51.0, 20.6]'
+Overpayment_Years: '[2022, 2023, 2024, 2025, 2026]'
 PIIA2019_Compliant_Programs:
 - Compliant_1A: true
   Compliant_1B: true
@@ -39,7 +39,7 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Bureau of Economic Analysis (BEA)
+  Name: Bureau of Industry and Security (BEA) - BEA
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -52,21 +52,7 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Bureau of Industry and Security (BIS)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: Bureau of Industry and Security (BIS) - Dual Use Export Administration and
-    Enforcement
+  Name: Bureau of Industry and Security (BIS) – BIS
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -293,7 +279,8 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Economic Development Administration (EDA) - Grants
+  Name: Economic Development Administration (EDA) - Economic Development Assistance
+    Programs
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -425,6 +412,240 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
+  Name: NIST - CHIPS Incentives Loan Programs
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NIST - Construction of Research Facilities
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NIST - Creating Helpful Incentives to Produce Semiconductors for America Fund
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NIST - Industrial Technology Services
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NIST - Scientific and Technical Research and Services
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NIST - Wireless Innovation Fund
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NIST - Working Capital Fund
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NOAA - National Environmental Satellite, Data, and Information Service
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NOAA - National Marine Fisheries Service
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NOAA - National Ocean Service
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NOAA - National Weather Service
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NOAA - Oceanic and Atmospheric Research
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NOAA - Office of Marine and Aviation Operations
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NOAA - Office of the Under Secretary
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NOAA - Other
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NOAA - Staff Offices
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NTIA - Facilities Management and Construction
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: NTIA - Spectrum Studies
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: National Institute of Standards and Technology (NIST)
 - Compliant_1A: true
   Compliant_1B: true
@@ -438,154 +659,7 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: National Institute of Standards and Technology (NIST) - Contracts/Purchase
-    Orders
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: National Institute of Standards and Technology (NIST) - Grants
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: National Institute of Standards and Technology (NIST) - IPACs/Other/Miscellaneous
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: National Institute of Standards and Technology (NIST) - Loans
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: National Institute of Standards and Technology (NIST) - Other Transaction
-    Agreements
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: National Institute of Standards and Technology (NIST) - Payments to Employees
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: National Institute of Standards and Technology (NIST) - Purchase Card
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
   Name: National Oceanic and Atmospheric Administration (NOAA)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: National Oceanic and Atmospheric Administration (NOAA) - Grants
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: National Oceanic and Atmospheric Administration (NOAA) - Labor and Payments
-    to Employees
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: National Oceanic and Atmospheric Administration (NOAA) - Loans, IPACs, Other
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: National Oceanic and Atmospheric Administration (NOAA) - Purchase Orders and
-    Contracts
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -666,20 +740,6 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: National Telecommunications and Information Administration (NTIA) - Broadband
-    Technology Opportunities Program
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
   Name: National Telecommunications and Information Administration (NTIA) - Connecting
     Minority Communities Pilot Program
 - Compliant_1A: true
@@ -696,21 +756,6 @@ PIIA2019_Compliant_Programs:
   Hide_Compliance_Section: true
   Name: National Telecommunications and Information Administration (NTIA) - Digital
     Equity Program
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: National Telecommunications and Information Administration (NTIA) - Digital
-    Television Transition and Public Safety Fund, excluding TV Converter Box Coupon
-    Program and Public Safety Interoperable Communications
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -754,21 +799,6 @@ PIIA2019_Compliant_Programs:
   Hide_Compliance_Section: true
   Name: National Telecommunications and Information Administration (NTIA) - Middle
     Mile Program
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: National Telecommunications and Information Administration (NTIA) - Non-FirstNet
-    Activity included in a) Public Safety Trust Fund; and b) Network Construction
-    Fund
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -891,29 +921,23 @@ PIIA2019_Compliant_Programs:
   Hide_Compliance_Section: true
   Name: U.S. Patent and Trademark Office (USPTO) - Patents and Trademarks
 PIIA2019_NonCompliant_Programs: []
-Payment_Accuracy_Amounts: '[182.69995, 66.19999999999999]'
-Payment_Accuracy_Rate_Max: 100.0
+Payment_Accuracy_Amounts: '[66.19999999999999]'
+Payment_Accuracy_Rate_Max: 94.4
 Payment_Accuracy_Rate_Min: 94.4
-Payment_Accuracy_Rates: '[99.99997263273126, 94.43651925820257]'
+Payment_Accuracy_Rates: '[94.43651925820257]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Bureau of Economic Analysis (BEA)
+    Program_Name: Bureau of Industry and Security (BEA) - BEA
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2023'
+    Susceptible: null
+  - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Bureau of Industry and Security (BIS)
+    Program_Name: Bureau of Industry and Security (BIS) – BIS
     Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2024'
-    MethodologyChanged: 0
-    Program_Name: Bureau of Industry and Security (BIS) - Dual Use Export Administration
-      and Enforcement
-    Slug: null
-    Susceptible: 'No'
+    Susceptible: null
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Census Bureau
@@ -934,19 +958,19 @@ Risks:
     Program_Name: Census Bureau - Decennial Census
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Census Bureau - Enterprise Data Capture and Dissemination System
       (EDCADS) - Census Personnel and Employment Check Systems
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Census Bureau - Enterprise Data Capture and Dissemination System
       (EDCADS) - Data Ingest and Collection for the Enterprise
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Census Bureau - Enterprise Data Capture and Dissemination System
       (EDCADS) - Enterprise Data Lake
@@ -964,7 +988,7 @@ Risks:
       (EDCADS) - Research and Application
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Census Bureau - Enterprise Data Collection and Dissemination System
       (EDCADS) - Administrative Records Research and Integration
@@ -1000,12 +1024,13 @@ Risks:
     Program_Name: Economic Development Administration (EDA)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
-    Program_Name: Economic Development Administration (EDA) - Grants
+    Program_Name: Economic Development Administration (EDA) - Economic Development
+      Assistance Programs
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Economic Development Administration (EDA) - Salaries and Expenses
     Slug: null
@@ -1041,88 +1066,117 @@ Risks:
     Program_Name: Minority Business Development Agency (MBDA)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
-    MethodologyChanged: 0
-    Program_Name: Minority Business Development Agency (MBDA) - Minority Business
-      Development and Advocacy
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Minority Business Development Agency (MBDA) - Minority Business
       Development Grants
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: Minority Business Development Agency (MBDA) - Minority Business
+      Development and Advocacy
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: NIST - CHIPS Incentives Loan Programs
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: NIST - Construction of Research Facilities
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: NIST - Creating Helpful Incentives to Produce Semiconductors for
+      America Fund
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: NIST - Industrial Technology Services
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: NIST - Scientific and Technical Research and Services
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: NIST - Wireless Innovation Fund
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: NIST - Working Capital Fund
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: NOAA - National Environmental Satellite, Data, and Information Service
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: NOAA - National Marine Fisheries Service
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: NOAA - National Ocean Service
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: NOAA - National Weather Service
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: NOAA - Oceanic and Atmospheric Research
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: NOAA - Office of Marine and Aviation Operations
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: NOAA - Office of the Under Secretary
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: NOAA - Other
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: NOAA - Staff Offices
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: NTIA - Facilities Management and Construction
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
+    Program_Name: NTIA - Spectrum Studies
+    Slug: null
+    Susceptible: null
   - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: National Institute of Standards and Technology (NIST)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
-    MethodologyChanged: 0
-    Program_Name: National Institute of Standards and Technology (NIST) - Contracts/Purchase
-      Orders
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2024'
-    MethodologyChanged: 0
-    Program_Name: National Institute of Standards and Technology (NIST) - Grants
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 0
-    Program_Name: National Institute of Standards and Technology (NIST) - IPACs/Other/Miscellaneous
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: National Institute of Standards and Technology (NIST) - Loans
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 0
-    Program_Name: National Institute of Standards and Technology (NIST) - Other Transaction
-      Agreements
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 0
-    Program_Name: National Institute of Standards and Technology (NIST) - Payments
-      to Employees
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 0
-    Program_Name: National Institute of Standards and Technology (NIST) - Purchase
-      Card
-    Slug: null
-    Susceptible: 'No'
   - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: National Oceanic and Atmospheric Administration (NOAA)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2024'
-    MethodologyChanged: 0
-    Program_Name: National Oceanic and Atmospheric Administration (NOAA) - Grants
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2024'
-    MethodologyChanged: 0
-    Program_Name: National Oceanic and Atmospheric Administration (NOAA) - Labor and
-      Payments to Employees
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2023'
-    MethodologyChanged: 0
-    Program_Name: National Oceanic and Atmospheric Administration (NOAA) - Loans,
-      IPACs, Other
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2024'
-    MethodologyChanged: 0
-    Program_Name: National Oceanic and Atmospheric Administration (NOAA) - Purchase
-      Orders and Contracts
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2023'
@@ -1141,7 +1195,7 @@ Risks:
     Program_Name: National Telecommunications and Information Administration (NTIA)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: National Telecommunications and Information Administration (NTIA)
       - Broadband Equity, Access, and Deployment Program
@@ -1153,29 +1207,16 @@ Risks:
       - Broadband Infrastructure Program & Tribal Broadband Connectivity Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2022'
-    MethodologyChanged: 0
-    Program_Name: National Telecommunications and Information Administration (NTIA)
-      - Broadband Technology Opportunities Program
-    Slug: null
-    Susceptible: 'No'
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: National Telecommunications and Information Administration (NTIA)
       - Connecting Minority Communities Pilot Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: National Telecommunications and Information Administration (NTIA)
       - Digital Equity Program
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2023'
-    MethodologyChanged: 0
-    Program_Name: National Telecommunications and Information Administration (NTIA)
-      - Digital Television Transition and Public Safety Fund, excluding TV Converter
-      Box Coupon Program and Public Safety Interoperable Communications
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2025'
@@ -1191,17 +1232,10 @@ Risks:
       - First Responder Network Authority
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: National Telecommunications and Information Administration (NTIA)
       - Middle Mile Program
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2023'
-    MethodologyChanged: 0
-    Program_Name: National Telecommunications and Information Administration (NTIA)
-      - Non-FirstNet Activity included in a) Public Safety Trust Fund; and b) Network
-      Construction Fund
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2023'
@@ -1248,59 +1282,126 @@ Risks:
     Program_Name: U.S. Patent and Trademark Office
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: U.S. Patent and Trademark Office (USPTO) - Patents and Trademarks
     Slug: null
     Susceptible: 'No'
   SubstantialChangesMade: 'No'
-Technically_Improper_Amounts: '[0, 0]'
-Underpayment_Amounts: '[0, 0.2]'
-Unknown_Amounts: '[0, 0]'
+Technically_Improper_Amounts: '[0]'
+Underpayment_Amounts: '[0.2]'
+Unknown_Amounts: '[0]'
 Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
-Unknown_Payments_Rates: '[0, 0]'
+Unknown_Payments_Rates: '[0]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-- 2021
 detail_Additional_IP_Information: null
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: 'The Department in FY 2025 utilized the Do Not Pay portal for
-  pre-payment checking and post-payment adjudication checking.  The Department''s
-  above noted Do Not Pay processes in FY 2025 did not lead to the significant reduction
-  of any improper payments.
-
-  '
+detail_DNP_Discussion: The Department in FY 2026 utilized the Do Not Pay portal for
+  pre-payment checking.  The Department's above noted Do Not Pay processes in FY 2026
+  did not lead to the significant reduction of any improper payments.
 detail_DNP_Frequency_Identify: Annually
 detail_DNP_Reduced: 'No'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: 'The Department of Commerce (DOC) Office of Inspector General
-  concluded that the agency was compliant with the Payment Integrity Information Act
-  of 2019 (PIIA) in the most recent compliance audit. PIIA requires agencies to review
-  and assess all programs and activities with annual outlays greater than $10,000,000
-  for improper payment risk at least once every three years to identify those susceptible
-  to significant improper payments. Each of the Department’s bureaus/reporting entities
-  periodically completes or updates improper payment risk assessments covering all
-  of its programs/activities over a one-to-three-year period. In FY 2025, DOC conducted
-  improper payment risk assessments for numerous programs/activities and determined
-  they were not susceptible to significant improper payments.
+detail_Executive_Summary: 'The Payment Integrity Information Act of 2019 (PIIA) was
+  signed into law on March 2, 2020 with one intention being to serve as a more comprehensive
+  Public Law for payment integrity legislation. OMB Circular A-123 Revised, Management’s
+  Responsibility for Internal Control (March 10, 2026), Appendix C, Requirements for
+  Payment Integrity Improvement (March 5, 2021) contains guidance to federal agencies
+  related to PIIA. Agencies are required to periodically (at least once every three
+  years) review all programs and activities with annual outlays greater than $10.0
+  million and identify those that may be susceptible to significant improper payments,
+  take multiple actions when programs and activities are identified as susceptible
+  to significant improper payments, and annually report information on their improper
+  payments monitoring and minimization efforts. The Department recognizes the importance
+  of maintaining adequate internal controls to ensure proper payments, and the Department’s
+  commitment to continuous improvement in the overall disbursement management process
+  remains high. Each of the Department’s payment offices have implemented policies
+  and procedures to detect and prevent improper payments. The Department continually
+  works to ensure the integrity of its disbursements.
+
+
+  The Department’s annual Agency Financial Report, Other Information (Unaudited) section,
+  Payment Integrity refers readers to Departmental Payment Integrity information included
+  at PaymentAccuracy.gov. The U.S. Department of the Treasury, in coordination with
+  the U.S. Department of Justice and OMB, established the PaymentAccuracy.gov website,
+  located at https://paymentaccuracy.gov, to create a centralized location to publish
+  information about U.S. government improper payments. The website provides a centralized
+  place where suspected incidents of fraud, waste, and abuse can be reported, and
+  contains information about (1) current and historical rates and amounts of improper
+  payments; (2) why improper payments occur; and (3) what agencies are doing to reduce
+  and recapture improper payments. PaymentAccuracy.gov also contains the Department’s
+  data for overpayments identified in FY 2026 and overpayments verified as recaptured
+  in FY 2026, as discussed above.
+
+
+  Each of the Department’s bureaus/reporting entities periodically completes or updates,
+  over a one to three-year period (depending on the size of the entity), improper
+  payments risk assessments covering all of its programs/activities as required by
+  OMB Circular A-123 Revised, Appendix C. These improper payments risk assessments
+  of the entity’s programs/activities also incorporate improper payments risk assessments
+  of the control environment related to improper payments, and the procurement and
+  grants management environments.
+
+
+  The Department has extensive payment integrity monitoring, minimization, recapturing,
+  and corrective actions efforts in place, including the identification of improper
+  payments through bureau post-payment reviews, the Department’s Office of Inspector
+  General (OIG) audits or reviews, Single Audit Act audits of grants/cooperative agreements,
+  other grants/cooperative agreements audits or reviews, contract closeout reviews,
+  grants/cooperative agreements closeout reviews, other audits or reviews, and sample
+  reviews of Department-wide sustained disallowed costs.
+
+
+  The Department’s bureaus report improper payments and related recaptures information
+  (recaptures information for improper payments of $10 thousand or more) to the Department’s
+  Office of Financial Management (OFM) on a quarterly basis. OFM then tracks the improper
+  payments of $10 thousand or more that have not been fully recaptured, and periodically
+  throughout the fiscal year requests updates from the responsible bureaus.
+
+
+  The Department’s Office of Inspector General (OIG) concluded in its most recent
+  PIIA review that the Department complied with PIIA criteria for FY 2025. OIG did
+  not identify any significant actions needed to further improve the Department’s
+  measures for preventing and reducing improper payments and unknown payments.
+
+
+  In FY 2026, the Department and its bureaus completed 25 program/activity improper
+  payment risk assessments. None of the risk assessments indicated that the programs/activities
+  were likely to be susceptible to significant improper payments. Currently, none
+  of the Department’s most recently performed program/activity improper payments risk
+  assessments indicate that the programs/activities were likely to be susceptible
+  to significant improper payments.
+
+
+  In FY 2026, the Department’s programs/activities reported $24.0 million in overpayments
+  and $20.6 million in recaptures of overpayments. $20.0 million, $2.6 million, and
+  $1.4 million of the overpayments stemmed from grants/cooperative agreements, payroll,
+  and vendors, respectively.
+
+
+  OMB Circular A-123 Revised, Appendix C provides guidance for agencies to determine
+  if cost-effective payment recapture audits can be performed. The Department periodically
+  evaluates if there are any categories of disbursements for which payment recapture
+  auditing could be or could become cost effective.
 
   '
-detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
 detail_Recovery_Justifications_Audits: null
-detail_Recovery_Not_Cost_Effective_Justification: 'OMB Circular A-123, Appendix C
-  provides guidance for agencies to determine if cost-effective payment recapture
-  audits can be performed. The Department had been performing, from 2005 through June
-  2017, primarily with contractor assistance, annual payment recapture audits of contracts/obligations
+detail_Recovery_Not_Cost_Effective_Justification: OMB Circular A-123, Appendix C provides
+  guidance for agencies to determine if cost-effective payment recapture audits can
+  be performed. The Department had been performing, from 2005 through June 2017, primarily
+  with contractor assistance, annual payment recapture audits of contracts/obligations
   for many of the Department’s bureaus/ reporting entities on a rotational basis.
   Annual payment recapture auditing was additionally performed by a contractor, effective
   2011, for Department-wide grants and other cooperative agreements (i.e., financial
@@ -1311,12 +1412,10 @@ detail_Recovery_Not_Cost_Effective_Justification: 'OMB Circular A-123, Appendix 
   the above noted categories. The Department continues to periodically evaluate if
   there are any categories of disbursements for which payment recapture auditing could
   be or could become cost-effective.
-
-  '
 detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/DOC.html
-recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 51.7
-recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 51.0
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 24.0
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 20.6
 recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

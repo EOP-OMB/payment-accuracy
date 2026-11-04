@@ -3,4 +3,4 @@ SELECT
     [Link]
 FROM [program_scorecard_links]
 WHERE [Program_Name] = ?
-ORDER BY [Year], [Quarter]
+ORDER BY [Year] DESC, [Quarter] DESC

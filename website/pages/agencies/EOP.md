@@ -3,7 +3,7 @@ Agency: EOP
 Agency_Name: Executive Office of the President
 Confirmed_Fraud: null
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: true
@@ -27,6 +27,19 @@ Overpayment_Amounts_Identified: '[]'
 Overpayment_Amounts_Recovered: '[]'
 Overpayment_Years: '[]'
 PIIA2019_Compliant_Programs:
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Anti-Doping Activities
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -91,34 +104,20 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
+  Name: High Intensity Drug Trafficking Areas Program
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Model Acts Program
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: Office of National Drug Control Policy (ONDCP) - Anti-Doping Activities
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: Office of National Drug Control Policy (ONDCP) - High Intensity Drug Trafficking
-    Areas (HIDTA)
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -142,6 +141,11 @@ Risks:
   Assessments:
   - Fiscal_Year: null
     MethodologyChanged: 0
+    Program_Name: Anti-Doping Activities
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
     Program_Name: Congressional Directives
     Slug: null
     Susceptible: null
@@ -163,18 +167,12 @@ Risks:
     Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
+    Program_Name: High Intensity Drug Trafficking Areas Program
+    Slug: null
+    Susceptible: null
+  - Fiscal_Year: null
+    MethodologyChanged: 0
     Program_Name: Model Acts Program
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Office of National Drug Control Policy (ONDCP) - Anti-Doping Activities
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Office of National Drug Control Policy (ONDCP) - High Intensity
-      Drug Trafficking Areas (HIDTA)
     Slug: null
     Susceptible: null
   - Fiscal_Year: null
@@ -190,6 +188,7 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 layout: agency-specific

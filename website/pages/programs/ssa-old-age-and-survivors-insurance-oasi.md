@@ -4,119 +4,6 @@ Agency_Name: Social Security Administration
 Data_By_Year:
 - Agency_Needs_Satisfied: "Internal Controls:  We have a strong internal control environment\
     \ that has always included controls over our benefit payment and debt management\
-    \ processes.  We directly leverage our existing internal control environment and\
-    \ assurance processes to provide reasonable assurance that our internal controls\
-    \ over improper payments are in place and operating effectively.\n\nAs part of\
-    \ our internal control environment, we have a well-established, agency-wide management\
-    \ control program as required by the Federal Managers’ Financial Integrity Act.\n\
-    \nWe established the Improper Payments Oversight Board, consisting of senior executive\
-    \ membership, to ensure that we are focusing on improper payment prevention, formulating\
-    \ clear and innovative strategies, and driving timely results agency-wide.\n\n\
-    Human Capital:  Our program integrity work is labor-intensive and dependent on\
-    \ having the necessary trained staff to do the work.   For the most part, our\
-    \ employees who handle our program integrity work also handle applications for\
-    \ benefits and other mission-critical work.\n\nInformation Systems:  Our staff\
-    \ rely on our information technology (IT) infrastructure to serve the public and\
-    \ safeguard our programs.  \n\nWe initiated our IT Modernization Plan, in fiscal\
-    \ year (FY) 2018 to improve our service to the public.  We will advance our IT\
-    \ infrastructure with 21st century technology and implement the technical flexibility\
-    \ necessary to adapt to future demands.  In FY 2020, we increased the scope to\
-    \ include adding online services, improving and expanding automated services available\
-    \ through our National 800 Number, and providing additional self-service and express\
-    \ services in our field offices.  To achieve our modernization goals, we are investing\
-    \ $863 million over 5 years, including the $415 million that Congress provided\
-    \ in dedicated IT modernization funding in FYs 2018, 2019, 2020 and 2021.\n\n\
-    Other Infrastructure:  We emphasize the importance of information security through\
-    \ continual operational refinement and the maturation of security components that\
-    \ exceed the standards set forth by Government regulations.  In FY 2021, we continued\
-    \ to align our agency cybersecurity priorities with agency strategic objectives\
-    \ and the National Institute of Standards and Technology Cybersecurity Framework\
-    \ (CSF) to identify, detect, and stop fraudulent transactions before they occur.\
-    \  Continued alignment with the CSF will infuse practices from Federal initiatives\
-    \ including the President’s Cybersecurity National Action Plan, the Department\
-    \ of Homeland Security’s (DHS) High Value Asset program, and DHS’s Continuous\
-    \ Diagnostics and Mitigation program.  We will continue to streamline and modernize\
-    \ the existing Comprehensive Integrity Review Program business process.  The revised\
-    \ process will use innovative technologies such as big data and predictive analytic\
-    \ tools to identify, detect, and stop fraudulent programmatic transactions before\
-    \ they occur."
-  Confidence_Level: '>95%'
-  Corrective_Actions_Proportion: 'We remain focused on our strategic objectives and
-    agency goals to ensure stewardship and improve program integrity by reducing improper
-    payments.  We monitor and evaluate existing initiatives and developed a comprehensive
-    approach to identify and support new and planned reduction initiatives that target
-    the root causes of improper payments.  These efforts serve to prioritize and drive
-    business process, policy, and automation improvements.  The purpose of this effort
-    is to strategically align agency wide initiatives that will have the most significant
-    impact to the detection and prevention of improper payments.
-
-
-    We continue to identify and measure the root causes of improper payments.  We
-    are documenting corrective actions in multiple Improper Payment Alignment Strategies
-    (IPAS).  We are developing a framework to establish measurements and benchmarks
-    to evaluate the completed corrective actions within the IPASs.  We will continue
-    to look for innovative ways to glean information to measure the effectiveness
-    of existing corrective actions, where feasible.  It is a challenging process to
-    isolate the impact of a single corrective action.'
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  IP_Current_Year_Plus_1_Amount: 4497.65
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.0040000021
-  Improper_Payments_Rate: 0.23243059
-  Insufficient_Documentation_to_Determine: 0.0
-  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
-  Margin_of_Error: '0.18'
-  Non_Monetary_Loss_Amount: '693.86'
-  Outlays: 1078782.29
-  Outlays_Current_Year_Plus_1_Amount: 1124411.9
-  Payment_Accuracy_Rate: 99.76756941384346
-  Program_Design_or_Structural_Issue: 0.0
-  Start_Date: 10/2019
-  Technical_IP_Amount: '0.0'
-  Unknown_Curent_Year_Plus_1_Amount: 0
-  Unknown_Payments_Rate: 0
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 546.35
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '546.35'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 1267.21
-    Overpayments_Outside_Control_Amount: '1267.21'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 661.62
-    Financial: 13.2324
-    Inability_to_Access_Data: 32.24
-    Underpayments_Amount: '693.86'
-- Agency_Needs_Satisfied: "Internal Controls:  We have a strong internal control environment\
-    \ that has always included controls over our benefit payment and debt management\
     \ processes.  Our existing internal control environment and assurance processes\
     \ provide reasonable assurance that our internal controls over improper payments\
     \ are in place and operating effectively.\n\nAs part of our internal control environment,\
@@ -896,14 +783,6 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 4901.87719851
     Overpayments_Outside_Control_Amount: '4901.87719851'
-    Overpayments_Outside_Control_Why: Old-Age, Survivors, and Disability Insurance
-      overpayments outside the agency’s control occur when we are unable to access
-      data needed to calculate a payment because the beneficiary or a third-party
-      either did not provide the requested information or provided inaccurate information
-      necessary to compute the accurate benefit amount.  It occurs because of beneficiaries’
-      or representative payees’ failure to report changes.  For this reporting period,
-      the leading cause of overpayments outside the agency’s control was the failure
-      to report changes in marital status timely (i.e. marriage, divorce, or remarriage).
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -1998,14 +1877,6 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 2408.4379424
     Overpayments_Outside_Control_Amount: '2408.4379424'
-    Overpayments_Outside_Control_Why: Old-Age, Survivors, and Disability Insurance
-      overpayments outside the agency’s control occur when we are unable to access
-      data needed to calculate a payment because the beneficiary or a third-party
-      either did not provide the requested information or provided inaccurate information
-      necessary to compute the accurate benefit amount.  It occurs because of beneficiaries’
-      or representative payees’ failure to report changes.  For this reporting period,
-      the leading cause of overpayments outside the agency’s control was primarily
-      our reliance on timely self-reporting of employment and wage information.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -2589,7 +2460,7 @@ Data_By_Year:
     of a new overpayment.  There will be limited exceptions to this change, such as
     when an overpayment resulted from fraud.'
   IP_Unknown_Target_Rate: 0.004
-  Improper_Payments_Rate: 0.12560169640000002
+  Improper_Payments_Rate: 0.12560169999999998
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '0.2'
   Non_Monetary_Loss_Amount: '470.17835446'
@@ -2682,6 +2553,648 @@ Data_By_Year:
     Failure_to_Access_Data: 404.33829525
     Inability_to_Access_Data: 65.84005921
     Underpayments_Amount: '470.17835446'
+- Agency_Needs_Satisfied: 'Internal Controls: We have a strong internal control environment
+    that has always included controls over our benefit payment and debt management
+    processes. Our existing internal control environment and assurance processes provide
+    reasonable assurance that our internal controls over improper payments are in
+    place and operating effectively.
+
+
+    As part of our internal control environment, we have a well-established, agency-wide
+    management control program as required by the Federal Managers’ Financial Integrity
+    Act.
+
+
+    The Improper Payments Oversight Board, consisting of senior executive membership,
+    ensures that we focus on improper payment prevention, formulating clear and innovative
+    strategies, and driving timely results agency-wide.
+
+
+    Human Capital: Our program integrity work is labor-intensive and dependent on
+    having the necessary trained staff to do the work. For the most part, our employees
+    who handle our program integrity work also handle applications for benefits and
+    other mission-critical work. Sustained, sufficient funding is critical to maintain
+    the workforce necessary to balance our service and stewardship work.
+
+
+    Information Systems: Our staff rely on our information technology (IT) infrastructure
+    to serve the public and safeguard our programs. Our technology modernization investments
+    focus on simple, seamless, and secure service by delivering customer-centric digital
+    capabilities with human-centered design, business intelligence, and mobile accessible
+    platforms. We plan on continuing to implement new digital services that focus
+    on enhancing the customer experience and removing barriers to service to meet
+    the needs and preferences of our customers, partners, and employees. We are prioritizing
+    self-service options to improve customer service while reducing manual work completed
+    by frontline staff. Sustained, sufficient funding is necessary to continue to
+    modernize our IT.
+
+
+    Other Infrastructure: Cybersecurity remains central to safeguarding the personally
+    identifiable information entrusted to our organization. Preserving public trust
+    requires not only strong protective controls, but also a mature and adaptable
+    cybersecurity program that continuously evolves alongside emerging threats. Our
+    approach is grounded in risk management, enabling the right balance between protection,
+    operational efficiency, and mission delivery.
+
+
+    This year, we are accelerating the maturity of our cybersecurity capabilities
+    by enhancing enterprise risk governance, strengthening defensive cyber operations,
+    and expanding our ability to proactively identify, assess, and mitigate risks
+    to our network. Our program now more fully integrates advanced analytics, automated
+    detection and response, and continuous monitoring to reduce the likelihood and
+    impact of cyber threats.
+
+
+    Strengthening our cybersecurity program also means deepening collaboration with
+    Federal partners and industry to share actionable cyber threat intelligence, improve
+    collective defense, and maintain vigilance against evolving adversary tactics.
+    We are expanding enterprise-wide resilience through improved incident response
+    readiness, active network risk reduction strategies, and continuous improvement
+    of core security controls.
+
+    '
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: 'The Improper Payments team
+    monitors corrective actions taken or planned to mitigate the root causes of improper
+    payments. The team works closely with the Chief-level Improper Payments Oversight
+    Board (IPOB), who is responsible for driving improper payment initiatives. The
+    Chief Risk Officer or their designee serves as the executive chair for the IPOB.
+
+
+    In the summer of 2025, the IPOB Chair shared a prioritized list of improper payment
+    initiatives with the Chief Information Officer (CIO), advocating for information
+    technology (IT) funding for these projects in FY 2026. The initiatives were prioritized
+    based on the magnitude of the associated improper payment deficiency and the impact
+    the project would have on improving quality and reducing our reliance on self-reporting.
+
+
+    Furthermore, at the beginning of FY 2026, we established a Program Management
+    Office (PMO) responsible for overseeing projects at the program level, including
+    collaborating with the CIO on the intake of new IT projects. Currently, the general
+    approach is for the PMO to evaluate component requests for new projects and rank
+    them based on their potential benefits to customers and the agency. Anticipated
+    program savings and improper payment reduction/prevention are included as part
+    of the evaluation criteria. Projects are selected for approval or non-approval
+    based on the overall rankings and the CIO resources available.
+
+
+    Beginning in December 2025, we increased the frequency of IPOB meetings from quarterly
+    to monthly. Business sponsors of funded improper payment-related IT projects and
+    various non-IT projects present their progress to the IPOB on a rotating basis.
+
+
+    Through these collective efforts, we are focused on addressing the root causes
+    of improper payments. For improper payments within the agency’s control, we pursue
+    workflow adjustments, policy and procedural changes, training and reminders for
+    technicians, and automation solutions to improve accuracy. For improper payments
+    outside the agency’s control, we continue to influence change where possible.
+
+
+    These corrective actions are adequate because they align with identified root
+    causes and are supported by strengthened oversight, prioritization, and continuous
+    monitoring. Early indicators such as increased automation of high-risk processes,
+    reduction of manual inputs, and improved consistency in the application of policies
+    suggest that these actions are beginning to improve payment accuracy. As these
+    initiatives progress, we expect to see measurable reductions in improper payments,
+    and we will continue to monitor their effectiveness through ongoing oversight
+    and regular IPOB review.
+
+    '
+  Corrective_Actions_Appropriateness: 'Computational errors are the leading cause
+    of Old-Age and Survivors Insurance (OASI) improper payments with a 5-year annual
+    average of $1.4 billion. These errors occur due to many factors including systems
+    limitations, manual calculation of benefits involving complicated policies, technician
+    errors, incorrectly processed or unprocessed earnings adjustments, beneficiaries
+    not reporting complete and pertinent information, and lack of accurate and accessible
+    data.
+
+
+    Windfall Elimination Provision (WEP) makes up $315.6 million of the $1.4 billion
+    5-year annual average in OASI computational errors. Separately, errors relating
+    to Government Pension Offset (GPO) resulted in a 5-year annual average of $72.8
+    million in improper payments. WEP and GPO reduced or offset Social Security monthly
+    benefits to beneficiaries who received a pension based on non-covered earnings.
+    Most of these workers had non-covered earnings from federal, state, or local governments.
+    We had previously relied on applicants, beneficiaries, or their representative
+    payees to report their entitlement to current or future non-covered pensions;
+    however, they did not always report the receipt of or changes to a pension, resulting
+    in benefit calculation and payment errors. WEP and GPO errors also occurred when
+    the agency did not correctly impose reductions or offset, misapplied exceptions
+    or exemptions, or applied WEP but not GPO (or vice versa) for dually entitled
+    beneficiaries. On January 5, 2025, the Social Security Fairness Act of 2023 was
+    signed into law, thereby repealing WEP/GPO. December 2023 is the last month that
+    WEP and GPO applied. This means that those rules no longer applied to benefits
+    payable for January 2024 and later. We anticipate the WEP/GPO repeal will significantly
+    reduce and eventually eliminate associated improper payments in future years.
+
+
+    To address other computational issues within the agency’s control, we developed
+    several tools. In January 2026, we released a new Payment Preview Tool for Processing
+    Center (PC) users. The tool assists in previewing manual inputs prior to processing.
+    In July 2026, we released the Family Portrait tool, which retrieves various data
+    points, summarizes entitlements by beneficiary or by record, alerts technicians
+    of other records that beneficiaries are entitled on, and shows Primary Insurance
+    Amount (PIA) data on each record. By providing a comprehensive overview, the tool
+    helps prevent missed combined family maximums, as well as family maximums not
+    being applied or terminated correctly. The tool also integrates with Parisi Rule
+    worksheets, which minimizes manual inputs and reduces potential errors.
+
+
+    When a number holder (NH) dies prior to attaining age 62 and the widow(er) becomes
+    first eligible in 1985 or later, we must consider an alternative widow(er) insurance
+    benefit computation known as Windex. This method allows the widow(er) to benefit
+    from the higher indexing factors that occur after the NH’s death. In June 2026,
+    we released reminders to field office technicians on identifying when a Windex
+    PIA applies and properly applying the Windex PIA to compute widow(er) insurance
+    benefits.
+
+
+    We create automated “robotic” programs that perform routine or repetitive tasks
+    and increase the speed and accuracy of manual processing. Bots are available to
+    PC technicians to assist with processing manual awards or post-entitlement actions.
+    In FY 2026, we developed three new bots with two impacting both OASI and DI. First,
+    the Death Reclamation bot, released in July 2026, processes reclamations received
+    from Treasury for OASDI benefit payments in the termination month due to death.
+    Second, when we are notified of a bankruptcy, an automatic stay of collection
+    is triggered. We plan to release the bankruptcy bot in early FY 2027 to stop overpayment
+    collection immediately. The third bot is specific to DI only and is described
+    in the DI program response. We are committed to making long-term investments in
+    robotics technology to improve business processes and eliminate manual actions.
+
+
+    Relationship and dependency is the second leading cause of OASI improper payments
+    with a 5-year annual average of $1.1 billion. Marital status and child relationship
+    are material when determining entitlement to certain auxiliary and survivor benefits.
+    Improper payments occur due to beneficiaries failing to report changes in marital
+    status, the agency’s inability to automate updates, and difficulty expanding data
+    exchanges to include the exchange of marital information. To address the lack
+    of self-reporting of marital and dependency changes impacting benefit payments,
+    we aired relationship and dependency reminders on televisions in field office
+    reception areas. We will continue airing these reminders in FY 2027.
+
+
+    Since 2022, we have onboarded 21 states with centralized marriage data to the
+    automated self-service Social Security number replacement card. We hold monthly
+    meetings with the contractor to discuss mitigation strategies aimed at reducing
+    data mismatches received from these states. In FY 2027, we will work with the
+    contractor to solicit additional states with centralized marriage data to onboard.
+    Once the scope of the Consolidated Claims Experience development transitions from
+    initial claims to post entitlement, we will explore the feasibility of creating
+    an alert relating to development of marriage when an online replacement card name
+    change is processed.
+
+
+    In June 2026, we made various updates to our policy on child relationship and
+    dependency, including an update to the evidence requirements for developing illegitimacy.
+    We also added a chart of State laws to our policy to assist technicians in determining
+    State requirements for certain paternity situations.
+
+
+    Earnings history is the third leading cause of OASI improper payments with a 5-year
+    annual average of $268.6 million. In May 2026, the agency established the Employer
+    Reporting Specialist Unit to strengthen oversight of earnings records and annual
+    wage reporting. This unit enhances the accuracy of wage data, supports large-scale
+    Master Earnings File cleanup efforts, improves system integrity, and helps reduce
+    improper payments while protecting the Trust Fund. In addition, the Business Services’
+    reconciliation process ensures that claimant earnings are posted to the Master
+    Beneficiary Record accurately and on time. Missing earnings can prevent individuals
+    from receiving benefits they are entitled to, while incorrect postings can result
+    in improper payments.
+
+
+    We transformed our employer wage reporting process to deliver a modernized, efficient,
+    and secure wage reporting ecosystem that benefits employers, workers, agency technicians,
+    and partner agencies such as the Internal Revenue Service. As part of this effort,
+    we expanded access to our modernized W-2 and W-2 Correction (W2C) Online application
+    to all employers, in response to the Taxpayer First Act and the influx of small,
+    paper filers now required to report electronically. We have upgraded our systems
+    to detect errors earlier in the wage reporting process and provide clear explanations
+    of errors to employers, allowing for prompt and easy resolution. Real-time edits
+    and results help reduce erroneous data and improve the accuracy of wage reports
+    processed and posted to the Master Earnings File. Employers can easily submit
+    and review wage report information through user-friendly, accessible online tools,
+    and have the ability to remove wage reports they did not submit, correct employer-level
+    errors, and delete duplicate submissions. Planned enhancements, including employer
+    electronic notifications and a status dashboard, will further improve communication,
+    reduce customer service calls, and strengthen fraud detection. These efforts will
+    ensure annual earnings information accurately established, recorded, and maintained
+    for timely consumption and downstream use, while reducing agency resources required
+    to correct earnings records and payments to individuals affected by fraudulent
+    wage reports. Ultimately, these improvements will support program integrity, minimize
+    improper payments, and deliver operational efficiencies across SSA and its partners.
+
+
+    We have several broad-based initiatives in place or underway to obtain data from
+    outside sources and ensure accuracy of our records.
+
+    In FY 2026, we conducted 25 computer-matching agreements (CMA) with various Federal
+    partners to help us determine eligibility and offset benefits for our programs.
+    The total annual savings attributed to these CMAs is approximately $14.9 billion,
+    with an annual cost of approximately $512 million, yielding a positive benefit-to-cost
+    ratio of about $29 to $1. We will continue current CMAs that yield a positive
+    cost-benefit ratio, expand effective CMAs to meet additional program needs, research
+    current programs, work with internal stakeholders to identify data exchange needs,
+    and pursue new data exchanges with potential partners. We also plan to hold two
+    Data Exchange Community of Practice meetings in FY 2027.
+
+
+    We collect death data from a variety of sources and work to improve our death
+    data processing so that we can effectively administer our programs. We have a
+    contract with every State Bureau of Vital Statistics (the custodians for death
+    records) and with some jurisdictions to provide us death data through a streamlined
+    death registration process known as Electronic Death Registration (EDR). As of
+    July 2025, all 50 States, New York City, Washington, D.C., Puerto Rico, and the
+    Commonwealth of the Northern Mariana Islands report deaths through the EDR process.
+    Building on OIG audit findings, we acquired data from rejected EDR reports. In
+    FY 2026, we identified approximately 5,200 deceased beneficiaries/recipients and
+    $269 million in improper payments and posted $195 million to payment records for
+    recovery. In FY 2027, we will continue reviewing rejected EDR data and taking
+    appropriate action.
+
+
+    On September 30, 2024, we awarded a contract with the National Association for
+    Public Health Statistics and Information Systems (NAPHSIS). We are partnering
+    with NAPHSIS to obtain historical death data from 14-18 states based on jurisdictional
+    availability. In FY 2025, we worked with NAPHSIS on establishing the infrastructure
+    required to receive the historical death data. In FY 2026, we received approximately
+    5.6 million historical death records from 8 states, updated confirmed dates of
+    death to Numident records, and identified an estimated $2.7 million in improper
+    payments. Additionally, since April 2026, we have been marking non-beneficiaries
+    as deceased on the Numident where there is evidence of death or no evidence of
+    life. In FY 2026, we updated approximately 4.7 million Numident records with a
+    date of death.
+
+
+    Lastly, in FY 2026, we worked with the Department of State to determine the mechanism
+    for transferring electronic Consular Records of Death Abroad data to SSA, as well
+    as the type of agreement required for the exchange. We anticipate implementing
+    the data exchange in FY 2027.
+
+
+    We have several broad-based initiatives in place or underway that are designed
+    to ensure technician compliance with policy and improve payment accuracy.
+
+    In September 2024, we released the 21st Century PolicyNet (21CPN), which replaced
+    PolicyNet, the 20+ year-old software platform that contained multiple applications
+    and hosted thousands of pages of policy instructions. The overall goals of 21CPN
+    are an improved user experience, process efficiencies for the author, publisher,
+    and researcher roles, and improved searching capabilities. In FYs 2025-2026, we
+    continued to refine the system to expand functionality and improve user experience.
+    We also launched a Policy Assistant Tool (PAT). PAT is a chatbot developed to
+    support policy navigation and operational efficiency including reducing improper
+    payments. PAT’s enterprise-wide release via the 21CPN platform occurred in May
+    2026. Expansion plans are underway to broaden access to advanced retrieval capabilities,
+    support enterprise-wide integration, and deliver targeted enhancements based on
+    user feedback. Ongoing efforts prioritize user-driven enhancements to further
+    strengthen PAT’s value and support future innovation across the agency. Additionally,
+    in FY 2027, we will continue to issue reminders, guidance, and policy updates
+    to technicians.
+
+
+    We continue development of the Consolidated Claims Experience (CCE), a modernized
+    user-friendly web-based application designed to centralize and streamline benefit
+    claim processing actions, reduce training time for technicians, and provide a
+    more intuitive approach for data collection and processing of benefit claims.
+    In September 2025, we released the retirement (RIB), Medicare-Only, and RIB with
+    Medicare applications nationally in CCE. In March 2026, we released claims for
+    Uninsured Medicare and Medicare based on a spouse’s insured status. In FY 2027,
+    we will add additional claim types for auxiliaries, survivors, lump sum death
+    payment, appeals, dual entitlement, prior entitlement, and people living outside
+    the U.S. and people who use work in foreign countries to receive Social Security
+    benefits (totalization).
+
+
+    We developed the Technician Experience Dashboard (TED) as an enterprise customer
+    relationship management solution that will provide a single location for information
+    about our customers’ interactions with the agency. It makes it easier for our
+    employees to help the public and increases efficiency and accuracy, improving
+    the overall customer experience. In February 2024, we rolled TED out nationally
+    to all field offices (FO) and workload support units. In November 2024, we expanded
+    TED to all teleservice (TSC) centers. TED modernized the previous 30-year-old
+    Customer Help and Information Program (CHIP) that assisted TSC technicians when
+    responding to customer inquiries via telephone. In FY 2026, we released the ability
+    for technicians to send agency forms and links to customers via email and text.
+    We also released Customer Intake in TED to over 700 offices. We will complete
+    national expansion to all offices in October 2026. This feature empowers technicians
+    to seamlessly manage reception traffic and appointments for their office. With
+    streamlined check-in, identity verification, and task management capabilities,
+    technicians can deliver faster, more accurate and personalized service without
+    switching between multiple applications. In FY 2027, we will work towards implementing
+    the use of super intelligence to develop high volume informational workflows.
+
+
+    Upload Documents and eSignature services allow beneficiaries, recipients, and
+    individual representative payees to submit and sign documents electronically based
+    on a technician request. We also offer a customer-initiated option allowing them
+    to electronically submit certain forms and evidence to the agency without technician
+    initiation. In FY 2026, through frontline training, we encouraged field office
+    technicians to promote the use of Upload Documents to our customers to help avoid
+    processing delays and reduce administrative burden. We also continued to webify
+    forms for a mobile friendly experience and increase the number of forms. In July
+    2026, we launched the first batch of forms utilizing a new conversational approach
+    in Upload Documents. The new approach presents form items in a more easily understood,
+    conversational style making them accessible to customers of all education and
+    reading levels. Similar to previously introduced dynamic webforms, conversational
+    forms will not necessarily ask questions in a linear sequence that mirrors the
+    paper form. Instead, customer responses will determine which additional questions
+    appear. Although form questions will be presented in a new conversational manner,
+    a Portable Document Format (PDF), identical to the paper and fillable PDF versions
+    of the form, will still be generated. Customers will have an opportunity to preview
+    the PDF and edit any responses prior to submission.
+
+
+    We are committed to ensuring beneficiaries receive all benefits due. Through the
+    potential entitlement function, we analyze data to determine groups of individuals
+    where entitlement to a different record is possible, or entitlement to higher
+    benefits on the same record is possible. While potential entitlements are generally
+    not underpayments but rather serve as a lead to explore additional entitlement,
+    there is some intersection between these issues. For example, we might identify
+    a situation where a group of individuals is impacted by a systemic problem with
+    our policy, processes or automation that results in underpayments on the current
+    record (i.e.; benefit computation error), requiring further investigation and
+    analysis, special outreach or handling. In November 2025 and April 2026, we sent
+    notices to beneficiaries who are receiving spousal benefits but may have sufficient
+    earnings to be eligible for higher retirement benefits based on their own earnings;
+    and surviving spouses who are potentially eligible for higher retirement benefits
+    on their own accounts. In FY 2027, we will continue to identify beneficiaries
+    with potential entitlement to higher benefits and send notices to inform them.
+    We will follow policies to develop for potential benefits and explore entitlement
+    for applicants on other records and other classes of benefits where eligible.
+
+
+    Lastly, to improve the accuracy of processing overpayment actions, in FY 2026,
+    we conducted in-line quality reviews of high-dollar overpayments exceeding $50,000
+    and end-of-line reviews of overpayments exceeding $10,000 in the PCs. In September
+    2026, we created an alert that ensures a technical expert receives notification
+    and conducts the appropriate quality reviews of overpayments exceeding $50,000.
+    We will continue conducting overpayment quality reviews in FY 2027. We also delivered
+    overpayment refresher training to PC technicians in FY 2026. The training included
+    best practices for documenting remarks on overpayment actions and reminders on
+    fully documenting actions and evidence including payment worksheets. We also released
+    a Payment Auditor tool for technicians to use to calculate overpayments and underpayments
+    and provide explanations to customers.
+
+    '
+  Corrective_Actions_Proportion: 'For the root cause of overpayments due to our failure
+    to access data or information needed (approximately $1.6 billion), our corrective
+    actions and strategies fall within several high-level categories such as automation,
+    training, and cross enterprise sharing. For overpayments outside the agency’s
+    control (approximately $100 million), we are promoting timely reporting of changes
+    impacting benefit eligibility and payment amounts and issuing reminders on reporting
+    responsibilities.
+
+
+    We strategically align agencywide initiatives that will have the most significant
+    impact to the detection, reduction, and prevention of improper payments. We include
+    anticipated program savings and improper payment reduction/prevention as part
+    of the information technology evaluation, prioritization, and decision-making
+    process.
+
+
+    We have several oversight bodies responsible for ensuring that planned actions
+    are proportional to the severity and root cause of improper payments. The Improper
+    Payments team monitors corrective actions taken or planned to mitigate the root
+    causes of improper payments, utilizes the annual stewardship review findings to
+    track progress, and identifies corrective action gaps. The Chief-level Improper
+    Payments Oversight Board (IPOB) coordinates and drives agency-level improper payment
+    initiatives.
+
+    '
+  End_Date: 09/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: 'We are committed to being good stewards of taxpayer
+    dollars and ensuring the public has confidence that we manage their tax dollars
+    wisely. We demonstrate a commitment to sound management practices. To ensure stewardship
+    and the efficient administration of our programs, we have established performance
+    measures in our Annual Performance Plan for fiscal years (FY) 2026–2027 to track
+    our progress. Under strategic goal 2, “Preserve and Protect Public Resources,”
+    there are three performance measures directly related to reduction of improper
+    payments: Supplemental Security Income program overpayment accuracy; Old-Age and
+    Survivors Insurance program overpayment accuracy, and Disability Insurance program
+    overpayment accuracy.
+
+
+    We hold managers, program officials, and senior executives accountable for reducing
+    improper payments. These employees’ annual performance plans reflect their responsibility
+    to support efforts to maintain sufficient internal controls to prevent, detect,
+    and recover improper payments and meet targets to reduce improper payments. In
+    FY 2025, we revised the Manages Performance element to incorporate “Holding Employees
+    Accountable” as a requirement for all managers and supervisors. To achieve a successful
+    performance rating, managers and supervisors must now meet this standard.
+
+
+    We assess managers throughout the agency on these standards each year and hold
+    them accountable for meeting improper payment reduction targets. Each agency department
+    adds expectations that are more detailed for their positions describing what is
+    expected for meeting these performance standards.
+
+
+    If management or employees do not meet established performance expectations, they
+    may be placed on an Opportunity to Perform Successfully. Failure to demonstrate
+    improvement may result in an unsuccessful performance rating, which could lead
+    to demotion or removal from Federal service.
+
+
+    Senior Executive performance plans must clearly align with organizational goals
+    and objectives under the Results Driven Critical Element. Performance levels in
+    the performance requirements must reflect agency targets.
+
+
+    The Improper Payments Oversight Board (IPOB), consisting of senior executive membership,
+    ensures we are focusing on improper payment prevention, formulating clear and
+    innovative strategies, and driving timely results agency-wide. The Chief Risk
+    Officer or their designee serves as the executive chair for the IPOB. In FY 2019,
+    we established an Improper Payments Prevention Team, now known as the Improper
+    Payments team. The Improper Payments team works closely with the IPOB and monitors
+    corrective actions taken or planned to mitigate the root causes of improper payments.
+
+
+    We have a strong internal control environment that has always included controls
+    over our benefit payment and debt management processes. We directly leverage our
+    existing internal control environment and assurance processes to provide reasonable
+    assurance that our internal controls over improper payments are in place and operating
+    effectively.
+
+
+    As part of our internal control environment, we have a well-established, agency-wide
+    management control program as required by the Federal Managers’ Financial Integrity
+    Act.
+
+
+    The effective internal controls we incorporate into our business processes and
+    financial management systems, as well as the program integrity efforts, support
+    our Commissioner’s annual assurance statement to the President and Congress.
+
+
+    In FY 2026, the agency advanced its Enterprise Fraud Risk Management (EFRM) framework
+    by completing Fraud Risk Profile reports for the Representative Payee and Electronic
+    Services (eServices) Programs. We reviewed fraud risks to determine if existing
+    controls were sufficient or if additional measures were needed. For risks requiring
+    further action, we identified Risk Mitigation subject matter experts to implement
+    new mitigation strategies. This work ensures compliance with OMB requirements
+    and establishes a proactive approach to identifying and addressing program vulnerabilities.
+
+
+    We also supported enterprise risk activities, including targeted fraud risk analyses
+    aligned with operational changes and stakeholder needs, demonstrating the Agency’s
+    commitment to integrating fraud risk management across key programs. In FY 2026,
+    we developed 16 Fraud Risk Positions (FRPs), including reviews, determinations,
+    and opinions across digital and disability-related services. These assessments
+    strengthened SSA’s fraud mitigation efforts and informed decisions to protect
+    benefit integrity and public trust.
+
+
+    We also advanced readiness for SSA’s enterprise Governance, Risk, and Compliance
+    (GRC) tool by initiating ServiceNow training, developing the disability entity
+    architecture, mapping controls, preparing demos, and collaborating with MITRE
+    Corporation, a Federally Funded Research and Development Center (FFRDC) that works
+    collaboratively and non-competitively with vendors and the government to ensure
+    analysis and recommendations are in the best interest of the agency. These efforts
+    support SSA’s digital modernization by preparing infrastructure and staff for
+    a unified risk platform to streamline compliance, audit, and risk reporting.
+
+
+    In March 2025, we resumed use of the Treasury Offset Program (TOP) after suspending
+    it in March 2020 because of the effects of the COVID-19 pandemic from those who
+    were notified of TOP debt referral prior to program suspension. Since resuming
+    TOP, Fiscal Service has offset over 323,583 Federal and State payments and collected
+    about $645 million in delinquent programmatic debt, with weekly collections continuing
+    at a steady pace. We will continue to maintain ongoing collection efforts through
+    FY 2027, supported by regular monitoring and reporting.
+
+
+    Beginning April 25, 2025, we informed overpaid Old-Age, Survivors, and Disability
+    Insurance individuals that we will begin recovering their overpayment by withholding
+    50 percent of their benefit amount. This rate replaces the previous benefit withholding
+    rate of 10 percent that was implemented on March 25, 2024. If an individual was
+    notified of an overpayment prior to April 25, 2025, they will retain the 10 percent
+    withholding rate unless we notify them of a new overpayment. There will be limited
+    exceptions to this change, such as when an overpayment resulted from fraud.
+
+    '
+  IP_Unknown_Target_Rate: 0.003
+  Improper_Payments_Rate: 0.32873005439999997
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '0.3'
+  Non_Monetary_Loss_Amount: '2978.2273989'
+  Outlays: 1437540.57443977
+  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app2]Behavioral/Psych
+    Influence, [app3]Training, [app4]Change Process, [app5]Cross Enterprise Sharing,
+    [app6]Audit, [app7]Predictive Analytics'
+  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych
+    Influence, [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing,
+    [atp6]Audit, [atp7]Predictive Analytics'
+  Payment_Accuracy_Rate: 99.67126994562699
+  Program_Additional_Information: 'The improper payment data reported in this data
+    call is based on fiscal year (FY) 2025 (single year) stewardship findings. The
+    annual sample in our stewardship reviews is sufficient to provide statistically
+    reliable data on the overall payment accuracy. However, the annual sample does
+    not provide statistically reliable information about individual deficiencies in
+    a given year. Therefore, we summarize deficiency data over a 5-year period to
+    develop corrective actions that address top deficiencies.
+
+
+    We issued $1.4 trillion in Old-Age and Survivors Insurance benefit payments in
+    FY 2025 and maintained a high payment accuracy rate. As good stewards of our programs
+    and as required by law, we continue our quality reviews, cost-effective program
+    integrity work, and payment accuracy efforts to ensure individuals receive the
+    benefits for which they are eligible.
+
+    '
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: The Fiscal Year 2027 President’s Budget included resources
+    for internal controls to prevent improper payments. As part of our stewardship
+    responsibilities and our efforts to reduce improper payments, we also requested
+    $2,397 billion in dedicated funding for program integrity activities. Many of
+    the tools we use, such as our medical Continuing Disability Reviews, Supplemental
+    Security Income redeterminations, and the Cooperative Disability Investigations
+    program, save billions of program dollars with a proportionally small investment
+    of administrative resources.
+  Start_Date: 10/2024
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: '[app1]Automation, [app2]Behavioral/Psych Influence,
+    [app3]Training, [app4]Change Process, [app5]Cross Enterprise Sharing, [app7]Predictive
+    Analytics'
+  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych Influence,
+    [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing, [atp7]Predictive
+    Analytics'
+  Unknown_Payments_Rate: 0
+  Year: 2026
+  detail_IP_Causes: 'Improper payments within the agency’s control are caused by our
+    failure to access the data or information needed to make accurate payments, or
+    we took an incorrect action. An incorrect action could be due to incorrect policy
+    interpretation and application, mathematical error, typographical error, or delay
+    in input. To prevent improper payments from occurring, we provide training and
+    reminders for technicians and develop automation solutions to improve accuracy.
+
+
+    Improper payments outside the agency’s control occur when we are unable to access
+    the data needed to calculate an accurate payment because the beneficiary or a
+    representative payee did not provide the requested information or provided inaccurate
+    information necessary to compute the accurate benefit amount. It occurs because
+    of beneficiaries’ or representative payees’ failure to report changes that impact
+    benefit eligibility and/or payment amounts. We explicitly inform individuals of
+    their reporting requirements during the application process and again within award
+    letters, pamphlets periodically sent to beneficiaries, and in standard language
+    in most official agency correspondence. However, beneficiaries and representative
+    payees still may fail to report these changes or may not report changes in time
+    to prevent an improper payment.
+
+    '
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '1647.43131309'
+  detail_Overpayments_Due_To_Inability: '99.9692'
+  detail_Reduction_Target: '0.3'
+  eligibility_aggregated:
+  - Theme: Age
+    Theme_Description: The biological age of the recipient/beneficiary
+  - Theme: Death
+    Theme_Description: Date of death of the recipient/beneficiary
+  - Theme: Education
+    Theme_Description: The education level or enrollment status of the recipient/beneficiary
+  - Theme: Employment
+    Theme_Description: The employment status of the recipient/beneficiary
+  - Theme: Marital Status
+    Theme_Description: A person's state of being single, married, separated, divorced,
+      or widowed
+  - Theme: Military Status
+    Theme_Description: The condition of being, or having been in the uniformed services
+  - Theme: Receiving Benefits from Other Sources
+    Theme_Description: Beneficiary or recipient is receiving benefits from an additional
+      source
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 1647.43131309
+    Inability_to_Access_Data: 99.9692
+    Overpayments_Within_Control_Amount: '1647.43131309'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '99.9692'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 2882.24111949
+    Inability_to_Access_Data: 95.98627941
+    Underpayments_Amount: '2978.2273989'
 Description: The OASDI program provides monthly benefits to qualified individuals
   who are retired or disabled, dependents of eligible beneficiaries, and surviving
   dependents of deceased workers.  We maintain high payment accuracy rates in our
@@ -2691,88 +3204,89 @@ Description: The OASDI program provides monthly benefits to qualified individual
   addressing these challenges by promoting timely wage reporting, automating wage
   reports from payroll information exchanges, and offering a service for customers
   to electronically submit certain technician-requested evidence and forms.
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[1813.56, 1972.25839939, 6521.65729837, 3259.31402914, 1146.91679527]'
-Payment_Accuracy_Amounts: '[1076274.8699999999, 1125028.0124564501, 1261270.79241695,
-  1348333.1719612803, 1285861.6543657]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[1972.25839939, 6521.65729837, 3259.31402914, 1146.91679527,
+  1747.40051309]'
+Payment_Accuracy_Amounts: '[1125028.0124564501, 1261270.79241695, 1348333.1719612803,
+  1285861.6543657, 1432814.94652778]'
 Phase_2_Program: 0
 Program_Name: Old-Age and Survivors Insurance (OASI)
 Scorecard_Links:
-- Link: assets/scorecards/Q2 2019/Old-Age, Survivors, and Disability Insurance Getting
-    Payments Right Scorecard FY 2019 Q2.pdf
-  QuarterYear: Q2 2019
-- Link: assets/scorecards/Q3 2019/Old-Age, Survivors, and Disability Insurance Getting
-    Payments Right Scorecard FY 2019 Q3.pdf
-  QuarterYear: Q3 2019
-- Link: assets/scorecards/Q4 2019/Old-Age, Survivors, and Disability Insurance Getting
-    Payments Right Scorecard FY 2019 Q4.pdf
-  QuarterYear: Q4 2019
-- Link: assets/scorecards/Q1 2020/Old-Age, Survivors, and Disability Insurance Getting
-    Payments Right Scorecard FY 2020 Q1.png
-  QuarterYear: Q1 2020
-- Link: assets/scorecards/Q3 2020/Old-Age, Survivors, and Disability Insurance Getting
-    Payments Right Scorecard FY 2020 Q3.png
-  QuarterYear: Q3 2020
-- Link: assets/scorecards/Q4 2020/Old-Age, Survivors, and Disability Insurance Getting
-    Payments Right Scorecard FY 2020 Q4.png
-  QuarterYear: Q4 2020
-- Link: assets/scorecards/Q1 2021/Old-Age, Survivors, and Disability Insurance Payments
-    Integrity Scorecard FY 2021 Q1.pdf
-  QuarterYear: Q1 2021
-- Link: assets/scorecards/Q2 2021/Old-Age, Survivors, and Disability Insurance Payments
-    Integrity Scorecard FY 2021 Q2.pdf
-  QuarterYear: Q2 2021
-- Link: assets/scorecards/Q3 2021/Old-Age, Survivors, and Disability Insurance Payments
-    Integrity Scorecard FY 2021 Q3.pdf
-  QuarterYear: Q3 2021
-- Link: assets/scorecards/Q4 2021/Old-Age, Survivors, and Disability Insurance Payments
-    Integrity Scorecard FY 2021 Q4.pdf
-  QuarterYear: Q4 2021
-- Link: assets/scorecards/Q1 2022/Old-Age, Survivors, and Disability Insurance Payments
-    Integrity Scorecard FY 2022 Q1.pdf
-  QuarterYear: Q1 2022
-- Link: assets/scorecards/Q2 2022/Old-Age, Survivors, and Disability Insurance Payments
-    Integrity Scorecard FY 2022 Q2.pdf
-  QuarterYear: Q2 2022
-- Link: assets/scorecards/Q3 2022/Old-Age, Survivors, and Disability Insurance Payments
-    Integrity Scorecard FY 2022 Q3.pdf
-  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q3 2026/Old-Age and Survivors Insurance (OASI).pdf
+  QuarterYear: Q3 2026
+- Link: assets/scorecards/Q2 2026/Old-Age and Survivors Insurance (OASI).pdf
+  QuarterYear: Q2 2026
+- Link: assets/scorecards/Q4 2025/Old-Age and Survivors Insurance (OASI).pdf
+  QuarterYear: Q4 2025
+- Link: assets/scorecards/Q3 2025/Old-Age, Survivors, and Disability Insurance (OASDI).pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q2 2025/Old-Age, Survivors, and Disability Insurance (OASDI).pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q1 2025/Old-Age, Survivors, and Disability Insurance (OASDI).pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q4 2024/Old-Age, Survivors, and Disability Insurance (OASDI).pdf
+  QuarterYear: Q4 2024
+- Link: assets/scorecards/Q3 2024/Old-Age, Survivors, and Disability Insurace (OASDI).pdf
+  QuarterYear: Q3 2024
+- Link: assets/scorecards/Q2 2024/Old-Age, Survivors, and Disability Insurance (OASDI).pdf
+  QuarterYear: Q2 2024
+- Link: assets/scorecards/Q1 2024/Old -Age, Survivors, and disability Insurance (OASDI).pdf
+  QuarterYear: Q1 2024
+- Link: assets/scorecards/Q4 2023/Old-Age, Survivors, and Disability Insurance (OASDI).pdf
+  QuarterYear: Q4 2023
+- Link: assets/scorecards/Q3 2023/Old-Age, Survivors, and Disability Insurance (OASDI).pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q2 2023/Old-Age, Survivors, and Disability Insurance (OASDI).pdf
+  QuarterYear: Q2 2023
 - Link: assets/scorecards/Q4 2022/Old-Age, Survivors, and Disability Insurance (OASDI)
     Payments Integrity Scorecard FY 2022 Q4.pdf
   QuarterYear: Q4 2022
-- Link: assets/scorecards/Q2 2023/Old-Age, Survivors, and Disability Insurance (OASDI).pdf
-  QuarterYear: Q2 2023
-- Link: assets/scorecards/Q3 2023/Old-Age, Survivors, and Disability Insurance (OASDI).pdf
-  QuarterYear: Q3 2023
-- Link: assets/scorecards/Q4 2023/Old-Age, Survivors, and Disability Insurance (OASDI).pdf
-  QuarterYear: Q4 2023
-- Link: assets/scorecards/Q1 2024/Old -Age, Survivors, and disability Insurance (OASDI).pdf
-  QuarterYear: Q1 2024
-- Link: assets/scorecards/Q2 2024/Old-Age, Survivors, and Disability Insurance (OASDI).pdf
-  QuarterYear: Q2 2024
-- Link: assets/scorecards/Q3 2024/Old-Age, Survivors, and Disability Insurace (OASDI).pdf
-  QuarterYear: Q3 2024
-- Link: assets/scorecards/Q4 2024/Old-Age, Survivors, and Disability Insurance (OASDI).pdf
-  QuarterYear: Q4 2024
-- Link: assets/scorecards/Q1 2025/Old-Age, Survivors, and Disability Insurance (OASDI).pdf
-  QuarterYear: Q1 2025
-- Link: assets/scorecards/Q2 2025/Old-Age, Survivors, and Disability Insurance (OASDI).pdf
-  QuarterYear: Q2 2025
-- Link: assets/scorecards/Q3 2025/Old-Age, Survivors, and Disability Insurance (OASDI).pdf
-  QuarterYear: Q3 2025
-- Link: assets/scorecards/Q4 2025/Old-Age and Survivors Insurance (OASI).pdf
-  QuarterYear: Q4 2025
-- Link: assets/scorecards/Q2 2026/Old-Age and Survivors Insurance (OASI).pdf
-  QuarterYear: Q2 2026
-- Link: assets/scorecards/Q3 2026/Old-Age and Survivors Insurance (OASI).pdf
-  QuarterYear: Q3 2026
+- Link: assets/scorecards/Q3 2022/Old-Age, Survivors, and Disability Insurance Payments
+    Integrity Scorecard FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q2 2022/Old-Age, Survivors, and Disability Insurance Payments
+    Integrity Scorecard FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q1 2022/Old-Age, Survivors, and Disability Insurance Payments
+    Integrity Scorecard FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q4 2021/Old-Age, Survivors, and Disability Insurance Payments
+    Integrity Scorecard FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q3 2021/Old-Age, Survivors, and Disability Insurance Payments
+    Integrity Scorecard FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q2 2021/Old-Age, Survivors, and Disability Insurance Payments
+    Integrity Scorecard FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q1 2021/Old-Age, Survivors, and Disability Insurance Payments
+    Integrity Scorecard FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q4 2020/Old-Age, Survivors, and Disability Insurance Getting
+    Payments Right Scorecard FY 2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q3 2020/Old-Age, Survivors, and Disability Insurance Getting
+    Payments Right Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q1 2020/Old-Age, Survivors, and Disability Insurance Getting
+    Payments Right Scorecard FY 2020 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q4 2019/Old-Age, Survivors, and Disability Insurance Getting
+    Payments Right Scorecard FY 2019 Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q3 2019/Old-Age, Survivors, and Disability Insurance Getting
+    Payments Right Scorecard FY 2019 Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q2 2019/Old-Age, Survivors, and Disability Insurance Getting
+    Payments Right Scorecard FY 2019 Q2.pdf
+  QuarterYear: Q2 2019
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
-Underpayment_Amounts: '[693.86, 518.71838629, 1822.96083857, 833.35906235, 470.17835446]'
+Underpayment_Amounts: '[518.71838629, 1822.96083857, 833.35906235, 470.17835446, 2978.2273989]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/96.002
 layout: program-specific
