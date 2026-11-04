@@ -2,88 +2,6 @@
 Agency: DOW
 Agency_Name: Department of War
 Data_By_Year:
-- Agency_Needs_Satisfied: "Internal Controls \nThe USMC has internal controls in place\
-    \ that support the reduction of improper payments in its Military Pay program\
-    \ to the levels the Department has targeted.\nHuman Capital\nThe USMC has the\
-    \ human capital it needs to reduce improper payments in the Military Pay program\
-    \ to the levels the Department has targeted.  However, as the USMC’s Military\
-    \ Pay program evolves and DoD operations change, additional skill sets and personnel\
-    \ resources may be needed to sustain and advance the program.\nInformation Systems\
-    \ and Other Infrastructure \nThe USMC has the information systems and other infrastructure\
-    \ it needs to reduce improper payments in the Military Pay program to the levels\
-    \ the Department has targeted.  The USMC uses the Marine Corps Total Force System,\
-    \ which is the integrated pay and personnel system for active duty and reserve\
-    \ Marines, and the authoritative source of data for all USMC pay and personnel\
-    \ information.\n"
-  Confidence_Level: '>95%'
-  Corrective_Actions_Proportion: 'In FY 2021, the Department of Defense implemented
-    corrective actions which consisted of a collaborative timeline process to conduct
-    the PIIA Compliance reviews for the Military Pay programs. While the Marine Corps
-    improper payments slightly increased, the increase was not significant and not
-    indicative of an underlying issue.  The Department of Defense does not anticipate
-    a continuous increase of improper and unknown payment amounts in future fiscal
-    years for the Marine Corps. In FY 2022, the Department will continue the collaborative
-    timeline execution standard to conduct the PIIA Compliance reviews for the Military
-    Pay - USMC program. '
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'No'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: true
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Failure_to_Access_Data: true
-  Hide_Underpayments_Inability_to_Access_Data: true
-  Improper_Payments_Rate: 0.00206554
-  Insufficient_Documentation_to_Determine: 0.0
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '0.0'
-  Non_Monetary_Loss_Amount: '0.0'
-  Outlays: 11135.1
-  Payment_Accuracy_Rate: 99.99793445950193
-  Program_Design_or_Structural_Issue: 0.0
-  Start_Date: 10/2019
-  Technical_IP_Amount: '0.0'
-  Unknown_Payments_Rate: 0
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.23
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '0.23'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.0'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: 'Internal Controls:
 
     The US Marine Corps (USMC) has internal controls in place that support the reduction
@@ -348,20 +266,20 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.00'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023]'
-Overpayment_Amounts: '[0.23, 0, 0]'
-Payment_Accuracy_Amounts: '[11134.87, 9121.24, 9058.48]'
+Improper_Payments_Data_Years: '[2022, 2023]'
+Overpayment_Amounts: '[0, 0]'
+Payment_Accuracy_Amounts: '[9121.24, 9058.48]'
 Phase_2_Program: 0
 Program_Name: Military Pay - Marine Corps
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0]'
-Underpayment_Amounts: '[0, 0, 0]'
-Unknown_Amounts: '[0, 0, 0]'
+Technically_Improper_Amounts: '[0, 0]'
+Underpayment_Amounts: '[0, 0]'
+Unknown_Amounts: '[0, 0]'
 layout: program-specific
 permalink: program/dow-military-pay-marine-corps
 ---

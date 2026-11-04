@@ -455,7 +455,7 @@ Data_By_Year:
 
     '
   IP_Unknown_Target_Rate: 0.1
-  Improper_Payments_Rate: 19.0431525874
+  Improper_Payments_Rate: 19.043152590000002
   Insufficient_Documentation_to_Determine: 0.528
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '0.799'
@@ -516,41 +516,189 @@ Data_By_Year:
     Failure_to_Access_Data: 0.799
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.799'
+- Agency_Needs_Satisfied: The agency has established sufficient internal controls,
+    human capital, and information system infrastructure to reduce improper and unknown
+    payments to a level at which additional investments would not be cost-beneficial.
+    In its most recent budget submission, the agency requested the maintenance of
+    current resource levels to support workforce capacity and operational activities
+    necessary to sustain payment integrity during PPP Forgiveness testing, recoupment,
+    and closeout, including post-forgiveness reviews, improper payment identification,
+    and recovery efforts. Existing controls—such as risk-based reviews, eligibility
+    validations prior to payment, and post-payment quality assurance—resulted in the
+    identification and recapture of improper payments reviewed, and further expansion
+    of review activities beyond statistically valid sampling would exceed the marginal
+    benefit of additional prevented or recovered payments. Accordingly, the agency
+    has determined that current resource levels and controls represent the most cost-effective
+    approach for mitigating improper payments during the recoupment and closeout phase.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: 'Corrective actions for
+    PPP Forgivenss requests are implemented and prioritized based on the predominant
+    reason for the Improper Payment, ensuring that the agency’s efforts directly address
+    the underlying cause. These actions focus on strengthening payment reviews and
+    eligibility checks to prevent the recurrence of errors related to payroll verification
+    and borrower business eligibility. When an improper guaranty payment is identified,
+    SBA initiates recovery by demanding repayment from the lender and requiring any
+    outstanding or clarifying documentation needed to substantiate the original eligibility
+    determination.
+
+
+    The agency provides feedback to the lender and applicable SBA employees regarding
+    process and policy errors resulting in the improper payment to ensure consistent
+    understanding and application of program requirements. These corrective actions
+    are adequate to address the root causes of Improper Payments and Unknown Payments
+    and have contributed to improvements in program compliance and payment accuracy.
+    As implementation continues, the actions are expected to further reduce Improper
+    Payments and Unknown Payments within the PPP Forgiveness program.'
+  Corrective_Actions_Appropriateness: "Corrective actions for the PPP Forgiveness\
+    \ Program were implemented to address the primary root cause of improper payments,\
+    \ which was insufficient or incomplete lender documentation to substantiate forgiveness\
+    \ amounts. The agency implemented a quality control review process that included\
+    \ risk-based manual reviews of forgiveness payment files, internal escalation\
+    \ of loans requiring additional review, and enhanced audit procedures to verify\
+    \ eligibility and payment accuracy. \n\nThe agency has not yet finalized the process\
+    \ for PPP Post Forgiveness reviews; however, once the process is approved the\
+    \ SBA will begin recapturing improper payment funds which could not be resolved\
+    \ through the receipt of supporting documentation."
+  Corrective_Actions_Proportion: Corrective actions for PPP Forgiveness Process are
+    structured based on the root cause of the improper payment and the severity of
+    the associated harm to the agency. Improper Payments and Unknown Payments in this
+    program primarily occurred as a result of missing or incomplete Lender/borrower
+    documentation prohibiting the SBA's ability to verify borrower eligibility. To
+    address these issues, SBA reviewed lender-submitted documentation to validate
+    applicably eligibility criteria and confirm that key business information was
+    accurate. These corrective actions directly target the underlying causes of the
+    improper payments and are proportional to the risk and impact of each deficiency.
+    The agency has not yet finalized the process for PPP Post Forgiveness reviews;
+    however, once the process is approved the SBA will begin recapturing improper
+    payment funds which could not be resolved through the receipt of supporting documentation.  Loans
+    requiring recovery of funds are flagged to prevent new SBA funding until the issue
+    is resolved. Planned corrective actions include continuing these recapture efforts
+    and reinforcing the need for lenders to submit complete and timely documentation
+    to support PPP Forgiveness requests. Collectively, these measures strengthen program
+    oversight and reduce the likelihood of future Improper Payments and Unknown Payments.
+  End_Date: 03/2026
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: "As a means to reduce and/or eliminate the occurrence\
+    \ of improper payments, a Corrective Action Plan has been developed for the program.\
+    \ \nIn addition, managers are held accountable for meeting the program's improper\
+    \ payment rate and unknown payment rate reductions targets. \nSenior management\
+    \ is responsible for implementing a Quality Control review process. In addition,\
+    \ senior management has established and maintained sufficient and appropriate\
+    \ control environment."
+  IP_Unknown_Target_Rate: 0.1
+  Improper_Payments_Rate: 20.260960334
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '3.0'
+  Non_Monetary_Loss_Amount: '0.13'
+  Outlays: 95.8
+  Overpayment_Combined_Mitigations_Planned: '[app3]Training, [app6]Audit'
+  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp6]Audit'
+  Payment_Accuracy_Rate: 79.73903966597078
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: In the most recent budget submission, the agency requested
+    to maintain current resources to support workforce capacity and operational activities
+    required to ensure payment integrity of the PPP Forgiveness Process during testing,
+    recoupment, and closeout. These resources are intended to support staff responsible
+    for post-forgiveness reviews, improper payment identification, recovery efforts,
+    and closeout activities. Despite overall resource constraints in fiscal year 2025,
+    the program prioritized available staffing and funding to sustain payment integrity
+    functions and ensure compliance through the recoupment and closeout phase.
+  Start_Date: 04/2025
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: '[app3]Training, [app6]Audit'
+  Underpayment_Mitigations_Taken: '[atp3]Training, [atp6]Audit'
+  Unknown_Payments_Rate: 0
+  Year: 2026
+  detail_IP_Causes: 'PPP Loan Forgiveness payments are reviewed after the SBA has
+    paid forgiveness to the lender. SBA reviewed borrower and lender documentation
+    to determine whether the borrower was eligible, whether the loan was free of “hold”
+    codes, and whether required documentation was completed and accurate.  SBA also
+    reviewed forgiveness payments to determine whether the loan amount was documented
+    and calculated correctly.
+
+
+    The predominate reasons for improper payments in PPP Loan Forgiveness were missing
+    or insufficient documentation to support forgiveness amount paid. Borrower and
+    lender errors in calculation at loan origination resulting in an excess loan amount,
+    or borrowers failing to provide documentation to support eligible payroll and
+    expenses to justify forgiveness amount received.'
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '1.19'
+  detail_Overpayments_Due_To_Inability: '18.09'
+  detail_Reduction_Target: '10.0'
+  eligibility_aggregated:
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 1.19
+    Inability_to_Access_Data: 18.09
+    Overpayments_Within_Control_Amount: '19.28'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.13
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.13'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2023, 2024, 2025]'
-Overpayment_Amounts: '[873.928378, 292.25305538, 57.064]'
-Payment_Accuracy_Amounts: '[27542.726001999996, 1128.11187577, 245.46099999999998]'
+Improper_Payments_Data_Years: '[2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[873.928378, 292.25305538, 57.064, 19.28]'
+Payment_Accuracy_Amounts: '[27542.726001999996, 1128.11187577, 245.46099999999998,
+  76.39]'
 Phase_2_Program: 0
 Program_Name: Paycheck Protection Program (PPP) Loan Forgiveness
 Scorecard_Links:
-- Link: assets/scorecards/Q2 2023/Paycheck Protection Loan Program (PPP).pdf
-  QuarterYear: Q2 2023
-- Link: assets/scorecards/Q3 2023/Paycheck Protection Loan Program (PPP).pdf
-  QuarterYear: Q3 2023
-- Link: assets/scorecards/Q4 2023/Paycheck Protection Loan Program (PPP).pdf
-  QuarterYear: Q4 2023
-- Link: assets/scorecards/Q1 2024/Paycheck Protection Program (PPP) Loan Forgiveness.pdf
-  QuarterYear: Q1 2024
-- Link: assets/scorecards/Q2 2024/Paycheck Protection Program (PPP) Loan Forgiveness.pdf
-  QuarterYear: Q2 2024
-- Link: assets/scorecards/Q3 2024/Paycheck Protection Program (PPP) Loan Forgiveness.pdf
-  QuarterYear: Q3 2024
-- Link: assets/scorecards/Q4 2024/Paycheck Protection Program (PPP) Loan Forgiveness.pdf
-  QuarterYear: Q4 2024
-- Link: assets/scorecards/Q1 2025/Paycheck Protection Program (PPP) Loan Forgiveness.pdf
-  QuarterYear: Q1 2025
-- Link: assets/scorecards/Q2 2025/Paycheck Protection Program (PPP) Loan Forgiveness.pdf
-  QuarterYear: Q2 2025
 - Link: assets/scorecards/Q3 2025/Paycheck Protection Program (PPP) Loan Forgiveness.pdf
   QuarterYear: Q3 2025
-Technically_Improper_Amounts: '[0, 0, 0]'
-Underpayment_Amounts: '[22.116089, 25.57375461, 0.799]'
-Unknown_Amounts: '[17842.224878, 61.25680957, 0.528]'
+- Link: assets/scorecards/Q2 2025/Paycheck Protection Program (PPP) Loan Forgiveness.pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q1 2025/Paycheck Protection Program (PPP) Loan Forgiveness.pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q4 2024/Paycheck Protection Program (PPP) Loan Forgiveness.pdf
+  QuarterYear: Q4 2024
+- Link: assets/scorecards/Q3 2024/Paycheck Protection Program (PPP) Loan Forgiveness.pdf
+  QuarterYear: Q3 2024
+- Link: assets/scorecards/Q2 2024/Paycheck Protection Program (PPP) Loan Forgiveness.pdf
+  QuarterYear: Q2 2024
+- Link: assets/scorecards/Q1 2024/Paycheck Protection Program (PPP) Loan Forgiveness.pdf
+  QuarterYear: Q1 2024
+- Link: assets/scorecards/Q4 2023/Paycheck Protection Loan Program (PPP).pdf
+  QuarterYear: Q4 2023
+- Link: assets/scorecards/Q3 2023/Paycheck Protection Loan Program (PPP).pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q2 2023/Paycheck Protection Loan Program (PPP).pdf
+  QuarterYear: Q2 2023
+Technically_Improper_Amounts: '[0, 0, 0, 0]'
+Underpayment_Amounts: '[22.116089, 25.57375461, 0.799, 0.13]'
+Unknown_Amounts: '[17842.224878, 61.25680957, 0.528, 0]'
 fpi_link: https://fpi.omb.gov/program/59.073
 layout: program-specific
 permalink: program/sba-paycheck-protection-program-ppp-loan-forgiveness

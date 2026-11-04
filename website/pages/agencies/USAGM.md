@@ -1,17 +1,17 @@
 ---
 Agency: USAGM
 Agency_Name: United States Agency for Global Media, BBG
-Confirmed_Fraud: null
+Confirmed_Fraud: 0.0
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
-Hide_Do_Not_Pay: true
+Hide_Do_Not_Pay: false
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
 Hide_PIIA2019: false
 Hide_Recovery_Audits: true
-Hide_Recovery_Details: true
+Hide_Recovery_Details: false
 Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
@@ -23,10 +23,11 @@ Improper_Payments_Rate_Min: 0
 Improper_Payments_Rates: '[]'
 Is_Placeholder: false
 Overpayment_Amounts: '[]'
-Overpayment_Amounts_Identified: '[0.051, 0.77, 0.25, 0.11]'
-Overpayment_Amounts_Recovered: '[0.048, 0.14, 0.76, 0.14]'
-Overpayment_Years: '[2021, 2022, 2023, 2024]'
-PIIA2019_Compliant_Programs:
+Overpayment_Amounts_Identified: '[0.77, 0.25, 0.11, 0.4]'
+Overpayment_Amounts_Recovered: '[0.14, 0.76, 0.14, 0.04]'
+Overpayment_Years: '[2022, 2023, 2024, 2026]'
+PIIA2019_Compliant_Programs: []
+PIIA2019_NonCompliant_Programs:
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -37,7 +38,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5B: true
   Compliant_5C: true
   Compliant_6: true
-  Compliant_Overall: true
+  Compliant_Overall: false
   Hide_Compliance_Section: true
   Name: Domestic Payroll
 - Compliant_1A: true
@@ -50,20 +51,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5B: true
   Compliant_5C: true
   Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
-  Name: Frontline Media Fund (FMF)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
+  Compliant_Overall: false
   Hide_Compliance_Section: true
   Name: International Broadcasting Bureau (IBB)
 - Compliant_1A: true
@@ -76,7 +64,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5B: true
   Compliant_5C: true
   Compliant_6: true
-  Compliant_Overall: true
+  Compliant_Overall: false
   Hide_Compliance_Section: true
   Name: Middle East Broadcasting Networks (MBN/MN)
 - Compliant_1A: true
@@ -89,7 +77,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5B: true
   Compliant_5C: true
   Compliant_6: true
-  Compliant_Overall: true
+  Compliant_Overall: false
   Hide_Compliance_Section: true
   Name: Office of Cuba Broadcasting (OCB)
 - Compliant_1A: true
@@ -102,7 +90,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5B: true
   Compliant_5C: true
   Compliant_6: true
-  Compliant_Overall: true
+  Compliant_Overall: false
   Hide_Compliance_Section: true
   Name: Open Technology Fund (OTF)
 - Compliant_1A: true
@@ -115,7 +103,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5B: true
   Compliant_5C: true
   Compliant_6: true
-  Compliant_Overall: true
+  Compliant_Overall: false
   Hide_Compliance_Section: true
   Name: Radio Free Asia (RFA)
 - Compliant_1A: true
@@ -128,7 +116,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5B: true
   Compliant_5C: true
   Compliant_6: true
-  Compliant_Overall: true
+  Compliant_Overall: false
   Hide_Compliance_Section: true
   Name: Radio Free Europe (RFE/RL)
 - Compliant_1A: true
@@ -141,7 +129,7 @@ PIIA2019_Compliant_Programs:
   Compliant_5B: true
   Compliant_5C: true
   Compliant_6: true
-  Compliant_Overall: true
+  Compliant_Overall: false
   Hide_Compliance_Section: true
   Name: Technology, Services and Innovation (TSI)
 - Compliant_1A: true
@@ -154,10 +142,9 @@ PIIA2019_Compliant_Programs:
   Compliant_5B: true
   Compliant_5C: true
   Compliant_6: true
-  Compliant_Overall: true
+  Compliant_Overall: false
   Hide_Compliance_Section: true
   Name: Voice of America (VOA)
-PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[]'
 Payment_Accuracy_Rate_Max: 0
 Payment_Accuracy_Rate_Min: 0
@@ -165,57 +152,52 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: '2023'
-    MethodologyChanged: 0
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 1
     Program_Name: Domestic Payroll
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
-    MethodologyChanged: 0
-    Program_Name: Frontline Media Fund (FMF)
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: '2024'
-    MethodologyChanged: 0
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 1
     Program_Name: International Broadcasting Bureau (IBB)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
-    MethodologyChanged: 0
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 1
     Program_Name: Middle East Broadcasting Networks (MBN/MN)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2019'
-    MethodologyChanged: 0
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 1
     Program_Name: Office of Cuba Broadcasting (OCB)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
-    MethodologyChanged: 0
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 1
     Program_Name: Open Technology Fund (OTF)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
-    MethodologyChanged: 0
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 1
     Program_Name: Radio Free Asia (RFA)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
-    MethodologyChanged: 0
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 1
     Program_Name: Radio Free Europe (RFE/RL)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
-    MethodologyChanged: 0
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 1
     Program_Name: Technology, Services and Innovation (TSI)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2022'
-    MethodologyChanged: 0
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 1
     Program_Name: Voice of America (VOA)
     Slug: null
     Susceptible: 'No'
-  SubstantialChangesMade: null
+  SubstantialChangesMade: 'Yes'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -223,11 +205,87 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-- 2021
+detail_Additional_IP_Information: null
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
+detail_Compliance_Status: Non-Compliant
+detail_DNP_Discussion: 'USAGM uses the Department of the Treasury''s Do Not Pay (DNP)
+  Working System, specifically the Taxpayer Identification Number (TIN) Verification
+  service, as part of its efforts to prevent improper payments and strengthen payment
+  integrity controls. The agency monitors TIN Verification results through Payment
+  Request Form (PRF) notification emails and the DNP portal to identify and resolve
+  potential TIN discrepancies before payments are processed on a monthly basis.
+
+  '
+detail_DNP_Frequency_Identify: Monthly
+detail_DNP_Reduced: 'Yes'
+detail_DNP_Used: 'Yes'
+detail_Disposition_of_Funds: null
+detail_Executive_Summary: "On March 2, 2020, the President signed into law the Payment\
+  \ Integrity Information Act of 2019, Public Law 116-117 (PIIA). The PIIA enhances\
+  \ efforts to combat improper payments by reinforcing the payment reporting requirements\
+  \ of the Federal Government. The Act requires agencies to review all programs and\
+  \ activities for the risk of improper payment to determine whether those programs\
+  \ are “susceptible to significant improper payments”. Due to USAGM’s low risk of\
+  \ improper payments, USAGM conducts comprehensive risk assessments on a three-year\
+  \ cycle of all agency programs with payments of $10 million or greater during the\
+  \ assessment period. USAGM utilizes an alternative assessment period from Quarter\
+  \ 4 of the prior fiscal year through Quarter 3 of the current fiscal year. \n\n\
+  \ USAGM is dedicated to maintaining the strength of our improper payments program\
+  \ to ensure payments are legitimate and processed accurately and efficiently. The\
+  \ Office of Chief Financial Officer (OCFO) performs the processes and procedures\
+  \ to comply with the requirements of OMB Circular A-123 Appendix C. USAGM reports\
+  \ improper payments through the Annual OMB Data Call. For FY2026, USAGM will conduct\
+  \ three Phase 1 improper payment risk assessments covering Contracts, Grants, and\
+  \ Payroll using a hybrid methodology that combines an expanded qualitative assessment\
+  \ with targeted, risk-based transaction testing. The FY2026 methodology includes\
+  \ testing 45 transactions, consisting of 15 transactions from each of the three\
+  \ payment categories. During off-cycle years, USAGM continues to monitor its programs,\
+  \ payment activity, processes, risks, and related internal controls for changes\
+  \ that could affect improper payment risk or warrant an updated risk assessment\
+  \ before the next scheduled three-year assessment.\n\nFor FY2025, the OIG determined\
+  \ that USAGM did not comply with applicable PIIA payment integrity requirements.\
+  \ However, the OIG recognized that USAGM conducted the required program-specific\
+  \ risk assessments and adequately concluded whether the assessed programs exceeded\
+  \ applicable statutory thresholds and did not identify needed improvements regarding\
+  \ USAGM's improper and unknown payment determinations or its prevention and reduction\
+  \ efforts. In response to the FY2025 finding, USAGM agreed with the audit results\
+  \ and recommendation and is strengthening the processes and resources necessary\
+  \ to meet applicable payment integrity reporting requirements, including reestablishing\
+  \ processes to collect, review, and report required information, improving coordination\
+  \ among responsible offices, and addressing the FY2026 reporting requirements applicable\
+  \ to USAGM under OMB guidance. USAGM's goal is to complete a compliant payment integrity\
+  \ program during FY2026. Additional information regarding USAGM's payment integrity\
+  \ activities is available at PaymentAccuracy.gov."
+detail_Overpayment_Conditions_And_Methods: null
+detail_PIIA_Incentives: "The CFO’s performance plan for the current rating period\
+  \ has not yet been finalized and approved. The CFO has submitted proposed performance\
+  \ standards that specifically address financial governance, internal controls, payment\
+  \ integrity, compliance, and the timely implementation of corrective actions and\
+  \ remediation milestones. Under the proposed plan, successful efforts to bring the\
+  \ agency into compliance with PIIA requirements would be reflected in the CFO’s\
+  \ performance evaluation through demonstrated improvements in control effectiveness,\
+  \ remediation of deficiencies, and reduction of financial and compliance risk; failure\
+  \ to make adequate progress would negatively affect the applicable performance rating.\
+  \ Once finalized, the performance plan will provide the formal mechanism for holding\
+  \ the CFO accountable for these responsibilities and for recognizing performance\
+  \ that materially improves the agency’s compliance posture. \n"
+detail_PIIA_Official: 'Anthony Smith, Chief Financial Officer
+
+  Angela Vohwinkel, Senior Financial Operations Analyst
+
+  '
+detail_Recovery_Audits_Skipped: 'No'
+detail_Recovery_Justifications_Audits: null
+detail_Recovery_Not_Cost_Effective_Justification: null
+detail_Risks_Substantial_Changes_Made: 'Yes'
 layout: agency-specific
 permalink: agency/USAGM.html
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.4
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.04
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

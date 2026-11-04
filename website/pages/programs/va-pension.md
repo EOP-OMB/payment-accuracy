@@ -2,75 +2,6 @@
 Agency: VA
 Agency_Name: Department of Veterans Affairs
 Data_By_Year:
-- Agency_Needs_Satisfied: VA does not have additional program needs.
-  Confidence_Level: '>90%'
-  Corrective_Actions_Proportion: VA continues to prioritize and implement effective
-    corrective actions and mitigation strategies that reduce improper payments agency-wide
-    as evidenced by its third consecutive and largest year of reductions. Due to Pension
-    reporting over $100 million of overpayments/loss in FY2020, the program was required
-    by Office of Management and Budget to report quarterly on activities and accomplishments
-    that reduce monetary loss. Those activities and accomplishments can be found at
-    PaymentAccuracy.gov. Pension has remained committed to actions that reduce monetary
-    loss and continues to tailor corrective actions to reduce improper payments.
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  IP_Current_Year_Plus_1_Amount: 354.26
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.0750009432
-  Improper_Payments_Rate: 7.76277823
-  Insufficient_Documentation_to_Determine: 2.63
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '2.56'
-  Non_Monetary_Loss_Amount: '12.26'
-  Outlays: 4893.48
-  Outlays_Current_Year_Plus_1_Amount: 4771.14
-  Payment_Accuracy_Rate: 92.18347678952402
-  Program_Design_or_Structural_Issue: 0.0
-  Start_Date: 10/2019
-  Technical_IP_Amount: '0.0'
-  Unknown_Curent_Year_Plus_1_Amount: 3.58
-  Unknown_Payments_Rate: 0.05374498312039694
-  Unknown_Why: VA had lacking or insufficient documentation to validate whether a
-    payment was proper or not.
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 1.3
-    Failure_to_Access_Data: 36.99
-    Financial: 17.9455
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '38.29'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 7.15
-    Failure_to_Access_Data: 322.11
-    Financial: 281.0035
-    Inability_to_Access_Data: 0.06
-    Overpayments_Outside_Control_Amount: '329.32'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.01
-    Failure_to_Access_Data: 12.25
-    Financial: 4.7875
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '12.26'
 - Agency_Needs_Satisfied: VA has not yet determined the tolerable rate.  VA is working
     to determine all requirements for establishing a tolerable rate per Office of
     Management and Budget guidance before attempting to establish tolerable rates.  At
@@ -440,42 +371,6 @@ Data_By_Year:
     Financial: 32.729928
     Inability_to_Access_Data: 32.46
     Overpayments_Outside_Control_Amount: '55.72'
-    Overpayments_Outside_Control_Why: "VA overpayments outside the agency’s control\
-      \ occur when the program is either unable to access information which is needed\
-      \ or the information needed does not exist to validate payment accuracy prior\
-      \ to payment due to regulatory barriers. Specifically, overpayments occur when\
-      \ Social Security benefits are increased as the result of a Social Security\
-      \ cost-of-living adjustment, the Pension maximum annual rates are increased\
-      \ by a like percentage at the same time (per Code of Federal Regulations: Pensions,\
-      \ Bonuses, and Veterans' Relief (Title 38), Department of Veterans Affairs (Chapter\
-      \ One), Adjudications (Part Three), Pension, Compensation, and Dependency and\
-      \ Indemnity Compensation (Subpart A), Improved Pension Rates (3.23). The effective\
-      \ date of Social Security Administration and Pension cost-of-living adjustments\
-      \ is December 1; which are paid January 1. Pension is unable to prevent these\
-      \ overpayments from occurring because VA is unable to access the ‘post cost-of-living\
-      \ adjustment’ Social Security Administration income amount data at the time\
-      \ in which VA makes its cost-of-living adjustment changes in December for the\
-      \ January Pension payments. The cost of establishing additional cross data sharing\
-      \ with the Social Security Administration has been explored and the cost of\
-      \ internal and external IT information technology infrastructure and strategic\
-      \ changes are not cost effective.\n\nCode of Federal Regulations: Pensions,\
-      \ Bonuses, and Veterans' Relief (Title 38), Department of Veterans Affairs (Chapter\
-      \ One), Adjudications (Part Three), Pension, Compensation, and Dependency and\
-      \ Indemnity Compensation (Subpart A), Elections of Pension or Compensation (3.701)\
-      \ requires VA to pay a beneficiary who has dual entitlements (Pension and Compensation)\
-      \ the higher of the two amounts; unless a beneficiary specifically elects one\
-      \ over the other. \n\nOverpayments can also occur when beneficiaries, as allowed\
-      \ by the Code of Federal Regulations: Pensions, Bonuses, and Veterans' Relief\
-      \ (Title 38), Department of Veterans Affairs (Chapter One), Adjudications (Part\
-      \ Three), Pension, Compensation, and Dependency and Indemnity Compensation (Subpart\
-      \ A), Computation of Income (3.271), provide revised medical expenses to VA\
-      \ after payments are made. VA is unable to prevent these overpayments from occurring\
-      \ because regulations require VA to make applicable retroactive adjustments\
-      \ based upon the revised medical expenses for which beneficiaries are the sole\
-      \ source of information. In addition, overpayments occur if Prisoner status\
-      \ information is not timely received, resulting in overpayments. VA is unable\
-      \ to prevent these overpayments from occurring because VA relies on sources\
-      \ outside the agency to provide timely prisoner status information."
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -993,7 +888,7 @@ Data_By_Year:
 
     local governments are not involved in the execution of this program.'
   IP_Unknown_Target_Rate: 0.0954
-  Improper_Payments_Rate: 8.7540740699
+  Improper_Payments_Rate: 8.75407407
   Insufficient_Documentation_to_Determine: 43.72
   Margin_of_Error: '2.87'
   Non_Monetary_Loss_Amount: '38.47'
@@ -1071,6 +966,322 @@ Data_By_Year:
     Failure_to_Access_Data: 38.47
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '38.47'
+- Agency_Needs_Satisfied: VA is committed to process improvements that will ensure
+    VA is providing accurate and timely benefits to Veterans and their dependents
+    through effective implementation of corrective actions and oversight. VA continues
+    to demonstrate that it possesses the internal controls,  human capital, and advanced
+    technological capabilities necessary to effectively reduce improper and unknown
+    payments. In FY 2026, VA reduced improper and unknown payments in the Pension
+    program by $88.34 million or 24.92 percent. VA possesses the information systems
+    and infrastructure needed to sustain improvements, including automated SSA income
+    matching to continue its progress in reducing improper and unknown payments.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: "VA updates corrective action\
+    \ plans annually based on testing results, and no less than quarterly, to ensure\
+    \ actions are appropriately and formally prioritized and designed to mitigate\
+    \ the causes of improper and unknown payments. VA monitors the progress and results\
+    \ of the implementation throughout the reporting year to ensure corrective actions\
+    \ remain on schedule and responsive to identified risks. Additionally, an effectiveness\
+    \ review is performed annually to measure if an action reduced or is properly\
+    \ designed to reduce improper and unknown payments for a specific root cause based\
+    \ on a set benchmark. The annual effectiveness review process allows VA to create\
+    \ or update actions as necessary to ensure continued progress in the remediation\
+    \ of improper and unknown payments. If areas for improvement are identified, VA\
+    \ conducts a root cause analysis to refine the program’s mitigation strategies\
+    \ to ensure they addressed and reduced root causes of error.\n\nVA conducted a\
+    \ corrective action plan effectiveness review of the program’s FY 2024 corrective\
+    \ action plan using FY 2025 test results. The review concluded that the overall\
+    \ FY 2024 corrective action plan was partially effective. While the overall projected\
+    \ improper and unknown payments decreased from $518.58 million in FY 2024 to $354.48\
+    \ million in FY 2025, the program did not meet its intended benchmarks, and administrative\
+    \ errors related to income and medical expenses increased. \n\nThe Pension program’s\
+    \ SSA income match corrective action uses an automated control that compares income\
+    \ data received through a Computer Matching Agreement with SSA to income reported\
+    \ to VA by beneficiaries, allowing the program to identify variances. When the\
+    \ automated tool detects an income variance, VA validates beneficiary income and\
+    \ adjusts Pension payments as necessary. As a result of this corrective action,\
+    \ SSA income match errors decreased from $450.20 million in FY 2024 to $218.63\
+    \ million in FY 2025 and mitigated the root cause of the error. The program has\
+    \ made substantial progress in working through this inventory, and SSA income\
+    \ match errors have decreased for the second consecutive year to $114.58 million\
+    \ in projected improper and unknown payments in FY 2026. This reduction provides\
+    \ evidence of the effective implementation of the automated SSA income match.\
+    \ \n\nQuality oversight errors related to income and medical expenses increased\
+    \ from $68.34 million in projected improper and unknown payments in FY 2024 to\
+    \ $135.86 million in FY 2025. These errors stemmed from human errors in processing\
+    \ claims related to income verification, dependency adjustments, medical expense\
+    \ verification, and other administrative errors. To address these errors, the\
+    \ program implemented special audits, targeted training, and focused reviews,\
+    \ enabling claims processors to identify specific error patterns and share corrective\
+    \ guidance across all Pension Management Centers to reduce improper and unknown\
+    \ payments. These results show that the FY 2024 corrective action plan was not\
+    \ effective for quality oversight errors. FY 2026 testing results also showed\
+    \ an increase in these errors to a projected improper and unknown payments of\
+    \ $151.56 million. The program continues to strengthen quality oversight through\
+    \ standardized, program-wide review procedures across all Pension Management Centers\
+    \ to address current variation in how quality checks are conducted and expand\
+    \ the scope and consistency of targeted audits, including increasing sample sizes\
+    \ in high-error policy areas to ensure meaningful detection of error trends. The\
+    \ program will improve the awareness and impact of quality oversight by sharing\
+    \ the results to improve performance and compliance across all Pension Management\
+    \ Centers."
+  Corrective_Actions_Appropriateness: 'Audit actions taken included special audits
+    and focused reviews of targeted problem areas. These reviews assessed errors related
+    to SSA income matching, dependency, other income sources, and medical expenses
+    by improving the accuracy of income verification and ensuring claims processors
+    adhered to policies and procedures when determining pension rates. From June 6–7,
+    2026, the program conducted a virtual site visit with the St. Paul, Minnesota,
+    Pension Management Center that included a review of 60 claims and identified errors
+    causing improper payments. Findings were shared with the Pension Management Center
+    during the visit and later included in the final report issued on July 30, 2026.
+    Audit activities also occurred in FY 2024 and FY 2025 contributing to reductions
+    of $104.05 million in SSA income match errors, $16.61 million in dependency errors,
+    and $10.33 million in medical expense errors. The program will continue conducting
+    special audits and focused reviews in FY 2027.
+
+
+    Automation actions taken included conducting automated data matches with SSA to
+    identify variances between the income SSA reported and the income beneficiaries
+    reported to VA. Any differences indicated a potential change in a beneficiary’s
+    income that could require an adjustment to their pension award. Validating these
+    variances and making corrections when necessary help prevent future improper payments
+    caused by SSA income match errors. Claims with identified variances were prioritized
+    and sent to processors in batches so discrepancies could be resolved efficiently,
+    benefits adjusted when warranted, and future overpayments minimized. Automated
+    income matches were conducted on January 6, 2026, January 22, 2026, May 7, 2026,
+    and July 14, 2026. These corrective actions also occurred in FY 2024 and FY 2025
+    contributing to a reduction of $104.05 million in improper payments between FY
+    2025 and FY 2026. Quarterly SSA income matches will continue in FY 2027.
+
+
+    Training actions taken included conducting targeted training to address SSA income
+    errors and administrative issues related to dependency, other income sources,
+    and medical expenses. Training was delivered during the virtual site visit with
+    the St. Paul Pension Management Center on June 17, 2026. Training included a review
+    of preliminary Payment Integrity Information Act of 2019 testing results for FY
+    2026, error rate trends, and error categories. Quality Calls with Pension Management
+    Centers were held on March 17 and September 15, 2026 covering SSA income match,
+    root causes of user errors, and overall preliminary findings for FY 2026. Mitigation
+    strategies for key root causes were also discussed. Training efforts also occurred
+    in FY 2025 contributing to reductions of $104.05 million for SSA income match
+    errors, $16.61 million for dependency errors, and $10.33 million for medical expense
+    errors. Training initiatives will continue in FY 2027 and will remain focused
+    on preventing improper and unknown payments.
+
+
+    Outcomes of these corrective actions taken in prior years have been effective
+    and the program continues to see reductions in improper and unknown payment testing
+    results. In FY 2027, the program will evaluate the effectiveness and impact of
+    these corrective actions and determine whether they successfully mitigated the
+    identified root causes.
+
+
+    VA plans to continue these actions in FY 2027 and the expected completion date
+    is September 30, 2027.'
+  Corrective_Actions_Proportion: "The corrective action plan executed in FY 2026 was\
+    \ designed to address root causes identified in FY 2025 testing. While all error\
+    \ causes were included, VA prioritized those associated with monetary loss and\
+    \ developed corrective actions proportional to the severity of those causes. In\
+    \ FY 2025 testing, 79.27% of monetary loss transactions occurred due to unreported\
+    \ changes in SSA income, which resulted in $215.84 million in projected monetary\
+    \ losses. These errors received an intentional focus in the corrective action\
+    \ plan VA implemented in FY 2026. As with all error types, VA implemented corrective\
+    \ actions such as audits and automation to prevent instances where a Veteran receives\
+    \ benefits above or below what the evidence supports. To address SSA income match\
+    \ errors, the program conducted automated data matches with SSA to identify variances\
+    \ between the income SSA reported and the income beneficiaries reported to VA.\
+    \ Given the magnitude and frequency of unreported SSA income errors, an automated,\
+    \ system-wide income match was the only corrective action capable of identifying\
+    \ and mitigating risk across the entire beneficiary population. Validating these\
+    \ variances and making corrections when necessary helped prevent future improper\
+    \ payments. The remaining 20.73% of overpayments were caused by errors in other\
+    \ categories including dependency changes, other sources of unreported income,\
+    \ and medical expenses. VA conducted special audits, training, and focused reviews\
+    \ of these areas. These actions addressed errors related to dependency, other\
+    \ income sources, and medical expenses by validating income counting accuracy\
+    \ and ensuring claims processors adhered to policies and procedures when determining\
+    \ pension rates. \n\nIn FY 2025 testing, 94.02% of underpayments occurred from\
+    \ administrative errors due to miscalculations on claims resulting in Veterans\
+    \ receiving less than what they were entitled to which resulted in $36.17 million\
+    \ in projected underpayments. The remaining 5.98% of underpayments can be attributed\
+    \ to unreported SSA income, or $2.30 million. VA addressed these errors with a\
+    \ combination of corrective actions including the use of audits to identify human\
+    \ errors, and training to address errors identified in testing, such as validating\
+    \ other sources of income, medical expenses, and dependency information. Since\
+    \ human miscalculation errors represented nearly all underpayments and most of\
+    \ the associated $36.17 million impact, the corrective actions were scaled appropriately\
+    \ by concentrating on using training to improve adjudication accuracy.   \n\n\
+    In FY 2025 testing, 98.90% of unknown payments occurred due to missing or insufficient\
+    \ documentation to process beneficiary awards, such as medical expenses, dependency\
+    \ information, and income verification which resulted in $43.24 million in projected\
+    \ unknown payments. Because the underlying causes were human errors made by claims\
+    \ processors, VA implemented corrective actions that directly target those behaviors:\
+    \ audits and targeted training. This allowed the program to identify specific\
+    \ errors and share with all claims processors to reduce the causes of unknown\
+    \ payments.  The corrective actions were designed to address the severity of the\
+    \ issue because they focused on the precise procedural gaps responsible for nearly\
+    \ all unknown payment errors and were applied program‑wide to reach the broad\
+    \ population of claims processors. The remaining 1.10% of unknown errors can be\
+    \ attributed to unreported SSA income, or $0.48 million. VA implemented corrective\
+    \ actions to include the use of audits, training, and automation. \n\nThe program\
+    \ did not have any technically improper payments identified in FY 2025 testing\
+    \ or addressed in the FY 2026 corrective action plan."
+  End_Date: 09/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: "The Senior Accountable Official for the Pension\
+    \ program, Executive Director Pension and Fiduciary Service, is responsible for\
+    \ compliance with the Payment Integrity Information Act of 2019, accountable for\
+    \ reducing improper and unknown payments, and completing required activities timely.\
+    \ The Senior Accountable Official and other VA executive managers must establish\
+    \ and maintain internal controls in accordance with Federal standards outlined\
+    \ by the Government Accountability Office in the Standards for Internal Control\
+    \ in the Federal Government.                                                 \
+    \               \n\nVA has an established process to recover overpayments. For\
+    \ VBA, after conducting payment integrity reviews and recovery activities to identify\
+    \ overpayments, they are tracked by the Debt Management Center. In some instances,\
+    \ overpayments go through due process to allow the beneficiary to provide additional\
+    \ evidence to reduce or eliminate their debt. Overpayments may be recovered by\
+    \ offsetting future payments or settled by a compromise or waiver.           \
+    \                        \n\nVA has roughly 430,000 employees and does not standardize\
+    \ position titles or performance metrics for establishing and maintaining internal\
+    \ controls or identifying and recovering overpayments. Payment integrity functions\
+    \ are dispersed geographically across the continental United States as well as\
+    \ outside the Continental United States and extend well beyond VA’s finance employees.\
+    \ For example, a Veterans Service Representative is responsible for developing\
+    \ claims to support the rating decision process, while also making final entitlement\
+    \ decisions and benefit calculations.                                        \
+    \       \n\nVA actively monitors the progress programs made in improving payment\
+    \ integrity as required by VA Financial Policy. Specifically, the Pension program's\
+    \ corrective action plan drives the improvement of existing or implementation\
+    \ of new internal controls necessary to address the true root causes of errors\
+    \ found in payment integrity testing. Through the description of root causes,\
+    \ monitoring of milestones and tasks, and measurement against set benchmarks,\
+    \ the Senior Accountable Official is held accountable for reducing improper and\
+    \ unknown payments via effective corrective actions. VA reviews corrective actions\
+    \ for effectiveness both informally by discussing testing results and corrective\
+    \ actions in regularly scheduled meetings with programs executive managers and/or\
+    \ staff as well as formal effectiveness reviews in accordance with VA Financial\
+    \ Policy. In July 2026, the Government Accountability Office evaluated VA’s process\
+    \ of evaluating effectiveness using established benchmarks and found no deficiencies\
+    \ or areas of improvement. These measures ensure that payment integrity remains\
+    \ a visible and prioritized responsibility among management and staff throughout\
+    \ the agency. \n\nState and local governments do not participate in the execution\
+    \ of this program."
+  IP_Unknown_Target_Rate: 0.08
+  Improper_Payments_Rate: 6.8563076722
+  Insufficient_Documentation_to_Determine: 46.13
+  Margin_of_Error: '2.54'
+  Non_Monetary_Loss_Amount: '11.16'
+  Outlays: 3208.87
+  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app3]Training, [app6]Audit'
+  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp3]Training, [atp6]Audit'
+  Payment_Accuracy_Rate: 91.70611461355556
+  Program_Additional_Information: "The Pension program continues to prioritize and\
+    \ implement corrective actions and mitigation strategies that reduce improper\
+    \ and unknown payments. From FY 2025 to FY 2026, Pension reduced its improper\
+    \ and unknown payment error rate from 9.99% to 8.29%, a reduction of 1.70%. \n\
+    \nThe Office of Inspector General completed its review of the FY 2025 reporting\
+    \ for the Pension program and determined that the program fully met all Payment\
+    \ Integrity Information Act of 2019 requirements. The review confirmed that that\
+    \ the program reported information as required in the Agency Financial Report\
+    \ and paymentaccuracy.gov, published statistically valid projections of improper\
+    \ and unknown payments, published a corrective action plan and reported an improper\
+    \ and unknown payment rate of less than 10 percent."
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: At this time, VA is not aware of additional program
+    needs. VA has not requested additional resources in the most recent budget submission
+    to establish and maintain internal controls to reduce improper payments and unknown
+    payments. VA continues to develop and implement corrective actions to reduce improper
+    and unknown payments and has not identified a tolerable rate for this program;
+    however, current resources are sufficient to continue implementation of corrective
+    actions.
+  Start_Date: 10/2024
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: '[app1]Automation, [app3]Training, [app6]Audit'
+  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp3]Training, [atp6]Audit'
+  Unknown_Mitigations_Planned: '[app1]Automation,[app3]Training,[app6]Audit'
+  Unknown_Mitigations_Taken: '[atp1]Automation,[atp3]Training,[atp6]Audit'
+  Unknown_Payments_Rate: 1.4375777142732489
+  Year: 2026
+  detail_IP_Causes: "Overpayments occurred when the program did not access data/information\
+    \ needed to validate beneficiary award amounts. In most cases, overpayments resulted\
+    \ from beneficiaries not reporting changes in their Social Security Administration\
+    \ (SSA) income, which would have reduced the pension amount owed. When notified\
+    \ of an income change, claims processors can manually access SSA income information\
+    \ to calculate the correct benefit amount. VA is reducing improper payments by\
+    \ using SSA data through a Computer Matching Agreement. However, when a potential\
+    \ variance is identified, VA must continue issuing the current benefit payment\
+    \ while verifying the validity of the change. This process can result in additional\
+    \ overpayments. Overpayments also stemmed from VA errors in accounting for other\
+    \ factors impacting the pension award, including medical expenses, other sources\
+    \ of income, and dependency status. \n\nUnderpayments occurred when the program\
+    \ failed to access data/information needed to correctly process beneficiary awards.\
+    \ The main causes of underpayments were administrative error and beneficiaries\
+    \ not reporting changes in SSA income. Administrative errors included mistakes\
+    \ in accounting for medical expenses and other income. Underpayments related to\
+    \ SSA income occurred when beneficiaries did not notify VA of changes in SSA income.\
+    \ These issues resulted in beneficiaries receiving less pension than they were\
+    \ due.\n\nUnknown payments were attributed to missing or insufficient documentation\
+    \ required to validate whether a payment was proper or improper. The primary cause\
+    \ for unknown payments was as yet unsubstantiated changes in SSA income while\
+    \ VA worked with the beneficiary to provide due process. Additional causes included\
+    \ insufficient evidence needed to make final determinations on eligibility, medical\
+    \ expenses, other sources of income, and other processing errors. Due to insufficient\
+    \ documentation, VA categorized the payments as unknown.\n\nNo technically improper\
+    \ payments were found during testing."
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '208.85'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '8.0'
+  eligibility_aggregated:
+  - Theme: Death
+    Theme_Description: Date of death of the recipient/beneficiary
+  - Theme: Dependency
+    Theme_Description: Describes who the recipient/beneficiary relies on as a primary
+      source of support
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  - Theme: Military Status
+    Theme_Description: The condition of being, or having been in the uniformed services
+  - Theme: Prisoner Status
+    Theme_Description: Eligibility for benefits or payment based on prisoner status
+  - Theme: Receiving Benefits from Other Sources
+    Theme_Description: Beneficiary or recipient is receiving benefits from an additional
+      source
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 208.85
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '208.85'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 11.16
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '11.16'
 Description: 'The Pension program helps eligible Veterans and their survivors cope
   with financial challenges by providing supplemental income through Veterans and
   Survivors Pension Benefits. A change in benefit payment occurs when a required adjustment
@@ -1080,82 +1291,83 @@ Description: 'The Pension program helps eligible Veterans and their survivors co
   experience life or financial changes since these factors may impact continued eligibility.
   When applicable, the VA pursues debt collection by offsetting benefit payments for
   the full amount of the debt or by approved repayment installments. '
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[367.61, 491.97, 418.06, 381.78, 272.29]'
-Payment_Accuracy_Amounts: '[4510.98, 3732.33, 3442.98, 3224.3499999999995, 3195.4100000000003]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[491.97, 418.06, 381.78, 272.29, 208.85]'
+Payment_Accuracy_Amounts: '[3732.33, 3442.98, 3224.3499999999995, 3195.4100000000003,
+  2942.73]'
 Phase_2_Program: 0
 Program_Name: Pension
 Scorecard_Links:
-- Link: assets/scorecards/Q4 2018/Pension-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
-  QuarterYear: Q4 2018
-- Link: assets/scorecards/Q2 2019/Pension Getting Payments Right Scorecard FY 2019
-    Q2.pdf
-  QuarterYear: Q2 2019
-- Link: assets/scorecards/Q3 2019/Pension Getting Payments Right Scorecard FY 2019
-    Q3.pdf
-  QuarterYear: Q3 2019
-- Link: assets/scorecards/Q4 2019/Pension Getting Payments Right Scorecard FY 2019
-    Q4.pdf
-  QuarterYear: Q4 2019
-- Link: assets/scorecards/Q1 2020/Pension Getting Payments Right Scorecard FY 2020
-    Q1.png
-  QuarterYear: Q1 2020
-- Link: assets/scorecards/Q3 2020/Pension Getting Payments Right Scorecard FY 2020
-    Q3.png
-  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q3 2026/Pension.pdf
+  QuarterYear: Q3 2026
+- Link: assets/scorecards/Q2 2026/Pension.pdf
+  QuarterYear: Q2 2026
+- Link: assets/scorecards/Q4 2025/Pension.pdf
+  QuarterYear: Q4 2025
+- Link: assets/scorecards/Q3 2025/Pension.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q2 2025/Pension.pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q1 2025/Pension.pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q4 2024/Pension.pdf
+  QuarterYear: Q4 2024
+- Link: assets/scorecards/Q3 2024/Pension.pdf
+  QuarterYear: Q3 2024
+- Link: assets/scorecards/Q2 2024/Pension.pdf
+  QuarterYear: Q2 2024
+- Link: assets/scorecards/Q1 2024/Pension.pdf
+  QuarterYear: Q1 2024
+- Link: assets/scorecards/Q4 2023/Pension.pdf
+  QuarterYear: Q4 2023
+- Link: assets/scorecards/Q3 2023/Pension.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q2 2023/Pension.pdf
+  QuarterYear: Q2 2023
+- Link: assets/scorecards/Q4 2022/Pension Payments Integrity Scorecard FY 2022 Q4.pdf
+  QuarterYear: Q4 2022
+- Link: assets/scorecards/Q3 2022/Pension Payments Integrity Scorecard FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q2 2022/Pension Payments Integrity Scorecard FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q1 2022/Pension Payments Integrity Scorecard FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q4 2021/Pension Payments Integrity Scorecard FY 2021 Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q3 2021/Pension Payments Integrity Scorecard FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q2 2021/Pension Payments Integrity Scorecard FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q1 2021/Pension Payments Integrity Scorecard FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
 - Link: assets/scorecards/Q4 2020/Pension Getting Payments Right Scorecard FY 2020
     Q4.png
   QuarterYear: Q4 2020
-- Link: assets/scorecards/Q1 2021/Pension Payments Integrity Scorecard FY 2021 Q1.pdf
-  QuarterYear: Q1 2021
-- Link: assets/scorecards/Q2 2021/Pension Payments Integrity Scorecard FY 2021 Q2.pdf
-  QuarterYear: Q2 2021
-- Link: assets/scorecards/Q3 2021/Pension Payments Integrity Scorecard FY 2021 Q3.pdf
-  QuarterYear: Q3 2021
-- Link: assets/scorecards/Q4 2021/Pension Payments Integrity Scorecard FY 2021 Q4.pdf
-  QuarterYear: Q4 2021
-- Link: assets/scorecards/Q1 2022/Pension Payments Integrity Scorecard FY 2022 Q1.pdf
-  QuarterYear: Q1 2022
-- Link: assets/scorecards/Q2 2022/Pension Payments Integrity Scorecard FY 2022 Q2.pdf
-  QuarterYear: Q2 2022
-- Link: assets/scorecards/Q3 2022/Pension Payments Integrity Scorecard FY 2022 Q3.pdf
-  QuarterYear: Q3 2022
-- Link: assets/scorecards/Q4 2022/Pension Payments Integrity Scorecard FY 2022 Q4.pdf
-  QuarterYear: Q4 2022
-- Link: assets/scorecards/Q2 2023/Pension.pdf
-  QuarterYear: Q2 2023
-- Link: assets/scorecards/Q3 2023/Pension.pdf
-  QuarterYear: Q3 2023
-- Link: assets/scorecards/Q4 2023/Pension.pdf
-  QuarterYear: Q4 2023
-- Link: assets/scorecards/Q1 2024/Pension.pdf
-  QuarterYear: Q1 2024
-- Link: assets/scorecards/Q2 2024/Pension.pdf
-  QuarterYear: Q2 2024
-- Link: assets/scorecards/Q3 2024/Pension.pdf
-  QuarterYear: Q3 2024
-- Link: assets/scorecards/Q4 2024/Pension.pdf
-  QuarterYear: Q4 2024
-- Link: assets/scorecards/Q1 2025/Pension.pdf
-  QuarterYear: Q1 2025
-- Link: assets/scorecards/Q2 2025/Pension.pdf
-  QuarterYear: Q2 2025
-- Link: assets/scorecards/Q3 2025/Pension.pdf
-  QuarterYear: Q3 2025
-- Link: assets/scorecards/Q4 2025/Pension.pdf
-  QuarterYear: Q4 2025
-- Link: assets/scorecards/Q2 2026/Pension.pdf
-  QuarterYear: Q2 2026
-- Link: assets/scorecards/Q3 2026/Pension.pdf
-  QuarterYear: Q3 2026
+- Link: assets/scorecards/Q3 2020/Pension Getting Payments Right Scorecard FY 2020
+    Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q1 2020/Pension Getting Payments Right Scorecard FY 2020
+    Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q4 2019/Pension Getting Payments Right Scorecard FY 2019
+    Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q3 2019/Pension Getting Payments Right Scorecard FY 2019
+    Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q2 2019/Pension Getting Payments Right Scorecard FY 2019
+    Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q4 2018/Pension-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
-Underpayment_Amounts: '[12.26, 0.46, 1.21, 22.23, 38.47]'
-Unknown_Amounts: '[2.63, 0, 0, 114.57, 43.72]'
+Underpayment_Amounts: '[0.46, 1.21, 22.23, 38.47, 11.16]'
+Unknown_Amounts: '[0, 0, 114.57, 43.72, 46.13]'
 fpi_link: https://fpi.omb.gov/program/64.105
 layout: program-specific
 permalink: program/va-pension

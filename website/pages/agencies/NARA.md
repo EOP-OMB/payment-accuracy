@@ -3,7 +3,7 @@ Agency: NARA
 Agency_Name: National Archives and Records Administration
 Confirmed_Fraud: 0.0
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -23,9 +23,9 @@ Improper_Payments_Rate_Min: 0
 Improper_Payments_Rates: '[]'
 Is_Placeholder: false
 Overpayment_Amounts: '[]'
-Overpayment_Amounts_Identified: '[0.1156, 0.259, 0.217, 0.271]'
-Overpayment_Amounts_Recovered: '[0.0867, 0.204, 0.143, 0.217]'
-Overpayment_Years: '[2022, 2023, 2024, 2025]'
+Overpayment_Amounts_Identified: '[0.1156, 0.259, 0.217, 0.271, 2.68]'
+Overpayment_Amounts_Recovered: '[0.0867, 0.204, 0.143, 0.217, 2.66]'
+Overpayment_Years: '[2022, 2023, 2024, 2025, 2026]'
 PIIA2019_Compliant_Programs:
 - Compliant_1A: true
   Compliant_1B: true
@@ -53,6 +53,19 @@ PIIA2019_Compliant_Programs:
   Compliant_Overall: true
   Hide_Compliance_Section: true
   Name: Agency Services
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Federal Records Centers
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -126,43 +139,48 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Administrative Overhead
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Agency Services
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: Federal Records Centers
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Legislative Archives, Presidential Libraries, and Museum Services
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2020'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: National Historical Publications and Records Commission (NHPRC)
       Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Office of the Inspector General
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Repairs and Restoration
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Research Services
     Slug: null
-    Susceptible: null
-  SubstantialChangesMade: null
+    Susceptible: 'No'
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -170,51 +188,84 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-- 2021
 detail_Additional_IP_Information: null
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: NARA's financial shared service provider, the Department of
-  Treasury, Bureau of Fiscal Service, runs weekly checks on disbursed payments against
-  the DNP Working System. Incorrect DNP information is rarely identified and therefore,
-  corrections are rare. However when they are discovered, immediate corrective action
-  is taken. No NARA payments were reported to have been stopped by DNP in FY 2025.
+  the Treasury's Bureau of the Fiscal Service, submits daily files to the Federal
+  Reserve Bank to run automated eligibility and compliance checks on all active suppliers
+  in NARA's financial system against the DNP Working System. Suppliers matched against
+  DNP lists are immediately deactivated and withheld from payment until investigated
+  and proven eligible. DNP usage rarely results in active findings, and corrections
+  on identified information are infrequently required. No improper payments were reported
+  as discovered or stopped by DNP for NARA in FY 2026.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: NARA’s Inspector General concluded that the agency was compliant
-  with the Payment Integrity Information Act of 2019 (PIIA) in the most recent compliance
-  audit. NARA conducts risk assessments for all programs with outlays over $10M on
-  a three year risk assessment cycle. NARA last conducted an improper payment risk
-  assessment in FY 2023 and determined that all programs were not susceptible to significant
-  improper payment and were considered low risk. NARA's program outlays do not have
-  improper payments above the statutory threshold and is classified as Phase 1. NARA's
-  FY 2025 improper payments totaled $270,922.58.
-detail_OIG_Recommendations: null
+detail_Executive_Summary: "NARA complies with the Payment Integrity Information Act\
+  \ (PIIA) of 2019 (Pub. L. No. 116-117, 31 U.S.C. §§ 3352 and 3357), Office of Management\
+  \ and Budget (OMB) Memorandum M-21-19, dated March 5, 2021, OMB Circular A-123 Appendix\
+  \ C (Requirements for Payment Integrity Improvement), and OMB Circular A-136 (section\
+  \ II.4.5), dated May 29, 2026, Payment Integrity Information Act Reporting.\n\n\
+  The Inspector General of the National Archives and Records Administration (NARA)\
+  \ concluded that the agency was compliant with PIIA in its most recent compliance\
+  \ audit. To maintain payment integrity, NARA reviews all programs and activities\
+  \ annually to determine if the statutory threshold for significant improper payments\
+  \ is met, conducts risk assessments on a three-year cycle for all programs and activities,\
+  \ and performs payment recovery audit cost-benefit analyses when necessary.\n\n\
+  In FY 2026, NARA reviewed their program outlays and improper payment amounts and\
+  \ conducted risk assessments for the following eight programs: Administrative Overhead,\
+  \ Office of the Presidential Libraries (which includes data from the Public Museum\
+  \ Engagement and Legislative Archives), Research Services, Agency Services, Federal\
+  \ Records Centers, Repairs and Restoration, National Historical Publications and\
+  \ Records Commission (NHPRC) Grants, and Office of Inspector General. NARA evaluated\
+  \ annual outlays across six major payment categories (Contract Payments and Invoices,\
+  \ Payroll, Purchase Card, Travel Card, Claims and Vouchers, and Grants). All NARA\
+  \ programs and payment types were evaluated and determined to be low risk and not\
+  \ susceptible to significant improper payments. All of NARA’s programs are classified\
+  \ as Phase 1, except for Office of Inspector General, which falls below the statutory\
+  \ threshold.\n\nNARA’s improper payments for the reporting period totaled $2,679,453.12,\
+  \ which equates to less than 1 percent of NARA’s total outlays.\n\nNARA utilizes\
+  \ the Do Not Pay (DNP) Working System through our financial shared service provider,\
+  \ the Department of the Treasury’s Bureau of the Fiscal Service (BFS).  BFS’ Vendor\
+  \ Supplier Group (VSG) submits daily files to the Federal Reserve Bank (FRB) to\
+  \ run automated eligibility and compliance checks on all active suppliers in NARA’s\
+  \ financial system against the DNP Working System.  Suppliers matched against DNP\
+  \ lists are immediately deactivated and withheld from payment until investigated\
+  \ and proven eligible.  Routine DNP screening ensures robust pre-payment internal\
+  \ controls; however, DNP usage rarely results in active findings, and corrections\
+  \ on identified information are infrequently required. No improper payments were\
+  \ reported as discovered or stopped by DNP for NARA in FY 2026. \n\nGiven NARA’s\
+  \ historically low improper payments and low-risk program evaluations, it was determined\
+  \ that payment recapture audits are not cost effective for the Agency.  Therefore,\
+  \ NARA did not receive any auditor recovery recommendations in FY 2026. NARA continues\
+  \ to monitor program activity changes to re-evaluate cost-effectiveness as required."
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
 detail_Recovery_Justifications_Audits: null
-detail_Recovery_Not_Cost_Effective_Justification: The last analysis NARA completed
-  to determine whether recovery audits would be cost effective, they randomly selected
-  several accounting firms located in the DC metro area from the GSA schedule (SIN
-  520-9). Using the price list, NARA compared the hourly charge for one supervisor,
-  one staff accountant/analyst, and one technician/data entry specialist. NARA's improper
-  payments were divided by the hourly cost for each vendor to determine how many hours
-  could be billed at that rate before the cost of the audit would exceed the yearly
-  improper payments identified. NARA's improper payments are recovered nearly 100%
-  through its standard recovery methods and therefore, it has never proved cost effective
-  for NARA to engage an audit firm to conduct payment recovery audits.
-detail_Risks_Substantial_Changes_Made: null
+detail_Recovery_Not_Cost_Effective_Justification: 'NARA previously evaluated the cost-effectiveness
+  of payment recovery audits by analyzing GSA schedule (SIN 520-9) pricing from DC-area
+  accounting firms. The evaluation involved comparing the hourly rates for a supervisor,
+  a staff accountant/analyst, and a technician/data entry specialist, and dividing
+  NARA’s annual improper payments by each vendor''s hourly cost to calculate the billable
+  hours threshold before audit cost audit costs would exceed yearly improper payments.
+
+
+  In consideration of the previous analysis and the fact that NARA recovers nearly
+  100% of its improper payments through standard methods, hiring external audit firms
+  has never been cost-effective.'
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/NARA.html
-recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.271
-recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.217
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 2.68
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 2.66
 recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

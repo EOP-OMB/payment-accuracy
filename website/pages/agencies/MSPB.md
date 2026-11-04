@@ -3,20 +3,20 @@ Agency: MSPB
 Agency_Name: Merit Systems Protection Board
 Confirmed_Fraud: 0.0
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
 Hide_PIIA2019: false
-Hide_Recovery_Audits: false
-Hide_Recovery_Details: false
-Hide_Recovery_Info: false
+Hide_Recovery_Audits: true
+Hide_Recovery_Details: true
+Hide_Recovery_Info: true
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
 Hide_Supplemental_Info: false
-Hide_Supplemental_Payment_Integrity: true
+Hide_Supplemental_Payment_Integrity: false
 Improper_Payments_Data_Years: '[]'
 Improper_Payments_Rate_Max: 0
 Improper_Payments_Rate_Min: 0
@@ -48,7 +48,7 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Salaries and Expenses
     Slug: null
@@ -61,44 +61,43 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-detail_Additional_IP_Information: null
+detail_Additional_IP_Information: MSPB reviewed its payment activities, including
+  payroll/time and attendance, travel, government purchase cards, and contract/vendor
+  expenditures, and considered the results of internal control and financial statement
+  audit activities. No material weaknesses related to these financial processes were
+  identified, and improper payments have not been identified as a material issue for
+  MSPB. Treasury CFM also provides payment-integrity controls, including weekly validation
+  of MSPB vendor data against the Do Not Pay system. Based on these factors, MSPB
+  concludes that its payment activities are not susceptible to significant improper
+  payments.
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: The Do Not Pay system did not flag any improper payments during
-  the reporting period. The Department of Treasury Bureau of Fiscal Services (BFS)
-  utilizes this system on behalf of the agency. MSPB's primary payments are salaries
-  to employees, shared government services, and vendor services for operational requirements.
-  MSPB verifies receipt of all goods or services prior to certifying invoices for
-  payment.
+detail_DNP_Discussion: MSPB uses Treasury’s Do Not Pay system through its financial
+  service provider, which validates vendor data weekly to identify prohibited vendors
+  and potential matches. Improper payments or awards have not been an identified issue
+  for MSPB; therefore, no measurable reduction is attributable to Do Not Pay. The
+  system serves as a preventive control to help mitigate the risk of improper payments
+  and awards.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'No'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: MSPB is compliant with the Payment Integrity Information
-  Act of 2019 and does not have any improper payments to report for this period. The
-  Department of Treasury Bureau of Fiscal Services (BFS) provides MSPB with accounting
-  and financial support. MSPB not only adheres to BFS’ business practices; throughout
-  the reporting period we conduct our own internal risk assessments on a periodic
-  basis, to ensure there are no additional or unknown weaknesses in our internal controls.
-detail_OIG_Recommendations: null
-detail_Overpayment_Conditions_And_Methods: In addition to MSPB internal controls,
-  the Bureau of Fiscal Services engages in audits of MSPB's financial transactions
-  to identify potential improper payments. There is an audit of travel vouchers and
-  invoice payments. Transactions are randomly selected within the reporting period
-  and reviewed to ensure procedural and payment accuracy.
+detail_Executive_Summary: The Merit System's Protection Board (MSPB) aggregate of
+  outlays exceeding $10M dollars are personnel salaries and benefits. MSPB does not
+  have any programs in Phase 1 or Phase 2.
+detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
-detail_Recovery_Audits_Skipped: 'Yes'
+detail_Recovery_Audits_Skipped: 'No'
 detail_Recovery_Justifications_Audits: null
 detail_Recovery_Not_Cost_Effective_Justification: null
 detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/MSPB.html
-recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 0.0
-recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.0
 recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

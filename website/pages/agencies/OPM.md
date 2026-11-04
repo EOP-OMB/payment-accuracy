@@ -1,9 +1,9 @@
 ---
 Agency: OPM
 Agency_Name: Office of Personnel Management
-Confirmed_Fraud: 8.26
+Confirmed_Fraud: 16.40907435
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -17,16 +17,16 @@ Hide_Risk_Assessment_Results: false
 Hide_Sparklines: false
 Hide_Supplemental_Info: false
 Hide_Supplemental_Payment_Integrity: true
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
 Improper_Payments_Rate_Max: 0.4
 Improper_Payments_Rate_Min: 0.2
-Improper_Payments_Rates: '[0.3820581178479834, 0.3706643949664, 0.35419139955497064,
-  0.31571737358697877, 0.2465520200802078]'
+Improper_Payments_Rates: '[0.3706643949664, 0.35419139955497064, 0.31571737358697877,
+  0.2465520200802078, 0.2958301473927769]'
 Is_Placeholder: false
-Overpayment_Amounts: '[228.28, 244.68, 224.33, 243.7, 292.129]'
-Overpayment_Amounts_Identified: '[271.88, 289.93, 245.171317, 303.76, 321.75]'
-Overpayment_Amounts_Recovered: '[263.65, 280.17, 232.201392, 247.368, 245.14]'
-Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[244.68, 224.33, 243.7, 292.129, 353.37379000000004]'
+Overpayment_Amounts_Identified: '[289.93, 245.171317, 303.76, 321.75, 344.62463035]'
+Overpayment_Amounts_Recovered: '[280.17, 232.201392, 247.368, 245.14, 286.24395635]'
+Overpayment_Years: '[2022, 2023, 2024, 2025, 2026]'
 PIIA2019_Compliant_Programs:
 - Compliant_1A: true
   Compliant_1B: true
@@ -41,6 +41,20 @@ PIIA2019_Compliant_Programs:
   Compliant_Overall: true
   Hide_Compliance_Section: true
   Name: Federal Employees Health Benefits - Community Rated Carriers
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Federal Employees Health Benefits - Experience Rated Carriers
+  Slug: opm-federal-employees-health-benefits-experience-rated-carri-510c90c7
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -107,30 +121,17 @@ PIIA2019_Compliant_Programs:
   Compliant_Overall: true
   Hide_Compliance_Section: true
   Name: Vendor Payments - Office of Personnel Management
-PIIA2019_NonCompliant_Programs:
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: false
-  Hide_Compliance_Section: true
-  Name: Federal Employees Health Benefits - Experience Rated Carriers
-  Slug: opm-federal-employees-health-benefits-experience-rated-carri-510c90c7
-Payment_Accuracy_Amounts: '[83376.49, 87560.98, 94940.53, 106534.18000000001, 176111.02900000004]'
+PIIA2019_NonCompliant_Programs: []
+Payment_Accuracy_Amounts: '[87560.98, 94940.53, 106534.18000000001, 176111.02900000004,
+  185622.73561]'
 Payment_Accuracy_Rate_Max: 99.7
 Payment_Accuracy_Rate_Min: 99.6
-Payment_Accuracy_Rates: '[99.60496808158345, 99.61553566300928, 99.62115003759644,
-  99.67311159236166, 99.73225124859961]'
+Payment_Accuracy_Rates: '[99.61553566300928, 99.62115003759644, 99.67311159236166,
+  99.73225124859961, 99.63071247340424]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Federal Employees Health Benefits - Community Rated Carriers
     Slug: null
@@ -140,7 +141,7 @@ Risks:
     Program_Name: Federal Employees Health Benefits - Experience Rated Carriers
     Slug: opm-federal-employees-health-benefits-experience-rated-carri-510c90c7
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Federal Employees’ Group Life Insurance (FEGLI)
     Slug: null
@@ -165,197 +166,168 @@ Risks:
     Program_Name: Vendor Payments - Office of Personnel Management
     Slug: null
     Susceptible: 'No'
-  SubstantialChangesMade: null
-Technically_Improper_Amounts: '[0, 0, 0, 0, 18.185]'
-Underpayment_Amounts: '[91.53, 81.13, 113.22, 93.75, 125.057]'
-Unknown_Amounts: '[10.86, 12.13, 23.5, 11.94, 37.43]'
-Unknown_Payments_Rate_Max: 0.0
+  SubstantialChangesMade: 'No'
+Technically_Improper_Amounts: '[0, 0, 0, 18.185, 32.152]'
+Underpayment_Amounts: '[81.13, 113.22, 93.75, 125.057, 165.6376]'
+Unknown_Amounts: '[12.13, 23.5, 11.94, 37.43, 136.859]'
+Unknown_Payments_Rate_Max: 0.1
 Unknown_Payments_Rate_Min: 0.0
-Unknown_Payments_Rates: '[0.012973800568553514, 0.013799942024316112, 0.02465856284859076,
-  0.01117103405135139, 0.021196731320189396]'
+Unknown_Payments_Rates: '[0.013799942024316112, 0.02465856284859076, 0.01117103405135139,
+  0.021196731320189396, 0.07345737920297657]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-- 2021
 detail_Additional_IP_Information: null
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
-detail_Compliance_Status: Non-Compliant
-detail_DNP_Discussion: 'OPM''s Retirement Services (RS) uses the Do Not Pay (DNP)
-  Initiative, in conjunction with other methods, monthly to detect, prevent, and reduce
-  improper payments. OPM''s RS Fraud Analysts access the DNP portal monthly, pulling
-  nationally reported deaths of annuitants through the following death data sources:
-  Department of State (DOS); Department of War (DOW); American Infosource (AIS) –
-  Probate, American Infosource (AIS) - Obituary; and the full Death Master File (DMF).
-  There were over 50,000 hits/names/payments reviewed in FY 2025. All hits/names/payments
-  were verified by Fraud Analysts through open and closed source investigative tools.
-  In FY 2025, over 16,000 names were confirmed deceased and dropped for death, preventing
-  over $14,800,000.00 in improper annuity payments from being issued. FEHB uses the
-  Do Not Pay (DNP) portal once a year, in February/March, to check new carrier applicants
-  in the FEHB Program. OPM did not identify any incorrect information.
-
-
-  FEHB uses the Do Not Pay (DNP) portal once a year, in February/March, to check new
-  carrier applicants in the FEHB Program. OPM did not identify any incorrect information.'
+detail_Compliance_Status: Compliant
+detail_DNP_Discussion: "OPM's Retirement Services (RS) uses the Do Not Pay (DNP) Initiative,\
+  \ in conjunction with other methods, monthly to detect, prevent, and reduce improper\
+  \ payments. OPM's RS Fraud Analysts access the DNP portal monthly, pulling nationally\
+  \ reported deaths of annuitants through the following death data sources: Department\
+  \ of State(DOS); Department of War (DOW); American Infosource (AIS) – Probate, American\
+  \ Infosource (AIS) - Obituary; and the full Death Master File (DMF). There were\
+  \ over 40,000 hits/names/payments reviewed in FY 2026. All hits/names/payments were\
+  \ verified by Fraud Analysts through open and closed source investigative tools.\
+  \ In FY 2026, over 6,700 names were confirmed deceased and dropped for death, preventing\
+  \ over $14,700,000.00 in improper annuity payments from being issued. FEHB uses\
+  \ the Do Not Pay (DNP) portal once a year, in February/March, to check new carrier\
+  \ applicants in the FEHB Program. \n\nHealthcare and Insurance, specifically for\
+  \ the Federal Employees Health Benefits (FEHB) and PSHB Programs use the Do Not\
+  \ Pay (DNP) portal once a year, in February/March, to check new carrier applicants.\
+  \ There were no new carrier applicants in FY2026, so neither the FEHB nor PSHB used\
+  \ DNP to check new carrier applicants in 2026. OPM’s review is not based on individual\
+  \ transactions with specific dollar amounts. OPM neither prevented nor recovered\
+  \ any improper payments by using DNP.\n\nBeginning September 2026, HI’s use of DNP\
+  \ expanded to include:\nUse of the Death Record Confidence Scoring Tool (DRCST):\
+  \ To support fraud, waste, and abuse (FWA) efforts, HI uses DRCST, accessed through\
+  \ the DNP portal, to identify potentially deceased members and providers whose records\
+  \ may still be generating premium withholdings, enrollment, or claims activity.\
+  \ DRCST matches are treated as leads, not conclusive findings. \n\nUse of the DNP\
+  \ Portal for Provider integrity: HI uses the DNP Portal to check for provider matches\
+  \ or participating providers in the FEHB/PSHB plans. Carriers are required to maintain\
+  \ FWA programs that include screening providers for exclusion or debarment, and\
+  \ the OPM OIG investigates provider fraud and administers debarments and suspensions\
+  \ of providers from the FEHB and PSHB Programs. HI is using the DNP to verify that\
+  \ providers associated with the program are not on the exclusion lists. These new\
+  \ uses started in September of 2026 and thus haven’t yielded cost savings as of\
+  \ this time."
 detail_DNP_Frequency_Identify: Monthly
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: 'OPM is committed to advancing a transparent, accountable,
-  and collaborative financial management environment to fulfill its Federal requirements
-  and provide stakeholders with accessible and actionable financial information. An
-  essential part of this commitment is the continuous improvement of payment accuracy
-  in OPM’s programs. OPM continues to implement solutions to prevent, detect, and
-  reduce improper payments while reducing its stakeholders’ unnecessary administrative
-  burden.
-
-
-  OPM conducts improper payment risk assessments on a three-year cycle, or more often
-  if there are significant changes in the program. OPM conducted improper payments
-  risk assessments for two Phase I programs during FY 2023: Federal Employees Group
-  Life Insurance and Federal Employees Health Benefits Community-Rated Activity; and
-  four Phase I programs during FY 2024: Vendor Payments, Travel Cards, Purchase Cards,
-  and Payroll. All of these programs remained Phase I programs. OPM continues to only
-  have two Phase II programs: Retirement Services and Federal Employee Health Benefits
-  Experience-Rated Carriers.
-
-
-  Retirement Services (RS) Program provides Federal employees, retirees, and their
-  families with benefits that offer choice, value, and quality to be a competitive
-  employer. In FY 2025, RS properly paid 99.67 percent of annuity payments and improperly
-  paid 0.33 percent. RS is committed to reducing improper payments by utilizing effective
-  internal controls, corrective actions, and extensive internal recovery efforts.
-  However, system limitations are preventing OPM from expanding root causes category
-  reporting per the FY 2025 OMB Circular A-136, Financial Reporting Requirements.
-  Specifically, the current IT system supporting RS does not have the granularity
-  to align with the OMB root cause categories. RS is aware of the principle causes
-  for improper payments. RS remains committed to ensuring the rate of improper payments
-  remains at 0.38 percent or less. The Fraud Branch was established under the RS Program
-  to manage the integrity of the annuity roll. The Fraud Branch responds to inquiries
-  of alleged fraud and data integrity breaches to safeguard the annuity rolls. The
-  Branch answers fraud inquiries involving all phases of retirement processing including
-  the proper routing of payments, the payment of life insurance, the provision of
-  health benefits, the representative payee process, and medical review. The branch’s
-  data integrity team monitors error reports and extracts data on an annuity to confirm
-  and correct information to maintain accuracy. OPM conducted several matches (such
-  as the Social Security Administration’s Death Master File) and annual surveys. Anomalies
-  identified in these matches and surveys are researched by OPM and, if needed, referred
-  to the OIG. Regular audits are performed to assess the accuracy of agency retirement
-  packages. Each month, the audit result as well as the most common errors identified
-  are reported to the agency benefits officers. In addition, internal audits are conducted
-  monthly to determine the accuracy of newly adjudicated retiree and survivor claims
-  under both CSRS and FERS. These audits are used to identify any training or systemic
-  deficiencies.
-
-
-  For Federal Employees Health Benefits (FEHB) and Postal Service Health Benefits
-  (PSHB) Programs, under the oversight of the Healthcare and Insurance, contracting
-  officers exercise broad authority in their day-to-day oversight of FEHB and PSHB
-  carriers through benefit and rate negotiations, contract compliance, review of large
-  provider contracts and sub-contracts, defense of lawsuits, adjudication of disputed
-  claims, and more. In FY 2025, FEHB Experience-Rated Carriers (ERC) activity is reporting
-  a statistically valid improper and unknown payment estimated amount and rate. The
-  ERC activity reports one year in arrears, based on the time necessary to collect,
-  test, report and aggregate the data. Because the ERC activity reports in arrears,
-  PSHB data is not included in the IP estimate being reported in 2025. Independent
-  public accountants (IPAs) provide the data by conducting sampling, testing and reporting
-  of transactions performed by carriers as required in the Financial Reporting and
-  Audit Guide’s Agreed Upon Procedures. Based on the results of the sampling and testing
-  for 2024, the FEHB ERCs properly paid 99.86 percent of payments and improperly paid
-  0.14 percent. The improper payment estimates include overpayments, underpayments,
-  technically improper payments and unknown payments. The total amount of all improper
-  and unknown payments is $94.8 million, including $26.9 million in overpayments,
-  $44.5 million in technically improper and underpayments, and $23.4 million in unknown
-  payments. ERCs reporting improper and unknown payments are required to submit corrective
-  action plans designed to prevent or mitigate the causes of improper or unknown payments.
-  The most common corrective actions planned and taken are training and process changes.
-  ERCs are required to report on the status of all findings, including prior years’
-  findings. OPM will review and monitor those.
-
-
-  In the FY 2024 annual compliance audit, OPM OIG found that OPM’s FEHB Program was
-  not in compliance with four of the ten Payment Integrity Information Act of 2019
-  (PIIA) reporting requirements: (1) Published improper payment and unknown payment
-  estimates for programs susceptible to significant improper payments and unknown
-  payments in the accompanying materials to the annual financial statement; (2) Published
-  corrective action plans for each program for which an estimate above the statutory
-  threshold was published in the accompanying materials to the annual financial statement;
-  (3) Demonstrated improvements to payment integrity or reached a tolerable improper
-  payment and unknown payment rate; (4) Reported an improper payment and unknown payment
-  estimate of less than 10 percent for each program for which an estimate was published
-  in the accompanying materials to the annual financial statement.
-
-
-  OPM developed a new Sampling and Estimation Methodology Plan with active engagement
-  from agency stakeholders and FEHB ERC to meet the PIIA requirements. In FY 2024,
-  OPM issued the 2024 FEHBP Financial Reporting and Audit Guide, which provides detailed
-  requirements for the financial reporting for all FEHB ERC, including audit requirements
-  and improper payment reporting. OPM has received statistically valid data from all
-  FEHB ERC which estimates the IP amount for each Carrier. OPM has aggregated this
-  data and projected a statistically valid IP estimate for the entire FEHB ERC activity
-  and is reporting this estimate as required by PIIA as reported above.'
-detail_OIG_Recommendations: "FY 2024 annual compliance audit, OPM OIG found that OPM’s\
-  \ FEHB Program was not in compliance with four of the ten PIIA reporting requirements:\
-  \  \n3. Published improper payment and unknown payment estimates for programs susceptible\
-  \ to significant improper payments and unknown payments in the accompanying materials\
-  \ to the annual financial statement.\n4. Published corrective action plans for each\
-  \ program for which an estimate above the statutory threshold was published in the\
-  \ accompanying materials to the annual financial statement.\n5b. Demonstrated improvements\
-  \ to payment integrity or reached a tolerable improper payment and unknown payment\
-  \ rate.\n6. Reported an improper payment and unknown payment estimate of less than\
-  \ 10 percent for each program for which an estimate was published in the accompanying\
-  \ materials to the annual financial statement.\n\nThe OIG determination was based\
-  \ upon the FEHB Program not reporting an Improper Payment Estimate in FY 2023. The\
-  \ OIG recommended OPM issue an improper payment estimate for the Federal Employees\
-  \ Health Benefit program that will allow OPM to comply with PIIA reporting requirements\
-  \ in future reporting years. \n\nOPM disagrees with three of the four findings of\
-  \ non-compliance, because requirements 4, 5b and 6 are not required unless an estimate\
-  \ has been published.  OPM agrees the FEHB Experience-Rated Activity needs to publish\
-  \ an improper payment and unknown payment estimate to come into compliance with\
-  \ PIIA. To accomplish this, OPM developed a Sampling and Estimation Methodology\
-  \ Plan with active engagement from agency stakeholders and FEHB Experience-Rated\
-  \ Carriers. In FY 2024, OPM issued 2024 FEHBP Financial Reporting and Audit Guide,\
-  \ which provides detailed requirements for the financial reporting for all FEHB\
-  \ Experience-Rated Carriers, including audit requirements and improper payment reporting.\
-  \ OPM has received data from all FEHB Experience-Rated Carriers which estimates\
-  \ the IP amount for each Carrier. OPM has aggregated this data and projected a statistically\
-  \ valid IP estimate for the entire FEHB Experience-Rated Activity. OPM is reporting\
-  \ this IP estimate in this Data Call as required by PIIA."
+detail_Executive_Summary: "OPM is committed to advancing a transparent, accountable,\
+  \ and collaborative financial management environment to fulfill its federal requirements\
+  \ and provide stakeholders with accessible and actionable financial information.\
+  \ An essential part of this commitment is the continuous improvement of payment\
+  \ accuracy in OPM’s programs and robust internal controls. OPM continues to implement\
+  \ solutions to prevent, detect, and reduce improper payments while reducing its\
+  \ stakeholders’ unnecessary administrative burden. OPM's Inspector General concluded\
+  \ that the agency was compliant with the Payment Integrity Information Act of 2019\
+  \ (PIIA) in the most recent compliance audit. PIIA requires the agency to review\
+  \ and assess all programs and activities with annual outlays greater than $10,000,000\
+  \ for improper payment risk at least once every three years to identify those susceptible\
+  \ to significant improper payments. OPM conducts improper payment risk assessments\
+  \ on a three-year cycle, or more often if there are significant changes in the program.\
+  \ In FY 2026 OPM conducted improper payments risk assessments for two programs.\
+  \ All programs analyzed this FY remained Phase I programs. OPM continues to only\
+  \ have two Phase II programs; Retirement Services and Federal Employee Health Benefits\
+  \ Experience Rated Carriers.\n\nOPM Retirement Services’ improper payment rate is\
+  \ 0.33 percent.  The improper payment rate after including the unknown rate also\
+  \ is 0.33 percent – the unknow rate is small enough that it does not increase the\
+  \ improper payment rate. Retirement Services is under the tolerable improper payment\
+  \ rate, which is 0.38 percent. Retirement Services is aware of the improper payment\
+  \ drivers; however, systemic limitations prevent RS from providing the OIG survey's\
+  \ requested level of specificity. OPM’s systems were not designed or built to perform\
+  \ analysis of vast quantities of data. Additionally, some overpayments result from\
+  \ family members and other sources failing to report annuitant deaths. That said,\
+  \ as a part of our on-going internal control activities, OPM: (1) conducts surveys\
+  \ and matches to mitigate potential improper payments resulting from these events,\
+  \ (2) conducts a match to identify discrepancies that may exist between the OPM\
+  \ annuity roll and the Social Security Administration’s (SSA) pay system, (3) Compares\
+  \ the Death Match (DM) with OPM’s annuity roll weekly to identify annuitants who\
+  \ are reported as deceased by SSA, (4) using the Validated Agency Match System,\
+  \ processes the death information and terminates Federal benefits thereby preventing\
+  \ subsequent improper payments, and (5) utilizes Treasury's Do Not Pay Portal to\
+  \ identify annuitants that should have been reported as deceased. Collection actions\
+  \ are initiated for any overpayments that are discovered. \n\nOPM Healthcare and\
+  \ Insurance\nMaintain Payment Integrity\nThe structure of the benefits administered\
+  \ by Healthcare and Insurance (HI) is one that incentivizes contracted Carriers\
+  \ to minimize improper payments. Ultimately, it is the Carrier, not the Federal\
+  \ Government, that manages daily claims activities. In addition to the structural\
+  \ safeguards of audit and investigative authority vested in the Office of Inspector\
+  \ General (OIG), HI maintains payment integrity through oversight of Carriers in\
+  \ the form of plan performance assessments, improper payment reporting, and the\
+  \ audit resolution process. Through structural safeguards and this oversight, HI\
+  \ has maintained a proper payment rate of over 99% for its Phase 2 program for each\
+  \ year that program has produced statistically valid estimates.\n\nPHASE 1 PROGRAMS\n\
+  HI has 2 Phase 1 Activities and performed 2 risk assessments in 2026. HI’s Community-Rated\
+  \ Activity is a Phase 1 Activity. This Activity last had a risk assessment in 2026,\
+  \ which found the Activity is not susceptible to significant improper payments.\
+  \ The time frame for the risk assessment was 2025. This Activity is monitored in\
+  \ off-cycle years through contract compliance audits by the OIG, annual plan performance\
+  \ assessments, and rate development reconciliations.\n\nFederal Employees Group\
+  \ Life Insurance (FEGLI) is a Phase 1 Activity. This Activity last had a risk assessment\
+  \ in 2026, which found the Activity is not susceptible to significant improper payments.\
+  \ The time frame for the risk assessment was 2025. This Activity is monitored in\
+  \ off-cycle years through contract compliance audits by the OIG and annual performance\
+  \ assessments.\n\nPHASE 2 PROGRAMS\nHI has 1 Phase 2 Activity. HI’s Experience-Rated\
+  \ (ER) Activity is a Phase 2 Activity. This Activity is reporting a statistically\
+  \ valid improper payment estimate for the second consecutive year and is working\
+  \ to establish a baseline. The ER Activity’s estimated improper payment (IP) and\
+  \ unknown payment (UP) amount is $303,792,643 which results in an estimated IP and\
+  \ UP rate of 0.43%. This is an increase of $208,961,723 and 0.29% from the estimates\
+  \ reported for FY2025. \n\nHI has only two years of statistically valid IP data\
+  \ for the ER Activity and is working to establish a baseline. However, even in the\
+  \ absence of baseline data, HI has been able to identify a number of factors that\
+  \ contributed to the increase of improper payments reported for the ER Activity.\
+  \ \n\nOne significant factor was the inability of one Carrier to complete the required\
+  \ sampling and testing. HI treated the entire value of the Carrier’s outlays as\
+  \ unknown payments, thereby increasing the total combined IP and UP amount by $96,247,931\
+  \ and rate by 0.14%. The Carrier’s failure to report as required will be considered\
+  \ as part of the evaluation of the Carrier’s Plan Performance Assessment. If the\
+  \ Carrier cannot come into compliance in future years, HI may take additional remedial\
+  \ actions with respect to this Carrier. \n\nIn addition to the individual Carrier’s\
+  \ impact on HI’s rate, HI reported an increase in improper payments due to a variety\
+  \ of carrier specific issues experienced during the year. These include implementation\
+  \ of the Postal Service Health Benefits (PSHB) Program which affected enrollment,\
+  \ eligibility, pharmacy processing and administrative expense allocations. In some\
+  \ instances, Carriers’ increases were due to platform migration issues, and other\
+  \ non-recurring events. \n\nThe primary causes of IPs identified are human errors,\
+  \ system errors and recordkeeping errors. Primary corrective actions include training\
+  \ and process changes to eliminate primary root causes of the identified improper\
+  \ and unknown payments. There were no significant changes to the mitigation strategies\
+  \ or corrective action plans during the reporting period.\n\nHI updated its payment\
+  \ integrity methodology during the reporting period to improve the precision of\
+  \ its reporting and explicitly identify that the Experience-Rated Activity includes\
+  \ Experience-Rated Carriers in the FEHB and PSHB. HI updated the ER Activity Sampling\
+  \ and Estimation Methodology Plan to remove from its calculations the results of\
+  \ testing transactions that were not related to payments but were related to other\
+  \ areas of contract compliance, and an area that may include payments but created\
+  \ a risk of double counting with other areas already tested. This update was submitted\
+  \ to OMB on May 22, 2026. HI is also implementing enrollment and provider integrity\
+  \ work through the exchange of data from Death Record Confidence Scoring Tool (DRCST)\
+  \ and DNP."
 detail_Overpayment_Conditions_And_Methods: null
-detail_PIIA_Incentives: The performance agreements of accountable officials at OPM
-  include program integrity efforts. These agreements set specific goals for improving
-  compliance with PIIA. Success in achieving these goals can result in positive performance
-  evaluations. Conversely, failure to meet program integrity targets may lead to negative
-  performance reviews. This approach ensures that officials are incentivized to prioritize
-  payment integrity and compliance across their respective divisions and programs.
-detail_PIIA_Official: The Chief Financial Officer, the Associate Director for Healthcare
-  and Insurance, as well as Associate Director for Retirement Services are the senior
-  agency officials accountable for the progress of the agency in coming into compliance
-  with PIIA.
+detail_PIIA_Incentives: null
+detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
 detail_Recovery_Justifications_Audits: null
-detail_Recovery_Not_Cost_Effective_Justification: 'PIIA allows agencies to exclude
-  programs with other mechanisms to identify and recapture overpayments. The Retirement
-  Program and the FEHB Program have extensive internal recovery mechanisms and anticipate
-  achieving continued high recovery rates for improper payments. OPM''s existing recovery
-  mechanisms provide an efficient and effective means for identifying and recovering
-  payments. OPM''s Audit Resolution and Compliance group manages the audit resolution
-  process, which includes recovery of improper overpayments.
-
-
-  OPM does not have a single centralized system for the payment of claims. OPM contracts
-  with carriers who provide health benefits to enrolled FEHB members. OPM’s existing
-  recovery mechanisms provide an efficient and effective means for identifying and
-  recovering payments. Carriers are required to maintain robust internal controls
-  to identify and recover overpayments. Carriers are audited by the Office of the
-  Inspector General, which includes review and recovery of erroneous payments. OPM''s
-  Audit Resolution and Compliance group manages the audit resolution process, which
-  includes recovery of improper overpayments.'
-detail_Risks_Substantial_Changes_Made: null
+detail_Recovery_Not_Cost_Effective_Justification: HI does not have a single centralized
+  system for the payment of claims. OPM contracts with carriers who provide health
+  benefits to enrolled FEHB members. OPM’s existing recovery mechanisms provide an
+  efficient and effective means for identifying and recovering payments, so HI has
+  determined that separate recovery audits would not be cost-effective. Carriers are
+  required to maintain robust internal controls to identify and recover overpayments.
+  Carriers are audited by the Office of the Inspector General, which includes review
+  and recovery of erroneous payments. OPM's Audit Resolution and Compliance group
+  manages the audit resolution process, which includes recovery of improper overpayments.
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/OPM.html
-recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 321.75
-recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 245.14
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 344.62463035
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 286.24395635
 recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

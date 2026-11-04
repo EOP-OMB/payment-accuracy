@@ -2,117 +2,6 @@
 Agency: USDA
 Agency_Name: Department of Agriculture
 Data_By_Year:
-- Agency_Needs_Satisfied: "Steps Planned\n1.\tNew software to process ECP cost share\
-    \ applications and payments more efficiently and to reduce errors is essential\
-    \ to improve program delivery.  A project development schedule has been designed;\
-    \ however, implementation will be based on the Agency IT budget availability and\
-    \ the completion of its current IT priority list.  \n\n2.  FSA has planned to\
-    \ implement the ECP district director review process to the new FSA Internal Review\
-    \ Document and Tracking System (IRDTS) to ensure reviews are being completed timely\
-    \ and results are monitored and evaluated to ensure ECP policies are being followed.\
-    \ FSA’s IRDTS is a new centralized, automated internal control tracking system\
-    \ that allows management at all levels to complete and track program audits and\
-    \ reviews.\n \n•\tIn May 2019, FSA leadership approved the funding and selected\
-    \ the platform for the development of the IRDTS software.  \n•\tBy September 30,\
-    \ 2021, FSA will have incorporated its first phase (Phase 1) of programs that\
-    \ have review processes being completed manually. \n•\tBy December 1, 2021, FSA\
-    \ will begin the second phase (Phase 2) of incorporating FSA program reviews into\
-    \ IRDTS, which will include ECP. By using the IRDTS solution for applicable FSA\
-    \ Oversight Assessments, FSA will be able to plan, sample records, conduct assessment\
-    \ reviews, and document the results over time to score and track errors found\
-    \ during the reviews.  FSA will use this data to improve processes and policies,\
-    \ identify areas where additional employee training is needed and understand trends\
-    \ and systemic issues occurring at the state and county levels.\n\nNOTE: Implementation\
-    \ of ECP into IRDTS is subjected to Agency budget availability and the priority\
-    \ of other program review candidates that are scheduled to be implemented. All\
-    \ phases of the integration of ECP district director reviews into IRDTS are estimated\
-    \ to be completed by September 30, 2022. \n"
-  Confidence_Level: '>90%'
-  Corrective_Actions_Proportion: "The following actions were put into place fall of\
-    \ this year and should show profound reductions in IP during the 2022 review:\n\
-    \n1.\tFSA updated and revised Handbook 1-ECP, May 4, 2021 (rev 6) and Rev 7 on\
-    \ September 16, 2021. This handbook provides guidance to Field offices and sets\
-    \ forth policy regarding ECP program management, provides updates of new requirements\
-    \ and provides clarification to previous existing requirements. \n\n2.\tFSA recognizes\
-    \ the need for improvements regarding documenting installation costs to ensure\
-    \ producer documentation is sufficient, prevent ineligible costs, and ensure the\
-    \ correct reimbursement rates are used.  \nAs a result, in FY 2020, FSA established\
-    \ a Payment Scenario Development Team, whose role is to assist in the development\
-    \ and training of payment scenarios to ensure ECP payments are being applied correctly\
-    \ and documented properly. The rollout of the payment scenarios software occurred\
-    \ September 16, 2021 and will included an updated handbook and joint training\
-    \ with FSA and Natural Resources Conservation Service (NRCS) field offices to\
-    \ discuss the new policy.  Training occurred as follow:\n•\tJuly 27, 2021 – training\
-    \ to review the policy change as well as how the software will compliment this\
-    \ new change\n•\tJuly 28, 2021 – training to review the handbook revision that\
-    \ includes the new policy\n3.\tNotice CP-74 was issued on July 7, 2021 providing\
-    \ procedure for completing compliance reviews and performing spot checks.  The\
-    \ Notice can be found at (https://www.fsa.usda.gov/Internet/FSA_Notice/cp_764.pdf).\n\
-    4.\tCCC-770 ECP-1 checklist was revised to require DD signature during the ECP\
-    \ implementation, approval, payment, and spot check process.  The revised form\
-    \ will be issued with the next version of the handbook update.  "
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Inability_to_Access_Data: true
-  IP_Current_Year_Plus_1_Amount: 15.44
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.0999223402
-  Improper_Payments_Rate: 13.504698300000001
-  Insufficient_Documentation_to_Determine: 0.0
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '3.0'
-  Non_Monetary_Loss_Amount: '8.09'
-  Outlays: 128.77
-  Outlays_Current_Year_Plus_1_Amount: 154.52
-  Payment_Accuracy_Rate: 86.49530170070669
-  Program_Design_or_Structural_Issue: 7.95
-  Start_Date: 10/2019
-  Technical_IP_Amount: '7.95'
-  Unknown_Curent_Year_Plus_1_Amount: 0
-  Unknown_Payments_Rate: 0
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 9.3
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '9.3'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.0'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.14
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '0.14'
 - Agency_Needs_Satisfied: "Farm Service Agency continues to strategically take the\
     \ necessary steps to strengthen internal controls measures, establish uniform\
     \ consistency for compliance processes, and improve accountability. Farm Service\
@@ -1184,7 +1073,7 @@ Data_By_Year:
     \ control environment is preventing improper payments and correcting deficiencies.\t\
     \n \n"
   IP_Unknown_Target_Rate: 0.4507
-  Improper_Payments_Rate: 55.4995106527
+  Improper_Payments_Rate: 55.49951065
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '9.356'
   Non_Monetary_Loss_Amount: '12'
@@ -1250,21 +1139,300 @@ Data_By_Year:
     Failure_to_Access_Data: 10.8
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '10.8'
+- Agency_Needs_Satisfied: The Emergency Conservation Program (ECP) currently has the
+    internal controls necessary to reduce improper and unknown payments to levels
+    where further reductions would cost more to achieve than the amount they would
+    save. Recent automation enhancements, such as restricting payment scenario selections,
+    embedding allowable‑cost validations, and strengthening supervisory review layers,
+    provide adequate risk mitigation and align internal controls with the actual root
+    causes identified in FY 2026. Human capital capacity has been reinforced through
+    targeted AD‑1026 (Highly Erodible Land Conservation (HELC) and Wetland Conservation
+    (WC) Certification) and compliance training, as well as clearer policy guidance,
+    ensuring staff have the knowledge needed to maintain the improved control environment.
+    Additionally, ongoing information system improvements have continued refinement
+    of ECP software, provide sufficient infrastructure to sustain payment integrity
+    performance without requiring additional investment.  The Agency notes that full
+    implementation of this plan is contingent on available staffing and resources.
+    Like many federal programs operating within evolving budget environments, ECP
+    will continue adapting implementation timelines and oversight procedures based
+    on capacity constraints, while prioritizing core program integrity functions.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: "The corrective actions\
+    \ taken throughout FY 2026 were implemented in a structured, prioritized manner\
+    \ to ensure they directly addressed the most significant causes of improper payments.\
+    \ Automation enhancements were prioritized first because they provided the greatest\
+    \ immediate risk reduction by removing staff discretion in areas where human error\
+    \ frequently occurred. These system changes, such as restricting payment scenarios\
+    \ to authorized fiscal‑year options and embedding allowable cost validations,\
+    \ ensure consistent nationwide application. Training modules, issued between February\
+    \ and September 2026, were developed in parallel to reinforce correct use of these\
+    \ improved tools and ensure staff understood requirements for AD‑1026, CCC‑860,\
+    \ environmental compliance documentation, and certification procedures. Behavioral\
+    \ reinforcement measures, such as strengthened layers of CED, DD, and STO reviews,\
+    \ were implemented concurrently to enforce oversight during and after the rollout\
+    \ of system changes. \n\nThe agency’s prioritization of corrective actions directly\
+    \ reflects the severity and frequency of root‑cause patterns identified in the\
+    \ FY26 review. Automation was prioritized because Failure to Access Data/Information\
+    \ and human error represented the majority of improper payments, and eliminating\
+    \ manual entry points was the most effective way to prevent recurrence. Training\
+    \ and cross‑enterprise sharing actions were prioritized next because unfamiliarity\
+    \ with documentation requirements and inconsistent state-level interpretations\
+    \ contributed to several large overpayments. Early results indicate these combined\
+    \ actions are effective: improper payment rates have already shown a drastic decline,\
+    \ demonstrating that the corrective actions meaningfully mitigate the underlying\
+    \ causes of payment errors. Together, these steps form a coordinated implementation\
+    \ strategy that strengthens internal controls, enhances staff competency, and\
+    \ ensures consistent national compliance moving forward."
+  Corrective_Actions_Appropriateness: "FSA Corrective Actions Taken \n\nAutomation\
+    \ (completed Jan. 2024, and will affect all payments made through the ECP software.\
+    \ Only payments issued through the older Cost Share Software had findings this\
+    \ year).  These changes directly mitigate errors tied to failure to access or\
+    \ properly apply information, which accounted for the majority of overpayments.\
+    \ \n-ECP software restricts the payment scenarios presented to the user for selection\
+    \ to only those that are authorized for use for the disaster year and practice\
+    \ \n-ECP software has an automated allowable cost validation to reduce miscalculations\
+    \ and eliminate incorrect Cost Share payments \n-ECP software reduces manual data\
+    \ entry points to mitigate human errors \n-ECP software increases the use of documentation\
+    \ and compliance prompts to ensure verification of AD-1026 (Highly Erodible Land\
+    \ Conservation (HELC) and Wetland Conservation (WC) Certification), CCC-860 (Socially\
+    \ Disadvantaged, Limited Resource, Beginning, and Veteran Farmer or Rancher Certification),\
+    \ CCC-902/3 (Farm Operating Plan-Individual/Entity) forms, and environmental compliance\n\
+    \nBehavioral/Psych Influence (completed Jan. 2025, and will affect all payments\
+    \ issued from this date).  Behavioral and process‑based controls were strengthened\
+    \ to address oversight issues identified in the root‑cause analysis. \n-Established\
+    \ checklist requirement prior to each approval and each payment \n-Established\
+    \ supervisory checklist review requirements, including mandatory County Executive\
+    \ Director (CED), District Director and State Office review layers \n-Checklist\
+    \ requirement of documentation and compliance prompts to ensure verification of\
+    \ AD‑1026, CCC‑860, signatures, and environmental compliance forms prior to payment\
+    \ approval. \n\nTraining (Throughout FY 2026).  These actions directly mitigated\
+    \ confusion arising from misinterpreted state guidance or infrequent ECP use.\
+    \ \n-Delivered targeted training to Hurricane states with high workload and unfamiliarity\
+    \ with the program (Oct.-Dec. 2025) \n-Delivered targeted training nationwide\
+    \ during monthly calls to State and County employees (Feb. – Sept. 2026) \n-Change\
+    \ Process (completed Apr. 2026) This measure addresses findings of failure to\
+    \ access data/information related to overpayment, and environmental compliance\
+    \ findings, which were 46 percent of the findings. \n-Simplified the FSA-23 (Determining\
+    \ Agricultural Market Value and Cost Share Worksheet) and the agricultural market\
+    \ value payment limitation documentation. \n-ER850 (Environmental Screening Worksheet)\
+    \ certification by State Environmental Coordinators (SEC) now includes a certification\
+    \ statement so the form will be used correctly in the state. \n\nCross Enterprise\
+    \ Sharing (completed Feb. 2026) These measures address organizational alignment\
+    \ root causes, particularly fragmented documentation and inconsistent state interpretations.\
+    \ \n-Application Program Interface (API) with Natural Resources Conservation Service\
+    \ (NRCS) for payment scenario data. With direct data transfer, it mitigates the\
+    \ risk of mistakes during data entry. \n-NRCS has direct access to the ECP software\
+    \ to complete the needs determinations and certifications of completion to standard.\
+    \ \n\nStatutory Changes (completed Apr. 2026). These measures address forty-six\
+    \ percent of the findings related to environmental compliance. \n-7 CFR Part 1b\
+    \ revisions to regulations to unify USDA’s National Environmental Policy Act procedures,\
+    \ enhance flexibility, inject transparency and accountability with timeline caps,\
+    \ and streamline administrative processes through applicant-prepared documentation,\
+    \ all while emphasizing consistent, department-wide environmental compliance.\n\
+    \nFSA Corrective Actions Planned \nIn FY 2027, FSA will focus on strengthening\
+    \ process controls and behavioral‑based corrective actions to address the root\
+    \ causes of improper payments identified in FY 2026. \nBehavioral/Psych Influence\
+    \ (FY 2027 Q2) \n-Updated national guidance will be issued to reinforce required\
+    \ supervisory review layers (CED, District Director, and State Office oversight)\
+    \ and ensure consistent verification of documentation such as AD‑1026, CCC‑902,\
+    \ CCC‑860, and environmental compliance forms prior to payment. \n-ER850 certification\
+    \ by State Environmental Coordinators (SEC) now includes a certification statement\
+    \ as the form will be used correctly in the state. In addition, when an ER850\
+    \ is issued, it is recommended that the SEC will conduct training with the counties\
+    \ prior to use of the environmental compliance document for ECP applications.\
+    \ \n\nTraining (FY 2027 Q1,Q2, Q3, Q4) \n-Training will continue to be a major\
+    \ component of planned corrective actions. FSA will deliver additional scenario‑based\
+    \ training focused on the most frequent documentation and eligibility errors,\
+    \ including state-specific training for correct use of ER850, timing requirements\
+    \ for loading CCC‑860 into subsidiary files, and proper certification of extent\
+    \ for completed practices.  \n\nChange Process (FY 2027 Q3) \n-Clarify policy\
+    \ to state the CC-860 needs to be entered into the system prior to payment, rather\
+    \ than simply being on file. \n\nCollectively, these actions taken and planned\
+    \ actions  directly target behavioral, training, and process‑related root causes\
+    \ and will strengthen internal controls while promoting consistent national delivery\
+    \ of ECP."
+  Corrective_Actions_Proportion: "The corrective actions taken for FY 2026 are proportional\
+    \ to both the severity and the dollar value of the root causes, particularly the\
+    \ estimated $6.36M in overpayments and $0.68M in underpayments attributed primarily\
+    \ to Failure to Access Data/Information and human error. The following are actions\
+    \ taken/planned by FSA for ECP: \n-Automation enhancements, such as restricting\
+    \ payment scenario options to only authorized fiscal‑year scenarios and adding\
+    \ allowable‑cost validations, directly address high‑dollar root causes by removing\
+    \ opportunities for the most frequent and costly errors. These system changes\
+    \ are proportionate because they target the exact points in the workflow where\
+    \ payment miscalculations previously occurred and prevent recurrence regardless\
+    \ of staff turnover or workload.  \n-Expanded training on AD‑1026 (Highly Erodible\
+    \ Land Conservation (HELC) and Wetland Conservation (WC) Certification) requirements,\
+    \ environmental compliance documentation, and proper use of system enhancements\
+    \ was implemented because training gaps were a significant contributor to improper\
+    \ payments identified in the root‑cause analysis.  \n-Behavioral‑influence actions,\
+    \ including strengthening County Executive Director (CED), District Director (DD),\
+    \ and State Office review layers, were scaled to the seriousness of cases involving\
+    \ missing signatures, incomplete eligibility documentation, and certification\
+    \ errors.  Process change efforts, such as improvements to the FSA‑23 (Determining\
+    \ Agricultural Market Value and Cost Share Worksheet) form to determine payment\
+    \ limitation by agricultural value, are proportionate to organizational‑alignment\
+    \ issues that contributed to missing or misplaced eligibility documentation. These\
+    \ actions are appropriately weighted because such issues led to high‑impact improper\
+    \ payments, particularly in states where documentation had been transferred or\
+    \ maintained inconsistently.  \n\nCollectively, the level of corrective action\
+    \ corresponds to the size and nature of the root causes, ensuring that the most\
+    \ resource‑intensive strategies were deployed where the monetary exposure was\
+    \ greatest. By directly targeting employee accountability concerns,  information\
+    \ access failures, and structural process weaknesses, the corrective actions taken\
+    \ provide coverage proportional to the severity of the improper‑payment rates\
+    \ and their underlying drivers."
+  End_Date: 09/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: "Farm Programs (DAFP) has partnered with Field Operations\
+    \ (DAFO) to improve our accountability efforts with the following actions:\n-FSA\
+    \ leadership will collaborate to enforce employee accountability for repetitive\
+    \ administrative errors affecting the PIIA error rate. Evaluation of the administrative\
+    \ errors will include identifying the state and/or county where the errors are\
+    \ occurring and recurring, including identifying the employees responsible for\
+    \ the administrative errors and certifying and signing improper payments. Supervisors\
+    \ will be held accountable to document the deficiencies in the employees’ performance\
+    \ evaluations.\n-It is imperative that field offices realize the importance of\
+    \ course correction on administrative errors and what steps will necessitate course\
+    \ correction to employees who continue to cause administrative errors. FSA’s DAFP\
+    \ must partner with DAFO to support local oversight, improvement, and implement\
+    \ accountability measures. A methodology for course correction will be necessary.\
+    \ \n-DAFP will utilize the following payment integrity dashboard views: Common\
+    \ Findings, Findings by Programs, PIIA Rates by Programs and PIIA Findings by\
+    \ States, to determine the extent of FY 2026 payment errors related to administrative\
+    \ functions in the field offices. \n-DAFO will assist with enforcing DAFP policies\
+    \ to address program non-compliance issues. Additionally, DAFO supports accountability\
+    \ measures and will require that states are accountable to recommendations in\
+    \ approved Corrective Action Plans."
+  IP_Unknown_Target_Rate: 0.05
+  Improper_Payments_Rate: 5.454445483
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '3.097'
+  Non_Monetary_Loss_Amount: '13.48'
+  Outlays: 363.74
+  Overpayment_Combined_Mitigations_Planned: '[app2]Behavioral/Psych Influence, [app3]Training'
+  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych
+    Influence, [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing,
+    [atp8]Statutory Change'
+  Payment_Accuracy_Rate: 94.54555451696267
+  Program_Additional_Information: "The agency reviewed and refined FY 2026 testing\
+    \ criteria so that payments are evaluated solely against statute and regulation,\
+    \ consistent with OMB Memorandum M-21-19. This update will result in more accurate\
+    \ and compliant assessments of improper payments. This refinement is a critical\
+    \ driver of our reduced improper payment rates in FY 2026. By aligning testing\
+    \ strictly with statutory and regulatory requirements, this ensures improper payments\
+    \ are accurate and compliant with regulatory criteria.\n\nThe Agency notes that\
+    \ full implementation of this plan is contingent on available staffing and resources.\
+    \ Like many federal programs operating within evolving budget environments, Emergency\
+    \ Conservation Program (ECP) will continue adapting implementation timelines and\
+    \ oversight procedures based on capacity constraints, while prioritizing core\
+    \ program integrity functions. \n\nMany identified corrective actions to bring\
+    \ ECP into compliance have been completed. However, specific actions such as software\
+    \ enhancements that are not effective until FY26 and will not impact ECP improper\
+    \ payment testing results until FY27.\n\n"
+  Program_Design_or_Structural_Issue: 12.8
+  Resources_Requested_For_IP: The Emergency Conservation Program (ECP) program did
+    not submit a budget request for FY 2026 related to payment‑integrity needs because
+    current internal controls, staffing capacity, and system infrastructure are sufficient
+    to maintain improper payment levels within acceptable thresholds. Recent automation
+    updates, including payment scenario restrictions and allowable cost validations,
+    were implemented within existing system resources, and planned improvements are
+    being developed through ongoing enterprise modernization efforts. Staff training
+    needs have been met through updated curriculum delivered in FY 2026, and no additional
+    funding is required to sustain these improvements. As a result, the program has
+    the resources necessary to maintain and further reduce improper payments without
+    requiring new or expanded budget authority.
+  Start_Date: 10/2024
+  Technical_IP_Actions_Planned: '[app2]Behavioral/Psych Influence, [app3]Training'
+  Technical_IP_Actions_Taken: '[atp1]Automation, [atp2]Behavioral/Psych Influence,
+    [atp3]Training'
+  Technical_IP_Amount: '12.8'
+  Underpayment_Mitigations_Planned: '[app2]Behavioral/Psych Influence, [app3]Training,
+    [app4]Change Process'
+  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych Influence,
+    [atp3]Training, [atp5]Cross Enterprise Sharing'
+  Unknown_Payments_Rate: 0
+  Year: 2026
+  detail_IP_Causes: "The FY26 ECP improper payments can be summarized as employee\
+    \ accountability concerns, information access failures, and structural process\
+    \ weaknesses, which were driven primarily by consistent breakdowns in documentation,\
+    \ verification, and application of policy requirements. Across the 31 findings,\
+    \ the most common root cause was failure to access or apply required information,\
+    \ reflected in incorrect payment scenarios, misinterpretation of environmental\
+    \ compliance documents, and misunderstanding when additional forms or reviews\
+    \ were required. These errors often stemmed from outdated or unclear state guidance\
+    \ or lacking familiarity with rarely used processes and documents. \n\nA second\
+    \ major contributor was statutory or regulatory requirements not being met, particularly\
+    \ missing or invalid AD‑1026 (Highly Erodible Land Conservation (HELC) and Wetland\
+    \ Conservation (WC) Certification) forms, absent or incomplete environmental compliance\
+    \ documentation, and required signatures not obtained before approval. Because\
+    \ these documents directly impact eligibility, their absence automatically rendered\
+    \ payments improper, even when other aspects of the file were correct. In many\
+    \ states, these errors were compounded by unusual disaster types or infrequent\
+    \ ECP usage, leading to gaps in staff understanding of specific compliance triggers.\
+    \ \n\nLastly, employee accountability concerns, such as transposed numbers, incorrect\
+    \ acreages, missing certifications, and oversight during high‑workload periods,\
+    \ also played a significant role. Staffing shortages, turnover, or heavy disaster\
+    \ workloads were more likely susceptible to administrative mistakes which were\
+    \ avoidable. Some errors additionally arose from organizational alignment issues,\
+    \ such as county-to-county record transfers or obsolete state-level guidance,\
+    \ which created confusion or caused required documentation to be lost."
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '6.36'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '5.0'
+  eligibility_aggregated:
+  - Theme: Other
+    Theme_Description: Properly selected National Environmental Policy Act (NEPA)
+      Categorical Exclusions were misunderstood.
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 6.36
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '6.36'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.68
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.68'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[9.3, 1.29, 21.08, 43.32, 61.72]'
-Payment_Accuracy_Amounts: '[111.38000000000001, 43.28, 50.690000000000005, 55.22,
-  59.110000000000014]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[1.29, 21.08, 43.32, 61.72, 6.36]'
+Payment_Accuracy_Amounts: '[43.28, 50.690000000000005, 55.22, 59.110000000000014,
+  343.9]'
 Phase_2_Program: 0
 Program_Name: Emergency Conservation Program
 Scorecard_Links: []
-Technically_Improper_Amounts: '[7.95, 16.42, 13.25, 0.47, 1.2]'
-Underpayment_Amounts: '[0.14, 0.11, 0.04, 1.68, 10.8]'
+Technically_Improper_Amounts: '[16.42, 13.25, 0.47, 1.2, 12.8]'
+Underpayment_Amounts: '[0.11, 0.04, 1.68, 10.8, 0.68]'
 Unknown_Amounts: '[0, 0, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/10.054
 layout: program-specific

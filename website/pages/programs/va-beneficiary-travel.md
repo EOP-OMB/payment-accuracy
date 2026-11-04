@@ -2,79 +2,6 @@
 Agency: VA
 Agency_Name: Department of Veterans Affairs
 Data_By_Year:
-- Agency_Needs_Satisfied: VA does not have additional program needs.
-  Confidence_Level: '>90%'
-  Corrective_Actions_Proportion: VA continues to prioritize and implement effective
-    corrective actions and mitigation strategies that reduce improper payments agency-wide
-    as evidenced by its third consecutive and largest year of reductions. Specifically,
-    from FY20 to FY21, the Beneficiary Travel program decreased its error rate from
-    16.42 percent to 13.93 percent (2.49% reduction) and improper payments from $167.59
-    million to $123.06 million ($44.53 million reduction).
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  IP_Current_Year_Plus_1_Amount: 93.93
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.0999002912
-  Improper_Payments_Rate: 9.77324443
-  Insufficient_Documentation_to_Determine: 36.73
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '3.72'
-  Non_Monetary_Loss_Amount: '5.58'
-  Outlays: 883.33
-  Outlays_Current_Year_Plus_1_Amount: 1253.65
-  Payment_Accuracy_Rate: 86.06862667406293
-  Program_Design_or_Structural_Issue: 5.02
-  Start_Date: 10/2019
-  Technical_IP_Amount: '5.02'
-  Unknown_Curent_Year_Plus_1_Amount: 31.31
-  Unknown_Payments_Rate: 4.1581288985996165
-  Unknown_Why: 'VA had lacking or insufficient documentation to validate whether a
-    payment was proper or not.
-
-
-    '
-  Year: 2021
-  overpayments:
-    Address_Location: 18.5725
-    Contractor_Provider_Status: 10.4975
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 80.75
-    Financial: 51.68
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '80.75'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.0'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.56
-    Financial: 0.56
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '0.56'
 - Agency_Needs_Satisfied: VA has not yet determined the tolerable rate. VA is working
     to determine all requirements for establishing a tolerable rate per Office of
     Management and Budget guidance before attempting to establish tolerable rates.  At
@@ -989,7 +916,7 @@ Data_By_Year:
     known causes of improper and unknown payments. State and local governments are
     not involved in the execution of this program.
   IP_Unknown_Target_Rate: 0.075
-  Improper_Payments_Rate: 5.9531984318
+  Improper_Payments_Rate: 5.95319843
   Insufficient_Documentation_to_Determine: 33.44
   Margin_of_Error: '2.44'
   Non_Monetary_Loss_Amount: '25.85'
@@ -1076,22 +1003,289 @@ Data_By_Year:
     Failure_to_Access_Data: 0.53
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.53'
+- Agency_Needs_Satisfied: VA is committed to process improvements that will ensure
+    VA is providing accurate and timely benefits to Veterans and their dependents
+    through effective implementation of corrective actions and oversight. VA continues
+    to demonstrate that it possesses the internal controls, human capital, and advanced
+    technological capabilities necessary to effectively reduce the improper and unknown
+    rate. While FY 2026 saw an increase in the amount of errors identified during
+    testing due to a $284.11 million increase in spending, the overall error rate
+    decreased by 0.73%. VA possesses the information systems and infrastructure needed
+    to sustain improvements, including automated support tools, enhanced routing logic,
+    and systems that facilitate real‑time data access and error tracking to continue
+    its progress in reducing improper and unknown payments.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: "VA updates corrective action\
+    \ plans annually based on testing results, and no less than quarterly, to ensure\
+    \ actions are appropriately and formally prioritized and designed to mitigate\
+    \ the causes of improper and unknown payments. VA monitors the progress and results\
+    \ of the implementation throughout the reporting year to ensure corrective actions\
+    \ remain on schedule and responsive to identified risks. Additionally, an effectiveness\
+    \ review is performed annually to measure if an action reduced or is properly\
+    \ designed to reduce improper and unknown payments for a specific root cause based\
+    \ on a set benchmark. The annual effectiveness review process allows VA to create\
+    \ or update actions as necessary to ensure continued progress in the remediation\
+    \ of improper and unknown payments. If areas for improvement are identified, VA\
+    \ conducts a root cause analysis to refine the program’s mitigation strategies\
+    \ to ensure they addressed and reduced root causes of error. \n\nVA conducted\
+    \ a corrective action plan effectiveness review of the program’s FY 2024 corrective\
+    \ action plan using FY 2025 test results. The review concluded that the overall\
+    \ FY 2024 corrective action plan was partially effective. While the overall error\
+    \ rate decreased from 8.09% to 7.58% in FY 2025, the program did not meet its\
+    \ intended benchmarks, and errors where the beneficiary did not meet administrative\
+    \ and eligibility qualification criteria increased, as did insufficient documentation\
+    \ errors related to receipt of services and pricing. \n\nThe Beneficiary Travel\
+    \ program's systems modernization corrective action uses automated enhancements\
+    \ of the program scheduling system to flag expired special mode transportation\
+    \ authorizations, reducing improper and unknown payments caused by transportation\
+    \ provided without a current, valid clinical authorization. As a result of this\
+    \ corrective action, related errors decreased from $25.45 million in FY 2024 to\
+    \ $12.24 million in FY 2025. The program has made substantial progress in continuing\
+    \ enhancements to automate eligibility, payment, and authorization controls, and\
+    \ the related errors have decreased for the second consecutive year to $7.85 million\
+    \ in projected improper and unknown payments in FY 2026. This reduction provides\
+    \ evidence of the effective implementation of the systems modernization corrective\
+    \ action."
+  Corrective_Actions_Appropriateness: "Automation actions taken included deploying\
+    \ system control updates in the beneficiary travel claims system to flag higher-dollar\
+    \ claims where the closest treating facility may not have been used and to prevent\
+    \ claims for future or incomplete appointments, reducing improper payments caused\
+    \ by claims for non-closest facilities and for appointments that did not occur.\
+    \ These corrective actions reduced manual processes and human error, which are\
+    \ a significant source of improper and unknown payments. These actions were completed\
+    \ on January 29, 2026. Automation activities also occurred in FY 2025 contributing\
+    \ to reductions of $37.82 million in administrative qualification errors, $7.82\
+    \ million in untimely submission of claim errors, $7.41 million in incorrect claim\
+    \ calculation errors, $5.87 million in services not received errors, $2.63 million\
+    \ in authorization documentation errors, and $1.18 million in closest facility\
+    \ not selected errors. The program will continue deploying system control updates\
+    \ in FY 2027. \n\nChange process actions taken included reviewing and updating\
+    \ payment processes for paper checks by transitioning to electronic funds transfer.\
+    \ VA eliminated processing rejections and transaction conversions in the claims\
+    \ system, reducing the payment errors that previously resulted from those failed\
+    \ and re-routed transactions. Additionally, VA enhanced the program scheduling\
+    \ system to automatically flag expired special mode transportation authorizations,\
+    \ reducing improper and unknown payments caused by transportation provided without\
+    \ a current, valid clinical authorization. These corrective actions strengthened\
+    \ internal controls and mitigated risks within existing processes. These actions\
+    \ were completed on January 28, 2026. Change process activities also occurred\
+    \ in FY 2025 contributing to a reduction of $57.93 million in improper and unknown\
+    \ payments between FY 2025 and FY 2026. The program will continue enhancing program\
+    \ transportation and medical record systems in FY 2027. \n\nOutcomes of these\
+    \ corrective actions taken in prior years have been effective and the program\
+    \ continues to see reductions in improper and unknown payment testing results.\
+    \ In FY 2027, the program will evaluate the effectiveness and impact of these\
+    \ corrective actions and determine whether they successfully mitigated the identified\
+    \ root causes.\n\nAutomation actions planned include enhancements to automate\
+    \ eligibility, payment, and authorization controls. These include meals and lodging\
+    \ thresholds automation, strengthening mileage reconciliation controls, improving\
+    \ eligibility and income verification, auto-generating authorizations for qualifying\
+    \ emergency ambulance transports, and expanding claim submission options for Veterans.\
+    \ These corrective actions reduce manual processes and human error, which are\
+    \ significant sources of improper and unknown payments. The estimated completion\
+    \ date is March 31, 2027.\n\nChange process actions planned include integrating\
+    \ transportation and medical record systems and enhancing general controls, application\
+    \ controls, and transportation scheduling. These improvements aim to streamline\
+    \ third-party preauthorized transportation services, incorporate medical qualifications,\
+    \ and improve efficiency in claims adjudication. Additional change process actions\
+    \ include consolidating beneficiary travel claims processing through standardized\
+    \ reimbursement processes by centralizing the workload while strengthening oversight\
+    \ and reducing administrative inefficiencies. A central processing office can\
+    \ focus on timely, proper payments to Veterans. These corrective actions strengthen\
+    \ internal controls and mitigate risks within existing processes. The estimated\
+    \ completion date is September 30, 2027."
+  Corrective_Actions_Proportion: "The corrective action plan executed in FY 2026 was\
+    \ designed to address root causes identified in FY 2025 testing. While all error\
+    \ causes were included, VA prioritized those associated with monetary loss and\
+    \ developed corrective actions proportional to the severity of those causes. In\
+    \ FY 2025 testing, 42.73% of monetary loss transactions occurred when a beneficiary\
+    \ did not meet administrative qualification, which resulted in $41.18 million\
+    \ in projected monetary losses. These errors received an intentional focus in\
+    \ the FY 2026 corrective action plan. VA implemented corrective actions such as\
+    \ automation and change process to prevent instances where a beneficiary did not\
+    \ meet administrative qualification. The remaining 57.27% of overpayments occurred\
+    \ due to various errors including, incorrect amounts paid per the contract, incorrect\
+    \ facility for Veteran's treatment was utilized, services were not received, beneficiary\
+    \ did not meet medical qualification, claim was not submitted timely, claim was\
+    \ duplicative, or claim payments were incorrectly calculated. These errors were\
+    \ addressed with a combination of automation and change process solutions to increase\
+    \ the efficiency in claims adjudication. \n\nIn FY 2025 testing, 100% of underpayments\
+    \ occurred due to claim payments being calculated incorrectly based on income\
+    \ and application of deductibles, which resulted in $0.53 million in projected\
+    \ underpayments. These errors were addressed in the FY 2026 corrective action\
+    \ plan with VA implementing enhancements to automate payment, specifically improving\
+    \ eligibility and income verification. The automated solutions helped to ensure\
+    \ that income verification and claim calculation was accurate.\n\nIn FY 2025 testing,\
+    \ 100% of technically improper payments occurred when clinical documentation for\
+    \ special mode travel was not properly and timely approved by a VA clinician,\
+    \ which resulted in $25.32 million in projected technically improper payments.\
+    \ VA implemented change process corrective actions to enhance the program scheduling\
+    \ system to automatically flag expired special mode transportation authorizations,\
+    \ reducing improper payments caused by transportation provided without a current,\
+    \ valid clinical authorization.\n\nIn FY 2025 testing, 100% of unknown payments\
+    \ occurred when VA had missing or insufficient documentation related to authorization,\
+    \ receiving, eligibility, or pricing documentation, which resulted in $33.44 million\
+    \ in projected unknown payments. The FY 2026 corrective action plan to address\
+    \ these issues with change process solutions included consolidating claims processing\
+    \ through standardized reimbursement processes, centralizing claims processing\
+    \ staff and workload, and digitizing paper claims, aimed at reducing insufficient\
+    \ documentation and unknown payments."
+  End_Date: 09/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
+  Hide_Underpayments_Failure_to_Access_Data: true
+  Hide_Underpayments_Inability_to_Access_Data: true
+  IP_Accountability_Description: "The Senior Accountable Official for the Beneficiary\
+    \ Travel program, the Deputy Executive Director for Member Services, is responsible\
+    \ for compliance with the Payment Integrity Information Act of 2019, accountable\
+    \ for reducing improper and unknown payments, and completing required activities\
+    \ timely. The Senior Accountable Official and other VA executive managers must\
+    \ establish and maintain internal controls in accordance with Federal standards\
+    \ outlined by the Government Accountability Office in the Standards for Internal\
+    \ Control in the Federal Government. \n\nVA has an established process to recover\
+    \ overpayments. For VHA, after conducting payment integrity reviews and recovery\
+    \ audits to identify overpayments, they are tracked in a monetary loss and collections\
+    \ database. The overpayments are sent to the Financial Services Center to be processed,\
+    \ and a bill of collection is established. Once recovered, the database is updated\
+    \ for collection status. \n\nVA has roughly 430,000 employees and does not standardize\
+    \ position titles or performance metrics for establishing and maintaining internal\
+    \ controls or identifying and recovering overpayments. Payment integrity functions\
+    \ are dispersed geographically across the continental United States as well as\
+    \ outside the Continental United States and extend well beyond VA’s finance employees.\
+    \ For example, Contracting Officer Representatives responsible for validating\
+    \ invoices match contract prices are found throughout VA offices and programs,\
+    \ with many performing these functions as other duties as assigned.\n\nVA actively\
+    \ monitors the progress programs made in improving payment integrity as required\
+    \ by VA Financial Policy. Specifically, the Beneficiary Travel program's corrective\
+    \ action plan drives the improvement of existing or implementation of new internal\
+    \ controls necessary to address the true root causes of errors found in payment\
+    \ integrity testing. Through the description of root causes, monitoring of milestones\
+    \ and tasks, and measurement against set benchmarks, the Senior Accountable Official\
+    \ is held accountable for reducing improper and unknown payments via effective\
+    \ corrective actions. VA reviews corrective actions for effectiveness both informally\
+    \ by discussing testing results and corrective actions in regularly scheduled\
+    \ meetings with programs executive managers and/or staff as well as formal effectiveness\
+    \ reviews in accordance with VA Financial Policy. In July 2026, the Government\
+    \ Accountability Office evaluated VA’s process of evaluating effectiveness using\
+    \ established benchmarks and found no deficiencies or areas of improvement. These\
+    \ measures ensure that payment integrity remains a visible and prioritized responsibility\
+    \ among management and staff throughout the agency. \n\nState and local governments\
+    \ do not participate in the execution of this program."
+  IP_Unknown_Target_Rate: 0.0675
+  Improper_Payments_Rate: 3.2933324777
+  Insufficient_Documentation_to_Determine: 83.04
+  Margin_of_Error: '2.88'
+  Non_Monetary_Loss_Amount: '0'
+  Outlays: 2337.45
+  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app4]Change Process'
+  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp4]Change Process'
+  Payment_Accuracy_Rate: 93.15407816209972
+  Program_Additional_Information: 'The Beneficiary Travel program continues to prioritize
+    and implement corrective actions and mitigation strategies that reduce improper
+    and unknown payments. From FY 2025 to FY 2026, Beneficiary Travel reduced its
+    improper and unknown payment error rate from 7.58% to 6.85%. While FY 2026 saw
+    an increase in the amount of errors identified during testing due to a $284.11
+    million increase in spending, the overall error rate decreased by 0.73%
+
+
+    The Office of Inspector General completed its review of the FY 2025 reporting
+    for the Beneficiary Travel program and determined that the program met all Payment
+    Integrity Information Act of 2019 requirements. The review confirmed that the
+    program reported information as required in the Agency Financial Report and paymentaccuracy.gov,
+    published statistically valid projections of improper and unknown payments, published
+    a corrective action plan and reported an improper and unknown payment rate of
+    less than 10 percent.'
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: At this time, VA is not aware of additional program
+    needs. VA has not requested additional resources in the most recent budget submission
+    to establish and maintain internal controls to reduce improper payments and unknown
+    payments. VA continues to develop and implement corrective actions to reduce improper
+    and unknown payments and has not identified a tolerable rate for this program;
+    however, current resources are sufficient to continue implementation of corrective
+    actions.
+  Start_Date: 10/2024
+  Technical_IP_Amount: '0.0'
+  Unknown_Mitigations_Planned: '[app1]Automation,[app4]Change Process'
+  Unknown_Mitigations_Taken: '[atp1]Automation,[atp4]Change Process'
+  Unknown_Payments_Rate: 3.5525893602002183
+  Year: 2026
+  detail_IP_Causes: "Overpayments occurred when the program failed to access the data/information\
+    \ needed to validate the closest facility that could provide the Veteran's treatment\
+    \ was utilized, special mode transportation rates were incorrectly paid according\
+    \ to the contract, services were not received, beneficiary did not meet administrative\
+    \ and/or medical qualification, claim was not submitted timely, claim was duplicative,\
+    \ or claim payments were incorrectly calculated according to mileage, deductibles,\
+    \ and/or meals and lodging.\n\nNo underpayments were found during testing. \n\n\
+    Unknown payments were attributed to missing or insufficient documentation required\
+    \ to validate whether a payment was proper or improper related to authorization,\
+    \ receiving, or pricing documentation. Specifically, VA was unable to determine\
+    \ if the type of transportation the Veteran used was medically authorized, or\
+    \ there were incomplete contract price schedules. Without contract price schedules,\
+    \ receiving documentation, and, if applicable, special mode transportation or\
+    \ common carrier preauthorization documentation, the program is unable to determine\
+    \ whether the amount paid is proper or improper. Due to insufficient documentation,\
+    \ VA categorized the payments as unknown.\n\nNo technically improper payments\
+    \ were found during testing."
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '76.98'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '6.75'
+  eligibility_aggregated:
+  - Theme: Address/location
+    Theme_Description: "Information regarding where the applicant/recipient lived,\
+      \ owned property, or was \r\nphysically present in a specific location"
+  - Theme: Contractor or Provider Status
+    Theme_Description: "Status or standing of contractor or provider, including recipient\
+      \ eligibility to \r\nprovide medical services"
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 76.98
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '76.98'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Underpayments_Amount: '0.0'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[80.75, 58.48, 88.5, 86.22, 96.39]'
-Payment_Accuracy_Amounts: '[760.2700000000001, 1154.5700000000002, 1637.3700000000001,
-  1699.53, 1897.6699999999998]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[58.48, 88.5, 86.22, 96.39, 76.98]'
+Payment_Accuracy_Amounts: '[1154.5700000000002, 1637.3700000000001, 1699.53, 1897.6699999999998,
+  2177.43]'
 Phase_2_Program: 0
 Program_Name: Beneficiary Travel
 Scorecard_Links: []
-Technically_Improper_Amounts: '[5.02, 16.09, 13.86, 42.23, 25.32]'
-Underpayment_Amounts: '[0.56, 0.47, 0.56, 3.59, 0.53]'
-Unknown_Amounts: '[36.73, 24.04, 17.03, 17.53, 33.44]'
+Technically_Improper_Amounts: '[16.09, 13.86, 42.23, 25.32, 0]'
+Underpayment_Amounts: '[0.47, 0.56, 3.59, 0.53, 0]'
+Unknown_Amounts: '[24.04, 17.03, 17.53, 33.44, 83.04]'
 layout: program-specific
 permalink: program/va-beneficiary-travel
 ---

@@ -213,14 +213,6 @@ Data_By_Year:
     Financial: 0.00135
     Inability_to_Access_Data: 0.0
     Overpayments_Outside_Control_Amount: '.001350'
-    Overpayments_Outside_Control_Why: The overpayments encountered are outside of
-      agency control due to the fact that the direct recipients of funds (State Education
-      Agencies or SEAs) acted as pass-through entities to their sub-grantees, who
-      were the ultimate recipients. As such, the Department processed the relevant
-      payments to the SEAs based on their internal controls and payment review process.
-      Furthermore, these overpayments were due to rounding errors. The small amounts
-      involved would not usually justify expending additional resources or time to
-      have Department staff reperform the calculations.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -230,7 +222,7 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true

@@ -2,81 +2,6 @@
 Agency: FCC
 Agency_Name: Federal Communications Commission
 Data_By_Year:
-- Agency_Needs_Satisfied: The Schools and Libraries Program has the internal controls,
-    human capital, information systems, and other infrastructure it requires to reduce
-    IPs to the targeted levels.
-  Confidence_Level: '>95%'
-  Corrective_Actions_Proportion: The planned corrective actions with the largest impact
-    include working with the FCC to establish a USF Competitive Bidding Portal to
-    help ensure competitive bidding compliance for the Schools and Libraries Program.
-    The Competitive Bidding Portal Request for Proposals (RFP) is currently under
-    review  with the FCC.  However, the FCC must first also initiate a proposed rulemaking
-    proceeding to seek public feedback for this portal with notice and comment prior
-    to a rulemaking that will inform any necessary RFP changes and other requirements
-    for the competitive bidding portal.
-  End_Date: 12/2020
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Within_Failure_to_Access_Data: true
-  Hide_Overpayments_Within_Inability_to_Access_Data: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Failure_to_Access_Data: true
-  Hide_Underpayments_Inability_to_Access_Data: true
-  IP_Current_Year_Plus_1_Amount: 60.48
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.0290016304
-  Improper_Payments_Rate: 2.96582081
-  Insufficient_Documentation_to_Determine: 0.0
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '1.32'
-  Non_Monetary_Loss_Amount: '0.0'
-  Outlays: 2096.89
-  Outlays_Current_Year_Plus_1_Amount: 2085.4
-  Payment_Accuracy_Rate: 97.03417918918016
-  Program_Design_or_Structural_Issue: 0.0
-  Start_Date: 01/2020
-  Technical_IP_Amount: '0.0'
-  Unknown_Curent_Year_Plus_1_Amount: 0
-  Unknown_Payments_Rate: 0
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '0.0'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 62.19
-    Inability_to_Access_Data: 62.19
-    Overpayments_Outside_Control_Amount: '62.19'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: The Schools and Libraries program has the internal controls,
     human capital, information systems, and other infrastructure it requires to reduce
     improper payments to the target levels.
@@ -351,15 +276,6 @@ Data_By_Year:
     Financial: 17.136
     Inability_to_Access_Data: 0.0
     Overpayments_Outside_Control_Amount: '17.136'
-    Overpayments_Outside_Control_Why: "Competitive bidding is a formal process to\
-      \ identify and request the eligible equipment and/or services the applicants\
-      \ need, so that potential service providers can review those requests and submit\
-      \ responsive bids.\nSchools and Libraries program applicants must conduct fair\
-      \ and open competitive bidding processes and select the most cost-effective\
-      \ service using the price of the eligible equipment and services as the primary\
-      \ factor. The applicant is responsible for ensuring that its competitive bidding\
-      \ process is compliant with FCC rules and free from any potential conflicts\
-      \ of interest. \n"
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -603,14 +519,6 @@ Data_By_Year:
     Financial: 10.61
     Inability_to_Access_Data: 0.0
     Overpayments_Outside_Control_Amount: '10.61'
-    Overpayments_Outside_Control_Why: Competitive bidding is a formal process to identify
-      and request the eligible equipment and/or services the applicants need, so that
-      potential service providers can review those requests and submit responsive
-      bids.  Schools and Libraries program applicants must conduct fair and open competitive
-      bidding processes and select the most cost-effective equipment and services
-      using the price of the eligible equipment and services as the primary factor.
-      The applicant is responsible for ensuring that its competitive bidding process
-      is compliant with FCC rules and free from any potential conflicts of interest.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -620,29 +528,29 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024]'
-Overpayment_Amounts: '[62.19, 80.562, 32.903, 31.11]'
-Payment_Accuracy_Amounts: '[2034.6999999999998, 2076.7780000000002, 2032.707, 2425.24]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024]'
+Overpayment_Amounts: '[80.562, 32.903, 31.11]'
+Payment_Accuracy_Amounts: '[2076.7780000000002, 2032.707, 2425.24]'
 Phase_2_Program: 0
 Program_Name: Universal Service Fund - Schools and Libraries
 Scorecard_Links:
-- Link: assets/scorecards/Q1 2020/Universal Services Fund - Schools & Libraries Getting
-    Payments Right Scorecard FY 2020 Q1.png
-  QuarterYear: Q1 2020
-- Link: assets/scorecards/Q3 2020/Universal Services Fund - Schools & Libraries Getting
-    Payments Right Scorecard FY 2020 Q3.png
-  QuarterYear: Q3 2020
 - Link: assets/scorecards/Q4 2020/Universal Services Fund - Schools & Libraries Getting
     Payments Right Scorecard FY 2020 Q4.png
   QuarterYear: Q4 2020
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[0, 0, 0, 0]'
-Unknown_Amounts: '[0, 0, 0, 0]'
+- Link: assets/scorecards/Q3 2020/Universal Services Fund - Schools & Libraries Getting
+    Payments Right Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q1 2020/Universal Services Fund - Schools & Libraries Getting
+    Payments Right Scorecard FY 2020 Q1.png
+  QuarterYear: Q1 2020
+Technically_Improper_Amounts: '[0, 0, 0]'
+Underpayment_Amounts: '[0, 0, 0]'
+Unknown_Amounts: '[0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/32.004
 layout: program-specific
 permalink: program/fcc-universal-service-fund-schools-and-libraries

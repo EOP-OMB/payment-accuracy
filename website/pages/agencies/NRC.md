@@ -3,20 +3,20 @@ Agency: NRC
 Agency_Name: Nuclear Regulatory Commission
 Confirmed_Fraud: 0.0
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
 Hide_PIIA2019: false
-Hide_Recovery_Audits: true
+Hide_Recovery_Audits: false
 Hide_Recovery_Details: true
-Hide_Recovery_Info: true
+Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
 Hide_Supplemental_Info: false
-Hide_Supplemental_Payment_Integrity: false
+Hide_Supplemental_Payment_Integrity: true
 Improper_Payments_Data_Years: '[]'
 Improper_Payments_Rate_Max: 0
 Improper_Payments_Rate_Min: 0
@@ -153,7 +153,7 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Commercial
     Slug: null
@@ -163,7 +163,7 @@ Risks:
     Program_Name: Employee
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Payroll
     Slug: null
@@ -195,12 +195,12 @@ Risks:
       Assistance Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: U.S. Nuclear Regulatory Commission Scholarship and Fellowship Program
     Slug: null
     Susceptible: 'No'
-  SubstantialChangesMade: null
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -208,59 +208,105 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-- 2021
-detail_Additional_IP_Information: Effective stewardship of taxpayer funds is a critical
-  responsibility of the NRC, and the Chief Financial Officer has the responsibility
-  for all financial management operations and activities at the NRC. The agency has
-  recently modernized the applicable SORNs to include language that covers the Do
-  Not Pay process which will aid in the reduction of improper payments, if any.
+detail_Additional_IP_Information: null
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: At the Nuclear Regulatory Commission vendor files are uploaded
-  quarterly into DNP to see which vendors are flagged as DNP.  The Nuclear Regulatory
-  Commission also runs daily payment schedules reviews with treasury to see if there
-  are any matches.  Although there are routine matches with vendors on the vendor
-  file, we have never processed a payment to a vendor that should not have been paid,
-  because our Acquisition Management Division monitors potential vendors before entering
-  into a contract with them by using the same systems Do Not Pay uses.  To date, our
-  daily payment schedules reviews have not returned a match.
+detail_DNP_Discussion: 'The NRC uses Treasury’s Do Not Pay (DNP) automated tools to
+  monitor and reduce improper payments, verifying eligibility that the payment is
+  going to the correct party. Additionally, the NRC captures improper payments through
+  the agency’s internal controls. The NRC uses the DNP Death Master file, the Federal
+  Awardees Performance and Integrity Information System, other database systems such
+  as the System for Award Management (SAM), and financial reports to establish whether
+  a contractor has the integrity and business ethics to receive a federal contract
+  and is otherwise responsible. This process is consistent with applicable statutes
+  and regulations.
+
+
+  For FY 2026, the NRC awarded grants only to educational institutions and other entities,
+  not individuals. The NRC uses the SAM and other data systems to ensure that only
+  responsible and otherwise eligible applicants received the NRC grants. The agency
+  uses the same monitoring practices for both grantees and commercial vendors. The
+  NRC reviews for debarments and suspensions as part of its pre-award risk review
+  for eligibility and takes appropriate action internally to debar and suspend grant
+  recipients, as appropriate. The NRC continues to follow the lead of the Office of
+  Federal Procurement Policy on award recipients and implements any changes directed
+  by the policy.
+
+
+  In addition, the NRC will continue DNP reviews to monitor for improper payments,
+  including using the Treasury Payment Automation Manager to process payment schedules.
+  As displayed below, the NRC processed payments through the DNP portal (number and
+  dollar amount of payments processed through the DNP portal in FY 2025 and FY 2024,
+  respectively). Based on the results of the reviews to date, the DNP initiative has
+  not identified any improper payments for the NRC. The number of payments and dollar
+  amounts reviewed using DNP during FY2025, 4,214 and $203, 616, 346, respectively
+  and FY2024, 4,612 and $190, 832, 843, respectively.
+
+  '
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: 'Nuclear Regulatory Commission’s (NRC) Inspector General
-  concluded that the agency was compliant with the Payment Integrity Information Act
-  of 2019 (PIIA) in the most recent compliance audit. PIIA requires agencies to review
-  and assess all programs and activities with annual outlays greater than $10,000,000
-  for improper payment risk at least once every three years to identify those susceptible
-  to significant improper payments. Historically all NRC programs have been deemed
-  low risk, and the NRC conducts a risk assessment on a triennial basis to determine
-  whether any programs were susceptible to making significant improper payments.
-
-  The FY 2025 preliminary risk assessment did not identify any programs that were
-  susceptible to making significant improper payments. Although the results of the
-  FY 2025 preliminary risk assessment identified NRC programs as low risk, NRC continues
-  to monitor its payment processes, in addition to conducting periodic reviews of
-  key controls for PIIA programs identified by management. The agency will continue
-  to conduct a risk assessment on a triennial basis, in accordance with PIIA and OMB
-  guidance. The next NRC PIIA risk assessment will take place in FY 2026. In addition,
-  risk assessments evaluating new programs or programs that experience any significant
-  legislative changes and/or significant increase in funding will be done to determine
-  if the NRC continues to be at low risk for making significant improper payments
-  at or above the threshold levels set by PIIA. Lastly, the NRC maintains payment
-  integrity through strong pre-payment eligibility controls and continuous monitoring.'
-detail_OIG_Recommendations: null
+detail_Executive_Summary: "In accordance with the PIIA, the NRC is required to complete\
+  \ risk assessments to determine whether any programs are susceptible to making significant\
+  \ improper payments. PIIA defines significant improper payments as annual improper\
+  \ payments exceeding both $10 million and 1.5 percent, or $100 million of total\
+  \ annual program payments. Intragovernmental transactions, accounts receivable adjustments,\
+  \ and general ledger system activities fall outside the scope of payment integrity\
+  \ tracking. The NRC’s programs are classified as Phase 1, confirming they are at\
+  \ low risk for significant improper payments. In its most recent compliance review,\
+  \ issued in May 2026, the NRC Office of the Inspector General concluded that NRC\
+  \ was in compliance with the PIIA for FY 2025 (OIG-NRC-26-A-02).\n\nEnacted during\
+  \ FY 2025, Executive Order (EO) 14247, “Modernizing Payments To and From America’s\
+  \ Bank Account,” and EO 14249, “Protecting America’s Bank Account Against Fraud,\
+  \ Waste, and Abuse,” established new government-wide financial protocols intended\
+  \ to modernize federal payments and reduce fraud. In response to these directives,\
+  \ the NRC aligned its internal compliance operations by expanding payment integrity\
+  \ tracking, bringing the total number of programs subject to routine monitoring\
+  \ to nine.\n\nThe NRC performed a triennial risk assessment as of September 30,\
+  \ 2026, in accordance with the PIIA. Management identified payroll, commercial payments,\
+  \ and the University Nuclear Leadership Program (UNLP) grant payments as potential\
+  \ areas to include in the PIIA triennial risk assessment. In FY 2026, the NRC reviewed\
+  \ FY 2025 disbursements of selected programs to determine the appropriate threshold\
+  \ for conducting a risk assessment and possible testing. For FY 2025, total payroll\
+  \ payments were $482.6 million; total commercial payments were $211.2 million; and\
+  \ total UNLP grants payments were $15 million.\n\nFor the programs selected for\
+  \ testing, as part of the qualitative and quantitative risk assessment, the NRC\
+  \ used professional judgment to select samples from each program under review, based\
+  \ on the universe of payments, which were reconciled to the general ledger. Because\
+  \ the NRC does not operate any programs classified as high-risk or Phase 2, full\
+  \ statistical improper payment testing was neither required nor conducted. The testing\
+  \ was further refined through the nature of the payment (i.e. contract payment,\
+  \ travel card, miscellaneous), dollar value, and identification of selected attributes\
+  \ for each program to determine whether the right recipient received the right payment\
+  \ amount for the right goods or services at the right time.\n\nThe FY 2026 triennial\
+  \ risk assessment did not identify any programs that were susceptible to making\
+  \ significant improper payments. Programs will remain in Phase 1. Although the assessment\
+  \ identified programs as low to very low risk, the NRC continues to monitor its\
+  \ payment processes and to conduct periodic reviews of key controls for PIIA programs\
+  \ identified by management.\n\nIn FY 2026, the NRC continued to fulfill the requirement\
+  \ of the OMB annual data call on payment integrity, which supports identifying,\
+  \ reporting, and reducing improper payments \nin federal programs. The applicable\
+  \ report may be accessed by navigating from the Resources page on PaymentAccuracy.gov\
+  \ to the Congressional Reports page and then selecting the relevant report from\
+  \ the dropdown list for the relevant agency and fiscal year: \nAnnual Risk Assessment\
+  \ Report required under 31 U.S.C. § 3352(a)(3)(C)\n"
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
 detail_Recovery_Justifications_Audits: null
-detail_Recovery_Not_Cost_Effective_Justification: null
-detail_Risks_Substantial_Changes_Made: null
+detail_Recovery_Not_Cost_Effective_Justification: The NRC conducted program risk assessments
+  in FY 2026 and discovered no significant improper payments. Based on this finding
+  and in view of the substantial cost of conducting recapture audits, the agency determined
+  that recovery or recapture audits would not be cost effective. The NRC conducts
+  risk assessments every 3 years as required by the PIIA.
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/NRC.html
 recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0

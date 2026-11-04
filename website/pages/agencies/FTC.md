@@ -3,7 +3,7 @@ Agency: FTC
 Agency_Name: Federal Trade Commission
 Confirmed_Fraud: 0.0
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -66,12 +66,12 @@ Risks:
     Program_Name: Payroll
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Vendor Contract
     Slug: null
     Susceptible: 'No'
-  SubstantialChangesMade: null
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -79,41 +79,46 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
-detail_Additional_IP_Information: The FTC conducted several internal control reviews
-  on programs as part of its multi year ERM program, no issues or findings were found.
+detail_Additional_IP_Information: In FY 2026, the FTC conducted several internal control
+  reviews on programs as part of its multi year ERM program, and performed an off-cycle
+  improper payment risk assessment of the vendor contract program that determined
+  the program is not a high risk or considered a susceptible program of significant
+  amounts of improper payments.
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: 'FTC''s shared service provider validates vendor data weekly
-  against Do Not Pay to
+  against Do Not Pay to identify and deactivate prohibited vendors.  The FTC reviews
+  potential debarred vendors on an on-going basis during its pre-award contract process.
 
-  identify and deactivate prohibited vendors. The FTC reviews potential debarred
-
-  vendors on an on-going basis during its pre-award contract process.'
+  '
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: The Payment Integrity Information Act of 2019 requires agencies
-  to identify programs that may be susceptible to significant improper payments and
-  report the results of their improper payment activities. In FY 2024 FTC performed
-  an improper payment risk assessment and determined that none of its payment programs
-  are high risk or considered susceptible programs of significant amounts of improper
-  payments.
-detail_OIG_Recommendations: null
+detail_Executive_Summary: "The Payment Integrity Information Act of 2019 requires\
+  \ agencies to identify programs that may be susceptible to significant improper\
+  \ payments and report the results of their improper payment activities.  In FY 2024\
+  \ FTC performed an improper payment risk assessment and determined that none of\
+  \ its payment programs are high risk or considered susceptible programs of significant\
+  \ amounts of improper payments. In FY 2026 FTC performed an off-cycle improper payment\
+  \ risk assessment of the vendor contract program that will continue into FY 2027,\
+  \ and determined that the program is not a high risk or considered a susceptible\
+  \ program of significant amounts of improper payments.  \n"
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
 detail_Recovery_Justifications_Audits: null
-detail_Recovery_Not_Cost_Effective_Justification: In FY 2024 FTC performed an improper
-  payment risk assessment and concluded that recovery audits were not cost-effective
-  for its payment programs. The FTC analyzes programs to determine if payments are
-  susceptible to improper payments. The FTC's share service provider compares FTC
-  payee records with payee records in Do Not Pay databases to prevent improper payments.  In
-  FY25, there were no significant changes in our programs.
-detail_Risks_Substantial_Changes_Made: null
+detail_Recovery_Not_Cost_Effective_Justification: "In FY 2024 FTC performed an improper\
+  \ payment risk assessment and concluded that recovery audits were not cost-effective\
+  \ for its payment programs.  The FTC analyzes programs to determine if payments\
+  \ are susceptible to improper payments.  The FTC's shared service provider compares\
+  \ FTC payee records with payee records in Do Not Pay databases to prevent improper\
+  \ payments.  In FY 26, there were no significant changes in our programs.  \n"
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/FTC.html
 recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0

@@ -2,12 +2,12 @@
 Agency: MUSP
 Agency_Name: Morris K. Udall Scholarship and Excellence in National Environmental
   Policy Foundation
-Confirmed_Fraud: 0.0
+Confirmed_Fraud: null
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
-Hide_Do_Not_Pay: false
+Hide_Do_Not_Pay: true
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
 Hide_PIIA2019: false
@@ -90,7 +90,7 @@ Risks:
     Program_Name: Morris K. Udall Scholarship Program
     Slug: null
     Susceptible: 'No'
-  SubstantialChangesMade: 'No'
+  SubstantialChangesMade: null
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -98,50 +98,8 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
-detail_Additional_IP_Information: null
-detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
-detail_Compliance_Status: Compliant
-detail_DNP_Discussion: We are in the process of working with our financial service
-  provider to reestablish use this program.
-detail_DNP_Frequency_Identify: null
-detail_DNP_Reduced: null
-detail_DNP_Used: 'No'
-detail_Disposition_of_Funds: null
-detail_Executive_Summary: 'The Morris K. Udall and Stewart L. Udall Foundation is
-  a small federal agency with 24 full-time employees. Because of our size, we have
-  a small finance team and rely on an interagency agreement with a Shared Services
-  Provider, GSA, for financial management services.
-
-
-  The Udall Foundation’s payment certification functions are centralized at its headquarters
-  and carried out in coordination with GSA financial support. Our shared service provider
-  has confirmed that their existing processes and systems fully comply with all pre-certification
-  verification requirements. We have aligned our internal process with the pre-certification
-  verification requirements. Funds are allocated according to our internal budget
-  plan, which sets spending limits for each program and activity. Before any expenditure
-  or financial commitment such as a purchase or contract is made, we verify that sufficient
-  funds are available within the designated budget. An internal review is performed
-  to confirm both the payment and payment information, after which GSA conducts its
-  own review before processing the payment.
-
-
-  We have completed collaboration with our Shared Services Provider (GSA) to update
-  vendor records with banking details and SAM registrations as needed, ensuring all
-  disbursements are processed electronically. Internally, we have also implemented
-  transitions for non-federal organizations to submit payments electronically for
-  receipts.
-
-  '
-detail_OIG_Recommendations: null
-detail_Overpayment_Conditions_And_Methods: null
-detail_PIIA_Incentives: null
-detail_PIIA_Official: null
-detail_Recovery_Audits_Skipped: 'No'
-detail_Recovery_Justifications_Audits: null
-detail_Recovery_Not_Cost_Effective_Justification: null
-detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/MUSP.html
-recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

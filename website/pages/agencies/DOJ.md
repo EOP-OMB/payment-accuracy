@@ -1,9 +1,9 @@
 ---
 Agency: DOJ
 Agency_Name: Department of Justice
-Confirmed_Fraud: 0.89
+Confirmed_Fraud: 3.97
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: false
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -23,9 +23,9 @@ Improper_Payments_Rate_Min: 0
 Improper_Payments_Rates: '[]'
 Is_Placeholder: false
 Overpayment_Amounts: '[]'
-Overpayment_Amounts_Identified: '[5.29, 13.89, 9.1, 10.53, 4.47]'
-Overpayment_Amounts_Recovered: '[6.33, 7.24, 9.83, 10.01, 4.25]'
-Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts_Identified: '[13.89, 9.1, 10.53, 4.47, 11.53]'
+Overpayment_Amounts_Recovered: '[7.24, 9.83, 10.01, 4.25, 8.39]'
+Overpayment_Years: '[2022, 2023, 2024, 2025, 2026]'
 PIIA2019_Compliant_Programs:
 - Compliant_1A: true
   Compliant_1B: true
@@ -100,27 +100,27 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Administrative, Technology, and Other
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Law Enforcement
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Litigation
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Prisons and Detention
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: State, Local, Tribal, and Other Assistance
     Slug: null
@@ -133,11 +133,11 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-- 2021
 detail_Additional_IP_Information: The Department performs an annual assessment of
   risks related to the susceptibility of improper payments. The assessment considers
   the prior year disbursement and improper payment activity, estimates for the current
@@ -146,7 +146,7 @@ detail_Additional_IP_Information: The Department performs an annual assessment o
   affirms this risk assessment is critical for ensuring the improper payment program
   is managed (i.e., improper payments identified and recovery activities implemented)
   effectively on an ongoing basis across the Department.
-detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '0.01'
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '0.32'
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: Our agency actively utilizes the Do Not Pay (DNP) Working System
   through weekly Continuous Monitoring submissions, which include a list of our active
@@ -159,8 +159,8 @@ detail_DNP_Discussion: Our agency actively utilizes the Do Not Pay (DNP) Working
 detail_DNP_Frequency_Identify: Monthly
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
-detail_Disposition_of_Funds: DOJ determined that amounts recaptured through recovery
-  audits were used for the original purpose or returned to the original account. Improper
+detail_Disposition_of_Funds: DOJ noted that amounts recaptured through recovery audits
+  were used for their original purpose or returned to the original account. Improper
   payment amounts that were not identified through recovery audits were also returned
   to their original use or the original account.
 detail_Executive_Summary: The Department of Justice (DOJ) does not currently have
@@ -170,7 +170,6 @@ detail_Executive_Summary: The Department of Justice (DOJ) does not currently hav
   Program, in accordance with OMB A-123 Appendix C and PIIA, which includes execution
   of an annual improper payment risk assessment to determine susceptibility to improper
   payments and performing payment recapture and recovery activities on an annual basis.
-detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: The Department has used all of the methods
   identified in the prior questions, as well as other methods, to recover overpayments
   identified through recovery audit activities. This includes the U.S. Department
@@ -188,13 +187,13 @@ detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/DOJ.html
 recovery_Aging_of_Outstanding_OP_Identified_Amt_0_-_6_months: 0.01
-recovery_Aging_of_Outstanding_OP_Identified_Amt_6_months_to_1_year: 0.0
+recovery_Aging_of_Outstanding_OP_Identified_Amt_6_months_to_1_year: 0.31
 recovery_Aging_of_Outstanding_OP_Identified_determined_not_collectable: 0.0
-recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 4.28
-recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 0.19
-recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 4.07
-recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.18
-recovery_Recovery_Audit_Amount_Outstanding_Rate: 5.2631578947
-recovery_Total_Overpayment_Amount_Identified: 4.47
-recovery_Total_Overpayment_Amount_Recovered: 4.25
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 11.2
+recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 0.33
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 8.38
+recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.01
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 96.96969697
+recovery_Total_Overpayment_Amount_Identified: 11.53
+recovery_Total_Overpayment_Amount_Recovered: 8.39
 ---

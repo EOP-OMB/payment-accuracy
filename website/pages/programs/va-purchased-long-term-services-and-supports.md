@@ -2,78 +2,6 @@
 Agency: VA
 Agency_Name: Department of Veterans Affairs
 Data_By_Year:
-- Agency_Needs_Satisfied: VA does not have additional program needs.
-  Confidence_Level: '>90%'
-  Corrective_Actions_Proportion: VA continues to prioritize and implement effective
-    corrective actions and mitigation strategies that reduce improper payments agency-wide
-    as evidenced by its third consecutive and largest year of reductions. Specifically,
-    from FY20 to FY21, the Purchased Long Term Services and Supports program decreased
-    its error rate from 95.34 percent to 72.80 percent (22.54% reduction) and improper
-    payments from $2,547.91 million to $1,895.26 million ($652.65 million reduction).
-    Due to PLTSS reporting over $100 million of overpayments/monetary loss in FY 2021,
-    PLTSS will begin reporting as a high priority program in FY 2022.
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  IP_Current_Year_Plus_1_Amount: 1340.2
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.6599974884
-  Improper_Payments_Rate: 54.47516401
-  Insufficient_Documentation_to_Determine: 477.02
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '6.97'
-  Non_Monetary_Loss_Amount: '1312.31'
-  Outlays: 2603.48
-  Outlays_Current_Year_Plus_1_Amount: 2707.48
-  Payment_Accuracy_Rate: 27.202436738519214
-  Program_Design_or_Structural_Issue: 1308.24
-  Start_Date: 10/2019
-  Technical_IP_Amount: '1308.24'
-  Unknown_Curent_Year_Plus_1_Amount: 446.73
-  Unknown_Payments_Rate: 18.3223992502343
-  Unknown_Why: VA had lacking or insufficient documentation to validate whether a
-    payment was proper or not.
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 47.673
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 105.94
-    Financial: 58.267
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '105.94'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.0'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 4.07
-    Financial: 4.07
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '4.07'
 - Agency_Needs_Satisfied: VA has not yet determined the tolerable rate. VA is working
     to determine all requirements for establishing a tolerable rate per Office of
     Management and Budget guidance before attempting to establish tolerable rates.  At
@@ -1024,7 +952,7 @@ Data_By_Year:
     payments. State and local governments are not involved in the execution of this
     program.'
   IP_Unknown_Target_Rate: 0.045
-  Improper_Payments_Rate: 4.114262951
+  Improper_Payments_Rate: 4.11426295
   Insufficient_Documentation_to_Determine: 45.84
   Margin_of_Error: '1.83'
   Non_Monetary_Loss_Amount: '224.5'
@@ -1099,6 +1027,255 @@ Data_By_Year:
     Failure_to_Access_Data: 1.82
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '1.82'
+- Agency_Needs_Satisfied: VA continues to demonstrate that it possesses the internal
+    controls, human capital, and advanced technological capabilities necessary to
+    effectively reduce improper and unknown payments. In FY 2026, this program is
+    reporting under the statutory threshold for significant improper payments and
+    will revert to fulfilling legislative requirements for risk no less than every
+    three years. Management will continue its responsibilities for internal control
+    outlined in the Government Accountability Office's Green Book.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: 'VA updates corrective action
+    plans annually based on testing results, and no less than quarterly, to ensure
+    actions are appropriately and formally prioritized and designed to mitigate the
+    causes of improper and unknown payments. VA monitors the progress and results
+    of the implementation throughout the reporting year to ensure corrective actions
+    remain on schedule and responsive to identified risks. Additionally, an effectiveness
+    review is performed annually to measure if an action reduced or is properly designed
+    to reduce improper and unknown payments for a specific root cause based on a set
+    benchmark. The annual effectiveness review process allows VA to create or update
+    actions as necessary to ensure continued progress in the remediation of improper
+    and unknown payments. If areas for improvement are identified, VA conducts a root
+    cause analysis to refine the program’s mitigation strategies to ensure they addressed
+    and reduced root causes of error.
+
+
+    VA conducted a corrective action plan effectiveness review of the program’s FY
+    2024 corrective action plan using FY 2025 test results. The review concluded that
+    the overall FY 2024 corrective action plan was effective. The overall error rate
+    decreased from 13.52% to 4.74% in FY 2025, reducing improper and unknown payments
+    by $412.79 million, and the program exceeded its intended benchmarks. The program
+    continued to make significant corrective action progress in FY 2025, which resulted
+    in a $313.89 million decrease or 4.35% despite a $1,257.11 million increase in
+    spending.
+
+
+    The Purchased Long Term Services and Supports program’s contracting‑resolution
+    corrective action strengthened compliance by promoting proper contracting methods
+    and establishing Veterans Care Agreements, which helped reduce improper payments
+    resulting from missing or noncompliant contracts and agreements. As a result of
+    this corrective action, related errors decreased from $222.57 million in FY 2025
+    to $8.50 million in FY 2026. This reduction provides evidence of the effective
+    implementation of the contract compliance notification corrective actions.'
+  Corrective_Actions_Appropriateness: "Audit actions taken included conducting post-payment\
+    \ reviews to proactively identify errors in the implemented system change to prevent\
+    \ future improper payments. These corrective actions help identify overpayments\
+    \ and underpayments and enable a timely follow-up process. These actions were\
+    \ completed on August 13, 2025. Audit activities also occurred in FY 2025 contributing\
+    \ to a reduction of $3.73 million in improper and unknown payments between FY\
+    \ 2025 and FY 2026. \n\nChange process actions taken included continuing to clarify\
+    \ payment methodology with third-party administrators to bill at the correct rates\
+    \ and ensuring timely submission of claims. VA also transitioned indefinite delivery\
+    \ contracts or established Veterans Care Agreements to utilize patient driven\
+    \ payment model rates as required by Centers for Medicare and Medicaid Services.\
+    \ Additionally, VA worked with medical center staff to ensure proper documentation\
+    \ was maintained to support payment accuracy and ensure clean claim requirements\
+    \ were adhered to. In addition, VA network contracting offices established Veterans\
+    \ Care Agreements and ensured compliant contracting methods were used to process\
+    \ claims. These corrective actions strengthened internal controls and mitigated\
+    \ risks within existing processes. These actions were completed on May 22, 2026.\
+    \ Change process activities also occurred in FY 2025 contributing to a reduction\
+    \ of $318.65 million in improper and unknown payments between FY 2025 and FY 2026.\
+    \ \n\nThe corrective actions implemented in prior years have demonstrably strengthened\
+    \ the program’s controls and produced sustained, measurable improvements. As a\
+    \ result, Purchased Long Term Services and Supports is now reporting below the\
+    \ statutory threshold for significant improper payments and will revert to fulfilling\
+    \ legislative requirements for risk no less than every three years."
+  Corrective_Actions_Proportion: 'The corrective action plan executed in FY 2026 was
+    designed to address root causes identified in FY 2025 testing. While all error
+    causes were included, VA prioritized those associated with monetary loss and developed
+    corrective actions proportional to the severity of those causes. In FY 2025 testing,
+    48.28% of monetary loss transactions occurred because claims were not received
+    within the required timeframes, which resulted in $37.21 million in projected
+    monetary losses. The remaining 46.45% of overpayments occurred because the payment
+    was certified without verifying that the payment was made in accordance with the
+    contract rate, which resulted in $35.80 million in projected monetary losses.
+    These errors received an intentional focus in the FY 2026 corrective action plan.
+    VA implemented corrective actions such as change process to prevent untimely payments
+    as well as payments not in accordance with the contract rate, which resulted in
+    a $65.12 million reduction in monetary losses related to these errors.
+
+
+    In FY 2025 testing, 100% of underpayment transactions occurred because an incorrect
+    amount to pay was returned by the payment system used to process the claim, which
+    resulted in $1.82 million in projected underpayments.
+
+
+    In FY 2025 testing, 68.79% of unknown payments occurred when VA had missing or
+    insufficient documentation related to authorization or claim documentation, which
+    resulted in $31.53 million in projected unknown payments. The remaining 31.21%
+    of unknown payments occurred when VA had missing or insufficient documentation
+    related to claim documentation, which resulted in $14.30 million in projected
+    unknown payments. VA implemented change process corrective actions to ensure proper
+    documentation was maintained and to ensure clean claim requirements were adhered
+    to, resulting in a $26.23 million reduction in related errors in FY 2026 testing.
+
+
+    In FY 2025 testing, 100% of technically improper payments occurred because purchases
+    were made without a contract or agreement as required, which resulted in $210.38
+    million in projected technically improper payments. VA implemented change process
+    corrective actions, working internally with network contracting offices to ensure
+    compliant contracting methods were used to process claims, and established Veterans
+    Care Agreements, which resulted in a $3.68 million reduction in technically improper
+    payments related to these errors.'
+  End_Date: 09/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: true
+  Hide_Program_Results_Future_Outlook_Baseline_Table: true
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: "The Senior Accountable Official for the Purchased\
+    \ Long Term Services and Supports program, the Deputy Executive Director for Geriatrics\
+    \ and Extended Care, is responsible for compliance with the Payment Integrity\
+    \ Information Act of 2019, accountable for reducing improper and unknown payments,\
+    \ and completing required activities timely. The Senior Accountable Official and\
+    \ other VA executive managers must establish and maintain internal controls in\
+    \ accordance with Federal standards outlined by the Government Accountability\
+    \ Office in the Standards for Internal Control in the Federal Government. \n\n\
+    VA has an established process to recover overpayments. For VHA, after conducting\
+    \ payment integrity reviews and recovery audits to identify overpayments, they\
+    \ are tracked in a monetary loss and collections database. The overpayments are\
+    \ sent to the Financial Services Center to be processed, and a bill of collection\
+    \ is established. Once recovered, the database is updated for collection status.\
+    \ \n\nVA has roughly 430,000 employees and does not standardize position titles\
+    \ or performance metrics for establishing and maintaining internal controls or\
+    \ identifying and recovering overpayments. Payment integrity functions are dispersed\
+    \ geographically across the continental United States as well as outside the Continental\
+    \ United States and extend well beyond VA’s finance employees. For example, Contracting\
+    \ Officer Representatives responsible for validating invoices match contract prices\
+    \ are found throughout VA offices and programs, with many performing these functions\
+    \ as other duties as assigned.\n\nVA actively monitors the progress programs made\
+    \ in improving payment integrity as required by VA Financial Policy. Specifically,\
+    \ the Purchased Long Term Services and Supports program's corrective action plan\
+    \ drives the improvement of existing or implementation of new internal controls\
+    \ necessary to address the true root causes of errors found in payment integrity\
+    \ testing. Through the description of root causes, monitoring of milestones and\
+    \ tasks, and measurement against set benchmarks, the Senior Accountable Official\
+    \ is held accountable for reducing improper and unknown payments via effective\
+    \ corrective actions. VA reviews corrective actions for effectiveness both informally\
+    \ by discussing testing results and corrective actions in regularly scheduled\
+    \ meetings with programs executive managers and/or staff as well as formal effectiveness\
+    \ reviews in accordance with VA Financial Policy. In July 2026, the Government\
+    \ Accountability Office evaluated VA’s process of evaluating effectiveness using\
+    \ established benchmarks and found no deficiencies or areas of improvement. These\
+    \ measures ensure that payment integrity remains a visible and prioritized responsibility\
+    \ among management and staff throughout the agency. \n\nState and local governments\
+    \ do not participate in the execution of this program."
+  IP_Unknown_Target_Rate: 0
+  Improper_Payments_Rate: 0.16082262930000002
+  Insufficient_Documentation_to_Determine: 19.61
+  Margin_of_Error: '0.49'
+  Non_Monetary_Loss_Amount: '10.65'
+  Outlays: 8587.1
+  Overpayment_Combined_Mitigations_Taken: '[atp4]Change Process, [atp6]Audit'
+  Payment_Accuracy_Rate: 99.61081156618648
+  Program_Additional_Information: '
+
+    The Purchased Long Term Services and Supports program achieved an improper and
+    unknown payment rate under the statutory threshold for significant improper and
+    unknown payments of both 1.5% and amount over $10 million established by the Payment
+    Integrity Information Act of 2019. Specifically, from FY 2025 to FY 2026, the
+    Purchased Long Term Services and Supports program decreased its improper and unknown
+    error rate from 4.74% to 0.39%, which was a $313.89 million decrease or 4.35%
+    despite a $1,257.11 million increase in spending. At this time, VA is reporting
+    under the statutory thresholds established for payment integrity and the Purchased
+    Long Term Services and Supports program will revert to fulfilling legislative
+    requirements for risk assessments no less than every three years. Management will
+    also continue its responsibilities for internal controls outlined in the Government
+    Accountability Office''s Green Book.
+
+
+    The Office of Inspector General completed its review of the FY 2025 reporting
+    for the Purchased Long Term Services and Supports program and determined that
+    the program met all Payment Integrity Information Act of 2019 requirements. The
+    review confirmed that the program reported information as required in the Agency
+    Financial Report and paymentaccuracy.gov, published statistically valid projections
+    of improper and unknown payments, published a corrective action plan and reported
+    an improper and unknown payment rate of less than 10 percent.'
+  Program_Design_or_Structural_Issue: 8.5
+  Resources_Requested_For_IP: VA has not requested additional resources in the most
+    recent budget submission to establish and maintain internal controls to reduce
+    improper payments and unknown payments. At this time, VA is reporting under the
+    statutory threshold for significant improper payments for this program and will
+    revert to fulfilling legislative requirements for risk no less than every three
+    years. Management will continue its responsibilities for internal control outlined
+    in the Government Accountability Office's Green Book.
+  Start_Date: 10/2024
+  Technical_IP_Actions_Taken: '[atp4]Change Process'
+  Technical_IP_Amount: '8.5'
+  Underpayment_Mitigations_Taken: '[atp6]Audit'
+  Unknown_Mitigations_Taken: '[atp4]Change Process'
+  Unknown_Payments_Rate: 0.22836580452073457
+  Year: 2026
+  detail_IP_Causes: 'Overpayments occurred when the program failed to access the data/information
+    needed to validate that a payment was made in accordance with the contract rate.
+
+
+    Underpayments occurred when the program failed to access the data/information
+    needed to validate that a correct amount to pay was returned by the payment system
+    used to process the claim.
+
+
+    Unknown payments were attributed to missing or insufficient documentation required
+    to validate whether a payment was proper or improper related to claim documentation.
+    Specifically, health care providers submitted missing or insufficient documentation
+    that did not meet clean claim requirements. Without documentation supporting the
+    appropriate claim information, the program is unable to determine whether the
+    amount paid is proper or improper. Due to insufficient documentation, VA categorized
+    the payments as unknown.
+
+
+    Technically improper payments occurred when the payment was paid to the right
+    person in the right amount but failed to meet all regulatory and/or statutory
+    requirements. Specifically, purchases were made without a contract or agreement,
+    as required.'
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '3.16'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '0.0'
+  eligibility_aggregated:
+  - Theme: Contractor or Provider Status
+    Theme_Description: "Status or standing of contractor or provider, including recipient\
+      \ eligibility to \r\nprovide medical services"
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 3.16
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '3.16'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 2.15
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '2.15'
 Description: The Purchased Long Term Services and Supports (PLTSS) program is organizationally
   aligned under the VHA Geriatrics and Extended Care (GEC) Office that strives to
   advance quality care for aging and chronically ill Veterans by providing policy
@@ -1108,72 +1285,72 @@ Description: The Purchased Long Term Services and Supports (PLTSS) program is or
   contract rate, claims not received within the required timeframe, or billed services
   that exceeded the authorized care. There are no known financial, contractor or provider
   status related barriers prohibiting improving prevention of improper payments.
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[105.94, 61.84, 318.46, 218.3, 77.08]'
-Payment_Accuracy_Amounts: '[708.2099999999998, 1423.6199999999994, 2244.2799999999997,
-  4860.5599999999995, 6982.69]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[61.84, 318.46, 218.3, 77.08, 3.16]'
+Payment_Accuracy_Amounts: '[1423.6199999999994, 2244.2799999999997, 4860.5599999999995,
+  6982.69, 8553.68]'
 Phase_2_Program: 0
 Program_Name: Purchased Long Term Services and Supports
 Scorecard_Links:
-- Link: assets/scorecards/Q4 2018/Purchased-Long-Term-Services-and-Support-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
-  QuarterYear: Q4 2018
-- Link: assets/scorecards/Q2 2019/Purchased Long Term Services and Support Getting
-    Payments Right Scorecard FY 2019 Q2.pdf
-  QuarterYear: Q2 2019
-- Link: assets/scorecards/Q3 2019/Purchased Long Term Services and Support Getting
-    Payments Right Scorecard FY 2019 Q3.pdf
-  QuarterYear: Q3 2019
-- Link: assets/scorecards/Q4 2019/Purchased Long Term Services and Support Getting
-    Payments Right Scorecard FY 2019 Q4.pdf
-  QuarterYear: Q4 2019
-- Link: assets/scorecards/Q1 2020/Purchased Long Term Services and Support Getting
-    Payments Right Scorecard FY 2020 Q1.png
-  QuarterYear: Q1 2020
-- Link: assets/scorecards/Q3 2020/Purchased Long Term Services and Support Getting
-    Payments Right Scorecard FY 2020 Q3.png
-  QuarterYear: Q3 2020
-- Link: assets/scorecards/Q4 2020/Purchased Long Term Services and Support Getting
-    Payments Right Scorecard FY 2020 Q4.png
-  QuarterYear: Q4 2020
-- Link: assets/scorecards/Q1 2021/Purchased Long Term Services and Support Payments
-    Integrity Scorecard FY 2021 Q1.pdf
-  QuarterYear: Q1 2021
-- Link: assets/scorecards/Q1 2022/Purchased Long Term Services and Supports Payments
-    Integrity Scorecard FY 2022 Q1.pdf
-  QuarterYear: Q1 2022
-- Link: assets/scorecards/Q2 2022/Purchased Long Term Services and Supports Payments
-    Integrity Scorecard FY 2022 Q2.pdf
-  QuarterYear: Q2 2022
-- Link: assets/scorecards/Q3 2022/Purchased Long Term Services and Supports Payments
-    Integrity Scorecard FY 2022 Q3.pdf
-  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q4 2025/Purchased Long Term Services and Supports.pdf
+  QuarterYear: Q4 2025
+- Link: assets/scorecards/Q3 2025/Purchased Long Term Services and Supports.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q2 2025/Purchased Long Term Services and Supports.pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q1 2025/Purchased Long Term Services and Supports.pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q4 2024/Purchased Long Term Services and Supports.pdf
+  QuarterYear: Q4 2024
+- Link: assets/scorecards/Q3 2024/Purchased Long Term Services and Supports.pdf
+  QuarterYear: Q3 2024
+- Link: assets/scorecards/Q2 2024/Puchased Long Term Services and Supports.pdf
+  QuarterYear: Q2 2024
+- Link: assets/scorecards/Q1 2024/Purchased Long Term Services and Supports.pdf
+  QuarterYear: Q1 2024
 - Link: assets/scorecards/Q4 2022/Purchased Long Term Services and Supports Payments
     Integrity Scorecard FY 2022 Q4.pdf
   QuarterYear: Q4 2022
-- Link: assets/scorecards/Q1 2024/Purchased Long Term Services and Supports.pdf
-  QuarterYear: Q1 2024
-- Link: assets/scorecards/Q2 2024/Puchased Long Term Services and Supports.pdf
-  QuarterYear: Q2 2024
-- Link: assets/scorecards/Q3 2024/Purchased Long Term Services and Supports.pdf
-  QuarterYear: Q3 2024
-- Link: assets/scorecards/Q4 2024/Purchased Long Term Services and Supports.pdf
-  QuarterYear: Q4 2024
-- Link: assets/scorecards/Q1 2025/Purchased Long Term Services and Supports.pdf
-  QuarterYear: Q1 2025
-- Link: assets/scorecards/Q2 2025/Purchased Long Term Services and Supports.pdf
-  QuarterYear: Q2 2025
-- Link: assets/scorecards/Q3 2025/Purchased Long Term Services and Supports.pdf
-  QuarterYear: Q3 2025
-- Link: assets/scorecards/Q4 2025/Purchased Long Term Services and Supports.pdf
-  QuarterYear: Q4 2025
-Technically_Improper_Amounts: '[1308.24, 1048.38, 1044.65, 432.46, 222.68]'
-Underpayment_Amounts: '[4.07, 0.26, 0.57, 6.41, 1.82]'
-Unknown_Amounts: '[477.02, 175, 54.31, 102.93, 45.84]'
+- Link: assets/scorecards/Q3 2022/Purchased Long Term Services and Supports Payments
+    Integrity Scorecard FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q2 2022/Purchased Long Term Services and Supports Payments
+    Integrity Scorecard FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q1 2022/Purchased Long Term Services and Supports Payments
+    Integrity Scorecard FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q1 2021/Purchased Long Term Services and Support Payments
+    Integrity Scorecard FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q4 2020/Purchased Long Term Services and Support Getting
+    Payments Right Scorecard FY 2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q3 2020/Purchased Long Term Services and Support Getting
+    Payments Right Scorecard FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q1 2020/Purchased Long Term Services and Support Getting
+    Payments Right Scorecard FY 2020 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q4 2019/Purchased Long Term Services and Support Getting
+    Payments Right Scorecard FY 2019 Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q3 2019/Purchased Long Term Services and Support Getting
+    Payments Right Scorecard FY 2019 Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q2 2019/Purchased Long Term Services and Support Getting
+    Payments Right Scorecard FY 2019 Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q4 2018/Purchased-Long-Term-Services-and-Support-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
+Technically_Improper_Amounts: '[1048.38, 1044.65, 432.46, 222.68, 8.5]'
+Underpayment_Amounts: '[0.26, 0.57, 6.41, 1.82, 2.15]'
+Unknown_Amounts: '[175, 54.31, 102.93, 45.84, 19.61]'
 layout: program-specific
 permalink: program/va-purchased-long-term-services-and-supports
 ---

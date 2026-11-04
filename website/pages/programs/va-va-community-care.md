@@ -2,82 +2,6 @@
 Agency: VA
 Agency_Name: Department of Veterans Affairs
 Data_By_Year:
-- Agency_Needs_Satisfied: VA does not have additional program needs.
-  Confidence_Level: '>90%'
-  Corrective_Actions_Proportion: VA continues to prioritize and implement effective
-    corrective actions and mitigation strategies that reduce improper payments agency-wide
-    as evidenced by its third consecutive and largest year of reductions. Specifically,
-    from FY20 to FY21, the VA Community Care program decreased its error rate from
-    78.51 percent to 16.06 percent (62.45% reduction) and improper payments from $7,476.55
-    million to $2,274.69 million ($5,201.86 million reduction). Due to VA Community
-    Care reporting over $100 million of overpayments/monetary loss in FY2020, the
-    program was required by Office of Management and Budget to report quarterly on
-    activities and accomplishments that reduce monetary loss. Those activities and
-    accomplishments can be found at PaymentAccuracy.gov. VA Community Care has remained
-    committed to actions that reduce monetary loss and continues to tailor corrective
-    actions to reduce improper payments.
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  IP_Current_Year_Plus_1_Amount: 2476.93
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.1499994247
-  Improper_Payments_Rate: 14.83446326
-  Insufficient_Documentation_to_Determine: 173.0
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '3.38'
-  Non_Monetary_Loss_Amount: '712.14'
-  Outlays: 14167.55
-  Outlays_Current_Year_Plus_1_Amount: 17382
-  Payment_Accuracy_Rate: 83.94443640573
-  Program_Design_or_Structural_Issue: 527.2
-  Start_Date: 10/2019
-  Technical_IP_Amount: '527.2'
-  Unknown_Curent_Year_Plus_1_Amount: 130.36
-  Unknown_Payments_Rate: 1.2211003313911015
-  Unknown_Why: VA had lacking or insufficient documentation to validate whether a
-    payment was proper or not.
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 958.7826
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 1389.54
-    Financial: 389.0712
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '1389.54'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.0'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 184.94
-    Financial: 184.94
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '184.94'
 - Agency_Needs_Satisfied: VA has not yet determined the tolerable rate. VA is working
     to determine all requirements for establishing a tolerable rate per Office of
     Management and Budget guidance before attempting to establish tolerable rates.  At
@@ -870,7 +794,7 @@ Data_By_Year:
     efforts for known causes of improper and unknown payments. State and local governments
     are not involved in the execution of this program.
   IP_Unknown_Target_Rate: 0.0225
-  Improper_Payments_Rate: 2.2303332235999997
+  Improper_Payments_Rate: 2.2303332200000003
   Insufficient_Documentation_to_Determine: 40.19
   Margin_of_Error: '1.26'
   Non_Monetary_Loss_Amount: '15.34'
@@ -939,6 +863,254 @@ Data_By_Year:
     Failure_to_Access_Data: 15.34
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '15.34'
+- Agency_Needs_Satisfied: VA is committed to process improvements that ensure payments
+    for contracted services for Veterans are accurate, timely, and aligned with contract
+    requirements through effective implementation of corrective actions and oversight.
+    VA continues to demonstrate that it possesses the internal controls, human capital,
+    and advanced technological capabilities necessary to effectively reduce improper
+    and unknown payments. In FY 2026, VA reduced improper and unknown payments in
+    the VA Community Care program by $321.16 million or 1.37% percent. VA has the
+    systems and infrastructure to support enforcement of third-party administrator
+    contract langauge and remediation of contract‑related payment errors, helping
+    reduce improper and unknown payments.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: 'VA updates corrective action
+    plans annually based on testing results, and no less than quarterly, to ensure
+    actions are appropriately and formally prioritized and designed to mitigate the
+    causes of improper and unknown payments. VA monitors the progress and results
+    of the implementation throughout the reporting year to ensure corrective actions
+    remain on schedule and responsive to identified risks. Additionally, an effectiveness
+    review is performed annually to measure if an action reduced or is properly designed
+    to reduce improper and unknown payments for a specific root cause based on a set
+    benchmark. The annual effectiveness review process allows VA to create or update
+    actions as necessary to ensure continued progress in the remediation of improper
+    and unknown payments. If areas for improvement are identified, VA conducts a root
+    cause analysis to refine the program’s mitigation strategies to ensure they addressed
+    and reduced root causes of error.
+
+
+    VA conducted a corrective action plan effectiveness review of the program’s FY
+    2024 corrective action plan using FY 2025 test results. The review concluded that
+    the overall FY 2024 corrective action plan was mostly effective. Although errors
+    where the claim was submitted untimely were remediated, the overall error rate
+    increased from 1.90% to 2.39% in FY 2025, the program did not meet its intended
+    benchmarks, and errors where the claim was paid in an amount exceeding the contract
+    rate increased. The program continued to make significant corrective action progress
+    in FY 2025, which resulted in a $321.16 million or 1.37% decrease despite a $2,646.69
+    million increase in spending.
+
+
+    The VA Community Care program''s corrective action to enforce contract requirements
+    with third-party administrators helps reduce improper payments caused by payment
+    discrepancies. As a result of this corrective action, related errors decreased
+    from $363.26 million in FY 2025 to $81.00 million in FY 2026. This reduction provides
+    evidence of the effective implementation of the third-party administrator contract
+    enforcement corrective actions.'
+  Corrective_Actions_Appropriateness: "Audit actions taken included VA conducting\
+    \ post-payment reviews to identify errors in automated adjudication logic to prevent\
+    \ future improper payments. These corrective actions helped identify overpayments\
+    \ and underpayments and enabled a timely follow-up process. These actions were\
+    \ completed on October 15, 2025. Audit activities also occurred in FY 2025 contributing\
+    \ to a reduction of $5.57 million in improper and unknown payments between FY\
+    \ 2025 and FY 2026.\n\nAutomation actions taken included VA issuing additional\
+    \ payments for end-stage renal disease claim when payment systems were not configured\
+    \ to apply the appropriate adjustment using the prospective payment system calculations.\
+    \ These corrective actions helped identify overpayments and underpayments and\
+    \ enabled a timely follow-up process. These actions were completed on October\
+    \ 31, 2025.\n\nChange process actions taken included ensuring contract language\
+    \ was clear and clarifying any instances of inconsistent payment methodology when\
+    \ third-party administrators billed at incorrect rates, did not follow clean claim\
+    \ requirements, or when providers did not meet the requirements for reimbursement.\
+    \ Additionally, VA entered into a contract modification to clarify the claims\
+    \ processing for standard episodes of care. These corrective actions strengthened\
+    \ internal controls and mitigated risks within existing processes. These actions\
+    \ were completed on March 1, 2026. Change process activities also occurred in\
+    \ FY 2025 contributing to a reduction of $139.68 million in improper and unknown\
+    \ payments between FY 2025 and FY 2026. \n\nTraining corrective actions taken\
+    \ included instructing facility staff on accurate data entry to prevent recurrence\
+    \ of the error that resulted in the claim not being paid per contract. These corrective\
+    \ actions help standardize operating procedures and promote consistent application\
+    \ of policy across all offices. These actions were completed on February 17, 2026.\n\
+    \nOutcomes of these corrective actions taken in prior years have been effective\
+    \ and the program continues to see reductions in improper and unknown payment\
+    \ testing results. In FY 2027, the program will evaluate the effectiveness and\
+    \ impact of these corrective actions and determine whether they successfully mitigated\
+    \ the identified root causes.\n\nChange process actions planned include engaging\
+    \ the third-party administrator on why claims are being paid without proper authorization\
+    \ on file. Additionally, VA is enforcing contract requirements for third-party\
+    \ administrators to bill at the correct allowable rates and resolve payment discrepancies.\
+    \ These corrective actions strengthen internal controls and mitigate risks within\
+    \ existing processes. The estimated completion date is January 31, 2027."
+  Corrective_Actions_Proportion: 'The corrective action plan executed in FY 2026 was
+    designed to address root causes identified in FY 2025 testing. While all error
+    causes were included, VA prioritized those associated with monetary loss and developed
+    corrective actions proportional to the severity of those causes. In FY 2025 testing,
+    65.79% of monetary loss transactions occurred because claims were not paid in
+    accordance with the contract rate, which resulted in $363.26 million in projected
+    monetary losses. The remaining 34.21% of overpayments occurred due to various
+    errors including, incorrect amounts returned by the payment system used to process
+    the claims, ineligible health care providers, and billed services not being within
+    the authorized care. These errors received an intentional focus in the FY 2026
+    corrective action plan. VA implemented corrective actions such as audit, change
+    process, and training to prevent ineligible payments and payments exceeding the
+    contract rate or terms, which resulted in a $471.15 million reduction in monetary
+    losses related to these errors.
+
+
+    In FY 2025 testing, 100% of underpayment transactions occurred because an incorrect
+    amount to pay was returned by the payment system used to process the claim, which
+    resulted in $15.34 million in projected underpayments. VA implemented corrective
+    actions such as audit to prevent incorrect payment calculations, which resulted
+    in a $15.27 million reduction in underpayments related to these errors.
+
+
+    In FY 2025 testing, 100% of unknown payments occurred when VA had missing or insufficient
+    documentation related to claim documentation, which resulted in $40.19 million
+    in projected unknown payments.
+
+
+    The program did not have any technically improper payments identified in FY 2025
+    testing or addressed in the FY 2026 corrective action plan.'
+  End_Date: 09/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: "The Senior Accountable Official for the VA Community\
+    \ Care program, which transitioned from the Acting Deputy Assistant Under Secretary\
+    \ for Health to the Executive Director of Payment Operations in August 2026, is\
+    \ responsible for compliance with the Payment Integrity Information Act of 2019,\
+    \ accountable for reducing improper and unknown payments, and completing required\
+    \ activities timely. The Senior Accountable Official and other VA executive managers\
+    \ must establish and maintain internal controls in accordance with Federal standards\
+    \ outlined by the Government Accountability Office in the Standards for Internal\
+    \ Control in the Federal Government. \n\nVA has an established process to recover\
+    \ overpayments. For VHA, after conducting payment integrity reviews and recovery\
+    \ audits to identify overpayments, they are tracked in a monetary loss and collections\
+    \ database. The overpayments are sent to the Financial Services Center to be processed,\
+    \ and a bill of collection is established. Once recovered, the database is updated\
+    \ for collection status. \n\nVA has roughly 430,000 employees and does not standardize\
+    \ position titles or performance metrics for establishing and maintaining internal\
+    \ controls or identifying and recovering overpayments. Payment integrity functions\
+    \ are dispersed geographically across the continental United States as well as\
+    \ outside the Continental United States and extend well beyond VA’s finance employees.\
+    \ For example, Contracting Officer Representatives responsible for validating\
+    \ invoices match contract prices are found throughout VA offices and programs,\
+    \ with many performing these functions as other duties as assigned.\n\nVA actively\
+    \ monitors the progress programs made in improving payment integrity as required\
+    \ by VA Financial Policy. Specifically, the VA Community Care program's corrective\
+    \ action plan drives the improvement of existing or implementation of new internal\
+    \ controls necessary to address the true root causes of errors found in payment\
+    \ integrity testing. Through the description of root causes, monitoring of milestones\
+    \ and tasks, and measurement against set benchmarks, the Senior Accountable Official\
+    \ is held accountable for reducing improper and unknown payments via effective\
+    \ corrective actions. VA reviews corrective actions for effectiveness both informally\
+    \ by discussing testing results and corrective actions in regularly scheduled\
+    \ meetings with programs executive managers and/or staff as well as formal effectiveness\
+    \ reviews in accordance with VA Financial Policy. In July 2026, the Government\
+    \ Accountability Office evaluated VA’s process of evaluating effectiveness using\
+    \ established benchmarks and found no deficiencies or areas of improvement. These\
+    \ measures ensure that payment integrity remains a visible and prioritized responsibility\
+    \ among management and staff throughout the agency. \n\nState and local governments\
+    \ do not participate in the execution of this program."
+  IP_Unknown_Target_Rate: 0.01
+  Improper_Payments_Rate: 0.7400625184999999
+  Insufficient_Documentation_to_Determine: 78.62
+  Margin_of_Error: '1.01'
+  Non_Monetary_Loss_Amount: '0.07'
+  Outlays: 28090.87
+  Overpayment_Combined_Mitigations_Planned: '[app4]Change Process'
+  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp4]Change Process, [atp6]Audit'
+  Payment_Accuracy_Rate: 98.98006006933925
+  Program_Additional_Information: 'The VA Community Care program continues to prioritize
+    and implement corrective actions and mitigation strategies that reduce improper
+    and unknown payments. From FY 2025 to FY 2026, VA Community Care reduced its improper
+    and unknown payment error rate from 2.39% to 1.02%, a reduction of 1.37%.
+
+
+    The Office of Inspector General completed its review of the FY 2025 reporting
+    for the VA Community Care program and determined that the program met all Payment
+    Integrity Information Act of 2019 requirements. The review confirmed that the
+    program reported information as required in the Agency Financial Report and paymentaccuracy.gov,
+    published statistically valid projections of improper and unknown payments, published
+    a corrective action plan and reported an improper and unknown payment rate of
+    less than 10 percent.'
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: At this time, VA is not aware of additional program
+    needs. VA has not requested additional resources in the most recent budget submission
+    to establish and maintain internal controls to reduce improper payments and unknown
+    payments. VA continues to develop and implement corrective actions to reduce improper
+    and unknown payments and has not identified a tolerable rate for this program;
+    however, current resources are sufficient to continue implementation of corrective
+    actions.
+  Start_Date: 10/2024
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp6]Audit'
+  Unknown_Mitigations_Planned: '[app4]Change Process'
+  Unknown_Mitigations_Taken: '[atp4]Change Process'
+  Unknown_Payments_Rate: 0.2798774121271431
+  Year: 2026
+  detail_IP_Causes: 'Overpayments occurred when the program failed to access the data/information
+    needed to validate that the payment amount was made in accordance with the contract
+    rate or that billed services were within the authorized care.
+
+
+    Underpayments occurred when the program failed to access the data/information
+    needed to validate that a correct amount to pay was returned by the payment system
+    used to process the claim.
+
+
+    Unknown payments were attributed to missing or insufficient documentation required
+    to validate whether a payment was proper or improper related to claim documentation.
+    Specifically, health care providers submitted documentation with missing or insufficient
+    information that did not meet clean claim requirements. Without documentation
+    supporting the appropriate claim information, the program is unable to determine
+    whether the amount paid is proper or improper. Due to insufficient documentation,
+    VA categorized the payments as unknown.
+
+
+    No technically improper payments were found during testing.'
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '207.82'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '1.0'
+  eligibility_aggregated:
+  - Theme: Contractor or Provider Status
+    Theme_Description: "Status or standing of contractor or provider, including recipient\
+      \ eligibility to \r\nprovide medical services"
+  - Theme: Financial
+    Theme_Description: The financial position or status of a beneficiary, recipient,
+      or their family
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 207.82
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '207.82'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 0.07
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '0.07'
 Description: The VA Community Care program allows VA to authorize Veteran care at
   non-VA health care facilities when the needed services are not available through
   the VA, or when the Veteran is unable to travel to a VA facility. The program was
@@ -948,91 +1120,91 @@ Description: The VA Community Care program allows VA to authorize Veteran care a
   timeframe, services lacking proper authorization, or amounts that did not align
   with the contracted rate. There are no known financial, contractor or provider status
   related barriers prohibiting improving the prevention of improper payments.
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[1389.54, 770.89, 954.17, 416.63, 552.15]'
-Payment_Accuracy_Amounts: '[11892.869999999997, 16018.87, 19160.200000000004, 21565.239999999998,
-  24836.5]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[770.89, 954.17, 416.63, 552.15, 207.82]'
+Payment_Accuracy_Amounts: '[16018.87, 19160.200000000004, 21565.239999999998, 24836.5,
+  27804.36]'
 Phase_2_Program: 0
 Program_Name: VA Community Care
 Scorecard_Links:
-- Link: assets/scorecards/Q4 2018/Community-Care-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
-  QuarterYear: Q4 2018
-- Link: assets/scorecards/Q2 2019/Community Care Getting Payments Right Scorecard
-    FY 2019 Q2.pdf
-  QuarterYear: Q2 2019
-- Link: assets/scorecards/Q3 2019/Community Care Getting Payments Right Scorecard
-    FY 2019 Q3.pdf
-  QuarterYear: Q3 2019
-- Link: assets/scorecards/Q4 2019/Community Care Getting Payments Right Scorecard
-    FY 2019 Q4.pdf
-  QuarterYear: Q4 2019
-- Link: assets/scorecards/Q1 2020/Community Care Getting Payments Right Scorecard
-    FY 2020 Q1.png
-  QuarterYear: Q1 2020
-- Link: assets/scorecards/Q3 2020/Community Care Getting Payments Right Scorecard
-    FY 2020 Q3.png
-  QuarterYear: Q3 2020
-- Link: assets/scorecards/Q4 2020/Community Care Getting Payments Right Scorecard
-    FY 2020 Q4.png
-  QuarterYear: Q4 2020
-- Link: assets/scorecards/Q1 2021/Community Care Payments Integrity Scorecard FY 2021
-    Q1.pdf
-  QuarterYear: Q1 2021
-- Link: assets/scorecards/Q2 2021/Community Care Payments Integrity Scorecard FY 2021
-    Q2.pdf
-  QuarterYear: Q2 2021
-- Link: assets/scorecards/Q3 2021/Community Care Payments Integrity Scorecard FY 2021
-    Q3.pdf
-  QuarterYear: Q3 2021
-- Link: assets/scorecards/Q4 2021/Community Care Payments Integrity Scorecard FY 2021
-    Q4.pdf
-  QuarterYear: Q4 2021
-- Link: assets/scorecards/Q1 2022/VA Community Care Payments Integrity Scorecard FY
-    2022 Q1.pdf
-  QuarterYear: Q1 2022
-- Link: assets/scorecards/Q2 2022/VA Community Care Payments Integrity Scorecard FY
-    2022 Q2.pdf
-  QuarterYear: Q2 2022
-- Link: assets/scorecards/Q3 2022/VA Community Care Payments Integrity Scorecard FY
-    2022 Q3.pdf
-  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q3 2026/VA Community Care.pdf
+  QuarterYear: Q3 2026
+- Link: assets/scorecards/Q2 2026/VA Community Care.pdf
+  QuarterYear: Q2 2026
+- Link: assets/scorecards/Q4 2025/VA Community Care.pdf
+  QuarterYear: Q4 2025
+- Link: assets/scorecards/Q3 2025/VA Community Care.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q2 2025/VA Community Care.pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q1 2025/VA Community Care.pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q4 2024/VA Community Care.pdf
+  QuarterYear: Q4 2024
+- Link: assets/scorecards/Q3 2024/VA Community Care.pdf
+  QuarterYear: Q3 2024
+- Link: assets/scorecards/Q2 2024/VA Community Care.pdf
+  QuarterYear: Q2 2024
+- Link: assets/scorecards/Q1 2024/VA Community Care.pdf
+  QuarterYear: Q1 2024
+- Link: assets/scorecards/Q4 2023/VA Community Care.pdf
+  QuarterYear: Q4 2023
+- Link: assets/scorecards/Q3 2023/VA Community Care.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q2 2023/VA Community Care.pdf
+  QuarterYear: Q2 2023
 - Link: assets/scorecards/Q4 2022/VA Community Care Payments Integrity Scorecard FY
     2022 Q4.pdf
   QuarterYear: Q4 2022
-- Link: assets/scorecards/Q2 2023/VA Community Care.pdf
-  QuarterYear: Q2 2023
-- Link: assets/scorecards/Q3 2023/VA Community Care.pdf
-  QuarterYear: Q3 2023
-- Link: assets/scorecards/Q4 2023/VA Community Care.pdf
-  QuarterYear: Q4 2023
-- Link: assets/scorecards/Q1 2024/VA Community Care.pdf
-  QuarterYear: Q1 2024
-- Link: assets/scorecards/Q2 2024/VA Community Care.pdf
-  QuarterYear: Q2 2024
-- Link: assets/scorecards/Q3 2024/VA Community Care.pdf
-  QuarterYear: Q3 2024
-- Link: assets/scorecards/Q4 2024/VA Community Care.pdf
-  QuarterYear: Q4 2024
-- Link: assets/scorecards/Q1 2025/VA Community Care.pdf
-  QuarterYear: Q1 2025
-- Link: assets/scorecards/Q2 2025/VA Community Care.pdf
-  QuarterYear: Q2 2025
-- Link: assets/scorecards/Q3 2025/VA Community Care.pdf
-  QuarterYear: Q3 2025
-- Link: assets/scorecards/Q4 2025/VA Community Care.pdf
-  QuarterYear: Q4 2025
-- Link: assets/scorecards/Q2 2026/VA Community Care.pdf
-  QuarterYear: Q2 2026
-- Link: assets/scorecards/Q3 2026/VA Community Care.pdf
-  QuarterYear: Q3 2026
-Technically_Improper_Amounts: '[527.2, 311.13, 0, 0, 0]'
-Underpayment_Amounts: '[184.94, 0.54, 5.36, 0, 15.34]'
-Unknown_Amounts: '[173, 280.57, 32.85, 0, 40.19]'
+- Link: assets/scorecards/Q3 2022/VA Community Care Payments Integrity Scorecard FY
+    2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q2 2022/VA Community Care Payments Integrity Scorecard FY
+    2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q1 2022/VA Community Care Payments Integrity Scorecard FY
+    2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q4 2021/Community Care Payments Integrity Scorecard FY 2021
+    Q4.pdf
+  QuarterYear: Q4 2021
+- Link: assets/scorecards/Q3 2021/Community Care Payments Integrity Scorecard FY 2021
+    Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q2 2021/Community Care Payments Integrity Scorecard FY 2021
+    Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q1 2021/Community Care Payments Integrity Scorecard FY 2021
+    Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q4 2020/Community Care Getting Payments Right Scorecard
+    FY 2020 Q4.png
+  QuarterYear: Q4 2020
+- Link: assets/scorecards/Q3 2020/Community Care Getting Payments Right Scorecard
+    FY 2020 Q3.png
+  QuarterYear: Q3 2020
+- Link: assets/scorecards/Q1 2020/Community Care Getting Payments Right Scorecard
+    FY 2020 Q1.png
+  QuarterYear: Q1 2020
+- Link: assets/scorecards/Q4 2019/Community Care Getting Payments Right Scorecard
+    FY 2019 Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q3 2019/Community Care Getting Payments Right Scorecard
+    FY 2019 Q3.pdf
+  QuarterYear: Q3 2019
+- Link: assets/scorecards/Q2 2019/Community Care Getting Payments Right Scorecard
+    FY 2019 Q2.pdf
+  QuarterYear: Q2 2019
+- Link: assets/scorecards/Q4 2018/Community-Care-Getting-Payments-Right-Score-Card-FY-2019-Q1.pdf
+  QuarterYear: Q4 2018
+Technically_Improper_Amounts: '[311.13, 0, 0, 0, 0]'
+Underpayment_Amounts: '[0.54, 5.36, 0, 15.34, 0.07]'
+Unknown_Amounts: '[280.57, 32.85, 0, 40.19, 78.62]'
 layout: program-specific
 permalink: program/va-va-community-care
 ---

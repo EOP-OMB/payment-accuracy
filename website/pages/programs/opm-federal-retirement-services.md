@@ -2,72 +2,6 @@
 Agency: OPM
 Agency_Name: Office of Personnel Management
 Data_By_Year:
-- Confidence_Level: '>90%'
-  Corrective_Actions_Proportion: Retirement Services consistently meets its acceptable
-    target rate and commitment to addressing improper payments.  This is a high priority
-    for the Retirement Services.
-  End_Date: 09/2021
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: true
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  IP_Current_Year_Plus_1_Amount: 313.62
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.0038256647
-  Improper_Payments_Rate: 0.38205812
-  Insufficient_Documentation_to_Determine: 10.86
-  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
-  Margin_of_Error: '0.0'
-  Non_Monetary_Loss_Amount: '91.53'
-  Outlays: 83707.16
-  Outlays_Current_Year_Plus_1_Amount: 84761.74
-  Payment_Accuracy_Rate: 99.60496808158345
-  Program_Design_or_Structural_Issue: 0.0
-  Start_Date: 10/2020
-  Technical_IP_Amount: '0.0'
-  Unknown_Curent_Year_Plus_1_Amount: 10.65
-  Unknown_Payments_Rate: 0.012973800568553514
-  Unknown_Why: Additional information is needed in order to determine if the recipient
-    is receiving the correct monthly benefit.
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 228.28
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '228.28'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.0'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 91.53
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '91.53'
 - Agency_Needs_Satisfied: Using the existing corrective actions, RS’s improper payment
     rate is 0.37 percent which is well below the OMB 10 percent threshold. Improper
     payments include both overpayments and underpayments. The improper payment rate
@@ -775,7 +709,7 @@ Data_By_Year:
     signs a memo statement that aware of the internal controls and meeting the requirements
     of the Federal Managers' Financial Integrity Act (FMFIA).
   IP_Unknown_Target_Rate: 0.0034
-  Improper_Payments_Rate: 0.3328135731
+  Improper_Payments_Rate: 0.33281357
   Insufficient_Documentation_to_Determine: 13.99
   Margin_of_Error: '0.41'
   Non_Monetary_Loss_Amount: '98.76'
@@ -829,6 +763,151 @@ Data_By_Year:
     Failure_to_Access_Data: 98.76
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '98.76'
+- Agency_Needs_Satisfied: Using the existing internal controls, human capital, and
+    information systems and other infrastructure RS was able to reduce the Improper
+    Payments and Unknown Payments to achieve the tolerable rate. The FY 2026 Improper
+    Payments and Unknown Payments rate is 0.33 percent. The improper payment rate
+    for overpayments is 0.33 percent.
+  Confidence_Level: 95% to <100%
+  Corrective_Actions_Adequacy_Association_Implementation: An upgrade to the current
+    legacy system is necessary to accurately categorize the root causes of improper
+    payments. RS is currently seeking additional funding to enhance process automation.
+    RS is unable to properly categorize $275.10 million in overpayments. However,
+    regular Quality Assurance audits help assess accuracy and identify any training
+    or systemic deficiencies. Delayed or absent reporting from an annuitant's family
+    or other sources can result in improper payments. The improper payment rate decreased
+    from FY 2025 to FY 2026, demonstrating the effectiveness of current corrective
+    actions.
+  Corrective_Actions_Appropriateness: 'RS acknowledges the occurrence of improper
+    payments; however, system limitations hinder the provision of detailed specificity.
+    OPM''s systems were not designed to analyze large data sets. Consequently, based
+    on OMB''s established root cause categories, only "failure to access data" is
+    applicable. Overpayments within the agency’s purview result from family members
+    or other sources failing to report an annuitant''s death. These overpayments are
+    deemed under the agency’s control because RS has access to the Do Not Pay file
+    but is unable to search Do Not Pay prior to each recurring payment. Nevertheless,
+    OPM engages in ongoing internal control activities, including surveys and data
+    matching, to reduce potential improper payments from these occurrences. OPM performed
+    the Consolidated Death Match(CDM) to identify discrepancies between the OPM annuity
+    roll and the Social Security Administration’s (SSA) pay system. This weekly match
+    helps identify annuitants reported deceased by the SSA, while the Validated Agency
+    Match System processes death information to terminate federal benefits and prevent
+    further improper payments. Collection actions are initiated for any discovered
+    overpayments.  Additionally, OPM utilizes the Treasury''s Do Not Pay Portal to
+    identify annuitants who should have been reported deceased.
+
+    OPM’s annuity calculations involve both automated and manual components, the latter
+    being susceptible to human error. Mistakes can arise from incorrect entries of
+    effective dates, salary rates, or tours of duty, all of which impact annuity calculations.
+    Identifying specific skill gaps and developing targeted training can enhance accuracy
+    and reduce improper payments.
+
+    RS plans to use Death Record Confidence Scoring Tool (DRCST). Which is an automated
+    process that matches data from the Death Master File with the Consolidated Death
+    Match. Furthermore, the Quality Assurance Group will maintain feedback through
+    monthly and quarterly reports, offering recommendations as needed. These reports
+    will include specific analyses to uncover trends that may not be immediately apparent,
+    allowing for informed resource decisions and ensuring compliance with policies
+    governing benefit determinations and payments. The Death Record Confidence Scoring
+    Tool (DRC Scoring Tool) is a product used to identify payments at risk of being
+    issued to a deceased payee. The DRC Scoring Tool converts information into a confidence
+    score based on the likelihood the individual is truly deceased. The Office of
+    Payment Integrity at the Department of Treasury then uses the confidence score
+    in combination with payment information within the customer’s dataset to identify
+    the records that have the greatest potential impact for at-risk dollars.'
+  Corrective_Actions_Proportion: An upgrade to the current legacy system is necessary
+    to accurately categorize the root causes of improper payments. RS is currently
+    seeking additional funding to enhance process automation. RS is unable to properly
+    categorize $275.10 million in overpayments. However, regular Quality Assurance
+    audits help assess accuracy and identify any training or systemic deficiencies.
+    Delayed or absent reporting from an annuitant's family or other sources can result
+    in improper payments. The improper payment rate decreased from FY 2025 to FY 2026,
+    demonstrating the effectiveness of current corrective actions.
+  End_Date: 09/2026
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: The Retirement Services Associate Director is accountable
+    for the improper payment rate. This criterion is an item included in the annual
+    performance appraisal. In addition, RS operation managers are held accountable
+    for achieving accuracy in the initial adjudication of claims. The Quality Assurance
+    audit results provide the accuracy rate.  Another step taken is the Annual Assurance
+    Statement and Management Controls. The Retirement Services Associate Director
+    signs a memo statement that she is aware of the internal controls and meeting
+    the requirements of the Federal Managers' Financial Integrity Act (FMFIA).
+  IP_Unknown_Target_Rate: 0.0032
+  Improper_Payments_Rate: 0.3285362562
+  Insufficient_Documentation_to_Determine: 6.61
+  Margin_of_Error: '0.21'
+  Non_Monetary_Loss_Amount: '102.52'
+  Outlays: 114940.13
+  Overpayment_Combined_Mitigations_Planned: '[app3]Training, [app6]Audit'
+  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp6]Audit'
+  Payment_Accuracy_Rate: 99.66571292376301
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: An upgrade to the current legacy system is essential
+    for properly categorizing the root causes of improper payments. RS leadership
+    is actively pursuing modernization initiatives to prevent such payments, collaborating
+    with OPM leadership to prioritize and secure funding. An IT Roadmap has been delivered,
+    with modernization costs assessed through FY 2028.
+  Start_Date: 10/2025
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: '[app3]Training, [app6]Audit'
+  Underpayment_Mitigations_Taken: '[atp3]Training, [atp6]Audit'
+  Unknown_Mitigations_Planned: '[app3]Training,[app6]Audit'
+  Unknown_Mitigations_Taken: '[atp3]Training,[atp6]Audit'
+  Unknown_Payments_Rate: 0.005750820013862869
+  Year: 2026
+  detail_IP_Causes: RS acknowledges the occurrence of improper payments; however,
+    system limitations hinder the provision of detailed specificity. OPM's systems
+    were not designed to analyze large data sets. Consequently, based on OMB's established
+    root cause categories, only "failure to access data" is applicable. Overpayments
+    within the agency’s purview result from family members or other sources failing
+    to report an annuitant's death. These overpayments are deemed under the agency’s
+    control because RS has access to the Do Not Pay file but is unable to search Do
+    Not Pay prior to each recurring payment. Nevertheless, OPM engages in ongoing
+    internal control activities, including surveys and data matching, to reduce potential
+    improper payments from these occurrences.
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '275.1'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '0.32'
+  eligibility_aggregated:
+  - Theme: Death
+    Theme_Description: Date of death of the recipient/beneficiary
+  - Theme: Education
+    Theme_Description: The education level or enrollment status of the recipient/beneficiary
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 275.1
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '275.1'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 102.52
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '102.52'
 Description: RS provides Federal employees, retirees and their families with benefits
   that offer choice, value, and quality to be a competitive employer. Eligible retirees
   and survivors generally receive recurring monthly benefits. The status of an annuitant
@@ -838,73 +917,73 @@ Description: RS provides Federal employees, retirees and their families with ben
   other sources. Delayed or the absence of reporting can result in improper payments.
   To mitigate improper payments, RS conducts various surveys and matches. An additional
   barrier is the legacy system doesn't provide the needed granularity for root cause.
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
 High_Priority_Program: 1
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Overpayment_Amounts: '[228.28, 244.68, 224.33, 243.7, 265.22]'
-Payment_Accuracy_Amounts: '[83376.49, 87560.98, 94940.53, 106534.18000000001, 108986.56]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Overpayment_Amounts: '[244.68, 224.33, 243.7, 265.22, 275.1]'
+Payment_Accuracy_Amounts: '[87560.98, 94940.53, 106534.18000000001, 108986.56, 114555.9]'
 Phase_2_Program: 0
 Program_Name: Federal Retirement Services
 Scorecard_Links:
-- Link: assets/scorecards/Q3 2019/Total Program Retirement Getting Payments Right
-    Scorecard FY 2019 Q3.pdf
-  QuarterYear: Q3 2019
-- Link: assets/scorecards/Q4 2019/Total Program Retirement Getting Payments Right
-    Scorecard FY 2019 Q4.pdf
-  QuarterYear: Q4 2019
-- Link: assets/scorecards/Q1 2021/Total Program Retirement Payments Integrity Scorecard
-    FY 2021 Q1.pdf
-  QuarterYear: Q1 2021
-- Link: assets/scorecards/Q2 2021/Total Program Retirement Payments Integrity Scorecard
-    FY 2021 Q2.pdf
-  QuarterYear: Q2 2021
-- Link: assets/scorecards/Q3 2021/Total Program Retirement Payments Integrity Scorecard
-    FY 2021 Q3.pdf
-  QuarterYear: Q3 2021
-- Link: assets/scorecards/Q1 2022/Federal Retirement Services Payments Integrity Scorecard
-    FY 2022 Q1.pdf
-  QuarterYear: Q1 2022
-- Link: assets/scorecards/Q2 2022/Federal Retirement Services Payments Integrity Scorecard
-    FY 2022 Q2.pdf
-  QuarterYear: Q2 2022
-- Link: assets/scorecards/Q3 2022/Federal Retirement Services Payments Integrity Scorecard
-    FY 2022 Q3.pdf
-  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q3 2026/Federal Retirement Services.pdf
+  QuarterYear: Q3 2026
+- Link: assets/scorecards/Q2 2026/Federal Retirement Services.pdf
+  QuarterYear: Q2 2026
+- Link: assets/scorecards/Q4 2025/Federal Retirement Services.pdf
+  QuarterYear: Q4 2025
+- Link: assets/scorecards/Q3 2025/Federal Retirement Services.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q2 2025/Federal Retirement Services.pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q1 2025/Federal Retirement Services.pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q4 2024/Federal Retirement Services.pdf
+  QuarterYear: Q4 2024
+- Link: assets/scorecards/Q3 2024/Federal Retirement Services.pdf
+  QuarterYear: Q3 2024
+- Link: assets/scorecards/Q2 2024/Federal Retirement Services.pdf
+  QuarterYear: Q2 2024
+- Link: assets/scorecards/Q1 2024/Federal Retirement Services.pdf
+  QuarterYear: Q1 2024
+- Link: assets/scorecards/Q4 2023/Federal Retirement Services.pdf
+  QuarterYear: Q4 2023
+- Link: assets/scorecards/Q3 2023/Federal Retirement Services.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q2 2023/Federal Retirement Services.pdf
+  QuarterYear: Q2 2023
 - Link: assets/scorecards/Q4 2022/Federal Retirement Services Payments Integrity Scorecard
     FY 2022 Q4.pdf
   QuarterYear: Q4 2022
-- Link: assets/scorecards/Q2 2023/Federal Retirement Services.pdf
-  QuarterYear: Q2 2023
-- Link: assets/scorecards/Q3 2023/Federal Retirement Services.pdf
-  QuarterYear: Q3 2023
-- Link: assets/scorecards/Q4 2023/Federal Retirement Services.pdf
-  QuarterYear: Q4 2023
-- Link: assets/scorecards/Q1 2024/Federal Retirement Services.pdf
-  QuarterYear: Q1 2024
-- Link: assets/scorecards/Q2 2024/Federal Retirement Services.pdf
-  QuarterYear: Q2 2024
-- Link: assets/scorecards/Q3 2024/Federal Retirement Services.pdf
-  QuarterYear: Q3 2024
-- Link: assets/scorecards/Q4 2024/Federal Retirement Services.pdf
-  QuarterYear: Q4 2024
-- Link: assets/scorecards/Q1 2025/Federal Retirement Services.pdf
-  QuarterYear: Q1 2025
-- Link: assets/scorecards/Q2 2025/Federal Retirement Services.pdf
-  QuarterYear: Q2 2025
-- Link: assets/scorecards/Q3 2025/Federal Retirement Services.pdf
-  QuarterYear: Q3 2025
-- Link: assets/scorecards/Q4 2025/Federal Retirement Services.pdf
-  QuarterYear: Q4 2025
-- Link: assets/scorecards/Q2 2026/Federal Retirement Services.pdf
-  QuarterYear: Q2 2026
-- Link: assets/scorecards/Q3 2026/Federal Retirement Services.pdf
-  QuarterYear: Q3 2026
+- Link: assets/scorecards/Q3 2022/Federal Retirement Services Payments Integrity Scorecard
+    FY 2022 Q3.pdf
+  QuarterYear: Q3 2022
+- Link: assets/scorecards/Q2 2022/Federal Retirement Services Payments Integrity Scorecard
+    FY 2022 Q2.pdf
+  QuarterYear: Q2 2022
+- Link: assets/scorecards/Q1 2022/Federal Retirement Services Payments Integrity Scorecard
+    FY 2022 Q1.pdf
+  QuarterYear: Q1 2022
+- Link: assets/scorecards/Q3 2021/Total Program Retirement Payments Integrity Scorecard
+    FY 2021 Q3.pdf
+  QuarterYear: Q3 2021
+- Link: assets/scorecards/Q2 2021/Total Program Retirement Payments Integrity Scorecard
+    FY 2021 Q2.pdf
+  QuarterYear: Q2 2021
+- Link: assets/scorecards/Q1 2021/Total Program Retirement Payments Integrity Scorecard
+    FY 2021 Q1.pdf
+  QuarterYear: Q1 2021
+- Link: assets/scorecards/Q4 2019/Total Program Retirement Getting Payments Right
+    Scorecard FY 2019 Q4.pdf
+  QuarterYear: Q4 2019
+- Link: assets/scorecards/Q3 2019/Total Program Retirement Getting Payments Right
+    Scorecard FY 2019 Q3.pdf
+  QuarterYear: Q3 2019
 Technically_Improper_Amounts: '[0, 0, 0, 0, 0]'
-Underpayment_Amounts: '[91.53, 81.13, 113.22, 93.75, 98.76]'
-Unknown_Amounts: '[10.86, 12.13, 23.5, 11.94, 13.99]'
+Underpayment_Amounts: '[81.13, 113.22, 93.75, 98.76, 102.52]'
+Unknown_Amounts: '[12.13, 23.5, 11.94, 13.99, 6.61]'
 layout: program-specific
 permalink: program/opm-federal-retirement-services
 ---

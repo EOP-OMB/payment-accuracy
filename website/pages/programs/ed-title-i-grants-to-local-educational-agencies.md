@@ -2,77 +2,6 @@
 Agency: ED
 Agency_Name: Department of Education
 Data_By_Year:
-- Agency_Needs_Satisfied: 'The Title I Grants to Local Educational Agencies program
-    has the internal controls, human capital, information systems and other infrastructure
-
-    the program needs to reduce improper payments.
-
-    '
-  Confidence_Level: '>85%'
-  Corrective_Actions_Proportion: The Department relies on its robust internal control
-    framework and continues to address gaps, strengthen internal control processes,
-    and align assessments with enterprise risk management. All of these efforts reflect
-    the Department’s commitment to demonstrating payment integrity and responsible
-    financial stewardship to the American taxpayer.
-  End_Date: 09/2020
-  Future_Outlook_Has_Baseline: 'No'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Within_Failure_to_Access_Data: true
-  Hide_Overpayments_Within_Inability_to_Access_Data: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: true
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Failure_to_Access_Data: true
-  Hide_Underpayments_Inability_to_Access_Data: true
-  Improper_Payments_Rate: 14.77384098
-  Insufficient_Documentation_to_Determine: 0.0
-  Is_Lowest_IP_And_Unknown_Rate: 'No'
-  Margin_of_Error: '2032.98'
-  Non_Monetary_Loss_Amount: '2202.94'
-  Outlays: 14917.38
-  Payment_Accuracy_Rate: 85.22615901720008
-  Program_Design_or_Structural_Issue: 2202.94
-  Start_Date: 10/2019
-  Technical_IP_Amount: '2202.94'
-  Unknown_Payments_Rate: 0
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '0.0'
-  overpayments_outside:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.93
-    Failure_to_Access_Data: 0.0
-    Financial: 0.93
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '0.93'
-  underpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: A baseline for a program is not considered established until
     the conclusion of a 24-month reporting period. The Title I, Part A Grants to Local
     Educational Agencies program concluded its second year of reporting in FY 2022.
@@ -281,16 +210,6 @@ Data_By_Year:
     Financial: 0.006227
     Inability_to_Access_Data: 0.0
     Overpayments_Outside_Control_Amount: '.006227'
-    Overpayments_Outside_Control_Why: The overpayments encountered are outside of
-      agency control due to the fact that the direct recipients of funds (State Education
-      Agencies or SEAs) acted as pass-through entities to their sub-grantees, who
-      were the ultimate recipients. As such, the Department processed the relevant
-      payments to the SEAs based on their internal controls and payment review process.  Furthermore,
-      these overpayments were due to rounding errors in most instances.   Additionally,
-      in certain cases where the Department did make the direct payment to the end
-      user, the documentation submitted was seemingly sufficient except for minor
-      rounding errors.  The small amounts involved would not usually justify expending
-      additional resources or time to have Department staff reperform the calculations.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -307,20 +226,20 @@ Data_By_Year:
       or their family
     Value: '0.000064'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023]'
-Overpayment_Amounts: '[0.93, 24.23, 0.006227]'
-Payment_Accuracy_Amounts: '[12713.509999999998, 9771.511409, 15932.323709]'
+Improper_Payments_Data_Years: '[2022, 2023]'
+Overpayment_Amounts: '[24.23, 0.006227]'
+Payment_Accuracy_Amounts: '[9771.511409, 15932.323709]'
 Phase_2_Program: 0
 Program_Name: Title I Grants to Local Educational Agencies
 Scorecard_Links: []
-Technically_Improper_Amounts: '[2202.94, 699.31, 0]'
-Underpayment_Amounts: '[0, 0.008591, 6.4e-05]'
-Unknown_Amounts: '[0, 4707.02, 0]'
+Technically_Improper_Amounts: '[699.31, 0]'
+Underpayment_Amounts: '[0.008591, 6.4e-05]'
+Unknown_Amounts: '[4707.02, 0]'
 fpi_link: https://fpi.omb.gov/program/84.010
 layout: program-specific
 permalink: program/ed-title-i-grants-to-local-educational-agencies

@@ -3,7 +3,7 @@ Agency: PCLOB
 Agency_Name: Privacy and Civil Liberties Oversight Board
 Confirmed_Fraud: 0.0
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -61,12 +61,12 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Mission Activities
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Operational Activities
     Slug: null
@@ -79,32 +79,32 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-- 2021
 detail_Additional_IP_Information: null
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: PCLOB's financial service provider, ARC, runs the DNP process
+detail_DNP_Discussion: PCLOB's financial service provider, CFM, runs the DNP process
   each week. According to our service provider, this has historically helped them
   reduce improper payments for their customers.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: PCLOB's financial service provider (ARC) completes a number
-  of activities throughou tthe year. ARC runs the DNP process on a weekly basis. On
-  a monthly basis, ARC prepares Prompt Pay, Discounts Lost, and Improper Payment metrics,
+detail_Executive_Summary: PCLOB's financial service provider (Treasury’s Bureau of
+  the Fiscal Service, Center for Financial Management, or CFM) completes a number
+  of activities throughout the year. CFM runs the DNP process on a weekly basis. On
+  a monthly basis, CFM prepares Prompt Pay, Discounts Lost, and Improper Payment metrics,
   and any identified improper payments are uploaded to connect.gov website. Also,
-  ARC randomly samples 10% of PCLOB's previous month's IPP activity to test for improper
+  CFM randomly samples 10% of PCLOB's previous month's IPP activity to test for improper
   payments. This ensures that IPP system controls are operating as intended and provides
-  info on COR performance. On a quarterly basis, ARC posts a quarterly report with
+  info on COR performance. On a quarterly basis, CFM posts a quarterly report with
   PCLOB's Prompt Pay, Discounts Lost, and Improper Payment data to Connect. On an
-  annual basis, in March/April, ARC completes a PIIA risk assessment over the prior
-  year's data. In FY 2025, PCLOB had zero IPs.
-detail_OIG_Recommendations: null
+  annual basis, in March/April, CFM completes a PIIA risk assessment over the prior
+  year's data. In FY 2026, PCLOB had zero IPs and was in 100% compliance with PIIA.
 detail_Overpayment_Conditions_And_Methods: Invoices processed through the Invoice
   Processing Platform (IPP) are subject to a monthly post payment audit of 10% of
   the total paid IPP invoices for that month. Invoices not processed through IPP in
@@ -114,7 +114,7 @@ detail_Overpayment_Conditions_And_Methods: Invoices processed through the Invoic
   subject to a post payment audit based on a random sample of all reimbursements under
   $2,500. All payments of $2,500.00 and higher are excluded from the population. These
   payments require a 100% post payment audit review. Relocation vouchers processed
-  through the MoveLINQ system are subject to 100% pre-payment audit and review. For
+  through the MoveLINQ system are subject to 100% pre­payment audit and review. For
   payment customers, once the vouchers have been pre-audited and approved for payment,
   they are interfaced to Oracle the financial system where they are paid.
 detail_PIIA_Incentives: null

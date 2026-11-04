@@ -529,7 +529,7 @@ Data_By_Year:
     \ of root causes and the development/implementation of corrective actions to address\
     \ areas of non-compliance.\n"
   IP_Unknown_Target_Rate: 0.0055
-  Improper_Payments_Rate: 0.5410398657
+  Improper_Payments_Rate: 0.54103987
   Insufficient_Documentation_to_Determine: 169.62
   Margin_of_Error: '0.42'
   Non_Monetary_Loss_Amount: '1214.03'
@@ -621,21 +621,290 @@ Data_By_Year:
     Failure_to_Access_Data: 462.19
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '462.19'
+- Agency_Needs_Satisfied: The Commercial Pay MOCAS program has established the mature
+    internal controls - including automated three-way matching, systemic net-credit
+    rejections, and mandatory Contract Deficiency Report (CDR) discrepancy protocols
+    - needed to reduce improper payments and unknown payments to a level below which
+    further expenditures to reduce improper payments would cost more than the amount
+    those expenditures would save in prevented or recovered improper payments. The
+    component also possesses the trained human capital, contract entitlement specialists,
+    and audit liaison capacity needed to conduct targeted short-pay trend analyses
+    and manage complex entitlement determinations to reduce improper payments and
+    unknown payments to a level below which further human capital expenditures would
+    cost more than the amount saved in prevented or recovered improper payments. Furthermore,
+    the program maintains the robust information systems and other infrastructure,
+    anchored by core MOCAS entitlement logic and Advana enterprise analytics dashboards,
+    needed to reduce improper payments and unknown payments to a level below which
+    further expenditures on information systems and technological infrastructure would
+    exceed the amount saved in prevented or recovered improper payments.
+  Confidence_Level: 90% to <95%
+  Corrective_Actions_Adequacy_Association_Implementation: 'Corrective action plans
+    (CAPs) within the Defense Finance and Accounting Service (DFAS) Commercial Pay
+    MOCAS program are systematically prioritized, executed, and governed through rigorous
+    executive oversight. Proposed CAPs require formal review and approval by both
+    the Mission Area Director responsible for Commercial Pay MOCAS oversight and the
+    DFAS Enterprise Accounting & Audit Support Director. Following executive authorization,
+    program leadership conducts monthly milestone briefings to evaluate implementation
+    progress, enforce accountability, and assess improper payment trends against established
+    performance targets. Corrective measures are laser-focused on substantiated root
+    causes and scaled proportionally to financial risk. For instance, to resolve the
+    procedural drivers behind $138.5 million in projected Underpayments (UN), the
+    agency initiated recurring quarterly trend analyses in March 2026 to evaluate
+    short-pay and complex "pay and deduct" transactions, establishing the analytical
+    baseline to deploy targeted operational CAPs by December 2026. Concurrently, to
+    eliminate the administrative data-entry vulnerabilities causing $60.7 million
+    in Monetary Losses to the Agency (MLA), MOCAS is issuing binding internal guidance
+    by December 31, 2026, mandating the prompt issuance of Contract Deficiency Reports
+    (CDRs) to formally notify Procuring Contracting Officers (PCOs) of upstream CAGE
+    code discrepancies before payment execution.
+
+
+    The adequacy and operational effectiveness of these corrective actions are empirically
+    demonstrated by substantial, program-wide reductions in improper and unknown payment
+    estimates. Bolstered by previously deployed preventative controls, such as the
+    May 21, 2025 systemic modification that automatically rejects invoices containing
+    net credits, the program achieved an 85.7% monetary reduction in projected errors,
+    plummeting from $1.39 billion (0.62% error rate) in FY2025 to $199.3 million (0.09%
+    error rate) in FY2026. This performance moves the program significantly closer
+    to its FY2024 baseline rate of 0.04% and maintains compliance well below the statutory
+    1.5% threshold, validating that implemented controls directly remediate root causes
+    and prevent recurrence. To ensure continued control adequacy and maintain this
+    reduced error rate, DFAS leadership continuously monitors payment execution via
+    near-real-time Advana improper payment prevention metrics and monthly executive
+    dashboards, using forthcoming FY2027 PIIA review results as authoritative verification
+    of sustained error mitigation.
+
+    '
+  Corrective_Actions_Appropriateness: 'The Commercial Pay MOCAS program is executing
+    a multi-year corrective action strategy to address the root causes of underpayments
+    and monetary losses identified in recent Payment Integrity Information Act (PIIA)
+    reviews. Actions from the FY25 Corrective Action Plan (CAP) have already yielded
+    positive results. On May 21, 2025, MOCAS Operations implemented a systemic control
+    that automatically rejects invoices containing net credits. This procedural change
+    forces vendors to use proper channels for returning funds, such as Pay.gov, and
+    has successfully eliminated improper payments that were occurring from this specific
+    billing practice.
+
+
+    To mitigate the primary driver of underpayments - manual processing errors and
+    complex "pay and deduct" issues - the agency is building upon initiatives started
+    in FY25. A quarterly trend analysis of short-pay transactions was initiated in
+    March 2026 to identify the underlying reasons for these intentional underpayments.
+    Leveraging the insights from this ongoing analysis, the program will develop new,
+    targeted, and measurable CAPs by December 2026 to systematically reduce the need
+    for short pays and correct the procedural deficiencies causing them.
+
+
+    To address the nearly $61 million in monetary losses attributed to an administrative
+    error involving an incorrect vendor CAGE code, the program has identified the
+    root cause as an upstream data-entry error on a contract modification. Although
+    a subsequent review confirmed the payment reached the correct legal entity and
+    the vendor credited the proper account, a key preventative action is being implemented
+    to prevent recurrence. By December 31, 2026, MOCAS will issue formal internal
+    guidance mandating the issuance of a Contract Deficiency Report (CDR) to the responsible
+    contracting officer whenever a CAGE code discrepancy is detected. This ensures
+    that authoritative contract data is corrected at the source, strengthening controls
+    and preventing future overpayments from similar administrative errors.
+
+    '
+  Corrective_Actions_Proportion: 'The corrective actions established within the Commercial
+    Pay MOCAS program are strategically prioritized and resource-allocated in direct
+    proportion to the severity, rate, and financial impact of each identified root
+    cause. The agency''s primary mitigation resources are directed toward resolving
+    $138.5 million in projected Underpayments (UN) and $60.7 million in projected
+    Monetary Losses to the Agency (MLA), which together comprise the program''s $199.3
+    million in total projected errors. Because underpayments represent the highest
+    financial impact, accounting for nearly 70% of the overall error volume, the program
+    has dedicated continuous operational resources to performing quarterly trend analyses
+    of short-pay transactions. This ongoing, high-level analytical oversight serves
+    as the foundation for developing new, highly targeted, and measurable Corrective
+    Action Plans (CAPs) by December 2026 to systematically eliminate procedural underpayment
+    errors.
+
+
+    Conversely, the $60.7 million in projected monetary losses resulted entirely from
+    a single administrative and data-entry vulnerability involving incorrect vendor
+    CAGE codes processed upstream on contract modifications. To address this risk
+    proportionally without over-allocating administrative overhead, the agency is
+    implementing a focused, preventative control rather than a broad systemic overhaul.
+    By December 31, 2026, the program will issue formal internal guidance mandating
+    the release of a Contract Deficiency Report (CDR) to formally notify the Procuring
+    Contracting Officer (PCO) immediately upon detecting any CAGE code discrepancy.
+    This dual-layered strategy ensures that high-dollar, systemic underpayment issues
+    receive intensive analytical scrutiny, while administrative overpayment risks
+    are tightly controlled with direct, automated feedback mechanisms.
+
+    '
+  End_Date: 09/2025
+  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
+  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data: true
+  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data: true
+  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
+  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
+  Hide_Overpayments_Within_Failure_to_Access_Data: true
+  Hide_Overpayments_Within_Inability_to_Access_Data: true
+  Hide_Program_Results_Additional_Information: false
+  Hide_Program_Results_Corrective_Actions: false
+  Hide_Program_Results_Future_Outlook: false
+  Hide_Program_Results_Future_Outlook_Baseline: false
+  Hide_Program_Results_Future_Outlook_Baseline_Table: false
+  Hide_Program_Results_Future_Outlook_Explanation: false
+  Hide_Program_Results_Future_Outlook_Needs: false
+  Hide_Program_Results_Improper_Payments: false
+  Hide_Program_Results_Tabs: false
+  Hide_Program_Results_Unknown_Payments: false
+  IP_Accountability_Description: 'Accountability for reducing improper payments within
+    the Commercial Pay MOCAS program is a top priority for agency leadership. The
+    Mission Area Director is directly responsible for meeting our improper payment
+    reduction targets. Their annual performance criteria include specific, measurable
+    metrics tied directly to establishing internal controls, reducing payment errors,
+    and the timely execution of corrective action plans. Furthermore, their performance
+    appraisals explicitly evaluate their success in detecting overpayments and recovering
+    those overpayments promptly. Progress is monitored actively through monthly executive
+    steering committee meetings, where key performance indicators and root cause trends
+    are heavily analyzed. If reduction targets are not met, leadership is required
+    to identify and implement expedited corrective action plans. Repeated failure
+    to meet these targets or maintain adequate controls will result in negative performance
+    evaluations and potential reassignment, ensuring strict adherence to our financial
+    goals.
+
+
+    Beginning in FY 2026, all agencies must adopt the new Senior Executive Service
+    (SES) performance plans established by the U.S. Office of Personnel Management
+    pursuant to the January 20, 2025, Presidential Memorandum, Restoring Accountability
+    for Career Senior Executives. The highest-weighted element, “Faithful Administration
+    of the Law and the President’s Policies,” reinforces executive accountability
+    for achieving Department of War (DoW) priorities.
+
+
+    Accordingly, SES members responsible for Financial Improvement and Audit Remediation
+    (FIAR) outcomes will include specific, measurable performance requirements aligned
+    with annual financial statement audit priorities. SES members with direct FIAR
+    responsibilities will ensure compliance with applicable policies, maintain effective
+    internal controls and supporting documentation, respond timely to auditor requests,
+    remediate priority material weaknesses, and execute audit roadmaps and corrective
+    action plans supporting an unmodified audit opinion. SES members with indirect
+    responsibilities will implement measurable corrective actions, maintain documentation
+    supporting financial transactions, and ensure personnel are trained and accountable.
+
+
+    These requirements strengthen DoW accountability for audit readiness, payment
+    integrity, efficient operations, and compliance with the Payment Integrity Information
+    Act (PIIA).
+
+
+    The DoW Payment Integrity Senior Accountable Officials Steering Committee provides
+    senior-level oversight of these efforts. Chaired by the Office of the Under Secretary
+    of War (Comptroller)/Deputy Chief Financial Officer and co-chaired by the Director,
+    Defense Finance and Accounting Service, the Committee monitors improper payment
+    testing, root-cause analysis, recovery activities, audit findings, risk assessments,
+    and corrective actions required under Appendix C of OMB Circular A-123.
+
+    '
+  IP_Unknown_Target_Rate: 0.0008
+  Improper_Payments_Rate: 0.0858790967
+  Insufficient_Documentation_to_Determine: 0.0
+  Margin_of_Error: '0.06'
+  Non_Monetary_Loss_Amount: '138.5'
+  Outlays: 231954
+  Overpayment_Combined_Mitigations_Planned: '[app3]Training, [app4]Change Process'
+  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp4]Change Process'
+  Payment_Accuracy_Rate: 99.91412090328255
+  Program_Design_or_Structural_Issue: 0.0
+  Resources_Requested_For_IP: 'The Commercial Pay MOCAS program''s current budgetary
+    resources are sufficient to establish and maintain payment integrity. The existing
+    budget fully supports all planned corrective actions, including the ongoing quarterly
+    trend analysis for short pays and the implementation of new internal guidance
+    for CAGE code verifications, which are designed to mitigate Underpayments and
+    Monetary Losses. Because the program has determined that it possesses the necessary
+    resources to execute these controls and continue reducing improper payments, the
+    agency did not submit a request for additional funding or statutory changes in
+    the most recent budget submission.
+
+
+    The Department of War (DoW) is actively integrating artificial intelligence (AI)
+    and automation into its financial management (FM) practices to achieve an unmodified
+    audit opinion. Disparate FM systems will be unified in a single, AI-powered source
+    of truth. It will utilize AI agents to enable real-time monitoring, automated
+    system-to-system reconciliations, and an auditable trail. Through this new capability
+    and additional software, the DoW will address pervasive issues for improper pay
+    through rule-based detection, proactive controls, and end to end capabilities.'
+  Start_Date: 10/2024
+  Technical_IP_Amount: '0.0'
+  Underpayment_Mitigations_Planned: '[app3]Training, [app4]Change Process'
+  Underpayment_Mitigations_Taken: '[atp3]Training, [atp4]Change Process'
+  Unknown_Payments_Rate: 0
+  Year: 2026
+  detail_IP_Causes: 'During the Fiscal Year 2026 (FY26) Payment Integrity Information
+    Act (PIIA) compliance review of the Commercial Pay MOCAS program, a statistical
+    sample of 2,131 payments were analyzed. The review identified a projected improper
+    and unknown payment estimate of over $199 million, corresponding to a 0.09% error
+    rate. This reflects a significant improvement from the FY25 projection of $1.39
+    billion (0.62% error rate) and moves the program closer to its FY24 baseline of
+    approximately $96 million (0.04% error rate). All identified payment errors in
+    FY26 were categorized into two root cause types: Underpayments and Monetary Losses
+    to the Agency.
+
+
+    Underpayments, where the agency paid less than the correct amount, were the primary
+    driver of the projected error value, accounting for nearly $139 million. The root
+    cause for these underpayments was consistently identified as invoices being processed
+    and paid incorrectly. This broad category encompasses several specific operational
+    scenarios, including multiple instances where standard invoices were paid for
+    an incorrect amount and a significant error related to complex "Pay and Deduct"
+    transaction processing, which alone contributed nearly $45 million to the projected
+    underpayment total.
+
+
+    Monetary Losses to the Agency, representing overpayments, constituted the remaining
+    balance of nearly $61 million of the projected error estimate. The sole root cause
+    for this overpayment was an administrative data entry error. In this instance,
+    a vendor submission was processed using an incorrect Commercial and Government
+    Entity (CAGE) Code, leading to the erroneous payment. Correcting this single administrative
+    control weakness would eliminate the entire monetary loss portion of the improper
+    payment estimate.
+
+    '
+  detail_No_Estimates_Why: null
+  detail_Overpayments_Due_To_Data_DNE: '0.0'
+  detail_Overpayments_Due_To_Failure: '60.7'
+  detail_Overpayments_Due_To_Inability: '0.0'
+  detail_Reduction_Target: '0.08'
+  eligibility_aggregated:
+  - Theme: Contractor or Provider Status
+    Theme_Description: "Status or standing of contractor or provider, including recipient\
+      \ eligibility to \r\nprovide medical services"
+  overpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 60.7
+    Inability_to_Access_Data: 0.0
+    Overpayments_Within_Control_Amount: '60.7'
+  overpayments_outside:
+    Overpayments_Outside_Control_Amount: '0.0'
+  underpayments:
+    Data_Needed_Does_Not_Exist: 0.0
+    Failure_to_Access_Data: 138.5
+    Inability_to_Access_Data: 0.0
+    Underpayments_Amount: '138.5'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2024, 2025]'
-Overpayment_Amounts: '[73.28, 3.52]'
-Payment_Accuracy_Amounts: '[222237.09, 223651.7]'
+Improper_Payments_Data_Years: '[2024, 2025, 2026]'
+Overpayment_Amounts: '[73.28, 3.52, 60.7]'
+Payment_Accuracy_Amounts: '[222237.09, 223651.7, 231754.8]'
 Phase_2_Program: 0
 Program_Name: Commercial Pay – Mechanization of Contract Administration Services (MOCAS)
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 751.84]'
-Underpayment_Amounts: '[23.01, 462.19]'
-Unknown_Amounts: '[0, 169.62]'
+Technically_Improper_Amounts: '[0, 751.84, 0]'
+Underpayment_Amounts: '[23.01, 462.19, 138.5]'
+Unknown_Amounts: '[0, 169.62, 0]'
 fpi_link: https://fpi.omb.gov/program/12.006
 layout: program-specific
 permalink: program/dow-commercial-pay-mechanization-of-contract-administration--94c59ea7

@@ -3,7 +3,7 @@ Agency: FLRA
 Agency_Name: Federal Labor Relations Authority
 Confirmed_Fraud: 0.0
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -125,7 +125,7 @@ Risks:
     Program_Name: Travel Card
     Slug: null
     Susceptible: 'No'
-  SubstantialChangesMade: 'No'
+  SubstantialChangesMade: null
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -133,30 +133,49 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 detail_Additional_IP_Information: null
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: The Do Not Pay (DNP) Initiative serves as a useful tool in
-  mitigating the possibility of Improper Awards and Payments. If a vendor is on the
-  DNP list, this information is communicated to our Contracting Officer thereby ensuring
-  no contract awards occur with vendors on the DNP list thereby mitigating the possibility
-  of potentially problematic contract awards/payments occurring.
+detail_DNP_Discussion: The FLRA uses the Do Not Pay listing via a shared service provider.
+  In FY26, $20,821,423 in payments have been compared to the Do Not Pay list before
+  being sent out. It has not yet prevented, reduced, or recovered any improper payments
+  as no payments have positively matched to entities on the list thus far. The shared
+  service provider updates and uses the Do Not Pay list daily and all payments are
+  run through the list.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
-detail_DNP_Reduced: 'Yes'
+detail_DNP_Reduced: 'No'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: The Federal Labor Relations Authority (FLRA) remains committed
-  to fiscal responsibility and diligent stewardship of taxpayer dollars. As part of
-  our ongoing efforts, FLRA operates on a three-year Improper Payment risk assessment
-  cycle. The results of our most recent risk assessment conducted in FY25 reaffirmed
-  that FLRA's programs are not likely to be susceptible to significant improper payments,
-  demonstrating our effective management and financial integrity. FLRA is currently
-  incompliance with PIIA and has no Programs with annual outlays over $10M and therefore
-  does not have any programs that are susceptible to significant improper payments.
-detail_OIG_Recommendations: null
+detail_Executive_Summary: 'The Improper Payments Information Act of 2002, as amended
+  by the Payment Integrity Information Act of 2019 (PIIA), requires agencies to annually
+  report information on improper payments. The FLRA has reviewed all of its programs
+  and determined that none are susceptible to significant improper payment. The PIIA
+  also requires agencies to conduct payment-recapture audits for each program that
+  expends $1 million or more annually, if conducting such audits would be cost-effective.
+  Based on the criteria set forth in Appendix C of OMB Circular A-123, the agency
+  has also determined that it would not be cost-effective to establish a recovery-audit
+  program for its programs that expend more than $1 million. Recoveries are not expected
+  to be greater than the costs incurred to identify any overpayments.
+
+
+  The FLRA is required by the PIIA to assess the risk of improper payments during
+  the disbursement process. FLRA uses a shared service provider to complete this risk
+  assessment on the mandated three-year cycle. The most recent risk assessment, completed
+  in FY 2025, consisted of five payment types and concluded that the FLRA’s programs
+  were at a low risk for improper payments. No risk assessments were performed in
+  the current reporting period in accordance with the three-year cycle. Improper payments
+  for programs did not exceed $10.0 million and 1.5 percent of the program total expenditures
+  or $100.0 million of the total program expenditures. No programs are subject to
+  reporting as “susceptible to significant improper payments” in the FY 2026 submission.
+  During off cycle years, the FLRA has effective procedures and controls in place
+  for its payment and disbursement processes that it relies on; and is in compliance
+  with the PIIA.
+
+  '
 detail_Overpayment_Conditions_And_Methods: No improper payments were identified. In
   the instance there were payments identified, the proper recovery action would be
   determined on a case-by-case basis.
@@ -171,10 +190,14 @@ detail_Recovery_Not_Cost_Effective_Justification: The PIIA also requires agencie
   it would not be cost-effective to establish a recovery-audit program for its programs
   that expend more than $1 million. Recoveries are not expected to be greater than
   the costs incurred to identify any overpayments.
-detail_Risks_Substantial_Changes_Made: 'No'
+detail_Risks_Substantial_Changes_Made: null
 layout: agency-specific
 permalink: agency/FLRA.html
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 0.004682
 recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 0.0
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 0.001047
 recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.0
 recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
+recovery_Total_Overpayment_Amount_Identified: 0.004682
+recovery_Total_Overpayment_Amount_Recovered: 0.001047
 ---

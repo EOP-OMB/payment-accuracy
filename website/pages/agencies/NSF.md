@@ -1,9 +1,9 @@
 ---
 Agency: NSF
 Agency_Name: National Science Foundation
-Confirmed_Fraud: 2.32
+Confirmed_Fraud: 5.07
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -23,9 +23,9 @@ Improper_Payments_Rate_Min: 0
 Improper_Payments_Rates: '[]'
 Is_Placeholder: false
 Overpayment_Amounts: '[]'
-Overpayment_Amounts_Identified: '[6.705, 13.9, 9.71, 35.42, 16.01]'
-Overpayment_Amounts_Recovered: '[6.405, 10.0, 9.88, 32.7, 16.01]'
-Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts_Identified: '[13.9, 9.71, 35.42, 16.01, 16.3]'
+Overpayment_Amounts_Recovered: '[10.0, 9.88, 32.7, 16.01, 15.87]'
+Overpayment_Years: '[2022, 2023, 2024, 2025, 2026]'
 PIIA2019_Compliant_Programs:
 - Compliant_1A: true
   Compliant_1B: true
@@ -115,35 +115,59 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-- 2021
 detail_Additional_IP_Information: null
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: 'All NSF payments are compliant with Treasury’s Payment Application
-  Modernization format and are screened against the following data sources: Social
-  Security Death Master File (DMF) [public information] and the GSA System for Award
-  Management (SAM) Exclusion Records [restricted information]. Any subsequent matches
-  are viewable in Treasury’s DNP online portal for adjudication purposes. There was
-  1 positive DNP match to a payment of $400 that NSF issued in FY2025 which was determined
-  to be proper.'
+detail_DNP_Discussion: "Executive Order 14249, Protecting America’s Bank Account Against\
+  \ Waste, Fraud and Abuse outlines several new requirements to improve oversight\
+  \ over federal payments to enhance agencies’ abilities to prevent waste, fraud,\
+  \ and abuse. A key component of this EO is requiring agencies to implement the Do\
+  \ Not Pay System (DNP), which is maintained by the Department of Treasury (Treasury).\
+  \  \n\nNSF has 11 financial assistance programs in the Federal Program Inventory\
+  \ (FPI) aligned to the agency’s major programmatic organizational units (directorates\
+  \ and offices) and scientific disciplines. The payments for these 11 programs are\
+  \ predominantly disbursed to organizational entities; less than 1% of NSF’s annual\
+  \ grant payments are disbursed to individuals (primarily fellowship recipients).\
+  \  \n\nNSF also processes disbursements for agency operations and administrative\
+  \ functions, with dedicated payment schedules for each function. These functions\
+  \ include contract payments (organizations), reimbursements to merit review panelists\
+  \ (individuals), purchase card payments (organizations) and other miscellaneous\
+  \ payments to individuals (e.g., travel reimbursements). NSF disburses all payments\
+  \ through the Treasury, which integrates with two DNP data sources – the Social\
+  \ Security Administration Death Master File (SSA DMF) and the System for Award Management\
+  \ (SAM) Exclusion Records. NSF will continue to fully implement and expand its DNP\
+  \ usage and is conducting analysis on solutions to verify the payments through DNP\
+  \ prior to transmission to Treasury. \n\nAcross 10 years of disbursements, NSF has\
+  \ had 0 adjudicated improper payments to deceased individuals or excluded / restricted\
+  \ entities through its analysis of DNP results."
 detail_DNP_Frequency_Identify: Annually
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: NSF has one mission program of Grants and Cooperative Agreements
-  and three other mission-related activities – Contracts and Individual Payments,
-  NSF Purchase Cards and Payments to Employees. NSF conducts risk assessments for
-  all programs with outlays over $10M on a three-year risk assessment cycle. The most
-  recent risk assessment was performed in FY 2024, which concluded that the agency
-  does not have any programs which are likely to be susceptible to significant improper
-  payments. Based on NSF’s risk assessment, all of these programs and activities are
-  considered Phase I in accordance with Payment Integrity Information Act of 2019
-  (PIIA). NSF Purchase Cards outlays were below the $10M threshold for FY 2025.
-detail_OIG_Recommendations: null
+detail_Executive_Summary: 'The Payment Integrity Information Act of 2019 (PIIA; Pub.
+  L. 116-117) requires agencies to annually report information on improper payments
+  to the President and Congress. NSF does not have any high-priority programs as defined
+  by OMB Circular A-123 Appendix C (programs with estimates of improper payments resulting
+  in monetary loss that exceeds $100 million annually). The Foundation was not required
+  to conduct any improper payment risk assessments in FY 2026 and will conduct its
+  triennial payment integrity assessment in alignment with A-123 Appendix C in FY
+  2027.
+
+
+  Using OMB Circular A-123, Appendix C, Part V.B.2 guidance, NSF determined that it
+  would not be cost effective to conduct recapture audits of its single grants program
+  and other activities (contracts, charge cards, and payments to employees).  NSF
+  has leveraged the results of the work performed under PIIA, audits, grant monitoring
+  programs, and internal control reviews. All activities consistently demonstrated
+  that there is not a significant risk of unallowable costs or improper payments within
+  NSF’s single grant program and other mission support activities. No circumstances
+  have changed within NSF’s grant program or its mission support activities requiring
+  NSF to reassess its payment recapture cost-effectiveness analysis.'
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
@@ -151,12 +175,12 @@ detail_Recovery_Audits_Skipped: 'No'
 detail_Recovery_Justifications_Audits: null
 detail_Recovery_Not_Cost_Effective_Justification: NSF does not conduct recovery audits.
   NSF's analysis determined that it would not be cost effective for the agency to
-  conduct a recovery audit program.  No circumstances have changed within any of NSF's
+  conduct a recovery audit program. No circumstances have changed within any of NSF's
   programs that require an additional recovery audit cost-effectiveness analysis.
 detail_Risks_Substantial_Changes_Made: null
 layout: agency-specific
 permalink: agency/NSF.html
-recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 16.01
-recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 16.01
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 16.3
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 15.87
 recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

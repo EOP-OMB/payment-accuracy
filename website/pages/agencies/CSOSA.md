@@ -3,7 +3,7 @@ Agency: CSOSA
 Agency_Name: Court Services and Offender Supervision Agency for the District
 Confirmed_Fraud: 0.0
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -61,17 +61,17 @@ Payment_Accuracy_Rates: '[]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: null
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Community Supervision Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Pretrial Services Agency
     Slug: null
-    Susceptible: null
-  SubstantialChangesMade: null
+    Susceptible: 'No'
+  SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[]'
 Underpayment_Amounts: '[]'
 Unknown_Amounts: '[]'
@@ -79,71 +79,79 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-detail_Additional_IP_Information: Based on prior financial statement audits, a determination
-  of strong internal controls from CSOSA internal controls testing, and the results
-  of CSOSA internal testing of its FY 2023 payment transactions, CSOSA believes that
-  the CSP and PSA programs have low inherent risks of improper payment.
+detail_Additional_IP_Information: 'CSOSA’s payment integrity approach combines preventive
+  payment controls, supplier screening, and management reviews with program-specific
+  risk assessments and selected-payment testing. CSP and PSA separately assessed their
+  FY 2026 payment activities, and neither program was identified as susceptible to
+  significant improper payments. These determinations do not mean that improper payments
+  cannot occur; CSOSA continues to monitor payment-integrity risks and review identified
+  concerns.
+
+
+  '
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: 'CSOSA and its financial system service provider, the Department
-  of Interior-Interior Business Center (IBC), use the DNP Initiative to review payment
-  eligibility for purposes of identifying and preventing improper payments. The DNP
-  Validation is completed each weekend. The IBC receives an email from DNP notifying
-  them that the Continuous Monitoring results are refreshed. The IBC will refresh
-  the OFF report data the first workday of the week. IBC sends an email notification
-  immediately after the data is made available. Upon receipt of this email notification,
-  CSOSA Office of Financial Management (OFM) will run the OFF Report and format based
-  on the three available reports: Matched to Vendor, Matched Vendors Tied to PO, and
-  Matched Vendors Tied to AP. The three identified reports include vendors with matched
-  results of “Possible”, “Probable”, and “Conclusive”. The information reported to
-  the CSOSA Office of Procurement (Procurement) is based on those vendors with a “Conclusive”
-  match result. OFM issues an email to Procurement on a weekly basis identifying those
-  vendors who appeared on the DNP Report. Prior to submitting a new OFF Vendor Request
-  form, the Agency must ensure the vendor is not referenced on the DNP List. The information
-  is provided weekly by email to all credit cardholders to ensure they are not using
-  any vendors identified on the DNP Report. CSOSA Accounts Payable staff are informed
-  of this information as it pertains to reposting monthly bank statements and Budget
-  Analysts are informed as well to assist them when approving requisitions. Prior
-  to submitting a new Vendor Request form, CSOSA must ensure the vendor is not referenced
-  on the DNP List. OFM informs IBC to end date positively identified vendors in OFF
-  via email. CSOSA has neither identified a material amount nor realized a reduction
-  of improper payments attributable to implementing the DNP Initiative capabilities.
-  Rather, CSOSA’s DNP Initiative implementation has proven that CSOSA has robust and
-  effective internal controls over ensuring that eligible entities receive Federal
-  funds.'
+detail_DNP_Discussion: CSOSA uses Treasury’s Do Not Pay (DNP) Working System to support
+  payment and award eligibility reviews and strengthen preventive controls. For CSP
+  and PSA, our financial shared services provider, the Department of the Interior’s
+  Interior Business Center (IBC) submits active vendor and employee supplier records
+  to Treasury for weekly monitoring. IBC, CSP, and PSA review and validate possible
+  exceptions and coordinate verification and appropriate supplier-record actions with
+  IBC and within our financial system. DNP supports identification and resolution
+  of potential eligibility concerns before awards or payments are made; however, the
+  information currently available does not establish a measurable FY 2026 reduction
+  in improper payments or awards attributable to DNP. The absence of improper payments
+  in CSP’s and PSA’s FY 2026 selected-payment testing is favorable supporting evidence,
+  but it does not independently demonstrate DNP’s effectiveness. CSOSA has identified
+  invalid Agency vendor suppliers through Treasury DNP vendor review procedures that
+  were promptly end-dated by CSOSA in the Agency’s financial management system, preventing
+  future improper payments.
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
-detail_DNP_Reduced: 'No'
+detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: CSOSA was compliant with the Payment Integrity Information
-  Act of 2019 (PIIA). CSOSA maintains payment integrity through strong payment controls
-  and continuous monitoring. CSOSA is in the third year of the assessment cycle.  CSOSA
-  performs risk assessments at least once every three years.  The agency is considered
-  to be in Phase 1 and is not likely to have an annual amount of improper payments
-  (IP) plus annual unknown payments (UP) above the statutory threshold.  The risk
-  of improper payments has been low over the years as well as during the testing performed
-  during the most recent risk assessment.  Business processes have not changed during
-  this cycle and the risk remains low.
-detail_OIG_Recommendations: null
+detail_Executive_Summary: 'CSOSA maintains payment integrity through payment authorization
+  and approval controls, supplier monitoring through Treasury’s Do Not Pay services,
+  and risk assessments supported by selected-payment testing. For FY 2026, CSOSA finalized
+  separate risk assessments for the Community Supervision Program (CSP) and the Pretrial
+  Services Agency (PSA), programs within CSOSA. Neither program was identified as
+  susceptible to significant improper and unknown payments as part of the 2026 assessments.
+
+
+  CSP tested 479 selected payroll, credit-card, and vendor payments totaling $11.4
+  million and reported no exceptions or improper payments; no selected payments remained
+  unknown or unresolved. PSA tested 117 vendor and credit-card payments totaling $5.1
+  million and 106 payroll payments totaling $3.3 million and reported no evidence
+  of erroneous payments. These selected-payment results support the programs’ risk
+  assessments and are not presented as agency-wide annual improper-payment estimates
+
+
+  CSOSA monitors payment-integrity risks through management reviews, payment controls,
+  supplier screening, and follow-up on identified exceptions.'
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'No'
 detail_Recovery_Justifications_Audits: null
-detail_Recovery_Not_Cost_Effective_Justification: To employ one GS 12 FTE to perform
-  recapture audits will cost $93K to $122K per year. Given that the CSOSA has a very
-  low risk of improper payment as a result of risk assessments done in FY2023, it
-  is not cost beneficial for the CSOSA to employ an FTE to perform recapture audits.
-  Another option is to contract out the recapture audits, below is a cost analysis
-  using GSA contract rates for Castro & Company, LLC. Based on the analysis below,
-  it would cost CSOSA at least $41K to recapture any improper payments. It is our
-  determination then that it is not cost beneficial for the CSOSA to employ a contractor
-  to perform recapture audits.
-detail_Risks_Substantial_Changes_Made: null
+detail_Recovery_Not_Cost_Effective_Justification: CSOSA determined that a separate
+  recovery audit using dedicated full-time government employees or an external audit
+  firm would not be cost-effective. Management considered existing payment authorization
+  and approval controls, financial-system controls, Do Not Pay screening, and internal
+  payment testing, which reduce the likelihood that substantial recoverable overpayments
+  remain undetected. FY 2026 CSP testing of 479 selected payments totaling approximately
+  $11.4 million identified no exceptions or improper payments, providing additional—but
+  not conclusive—support for this determination. Based on its qualitative assessment,
+  management does not expect incremental recoveries to exceed the additional costs
+  of audit staffing, procurement and oversight where applicable, supporting-document
+  retrieval, dispute resolution, and recovery activities. This determination does
+  not eliminate CSOSA's ongoing responsibility to identify and recover overpayments
+  through its existing processes.
+detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/CSOSA.html
 recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0

@@ -2,94 +2,6 @@
 Agency: USDA
 Agency_Name: Department of Agriculture
 Data_By_Year:
-- Agency_Needs_Satisfied: 'CACFP does not have the infrastructure for producing yearly
-    estimates of improper payment rates and dollar values. FNS has developed a measurement
-    methodology for one component of the program and is in the process of measuring
-    errors or determining the feasibility of measuring errors in the remaining components.
-    Because requirements vary significantly for each different type of program sponsor
-    and site, a full and rigorous assessment of the rate of improper payments is extremely
-    complex. FNS continues to explore alternative methodologies for developing a reliable
-    measurement for the Family Day Care Home meal claims component. FNS has also completed
-    data collection on a study to measure program error in childcare centers. '
-  Confidence_Level: '>90%'
-  Corrective_Actions_Proportion: 'To improve the quality of the data and of the calculations
-    that go into tiering determinations, FNS awards competitive annual Child Nutrition
-    (CN) Technology Innovation Grants (TIGs) to States. The TIGs help State agencies
-    implement technology solutions to improve accountability, data accuracy, performance
-    measurement, and to identify and target error-prone areas in CN Programs.
-
-
-    FNS also uses management evaluations of State agencies to ensure State agency
-    compliance with program regulations. The evaluations help FNS identify errors
-    in tiering determination processes, which then inform training and technical assistance
-    materials to address those errors. Additionally, FNS developed CACFP CORE Training
-    specifically for state agencies and CACFP sponsors. The CORE training resource
-    includes training modules designed to improve CACFP operations, e.g., trainings
-    on claims for reimbursement and record keeping, monitoring and oversight, etc.  CORE
-    training includes a mobile app that provides real-time training and technical
-    assistance to states and CACFP sponsors.
-
-    '
-  End_Date: 12/2015
-  Future_Outlook_Has_Baseline: 'Yes'
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Within_Failure_to_Access_Data: true
-  Hide_Overpayments_Within_Inability_to_Access_Data: true
-  Hide_Program_Results_Additional_Information: true
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: false
-  Hide_Program_Results_Future_Outlook_Baseline_Table: false
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  IP_Current_Year_Plus_1_Amount: 1.84
-  IP_Unknown_Current_Year_Plus_1_Rate: 0.0054117647
-  Improper_Payments_Rate: 0.5405107299999999
-  Insufficient_Documentation_to_Determine: 0.0
-  Is_Lowest_IP_And_Unknown_Rate: 'Yes'
-  Margin_of_Error: '0.0'
-  Non_Monetary_Loss_Amount: '0.48'
-  Outlays: 362.62
-  Outlays_Current_Year_Plus_1_Amount: 340
-  Payment_Accuracy_Rate: 99.45948927251668
-  Program_Design_or_Structural_Issue: 0.0
-  Start_Date: 01/2015
-  Technical_IP_Amount: '0.0'
-  Unknown_Curent_Year_Plus_1_Amount: 0
-  Unknown_Payments_Rate: 0
-  Year: 2021
-  overpayments:
-    Address_Location: 0.0
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.0
-    Financial: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '0.0'
-  overpayments_outside:
-    Address_Location: 0.37
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 1.48
-    Financial: 0.37
-    Inability_to_Access_Data: 0.0
-    Overpayments_Outside_Control_Amount: '1.48'
-  underpayments:
-    Address_Location: 0.12
-    Contractor_Provider_Status: 0.0
-    Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 0.48
-    Financial: 0.12
-    Inability_to_Access_Data: 0.0
-    Underpayments_Amount: '0.48'
 - Agency_Needs_Satisfied: Child and Adult Care Food Program (CACFP) does not have
     the infrastructure for producing yearly estimates of improper payment rates and
     dollar values. FNS has developed a measurement methodology for one component of
@@ -709,17 +621,6 @@ Data_By_Year:
     Financial: 0.195
     Inability_to_Access_Data: 0.0
     Overpayments_Outside_Control_Amount: '0.78'
-    Overpayments_Outside_Control_Why: The Food and Nutrition Service (FNS) programs
-      are State-managed federal programs. As such, program payments provided by FNS
-      go to various State agencies (SAs), which then pass through the funds to local
-      agencies and sponsors, and ultimately to program recipients. Improper payments
-      identified during the course of a review, audit, or other operational oversight
-      activities can be recovered either through direct billing or through an offset
-      of future program payments earned. FNS has been advised by our Office of General
-      Counsel that since program statutes are very specific in describing circumstances
-      under which recoveries of improper payments are to be made, recoveries made
-      on the basis of a statistical sample or estimation procedure would not be appropriate,
-      and that FNS would need new statutory authority to pursue such collections.
   underpayments:
     Address_Location: 0.0625
     Contractor_Provider_Status: 0.0
@@ -761,21 +662,21 @@ Description: USDA's Child and Adult Care Food Program (CACFP) provides federal r
   determination ("certification error") is a leading cause of IPs. A significant barrier
   is the decentralized nature of the program; USDA does not directly confirm individual
   children or day care home facilities for eligibility.
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024]'
-Overpayment_Amounts: '[1.48, 2.58, 0, 0.78]'
-Payment_Accuracy_Amounts: '[360.65999999999997, 4347.9400000000005, 627.23, 775.6]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024]'
+Overpayment_Amounts: '[2.58, 0, 0.78]'
+Payment_Accuracy_Amounts: '[4347.9400000000005, 627.23, 775.6]'
 Phase_2_Program: 0
 Program_Name: Food and Nutrition Service (FNS) Child and Adult Care Food Program (CACFP)
   Family Day Care Homes (FDCH) - Tiering Decisions
 Scorecard_Links: []
-Technically_Improper_Amounts: '[0, 0, 0, 0]'
-Underpayment_Amounts: '[0.48, 0.48, 0, 0.25]'
-Unknown_Amounts: '[0, 0, 0, 0]'
+Technically_Improper_Amounts: '[0, 0, 0]'
+Underpayment_Amounts: '[0.48, 0, 0.25]'
+Unknown_Amounts: '[0, 0, 0]'
 layout: program-specific
 permalink: program/usda-food-and-nutrition-service-fns-child-and-adult-care-foo-48fe4550
 ---
