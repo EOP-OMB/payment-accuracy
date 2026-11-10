@@ -117,6 +117,7 @@ detail_Executive_Summary: The NLRB is required by the Payment Integrity Informat
   payment estimate, and no programs are subject to reporting as “susceptible to significant
   improper payments” in the FY 2026 submission. Therefore, the NLRB has effective
   procedures and controls in place for its payment and disbursement processes.
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

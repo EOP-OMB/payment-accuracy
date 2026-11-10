@@ -154,6 +154,7 @@ detail_Executive_Summary: 'During fiscal year 2026, the Gulf Coast Ecosystem Res
   recovery rate was 100%, and no audit-related balance remained outstanding at year-end.
 
   '
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: 'The Council’s shared service provider,
   ARC, conducted the formal payment recapture audit during FY26. ARC reviewed 677
   other payments totaling $4,808,495.88 and identified one improper payment of $316.32.

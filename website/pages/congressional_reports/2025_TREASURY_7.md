@@ -48,6 +48,20 @@ SurveyData:
   SortOrder: 1
   Subheading: ''
   Type: MULTISELECT_TEXT
+- Answer: Treasury was not in compliance with PIIA for FY 2024 for not reporting an
+    improper payment error rate of less than 10% for the IRS Earned Income Tax Credit,
+    Additional Child Tax Credit, American Opportunity Tax Credit, and the refundable
+    Premium Assistance Tax Credit. OIG did not provide any recommendations regarding
+    this non-compliant criteria. Refundable tax credit overclaims are not the result
+    of internal control weaknesses that the IRS can remediate internally, but are
+    in fact the result of factors beyond the Agency's control under the current law
+    and existing authority.
+  Heading: Measurable Milestones To Be Accomplished in Order to Achieve Compliance
+    For Each Program
+  Key: cap5
+  SortOrder: 2
+  Subheading: ''
+  Type: TEXT
 - Answer: Ishmael Alejo, Director, IRS Refund Integrity and Compliance Services (RICS),
     Refundable Credits Program Management (RCPM)
   Heading: Senior Agency Official Accountable for Bringing Each Program into Compliance

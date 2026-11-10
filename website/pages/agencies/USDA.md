@@ -1,7 +1,7 @@
 ---
 Agency: USDA
 Agency_Name: Department of Agriculture
-Confirmed_Fraud: 204.795
+Confirmed_Fraud: 204.79
 Eligibility_Themes: []
 Fiscal_Year: 2026
 Hide_Disposition_of_Funds: false
@@ -21,7 +21,7 @@ Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
 Improper_Payments_Rate_Max: 9.1
 Improper_Payments_Rate_Min: 2.2
 Improper_Payments_Rates: '[2.212148855887342, 8.127451066063545, 9.110247099130902,
-  9.05438508089326, 9.061394702456253]'
+  9.05438508089326, 9.061388121100627]'
 Is_Placeholder: false
 Overpayment_Amounts: '[638.58, 8520.11, 11426.18, 10830.849999999999, 11557.19]'
 Overpayment_Amounts_Identified: '[587.97, 536.13, 287.48, 652.56, 1089.66]'
@@ -4562,6 +4562,19 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
+  Name: Office of the General Counsel (OGC) Salaries and Expenses
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
   Name: Office of the Inspector General (OIG) Salaries and Expenses
 - Compliant_1A: true
   Compliant_1B: true
@@ -6628,7 +6641,7 @@ Payment_Accuracy_Amounts: '[84244.4, 117751.87, 136592.22, 134877.74, 138176.12]
 Payment_Accuracy_Rate_Max: 97.8
 Payment_Accuracy_Rate_Min: 90.9
 Payment_Accuracy_Rates: '[97.78785114411266, 91.87254893393646, 90.8897529008691,
-  90.94561491910675, 90.93860529754375]'
+  90.94561491910675, 90.93861187889937]'
 Risks:
   AdditionalInformation: null
   Assessments:
@@ -6747,11 +6760,11 @@ Risks:
     Program_Name: Agricultural Marketing Service (AMS) - Market Protection and Promotion
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2026'
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Agricultural Marketing Service (AMS) - Marketing Agreements ad Orders
     Slug: null
-    Susceptible: 'No'
+    Susceptible: null
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Agricultural Marketing Service (AMS) - Meat and Poultry Inspection
@@ -6937,11 +6950,11 @@ Risks:
     Program_Name: American Rescue Plan Technical Assistance Investment Program
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Animal Disease and Animal Care
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Animal Health and Disease Research
@@ -7101,11 +7114,11 @@ Risks:
     Program_Name: Child Nutrition-Technology Innovation Grant
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Child and Adult Care Food Program
     Slug: usda-child-and-adult-care-food-program
-    Susceptible: null
+    Susceptible: 'Yes'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Children, Youth and Families At-Risk
@@ -7199,7 +7212,7 @@ Risks:
     Program_Name: Commodity Credit Corporation (CCC) Trade Mitigation Program (TMP/FPD)
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2017'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Commodity Loans and Loan Deficiency Payments
     Slug: null
@@ -7371,11 +7384,11 @@ Risks:
     Program_Name: Delta Health Care Services Grant Program
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2022'
     MethodologyChanged: 0
     Program_Name: Denali Commission Grants and Loans
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Department Administration (DA) Agriculture Buildings and Facilities
@@ -8372,11 +8385,11 @@ Risks:
       Cooperative Agreements Program
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Natural Resources Conservation Service (NRCS) Wetlands Reserve Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Natural Resources Conservation Service (NRCS) Wildlife Habitat Incentive
@@ -8437,6 +8450,11 @@ Risks:
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Office of the Chief Information Officer (OCIO) Salaries and Expenses
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: Office of the General Counsel (OGC) Salaries and Expenses
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2026'
@@ -8632,11 +8650,11 @@ Risks:
     Program_Name: Risk Management Education Partnerships
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Rural Broadband Access Loans
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Rural Business Development Grants
@@ -8647,11 +8665,11 @@ Risks:
     Program_Name: Rural Business Investment Program
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2019'
     MethodologyChanged: 0
     Program_Name: Rural Community Development Initiative
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Rural Cooperative Development Grants
@@ -8682,22 +8700,22 @@ Risks:
     Program_Name: Rural Development Multi-Family Housing Rural Housing Voucher Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Rural Development Policy Public Service and Leadership Development
       Program
     Slug: null
-    Susceptible: 'No'
+    Susceptible: null
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Rural Economic Development Loans and Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Rural Electrification Loans and Loan Guarantees
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Rural Energy Savings Program (RESP)
@@ -8733,17 +8751,17 @@ Risks:
     Program_Name: Rural Microentrepreneur Assistance Program
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Rural Multi-Family Housing Revitalization Demonstration Program
       (MPR)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Rural Rental Assistance Payments
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Rural Rental Housing Loans
@@ -9147,12 +9165,12 @@ Risks:
     Program_Name: Water and Waste Disposal Systems for Rural Communities
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Water and Waste Facility Loans and Grants to Alleviate Health Risks
       for Colonias and Tribal Lands
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Water and Waste Technical Assistance and Training Grants
@@ -9246,340 +9264,391 @@ Years_Available:
 detail_Additional_IP_Information: null
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '9.66'
 detail_Compliance_Status: Non-Compliant
-detail_DNP_Discussion: 'In accordance with OMB Circular A-123, Appendix C and requirements
-  under the Payment Integrity Information Act of 2019 (PIIA), USDA employs Treasury’s
-  Do Not Pay (DNP) program to strengthen internal controls governing pre-award, pre-payment,
-  and post payment eligibility verification. These activities support the Department’s
-  broader payment integrity framework by reducing the likelihood of improper payments
-  and providing authoritative data to inform program-level decision making.
-
-
-  USDA applies multiple DNP tools as part of its integrated control environment:
-
-  • DNP Portal: Used for identity and eligibility screening to meet statutory pre-payment
-  verification requirements. In FY 2025, USDA conducted screenings through the DNP
-  Portal, with search volume decreasing from 10,185 to 3,834 and matched amounts declining
-  from $18.58 million to $6.8 million. The Department also expanded its active DNP
-  user base from 3,509 to 4,205 across five agencies, strengthening staff capacity
-  and oversight.
-
-  • Treasury Payment Verification (TPV): USDA increased its reliance on automated,
-  system to system screening in FY 2026. TPV screened 34.9 million payments totaling
-  $113.29 billion and returned 178 records valued at $597,453. Returned records indicate
-  potential concerns only and require program-level analysis prior to any improper
-  payment determination.
-
-  • A-123 Documentation and Internal Review: USDA continues to review operational
-  evidence and A-123 documentation to identify validated instances where DNP-supported
-  controls contributed to preventing or recovering improper payments, supporting both
-  PIIA reporting and annual assurance statements.
-
-
-  Across FY 2025 and 2026, USDA strengthened its payment integrity posture by increasing
-  the use of automated controls and improving the accessibility of DNP tools across
-  agencies. Portal activity, while reduced in volume, became more targeted; matched
-  amounts declined substantially. TPV screening expanded dramatically, adding a robust
-  automated layer that improves the Department’s ability to detect potential eligibility
-  issues before disbursement.
-
-
-  These efforts directly support PIIA reporting requirements for identifying root
-  causes, demonstrating risk mitigation activities, and documenting corrective actions.
-
-
-  USDA will continue to:
-
-  • Expand automated DNP Connect and TPV integrations across programs.
-
-  • Enhance workforce training to improve the quality and consistency of eligibility
-  screening.
-
-  • Strengthen monitoring and documentation required under OMB A-123 and PIIA, ensuring
-  traceability between DNP-assisted reviews and improper payment prevention or recovery
-  outcomes.
-
-  • Refine analytic processes to increase early detection of risks and reduce reliance
-  on manual review where automation can improve efficiency and accuracy.'
+detail_DNP_Discussion: "In accordance with OMB Circular A-123, Appendix C and requirements\
+  \ under the Payment Integrity Information Act of 2019 (PIIA), USDA employs Treasury's\
+  \ Do Not Pay (DNP) program to strengthen internal controls governing pre-award,\
+  \ pre-payment, and post payment eligibility verification. These activities support\
+  \ the Department's broader payment integrity framework by reducing the likelihood\
+  \ of improper payments and providing authoritative data to inform program-level\
+  \ decision making.\n\nUSDA applies multiple DNP tools as part of its integrated\
+  \ control environment:\n\n•\tDNP Portal: Used for identity and eligibility screening\
+  \ to meet statutory pre-payment verification requirements. The Department also expanded\
+  \ its active DNP user base from 4,205 (FY2025) to 4,950 during fiscal year 2026\
+  \ across multiple agencies.\n\n•\tTreasury Payment Verification (TPV): USDA increased\
+  \ its reliance on automated system to system screening in FY 2026. TPV screened\
+  \ 34.9 million payments totaling $113.29 billion and returned 178 records valued\
+  \ at $597,453. Returned records indicate potential concerns only and require program-level\
+  \ analysis prior to any improper payment determination. \n\n•\tOther DNP sources\
+  \ used by USDA include Death Master File, Department of State-Death Data, Electronic\
+  \ Verification of Vital Events Fact of Death, Credit Alert System, Treasury Offset\
+  \ Program Debt Check, SAM Exclusion Records, USAspending, and Numident. These services\
+  \ are used frequently. USDA is compiling and monitoring the number and amount of\
+  \ payments reviewed, prevented and recovered for future reporting.\n\n•\tA-123 Documentation\
+  \ and Internal Review: USDA continues to review operational evidence and A-123 documentation\
+  \ to identify validated instances where DNP-supported controls contributed to preventing\
+  \ or recovering improper payments, supporting both PIIA reporting and annual assurance\
+  \ statements.\n\nDuring FY 2026, USDA strengthened its payment integrity posture\
+  \ by increasing the use of automated controls and improving the accessibility of\
+  \ DNP tools across agencies. Portal activity, while reduced in volume, became more\
+  \ targeted; matched amounts declined substantially. TPV screening expanded dramatically,\
+  \ adding a robust automated layer that improved USDA’s ability to detect potential\
+  \ eligibility issues before disbursement.\n\nThese efforts directly support PIIA\
+  \ reporting requirements for identifying root causes, demonstrating risk mitigation\
+  \ activities, and documenting corrective actions.\n\nUSDA will continue to:\n* Expand\
+  \ automated DNP Connect and TPV integrations across programs.\n* Enhance workforce\
+  \ training to improve the quality and consistency of eligibility screening.\n* Strengthen\
+  \ monitoring and documentation required under OMB A-123 and PIIA, ensuring traceability\
+  \ between DNP-assisted reviews and improper payment prevention or recovery outcomes.\n\
+  * Refine analytic processes to increase early detection of risks and reduce reliance\
+  \ on manual review where automation can improve efficiency and accuracy.\n\nUSDA\
+  \ will enroll additional programs for the upcoming fiscal year and explore other\
+  \ options to improve our current services and data search eligibility with Do Not\
+  \ Pay.\n\n\nAnnually, the Department gathers, analyzes, and submits data to OMB\
+  \ to be presented on www.paymentaccuracy.gov: \n\n• Annual Risk Assessment Report;\n\
+  • Agency Annual High-Priority Program Report;\n• Annual Improper Payment Estimation\
+  \ Report; \n• Annual Report on Actions to Reduce Improper Payments; \n• Annual Report\
+  \ on Actions to Recover Improper Payments Identified in a Recovery Audit;\n• Agency\
+  \ Compliance Plan; and\n• Agency Noncompliance Report\n\n"
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: Funds recovered through audits are mostly used for the
   original purpose. In some cases, funds are returned to the Treasury.
-detail_Executive_Summary: "USDA maintains payment integrity by implementing a comprehensive,\
-  \ data‑driven framework that emphasizes early identification of risks, rigorous\
-  \ assessment of program operations, and transparent reporting in accordance with\
-  \ the Payment Integrity Information Act of 2019 (PIIA). USDA conducts statistically\
-  \ valid reviews, analyzes root causes of improper payments, and uses these insights\
-  \ to guide corrective action planning and technical assistance. The Department strengthens\
-  \ oversight through continuous monitoring, targeted verification activities, and\
-  \ alignment of reported data with authoritative sources such as PaymentAccuracy.gov.\
-  \ These efforts, combined with Federal- and State-level collaboration and ongoing\
-  \ evaluation of program changes, support USDA’s commitment to safeguarding Federal\
-  \ funds and ensuring that payments are issued accurately, timely, and in compliance\
-  \ with statutory requirements. According to the OIG report on Compliance with Improper\
-  \ Payment Requirements for FY 2025, USDA did not comply with three of the six PIIA\
-  \ requirements. The OIG determined that five Phase 2 programs did not fully meet\
-  \ PIIA standards, primarily due to improper payment rates exceeding the 10 percent\
-  \ statutory threshold, insufficient demonstration of year‑over‑year improvement,\
-  \ or the absence of required improper payment estimates. These challenges underscore\
-  \ the complexity of administering large-scale nutrition, conservation, and disaster\
-  \ assistance programs and highlight ongoing vulnerabilities documented by the OIG.\n\
-  \ \nThroughout FY 2026, USDA implemented and continued corrective actions designed\
-  \ to address identified root causes and control deficiencies. USDA also worked to\
-  \ reconcile AFR disclosures with PaymentAccuracy.gov submissions to improve the\
-  \ consistency of payment-integrity reporting.\nUSDA has committed to measurable\
+detail_Executive_Summary: "The U.S. Department of Agriculture (USDA) administers its\
+  \ payment integrity program in accordance with the Payment Integrity Information\
+  \ Act of 2019 (PIIA) and OMB Circular No. A-123, Appendix C. During FY 2026, USDA\
+  \ conducted payment integrity risk assessments, statistically valid improper payment\
+  \ reviews for susceptible programs, root-cause analysis, corrective action planning,\
+  \ overpayment identification and recovery activities, and preventive screening.\
+  \ USDA agencies used data matching, automated validations, targeted program reviews,\
+  \ state and county office oversight, case and payment reviews, technical assistance,\
+  \ training, and updates to policies, forms, and information systems to prevent and\
+  \ reduce improper and unknown payments.  According to OIG’s report on USDA’s compliance\
+  \ with improper-payment requirements for FY 2025, USDA was not compliant with PIIA\
+  \ and was noncompliant with three of the six applicable requirements. The FY 2025\
+  \ OIG review found that five USDA Phase 2 programs did not meet PIIA requirements\
+  \ because their improper-payment rates exceeded 10 percent, did not demonstrate\
+  \ sufficient year-over-year improvement, or lacked required estimates. USDA responded\
+  \ through program-specific corrective actions, stronger eligibility and documentation\
+  \ controls, improved reporting, and increased oversight. USDA has committed to measurable\
   \ milestones, strengthened oversight mechanisms, and targeted reforms designed to\
-  \ achieve full compliance. Several programs have established estimated completion\
-  \ dates for achieving reduction targets. Continued collaboration with OMB, state\
-  \ partners, and internal control offices will be critical in reducing improper payments,\
-  \ addressing systemic weaknesses, and ensuring the Department meets all PIIA requirements\
-  \ in future reporting cycles.\n\nPrograms identified as Phase 1 must perform a risk\
-  \ assessment every 3 years. In the interim years, should a program experience any\
-  \ significant legislative changes and/or significant increase in funding, a risk\
-  \ assessment may be done to determine if the program continues to be at low risk\
-  \ for making significant improper payments at or above the threshold levels set\
-  \ by OMB. During FY 2026, there were 182 phase 1 and 11 phase 2 programs administered\
-  \ by USDA component agencies and staff offices.\n\nIn FY 2026, the Department conducted\
-  \ risk assessments for 116 phase 1 programs. The risk assessments are used to identify\
-  \ the specific programs that the Department will monitor during FY 2027 because\
-  \ they are susceptible to making significant improper payments at or above the threshold\
-  \ levels established by OMB. USDA determined that 11 Phase 2 programs remained susceptible\
-  \ to significant improper payments at or above the statutory threshold. Of the Phase\
-  \ 1 programs that completed risk assessments, none were determined to be susceptible\
-  \ to making significant improper payments at or above the OMB threshold levels.\n\
-  \nFor all other programs categorized as Phase 1, a management certification was\
-  \ completed. The management certification requires the program to attest to whether\
-  \ material changes occurred since the last risk assessment. Should the program indicate\
-  \ a material change to the program, OCFO meets with program personnel to better\
-  \ understand the changes and what controls have been implemented to mitigate risk\
-  \ associated with improper payments. Depending on the outcome of that meeting, the\
-  \ program may be required to complete an off-cycle risk assessment the next fiscal\
-  \ year. \n\nThe dollar amount of overpayments identified and recovered through recovery\
-  \ activities increased from 2025 to 2026; USDA will continue efforts to confirm\
-  \ the root causes of this increase.\n\nDuring FY 2026, USDA had 11 programs that\
-  \ reported IP estimates.\n \nNational School Lunch Program (NSLP) and School Breakfast\
-  \ Program (SBP)\nFor the current reporting period, NSLP reported estimated improper\
-  \ payments (IPs) of $1,262.34 million, representing an IP rate of 6.49 percent,\
-  \ while SBP reported estimated IPs of $446.72 million, representing an IP rate of\
-  \ 6.78 percent. NSLP’s prior-period estimate was $1,389.60 million, or 6.98 percent,\
-  \ so its estimated improper payment amount decreased by approximately $127.26 million\
-  \ and its rate decreased by 0.49 percentage points, indicating improved payment\
-  \ integrity results. SBP’s prior period estimate was $428.20 million, or 7.24 percent,\
-  \ so its estimated IP amount increased by approximately $18.52 million, while its\
-  \ rate decreased by 0.46 percentage points. For both programs, the primary causes\
-  \ of improper payments were certification errors involving household income, household\
-  \ size, application processing, eligibility determinations, and errors in matching\
-  \ applicants with other programs that confer categorical eligibility for free or\
-  \ reduced-price meals. A secondary cause was aggregation error, which may occur\
-  \ when schools, school food authorities, or state agencies count, sum, review, and\
-  \ transmit reimbursable meal information. To mitigate these causes, USDA provided\
-  \ Community Eligibility Provision (CEP) assistance via technical assistance, webinars,\
-  \ written resources, and training, and continued supporting Direct Certification\
-  \ with Medicaid, which had been adopted by 44 states as of FY 2026. USDA also continued\
-  \ developing the APEC IV study, which is expected to provide a more current baseline\
-  \ for NSLP and SBP IP estimates and includes an examination of integrity features\
-  \ in online applications for free and reduced-price meal benefits. APEC-III developed\
-  \ separate certification error rates for children enrolled in CEP and non-CEP schools.\
-  \ These rates differ because non-CEP schools rely, in part, on household applications\
-  \ to certify children for benefits while CEP schools rely entirely on data matching.\
-  \ USDA applied these rates to the current (school year 2024-2025) mix of children\
-  \ in CEP and non-CEP schools to estimate the certification component of this reporting\
-  \ year’s NSLP and SBP improper payments. USDA applied APEC-III’s aggregation error\
-  \ rate to the combined enrollment in CEP and non-CEP schools for the aggregation\
-  \ component of the current year’s IPs. This is the same methodology that USDA used\
-  \ last year. The IP rates change because of the change in total and relative enrollment\
-  \ in CEP and non-CEP schools from the previous reporting year.\n\nThe Child and\
-  \ Adult Care Food Program (CACFP)\nCACFP reported an IP estimate of $449.82 million,\
-  \ representing an IP rate of 10.59 percent. In the prior reporting period, CACFP\
-  \ reported estimated IPs of $445.8 million and an IP rate of 10.5 percent; therefore,\
-  \ the estimated IP amount increased by approximately $4.02 million, and the IP rate\
-  \ increased by 0.09 percentage points. The primary causes of IPs in the center-based\
-  \ component were errors in processing household income applications and determining\
-  \ whether facilities qualified for approved low-income area eligibility, while additional\
-  \ errors occurred when centers, sponsors, and states aggregated and reported meal\
-  \ claims. In family day care homes, causes included incorrect Tier I or Tier II\
-  \ reimbursement determinations and discrepancies between meals recorded at the point\
-  \ of service and meals actually served. USDA updated its area eligibility error\
-  \ rate for at-risk centers and its tiering error rate for family day care homes\
-  \ with new sponsor-level data provided by the states through a USDA survey. This\
-  \ periodic refinement of USDA’s error rate is responsible for the small change in\
-  \ the program’s overall IP rate. USDA also updated the most recent sample-based\
-  \ estimates using administrative data, a routine part of its annual IP process.\
-  \ During FY 2026, USDA conducted a meal claims validation study involving site visits\
-  \ and reviews of disaggregated meal-claim records in 10 states to identify payment-error\
-  \ patterns and weaknesses in sponsor oversight. USDA also updated the Area Eligibility\
-  \ map with FY 2026 data, and awarded just under $10 million for FY 2026 CACFP Integrity\
-  \ Technology Innovation Grants to support modernized information technology systems\
-  \ aimed at improving automation, streamlining reporting, improving monitoring, and\
-  \ enhancing accountability. During the reporting period, CACFP’s mitigation strategy\
-  \ expanded its emphasis on site-level data analysis, targeted technical assistance,\
-  \ improved area-eligibility tools, and technology modernization to address identified\
-  \ causes of IPs. \n\nSummer Electronic Benefit Transfer Program for Children (Summer-EBT)\
-  \ \nSummer-EBT reported an Improper Payment (IP) estimate for the first time during\
-  \ this reporting cycle. Summer EBT reported estimated IPs of $175.51 million, representing\
-  \ an IP rate of 5.66 percent. This is the program’s first year reporting an IP estimate,\
-  \ therefore, there is no prior reporting period estimate against which to measure\
-  \ an increase or decrease in the amount or rate. IPs primarily result from errors\
-  \ in determining children’s eligibility, including errors in NSLP certification,\
-  \ direct certification by NSLP agencies and streamlined certification by Summer-EBT\
-  \ agencies through means-tested programs, and the processing of dedicated Summer-EBT\
-  \ applications. Additional IPs result from issuance errors reported by states, including\
-  \ over- or under-issuances, household errors, vendor or retailer errors, and other\
-  \ program violations or claims. To mitigate these causes, USDA required participating\
-  \ states and Indian Tribal Organizations to complete a Summer EBT Special Review\
-  \ that collected information about program operations, violations, errors, and claims\
-  \ and helped identify potential integrity weaknesses. USDA also issued the “Promoting\
-  \ Integrity in the Summer EBT Program” policy memorandum, which emphasizes maintaining\
-  \ accurate eligibility lists and data systems, preventing duplicate participation,\
-  \ investigating suspected violations, and pursuing claims for erroneous payments.\
-  \ During the reporting period, USDA amended the 2026 Plans for Operations and Management\
+  \ achieve full compliance. USDA also worked to reconcile its Agency Financial Report\
+  \ disclosures with information reported on PaymentAccuracy.gov. Although some programs\
+  \ have established target dates for individual corrective actions or reduction targets,\
+  \ USDA cannot provide a department-wide date for achieving full PIIA compliance\
+  \ because compliance depends on future improper-payment results and successful implementation\
+  \ of corrective actions across the affected programs.  \n\nPhase 1 programs complete\
+  \ risk assessments every three years and may undergo off-cycle assessments following\
+  \ material legislative, funding, or operational changes. USDA completed 116 risk\
+  \ assessments in FY 2026 for Phase 1 programs; none of the assessed Phase 1 programs\
+  \ was found susceptible to significant improper payments, while 11 Phase 2 programs\
+  \ remained susceptible. For all other programs categorized as Phase 1, a management\
+  \ certification was completed. The management certification requires the program\
+  \ to attest to whether material changes have occurred since the last risk assessment.\
+  \ In FY 2026, eleven Phase 2 programs reported IP estimates.  \n\nFor the current\
+  \ reporting period, the National School Lunch Program (NSLP) reported estimated\
+  \ improper payments (IPs) of $1,262.34 million, representing an IP rate of 6.49\
+  \ percent, while the School Breakfast Program (SBP) reported estimated IPs of $446.72\
+  \ million, representing an IP rate of 6.78 percent. NSLP’s prior-period estimate\
+  \ was $1,389.60 million, or 6.98 percent, so its estimated improper payment amount\
+  \ decreased by approximately $127.26 million and its rate decreased by 0.49 percentage\
+  \ points, indicating improved payment integrity results. SBP’s prior period estimate\
+  \ was $428.20 million, or 7.24 percent, so its estimated IP amount increased by\
+  \ approximately $18.52 million, while its rate decreased by 0.46 percentage points.\
+  \ For both programs, the primary causes of improper payments were certification\
+  \ errors involving household income, household size, application processing, eligibility\
+  \ determinations, and errors in matching applicants with other programs that confer\
+  \ categorical eligibility for free or reduced-price meals. A secondary cause was\
+  \ aggregation error. To mitigate these causes, USDA provided Community Eligibility\
+  \ Provision (CEP) assistance via technical assistance, webinars, written resources,\
+  \ and training, and continued supporting Direct Certification with Medicaid, which\
+  \ had been adopted by 44 states as of FY 2026. APEC-III developed separate certification\
+  \ error rates for children enrolled in CEP and non-CEP schools. The IP rates changed\
+  \ because of the changes in total and relative enrollment in CEP and non-CEP schools\
+  \ from the previous reporting year. \n\nThe Child and Adult Care Food Program (CACFP)\
+  \ reported an IP estimate of $449.82 million, representing an IP rate of 10.59 percent.\
+  \ In the prior reporting period, CACFP reported estimated IPs of $445.8 million\
+  \ and an IP rate of 10.5 percent; therefore, the estimated IP amount increased by\
+  \ approximately $4.02 million, and the IP rate increased by 0.09 percentage points.\
+  \ The primary causes of IPs in the center-based component were errors in processing\
+  \ household income applications and determining whether facilities qualified for\
+  \ approved low-income area eligibility. In family day care homes, causes included\
+  \ incorrect Tier I or Tier II reimbursement determinations and discrepancies between\
+  \ meals recorded at the point of service and meals served. USDA updated its area\
+  \ eligibility error rate for at-risk centers and its tiering error rate for family\
+  \ day care homes with new sponsor-level data provided by the states. This periodic\
+  \ refinement of USDA’s error rate is responsible for the small change in the program’s\
+  \ overall IP rate. During the reporting period, CACFP’s mitigation strategy expanded\
+  \ its emphasis on site-level data analysis, targeted technical assistance, improved\
+  \ area-eligibility tools, and technology modernization to address identified causes\
+  \ of IPs. \n\nSummer Electronic Benefit Transfer Program for Children (Summer-EBT)\
+  \ reported its first estimate: $175.51 million and a 5.66 percent rate. No prior-period\
+  \ comparison is available. IPs primarily result from errors in determining children’s\
+  \ eligibility, including errors in NSLP certification, direct certification by NSLP\
+  \ agencies and streamlined certification by Summer-EBT agencies through means-tested\
+  \ programs, and the processing of dedicated Summer-EBT applications. To mitigate\
+  \ these causes, USDA conducted a Special Review and issued guidance on eligibility\
+  \ and data accuracy, duplicate participation, investigations, and claims. During\
+  \ the reporting period, USDA amended the 2026 Plans for Operations and Management\
   \ template to require agencies to describe internal integrity controls and explain\
   \ how program operations and interagency coordination support program integrity,\
   \ and USDA provided individualized technical assistance based on weaknesses identified\
   \ during the 2025 implementation. The first-year methodology used the NSLP certification-error\
-  \ rate as a proxy for certification error among children determined eligible through\
-  \ NSLP, direct certification, or comparable Summer EBT application processes.\n\n\
-  The Supplemental Nutrition Assistance Program (SNAP) \nSNAP reported an improper\
-  \ payment estimate during the reporting cycle. SNAP reported total outlays of $95,033.72\
-  \ million and estimated improper payments of $10,089.48 million, representing an\
-  \ improper payment rate of 10.62 percent. In the prior reporting period, SNAP reported\
-  \ estimated improper payments of $10,220.52 million and an improper payment rate\
-  \ of 10.93 percent. Accordingly, the estimated improper payment amount decreased\
-  \ by approximately $131.04 million, and the improper payment rate decreased by 0.31\
-  \ percentage points, indicating improved payment integrity results compared with\
-  \ the prior reporting period. The errors were associated with eligibility determinations,\
-  \ inaccurate or incomplete household information, income and deduction calculations,\
-  \ benefit amounts, and the timely and accurate processing of case information. SNAP’s\
-  \ payment integrity activities included state quality control reviews, data matching,\
-  \ case file reviews, targeted monitoring, error analysis, state oversight, and technical\
-  \ assistance designed to identify the source of payment errors and support corrective\
-  \ action. Major mitigation actions included strengthening eligibility and documentation\
-  \ controls, improving state reporting and oversight, using quality control findings\
-  \ to identify recurring error trends, and providing technical assistance to state\
-  \ agencies to address identified weaknesses. During the reporting period, USDA continued\
-  \ to emphasize state level root-cause analysis and corrective action implementation.\
-  \ \n\n\nThe Summer Food Service Program for Children (SFSP) \nSFSP reported an IP\
-  \ estimate for the first time during this reporting cycle. SFSP reported estimated\
-  \ IPs of $70.66 million, representing an IP rate of 9.04 percent. Because this is\
-  \ the first year SFSP has reported an IP estimate, there is no prior reporting-period\
-  \ estimate available to determine whether the IP amount or rate increased or decreased.\
-  \ The primary causes of SFSP IPs are errors in counting and claiming meals for reimbursement,\
-  \ including differences between meals observed at program sites and meal counts\
-  \ reported by site staff, sponsors, and state agencies. Additional potential causes\
-  \ include errors in determining area eligibility and rural status, particularly\
-  \ for rural non-congregate meal sites, as well as errors involving parent or guardian\
-  \ pickup, site caps, site proximity, and home delivery. To mitigate these causes,\
-  \ USDA continued developing the SFSP IP study under its Sampling and Estimation\
-  \ Methodology Plan and collected data through unannounced site visits, observations\
-  \ of meal service, and reviews of state and sponsor provided meal records. During\
-  \ the reporting period, USDA released updated guidance, question-and-answer materials,\
-  \ webinars, and other resources addressing integrity controls for non-congregate\
-  \ meal service. USDA also updated the Area Eligibility map with FY 2026 data and\
-  \ continued weekly updates to the Summer Meals for Kids Site Finder using standardized\
-  \ state reporting for non-congregate sites. The payment integrity methodology used\
-  \ for this first SFSP estimate incorporated site-level observations, meal-claim\
-  \ records, and new area-eligibility study results; because this is the initial reporting\
-  \ year, the methodology establishes a baseline rather than measuring a change from\
-  \ a prior period.\n\nCCC Agriculture Risk Coverage Program (ARC)\nThe Agriculture\
-  \ Risk Coverage Program (ARC) reported an improper payment rate of 6.36%; the current-year\
-  \ improper payment amount is $30.39 million dollars. In prior reporting cycles ARC\
-  \ was merged with the Price Loss Coverage Program (PLC) for PIIA reporting purposes.\
-  \ In the prior reporting period, ARC/PLC reported $18.66 million in improper payments\
-  \ and an improper payment rate of 6.71%. The improper payment rate decreased by\
-  \ 0.35 percentage points, from 6.71% to 6.36%. The agency changed the FY 2026 payment-integrity\
-  \ testing methodology by refining testing criteria so that payments are assessed\
-  \ solely against statutory and regulatory requirements, which produced more accurate\
-  \ and compliant improper-payment assessments. The specific causes that contributed\
-  \ to ARC improper payments were primarily failure to access necessary data and information\
-  \ and failure to meet statutory requirements attributed to payment limitation and\
-  \ eligibility, acreage reporting, and conservation compliance errors. The FY 2025\
-  \ USDA OIG report found that ARC/PLC complied with all six Payment Integrity Information\
-  \ Act requirements, including reporting an improper payment rate below 10% and demonstrating\
-  \ payment-integrity improvement. The OIG also reported that the prior recommendation\
-  \ concerning ARC/PLC payment-integrity improvement was closed. ARC mitigation actions\
-  \ completed include enhanced acreage reporting software and nationally held payment\
-  \ limitation and acreage reporting training. Corrective actions are planned to address\
-  \ the root causes attributed to human error such as planned conservation compliance\
-  \ training and focused training on the documents and signatures required before\
-  \ payments are issued. \n\nCCC Livestock Forage Disaster Program (LFP)\nLFP reported\
-  \ an improper payment rate of 4.55%; the current-year improper payment amount is\
-  \ $41.56 million dollars. In the prior reporting period, LFP reported $77.04 million\
-  \ in improper payments and an improper payment rate of 6.41%. LFP’s improper payment\
-  \ rate decreased by 1.86 percentage points, from 6.41% to 4.55%, representing a\
-  \ 29 percent improvement in payment-integrity results. USDA’s OIG reported that\
-  \ LFP met all six FY 2025 PIIA requirements, including demonstrating improvement\
-  \ and reporting an improper payment rate below 10 percent; and the prior recommendation\
-  \ concerning LFP reporting an improper payment rate above 10 percent was closed.\
-  \ The agency changed the FY 2026 payment-integrity testing methodology by refining\
-  \ testing criteria so that payments are assessed solely against statutory and regulatory\
-  \ requirements, which produced more accurate and compliant improper-payment assessments.\
-  \ Improper payments were primarily caused by failure to access necessary data and\
-  \ information and failure to meet statutory requirements. Issues with leases were\
-  \ the most frequent contributor to improper dollars and the most frequent improper\
-  \ payment occurrences were acreage reporting errors. The national office held routine\
-  \ monthly training and discussions with state office personnel focused on policy\
-  \ review and program issues, and to specifically address frequent improper payment\
-  \ errors. To strengthen internal controls over this program, the national office\
-  \ required review of the first five LFP applications submitted to each service center\
-  \ beginning in August 2026. Additional mitigation actions include continued monthly\
-  \ calls for training and discussion purposes, additional software automation to\
-  \ prevent human errors, and continued oversight to reduce the risk of improper payments.\
-  \ \n\nCCC Noninsured Crop Disaster Assistance Program (NAP)\nThe Commodity Credit\
-  \ Corporation (CCC) Noninsured Crop Disaster Assistance Program (NAP) reported improper\
-  \ payments of $20.65 million dollars and an improper payment rate of 7.28%. In the\
-  \ prior reporting period, NAP reported $19.62 million in improper payments and an\
-  \ improper payment rate of 10.56%. NAP’s improper payment rate decreased by 3.28\
-  \ percentage points, from 10.56% to 7.28%. The change in the current year’s improper\
-  \ payment amount is a 31 percent improvement in payment integrity results. The agency\
-  \ changed the FY 2026 payment-integrity testing methodology by refining testing\
-  \ criteria so that payments are assessed solely against statutory and regulatory\
-  \ requirements, which produced more accurate and compliant improper-payment assessments.\
-  \ The most frequent FY 2026 review findings involved incorrect acres, colonies,\
-  \ or taps; incorrect harvested or appraised production; and producer signatures\
-  \ not obtained on yield documentation by the final production reporting date. In\
-  \ FY 2025, NAP was noncompliant with PIIA for the third consecutive year because\
-  \ its 10.56% improper payment rate exceeded the 10% threshold, although the program\
-  \ published its estimate, corrective action plan, and reduction targets. FSA released\
-  \ Crop Acreage Reporting System enhancements in March 2025, effective for program\
-  \ year 2026, to improve the identification and monitoring of late-filed acreage\
-  \ reports, and it plans to automate the manual Grass for Grazing calculation process\
-  \ in late FY 2027. FSA is mitigating the root causes of improper payments through\
-  \ policy revisions addressing production reporting, commingled production, late-filed\
-  \ acreage reporting, and assigned Animal Unit Day calculations; via employee acreage-reporting\
-  \ training; and by conducting monthly training calls for State NAP specialists."
+  \ rate as a proxy for certification error.  \n\nSupplemental Nutrition Assistance\
+  \ Program (SNAP) reported $10,089.48 million and a 10.62 percent rate, compared\
+  \ with $10,220.52 million and 10.93 percent previously. The amount decreased by\
+  \ $131.04 million and the rate by 0.31 percentage points. Errors related to eligibility\
+  \ determinations, household information, income and deduction calculations, benefit\
+  \ amounts, and case processing. Major mitigation actions included strengthening\
+  \ eligibility and documentation controls, improving state reporting and oversight,\
+  \ using quality control findings to identify recurring error trends, and providing\
+  \ technical assistance to state agencies to address identified weaknesses. During\
+  \ the reporting period, USDA continued to emphasize state level root-cause analysis\
+  \ and corrective action implementation.  \n\nThe Summer Food Service Program for\
+  \ Children (SFSP) reported an IP estimate for the first time during this reporting\
+  \ cycle. SFSP reported estimated IPs of $70.66 million, representing an IP rate\
+  \ of 9.04 percent. Because this is the first year SFSP has reported an IP estimate,\
+  \ there is no prior reporting-period estimate available to determine whether the\
+  \ IP amount or rate increased or decreased. The primary causes of SFSP IPs are errors\
+  \ in counting and claiming meals for reimbursement. To mitigate these causes, USDA\
+  \ continued developing the SFSP IP study under its Sampling and Estimation Methodology\
+  \ Plan and collected data through site visits, observations, and reviews of meal\
+  \ records. USDA released updated guidance, question-and-answer materials, webinars,\
+  \ and updated the Area Eligibility map with FY 2026 data. The payment integrity\
+  \ methodology incorporated site-level observations, meal-claim records, and new\
+  \ area-eligibility study results; because this is the initial reporting year, the\
+  \ methodology establishes a baseline. \n\nAgriculture Risk Coverage Program (ARC)\
+  \ reported $30.39 million and a 6.36 percent rate; the prior combined ARC/Price\
+  \ Loss Coverage (PLC) estimate was $18.66 million and 6.71 percent and is not directly\
+  \ comparable. The current rate was 0.35 percentage points lower than the prior combined\
+  \ rate. Errors involved payment eligibility and limitations, acreage reporting,\
+  \ conservation compliance, and access to necessary data. USDA enhanced acreage-reporting\
+  \ software and provided payment-limitation and acreage-reporting training. Planned\
+  \ actions include conservation-compliance and documentation training. USDA refined\
+  \ testing to evaluate payments solely against applicable statutory and regulatory\
+  \ requirements. \n\nLivestock Forage Disaster Program (LFP) reported $41.56 million\
+  \ and a 4.55 percent rate, compared with $77.04 million and 6.41 percent previously.\
+  \ The rate decreased by 1.86 percentage points, an approximately 29 percent relative\
+  \ reduction. Errors primarily involved leases, acreage reporting, unavailable data,\
+  \ and unmet statutory requirements. USDA conducted monthly training and began reviewing\
+  \ the first five applications at each service center. Planned actions include additional\
+  \ automation, training, and oversight. USDA refined testing to evaluate payments\
+  \ solely against statutory and regulatory requirements. \n\nNoninsured Crop Disaster\
+  \ Assistance Program (NAP) reported $20.37 million and a 7.18 percent rate, compared\
+  \ with $19.62 million and 10.56 percent previously. The amount increased by $0.75\
+  \ million, but the rate decreased by 3.38 percentage points. Errors involved acreage,\
+  \ production, signatures, yield documentation, and statutory requirements. USDA\
+  \ enhanced acreage-reporting software and revised policies on production, acreage,\
+  \ and grazing calculations. Additional actions include training and planned automation\
+  \ of Grass for Grazing calculations in FY 2027. USDA refined testing to evaluate\
+  \ payments solely against statutory and regulatory requirements. \n\nEmergency Conservation\
+  \ Program (ECP) reported $19.84 million and a 5.45 percent rate, compared with $73.71\
+  \ million and 55.50 percent previously. The rate decreased by 50.05 percentage points.\
+  \ Errors involved payment scenarios, environmental compliance, forms, signatures,\
+  \ acreage, certifications, and missing documentation. USDA implemented modernized\
+  \ software, automated calculations, data exchanges, prompts, validations, revised\
+  \ checklists, reviews, and training. Additional guidance and scenario-based training\
+  \ are planned for FY 2027. Both corrective actions and refined statutory-and-regulatory\
+  \ testing criteria contributed to the results. \n\nFederal Crop Insurance Corporation\
+  \ Program Fund (FCIC) reported $1,161.58 million and a 5.61 percent rate, compared\
+  \ with $755.03 million and 3.29 percent previously. The amount increased by $406.55\
+  \ million and the rate by 2.32 percentage points. An increase in RMA's improper\
+  \ payment dollars or error rate does not, by itself, indicate ineffective Corrective\
+  \ Action Plans or diminished progress toward program integrity. Errors involved\
+  \ unsupported certifications, insufficient documentation, failure to follow federal\
+  \ requirements, calculations, and data entry. RMA used targeted reviews, analytics,\
+  \ prepayment controls, AIP performance reviews, policy updates, notification letters,\
+  \ and industry outreach. Planned actions include a data-mining tool for share-certification\
+  \ errors and targeted analysis of Standard Reinsurance Agreement compliance."
+detail_OIG_Recommendations: "For FY 2025, the USDA Office of Inspector General (OIG)\
+  \ determined that USDA did not comply with three of the six Payment Integrity Information\
+  \ Act of 2019 (PIIA) requirements. The OIG identified five noncompliant Phase 2\
+  \ programs: the Summer Food Service Program (SFSP), Emergency Conservation Program-Disasters\
+  \ (ECP-Disasters), Child and Adult Care Food Program (CACFP), Supplemental Nutrition\
+  \ Assistance Program (SNAP), and Noninsured Crop Disaster Assistance Program (NAP).\
+  \ SFSP was noncompliant with Criterion 3, which requires publication of improper-payment\
+  \ and unknown-payment estimates for Phase 2 programs. ECP-Disasters and CACFP were\
+  \ noncompliant with Criterion 5, concerning payment-reduction targets and demonstrated\
+  \ improvement, and Criterion 6, which requires a reported improper payment rate\
+  \ below 10 percent. SNAP and NAP were noncompliant with Criterion 6 because their\
+  \ reported improper payment rates exceeded the 10-percent threshold. \n\n\nFSA Emergency\
+  \ Conservation Program-Disasters (ECP) \nECP was noncompliant with Criterion 5 because\
+  \ it did not demonstrate improvement in payment integrity or achieve its improper\
+  \ payment reduction target; the program was found noncompliant with Criterion 6\
+  \ because its FY 2025 IP/UP rate of 55.50 percent exceeded the 10-percent statutory\
+  \ threshold. ECP was noncompliant for the fifth consecutive fiscal year, subjecting\
+  \ the program to enhanced PIIA reporting requirements on compliance activities taken\
+  \ or ongoing, new corrective actions, and a timeline for achieving compliance. The\
+  \ OIG concluded that FSA had not effectively addressed root causes nor implemented\
+  \ controls and corrective actions sufficient to achieve the required payment integrity\
+  \ improvement, nor reduce the IP error rate below 10 percent. The highest-frequency\
+  \ findings involved missing or inadequate producer-contribution statements, missing\
+  \ performance certifications before payment, inadequate environmental or conservation\
+  \ compliance documentation, inadequate cost-share itemization, and insufficient\
+  \ evidence that financial-responsibility requirements were met. For Criterion 5,\
+  \ the OIG recommended that FSA continuously improve mitigation strategies, evaluate\
+  \ existing controls, implement stronger preventive and detective controls, and take\
+  \ additional root-cause-based corrective actions when rates do not improve. For\
+  \ Criterion 6, the OIG recommended that FSA and OCFO assess the effectiveness of\
+  \ Agency- and State-level actions, monitor their implementation, develop State-specific\
+  \ Corrective Action Plans, and target causes associated with the highest improper\
+  \ payment percentages. FSA has implemented modernized ECP software with automated\
+  \ payment calculations, State-specific payment scenarios, geographic information\
+  \ system mapping, required document uploads, statutory payment-limit controls, and\
+  \ automated performance-certification validation. Milestones associated with Criteria\
+  \ 5 and 6 include the new software released in January 2024, enhanced dashboard\
+  \ capabilities in October 2024, strengthened administrative oversight using the\
+  \ FSA Form CCC-770 in July 2025, additional software validations in June 2026, and\
+  \ planned completion of the Internal Review and Documentation Tracking System (IRDTS)\
+  \ producer compliance review process during 2026. FY 2026 testing of payments processed\
+  \ through the modernized system is the principal effectiveness milestone for both\
+  \ criteria, but FSA should provide a final projected compliance date, interim rate-reduction\
+  \ targets, and measures demonstrating whether the actions reduced the program's\
+  \ rate below 10 percent.\n\nNoninsured Crop Disaster Assistance Program  (NAP)\n\
+  NAP was found noncompliant with Criterion 6 because its FY 2025 IP/UP rate was 10.56\
+  \ percent. NAP exceeded the 10 percent statutory threshold for the third consecutive\
+  \ fiscal year. The OIG concluded that inadequate internal controls and corrective\
+  \ actions contributed to recurring errors involving payment eligibility and limitations,\
+  \ verification of payment accuracy, and missing or incomplete documentation. The\
+  \ highest-frequency findings involved incorrect acres, colonies, or taps used in\
+  \ payment calculations; missing producer signatures on required forms; incorrect\
+  \ harvested or appraised production; and payments made when the payee did not share\
+  \ in the risk of producing the crop. The OIG recommended that FSA evaluate whether\
+  \ corrective actions are effective, monitor Agency- and State-level controls, develop\
+  \ targeted Corrective Action Plans for recurring root causes, and complete the additional\
+  \ third-year noncompliance reporting required by PIIA. To address Criterion 6, FSA\
+  \ revised policies related to production reporting, commingled production, late-filed\
+  \ acreage reporting; conducted trainings on grazing calculations and issued 15 national\
+  \ acreage-reporting training modules; and established recurring monthly technical\
+  \ assistance calls with State NAP specialists through the end of FY 2026. Completed\
+  \ Criterion 6 improvement milestones include policy changes in April 2024, issuance\
+  \ of national acreage-reporting training in November 2024, crop acreage-reporting\
+  \ system (CARS) software enhancements in March 2025, production policy revisions\
+  \ in June 2025, and addition of FY 2025 testing data to the Internal Controls PIIA\
+  \ Findings Dashboard in September 2025. Automation of the manual Grass for Grazing\
+  \ calculation, intended to reduce manual data entry errors, remains ongoing and\
+  \ is scheduled for implementation in late FY 2027. The CARS software enhancements\
+  \ implemented for program year 2026 are expected to affect NAP IP testing beginning\
+  \ in FY 2027. \n\nSummer Food Service Program (SFSP) (Finding No. 25-01-FNA) \n\
+  SFSP was found to be non-compliant with criterion 3 which requires the Food and\
+  \ Nutrition Administration (FNA) to publish improper payment estimates for all programs\
+  \ and activities identified as susceptible to improper payments under its risk assessment.\
+  \ The non-compliance was the result of having not yet implemented a method to assess\
+  \ and report a rate. The Office of the Inspector General (OIG) recommended that:\
+  \ 1) FNA continue work on the planned study to develop an error rate for SFSP, which\
+  \ is described in FNA's Sampling and Estimation Methodology Plan (S&EMP), and 2)\
+  \ FNA also report measurable milestones to be accomplished in order to achieve compliance.\n\
+  \nBased on further review of the options for SFSP, FNA determined that the SFSP\
+  \ data collected to date (through the methodology outlined in prior year S&EMPs)\
+  \ was of sufficient quality to support the development of an improper payment rate\
+  \ for fiscal year (FY) 2025. The FNA has reported that estimated rate to the Office\
+  \ of Management and Budget (OMB) for FY 2026 reporting purposes for publication\
+  \ on paymentaccuracy.gov. For the longer term, FNA remains focused on reducing SFSP\
+  \ program error and strengthening its improper payment reporting. To this end, FNA\
+  \ undertook new research in FY 2026 that will, at a minimum, add to FNA's current\
+  \ understanding of error in the program. The research begun in FY 2026 may also\
+  \ allow FNA to eventually replace the current improper payment methodology with\
+  \ one that is more efficient and cost effective. \n\nThe Child and Adult Care Food\
+  \ Program (CACFP) (Finding No. 25-02-FNA)\nCACFP was found to be non-compliant with\
+  \ criterion 5b which requires FNA to demonstrate improvements to payment integrity\
+  \ or reach a tolerable improper payment (IP) and unknown payment (UP) rate. The\
+  \ non-compliance was the result of CACFP not reaching its payment reduction IP/UP\
+  \ target rate and not adequately demonstrating improvements to payment integrity.\
+  \ The OIG recommended that the agency take the following actions to ensure compliance\
+  \ with the PIIA: 1) Maintain a focus on continuous improvement in the development\
+  \ and implementation of new mitigation strategies, and 2) where applicable and cost\
+  \ effective, implement automated enhancements to better prevent and detect errors.\
+  \ \n\nFNA concurred with the OIG recommendation but notes that the main driver of\
+  \ the CACFP rate increase was the inclusion of an estimate for one type of error\
+  \ in the CACFP Family Day Care Homes (FDCHs) that FNA had not previously estimated\
+  \ or reported. The inclusion resolved a prior OIG non-compliance, but as the rates\
+  \ between FY 2024 (FY 2025 reporting) and FY 2025 (FY 2026 reporting) differ in\
+  \ scope they are not directly comparable. \n\nFNA continues to work on strategies\
+  \ to reduce its CACFP error rate, including those underway prior to issuance of\
+  \ the OIG recommendation. These include a comprehensive CACFP meal claims validation\
+  \ effort begun in Spring 2026, where FNA staff visited CACFP facilities and reviewed\
+  \ meal claim records and supporting documentation from 10 states. This review identified\
+  \ instances of non-compliance with program rules and/or inadequate recordkeeping\
+  \ in each of the project states. FNA is using these findings to develop actionable\
+  \ reforms tailored to each state's specific problems. FNA is also planning to apply\
+  \ broader lessons from the project to the development of new or updated program\
+  \ guidance and possible long-term rulemaking that focuses on root causes of error\
+  \ and possible automated validation checks. \n\nThe Supplemental Nutrition Assistance\
+  \ Program (SNAP) and the Child and Adult Care Food Program (CACFP)  (Finding No.\
+  \ 25-03-FNA)\nWere found to be non-compliant with criterion 6 which requires FNA\
+  \ to achieve an IP and UP rate of less than 10 percent. For SNAP, the non-compliance\
+  \ was the result of reporting a total IP/UP rate of 10.93 percent, though this was\
+  \ a decrease from the previous year. For CACFP, the non-compliance was the result\
+  \ of reporting a total IP/UP rate of 10.50 percent, which was an increase of 1.67\
+  \ percent from the previous year. The OIG recommended that the agency take the following\
+  \ actions to ensure compliance with PIIA: 1) Improve processes and efforts to evaluate\
+  \ the effectiveness of corrective actions to assist in the reduction of the improper\
+  \ payments estimate rate below the 10 percent threshold, 2) Re-evaluate and continue\
+  \ monitoring agency-level corrective actions corresponding to the identified root\
+  \ causes of improper payments, 3) Re-evaluate and continue ongoing monitoring of\
+  \ the state-level corrective actions and ensure that these corrective actions are\
+  \ being implemented, 4) Continue working with states to identify state-specific\
+  \ corrective action plans and ensure that these corrective actions are being implemented,\
+  \ and 5) Enhance corrective actions to specifically target and address the primary\
+  \ root causes associated with the highest improper payment percentage.\n\nFor SNAP,\
+  \ FNA continues to build on efforts to equip State agencies (SAs) with the knowledge\
+  \ and tools needed to address the root causes of their SNAP payment errors. FNA\
+  \ will conduct technical assistance and training to assist SAs in identifying payment\
+  \ error causes and specific corrective actions to address them. In addition, FNA\
+  \ will continue to share information about its Keys to Payment Accuracy, which shares\
+  \ key strategies SAs have used to improve payment accuracy. FNA also plans to continue\
+  \ to support SAs in improving earned income verification, to address a common source\
+  \ of payment error nationwide.\n\nFor CACFP, FNA concurred with the OIG recommendation\
+  \ but notes that a factor in the CACFP rate increase to over 10 percent was the\
+  \ inclusion of an estimate for one type of error in the CACFP Family Day Care Homes\
+  \ (FDCHs) that FNA had not previously estimated or reported. The inclusion resolved\
+  \ a prior OIG non-compliance, but as the rates between FY 2024 (FY 2025 reporting)\
+  \ and FY 2025 (FY 2026 reporting) differ in scope they are not directly comparable.\
+  \ \n\nFNA continues to work on strategies to reduce its CACFP error rate, including\
+  \ those underway prior to issuance of the OIG recommendation. These include a comprehensive\
+  \ CACFP meal claims validation effort begun in Spring 2026, where FNA staff visited\
+  \ CACFP facilities and reviewed meal claim records and supporting documentation\
+  \ from 10 states. This review identified instances of non-compliance with program\
+  \ rules and/or inadequate recordkeeping in each of the project states. FNA is using\
+  \ these findings to develop actionable reforms tailored to each state's specific\
+  \ problems. FNA is also planning to apply broader lessons from the project to the\
+  \ development of new or updated program guidance and possible long-term rulemaking\
+  \ that focuses on root causes of error and possible automated validation checks.\
+  \ \n\n\n"
 detail_Overpayment_Conditions_And_Methods: 'Overpayments are identified through RMA’s
   Compliance Activities and Results System (CARS) in accordance with Standard Reinsurance
   Agreement requirements. RMA utilizes the results of a variety of audits and reviews
   to compile data, conduct complex survey analytics, identify root causes, and determine
-  the amount of improper payments.  The data collected consists of but is not limited
+  the amount of improper payments. The data collected consists of but is not limited
   to; the type of error(s) that led to the improper payment, the stage at which the
-  payment became improper, and who was responsible for the payment becoming improper.  This
-  comprehensive analysis allows RMA to identify the root cause of improper payments
+  payment became improper, and who was responsible for the payment becoming improper.
+  This comprehensive analysis allows RMA to identify the root cause of improper payments
   and develop an effective corrective action plan.
 
+
   For the Rural Housing Service (RHS), improper payments are identified through supervisory
-  visits.  Documentation is reviewed for accuracy and changes in income levels and
-  individuals living in the residence.  If is identified that a tenent was overpaid,
+  visits. Documentation is reviewed for accuracy and changes in income levels and
+  individuals living in the residence.  If it is identified that a tenant was overpaid,
   they are advised and a receivable is established in the accounting system. Conditions
   that give rise to improper payments are if a tenant misstated their income or how
   many people are living in the unit or if the owner did not update the paper work
-  to indicate that the unit was vacant.   The supervisory visits, plus verifying wage
+  to indicate that the unit was vacant. The supervisory visits, plus verifying wage
   match by state help catch and correct misstatements.
 
 
   The SFH-Claims Branch, Lender Quality Section performs loss claim post payment quality
   reviews (PQR) on lenders with the highest volume of loss claims processed during
   specified timeframes based on a statistical sampling.  The complete file including
-  the origination package is reviewed for compliance.  When lender errors are identified
+  the origination package is reviewed for compliance. When lender errors are identified
   during the review, an initial findings letter is sent out, whereby the lender has
-  an opportunity to provide additional documentation to dispute the findings.  Once
+  an opportunity to provide additional documentation to dispute the findings. Once
   a final determination is made, a final findings letter is sent out and a receivable
-  is set up to collect the funds.  It must be noted that not all findings are errors.  The
+  is set up to collect the funds. It must be noted that not all findings are errors.  The
   agency requests claim funds back if it is determined that adequate documentation
   was not provided.  Often, if the finding is minimal, the lender determines they
   don’t want to expend the effort to find the receipt(s) and pays the receivable.   Most
-  lender errors are caught when the SCB reviews the claim prior to the actual payment.  The
-  PQR process identifies a low percentage of improper payments due to human error.  As
+  lender errors are caught when the SCB reviews the claim prior to the actual payment.
+  The PQR process identifies a low percentage of improper payments due to human error.  As
   discussed previously, claims may have been paid properly but documentation may be
   missing.  Occasionally the servicer is unable to provide origination documentation
   because they did not obtain it during the servicing transfer.  As part of the audit,
@@ -9605,13 +9674,13 @@ detail_PIIA_Official: The responsibility of overseeing the progress of complianc
   supervisory performance plans.
 detail_Recovery_Audits_Skipped: 'Yes'
 detail_Recovery_Justifications_Audits: null
-detail_Recovery_Not_Cost_Effective_Justification: "Most USDA programs determined it\
-  \ was not cost effective to conduct recovery audits based this decision on several\
+detail_Recovery_Not_Cost_Effective_Justification: "Most USDA programs that determined\
+  \ it was not cost effective to conduct recovery audits based this decision on several\
   \ factors including: \n-The processes already in place to identify, recover, and\
   \ report improper payments.\n-A low improper payment rate.\n-An insignificant amount\
   \ of improper payments would be recaptured using the Department's recovery audit\
   \ program.\n-If the program contracted for its own audit recovery program, the time\
-  \ and effort to conduct the program would not be commiserate with the funds recaptured."
+  \ and effort to conduct the program would not be commensurate with the funds recaptured.\n"
 detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/USDA.html

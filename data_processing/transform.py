@@ -6,6 +6,7 @@ information in a SQLite database for generation of mardown files.
 import config
 import os
 import pandas as pd
+import re
 import requests
 import sqlite3
 from io import StringIO
@@ -829,7 +830,20 @@ def load_all_programs_file(conn):
     load_csv_to_sqlite(ALL_PROGRAMS_DATA_PATH, "all_programs_data", conn)
 
 def load_program_data_raw_file(conn):
-    load_csv_to_sqlite(PROGRAM_DATA_RAW_PATH, "program_data_raw", conn)
+    if not os.path.exists(PROGRAM_DATA_RAW_PATH):
+        print(f"{PROGRAM_DATA_RAW_PATH} - Not Found")
+        return
+
+    with open(PROGRAM_DATA_RAW_PATH, encoding="utf-8-sig") as f:
+        csv_data = f.read()
+
+    df = pd.read_csv(StringIO(csv_data))
+    eligibility_data = df["key"] == "cyp30_dit1_19"
+    df.loc[eligibility_data, "value"] = df.loc[eligibility_data, "value"].map(strip_bracketed_tags)
+
+    df.to_sql("program_data_raw", conn, if_exists="replace", index=False)
+    conn.commit()
+    print("Successfully loaded data into 'program_data_raw'")
 
 def load_agency_data_raw_file(conn):
     load_csv_to_sqlite(AGENCY_DATA_RAW_PATH, "agency_data_raw", conn)
@@ -838,7 +852,32 @@ def load_ip_agency_pocs_file(conn):
     load_csv_to_sqlite(IP_AGENCY_POCS_PATH, "ip_agency_pocs", conn)
 
 def load_principal_table_columns_file(conn):
-    load_csv_to_sqlite(PRINCIPAL_TABLE_COLUMNS_PATH, "principal_table_columns", conn)
+    if not os.path.exists(PRINCIPAL_TABLE_COLUMNS_PATH):
+        print(f"{PRINCIPAL_TABLE_COLUMNS_PATH} - Not Found")
+        return
+
+    with open(PRINCIPAL_TABLE_COLUMNS_PATH, encoding="utf-8-sig") as f:
+        csv_data = f.read()
+
+    df = pd.read_csv(StringIO(csv_data))
+    unknown_mitigation_fields = df["Column_names"].isin([
+        "cyp7_atp1_8",
+        "cyp7_app1_8",
+    ])
+    mitigation_fields = df["Column_names"].isin([
+        "cyp21_atp1_8",
+        "cyp5_app1_8",
+        "cyp21_app1_8",
+        "cyp6_atp1_8",
+        "cyp5_atp1_8",
+        "cyp6_app1_8"
+    ])
+    df.loc[unknown_mitigation_fields, "Column_values"] = df.loc[unknown_mitigation_fields, "Column_values"].map(space_comma_separated)
+    df.loc[mitigation_fields, "Column_values"] = df.loc[mitigation_fields, "Column_values"].map(strip_bracketed_tags)
+
+    df.to_sql("principal_table_columns", conn, if_exists="replace", index=False)
+    conn.commit()
+    print("Successfully loaded data into 'principal_table_columns'")
 
 def load_payment_recovery_details_file(conn):
     load_csv_to_sqlite(PAYMENT_RECOVERY_DETAILS_PATH, "payment_recovery_details", conn)
@@ -880,14 +919,71 @@ def load_ip_root_causes_file(conn):
 def load_actions_date_mapping_file(conn):
     load_csv_to_sqlite(ACTION_DATE_MAPPING_PATH, "actions_date_mapping", conn)
 
+# Mitigation labels may be prefixed with a code such as [atp4] or [app6].
+# Unknown-payment values are already comma-joined, so every code in the cell is removed.
+BRACKETED_TAG_PATTERN = re.compile(r"\[[^\]]+\]\s*")
+ESCAPED_COMMA_SPLIT = re.compile(r"(?<!\\),")
+
+def strip_bracketed_tags(value):
+    """Drop bracketed codes such as [atp4] from survey answers."""
+    if value is None or pd.isna(value):
+        return value
+    return BRACKETED_TAG_PATTERN.sub("", str(value))
+
+def space_comma_separated(value):
+    """Strip bracketed codes, then join the remaining labels with ', '."""
+    stripped = strip_bracketed_tags(value)
+    if stripped is None or pd.isna(stripped):
+        return stripped
+    parts = []
+    for part in ESCAPED_COMMA_SPLIT.split(str(stripped)):
+        label = part.replace("\\,", ",").strip()
+        if label:
+            parts.append(label)
+    return ", ".join(parts)
+
 def load_mitigation_strategies_file(conn):
-    load_csv_to_sqlite(MITIGATION_STRATEGIES_PATH, "mitigation_strategies", conn)
+    if not os.path.exists(MITIGATION_STRATEGIES_PATH):
+        print(f"{MITIGATION_STRATEGIES_PATH} - Not Found")
+        return
+
+    with open(MITIGATION_STRATEGIES_PATH, encoding="utf-8-sig") as f:
+        csv_data = f.read()
+
+    df = pd.read_csv(StringIO(csv_data))
+    df["Multiselect_Text"] = df["Multiselect_Text"].map(strip_bracketed_tags)
+
+    df.to_sql("mitigation_strategies", conn, if_exists="replace", index=False)
+    conn.commit()
+    print("Successfully loaded data into 'mitigation_strategies'")
 
 def load_congressional_reports_files(conn):
     load_csv_to_sqlite(CONGRESSIONAL_REPORTS_AGENCY_PATH, "congressional_reports", conn)
 
 def load_congressional_reports_files_program(conn):
-    load_csv_to_sqlite(CONGRESSIONAL_REPORTS_PROGRAM_PATH, "congressional_reports_program", conn)
+    if not os.path.exists(CONGRESSIONAL_REPORTS_PROGRAM_PATH):
+        print(f"{CONGRESSIONAL_REPORTS_PROGRAM_PATH} - Not Found")
+        return
+
+    with open(CONGRESSIONAL_REPORTS_PROGRAM_PATH, encoding="utf-8-sig") as f:
+        csv_data = f.read()
+
+    df = pd.read_csv(StringIO(csv_data))
+    mitigation_fields = df["key"].isin([
+        "cyp21_app1_8",
+        "cyp5_app1_8",
+        "cyp6_app1_8",
+        "cyp7_app1_8",
+        "cyp6_atp1_8",
+        "cyp5_atp1_8",
+        "cyp21_atp1_8",
+        "cyp7_atp1_8"
+    ])
+    df.loc[mitigation_fields, "value"] = df.loc[mitigation_fields, "value"].map(strip_bracketed_tags)
+
+    df.to_sql("congressional_reports_program", conn, if_exists="replace", index=False)
+    conn.commit()
+    print("Successfully loaded data into 'congressional_reports_program'")
 
 def load_fpi_mapping(conn):
     load_csv_to_sqlite(FPI_MAPPING_PATH, "program_to_aln", conn, True)

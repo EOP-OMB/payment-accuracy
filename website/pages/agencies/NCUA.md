@@ -64,12 +64,12 @@ Unknown_Payments_Rates: '[]'
 Years_Available:
 - 2026
 - 2025
-detail_Additional_IP_Information: As of the date of the annual OMB Payment Integrity
-  data call, payment integrity activities were still ongoing for 2026. For the OMB
-  Payment Integrity data call due in October 2026, the NCUA is reporting CDRLF Do
-  Not Pay numbers as of September 30, 2026. NCUA's Annual Report, which is planned
-  for release in February 2027, will report CDRLF Do Not Pay numbers as of December
-  31, 2026, consistent with our calendar fiscal year.
+detail_Additional_IP_Information: NCUA operates based on a calendar year rather than
+  a fiscal year. As of the date of this Fiscal Year 2026 publication, payment integrity
+  activities were still ongoing for 2026. The NCUA is reporting CDRLF Do Not Pay numbers
+  as of September 30, 2026. NCUA's Annual Report, which is planned for release in
+  February 2027, will report CDRLF Do Not Pay numbers as of December 31, 2026, consistent
+  with a calendar year.
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: NCUA's shared service provider, Enterprise Services Center,
@@ -96,6 +96,7 @@ detail_Executive_Summary: NCUA's improper payments risk assessments have consist
   card payments. In April 2026, the NCUA Office of Inspector General published their
   report on NCUA’s compliance with reporting requirements for improper payments. The
   report concluded that we are in compliance, and there were no recommendations.
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

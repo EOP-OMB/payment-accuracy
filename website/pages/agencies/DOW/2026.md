@@ -1653,11 +1653,11 @@ Risks:
     Program_Name: Army - Commerical Pay - CAPS-W
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Army - DoW Travel Pay - DTS
     Slug: dow-army-dow-travel-pay-dts
-    Susceptible: null
+    Susceptible: 'Yes'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Army - DoW Travel Pay - IATS
@@ -1724,21 +1724,21 @@ Risks:
     Program_Name: Commercial Pay – Transportation Financial Management System (TFMS)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: DAF - Active Duty Military Pay
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: DAF - Air National Guard Military Pay
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: DAF - Civilian Pay
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: DAF - Commercial Pay - CAPS-W
@@ -1754,21 +1754,21 @@ Risks:
     Program_Name: DAF - Commercial Pay - IAPS
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: DAF - DoW Travel Pay - DTS
     Slug: dow-daf-dow-travel-pay-dts
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'Yes'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: DAF - DoW Travel Pay - RTS
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: DAF - Reserve Military Pay
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: DARPA - Commercial Pay - DAI
@@ -1937,12 +1937,12 @@ Risks:
       Program
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Defense Health Agency - Military Health Benefits - TRICARE Pharmacy
       Eligible Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Defense Health Agency - Military Health Benefits - TRICARE West
@@ -2009,11 +2009,11 @@ Risks:
     Program_Name: MDA - Non-Commercial Pay - DAI
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Marine Corps - Active Duty Military Pay
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Marine Corps - Commercial Pay - CAPS-W
@@ -2024,26 +2024,26 @@ Risks:
     Program_Name: Marine Corps - Commercial Pay - DAI
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Marine Corps - DoW Travel Pay - DTS
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Marine Corps - DoW Travel Pay - IATS
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Marine Corps - DoW Travel Pay - MCTFS
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Marine Corps - Reserve Military Pay
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: NORTHCOM - DoW Travel Pay - DTS
@@ -2059,16 +2059,16 @@ Risks:
     Program_Name: NSA Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Navy - Active Duty Military Pay
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Navy - Civilian Pay
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Navy - Commercial Pay - CAPS-W
@@ -2089,41 +2089,41 @@ Risks:
     Program_Name: Navy - Commercial Pay - ONEPAY
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Navy - DoW Travel Pay - DTS
     Slug: dow-navy-dow-travel-pay-dts
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Navy - DoW Travel Pay - IATS
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Navy - Non-Commercial Pay - DAI
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Navy - Reserve Military Pay
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: ODO - Civilian Pay
     Slug: dow-odo-civilian-pay
-    Susceptible: null
+    Susceptible: 'Yes'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: ODO - DoW Travel Pay - DTS
     Slug: dow-odo-dow-travel-pay-dts
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: ODO - DoW Travel Pay - IATS
     Slug: dow-odo-dow-travel-pay-iats
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: OLDCC - Commercial Pay - DAI
@@ -2528,6 +2528,56 @@ detail_Executive_Summary: "Executive Summary: Department of War Payment Integrit
   \ materials under 31 U.S.C. § 3352(e) incorporated by reference in the ABC AFR;\n\
   (vi) the Agency Compliance Plan required under 31 U.S.C. § 3353(b)(1); and\n(vii)\
   \ the Agency Noncompliance Report required under 31 U.S.C. § 3353(b)(5).\n\n"
+detail_OIG_Recommendations: "Summary of DoW OIG Non-Compliance Findings\n\nThe DoW\
+  \ was noncompliant with the PIIA in its FY 2025 reporting of improper and unknown\
+  \ payments. Although the DoW met three requirements, it did not:\n\n1.\tConduct\
+  \ sufficient risk assessments to determine the risk of improper and unknown payments\
+  \ across all programs;\n\n2.\tPublish reliable improper and unknown payment estimates;\
+  \ or\n\n3.\tMaintain reported improper and unknown payment rates below the required\
+  \ 10 percent threshold for applicable programs.\n\nThe remaining deficiencies reflect\
+  \ opportunities to further mature established corrective actions. Specifically,\
+  \ DoW personnel need to more consistently document how program-specific risk factors\
+  \ inform risk determinations, complete actions to identify all programs requiring\
+  \ risk assessment; and strengthen controls over the completeness and scope of payment-transaction\
+  \ universes used to calculate improper and unknown payment estimates.\n\nThe work\
+  \ completed to date provides a foundation for sustained improvement. Continued implementation\
+  \ of corrective actions will strengthen risk assessment and estimation processes,\
+  \ improve the reliability and transparency of reported results, reduce improper\
+  \ and unknown payments, and position the DoW to achieve full PIIA compliance.\n\n\
+  Summary of Actions Planned to Achieve Compliance\n\nDoW’s planned actions focus\
+  \ on strengthening program ownership and oversight, improving risk assessments and\
+  \ payment-data reliability, reducing high travel-payment error rates through targeted\
+  \ controls, and submitting required remediation plans to the OMB.\n\n•\tStrengthen\
+  \ portfolio governance and accountability. The DoW is continuing to manage its Payment\
+  \ Integrity portfolio as smaller, more defined payment populations, enabling components\
+  \ to assume clearer responsibility for risk assessments, corrective actions, and\
+  \ results. The Under Secretary of War (Comptroller)/Chief Financial Officer has\
+  \ also established measurable compliance milestones, assigned senior executive ownership,\
+  \ and implemented accountability mechanisms for affected programs by September 2027.\n\
+  \n•\tComplete and improve risk assessments. Planned work includes documenting program-specific\
+  \ risks and the internal controls used to mitigate them; refining risk-assessment\
+  \ methodologies; and completing overdue assessments for the DoW Travel Pay Army–Integrated\
+  \ Automated Travel System (IATS) during the FY 2026 audit cycle, and for Commercial\
+  \ Pay–Defense Agencies Initiative and Commercial Pay–Computerized Accounts Payable\
+  \ System during the FY 2027 audit cycle. \n\n•\tImprove the reliability of improper\
+  \ and unknown payment estimates. The DoW plans to implement a Department-wide methodology\
+  \ to identify all outlays, associate them with the correct programs, and verify\
+  \ that each program’s payment universe is complete. This includes moving toward\
+  \ transaction-level reconciliations and establishing a process to analyze variances\
+  \ in payment-universe data. The reported target for completing this work is June\
+  \ 2027. \n\n•\tReduce travel-payment error rates below 10 percent. The DoW is implementing\
+  \ targeted corrective actions across its travel-payment programs to reduce improper\
+  \ and unknown payment rates below the 10 percent threshold. These efforts emphasize\
+  \ strengthened internal controls, clearer accountability, improved documentation,\
+  \ enhanced training, automated validation capabilities, and recurring management\
+  \ oversight.\n\nCollectively, these actions are intended to improve payment accuracy,\
+  \ strengthen compliance, and support sustained reductions in improper and unknown\
+  \ payments by September 2027.\n\n•\tMeet external reporting and remediation requirements.\
+  \ By November 30, 2026, the DoW plans to submit OMB-required compliance actions\
+  \ for identified Commercial Pay and Travel Pay programs; submit additional program-integrity\
+  \ proposals if applicable for Civilian Pay–ODO, Commercial Pay–Mechanization of\
+  \ Contract Administration Services, and Army–DTS; and identify the related statutory\
+  \ mitigation reports in the AFR and on PaymentAccuracy.gov.\n"
 detail_Overpayment_Conditions_And_Methods: The DoW Payment Recovery Audit (PRA) program
   is the Department’s overall plan for risk analysis and the performance of payment
   recovery audits. PRAs are reviews and analyses of program accounting and financial

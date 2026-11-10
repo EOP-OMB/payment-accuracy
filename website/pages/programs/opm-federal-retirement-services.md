@@ -302,8 +302,8 @@ Data_By_Year:
     is also impacted by the length of time it takes to receive sufficient information.
     The payment cannot be moved out of the unknown category and classified as proper
     or improper until all necessary documentation is received.
-  Unknown_Mitigations_Planned: Audit,Training
-  Unknown_Mitigations_Taken: Audit,Training
+  Unknown_Mitigations_Planned: Audit, Training
+  Unknown_Mitigations_Taken: Audit, Training
   Unknown_Payments_Rate: 0.02465856284859076
   Unknown_Why: Payments are unknown when it is discovered that additional information
     is needed to determine if the recipient is receiving the correct monthly benefit.
@@ -551,8 +551,8 @@ Data_By_Year:
     is also impacted by the length of time it takes to receive sufficient information.
     The payment cannot be moved out of the unknown category and classified as proper
     or improper until all necessary documentation is received.
-  Unknown_Mitigations_Planned: Audit,Training
-  Unknown_Mitigations_Taken: Audit,Training
+  Unknown_Mitigations_Planned: Audit, Training
+  Unknown_Mitigations_Taken: Audit, Training
   Unknown_Payments_Rate: 0.01117103405135139
   Unknown_Why: Payments may be classified as unknown when additional information is
     required to confirm the accuracy of a recipient's monthly benefit. Insufficient
@@ -727,8 +727,8 @@ Data_By_Year:
   Technical_IP_Amount: '0.0'
   Underpayment_Mitigations_Planned: Audit, Training
   Underpayment_Mitigations_Taken: Audit, Training
-  Unknown_Mitigations_Planned: Audit,Training
-  Unknown_Mitigations_Taken: Audit,Training
+  Unknown_Mitigations_Planned: Audit, Training
+  Unknown_Mitigations_Taken: Audit, Training
   Unknown_Payments_Rate: 0.012792081674012589
   Year: 2025
   detail_IP_Causes: RS acknowledges the occurrence of improper payments; however,
@@ -859,8 +859,8 @@ Data_By_Year:
   Margin_of_Error: '0.21'
   Non_Monetary_Loss_Amount: '102.52'
   Outlays: 114940.13
-  Overpayment_Combined_Mitigations_Planned: '[app3]Training, [app6]Audit'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp6]Audit'
+  Overpayment_Combined_Mitigations_Planned: Audit, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Training
   Payment_Accuracy_Rate: 99.66571292376301
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: An upgrade to the current legacy system is essential
@@ -870,10 +870,10 @@ Data_By_Year:
     with modernization costs assessed through FY 2028.
   Start_Date: 10/2025
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app3]Training, [app6]Audit'
-  Underpayment_Mitigations_Taken: '[atp3]Training, [atp6]Audit'
-  Unknown_Mitigations_Planned: '[app3]Training,[app6]Audit'
-  Unknown_Mitigations_Taken: '[atp3]Training,[atp6]Audit'
+  Underpayment_Mitigations_Planned: Audit, Training
+  Underpayment_Mitigations_Taken: Audit, Training
+  Unknown_Mitigations_Planned: Training, Audit
+  Unknown_Mitigations_Taken: Training, Audit
   Unknown_Payments_Rate: 0.005750820013862869
   Year: 2026
   detail_IP_Causes: RS acknowledges the occurrence of improper payments; however,

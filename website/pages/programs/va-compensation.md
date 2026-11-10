@@ -130,8 +130,8 @@ Data_By_Year:
   Technical_IP_Amount: '0.0'
   Underpayment_Mitigations_Planned: Audit, Cross Enterprise Sharing, Training
   Underpayment_Mitigations_Taken: Audit, Training
-  Unknown_Mitigations_Planned: Audit,Cross Enterprise Sharing,Training
-  Unknown_Mitigations_Taken: Audit,Training
+  Unknown_Mitigations_Planned: Audit, Cross Enterprise Sharing, Training
+  Unknown_Mitigations_Taken: Audit, Training
   Unknown_Payments_Rate: 0.9405857432331372
   Year: 2025
   detail_IP_Causes: Overpayments were within the agency’s control and occurred when
@@ -385,10 +385,10 @@ Data_By_Year:
   Margin_of_Error: '1.58'
   Non_Monetary_Loss_Amount: '489.29'
   Outlays: 179189.21
-  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app3]Training, [app4]Change
-    Process, [app5]Cross Enterprise Sharing, [app6]Audit'
-  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp3]Training, [atp4]Change
-    Process, [atp5]Cross Enterprise Sharing, [atp6]Audit'
+  Overpayment_Combined_Mitigations_Planned: Audit, Automation, Change Process, Cross
+    Enterprise Sharing, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Automation, Change Process, Cross
+    Enterprise Sharing, Training
   Payment_Accuracy_Rate: 97.25875793525738
   Program_Additional_Information: 'The Compensation program is committed to implementing
     effective corrective actions and mitigation strategies to reduce improper and
@@ -417,14 +417,14 @@ Data_By_Year:
     corrective actions.
   Start_Date: 10/2024
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app1]Automation, [app3]Training, [app4]Change
-    Process, [app5]Cross Enterprise Sharing, [app6]Audit'
-  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp3]Training, [atp4]Change
-    Process, [atp5]Cross Enterprise Sharing, [atp6]Audit'
-  Unknown_Mitigations_Planned: '[app1]Automation,[app3]Training,[app4]Change Process,[app5]Cross
-    Enterprise Sharing,[app6]Audit'
-  Unknown_Mitigations_Taken: '[atp1]Automation,[atp3]Training,[atp4]Change Process,[atp5]Cross
-    Enterprise Sharing,[atp6]Audit'
+  Underpayment_Mitigations_Planned: Audit, Automation, Change Process, Cross Enterprise
+    Sharing, Training
+  Underpayment_Mitigations_Taken: Audit, Automation, Change Process, Cross Enterprise
+    Sharing, Training
+  Unknown_Mitigations_Planned: Automation, Training, Change Process, Cross Enterprise
+    Sharing, Audit
+  Unknown_Mitigations_Taken: Automation, Training, Change Process, Cross Enterprise
+    Sharing, Audit
   Unknown_Payments_Rate: 1.0968294352098544
   Year: 2026
   detail_IP_Causes: "Overpayments occurred when the program failed to access the data/information\

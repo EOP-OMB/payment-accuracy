@@ -90,6 +90,7 @@ detail_Disposition_of_Funds: null
 detail_Executive_Summary: The Merit System's Protection Board (MSPB) aggregate of
   outlays exceeding $10M dollars are personnel salaries and benefits. MSPB does not
   have any programs in Phase 1 or Phase 2.
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

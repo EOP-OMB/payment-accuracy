@@ -39,7 +39,7 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Bureau of Industry and Security (BEA) - BEA
+  Name: Bureau of Economic Analysis (BEA)
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -928,16 +928,16 @@ Payment_Accuracy_Rates: '[94.43651925820257]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
-    Program_Name: Bureau of Industry and Security (BEA) - BEA
+    Program_Name: Bureau of Economic Analysis (BEA)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Bureau of Industry and Security (BIS) – BIS
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Census Bureau
@@ -1393,6 +1393,7 @@ detail_Executive_Summary: 'The Payment Integrity Information Act of 2019 (PIIA) 
   auditing could be or could become cost effective.
 
   '
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

@@ -155,6 +155,16 @@ detail_Executive_Summary: "The Payment Integrity Information Act of 2019 (PIIA),
   \ the next assessment scheduled for FY 2027, unless material changes necessitate\
   \ an earlier review. The results of the risk assessment are available on paymentaccuracy.gov.\n\
   \n"
+detail_OIG_Recommendations: As an independent agent, SSS does not have an Office of
+  Inspector General (OIG) to evaluate improper payments. However, an external auditor
+  conducted the PIIA audit for FY 2024.  The audit concluded that SSS was compliant
+  with the applicable PIIA requirements and submitted required information to paymentaccuracy.gov;
+  however, SSS did not complete an improper payment risk assessment in a timely manner
+  for the program with annual outlays greater than $10 million, as required at least
+  once every three years. SSS finalized the risk assessment during the 2024 audit.
+  Since the risk assessment completed during the audit, no further corrective actions
+  were necessary. For the next risk assessment cycle, SSS will ensure that the assessment
+  is completed on time to maintain compliance.
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: The performance agreements for the responsible official do
   not contain explicit incentives or consequences tied directly to achieving Payment

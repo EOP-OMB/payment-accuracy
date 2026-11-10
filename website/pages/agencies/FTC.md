@@ -83,10 +83,9 @@ Years_Available:
 - 2025
 - 2024
 detail_Additional_IP_Information: In FY 2026, the FTC conducted several internal control
-  reviews on programs as part of its multi year ERM program, and performed an off-cycle
-  improper payment risk assessment of the vendor contract program that determined
-  the program is not a high risk or considered a susceptible program of significant
-  amounts of improper payments.
+  reviews on programs and performed an off-cycle improper payment risk assessment
+  of the vendor contract program that determined the program is not a high risk or
+  considered a susceptible program of significant amounts of improper payments.
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: 'FTC''s shared service provider validates vendor data weekly
@@ -98,15 +97,20 @@ detail_DNP_Frequency_Identify: My agency did not identify any incorrect informat
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: "The Payment Integrity Information Act of 2019 requires\
+detail_Executive_Summary: "The Payment Integrity Information Act of 2019 (PIIA) requires\
   \ agencies to identify programs that may be susceptible to significant improper\
-  \ payments and report the results of their improper payment activities.  In FY 2024\
-  \ FTC performed an improper payment risk assessment and determined that none of\
-  \ its payment programs are high risk or considered susceptible programs of significant\
-  \ amounts of improper payments. In FY 2026 FTC performed an off-cycle improper payment\
-  \ risk assessment of the vendor contract program that will continue into FY 2027,\
-  \ and determined that the program is not a high risk or considered a susceptible\
-  \ program of significant amounts of improper payments.  \n"
+  \ payments and report the results of their improper payment activities.  FTC maintains\
+  \ payment integrity by performing recurring internal control assessments of its\
+  \ payment programs to determine whether a program is susceptible to significant\
+  \ amounts of improper payments.  FTC is currently in compliance with payment integrity\
+  \ requirements as evidenced by the most recent OIG PIIA annual compliance review.\
+  \  In FY 2024 FTC performed an improper payment risk assessment and determined that\
+  \ none of its payment programs are high risk or considered susceptible programs\
+  \ of significant amounts of improper payments. In FY 2026 FTC performed an off-cycle\
+  \ improper payment risk assessment of the vendor contract program that will continue\
+  \ into FY 2027, and determined that the program is not a high risk or considered\
+  \ a susceptible program of significant amounts of improper payments.  \n"
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

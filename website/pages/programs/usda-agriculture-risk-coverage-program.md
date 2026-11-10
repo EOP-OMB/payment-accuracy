@@ -112,10 +112,9 @@ Data_By_Year:
   Margin_of_Error: '4.086'
   Non_Monetary_Loss_Amount: '29.78'
   Outlays: 478.02
-  Overpayment_Combined_Mitigations_Planned: '[app3]Training'
-  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp3]Training, [atp8]Statutory
-    Change'
-  Payment_Accuracy_Rate: 93.64043345466717
+  Overpayment_Combined_Mitigations_Planned: Training
+  Overpayment_Combined_Mitigations_Taken: Automation, Statutory Change, Training
+  Payment_Accuracy_Rate: 93.64252541734655
   Program_Additional_Information: The agency reviewed and refined FY 2026 testing
     criteria so that payments are evaluated solely against statute and regulation,
     consistent with Appendix C to OMB Circular A-123 (M-21-19). This update will result
@@ -134,12 +133,11 @@ Data_By_Year:
     necessary to maintain and further reduce improper payments without requiring new
     or expanded budget authority.
   Start_Date: 10/2024
-  Technical_IP_Actions_Planned: '[app3]Training'
-  Technical_IP_Actions_Taken: '[atp1]Automation, [atp3]Training, [atp8]Statutory Change'
+  Technical_IP_Actions_Planned: Training
+  Technical_IP_Actions_Taken: Automation, Statutory Change, Training
   Technical_IP_Amount: '29.76'
-  Underpayment_Mitigations_Planned: '[app3]Training'
-  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp3]Training, [atp8]Statutory
-    Change'
+  Underpayment_Mitigations_Planned: Training
+  Underpayment_Mitigations_Taken: Automation, Statutory Change, Training
   Unknown_Payments_Rate: 0
   Year: 2026
   detail_IP_Causes: "The primary cause categories for improper payments are failure\

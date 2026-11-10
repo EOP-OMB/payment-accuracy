@@ -476,8 +476,8 @@ Data_By_Year:
   Technical_IP_Amount: '0.0'
   Underpayment_Mitigations_Planned: Audit, Training
   Underpayment_Mitigations_Taken: Audit, Training
-  Unknown_Mitigations_Planned: Audit,Training
-  Unknown_Mitigations_Taken: Audit,Training
+  Unknown_Mitigations_Planned: Audit, Training
+  Unknown_Mitigations_Taken: Audit, Training
   Unknown_Payments_Rate: 0.17376880849887447
   Year: 2025
   detail_IP_Causes: "PPP Loan Forgiveness payments are reviewed after the SBA has\
@@ -532,7 +532,7 @@ Data_By_Year:
     approach for mitigating improper payments during the recoupment and closeout phase.
   Confidence_Level: 95% to <100%
   Corrective_Actions_Adequacy_Association_Implementation: 'Corrective actions for
-    PPP Forgivenss requests are implemented and prioritized based on the predominant
+    PPP Forgiveness requests are implemented and prioritized based on the predominant
     reason for the Improper Payment, ensuring that the agency’s efforts directly address
     the underlying cause. These actions focus on strengthening payment reviews and
     eligibility checks to prevent the recurrence of errors related to payroll verification
@@ -611,8 +611,8 @@ Data_By_Year:
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '0.13'
   Outlays: 95.8
-  Overpayment_Combined_Mitigations_Planned: '[app3]Training, [app6]Audit'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp6]Audit'
+  Overpayment_Combined_Mitigations_Planned: Audit, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Training
   Payment_Accuracy_Rate: 79.73903966597078
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: In the most recent budget submission, the agency requested
@@ -625,8 +625,8 @@ Data_By_Year:
     functions and ensure compliance through the recoupment and closeout phase.
   Start_Date: 04/2025
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app3]Training, [app6]Audit'
-  Underpayment_Mitigations_Taken: '[atp3]Training, [atp6]Audit'
+  Underpayment_Mitigations_Planned: Audit, Training
+  Underpayment_Mitigations_Taken: Audit, Training
   Unknown_Payments_Rate: 0
   Year: 2026
   detail_IP_Causes: 'PPP Loan Forgiveness payments are reviewed after the SBA has

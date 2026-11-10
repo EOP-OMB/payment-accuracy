@@ -292,7 +292,7 @@ function initSparklines() {
                                 if (context.parsed.y === null) {
                                     return 'No data';
                                 } else {
-                                    return (Math.round(context.parsed.y * 10) / 10) + ' %';
+                                    return (Math.round(context.parsed.y * 10) / 10).toFixed(1) + ' %';
                                 }
                             }
                         }

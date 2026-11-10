@@ -162,10 +162,10 @@ Data_By_Year:
   Margin_of_Error: '0.9'
   Non_Monetary_Loss_Amount: '5'
   Outlays: 5052.5
-  Overpayment_Combined_Mitigations_Planned: '[app3]Training, [app4]Change Process,
-    [app5]Cross Enterprise Sharing'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp4]Change Process, [atp5]Cross
-    Enterprise Sharing'
+  Overpayment_Combined_Mitigations_Planned: Change Process, Cross Enterprise Sharing,
+    Training
+  Overpayment_Combined_Mitigations_Taken: Change Process, Cross Enterprise Sharing,
+    Training
   Payment_Accuracy_Rate: 98.47204354280059
   Program_Design_or_Structural_Issue: 0.8
   Resources_Requested_For_IP: 'The Military Retirement – Annuitant Pay program maintains
@@ -186,19 +186,13 @@ Data_By_Year:
     and additional software, the DoW will address pervasive issues for improper pay
     through rule-based detection, proactive controls, and end to end capabilities.'
   Start_Date: 10/2024
-  Technical_IP_Actions_Planned: '[app3]Training, [app4]Change Process, [app5]Cross
-    Enterprise Sharing'
-  Technical_IP_Actions_Taken: '[atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise
-    Sharing'
+  Technical_IP_Actions_Planned: Change Process, Cross Enterprise Sharing, Training
+  Technical_IP_Actions_Taken: Change Process, Cross Enterprise Sharing, Training
   Technical_IP_Amount: '0.8'
-  Underpayment_Mitigations_Planned: '[app3]Training, [app4]Change Process, [app5]Cross
-    Enterprise Sharing'
-  Underpayment_Mitigations_Taken: '[atp3]Training, [atp4]Change Process, [atp5]Cross
-    Enterprise Sharing'
-  Unknown_Mitigations_Planned: '[app3]Training,[app4]Change Process,[app5]Cross Enterprise
-    Sharing'
-  Unknown_Mitigations_Taken: '[atp3]Training,[atp4]Change Process,[atp5]Cross Enterprise
-    Sharing'
+  Underpayment_Mitigations_Planned: Change Process, Cross Enterprise Sharing, Training
+  Underpayment_Mitigations_Taken: Change Process, Cross Enterprise Sharing, Training
+  Unknown_Mitigations_Planned: Training, Change Process, Cross Enterprise Sharing
+  Unknown_Mitigations_Taken: Training, Change Process, Cross Enterprise Sharing
   Unknown_Payments_Rate: 0.5106382978723404
   Year: 2026
   detail_IP_Causes: 'During the FY2026 Payment Integrity Information Act (PIIA) review,

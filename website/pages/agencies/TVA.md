@@ -136,6 +136,7 @@ detail_Disposition_of_Funds: null
 detail_Executive_Summary: Consistent with the Payment Integrity Information Act of
   2019, the Tennessee Valley Authority has determined that none of its programs or
   activities are susceptible to improper payments.
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

@@ -172,9 +172,9 @@ Data_By_Year:
   Margin_of_Error: '2.1'
   Non_Monetary_Loss_Amount: '58.699999999999996'
   Outlays: 1822.5
-  Overpayment_Combined_Mitigations_Planned: '[app3]Training, [app4]Change Process,
-    [app5]Cross Enterprise Sharing'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp4]Change Process'
+  Overpayment_Combined_Mitigations_Planned: Change Process, Cross Enterprise Sharing,
+    Training
+  Overpayment_Combined_Mitigations_Taken: Change Process, Training
   Payment_Accuracy_Rate: 86.45816186556928
   Program_Additional_Information: 'It is imperative for the public and legislative
     stakeholders to understand the context behind the U.S. Navy''s payment integrity
@@ -216,16 +216,13 @@ Data_By_Year:
     \ the DoW will address pervasive issues for improper pay through rule-based detection,\
     \ proactive controls, and end to end capabilities."
   Start_Date: 07/2025
-  Technical_IP_Actions_Planned: '[app3]Training, [app4]Change Process, [app5]Cross
-    Enterprise Sharing'
-  Technical_IP_Actions_Taken: '[atp3]Training, [atp4]Change Process'
+  Technical_IP_Actions_Planned: Change Process, Cross Enterprise Sharing, Training
+  Technical_IP_Actions_Taken: Change Process, Training
   Technical_IP_Amount: '53.8'
-  Underpayment_Mitigations_Planned: '[app3]Training, [app4]Change Process, [app5]Cross
-    Enterprise Sharing'
-  Underpayment_Mitigations_Taken: '[atp3]Training, [atp4]Change Process'
-  Unknown_Mitigations_Planned: '[app3]Training,[app4]Change Process,[app5]Cross Enterprise
-    Sharing'
-  Unknown_Mitigations_Taken: '[atp3]Training,[atp4]Change Process'
+  Underpayment_Mitigations_Planned: Change Process, Cross Enterprise Sharing, Training
+  Underpayment_Mitigations_Taken: Change Process, Training
+  Unknown_Mitigations_Planned: Training, Change Process, Cross Enterprise Sharing
+  Unknown_Mitigations_Taken: Training, Change Process
   Unknown_Payments_Rate: 8.844993141289436
   Year: 2026
   detail_IP_Causes: 'During the full annual review year (July 2025 - June 2026), the

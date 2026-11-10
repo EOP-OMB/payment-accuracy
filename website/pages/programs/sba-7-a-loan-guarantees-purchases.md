@@ -522,7 +522,7 @@ Data_By_Year:
   Technical_IP_Amount: '0.0'
   Underpayment_Mitigations_Planned: Audit, Change Process, Training
   Underpayment_Mitigations_Taken: Audit, Change Process, Training
-  Unknown_Mitigations_Planned: Audit,Change Process,Training
+  Unknown_Mitigations_Planned: Audit, Change Process, Training
   Unknown_Mitigations_Taken: Training
   Unknown_Payments_Rate: 0.44017962656582366
   Year: 2025
@@ -598,7 +598,7 @@ Data_By_Year:
     findings identified through PIIA reviews. OFPO provides feedback to lenders and
     employees, obtains additional documentation from lenders when necessary, and will
     recapture funds when improper payments are confirmed. Significant lender-level
-    deficiencies—based on severity or recurring patterns—are shared with the Office
+    deficiencies, based on severity or recurring patterns, are shared with the Office
     of Credit Risk Management (OCRM) for consideration in its risk-based review process
     and with the Office of Financial Assistance (OFA) to support policy refinement.
     These corrective actions together ensure that the agency’s response is proportional
@@ -644,9 +644,8 @@ Data_By_Year:
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '1.38'
   Outlays: 2646.63
-  Overpayment_Combined_Mitigations_Planned: '[app3]Training, [app4]Change Process,
-    [app6]Audit'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp4]Change Process, [atp6]Audit'
+  Overpayment_Combined_Mitigations_Planned: Audit, Change Process, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Change Process, Training
   Payment_Accuracy_Rate: 98.47730887959405
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: In the most recent budget submission, the agency requested
@@ -660,8 +659,8 @@ Data_By_Year:
     and closeout phase.
   Start_Date: 04/2025
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app3]Training, [app4]Change Process, [app6]Audit'
-  Underpayment_Mitigations_Taken: '[atp3]Training, [atp4]Change Process, [atp6]Audit'
+  Underpayment_Mitigations_Planned: Audit, Change Process, Training
+  Underpayment_Mitigations_Taken: Audit, Change Process, Training
   Unknown_Payments_Rate: 0
   Year: 2026
   detail_IP_Causes: "The root cause was identified as Failure to Access Data/ Information.\

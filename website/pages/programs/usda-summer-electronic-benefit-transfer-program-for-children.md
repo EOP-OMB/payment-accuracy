@@ -132,8 +132,8 @@ Data_By_Year:
   Margin_of_Error: '0.0'
   Non_Monetary_Loss_Amount: '10.92'
   Outlays: 3100
-  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app4]Change Process'
-  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp4]Change Process'
+  Overpayment_Combined_Mitigations_Planned: Automation, Change Process
+  Overpayment_Combined_Mitigations_Taken: Automation, Change Process
   Payment_Accuracy_Rate: 94.3383870967742
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: 'Training and Technical Assistance: The 2027 President''s
@@ -155,8 +155,8 @@ Data_By_Year:
     of erroneous payments.'
   Start_Date: 05/2025
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app1]Automation, [app4]Change Process'
-  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp4]Change Process'
+  Underpayment_Mitigations_Planned: Automation, Change Process
+  Underpayment_Mitigations_Taken: Automation, Change Process
   Unknown_Payments_Rate: 0
   Year: 2026
   detail_IP_Causes: 'Summer EBT (SEBT) agencies certify children for program benefits

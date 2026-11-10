@@ -261,6 +261,35 @@ detail_Executive_Summary: "On March 2, 2020, the President signed into law the P
   \ to USAGM under OMB guidance. USAGM's goal is to complete a compliant payment integrity\
   \ program during FY2026. Additional information regarding USAGM's payment integrity\
   \ activities is available at PaymentAccuracy.gov."
+detail_OIG_Recommendations: 'For FY2025, OIG concluded that USAGM did not comply with
+  applicable PIIA payment integrity requirements because the Agency did not publish
+  the required payment integrity disclosures with its FY2025 financial statements
+  or in the required accompanying materials and did not include the required link
+  to PaymentAccuracy.gov in its FY2025 Agency Financial Report. OIG attributed these
+  reporting deficiencies, in part, to reductions in USAGM’s workforce and organizational
+  changes that affected the Agency’s financial reporting environment and its ability
+  to prepare a complete Agency Financial Report. OIG nevertheless found that USAGM
+  conducted the required program-specific risk assessments and made appropriate conclusions
+  regarding whether the assessed programs exceeded the applicable statutory improper-payment
+  thresholds, and OIG did not identify needed improvements related to the Agency’s
+  improper and unknown payment determinations or prevention and reduction efforts.
+  OIG made one recommendation to improve USAGM’s compliance with PIIA, and, based
+  on USAGM’s response to the draft report, OIG considered the recommendation resolved
+  pending further action. In response, USAGM is reestablishing and strengthening the
+  processes necessary to collect, review, and report required payment integrity information,
+  improving coordination among responsible offices, and addressing the payment integrity
+  reporting requirements applicable to USAGM for FY2026. As measurable FY2026 milestones,
+  USAGM is completing its required three-year-cycle risk assessment activities, preparing
+  the required payment integrity disclosures and accompanying materials, coordinating
+  their incorporation into the FY2026 Agency Financial Report, and ensuring that the
+  required reference and link to PaymentAccuracy.gov are included. USAGM’s corrective
+  actions are intended to address each reporting deficiency identified by OIG and
+  establish sufficient processes and resources to consistently meet applicable PIIA
+  reporting requirements. The Agency’s goal is to complete these corrective actions
+  as part of the FY2026 reporting cycle and achieve compliance with applicable payment
+  integrity requirements.
+
+  '
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: "The CFO’s performance plan for the current rating period\
   \ has not yet been finalized and approved. The CFO has submitted proposed performance\

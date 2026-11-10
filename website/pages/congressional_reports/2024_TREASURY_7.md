@@ -50,6 +50,45 @@ SurveyData:
   SortOrder: 1
   Subheading: ''
   Type: MULTISELECT_TEXT
+- Answer: 'Treasury was not in compliance with PIIA for FY 2023 due to Treasury not
+    adequately concluding whether the Emergency Rental Assistance (ERA) and Pandemic
+    Relief for Aviation Workers, also known as the Payroll Support Program (PSP),
+    pandemic relief programs are likely to make IPs and UPs above or below the statutory
+    threshold.
+
+
+    The OIG recommendation was Treasury''s Risk and Control Group (RCG) should work
+    with the Office of Capital Access (OCA) management to consider all information
+    available when answering risk assessment questions to ensure adequate completion
+    and conclusion of susceptibility for these program-specific risk assessments.
+
+
+    The following are the actions and measurable milestones these programs have planned
+    for this non-compliance criteria: OCA conducted a new risk assessment for FY24
+    for ERA. The risk assessments reconsidered previous answers and took into account
+    factors beyond the four corners of the assessment template. Additionally, OCA
+    has completed additional risk assessment addendums on program recipient and sub-recipients
+    as coordinated by RCG.  OCA did not conduct a new risk assessment for FY24 for
+    PSP, given that the program has wound down and had less than $10 million in outlays
+    during FY23. However, and as noted in a memo sent to ODCFO on 9/17/24, OCA will
+    conduct a payment recapture audit of PSP. OIG audits of PSP recipients have pointed
+    to the inclusion of unallowable employer-side payroll taxes and corporate officer
+    compensation in recipients'' sworn financial statements as causes for overpayments.
+
+
+    Treasury was also found non-compliant for not reporting an improper payment error
+    rate of less than 10% for the IRS Earned Income Tax Credit, Additional Child Tax
+    Credit, American Opportunity Tax Credit, and the refundable Premium Assistance
+    Tax Credit. OIG did not provide any recommendations regarding this non-compliant
+    criteria. Refundable tax credit overclaims are not the result of internal control
+    weaknesses that the IRS can remediate internally, but are in fact the result of
+    factors beyond the Agency''s control under the current law and existing authority.'
+  Heading: Measurable Milestones To Be Accomplished in Order to Achieve Compliance
+    For Each Program
+  Key: cap5
+  SortOrder: 2
+  Subheading: ''
+  Type: TEXT
 - Answer: 'The accountable official responsible for bringing the Emergency Rental
     Assistance Program and Pandemic Relief for Aviation Workers into compliance- Gregory
     Till, Chief Operating Officer, Office of Capital Access.

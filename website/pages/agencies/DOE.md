@@ -24,7 +24,7 @@ Improper_Payments_Rates: '[]'
 Is_Placeholder: false
 Overpayment_Amounts: '[]'
 Overpayment_Amounts_Identified: '[52.39, 55.49, 56.21, 69.17, 227.22]'
-Overpayment_Amounts_Recovered: '[47.16, 48.97, 42.82, 65.12, 224.91]'
+Overpayment_Amounts_Recovered: '[47.16, 48.97, 42.82, 65.12, 224.89]'
 Overpayment_Years: '[2022, 2023, 2024, 2025, 2026]'
 PIIA2019_Compliant_Programs:
 - Compliant_1A: true
@@ -156,7 +156,7 @@ Years_Available:
 - 2024
 - 2023
 - 2022
-detail_Additional_IP_Information: 'The Department is unique to the federal government
+detail_Additional_IP_Information: The Department is unique to the federal government
   in that payments are processed across 46 payment sites, many operated by the integrated
   contractors at the 17 National laboratories, and 8 cleanup sites. This arrangement
   was first set up by Congress for the Manhattan Project during World War 2. The goal
@@ -166,96 +166,70 @@ detail_Additional_IP_Information: 'The Department is unique to the federal gover
   These controls include contracting officers providing final approval for contract
   compliance, annual review and analysis of financial records and supporting documentation
   by financial management personal, and independent audits.
-
-  '
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: 'DOE uses the Do Not Pay portal within the Treasury Working
-  System to review payment eligibility for purposes of identifying and preventing
-  improper payments and fraud.
-
-
-  Where the system identifies exclusion matches for supplier records of POs with funding
-  exhausted, DOE would close such records. A note is then added in the DBA name field
-  that the vendor has an active exclusion. A request to reopen the supplier would
-  alert the supplier team to perform mandatory validation checks before reopening.
-  This ensures no new awards are granted to suppliers with active exclusions. DOE
-  also sends a daily file to DNP for Batch Matching to ensure that there are no missed
-  data source matches in the Continuous Monitoring process that would result from
-  any timing issues.
-
-
-  DOE utilizes DNP as a proactive solution for reducing/preventing improper payments
-  as opposed to being reactive. During FY 2025, there were 3 supplier records closed
-  due to active SAM Exclusion matches in DNP. Closing supplier records prevents procurement
-  offices from entering into any new contracts with the vendors which could result
-  in improper payments. Since DNP is a proactive solution to preventing improper payments,
-  quantitative amount of the dollar or number of improper payments prevented using
-  DNP cannot be made; otherwise, the cost of tracking would outweigh the benefit.
-  DOE did not have any new data sources added in FY25 due to the changes in DNP because
-  of EO 14249.
-
-
-  DOE utilizes the data sources below within DNP:
-
-  - Dept of Defense Death Data (DOD)
-
-  - SAM Entity Registration Records (SAMENT)
-
-  - TOP Debt Check (DBCK)
-
-  - American InfoSource Death Data – Probate (AIS-PROB)
-
-  - Dept of State Death Data (DOS)
-
-  - Office of Foreign Assets Control (OFAC)
-
-  - SAM Exclusion Records – Restricted (SAM-EXCL-RES)
-
-  - SSA Death Master File (DMF)
-
-
-  For FY 2025, there were 76,234 electronic payments screened through Do Not Pay totaling
-  $12.45 billion. PST is currently screening 42,791 “OPEN” supplier site records which
-  includes ASAP sites.
-
-  '
+detail_DNP_Discussion: "DOE uses the Do Not Pay (DNP) portal within the Treasury Working\
+  \ System to review payment eligibility for purposes of identifying and preventing\
+  \ improper payments and fraud. Where the system identifies exclusion matches for\
+  \ supplier records of Purchase Orders that have been fully expended, DOE closes\
+  \ the records ensuring that no new awards are granted to suppliers with active exclusions.\
+  \ DOE sends a daily file to DNP for Batch Matching to ensure that there are no missed\
+  \ data source matches in the Continuous Monitoring process that would result from\
+  \ any timing issues.\n\nDOE utilizes DNP as a proactive solution for reducing and\
+  \ preventing improper payments, as opposed to being reactive. Due to System for\
+  \ Award Management (SAM) matches in DNP, DOE was able to identify and close problematic\
+  \ supplier records, preventing future orders and potential improper payments. Since\
+  \ DNP prevents improper payments before they occur, a quantitative amount of the\
+  \ dollar or number of improper payments prevented using DNP cannot be easily determined,\
+  \ at this time.\n\nFor FY 2025, there were 76,234 electronic payments screened through\
+  \ DNP totaling $12.45 billion. DOE is currently screening 42,791 “OPEN” supplier\
+  \ site records which includes sites utilizing the Automated Standard Application\
+  \ for Payments (ASAP) system. DOE has used DNP robustly for many years and, therefore,\
+  \ did not add any new data sources due to the changes in DNP resulting from EO 14249.\n\
+  \nDOE utilizes the listed data sources within DNP:\n - Dept of Defense Death Data\
+  \ \n - SAM Entity Registration Records \n - Treasury Offset Program Debt Check \n\
+  \ - American InfoSource Death Data – Probate \n - Dept of State Death Data \n -\
+  \ Office of Foreign Assets Control \n - SAM Exclusion Records – Restricted \n -\
+  \ Social Security Administration Death Master File \n"
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: "The Department of Energy (DOE) continues to demonstrate\
-  \ strong oversight of its payments and effective management of improper payment\
-  \ risks. In its most recent compliance review for FY 2024 activities reported in\
-  \ the FY 2025 Agency Financial Report (AFR), the Office of Inspector General (OIG)\
-  \ determined that DOE met the Payment Integrity Information Act of 2019 (PIIA) requirements.\
-  \ PIIA requires agencies to review and assess all programs and activities with annual\
-  \ outlays greater than $10,000,000 for improper payment risk at least once every\
-  \ three years to identify those susceptible to significant improper payments.\n\n\
-  Currently, the Department is reporting under the requirements of Phase 1 for improper\
-  \ payment reporting. DOE is considered one program for improper payment reporting\
-  \ and assesses its program by the payment type. DOE conducts risk assessments on\
-  \ a three-year cycle for all payment types with outlays over $10M. In FY 2026, new\
-  \ reporting requirements directed agencies to report financial assistance programs\
-  \ as separate programs for PIIA purposes in alignment with the agency’s assistance\
-  \ listing structure.  Since the Department of Energy reports on actual information\
-  \ a year in arrears and was not tracking payment data at the assistance listing\
-  \ level, the Department received an extension on full implementation and, for FY\
-  \ 2026, conducted on-cycle risk assessments across its 46 payment reporting sites\
-  \ for all six payment types resulting in a low-risk rating for them under the DOE\
-  \ Payment Integrity Program. \nWhile the FY 2026 assessments confirmed DOE's low-risk\
-  \ status, the Department remains focused on continuous improvement. DOE will continue\
-  \ to scrutinize improper payment activity and controls through its internal control\
-  \ program by emphasizing, evaluating, and strengthening controls as needed to maintain\
-  \ the Department’s record of low payment errors and high overpayment recapture rates.\
-  \ The next on-cycle risk assessments will take place in FY 2029.\n \nDOE also conducts\
-  \ ongoing assessments of improper payment root causes to identify emerging risks,\
-  \ evaluate control deficiencies, and implement targeted corrective actions to prevent\
-  \ recurrence. Through its internal control program, DOE remains committed to continuously\
-  \ monitoring improper payment activity, evaluating the effectiveness of existing\
-  \ controls, and strengthening preventive measures as necessary. These efforts support\
-  \ DOE’s continued record of low payment errors, reinforce accountability, and demonstrate\
-  \ the Department’s commitment to effective stewardship of public funds.\n"
+detail_Executive_Summary: 'DOE continues to demonstrate strong oversight of its payments
+  and effective management of improper payment risks. In its most recent compliance
+  review for FY 2024 activities reported in the FY 2025 AFR, the OIG determined that
+  DOE met the the Payment Integrity Information Act of 2019 (PIIA) requirements. PIIA
+  requires agencies to review and assess all programs and activities with annual outlays
+  greater than $10 million for improper payment risk at least once every three years
+  to identify those susceptible to significant improper payments.
+
+
+  DOE reports under the requirements of Phase One for all PIIA reporting elements.
+  DOE reports improper payments by six payment types; Vendors and Contracts, Payroll,
+  Travel, Financial Assistance, Loans, and Other. Per Phase One requirements, DOE
+  conducts risk assessments on a three-year cycle for all payment types with outlays
+  in excess of $10 million. DOE also assesses actual payment information, a year in
+  arrears, for improper payment information and reporting.
+
+
+  In FY 2026, DOE conducted on-cycle risk assessments across its 46 payment reporting
+  sites for all six payment types resulting in a low-risk rating for them under the
+  DOE Payment Integrity Program. While the FY 2026 assessments confirmed DOE''s low-risk
+  status, the Department remains focused on continuous improvement. DOE will continue
+  to scrutinize improper payment activity and controls through its internal control
+  program by emphasizing, evaluating, and strengthening controls as needed to maintain
+  the Department’s record of low payment errors and high overpayment recapture rates.
+  The next on-cycle risk assessments will take place in FY 2029.
+
+
+  DOE conducts ongoing assessments of improper payment root causes to identify emerging
+  risks, evaluate control deficiencies, and implement targeted corrective actions
+  to prevent recurrence. Through its internal control program, DOE remains committed
+  to continuously monitoring improper payment activity, evaluating the effectiveness
+  of existing controls, and strengthening preventive measures as necessary. These
+  efforts support DOE’s continued record of low payment errors, reinforce accountability,
+  and demonstrate the Department’s commitment to effective stewardship of public funds.'
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
@@ -277,6 +251,6 @@ detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/DOE.html
 recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 227.22
-recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 224.91
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 224.89
 recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

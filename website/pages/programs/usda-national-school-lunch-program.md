@@ -1343,9 +1343,17 @@ Data_By_Year:
   Margin_of_Error: '0.0'
   Non_Monetary_Loss_Amount: '328.87'
   Outlays: 19452
-  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app4]Change Process'
-  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp4]Change Process'
+  Overpayment_Combined_Mitigations_Planned: Automation, Change Process
+  Overpayment_Combined_Mitigations_Taken: Automation, Change Process
   Payment_Accuracy_Rate: 93.5104873534855
+  Program_Additional_Information: USDA measures error in the National School Lunch
+    Program (NSLP) and the School Breakfast Program (SBP) through large periodic studies
+    conducted roughly 5 years apart. USDA uses the samples collected from those studies
+    to generate a set of improper payment rates for several subcomponents of the school
+    meal programs. Each year, until USDA conducts its next periodic study, the agency
+    uses current year administrative data to reweight the study's error rates and/or
+    dollar amounts. That reweighting allows USDA to develop annual improper payment
+    estimates for both programs that reflect current conditions.
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: "Training and Technical Assistance: The 2027 President's\
     \ Budget calls for $54,329,000 for Training and Technical Assistance. Effective\
@@ -1361,8 +1369,8 @@ Data_By_Year:
     \ and resolution of erroneous payments."
   Start_Date: 07/2017
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app1]Automation, [app4]Change Process'
-  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp4]Change Process'
+  Underpayment_Mitigations_Planned: Automation, Change Process
+  Underpayment_Mitigations_Taken: Automation, Change Process
   Unknown_Payments_Rate: 0
   Year: 2026
   detail_IP_Causes: 'USDA reimburses participating schools and institutions for the

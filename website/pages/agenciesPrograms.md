@@ -230,7 +230,7 @@ agencies:
   agency_name: Department of Agriculture
   high_priority_programs: 6
   improper_payments_rate: 9.06
-  num_programs: 502
+  num_programs: 503
   programs:
   - high_priority_program: false
     ip_rate: 6.36
@@ -304,15 +304,9 @@ agencies:
 - agency: ED
   agency_name: Department of Education
   high_priority_programs: 0
-  improper_payments_rate: 0.53
+  improper_payments_rate: 0.59
   num_programs: 126
   programs:
-  - high_priority_program: false
-    ip_rate: 0.04
-    program_name: Education Stabilization Fund
-    relative_change: 0.03
-    slug: ed-education-stabilization-fund
-    total_spent_federal_funding: 14110.3
   - high_priority_program: false
     ip_rate: 0.34
     program_name: Federal Pell Grant Program
@@ -320,26 +314,14 @@ agencies:
     slug: ed-federal-pell-grant-program
     total_spent_federal_funding: 39177.75
   - high_priority_program: false
-    ip_rate: 0.14
-    program_name: Higher Education Institutional Aid
-    relative_change: null
-    total_spent_federal_funding: 1336.08
-  - high_priority_program: false
-    ip_rate: 0.0
-    program_name: Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service
-      Community Schools; and Congressionally Directed Spending for Elementary and
-      Secondary Education Community Projects
-    relative_change: null
-    total_spent_federal_funding: 446.88
-  - high_priority_program: false
     ip_rate: 0.7
     program_name: William D. Ford Federal Direct Loan Program
     relative_change: -0.29
     slug: ed-william-d-ford-federal-direct-loan-program
     total_spent_federal_funding: 87040.68
-  relative_change: -0.18
+  relative_change: -0.12
   susceptible_programs: 2
-  total_spent_federal_funding: 142111.69
+  total_spent_federal_funding: 126218.43
 - agency: TREASURY
   agency_name: Department of the Treasury
   high_priority_programs: 4

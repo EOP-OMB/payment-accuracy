@@ -853,7 +853,7 @@ Data_By_Year:
   Technical_IP_Actions_Planned: Change Process
   Technical_IP_Actions_Taken: Change Process
   Technical_IP_Amount: '1.13'
-  Unknown_Mitigations_Planned: Change Process,Training
+  Unknown_Mitigations_Planned: Change Process, Training
   Unknown_Mitigations_Taken: Change Process
   Unknown_Payments_Rate: 5.245395092098159
   Year: 2025
@@ -1083,7 +1083,7 @@ Data_By_Year:
   Margin_of_Error: '2.24'
   Non_Monetary_Loss_Amount: '0'
   Outlays: 1437.83
-  Overpayment_Combined_Mitigations_Taken: '[atp4]Change Process'
+  Overpayment_Combined_Mitigations_Taken: Change Process
   Payment_Accuracy_Rate: 96.48150337661615
   Program_Additional_Information: 'The Medical Care Contracts and Agreements program
     continues to prioritize and implement corrective actions and mitigation strategies
@@ -1109,8 +1109,8 @@ Data_By_Year:
     actions.
   Start_Date: 10/2024
   Technical_IP_Amount: '0.0'
-  Unknown_Mitigations_Planned: '[app4]Change Process'
-  Unknown_Mitigations_Taken: '[atp4]Change Process'
+  Unknown_Mitigations_Planned: Change Process
+  Unknown_Mitigations_Taken: Change Process
   Unknown_Payments_Rate: 3.263250871104373
   Year: 2026
   detail_IP_Causes: "Overpayments occurred when the program failed to access the data/information\

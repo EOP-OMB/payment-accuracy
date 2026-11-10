@@ -1189,6 +1189,33 @@ detail_Executive_Summary: "DOL places the highest priority on payment integrity 
   \ UI partnership. DOL will continue to collaborate with states, OIG, and other stakeholders\
   \ to aggressively address fraud and reduce IPs. To return to PIIA compliance, the\
   \ UI program's goal is to reduce IP to <9.90% in PY27.\n\n"
+detail_OIG_Recommendations: "FY25 Recommendations and Status: \nOCFO Recommendation:\
+  \ \"Update review procedures to ensure accurate responses to Office of Management\
+  \ and Budget (0MB) payment integrity data call prompts, compliance with the Payment\
+  \ Integrity Information Act of 2019, and that information is complete, accurate,\
+  \ and consistent before the final submission of the OMB payment integrity data call;\
+  \ and further refine reviews of published information on PaymentAccuracy.gov.\"\
+  \ \nOCFO Recommendation Status: DOL has implemented enhanced review and reporting\
+  \ procedures to avoid this and related typographical errors. \nETA Recommendation\
+  \ 1: \"Maintain the Employment and Training Administration's current focus on increasing\
+  \ technical assistance and funding to states to improve improper payment reduction\
+  \ strategies to reduce the improper payments estimate rate below the 10 percent\
+  \ threshold.\" \nETA Recommendation 1 Status: The UI program is a Federal-state\
+  \ partnership and the significant majority of UI payments are made by states, under\
+  \ state law, using state funds. DOL continued efforts to implement its aggressive\
+  \ and ever-evolving UI Program Integrity Strategic Plan, which contains the Department's\
+  \ antifraud and improper payment reduction strategies, targeting the leading root\
+  \ causes of improper payments. \nETA Recommendation 2: \"Update the Employment and\
+  \ Training Administration's policies and procedures over the reporting of Federal\
+  \ Pandemic Unemployment Compensation, Pandemic Emergency Unemployment Compensation,\
+  \ and Pandemic Unemployment Assistance information to include outlays after the\
+  \ expiration of the programs, until such time as the outlays are no longer greater\
+  \ than the statutory threshold.\" \nETA Recommendation 2 Status: DOL disagreed with\
+  \ this Recommendation. These programs expired in law on September 6, 2021 - though\
+  \ many states discontinued them even before this date. Remaining latent outlays\
+  \ are merely a final accounting of benefits due prior to the 2021 expiration date\
+  \ and recoveries now typically exceed outlays. However, we appreciate the auditor's\
+  \ intent and will continue to be transparent in reporting.\n"
 detail_Overpayment_Conditions_And_Methods: "ETA is committed to holding states accountable\
   \ for recovering UI overpayments and, where appropriate, providing states with tools\
   \ and resources to enhance such efforts, including through its partnership with\

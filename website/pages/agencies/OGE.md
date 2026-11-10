@@ -97,6 +97,7 @@ detail_Executive_Summary: The U.S. Office of Government Ethics (OGE) is complian
   internal controls both within the OGE management structure and in conjunction with
   our financial management shared service provider, Treasury's Center for Financial
   Management (CFM) conducting constant monitoring of all agency payment activities.
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

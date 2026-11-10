@@ -167,7 +167,9 @@ detail_Executive_Summary: 'The Payment Integrity Information Act of 2019 (PIIA; 
   that there is not a significant risk of unallowable costs or improper payments within
   NSF’s single grant program and other mission support activities. No circumstances
   have changed within NSF’s grant program or its mission support activities requiring
-  NSF to reassess its payment recapture cost-effectiveness analysis.'
+  NSF to reassess its payment recapture cost-effectiveness analysis. NSF is in compliance
+  with PIIA, further confirmed by a recent OIG evaluation conducted in 2026.'
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

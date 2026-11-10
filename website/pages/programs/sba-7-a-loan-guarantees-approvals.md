@@ -619,8 +619,8 @@ Data_By_Year:
     and external training on the new policy, with additional targeted training planned
     based on the findings identified through PIIA reviews. OFPO provides feedback
     to lenders and employees, and obtains additional documentation from lenders when
-    necessary. Significant lender-level deficiencies—based on severity or recurring
-    patterns—are shared with the Office of Credit Risk Management (OCRM) for consideration
+    necessary. Significant lender-level deficiencies, based on severity or recurring
+    patterns, are shared with the Office of Credit Risk Management (OCRM) for consideration
     in its risk-based review process and with the Office of Financial Assistance (OFA)
     to support policy refinement. These corrective actions together ensure that the
     agency’s response is proportional to the underlying root causes and supports measurable
@@ -724,8 +724,8 @@ Data_By_Year:
     integrity functions and ensure compliance through the recoupment and closeout
     phase.
   Start_Date: 04/2025
-  Technical_IP_Actions_Planned: '[app3]Training, [app4]Change Process, [app6]Audit'
-  Technical_IP_Actions_Taken: '[atp3]Training, [atp4]Change Process, [atp6]Audit'
+  Technical_IP_Actions_Planned: Audit, Change Process, Training
+  Technical_IP_Actions_Taken: Audit, Change Process, Training
   Technical_IP_Amount: '1985.9'
   Unknown_Payments_Rate: 0
   Year: 2026
@@ -737,7 +737,7 @@ Data_By_Year:
     by lenders’ failure to verify all components of loan eligibility (program integrity
     issues or project structure issues), lenders’ failure to provide loan documentation,
     and data entry errors. Because the improper payments for these 7(a) approvals
-    are technically improper, the OMB root cause is identified as Statutory Requirements
+    are technically improper, the root cause is identified as Statutory Requirements
     of Program Were Not Met.
   detail_No_Estimates_Why: null
   detail_Overpayments_Due_To_Data_DNE: null

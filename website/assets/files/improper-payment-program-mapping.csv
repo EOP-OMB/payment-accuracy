@@ -318,8 +318,8 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 97.136,United States Coast Guard - Boating Safety Data Collection and Analysis Grant Program,DHS,2026,,,,,,
 97.135,United States Coast Guard - National Nonprofit Organization Recreational Boating Safety (RBS) Grant Program,DHS,2026,,,,,,
 97.140,"United States Coast Guard - Procurement, Construction, & Improvement: National Coast Guard Museum",DHS,2026,,,,,,
-97.012,United States Coast Guard - State Recreational Boating Safety (RBS) Grant Program,DHS,2021,0,0,,,,
-97.012,United States Coast Guard - State Recreational Boating Safety (RBS) Grant Program,DHS,2022,0,0,,,,
+97.012,United States Coast Guard - State Recreational Boating Safety (RBS) Grant Program,DHS,2021,0,0,,,0,
+97.012,United States Coast Guard - State Recreational Boating Safety (RBS) Grant Program,DHS,2022,0,0,,,0,
 97.142,"United States Secret Service - Procurement, Construction, & Improvement: National Computer Forensics Institute",DHS,2026,,,,,,
 11.016,Census Bureau - Current Demographic Statistics,DOC,2021,0,0,,,0,
 11.016,Census Bureau - Current Demographic Statistics,DOC,2022,0,0,,,0,
@@ -332,26 +332,26 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 11.016,Census Bureau - Periodic Economic Statistics,DOC,2022,0,0,,,0,
 11.016,Census Bureau - Working Capital Fund,DOC,2021,0,0,,,0,
 11.016,Census Bureau - Working Capital Fund,DOC,2022,0,0,,,0,
-11.023,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,,
-11.023,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,,
-11.024,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,,
-11.024,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,,
-11.039,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,,
-11.039,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,,
-11.040,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,,
-11.040,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,,
-11.300,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,,
-11.300,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,,
-11.302,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,,
-11.302,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,,
-11.303,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,,
-11.303,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,,
-11.307,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,,
-11.307,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,,
-11.312,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,,
-11.312,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,,
-11.313,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,,
-11.313,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,,
+11.023,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,0,
+11.023,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,0,
+11.024,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,0,
+11.024,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,0,
+11.039,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,0,
+11.039,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,0,
+11.040,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,0,
+11.040,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,0,
+11.300,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,0,
+11.300,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,0,
+11.302,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,0,
+11.302,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,0,
+11.303,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,0,
+11.303,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,0,
+11.307,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,0,
+11.307,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,0,
+11.312,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,0,
+11.312,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,0,
+11.313,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2021,31.7,0.00005,2019-10-01,2020-09-01,0,
+11.313,Economic Development Administration (EDA) - Economic Development Assistance Programs,DOC,2022,70.1,3.9,2020-10-01,2021-09-01,0,
 11.041,International Trade Administration (ITA) - Global Markets,DOC,2021,0,0,,,0,
 11.041,International Trade Administration (ITA) - Global Markets,DOC,2022,0,0,,,0,
 11.112,International Trade Administration (ITA) - Industry and Analysis,DOC,2021,0,0,,,0,
@@ -600,14 +600,14 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 12.005,USACE - Commercial Pay,DOW,2012,0,0,,,,
 12.005,USACE - Commercial Pay,DOW,2013,21700,0,,,,
 12.005,USACE - Commercial Pay,DOW,2014,18700,0,,,,
-12.005,USACE - Commercial Pay,DOW,2015,18200,0,,,,
+12.005,USACE - Commercial Pay,DOW,2015,18200,0,,,0,
 12.005,USACE - Commercial Pay,DOW,2016,18158,0,,,,
 12.005,USACE - Commercial Pay,DOW,2017,8945.04735247,0,,,,
 12.005,USACE - Commercial Pay,DOW,2018,18610.93,0,,,,
-12.005,USACE - Commercial Pay,DOW,2019,20401.51814368,47.80775269,2018-07-01,2019-06-19,,
-12.005,USACE - Commercial Pay,DOW,2020,23548.71130419,0,2019-07-01,2020-06-01,,
-12.005,USACE - Commercial Pay,DOW,2021,0,0,,,,
-12.005,USACE - Commercial Pay,DOW,2022,0,0,,,,
+12.005,USACE - Commercial Pay,DOW,2019,20401.51814368,47.80775269,2018-07-01,2019-06-19,0,
+12.005,USACE - Commercial Pay,DOW,2020,23548.71130419,0,2019-07-01,2020-06-01,0,
+12.005,USACE - Commercial Pay,DOW,2021,0,0,,,0,
+12.005,USACE - Commercial Pay,DOW,2022,0,0,,,0,
 12.008,USACE - Commercial Pay,DOW,2004,0,0,,,,
 12.008,USACE - Commercial Pay,DOW,2005,0,0,,,,
 12.008,USACE - Commercial Pay,DOW,2006,0,0,,,,
@@ -619,14 +619,14 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 12.008,USACE - Commercial Pay,DOW,2012,0,0,,,,
 12.008,USACE - Commercial Pay,DOW,2013,21700,0,,,,
 12.008,USACE - Commercial Pay,DOW,2014,18700,0,,,,
-12.008,USACE - Commercial Pay,DOW,2015,18200,0,,,,
+12.008,USACE - Commercial Pay,DOW,2015,18200,0,,,0,
 12.008,USACE - Commercial Pay,DOW,2016,18158,0,,,,
 12.008,USACE - Commercial Pay,DOW,2017,8945.04735247,0,,,,
 12.008,USACE - Commercial Pay,DOW,2018,18610.93,0,,,,
-12.008,USACE - Commercial Pay,DOW,2019,20401.51814368,47.80775269,2018-07-01,2019-06-19,,
-12.008,USACE - Commercial Pay,DOW,2020,23548.71130419,0,2019-07-01,2020-06-01,,
-12.008,USACE - Commercial Pay,DOW,2021,0,0,,,,
-12.008,USACE - Commercial Pay,DOW,2022,0,0,,,,
+12.008,USACE - Commercial Pay,DOW,2019,20401.51814368,47.80775269,2018-07-01,2019-06-19,0,
+12.008,USACE - Commercial Pay,DOW,2020,23548.71130419,0,2019-07-01,2020-06-01,0,
+12.008,USACE - Commercial Pay,DOW,2021,0,0,,,0,
+12.008,USACE - Commercial Pay,DOW,2022,0,0,,,0,
 12.010,USACE - Commercial Pay,DOW,2004,0,0,,,,
 12.010,USACE - Commercial Pay,DOW,2005,0,0,,,,
 12.010,USACE - Commercial Pay,DOW,2006,0,0,,,,
@@ -638,14 +638,14 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 12.010,USACE - Commercial Pay,DOW,2012,0,0,,,,
 12.010,USACE - Commercial Pay,DOW,2013,21700,0,,,,
 12.010,USACE - Commercial Pay,DOW,2014,18700,0,,,,
-12.010,USACE - Commercial Pay,DOW,2015,18200,0,,,,
+12.010,USACE - Commercial Pay,DOW,2015,18200,0,,,0,
 12.010,USACE - Commercial Pay,DOW,2016,18158,0,,,,
 12.010,USACE - Commercial Pay,DOW,2017,8945.04735247,0,,,,
 12.010,USACE - Commercial Pay,DOW,2018,18610.93,0,,,,
-12.010,USACE - Commercial Pay,DOW,2019,20401.51814368,47.80775269,2018-07-01,2019-06-19,,
-12.010,USACE - Commercial Pay,DOW,2020,23548.71130419,0,2019-07-01,2020-06-01,,
-12.010,USACE - Commercial Pay,DOW,2021,0,0,,,,
-12.010,USACE - Commercial Pay,DOW,2022,0,0,,,,
+12.010,USACE - Commercial Pay,DOW,2019,20401.51814368,47.80775269,2018-07-01,2019-06-19,0,
+12.010,USACE - Commercial Pay,DOW,2020,23548.71130419,0,2019-07-01,2020-06-01,0,
+12.010,USACE - Commercial Pay,DOW,2021,0,0,,,0,
+12.010,USACE - Commercial Pay,DOW,2022,0,0,,,0,
 12.012,USACE - Commercial Pay,DOW,2004,0,0,,,,
 12.012,USACE - Commercial Pay,DOW,2005,0,0,,,,
 12.012,USACE - Commercial Pay,DOW,2006,0,0,,,,
@@ -657,14 +657,14 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 12.012,USACE - Commercial Pay,DOW,2012,0,0,,,,
 12.012,USACE - Commercial Pay,DOW,2013,21700,0,,,,
 12.012,USACE - Commercial Pay,DOW,2014,18700,0,,,,
-12.012,USACE - Commercial Pay,DOW,2015,18200,0,,,,
+12.012,USACE - Commercial Pay,DOW,2015,18200,0,,,0,
 12.012,USACE - Commercial Pay,DOW,2016,18158,0,,,,
 12.012,USACE - Commercial Pay,DOW,2017,8945.04735247,0,,,,
 12.012,USACE - Commercial Pay,DOW,2018,18610.93,0,,,,
-12.012,USACE - Commercial Pay,DOW,2019,20401.51814368,47.80775269,2018-07-01,2019-06-19,,
-12.012,USACE - Commercial Pay,DOW,2020,23548.71130419,0,2019-07-01,2020-06-01,,
-12.012,USACE - Commercial Pay,DOW,2021,0,0,,,,
-12.012,USACE - Commercial Pay,DOW,2022,0,0,,,,
+12.012,USACE - Commercial Pay,DOW,2019,20401.51814368,47.80775269,2018-07-01,2019-06-19,0,
+12.012,USACE - Commercial Pay,DOW,2020,23548.71130419,0,2019-07-01,2020-06-01,0,
+12.012,USACE - Commercial Pay,DOW,2021,0,0,,,0,
+12.012,USACE - Commercial Pay,DOW,2022,0,0,,,0,
 12.026,USACE - Commercial Pay,DOW,2004,0,0,,,,
 12.026,USACE - Commercial Pay,DOW,2005,0,0,,,,
 12.026,USACE - Commercial Pay,DOW,2006,0,0,,,,
@@ -676,14 +676,14 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 12.026,USACE - Commercial Pay,DOW,2012,0,0,,,,
 12.026,USACE - Commercial Pay,DOW,2013,21700,0,,,,
 12.026,USACE - Commercial Pay,DOW,2014,18700,0,,,,
-12.026,USACE - Commercial Pay,DOW,2015,18200,0,,,,
+12.026,USACE - Commercial Pay,DOW,2015,18200,0,,,0,
 12.026,USACE - Commercial Pay,DOW,2016,18158,0,,,,
 12.026,USACE - Commercial Pay,DOW,2017,8945.04735247,0,,,,
 12.026,USACE - Commercial Pay,DOW,2018,18610.93,0,,,,
-12.026,USACE - Commercial Pay,DOW,2019,20401.51814368,47.80775269,2018-07-01,2019-06-19,,
-12.026,USACE - Commercial Pay,DOW,2020,23548.71130419,0,2019-07-01,2020-06-01,,
-12.026,USACE - Commercial Pay,DOW,2021,0,0,,,,
-12.026,USACE - Commercial Pay,DOW,2022,0,0,,,,
+12.026,USACE - Commercial Pay,DOW,2019,20401.51814368,47.80775269,2018-07-01,2019-06-19,0,
+12.026,USACE - Commercial Pay,DOW,2020,23548.71130419,0,2019-07-01,2020-06-01,0,
+12.026,USACE - Commercial Pay,DOW,2021,0,0,,,0,
+12.026,USACE - Commercial Pay,DOW,2022,0,0,,,0,
 12.113,USACE - Commercial Pay,DOW,2004,0,0,,,,
 12.113,USACE - Commercial Pay,DOW,2005,0,0,,,,
 12.113,USACE - Commercial Pay,DOW,2006,0,0,,,,
@@ -695,14 +695,14 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 12.113,USACE - Commercial Pay,DOW,2012,0,0,,,,
 12.113,USACE - Commercial Pay,DOW,2013,21700,0,,,,
 12.113,USACE - Commercial Pay,DOW,2014,18700,0,,,,
-12.113,USACE - Commercial Pay,DOW,2015,18200,0,,,,
+12.113,USACE - Commercial Pay,DOW,2015,18200,0,,,0,
 12.113,USACE - Commercial Pay,DOW,2016,18158,0,,,,
 12.113,USACE - Commercial Pay,DOW,2017,8945.04735247,0,,,,
 12.113,USACE - Commercial Pay,DOW,2018,18610.93,0,,,,
-12.113,USACE - Commercial Pay,DOW,2019,20401.51814368,47.80775269,2018-07-01,2019-06-19,,
-12.113,USACE - Commercial Pay,DOW,2020,23548.71130419,0,2019-07-01,2020-06-01,,
-12.113,USACE - Commercial Pay,DOW,2021,0,0,,,,
-12.113,USACE - Commercial Pay,DOW,2022,0,0,,,,
+12.113,USACE - Commercial Pay,DOW,2019,20401.51814368,47.80775269,2018-07-01,2019-06-19,0,
+12.113,USACE - Commercial Pay,DOW,2020,23548.71130419,0,2019-07-01,2020-06-01,0,
+12.113,USACE - Commercial Pay,DOW,2021,0,0,,,0,
+12.113,USACE - Commercial Pay,DOW,2022,0,0,,,0,
 12.114,USACE - Commercial Pay,DOW,2004,0,0,,,,
 12.114,USACE - Commercial Pay,DOW,2005,0,0,,,,
 12.114,USACE - Commercial Pay,DOW,2006,0,0,,,,
@@ -714,14 +714,14 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 12.114,USACE - Commercial Pay,DOW,2012,0,0,,,,
 12.114,USACE - Commercial Pay,DOW,2013,21700,0,,,,
 12.114,USACE - Commercial Pay,DOW,2014,18700,0,,,,
-12.114,USACE - Commercial Pay,DOW,2015,18200,0,,,,
+12.114,USACE - Commercial Pay,DOW,2015,18200,0,,,0,
 12.114,USACE - Commercial Pay,DOW,2016,18158,0,,,,
 12.114,USACE - Commercial Pay,DOW,2017,8945.04735247,0,,,,
 12.114,USACE - Commercial Pay,DOW,2018,18610.93,0,,,,
-12.114,USACE - Commercial Pay,DOW,2019,20401.51814368,47.80775269,2018-07-01,2019-06-19,,
-12.114,USACE - Commercial Pay,DOW,2020,23548.71130419,0,2019-07-01,2020-06-01,,
-12.114,USACE - Commercial Pay,DOW,2021,0,0,,,,
-12.114,USACE - Commercial Pay,DOW,2022,0,0,,,,
+12.114,USACE - Commercial Pay,DOW,2019,20401.51814368,47.80775269,2018-07-01,2019-06-19,0,
+12.114,USACE - Commercial Pay,DOW,2020,23548.71130419,0,2019-07-01,2020-06-01,0,
+12.114,USACE - Commercial Pay,DOW,2021,0,0,,,0,
+12.114,USACE - Commercial Pay,DOW,2022,0,0,,,0,
 12.116,USACE - Commercial Pay,DOW,2004,0,0,,,,
 12.116,USACE - Commercial Pay,DOW,2005,0,0,,,,
 12.116,USACE - Commercial Pay,DOW,2006,0,0,,,,
@@ -733,14 +733,14 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 12.116,USACE - Commercial Pay,DOW,2012,0,0,,,,
 12.116,USACE - Commercial Pay,DOW,2013,21700,0,,,,
 12.116,USACE - Commercial Pay,DOW,2014,18700,0,,,,
-12.116,USACE - Commercial Pay,DOW,2015,18200,0,,,,
+12.116,USACE - Commercial Pay,DOW,2015,18200,0,,,0,
 12.116,USACE - Commercial Pay,DOW,2016,18158,0,,,,
 12.116,USACE - Commercial Pay,DOW,2017,8945.04735247,0,,,,
 12.116,USACE - Commercial Pay,DOW,2018,18610.93,0,,,,
-12.116,USACE - Commercial Pay,DOW,2019,20401.51814368,47.80775269,2018-07-01,2019-06-19,,
-12.116,USACE - Commercial Pay,DOW,2020,23548.71130419,0,2019-07-01,2020-06-01,,
-12.116,USACE - Commercial Pay,DOW,2021,0,0,,,,
-12.116,USACE - Commercial Pay,DOW,2022,0,0,,,,
+12.116,USACE - Commercial Pay,DOW,2019,20401.51814368,47.80775269,2018-07-01,2019-06-19,0,
+12.116,USACE - Commercial Pay,DOW,2020,23548.71130419,0,2019-07-01,2020-06-01,0,
+12.116,USACE - Commercial Pay,DOW,2021,0,0,,,0,
+12.116,USACE - Commercial Pay,DOW,2022,0,0,,,0,
 81.005,Financial Assistance Awards,DOE,2021,0,0,,,0,
 81.005,Financial Assistance Awards,DOE,2022,0,0,,,0,
 81.008,Financial Assistance Awards,DOE,2021,0,0,,,0,
@@ -937,8 +937,8 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 15.539,Equus Beds Division Acquifer Storage Recharge,DOI,2026,,,,,,
 15.016,"Experienced Services Program, Bureau of Land Management",DOI,2026,,,,,,
 15.079,"Experienced Services Program, Bureau of Ocean Energy Management",DOI,2026,,,,,,
-15.070,"Experienced Services Program, Bureau of Reclamation",DOI,2021,0,0,,,,
-15.070,"Experienced Services Program, Bureau of Reclamation",DOI,2022,0,0,,,,
+15.070,"Experienced Services Program, Bureau of Reclamation",DOI,2021,0,0,,,0,
+15.070,"Experienced Services Program, Bureau of Reclamation",DOI,2022,0,0,,,0,
 15.682,"Experienced Services Program, Fish and Wildlife Service",DOI,2026,,,,,,
 15.011,"Experienced Services Program, National Park Service",DOI,2026,,,,,,
 15.072,"Experienced Services Program, US Geological Survey",DOI,2026,,,,,,
@@ -1691,8 +1691,8 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 20.331,FRA Rail Research and Development Centers of Excellence,DOT,2026,,,,,,
 20.327,FRA Railroad Crossing Elimination Program,DOT,2026,,,,,,
 20.334,FRA Railroad Development,DOT,2026,,,,,,
-20.332,FRA Railroad Research and Development,DOT,2021,0,0,,,,
-20.332,FRA Railroad Research and Development,DOT,2022,0,0,,,,
+20.332,FRA Railroad Research and Development,DOT,2021,0,0,,,0,
+20.332,FRA Railroad Research and Development,DOT,2022,0,0,,,0,
 20.329,FRA Railroad Safety,DOT,2026,,,,,,
 20.330,FRA Railroad Safety State Participation Grant Program,DOT,2026,,,,,,
 20.321,FRA Railroad Safety Technology Grants,DOT,2026,,,,,,
@@ -1719,8 +1719,8 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 20.500,FTA Capital Investment Grants (Section 5309),DOT,2018,0,0,,,,
 20.500,FTA Capital Investment Grants (Section 5309),DOT,2019,0,0,,,,
 20.500,FTA Capital Investment Grants (Section 5309),DOT,2020,0,0,,,,
-20.500,FTA Capital Investment Grants (Section 5309),DOT,2021,0,0,,,,
-20.500,FTA Capital Investment Grants (Section 5309),DOT,2022,0,0,,,,
+20.500,FTA Capital Investment Grants (Section 5309),DOT,2021,0,0,,,0,
+20.500,FTA Capital Investment Grants (Section 5309),DOT,2022,0,0,,,0,
 20.519,FTA Clean Fuels,DOT,2026,,,,,,
 20.541,FTA Discretionary Planning Grant Programs,DOT,2026,,,,,,
 20.538,FTA Electric or Low-Emitting Ferry Program,DOT,2026,,,,,,
@@ -1733,8 +1733,8 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 20.521,FTA New Freedom Program,DOT,2026,,,,,,
 20.540,FTA Passenger Ferry Program,DOT,2026,,,,,,
 20.539,FTA Passenger Ferry Program for Rural Communities,DOT,2026,,,,,,
-20.524,FTA Passenger Rail Investment and Improvement Projects for Washington Metropolitan Area Transit Authority,DOT,2021,0,0,,,,
-20.524,FTA Passenger Rail Investment and Improvement Projects for Washington Metropolitan Area Transit Authority,DOT,2022,0,0,,,,
+20.524,FTA Passenger Rail Investment and Improvement Projects for Washington Metropolitan Area Transit Authority,DOT,2021,0,0,,,0,
+20.524,FTA Passenger Rail Investment and Improvement Projects for Washington Metropolitan Area Transit Authority,DOT,2022,0,0,,,0,
 20.520,FTA Paul S. Sarbanes Transit in the Parks,DOT,2026,,,,,,
 20.527,FTA Public Transportation Emergency Relief Program,DOT,2004,0,0,,,,
 20.527,FTA Public Transportation Emergency Relief Program,DOT,2005,0,0,,,,
@@ -1748,13 +1748,13 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 20.527,FTA Public Transportation Emergency Relief Program,DOT,2013,0,0,,,,
 20.527,FTA Public Transportation Emergency Relief Program,DOT,2014,595.753039,0,,,,
 20.527,FTA Public Transportation Emergency Relief Program,DOT,2015,570.439405,0,,,,
-20.527,FTA Public Transportation Emergency Relief Program,DOT,2016,361.81060673,0,,,,
-20.527,FTA Public Transportation Emergency Relief Program,DOT,2017,551.814285,0,,,,
-20.527,FTA Public Transportation Emergency Relief Program,DOT,2018,534.28862537,0,,,,
+20.527,FTA Public Transportation Emergency Relief Program,DOT,2016,361.81060673,0,,,0.32444765,
+20.527,FTA Public Transportation Emergency Relief Program,DOT,2017,551.814285,0,,,0.18289849,
+20.527,FTA Public Transportation Emergency Relief Program,DOT,2018,534.28862537,0,,,0.837002,
 20.527,FTA Public Transportation Emergency Relief Program,DOT,2019,0,0,,,,
 20.527,FTA Public Transportation Emergency Relief Program,DOT,2020,0,0,,,,
-20.527,FTA Public Transportation Emergency Relief Program,DOT,2021,16.62,0,2018-09-01,2020-09-01,,
-20.527,FTA Public Transportation Emergency Relief Program,DOT,2022,0,0,,,,
+20.527,FTA Public Transportation Emergency Relief Program,DOT,2021,16.62,0,2018-09-01,2020-09-01,0.001,
+20.527,FTA Public Transportation Emergency Relief Program,DOT,2022,0,0,,,0,
 20.530,FTA Public Transportation Innovation (Section 5312),DOT,2026,,,,,,
 20.525,FTA State of Good Repair Grants,DOT,2026,,,,,,
 20.528,FTA State Safety Oversight Formula Grant Program,DOT,2026,,,,,,
@@ -1765,12 +1765,12 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 20.808,MARAD Capital Construction Fund,DOT,2026,,,,,,
 20.812,MARAD Construction Reserve Fund,DOT,2026,,,,,,
 20.826,MARAD Environmental and Technical Assistance Program,DOT,2026,,,,,,
-20.802,MARAD Guaranteed Loans (Title XI),DOT,2021,0,0,,,,
-20.802,MARAD Guaranteed Loans (Title XI),DOT,2022,0,0,,,,
-20.823,MARAD Port Infrastructure Development Program,DOT,2022,0,0,,,,
+20.802,MARAD Guaranteed Loans (Title XI),DOT,2021,0,0,,,0,
+20.802,MARAD Guaranteed Loans (Title XI),DOT,2022,0,0,,,0,
+20.823,MARAD Port Infrastructure Development Program,DOT,2022,0,0,,,0,
 20.813,MARAD Security Program,DOT,2026,,,,,,
-20.806,MARAD State Maritime Academy Operations,DOT,2021,0,0,,,,
-20.806,MARAD State Maritime Academy Operations,DOT,2022,0,0,,,,
+20.806,MARAD State Maritime Academy Operations,DOT,2021,0,0,,,0,
+20.806,MARAD State Maritime Academy Operations,DOT,2022,0,0,,,0,
 20.820,MARAD Studies and Innovations,DOT,2026,,,,,,
 20.825,MARAD Tanker Security Program,DOT,2026,,,,,,
 20.807,MARAD U.S. Merchant Marine Academy,DOT,2026,,,,,,
@@ -1797,8 +1797,8 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 20.948,OST Mobility Equity Research Initiative,DOT,2026,,,,,,
 20.933,OST National Infrastructure Investments,DOT,2026,,,,,,
 20.937,OST National Infrastructure Project Assistance (Mega Projects),DOT,2026,,,,,,
-20.316,OST Railroad Rehabilitation & Improvement Financing (RRIF),DOT,2021,0,0,,,,
-20.316,OST Railroad Rehabilitation & Improvement Financing (RRIF),DOT,2022,0,0,,,,
+20.316,OST Railroad Rehabilitation & Improvement Financing (RRIF),DOT,2021,0,0,,,0,
+20.316,OST Railroad Rehabilitation & Improvement Financing (RRIF),DOT,2022,0,0,,,0,
 20.951,OST Regional Infrastructure Accelerators Demonstration Program,DOT,2026,,,,,,
 20.949,OST Research Initiative On The Use of Steel Slag in Concrete and Cement,DOT,2026,,,,,,
 20.943,OST Rural and Tribal Assistance Pilot Program,DOT,2026,,,,,,
@@ -1866,7 +1866,6 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 84.425,Education Stabilization Fund,ED,2023,79713.91,0.140265,2021-10-01,2022-09-01,0,ed-education-stabilization-fund
 84.425,Education Stabilization Fund,ED,2024,64650.62,0.1,2022-10-01,2023-09-01,0,ed-education-stabilization-fund
 84.425,Education Stabilization Fund,ED,2025,55570.27,2.36,2023-10-01,2024-09-30,0,ed-education-stabilization-fund
-84.425,Education Stabilization Fund,ED,2026,14110.3,5.06,2024-10-01,2025-09-30,0,ed-education-stabilization-fund
 84.365,English Language Acquisition State Grants,ED,2021,0,0,,,0,
 84.365,English Language Acquisition State Grants,ED,2022,0,0,,,0,
 84.032,Federal Family Education Loan (FFEL),ED,2004,0,0,,,,
@@ -1930,7 +1929,6 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 93.108,Health Education Assistance Loan (HEAL),ED,2022,0,0,,,0,
 84.031,Higher Education Institutional Aid,ED,2021,0,0,,,0,
 84.031,Higher Education Institutional Aid,ED,2022,0,0,,,0,
-84.031,Higher Education Institutional Aid,ED,2026,1336.08,1.89,2024-10-01,2025-09-30,9.47,
 84.915,Howard University,ED,2022,0,0,,,0,
 84.041,Impact Aid,ED,2021,0,0,,,0,
 84.299,Indian Education - Special Programs for Indian Children,ED,2021,0,0,,,0,
@@ -1939,7 +1937,6 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 84.060,Indian Education Grants to Local Educational Agencies,ED,2022,0,0,,,0,
 84.215,Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service Community Schools; and Congressionally Directed Spending for Elementary and Secondary Education Community Projects,ED,2021,0,0,,,0,
 84.215,Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service Community Schools; and Congressionally Directed Spending for Elementary and Secondary Education Community Projects,ED,2022,0,0,,,0,
-84.215,Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service Community Schools; and Congressionally Directed Spending for Elementary and Secondary Education Community Projects,ED,2026,446.88,0.0002,2024-10-01,2025-09-30,0,
 84.206,Javits Gifted and Talented Students Education,ED,2021,0,0,,,0,
 84.206,Javits Gifted and Talented Students Education,ED,2022,0,0,,,0,
 84.165,Magnet Schools Assistance,ED,2022,0,0,,,0,
@@ -2347,16 +2344,16 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 39.003,Donation of Federal Surplus Personal Property,GSA,2026,,,,,,
 39.007,Sale of Federal Surplus Personal Property,GSA,2021,0,0,,,0,
 39.007,Sale of Federal Surplus Personal Property,GSA,2022,0,0,,,0,
-93.603,Adoption and Legal Guardianship Incentive Payments Program,HHS,2022,0,0,,,,
-93.659,Adoption Assistance,HHS,2021,0,0,,,,
-93.659,Adoption Assistance,HHS,2022,0,0,,,,
-93.652,Adoption Opportunities,HHS,2022,0,0,,,,
-93.092,Affordable Care Act (ACA) Personal Responsibility Education Program,HHS,2022,0,0,,,,
-93.604,Assistance for Torture Victims,HHS,2022,0,0,,,,
-93.623,Basic Center Grant,HHS,2022,0,0,,,,
-93.599,Chafee Education and Training Vouchers Program (ETV),HHS,2022,0,0,,,,
-93.670,Child Abuse and Neglect Discretionary Activities,HHS,2022,0,0,,,,
-93.669,Child Abuse and Neglect State Grants,HHS,2022,0,0,,,,
+93.603,Adoption and Legal Guardianship Incentive Payments Program,HHS,2022,0,0,,,0,
+93.659,Adoption Assistance,HHS,2021,0,0,,,0,
+93.659,Adoption Assistance,HHS,2022,0,0,,,0,
+93.652,Adoption Opportunities,HHS,2022,0,0,,,0,
+93.092,Affordable Care Act (ACA) Personal Responsibility Education Program,HHS,2022,0,0,,,0,
+93.604,Assistance for Torture Victims,HHS,2022,0,0,,,0,
+93.623,Basic Center Grant,HHS,2022,0,0,,,0,
+93.599,Chafee Education and Training Vouchers Program (ETV),HHS,2022,0,0,,,0,
+93.670,Child Abuse and Neglect Discretionary Activities,HHS,2022,0,0,,,0,
+93.669,Child Abuse and Neglect State Grants,HHS,2022,0,0,,,0,
 93.575,Child Care and Development Fund (CCDF),HHS,2004,0,0,,,,hhs-child-care-and-development-fund-ccdf
 93.575,Child Care and Development Fund (CCDF),HHS,2005,0,0,,,,hhs-child-care-and-development-fund-ccdf
 93.575,Child Care and Development Fund (CCDF),HHS,2006,0,0,,,,hhs-child-care-and-development-fund-ccdf
@@ -2368,17 +2365,17 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 93.575,Child Care and Development Fund (CCDF),HHS,2012,5170,0,,,,hhs-child-care-and-development-fund-ccdf
 93.575,Child Care and Development Fund (CCDF),HHS,2013,5188,0,,,,hhs-child-care-and-development-fund-ccdf
 93.575,Child Care and Development Fund (CCDF),HHS,2014,5239,0,,,,hhs-child-care-and-development-fund-ccdf
-93.575,Child Care and Development Fund (CCDF),HHS,2015,5420.32,0,,,,hhs-child-care-and-development-fund-ccdf
-93.575,Child Care and Development Fund (CCDF),HHS,2016,5547.09,0,,,,hhs-child-care-and-development-fund-ccdf
-93.575,Child Care and Development Fund (CCDF),HHS,2017,5746.27,0,,,,hhs-child-care-and-development-fund-ccdf
-93.575,Child Care and Development Fund (CCDF),HHS,2018,7549.78,0,,,,hhs-child-care-and-development-fund-ccdf
-93.575,Child Care and Development Fund (CCDF),HHS,2019,7166.95,125.89,2017-10-01,2018-09-30,,hhs-child-care-and-development-fund-ccdf
-93.575,Child Care and Development Fund (CCDF),HHS,2020,7938.96,156.23,2018-10-01,2019-09-30,,hhs-child-care-and-development-fund-ccdf
-93.575,Child Care and Development Fund (CCDF),HHS,2021,13484.5,179.42,2019-10-01,2020-09-01,,hhs-child-care-and-development-fund-ccdf
-93.575,Child Care and Development Fund (CCDF),HHS,2022,8699.1,114.17,2020-10-01,2021-09-01,,hhs-child-care-and-development-fund-ccdf
-93.575,Child Care and Development Fund (CCDF),HHS,2023,8699.1,99.65,2021-10-01,2022-09-01,,hhs-child-care-and-development-fund-ccdf
-93.575,Child Care and Development Fund (CCDF),HHS,2024,17096,843.5,2022-10-01,2023-09-01,,hhs-child-care-and-development-fund-ccdf
-93.575,Child Care and Development Fund (CCDF),HHS,2025,18698.59,921.46,2023-10-01,2024-09-30,,hhs-child-care-and-development-fund-ccdf
+93.575,Child Care and Development Fund (CCDF),HHS,2015,5420.32,0,,,58.15,hhs-child-care-and-development-fund-ccdf
+93.575,Child Care and Development Fund (CCDF),HHS,2016,5547.09,0,,,132.52,hhs-child-care-and-development-fund-ccdf
+93.575,Child Care and Development Fund (CCDF),HHS,2017,5746.27,0,,,155.86,hhs-child-care-and-development-fund-ccdf
+93.575,Child Care and Development Fund (CCDF),HHS,2018,7549.78,0,,,176.92,hhs-child-care-and-development-fund-ccdf
+93.575,Child Care and Development Fund (CCDF),HHS,2019,7166.95,125.89,2017-10-01,2018-09-30,198.77,hhs-child-care-and-development-fund-ccdf
+93.575,Child Care and Development Fund (CCDF),HHS,2020,7938.96,156.23,2018-10-01,2019-09-30,253.22,hhs-child-care-and-development-fund-ccdf
+93.575,Child Care and Development Fund (CCDF),HHS,2021,13484.5,179.42,2019-10-01,2020-09-01,408.94,hhs-child-care-and-development-fund-ccdf
+93.575,Child Care and Development Fund (CCDF),HHS,2022,8699.1,114.17,2020-10-01,2021-09-01,230.53,hhs-child-care-and-development-fund-ccdf
+93.575,Child Care and Development Fund (CCDF),HHS,2023,8699.1,99.65,2021-10-01,2022-09-01,209.39,hhs-child-care-and-development-fund-ccdf
+93.575,Child Care and Development Fund (CCDF),HHS,2024,17096,843.5,2022-10-01,2023-09-01,0,hhs-child-care-and-development-fund-ccdf
+93.575,Child Care and Development Fund (CCDF),HHS,2025,18698.59,921.46,2023-10-01,2024-09-30,0,hhs-child-care-and-development-fund-ccdf
 93.575,Child Care and Development Fund (CCDF),HHS,2026,11394.42,563.63,2024-10-01,2025-09-30,0,hhs-child-care-and-development-fund-ccdf
 93.596,Child Care and Development Fund (CCDF),HHS,2004,0,0,,,,hhs-child-care-and-development-fund-ccdf
 93.596,Child Care and Development Fund (CCDF),HHS,2005,0,0,,,,hhs-child-care-and-development-fund-ccdf
@@ -2391,30 +2388,30 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 93.596,Child Care and Development Fund (CCDF),HHS,2012,5170,0,,,,hhs-child-care-and-development-fund-ccdf
 93.596,Child Care and Development Fund (CCDF),HHS,2013,5188,0,,,,hhs-child-care-and-development-fund-ccdf
 93.596,Child Care and Development Fund (CCDF),HHS,2014,5239,0,,,,hhs-child-care-and-development-fund-ccdf
-93.596,Child Care and Development Fund (CCDF),HHS,2015,5420.32,0,,,,hhs-child-care-and-development-fund-ccdf
-93.596,Child Care and Development Fund (CCDF),HHS,2016,5547.09,0,,,,hhs-child-care-and-development-fund-ccdf
-93.596,Child Care and Development Fund (CCDF),HHS,2017,5746.27,0,,,,hhs-child-care-and-development-fund-ccdf
-93.596,Child Care and Development Fund (CCDF),HHS,2018,7549.78,0,,,,hhs-child-care-and-development-fund-ccdf
-93.596,Child Care and Development Fund (CCDF),HHS,2019,7166.95,125.89,2017-10-01,2018-09-30,,hhs-child-care-and-development-fund-ccdf
-93.596,Child Care and Development Fund (CCDF),HHS,2020,7938.96,156.23,2018-10-01,2019-09-30,,hhs-child-care-and-development-fund-ccdf
-93.596,Child Care and Development Fund (CCDF),HHS,2021,13484.5,179.42,2019-10-01,2020-09-01,,hhs-child-care-and-development-fund-ccdf
-93.596,Child Care and Development Fund (CCDF),HHS,2022,8699.1,114.17,2020-10-01,2021-09-01,,hhs-child-care-and-development-fund-ccdf
-93.596,Child Care and Development Fund (CCDF),HHS,2023,8699.1,99.65,2021-10-01,2022-09-01,,hhs-child-care-and-development-fund-ccdf
-93.596,Child Care and Development Fund (CCDF),HHS,2024,17096,843.5,2022-10-01,2023-09-01,,hhs-child-care-and-development-fund-ccdf
-93.596,Child Care and Development Fund (CCDF),HHS,2025,18698.59,921.46,2023-10-01,2024-09-30,,hhs-child-care-and-development-fund-ccdf
+93.596,Child Care and Development Fund (CCDF),HHS,2015,5420.32,0,,,58.15,hhs-child-care-and-development-fund-ccdf
+93.596,Child Care and Development Fund (CCDF),HHS,2016,5547.09,0,,,132.52,hhs-child-care-and-development-fund-ccdf
+93.596,Child Care and Development Fund (CCDF),HHS,2017,5746.27,0,,,155.86,hhs-child-care-and-development-fund-ccdf
+93.596,Child Care and Development Fund (CCDF),HHS,2018,7549.78,0,,,176.92,hhs-child-care-and-development-fund-ccdf
+93.596,Child Care and Development Fund (CCDF),HHS,2019,7166.95,125.89,2017-10-01,2018-09-30,198.77,hhs-child-care-and-development-fund-ccdf
+93.596,Child Care and Development Fund (CCDF),HHS,2020,7938.96,156.23,2018-10-01,2019-09-30,253.22,hhs-child-care-and-development-fund-ccdf
+93.596,Child Care and Development Fund (CCDF),HHS,2021,13484.5,179.42,2019-10-01,2020-09-01,408.94,hhs-child-care-and-development-fund-ccdf
+93.596,Child Care and Development Fund (CCDF),HHS,2022,8699.1,114.17,2020-10-01,2021-09-01,230.53,hhs-child-care-and-development-fund-ccdf
+93.596,Child Care and Development Fund (CCDF),HHS,2023,8699.1,99.65,2021-10-01,2022-09-01,209.39,hhs-child-care-and-development-fund-ccdf
+93.596,Child Care and Development Fund (CCDF),HHS,2024,17096,843.5,2022-10-01,2023-09-01,0,hhs-child-care-and-development-fund-ccdf
+93.596,Child Care and Development Fund (CCDF),HHS,2025,18698.59,921.46,2023-10-01,2024-09-30,0,hhs-child-care-and-development-fund-ccdf
 93.596,Child Care and Development Fund (CCDF),HHS,2026,11394.42,563.63,2024-10-01,2025-09-30,0,hhs-child-care-and-development-fund-ccdf
-93.563,Child Support Services,HHS,2022,0,0,,,,
-93.564,Child Support Services Research,HHS,2022,0,0,,,,
-93.648,Child Welfare Research Training or Demonstration,HHS,2021,0,0,,,,
-93.648,Child Welfare Research Training or Demonstration,HHS,2022,0,0,,,,
-93.643,Children's Justice Grants to States,HHS,2022,0,0,,,,
-93.569,Community Services Block Grant,HHS,2021,0,0,,,,
-93.569,Community Services Block Grant,HHS,2022,0,0,,,,
-93.570,Community Services Block Grant Discretionary Awards,HHS,2022,0,0,,,,
-93.590,Community-Based Child Abuse Prevention Grants,HHS,2022,0,0,,,,
-93.557,"Education and Prevention Grants to Reduce Sexual Abuse of Runaway, Homeless and Street Youth",HHS,2022,0,0,,,,
-93.087,Enhance Safety of Children Affected by Substance Abuse,HHS,2022,0,0,,,,
-93.434,Every Student Succeeds Act/Preschool Development Grants,HHS,2022,0,0,,,,
+93.563,Child Support Services,HHS,2022,0,0,,,0,
+93.564,Child Support Services Research,HHS,2022,0,0,,,0,
+93.648,Child Welfare Research Training or Demonstration,HHS,2021,0,0,,,0,
+93.648,Child Welfare Research Training or Demonstration,HHS,2022,0,0,,,0,
+93.643,Children's Justice Grants to States,HHS,2022,0,0,,,0,
+93.569,Community Services Block Grant,HHS,2021,0,0,,,0,
+93.569,Community Services Block Grant,HHS,2022,0,0,,,0,
+93.570,Community Services Block Grant Discretionary Awards,HHS,2022,0,0,,,0,
+93.590,Community-Based Child Abuse Prevention Grants,HHS,2022,0,0,,,0,
+93.557,"Education and Prevention Grants to Reduce Sexual Abuse of Runaway, Homeless and Street Youth",HHS,2022,0,0,,,0,
+93.087,Enhance Safety of Children Affected by Substance Abuse,HHS,2022,0,0,,,0,
+93.434,Every Student Succeeds Act/Preschool Development Grants,HHS,2022,0,0,,,0,
 93.658,Foster Care Title IV-E,HHS,2004,0,0,,,,hhs-foster-care-title-iv-e
 93.658,Foster Care Title IV-E,HHS,2005,1816,0,,,,hhs-foster-care-title-iv-e
 93.658,Foster Care Title IV-E,HHS,2006,1750,0,,,,hhs-foster-care-title-iv-e
@@ -2430,17 +2427,17 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 93.658,Foster Care Title IV-E,HHS,2016,692,0,,,,hhs-foster-care-title-iv-e
 93.658,Foster Care Title IV-E,HHS,2017,747,0,,,,hhs-foster-care-title-iv-e
 93.658,Foster Care Title IV-E,HHS,2018,394,0,,,,hhs-foster-care-title-iv-e
-93.658,Foster Care Title IV-E,HHS,2019,147,7.13,2018-07-01,2019-06-30,,hhs-foster-care-title-iv-e
-93.658,Foster Care Title IV-E,HHS,2020,1226,41.23,2019-07-01,2020-06-30,,hhs-foster-care-title-iv-e
-93.658,Foster Care Title IV-E,HHS,2021,0,0,,,,hhs-foster-care-title-iv-e
-93.658,Foster Care Title IV-E,HHS,2022,0,0,,,,hhs-foster-care-title-iv-e
-93.658,Foster Care Title IV-E,HHS,2023,0,0,,,,hhs-foster-care-title-iv-e
-93.658,Foster Care Title IV-E,HHS,2024,1293,62.32,2022-06-01,2023-05-01,,hhs-foster-care-title-iv-e
-93.658,Foster Care Title IV-E,HHS,2025,1295,74.07,2024-06-01,2025-05-31,,hhs-foster-care-title-iv-e
+93.658,Foster Care Title IV-E,HHS,2019,147,7.13,2018-07-01,2019-06-30,0,hhs-foster-care-title-iv-e
+93.658,Foster Care Title IV-E,HHS,2020,1226,41.23,2019-07-01,2020-06-30,0,hhs-foster-care-title-iv-e
+93.658,Foster Care Title IV-E,HHS,2021,0,0,,,0,hhs-foster-care-title-iv-e
+93.658,Foster Care Title IV-E,HHS,2022,0,0,,,0,hhs-foster-care-title-iv-e
+93.658,Foster Care Title IV-E,HHS,2023,0,0,,,0,hhs-foster-care-title-iv-e
+93.658,Foster Care Title IV-E,HHS,2024,1293,62.32,2022-06-01,2023-05-01,0,hhs-foster-care-title-iv-e
+93.658,Foster Care Title IV-E,HHS,2025,1295,74.07,2024-06-01,2025-05-31,0,hhs-foster-care-title-iv-e
 93.658,Foster Care Title IV-E,HHS,2026,1173,110.5,2025-06-01,2026-05-31,0,hhs-foster-care-title-iv-e
-93.597,Grants to States for Access and Visitation Programs,HHS,2022,0,0,,,,
-93.090,Guardianship Assistance,HHS,2021,0,0,,,,
-93.090,Guardianship Assistance,HHS,2022,0,0,,,,
+93.597,Grants to States for Access and Visitation Programs,HHS,2022,0,0,,,0,
+93.090,Guardianship Assistance,HHS,2021,0,0,,,0,
+93.090,Guardianship Assistance,HHS,2022,0,0,,,0,
 93.600,Head Start,HHS,2004,6555,0,,,,hhs-head-start
 93.600,Head Start,HHS,2005,6865,0,,,,hhs-head-start
 93.600,Head Start,HHS,2006,6786,0,,,,hhs-head-start
@@ -2458,11 +2455,11 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 93.600,Head Start,HHS,2018,0,0,,,,hhs-head-start
 93.600,Head Start,HHS,2019,0,0,,,,hhs-head-start
 93.600,Head Start,HHS,2020,0,0,,,,hhs-head-start
-93.600,Head Start,HHS,2021,0,0,,,,hhs-head-start
-93.600,Head Start,HHS,2022,0,0,,,,hhs-head-start
-93.600,Head Start,HHS,2023,10844.1,197.93,2021-10-01,2022-09-01,,hhs-head-start
-93.600,Head Start,HHS,2024,11041.6,389.64,2022-10-01,2023-09-01,,hhs-head-start
-93.600,Head Start,HHS,2025,11726.7,196.54,2023-10-01,2024-09-30,,hhs-head-start
+93.600,Head Start,HHS,2021,0,0,,,0,hhs-head-start
+93.600,Head Start,HHS,2022,0,0,,,0,hhs-head-start
+93.600,Head Start,HHS,2023,10844.1,197.93,2021-10-01,2022-09-01,355.59,hhs-head-start
+93.600,Head Start,HHS,2024,11041.6,389.64,2022-10-01,2023-09-01,933.24,hhs-head-start
+93.600,Head Start,HHS,2025,11726.7,196.54,2023-10-01,2024-09-30,1010.33,hhs-head-start
 93.600,Head Start,HHS,2026,12312,101.14,2024-10-01,2025-09-30,208.7,hhs-head-start
 93.356,Head Start,HHS,2004,6555,0,,,,hhs-head-start
 93.356,Head Start,HHS,2005,6865,0,,,,hhs-head-start
@@ -2481,37 +2478,37 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 93.356,Head Start,HHS,2018,0,0,,,,hhs-head-start
 93.356,Head Start,HHS,2019,0,0,,,,hhs-head-start
 93.356,Head Start,HHS,2020,0,0,,,,hhs-head-start
-93.356,Head Start,HHS,2021,0,0,,,,hhs-head-start
-93.356,Head Start,HHS,2022,0,0,,,,hhs-head-start
-93.356,Head Start,HHS,2023,10844.1,197.93,2021-10-01,2022-09-01,,hhs-head-start
-93.356,Head Start,HHS,2024,11041.6,389.64,2022-10-01,2023-09-01,,hhs-head-start
-93.356,Head Start,HHS,2025,11726.7,196.54,2023-10-01,2024-09-30,,hhs-head-start
+93.356,Head Start,HHS,2021,0,0,,,0,hhs-head-start
+93.356,Head Start,HHS,2022,0,0,,,0,hhs-head-start
+93.356,Head Start,HHS,2023,10844.1,197.93,2021-10-01,2022-09-01,355.59,hhs-head-start
+93.356,Head Start,HHS,2024,11041.6,389.64,2022-10-01,2023-09-01,933.24,hhs-head-start
+93.356,Head Start,HHS,2025,11726.7,196.54,2023-10-01,2024-09-30,1010.33,hhs-head-start
 93.356,Head Start,HHS,2026,12312,101.14,2024-10-01,2025-09-30,208.7,hhs-head-start
-93.086,Healthy Marriage Promotion and Responsible Fatherhood Grants,HHS,2021,0,0,,,,
-93.086,Healthy Marriage Promotion and Responsible Fatherhood Grants,HHS,2022,0,0,,,,
-93.674,John H. Chafee Foster Care Program for Successful Transition to Adulthood,HHS,2022,0,0,,,,
-93.568,Low-Income Home Energy Assistance,HHS,2021,0,0,,,,
-93.568,Low-Income Home Energy Assistance,HHS,2022,0,0,,,,
-93.556,MaryLee Allen Promoting Safe and Stable Families Program,HHS,2022,0,0,,,,
-93.560,Payments to Territories - Adults,HHS,2022,0,0,,,,
-93.576,Refugee and Entrant Assistance Discretionary Grants,HHS,2022,0,0,,,,
-93.566,Refugee and Entrant Assistance State/Replacement Designee Administered Programs,HHS,2022,0,0,,,,
-93.567,Refugee and Entrant Assistance Voluntary Agency Programs,HHS,2022,0,0,,,,
-93.583,Refugee and Entrant Assistance Wilson/Fish Program,HHS,2022,0,0,,,,
-93.598,Services to Victims of a Severe Form of Trafficking,HHS,2022,0,0,,,,
-93.060,Sexual Risk Avoidance Education,HHS,2022,0,0,,,,
+93.086,Healthy Marriage Promotion and Responsible Fatherhood Grants,HHS,2021,0,0,,,0,
+93.086,Healthy Marriage Promotion and Responsible Fatherhood Grants,HHS,2022,0,0,,,0,
+93.674,John H. Chafee Foster Care Program for Successful Transition to Adulthood,HHS,2022,0,0,,,0,
+93.568,Low-Income Home Energy Assistance,HHS,2021,0,0,,,0,
+93.568,Low-Income Home Energy Assistance,HHS,2022,0,0,,,0,
+93.556,MaryLee Allen Promoting Safe and Stable Families Program,HHS,2022,0,0,,,0,
+93.560,Payments to Territories - Adults,HHS,2022,0,0,,,0,
+93.576,Refugee and Entrant Assistance Discretionary Grants,HHS,2022,0,0,,,0,
+93.566,Refugee and Entrant Assistance State/Replacement Designee Administered Programs,HHS,2022,0,0,,,0,
+93.567,Refugee and Entrant Assistance Voluntary Agency Programs,HHS,2022,0,0,,,0,
+93.583,Refugee and Entrant Assistance Wilson/Fish Program,HHS,2022,0,0,,,0,
+93.598,Services to Victims of a Severe Form of Trafficking,HHS,2022,0,0,,,0,
+93.060,Sexual Risk Avoidance Education,HHS,2022,0,0,,,0,
 93.667,Social Services Block Grant,HHS,2012,0,0,,,,
 93.667,Social Services Block Grant,HHS,2013,0,0,,,,
 93.667,Social Services Block Grant,HHS,2014,67.03,0,,,,
 93.667,Social Services Block Grant,HHS,2015,209.14,0,,,,
-93.667,Social Services Block Grant,HHS,2016,198.33,0,,,,
+93.667,Social Services Block Grant,HHS,2016,198.33,0,,,1.07,
 93.667,Social Services Block Grant,HHS,2017,63.61,0,,,,
 93.667,Social Services Block Grant,HHS,2018,0,0,,,,
 93.667,Social Services Block Grant,HHS,2019,0,0,,,,
 93.667,Social Services Block Grant,HHS,2020,0,0,,,,
-93.667,Social Services Block Grant,HHS,2022,0,0,,,,
-93.647,Social Services Research and Demonstration,HHS,2022,0,0,,,,
-93.645,Stephanie Tubbs Jones Child Welfare Services Program,HHS,2022,0,0,,,,
+93.667,Social Services Block Grant,HHS,2022,0,0,,,0,
+93.647,Social Services Research and Demonstration,HHS,2022,0,0,,,0,
+93.645,Stephanie Tubbs Jones Child Welfare Services Program,HHS,2022,0,0,,,0,
 93.558,Temporary Assistance for Needy Families (TANF),HHS,2004,0,0,,,,hhs-temporary-assistance-for-needy-families-tanf
 93.558,Temporary Assistance for Needy Families (TANF),HHS,2005,0,0,,,,hhs-temporary-assistance-for-needy-families-tanf
 93.558,Temporary Assistance for Needy Families (TANF),HHS,2006,0,0,,,,hhs-temporary-assistance-for-needy-families-tanf
@@ -2520,25 +2517,25 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 93.558,Temporary Assistance for Needy Families (TANF),HHS,2009,0,0,,,,hhs-temporary-assistance-for-needy-families-tanf
 93.558,Temporary Assistance for Needy Families (TANF),HHS,2010,0,0,,,,hhs-temporary-assistance-for-needy-families-tanf
 93.558,Temporary Assistance for Needy Families (TANF),HHS,2011,0,0,,,,hhs-temporary-assistance-for-needy-families-tanf
-93.558,Temporary Assistance for Needy Families (TANF),HHS,2021,0,0,,,,hhs-temporary-assistance-for-needy-families-tanf
-93.558,Temporary Assistance for Needy Families (TANF),HHS,2022,0,0,,,,hhs-temporary-assistance-for-needy-families-tanf
-93.558,Temporary Assistance for Needy Families (TANF),HHS,2023,0,0,,,,hhs-temporary-assistance-for-needy-families-tanf
-93.558,Temporary Assistance for Needy Families (TANF),HHS,2024,0,0,,,,hhs-temporary-assistance-for-needy-families-tanf
+93.558,Temporary Assistance for Needy Families (TANF),HHS,2021,0,0,,,0,hhs-temporary-assistance-for-needy-families-tanf
+93.558,Temporary Assistance for Needy Families (TANF),HHS,2022,0,0,,,0,hhs-temporary-assistance-for-needy-families-tanf
+93.558,Temporary Assistance for Needy Families (TANF),HHS,2023,0,0,,,0,hhs-temporary-assistance-for-needy-families-tanf
+93.558,Temporary Assistance for Needy Families (TANF),HHS,2024,0,0,,,0,hhs-temporary-assistance-for-needy-families-tanf
 93.558,Temporary Assistance for Needy Families (TANF),HHS,2025,0,0,,,,hhs-temporary-assistance-for-needy-families-tanf
 93.558,Temporary Assistance for Needy Families (TANF),HHS,2026,0,0,,,,hhs-temporary-assistance-for-needy-families-tanf
-93.471,Title IV-E Kinship Navigator Program,HHS,2022,0,0,,,,
-93.472,Title IV-E Prevention Program,HHS,2022,0,0,,,,
-93.787,Title V Sexual Risk Avoidance Education Program (Discretionary Grants),HHS,2022,0,0,,,,
-93.235,Title V State Sexual Risk Avoidance Education (Title V State SRAE) Program,HHS,2022,0,0,,,,
-93.550,Transitional Living for Homeless Youth,HHS,2022,0,0,,,,
-93.872,"Tribal Maternal, Infant, and Early Childhood Home Visiting",HHS,2022,0,0,,,,
-93.676,Unaccompanied Alien Children Program,HHS,2021,0,0,,,,
-93.676,Unaccompanied Alien Children Program,HHS,2022,0,0,,,,
+93.471,Title IV-E Kinship Navigator Program,HHS,2022,0,0,,,0,
+93.472,Title IV-E Prevention Program,HHS,2022,0,0,,,0,
+93.787,Title V Sexual Risk Avoidance Education Program (Discretionary Grants),HHS,2022,0,0,,,0,
+93.235,Title V State Sexual Risk Avoidance Education (Title V State SRAE) Program,HHS,2022,0,0,,,0,
+93.550,Transitional Living for Homeless Youth,HHS,2022,0,0,,,0,
+93.872,"Tribal Maternal, Infant, and Early Childhood Home Visiting",HHS,2022,0,0,,,0,
+93.676,Unaccompanied Alien Children Program,HHS,2021,0,0,,,0,
+93.676,Unaccompanied Alien Children Program,HHS,2022,0,0,,,0,
 93.470,Alzheimer's Disease Program Initiative (ADPI),HHS,2026,,,,,,
 93.464,ACL Assistive Technology,HHS,2026,,,,,,
-93.226,"Research on Healthcare Costs, Quality and Outcomes",HHS,2022,0,0,,,,
-93.066,State Vital Statistics Improvement Program,HHS,2022,0,0,,,,
-93.640,Basic Health Program (Affordable Care Act),HHS,2022,0,0,,,,
+93.226,"Research on Healthcare Costs, Quality and Outcomes",HHS,2022,0,0,,,0,
+93.066,State Vital Statistics Improvement Program,HHS,2022,0,0,,,0,
+93.640,Basic Health Program (Affordable Care Act),HHS,2022,0,0,,,0,
 93.767,Children's Health Insurance Program (CHIP),HHS,2004,0,0,,,,hhs-children-s-health-insurance-program-chip
 93.767,Children's Health Insurance Program (CHIP),HHS,2005,0,0,,,,hhs-children-s-health-insurance-program-chip
 93.767,Children's Health Insurance Program (CHIP),HHS,2006,0,0,,,,hhs-children-s-health-insurance-program-chip
@@ -2550,17 +2547,17 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 93.767,Children's Health Insurance Program (CHIP),HHS,2012,8629,0,,,,hhs-children-s-health-insurance-program-chip
 93.767,Children's Health Insurance Program (CHIP),HHS,2013,9065,0,,,,hhs-children-s-health-insurance-program-chip
 93.767,Children's Health Insurance Program (CHIP),HHS,2014,9469,0,,,,hhs-children-s-health-insurance-program-chip
-93.767,Children's Health Insurance Program (CHIP),HHS,2015,9293.91,0,,,,hhs-children-s-health-insurance-program-chip
-93.767,Children's Health Insurance Program (CHIP),HHS,2016,9233.06,0,,,,hhs-children-s-health-insurance-program-chip
-93.767,Children's Health Insurance Program (CHIP),HHS,2017,14305.135,0,,,,hhs-children-s-health-insurance-program-chip
-93.767,Children's Health Insurance Program (CHIP),HHS,2018,16223.918,0,,,,hhs-children-s-health-insurance-program-chip
-93.767,Children's Health Insurance Program (CHIP),HHS,2019,17280.952,1011.3550632081,2017-07-01,2018-06-30,,hhs-children-s-health-insurance-program-chip
-93.767,Children's Health Insurance Program (CHIP),HHS,2020,17691.532,1253.143854962,2018-07-01,2019-06-30,,hhs-children-s-health-insurance-program-chip
-93.767,Children's Health Insurance Program (CHIP),HHS,2021,16879.46,5373.67,2019-07-01,2020-06-01,,hhs-children-s-health-insurance-program-chip
-93.767,Children's Health Insurance Program (CHIP),HHS,2022,16093,4304.54,2020-07-01,2021-06-01,,hhs-children-s-health-insurance-program-chip
-93.767,Children's Health Insurance Program (CHIP),HHS,2023,16670.27,2135.58,2021-07-01,2022-06-01,,hhs-children-s-health-insurance-program-chip
-93.767,Children's Health Insurance Program (CHIP),HHS,2024,17587.75,1074,2022-07-01,2023-06-01,,hhs-children-s-health-insurance-program-chip
-93.767,Children's Health Insurance Program (CHIP),HHS,2025,19448.7767,1371.7124,2023-07-01,2024-06-30,,hhs-children-s-health-insurance-program-chip
+93.767,Children's Health Insurance Program (CHIP),HHS,2015,9293.91,0,,,70.05,hhs-children-s-health-insurance-program-chip
+93.767,Children's Health Insurance Program (CHIP),HHS,2016,9233.06,0,,,52.37,hhs-children-s-health-insurance-program-chip
+93.767,Children's Health Insurance Program (CHIP),HHS,2017,14305.135,0,,,84.2372740696,hhs-children-s-health-insurance-program-chip
+93.767,Children's Health Insurance Program (CHIP),HHS,2018,16223.918,0,,,130.8234898956,hhs-children-s-health-insurance-program-chip
+93.767,Children's Health Insurance Program (CHIP),HHS,2019,17280.952,1011.3550632081,2017-07-01,2018-06-30,1725.024961831,hhs-children-s-health-insurance-program-chip
+93.767,Children's Health Insurance Program (CHIP),HHS,2020,17691.532,1253.143854962,2018-07-01,2019-06-30,3524.1229825562,hhs-children-s-health-insurance-program-chip
+93.767,Children's Health Insurance Program (CHIP),HHS,2021,16879.46,5373.67,2019-07-01,2020-06-01,0,hhs-children-s-health-insurance-program-chip
+93.767,Children's Health Insurance Program (CHIP),HHS,2022,16093,4304.54,2020-07-01,2021-06-01,0,hhs-children-s-health-insurance-program-chip
+93.767,Children's Health Insurance Program (CHIP),HHS,2023,16670.27,2135.58,2021-07-01,2022-06-01,0,hhs-children-s-health-insurance-program-chip
+93.767,Children's Health Insurance Program (CHIP),HHS,2024,17587.75,1074,2022-07-01,2023-06-01,0,hhs-children-s-health-insurance-program-chip
+93.767,Children's Health Insurance Program (CHIP),HHS,2025,19448.7767,1371.7124,2023-07-01,2024-06-30,0,hhs-children-s-health-insurance-program-chip
 93.767,Children's Health Insurance Program (CHIP),HHS,2026,23067.37,2263.47,2024-07-01,2025-06-30,0,hhs-children-s-health-insurance-program-chip
 93.634,Support for Ombudsman and Beneficiary Counseling Programs for States Participating in Financial Alignment Model Demonstrations for Dually Eligible Individuals,HHS,2026,,,,,,
 93.378,Integrated Care for Kids Model,HHS,2026,,,,,,
@@ -2575,17 +2572,17 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 93.778,Medicaid,HHS,2012,271011,0,,,,hhs-medicaid
 93.778,Medicaid,HHS,2013,246931,0,,,,hhs-medicaid
 93.778,Medicaid,HHS,2014,261613,0,,,,hhs-medicaid
-93.778,Medicaid,HHS,2015,297672.02,0,,,,hhs-medicaid
-93.778,Medicaid,HHS,2016,345973.72,0,,,,hhs-medicaid
-93.778,Medicaid,HHS,2017,363839.346,0,,,,hhs-medicaid
-93.778,Medicaid,HHS,2018,370390.999,0,,,,hhs-medicaid
-93.778,Medicaid,HHS,2019,384996.67129888,12840.1338880399,2017-07-01,2018-06-30,,hhs-medicaid
-93.778,Medicaid,HHS,2020,404899.175,12669.0812358292,2018-07-01,2019-06-30,,hhs-medicaid
-93.778,Medicaid,HHS,2021,455175.62,98724.88,2019-07-01,2020-06-01,,hhs-medicaid
-93.778,Medicaid,HHS,2022,515813.52,80573.03,2020-07-01,2021-06-01,,hhs-medicaid
-93.778,Medicaid,HHS,2023,586908.83,50332.06,2021-07-01,2022-06-01,,hhs-medicaid
-93.778,Medicaid,HHS,2024,610833.37,31099.13,2022-07-01,2023-06-01,,hhs-medicaid
-93.778,Medicaid,HHS,2025,610988.02,37386.79,2023-07-01,2024-06-30,,hhs-medicaid
+93.778,Medicaid,HHS,2015,297672.02,0,,,2603.35,hhs-medicaid
+93.778,Medicaid,HHS,2016,345973.72,0,,,2409.24,hhs-medicaid
+93.778,Medicaid,HHS,2017,363839.346,0,,,3162.2418372693,hhs-medicaid
+93.778,Medicaid,HHS,2018,370390.999,0,,,7601.1207739629,hhs-medicaid
+93.778,Medicaid,HHS,2019,384996.67129888,12840.1338880399,2017-07-01,2018-06-30,44518.0001293632,hhs-medicaid
+93.778,Medicaid,HHS,2020,404899.175,12669.0812358292,2018-07-01,2019-06-30,73818.2991385863,hhs-medicaid
+93.778,Medicaid,HHS,2021,455175.62,98724.88,2019-07-01,2020-06-01,0,hhs-medicaid
+93.778,Medicaid,HHS,2022,515813.52,80573.03,2020-07-01,2021-06-01,0,hhs-medicaid
+93.778,Medicaid,HHS,2023,586908.83,50332.06,2021-07-01,2022-06-01,0,hhs-medicaid
+93.778,Medicaid,HHS,2024,610833.37,31099.13,2022-07-01,2023-06-01,0,hhs-medicaid
+93.778,Medicaid,HHS,2025,610988.02,37386.79,2023-07-01,2024-06-30,0,hhs-medicaid
 93.778,Medicaid,HHS,2026,661558.8,46839.59,2024-07-01,2025-06-30,0,hhs-medicaid
 93.775,State Medicaid Fraud Control Units,HHS,2026,,,,,,
 93.773,Medicare Fee-For-Service (FFS),HHS,2004,213546,0,,,,hhs-medicare-fee-for-service-ffs
@@ -2599,17 +2596,17 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 93.773,Medicare Fee-For-Service (FFS),HHS,2012,349673,0,,,,hhs-medicare-fee-for-service-ffs
 93.773,Medicare Fee-For-Service (FFS),HHS,2013,357397,0,,,,hhs-medicare-fee-for-service-ffs
 93.773,Medicare Fee-For-Service (FFS),HHS,2014,360173,0,,,,hhs-medicare-fee-for-service-ffs
-93.773,Medicare Fee-For-Service (FFS),HHS,2015,358348.6,0,,,,hhs-medicare-fee-for-service-ffs
-93.773,Medicare Fee-For-Service (FFS),HHS,2016,373650.45,0,,,,hhs-medicare-fee-for-service-ffs
-93.773,Medicare Fee-For-Service (FFS),HHS,2017,380761.965744954,0,,,,hhs-medicare-fee-for-service-ffs
-93.773,Medicare Fee-For-Service (FFS),HHS,2018,389300.053892691,0,,,,hhs-medicare-fee-for-service-ffs
-93.773,Medicare Fee-For-Service (FFS),HHS,2019,398623.971545,12359.81345,2017-07-01,2018-06-30,,hhs-medicare-fee-for-service-ffs
-93.773,Medicare Fee-For-Service (FFS),HHS,2020,410812.722235,10026.228507,2018-07-01,2019-06-30,,hhs-medicare-fee-for-service-ffs
-93.773,Medicare Fee-For-Service (FFS),HHS,2021,399777.36,25034.18,2019-07-01,2020-06-01,,hhs-medicare-fee-for-service-ffs
-93.773,Medicare Fee-For-Service (FFS),HHS,2022,421914.44,31456.718765638,2020-07-01,2021-06-01,,hhs-medicare-fee-for-service-ffs
-93.773,Medicare Fee-For-Service (FFS),HHS,2023,423008.64,31228.8,2021-07-01,2022-06-01,,hhs-medicare-fee-for-service-ffs
-93.773,Medicare Fee-For-Service (FFS),HHS,2024,413719.24,31702.63,2022-07-01,2023-06-01,,hhs-medicare-fee-for-service-ffs
-93.773,Medicare Fee-For-Service (FFS),HHS,2025,439878.6927,28826.5867,2023-07-01,2024-06-30,,hhs-medicare-fee-for-service-ffs
+93.773,Medicare Fee-For-Service (FFS),HHS,2015,358348.6,0,,,29715.3,hhs-medicare-fee-for-service-ffs
+93.773,Medicare Fee-For-Service (FFS),HHS,2016,373650.45,0,,,27307.75,hhs-medicare-fee-for-service-ffs
+93.773,Medicare Fee-For-Service (FFS),HHS,2017,380761.965744954,0,,,23831.8259165921,hhs-medicare-fee-for-service-ffs
+93.773,Medicare Fee-For-Service (FFS),HHS,2018,389300.053892691,0,,,19132.44,hhs-medicare-fee-for-service-ffs
+93.773,Medicare Fee-For-Service (FFS),HHS,2019,398623.971545,12359.81345,2017-07-01,2018-06-30,16549.018253,hhs-medicare-fee-for-service-ffs
+93.773,Medicare Fee-For-Service (FFS),HHS,2020,410812.722235,10026.228507,2018-07-01,2019-06-30,15712.086034,hhs-medicare-fee-for-service-ffs
+93.773,Medicare Fee-For-Service (FFS),HHS,2021,399777.36,25034.18,2019-07-01,2020-06-01,0,hhs-medicare-fee-for-service-ffs
+93.773,Medicare Fee-For-Service (FFS),HHS,2022,421914.44,31456.718765638,2020-07-01,2021-06-01,0,hhs-medicare-fee-for-service-ffs
+93.773,Medicare Fee-For-Service (FFS),HHS,2023,423008.64,31228.8,2021-07-01,2022-06-01,0,hhs-medicare-fee-for-service-ffs
+93.773,Medicare Fee-For-Service (FFS),HHS,2024,413719.24,31702.63,2022-07-01,2023-06-01,0,hhs-medicare-fee-for-service-ffs
+93.773,Medicare Fee-For-Service (FFS),HHS,2025,439878.6927,28826.5867,2023-07-01,2024-06-30,0,hhs-medicare-fee-for-service-ffs
 93.773,Medicare Fee-For-Service (FFS),HHS,2026,464114.02,33956.91,2024-07-01,2025-06-30,0,hhs-medicare-fee-for-service-ffs
 93.774,Medicare Fee-For-Service (FFS),HHS,2004,213546,0,,,,hhs-medicare-fee-for-service-ffs
 93.774,Medicare Fee-For-Service (FFS),HHS,2005,234100,0,,,,hhs-medicare-fee-for-service-ffs
@@ -2622,17 +2619,17 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 93.774,Medicare Fee-For-Service (FFS),HHS,2012,349673,0,,,,hhs-medicare-fee-for-service-ffs
 93.774,Medicare Fee-For-Service (FFS),HHS,2013,357397,0,,,,hhs-medicare-fee-for-service-ffs
 93.774,Medicare Fee-For-Service (FFS),HHS,2014,360173,0,,,,hhs-medicare-fee-for-service-ffs
-93.774,Medicare Fee-For-Service (FFS),HHS,2015,358348.6,0,,,,hhs-medicare-fee-for-service-ffs
-93.774,Medicare Fee-For-Service (FFS),HHS,2016,373650.45,0,,,,hhs-medicare-fee-for-service-ffs
-93.774,Medicare Fee-For-Service (FFS),HHS,2017,380761.965744954,0,,,,hhs-medicare-fee-for-service-ffs
-93.774,Medicare Fee-For-Service (FFS),HHS,2018,389300.053892691,0,,,,hhs-medicare-fee-for-service-ffs
-93.774,Medicare Fee-For-Service (FFS),HHS,2019,398623.971545,12359.81345,2017-07-01,2018-06-30,,hhs-medicare-fee-for-service-ffs
-93.774,Medicare Fee-For-Service (FFS),HHS,2020,410812.722235,10026.228507,2018-07-01,2019-06-30,,hhs-medicare-fee-for-service-ffs
-93.774,Medicare Fee-For-Service (FFS),HHS,2021,399777.36,25034.18,2019-07-01,2020-06-01,,hhs-medicare-fee-for-service-ffs
-93.774,Medicare Fee-For-Service (FFS),HHS,2022,421914.44,31456.718765638,2020-07-01,2021-06-01,,hhs-medicare-fee-for-service-ffs
-93.774,Medicare Fee-For-Service (FFS),HHS,2023,423008.64,31228.8,2021-07-01,2022-06-01,,hhs-medicare-fee-for-service-ffs
-93.774,Medicare Fee-For-Service (FFS),HHS,2024,413719.24,31702.63,2022-07-01,2023-06-01,,hhs-medicare-fee-for-service-ffs
-93.774,Medicare Fee-For-Service (FFS),HHS,2025,439878.6927,28826.5867,2023-07-01,2024-06-30,,hhs-medicare-fee-for-service-ffs
+93.774,Medicare Fee-For-Service (FFS),HHS,2015,358348.6,0,,,29715.3,hhs-medicare-fee-for-service-ffs
+93.774,Medicare Fee-For-Service (FFS),HHS,2016,373650.45,0,,,27307.75,hhs-medicare-fee-for-service-ffs
+93.774,Medicare Fee-For-Service (FFS),HHS,2017,380761.965744954,0,,,23831.8259165921,hhs-medicare-fee-for-service-ffs
+93.774,Medicare Fee-For-Service (FFS),HHS,2018,389300.053892691,0,,,19132.44,hhs-medicare-fee-for-service-ffs
+93.774,Medicare Fee-For-Service (FFS),HHS,2019,398623.971545,12359.81345,2017-07-01,2018-06-30,16549.018253,hhs-medicare-fee-for-service-ffs
+93.774,Medicare Fee-For-Service (FFS),HHS,2020,410812.722235,10026.228507,2018-07-01,2019-06-30,15712.086034,hhs-medicare-fee-for-service-ffs
+93.774,Medicare Fee-For-Service (FFS),HHS,2021,399777.36,25034.18,2019-07-01,2020-06-01,0,hhs-medicare-fee-for-service-ffs
+93.774,Medicare Fee-For-Service (FFS),HHS,2022,421914.44,31456.718765638,2020-07-01,2021-06-01,0,hhs-medicare-fee-for-service-ffs
+93.774,Medicare Fee-For-Service (FFS),HHS,2023,423008.64,31228.8,2021-07-01,2022-06-01,0,hhs-medicare-fee-for-service-ffs
+93.774,Medicare Fee-For-Service (FFS),HHS,2024,413719.24,31702.63,2022-07-01,2023-06-01,0,hhs-medicare-fee-for-service-ffs
+93.774,Medicare Fee-For-Service (FFS),HHS,2025,439878.6927,28826.5867,2023-07-01,2024-06-30,0,hhs-medicare-fee-for-service-ffs
 93.774,Medicare Fee-For-Service (FFS),HHS,2026,464114.02,33956.91,2024-07-01,2025-06-30,0,hhs-medicare-fee-for-service-ffs
 57.006,Medicare Fee-For-Service (FFS),HHS,2004,213546,0,,,,hhs-medicare-fee-for-service-ffs
 57.006,Medicare Fee-For-Service (FFS),HHS,2005,234100,0,,,,hhs-medicare-fee-for-service-ffs
@@ -2645,17 +2642,17 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 57.006,Medicare Fee-For-Service (FFS),HHS,2012,349673,0,,,,hhs-medicare-fee-for-service-ffs
 57.006,Medicare Fee-For-Service (FFS),HHS,2013,357397,0,,,,hhs-medicare-fee-for-service-ffs
 57.006,Medicare Fee-For-Service (FFS),HHS,2014,360173,0,,,,hhs-medicare-fee-for-service-ffs
-57.006,Medicare Fee-For-Service (FFS),HHS,2015,358348.6,0,,,,hhs-medicare-fee-for-service-ffs
-57.006,Medicare Fee-For-Service (FFS),HHS,2016,373650.45,0,,,,hhs-medicare-fee-for-service-ffs
-57.006,Medicare Fee-For-Service (FFS),HHS,2017,380761.965744954,0,,,,hhs-medicare-fee-for-service-ffs
-57.006,Medicare Fee-For-Service (FFS),HHS,2018,389300.053892691,0,,,,hhs-medicare-fee-for-service-ffs
-57.006,Medicare Fee-For-Service (FFS),HHS,2019,398623.971545,12359.81345,2017-07-01,2018-06-30,,hhs-medicare-fee-for-service-ffs
-57.006,Medicare Fee-For-Service (FFS),HHS,2020,410812.722235,10026.228507,2018-07-01,2019-06-30,,hhs-medicare-fee-for-service-ffs
-57.006,Medicare Fee-For-Service (FFS),HHS,2021,399777.36,25034.18,2019-07-01,2020-06-01,,hhs-medicare-fee-for-service-ffs
-57.006,Medicare Fee-For-Service (FFS),HHS,2022,421914.44,31456.718765638,2020-07-01,2021-06-01,,hhs-medicare-fee-for-service-ffs
-57.006,Medicare Fee-For-Service (FFS),HHS,2023,423008.64,31228.8,2021-07-01,2022-06-01,,hhs-medicare-fee-for-service-ffs
-57.006,Medicare Fee-For-Service (FFS),HHS,2024,413719.24,31702.63,2022-07-01,2023-06-01,,hhs-medicare-fee-for-service-ffs
-57.006,Medicare Fee-For-Service (FFS),HHS,2025,439878.6927,28826.5867,2023-07-01,2024-06-30,,hhs-medicare-fee-for-service-ffs
+57.006,Medicare Fee-For-Service (FFS),HHS,2015,358348.6,0,,,29715.3,hhs-medicare-fee-for-service-ffs
+57.006,Medicare Fee-For-Service (FFS),HHS,2016,373650.45,0,,,27307.75,hhs-medicare-fee-for-service-ffs
+57.006,Medicare Fee-For-Service (FFS),HHS,2017,380761.965744954,0,,,23831.8259165921,hhs-medicare-fee-for-service-ffs
+57.006,Medicare Fee-For-Service (FFS),HHS,2018,389300.053892691,0,,,19132.44,hhs-medicare-fee-for-service-ffs
+57.006,Medicare Fee-For-Service (FFS),HHS,2019,398623.971545,12359.81345,2017-07-01,2018-06-30,16549.018253,hhs-medicare-fee-for-service-ffs
+57.006,Medicare Fee-For-Service (FFS),HHS,2020,410812.722235,10026.228507,2018-07-01,2019-06-30,15712.086034,hhs-medicare-fee-for-service-ffs
+57.006,Medicare Fee-For-Service (FFS),HHS,2021,399777.36,25034.18,2019-07-01,2020-06-01,0,hhs-medicare-fee-for-service-ffs
+57.006,Medicare Fee-For-Service (FFS),HHS,2022,421914.44,31456.718765638,2020-07-01,2021-06-01,0,hhs-medicare-fee-for-service-ffs
+57.006,Medicare Fee-For-Service (FFS),HHS,2023,423008.64,31228.8,2021-07-01,2022-06-01,0,hhs-medicare-fee-for-service-ffs
+57.006,Medicare Fee-For-Service (FFS),HHS,2024,413719.24,31702.63,2022-07-01,2023-06-01,0,hhs-medicare-fee-for-service-ffs
+57.006,Medicare Fee-For-Service (FFS),HHS,2025,439878.6927,28826.5867,2023-07-01,2024-06-30,0,hhs-medicare-fee-for-service-ffs
 57.006,Medicare Fee-For-Service (FFS),HHS,2026,464114.02,33956.91,2024-07-01,2025-06-30,0,hhs-medicare-fee-for-service-ffs
 93.770,Medicare Prescription Drug Benefit (Part D),HHS,2004,0,0,,,,hhs-medicare-prescription-drug-benefit-part-d
 93.770,Medicare Prescription Drug Benefit (Part D),HHS,2005,0,0,,,,hhs-medicare-prescription-drug-benefit-part-d
@@ -2668,17 +2665,17 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 93.770,Medicare Prescription Drug Benefit (Part D),HHS,2012,51140,0,,,,hhs-medicare-prescription-drug-benefit-part-d
 93.770,Medicare Prescription Drug Benefit (Part D),HHS,2013,57056,0,,,,hhs-medicare-prescription-drug-benefit-part-d
 93.770,Medicare Prescription Drug Benefit (Part D),HHS,2014,58493,0,,,,hhs-medicare-prescription-drug-benefit-part-d
-93.770,Medicare Prescription Drug Benefit (Part D),HHS,2015,62003.91,0,,,,hhs-medicare-prescription-drug-benefit-part-d
-93.770,Medicare Prescription Drug Benefit (Part D),HHS,2016,70235.94,0,,,,hhs-medicare-prescription-drug-benefit-part-d
-93.770,Medicare Prescription Drug Benefit (Part D),HHS,2017,77450.28,0,,,,hhs-medicare-prescription-drug-benefit-part-d
-93.770,Medicare Prescription Drug Benefit (Part D),HHS,2018,79559.54,0,,,,hhs-medicare-prescription-drug-benefit-part-d
-93.770,Medicare Prescription Drug Benefit (Part D),HHS,2019,80787.84,373.59,2017-01-01,2017-12-01,,hhs-medicare-prescription-drug-benefit-part-d
-93.770,Medicare Prescription Drug Benefit (Part D),HHS,2020,80738.4,247.95,2018-01-01,2018-12-31,,hhs-medicare-prescription-drug-benefit-part-d
-93.770,Medicare Prescription Drug Benefit (Part D),HHS,2021,86811.86,1369.24,2019-01-01,2020-12-01,,hhs-medicare-prescription-drug-benefit-part-d
-93.770,Medicare Prescription Drug Benefit (Part D),HHS,2022,88415.62,1361.11,2020-01-01,2020-12-01,,hhs-medicare-prescription-drug-benefit-part-d
-93.770,Medicare Prescription Drug Benefit (Part D),HHS,2023,90074.96,3354.78,2021-01-01,2021-12-01,,hhs-medicare-prescription-drug-benefit-part-d
-93.770,Medicare Prescription Drug Benefit (Part D),HHS,2024,96521.39,3575.09,2022-01-01,2022-12-01,,hhs-medicare-prescription-drug-benefit-part-d
-93.770,Medicare Prescription Drug Benefit (Part D),HHS,2025,105559.08,4225.8,2023-01-01,2023-12-31,,hhs-medicare-prescription-drug-benefit-part-d
+93.770,Medicare Prescription Drug Benefit (Part D),HHS,2015,62003.91,0,,,1825.75,hhs-medicare-prescription-drug-benefit-part-d
+93.770,Medicare Prescription Drug Benefit (Part D),HHS,2016,70235.94,0,,,1660.84,hhs-medicare-prescription-drug-benefit-part-d
+93.770,Medicare Prescription Drug Benefit (Part D),HHS,2017,77450.28,0,,,450.77,hhs-medicare-prescription-drug-benefit-part-d
+93.770,Medicare Prescription Drug Benefit (Part D),HHS,2018,79559.54,0,,,681.78,hhs-medicare-prescription-drug-benefit-part-d
+93.770,Medicare Prescription Drug Benefit (Part D),HHS,2019,80787.84,373.59,2017-01-01,2017-12-01,234.35,hhs-medicare-prescription-drug-benefit-part-d
+93.770,Medicare Prescription Drug Benefit (Part D),HHS,2020,80738.4,247.95,2018-01-01,2018-12-31,679.55,hhs-medicare-prescription-drug-benefit-part-d
+93.770,Medicare Prescription Drug Benefit (Part D),HHS,2021,86811.86,1369.24,2019-01-01,2020-12-01,0,hhs-medicare-prescription-drug-benefit-part-d
+93.770,Medicare Prescription Drug Benefit (Part D),HHS,2022,88415.62,1361.11,2020-01-01,2020-12-01,0,hhs-medicare-prescription-drug-benefit-part-d
+93.770,Medicare Prescription Drug Benefit (Part D),HHS,2023,90074.96,3354.78,2021-01-01,2021-12-01,0,hhs-medicare-prescription-drug-benefit-part-d
+93.770,Medicare Prescription Drug Benefit (Part D),HHS,2024,96521.39,3575.09,2022-01-01,2022-12-01,0,hhs-medicare-prescription-drug-benefit-part-d
+93.770,Medicare Prescription Drug Benefit (Part D),HHS,2025,105559.08,4225.8,2023-01-01,2023-12-31,0,hhs-medicare-prescription-drug-benefit-part-d
 93.770,Medicare Prescription Drug Benefit (Part D),HHS,2026,134092.86,5162.91,2024-01-01,2024-12-31,0,hhs-medicare-prescription-drug-benefit-part-d
 93.791,Money Follows the Person Rebalancing Demonstration,HHS,2026,,,,,,
 93.332,Cooperative Agreement to Support Navigators in Federally-facilitated Exchanges,HHS,2026,,,,,,
@@ -2733,22 +2730,22 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 93.982,Mental Health Disaster Assistance and Emergency Mental Health,HHS,2018,0,0,,,,
 93.982,Mental Health Disaster Assistance and Emergency Mental Health,HHS,2019,0,0,,,,
 93.982,Mental Health Disaster Assistance and Emergency Mental Health,HHS,2020,0,0,,,,
-93.982,Mental Health Disaster Assistance and Emergency Mental Health,HHS,2022,0,0,,,,
-93.150,Projects for Assistance in Transition from Homelessness (PATH),HHS,2022,0,0,,,,
+93.982,Mental Health Disaster Assistance and Emergency Mental Health,HHS,2022,0,0,,,0,
+93.150,Projects for Assistance in Transition from Homelessness (PATH),HHS,2022,0,0,,,0,
 93.138,Protection and Advocacy for Individuals with Mental Illness,HHS,2026,,,,,,
-93.788,Opioid STR,HHS,2022,0,0,,,,
+93.788,Opioid STR,HHS,2022,0,0,,,0,
 93.959,Block Grants for Prevention and Treatment of Substance Abuse,HHS,2026,,,,,,
-93.496,Family Violence Prevention and Services/Culturally Specific Domestic Violence and Sexual Violence Services,HHS,2022,0,0,,,,
+93.496,Family Violence Prevention and Services/Culturally Specific Domestic Violence and Sexual Violence Services,HHS,2022,0,0,,,0,
 93.714,ARRA - Emergency Contingency Fund for Temporary Assistance for Needy Families (TANF) State Program,HHS,2026,,,,,,
 93.489,Child Care Disaster Relief,HHS,2026,,,,,,
 93.601,Child Support Enforcement Demonstrations and Special Projects,HHS,2026,,,,,,
-93.327,Demonstration Grants for Domestic Victims of Human Trafficking,HHS,2022,0,0,,,,
-93.605,Kinship Navigators,HHS,2022,0,0,,,,
-93.093,Health Profession Opportunity Grants,HHS,2022,0,0,,,,
-93.584,Refugee and Entrant Assistance Targeted Assistance Grants,HHS,2022,0,0,,,,
-93.594,Tribal Work Grants,HHS,2022,0,0,,,,
-93.579,U.S. Repatriation,HHS,2022,0,0,,,,
-93.595,"Welfare Reform Research, Evaluations and National Studies",HHS,2022,0,0,,,,
+93.327,Demonstration Grants for Domestic Victims of Human Trafficking,HHS,2022,0,0,,,0,
+93.605,Kinship Navigators,HHS,2022,0,0,,,0,
+93.093,Health Profession Opportunity Grants,HHS,2022,0,0,,,0,
+93.584,Refugee and Entrant Assistance Targeted Assistance Grants,HHS,2022,0,0,,,0,
+93.594,Tribal Work Grants,HHS,2022,0,0,,,0,
+93.579,U.S. Repatriation,HHS,2022,0,0,,,0,
+93.595,"Welfare Reform Research, Evaluations and National Studies",HHS,2022,0,0,,,0,
 93.734,Empowering Older Adults and Adults with Disabilities through Chronic Disease Self-Management Education Programs - financed by Prevention and Public Health Funds (PPHF),HHS,2026,,,,,,
 93.698,Elder Justice Act - Adult Protective Services,HHS,2026,,,,,,
 93.761,Evidence-Based Falls Prevention Programs Financed Solely by Prevention and Public Health Funds (PPHF),HHS,2026,,,,,,
@@ -3305,29 +3302,29 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 14.416,Education and Outreach Initiative,HUD,2026,,,,,,
 14.231,Emergency Solutions Grant Program,HUD,2026,,,,,,
 14.537,Eviction Protection Grant Program,HUD,2026,,,,,,
-14.401,Fair Housing Assistance Program,HUD,2021,0,0,,,,
-14.401,Fair Housing Assistance Program,HUD,2022,0,0,,,,
+14.401,Fair Housing Assistance Program,HUD,2021,0,0,,,0,
+14.401,Fair Housing Assistance Program,HUD,2022,0,0,,,0,
 14.417,Fair Housing Organization Initiatives,HUD,2026,,,,,,
 14.896,Family Self-Sufficiency Program,HUD,2026,,,,,,
 14.506,General Research and Technology Activity,HUD,2026,,,,,,
 14.021,GRRP,HUD,2026,,,,,,
 14.901,Healthy Homes Weatherization Cooperation Demonstration Grants,HUD,2026,,,,,,
 14.183,Home Equity Conversion Mortgages,HUD,2026,,,,,,
-14.239,Home Investment Partnerships Program,HUD,2021,0,0,,,,
-14.239,Home Investment Partnerships Program,HUD,2022,0,0,,,,
+14.239,Home Investment Partnerships Program,HUD,2021,0,0,,,0,
+14.239,Home Investment Partnerships Program,HUD,2022,0,0,,,0,
 14.169,Housing Counseling Assistance Program,HUD,2026,,,,,,
 14.022,Housing Counseling Program Homeownership Initiative,HUD,2026,,,,,,
 14.316,Housing Counseling Training Program,HUD,2026,,,,,,
-14.241,Housing Opportunities for Persons with AIDS,HUD,2021,0,0,,,,
-14.241,Housing Opportunities for Persons with AIDS,HUD,2022,0,0,,,,
-14.275,Housing Trust Fund,HUD,2021,0,0,,,,
-14.275,Housing Trust Fund,HUD,2022,0,0,,,,
+14.241,Housing Opportunities for Persons with AIDS,HUD,2021,0,0,,,0,
+14.241,Housing Opportunities for Persons with AIDS,HUD,2022,0,0,,,0,
+14.275,Housing Trust Fund,HUD,2021,0,0,,,0,
+14.275,Housing Trust Fund,HUD,2022,0,0,,,0,
 14.269,Hurricane Sandy Community Development Block Grant Disaster Recovery Grants (CDBG-DR),HUD,2026,,,,,,
-14.862,Indian Community Development Block Grant Program,HUD,2021,0,0,,,,
-14.862,Indian Community Development Block Grant Program,HUD,2022,0,0,,,,
+14.862,Indian Community Development Block Grant Program,HUD,2021,0,0,,,0,
+14.862,Indian Community Development Block Grant Program,HUD,2022,0,0,,,0,
 14.867,Indian Housing Block Grants,HUD,2026,,,,,,
-14.103,Interest Reduction Payments Rental and Cooperative Housing for Lower Income Families,HUD,2021,0,0,,,,
-14.103,Interest Reduction Payments Rental and Cooperative Housing for Lower Income Families,HUD,2022,0,0,,,,
+14.103,Interest Reduction Payments Rental and Cooperative Housing for Lower Income Families,HUD,2021,0,0,,,0,
+14.103,Interest Reduction Payments Rental and Cooperative Housing for Lower Income Families,HUD,2022,0,0,,,0,
 14.895,Jobs-Plus Pilot Initiative,HUD,2026,,,,,,
 14.920,Lead Hazard Control for High Risk Areas,HUD,2026,,,,,,
 14.905,Lead Hazard Reduction Demonstration Grant Program,HUD,2026,,,,,,
@@ -3337,8 +3334,8 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 14.856,Lower Income Housing Assistance Program Section 8 Moderate Rehabilitation,HUD,2026,,,,,,
 14.182,Lower Income Housing Assistance Program-Section 8 New Construction/Substantial Rehabilitation (1991B),HUD,2026,,,,,,
 14.879,Mainstream Vouchers,HUD,2026,903.638,46.3,2024-10-01,2025-09-30,0,hud-mainstream-vouchers
-14.171,Manufactured Housing,HUD,2021,0,0,,,,
-14.171,Manufactured Housing,HUD,2022,0,0,,,,
+14.171,Manufactured Housing,HUD,2021,0,0,,,0,
+14.171,Manufactured Housing,HUD,2022,0,0,,,0,
 14.117,Mortgage Insurance Homes,HUD,2026,,,,,,
 14.128,Mortgage Insurance Hospitals,HUD,2026,,,,,,
 14.129,"Mortgage Insurance Nursing Homes, Intermediate Care Facilities, Board and Care Homes and Assisted Living Facilities",HUD,2026,,,,,,
@@ -3348,8 +3345,8 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 14.197,Multifamily Assisted Housing Reform and Affordability Act,HUD,2026,,,,,,
 14.191,Multifamily Housing Service Coordinators,HUD,2026,,,,,,
 14.272,National Disaster Resilience Competition,HUD,2026,,,,,,
-14.873,Native Hawaiian Housing Block Grants,HUD,2021,0,0,,,,
-14.873,Native Hawaiian Housing Block Grants,HUD,2022,0,0,,,,
+14.873,Native Hawaiian Housing Block Grants,HUD,2021,0,0,,,0,
+14.873,Native Hawaiian Housing Block Grants,HUD,2022,0,0,,,0,
 14.893,Office of Native American Programs Training and Technical Assistance for Indian Housing Block Grant Program,HUD,2026,,,,,,
 14.921,Older Adults Home Modification Grant Program,HUD,2026,,,,,,
 14.273,Pay for Success Permanent Supportive Housing Demonstration,HUD,2026,,,,,,
@@ -3358,18 +3355,18 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 14.195,Project-Based Rental Assistance (PBRA),HUD,2026,16961.594,930.857,2024-10-01,2025-09-30,1041.795,hud-project-based-rental-assistance-pbra
 14.865,Public and Indian Housing Indian Loan Guarantee Program,HUD,2026,,,,,,
 14.872,Public Housing Capital Fund,HUD,2026,,,,,,
-14.850,Public Housing Operating Fund,HUD,2021,0,0,,,,
-14.850,Public Housing Operating Fund,HUD,2022,0,0,,,,
+14.850,Public Housing Operating Fund,HUD,2021,0,0,,,0,
+14.850,Public Housing Operating Fund,HUD,2022,0,0,,,0,
 14.108,Rehabilitation Mortgage Insurance,HUD,2026,,,,,,
 14.149,Rent Supplements Rental Housing for Lower Income Families,HUD,2026,,,,,,
 14.536,"Research, Evaluation, and Demonstrations",HUD,2026,,,,,,
 14.870,Resident Opportunity and Supportive Services - Service Coordinators,HUD,2026,,,,,,
 14.265,Rural Capacity Building for Community Development and Affordable Housing Grants,HUD,2026,,,,,,
-14.252,Section 4 Capacity Building for Community Development and Affordable Housing,HUD,2021,0,0,,,,
-14.252,Section 4 Capacity Building for Community Development and Affordable Housing,HUD,2022,0,0,,,,
+14.252,Section 4 Capacity Building for Community Development and Affordable Housing,HUD,2021,0,0,,,0,
+14.252,Section 4 Capacity Building for Community Development and Affordable Housing,HUD,2022,0,0,,,0,
 14.871,Section 8 Housing Choice Vouchers,HUD,2026,40466.882,1282.271,2024-10-01,2025-09-30,818.948,hud-section-8-housing-choice-vouchers
-14.249,Section 8 Moderate Rehabilitation Single Room Occupancy,HUD,2021,0,0,,,,
-14.249,Section 8 Moderate Rehabilitation Single Room Occupancy,HUD,2022,0,0,,,,
+14.249,Section 8 Moderate Rehabilitation Single Room Occupancy,HUD,2021,0,0,,,0,
+14.249,Section 8 Moderate Rehabilitation Single Room Occupancy,HUD,2022,0,0,,,0,
 14.247,Self-Help Homeownership Opportunity Program,HUD,2026,,,,,,
 14.181,Supportive Housing for Persons with Disabilities,HUD,2026,,,,,,
 14.157,Supportive Housing for the Elderly,HUD,2026,,,,,,
@@ -3889,8 +3886,8 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 59.008,Disaster Assistance Loans,SBA,2024,1175.69962306,42.53675821,2023-04-01,2024-03-01,0,sba-disaster-assistance-loans
 59.008,Disaster Assistance Loans,SBA,2025,3223.816,157.019,2024-04-01,2025-03-31,0,sba-disaster-assistance-loans
 59.008,Disaster Assistance Loans,SBA,2026,1883.63,151.36,2025-04-01,2026-03-31,0,sba-disaster-assistance-loans
-59.072,Economic Injury Disaster Loan Emergency Advance,SBA,2022,7849.839278,766.34,2021-04-01,2022-03-01,,
-59.072,Economic Injury Disaster Loan Emergency Advance,SBA,2023,74.53,5.07,2022-04-01,2023-03-01,,
+59.072,Economic Injury Disaster Loan Emergency Advance,SBA,2022,7849.839278,766.34,2021-04-01,2022-03-01,0,sba-economic-injury-disaster-loan-emergency-advance
+59.072,Economic Injury Disaster Loan Emergency Advance,SBA,2023,74.53,5.07,2022-04-01,2023-03-01,0,sba-economic-injury-disaster-loan-emergency-advance
 59.058,Federal and State Technology Partnership Program,SBA,2022,0,0,,,0,
 59.065,Growth Accelerator Fund Competition,SBA,2022,0,0,,,0,
 59.055,HUBZone Program,SBA,2026,,,,,,
@@ -3910,7 +3907,7 @@ program_id,improper_payment_program_name,agency,fiscal_year,outlays,improper_pay
 59.050,Prime Technical Assistance,SBA,2022,0,0,,,0,
 59.067,Regional Innovation Clusters,SBA,2026,,,,,,
 59.069,SBA Emerging Leaders initiative,SBA,2026,,,,,,
-59.026,Service Corps of Retired Executives Program (SCORE),SBA,2021,0,0,,,,
+59.026,Service Corps of Retired Executives Program (SCORE),SBA,2021,0,0,,,0,
 59.026,Service Corps of Retired Executives Program (SCORE),SBA,2022,0,0,,,0,
 59.075,Shuttered Venue Operators Grant Program,SBA,2022,0,0,,,0,sba-shuttered-venue-operators-grant-program
 59.075,Shuttered Venue Operators Grant Program,SBA,2024,0,0,,,0,sba-shuttered-venue-operators-grant-program
@@ -4982,11 +4979,11 @@ TC.117,Work opportunity tax credit,TREASURY,2026,,,,,,
 10.559,Summer Food Service Program for Children,USDA,2017,0,0,,,,usda-summer-food-service-program-for-children
 10.559,Summer Food Service Program for Children,USDA,2018,0,0,,,,usda-summer-food-service-program-for-children
 10.559,Summer Food Service Program for Children,USDA,2019,0,0,,,,usda-summer-food-service-program-for-children
-10.559,Summer Food Service Program for Children,USDA,2020,481.03,0,2018-10-01,2019-09-30,,usda-summer-food-service-program-for-children
-10.559,Summer Food Service Program for Children,USDA,2021,4308.96,0,2022-01-01,2022-01-01,,usda-summer-food-service-program-for-children
-10.559,Summer Food Service Program for Children,USDA,2022,0,0,,,,usda-summer-food-service-program-for-children
-10.559,Summer Food Service Program for Children,USDA,2023,0,0,,,,usda-summer-food-service-program-for-children
-10.559,Summer Food Service Program for Children,USDA,2024,0,0,,,,usda-summer-food-service-program-for-children
+10.559,Summer Food Service Program for Children,USDA,2020,481.03,0,2018-10-01,2019-09-30,0,usda-summer-food-service-program-for-children
+10.559,Summer Food Service Program for Children,USDA,2021,4308.96,0,2022-01-01,2022-01-01,0,usda-summer-food-service-program-for-children
+10.559,Summer Food Service Program for Children,USDA,2022,0,0,,,0,usda-summer-food-service-program-for-children
+10.559,Summer Food Service Program for Children,USDA,2023,0,0,,,0,usda-summer-food-service-program-for-children
+10.559,Summer Food Service Program for Children,USDA,2024,0,0,,,0,usda-summer-food-service-program-for-children
 10.559,Summer Food Service Program for Children,USDA,2025,0,0,,,,usda-summer-food-service-program-for-children
 10.559,Summer Food Service Program for Children,USDA,2026,781.7,70.66,2023-08-01,2024-08-01,0,usda-summer-food-service-program-for-children
 10.551,Supplemental Nutrition Assistance Program,USDA,2004,24298,0,,,,usda-supplemental-nutrition-assistance-program
@@ -5035,7 +5032,7 @@ TC.117,Work opportunity tax credit,TREASURY,2026,,,,,,
 10.903,Soil Survey,USDA,2022,0,0,,,0,
 10.935,Urban Agriculture and Innovative Production Grants Program (UAIP),USDA,2026,,,,,,
 10.929,Water Bank Program,USDA,2026,,,,,,
-10.996,Rural Development Policy Public Service and Leadership Development Program,USDA,2022,0,0,,,0,
+10.996,Rural Development Policy Public Service and Leadership Development Program,USDA,2026,,,,,,
 10.450,Federal Crop Insurance Corporation (FCIC),USDA,2004,2500,0,,,,usda-federal-crop-insurance-corporation-fcic
 10.450,Federal Crop Insurance Corporation (FCIC),USDA,2005,3170,0,,,,usda-federal-crop-insurance-corporation-fcic
 10.450,Federal Crop Insurance Corporation (FCIC),USDA,2006,3206,0,,,,usda-federal-crop-insurance-corporation-fcic
@@ -5050,12 +5047,12 @@ TC.117,Work opportunity tax credit,TREASURY,2026,,,,,,
 10.450,Federal Crop Insurance Corporation (FCIC),USDA,2024,23867.31,579.36,2021-07-01,2022-06-01,0,usda-federal-crop-insurance-corporation-fcic
 10.450,Federal Crop Insurance Corporation (FCIC),USDA,2025,22925.06,755.03,2022-07-01,2023-06-30,0,usda-federal-crop-insurance-corporation-fcic
 10.450,Federal Crop Insurance Corporation (FCIC),USDA,2026,20704.44,1161.58,2023-07-01,2024-06-30,0,usda-federal-crop-insurance-corporation-fcic
-10.767,Intermediary Relending Program,USDA,2021,0,0,,,,
-10.767,Intermediary Relending Program,USDA,2022,0,0,,,,
-10.438,Section 538 Rural Rental Housing Guaranteed Loans,USDA,2021,0,0,,,,
-10.438,Section 538 Rural Rental Housing Guaranteed Loans,USDA,2022,0,0,,,,
-10.447,Rural Multi-Family Housing Revitalization Demonstration Program (MPR),USDA,2021,0,0,,,,
-10.447,Rural Multi-Family Housing Revitalization Demonstration Program (MPR),USDA,2022,0,0,,,,
+10.767,Intermediary Relending Program,USDA,2021,0,0,,,0,
+10.767,Intermediary Relending Program,USDA,2022,0,0,,,0,
+10.438,Section 538 Rural Rental Housing Guaranteed Loans,USDA,2021,0,0,,,0,
+10.438,Section 538 Rural Rental Housing Guaranteed Loans,USDA,2022,0,0,,,0,
+10.447,Rural Multi-Family Housing Revitalization Demonstration Program (MPR),USDA,2021,0,0,,,0,
+10.447,Rural Multi-Family Housing Revitalization Demonstration Program (MPR),USDA,2022,0,0,,,0,
 10.427,Rural Rental Assistance Payments,USDA,2004,0,0,,,,
 10.427,Rural Rental Assistance Payments,USDA,2005,846,0,,,,
 10.427,Rural Rental Assistance Payments,USDA,2006,569,0,,,,
@@ -5067,30 +5064,30 @@ TC.117,Work opportunity tax credit,TREASURY,2026,,,,,,
 10.427,Rural Rental Assistance Payments,USDA,2012,1078,0,,,,
 10.427,Rural Rental Assistance Payments,USDA,2013,1108,0,,,,
 10.427,Rural Rental Assistance Payments,USDA,2014,1117,0,,,,
-10.427,Rural Rental Assistance Payments,USDA,2015,1147,0,,,,
-10.427,Rural Rental Assistance Payments,USDA,2016,1141.39,0,,,,
+10.427,Rural Rental Assistance Payments,USDA,2015,1147,0,,,3.8,
+10.427,Rural Rental Assistance Payments,USDA,2016,1141.39,0,,,9.32,
 10.427,Rural Rental Assistance Payments,USDA,2017,0,0,,,,
 10.427,Rural Rental Assistance Payments,USDA,2018,0,0,,,,
 10.427,Rural Rental Assistance Payments,USDA,2019,0,0,,,,
 10.427,Rural Rental Assistance Payments,USDA,2020,0,0,,,,
-10.427,Rural Rental Assistance Payments,USDA,2021,0,0,,,,
-10.427,Rural Rental Assistance Payments,USDA,2022,0,0,,,,
-10.415,Rural Rental Housing Loans,USDA,2021,0,0,,,,
-10.415,Rural Rental Housing Loans,USDA,2022,0,0,,,,
+10.427,Rural Rental Assistance Payments,USDA,2021,0,0,,,0,
+10.427,Rural Rental Assistance Payments,USDA,2022,0,0,,,0,
+10.415,Rural Rental Housing Loans,USDA,2021,0,0,,,0,
+10.415,Rural Rental Housing Loans,USDA,2022,0,0,,,0,
 10.446,Rural Community Development Initiative,USDA,2026,,,,,,
-10.886,Rural Broadband Access Loans,USDA,2021,0,0,,,,
-10.886,Rural Broadband Access Loans,USDA,2022,0,0,,,,
-10.850,Rural Electrification Loans and Loan Guarantees,USDA,2021,0,0,,,,
-10.850,Rural Electrification Loans and Loan Guarantees,USDA,2022,0,0,,,,
-10.858,Denali Commission Grants and Loans,USDA,2021,0,0,,,,
-10.858,Denali Commission Grants and Loans,USDA,2022,0,0,,,,
-10.751,Rural Energy Savings Program (RESP),USDA,2021,0,0,,,,
-10.751,Rural Energy Savings Program (RESP),USDA,2022,0,0,,,,
+10.886,Rural Broadband Access Loans,USDA,2021,0,0,,,0,
+10.886,Rural Broadband Access Loans,USDA,2022,0,0,,,0,
+10.850,Rural Electrification Loans and Loan Guarantees,USDA,2021,0,0,,,0,
+10.850,Rural Electrification Loans and Loan Guarantees,USDA,2022,0,0,,,0,
+10.858,Denali Commission Grants and Loans,USDA,2021,0,0,,,0,
+10.858,Denali Commission Grants and Loans,USDA,2022,0,0,,,0,
+10.751,Rural Energy Savings Program (RESP),USDA,2021,0,0,,,0,
+10.751,Rural Energy Savings Program (RESP),USDA,2022,0,0,,,0,
 10.752,Rural eConnectivity Pilot Program,USDA,2026,,,,,,
-10.851,Rural Telecommunications Loans,USDA,2021,0,0,,,,
-10.851,Rural Telecommunications Loans,USDA,2022,0,0,,,,
-10.770,Water and Waste Facility Loans and Grants to Alleviate Health Risks for Colonias and Tribal Lands,USDA,2021,0,0,,,,
-10.770,Water and Waste Facility Loans and Grants to Alleviate Health Risks for Colonias and Tribal Lands,USDA,2022,0,0,,,,
+10.851,Rural Telecommunications Loans,USDA,2021,0,0,,,0,
+10.851,Rural Telecommunications Loans,USDA,2022,0,0,,,0,
+10.770,Water and Waste Facility Loans and Grants to Alleviate Health Risks for Colonias and Tribal Lands,USDA,2021,0,0,,,0,
+10.770,Water and Waste Facility Loans and Grants to Alleviate Health Risks for Colonias and Tribal Lands,USDA,2022,0,0,,,0,
 10.973,Emergency Grain Storage Facility Program,USDA,2026,,,,,,
 10.976,Rice Production Program,USDA,2026,,,,,,
 10.922,Healthy Forests Reserve Program (HFRP),USDA,2026,,,,,,
@@ -5215,7 +5212,7 @@ TC.117,Work opportunity tax credit,TREASURY,2026,,,,,,
 10.645,Farm to School State Formula Grant,USDA,2026,,,,,,
 10.545,Farmers' Market Supplemental Nutrition Assistance Program Support Grants,USDA,2026,,,,,,
 10.934,Feral Swine Eradication and Control Pilot Program,USDA,2026,,,,,,
-10.558,Child and Adult Care Food Program,USDA,2025,4245,445.79,2015-12-01,2018-01-30,,usda-child-and-adult-care-food-program
+10.558,Child and Adult Care Food Program,USDA,2025,4245,445.79,2015-12-01,2018-01-30,0,usda-child-and-adult-care-food-program
 10.558,Child and Adult Care Food Program,USDA,2026,4246.42,449.82,2017-02-01,2018-01-01,0,usda-child-and-adult-care-food-program
 10.585,Food Safety Grants,USDA,2026,,,,,,
 10.529,Food Distribution Program on Indian Reservations (FDPIR) Nutrition Paraprofessional Training,USDA,2026,,,,,,
@@ -5245,8 +5242,8 @@ TC.117,Work opportunity tax credit,TREASURY,2026,,,,,,
 10.443,Outreach and Assistance for Socially Disadvantaged and Veteran Farmers and Ranchers,USDA,2022,0,0,,,0,
 10.540,Participant Research Innovation Laboratory for Enhancing WIC Services,USDA,2026,,,,,,
 10.617,PL-480 Market Development and Technical Assistance,USDA,2026,,,,,,
-10.025,Animal Disease and Animal Care,USDA,2021,0,0,,,,
-10.025,Animal Disease and Animal Care,USDA,2022,0,0,,,,
+10.025,Animal Disease and Animal Care,USDA,2021,0,0,,,0,
+10.025,Animal Disease and Animal Care,USDA,2022,0,0,,,0,
 10.112,Price Loss Coverage,USDA,2026,,,,,,
 10.605,Quality Samples Program,USDA,2026,,,,,,
 10.618,Regional Agricultural Promotion Program,USDA,2026,,,,,,
@@ -5510,11 +5507,11 @@ TC.117,Work opportunity tax credit,TREASURY,2026,,,,,,
 10.490,Self Help Housing Land Development Loans,USDA,2026,,,,,,
 10.444,Direct Housing Natural Disaster Loans and Grants,USDA,2026,,,,,,
 91.005,Priority Grant Competition,USIP,2026,,,,,,
-64.124,All-Volunteer Force Educational Assistance,VA,2021,0,0,,,,
-64.124,All-Volunteer Force Educational Assistance,VA,2022,0,0,,,,
+64.124,All-Volunteer Force Educational Assistance,VA,2021,0,0,,,0,
+64.124,All-Volunteer Force Educational Assistance,VA,2022,0,0,,,0,
 64.100,Automobiles and Adaptive Equipment for Certain Disabled Veterans and Members of the Armed Forces,VA,2026,,,,,,
-64.101,Burial Expenses Allowance for Veterans,VA,2021,0,0,,,,
-64.101,Burial Expenses Allowance for Veterans,VA,2022,0,0,,,,
+64.101,Burial Expenses Allowance for Veterans,VA,2021,0,0,,,0,
+64.101,Burial Expenses Allowance for Veterans,VA,2022,0,0,,,0,
 64.039,CHAMPVA,VA,2004,0,0,,,,
 64.039,CHAMPVA,VA,2005,0,0,,,,
 64.039,CHAMPVA,VA,2006,0,0,,,,
@@ -5526,14 +5523,14 @@ TC.117,Work opportunity tax credit,TREASURY,2026,,,,,,
 64.039,CHAMPVA,VA,2012,849,0,,,,
 64.039,CHAMPVA,VA,2013,924,0,,,,
 64.039,CHAMPVA,VA,2014,1020.93,0,,,,
-64.039,CHAMPVA,VA,2015,1135.34,0,,,,
+64.039,CHAMPVA,VA,2015,1135.34,0,,,1.16,
 64.039,CHAMPVA,VA,2016,1145.73,0,,,,
 64.039,CHAMPVA,VA,2017,1247.48599371,0,,,,
 64.039,CHAMPVA,VA,2018,1230.11,0,,,,
-64.039,CHAMPVA,VA,2019,1270.36,20.63,2017-09-01,2018-09-30,,
-64.039,CHAMPVA,VA,2020,1307.9,8.94,2018-10-01,2019-09-30,,
-64.039,CHAMPVA,VA,2021,0,0,,,,
-64.039,CHAMPVA,VA,2022,0,0,,,,
+64.039,CHAMPVA,VA,2019,1270.36,20.63,2017-09-01,2018-09-30,0,
+64.039,CHAMPVA,VA,2020,1307.9,8.94,2018-10-01,2019-09-30,0,
+64.039,CHAMPVA,VA,2021,0,0,,,0,
+64.039,CHAMPVA,VA,2022,0,0,,,0,
 64.109,Compensation,VA,2004,24750,0,,,,va-compensation
 64.109,Compensation,VA,2005,26298,0,,,,va-compensation
 64.109,Compensation,VA,2006,28711,0,,,,va-compensation
@@ -5555,13 +5552,13 @@ TC.117,Work opportunity tax credit,TREASURY,2026,,,,,,
 64.109,Compensation,VA,2022,0,0,,,0,va-compensation
 64.109,Compensation,VA,2025,157452.95,866.59,2023-10-01,2024-09-30,1480.98,va-compensation
 64.109,Compensation,VA,2026,179189.21,2946.61,2024-10-01,2025-09-30,1965.4,va-compensation
-64.005,Grants to States for Construction of State Home Facilities,VA,2021,0,0,,,,
-64.005,Grants to States for Construction of State Home Facilities,VA,2022,0,0,,,,
-64.056,Legal Services for Veterans Grants,VA,2021,0,0,,,,
+64.005,Grants to States for Construction of State Home Facilities,VA,2021,0,0,,,0,
+64.005,Grants to States for Construction of State Home Facilities,VA,2022,0,0,,,0,
+64.056,Legal Services for Veterans Grants,VA,2021,0,0,,,0,
 64.031,Life Insurance for Veterans - Direct Payments for Insurance,VA,2026,,,,,,
 64.032,Montgomery GI Bill Selected Reserve,VA,2026,,,,,,
-64.127,Monthly Allowance for Children of Vietnam Veterans Born with Spina Bifida,VA,2021,0,0,,,,
-64.127,Monthly Allowance for Children of Vietnam Veterans Born with Spina Bifida,VA,2022,0,0,,,,
+64.127,Monthly Allowance for Children of Vietnam Veterans Born with Spina Bifida,VA,2021,0,0,,,0,
+64.127,Monthly Allowance for Children of Vietnam Veterans Born with Spina Bifida,VA,2022,0,0,,,0,
 64.201,National Cemeteries,VA,2026,,,,,,
 64.126,Native American Veteran Direct Loan Program,VA,2026,,,,,,
 64.053,Payments to States for Programs to Promote the Hiring and Retention of Nurses at State Veterans Homes,VA,2026,,,,,,
@@ -5599,29 +5596,29 @@ TC.117,Work opportunity tax credit,TREASURY,2026,,,,,,
 64.028,Post-9/11 Veterans Educational Assistance,VA,2012,0,0,,,,
 64.028,Post-9/11 Veterans Educational Assistance,VA,2013,8769,0,,,,
 64.028,Post-9/11 Veterans Educational Assistance,VA,2014,10723,0,,,,
-64.028,Post-9/11 Veterans Educational Assistance,VA,2015,11172.65,0,,,,
+64.028,Post-9/11 Veterans Educational Assistance,VA,2015,11172.65,0,,,125.59,
 64.028,Post-9/11 Veterans Educational Assistance,VA,2016,11344.07,0,,,,
-64.028,Post-9/11 Veterans Educational Assistance,VA,2017,11719.63738341,0,,,,
+64.028,Post-9/11 Veterans Educational Assistance,VA,2017,11719.63738341,0,,,131.24777223,
 64.028,Post-9/11 Veterans Educational Assistance,VA,2018,11146.32,0,,,,
-64.028,Post-9/11 Veterans Educational Assistance,VA,2019,10832.56,56.92,2017-09-01,2018-09-30,,
+64.028,Post-9/11 Veterans Educational Assistance,VA,2019,10832.56,56.92,2017-09-01,2018-09-30,0,
 64.028,Post-9/11 Veterans Educational Assistance,VA,2020,0,0,,,,
-64.028,Post-9/11 Veterans Educational Assistance,VA,2021,0,0,,,,
-64.028,Post-9/11 Veterans Educational Assistance,VA,2022,0,0,,,,
+64.028,Post-9/11 Veterans Educational Assistance,VA,2021,0,0,,,0,
+64.028,Post-9/11 Veterans Educational Assistance,VA,2022,0,0,,,0,
 64.120,Post-Vietnam Era Veterans' Educational Assistance,VA,2026,,,,,,
 64.202,Procurement of Headstones and Markers and/or Presidential Memorial Certificates,VA,2026,,,,,,
-64.054,Research and Development,VA,2021,0,0,,,,
-64.054,Research and Development,VA,2022,0,0,,,,
+64.054,Research and Development,VA,2021,0,0,,,0,
+64.054,Research and Development,VA,2022,0,0,,,0,
 64.051,Specially Adapted Housing Assistive Technology Grant Program,VA,2026,,,,,,
-64.106,Specially Adapted Housing for Disabled Veterans,VA,2021,0,0,,,,
-64.106,Specially Adapted Housing for Disabled Veterans,VA,2022,0,0,,,,
+64.106,Specially Adapted Housing for Disabled Veterans,VA,2021,0,0,,,0,
+64.106,Specially Adapted Housing for Disabled Veterans,VA,2022,0,0,,,0,
 64.055,Staff Sergeant Parker Gordon Fox Suicide Prevention Grant Program,VA,2026,,,,,,
 64.057,Suicide Mortality Review Cooperative Agreements,VA,2026,,,,,,
-64.117,Survivors and Dependents Educational Assistance,VA,2021,0,0,,,,
-64.117,Survivors and Dependents Educational Assistance,VA,2022,0,0,,,,
+64.117,Survivors and Dependents Educational Assistance,VA,2021,0,0,,,0,
+64.117,Survivors and Dependents Educational Assistance,VA,2022,0,0,,,0,
 64.205,VA Casket or Urn Allowance Program,VA,2026,,,,,,
 64.034,VA Grants for Adaptive Sports Programs for Disabled Veterans and Disabled Members of the Armed Forces,VA,2026,,,,,,
-64.024,VA Homeless Providers Grant and Per Diem Program,VA,2021,0,0,,,,
-64.024,VA Homeless Providers Grant and Per Diem Program,VA,2022,0,0,,,,
+64.024,VA Homeless Providers Grant and Per Diem Program,VA,2021,0,0,,,0,
+64.024,VA Homeless Providers Grant and Per Diem Program,VA,2022,0,0,,,0,
 64.206,VA Outer Burial Receptacle Allowance Program,VA,2026,,,,,,
 64.033,VA Supportive Services for Veteran Families Program,VA,2026,,,,,,
 64.037,VA U.S. Paralympics Monthly Assistance Allowance Program,VA,2026,,,,,,
@@ -5655,21 +5652,21 @@ TC.117,Work opportunity tax credit,TREASURY,2026,,,,,,
 64.110,Veterans Dependency and Indemnity Compensation for Service-Connected Death,VA,2016,0,0,,,,
 64.110,Veterans Dependency and Indemnity Compensation for Service-Connected Death,VA,2017,0,0,,,,
 64.110,Veterans Dependency and Indemnity Compensation for Service-Connected Death,VA,2018,0,0,,,,
-64.110,Veterans Dependency and Indemnity Compensation for Service-Connected Death,VA,2019,6935.38,0.98,2017-09-01,2018-09-30,,
-64.110,Veterans Dependency and Indemnity Compensation for Service-Connected Death,VA,2020,7306.79,0,2018-10-01,2019-09-30,,
-64.110,Veterans Dependency and Indemnity Compensation for Service-Connected Death,VA,2021,0,0,,,,
-64.110,Veterans Dependency and Indemnity Compensation for Service-Connected Death,VA,2022,0,0,,,,
+64.110,Veterans Dependency and Indemnity Compensation for Service-Connected Death,VA,2019,6935.38,0.98,2017-09-01,2018-09-30,0,
+64.110,Veterans Dependency and Indemnity Compensation for Service-Connected Death,VA,2020,7306.79,0,2018-10-01,2019-09-30,39.29,
+64.110,Veterans Dependency and Indemnity Compensation for Service-Connected Death,VA,2021,0,0,,,0,
+64.110,Veterans Dependency and Indemnity Compensation for Service-Connected Death,VA,2022,0,0,,,0,
 64.118,Veterans Housing Direct Loans for Certain Disabled Veterans,VA,2026,,,,,,
 64.114,Veterans Housing Guaranteed and Insured Loans,VA,2026,,,,,,
 64.204,Veterans Legacy Grants Program,VA,2026,,,,,,
 64.026,Veterans State Adult Day Health Care,VA,2026,,,,,,
 64.014,Veterans State Domiciliary Care,VA,2026,,,,,,
 64.015,Veterans State Nursing Home Care,VA,2026,,,,,,
-64.035,Veterans Transportation Program,VA,2021,0,0,,,,
+64.035,Veterans Transportation Program,VA,2021,0,0,,,0,
 64.125,Vocational and Educational Counseling for Servicemembers and Veterans,VA,2026,,,,,,
 43.001,Earth Systems Explorers (939L),NASA,2026,,,,,,
 10.988,Supplemental Disaster Relief Program,USDA,2026,,,,,,
 10.987,Emergency Livestock Relief Program 2023 and 2024 Flood and Wildfire,USDA,2026,,,,,,
 10.112,Price Loss Coverage Program,USDA,2026,,,,,,
-10.113,Agriculture Risk Coverage Program,USDA,2026,478.02,30.4,2024-10-01,2025-09-30,0,usda-agriculture-risk-coverage-program
+10.113,Agriculture Risk Coverage Program,USDA,2026,478.02,30.39,2024-10-01,2025-09-30,0,usda-agriculture-risk-coverage-program
 93.353,21st Century Cures Act - Beau Biden Cancer Moonshot,HHS,2026,,,,,,

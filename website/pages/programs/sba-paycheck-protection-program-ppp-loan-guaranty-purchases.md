@@ -469,7 +469,7 @@ Data_By_Year:
   Start_Date: 04/2024
   Technical_IP_Amount: '0.0'
   Unknown_Mitigations_Planned: Training
-  Unknown_Mitigations_Taken: Audit,Training
+  Unknown_Mitigations_Taken: Audit, Training
   Unknown_Payments_Rate: 8.113328994514493
   Year: 2025
   detail_IP_Causes: The predominant cause of improper payments in the PPP Guaranty
@@ -600,8 +600,8 @@ Data_By_Year:
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '0'
   Outlays: 2070.19
-  Overpayment_Combined_Mitigations_Planned: '[app3]Training, [app6]Audit'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp6]Audit'
+  Overpayment_Combined_Mitigations_Planned: Audit, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Training
   Payment_Accuracy_Rate: 98.84938097469315
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: In the most recent budget submission, the agency requested
@@ -620,7 +620,7 @@ Data_By_Year:
   detail_IP_Causes: The predominant cause of improper payments in the PPP Guaranty
     Purchase Program was lender failure to meet underwriting requirements at loan
     origination. Specifically, improper payments occurred when lenders did not adequately
-    verify the identify of the borrower, that the borrower was in operation on or
+    verify the identity of the borrower, that the borrower was in operation on or
     around February 15, 2020, or did not sufficiently validate the dollar amount of
     the borrower’s average monthly payroll for the preceding calendar year. These
     underwriting deficiencies resulted in guaranty purchases being made on loans that

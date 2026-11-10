@@ -16,7 +16,7 @@ Hide_Recovery_Info: false
 Hide_Risk_Assessment_Results: false
 Hide_Sparklines: true
 Hide_Supplemental_Info: false
-Hide_Supplemental_Payment_Integrity: false
+Hide_Supplemental_Payment_Integrity: true
 Improper_Payments_Data_Years: '[]'
 Improper_Payments_Rate_Max: 0
 Improper_Payments_Rate_Min: 0
@@ -66,7 +66,7 @@ Years_Available:
 - 2024
 - 2023
 - 2022
-detail_Additional_IP_Information: Not applicable
+detail_Additional_IP_Information: null
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
 detail_DNP_Discussion: "The implementation of the Do Not Pay [DNP] initiative is a\
@@ -126,6 +126,7 @@ detail_Executive_Summary: "DNFSB maintains payment integrity by executing intern
   \ OIG verified DNFSB’s conclusion that a payment recapture audit would not be cost\
   \ effective, as the program did not incur IPs or UPs that met the PIIA threshold\
   \ for testing.\n"
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

@@ -3112,8 +3112,7 @@ Data_By_Year:
     Human Capital: Our program integrity work is labor-intensive and dependent on
     having the necessary trained staff to do the work. For the most part, our employees
     who handle our program integrity work also handle applications for benefits and
-    other mission-critical work. Sustained, sufficient funding is critical to maintain
-    the workforce necessary to balance our service and stewardship work.
+    other mission-critical work.
 
 
     Information Systems: Our staff rely on our information technology (IT) infrastructure
@@ -3180,8 +3179,8 @@ Data_By_Year:
     various non-IT projects present their progress to the IPOB on a rotating basis.
     The new SSI Improvement team also provides recurring progress updates during monthly
     IPOB meetings. The SSI Improvement team was established in September 2025 to ensure
-    comprehensive and dedicated oversight of the SSI program and to advance key reforms
-    in policies, processes, and automation.
+    comprehensive and dedicated oversight of the SSI program and to transform the
+    service we provide to SSI recipients.
 
 
     Through these collective efforts, we are focused on addressing the root causes
@@ -3404,12 +3403,12 @@ Data_By_Year:
     records) and with some jurisdictions to provide us death data through a streamlined
     death registration process known as Electronic Death Registration (EDR). As of
     July 2025, all 50 States, New York City, Washington, D.C., Puerto Rico, and the
-    Commonwealth of the Northern Mariana Islands report deaths through the EDR process.  Building
-    on OIG audit findings, we acquired data from rejected EDR reports. In FY 2026,
-    we identified approximately 5,200 deceased beneficiaries/recipients and $269 million
-    in improper payments and posted $195 million to payment records for recovery.
-    In FY 2027, we will continue reviewing rejected EDR data and taking appropriate
-    action.
+    Commonwealth of the Northern Mariana Islands report deaths through the EDR process.
+    Building on OIG audit findings, we acquired data from rejected EDR reports. In
+    FY 2026, we identified approximately 5,200 deceased beneficiaries/recipients and
+    $269 million in improper payments and posted $195 million to payment records for
+    recovery. In FY 2027, we will continue reviewing rejected EDR data and taking
+    appropriate action.
 
 
     On September 30, 2024, we awarded a contract with the National Association for
@@ -3454,7 +3453,7 @@ Data_By_Year:
     continued to refine the system to expand functionality and improve user experience.
     We also launched a Policy Assistant Tool (PAT). PAT is a chatbot developed to
     support policy navigation and operational efficiency including reducing improper
-    payments.  PAT’s enterprise-wide release via the 21CPN platform occurred in May
+    payments. PAT’s enterprise-wide release via the 21CPN platform occurred in May
     2026. Expansion plans are underway to broaden access to advanced retrieval capabilities,
     support enterprise-wide integration, and deliver targeted enhancements based on
     user feedback. Ongoing efforts prioritize user-driven enhancements to further
@@ -3508,7 +3507,9 @@ Data_By_Year:
     appear. Although form questions will be presented in a new conversational manner,
     a Portable Document Format (PDF), identical to the paper and fillable PDF versions
     of the form, will still be generated. Customers will have an opportunity to preview
-    the PDF and edit any responses prior to submission.'
+    the PDF and edit any responses prior to submission.
+
+    '
   Corrective_Actions_Proportion: 'The majority of Supplemental Security Income (SSI)
     improper payments occur when recipients (or their representative payees on their
     behalf) fail to timely or accurately report changes in any of their eligibility
@@ -3684,12 +3685,10 @@ Data_By_Year:
   Margin_of_Error: '1.1'
   Non_Monetary_Loss_Amount: '1360.71199635'
   Outlays: 65732.55269881
-  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app2]Behavioral/Psych
-    Influence, [app3]Training, [app4]Change Process, [app5]Cross Enterprise Sharing,
-    [app6]Audit, [app7]Predictive Analytics'
-  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych
-    Influence, [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing,
-    [atp6]Audit, [atp7]Predictive Analytics'
+  Overpayment_Combined_Mitigations_Planned: Audit, Automation, Behavioral/Psych Influence,
+    Change Process, Cross Enterprise Sharing, Predictive Analytics, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence,
+    Change Process, Cross Enterprise Sharing, Predictive Analytics, Training
   Payment_Accuracy_Rate: 87.35661831779058
   Program_Additional_Information: 'The improper payment data reported in this data
     call is based on fiscal year (FY) 2025 (single year) stewardship findings. The
@@ -3717,19 +3716,17 @@ Data_By_Year:
   Resources_Requested_For_IP: The Fiscal Year 2027 President’s Budget included resources
     for internal controls to prevent improper payments. As part of our stewardship
     responsibilities and our efforts to reduce improper payments, we also requested
-    $2,397 billion in dedicated funding for program integrity activities. Many of
+    $2.397 billion in dedicated funding for program integrity activities. Many of
     the tools we use, such as our medical Continuing Disability Reviews, Supplemental
     Security Income redeterminations, and the Cooperative Disability Investigations
     program, save billions of program dollars with a proportionally small investment
     of administrative resources.
   Start_Date: 10/2024
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app1]Automation, [app2]Behavioral/Psych Influence,
-    [app3]Training, [app4]Change Process, [app5]Cross Enterprise Sharing, [app6]Audit,
-    [app7]Predictive Analytics'
-  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych Influence,
-    [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing, [atp6]Audit,
-    [atp7]Predictive Analytics'
+  Underpayment_Mitigations_Planned: Audit, Automation, Behavioral/Psych Influence,
+    Change Process, Cross Enterprise Sharing, Predictive Analytics, Training
+  Underpayment_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence, Change
+    Process, Cross Enterprise Sharing, Predictive Analytics, Training
   Unknown_Payments_Rate: 0
   Year: 2026
   detail_IP_Causes: 'Improper payments within the agency’s control are caused by our

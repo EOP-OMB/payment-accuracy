@@ -1137,8 +1137,8 @@ Data_By_Year:
   Margin_of_Error: '3.122'
   Non_Monetary_Loss_Amount: '18.87'
   Outlays: 913.56
-  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app3]Training'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp6]Audit'
+  Overpayment_Combined_Mitigations_Planned: Automation, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Training
   Payment_Accuracy_Rate: 95.4507640439599
   Program_Additional_Information: The agency reviewed and refined FY 2026 testing
     criteria so that payments are evaluated solely against statute and regulation,
@@ -1158,8 +1158,8 @@ Data_By_Year:
     necessary to maintain and further reduce improper payments without requiring new
     or expanded budget authority.
   Start_Date: 10/2024
-  Technical_IP_Actions_Planned: '[app1]Automation, [app3]Training'
-  Technical_IP_Actions_Taken: '[atp3]Training, [atp6]Audit'
+  Technical_IP_Actions_Planned: Automation, Training
+  Technical_IP_Actions_Taken: Audit, Training
   Technical_IP_Amount: '18.87'
   Unknown_Payments_Rate: 0
   Year: 2026

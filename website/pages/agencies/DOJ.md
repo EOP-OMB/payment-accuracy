@@ -23,8 +23,8 @@ Improper_Payments_Rate_Min: 0
 Improper_Payments_Rates: '[]'
 Is_Placeholder: false
 Overpayment_Amounts: '[]'
-Overpayment_Amounts_Identified: '[13.89, 9.1, 10.53, 4.47, 11.53]'
-Overpayment_Amounts_Recovered: '[7.24, 9.83, 10.01, 4.25, 8.39]'
+Overpayment_Amounts_Identified: '[13.89, 9.1, 10.53, 4.47, 13.22]'
+Overpayment_Amounts_Recovered: '[7.24, 9.83, 10.01, 4.25, 8.3935]'
 Overpayment_Years: '[2022, 2023, 2024, 2025, 2026]'
 PIIA2019_Compliant_Programs:
 - Compliant_1A: true
@@ -146,38 +146,55 @@ detail_Additional_IP_Information: The Department performs an annual assessment o
   affirms this risk assessment is critical for ensuring the improper payment program
   is managed (i.e., improper payments identified and recovery activities implemented)
   effectively on an ongoing basis across the Department.
-detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '0.32'
+detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '0'
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: Our agency actively utilizes the Do Not Pay (DNP) Working System
-  through weekly Continuous Monitoring submissions, which include a list of our active
-  vendors across vendor types such as Commercial (COM) and Non-Vendor (NON). At this
-  time, we are checking against the Death Master File (DMF) source and are submitting
-  files for all DOJ components except. Through this process, we have flagged 419 address
-  codes on vendor records in our system as “Do Not Pay,” preventing potential improper
-  payments. As a result, our use of DNP has strengthened internal controls and contributed
-  to reducing improper payments and improving overall payment integrity.
+detail_DNP_Discussion: "Our agency actively utilizes the Do Not Pay (DNP) Working\
+  \ System through weekly Continuous Monitoring submissions of active vendor records\
+  \ across multiple vendor types, including Commercial (COM), Non-Vendor (NON), DOJ\
+  \ Entity (DOJ), Employee (EMP), Federal (FED), Foreign Government (FOR), Non-Agency\
+  \ Personnel (NAP), and State and Local Government (SLG), covering all DOJ components\
+  \ except Federal Prison Industries (FPI), also known as UNICOR. \nThese submissions\
+  \ are screened against American InfoSource Obituary & Probate (AIS-OBIT, AIS-PROB),\
+  \ Office of Foreign Assets Control (OFAC), Death Master File (DMF), Department of\
+  \ Defense Death Data (DOD), and Department of State Death Data (DOS). \n\nThrough\
+  \ Continuous Monitoring alone, DOJ has flagged 1,236 address codes on vendor records\
+  \ in our financial system as “Do Not Pay,” helping prevent potentially improper\
+  \ payments; separately, DOJ is live with DNP Payment Verification, which includes\
+  \ Bank Account Verification and Taxpayer Identification Number (TIN) screening,\
+  \ both of which reject payments that fail verification. Collectively, these preventive\
+  \ controls strengthen payment integrity by identifying potentially ineligible vendors\
+  \ and rejecting payments that do not meet verification requirements, thereby reducing\
+  \ the risk of improper payments and awards."
 detail_DNP_Frequency_Identify: Monthly
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: DOJ noted that amounts recaptured through recovery audits
-  were used for their original purpose or returned to the original account. Improper
-  payment amounts that were not identified through recovery audits were also returned
-  to their original use or the original account.
-detail_Executive_Summary: The Department of Justice (DOJ) does not currently have
-  any programs with annual outlays over $10M; therefore, under the Payment Integrity
-  Information Act of 2019 (PIIA), DOJ does not have any programs that are susceptible
-  to significant improper payments. The Department operates a Payment Recapture Audit
-  Program, in accordance with OMB A-123 Appendix C and PIIA, which includes execution
-  of an annual improper payment risk assessment to determine susceptibility to improper
-  payments and performing payment recapture and recovery activities on an annual basis.
+  were used for their original purpose. Improper payment amounts that were not identified
+  through recovery audits were also returned to their original use or returned to
+  Department of Treasury.
+detail_Executive_Summary: The Department of Justice (DOJ) maintains payment integrity
+  through its improper payment assessment activities and payment recapture process
+  in accordance with OMB Circular A-123 Appendix C and Payment Integrity Information
+  Act of 2019 (PIIA). This includes execution of an annual risk assessment to determine
+  susceptibility to improper payments, quarterly payment recapture reporting, and
+  payment recovery activities and audits. Each year, all DOJ components perform an
+  annual improper payment risk assessment for their respective programs. The FY 2026
+  risk assessment results indicated a low level of risk of programs considered susceptible
+  to improper payments. Based on quantitative analysis, DOJ does not currently have
+  any programs with annual outlays over $10M; therefore, under the PIIA, DOJ does
+  not have any programs that are susceptible to significant improper payments. The
+  most recent OIG PIIA annual compliance review found that the DOJ is in compliance
+  with PIIA.
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: The Department has used all of the methods
   identified in the prior questions, as well as other methods, to recover overpayments
   identified through recovery audit activities. This includes the U.S. Department
   of Treasury's reclamation process, mailed notice/letter, electronic notice/letter,
-  legal/judgement collection, contract suspension, and in-person collection. The Department
-  identified very few overpayments through recovery audits. These overpayments were
-  attributed to goods/services not received, incorrect vendor invoice amounts, and
-  admin or process errors by the Department or other party.
+  legal/judgement collection, contract suspension, and in-person collection. While
+  these are performed for most programs, the Department did not identify any overpayments
+  through recovery audits in FY 2026. However, the Department recaptured very few
+  overpayments that were previously identified through recovery audits. These overpayments
+  were attributed to admin or process errors by the Department or other party.
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
 detail_Recovery_Audits_Skipped: 'Yes'
@@ -186,14 +203,11 @@ detail_Recovery_Not_Cost_Effective_Justification: null
 detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/DOJ.html
-recovery_Aging_of_Outstanding_OP_Identified_Amt_0_-_6_months: 0.01
-recovery_Aging_of_Outstanding_OP_Identified_Amt_6_months_to_1_year: 0.31
-recovery_Aging_of_Outstanding_OP_Identified_determined_not_collectable: 0.0
-recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 11.2
-recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 0.33
-recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 8.38
-recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.01
-recovery_Recovery_Audit_Amount_Outstanding_Rate: 96.96969697
-recovery_Total_Overpayment_Amount_Identified: 11.53
-recovery_Total_Overpayment_Amount_Recovered: 8.39
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 13.22
+recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 0.0
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 8.39
+recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 0.0035
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
+recovery_Total_Overpayment_Amount_Identified: 13.22
+recovery_Total_Overpayment_Amount_Recovered: 8.3935
 ---

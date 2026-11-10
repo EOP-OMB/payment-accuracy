@@ -812,6 +812,7 @@ detail_Executive_Summary: "For over a decade, laws and regulations governing the
   \ Report on Actions to Recover Improper Payments Identified in a Recovery Audit\
   \ required as accompanying materials under 31 U.S.C. § 3352(e) incorporated by reference\
   \ in the Department AFR"
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: "The Department of State's Bureau of the\
   \ Comptroller and Global Financial Services (CGFS) provides financial management\
   \ services to the Department and other agencies. CGFS monitors improper payments\

@@ -3082,11 +3082,11 @@ Risks:
     Program_Name: FRA Railroad Development
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: FRA Railroad Research and Development
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: FRA Railroad Safety
@@ -3208,22 +3208,22 @@ Risks:
     Program_Name: FTA Passenger Ferry Program for Rural Communities
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: FTA Passenger Rail Investment and Improvement Projects for Washington
       Metropolitan Area Transit Authority
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: FTA Paul S. Sarbanes Transit in the Parks
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: FTA Public Transportation Emergency Relief Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: FTA Public Transportation Innovation (Section 5312)
@@ -3731,6 +3731,7 @@ detail_Executive_Summary: 'The Department of Transportation (DOT) prioritizes pa
   continue executing annual requirements, monitoring corrective actions, and reporting
   IP estimates for susceptible FHWA programs, demonstrating DOT''s ongoing commitment
   to strengthening our payment processing controls going forward.'
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: 'Federal personnel within DOT’s Payment
   Integrity Center performed the recovery audit, focusing on DOT payments made from
   April 2025 through March 2026. Administrative errors occurring within the payment
