@@ -19,11 +19,11 @@ Hide_Supplemental_Info: false
 Hide_Supplemental_Payment_Integrity: true
 Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
 Improper_Payments_Rate_Max: 1.0
-Improper_Payments_Rate_Min: 0.5
+Improper_Payments_Rate_Min: 0.6
 Improper_Payments_Rates: '[1.0434628271932271, 0.630077202582293, 0.906042402014076,
-  0.7068369465311627, 0.5255726675265068]'
+  0.7068369465311627, 0.586245606128994]'
 Is_Placeholder: false
-Overpayment_Amounts: '[368.054492, 471.884031, 541.65, 548.3000000000001, 90.61019999999999]'
+Overpayment_Amounts: '[368.054492, 471.884031, 541.65, 548.3000000000001, 83.66]'
 Overpayment_Amounts_Identified: '[459.91, 237.59, 427.74, 443.54, 226.37]'
 Overpayment_Amounts_Recovered: '[357.7, 215.28, 329.09, 430.79, 183.58]'
 Overpayment_Years: '[2022, 2023, 2024, 2025, 2026]'
@@ -1688,11 +1688,11 @@ PIIA2019_Compliant_Programs:
   Slug: ed-william-d-ford-federal-direct-loan-program
 PIIA2019_NonCompliant_Programs: []
 Payment_Accuracy_Amounts: '[170376.645617, 220154.362094, 182647.52000000002, 184385.65,
-  141347.46980000002]'
-Payment_Accuracy_Rate_Max: 99.5
+  125470.62999999999]'
+Payment_Accuracy_Rate_Max: 99.4
 Payment_Accuracy_Rate_Min: 91.6
 Payment_Accuracy_Rates: '[91.55343335466112, 99.36850101873827, 99.08475151496214,
-  99.28814979633844, 99.46223973552071]'
+  99.28814979633844, 99.4075350168751]'
 Risks:
   AdditionalInformation: null
   Assessments:
@@ -1941,7 +1941,7 @@ Risks:
     Program_Name: Helen Keller National Center for Youths and Adults Who Are Deaf-Blind
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Higher Education Institutional Aid
     Slug: null
@@ -1977,7 +1977,7 @@ Risks:
       (STEP) and Native American Language (NAL)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service
       Community Schools; and Congressionally Directed Spending for Elementary and
@@ -2350,11 +2350,11 @@ Risks:
   SubstantialChangesMade: 'No'
 Technically_Improper_Amounts: '[1408.98, 667.3199999999999, 850.59, 746.71, 635.36]'
 Underpayment_Amounts: '[164.800891, 256.753875, 277.90999999999997, 17.64, 20.93]'
-Unknown_Amounts: '[13776.829, 3.15, 16.97, 9.31, 17.32]'
+Unknown_Amounts: '[13776.829, 3.15, 16.97, 9.31, 7.85]'
 Unknown_Payments_Rate_Max: 7.4
 Unknown_Payments_Rate_Min: 0.0
 Unknown_Payments_Rates: '[7.4031038181456585, 0.0014217786794312, 0.009206083023787606,
-  0.005013257130389003, 0.012187596952791147]'
+  0.005013257130389003, 0.006219376995895132]'
 Years_Available:
 - 2026
 - 2025
@@ -2385,92 +2385,73 @@ detail_DNP_Discussion: "During FY 2026, the Department strengthened its use of t
   \ eligibility concerns, investigate identified matches, and take appropriate action\
   \ based on the results of DNP screening and other payment integrity controls."
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
-detail_DNP_Reduced: 'Yes'
+detail_DNP_Reduced: 'No'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: 'The Department of Education maintains a comprehensive payment
-  integrity program to prevent, identify, and recover improper payments (IPs) and
-  unknown payments (UPs) and to comply with the Payment Integrity Information Act
-  of 2019 (PIIA) and OMB Circular A-123, Appendix C. During FY 2026, the Department
-  assessed payment integrity risks across its programs, estimated IP and UP rates
-  for four Phase 2 programs, implemented corrective actions addressing identified
-  root causes, strengthened the use of Treasury’s Do Not Pay services, and continued
-  recovery and oversight activities. The Department’s FY 2026 risk assessments did
-  not identify any additional programs requiring statistically valid IP and UP estimates.
-
-
-  The four programs for which the Department produced FY 2026 IP and UP estimates
-  were Federal Student Aid’s (FSA) Federal Pell Grant (Pell) and William D. Ford Federal
-  Direct Loan (Direct Loan) programs and two non-FSA programs: the Funds for the Improvement
-  of Education (FIE) and Higher Education Institutional Aid (HEIA). For payment integrity
-  reporting purposes, FIE includes Innovative Approaches to Literacy, Promise Neighborhoods,
-  Full-Service Community Schools, and Congressionally Directed Spending for Elementary
-  and Secondary Education Community Projects. The FY 2026 IP and UP rates were 0.35
-  percent for Pell, 0.70 percent for Direct Loan, 0.0002 percent for FIE, and 0.850
-  percent for HEIA.
-
-
-  The Pell IP and UP rate decreased from 1.07 percent in FY 2025 to 0.35 percent in
-  FY 2026. A significant factor in this reduction was implementation of authorities
-  provided by the Fostering Undergraduate Talent by Unlocking Resources for Education
-  (FUTURE) Act, which allows federal tax information used in determining student aid
-  eligibility to be obtained directly from the Internal Revenue Service. Direct receipt
-  and verification of this information substantially reduced errors associated with
-  income reported on the Free Application for Federal Student Aid (FAFSA), historically
-  a significant source of Pell improper payments. The Pell Grant rate also decreased
-  due to a decrease in improper payments identified through compliance audit data.
-  The Direct Loan IP and UP rate decreased, from 0.99 percent in FY 2025 to 0.70 percent
-  in FY 2026, primarily due to a decrease in improper payments identified through
-  compliance audit data.
-
-
-  In FY 2026, the principal causes of Pell Grant and Direct Loan IPs and UPs included
-  documentation or verification deficiencies, incorrect payment amounts, and student
-  withdrawal-related deficiencies. FSA continues to implement corrective actions addressing
-  causes within its control, including improvements associated with the FUTURE Act
-  and FAFSA Simplification Act. For errors associated with institutional administration
-  of Title IV funds, FSA continues to provide guidance, training, and oversight to
-  promote compliance with requirements for institutional eligibility, financial responsibility,
-  and administrative capability.
-
-
-  For the Department’s non-FSA Phase 2 programs, FY 2026 estimation and testing provided
-  additional information about payment risks and underlying causes. FIE and HEIA reported
-  IP and UP root causes included identified overpayments primarily attributable to
-  minor rounding differences, expenditure-data issues, and missing or incomplete payment
-  documentation. The Department evaluated identified errors and their causes and continues
-  to use the results of testing to inform corrective actions, program oversight, and
-  future payment integrity risk assessments for FIE and HEIA.
-
-
-  The Department also strengthened preventive and detective controls during FY 2026.
-  The Department expanded its use of the Department of the Treasury’s Do Not Pay (DNP)
-  services, executed an agreement with Treasury supporting expanded DNP services,
-  and continued monthly reviews against applicable DNP data sources. Treasury Type
-  B Taxpayer Identification Number testing began on June 29, 2026, with the return
-  of testing results scheduled to begin September 30, 2026. The Department also continued
-  to monitor payment and grant activity for indicators of potential payment integrity
-  risk, including excessive drawdowns and other grantee cash-management issues, and
-  provided technical assistance and oversight where appropriate.
-
-
-  The Department continues to identify and recover confirmed improper payments through
-  established recovery mechanisms. Although the Department determined that payment
-  recapture audits would not be cost-effective for its programs and activities, it
-  recovers amounts identified through compliance audits, Office of Inspector General
-  audits, program reviews, grant fund returns, and other oversight activities. When
-  an improper payment is confirmed and determined to be collectible, the Department
-  establishes an account receivable and pursues recovery in accordance with applicable
-  requirements. In limited circumstances, the Department may determine that collection
-  is not in the federal government’s best interest.
-
-
-  Overall, the Department’s FY 2026 payment integrity activities continued to emphasize
-  prevention, risk-based oversight, corrective action, and recovery. Results from
-  risk assessments, statistical estimates, DNP screening, audits, program reviews,
-  and other monitoring activities are used collectively to identify emerging risks,
-  strengthen controls, and support continued compliance with PIIA and OMB Circular
-  A-123, Appendix C.'
+detail_Executive_Summary: "The Department of Education maintains a comprehensive payment\
+  \ integrity program to prevent, identify, and recover improper payments (IPs) and\
+  \ unknown payments (UPs) in accordance with the Payment Integrity Information Act\
+  \ of 2019 (PIIA) and OMB Circular A-123, Appendix C. During FY 2026, the Department\
+  \ assessed payment integrity risks across its programs, estimated IP and UP rates\
+  \ for two Phase 2 programs, implemented corrective actions addressing identified\
+  \ root causes, strengthened the use of Treasury’s Do Not Pay services, and continued\
+  \ recovery and oversight activities. The FY 2026 risk assessments did not identify\
+  \ any additional programs requiring statistically valid IP and UP estimates. Additionally,\
+  \ the Department was found to be compliant with applicable payment integrity requirements\
+  \ in its most recent Office of Inspector General (OIG) audit. \n\nThe Department\
+  \ produced FY 2026 IP and UP estimates for two Federal Student Aid (FSA) programs:\
+  \ the Federal Pell Grant (Pell) Program and the William D. Ford Federal Direct Loan\
+  \ (Direct Loan) Program. The combined FY 2026 IP and UP rates were 0.35 percent\
+  \ for Pell, and 0.70 percent for Direct Loan, representing decreases from FY 2025\
+  \ rates of 1.07 percent and 0.99 percent, respectively. \n\nThe reduction in Pell's\
+  \ IP and UP rate was attributable in significant part to implementation of authorities\
+  \ provided under the Fostering Undergraduate Talent by Unlocking Resources for Education\
+  \ (FUTURE) Act, which enables federal tax information used to determine student\
+  \ aid eligibility to be obtained directly from the Internal Revenue Service. Direct\
+  \ access to this information reduced errors associated with income reported on the\
+  \ Free Application for Federal Student Aid (FAFSA), historically a significant source\
+  \ of Pell improper payments. A decrease in improper payments identified through\
+  \ compliance audit data also contributed to the lower Pell rate. Similarly, the\
+  \ reduction in the Direct Loan rate was primarily attributable to fewer improper\
+  \ payments identified through compliance audit data. \n\nThe principal causes of\
+  \ IPs and UPs identified for Pell and Direct Loan during FY 2026 included documentation\
+  \ and verification deficiencies, incorrect payment timing or amounts, and student\
+  \ withdrawal-related deficiencies. FSA continued implementing corrective actions\
+  \ addressing causes within its control, including improvements associated with the\
+  \ FUTURE Act and FAFSA Simplification Act. For errors arising from institutional\
+  \ administration of Title IV funds, FSA continued providing guidance, training,\
+  \ and oversight to promote compliance with institutional eligibility, financial\
+  \ responsibility, and administrative capability requirements. \n\nThe Department\
+  \ also strengthened preventive and detective controls during FY 2026 through expanded\
+  \ use of Treasury's DNP services. These efforts included executing an agreement\
+  \ with Treasury to support additional DNP capabilities and continuing monthly reviews\
+  \ against applicable DNP data sources. Treasury Type B Taxpayer Identification Number\
+  \ testing began on June 29, 2026, with testing results scheduled to begin September\
+  \ 30, 2026. The Department also monitored payment and grant activity for indicators\
+  \ of potential payment integrity risks, including excessive drawdowns and grantee\
+  \ cash-management issues, and provided technical assistance and oversight as appropriate.\
+  \ \n\nIn accordance with OMB Circular A-123, Appendix C, the Department assesses\
+  \ improper payment risks at least once every three years for programs and activities\
+  \ with annual outlays exceeding $10 million that do not report improper payment\
+  \ estimates. For FY 2026, the assessment review period covered October 1, 2024,\
+  \ through September 30, 2025. The Department completed risk assessments for 19 non-FSA\
+  \ grant programs, three administrative activities, and six FSA-managed programs.\
+  \ None were newly identified as susceptible to significant improper payments requiring\
+  \ statistically valid estimates. \n\nThe Department continued identifying and recovering\
+  \ confirmed improper payments through established recovery mechanisms. Although\
+  \ payment recapture audits were determined not to be cost-effective for the Department's\
+  \ programs and activities, recoveries continued through compliance audits, OIG audits,\
+  \ program reviews, grant fund returns, and other oversight activities. When an improper\
+  \ payment was confirmed and determined collectible, the Department established an\
+  \ account receivable and pursued recovery in accordance with applicable requirements.\
+  \ In limited circumstances, the Department may determine that collection is not\
+  \ in the federal government's best interest. \n\nOverall, the Department's FY 2026\
+  \ payment integrity efforts emphasized prevention, risk-based oversight, corrective\
+  \ action, and recovery. Information obtained through risk assessments, statistical\
+  \ estimates, DNP screening, audits, program reviews, and ongoing monitoring informed\
+  \ efforts to identify emerging risks, strengthen internal controls, and support\
+  \ continued compliance with PIIA and OMB Circular A-123, Appendix C."
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

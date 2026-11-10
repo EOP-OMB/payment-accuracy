@@ -56,8 +56,8 @@ Data_By_Year:
   Margin_of_Error: '0.36'
   Non_Monetary_Loss_Amount: '0'
   Outlays: 414.85
-  Overpayment_Combined_Mitigations_Planned: '[app6]Audit'
-  Overpayment_Combined_Mitigations_Taken: '[atp4]Change Process, [atp6]Audit'
+  Overpayment_Combined_Mitigations_Planned: Audit
+  Overpayment_Combined_Mitigations_Taken: Audit, Change Process
   Payment_Accuracy_Rate: 99.87465348921297
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: The STCNRP team did not identify additional resources

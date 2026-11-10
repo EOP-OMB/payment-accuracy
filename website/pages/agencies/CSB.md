@@ -71,6 +71,7 @@ detail_Executive_Summary: The CSB has not identified any significant risk regard
   the IBC’s staff regularly to discuss any payroll-related and other matters that
   must be addressed to ensure that the agency is operating in full compliance with
   federal regulations and that the agency is reporting accurate data.
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: 'A Purchase Card holder was erroneously
   charged sales tax in the amount of $57.45 for a purchase made in June. The Government
   Purchase Card holder contacted the vendor, and the vendor credited the full amount

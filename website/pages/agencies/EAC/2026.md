@@ -133,6 +133,7 @@ detail_Executive_Summary: 'The EAC maintains payment integrity through internal 
   completed in FY 2026 and the agency''s financial service provider, Bureau of Fiscal
   Service conducts annual audits to monitor in off-cycle years. EAC continues to monitor
   payments and refine oversight procedures to ensure transparency and accountability.'
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: EAC conducts post-payment reviews rather
   than a formal recovery audit program. Reviews include closeout reconciliation of
   final financial reports and agency payment records, monthly duplicate payment checks,

@@ -5933,6 +5933,26 @@ detail_Executive_Summary: "Each year, bureaus and offices (hereafter referred to
   \ IRS can remediate internally but are factors beyond the Agency’s control under\
   \ current law and existing authority.  Without significant legislative action and\
   \ restructuring, meeting a target compliance date is a significant challenge."
+detail_OIG_Recommendations: "Treasury was not compliant with PIIA in FY 2025 because\
+  \ the IRS did not report improper payment rates below the statutory 10 percent threshold\
+  \ for the Earned Income Tax Credit (EITC), Additional Child Tax Credit (ACTC), American\
+  \ Opportunity Tax Credit (AOTC), and refundable Premium Assistance Tax Credit. TIGTA\
+  \ also found that the IRS did not demonstrate sufficient improvement in payment\
+  \ integrity for these programs. The OIG and/or TIGTA did not provide any recommendations\
+  \ regarding these non-compliant criteria. \n\nTo improve payment integrity, the\
+  \ IRS continues to focus on taxpayer and return preparer education, data analytics,\
+  \ and targeted compliance activities. In FY 2026, the IRS targeted 29,256 return\
+  \ preparers who prepared noncompliant returns, nearly 16 percent more than in FY\
+  \ 2025, and expanded education through webinars that reached thousands of tax professionals.\
+  \ The IRS and its partners also conducted more than 7,000 EITC Awareness Day events\
+  \ and outreach activities, while the Form 886-H EITC Toolkit was accessed nearly\
+  \ 15,000 times through June 2026. Through the third quarter of FY 2026, the IRS\
+  \ completed examinations of nearly 69,000 returns claiming EITC, ACTC, or AOTC and\
+  \ imposed nearly 500 two- and 10-year bans for reckless, intentional, or fraudulent\
+  \ claims. While the IRS continues to strengthen its compliance strategy, administrative\
+  \ actions are insufficient to reduce improper payment rates below the statutory\
+  \ threshold. Without significant legislative changes and program restructuring,\
+  \ meeting the statutory improper payment target will remain a significant challenge."
 detail_Overpayment_Conditions_And_Methods: "Many of Treasury's overpayments are payroll\
   \ related. These overpayments include issues such as corrected timecards, Federal\
   \ Employees Group Life Insurance corrections, duplicate cash awards, etc. These\

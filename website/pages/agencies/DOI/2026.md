@@ -7710,11 +7710,11 @@ Risks:
     Program_Name: Assistance to State Water Resources Research Institutes
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Assistance to Territories, Insular Affairs, Interior
     Slug: null
-    Susceptible: 'No'
+    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Assistance to Tribally Controlled Community Colleges and Universities
@@ -7787,11 +7787,11 @@ Risks:
     Program_Name: COMPACTS OF FREE ASSOCIATION
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: California Bay-Delta Restoration, Bureau of Reclamation, Interior
     Slug: null
-    Susceptible: 'No'
+    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: California Refuge Account
@@ -8185,12 +8185,12 @@ Risks:
       of Indian Affairs
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Departmental Operations, Office of the Secretary, Interior, Bureau
       of Land Management
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Departmental Operations, Office of the Secretary, Interior, Bureau
@@ -8221,12 +8221,12 @@ Risks:
       OF SURFACE MINING, RECLAMATION AND ENFORCEMENT
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Departmental Operations, Office of the Secretary, Interior, US Fish
       and Wildlife Service
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Departmental Operations, Office of the Secretary, Interior, US Geological
@@ -8365,18 +8365,18 @@ Risks:
       Interior, Bureau of Indian Affairs
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Energy Community Revitalization Program, Department-Wide Programs,
       Interior, Bureau of Land Management
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Energy Community Revitalization Program, Department-Wide Programs,
       Interior, Bureau of Safety and Environmental Enforcement
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Energy Community Revitalization Program, Department-Wide Programs,
@@ -8431,11 +8431,11 @@ Risks:
     Program_Name: Experienced Services Program, Bureau of Ocean Energy Management
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Experienced Services Program, Bureau of Reclamation
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Experienced Services Program, Fish and Wildlife Service
@@ -8786,11 +8786,11 @@ Risks:
     Program_Name: Indian Education Higher Education Grant
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Indian Employment Assistance
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Indian Graduate Student Scholarships
@@ -9285,12 +9285,12 @@ Risks:
     Program_Name: National Wildlife Refuge System Enhancements
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2026'
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: National Wildlife Refuge System Enhancements, Energy Community Revitalization
       Program, Department-Wide Programs, Interior
     Slug: null
-    Susceptible: 'No'
+    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: National and Regional Climate Adaptation Science Centers
@@ -10083,12 +10083,12 @@ Risks:
     Program_Name: Sport Fish Restoration
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Sport Fish Restoration Account, United States Fish and Wildlife
       Service
     Slug: null
-    Susceptible: 'No'
+    Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Sportfishing and Boating Safety Act
@@ -10475,12 +10475,12 @@ Risks:
       of Land Management, Interior
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Wildland Fire Management, Department-Wide Programs, Interior, National
       Park Service, Interior
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Wildland Fire Management, Department-Wide Programs, Interior, U.S.
@@ -10502,11 +10502,11 @@ Risks:
     Program_Name: Working Capital Fund, Bureau of Land Management
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Working Capital Fund, Bureau of Reclamation
     Slug: null
-    Susceptible: 'No'
+    Susceptible: null
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Working Capital Fund, Departmental Management
@@ -10676,6 +10676,7 @@ detail_Executive_Summary: 'On March 2, 2020, the Payment Integrity Information A
   regarding DOI’s PIIA and Appendix C payment integrity reporting and compliance activities—including
   Phase 1 Risk Assessments and prior‑year Phase 2 Testing results—is available on
   PaymentAccuracy.gov.'
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

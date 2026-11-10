@@ -695,8 +695,8 @@ Data_By_Year:
     there was a change in income. Until due process is complete, VA cannot make a
     final determination and the payment must be classified as unknown. Payments must
     also continue unchanged until the 60-day due process period concludes.
-  Unknown_Mitigations_Planned: Audit,Automation,Training
-  Unknown_Mitigations_Taken: Audit,Automation
+  Unknown_Mitigations_Planned: Audit, Automation, Training
+  Unknown_Mitigations_Taken: Audit, Automation
   Unknown_Payments_Rate: 3.060970950565466
   Unknown_Why: If a benefit payment is identified as a potential overpayment and has
     yet to enter due process or is currently in due process, a determination of whether
@@ -914,8 +914,8 @@ Data_By_Year:
   Technical_IP_Amount: '0.0'
   Underpayment_Mitigations_Planned: Audit, Automation, Training
   Underpayment_Mitigations_Taken: Audit, Automation, Training
-  Unknown_Mitigations_Planned: Audit,Automation,Training
-  Unknown_Mitigations_Taken: Audit,Automation,Training
+  Unknown_Mitigations_Planned: Audit, Automation, Training
+  Unknown_Mitigations_Taken: Audit, Automation, Training
   Unknown_Payments_Rate: 1.2315874576395325
   Year: 2025
   detail_IP_Causes: 'VA overpayments are within the agency''s control and occured
@@ -1193,8 +1193,8 @@ Data_By_Year:
   Margin_of_Error: '2.54'
   Non_Monetary_Loss_Amount: '11.16'
   Outlays: 3208.87
-  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app3]Training, [app6]Audit'
-  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp3]Training, [atp6]Audit'
+  Overpayment_Combined_Mitigations_Planned: Audit, Automation, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Automation, Training
   Payment_Accuracy_Rate: 91.70611461355556
   Program_Additional_Information: "The Pension program continues to prioritize and\
     \ implement corrective actions and mitigation strategies that reduce improper\
@@ -1217,10 +1217,10 @@ Data_By_Year:
     actions.
   Start_Date: 10/2024
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app1]Automation, [app3]Training, [app6]Audit'
-  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp3]Training, [atp6]Audit'
-  Unknown_Mitigations_Planned: '[app1]Automation,[app3]Training,[app6]Audit'
-  Unknown_Mitigations_Taken: '[atp1]Automation,[atp3]Training,[atp6]Audit'
+  Underpayment_Mitigations_Planned: Audit, Automation, Training
+  Underpayment_Mitigations_Taken: Audit, Automation, Training
+  Unknown_Mitigations_Planned: Automation, Training, Audit
+  Unknown_Mitigations_Taken: Automation, Training, Audit
   Unknown_Payments_Rate: 1.4375777142732489
   Year: 2026
   detail_IP_Causes: "Overpayments occurred when the program did not access data/information\

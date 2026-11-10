@@ -766,8 +766,8 @@ Data_By_Year:
   Margin_of_Error: '2.5'
   Non_Monetary_Loss_Amount: '271.69'
   Outlays: 20704.44
-  Overpayment_Combined_Mitigations_Planned: '[app6]Audit'
-  Overpayment_Combined_Mitigations_Taken: '[atp4]Change Process'
+  Overpayment_Combined_Mitigations_Planned: Audit
+  Overpayment_Combined_Mitigations_Taken: Change Process
   Payment_Accuracy_Rate: 94.38970578291419
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: The Working Families Tax Cut Act provided additional
@@ -776,8 +776,8 @@ Data_By_Year:
     need for additional resources.
   Start_Date: 07/2023
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app6]Audit'
-  Underpayment_Mitigations_Taken: '[atp4]Change Process'
+  Underpayment_Mitigations_Planned: Audit
+  Underpayment_Mitigations_Taken: Change Process
   Unknown_Payments_Rate: 0
   Year: 2026
   detail_IP_Causes: "A significant root cause of RMA’s reported improper payments\

@@ -464,87 +464,21 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
-- Agency_Needs_Satisfied: placeholder
-  Confidence_Level: 95% to <100%
-  Corrective_Actions_Adequacy_Association_Implementation: placeholder
-  Corrective_Actions_Appropriateness: placeholder
-  Corrective_Actions_Proportion: placeholder
-  End_Date: 09/2025
-  Hide_Improper_Payment_Estimates_Doughnut_Chart: false
-  Hide_Improper_Payment_Estimates_Doughnut_Stats: false
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Outside_Data_Needed_Does_Not_Exist_2: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data: true
-  Hide_Overpayments_Outside_Failure_to_Access_Data_2: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data: true
-  Hide_Overpayments_Outside_Inability_to_Access_Data_2: true
-  Hide_Overpayments_Within_Data_Needed_Does_Not_Exist: true
-  Hide_Overpayments_Within_Failure_to_Access_Data: true
-  Hide_Overpayments_Within_Inability_to_Access_Data: true
-  Hide_Program_Results_Additional_Information: false
-  Hide_Program_Results_Corrective_Actions: false
-  Hide_Program_Results_Future_Outlook: false
-  Hide_Program_Results_Future_Outlook_Baseline: true
-  Hide_Program_Results_Future_Outlook_Baseline_Table: true
-  Hide_Program_Results_Future_Outlook_Explanation: false
-  Hide_Program_Results_Future_Outlook_Needs: false
-  Hide_Program_Results_Improper_Payments: false
-  Hide_Program_Results_Tabs: false
-  Hide_Program_Results_Unknown_Payments: false
-  Hide_Underpayments_Data_Needed_Does_Not_Exist: true
-  Hide_Underpayments_Failure_to_Access_Data: true
-  Hide_Underpayments_Inability_to_Access_Data: true
-  IP_Accountability_Description: placeholder
-  IP_Unknown_Target_Rate: 0
-  Improper_Payments_Rate: 0.035860329
-  Insufficient_Documentation_to_Determine: 0.0
-  Margin_of_Error: '0.07'
-  Non_Monetary_Loss_Amount: '0'
-  Outlays: 14110.3
-  Overpayment_Combined_Mitigations_Planned: '[app3]Training'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training'
-  Payment_Accuracy_Rate: 99.96413967102046
-  Program_Design_or_Structural_Issue: 0.0
-  Resources_Requested_For_IP: placeholder
-  Start_Date: 10/2024
-  Technical_IP_Amount: '0.0'
-  Unknown_Payments_Rate: 0
-  Year: 2026
-  detail_IP_Causes: placeholder
-  detail_No_Estimates_Why: null
-  detail_Overpayments_Due_To_Data_DNE: '5.06'
-  detail_Overpayments_Due_To_Failure: '0.0'
-  detail_Overpayments_Due_To_Inability: '0.0'
-  detail_Reduction_Target: '0.0'
-  eligibility_aggregated:
-  - Theme: Financial
-    Theme_Description: The financial position or status of a beneficiary, recipient,
-      or their family
-  overpayments:
-    Data_Needed_Does_Not_Exist: 5.06
-    Failure_to_Access_Data: 0.0
-    Inability_to_Access_Data: 0.0
-    Overpayments_Within_Control_Amount: '0.0'
-  overpayments_outside:
-    Overpayments_Outside_Control_Amount: '5.06'
-  underpayments:
-    Underpayments_Amount: '0.0'
 Description: null
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
 High_Priority_Program: 0
-Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
-Overpayment_Amounts: '[0.00117, 0.136454, 0.1, 2.36, 5.06]'
-Payment_Accuracy_Amounts: '[43324.12883, 79713.769735, 64650.520000000004, 55567.909999999996,
-  14105.24]'
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[0.00117, 0.136454, 0.1, 2.36]'
+Payment_Accuracy_Amounts: '[43324.12883, 79713.769735, 64650.520000000004, 55567.909999999996]'
 Phase_2_Program: 0
 Program_Name: Education Stabilization Fund
 Scorecard_Links: []
-Technically_Improper_Amounts: '[15.04, 0, 0, 0, 0]'
-Underpayment_Amounts: '[0, 0.003811, 0, 0, 0]'
-Unknown_Amounts: '[5941.38, 0, 0, 0, 0]'
+Technically_Improper_Amounts: '[15.04, 0, 0, 0]'
+Underpayment_Amounts: '[0, 0.003811, 0, 0]'
+Unknown_Amounts: '[5941.38, 0, 0, 0]'
 fpi_link: https://fpi.omb.gov/program/84.425
 layout: program-specific
 permalink: program/ed-education-stabilization-fund

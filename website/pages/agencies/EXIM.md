@@ -138,7 +138,7 @@ detail_Disposition_of_Funds: null
 detail_Executive_Summary: "The Payment Integrity Information Act of 2019 (PIIA) requires\
   \ agencies to review and assess all programs and activities they administer and\
   \ identify those determined to be susceptible to significant improper payments.\
-  \ \n\nOMB requires that agencies assess all programs with annual outlays greater\
+  \ \n\nPIIA requires that agencies assess all programs with annual outlays greater\
   \ than $10.0 million for improper payment risk at least once every three years.\
   \ EXIM complies with PIIA and OMB requirements through the activities of its Payment\
   \ Integrity program, which comprises four separate programs: short-term authorizations,\
@@ -148,7 +148,7 @@ detail_Executive_Summary: "The Payment Integrity Information Act of 2019 (PIIA) 
   \ significant legislative changes and/or significant increases in funding that would\
   \ warrant an off-cycle risk assessment to determine if the program is at risk for\
   \ making significant improper payments, at or above the threshold levels set by\
-  \ OMB. In FY 2026, EXIM conducted a comprehensive risk assessment of all four programs\
+  \ PIIA. In FY 2026, EXIM conducted a comprehensive risk assessment of all four programs\
   \ and determined that none of its programs were risk-susceptible for making significant\
   \ improper payments in the preceding fiscal year.  Throughout FYs 2025 and 2026,\
   \ EXIM remained compliant with PIIA and applicable OMB guidance, including Circular\
@@ -157,14 +157,11 @@ detail_Executive_Summary: "The Payment Integrity Information Act of 2019 (PIIA) 
   \ May 29, 2026. In accordance with PIIA and OMB requirements, the next risk assessment\
   \ of all four programs will be performed in FY 2029.\n\nPIIA also requires Federal\
   \ agencies to report annually on their efforts according to guidance promulgated\
-  \ by OMB. Annually, EXIM submits data to OMB as part of the Annual Data Call. It\
-  \ is collected and published on www.paymentaccuracy.govwhich provides current and\
-  \ historical information about improper payments made under Federal programs, as\
-  \ well as extensive information about how improper payments are defined and tracked.\
-  \ For detailed results of EXIM’s compliance efforts under PIIA, to include recovery\
-  \ information and risk assessment results, please refer to the paymentaccuracy.gov.\
-  \ As part of the Annual Data Call, EXIM also submits the agency’s designated Payment\
-  \ Integrity Point of Contact to OMB, as required."
+  \ by OMB. Annually, EXIM publishes payment integrity data on www.paymentaccuracy.gov,\
+  \ which provides current and historical information about improper payments made\
+  \ under Federal programs, as well as extensive information about how improper payments\
+  \ are defined and tracked."
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null
@@ -172,7 +169,7 @@ detail_Recovery_Audits_Skipped: 'No'
 detail_Recovery_Justifications_Audits: null
 detail_Recovery_Not_Cost_Effective_Justification: EXIM reviewed all its programs and
   activities and determined that none are susceptible to significant improper payments
-  at or above the threshold levels established by OMB. Recovery audits would require
+  at or above the threshold levels established by PIIA. Recovery audits would require
   the agency to incur costs for contractors or other entities with specialized expertise,
   such as accounting professionals and fraud examiners, who use advanced tools and
   technologies to analyze payment records and supporting documentation. Therefore,

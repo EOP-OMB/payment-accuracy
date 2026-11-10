@@ -598,11 +598,11 @@ Data_By_Year:
     training planned based on the findings identified through PIIA reviews. OFPO provides
     feedback to lenders and employees, obtains additional documentation from lenders
     when necessary, and will recapture funds when improper payments are confirmed.
-    Significant lender-level deficiencies—based on severity or recurring patterns—are
-    shared with the Office of Credit Risk Management (OCRM) for consideration in its
-    risk-based review process and with the Office of Financial Assistance (OFA) to
-    support policy refinement. These corrective actions together ensure that the agency’s
-    response is proportional to the underlying root causes and supports measurable
+    Significant lender-level deficiencies, based on severity or recurring patterns,
+    are shared with the Office of Credit Risk Management (OCRM) for consideration
+    in its risk-based review process and with the Office of Financial Assistance (OFA)
+    to support policy refinement. These corrective actions together ensure that the
+    agency’s response is proportional to the underlying root causes and supports measurable
     reductions in Improper Payments and Unknown Payments.
   Corrective_Actions_Appropriateness: "QC provided feedback to the Lender/ CDCs involved\
     \ as well as to the 504 Loan approval center on all PIIA findings.   In addition,\
@@ -693,11 +693,11 @@ Data_By_Year:
     integrity functions and ensure compliance through the recoupment and closeout
     phase.
   Start_Date: 04/2025
-  Technical_IP_Actions_Planned: '[app3]Training'
-  Technical_IP_Actions_Taken: '[atp3]Training'
+  Technical_IP_Actions_Planned: Training
+  Technical_IP_Actions_Taken: Training
   Technical_IP_Amount: '164.35'
-  Unknown_Mitigations_Planned: '[app3]Training'
-  Unknown_Mitigations_Taken: '[atp3]Training'
+  Unknown_Mitigations_Planned: Training
+  Unknown_Mitigations_Taken: Training
   Unknown_Payments_Rate: 0.5208037447136835
   Year: 2026
   detail_IP_Causes: 'The predominant causes for 504 Loan Approval Improper Payments

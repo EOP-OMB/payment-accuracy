@@ -368,7 +368,7 @@ Data_By_Year:
     reabsorbed into DFAS. In order to conclude whether or not these payments are proper
     or improper, the Military Retirement will need to receive documentation from both
     the payee and the Branch of Service.
-  Unknown_Mitigations_Planned: Change Process,Training
+  Unknown_Mitigations_Planned: Change Process, Training
   Unknown_Mitigations_Taken: Training
   Unknown_Payments_Rate: 0.0390906354933502
   Unknown_Why: Out of 2,114 samples reviewed, the Military Retirement program had

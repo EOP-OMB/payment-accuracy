@@ -1069,10 +1069,8 @@ Data_By_Year:
   Margin_of_Error: '1.69'
   Non_Monetary_Loss_Amount: '0'
   Outlays: 34298.11
-  Overpayment_Combined_Mitigations_Planned: '[app4]Change Process, [app5]Cross Enterprise
-    Sharing'
-  Overpayment_Combined_Mitigations_Taken: '[atp4]Change Process, [atp5]Cross Enterprise
-    Sharing'
+  Overpayment_Combined_Mitigations_Planned: Change Process, Cross Enterprise Sharing
+  Overpayment_Combined_Mitigations_Taken: Change Process, Cross Enterprise Sharing
   Payment_Accuracy_Rate: 84.36001284035768
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: 'The IRS has requested targeted investments to support

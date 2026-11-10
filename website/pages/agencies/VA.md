@@ -1172,11 +1172,11 @@ Risks:
     Program_Name: Activities with Other Federal Agencies
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: All-Volunteer Force Educational Assistance
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Automobiles and Adaptive Equipment for Certain Disabled Veterans
@@ -1188,11 +1188,11 @@ Risks:
     Program_Name: Beneficiary Travel
     Slug: va-beneficiary-travel
     Susceptible: 'Yes'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Burial Expenses Allowance for Veterans
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: CHAMPVA
@@ -1308,12 +1308,12 @@ Risks:
     Program_Name: Montgomery GI Bill Selected Reserve
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Monthly Allowance for Children of Vietnam Veterans Born with Spina
       Bifida
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: National Cemeteries
@@ -1375,11 +1375,11 @@ Risks:
     Program_Name: Pharmacy (Medical Facilities)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Post-9/11 Veterans Educational Assistance
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Post-Vietnam Era Veterans' Educational Assistance
@@ -1441,11 +1441,11 @@ Risks:
     Program_Name: Station 101 Accounting
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Suicide Mortality Review Cooperative Agreements
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Supplies and Materials
@@ -1456,11 +1456,11 @@ Risks:
     Program_Name: Supply Fund
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Survivors and Dependents Educational Assistance
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Transportation of Things
@@ -1482,11 +1482,11 @@ Risks:
       Disabled Members of the Armed Forces
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: VA Homeless Providers Grant and Per Diem Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: VA Outer Burial Receptacle Allowance Program
@@ -1517,11 +1517,11 @@ Risks:
     Program_Name: Veteran Adoption Reimbursement
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Veteran Rapid Retraining Assistance Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Veteran Readiness and Employment
@@ -1875,6 +1875,7 @@ detail_Executive_Summary: "VA’s payment integrity is maintained by a strong ne
   \ to correct data entry errors related to claim not paid according to contract.\
   \ The program did not have any changes in mitigation strategies or corrective actions,\
   \ nor payment integrity methodologies, during this reporting period."
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: "VA utilizes various methods to identify\
   \ and recover overpayments. At VA, these audits are performed in two major areas:\
   \ Veterans Health Administration for three programs providing health care and Supply\

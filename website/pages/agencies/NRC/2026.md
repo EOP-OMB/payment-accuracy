@@ -252,50 +252,50 @@ detail_DNP_Frequency_Identify: My agency did not identify any incorrect informat
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: "In accordance with the PIIA, the NRC is required to complete\
-  \ risk assessments to determine whether any programs are susceptible to making significant\
-  \ improper payments. PIIA defines significant improper payments as annual improper\
-  \ payments exceeding both $10 million and 1.5 percent, or $100 million of total\
-  \ annual program payments. Intragovernmental transactions, accounts receivable adjustments,\
-  \ and general ledger system activities fall outside the scope of payment integrity\
-  \ tracking. The NRC’s programs are classified as Phase 1, confirming they are at\
-  \ low risk for significant improper payments. In its most recent compliance review,\
-  \ issued in May 2026, the NRC Office of the Inspector General concluded that NRC\
-  \ was in compliance with the PIIA for FY 2025 (OIG-NRC-26-A-02).\n\nEnacted during\
-  \ FY 2025, Executive Order (EO) 14247, “Modernizing Payments To and From America’s\
-  \ Bank Account,” and EO 14249, “Protecting America’s Bank Account Against Fraud,\
-  \ Waste, and Abuse,” established new government-wide financial protocols intended\
-  \ to modernize federal payments and reduce fraud. In response to these directives,\
-  \ the NRC aligned its internal compliance operations by expanding payment integrity\
-  \ tracking, bringing the total number of programs subject to routine monitoring\
-  \ to nine.\n\nThe NRC performed a triennial risk assessment as of September 30,\
-  \ 2026, in accordance with the PIIA. Management identified payroll, commercial payments,\
-  \ and the University Nuclear Leadership Program (UNLP) grant payments as potential\
-  \ areas to include in the PIIA triennial risk assessment. In FY 2026, the NRC reviewed\
-  \ FY 2025 disbursements of selected programs to determine the appropriate threshold\
-  \ for conducting a risk assessment and possible testing. For FY 2025, total payroll\
-  \ payments were $482.6 million; total commercial payments were $211.2 million; and\
-  \ total UNLP grants payments were $15 million.\n\nFor the programs selected for\
-  \ testing, as part of the qualitative and quantitative risk assessment, the NRC\
-  \ used professional judgment to select samples from each program under review, based\
-  \ on the universe of payments, which were reconciled to the general ledger. Because\
-  \ the NRC does not operate any programs classified as high-risk or Phase 2, full\
-  \ statistical improper payment testing was neither required nor conducted. The testing\
-  \ was further refined through the nature of the payment (i.e. contract payment,\
-  \ travel card, miscellaneous), dollar value, and identification of selected attributes\
-  \ for each program to determine whether the right recipient received the right payment\
-  \ amount for the right goods or services at the right time.\n\nThe FY 2026 triennial\
-  \ risk assessment did not identify any programs that were susceptible to making\
-  \ significant improper payments. Programs will remain in Phase 1. Although the assessment\
-  \ identified programs as low to very low risk, the NRC continues to monitor its\
-  \ payment processes and to conduct periodic reviews of key controls for PIIA programs\
-  \ identified by management.\n\nIn FY 2026, the NRC continued to fulfill the requirement\
-  \ of the OMB annual data call on payment integrity, which supports identifying,\
-  \ reporting, and reducing improper payments \nin federal programs. The applicable\
-  \ report may be accessed by navigating from the Resources page on PaymentAccuracy.gov\
-  \ to the Congressional Reports page and then selecting the relevant report from\
-  \ the dropdown list for the relevant agency and fiscal year: \nAnnual Risk Assessment\
-  \ Report required under 31 U.S.C. § 3352(a)(3)(C)\n"
+detail_Executive_Summary: "In accordance with the Payment Integrity Information Act\
+  \ of 2019 (PIIA), the NRC is required to complete risk assessments to determine\
+  \ whether any programs are susceptible to making significant improper payments.\
+  \ PIIA defines significant improper payments as annual improper payments exceeding\
+  \ both $10 million and 1.5 percent, or $100 million of total annual program payments.\
+  \ Intragovernmental transactions, accounts receivable adjustments, and general ledger\
+  \ system activities fall outside the scope of payment integrity tracking. The NRC's\
+  \ programs are classified as Phase 1, confirming they are at low risk for significant\
+  \ improper payments. In its most recent compliance review, issued in May 2026, the\
+  \ NRC Office of the Inspector General concluded that NRC was in compliance with\
+  \ the PIIA for FY 2025 (OIG-NRC-26-A-02).\nEnacted during FY 2025, Executive Order\
+  \ (EO) 14247, 'Modernizing Payments To and From America's Bank Account’, and EO\
+  \ 14249, 'Protecting America's Bank Account Against Fraud, Waste, and Abuse’, established\
+  \ new government-wide financial protocols intended to modernize federal payments\
+  \ and reduce fraud. In response to these directives, the NRC aligned its internal\
+  \ compliance operations by expanding payment integrity tracking, bringing the total\
+  \ number of programs subject to routine monitoring to nine.\nThe NRC performed a\
+  \ triennial risk assessment as of September 30, 2026, in accordance with the PIIA.\
+  \ Management identified payroll, commercial payments, and the University Nuclear\
+  \ Leadership Program (UNLP) grant payments as potential areas to include in the\
+  \ PIIA triennial risk assessment. In FY 2026, the NRC reviewed FY 2025 disbursements\
+  \ of selected programs to determine the appropriate threshold for conducting a risk\
+  \ assessment and possible testing. For FY 2025, total payroll payments were $482.6\
+  \ million; total commercial payments were $211.2 million; and total UNLP grants\
+  \ payments were $15 million.\nFor the programs selected for testing, as part of\
+  \ the qualitative and quantitative risk assessment, the NRC used professional judgment\
+  \ to select samples from each program under review, based on the universe of payments,\
+  \ which were reconciled to the general ledger. Because the NRC does not operate\
+  \ any programs classified as high-risk or Phase 2, full statistical improper payment\
+  \ testing was neither required nor conducted. The testing was further refined through\
+  \ the nature of the payment (i.e. contract payment, travel card, miscellaneous),\
+  \ dollar value, and identification of selected attributes for each program to determine\
+  \ whether the right recipient received the right payment amount for the right goods\
+  \ or services at the right time.\nThe FY 2026 triennial risk assessment did not\
+  \ identify any programs that were susceptible to making significant improper payments.\
+  \ Programs will remain in Phase 1. Although the assessment identified programs as\
+  \ low to very low risk, the NRC continues to monitor its payment processes and to\
+  \ conduct periodic reviews of key controls for PIIA programs identified by management.\n\
+  In FY 2026, the NRC continued to fulfill the Congressional reporting requirement\
+  \ required by PIIA. The applicable report may be accessed by navigating from the\
+  \ Resources page on PaymentAccuracy.gov to the Congressional Reports page and then\
+  \ selecting the relevant report from the dropdown list for the relevant agency and\
+  \ fiscal year: \nAnnual Risk Assessment Report required under 31 U.S.C. § 3352(a)(3)(C)\n"
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

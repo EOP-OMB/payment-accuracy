@@ -603,9 +603,9 @@ Data_By_Year:
     is identified, SBA contacts the borrower in an attempt to obtain outstanding or
     clarifying documentation needed to substantiate the original eligibility determination.
   Corrective_Actions_Appropriateness: 'The agency implemented a corrective action
-    in April 2026 that provided borrowers the option to either obtain Uniform Commerical
-    Code (UCC) filings on business contents independently or explictly authorize the
-    Agency to obtain those filings on their behalf. This change ensured compliance
+    in April 2026 that provided borrowers the option to either obtain Uniform Commercial
+    Code (UCC) filings on business contents independently or explicitly authorize
+    the Agency to obtain those filings on their behalf. This change ensured compliance
     with regulatory requirements governing fee authority while maintaining borrower
     flexibility and operational efficiency. The corrective action directly mitigated
     the identified root cause by eliminating unauthorized fee activity during the
@@ -630,7 +630,7 @@ Data_By_Year:
     \ to the associated risk. The agency is evaluating its current process and revising\
     \ governing documentation as a means to strengthen the Disaster Assistance Loan\
     \ Program, including its internal controls process, and clarify program requirements.\
-    \ \n\nThe Disaster Lending Operations Division (DLOD) utilzes the Unified Lending\
+    \ \n\nThe Disaster Lending Operations Division (DLOD) utilizes the Unified Lending\
     \ Platform (ULP) to streamline loan closings for disaster survivors and reduce\
     \ administrative burden. During implementation, it was identified that DLOD was\
     \ not authorized under 13 CFR 123.8 to charge certain fees related to the closing\
@@ -642,7 +642,7 @@ Data_By_Year:
     \ documentation accuracy. These actions directly address the identified root cause\
     \ and strengthen program oversight. Collectively, the updated SOP, enhanced training,\
     \ and revised closing procedures reduce the likelihood of future Improper Payments\
-    \ and Unknown Payments."
+    \ and Unknown Payments.\n"
   End_Date: 03/2026
   Hide_Improper_Payment_Estimates_Doughnut_Chart: false
   Hide_Improper_Payment_Estimates_Doughnut_Stats: false
@@ -673,15 +673,15 @@ Data_By_Year:
     \ payment rate and unknown payment rate reductions targets.\nSenior management\
     \ is responsible for implementing a Quality Control review process, as well as\
     \ ensuring the agency has both established and maintains a sufficient and appropriate\
-    \ control environment."
+    \ control environment.\n"
   IP_Unknown_Target_Rate: 0.0804
   Improper_Payments_Rate: 8.0355483826
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '27.29'
   Outlays: 1883.63
-  Overpayment_Combined_Mitigations_Planned: '[app3]Training'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp4]Change Process'
+  Overpayment_Combined_Mitigations_Planned: Training
+  Overpayment_Combined_Mitigations_Taken: Change Process, Training
   Payment_Accuracy_Rate: 91.96445161735585
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: In the most recent budget submission, the agency requested
@@ -694,8 +694,8 @@ Data_By_Year:
     functions and ensure compliance through the recoupment and closeout phase.
   Start_Date: 04/2025
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app3]Training'
-  Underpayment_Mitigations_Taken: '[atp3]Training, [atp4]Change Process'
+  Underpayment_Mitigations_Planned: Training
+  Underpayment_Mitigations_Taken: Change Process, Training
   Unknown_Payments_Rate: 0
   Year: 2026
   detail_IP_Causes: The prevalent causes of improper payments stemmed from fees charged

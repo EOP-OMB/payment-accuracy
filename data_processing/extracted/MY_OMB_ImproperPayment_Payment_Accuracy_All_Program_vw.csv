@@ -931,8 +931,8 @@ Agency,Program_Name,Fiscal_Year,Month_and_Year_start__date_for_data,Month_and_Ye
 "DHS","United States Secret Service - Training","2021",,,,,,,,,,,,,,,,,,,,,,,0
 "DHS","United States Secret Service - Training","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "DNFSB","Salaries and Expenses (Direct)","2022",,,,,,,,,,,,,,,,,,,,,,,0
-"DOC","Bureau of Industry and Security (BEA) - BEA","2021",,,,,,,,,,,,,,,,,,,,,,,0
-"DOC","Bureau of Industry and Security (BEA) - BEA","2022",,,,,,,,,,,,,,,,,,,,,,,0
+"DOC","Bureau of Economic Analysis (BEA)","2021",,,,,,,,,,,,,,,,,,,,,,,0
+"DOC","Bureau of Economic Analysis (BEA)","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "DOC","Bureau of Industry and Security (BIS) - Dual Use Export Administration and Enforcement","2021",,,,,,,,,,,,,,,,,,,,,,,0
 "DOC","Bureau of Industry and Security (BIS) - Dual Use Export Administration and Enforcement","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "DOC","Bureau of Industry and Security (BIS) – BIS","2021",,,,,,,,,,,,,,,,,,,,,,,0
@@ -1975,7 +1975,6 @@ Agency,Program_Name,Fiscal_Year,Month_and_Year_start__date_for_data,Month_and_Ye
 "ED","Education Stabilization Fund","2023","2021-10-01","2022-09-01","95% to <100%","5.0","79713.9100000000","0.1402650000","0.1364540000","0.0038110000","0.0000000000","0.0000000000","0.00000171180000","0.00000004780000","0.00000000000000","0.00000000000000","0.00000175960000","0.1402650000","0.00000175960000","0.00000000000000","64590.0000000000",,,"0.0000000000",0
 "ED","Education Stabilization Fund","2024","2022-10-01","2023-09-01","95% to <100%","5.0","64650.6200000000","0.1000000000","0.1000000000","0.0000000000","0.0000000000","0.0000000000","0.00000154680000","0.00000000000000","0.00000000000000","0.00000000000000","0.00000154680000","0.1000000000","0.00000154680000","0.00000000000000","55570.2700000000","0.0000000000","0.0000000000","0.0000000000",0
 "ED","Education Stabilization Fund","2025","2023-10-01","2024-09-30","95% to <100%","0.01","55570.2700000000","2.3600000000","2.3600000000","0.0000000000","0.0000000000","0.0000000000","0.00004246880000","0.00000000000000","0.00000000000000","0.00000000000000","0.00004246880000","2.3600000000","0.00004246880000","0.00000000000000",,,,,0
-"ED","Education Stabilization Fund","2026","2024-10-01","2025-09-30","95% to <100%","0.07","14110.3000000000","5.0600000000","5.0600000000","0.0000000000","0.0000000000","0.0000000000","0.00035860329000","0.00000000000000","0.00000000000000","0.00000000000000","0.00035860329000","5.0600000000","0.00035860329000","0.00000000000000",,,,,0
 "ED","Education for Homeless Children and Youth","2021",,,,,,,,,,,,,,,,,,,,,,,0
 "ED","Education for Homeless Children and Youth","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "ED","Emergency Assistance to Institutions of Higher Education","2012",,,,,,,,,,,,,,,,,,,,,,,0
@@ -2052,7 +2051,6 @@ Agency,Program_Name,Fiscal_Year,Month_and_Year_start__date_for_data,Month_and_Ye
 "ED","Helen Keller National Center for Youths and Adults Who Are Deaf-Blind","2021",,,,,,,,,,,,,,,,,,,,,,,0
 "ED","Higher Education Institutional Aid","2021",,,,,,,,,,,,,,,,,,,,,,,0
 "ED","Higher Education Institutional Aid","2022",,,,,,,,,,,,,,,,,,,,,,,0
-"ED","Higher Education Institutional Aid","2026","2024-10-01","2025-09-30","95% to <100%","1.41","1336.0800000000","1.8900000000","1.8900000000","0.0000000000","9.4700000000","0.0000000000","0.00141458595300","0.00000000000000","0.00708789892800","0.00000000000000","0.00141458595300","11.3600000000","0.00850248488100","0.00000000000000",,,,,0
 "ED","Howard University","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "ED","Immediate Aid To Restart School Operations (RESTART)","2012",,,,,,,,,,,,,,,,,,,,,,,0
 "ED","Immediate Aid To Restart School Operations (RESTART)","2013",,,,,,,,,,,,,,,,,,,,,,,0
@@ -2073,7 +2071,6 @@ Agency,Program_Name,Fiscal_Year,Month_and_Year_start__date_for_data,Month_and_Ye
 "ED","Indian Education Grants to Local Educational Agencies","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "ED","Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service Community Schools; and Congressionally Directed Spending for Elementary and Secondary Education Community Projects","2021",,,,,,,,,,,,,,,,,,,,,,,0
 "ED","Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service Community Schools; and Congressionally Directed Spending for Elementary and Secondary Education Community Projects","2022",,,,,,,,,,,,,,,,,,,,,,,0
-"ED","Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service Community Schools; and Congressionally Directed Spending for Elementary and Secondary Education Community Projects","2026","2024-10-01","2025-09-30","95% to <100%","9e-05","446.8800000000","0.0002000000","0.0002000000","0.0000000000","0.0000000000","0.0000000000",,"0.00000000000000","0.00000000000000","0.00000000000000",,"0.0002000000",,"0.00000000000000",,,,,0
 "ED","International Research and Studies","2021",,,,,,,,,,,,,,,,,,,,,,,0
 "ED","Iraq and Afghanistan Service Grant (IASG)","2021",,,,,,,,,,,,,,,,,,,,,,,0
 "ED","Iraq and Afghanistan Service Grant (IASG)","2022",,,,,,,,,,,,,,,,,,,,,,,0
@@ -2336,7 +2333,6 @@ Agency,Program_Name,Fiscal_Year,Month_and_Year_start__date_for_data,Month_and_Ye
 "EXIM","Short-term Authorizations","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "FCC","COVID-19 Telehealth","2021",,,,,,,,,,,,,,,,,,,,,,,0
 "FCC","COVID-19 Telehealth","2022",,,,,,,,,,,,,,,,,,,,,,,0
-"FCC","Connected Care Pilot Program","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "FCC","Emergency Broadband Benefit Program (EBBP)","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "FCC","FCC Affordable Connectivity Program (ACP)","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "FCC","FCC Affordable Connectivity Program Outreach Grants","2022",,,,,,,,,,,,,,,,,,,,,,,0
@@ -2371,6 +2367,7 @@ Agency,Program_Name,Fiscal_Year,Month_and_Year_start__date_for_data,Month_and_Ye
 "FCC","Telecommunications Relay Service","2023","2022-07-01","2023-06-01","100%","0.0","1200.0000000000","0.0000500000","0.0000000000","0.0000500000","0.0000000000","0.0000000000","0.00000000000000","0.00000004170000","0.00000000000000","0.00000000000000","0.00000004170000","0.0000500000","0.00000004170000","0.00000000000000","1480.9000000000","0.0000000000","0.0000000000","0.0000000000",0
 "FCC","Universal Service Administrative Company (USAC) - Administrative Costs","2021",,,,,,,,,,,,,,,,,,,,,,,0
 "FCC","Universal Service Administrative Company (USAC) - Administrative Costs","2022",,,,,,,,,,,,,,,,,,,,,,,0
+"FCC","Universal Service Fund - Connected Care Pilot Program","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "FCC","Universal Service Fund - High Cost Legacy","2004",,,,,,,,,,,,,,,,,,,,,,,0
 "FCC","Universal Service Fund - High Cost Legacy","2005",,,,,,,,,,,,,,,,,,,,,,,0
 "FCC","Universal Service Fund - High Cost Legacy","2006",,,,,,,,,,,,,,,,,,,,,,,0
@@ -2913,7 +2910,7 @@ Agency,Program_Name,Fiscal_Year,Month_and_Year_start__date_for_data,Month_and_Ye
 "HHS","Head Start","2023","2021-10-01","2022-09-01","95% to <100%","4.59","10844.1000000000","197.9300000000","187.9600000000","9.9700000000","355.5900000000","0.0000000000","0.01733292760000","0.00091939400000","0.03279110300000","0.00000000000000","0.01825232150000","553.5200000000","0.05104342450000",,"11689.0000000000","0.0000000000","0.0000000000","0.0000000000",0
 "HHS","Head Start","2024","2022-10-01","2023-09-01","90% to <95%","2.6","11041.6000000000","389.6400000000","15.7200000000","9.1900000000","933.2400000000","364.7300000000","0.00142370670000","0.00083230690000","0.08452035940000","0.03303235040000","0.03528836400000","1322.8800000000","0.11980872340000","0.07340000000000","12170.5000000000","0.0000000000","893.3100000000","0.0733996138",0
 "HHS","Head Start","2025","2023-10-01","2024-09-30","90% to <95%","3.59","11726.7000000000","196.5400000000","2.6900000000","5.4700000000","1010.3300000000","188.3800000000","0.00022939100000","0.00046645690000","0.08615637820000","0.01606419540000","0.01676004330000","1206.8700000000","0.10291642150000","0.09870000000000",,,,,0
-"HHS","Head Start","2026","2024-10-01","2025-09-30","95% to <100%","1.83","12312.0000000000","101.1400000000","1.9000000000","2.6600000000","208.7000000000","96.5800000000","0.00015432098800","0.00021604938300","0.01695094217000","0.00784437946700","0.00821474983800","309.8400000000","0.02516569200800","0.08870000000000",,,,,0
+"HHS","Head Start","2026","2024-10-01","2025-09-30","95% to <100%","1.83","12312.0000000000","101.1400000000","1.9000000000","2.6600000000","208.7000000000","96.5800000000","0.00015432098800","0.00021604938300","0.01695094217000","0.00784437946700","0.00821474983800","309.8400000000","0.02516569200800","0.07470000000000",,,,,0
 "HHS","Health Profession Opportunity Grants","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "HHS","Health Resources and Services Administration (HRSA) - Claims Processing (Department of Justice)","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "HHS","Health Resources and Services Administration (HRSA) - Compensation Claims for Post-FY 1989 Injuries","2022",,,,,,,,,,,,,,,,,,,,,,,0
@@ -4649,7 +4646,7 @@ Agency,Program_Name,Fiscal_Year,Month_and_Year_start__date_for_data,Month_and_Ye
 "USDA","Agriculture Business Innovation Center at HBCU","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Agriculture Research Service (ARS) Buildings and Facilities","2021",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Agriculture Research Service (ARS) Buildings and Facilities","2022",,,,,,,,,,,,,,,,,,,,,,,0
-"USDA","Agriculture Risk Coverage Program","2026","2024-10-01","2025-09-30","95% to <100%","4.086","478.0200000000","30.4000000000","0.6200000000","0.0200000000","0.0000000000","29.7600000000","0.00129701686100","0.00004183925400","0.00000000000000","0.06225680933900","0.06359566545300","30.4000000000","0.06359566545300","0.06000000000000",,,,,0
+"USDA","Agriculture Risk Coverage Program","2026","2024-10-01","2025-09-30","95% to <100%","4.086","478.0200000000","30.3900000000","0.6200000000","0.0200000000","0.0000000000","29.7600000000","0.00129701686100","0.00004183925400","0.00000000000000","0.06225680933900","0.06359566545300","30.3900000000","0.06357474582700","0.06000000000000",,,,,0
 "USDA","Agriculture Risk/Price Loss Coverage Program","2012",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Agriculture Risk/Price Loss Coverage Program","2013",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Agriculture Risk/Price Loss Coverage Program","2014",,,,,,,,,,,,,,,,,,,,,,,0
@@ -5183,6 +5180,7 @@ Agency,Program_Name,Fiscal_Year,Month_and_Year_start__date_for_data,Month_and_Ye
 "USDA","Office of the Chief Economist (OCE) Salaries and Expenses","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Office of the Chief Financial Officer (OCFO) Salaries and Expenses","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Office of the Chief Information Officer (OCIO) Salaries and Expenses","2022",,,,,,,,,,,,,,,,,,,,,,,0
+"USDA","Office of the General Counsel (OGC) Salaries and Expenses","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Office of the Inspector General (OIG) Salaries and Expenses","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Office of the Secretary (OSEC) Salaries and Expenses","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Outreach and Assistance for Socially Disadvantaged and Veteran Farmers and Ranchers","2022",,,,,,,,,,,,,,,,,,,,,,,0
@@ -5217,7 +5215,6 @@ Agency,Program_Name,Fiscal_Year,Month_and_Year_start__date_for_data,Month_and_Ye
 "USDA","Rural Development (RD) Salaries and Expenses","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Rural Development (RD) Salaries and Expenses (9002 BBMP)","2021",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Rural Development (RD) Salaries and Expenses (9002 BBMP)","2022",,,,,,,,,,,,,,,,,,,,,,,0
-"USDA","Rural Development Policy Public Service and Leadership Development Program","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Rural Electrification Loans and Loan Guarantees","2021",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Rural Electrification Loans and Loan Guarantees","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Rural Energy Savings Program (RESP)","2021",,,,,,,,,,,,,,,,,,,,,,,0
@@ -5333,6 +5330,7 @@ Agency,Program_Name,Fiscal_Year,Month_and_Year_start__date_for_data,Month_and_Ye
 "USDA","State Mediation Grants","2021",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","State Mediation Grants","2022",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Summer Electronic Benefit Transfer Program for Children","2026","2025-05-01","2025-09-01","There is no confidence level associated with the estimate","0.0","3100.0000000000","175.5100000000","164.5900000000","10.9200000000","0.0000000000","0.0000000000","0.05309354838700","0.00352258064500","0.00000000000000","0.00000000000000","0.05661612903200","175.5100000000","0.05661612903200","0.05210000000000",,,,,0
+"USDA","Summer Food Service Program for Children","2026","2023-08-01","2024-08-01","There is no confidence level associated with the estimate","0.0","781.7000000000","70.6600000000","66.0500000000","4.6100000000","0.0000000000","0.0000000000","0.08449533069000","0.00589740309600","0.00000000000000","0.00000000000000","0.09039273378500","70.6600000000","0.09039273378500","0.09040000000000",,,,,0
 "USDA","Summer Food Service Program for Children","2012",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Summer Food Service Program for Children","2013",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Summer Food Service Program for Children","2014",,,,,,,,,,,,,,,,,,,,,,,0
@@ -5347,7 +5345,6 @@ Agency,Program_Name,Fiscal_Year,Month_and_Year_start__date_for_data,Month_and_Ye
 "USDA","Summer Food Service Program for Children","2023",,,,,,"0.0000000000","0.0000000000",,,,,,,,,"0.0000000000",,,,,,,0
 "USDA","Summer Food Service Program for Children","2024",,,,,,,,,,,,,,,,,,,,,,,0
 "USDA","Summer Food Service Program for Children","2025",,,,,,,,,,,,,,,,,,,,,,,0
-"USDA","Summer Food Service Program for Children","2026","2023-08-01","2024-08-01","There is no confidence level associated with the estimate","0.0","781.7000000000","70.6600000000","66.0500000000","4.6100000000","0.0000000000","0.0000000000","0.08449533069000","0.00589740309600","0.00000000000000","0.00000000000000","0.09039273378500","70.6600000000","0.09039273378500","0.09040000000000",,,,,0
 "USDA","Supplemental Nutrition Assistance Program","2004",,,,,"24298.0000000000",,,,,,,,,,"0.06638406450000","1613.0000000000","0.06638406450000",,,,,,0
 "USDA","Supplemental Nutrition Assistance Program","2005",,,,,"24128.0000000000",,,,,,,,,,"0.05935013260000","1432.0000000000","0.05935013260000",,,,,,0
 "USDA","Supplemental Nutrition Assistance Program","2006",,,,,"28160.0000000000",,,,,,,,,,"0.05841619320000","1645.0000000000","0.05841619320000",,,,,,0

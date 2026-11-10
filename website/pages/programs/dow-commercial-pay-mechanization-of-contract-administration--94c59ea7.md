@@ -555,8 +555,8 @@ Data_By_Year:
   Technical_IP_Amount: '751.84'
   Underpayment_Mitigations_Planned: Change Process, Training
   Underpayment_Mitigations_Taken: Change Process, Training
-  Unknown_Mitigations_Planned: Change Process,Training
-  Unknown_Mitigations_Taken: Change Process,Training
+  Unknown_Mitigations_Planned: Change Process, Training
+  Unknown_Mitigations_Taken: Change Process, Training
   Unknown_Payments_Rate: 0.07537364545067259
   Year: 2025
   detail_IP_Causes: 'Payment Integrity reporting for the Department of War''s (DoW)
@@ -811,8 +811,8 @@ Data_By_Year:
   Margin_of_Error: '0.06'
   Non_Monetary_Loss_Amount: '138.5'
   Outlays: 231954
-  Overpayment_Combined_Mitigations_Planned: '[app3]Training, [app4]Change Process'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp4]Change Process'
+  Overpayment_Combined_Mitigations_Planned: Change Process, Training
+  Overpayment_Combined_Mitigations_Taken: Change Process, Training
   Payment_Accuracy_Rate: 99.91412090328255
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: 'The Commercial Pay MOCAS program''s current budgetary
@@ -835,8 +835,8 @@ Data_By_Year:
     through rule-based detection, proactive controls, and end to end capabilities.'
   Start_Date: 10/2024
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app3]Training, [app4]Change Process'
-  Underpayment_Mitigations_Taken: '[atp3]Training, [atp4]Change Process'
+  Underpayment_Mitigations_Planned: Change Process, Training
+  Underpayment_Mitigations_Taken: Change Process, Training
   Unknown_Payments_Rate: 0
   Year: 2026
   detail_IP_Causes: 'During the Fiscal Year 2026 (FY26) Payment Integrity Information

@@ -8,8 +8,8 @@ ProgramSurveyData:
 - Answers:
   - Agency: TREASURY
     Answer:
-    - '[app4]Change Process'
-    - '[app5]Cross Enterprise Sharing'
+    - Change Process
+    - Cross Enterprise Sharing
     Heading: Type(s) of Corrective Actions Planned to Prevent Future Improper Payments
       (by payment type)
     Key: cyp21_app1_8
@@ -52,8 +52,8 @@ ProgramSurveyData:
 - Answers:
   - Agency: TREASURY
     Answer:
-    - '[app3]Training'
-    - '[app4]Change Process'
+    - Change Process
+    - Training
     Heading: Type(s) of Corrective Actions Planned to Prevent Future Improper Payments
       (by payment type)
     Key: cyp21_app1_8
@@ -96,8 +96,8 @@ ProgramSurveyData:
 - Answers:
   - Agency: TREASURY
     Answer:
-    - '[app4]Change Process'
-    - '[app5]Cross Enterprise Sharing'
+    - Change Process
+    - Cross Enterprise Sharing
     Heading: Type(s) of Corrective Actions Planned to Prevent Future Improper Payments
       (by payment type)
     Key: cyp21_app1_8
@@ -140,8 +140,8 @@ ProgramSurveyData:
 - Answers:
   - Agency: TREASURY
     Answer:
-    - '[app4]Change Process'
-    - '[app5]Cross Enterprise Sharing'
+    - Change Process
+    - Cross Enterprise Sharing
     Heading: Type(s) of Corrective Actions Planned to Prevent Future Improper Payments
       (by payment type)
     Key: cyp21_app1_8

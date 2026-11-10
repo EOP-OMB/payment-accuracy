@@ -2074,7 +2074,7 @@ Data_By_Year:
     Training
   Underpayment_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence, Change
     Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change, Training
-  Unknown_Mitigations_Planned: Automation,Training
+  Unknown_Mitigations_Planned: Automation, Training
   Unknown_Mitigations_Taken: Training
   Unknown_Payments_Rate: 1.7167173529776294
   Year: 2025
@@ -2214,17 +2214,17 @@ Data_By_Year:
     \ IPs include variation in state organizational structures and infrastructure\
     \ such as outdated IT systems, loss of experienced staff and constraints in onboarding\
     \ new staff, as well as complex and/or stringent state-specific UI laws for eligibility\
-    \ requirements such as work search activities. The reduction and/or flat-funding\
-    \ of Federal administrative grants to states is also a significant factor that\
-    \ inhibits state progress towards reducing the improper payment rate.\n\nDOL is\
-    \ constrained in its ability to hold states accountable for intermediary progress.\
-    \ Specifically, if DOL determines a state is out of conformity and/or substantial\
-    \ compliance with federal law, it can withhold certification of a state's law\
-    \ after notice and hearing. This results in the loss of Federal unemployment tax\
-    \ credits for employers in the state and/or the state's ability to receive administrative\
-    \ grants to operate the program.  Additionally, Federal law does not provide DOL\
-    \ with the authority to prescribe beyond a certain level how states administer\
-    \ the program. \n"
+    \ requirements such as work search activities. Additionally, states report that\
+    \ the reduction and/or flat funding of Federal administrative grants to states\
+    \ is also a factor that inhibits state progress towards reducing the improper\
+    \ payment rate.\n\nDOL is constrained in its ability to hold states accountable\
+    \ for intermediary progress. Specifically, if DOL determines a state is out of\
+    \ conformity and/or substantial compliance with federal law, it can withhold certification\
+    \ of a state's law after notice and hearing. This results in the loss of Federal\
+    \ unemployment tax credits for employers in the state and/or the state's ability\
+    \ to receive administrative grants to operate the program.  Additionally, Federal\
+    \ law does not provide DOL with the authority to prescribe beyond a certain level\
+    \ how states administer the program. \n"
   Confidence_Level: 95% to <100%
   Corrective_Actions_Adequacy_Association_Implementation: 'DOL applies Government
     Accountability Office’s (GAO) Fraud Risk Framework to UI integrity work through
@@ -2403,37 +2403,28 @@ Data_By_Year:
   Margin_of_Error: '0.8'
   Non_Monetary_Loss_Amount: '176.49'
   Outlays: 40021.07
-  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app2]Behavioral/Psych
-    Influence, [app3]Training, [app4]Change Process, [app5]Cross Enterprise Sharing,
-    [app6]Audit, [app7]Predictive Analytics, [app8]Statutory Change'
-  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych
-    Influence, [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing,
-    [atp6]Audit, [atp7]Predictive Analytics, [atp8]Statutory Change'
+  Overpayment_Combined_Mitigations_Planned: Audit, Automation, Behavioral/Psych Influence,
+    Change Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change,
+    Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence,
+    Change Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change,
+    Training
   Payment_Accuracy_Rate: 85.21288911066095
   Program_Design_or_Structural_Issue: 0.0
-  Resources_Requested_For_IP: As part of the FY 2028 budget submission, DOL included
-    a comprehensive UI Program Integrity Package that contains proposed legislative
-    reforms. These reforms are necessary to give DOL appropriate tools to more effectively
-    oversee the UI program and further support states’ efforts to build and sustain
-    a robust, resilient, and stable UI program. The UI Program Integrity Package contains
-    provisions designed to provide new and expanded tools and controls for states
-    to help improve efforts to ensure entitled workers are properly paid and to prevent
-    fraud and IPs in the UI system. Specific measures aim to improve front-end fraud
-    prevention, support timely and accurate benefit payments, and address GAO and
-    DOL OIG recommendations. DOL also requested additional funding for state workforce
-    agencies to enhanced UI wage records, use a uniform set of wage record data definitions,
-    increase the employer UI tax file reporting to monthly, and conduct regular crossmatches
-    and data analytics to prevent and detect UI fraud.
+  Resources_Requested_For_IP: The FY 2027 President’s Budget request included $25,000,000
+    to fund identity verification activities to help states combat identity fraud
+    in the UI system. The FY 2028 President’s Budget has not yet been released. ETA
+    is working with OMB to assess whether there are specific proposals to include
+    in the forthcoming FY 2028 President's Budget.
   Start_Date: 07/2025
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app1]Automation, [app2]Behavioral/Psych Influence,
-    [app3]Training, [app4]Change Process, [app5]Cross Enterprise Sharing, [app6]Audit,
-    [app7]Predictive Analytics, [app8]Statutory Change'
-  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych Influence,
-    [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing, [atp6]Audit,
-    [atp7]Predictive Analytics, [atp8]Statutory Change'
-  Unknown_Mitigations_Planned: '[app1]Automation,[app3]Training,[app4]Change Process'
-  Unknown_Mitigations_Taken: '[atp3]Training'
+  Underpayment_Mitigations_Planned: Audit, Automation, Behavioral/Psych Influence,
+    Change Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change,
+    Training
+  Underpayment_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence, Change
+    Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change, Training
+  Unknown_Mitigations_Planned: Automation, Training, Change Process
+  Unknown_Mitigations_Taken: Training
   Unknown_Payments_Rate: 2.3911154799209515
   Year: 2026
   detail_IP_Causes: "Unemployment Insurance (UI) improper payment (IP) estimates are\
@@ -2529,8 +2520,8 @@ Data_By_Year:
     \ at the time the payment was due by law.\n"
   detail_No_Estimates_Why: null
   detail_Overpayments_Due_To_Data_DNE: '0.0'
-  detail_Overpayments_Due_To_Failure: '807.82'
-  detail_Overpayments_Due_To_Inability: '3976.7'
+  detail_Overpayments_Due_To_Failure: '807.82199999'
+  detail_Overpayments_Due_To_Inability: '3976.69800001'
   detail_Reduction_Target: '9.9'
   eligibility_aggregated:
   - Theme: Citizenship
@@ -2549,15 +2540,15 @@ Data_By_Year:
       source
   overpayments:
     Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 807.82
-    Inability_to_Access_Data: 3976.7
+    Failure_to_Access_Data: 807.82199999
+    Inability_to_Access_Data: 3976.69800001
     Overpayments_Within_Control_Amount: '971.35'
   overpayments_outside:
     Overpayments_Outside_Control_Amount: '3813.17'
   underpayments:
     Data_Needed_Does_Not_Exist: 0.0
-    Failure_to_Access_Data: 35.58
-    Inability_to_Access_Data: 140.92
+    Failure_to_Access_Data: 35.575
+    Inability_to_Access_Data: 140.915
     Underpayments_Amount: '176.49'
 Description: "The UC programs provide temporary, partial wage replacement to eligible\
   \ workers. Programs included in the monetary loss calculation include the traditional\

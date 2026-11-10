@@ -1010,6 +1010,7 @@ detail_Executive_Summary: "The Payment Integrity Information Act of 2019 (PIIA) 
   \ and identify opportunities for process improvement. In addition to the recovery\
   \ audit, GSA has implemented system integrations and enhanced internal controls\
   \ significantly reducing  overpayments from this program.\n"
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: "Recovery Audit and Recovery Method\n\n\
   GSA's Recovery Audit contractor reviews GSA’s Rental of Space program. GSA utilizes\
   \ this program to lease privately-owned buildings to meet federal agency space needs.\

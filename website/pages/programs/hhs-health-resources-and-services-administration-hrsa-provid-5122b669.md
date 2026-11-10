@@ -576,7 +576,7 @@ Data_By_Year:
     source documents (The provider failed to submit their revenue, expenditures, lost
     revenues in the HRSA provider relief portal. HRSA DPI has reviewed Datamart and
     Salesforce to confirm the provider failed to report and are not in compliance.
-  Unknown_Mitigations_Taken: Audit,Change Process,Predictive Analytics,Training
+  Unknown_Mitigations_Taken: Audit, Change Process, Predictive Analytics, Training
   Unknown_Payments_Rate: 0.061252268602540835
   Unknown_Why: Reporting Period 4 'Provider was paid for expenses and/or losses that
     were reimbursed by other sources' could not be tested as the source documents

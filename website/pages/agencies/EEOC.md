@@ -227,6 +227,7 @@ detail_Executive_Summary: In fiscal year 2026, the EEOC conducted Improper Payme
   any unexpected changes. If so, the EEOC will assess program risk susceptibility
   and make a statistically valid estimate of improper payments for any programs determined
   to be susceptible to significant erroneous payments.
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

@@ -627,10 +627,8 @@ Data_By_Year:
   Margin_of_Error: '1.94'
   Non_Monetary_Loss_Amount: '26.97'
   Outlays: 1680.52
-  Overpayment_Combined_Mitigations_Planned: '[app3]Training, [app5]Cross Enterprise
-    Sharing, [app6]Audit'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp5]Cross Enterprise
-    Sharing, [atp6]Audit'
+  Overpayment_Combined_Mitigations_Planned: Audit, Cross Enterprise Sharing, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Cross Enterprise Sharing, Training
   Payment_Accuracy_Rate: 98.17794492180991
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: The High Cost program team did not identify additional
@@ -639,10 +637,8 @@ Data_By_Year:
     payment rate.
   Start_Date: 01/2024
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app3]Training, [app5]Cross Enterprise Sharing,
-    [app6]Audit'
-  Underpayment_Mitigations_Taken: '[atp3]Training, [atp5]Cross Enterprise Sharing,
-    [atp6]Audit'
+  Underpayment_Mitigations_Planned: Audit, Cross Enterprise Sharing, Training
+  Underpayment_Mitigations_Taken: Audit, Cross Enterprise Sharing, Training
   Unknown_Payments_Rate: 0
   Year: 2026
   detail_IP_Causes: "The major causes of the High Cost improper payments are incorrect\

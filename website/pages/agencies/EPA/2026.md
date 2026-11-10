@@ -1788,12 +1788,12 @@ Risks:
     Program_Name: Drinking Water State Revolving Fund
     Slug: null
     Susceptible: 'Yes'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Drinking Water System Infrastructure Resilience and Sustainability
       Program - SDWA 1459A(l)
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Enhanced Aquifer Use and Recharge Program
@@ -1898,12 +1898,12 @@ Risks:
     Program_Name: Geographic Programs - Lake Champlain Basin Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Geographic Programs - Lake Pontchartrain Basic Restoration Program
       (PRP)
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 1
     Program_Name: Geographic Programs - Long Island Sound Program
@@ -1994,11 +1994,11 @@ Risks:
       of International and Tribal Affairs
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Internships, Training and Workshops for the Office of Air and Radiation
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 1
     Program_Name: Leaking Underground Storage Tank Trust Fund Corrective Action Program
@@ -2423,6 +2423,34 @@ detail_Executive_Summary: "In FY 2026, EPA maintained strong payment integrity p
   \ performs internal control testing, as part of the FMFIA processes to identify\
   \ any material weaknesses or significant deficiencies in the effectiveness of controls\
   \ in preventing fraud, waste, and abuse."
+detail_OIG_Recommendations: "In its August 2026 report (No. 26-P-0046), the EPA Office\
+  \ of Inspector General (OIG) determined that EPA did not comply with the Payment\
+  \ Integrity Information Act of 2019 for fiscal year (FY) 2025 reporting. EPA met\
+  \ three of the four compliance requirements: publishing payment integrity information,\
+  \ posting the information on the agency website, and conducting the required risk\
+  \ assessments. However, the OIG states EPA did not satisfy the fourth requirement\
+  \ because the agency did not adequately determine whether two payment streams were\
+  \ likely to make improper and unknown payments above or below the statutory threshold.\n\
+  \nSpecifically, the OIG found that EPA did not maintain sufficient documentation\
+  \ to support the risk assessment conclusions for the Grants and Clean School Bus\
+  \ grants payment streams. The OIG also found that EPA did not document how it considered\
+  \ known program risks, including prior OIG findings, in conducting the Clean School\
+  \ Bus grants payment stream risk assessment. To address these issues, the OIG recommended\
+  \ that EPA strengthen its risk assessment methodology, improve testing guidance\
+  \ and training, and obtain additional support to resolve questioned costs and enhance\
+  \ future compliance.\n\nEPA acknowledges the OIG’s findings and appreciates the\
+  \ shared commitment to payment integrity, while respectfully differing with the\
+  \ conclusion that the Agency lacked sufficient documentation to assess susceptibility\
+  \ to significant improper payments. In its September 28, 2026, audit response, EPA\
+  \ noted that Uniform Grants Guidance does not prescribe the format of recipient\
+  \ source documentation and reaffirmed its commitment to strengthening internal controls\
+  \ in support of mission delivery and Administrator priorities.  \n\nEPA has completed\
+  \ corrective actions on four of five compliance-related recommendations, including\
+  \ implementing program-specific qualitative risk assessments, updating standard\
+  \ operating procedures to incorporate OIG-recommended elements and consideration\
+  \ of prior OIG work, and revising transaction testing guidance to better align with\
+  \ 2 C.F.R. 200. The final corrective action is expected to be completed in November\
+  \ 2026."
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: 'The EPA does not include specific Payment Integrity Information
   Act of 2019 criteria in the Controller’s performance agreements. The Controller’s

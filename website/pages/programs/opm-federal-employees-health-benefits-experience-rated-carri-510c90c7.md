@@ -275,8 +275,8 @@ Data_By_Year:
   Technical_IP_Amount: '18.185'
   Underpayment_Mitigations_Planned: Automation
   Underpayment_Mitigations_Taken: Audit, Change Process, Training
-  Unknown_Mitigations_Planned: Automation,Change Process
-  Unknown_Mitigations_Taken: Audit,Change Process,Training
+  Unknown_Mitigations_Planned: Automation, Change Process
+  Unknown_Mitigations_Taken: Audit, Change Process, Training
   Unknown_Payments_Rate: 0.03487093736471519
   Year: 2025
   detail_IP_Causes: "Carriers who reported improper payments and unknown payments\
@@ -461,9 +461,8 @@ Data_By_Year:
   Margin_of_Error: '2.5'
   Non_Monetary_Loss_Amount: '95.2696'
   Outlays: 71370.628
-  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app3]Training, [app4]Change
-    Process, [app6]Audit'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp4]Change Process, [atp6]Audit'
+  Overpayment_Combined_Mitigations_Planned: Audit, Automation, Change Process, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Change Process, Training
   Payment_Accuracy_Rate: 99.57434535955042
   Program_Design_or_Structural_Issue: 32.152
   Resources_Requested_For_IP: OPM’s budget submission did not request specific resources
@@ -474,14 +473,13 @@ Data_By_Year:
     improper payment and unknown payment rate and therefore has not made a budget
     request.
   Start_Date: 10/2024
-  Technical_IP_Actions_Planned: '[app3]Training, [app4]Change Process'
-  Technical_IP_Actions_Taken: '[atp3]Training, [atp4]Change Process, [atp6]Audit'
+  Technical_IP_Actions_Planned: Change Process, Training
+  Technical_IP_Actions_Taken: Audit, Change Process, Training
   Technical_IP_Amount: '32.152'
-  Underpayment_Mitigations_Planned: '[app1]Automation, [app3]Training, [app4]Change
-    Process, [app6]Audit'
-  Underpayment_Mitigations_Taken: '[atp3]Training, [atp4]Change Process, [atp6]Audit'
-  Unknown_Mitigations_Planned: '[app3]Training,[app4]Change Process'
-  Unknown_Mitigations_Taken: '[atp1]Automation,[atp3]Training,[atp4]Change Process,[atp6]Audit'
+  Underpayment_Mitigations_Planned: Audit, Automation, Change Process, Training
+  Underpayment_Mitigations_Taken: Audit, Change Process, Training
+  Unknown_Mitigations_Planned: Training, Change Process
+  Unknown_Mitigations_Taken: Automation, Training, Change Process, Audit
   Unknown_Payments_Rate: 0.18249664273656105
   Year: 2026
   detail_IP_Causes: 'Carriers who reported improper payments and unknown payments

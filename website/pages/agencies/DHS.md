@@ -3252,12 +3252,12 @@ Risks:
     Program_Name: Immigration and Customs Enforcement - Payroll
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Immigration and Customs Enforcement - Procurements, Construction,
       and Improvement - Disaster Supplemental Funds
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Immigration and Customs Enforcement - Purchase Card
@@ -3327,12 +3327,12 @@ Risks:
     Program_Name: Science and Technology Directorate - Procurement
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Science and Technology Directorate - Public Safety and Violence
       Prevention Research, Evaluation, and Implementation
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Science and Technology Directorate - Research & Development
@@ -3534,12 +3534,12 @@ Risks:
     Program_Name: United States Coast Guard - Retired Pay
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: United States Coast Guard - State Recreational Boating Safety (RBS)
       Grant Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: United States Coast Guard - Supply Fund
@@ -3879,6 +3879,7 @@ detail_Executive_Summary: "In the wake of the September 11, 2001, terrorist atta
   \ determine the Department’s compliance with PIIA requirements based off the FY\
   \ 2025 reporting. The DHS OIG determined that DHS complied with all PIIA requirements.\
   \ \n"
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

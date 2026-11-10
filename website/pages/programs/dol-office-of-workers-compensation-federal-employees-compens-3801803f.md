@@ -747,8 +747,8 @@ Data_By_Year:
   Margin_of_Error: '2.5'
   Non_Monetary_Loss_Amount: '1.62'
   Outlays: 4095.54
-  Overpayment_Combined_Mitigations_Planned: '[app3]Training'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training'
+  Overpayment_Combined_Mitigations_Planned: Training
+  Overpayment_Combined_Mitigations_Taken: Training
   Payment_Accuracy_Rate: 97.12223540729671
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: 'In FY 2027, the FECA program will continue its ongoing
@@ -758,8 +758,8 @@ Data_By_Year:
     '
   Start_Date: 07/2025
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app3]Training'
-  Underpayment_Mitigations_Taken: '[atp3]Training'
+  Underpayment_Mitigations_Planned: Training
+  Underpayment_Mitigations_Taken: Training
   Unknown_Payments_Rate: 0
   Year: 2026
   detail_IP_Causes: "The program’s improper and unknown payments are broken down into\

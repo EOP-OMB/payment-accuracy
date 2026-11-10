@@ -1091,8 +1091,8 @@ Data_By_Year:
   Margin_of_Error: '0.92'
   Non_Monetary_Loss_Amount: '0.24129033'
   Outlays: 94.70730411
-  Overpayment_Combined_Mitigations_Planned: '[app6]Audit'
-  Overpayment_Combined_Mitigations_Taken: '[atp6]Audit'
+  Overpayment_Combined_Mitigations_Planned: Audit
+  Overpayment_Combined_Mitigations_Taken: Audit
   Payment_Accuracy_Rate: 99.20274312831984
   Program_Additional_Information: 'In response to the COVID-19 pandemic, President
     Donald J. Trump issued a nationwide emergency declaration under Section 501(b)
@@ -1166,8 +1166,8 @@ Data_By_Year:
     '
   Start_Date: 10/2023
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app6]Audit'
-  Underpayment_Mitigations_Taken: '[atp6]Audit'
+  Underpayment_Mitigations_Planned: Audit
+  Underpayment_Mitigations_Taken: Audit
   Unknown_Payments_Rate: 0
   Year: 2026
   detail_IP_Causes: "The DHS Federal Emergency Management Agency (FEMA) provides financial\

@@ -16,7 +16,7 @@ highest_performing_agencies:
 improper_payments_rate_max: 4.4
 improper_payments_rate_min: 3.7
 improper_payments_rates: '[4.442997625603248, 4.395717467370504, 3.658539617119526,
-  3.8347312565326517, 3.9674259292845804]'
+  3.8347312565326517, 3.9803925607199315]'
 improper_payments_years: '[2022, 2023, 2024, 2025, 2026]'
 layout: index
 lowest_performing_agencies:
@@ -35,11 +35,11 @@ lowest_performing_agencies:
 payment_accuracy_rate_max: 96.0
 payment_accuracy_rate_min: 94.6
 payment_accuracy_rates: '[94.87839844920984, 94.5789004094258, 96.03276857726675,
-  95.84590898945181, 95.90697350550906]'
+  95.84590898945181, 95.89378870904062]'
 permalink: /
 title: Home
 unknown_payments_rate_max: 1.0
 unknown_payments_rate_min: 0.1
 unknown_payments_rates: '[0.6786039251869063, 1.025382123203699, 0.3086918056137233,
-  0.3193597540155317, 0.12560056520635657]'
+  0.3193597540155317, 0.12581873023943815]'
 ---

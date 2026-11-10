@@ -419,7 +419,7 @@ Data_By_Year:
     Criminal History Check information; missing or incomplete program participants
     income eligibility information, missing program participate timesheets; and missing
     program policy.'
-  Unknown_Mitigations_Planned: Change Process,Training
+  Unknown_Mitigations_Planned: Change Process, Training
   Unknown_Mitigations_Taken: Training
   Unknown_Payments_Rate: 14.498510427010924
   Unknown_Why: The AmeriCorps Payment Integrity Assessment uses documentation submitted
@@ -618,7 +618,7 @@ Data_By_Year:
   Technical_IP_Amount: '0.0'
   Underpayment_Mitigations_Planned: Change Process, Training
   Underpayment_Mitigations_Taken: Training
-  Unknown_Mitigations_Planned: Change Process,Training
+  Unknown_Mitigations_Planned: Change Process, Training
   Unknown_Mitigations_Taken: Training
   Unknown_Payments_Rate: 20.607352157698458
   Year: 2025
@@ -800,8 +800,8 @@ Data_By_Year:
   Margin_of_Error: '6.4'
   Non_Monetary_Loss_Amount: '0.07'
   Outlays: 75.89
-  Overpayment_Combined_Mitigations_Planned: '[app3]Training, [app4]Change Process'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp4]Change Process'
+  Overpayment_Combined_Mitigations_Planned: Change Process, Training
+  Overpayment_Combined_Mitigations_Taken: Change Process, Training
   Payment_Accuracy_Rate: 82.92265120569245
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: No resources were requested. The agency did not request
@@ -811,10 +811,10 @@ Data_By_Year:
     available.
   Start_Date: 04/2025
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app3]Training, [app4]Change Process'
-  Underpayment_Mitigations_Taken: '[atp3]Training, [atp4]Change Process'
-  Unknown_Mitigations_Planned: '[app3]Training,[app4]Change Process'
-  Unknown_Mitigations_Taken: '[atp3]Training,[atp4]Change Process'
+  Underpayment_Mitigations_Planned: Change Process, Training
+  Underpayment_Mitigations_Taken: Change Process, Training
+  Unknown_Mitigations_Planned: Training, Change Process
+  Unknown_Mitigations_Taken: Training, Change Process
   Unknown_Payments_Rate: 11.951508762682831
   Year: 2026
   detail_IP_Causes: "The AmeriCorps Payment Integrity Assessment uses documentation\

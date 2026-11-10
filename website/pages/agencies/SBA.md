@@ -107,6 +107,7 @@ PIIA2019_Compliant_Programs:
   Compliant_Overall: true
   Hide_Compliance_Section: true
   Name: Economic Injury Disaster Loan Emergency Advance
+  Slug: sba-economic-injury-disaster-loan-emergency-advance
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -546,11 +547,11 @@ Risks:
     Program_Name: Disaster Assistance Loans
     Slug: sba-disaster-assistance-loans
     Susceptible: 'Yes'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Economic Injury Disaster Loan Emergency Advance
-    Slug: null
-    Susceptible: null
+    Slug: sba-economic-injury-disaster-loan-emergency-advance
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Federal and State Technology Partnership Program
@@ -872,6 +873,51 @@ detail_Executive_Summary: "The Payment Integrity Information Act of 2019 (PIIA) 
   \ the program into full compliance with PIIA and meeting its reduction target. The\
   \ Agency further plans to demand repayment of improper guaranty funds from lenders\
   \ and refer complex cases to the Guaranty Review Team in FY 2027."
+detail_OIG_Recommendations: "Criterion 1: Complete & Accurate AFR Disclosures\nOIG\
+  \ Findings: AFR disclosures contained numbers that did not match website data (e.g.,\
+  \ Section 1112 overpayment breakdowns) or listed wrong fiscal year figures (e.g.,\
+  \ Disaster Assistance Loan tolerable rates).   \nOIG Recommendation: Build a formal\
+  \ review and validation process over the AFR and PaymentAccuracy.gov materials.\
+  \   \nAgency Action & Milestones: OCFO concurred and is setting up standardized\
+  \ review procedures, defined staff roles, and better communication protocols to\
+  \ verify all data before publication.   \nCriterion 2: Program Risk Assessments\n\
+  OIG Findings: SBA failed to complete and document required annual/three-year risk\
+  \ assessments across all applicable programs in FY 2025.   \nOIG Recommendation:\
+  \ Formally design and implement a risk assessment process to ensure all programs\
+  \ are evaluated on schedule.   \nAgency Action & Milestones: OCFO redesigned its\
+  \ risk assessment process to cover all PIIA risk factors and automate tracking for\
+  \ mandatory review frequencies.   \nCriterion 3: Sampling & Estimation Reliability\n\
+  OIG Findings: Reviewers skipped testing interest calculations on sampled PPP Loan\
+  \ Guaranty Purchases, making data incomplete, while SVOG/PPP Forgiveness sampling\
+  \ plans had statistical calculation errors.   \nOIG Recommendation: Expand sample\
+  \ review steps to cover all payment components and increase executive oversight\
+  \ over statistical calculations.   \nAgency Action & Milestones: OCA expanded sample\
+  \ review procedures to include interest testing, and OCFO standardized statistical\
+  \ extrapolation processes with built-in validation and back-testing controls.  \
+  \ \nCriterion 4: Corrective Action Plans & Root Causes\nOIG Findings: SBA lacked\
+  \ supporting documentation for PPP Purchase corrective action plans and misaligned\
+  \ root cause categories between the AFR and web materials.   \nOIG Recommendation:\
+  \ Establish formal monitoring controls and an audit trail to prove corrective actions\
+  \ are implemented and tied to true root causes.  \n Agency Action & Milestones:\
+  \ OCA concurred and is setting up a centralized tracking repository to document\
+  \ corrective action milestones, log evidence, and ensure alignment with root causes.\
+  \   \nCriterion 5: Reduction Targets & Rate Improvements\nOIG Findings: Error rates\
+  \ increased for 7(a) Approvals, 504 Approvals, and Disaster Loans; reduction targets\
+  \ were missed across five programs; and required quarterly OMB scorecards were omitted\
+  \ for High-Priority programs.   \nOIG Recommendation: Implement stronger front-end\
+  \ controls to prevent bad payments and establish formal procedures to submit High-Priority\
+  \ scorecards.   \nAgency Action & Milestones: OCA is tightening pre-approval lender\
+  \ eligibility checks under updated SOPs, while OCFO is coordinating off-cycle scorecard\
+  \ submissions with OMB and establishing a quarterly tracking schedule.   \nCriterion\
+  \ 6: Error Rates Under 10% & Budget Submissions\nOIG Findings: PPP Forgiveness,\
+  \ PPP Purchases, and SVOG exceeded the 10% statutory error threshold, and SBA failed\
+  \ to include required program integrity proposals in its budget request after consecutive\
+  \ years of non-compliance.   \nOIG Recommendation: Strengthen lender documentation\
+  \ recovery and implement tracking to automatically trigger required budget proposals\
+  \ for repeat non-compliant programs.   \nAgency Action & Milestones: OCFO created\
+  \ a multi-year non-compliance tracking checklist to ensure statutory budget proposals\
+  \ are submitted, while OCA is enforcing stricter documentation recovery workflows\
+  \ with lenders."
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: 'Executive performance ratings include a performance level
   related to review, compliance and audit remediation efforts

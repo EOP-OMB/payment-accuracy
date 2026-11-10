@@ -133,6 +133,7 @@ detail_Executive_Summary: 'CSOSA maintains payment integrity through payment aut
 
   CSOSA monitors payment-integrity risks through management reviews, payment controls,
   supplier screening, and follow-up on identified exceptions.'
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

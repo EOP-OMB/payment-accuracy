@@ -2573,8 +2573,7 @@ Data_By_Year:
     Human Capital: Our program integrity work is labor-intensive and dependent on
     having the necessary trained staff to do the work. For the most part, our employees
     who handle our program integrity work also handle applications for benefits and
-    other mission-critical work. Sustained, sufficient funding is critical to maintain
-    the workforce necessary to balance our service and stewardship work.
+    other mission-critical work.
 
 
     Information Systems: Our staff rely on our information technology (IT) infrastructure
@@ -2932,9 +2931,7 @@ Data_By_Year:
     best practices for documenting remarks on overpayment actions and reminders on
     fully documenting actions and evidence including payment worksheets. We also released
     a Payment Auditor tool for technicians to use to calculate overpayments and underpayments
-    and provide explanations to customers.
-
-    '
+    and provide explanations to customers.'
   Corrective_Actions_Proportion: 'For the root cause of overpayments due to our failure
     to access data or information needed (approximately $1.6 billion), our corrective
     actions and strategies fall within several high-level categories such as automation,
@@ -3098,12 +3095,10 @@ Data_By_Year:
   Margin_of_Error: '0.3'
   Non_Monetary_Loss_Amount: '2978.2273989'
   Outlays: 1437540.57443977
-  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app2]Behavioral/Psych
-    Influence, [app3]Training, [app4]Change Process, [app5]Cross Enterprise Sharing,
-    [app6]Audit, [app7]Predictive Analytics'
-  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych
-    Influence, [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing,
-    [atp6]Audit, [atp7]Predictive Analytics'
+  Overpayment_Combined_Mitigations_Planned: Audit, Automation, Behavioral/Psych Influence,
+    Change Process, Cross Enterprise Sharing, Predictive Analytics, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence,
+    Change Process, Cross Enterprise Sharing, Predictive Analytics, Training
   Payment_Accuracy_Rate: 99.67126994562699
   Program_Additional_Information: 'The improper payment data reported in this data
     call is based on fiscal year (FY) 2025 (single year) stewardship findings. The
@@ -3123,21 +3118,13 @@ Data_By_Year:
     '
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: The Fiscal Year 2027 President’s Budget included resources
-    for internal controls to prevent improper payments. As part of our stewardship
-    responsibilities and our efforts to reduce improper payments, we also requested
-    $2,397 billion in dedicated funding for program integrity activities. Many of
-    the tools we use, such as our medical Continuing Disability Reviews, Supplemental
-    Security Income redeterminations, and the Cooperative Disability Investigations
-    program, save billions of program dollars with a proportionally small investment
-    of administrative resources.
+    for internal controls to prevent improper payments and fraud.
   Start_Date: 10/2024
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app1]Automation, [app2]Behavioral/Psych Influence,
-    [app3]Training, [app4]Change Process, [app5]Cross Enterprise Sharing, [app7]Predictive
-    Analytics'
-  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych Influence,
-    [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing, [atp7]Predictive
-    Analytics'
+  Underpayment_Mitigations_Planned: Automation, Behavioral/Psych Influence, Change
+    Process, Cross Enterprise Sharing, Predictive Analytics, Training
+  Underpayment_Mitigations_Taken: Automation, Behavioral/Psych Influence, Change Process,
+    Cross Enterprise Sharing, Predictive Analytics, Training
   Unknown_Payments_Rate: 0
   Year: 2026
   detail_IP_Causes: 'Improper payments within the agency’s control are caused by our

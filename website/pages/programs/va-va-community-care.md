@@ -1036,8 +1036,8 @@ Data_By_Year:
   Margin_of_Error: '1.01'
   Non_Monetary_Loss_Amount: '0.07'
   Outlays: 28090.87
-  Overpayment_Combined_Mitigations_Planned: '[app4]Change Process'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp4]Change Process, [atp6]Audit'
+  Overpayment_Combined_Mitigations_Planned: Change Process
+  Overpayment_Combined_Mitigations_Taken: Audit, Change Process, Training
   Payment_Accuracy_Rate: 98.98006006933925
   Program_Additional_Information: 'The VA Community Care program continues to prioritize
     and implement corrective actions and mitigation strategies that reduce improper
@@ -1062,9 +1062,9 @@ Data_By_Year:
     actions.
   Start_Date: 10/2024
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp6]Audit'
-  Unknown_Mitigations_Planned: '[app4]Change Process'
-  Unknown_Mitigations_Taken: '[atp4]Change Process'
+  Underpayment_Mitigations_Taken: Audit, Automation
+  Unknown_Mitigations_Planned: Change Process
+  Unknown_Mitigations_Taken: Change Process
   Unknown_Payments_Rate: 0.2798774121271431
   Year: 2026
   detail_IP_Causes: 'Overpayments occurred when the program failed to access the data/information

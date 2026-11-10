@@ -599,19 +599,21 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
 - Agency_Needs_Satisfied: The Lifeline program has the internal controls, human capital,
-    information systems and other infrastructure it requires to reduce improper payments
+    information systems, and other infrastructure it requires to reduce improper payments
     to targeted levels. The FCC and USAC will continue to expand internal controls
     as necessary and will develop the human capital to ensure it meets its goals.
   Confidence_Level: 95% to <100%
   Corrective_Actions_Adequacy_Association_Implementation: The most impactful corrective
-    actions are focused on the robust Quality Assurance process to confirm eligibility.
-    USAC manually reviews appropriate documentation to confirm that a consumer is
-    eligible to participate in the Lifeline program and is not receiving duplicative
-    support. The Lifeline Program will review the root cause of the errors identified
-    in the assessments and will work with ETCs and opt-out state administrators.
+    actions are focused on the robust Quality Assurance process. The process is refined
+    based on audit recommendations and implemented corrective actions. For example,
+    USAC is implementing a Fraud Detection Tool to help identify potentially fraudulent
+    data and documentation in response to a previous recommendation to continue to
+    implement activities identified in the cost-benefit analysis. The Lifeline program
+    will continue to review the root cause of the errors identified in the assessments
+    and will work with ETCs and opt-out state administrators.
   Corrective_Actions_Appropriateness: "The major findings are caused by inadequate\
     \ documentation related to usage. To address usage inadequate documentation, Lifeline\
-    \ implemented a process to review claim and de-enrollment non-usage data and perform\
+    \ implemented a process to review claim and de-enroll non-usage data and perform\
     \ outreach to potentially non-compliant Eligible Telecommunication Carriers (ETCs).\
     \ Lifeline’s Program Integrity Assurance reviews continuously evolve in response\
     \ to suspicious document trends by implementing an Optical Character Recognition\
@@ -631,7 +633,7 @@ Data_By_Year:
     \ are held between USAC's Audit and Assurance Division (AAD) and USAC leadership\
     \ to discuss findings identified by AAD. During these meetings, corrective actions\
     \ are discussed to prevent similar findings in the future. The webinars are completed\
-    \ on an ongoing annual basis.\n"
+    \ on an ongoing annual basis."
   Corrective_Actions_Proportion: USAC and its manual review vendor have robust Quality
     Assurance (QA) processes in place. Based on the results of the review, the team
     will perform updates to training and materials. In addition, individual coaching
@@ -664,28 +666,27 @@ Data_By_Year:
   Hide_Underpayments_Data_Needed_Does_Not_Exist: true
   Hide_Underpayments_Failure_to_Access_Data: true
   Hide_Underpayments_Inability_to_Access_Data: true
-  IP_Accountability_Description: The FCC works through it's program administrator,
-    USAC, to complete payment recapture audits known as Beneficiary and Contributor
+  IP_Accountability_Description: The FCC works through its program administrator,
+    USAC to complete payment recapture audits known as Beneficiary and Contributor
     Audit Program (BCAP). BCAP audits are designed to identify overpayments that must
     be recaptured, assess compliance with FCC rules, and deter waste, fraud, and abuse.
-    Further, the FCC works through USAC's improper payment testing program known as
+    Further, the FCC works through USAC’s improper payment testing program known as
     Payment Quality Assurance (PQA). Through PQA, USAC utilizes a statistical sampling
-    methodology to estimate the annual amount of improper payments.    The goal of
-    the PQA assessment plan is to estimate an improper payment error rate based on
-    non-compliance with FCC rules. To recover improper payments, the FCC and USAC
-    have implemented an enterprise recovery policy to standardize the reporting and
-    recovery of improper payments. All improper payments are deemed collectible and
-    funding is either recovered or is in the process of being recovered.
+    methodology to estimate the annual amount of improper payments in the USF-HC,
+    USF-LL, USF-RHC, and USF-S&L programs. The goal of the PQA assessment plan is
+    to estimate an improper payment error rate based on non-compliance with FCC rules.
+    To recover improper payments, the FCC and USAC have implemented an enterprise
+    recovery policy to standardize the reporting and recovery of improper payments.
+    All improper payments are deemed collectible and funding is either recovered or
+    is in the process of being recovered.
   IP_Unknown_Target_Rate: 0.098
   Improper_Payments_Rate: 14.452681132
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '7.97'
   Non_Monetary_Loss_Amount: '0'
   Outlays: 924.05
-  Overpayment_Combined_Mitigations_Planned: '[app3]Training, [app5]Cross Enterprise
-    Sharing, [app6]Audit'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training, [atp5]Cross Enterprise
-    Sharing, [atp6]Audit'
+  Overpayment_Combined_Mitigations_Planned: Audit, Cross Enterprise Sharing, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Cross Enterprise Sharing, Training
   Payment_Accuracy_Rate: 85.54731886802662
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: The FY 2028 FCC budget submission includes multiple
@@ -697,43 +698,38 @@ Data_By_Year:
     administrator (USAC) upgraded its contracts with technology vendors and signed
     new ones for services that use optical character recognition (OCR) and artificial
     intelligence (AI) to flag suspicious documentation and verify applicants’ identities
-    prior to enrollment. An anti-fraud detection tool developed by Thomson Reuters
-    was deployed by USAC in August 2026. Special attention will be given to the two
-    Eligible Telecommunications Carrier (ETCs) responsible for 80% of improper payments
-    related to non-usage, including targeted Program Integrity Assurance reviews to
-    ensure adherence to non-usage rules and mitigate future risks. Overall, the FCC
-    will continue to direct its administrator, USAC, to continue regular reviews for
-    all ETCs to ensure consistent compliance with Commission rules.
+    prior to enrollment.  An anti-fraud detection tool developed by Thomson Reuters
+    was deployed by USAC in August 2026.  Special attention will be given to the Eligible
+    Telecommunications Carrier (ETC) responsible for the vast majority of improper
+    payments related to non-usage, including targeted Program Integrity Assurance
+    reviews to ensure adherence to non-usage rules and mitigate future risks. Overall,
+    the FCC will continue to direct its administrator, USAC, to continue regular reviews
+    for all ETCs to ensure consistent compliance with Commission rules.
   Start_Date: 01/2025
   Technical_IP_Amount: '0.0'
   Unknown_Payments_Rate: 0
   Year: 2026
   detail_IP_Causes: "The major cause of Lifeline improper payments is Usage - Inadequate\
-    \ Documentation, which is 73% of the total improper payments. This is an indicator\
-    \ that personally identifiable information on the eligibility documentation did\
-    \ not agree or was not listed. In addition, dated tax form exceeding two years\
-    \ from enrollment were used to determine eligibility usage inadequate documentation\
-    \ is caused when usage documentation provided was not adequate to support the\
-    \ subscriber's continued eligibility to receive Lifeline benefits. Examples of\
-    \ why the documentation was inadequate may include, but is not limited to, no\
-    \ usage during the 30 days prior to the snapshot date. The documentation provided\
-    \ does not demonstrate qualified usage during the 30 days prior to the snapshot\
-    \ date.\n\nUSAC's Lifeline Program team continues to develop multiple outreach\
-    \ activities,\nincluding updates to the website training materials, conducting\
-    \ webinar(s) focused on common audit findings, prior PQA reviews and communicating\
-    \ best practices based on the observations. USAC provides annual training and\
-    \ implemented an Online Training Library to provide program participants with\
-    \ tools that they can access at their convenience.  The training is developed\
-    \ on an ongoing basis throughout each fiscal year. \n\nThrough USAC's Risk Management\
-    \ Council meetings, the different USF program teams discussed strategic initiatives\
-    \ and risk that may impact USAC’s goals. The Risk Management Council meetings\
-    \ will continue to provide an opportunity to analyze and respond to identified\
-    \ changes and related risks to maintain an effective internal control system as\
-    \ well as effective enterprise systems management. The meetings are completed\
-    \ on an ongoing quarterly basis. \n\nMonthly meetings are held between USAC’s\
-    \ Audit and Assurance Division (AAD) and USAC leadership to discuss findings identified\
-    \ by AAD. During these meetings, corrective actions are discussed to prevent similar\
-    \ findings in the future. The webinars are completed on an ongoing annual basis."
+    \ Documentation, which is 73% of the total improper payments. Examples of why\
+    \ the documentation was inadequate may include, but is not limited to, no usage\
+    \ during the 30 days prior to the snapshot date. The documentation provided does\
+    \ not demonstrate qualified usage during the 30 days prior to the snapshot date.\n\
+    \nUSAC's Lifeline Program team continues to develop multiple outreach activities,\n\
+    including updates to the website training materials, conducting webinar(s) focused\
+    \ on common audit findings, prior PQA reviews and communicating best practices\
+    \ based on the observations. USAC provides annual training and implemented an\
+    \ Online Training Library to provide program participants with tools that they\
+    \ can access at their convenience.  The training is developed on an ongoing basis\
+    \ throughout each fiscal year. \n\nThrough USAC's Risk Management Council meetings,\
+    \ the different USF program teams discussed strategic initiatives and risk that\
+    \ may impact USAC’s goals. The Risk Management Council meetings will continue\
+    \ to provide an opportunity to analyze and respond to identified changes and related\
+    \ risks to maintain an effective internal control system as well as effective\
+    \ enterprise systems management. The meetings are completed on an ongoing quarterly\
+    \ basis. \n\nMonthly meetings are held between USAC’s Audit and Assurance Division\
+    \ (AAD) and USAC leadership to discuss findings identified by AAD. During these\
+    \ meetings, corrective actions are discussed to prevent similar findings in the\
+    \ future. The webinars are completed on an ongoing annual basis."
   detail_No_Estimates_Why: null
   detail_Overpayments_Due_To_Data_DNE: '0.0'
   detail_Overpayments_Due_To_Failure: '105.52'

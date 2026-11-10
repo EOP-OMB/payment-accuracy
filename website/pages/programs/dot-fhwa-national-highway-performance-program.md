@@ -77,8 +77,8 @@ Data_By_Year:
   Margin_of_Error: '3.16'
   Non_Monetary_Loss_Amount: '62.1371'
   Outlays: 25483.6075
-  Overpayment_Combined_Mitigations_Planned: '[app3]Training'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training'
+  Overpayment_Combined_Mitigations_Planned: Training
+  Overpayment_Combined_Mitigations_Taken: Training
   Payment_Accuracy_Rate: 96.45891108627379
   Program_Additional_Information: In FY 2026, the Federal Highway Administration (FHWA)
     implemented revisions to its improper payment testing procedures to ensure full
@@ -97,8 +97,8 @@ Data_By_Year:
     effectively deliver and manage the $66.2 billion requested in the FY 2027 Budget
     for FHWA’s programs.
   Start_Date: 10/2024
-  Technical_IP_Actions_Planned: '[app3]Training'
-  Technical_IP_Actions_Taken: '[atp3]Training'
+  Technical_IP_Actions_Planned: Training
+  Technical_IP_Actions_Taken: Training
   Technical_IP_Amount: '62.1371'
   Unknown_Payments_Rate: 0
   Year: 2026

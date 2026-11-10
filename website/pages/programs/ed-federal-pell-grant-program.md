@@ -506,10 +506,10 @@ Data_By_Year:
     auditors did not retain the documentation, or if the auditor is unable to provide
     FSA the supplemental information timely, FSA records unknown payments in accordance
     with OMB Circular A-123, Appendix C.'
-  Unknown_Mitigations_Planned: Audit,Behavioral/Psych Influence,Change Process,Cross
-    Enterprise Sharing,Predictive Analytics,Training
-  Unknown_Mitigations_Taken: Audit,Behavioral/Psych Influence,Change Process,Cross
-    Enterprise Sharing,Predictive Analytics,Training
+  Unknown_Mitigations_Planned: Audit, Behavioral/Psych Influence, Change Process,
+    Cross Enterprise Sharing, Predictive Analytics, Training
+  Unknown_Mitigations_Taken: Audit, Behavioral/Psych Influence, Change Process, Cross
+    Enterprise Sharing, Predictive Analytics, Training
   Unknown_Payments_Rate: 0.010979756814071935
   Unknown_Why: 'FSA leverages compliance audit data to estimate improper payments
     and unknown payments. In some instances, FSA is unable to discern whether the
@@ -1055,10 +1055,10 @@ Data_By_Year:
     C.
 
     '
-  Unknown_Mitigations_Planned: Audit,Behavioral/Psych Influence,Change Process,Cross
-    Enterprise Sharing,Predictive Analytics,Training
-  Unknown_Mitigations_Taken: Audit,Behavioral/Psych Influence,Change Process,Cross
-    Enterprise Sharing,Predictive Analytics,Training
+  Unknown_Mitigations_Planned: Audit, Behavioral/Psych Influence, Change Process,
+    Cross Enterprise Sharing, Predictive Analytics, Training
+  Unknown_Mitigations_Taken: Audit, Behavioral/Psych Influence, Change Process, Cross
+    Enterprise Sharing, Predictive Analytics, Training
   Unknown_Payments_Rate: 0.03221628004099923
   Unknown_Why: 'FSA leverages compliance audit data to estimate improper payments
     and unknown payments. In some instances, FSA is unable to discern whether the
@@ -1322,10 +1322,10 @@ Data_By_Year:
     Cross Enterprise Sharing, Predictive Analytics, Training
   Underpayment_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence, Change
     Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change, Training
-  Unknown_Mitigations_Planned: Audit,Behavioral/Psych Influence,Change Process,Cross
-    Enterprise Sharing,Predictive Analytics,Training
-  Unknown_Mitigations_Taken: Audit,Automation,Behavioral/Psych Influence,Change Process,Cross
-    Enterprise Sharing,Predictive Analytics,Statutory Change,Training
+  Unknown_Mitigations_Planned: Audit, Behavioral/Psych Influence, Change Process,
+    Cross Enterprise Sharing, Predictive Analytics, Training
+  Unknown_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence, Change
+    Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change, Training
   Unknown_Payments_Rate: 0.014799270804118754
   Year: 2025
   detail_IP_Causes: "FSA diligently works to identify the causes of improper payments\
@@ -1518,12 +1518,11 @@ Data_By_Year:
   Margin_of_Error: '0.37'
   Non_Monetary_Loss_Amount: '119.89'
   Outlays: 39177.75
-  Overpayment_Combined_Mitigations_Planned: '[app2]Behavioral/Psych Influence, [app3]Training,
-    [app4]Change Process, [app5]Cross Enterprise Sharing, [app6]Audit, [app7]Predictive
-    Analytics'
-  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych
-    Influence, [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing,
-    [atp6]Audit, [atp7]Predictive Analytics, [atp8]Statutory Change'
+  Overpayment_Combined_Mitigations_Planned: Audit, Behavioral/Psych Influence, Change
+    Process, Cross Enterprise Sharing, Predictive Analytics, Training
+  Overpayment_Combined_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence,
+    Change Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change,
+    Training
   Payment_Accuracy_Rate: 99.6464319671242
   Program_Additional_Information: 'FSA places the highest value on maintaining the
     integrity of all types of payments made to support the billions of dollars in
@@ -1549,24 +1548,19 @@ Data_By_Year:
 
     '
   Start_Date: 10/2024
-  Technical_IP_Actions_Planned: '[app2]Behavioral/Psych Influence, [app3]Training,
-    [app4]Change Process, [app5]Cross Enterprise Sharing, [app6]Audit, [app7]Predictive
-    Analytics'
-  Technical_IP_Actions_Taken: '[atp1]Automation, [atp2]Behavioral/Psych Influence,
-    [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing, [atp6]Audit,
-    [atp7]Predictive Analytics, [atp8]Statutory Change'
+  Technical_IP_Actions_Planned: Audit, Behavioral/Psych Influence, Change Process,
+    Cross Enterprise Sharing, Predictive Analytics, Training
+  Technical_IP_Actions_Taken: Audit, Automation, Behavioral/Psych Influence, Change
+    Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change, Training
   Technical_IP_Amount: '108.11'
-  Underpayment_Mitigations_Planned: '[app2]Behavioral/Psych Influence, [app3]Training,
-    [app4]Change Process, [app5]Cross Enterprise Sharing, [app6]Audit, [app7]Predictive
-    Analytics'
-  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych Influence,
-    [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing, [atp6]Audit,
-    [atp7]Predictive Analytics, [atp8]Statutory Change'
-  Unknown_Mitigations_Planned: '[app2]Behavioral/Psych Influence,[app3]Training,[app4]Change
-    Process,[app5]Cross Enterprise Sharing,[app6]Audit,[app7]Predictive Analytics'
-  Unknown_Mitigations_Taken: '[atp1]Automation,[atp2]Behavioral/Psych Influence,[atp3]Training,[atp4]Change
-    Process,[atp5]Cross Enterprise Sharing,[atp6]Audit,[atp7]Predictive Analytics,[atp8]Statutory
-    Change'
+  Underpayment_Mitigations_Planned: Audit, Behavioral/Psych Influence, Change Process,
+    Cross Enterprise Sharing, Predictive Analytics, Training
+  Underpayment_Mitigations_Taken: Audit, Automation, Behavioral/Psych Influence, Change
+    Process, Cross Enterprise Sharing, Predictive Analytics, Statutory Change, Training
+  Unknown_Mitigations_Planned: Behavioral/Psych Influence, Training, Change Process,
+    Cross Enterprise Sharing, Audit, Predictive Analytics
+  Unknown_Mitigations_Taken: Automation, Behavioral/Psych Influence, Training, Change
+    Process, Cross Enterprise Sharing, Audit, Predictive Analytics, Statutory Change
   Unknown_Payments_Rate: 0.011894506448175303
   Year: 2026
   detail_IP_Causes: "FSA diligently works to identify the causes of improper payments\

@@ -342,7 +342,7 @@ Data_By_Year:
     Medical Centers responsible for claims processing. For this reason, we are unable
     to conclude whether the payment is proper or improper at time of payment without
     that documentation.
-  Unknown_Mitigations_Planned: Automation,Change Process
+  Unknown_Mitigations_Planned: Automation, Change Process
   Unknown_Mitigations_Taken: Automation
   Unknown_Payments_Rate: 0.9690892950629367
   Unknown_Why: The payments are considered unknown payments when VA had lacking or
@@ -706,7 +706,7 @@ Data_By_Year:
     processing purposes. For this reason, we are unable to conclude whether the payment
     is proper or improper at time of payment without that documentation.
   Unknown_Mitigations_Planned: Training
-  Unknown_Mitigations_Taken: Automation,Change Process
+  Unknown_Mitigations_Taken: Automation, Change Process
   Unknown_Payments_Rate: 0.9480287707533395
   Unknown_Why: The payments are considered unknown payments when VA had missing or
     insufficient documentation related to authorization, receiving, eligibility, or
@@ -1197,8 +1197,8 @@ Data_By_Year:
   Margin_of_Error: '2.88'
   Non_Monetary_Loss_Amount: '0'
   Outlays: 2337.45
-  Overpayment_Combined_Mitigations_Planned: '[app1]Automation, [app4]Change Process'
-  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp4]Change Process'
+  Overpayment_Combined_Mitigations_Planned: Automation, Change Process
+  Overpayment_Combined_Mitigations_Taken: Automation, Change Process
   Payment_Accuracy_Rate: 93.15407816209972
   Program_Additional_Information: 'The Beneficiary Travel program continues to prioritize
     and implement corrective actions and mitigation strategies that reduce improper
@@ -1225,8 +1225,8 @@ Data_By_Year:
     actions.
   Start_Date: 10/2024
   Technical_IP_Amount: '0.0'
-  Unknown_Mitigations_Planned: '[app1]Automation,[app4]Change Process'
-  Unknown_Mitigations_Taken: '[atp1]Automation,[atp4]Change Process'
+  Unknown_Mitigations_Planned: Automation, Change Process
+  Unknown_Mitigations_Taken: Automation, Change Process
   Unknown_Payments_Rate: 3.5525893602002183
   Year: 2026
   detail_IP_Causes: "Overpayments occurred when the program failed to access the data/information\

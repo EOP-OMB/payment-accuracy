@@ -187,52 +187,77 @@ Data_By_Year:
   Non_Monetary_Loss_Amount: '46.3'
   Outlays: 903.638
   Payment_Accuracy_Rate: 94.8762668236617
-  Program_Additional_Information: 'In fiscal year (FY) 2026, HUD targeted its estimation
-    methodology toward transaction-level testing and leveraged the results of the
-    HUD''s Office of the Inspector General''s (OIG) independent audit Report: 2026-FO-0006,
-    HUD’s Public and Indian Housing Tenant-Based Rental Assistance Program Had Significant
-    Improper Payments, to prepare its FY 2026 improper and unknown payment estimate.
-    Through these audits, HUD OIG sought to determine whether housing assistance payments
-    (HAP) in the PIH-TBRA programs are proper. HUD OIG selected a sample based on
-    a one-month population of active head of household program participants and tested
-    payments to verify tenant eligibility, payment amount, and compliance with HUD
-    requirements. HUD’s improper and unknown payment estimate was developed based
-    upon OIG’s testing results.
-
-
-    A statistically valid one-month sample estimate was annualized (i.e. multiplied
-    by 12) to reach an estimate for the full year. The margin of error of  2.32% is
-    based on the statistically valid one-month sample estimate for a combined PIH-TBRA
-    HCV and PIH-TBRA Mainstream testing population.
-
-    '
+  Program_Additional_Information: "In fiscal year (FY) 2025, HUD’s Mainstream Vouchers\
+    \ program was accounted for under a single program, Public and Indian Housing\
+    \ - Rental Housing Assistance Program (RHAP) - Tenant Based Rental Assistance\
+    \ Section 8 - Housing Certificate Fund & Tenant Based Rental Assistance (TBRA).\
+    \  In accordance with OMB guidance for the Federal Program Inventory, HUD split\
+    \ TBRA into two Assistance Listing Numbers (ALNs)/programs for FY 2026 reporting,\
+    \ Mainstream Vouchers program and Section 8 Housing Choice Vouchers program. Both\
+    \ ALNs/programs continued reporting improper payment estimates in FY 2026. \n\n\
+    In FY 2026, HUD targeted its estimation methodology toward transaction-level testing\
+    \ and leveraged the results of the HUD's Office of the Inspector General's (OIG)\
+    \ independent audit Report: 2026-FO-0006, HUD’s Public and Indian Housing Tenant-Based\
+    \ Rental Assistance Program Had Significant Improper Payments, to prepare its\
+    \ FY 2026 improper and unknown payment estimate. Through these audits, HUD OIG\
+    \ sought to determine whether housing assistance payments (HAP) in the PIH-TBRA\
+    \ programs are proper. HUD OIG selected a sample based on a one-month population\
+    \ of active head of household program participants and tested payments to verify\
+    \ tenant eligibility, payment amount, and compliance with HUD requirements. HUD’s\
+    \ improper and unknown payment estimate was developed based upon OIG’s testing\
+    \ results.\n\nA statistically valid one-month sample estimate was annualized (i.e.\
+    \ multiplied by 12) to reach an estimate for the full year. The margin of error\
+    \ of  2.32% is based on the statistically valid one-month sample estimate for\
+    \ a combined PIH-TBRA HCV and PIH-TBRA Mainstream testing population.\n"
   Program_Design_or_Structural_Issue: 46.3
-  Resources_Requested_For_IP: "Through Project Voucher, HUD is pursuing a long-term\
-    \ approach to rental assistance transformation that enhances program integrity,\
-    \ improves visibility into rental assistance payments, and strengthens HUD's ability\
-    \ to deliver housing assistance to eligible beneficiaries.\n \nThe structure of\
-    \ HUD's rental assistance programs relies on Public Housing Agencies (PHAs) to\
-    \ perform key eligibility, documentation, and payment functions. Because these\
-    \ activities are decentralized and many supporting records are maintained outside\
-    \ HUD systems, HUD has limited visibility into the information needed to verify\
-    \ eligibility and payments. As a result, HUD continues to experience challenges\
-    \ preventing, identifying, and remediating improper payments, as well as overseeing\
-    \ complex program requirements and supporting evidence.\n  \nHUD is requesting\
-    \ resources to support HUD's long-term approach to rental assistance transformation\
-    \ by: \n- Simplifying complex rental assistance requirements and payment calculations\
-    \ through policy and operational improvements that reduce administrative burden\
-    \ and address root causes of improper payments.\n- Strengthening the capacity\
-    \ of PHAs through targeted training and technical assistance focused on key program\
-    \ administration requirements.\n- Enhancing HUD's visibility into tenant eligibility,\
-    \ rental assistance payments, and recipient activity through standardized collection\
-    \ and analysis of eligibility information, payment data, supporting documentation,\
-    \ and payment evidence.\n- Bolstering oversight, monitoring, and risk identification\
-    \ capabilities by providing transparency into who HUD is paying and greater visibility\
-    \ into tenants and PHAs that HUD has historically lacked.\n\n"
+  Resources_Requested_For_IP: "The 2027 Budget includes a significant investment of\
+    \ $30 million in payment integrity efforts in alignment with this Administration’s\
+    \ objective to safeguard taxpayer dollars. To support the efforts associated with\
+    \ Executive Order 14249, Protecting America's Bank Account Against Fraud, Waste,\
+    \ and Abuse, HUD will strategically deploy this funding to protect against financial\
+    \ fraud and prevent improper payments. This funding will enable HUD to begin to\
+    \ implement its strategy to improve the Department’s financial integrity. The\
+    \ planned capabilities are discussed in further detail below: \nRecipient and\
+    \ Sub-recipient Reporting: \n-Builds upon the sub-recipient reporting pilot started\
+    \ in 2025, this effort mitigates longstanding, inherent risks in HUD program design\
+    \ where programs are frequently administered by a third party and usually involve\
+    \ complex projects and often with one or more tiers of sub-grantees. HUD is expanding\
+    \ sub-recipient reporting to all grant recipients in a phased approach beginning\
+    \ in 2026 with the buildout of tools and business processes. HUD plans to begin\
+    \ onboarding grant recipients to this enhanced reporting process starting in 2026\
+    \ and continuing in 2027. \n-Provides a secure, simplified, and standardized portal\
+    \ for recipients to submit financial evidence and supporting documentation for\
+    \ disbursements, including evidence of sub-recipient and vendor spending. \n-Amplifies\
+    \ HUD staff ability to perform adequate and thorough grant oversight by enabling\
+    \ analytics that identify anomalies and risks and automating parts of compliance\
+    \ reviews and financial monitoring. By extending this monitoring all the way to\
+    \ the sub-recipient spending level, this will also improve HUD’s payment integrity\
+    \ posture. \n\nProject Voucher: \n-Provides a secure, standardized mechanism for\
+    \ Public Housing Authorities (PHAs) and Performance-Based Contract Administrators\
+    \ to submit tenant- and household level eligibility information required to administer\
+    \ HUD-assisted housing programs. \n-Establishes a system of record for tenant\
+    \ and family eligibility data submitted by PHAs. It supports historical tracking\
+    \ of eligibility determinations and changes over time to ensure transparency,\
+    \ auditability, and program integrity. \n-Allows for analysis of tenant eligibility\
+    \ data to support oversight, compliance monitoring, and risk identification across\
+    \ PHAs and programs. It provides visibility into patterns, anomalies, and trends\
+    \ that may indicate errors, inconsistencies, or potential noncompliance. \n-Enables\
+    \ data analysis and gathering of self-reported data from tenants/families and\
+    \ recipients and sub-recipients, supported by evidence such as check and payment\
+    \ records from PHAs to landlords and recipients to sub-recipients. \n-The tool\
+    \ will analyze and review data, documents, and evidence to verify eligibility\
+    \ for HUD’s programs and facilitate the mapping of relationships between tenant\
+    \ and landlord (and recipient and sub-recipient) payments, while also analyzing\
+    \ interactions between PHA leadership and landlords and tenants (and recipients\
+    \ and sub-recipients). \n\nBusiness Process and Change Management: \n-Across the\
+    \ three workstreams identified above, funding will also support technical and\
+    \ contractual support to facilitate the necessary business process updates across\
+    \ the HUD program portfolio in alignment with the payment integrity initiative.\
+    \ This includes training of internal and external stakeholders, development of\
+    \ operating procedures and handbooks, and user support.\n"
   Start_Date: 10/2024
-  Technical_IP_Actions_Planned: '[app3]Training, [app4]Change Process, [app8]Statutory
-    Change'
-  Technical_IP_Actions_Taken: '[atp1]Automation, [atp4]Change Process'
+  Technical_IP_Actions_Planned: Change Process, Statutory Change, Training
+  Technical_IP_Actions_Taken: Automation, Change Process
   Technical_IP_Amount: '46.3'
   Unknown_Payments_Rate: 0
   Year: 2026

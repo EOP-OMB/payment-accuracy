@@ -1,7 +1,7 @@
 ---
 Agency: HHS
 Agency_Name: Department of Health and Human Services
-Confirmed_Fraud: 2910.0
+Confirmed_Fraud: 18407.59
 Eligibility_Themes: []
 Fiscal_Year: 2026
 Hide_Disposition_of_Funds: false
@@ -24,8 +24,8 @@ Improper_Payments_Rates: '[8.971892591817937, 7.018651771325096, 5.5720640495104
   5.8274423283225785, 6.223642912261253]'
 Is_Placeholder: false
 Overpayment_Amounts: '[129930.744310648, 98700.025629, 82747.141, 90631.0331, 106850.62]'
-Overpayment_Amounts_Identified: '[19212.18, 15167.96, 16084.13, 18133.06, 23252.35]'
-Overpayment_Amounts_Recovered: '[12919.84, 15810.22, 12843.79, 14104.34, 15756.63]'
+Overpayment_Amounts_Identified: '[19212.18, 15167.96, 16084.13, 18133.06, 23251.8]'
+Overpayment_Amounts_Recovered: '[12919.84, 15810.22, 12843.79, 14104.34, 15823.26]'
 Overpayment_Years: '[2022, 2023, 2024, 2025, 2026]'
 PIIA2019_Compliant_Programs:
 - Compliant_1A: true
@@ -381,19 +381,6 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Adavanced Research Projects Agency for Health (ARPA-H)
-- Compliant_1A: true
-  Compliant_1B: true
-  Compliant_2A: true
-  Compliant_2B: true
-  Compliant_3: true
-  Compliant_4: true
-  Compliant_5A: true
-  Compliant_5B: true
-  Compliant_5C: true
-  Compliant_6: true
-  Compliant_Overall: true
-  Hide_Compliance_Section: true
   Name: Addiction Medicine Fellowship Program and Integrated Substance Use Disorder
     Training Program
 - Compliant_1A: true
@@ -462,6 +449,19 @@ PIIA2019_Compliant_Programs:
   Compliant_Overall: true
   Hide_Compliance_Section: true
   Name: Advanced Nursing Education Workforce Grant Program
+- Compliant_1A: true
+  Compliant_1B: true
+  Compliant_2A: true
+  Compliant_2B: true
+  Compliant_3: true
+  Compliant_4: true
+  Compliant_5A: true
+  Compliant_5B: true
+  Compliant_5C: true
+  Compliant_6: true
+  Compliant_Overall: true
+  Hide_Compliance_Section: true
+  Name: Advanced Research Projects Agency for Health (ARPA-H)
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -9318,11 +9318,11 @@ Risks:
     Program_Name: ACL Acquisition of Assets
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: ACL Assistive Technology
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: ACL Assistive Technology State Grants for Protection and Advocacy
@@ -9434,11 +9434,6 @@ Risks:
     Susceptible: null
   - Fiscal_Year: null
     MethodologyChanged: 0
-    Program_Name: Adavanced Research Projects Agency for Health (ARPA-H)
-    Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
-    MethodologyChanged: 0
     Program_Name: Addiction Medicine Fellowship Program and Integrated Substance Use
       Disorder Training Program
     Slug: null
@@ -9449,41 +9444,46 @@ Risks:
       Sustainable Models of Care'
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Adoption Assistance
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Adoption Opportunities
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Adoption and Legal Guardianship Incentive Payments Program
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Advance Payments of the Premium Tax Credit (APTC)
     Slug: hhs-advance-payments-of-the-premium-tax-credit-aptc
-    Susceptible: null
+    Susceptible: 'Yes'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Advanced Nursing Education Workforce Grant Program
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: Advanced Research Projects Agency for Health (ARPA-H)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Advancing System Improvements for Key Issues in Women's Health
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Affordable Care Act (ACA) Personal Responsibility Education Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Affordable Care Act (ACA) Tribal Maternal, Infant, and Early Childhood
@@ -9536,11 +9536,11 @@ Risks:
     Program_Name: Alcohol Research Programs – Training, Institutional
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Allergy and Infectious Diseases Research
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Alzheimer's Disease Demonstration Grants to States
@@ -9552,11 +9552,11 @@ Risks:
       Project (ADI-SSS) thru Prevention and Public Health Funds (PPHF)'
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Alzheimer's Disease Program Initiative (ADPI)
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Analyses, Research and Studies to Address the Impact of CMS' Programs
@@ -9574,11 +9574,11 @@ Risks:
     Program_Name: Area Health Education Centers
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Arthritis, Musculoskeletal and Skin Diseases Research
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Arthritis, Musculoskeletal and Skin Diseases Research - Other Research
@@ -9614,11 +9614,11 @@ Risks:
     Program_Name: Assistance Programs for Chronic Disease Prevention and Control
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Assistance for Torture Victims
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Assisted Outpatient Treatment
@@ -9640,16 +9640,16 @@ Risks:
       and Prevention
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Basic Center Grant
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Basic Health Program (Affordable Care Act)
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Behavioral Health Integration Initiative
@@ -9938,11 +9938,11 @@ Risks:
     Program_Name: Certified Community Behavioral Health Clinic Expansion Grants
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Chafee Education and Training Vouchers Program (ETV)
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Child Abuse and Neglect Discretionary Activities
@@ -9953,21 +9953,21 @@ Risks:
     Program_Name: Child Abuse and Neglect State Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Child Care Disaster Relief
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Child Care and Development Fund (CCDF)
     Slug: hhs-child-care-and-development-fund-ccdf
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'Yes'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Child Health and Human Development Extramural Research
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Child Health and Human Development Extramural Research Projects
@@ -10017,37 +10017,37 @@ Risks:
     Program_Name: Child Support Services
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Child Support Services Research
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Child Welfare Research Training or Demonstration
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Childhood Lead Poisoning Prevention Projects, State and Local Childhood
       Lead Poisoning Prevention and Surveillance of Blood Lead Levels in Children
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Children's Health Insurance Program (CHIP)
     Slug: hhs-children-s-health-insurance-program-chip
-    Susceptible: null
+    Susceptible: 'Yes'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Children's Hospitals Graduate Medical Education Payment Program
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Children's Justice Grants to States
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: 'Chronic Diseases: Research, Control, and Prevention'
@@ -10105,11 +10105,11 @@ Risks:
     Program_Name: Community Services Block Grant Discretionary Awards
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Community-Based Child Abuse Prevention Grants
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Complementary and Integrative Health - Other Research
@@ -10146,12 +10146,12 @@ Risks:
       Activities
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Comprehensive Community Mental Health Services for Children with
       Serious Emotional Disturbances (SED)
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Congressional Directives
@@ -10258,11 +10258,11 @@ Risks:
     Program_Name: Diabetes, Digestive, Kidney Extramural Research - Training, Institutional
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Diabetes, Digestive, and Kidney Diseases Extramural Research
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Dietary Supplement Research Program
@@ -10285,11 +10285,11 @@ Risks:
       Improve Human Health
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Drug Use and Addiction Research Programs
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Drug Use and Addiction Research Programs - Other Research
@@ -10348,12 +10348,12 @@ Risks:
       Enhanced Airport Entrance Screenings from Affected Countries in West Africa
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Education and Prevention Grants to Reduce Sexual Abuse of Runaway,
       Homeless and Street Youth
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Elder Abuse Prevention Interventions Program
@@ -10409,11 +10409,11 @@ Risks:
       Ability to Prepare for and Respond to All - Hazards Events
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Enhance Safety of Children Affected by Substance Abuse
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Enhance the Ability of Emergency Medical Services (EMS) to transport
@@ -10504,12 +10504,12 @@ Risks:
     Program_Name: Expanding Access to Women's Health Grant
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Extramural Research Programs in the Neurosciences and Neurological
       Disorders
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: 'Extramural Research Restoration Program: Hurricanes Fiona and Ian'
@@ -10610,11 +10610,11 @@ Risks:
     Program_Name: Food and Drug Administration Research
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Foster Care Title IV-E
     Slug: hhs-foster-care-title-iv-e
-    Susceptible: null
+    Susceptible: 'Yes'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Gabriella Miller Kids First Pediatric Research
@@ -10674,11 +10674,11 @@ Risks:
       to HIV Disease
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Grants to States for Access and Visitation Programs
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Grants to States for Loan Repayment
@@ -10694,11 +10694,11 @@ Risks:
     Program_Name: Grants to States to Support Oral Health Workforce Activities
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Guardianship Assistance
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: HIV Care Formula Grants
@@ -10780,11 +10780,11 @@ Risks:
     Program_Name: Hazardous Waste Worker Health and Safety Training Program – SBIR
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Head Start
     Slug: hhs-head-start
-    Susceptible: null
+    Susceptible: 'Yes'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Health Care and Public Health (HPH) Sector Information Sharing and
@@ -10848,11 +10848,11 @@ Risks:
       under the President's Emergency Plan for AIDS Relief
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Healthy Marriage Promotion and Responsible Fatherhood Grants
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Healthy Start Initiative
@@ -10975,11 +10975,11 @@ Risks:
     Program_Name: Indian Health Service Behavioral Health Programs
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Indian Health Service Community Health Aide Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Indian Health Service Domestic Violence Forensic Healthcare Services
@@ -11058,11 +11058,11 @@ Risks:
     Program_Name: Innovations in Applied Public Health Research
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Integrated Care for Kids Model
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Integrated Services for Pregnant and Postpartum Women
@@ -11090,12 +11090,12 @@ Risks:
       Understand Down syndromE
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: John H. Chafee Foster Care Program for Successful Transition to
       Adulthood
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Kinship Navigators
@@ -11171,16 +11171,16 @@ Risks:
       Evaluation Grants
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Medicaid
     Slug: hhs-medicaid
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'Yes'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Medical Library Assistance
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Medical Reserve Corps Small Grant Program
@@ -11191,26 +11191,26 @@ Risks:
     Program_Name: Medical Student Education
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Medicare Advantage (Part C)
     Slug: hhs-medicare-advantage-part-c
-    Susceptible: null
+    Susceptible: 'Yes'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Medicare Enrollment Assistance Program
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Medicare Fee-For-Service (FFS)
     Slug: hhs-medicare-fee-for-service-ffs
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'Yes'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Medicare Prescription Drug Benefit (Part D)
     Slug: hhs-medicare-prescription-drug-benefit-part-d
-    Susceptible: null
+    Susceptible: 'Yes'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Mental Health Disaster Assistance and Emergency Mental Health
@@ -11246,11 +11246,11 @@ Risks:
     Program_Name: Mental Health Research - Training, Institutional
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Mental Health Research Grants
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Mental and Behavioral Health Education and Training Grants
@@ -11392,11 +11392,11 @@ Risks:
     Program_Name: National Cancer Institute Research - Training, Institutional
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: National Center for Advancing Translational Sciences
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: National Center for Advancing Translational Sciences - Clinical
@@ -11806,11 +11806,11 @@ Risks:
     Program_Name: Nursing Home Staffing Campaign
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Nursing Research
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Nursing Research - Centers
@@ -11906,11 +11906,11 @@ Risks:
     Program_Name: Opioid STR
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Oral Diseases and Disorders Research
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Oral Diseases and Disorders Research - Intramural Research
@@ -11989,11 +11989,11 @@ Risks:
       Chronic Disease Prevention and Health Promotion
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Payments to Territories - Adults
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Pediatric Mental Health Care Access Grants
@@ -12080,11 +12080,11 @@ Risks:
       Programs
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Projects for Assistance in Transition from Homelessness (PATH)
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Promote the Survival and Continuing Vitality of Native American
@@ -12109,11 +12109,11 @@ Risks:
       Public Health Impact, Systems, Capacity and Security'
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Protection and Advocacy for Individuals with Mental Illness
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Provider Relief Fund and American Rescue Plan (ARP) Rural Distribution
@@ -12147,11 +12147,11 @@ Risks:
       (The PHIT Workforce Development Program)
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Public Health Nursing
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Public Health Preparedness and Response Science, Research, and Practice
@@ -12183,32 +12183,32 @@ Risks:
     Program_Name: 'Rare Disorders: Research, Surveillance, Health Promotion, and Education'
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Refugee and Entrant Assistance Discretionary Grants
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Refugee and Entrant Assistance State/Replacement Designee Administered
       Programs
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Refugee and Entrant Assistance Targeted Assistance Grants
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Refugee and Entrant Assistance Voluntary Agency Programs
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Refugee and Entrant Assistance Wilson/Fish Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Research Infrastructure Programs
@@ -12284,21 +12284,21 @@ Risks:
       Institutional (TI)
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Research and Training in Complementary and Integrative Health
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Research on Healthcare Costs, Quality and Outcomes
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Research on Research Integrity
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Research, Monitoring and Outcomes Definitions for Vaccine Safety
@@ -12394,16 +12394,16 @@ Risks:
       Services
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Services to Victims of a Severe Form of Trafficking
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Sexual Risk Avoidance Education
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Sexually Transmitted Diseases (STD) Prevention and Control Grants
@@ -12550,22 +12550,22 @@ Risks:
       (Title XVIII) Medicare
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: State Vital Statistics Improvement Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: State and Regional Primary Care Associations (PCAs), National Technical
       Assistance Programs (NTAPs), and Health Centered Controlled Networks (HCCNs)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Stephanie Tubbs Jones Child Welfare Services Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Strengthening Emergency Care Delivery in the United States Healthcare
@@ -12620,13 +12620,13 @@ Risks:
     Program_Name: Substance Use Disorder Treatment and Recovery Loan Repayment Program
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Support for Ombudsman and Beneficiary Counseling Programs for States
       Participating in Financial Alignment Model Demonstrations for Dually Eligible
       Individuals
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Supporting and Maintaining a Surveillance System for Chronic Kidney
@@ -12654,11 +12654,11 @@ Risks:
     Program_Name: Technical Assistance to Increase Tobacco Cessation
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Teenage Pregnancy Prevention Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Telehealth Centers of Excellence
@@ -12689,11 +12689,11 @@ Risks:
     Program_Name: Telehealth Training and Workforce Development
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Temporary Assistance for Needy Families (TANF)
     Slug: hhs-temporary-assistance-for-needy-families-tanf
-    Susceptible: null
+    Susceptible: 'Yes'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: 'The Healthy Brain Initiative: Technical Assistance to Implement
@@ -12728,27 +12728,27 @@ Risks:
     Program_Name: The Undiagnosed Disease Network
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2023'
     MethodologyChanged: 0
     Program_Name: Title IV-E Kinship Navigator Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Title IV-E Prevention Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Title V Sexual Risk Avoidance Education Program (Discretionary Grants)
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Title V State Sexual Risk Avoidance Education (Title V State SRAE)
       Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: 'Title: Multiple Approaches to Support Young Breast Cancer Survivors
@@ -12781,11 +12781,11 @@ Risks:
     Program_Name: Transforming Maternal Health (TMaH) Model
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Transitional Living for Homeless Youth
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Translation and Implementation Science Research for Heart, Lung,
@@ -12797,11 +12797,11 @@ Risks:
     Program_Name: Traumatic Brain Injury State Demonstration Grant Program
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Tribal Maternal, Infant, and Early Childhood Home Visiting
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Tribal Public Health Capacity Building and Quality Improvement Umbrella
@@ -12845,11 +12845,11 @@ Risks:
     Program_Name: U.S. Repatriation
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Unaccompanied Alien Children Program
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Undergraduate Scholarship Program for Individuals from Disadvantaged
@@ -12867,21 +12867,21 @@ Risks:
     Program_Name: Urban Indian Health Program (Education and Research)
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Urban Indian Health Services
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Viral Hepatitis Prevention and Control
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Vision Research
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Vision Research - Other Research
@@ -12972,9 +12972,9 @@ detail_Additional_IP_Information: 'HHS continues to strengthen its payment integ
   and Corrective Action Plan oversight produced measurable results: all reporting
   states achieved improper payment rates below the 10 percent threshold in RY 2026,
   including one state that reduced its rate from 15.89 percent in RY 2023 to 8.87
-  percent. In Head Start, HHS conducted a formal rereview of FY 2025 transactions
+  percent. In Head Start, HHS conducted a formal rereview of RY 2025 transactions
   that resolved all 173 unknown payments upon receipt of additional documentation,
-  recalculating the reported improper payment rate from 10.29 percent to 0.80 percent
+  recalculating the reported improper payment rate from 10.29 percent to 0.84 percent
   — demonstrating that recipients can provide complete documentation with adequate
   support and that the initial rate reflected documentation access challenges rather
   than underlying payment inaccuracy.
@@ -13030,32 +13030,32 @@ detail_DNP_Discussion: "HHS uses Treasury's Do Not Pay (DNP) system at multiple 
   \ portal for eligibility reviews at earlier stages of the award and payment process.\n\
   \nPayments Reviewed and Improper Payments Prevented or Recovered\n\nBetween January\
   \ 23, 2026 and September 30, 2026, Treasury's Payment Verification service screened\
-  \ approximately 1.4 million HHS payments valued at approximately $712.9 billion\
-  \ prior to certification and disbursement, returning 1,417 payments associated with\
-  \ deceased payees — valued at $868,831 — before payment processing was completed.\n\
-  \nAs of September 30, 2026, the HHS Payment Management System submitted approximately\
-  \ 23,428 enrolled grantees for daily Continuous Monitoring screening. CMS submitted\
-  \ approximately 5.8 million potential payees and HRSA submitted approximately 150\
-  \ potential payees for recurring screening against applicable DNP data sources.\n\
-  \nIn FY 2026, CMS screened over 1.1 billion Medicare and Medicaid payments through\
-  \ Treasury's DNP portal, stopping 324,690 payments and preventing an estimated $2.74\
-  \ billion in improper payments.\n\nExcept for CMS prevention results reported above,\
-  \ HHS cannot reliably quantify the number or dollar amount of improper payments\
-  \ prevented or recovered through its other DNP screening activities or calculate\
-  \ a comprehensive Department-wide total. DNP activities are decentralized, matches\
-  \ may occur at multiple stages of the payment lifecycle, and certain matches — such\
-  \ as Treasury Offset Program matches — support offset or debt collection actions\
-  \ rather than payment prevention. DNP match results therefore cannot be directly\
-  \ aggregated into a Department-wide prevention or recovery total. DNP services strengthen\
-  \ HHS's payment integrity framework by identifying potentially ineligible recipients\
-  \ and high-risk transactions before disbursement and through ongoing monitoring.\
-  \ \n\nIncorrect Information Identified in DNP Data Sources\n\nHHS does not maintain\
-  \ a centralized mechanism for tracking incorrect information in DNP data sources.\
-  \ However, match accuracy challenges have been observed, particularly with name-based\
-  \ matching that may produce false positives or false negatives. Treasury and HHS\
-  \ continue to improve match quality through expanded use of Taxpayer Identification\
-  \ Number verification and inclusion of TIN Type data in payment files, enhancements\
-  \ expected to increase true-positive match rates and reduce false positives.\n"
+  \ approximately 1.4M HHS payments valued at approximately $712.9B prior to certification\
+  \ and disbursement, returning 1,417 payments associated with deceased payees — valued\
+  \ at $868,831 — before payment processing was completed.\n\nAs of September 30,\
+  \ 2026, the HHS Payment Management System submitted approximately 23,428 enrolled\
+  \ grantees for daily Continuous Monitoring screening.  CMS submitted approximately\
+  \ 5.8M potential payees and HRSA submitted approximately 150 potential payees for\
+  \ recurring screening against applicable DNP data sources.\n\nIn FY 2026, CMS screened\
+  \ over 1.1B Medicare and Medicaid payments through Treasury's DNP portal, stopping\
+  \ 324,690 payments and preventing an estimated $2.74B in improper payments.\n\n\
+  Except for CMS prevention results reported above, HHS cannot reliably quantify the\
+  \ number or dollar amount of improper payments prevented or recovered through its\
+  \ other DNP screening activities or calculate a comprehensive Department-wide total.\
+  \ DNP activities are decentralized, matches may occur at multiple stages of the\
+  \ payment lifecycle, and certain matches — such as Treasury Offset Program matches\
+  \ — support offset or debt collection actions rather than payment prevention. DNP\
+  \ match results therefore cannot be directly aggregated into a Department-wide prevention\
+  \ or recovery total. DNP services strengthen HHS's payment integrity framework by\
+  \ identifying potentially ineligible recipients and high-risk transactions before\
+  \ disbursement and through ongoing monitoring. \n\nIncorrect Information Identified\
+  \ in DNP Data Sources\n\nHHS does not maintain a centralized mechanism for tracking\
+  \ incorrect information in DNP data sources. However, match accuracy challenges\
+  \ have been observed, particularly with name-based matching that may produce false\
+  \ positives or false negatives. Treasury and HHS continue to improve match quality\
+  \ through expanded use of Taxpayer Identification Number verification and inclusion\
+  \ of Taxpayer Identification Number Type data in payment files, enhancements expected\
+  \ to increase true-positive match rates and reduce false positives."
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
@@ -13080,23 +13080,22 @@ detail_Executive_Summary: "The U.S. Department of Health and Human Services (HHS
   \ HHS's ongoing efforts to prevent improper payments, improve compliance with PIIA,\
   \ and strengthen stewardship of Federal funds.\n\nRisk Assessments\n\nHHS conducts\
   \ risk assessments on a rolling triennial cycle, assessing each program with outlays\
-  \ over $10 million that is not already reporting annual improper payment estimates.\
-  \ In FY 2026, HHS completed 84 risk assessments for programs with annual outlays\
-  \ over $10 million and identified no new programs as likely to be susceptible to\
-  \ significant improper payments. Programs not scheduled for assessment in FY 2026\
-  \ were monitored through ongoing oversight activities, internal controls reviews,\
-  \ and continuous use of federal data matching tools.\n\nImproper Payment Estimates\n\
-  \nHHS published improper and unknown payment estimates for 9 risk-susceptible programs\
-  \ in RY 2026: Medicare Fee-for-Service (Parts A and B), Medicare Advantage (Part\
-  \ C), Medicare Prescription Drug Benefit (Part D), Medicaid, the Children's Health\
-  \ Insurance Program (CHIP), the Advance Payments of the Premium Tax Credit (APTC),\
-  \ Foster Care, the Child Care and Development Fund (CCDF), and Head Start. The Temporary\
-  \ Assistance for Needy Families (TANF) program does not report an improper payment\
-  \ estimate due to statutory limitations that preclude HHS from requiring states\
-  \ to participate in a TANF improper payment measurement.\n\nAcross these programs,\
-  \ HHS estimated $ 113.90 billion (6.18 percent of total outlays) in improper and\
-  \ unknown payments in RY 2026. This represents an increase of $15.56 billion and\
-  \ 0.29 percentage points from the $98.34 billion (5.89 percent) reported in RY 2025.\
+  \ over $10M that is not already reporting annual improper payment estimates. In\
+  \ FY 2026, HHS completed 84 risk assessments for programs with annual outlays over\
+  \ $10M and identified no new programs as likely to be susceptible to significant\
+  \ improper payments. Programs not scheduled for assessment were monitored through\
+  \ ongoing oversight activities, internal controls reviews, and continuous use of\
+  \ federal data matching tools.\n\nImproper Payment Estimates\n\nHHS published improper\
+  \ and unknown payment estimates for 9 risk-susceptible programs in RY 2026: Medicare\
+  \ Fee-for-Service (Parts A and B), Medicare Advantage (Part C), Medicare Prescription\
+  \ Drug Benefit (Part D), Medicaid, the Children's Health Insurance Program (CHIP),\
+  \ the Advance Payments of the Premium Tax Credit (APTC), Foster Care, the Child\
+  \ Care and Development Fund (CCDF), and Head Start. The Temporary Assistance for\
+  \ Needy Families (TANF) program does not report an improper payment estimate due\
+  \ to statutory limitations that preclude HHS from requiring states to participate\
+  \ in a TANF improper payment measurement.\n\nAcross risk-susceptible programs, HHS\
+  \ estimated $113.90B (6.18 percent) in improper and unknown payments in RY 2026,\
+  \ an increase of 0.29 percentage points from 5.89 percent ($98.34B) in RY 2025.\
   \ The increase primarily reflects continued errors in Medicaid and CHIP eligibility\
   \ determinations and provider screening as states completed the unwinding of COVID-19\
   \ public health emergency flexibilities, partially offset by a significant decrease\
@@ -13104,160 +13103,267 @@ detail_Executive_Summary: "The U.S. Department of Health and Human Services (HHS
   \ most common root causes of improper payments were insufficient documentation,\
   \ eligibility determination errors, and state compliance with federal requirements.\n\
   \nCorrective Actions\n\nHHS continued to advance corrective actions designed to\
-  \ prevent and reduce improper payments. Key efforts in FY 2026 included:\n•\tPre-payment\
+  \ prevent and reduce improper payments. Key efforts in FY 2026 included:\n\n• Pre-payment\
   \ controls and eligibility verification: Treasury activated Payment Verification\
   \ screening for all HHS payments initiated through Treasury's Standard Payment Request\
-  \ beginning April 9, 2026, screening 1.12 million payments worth $393 billion and\
-  \ returning, rather than disbursing,1,417 payments for deceased payees. This service\
-  \ replaced a prior one that disbursed such payments and merely notified the payor\
-  \ agency of the death. HHS also expanded access to the Death Master File by providing\
-  \ states the ability to screen Medicaid beneficiaries through the Data Exchange\
-  \ System, extending use beyond provider screening, and continued use of the Public\
-  \ Assistance Reporting Information System for cross-state eligibility verification.\n\
-  •\tProvider and eligibility oversight: HHS conducted onsite visits to 43 states\
-  \ to assess Medicaid provider screening and enrollment compliance, initiated Medicaid\
-  \ beneficiary eligibility audits covering renewal compliance and immigration status\
-  \ verification, and initiated 1,553 new Risk Adjustment Data Validation audits of\
-  \ Medicare Advantage contracts from payment years 2020, 2021, and 2024.\n•\tFraud\
-  \ detection and payment suspensions: Through the Fraud Defense Operations Center,\
-  \ HHS used advanced data analytics and real-time investigations to identify and\
-  \ act on high-risk payments, suspending $1.98 billion in payments. Through the Hospice\
-  \ Rapid Payment Suspension Project, HHS suspended payments to 822 hospices with\
-  \ unusually high live discharge rates.\n•\tTraining and technical assistance: HHS\
-  \ provided targeted training and technical assistance to states, providers, and\
-  \ grantees to address root causes of improper payments. The Medicaid Integrity Institute\
-  \ delivered over 80 hours of training to approximately 3,787 state and territory\
-  \ Medicaid program integrity staff, covering coding, compliance, and program integrity\
-  \ topics through virtual courses and in-person engagement. The Children's Bureau\
-  \ conducted 16 Title IV-E reviewer training sessions reaching 137 state and federal\
-  \ staff. The Office of Head Start delivered fiscal integrity and specialized documentation\
-  \ training to Head Start recipients, with over 90 percent of improper payment review\
-  \ participants attending documentation training and reporting improved clarity on\
-  \ submission requirements. The Office of Child Care delivered training and technical\
-  \ assistance on sampling, case review, and error analysis to states reporting improper\
-  \ payment rates in FY 2026, reaching staff from all reporting states, and expanded\
-  \ program integrity training through national and regional initiatives including\
-  \ Peer Learning Groups focused on oversight, risk management, and fraud prevention.\n\
-  •\tAutomation and system improvements: HHS implemented automation improvements in\
-  \ the Advance Payments of the Premium Tax Credit program, including enhanced person\
-  \ matching and overlap detection scripts that acted on approximately 39,000 duplicate\
+  \ beginning April 9, 2026, screening 1.12M payments worth $393B and returning, rather\
+  \ than disbursing, 1,417 payments for deceased payees. This service replaced a prior\
+  \ one that disbursed such payments and merely notified the payor agency of the death.\
+  \ HHS also expanded access to the Death Master File by providing states the ability\
+  \ to screen Medicaid beneficiaries through the Data Exchange System, extending use\
+  \ beyond provider screening, and continued use of the Public Assistance Reporting\
+  \ Information System for cross-state eligibility verification.\n\n• Provider and\
+  \ eligibility oversight: HHS conducted onsite visits to 43 states to assess Medicaid\
+  \ provider screening and enrollment compliance, initiated Medicaid beneficiary eligibility\
+  \ audits covering renewal compliance and immigration status verification, and initiated\
+  \ 1,553 new Risk Adjustment Data Validation audits of Medicare Advantage contracts\
+  \ from payment years 2020, 2021, and 2024.\n\n• Fraud detection and payment suspensions:\
+  \ Through the Fraud Defense Operations Center, HHS used advanced data analytics\
+  \ and real-time investigations to identify and act on high-risk payments, suspending\
+  \ $1.98B in payments. Through the Hospice Rapid Payment Suspension Project, HHS\
+  \ suspended payments to 822 hospices with unusually high live discharge rates.\n\
+  \n• Training and technical assistance: HHS provided targeted training and technical\
+  \ assistance to states, providers, and grantees to address root causes of improper\
+  \ payments. The Medicaid Integrity Institute delivered over 80 hours of training\
+  \ to approximately 3,787 state and territory Medicaid program integrity staff, covering\
+  \ coding, compliance, and program integrity topics through virtual courses and in-person\
+  \ engagement. In the Foster Care Program, HHS conducted 16 Title IV-E reviewer training\
+  \ sessions reaching 137 state and federal staff. For Head Start recipients, HHS\
+  \ delivered fiscal integrity and specialized documentation training, with over 90\
+  \ percent of improper payment review participants attending documentation training\
+  \ and reporting improved clarity on submission requirements. For CCDF, HHS delivered\
+  \ training and technical assistance on sampling, case review, and error analysis\
+  \ to states reporting improper payment in RY 2026 and expanded program integrity\
+  \ training through national and regional initiatives including Peer Learning Groups\
+  \ focused on oversight, risk management, and fraud prevention.\n\n• Automation and\
+  \ system improvements: HHS implemented automation improvements in the Advance Payments\
+  \ of the Premium Tax Credit program, including enhanced person matching and overlap\
+  \ detection scripts that terminated or cancelled approximately 39,000 duplicate\
   \ enrollment policies through June 2026, and updated data matching issue expiration\
   \ processing effective July 1, 2026, to align with regulatory requirements and prevent\
   \ consumers from receiving premium tax credits beyond their allotted resolution\
-  \ period. The Office of Head Start deployed a data validation tool that reduced\
-  \ recipient follow-ups from an average of 3 to 5 to 1 to 2 per review, and lengthened\
-  \ the improper payment review period, resulting in a reduction in extension requests\
-  \ of over 15 percent.\n•\tDemonstrated improvements: Corrective actions implemented\
-  \ in prior years produced measurable results in FY 2026. In the Child Care and Development\
-  \ Fund program, all reporting states achieved improper payment rates below the 10\
-  \ percent threshold in RY 2026, including one state that reduced its rate from 15.89\
-  \ percent in RY 2023 to 8.87 percent following targeted technical assistance and\
-  \ a Corrective Action Plan. In the Head Start program, a formal re-review of FY\
-  \ 2025 transactions — giving recipients additional opportunity to submit required\
-  \ documentation — recalculated the reported improper payment rate from 10.29 percent\
-  \ to 0.80 percent, with all 173 unknown payments resolved upon receipt of additional\
-  \ documentation.\n\nAdditional detail on program-specific corrective actions, including\
-  \ reduction targets and corrective action plans for each risk-susceptible program,\
-  \ is available on PaymentAccuracy.gov.\n\nPIIA Compliance Status for FY 2025\n\n\
-  HHS was not fully compliant with PIIA for FY 2025. The HHS Office of Inspector General\
-  \ (OIG) identified nine findings across ten risk-susceptible programs. HHS is actively\
-  \ addressing each finding through expanded corrective actions, enhanced internal\
-  \ controls, and increased coordination with states, contractors, and program partners.\
-  \ Two programs — Medicare Fee-for-Service (Parts A and B) and the Child Care and\
-  \ Development Fund — achieved full compliance with all applicable PIIA requirements\
-  \ in FY 2025, reflecting the Department's sustained progress in payment integrity\
-  \ improvement.\n\nThe OIG's findings and HHS's planned corrective actions are summarized\
-  \ below. Full program-level compliance determinations are available in the PIIA\
-  \ Compliance Reporting Table on PaymentAccuracy.gov.\n\n1.\tRisk Assessment Coverage\
-  \ — Agency Wide: The OIG found that HHS did not complete improper payment risk assessments\
+  \ period. HHS also deployed a data validation tool in the Head Start program that\
+  \ reduced recipient follow-ups from an average of 3 to 5 to 1 to 2 per review, and\
+  \ lengthened the improper payment review period, resulting in a reduction in extension\
+  \ requests of over 15 percent.\n\n• Demonstrated improvements: Corrective actions\
+  \ implemented in prior years produced measurable results in FY 2026. In the CCDF\
+  \ program, all reporting states achieved improper payment rates below the 10 percent\
+  \ threshold in RY 2026, including one state that reduced its rate from 15.89 percent\
+  \ in RY 2023 to 8.87 percent following targeted technical assistance and a Corrective\
+  \ Action Plan. In the Head Start program, a final adjudication of transactions sampled\
+  \ in the RY 2025 improper payment review recalculated the reported improper payment\
+  \ rate from 10.29 percent to 0.84 percent, with all 173 unknown payments resolved\
+  \ upon receipt of additional documentation.\n\n\nPIIA Compliance Status for FY 2025\n\
+  \nHHS was not fully compliant with PIIA for FY 2025. The HHS Office of Inspector\
+  \ General (OIG) identified nine findings across ten risk-susceptible programs. HHS\
+  \ is actively addressing each finding through expanded corrective actions, enhanced\
+  \ internal controls, and increased coordination with states, contractors, and program\
+  \ partners. Two programs — Medicare Fee-for-Service (Parts A and B) and the Child\
+  \ Care and Development Fund — achieved full compliance with all applicable PIIA\
+  \ requirements in FY 2025, reflecting the Department's sustained progress in payment\
+  \ integrity improvement.\n\nThe OIG's findings and HHS's planned corrective actions\
+  \ are summarized below.\n\n1. Risk Assessment Coverage — Agency Wide: The OIG found\
+  \ that HHS did not complete improper payment risk assessments for all programs with\
+  \ annual outlays greater than $10M at least once every three years. HHS updated\
+  \ its program inventory in FY 2026 to align with the Federal Program Inventory as\
+  \ directed by OMB, identifying 281 programs and activities across the Department\
+  \ subject to the three-year assessment cycle. Of these, approximately 85 percent\
+  \ have completed a risk assessment within the past three years, reflecting sustained\
+  \ progress toward full compliance. HHS is committed to achieving full assessment\
+  \ coverage of all qualifying programs by FY 2028 and is implementing process enhancements\
+  \ to support this goal, including extending the risk assessment period, maintaining\
+  \ a complete cycle-status inventory, streamlining the risk assessment questionnaire,\
+  \ and applying a modified approach for programs with outlays between $10M and $100M.\n\
+  \n2. TANF — No Estimate Reported: HHS did not calculate or report an improper payment\
+  \ estimate for the TANF program due to statutory limitations under 42 U.S.C. § 617,\
+  \ which preclude HHS from requiring states to participate in a TANF improper payment\
+  \ measurement. HHS continues to advocate for legislative authority that would enable\
+  \ TANF improper payment measurement and will continue working with OMB and other\
+  \ stakeholders to identify viable pathways to full PIIA compliance for the TANF\
+  \ program.\n\n3. Foster Care — Incomplete State Coverage: The OIG found that the\
+  \ Foster Care improper payment estimate does not yet encompass the full population\
+  \ of states, as HHS uses a three-year review cycle to test all jurisdictions. HHS\
+  \ resumed Title IV-E reviews in FY 2024 following a COVID-19 pandemic pause, expanding\
+  \ to include 42 states in FY 2026. HHS now anticipates completing reviews covering\
+  \ all 50 states, the District of Columbia, and Puerto Rico by FY 2028. This timeline\
+  \ reflects a delay resulting from the implementation of a new information system\
+  \ that temporarily reduced the volume of Title IV-E claims available to support\
+  \ the required review sample.\n\n4. Head Start — Improper Payment Rate Above 10\
+  \ Percent: The Head Start program reported an improper payment and unknown payment\
+  \ rate of 10.298 percent in RY 2025, above the 10 percent PIIA compliance threshold.\
+  \ Following the initial measurement, HHS conducted a formal final adjudication review\
+  \ of RY 2025 transactions, allowing recipients additional time to submit required\
+  \ documentation and resolve improper payments identified during the initial review.\
+  \ Upon receipt of additional documentation, all 173 unknown payments were resolved,\
+  \ and the final adjudicated RY 2025 rate was 0.84 percent, demonstrating that the\
+  \ initial rate reflected documentation access challenges rather than underlying\
+  \ payment inaccuracy. In FY 2026, HHS implemented process changes to address these\
+  \ challenges, including lengthening the review timeline, deploying a data validation\
+  \ tool that reduced recipient follow-ups, and delivering specialized documentation\
+  \ training attended by review participants.\n\n5. Medicare Part C — Recovery Audit\
+  \ Delays: The OIG found that recovery audit activities for Medicare Advantage (Part\
+  \ C) were delayed, with Risk Adjustment Data Validation (RADV) audit recoveries\
+  \ not yet made or reported for payment years 2018 and 2019. In FY 2026, HHS continued\
+  \ RADV audits for payment years 2018 - 2021 and 2024 through an expanded audit methodology\
+  \ and issued audit findings for payment years 2014–2015. On September 25, 2025,\
+  \ the U.S. District Court for the Northern District of Texas vacated CMS’ 2023 RADV\
+  \ Final Rule, which would have allowed HHS to extrapolate audit results across an\
+  \ entire contract population and recover substantial amounts. HHS appealed this\
+  \ decision on November 21, 2025; nonetheless, HHS will fully comply with the district\
+  \ court’s order as long as it remains in effect, while continuing to pursue upcoming\
+  \ RADV payment year audits.\n\n6. APTC — State-based Exchange Measurement Gap: HHS\
+  \ has not calculated or reported an improper payment estimate for State-based Exchanges,\
+  \ which represents approximately 19.57 percent of total APTC payments. HHS plans\
+  \ to begin sampling and estimation on January 1, 2027, and report its first improper\
+  \ payment rate in FY 2028.\n\n7. Medicare Part C — Demonstrated Improvements: The\
+  \ OIG found that HHS did not effectively demonstrate improvements to the Medicare\
+  \ Part C payment integrity rate in FY 2025. In FY 2026, HHS conducted three national\
+  \ audits of plan sponsors, with one completed audit resulting in the recovery of\
+  \ $648,022, and continued outreach and education reaching approximately 1,016 Medicare\
+  \ Part C and Part D contracts through Health Plan Management System memos on high-risk\
+  \ drugs, audit findings, and best practices. HHS notes that at a 95 percent confidence\
+  \ level, the confidence intervals for RY 2024 (4.93–6.29 percent) and RY 2025 (5.40–6.78\
+  \ percent) overlap significantly, meaning the observed difference does not constitute\
+  \ a statistically meaningful change.  HHS will continue working with plan sponsors\
+  \ to improve payment accuracy and documentation practices.\n\n8. Medicare Part D\
+  \ — Demonstrated Improvements: The OIG found that HHS did not effectively demonstrate\
+  \ improvements to the Medicare Part D payment integrity rate in FY 2025. For details\
+  \ on FY 2026 plan sponsor audit and outreach activities that address both Medicare\
+  \ Part C and Part D, see Finding #7 above. HHS notes that the confidence intervals\
+  \ for FY 2024 (3.31–4.15 percent) and FY 2025 (3.57–4.46 percent) overlap, and the\
+  \ difference does not constitute a statistically meaningful change. \n\n9. Medicaid\
+  \ and CHIP — Demonstrated Improvements: The OIG found that HHS did not effectively\
+  \ demonstrate improvements to the Medicaid and CHIP payment integrity rates in FY\
+  \ 2025. HHS notes that rate increases are directly attributable to the unwinding\
+  \ of COVID-19 public health emergency flexibilities. In FY 2026, HHS conducted onsite\
+  \ visits to 43 states to assess provider screening and enrollment compliance, initiated\
+  \ audits in seven states to review whether states determined beneficiary eligibility\
+  \ correctly, and completed 18 state Medicaid Eligibility Quality Control reviews\
+  \ of Calendar Year 2025 eligibility determinations.\n\nHHS remains committed to\
+  \ achieving full PIIA compliance. In accordance with OMB guidance, HHS develops\
+  \ and submits annual compliance plans to OMB through the PaymentAccuracy.gov data\
+  \ call process, describing the actions the agency is taking to achieve compliance\
+  \ for each non-compliant program. For programs non-compliant for three or more consecutive\
+  \ years, including Foster Care, APTC, and TANF, HHS submits separate reports to\
+  \ Congress as required under PIIA and OMB Circular A-123, Appendix C, describing\
+  \ actions being taken and timelines for achieving compliance. HHS expects to demonstrate\
+  \ continued progress as corrective actions mature and operational improvements take\
+  \ effect."
+detail_OIG_Recommendations: "The OIG concluded that HHS was non-compliant with several\
+  \ PIIA requirements in FY 2025, identifying nine findings across ten risk-susceptible\
+  \ programs. The following summarizes the OIG's conclusions and recommendations for\
+  \ each non-compliant criterion and the actions and measurable milestones HHS has\
+  \ planned to achieve compliance.\n\nRisk Assessment Coverage — Agency-Wide (Finding\
+  \ #1): The OIG found that HHS did not conduct improper payment risk assessments\
   \ for all programs with annual outlays greater than $10 million at least once every\
-  \ three years. HHS updated its program inventory in FY 2026 to align with the Federal\
-  \ Program Inventory as directed by OMB, identifying 281 programs and activities\
-  \ across the Department subject to the three-year assessment cycle. Of these, approximately\
-  \ 85 percent have completed a risk assessment within the past three years, reflecting\
-  \ sustained progress toward full compliance. HHS is committed to achieving full\
-  \ assessment coverage of all qualifying programs by FY 2028 and is implementing\
-  \ process enhancements to support this goal, including extending the risk assessment\
-  \ period, maintaining a complete cycle-status inventory, streamlining the risk assessment\
-  \ questionnaire, and applying a modified approach for programs with outlays between\
-  \ $10 million and $100 million.\n2.\tTANF — No Estimate Reported: HHS did not calculate\
-  \ or report an improper payment estimate for the TANF program due to statutory limitations\
-  \ under 42 U.S.C. § 617, which preclude HHS from requiring states to participate\
-  \ in a TANF improper payment measurement. HHS continues to advocate for legislative\
-  \ authority that would enable TANF improper payment measurement and will continue\
-  \ working with OMB and other stakeholders to identify viable pathways to full PIIA\
-  \ compliance for the TANF program.\n3.\tFoster Care — Incomplete State Coverage:\
-  \ The OIG found that the Foster Care improper payment estimate does not yet encompass\
-  \ the full population of states, as HHS uses a three-year review cycle to test all\
-  \ jurisdictions. HHS resumed Title IV-E reviews in FY 2024 following a COVID-19\
-  \ pandemic pause, expanding to include 42 states in FY 2026. HHS now anticipates\
-  \ completing reviews covering all 50 states, the District of Columbia, and Puerto\
-  \ Rico by FY 2028. This timeline reflects a delay resulting from the implementation\
-  \ of a new information system that temporarily reduced the volume of Title IV-E\
-  \ claims available to support the required review sample.\n4.\tHead Start — Improper\
-  \ Payment Rate Above 10 Percent: The Head Start program reported an improper payment\
-  \ and unknown payment rate of 10.298 percent in FY 2025, above the 10 percent PIIA\
-  \ compliance threshold. Following the initial measurement, HHS conducted a formal\
-  \ final adjudication review of RY 2025 transactions, allowing recipients additional\
-  \ time to submit required documentation and resolve improper payments identified\
-  \ during the initial review. Upon receipt of additional documentation, all 173 unknown\
-  \ payments were resolved, and the final adjudicated RY 2025 rate was 0.84 percent,\
-  \ demonstrating that the initial rate reflected documentation access challenges\
-  \ rather than underlying payment inaccuracy. In FY 2026, HHS implemented process\
-  \ changes to address these challenges, including lengthening the review timeline,\
-  \ deploying a data validation tool that reduced recipient follow-ups, and delivering\
-  \ specialized documentation training attended by review participants.\n5.\tMedicare\
-  \ Part C — Recovery Audit Delays: The OIG found that recovery audit activities for\
-  \ Medicare Advantage (Part C) were delayed, with Risk Adjustment Data Validation\
-  \ (RADV) audit recoveries not yet made or reported for payment years 2018 and 2019.\
-  \ In FY 2026, HHS continued RADV audits for payment years 2018 - 2021 and 2024 through\
-  \ an expanded audit methodology and issued audit findings for payment years 2014–2015.\
-  \ On September 25, 2025, the U.S. District Court for the Northern District of Texas\
-  \ vacated CMS’ 2023 RADV Final Rule, which would have allowed HHS to extrapolate\
+  \ three years. The OIG recommended that HHS continue to enhance and implement policies\
+  \ and procedures to fulfill the three-year assessment requirement and work with\
+  \ OMB to implement an approach that meets the intent of PIIA. In response, HHS updated\
+  \ its program inventory in FY 2026 to align with the Federal Program Inventory.\
+  \ HHS is committed to achieving full assessment coverage by FY 2028 through process\
+  \ improvements including extending the risk assessment period, maintaining a complete\
+  \ cycle-status inventory, streamlining the risk assessment questionnaire, and applying\
+  \ a modified approach for programs with outlays between $10 million and $100 million.\n\
+  \nTANF — No Estimate Reported (Finding #2): The OIG found that HHS did not calculate\
+  \ or report an improper payment estimate for TANF due to statutory limitations under\
+  \ 42 U.S.C. § 617, which preclude HHS from requiring states to participate in a\
+  \ TANF improper payment measurement. The OIG recommended that HHS continue advocating\
+  \ for legislative changes and work with OMB and other stakeholders to develop and\
+  \ implement an approach to calculate and report a TANF estimate. HHS continues to\
+  \ advocate for the necessary legislative authority and works with OMB and Congress\
+  \ to identify viable pathways to full PIIA compliance for the TANF program. In the\
+  \ absence of measurement authority, HHS supports state program integrity through\
+  \ fraud risk assessments, PARIS data matching, and enforcement of the Systematic\
+  \ Alien Verification for Entitlements system.\n\nFoster Care — Incomplete State\
+  \ Coverage (Finding #3): The OIG found that the Foster Care improper payment estimate\
+  \ does not currently encompass the full population of states, as HHS uses a three-year\
+  \ review cycle and has completed reviews in only 26 states since resuming Title\
+  \ IV-E reviews in FY 2024. The OIG recommended that HHS continue to follow its plan\
+  \ to conduct Title IV-E reviews so that all states are included in the estimate\
+  \ by FY 2027. HHS now anticipates completing reviews covering all 50 states, the\
+  \ District of Columbia, and Puerto Rico by FY 2028, at which point a complete baseline\
+  \ and reduction target will be established and reported. This timeline reflects\
+  \ a delay resulting from the implementation of a new information system that temporarily\
+  \ reduced the volume of Title IV-E claims available to support the required review\
+  \ sample. In FY 2026, HHS expanded review coverage, conducted 16 Title IV-E reviewer\
+  \ training sessions, and provided quality improvement assistance to states through\
+  \ Program Improvement Plans.\n\nHead Start — Rate Above 10 Percent (Finding #4):\
+  \ The OIG found that the Head Start improper payment rate of 10.298 percent in FY\
+  \ 2025 exceeded the 10 percent PIIA compliance threshold and recommended that HHS\
+  \ focus on root causes and evaluate critical and feasible corrective actions to\
+  \ bring the rate below 10 percent. Following the initial measurement, HHS conducted\
+  \ a formal final adjudication review of RY 2025 transactions, allowing recipients\
+  \ additional time to submit required documentation and resolve improper payments\
+  \ identified during the initial review. Upon receipt of additional documentation,\
+  \ all 173 unknown payments were resolved, and the final adjudicated RY 2025 rate\
+  \ was 0.84 percent, demonstrating that the initial rate reflected documentation\
+  \ access challenges rather than underlying payment inaccuracy. In FY 2026, HHS implemented\
+  \ process changes to address these challenges, including lengthening the review\
+  \ timeline, deploying a data validation tool that reduced recipient follow-ups,\
+  \ and delivering specialized documentation training attended by review participants.\
+  \ HHS's measurable milestone is to bring the Head Start improper payment rate below\
+  \ 10 percent and sustain that level in future reporting cycles.\n\nMedicare Part\
+  \ C — Recovery Audit Delays (Finding #5): The OIG found that RADV audit recoveries\
+  \ had not yet been made or reported for payment years 2018 and 2019 and recommended\
+  \ that HHS improve recovery audit efforts and explore alternative recovery vehicles\
+  \ if RADV cannot effectively serve as the sole recovery audit strategy. In FY 2026,\
+  \ HHS initiated 1,553 new RADV audits covering payment years 2020, 2021, and 2024\
+  \ through an expanded audit methodology, and issued audit findings for payment years\
+  \ 2014–2015. On September 25, 2025, the U.S. District Court for the Northern District\
+  \ of Texas vacated CMS's 2023 RADV Final Rule, which would have allowed HHS to extrapolate\
   \ audit results across an entire contract population and recover substantial amounts.\
-  \ HHS appealed this decision on November 21, 2025; nonetheless, HHS will fully comply\
-  \ with the district court’s order as long as it remains in effect, while continuing\
-  \ to pursue upcoming RADV payment year audits.\n6.\tAPTC — State-based Exchange\
-  \ Measurement Gap: HHS has not calculated or reported an improper payment estimate\
-  \ for State-based Exchanges, which represents approximately 19.57 percent of total\
-  \ APTC payments. HHS plans to begin sampling and estimation on January 1, 2027,\
-  \ and report its first improper payment rate in FY 2028.\n7.\tMedicare Part C —\
-  \ Demonstrated Improvements: The OIG found that HHS did not effectively demonstrate\
-  \ improvements to the Medicare Part C payment integrity rate in FY 2025. In FY 2026,\
-  \ HHS conducted three national audits of plan sponsors, with one completed audit\
-  \ resulting in the recovery of $617,772, and continued outreach and education reaching\
-  \ approximately 1,016 Medicare Part C and Part D contracts through Health Plan Management\
-  \ System memos on high-risk drugs, audit findings, and best practices. HHS notes\
-  \ that at a 95 percent confidence level, the confidence intervals for FY 2024 (4.93–6.29\
-  \ percent) and FY 2025 (5.40–6.78 percent) overlap significantly, meaning the observed\
-  \ difference does not constitute a statistically meaningful change. HHS will continue\
-  \ working with plan sponsors to improve payment accuracy and documentation practices.\n\
-  8.\tMedicare Part D — Demonstrated Improvements: The OIG found that HHS did not\
-  \ effectively demonstrate improvements to the Medicare Part D payment integrity\
-  \ rate in FY 2025. For details on FY 2026 plan sponsor audit and outreach activities\
-  \ that address both Medicare Part C and Part D, see Finding #7 above. HHS notes\
+  \ HHS appealed this decision on November 21, 2025 and will fully comply with the\
+  \ district court's order as long as it remains in effect while continuing to pursue\
+  \ upcoming RADV payment year audits.\n\nAPTC — State-based Exchange Measurement\
+  \ Gap (Finding #6): The OIG found that HHS has not calculated or reported an improper\
+  \ payment estimate for State-based Exchanges and recommended that HHS continue working\
+  \ with OMB and stakeholders to implement the measurement program. \nIn May 2026,\
+  \ HHS published the Notice of Benefit and Payment Parameters for 2027 final rule,\
+  \ which included provisions to implement the State Exchange Improper Payment Measurement\
+  \ program. HHS plans to begin sampling and estimation on January 1, 2027, and report\
+  \ its first improper payment rate in FY 2028.\n\n\nMedicare Part C — Demonstrated\
+  \ Improvements (Finding #7): The OIG found that HHS did not effectively demonstrate\
+  \ improvements to the Medicare Part C payment integrity rate in FY 2025, noting\
+  \ that the rate increased from 5.61 percent in FY 2024 to 6.09 percent in FY 2025.\
+  \ The OIG recommended that HHS refine corrective action plans focused on medical\
+  \ record discrepancies and evaluate critical and feasible action steps to improve\
+  \ reduction targets. In FY 2026, HHS continued RADV audits as its primary corrective\
+  \ action, initiated a targeted review of In-Home Health Risk Assessment diagnoses\
+  \ for 35 contracts, and continued outreach to approximately 1,016 Medicare Part\
+  \ C and Part D contracts through Health Plan Management System memos on audit findings\
+  \ and best practices. For detail on FY 2026 plan sponsor audit and outreach activities,\
+  \ see Finding #8 below. HHS notes that at a 95 percent confidence level the confidence\
+  \ intervals for FY 2024 (4.93–6.29 percent) and FY 2025 (5.40–6.78 percent) overlap\
+  \ significantly, meaning the observed difference does not constitute a statistically\
+  \ meaningful change. \n\nMedicare Part D — Demonstrated Improvements (Finding #8):\
+  \ The OIG found that HHS did not effectively demonstrate improvements to the Medicare\
+  \ Part D payment integrity rate in FY 2025, noting that the rate increased from\
+  \ 3.70 percent in FY 2024 to 4.00 percent in FY 2025. The OIG recommended that HHS\
+  \ enhance corrective action plans focused on plan sponsor documentation and evaluate\
+  \ critical and feasible action steps to improve reduction targets. In FY 2026, HHS\
+  \ conducted three national plan sponsor audits with one completed audit recovering\
+  \ $617,772, and continued outreach reaching approximately 1,016 Medicare Part C\
+  \ and Part D contracts through Health Plan Management System memos on high-risk\
+  \ drugs, audit findings, and best practices. As with Medicare Part C, HHS notes\
   \ that the confidence intervals for FY 2024 (3.31–4.15 percent) and FY 2025 (3.75–4.46\
-  \ percent) overlap, and the difference does not constitute a statistically meaningful\
-  \ change. \n9.\tMedicaid and CHIP — Demonstrated Improvements: The OIG found that\
-  \ HHS did not effectively demonstrate improvements to the Medicaid and CHIP payment\
-  \ integrity rates in FY 2025. HHS notes that rate increases are directly attributable\
-  \ to the unwinding of COVID-19 public health emergency flexibilities. In FY 2026,\
-  \ HHS conducted onsite visits to 43 states to assess provider screening and enrollment\
-  \ compliance, initiated  audits in seven states to review whether states determined\
+  \ percent) overlap, and the observed difference does not constitute a statistically\
+  \ meaningful change. \n\nMedicaid and CHIP — Demonstrated Improvements (Finding\
+  \ #9): The OIG found that HHS did not effectively demonstrate improvements to the\
+  \ Medicaid and CHIP payment integrity rates in FY 2025, with Medicaid increasing\
+  \ from 5.09 percent to 6.12 percent and CHIP increasing from 6.11 percent to 7.05\
+  \ percent. The OIG recommended that HHS enhance corrective action plans focused\
+  \ on missing documentation, state noncompliance, and improper eligibility determinations,\
+  \ and work with states to improve payment accuracy. HHS notes that these increases\
+  \ are directly attributable to the unwinding of COVID-19 public health emergency\
+  \ flexibilities, which required states to simultaneously resume full eligibility\
+  \ redetermination processes for tens of millions of beneficiaries. In FY 2026, HHS\
+  \ conducted onsite visits to 43 states to assess provider screening and enrollment\
+  \ compliance, initiated audits in seven states to review whether states determined\
   \ beneficiary eligibility correctly, and completed 18 state Medicaid Eligibility\
   \ Quality Control reviews of Calendar Year 2025 eligibility determinations. HHS\
-  \ anticipates that as states complete redetermination cycles and operations normalize,\
-  \ improper payment rates will stabilize and trend downward, with the full impact\
-  \ of FY 2026 corrective actions expected to be reflected in measurements beginning\
-  \ in FY 2028.\n\nHHS remains committed to achieving full PIIA compliance. In accordance\
-  \ with OMB guidance, HHS develops and submits annual compliance plans to OMB through\
-  \ the PaymentAccuracy.gov data call process, describing the actions the agency is\
-  \ taking to achieve compliance for each non-compliant program. For programs non-compliant\
-  \ for three or more consecutive years, including Foster Care, APTC, and TANF, HHS\
-  \ submits separate reports to Congress as required under PIIA and OMB Circular A-123,\
-  \ Appendix C, describing actions being taken and timelines for achieving compliance.\
-  \ HHS expects to demonstrate continued progress as corrective actions mature and\
-  \ operational improvements take effect."
+  \ does not expect FY 2026 corrective actions to be fully reflected in the measured\
+  \ rate until FY 2028, when the first cycle of states measured after the conclusion\
+  \ of COVID-19 flexibilities will be included in the estimate."
 detail_Overpayment_Conditions_And_Methods: Improper payments identified through recovery
   audits typically arise from insufficient or missing documentation to support claims,
   inaccurate billing, unsupported diagnosis codes submitted for risk-adjusted payment,
@@ -13307,20 +13413,16 @@ detail_PIIA_Official: 'TANF: David Swegle, Director, Office of Family Assistance
 
 
   CMS Programs: Tim Helms, Director of the Center for Program Integrity, Jeneen Iwugo,
-  Principal Deputy Director, Jennifer Dupee and Larry Young, Deputy Directors
-
-  '
+  Principal Deputy Director, Jennifer Dupee and Larry Young, Deputy Directors'
 detail_Recovery_Audits_Skipped: 'Yes'
-detail_Recovery_Justifications_Audits: '
-
-  For Medicaid and CHIP, recovery audit contractor programs are state-run, and HHS
-  does not collect information supporting a determination that identified improper
-  payments are uncollectible. For other programs, HHS reports that identified improper
-  payments are recoverable. In Medicare Part C, no amounts have been recovered during
-  the current reporting period, and identified overpayments from PY 2014 and PY 2015
-  remain outstanding. These overpayments have not been deemed uncollectible; collection
-  activities will begin after the appeals process is completed and debt letters and
-  collection procedures are finalized.'
+detail_Recovery_Justifications_Audits: For Medicaid and CHIP, recovery audit contractor
+  programs are state-run, and HHS does not collect information supporting a determination
+  that identified improper payments are uncollectible. For other programs, HHS reports
+  that identified improper payments are recoverable. In Medicare Part C, no amounts
+  have been recovered during the current reporting period, and identified overpayments
+  from PY 2014 and PY 2015 remain outstanding. These overpayments have not been deemed
+  uncollectible; collection activities will begin after the appeals process is completed
+  and debt letters and collection procedures are finalized.
 detail_Recovery_Not_Cost_Effective_Justification: HHS determines that recovery audits
   are not cost-effective for certain programs due to low recoverable amounts, the
   presence of existing controls that already identify and mitigate improper payments,
@@ -13350,10 +13452,10 @@ recovery_Aging_of_Outstanding_OP_Identified_Amt_0_-_6_months: 148.3
 recovery_Aging_of_Outstanding_OP_Identified_Amt_6_months_to_1_year: 101.55
 recovery_Aging_of_Outstanding_OP_Identified_determined_not_collectable: 25.51
 recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 21786.95
-recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 1465.4
-recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 14809.83
-recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 946.8
-recovery_Recovery_Audit_Amount_Outstanding_Rate: 17.049952232
-recovery_Total_Overpayment_Amount_Identified: 23252.35
-recovery_Total_Overpayment_Amount_Recovered: 15756.63
+recovery_OP_Amt_Identified_through_Payment_Recapture_Audits: 1464.85
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 14832.52
+recovery_OP_Amt_Recaptured_through_Payment_Recapture_Audits: 990.74
+recovery_Recovery_Audit_Amount_Outstanding_Rate: 17.056353893
+recovery_Total_Overpayment_Amount_Identified: 23251.8
+recovery_Total_Overpayment_Amount_Recovered: 15823.26
 ---

@@ -1330,10 +1330,9 @@ Data_By_Year:
   Margin_of_Error: '3.097'
   Non_Monetary_Loss_Amount: '13.48'
   Outlays: 363.74
-  Overpayment_Combined_Mitigations_Planned: '[app2]Behavioral/Psych Influence, [app3]Training'
-  Overpayment_Combined_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych
-    Influence, [atp3]Training, [atp4]Change Process, [atp5]Cross Enterprise Sharing,
-    [atp8]Statutory Change'
+  Overpayment_Combined_Mitigations_Planned: Behavioral/Psych Influence, Training
+  Overpayment_Combined_Mitigations_Taken: Automation, Behavioral/Psych Influence,
+    Change Process, Cross Enterprise Sharing, Statutory Change, Training
   Payment_Accuracy_Rate: 94.54555451696267
   Program_Additional_Information: "The agency reviewed and refined FY 2026 testing\
     \ criteria so that payments are evaluated solely against statute and regulation,\
@@ -1363,14 +1362,12 @@ Data_By_Year:
     the resources necessary to maintain and further reduce improper payments without
     requiring new or expanded budget authority.
   Start_Date: 10/2024
-  Technical_IP_Actions_Planned: '[app2]Behavioral/Psych Influence, [app3]Training'
-  Technical_IP_Actions_Taken: '[atp1]Automation, [atp2]Behavioral/Psych Influence,
-    [atp3]Training'
+  Technical_IP_Actions_Planned: Behavioral/Psych Influence, Training
+  Technical_IP_Actions_Taken: Automation, Behavioral/Psych Influence, Training
   Technical_IP_Amount: '12.8'
-  Underpayment_Mitigations_Planned: '[app2]Behavioral/Psych Influence, [app3]Training,
-    [app4]Change Process'
-  Underpayment_Mitigations_Taken: '[atp1]Automation, [atp2]Behavioral/Psych Influence,
-    [atp3]Training, [atp5]Cross Enterprise Sharing'
+  Underpayment_Mitigations_Planned: Behavioral/Psych Influence, Change Process, Training
+  Underpayment_Mitigations_Taken: Automation, Behavioral/Psych Influence, Cross Enterprise
+    Sharing, Training
   Unknown_Payments_Rate: 0
   Year: 2026
   detail_IP_Causes: "The FY26 ECP improper payments can be summarized as employee\

@@ -204,6 +204,7 @@ detail_Executive_Summary: "The RRB has benefit paying and non-benefit paying pro
   \ effectiveness and compliance of each program’s internal processes and procedures.\
   \ The new Payment Integrity AU will further strengthen payment integrity efforts\
   \ for the vendor payment and employee payment programs."
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

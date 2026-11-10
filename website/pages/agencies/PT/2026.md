@@ -69,12 +69,20 @@ detail_DNP_Frequency_Identify: My agency did not identify any incorrect informat
 detail_DNP_Reduced: 'Yes'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: The Presidio Trust maintains internal controls designed
-  to prevent and detect improper payments and assess its activities for susceptibility
-  to significant improper payments in accordance with the Payment Integrity Information
-  Act of 2019 (PIIA) and applicable OMB guidance. The Trust has not identified programs
-  or activities susceptible to significant improper payments and therefore is not
-  required to report an annual improper payment estimate.
+detail_Executive_Summary: "The Presidio Trust maintains internal controls designed\
+  \ to prevent and detect improper payments and assess its activities for susceptibility\
+  \ to significant improper payments in accordance with the Payment Integrity Information\
+  \ Act of 2019 (PIIA) and applicable OMB guidance. \n\nTo maintain payment integrity,\
+  \ the Trust uses the Treasury Do Not Pay services and submits payment files weekly\
+  \ to Treasury’s Payment Automation Manager (PAM) for payment verification, where\
+  \ payment requests are screened for potential eligibility and payment issues before\
+  \ disbursement. These controls supplement the Trust’s other pre-certification controls,\
+  \ including verification of funds availability, payment and payee information, taxpayer\
+  \ identification information, and applicable Treasury account information.\n\nThe\
+  \ Trust is compliant and has not identified programs or activities susceptible to\
+  \ significant improper payments and therefore is not required to report an annual\
+  \ improper payment estimate."
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

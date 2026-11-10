@@ -130,8 +130,9 @@ permalink: /
                                     {% endif %}
                                 </div>
                             </td>
+                            {% capture programs_to_show %}{% for program in agency.programs %}{% if program.program_name %}1{% endif %}{% endfor %}{% endcapture %}
                             <td class="expand-col text-middle text-right padding-2">
-                                <button class="usa-button expand-btn square-3 padding-0 {% if agency.susceptible_programs == 0 and agency.high_priority_programs == 0 %}hide{% endif %}" aria-label="Expand Agency">
+                                <button class="usa-button expand-btn square-3 padding-0 {% unless programs_to_show contains '1' %}hide{% endunless %}" aria-label="Expand Agency">
                                     <div class="carrot-icon">
                                         <img src="/assets/img/expand.svg" alt="Expand" class="toggle-icon">
                                     </div>

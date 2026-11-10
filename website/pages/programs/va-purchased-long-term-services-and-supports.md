@@ -346,7 +346,7 @@ Data_By_Year:
     the billed amount on the claim or the paid amount is accurate. For this reason,
     we are unable to conclude whether the payment is proper or improper at time of
     payment without that documentation.
-  Unknown_Mitigations_Planned: Automation,Change Process
+  Unknown_Mitigations_Planned: Automation, Change Process
   Unknown_Mitigations_Taken: Change Process
   Unknown_Payments_Rate: 1.482960022062819
   Unknown_Why: The payments are considered unknown payments when VA had lacking or
@@ -725,8 +725,8 @@ Data_By_Year:
     or information. The missing documentation or information needed from the will
     assist VA in determining whether or not the billed amount on the claim or the
     paid amount is accurate.
-  Unknown_Mitigations_Planned: Change Process,Training
-  Unknown_Mitigations_Taken: Automation,Change Process
+  Unknown_Mitigations_Planned: Change Process, Training
+  Unknown_Mitigations_Taken: Automation, Change Process
   Unknown_Payments_Rate: 1.8312796006162977
   Unknown_Why: The payments are considered unknown payments when VA had missing or
     insufficient documentation to validate that clean claim requirements were met
@@ -985,7 +985,7 @@ Data_By_Year:
   Underpayment_Mitigations_Planned: Change Process
   Underpayment_Mitigations_Taken: Audit, Automation
   Unknown_Mitigations_Planned: Change Process
-  Unknown_Mitigations_Taken: Change Process,Training
+  Unknown_Mitigations_Taken: Change Process, Training
   Unknown_Payments_Rate: 0.6253657857794768
   Year: 2025
   detail_IP_Causes: VA overpayments are within the agency's control and occurred when
@@ -1193,7 +1193,7 @@ Data_By_Year:
   Margin_of_Error: '0.49'
   Non_Monetary_Loss_Amount: '10.65'
   Outlays: 8587.1
-  Overpayment_Combined_Mitigations_Taken: '[atp4]Change Process, [atp6]Audit'
+  Overpayment_Combined_Mitigations_Taken: Audit, Change Process
   Payment_Accuracy_Rate: 99.61081156618648
   Program_Additional_Information: '
 
@@ -1227,10 +1227,10 @@ Data_By_Year:
     years. Management will continue its responsibilities for internal control outlined
     in the Government Accountability Office's Green Book.
   Start_Date: 10/2024
-  Technical_IP_Actions_Taken: '[atp4]Change Process'
+  Technical_IP_Actions_Taken: Change Process
   Technical_IP_Amount: '8.5'
-  Underpayment_Mitigations_Taken: '[atp6]Audit'
-  Unknown_Mitigations_Taken: '[atp4]Change Process'
+  Underpayment_Mitigations_Taken: Audit
+  Unknown_Mitigations_Taken: Change Process
   Unknown_Payments_Rate: 0.22836580452073457
   Year: 2026
   detail_IP_Causes: 'Overpayments occurred when the program failed to access the data/information

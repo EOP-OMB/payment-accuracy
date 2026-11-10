@@ -135,6 +135,7 @@ detail_Executive_Summary: 'Based on its appropriations, CPSC reports on two prog
   under the Payment Integrity Information Act: Payroll and Non-Payroll. In FY 2026,
   CPSC disbursed $89M for Payroll program activities and $37M for Non-Payroll (includes
   grants) program activities. No improper payments were identified for either program.'
+detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
 detail_PIIA_Official: null

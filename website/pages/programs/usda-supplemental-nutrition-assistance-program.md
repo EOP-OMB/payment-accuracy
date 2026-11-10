@@ -810,9 +810,9 @@ Data_By_Year:
     or information systems.
   Confidence_Level: 95% to <100%
   Corrective_Actions_Adequacy_Association_Implementation: The Food and Nutrition Administration
-    (FNA) continues to place an emphasis in assisting State agencies in conducting
+    (FNA) continues to place an emphasis on assisting State agencies in conducting
     robust root causes of error analysis and in providing tools to assist states with
-    this analysis. Training and guidance is implemented with the assistance of FNA
+    this analysis. Training and guidance are implemented with the assistance of FNA
     regional offices and  prioritized by leadership at all levels of the Supplemental
     Nutrition Assistance Program (SNAP) but specific implementation details will vary
     based on the training and guidance needed. Grants for third party income verification
@@ -826,29 +826,26 @@ Data_By_Year:
     \ the Food and Nutrition Administration (FNA) is primarily focused on providing\
     \ training and equipping State agencies with the knowledge and tools needed to\
     \ individually develop meaningful root cause analysis and corrective action plans\
-    \ (CAPs), including through the issuance of policy guidance.\n\nFNA has a regulatory\
-    \ process that requires States to enter into CAPs at the State level to address\
-    \ payment error rates that exceed six percent, a standard established by law.\
-    \ States are responsible for developing and implementing their own CAPs to address\
-    \ program deficiencies that resulted in high improper payment rates. State CAPs\
-    \ are based on each State’s own root cause analysis. State agencies follow FNA\
-    \ guidance and conduct their own root cause analysis to identify the sources,\
-    \ magnitude, and causes of deficiencies leading to improper payments. As States\
-    \ conduct their root cause analysis, they are encouraged to request technical\
-    \ assistance from FNA’s regional offices in interpreting data and identifying\
+    \ (CAPs), including through the issuance of policy guidance.\n\nConsistent with\
+    \ SNAP regulations, FNA requires States to enter into CAPs at the State level\
+    \ to address payment error rates that exceed six percent, a standard established\
+    \ by law. States are responsible for developing and implementing their own CAPs\
+    \ to address program deficiencies that resulted in high improper payment rates.\
+    \ State CAPs are based on each State’s own root cause analysis. State agencies\
+    \ follow FNA guidance and conduct their own root cause analysis to identify the\
+    \ sources, magnitude, and causes of deficiencies leading to improper payments.\
+    \ As States conduct their root cause analysis, they are encouraged to request\
+    \ technical assistance from FNA’s regional offices in interpreting data and identifying\
     \ root causes.\n\nIn addition, the Food and Nutrition Act of 2008, as amended,\
     \ provides disincentives in the form of financial penalties to encourage States\
     \ to accurately issue SNAP benefits and maintain low improper payment rates. \n\
     \nFinally, FNA is promulgating a proposed rule to implement provisions of The\
     \ Working Families Tax Cuts Act (Public Law 119-21) requiring certain States to\
     \ fund a portion of SNAP benefits they issue based on their payment error rate.\
-    \ This rule is part of the 2026 Regulatory Plan and Unified Agenda, with publication\
-    \ expected in December 2026. The rule is designed to incentivize States to make\
-    \ more accurate benefit payments. Matching requirements are based on a State’s\
-    \ payment error rate and range from a State share of 0 to 15 percent of program\
-    \ allotments. Requirements begin in Fiscal Year (FY) 2028, though delayed implementation\
-    \ is allowed for some States. States with error rates above 6 percent will be\
-    \ subject to these requirements."
+    \ This change is designed to incentivize States to make more accurate benefit\
+    \ payments. Matching requirements are based on a State’s payment error rate and\
+    \ range from a State share of 0 to 15 percent of program allotments. Requirements\
+    \ generally begin in Fiscal Year (FY) 2028."
   Corrective_Actions_Proportion: The Food and Nutrition Administration (FNA) will
     continue to conduct training to assist State agencies in identifying the specific
     corrective actions needed to address the root causes of error found in  their
@@ -889,20 +886,20 @@ Data_By_Year:
   IP_Accountability_Description: The Food and Nutrition Act of 2008, as amended, provides
     disincentives in the form of financial penalties to encourage States to accurately
     issue Supplemental Nutrition Assistance Program (SNAP) benefits and maintain low
-    improper payment rates. In addition, the Food and Nutrition Administration (FNA)
-    has a regulatory process that requires States to enter into corrective actions
-    at the State level to address payment error rates that exceed six percent, a standard
-    established by law. Additionally, at the federal level, senior executives are
-    held responsible for program oversight and integrity via the annual strategic
-    planning process and performance system.
+    improper payment rates. In addition, consistent with SNAP regulations, the Food
+    and Nutrition Administration (FNA) has a process that requires States to enter
+    into corrective actions at the State level to address payment error rates that
+    exceed six percent, a standard established by law. Additionally, at the federal
+    level, senior executives are held responsible for program oversight and integrity
+    via the annual strategic planning process and performance system.
   IP_Unknown_Target_Rate: 0.1012
   Improper_Payments_Rate: 10.6167368803
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '0.43'
   Non_Monetary_Loss_Amount: '1266.53'
   Outlays: 95033.72
-  Overpayment_Combined_Mitigations_Planned: '[app3]Training'
-  Overpayment_Combined_Mitigations_Taken: '[atp3]Training'
+  Overpayment_Combined_Mitigations_Planned: Training
+  Overpayment_Combined_Mitigations_Taken: Training
   Payment_Accuracy_Rate: 89.383263119659
   Program_Design_or_Structural_Issue: 0.0
   Resources_Requested_For_IP: 'For the Fiscal Year (FY) 2027 budget submission, Food
@@ -930,11 +927,11 @@ Data_By_Year:
     to oversee this vital work.'
   Start_Date: 10/2024
   Technical_IP_Amount: '0.0'
-  Underpayment_Mitigations_Planned: '[app3]Training'
-  Underpayment_Mitigations_Taken: '[atp3]Training'
+  Underpayment_Mitigations_Planned: Training
+  Underpayment_Mitigations_Taken: Training
   Unknown_Payments_Rate: 0
   Year: 2026
-  detail_IP_Causes: "Improper payments related to Supplemental Nutrition Assistance\
+  detail_IP_Causes: "Improper payments related to the Supplemental Nutrition Assistance\
     \ Program (SNAP) are largely unintentional and have causes that vary by State\
     \ agency. For improper payment reporting, the Food and Nutrition Administration\
     \ (FNA) generally classifies all errors as errors that are outside of FNA's control\

@@ -42,7 +42,7 @@ Requirements:
     for that determination.
   Type: REGULAR
 SurveyData:
-- Answer: '0.0'
+- Answer: '100.0'
   Heading: Overpayment Amount Recovered
   Key: arp3_1
   SortOrder: 2
