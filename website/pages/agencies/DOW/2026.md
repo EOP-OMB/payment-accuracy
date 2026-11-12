@@ -1633,21 +1633,21 @@ Risks:
     Program_Name: AFRICOM - DoW Travel Pay - IATS
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Army - Active Duty Military Pay
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Army - Civilian Pay
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Army - Commercial Pay - GFEBS
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: Army - Commerical Pay - CAPS-W
@@ -1673,11 +1673,11 @@ Risks:
     Program_Name: Army - Non-Commercial Pay - DAI
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Army - Reserve Military Pay
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: CBDP - Commercial Pay - DAI
@@ -1724,17 +1724,17 @@ Risks:
     Program_Name: Commercial Pay – Transportation Financial Management System (TFMS)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: DAF - Active Duty Military Pay
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: DAF - Air National Guard Military Pay
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: DAF - Civilian Pay
     Slug: null
@@ -1744,16 +1744,16 @@ Risks:
     Program_Name: DAF - Commercial Pay - CAPS-W
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: DAF - Commercial Pay - DEAMS
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: DAF - Commercial Pay - IAPS
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: DAF - DoW Travel Pay - DTS
@@ -1764,7 +1764,7 @@ Risks:
     Program_Name: DAF - DoW Travel Pay - RTS
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: DAF - Reserve Military Pay
     Slug: null
@@ -1834,11 +1834,11 @@ Risks:
     Program_Name: DLA - Commercial Pay - DAI
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: DLA - Commercial Pay - EBS
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: DLSA - Commercial Pay - DAI
@@ -1849,16 +1849,16 @@ Risks:
     Program_Name: DOT&E - Commercial Pay - DAI
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: DOW - Military Retirement - Annuitant Pay
     Slug: dow-dow-military-retirement-annuitant-pay
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'Yes'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: DOW - Military Retirement - Retired Pay
     Slug: dow-dow-military-retirement-retired-pay
-    Susceptible: null
+    Susceptible: 'Yes'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: DPAA - Commercial Pay - DAI
@@ -1949,11 +1949,11 @@ Risks:
       Region Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: DoW - Military Retirement - Combat Related Special Compensation
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: null
     MethodologyChanged: 0
     Program_Name: DoWEA - Commercial Pay - DAI
@@ -2079,16 +2079,16 @@ Risks:
     Program_Name: Navy - Commercial Pay - DAI
     Slug: null
     Susceptible: null
-  - Fiscal_Year: null
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Navy - Commercial Pay - NERP
     Slug: null
-    Susceptible: null
-  - Fiscal_Year: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: Navy - Commercial Pay - ONEPAY
     Slug: null
-    Susceptible: null
+    Susceptible: 'No'
   - Fiscal_Year: '2024'
     MethodologyChanged: 0
     Program_Name: Navy - DoW Travel Pay - DTS
@@ -2109,7 +2109,7 @@ Risks:
     Program_Name: Navy - Reserve Military Pay
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2025'
     MethodologyChanged: 0
     Program_Name: ODO - Civilian Pay
     Slug: dow-odo-civilian-pay
