@@ -12,6 +12,12 @@ import re
 import sys
 from io import StringIO
 from load_tools import query
+from override_extract import (
+    PROGRAM_NAME_FILES,
+    RISK_ASSESSMENT_ACTION,
+    RISK_ASSESSMENT_FILENAME,
+    RISK_ASSESSMENT_KEY,
+)
 
 csv.field_size_limit(sys.maxsize)
 
@@ -453,18 +459,6 @@ def test_MY_OMB_ImproperPayment_Payment_IP_Root_Causes_vw(get_agency_codes):
     assert_all_agencies_mapped(df, 0, get_agency_codes)
     # duplicates handled by summing
 
-def test_MY_OMB_ImproperPayment_Payment_Risk_Assessments_vw(get_agency_codes):
-    path = get_csv_path("MY_OMB_ImproperPayment_Payment_Risk_Assessments_vw.csv")
-    assert_file_exists(path)
-
-    df = csv_to_dataframe(path)
-    assert_has_rows(df)
-    assert_column_count(df, 7)
-    assert_column_count_is_consistent(path)
-    assert_fiscal_year_found(df, 1)
-    assert_all_agencies_mapped(df, 0, get_agency_codes)
-    assert_no_duplicates(df, ["Agency", "Program_Name", "Fiscal_Year"])
-
 def test_MY_OMB_ImproperPayment_Payment_Program_Compliance_vw(get_agency_codes):
     path = get_csv_path("MY_OMB_ImproperPayment_Payment_Program_Compliance_vw.csv")
     assert_file_exists(path)
@@ -691,3 +685,141 @@ def test_ScorecardProgramsActive():
         if (len(filtered_df) == 0):
             print(f"{row['Program_Name']} not found in all programs table")
         assert(len(filtered_df) > 0)
+
+def test_Program_Name_Overrides_Not_In_Use():
+    """New override names must not already appear in a column the override script updates."""
+    path = get_csv_path(os.path.join("overrides", "Program_Names.csv"))
+    if not os.path.exists(path):
+        return
+
+    try:
+        overrides = pd.read_csv(path, encoding="utf-8-sig", dtype=str, keep_default_na=False)
+    except pd.errors.EmptyDataError:
+        return
+    if overrides.shape[0] == 0 or overrides.shape[1] < 2:
+        return
+
+    # A case-only change is the program being renamed, so it is not a second use of the name.
+    proposed = []
+    for _, row in overrides.iterrows():
+        current = "" if pd.isna(row.iloc[0]) else str(row.iloc[0]).strip()
+        new = "" if pd.isna(row.iloc[1]) else str(row.iloc[1]).strip()
+        if new == "" or new.casefold() == current.casefold():
+            continue
+        proposed.append(new)
+    if not proposed:
+        return
+
+    in_use = {}
+    for filename, column, _uppercase in PROGRAM_NAME_FILES:
+        programs = pd.read_csv(
+            get_csv_path(filename),
+            encoding="utf-8-sig",
+            dtype=str,
+            keep_default_na=False,
+            usecols=[column],
+        )
+        for value in programs[column]:
+            name = "" if pd.isna(value) else str(value).strip()
+            if name == "":
+                continue
+            in_use.setdefault(name.casefold(), set()).add(filename)
+
+    conflicts = []
+    seen = set()
+    for new in proposed:
+        folded = new.casefold()
+        if folded in seen:
+            continue
+        seen.add(folded)
+        locations = in_use.get(folded)
+        if not locations:
+            continue
+        conflicts.append(f"{new}: {', '.join(sorted(locations))}")
+
+    if conflicts:
+        print("New program names already in use:")
+        for conflict in conflicts:
+            print(conflict)
+    assert conflicts == []
+
+def risk_assessment_text(value):
+    if pd.isna(value):
+        return ""
+    return str(value).strip()
+
+def risk_assessment_key(row):
+    return tuple(risk_assessment_text(row[column]).casefold() for column in RISK_ASSESSMENT_KEY)
+
+def risk_assessment_label(row):
+    return ", ".join(risk_assessment_text(row[column]) for column in RISK_ASSESSMENT_KEY)
+
+def test_Risk_Assessment_Overrides(get_agency_codes):
+    """Removals must already exist, additions must not repeat a key, and agencies must be mapped."""
+    path = get_csv_path(os.path.join("overrides", "Risk_Assessments.csv"))
+    if not os.path.exists(path):
+        return
+
+    try:
+        overrides = pd.read_csv(path, encoding="utf-8-sig", dtype=str, keep_default_na=False)
+    except pd.errors.EmptyDataError:
+        return
+    if overrides.shape[0] == 0:
+        return
+
+    agency_index = list(overrides.columns).index(RISK_ASSESSMENT_KEY[0])
+    assert_all_agencies_mapped(overrides, agency_index, get_agency_codes)
+
+    removes = []
+    adds = []
+    for _, row in overrides.iterrows():
+        action = risk_assessment_text(row[RISK_ASSESSMENT_ACTION]).casefold()
+        if "remove" in action:
+            removes.append(row)
+        elif "add" in action:
+            adds.append(row)
+    if not removes and not adds:
+        return
+
+    programs = pd.read_csv(
+        get_csv_path(RISK_ASSESSMENT_FILENAME),
+        encoding="utf-8-sig",
+        dtype=str,
+        keep_default_na=False,
+        usecols=RISK_ASSESSMENT_KEY,
+    )
+    existing = {risk_assessment_key(row) for _, row in programs.iterrows()}
+    remove_keys = {risk_assessment_key(row) for row in removes}
+
+    missing = []
+    seen_removes = set()
+    for row in removes:
+        key = risk_assessment_key(row)
+        if key in seen_removes:
+            continue
+        seen_removes.add(key)
+        if key not in existing:
+            missing.append(risk_assessment_label(row))
+
+    duplicate_adds = []
+    seen_adds = set()
+    reported_adds = set()
+    for row in adds:
+        key = risk_assessment_key(row)
+        # A removal of the same key is a replacement, so that existing row will not remain.
+        collides = key in seen_adds or (key in existing and key not in remove_keys)
+        if collides and key not in reported_adds:
+            duplicate_adds.append(risk_assessment_label(row))
+            reported_adds.add(key)
+        seen_adds.add(key)
+
+    if missing:
+        print(f"Risk assessment removals not found in {RISK_ASSESSMENT_FILENAME}:")
+        for label in missing:
+            print(label)
+    if duplicate_adds:
+        print("Risk assessment additions duplicate Agency, Fiscal_Year, and Program_Name:")
+        for label in duplicate_adds:
+            print(label)
+    assert missing == []
+    assert duplicate_adds == []

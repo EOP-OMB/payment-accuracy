@@ -34,7 +34,6 @@ EXTRACTED_PAYMENT_RECOVERY_DETAILS_CSV_NAME = "MY_OMB_ImproperPayment_Payment_Re
 EXTRACTED_PAYMENT_CONFIRMED_FRAUD_CSV_NAME = "MY_OMB_ImproperPayment_Payment_Confirmed_Fraud_vw.csv"
 EXTRACTED_PROGRAM_COMPLIANCE_CSV_NAME = "MY_OMB_ImproperPayment_Payment_Program_Compliance_vw.csv"
 EXTRACTED_FY25_RISKS_CSV_NAME = "Risk_Assessment_FULL_FY25.csv"
-EXTRACTED_RISKS_CSV_NAME = "MY_OMB_ImproperPayment_Payment_Risk_Assessments_vw.csv"
 EXTRACTED_RISKS_METHODOLOGY_CHANGED_CSV_NAME = "RiskAssessmentMethodologyChanges.csv"
 ELIGIBILITY_THEMES_CSV_NAME = "Eligibility_Themes.csv"
 ELIGIBILITY_THEMES_DESCRIPTIONS_CSV_NAME = "Eligibility_Themes_Descriptions.csv"
@@ -57,7 +56,6 @@ PAYMENT_RECOVERY_DETAILS_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY
 PAYMENT_CONFIRMED_FRAUD_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_PAYMENT_CONFIRMED_FRAUD_CSV_NAME)
 PROGRAM_COMPLIANCE_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_PROGRAM_COMPLIANCE_CSV_NAME)
 FY25_RISKS_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_FY25_RISKS_CSV_NAME)
-RISKS_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_RISKS_CSV_NAME)
 RISKS_METHODOLOGY_CHANGED_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, EXTRACTED_RISKS_METHODOLOGY_CHANGED_CSV_NAME)
 ELIGIBILITY_THEMES_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, ELIGIBILITY_THEMES_CSV_NAME)
 ELIGIBILITY_THEMES_DESCRIPTIONS_PATH = os.path.join(BASE_DIR, EXTRACTED_FILES_DIRECTORY, ELIGIBILITY_THEMES_DESCRIPTIONS_CSV_NAME)
@@ -895,9 +893,6 @@ def load_fy25_risks_file(conn):
     }
     load_csv_to_sqlite(FY25_RISKS_PATH, "fy25_risks", conn, False, data_types)
 
-def load_risks_file(conn):
-    load_csv_to_sqlite(RISKS_PATH, "risks", conn)
-
 def load_risks_methodology_changed_file(conn):
     load_csv_to_sqlite(RISKS_METHODOLOGY_CHANGED_PATH, "risks_methodology_changed", conn)
 
@@ -1071,7 +1066,6 @@ load_payment_recovery_details_file(conn)
 load_payment_confirmed_fraud_file(conn)
 load_program_compliance_file(conn)
 load_fy25_risks_file(conn)
-load_risks_file(conn)
 load_risks_methodology_changed_file(conn)
 load_eligibility_themes_file(conn)
 load_eligibility_themes_descriptions_file(conn)

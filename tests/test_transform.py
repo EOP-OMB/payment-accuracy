@@ -99,15 +99,6 @@ def test_fy25_risks_file(mock_csv_data, in_memory_db):
     assert list(df.columns) == ["Agency","Fiscal_Year","Program_Name","Fiscal_Year_Last_Conducted","Susceptible"]
     assert len(df) == 2
 
-def test_risks_file(mock_csv_data, in_memory_db):
-    transform.RISKS_PATH = mock_csv_data["RISKS_PATH"]
-    transform.load_risks_file(in_memory_db)
-
-    df = pd.read_sql("SELECT * FROM risks", in_memory_db)
-    assert not df.empty
-    assert list(df.columns) == ["Agency","Fiscal_Year","Program_Name","in_draft","Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_","raa6_2","raa7_2","Updated_Program_Name","Original_Program_Name"]
-    assert len(df) == 2
-
 def test_risks_methodology_changed_file(mock_csv_data, in_memory_db):
     transform.RISKS_METHODOLOGY_CHANGED_PATH = mock_csv_data["RISKS_METHODOLOGY_CHANGED_PATH"]
     transform.load_risks_methodology_changed_file(in_memory_db)

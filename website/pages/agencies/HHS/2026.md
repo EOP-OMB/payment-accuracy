@@ -1,7 +1,7 @@
 ---
 Agency: HHS
 Agency_Name: Department of Health and Human Services
-Confirmed_Fraud: 18407.59
+Confirmed_Fraud: 4155.0
 Eligibility_Themes: []
 Fiscal_Year: 2026
 Hide_Disposition_of_Funds: false
@@ -12949,56 +12949,64 @@ Years_Available:
 - 2024
 - 2023
 - 2022
-detail_Additional_IP_Information: 'HHS continues to strengthen its payment integrity
-  efforts by expanding the use of data analytics, improving coordination with federal
-  and state partners, and modernizing systems to prevent improper payments before
-  they occur. In FY 2026, HHS made significant progress on several fronts that reflect
-  the Department''s commitment to both preventing improper payments and demonstrating
-  measurable improvement across its programs.
-
-
-  A key development in FY 2026 was the activation of Do Not Pay Payment Verification
-  screening for all HHS payments initiated through Treasury''s Standard Payment Request,
-  which became operational on April 9, 2026. Between activation and September 30,
-  2026, this screening covered 1.12 million payments worth $394 billion and returned
-  1,417 payments for deceased payees before disbursement — representing a meaningful
-  expansion of HHS''s pre-payment controls and a step toward the Department''s goal
-  of having assurance that all payments were screened through Do Not Pay prior to
-  disbursement.
-
-
-  HHS also achieved concrete improvements in program-level payment integrity in FY
-  2026. In the Child Care and Development Fund program, targeted technical assistance
-  and Corrective Action Plan oversight produced measurable results: all reporting
-  states achieved improper payment rates below the 10 percent threshold in RY 2026,
-  including one state that reduced its rate from 15.89 percent in RY 2023 to 8.87
-  percent. In Head Start, HHS conducted a formal rereview of RY 2025 transactions
-  that resolved all 173 unknown payments upon receipt of additional documentation,
-  recalculating the reported improper payment rate from 10.29 percent to 0.84 percent
-  — demonstrating that recipients can provide complete documentation with adequate
-  support and that the initial rate reflected documentation access challenges rather
-  than underlying payment inaccuracy.
-
-
-  HHS is also advancing the coverage and accuracy of its improper payment measurement
-  framework. In May 2026, HHS published the State Exchange Improper Payment Measurement
-  Final Rule, establishing the regulatory foundation for measuring improper payments
-  in State-based Exchanges, with measurement expected to begin January 1, 2027. These
-  efforts reflect HHS''s ongoing commitment to safeguarding taxpayer resources while
-  ensuring timely access to essential health and human services programs for the millions
-  of Americans who depend on them.
-
-
-  HHS is implementing a new option for states above the 10 percent threshold to calculate
-  their next Child Care and Development Fund error rate sooner than their regular
-  triennial schedule, allowing improved rates to be reflected in the national estimate
-  earlier, and will continue to implement and enforce accountability measures for
-  states that  threshold. HHS is also developing a plan to move from a triennial to
-  a biannual or annual reporting cycle for Child Care and Development Fund improper
-  payment rates. These changes are intended to improve the timeliness of improper
-  payment data, identify program integrity risks sooner, support faster state corrective
-  action, and reduce future improper payments, while also identifying opportunities
-  to streamline reporting and reduce unnecessary state burden.'
+detail_Additional_IP_Information: "HHS continues to strengthen its payment integrity\
+  \ efforts by expanding the use of data analytics, improving coordination with federal\
+  \ and state partners, and modernizing systems to prevent improper payments before\
+  \ they occur. In FY 2026, HHS made significant progress on several fronts that reflect\
+  \ the Department's commitment to both preventing improper payments and demonstrating\
+  \ measurable improvement across its programs.\n\n \n\nA key development in FY 2026\
+  \ was the activation of Do Not Pay Payment Verification screening for all HHS payments\
+  \ initiated through Treasury's Standard Payment Request, which became operational\
+  \ on April 9, 2026. Between activation and September 30, 2026, this screening covered\
+  \ 1.12 million payments worth $394 billion and returned 1,417 payments for deceased\
+  \ payees before disbursement — representing a meaningful expansion of HHS's pre-payment\
+  \ controls and a step toward the Department's goal of having assurance that all\
+  \ payments were screened through Do Not Pay prior to disbursement.\n\n \n\nHHS also\
+  \ achieved concrete improvements in program-level payment integrity in FY 2026.\
+  \ In the Child Care and Development Fund program, targeted technical assistance\
+  \ and Corrective Action Plan oversight produced measurable results: all reporting\
+  \ states achieved improper payment rates below the 10 percent threshold in RY 2026,\
+  \ including one state that reduced its rate from 15.89 percent in RY 2023 to 8.87\
+  \ percent. In Head Start, HHS conducted a formal rereview of RY 2025 transactions\
+  \ that resolved all 173 unknown payments upon receipt of additional documentation,\
+  \ recalculating the reported improper payment rate from 10.29 percent to 0.84 percent\
+  \ — demonstrating that recipients can provide complete documentation with adequate\
+  \ support and that the initial rate reflected documentation access challenges rather\
+  \ than underlying payment inaccuracy.\n\n \n\nHHS is also advancing the coverage\
+  \ and accuracy of its improper payment measurement framework. In May 2026, HHS published\
+  \ the State Exchange Improper Payment Measurement Final Rule, establishing the regulatory\
+  \ foundation for measuring improper payments in State-based Exchanges, with measurement\
+  \ expected to begin January 1, 2027. These efforts reflect HHS's ongoing commitment\
+  \ to safeguarding taxpayer resources while ensuring timely access to essential health\
+  \ and human services programs for the millions of Americans who depend on them.\n\
+  \n \n\nHHS is implementing a new option for states above the 10 percent threshold\
+  \ to calculate their next Child Care and Development Fund error rate sooner than\
+  \ their regular triennial schedule, allowing improved rates to be reflected in the\
+  \ national estimate earlier, and will continue to implement and enforce accountability\
+  \ measures for states that  threshold. HHS is also developing a plan to move from\
+  \ a triennial to a biannual or annual reporting cycle for Child Care and Development\
+  \ Fund improper payment rates. These changes are intended to improve the timeliness\
+  \ of improper payment data, identify program integrity risks sooner, support faster\
+  \ state corrective action, and reduce future improper payments, while also identifying\
+  \ opportunities to streamline reporting and reduce unnecessary state burden.\n\n\
+  \ \n\nHHS is reporting confirmed fraud in the amount of $4,155.0 million for the\
+  \ FY  2026 reporting period.  Prior to FY 2026, HHS reported the confirmed fraud\
+  \ amount by referencing the most recent HHS Office of Inspector General (OIG) Semi-Annual\
+  \ Report to Congress available at the time of the required reporting deadline for\
+  \ publication on paymentaccuracy.gov. Due to variability in publication timing,\
+  \ HHS frequently had access only to the Spring Semi-Annual Report for the applicable\
+  \ fiscal year, thereby limiting the reported amount to a six-month (half-year) period.\n\
+  \n Effective with Fiscal Year 2026 reporting, HHS implemented a revised methodology\
+  \ to enhance transparency and consistency of reporting the confirmed fraud amount.\
+  \ The confirmed fraud amount reported represents the investigative recoveries due\
+  \ to HHS as identified by the HHS OIG in the Fall Semi-Annual Report to Congress\
+  \ from the previous fiscal year, combined with those identified in the Spring Semi-Annual\
+  \ Report to Congress from the current fiscal year.  \n\nThis approach ensures that\
+  \ the annual confirmed fraud amount reported by HHS on paymentaccuracy.gov reflects\
+  \ a complete 12-month reporting period. Using this new method, the annual confirmed\
+  \ fraud amounts in previous fiscal years are:\n\n•\tFY 2021: $2,278.6 million\n\
+  •\tFY 2022: $2,780.7 million\n•\tFY 2023: $2,043.1 million\n•\tFY 2024: $5,015.9\
+  \ million\n•\tFY 2025: $5,214.8 million"
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: '249.85000000000002'
 detail_Compliance_Status: Non-Compliant
 detail_DNP_Discussion: "HHS uses Treasury's Do Not Pay (DNP) system at multiple points\
