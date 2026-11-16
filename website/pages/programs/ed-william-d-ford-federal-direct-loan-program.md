@@ -1511,7 +1511,15 @@ Data_By_Year:
     Failure_to_Access_Data: 9.15
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '9.15'
-Description: null
+Description: The Direct Loan program, added to the Higher Education Act of 1965 by
+  the Student Loan Reform Act of 1993, authorizes ED to make loans through participating
+  schools to eligible undergraduate and graduate students. Root causes of Direct Loan
+  overpayments include, but are not limited to, incorrect calculation of Return of
+  Title IV funds, failure to return unclaimed credit balances to ED, and failure to
+  meet satisfactory academic progress. Barriers include the program structure which
+  requires that funds pass through an intermediary non-federal entity before reaching
+  the student. The HEA provides FSA authority to require the third-party to implement
+  certain internal controls or mitigation strategies, and FSA exercises this authority.
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -1524,6 +1532,8 @@ Payment_Accuracy_Amounts: '[83186.12999999999, 83221.39, 85873.41, 89309.9300000
 Phase_2_Program: 0
 Program_Name: William D. Ford Federal Direct Loan Program
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/William D. Ford Federal Direct Loan Program.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/William D. Ford Federal Direct Loan Program.pdf
   QuarterYear: Q3 2026
 - Link: assets/scorecards/Q2 2026/William D. Ford Federal Direct Loan Program.pdf

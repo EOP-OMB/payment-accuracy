@@ -698,6 +698,9 @@ Payment_Accuracy_Amounts: '[243233.3, 259055.2, 320865.10000000003, 365051.72, 3
 Phase_2_Program: 0
 Program_Name: Medicare Advantage (Part C)
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Centers for Medicare & Medicaid Services (CMS) -
+    Medicare Advantage (Part C).pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Centers for Medicare & Medicaid Services (CMS) -
     Medicare Advantage (Part C).pdf
   QuarterYear: Q3 2026

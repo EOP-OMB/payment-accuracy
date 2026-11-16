@@ -987,6 +987,9 @@ Payment_Accuracy_Amounts: '[11788.46, 14534.69, 16513.75, 18077.0643, 20803.9]'
 Phase_2_Program: 0
 Program_Name: Children's Health Insurance Program (CHIP)
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Centers for Medicare & Medicaid Services (CMS) -
+    Children_s Health Insurance Program (CHIP).pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Centers for Medicare & Medicaid Services (CMS) -
     Children_s Health Insurance Program (CHIP).pdf
   QuarterYear: Q3 2026

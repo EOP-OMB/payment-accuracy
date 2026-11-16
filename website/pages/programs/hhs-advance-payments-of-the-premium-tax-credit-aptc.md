@@ -874,6 +874,9 @@ Payment_Accuracy_Amounts: '[41000.049999999996, 46226.135914, 55144.700000000004
 Phase_2_Program: 0
 Program_Name: Advance Payments of the Premium Tax Credit (APTC)
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Centers for Medicare & Medicaid Services (CMS) -
+    Advance Premium Tax Credit (APTC).pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Centers for Medicare & Medicaid Services (CMS) -
     Advance Premium Tax Credit (APTC).pdf
   QuarterYear: Q3 2026

@@ -975,6 +975,9 @@ Payment_Accuracy_Amounts: '[435240.49, 536576.77, 579734.2399999999, 573601.23, 
 Phase_2_Program: 0
 Program_Name: Medicaid
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Centers for Medicare & Medicaid Services (CMS) -
+    Medicaid.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Centers for Medicare & Medicaid Services (CMS) -
     Medicaid.pdf
   QuarterYear: Q3 2026

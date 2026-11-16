@@ -653,15 +653,7 @@ Data_By_Year:
     Theme_Description: Beneficiary or recipient is receiving benefits from an additional
       source
     Value: '0.062500'
-Description: USDA's Child and Adult Care Food Program (CACFP) provides federal reimbursement
-  through the states to child care centers and family day care homes (FDCH). Sponsoring
-  organizations are responsible for immediate oversight of providers. The states are
-  responsible for overseeing CACFP sponsors. Centers certify children for program
-  benefits through household applications. FDCHs primarily rely on community measures
-  of poverty to identify eligibility at the facility level. Sponsor error in eligibility
-  determination ("certification error") is a leading cause of IPs. A significant barrier
-  is the decentralized nature of the program; USDA does not directly confirm individual
-  children or day care home facilities for eligibility.
+Description: null
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false

@@ -835,10 +835,10 @@ Data_By_Year:
 Description: 'RMA administers the Federal Crop Insurance Program which provides crop
   insurance to farmers and ranchers. Approved Insurance Providers (AIPs) sell and
   service the policies through a partnership with RMA and share in the risk associated
-  with losses. RMA''s review of improper payments provides results data in which the
-  cause of improper payments (i.e., administrative, certification, process errors,
-  etc.) can be identified along with a means of reducing barriers that may prevent
-  payments from being proper. '
+  with losses. Overpayments reported by the RMA are attributable to administrative,
+  certification, or policy/procedural errors. The extensive scope of the program,
+  intricate program requirements, and external factors such as natural disasters represent
+  recognized barriers to preventing improper payments. '
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -851,6 +851,8 @@ Payment_Accuracy_Amounts: '[11519.81, 13657.069999999998, 23287.95, 22170.030000
 Phase_2_Program: 0
 Program_Name: Federal Crop Insurance Corporation (FCIC)
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Federal Crop Insurance Corporation (FCIC).pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Federal Crop Insurance Corporation (FCIC).pdf
   QuarterYear: Q3 2026
 - Link: assets/scorecards/Q2 2026/Federal Crop Insurance Corporation (FCIC).pdf

@@ -1282,15 +1282,15 @@ Data_By_Year:
     Failure_to_Access_Data: 11.16
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '11.16'
-Description: 'The Pension program helps eligible Veterans and their survivors cope
+Description: The Pension program helps eligible Veterans and their survivors cope
   with financial challenges by providing supplemental income through Veterans and
-  Survivors Pension Benefits. A change in benefit payment occurs when a required adjustment
-  is made due to a status change (e.g., change in income, net worth, medical expenses,
-  dependency, etc.); which caused a projected $381.78 million in monetary loss in
-  FY 2024. A known barrier is relying on beneficiaries to notify the VA when they
-  experience life or financial changes since these factors may impact continued eligibility.
-  When applicable, the VA pursues debt collection by offsetting benefit payments for
-  the full amount of the debt or by approved repayment installments. '
+  Survivors Pension Benefits. Overpayments occur when beneficiaries fail to notify
+  VA of financial changes or when VA makes errors in accounting for beneficiary income
+  from Social Security or other sources, medical expenses, dependency, etc. This resulted
+  in a projected $272.29 million in monetary loss in FY 2025. Known barriers include
+  relying on beneficiaries to notify the VA of dependency or financial changes which
+  may impact eligibility. When appropriate, VA pursues debt collection by offsetting
+  benefit payments for the full amount of the debt or by approved repayment installments.
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -1303,6 +1303,8 @@ Payment_Accuracy_Amounts: '[3732.33, 3442.98, 3224.3499999999995, 3195.410000000
 Phase_2_Program: 0
 Program_Name: Pension
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Pension.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Pension.pdf
   QuarterYear: Q3 2026
 - Link: assets/scorecards/Q2 2026/Pension.pdf

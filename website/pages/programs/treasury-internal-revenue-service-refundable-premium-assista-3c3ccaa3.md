@@ -1114,15 +1114,15 @@ Data_By_Year:
     Overpayments_Outside_Control_Amount: '1004.93'
   underpayments:
     Underpayments_Amount: '0.0'
-Description: The Net Premium Tax Credit (PTC) is a refundable credit that helps eligible
+Description: The Premium Tax Credit (PTC) is a refundable credit that helps eligible
   individuals and families cover the premiums for their health insurance purchased
-  through the Marketplace.  $0.72B of Net PTC overclaims are from the inability to
-  authenticate eligibility.  $0.11B of Net PTC overclaims are from program design
-  limitations because the data needed to confirm payment accuracy does not exist at
-  the time of processing.  Authentication is difficult because the IRS relies primarily
-  on the self-reported information from the taxpayers and there is a lack of internal
-  or external databases available with information that would help the IRS determine
-  eligibility.
+  through the Marketplace. Approximately $0.9B of Net PTC overclaims are from the
+  inability to authenticate eligibility because the data needed does not exist. Authentication
+  is difficult because the IRS relies primarily on the self-reported information from
+  the taxpayers and there is a lack of databases available with information to help
+  the IRS determine eligibility. Approximately $0.1B of Net PTC overclaims are from
+  program design limitations. Barriers caused by program design occur when information
+  needed to confirm payment accuracy is not available at the time the return is processed.
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -1134,6 +1134,9 @@ Payment_Accuracy_Amounts: '[1529.04, 2721.4, 1646.85, 1793.8700000000003, 2014.7
 Phase_2_Program: 0
 Program_Name: Internal Revenue Service - Refundable Premium Assistance Tax Credit
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Internal Revenue Service - Refundable Premium Assistance
+    Tax Credit.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Internal Revenue Service - Refundable Premium Assistance
     Tax Credit.pdf
   QuarterYear: Q3 2026

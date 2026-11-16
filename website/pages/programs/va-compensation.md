@@ -474,7 +474,15 @@ Data_By_Year:
     Failure_to_Access_Data: 489.29
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '489.29'
-Description: null
+Description: VBA’s disability compensation program provides financial benefits to
+  Veterans with service-connected disabilities and eligible dependents, serving approximately
+  6.4 million Veterans in FY 2025. Compensation may also be paid for secondary and
+  presumptive disabilities related to military service. Overpayments may occur during
+  adjustments to disability evaluations, dependency status, and/or effective dates
+  and led to a projected $480.74M in monetary loss in FY 2025. Known barriers to prevention
+  include the complexity of rating decisions, evidence receipt delays, and user error
+  impacting changes. VBA mitigates risk through debt collection after statutory due
+  process, quality reviews, training, and system tools to identify and correct errors.
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -486,6 +494,8 @@ Payment_Accuracy_Amounts: '[155105.38, 174277.19999999998]'
 Phase_2_Program: 0
 Program_Name: Compensation
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Compensation.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Compensation.pdf
   QuarterYear: Q3 2026
 - Link: assets/scorecards/Q2 2026/Compensation.pdf

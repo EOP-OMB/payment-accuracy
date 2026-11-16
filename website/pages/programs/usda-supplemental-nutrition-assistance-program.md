@@ -985,15 +985,15 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '1266.53'
 Description: SNAP provides food benefits to low-income families to supplement their
-  grocery budgets.  It is the largest domestic nutrition assistance program. SNAP
-  is a Federal program administered by States (All 50 States, D.C., Guam, and the
-  Virgin Islands). States are responsible for determining a SNAP applicant's eligibility
+  grocery budgets. It is the largest domestic nutrition assistance program. SNAP is
+  a Federal program administered by States (All 50 States, D.C., Guam, and the Virgin
+  Islands). States are responsible for determining a SNAP applicant's eligibility
   and issuing benefits to eligible residents following Federal requirements. Within
   those requirements, State agencies have flexibility to tailor the program to meet
   the needs of their residents through various policy options, waivers, and demonstration
   projects. As a result, corrective actions to address payment errors must originate
   in and be tailored to each individual State agency's circumstances/particular root
-  cause of error
+  cause of error.
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -1005,6 +1005,8 @@ Payment_Accuracy_Amounts: '[67213.93000000001, 79545.72, 83289.2, 84944.24]'
 Phase_2_Program: 0
 Program_Name: Supplemental Nutrition Assistance Program
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Supplemental Nutrition Assistance Program.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Supplemental Nutrition Assistance Program.pdf
   QuarterYear: Q3 2026
 - Link: assets/scorecards/Q2 2026/Supplemental Nutrition Assistance Program.pdf

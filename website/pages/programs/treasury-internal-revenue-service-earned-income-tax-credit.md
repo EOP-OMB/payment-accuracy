@@ -1127,13 +1127,14 @@ Data_By_Year:
   underpayments:
     Underpayments_Amount: '0.0'
 Description: 'The Earned Income Tax Credit (EITC) is a refundable tax credit for working
-  families with low to moderate incomes.  $19.88B of overpayments are from the inability
-  to authenticate qualifying child eligibility requirements and misreported taxpayer
-  income.  Authentication is complex because the IRS relies primarily on the self-reported
-  information from the taxpayers and there is a lack of internal or external databases
-  available with information that would help the IRS determine eligibility.  $1.27B
-  of EITC overclaims are due to the lack of validation data needed to confirm payment
-  accuracy at the time the tax return is processed.   '
+  families with low to moderate incomes. Approximately $21.3B of overpayments are
+  from the inability to authenticate qualifying child eligibility requirements and
+  misreported taxpayer income.  Authentication is difficult because the IRS relies
+  primarily on the self-reported information from the taxpayers and there is a lack
+  of internal or external databases available with information that would help the
+  IRS determine eligibility.  Approximately $1.4B of EITC overclaims are from program
+  design limitations. Barriers caused by program design occur when information needed
+  to confirm payment accuracy is not available at the time the return is processed.  '
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -1145,6 +1146,8 @@ Payment_Accuracy_Amounts: '[39345.61, 43494.17, 42495.37, 43530.98, 47888.53]'
 Phase_2_Program: 0
 Program_Name: Internal Revenue Service - Earned Income Tax Credit
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Internal Revenue Service - Earned Income Tax Credit.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Internal Revenue Service - Earned Income Tax Credit.pdf
   QuarterYear: Q3 2026
 - Link: assets/scorecards/Q2 2026/Internal Revenue Service - Earned Income Tax Credit.pdf

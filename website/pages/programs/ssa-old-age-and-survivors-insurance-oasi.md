@@ -3182,15 +3182,16 @@ Data_By_Year:
     Failure_to_Access_Data: 2882.24111949
     Inability_to_Access_Data: 95.98627941
     Underpayments_Amount: '2978.2273989'
-Description: The OASDI program provides monthly benefits to qualified individuals
-  who are retired or disabled, dependents of eligible beneficiaries, and surviving
-  dependents of deceased workers.  We maintain high payment accuracy rates in our
-  OASDI program and are working to do even better.  Improper payments (overpayments
-  and underpayments) result from 1) beneficiaries’ failure to report required information
-  to the agency and 2) the agency not taking timely and appropriate action.  We are
-  addressing these challenges by promoting timely wage reporting, automating wage
-  reports from payroll information exchanges, and offering a service for customers
-  to electronically submit certain technician-requested evidence and forms.
+Description: The OASI program provides monthly benefits to eligible retirees, their
+  dependents, and surviving dependents of deceased workers. Overpayments (OP) within
+  our control occur when the beneficiary, representative payee, or third-party provided
+  the necessary information, but we failed to use the information needed to accurately
+  compute the benefit amount prior to making a payment. OPs outside of the agency’s
+  control occur when we are unable to access data needed to validate payment accuracy
+  because the beneficiary, representative payee, or a third-party did not provide
+  the requested information, provided the information after the benefit amount was
+  calculated/processed, or provided inaccurate information to compute the accurate
+  benefit amount.
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -3204,6 +3205,8 @@ Payment_Accuracy_Amounts: '[1125028.0124564501, 1261270.79241695, 1348333.171961
 Phase_2_Program: 0
 Program_Name: Old-Age and Survivors Insurance (OASI)
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Old-Age and Survivors Insurance (OASI).pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Old-Age and Survivors Insurance (OASI).pdf
   QuarterYear: Q3 2026
 - Link: assets/scorecards/Q2 2026/Old-Age and Survivors Insurance (OASI).pdf
