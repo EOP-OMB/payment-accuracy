@@ -516,6 +516,9 @@ Payment_Accuracy_Amounts: '[3799.21, 3796.6]'
 Phase_2_Program: 0
 Program_Name: Child and Adult Care Food Program
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Food and Nutrition Service (FNS) Child and Adult
+    Care Food Program.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Food and Nutrition Service (FNS) Child and Adult
     Care Food Program.pdf
   QuarterYear: Q3 2026

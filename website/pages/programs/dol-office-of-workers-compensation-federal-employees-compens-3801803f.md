@@ -806,7 +806,15 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Inability_to_Access_Data: 1.61
     Underpayments_Amount: '1.62'
-Description: null
+Description: The Office of Workers' Compensation (OWCP) - Federal Employees' Compensation
+  Act(FECA) program provides workers' compensation coverage to more than 2.5 million
+  Federal and postal workers around the world for employment-related injuries and
+  occupational diseases. The program’s improper and unknown payments are broken down
+  into three categories; medical payments, compensation payments, and rolling 3-yearaverage
+  of adjudicated fraud. Overpayments are caused by a lack of data to validate medical
+  bill submissions, support augmented compensation, and an inability to access payrate
+  information for employees. Known barriers to prevention are a lack of data sharing
+  agreements across federal payroll providers and databases not in existence.
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -819,6 +827,9 @@ Payment_Accuracy_Amounts: '[2831.59, 3183.7999999999997, 3540.2000000000003, 384
 Phase_2_Program: 0
 Program_Name: Office of Workers' Compensation - Federal Employees' Compensation Act
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Office of Workers_ Compensation - Federal Employees_
+    Compensation Act.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Office of Workers_ Compensation - Federal Employees_
     Compensation Act.pdf
   QuarterYear: Q3 2026

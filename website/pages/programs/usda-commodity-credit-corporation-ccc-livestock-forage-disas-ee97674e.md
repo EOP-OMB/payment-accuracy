@@ -1190,15 +1190,7 @@ Data_By_Year:
     Overpayments_Outside_Control_Amount: '0.0'
   underpayments:
     Underpayments_Amount: '0.0'
-Description: LFP provides payments to eligible livestock producers who have covered
-  livestock and are producers of grazed forage crop acreage that have suffered a grazing
-  loss due to a qualifying drought or fire during the normal grazing period for the
-  county. The majority of errors causing overpayments are due to administrative errors
-  related to common processes such as following program and payment eligibility determinations
-  and acreage reporting requirements, and not due to producer compliance with program
-  requirements. Most errors could be resolved through additional resources to provide
-  human capital and software enhancement; however, known barriers primarily are a
-  result of lack of funding and resources.
+Description: null
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false

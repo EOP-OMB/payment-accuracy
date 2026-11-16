@@ -1276,15 +1276,7 @@ Data_By_Year:
     Failure_to_Access_Data: 2.15
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '2.15'
-Description: The Purchased Long Term Services and Supports (PLTSS) program is organizationally
-  aligned under the VHA Geriatrics and Extended Care (GEC) Office that strives to
-  advance quality care for aging and chronically ill Veterans by providing policy
-  direction for the development, coordination, and integration of geriatrics and long-term
-  care clinical programs. The program reported $218.30 million in projected monetary
-  loss for FY 2024, which resulted from paying for claim amounts that exceeded the
-  contract rate, claims not received within the required timeframe, or billed services
-  that exceeded the authorized care. There are no known financial, contractor or provider
-  status related barriers prohibiting improving prevention of improper payments.
+Description: null
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false

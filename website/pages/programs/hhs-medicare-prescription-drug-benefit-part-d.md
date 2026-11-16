@@ -701,6 +701,9 @@ Payment_Accuracy_Amounts: '[87054.51, 86720.18000000001, 92946.3, 101333.28, 128
 Phase_2_Program: 0
 Program_Name: Medicare Prescription Drug Benefit (Part D)
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Centers for Medicare & Medicaid Services (CMS) -
+    Medicare Prescription Drug Benefit (Part D).pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Centers for Medicare & Medicaid Services (CMS) -
     Medicare Prescription Drug Benefit (Part D).pdf
   QuarterYear: Q3 2026

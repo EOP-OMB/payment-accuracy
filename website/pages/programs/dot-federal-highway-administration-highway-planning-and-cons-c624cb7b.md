@@ -591,15 +591,17 @@ Data_By_Year:
     Failure_to_Access_Data: 88.2421
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '88.2421'
-Description: The Federal Highway Administration’s (FHWA) Highway Planning and Construction
-  (HPC) program supports State and Local Public Agencies in the design, construction,
-  and maintenance of the Nation’s highway system as well as various federal and tribal
-  owned lands.  The program includes relief and infrastructure supplemental funding
-  for the repair or reconstruction of highways and roads which have suffered serious
-  damage because of natural disasters or catastrophic failures from external causes.  FHWA
-  HPC is not administered at the Federal level and overpayments are outside of FHWA
-  control when grant recipients make administrative errors.  The program is susceptible
-  to improper payments and reported a phase 2 estimate for FY 2025.
+Description: 'The Federal Highway Administration''s (FHWA) Highway Planning and Construction
+  (HPC) program was divided into separate Assistance Listing Numbers (ALNs) to comply
+  with new Executive Orders. For FY 2026, risk assessments of all HPC programs resulted
+  in two being selected for testing: the Surface Transportation Block Grant (STBG)
+  and the National Highway Performance Program (NHPP).  These programs support State
+  and Local Public Agencies with the Nation’s highway system, including supplemental
+  funding to repair roads damaged by disasters. Because they are not federally administered,
+  overpayments from recipient errors are outside FHWA control. Due to large funding
+  sizes and historical improper payments, both will continue Phase 2 testing.
+
+  '
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -612,6 +614,9 @@ Payment_Accuracy_Amounts: '[47891.172999999995, 51083.69710361001, 53391.1923280
 Phase_2_Program: 0
 Program_Name: Federal Highway Administration Highway Planning and Construction
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Federal Highway Administration Highway Planning
+    and Construction.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Federal Highway Administration Highway Planning
     and Construction.pdf
   QuarterYear: Q3 2026

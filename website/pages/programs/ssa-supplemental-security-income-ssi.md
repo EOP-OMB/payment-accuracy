@@ -3807,14 +3807,15 @@ Data_By_Year:
     Inability_to_Access_Data: 502.46984644
     Underpayments_Amount: '1360.71199635'
 Description: The SSI program provides financial support to aged, blind, and disabled
-  adults and children with limited income and resources.  Our greatest payment accuracy
-  challenges occur within the SSI program as payment amounts can fluctuate monthly
-  with changes in non-medical factors of eligibility such as resources, income, and
-  living arrangements.  Recipient’s failure to report, or timely report changes to
-  factors of eligibility is the primary cause of improper payments (IP).  For example,
-  we verify self-reported wage data and financial accounts retroactively, therefore
-  unless the recipient reports them monthly, an IP may result.  Another cause of IPs
-  is when we do not take timely action to update our records with the reported changes.
+  adults and children with limited income and resources. We generally issue payments
+  on the first day of the month for eligibility in that month. Even if a payment was
+  correct when issued, subsequent changes in non-medical eligibility factors such
+  as resources, income, and living arrangements, can affect the amount due and result
+  in improper payments (IP). As a result, certain program requirements can make some
+  IPs unavoidable. The primary cause of overpayments (OP) is recipient’s failure to
+  report, or timely report, changes that affect eligibility. OPs also occur when we
+  do not take appropriate or timely action to update our records with the reported
+  changes.
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -3828,6 +3829,8 @@ Payment_Accuracy_Amounts: '[51365.11476255, 52267.10019985, 54565.90418469, 5596
 Phase_2_Program: 0
 Program_Name: Supplemental Security Income (SSI)
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Supplemental Security Income (SSI).pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Supplemental Security Income (SSI).pdf
   QuarterYear: Q3 2026
 - Link: assets/scorecards/Q2 2026/Supplemental Security Income (SSI).pdf

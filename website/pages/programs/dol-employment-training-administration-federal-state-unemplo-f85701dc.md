@@ -2550,15 +2550,13 @@ Data_By_Year:
     Failure_to_Access_Data: 35.575
     Inability_to_Access_Data: 140.915
     Underpayments_Amount: '176.49'
-Description: "The UC programs provide temporary, partial wage replacement to eligible\
-  \ workers. Programs included in the monetary loss calculation include the traditional\
-  \ state UI, UCFE, UCX, EB, EUC08 benefits, and PEUC and FPUC CARES Act benefits.\
-  \ The top three root causes for OPs in the UC programs are BYE, Work Search, and\
-  \ Separation Issue IPs.  Barriers to prevention include\n (1) statutory requirements,\
-  \ \nbased on sound policy, to provide due process; \n(2) states must balance legal\
-  \ requirement to pay benefits quickly \nwith requirement to prevent fraud and improper\
-  \ payments; \n(3) 53 jurisdictions with different IT systems; and\n(4) increasingly\
-  \ sophisticated/evolving fraud schemes, including identity fraud.\n"
+Description: The UI programs provide temporary, partial wage replacement to eligible
+  workers. The top three root causes for OPs in the UC programs are BYE, Work Search,
+  and Separation Issue improper payments (IPs).  Barriers to prevention include (1)
+  increasingly sophisticated/evolving fraud schemes, including identity fraud; (2)
+  53 states and territories administering the program in accordance with state law
+  and across different IT systems; and (3) statutory requirements to provide due process,
+  which includes balancing legal requirements with paying benefits quickly.
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -2571,6 +2569,9 @@ Payment_Accuracy_Amounts: '[66310.65000000001, 23513.6, 29584.399999999998, 3208
 Phase_2_Program: 0
 Program_Name: Employment & Training Administration - Federal State Unemployment Insurance
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Employment & Training Administration - Federal State
+    Unemployment Insurance.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Employment & Training Administration - Federal State
     Unemployment Insurance.pdf
   QuarterYear: Q3 2026

@@ -1024,6 +1024,9 @@ Payment_Accuracy_Amounts: '[390457.7212343625, 391779.83999999997, 382016.61, 41
 Phase_2_Program: 0
 Program_Name: Medicare Fee-For-Service (FFS)
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Centers for Medicare & Medicaid Services (CMS) -
+    Medicare Fee-for-Service (FFS).pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Centers for Medicare & Medicaid Services (CMS) -
     Medicare Fee-for-Service (FFS).pdf
   QuarterYear: Q3 2026

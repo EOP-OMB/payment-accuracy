@@ -1032,6 +1032,9 @@ Payment_Accuracy_Amounts: '[8354.4, 8390.060000000001, 16252.5, 17777.1299999999
 Phase_2_Program: 0
 Program_Name: Child Care and Development Fund (CCDF)
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Administration for Children and Families (ACF) -
+    Child Care and Development Fund.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Administration for Children and Families (ACF) -
     Child Care and Development Fund.pdf
   QuarterYear: Q3 2026

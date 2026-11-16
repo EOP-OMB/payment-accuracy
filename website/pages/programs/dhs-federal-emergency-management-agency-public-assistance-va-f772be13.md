@@ -1483,15 +1483,7 @@ Data_By_Year:
     Overpayments_Outside_Control_Amount: '0.0'
   underpayments:
     Underpayments_Amount: '0.0'
-Description: The Federal Emergency Management Agency (FEMA) Public Assistance program
-  provides supplemental grants to state, local, tribal, and territorial (SLTT) governments,
-  and certain types of private non-profits for emergency response and long-term disaster
-  recovery efforts. Due to the nature of the Public Assistance program, FEMA is reliant
-  on additional parties, such as states, territories, etc., to oversee and execute
-  payments on behalf of the program. The barrier related to the expansive COVID disaster
-  size and the level of burden to collect the necessary supporting documentation serves
-  as a limitation to FEMA in improving the prevention of improper payments due to
-  the inability to readily match information related to financial eligibility.
+Description: null
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false

@@ -1111,15 +1111,15 @@ Data_By_Year:
     Failure_to_Access_Data: 0.07
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.07'
-Description: The VA Community Care program allows VA to authorize Veteran care at
-  non-VA health care facilities when the needed services are not available through
-  the VA, or when the Veteran is unable to travel to a VA facility. The program was
-  used to provide timely and specialized care to approximately three million Veterans
-  in FY 2024. The program reported $416.63 million in projected monetary loss in FY
-  2024, most of which resulted from paying for claims not received within the required
-  timeframe, services lacking proper authorization, or amounts that did not align
-  with the contracted rate. There are no known financial, contractor or provider status
-  related barriers prohibiting improving the prevention of improper payments.
+Description: The VA Community Care program allows VA to authorize Veteran health care
+  at community care facilities when the needed services are not available through
+  VA, when Veterans face excessive wait times or when the Veteran is unable to travel
+  to a VA facility. The program was used to provide timely and specialized care to
+  approximately 3.3 million Veterans in FY 2025. The program reported $552.15 million
+  in projected monetary loss in FY 2025, most of which resulted from claims not paid
+  according to contract, payment system errors and payment to an ineligible provider.
+  There are no known financial, contractor or provider status related barriers prohibiting
+  improving the prevention of improper payments.
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -1132,6 +1132,8 @@ Payment_Accuracy_Amounts: '[16018.87, 19160.200000000004, 21565.239999999998, 24
 Phase_2_Program: 0
 Program_Name: VA Community Care
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/VA Community Care.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/VA Community Care.pdf
   QuarterYear: Q3 2026
 - Link: assets/scorecards/Q2 2026/VA Community Care.pdf

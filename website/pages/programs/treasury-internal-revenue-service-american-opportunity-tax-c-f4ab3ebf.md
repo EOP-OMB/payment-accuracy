@@ -1100,13 +1100,14 @@ Data_By_Year:
     Overpayments_Outside_Control_Amount: '1667.4'
   underpayments:
     Underpayments_Amount: '0.0'
-Description: 'The American Opportunity Tax Credit (AOTC) is a credit for qualified
+Description: The American Opportunity Tax Credit (AOTC) is a credit for qualified
   education expenses paid for an eligible student for the first four years of higher
-  education.  $0.57B of AOTC overclaims are caused when information needed to authenticate
-  eligibility does not exist at the time of filing. Automated compliance checks cannot
-  provide validation without the necessary data causing IRS to verify eligibility
-  via audit.  $0.97B of AOTC overclaims are caused when validation data is not available
-  to confirm payment accuracy at the time the tax return is processed.  '
+  education. $0.6B of AOTC overclaims are from the inability to authenticate eligibility
+  because the data needed does not exist. This root cause includes errors that IRS
+  can only verify via audit since no data exists to support automated compliance checks.
+  $1.1B of AOTC overclaims are from program design limitations. Errors caused by program
+  design occur when information needed to confirm payment accuracy is not available
+  at the time the return is processed.
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -1119,6 +1120,9 @@ Payment_Accuracy_Amounts: '[3596.0700000000006, 3569.54, 3745.1899999999996, 347
 Phase_2_Program: 0
 Program_Name: Internal Revenue Service - American Opportunity Tax Credit
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Internal Revenue Service - American Opportunity
+    Tax Credit.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Internal Revenue Service - American Opportunity
     Tax Credit.pdf
   QuarterYear: Q3 2026

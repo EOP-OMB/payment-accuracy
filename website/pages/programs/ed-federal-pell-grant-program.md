@@ -1619,9 +1619,9 @@ Description: The Pell Grant program provides need-based grants to low-income und
   IV funds, failure to return unclaimed credit balances to the Department, and failure
   to meet satisfactory academic progress. Barriers include the program structure of
   the Pell program, which requires that funds pass through an intermediary Non-Federal
-  entity before reaching the ultimate beneficiary (student). The statute provides
-  FSA authority to require the third-party to impose certain internal controls or
-  mitigation strategies, and FSA exercises this authority.
+  entity before reaching the ultimate beneficiary (student). The HEA provides FSA
+  authority to require the third-party to impose certain internal controls or mitigation
+  strategies, and FSA exercises this authority.
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -1634,6 +1634,8 @@ Payment_Accuracy_Amounts: '[25543.469999999998, 27876.86, 32123.589999999997, 39
 Phase_2_Program: 0
 Program_Name: Federal Pell Grant Program
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Federal Pell Grant Program.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Federal Pell Grant Program.pdf
   QuarterYear: Q3 2026
 - Link: assets/scorecards/Q2 2026/Federal Pell Grant Program.pdf

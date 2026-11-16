@@ -1135,12 +1135,13 @@ Data_By_Year:
     Overpayments_Outside_Control_Amount: '5364.22'
   underpayments:
     Underpayments_Amount: '0.0'
-Description: 'The Additional Child Tax Credit (ACTC) is a social benefits program
-  for working families that is administered through the Internal Revenue Code.  $4.28B
-  of ACTC overclaims are from the inability to authenticate eligibility because the
-  data needed does not exist at the time of filing.  $0.27B of ACTC overclaims are
-  from program design limitations because the claim eligibility and validation data
-  is not available when the tax return is processed. '
+Description: The Additional Child Tax Credit (ACTC) is a social benefits program for
+  working families that is administered through the Internal Revenue Code.  Approximately
+  $5.0B of ACTC overclaims are from the inability to authenticate eligibility because
+  the data needed does not exist at the time of filing.  Approximately $0.3B of ACTC
+  overclaims are from program design limitations. Errors caused by program design
+  occur when information needed to confirm payment accuracy is not available at the
+  time the return is processed.
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -1152,6 +1153,9 @@ Payment_Accuracy_Amounts: '[27659.000000000004, 3225.49, 28674.21, 28885.26, 289
 Phase_2_Program: 0
 Program_Name: Internal Revenue Service - Additional Child Tax Credit
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Internal Revenue Service - Additional Child Tax
+    Credit.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Internal Revenue Service - Additional Child Tax
     Credit.pdf
   QuarterYear: Q3 2026

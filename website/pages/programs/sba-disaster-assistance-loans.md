@@ -737,7 +737,15 @@ Data_By_Year:
     Failure_to_Access_Data: 24.0
     Inability_to_Access_Data: 3.29
     Underpayments_Amount: '27.29'
-Description: null
+Description: SBA Disaster Assistance Loan Program provides direct low-interest loans
+  to businesses,homeowners, renters, & private nonprofit organizations impacted by
+  declared disasters.Improper payment reviews assess borrower eligibility, loan amount
+  accuracy, compliancewith disbursement requirements, & adherence to applicable statutes,
+  regulations, SOPs, and internal guidance. The primary causes of IPs included fees
+  charged for secured loans contrary to CFR requirements, duplication of benefits
+  not adequately addressed, &improper calculation or determination of economic injury
+  eligibility. Known barriers include high-volume disaster processing, reliance on
+  applicant provided documentation, &balancing timely assistance with validation controls.
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -750,6 +758,8 @@ Payment_Accuracy_Amounts: '[1098.903985, 837.35, 1133.16286485, 3066.79699999999
 Phase_2_Program: 0
 Program_Name: Disaster Assistance Loans
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Disaster Assistance Loans.pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Disaster Assistance Loans.pdf
   QuarterYear: Q3 2026
 - Link: assets/scorecards/Q2 2026/Disaster Assistance Loans.pdf

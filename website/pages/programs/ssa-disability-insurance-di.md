@@ -1368,7 +1368,15 @@ Data_By_Year:
     Failure_to_Access_Data: 198.28218551
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '198.28218551'
-Description: null
+Description: The DI program provides monthly benefits to workers who become disabled
+  and their eligible family members. Overpayments (OP) within our control occur when
+  the beneficiary, representative payee, or third-party provided the necessary information,
+  but we failed to use the information needed to accurately compute the benefit amount
+  prior to making a payment. OPs outside of the agency’s control occur when we are
+  unable to access data needed to validate payment accuracy because the beneficiary,
+  representative payee, or a third-party did not provide the requested information,
+  provided the information after the benefit amount was calculated/processed, or provided
+  inaccurate information to compute the accurate benefit amount.
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
@@ -1380,6 +1388,8 @@ Payment_Accuracy_Amounts: '[141104.76727318, 146705.37891436]'
 Phase_2_Program: 0
 Program_Name: Disability Insurance (DI)
 Scorecard_Links:
+- Link: assets/scorecards/Q4 2026/Disability Insurance (DI).pdf
+  QuarterYear: Q4 2026
 - Link: assets/scorecards/Q3 2026/Disability Insurance (DI).pdf
   QuarterYear: Q3 2026
 - Link: assets/scorecards/Q2 2026/Disability Insurance (DI).pdf

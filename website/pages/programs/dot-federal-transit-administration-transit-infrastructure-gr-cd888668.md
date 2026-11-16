@@ -602,15 +602,7 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
-Description: 'In response to the COVID-19 pandemic, FTA received three emergency appropriations
-  to support the nation’s public transportation systems. The funding provided relief
-  to transit agencies for ongoing operations rather than traditional capital investments.
-  The primary root cause of the program’s improper payments is the timing when transit
-  operating expenses became eligible for reimbursement. New COVID funding eligibilities
-  did not align with the prior period accounting adjustments made during the testing
-  period such as: employee benefits and direct costs calculations, accruals, and payroll
-  reversals. Funds are not administered at the Federal level and overpayments are
-  outside of FTA control when grant recipients make administrative errors.  '
+Description: null
 Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
