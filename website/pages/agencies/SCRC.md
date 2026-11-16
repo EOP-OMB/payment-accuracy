@@ -3,7 +3,7 @@ Agency: SCRC
 Agency_Name: Southeast Crescent Regional Commission
 Confirmed_Fraud: null
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: true
@@ -63,6 +63,7 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
 layout: agency-specific
 permalink: agency/SCRC.html

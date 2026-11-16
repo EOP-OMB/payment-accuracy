@@ -73,7 +73,7 @@ SurveyData:
     weaknesses that the IRS can remediate internally, but are in fact the result of
     factors beyond the Agency''s control under the current law and existing authority.'
   Heading: Actions That Are Planned to Bring Each Program into Compliance
-  Key: CAP5
+  Key: cap5
   SortOrder: 2
   Subheading: ''
   Type: TEXT

@@ -337,6 +337,10 @@ query_type_by_year = {
         2025: {
             "query": get_sql_file("ACTIONS_TAKEN.sql"),
             "mapper": return_nothing
+        },
+        2026: {
+            "query": get_sql_file("ACTIONS_TAKEN.sql"),
+            "mapper": return_nothing
         }
     },
     QUERY_TYPES.RISK_ASSESSMENTS: {
@@ -367,6 +371,10 @@ query_type_by_year = {
             "mapper": risk_assessments_mapper
         },
         2025: {
+            "query": get_sql_file("RISK_ASSESSMENTS.sql"),
+            "mapper": risk_assessments_mapper
+        },
+        2026: {
             "query": get_sql_file("RISK_ASSESSMENTS.sql"),
             "mapper": risk_assessments_mapper
         }
@@ -404,6 +412,9 @@ query_type_by_year = {
             "query": get_sql_file("IP_GW_STATS_2022.sql")
         },
         2025: {
+            "query": get_sql_file("IP_GW_STATS_2025.sql")
+        },
+        2026: {
             "query": get_sql_file("IP_GW_STATS_2025.sql")
         }
     },
@@ -459,6 +470,9 @@ query_type_by_year = {
         },
         2025: {
             "query": get_sql_file("PAYMENT_RECOVERY_DETAILS_2022.sql")
+        },
+        2026: {
+            "query": get_sql_file("PAYMENT_RECOVERY_DETAILS_2022.sql")
         }
     },
     QUERY_TYPES.PAYMENT_RECOVERY_AMOUNTS: {
@@ -493,6 +507,10 @@ query_type_by_year = {
             "mapper": piia_programs_compliance_mapper_2023
         },
         2025: {
+            "query": get_sql_file("PIIA_NON_COMPLIANT_PROGRAMS_2025.sql"),
+            "mapper": piia_programs_compliance_mapper_2023
+        },
+        2026: {
             "query": get_sql_file("PIIA_NON_COMPLIANT_PROGRAMS_2025.sql"),
             "mapper": piia_programs_compliance_mapper_2023
         }
@@ -573,6 +591,9 @@ query_type_by_year = {
         },
         2025: {
             "query": get_sql_file("AGENCY_SURVEY_KEY_AGNOSTIC_2019.sql")
+        },
+        2026: {
+            "query": get_sql_file("AGENCY_SURVEY_KEY_AGNOSTIC_2019.sql")
         }
     },
     QUERY_TYPES.PROGRAM_SURVEY_KEY_AGNOSTIC: {
@@ -607,5 +628,8 @@ query_type_by_year = {
         2025: {
             "query": get_sql_file("DID_NOT_REPORT_2023.sql")
         },
+        2026: {
+            "query": get_sql_file("DID_NOT_REPORT_2023.sql")
+        }
     }
 }

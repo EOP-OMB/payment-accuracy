@@ -36,7 +36,6 @@ def mock_csv_data(tmp_path):
     eligibility_themes = extracted_dir / "Eligibility_Themes.csv"
     eligibility_themes_descriptions = extracted_dir / "Eligibility_Themes_Descriptions.csv"
     fy25_risks = extracted_dir / "Risk_Assessment_FULL_FY25.csv"
-    risks = extracted_dir / "MY_OMB_ImproperPayment_Payment_Risk_Assessments_vw.csv"
     risks_methodology_changed = extracted_dir / "RiskAssessmentMethodologyChanges.csv"
     new_risks = extracted_dir / "MY_OMB_ImproperPayment_Payment_New_Risk_Assessments_vw.csv"
     recovery_amounts = extracted_dir / "MY_OMB_ImproperPayment_Payment_Accuracy_Rate_and_Amt_of_Recovery_vw.csv"
@@ -112,12 +111,6 @@ def mock_csv_data(tmp_path):
         "\nAB,2023,Rehabilitation Act Section 502,,"
     )
 
-    risks_sample_csv_data = (
-        "Agency,Fiscal_Year,Program_Name,in_draft,Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_,raa6_2,raa7_2,Updated_Program_Name,Original_Program_Name"
-        "\nAgency1,2024,Program1,0.0,,,,Program1,Program1"
-        "\nAgency1,2024,Program2,0.0,,Yes,No,Program2,Program2"
-    )
-
     risks_methodology_changed_sample_csv_data = (
         "Agency,Program_Name,Fiscal_Year"
         "\nAgency1,Program1,2025"
@@ -176,7 +169,6 @@ def mock_csv_data(tmp_path):
     eligibility_themes.write_text(eligibility_themes_sample_csv_data, encoding="utf-8-sig")
     eligibility_themes_descriptions.write_text(eligibility_themes_descriptions_sample_csv_data, encoding="utf-8-sig")
     fy25_risks.write_text(fy25_risks_sample_csv_data, encoding="utf-8-sig")
-    risks.write_text(risks_sample_csv_data, encoding="utf-8-sig")
     risks_methodology_changed.write_text(risks_methodology_changed_sample_csv_data, encoding="utf-8-sig")
     new_risks.write_text(new_risks_sample_csv_data, encoding="utf-8-sig")
     recovery_amounts.write_text(recovery_amounts_sample_csv_data, encoding="utf-8-sig")
@@ -197,7 +189,6 @@ def mock_csv_data(tmp_path):
         "ELIGIBILITY_THEMES_PATH": str(eligibility_themes),
         "ELIGIBILITY_THEMES_DESCRIPTIONS_PATH": str(eligibility_themes_descriptions),
         "FY25_RISKS_PATH": str(fy25_risks),
-        "RISKS_PATH": str(risks),
         "RISKS_METHODOLOGY_CHANGED_PATH": str(risks_methodology_changed),
         "NEW_RISKS_PATH": str(new_risks),
         "RECOVERY_AMOUNTS_PATH": str(recovery_amounts),

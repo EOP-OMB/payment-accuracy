@@ -206,18 +206,6 @@ Data_By_Year:
     Financial: 0.136454
     Inability_to_Access_Data: 0.0
     Overpayments_Outside_Control_Amount: '.136454'
-    Overpayments_Outside_Control_Why: 'The overpayments encountered are outside of
-      agency control due to the fact that the direct recipients of funds (State Education
-      Agency''s or SEAs) acted as a pass-through entity to their sub-grantees, who
-      were the ultimate recipients. As such, the Department processed the relevant
-      payments to the SEA based on their internal controls and payment review process.
-      Furthermore, these overpayments were due to rounding errors in most instances.
-      Additionally, in certain cases where the Department did make the direct payment
-      to the end user, the documentation submitted was seemingly sufficient except
-      for minor rounding
-
-      errors. The small amounts involved would not usually justify expending additional
-      resources or time to have Department staff reperform the calculations.'
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -359,14 +347,6 @@ Data_By_Year:
     Financial: 0.1
     Inability_to_Access_Data: 0.0
     Overpayments_Outside_Control_Amount: '0.1'
-    Overpayments_Outside_Control_Why: The ESF program experienced overpayments that
-      were beyond the agency’s control, due to automatic rounding errors. These discrepancies
-      occurred both within Excel and other system-based processes. Preventing rounding
-      within system-based processes is inherently challenging. When rounding occurs
-      in a system and is subsequently recalculated in Excel, discrepancies can arise,
-      resulting in minor differences in amounts. Consequently, it is difficult for
-      states to prevent these rounding errors, which is why they are classified as
-      beyond the agency’s control.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -437,7 +417,7 @@ Data_By_Year:
     improper payments for being made and to ensure payments are supported by sufficient
     documentation.
   IP_Unknown_Target_Rate: 0
-  Improper_Payments_Rate: 0.0042468752
+  Improper_Payments_Rate: 0.004246880000000001
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '0.01'
   Non_Monetary_Loss_Amount: '0'
@@ -485,7 +465,7 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true

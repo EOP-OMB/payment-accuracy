@@ -23,9 +23,24 @@ SELECT * FROM (
 		FROM split_values 
 		WHERE [remaining] != ''
 	)
-	SELECT [Fiscal_Year], [Program Name], [split_values].[theme], [description] FROM split_values
-	LEFT JOIN eligibility_themes_descriptions e ON [split_values].[theme] = e.[theme]
-	WHERE [split_values].[theme] != 'Other (please explain)'
+	SELECT
+		[Fiscal_Year],
+		[Program Name],
+		[themes].[theme],
+		[description]
+	FROM (
+		SELECT
+			[Fiscal_Year],
+			[Program Name],
+			CASE
+				WHEN [theme] GLOB '[[]dit[0-9]*] *'
+				THEN TRIM(SUBSTR([theme], INSTR([theme], '] ') + 2))
+				ELSE [theme]
+			END AS [theme]
+		FROM split_values
+	) themes
+	LEFT JOIN eligibility_themes_descriptions e ON [themes].[theme] = e.[theme]
+	WHERE [themes].[theme] != 'Other (please explain)'
 	UNION
 	SELECT
 		[Fiscal_Year],

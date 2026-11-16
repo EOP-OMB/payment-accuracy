@@ -14,3 +14,5 @@ __pycache__/
 cypress/cypress-image-diff-screenshots/comparison/
 cypress/cypress-image-diff-screenshots/diff/
 cypress/reports/
+
+tests/.venv

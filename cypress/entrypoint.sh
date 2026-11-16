@@ -12,6 +12,9 @@ fi
 
 echo "TEST_ENV is true. Preparing test markdown files..."
 
+echo "Waiting for website..."
+until curl -fsS http://website:8080/ >/dev/null; do sleep 2; done
+
 echo "Starting Cypress tests..."
 
 # Run Cypress tests and capture exit code

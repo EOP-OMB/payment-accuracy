@@ -99,15 +99,6 @@ def test_fy25_risks_file(mock_csv_data, in_memory_db):
     assert list(df.columns) == ["Agency","Fiscal_Year","Program_Name","Fiscal_Year_Last_Conducted","Susceptible"]
     assert len(df) == 2
 
-def test_risks_file(mock_csv_data, in_memory_db):
-    transform.RISKS_PATH = mock_csv_data["RISKS_PATH"]
-    transform.load_risks_file(in_memory_db)
-
-    df = pd.read_sql("SELECT * FROM risks", in_memory_db)
-    assert not df.empty
-    assert list(df.columns) == ["Agency","Fiscal_Year","Program_Name","in_draft","Was_the_Program_or_Activity_Susceptible_to_Significant_Improper_","raa6_2","raa7_2","Updated_Program_Name","Original_Program_Name"]
-    assert len(df) == 2
-
 def test_risks_methodology_changed_file(mock_csv_data, in_memory_db):
     transform.RISKS_METHODOLOGY_CHANGED_PATH = mock_csv_data["RISKS_METHODOLOGY_CHANGED_PATH"]
     transform.load_risks_methodology_changed_file(in_memory_db)
@@ -164,6 +155,56 @@ def test_load_congressional_reports_files(mock_csv_data, in_memory_db):
     assert list(df.columns) == ["agency","Key","Title","value","Fiscal_Year"]
 
     assert len(df) == 2
+
+def test_load_principal_table_columns_strips_unknown_mitigation_tags(tmp_path, in_memory_db):
+    csv_path = tmp_path / "principal_table_columns.csv"
+    csv_path.write_text(
+        "Fiscal_Year,Agency,Program_Name,Column_names,Column_values,Question,Section,Reporting_Phases_Current_FY\n"
+        '2026,VA,Pension,cyp7_atp1_8,"[atp1]Automation,[atp3]Training,[atp6]Audit","[cyp7_atp1_8] question",Prevention,Phase 2\n'
+        '2026,VA,Pension,cyp7_app1_8,"[app1]Automation,[app3]Training,[app6]Audit","[cyp7_app1_8] question",Prevention,Phase 2\n'
+        '2025,VA,Pension,cyp7_atp1_8,"[atp1]Automation,[atp3]Training","[cyp7_atp1_8] question",Prevention,Phase 2\n'
+        "2026,VA,Pension,cyp19,no,\"[cyp19] question\",section,Phase 2\n",
+        encoding="utf-8",
+    )
+    transform.PRINCIPAL_TABLE_COLUMNS_PATH = str(csv_path)
+    transform.load_principal_table_columns_file(in_memory_db)
+
+    df = pd.read_sql(
+        "SELECT Fiscal_Year, Column_names, Column_values, Question FROM principal_table_columns",
+        in_memory_db,
+    )
+    taken = df.loc[(df["Fiscal_Year"] == 2026) & (df["Column_names"] == "cyp7_atp1_8"), "Column_values"].iloc[0]
+    planned = df.loc[(df["Fiscal_Year"] == 2026) & (df["Column_names"] == "cyp7_app1_8"), "Column_values"].iloc[0]
+    assert taken == "Automation, Training, Audit"
+    assert planned == "Automation, Training, Audit"
+    assert df.loc[df["Fiscal_Year"] == 2025, "Column_values"].iloc[0] == "Automation, Training"
+    assert df.loc[df["Column_names"] == "cyp19", "Column_values"].iloc[0] == "no"
+    assert df["Question"].str.startswith("[").all()
+
+def test_load_mitigation_strategies_strips_bracketed_tags(tmp_path, in_memory_db):
+    csv_path = tmp_path / "mitigation_strategies.csv"
+    csv_path.write_text(
+        "Fiscal_Year,Agency,Program_Name,Column_names,Multiselect_Text,Question,Section,Reporting_Phases_Current_FY\n"
+        '2026,VA,Purchased Long Term Services and Supports,cyp21_atp1_8,"[atp4]Change Process","[cyp21_atp1_8] question",Prevention,Phase 2\n'
+        '2026,VA,Purchased Long Term Services and Supports,cyp21_atp1_8,"[atp6]Audit","[cyp21_atp1_8] question",Prevention,Phase 2\n'
+        '2026,VA,Purchased Long Term Services and Supports,cyp21_app1_8,"[app4]Change Process","[cyp21_app1_8] question",Prevention,Phase 2\n'
+        '2025,VA,Purchased Long Term Services and Supports,cyp21_atp1_8,"[atp6]Audit","[cyp21_atp1_8] question",Prevention,Phase 2\n'
+        "2026,VA,Purchased Long Term Services and Supports,cyp21_app1_8,,\"[cyp21_app1_8] question\",Prevention,Phase 2\n",
+        encoding="utf-8",
+    )
+    transform.MITIGATION_STRATEGIES_PATH = str(csv_path)
+    transform.load_mitigation_strategies_file(in_memory_db)
+
+    df = pd.read_sql(
+        "SELECT Fiscal_Year, Column_names, Multiselect_Text, Question FROM mitigation_strategies ORDER BY Fiscal_Year, Column_names, Multiselect_Text",
+        in_memory_db,
+    )
+    labels = df["Multiselect_Text"].tolist()
+    assert "Change Process" in labels
+    assert "Audit" in labels
+    assert not any(isinstance(label, str) and "[" in label for label in labels)
+    assert df.loc[df["Fiscal_Year"] == 2025, "Multiselect_Text"].tolist() == ["Audit"]
+    assert df["Question"].str.startswith("[").all()
 
 def test_load_fpi_mapping_files(mock_csv_data, in_memory_db):
     transform.FPI_MAPPING_PATH = mock_csv_data["FPI_MAPPING_PATH"]

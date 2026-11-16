@@ -132,7 +132,7 @@ Data_By_Year:
     takes appropriate actions in accordance with established procedures. This approach
     maintains accountability and program integrity.
   IP_Unknown_Target_Rate: 0
-  Improper_Payments_Rate: 0.3446244063
+  Improper_Payments_Rate: 0.34462441
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '3.0'
   Non_Monetary_Loss_Amount: '0'
@@ -194,7 +194,7 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true

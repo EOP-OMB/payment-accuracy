@@ -1,9 +1,9 @@
 ---
 Agency: ED
 Agency_Name: Department of Education
-Confirmed_Fraud: 8.622
+Confirmed_Fraud: 16.088
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
 Hide_Do_Not_Pay: false
@@ -17,16 +17,16 @@ Hide_Risk_Assessment_Results: false
 Hide_Sparklines: false
 Hide_Supplemental_Info: false
 Hide_Supplemental_Payment_Integrity: true
-Improper_Payments_Data_Years: '[2021, 2022, 2023, 2024, 2025]'
-Improper_Payments_Rate_Max: 2.5
+Improper_Payments_Data_Years: '[2022, 2023, 2024, 2025, 2026]'
+Improper_Payments_Rate_Max: 1.0
 Improper_Payments_Rate_Min: 0.6
-Improper_Payments_Rates: '[2.527142141012081, 1.0434628271932271, 0.630077202582293,
-  0.906042402014076, 0.7068369465311627]'
+Improper_Payments_Rates: '[1.0434628271932271, 0.630077202582293, 0.906042402014076,
+  0.7068369465311627, 0.586245606128994]'
 Is_Placeholder: false
-Overpayment_Amounts: '[361.55655455000004, 368.054492, 471.884031, 541.65, 548.3000000000001]'
-Overpayment_Amounts_Identified: '[840.8021, 459.91, 237.59, 427.74, 443.54]'
-Overpayment_Amounts_Recovered: '[799.75023, 357.7, 215.28, 329.09, 430.79]'
-Overpayment_Years: '[2021, 2022, 2023, 2024, 2025]'
+Overpayment_Amounts: '[368.054492, 471.884031, 541.65, 548.3000000000001, 83.66]'
+Overpayment_Amounts_Identified: '[459.91, 237.59, 427.74, 443.54, 226.37]'
+Overpayment_Amounts_Recovered: '[357.7, 215.28, 329.09, 430.79, 183.58]'
+Overpayment_Years: '[2022, 2023, 2024, 2025, 2026]'
 PIIA2019_Compliant_Programs:
 - Compliant_1A: true
   Compliant_1B: true
@@ -196,7 +196,7 @@ PIIA2019_Compliant_Programs:
   Compliant_6: true
   Compliant_Overall: true
   Hide_Compliance_Section: true
-  Name: Career and Technical Education - National Programs
+  Name: Career and Technical Education -- National Programs
 - Compliant_1A: true
   Compliant_1B: true
   Compliant_2A: true
@@ -1687,16 +1687,16 @@ PIIA2019_Compliant_Programs:
   Name: William D. Ford Federal Direct Loan Program
   Slug: ed-william-d-ford-federal-direct-loan-program
 PIIA2019_NonCompliant_Programs: []
-Payment_Accuracy_Amounts: '[123402.86963394999, 170376.645617, 220154.362094, 182647.52000000002,
-  184385.65]'
+Payment_Accuracy_Amounts: '[170376.645617, 220154.362094, 182647.52000000002, 184385.65,
+  125470.62999999999]'
 Payment_Accuracy_Rate_Max: 99.4
 Payment_Accuracy_Rate_Min: 91.6
-Payment_Accuracy_Rates: '[97.46625495020791, 91.55343335466112, 99.36850101873827,
-  99.08475151496214, 99.28814979633844]'
+Payment_Accuracy_Rates: '[91.55343335466112, 99.36850101873827, 99.08475151496214,
+  99.28814979633844, 99.4075350168751]'
 Risks:
   AdditionalInformation: null
   Assessments:
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Adult Education - Basic Grants to States
     Slug: null
@@ -1711,7 +1711,7 @@ Risks:
     Program_Name: Alaska Native Educational Programs
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: American History and Civics Education
     Slug: null
@@ -1731,7 +1731,7 @@ Risks:
     Program_Name: American Printing House for the Blind
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Arts in Education
     Slug: null
@@ -1747,7 +1747,7 @@ Risks:
     Program_Name: Business and International Education Projects
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Career and Technical Education - Basic Grants to States
     Slug: null
@@ -1758,9 +1758,9 @@ Risks:
       Alaska Natives
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2020'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
-    Program_Name: Career and Technical Education - National Programs
+    Program_Name: Career and Technical Education -- National Programs
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2019'
@@ -1810,7 +1810,7 @@ Risks:
     Program_Name: Consolidated Grant to the Outlying Areas
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Contractual Services
     Slug: null
@@ -1820,7 +1820,7 @@ Risks:
     Program_Name: Credit Enhancement for Charter School Facilities
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Credit Programs
     Slug: null
@@ -1835,7 +1835,7 @@ Risks:
     Program_Name: Directed Grants and Awards
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2022'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Disability Innovation Fund (DIF)
     Slug: null
@@ -1852,11 +1852,6 @@ Risks:
     Susceptible: null
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
-    Program_Name: Education for Homeless Children and Youth
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 0
     Program_Name: Education Innovation and Research (formerly Investing in Innovation
       (i3) Fund)
     Slug: null
@@ -1866,17 +1861,22 @@ Risks:
     Program_Name: Education Research, Development and Dissemination
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Education Stabilization Fund
     Slug: ed-education-stabilization-fund
     Susceptible: 'No'
   - Fiscal_Year: '2025'
     MethodologyChanged: 0
+    Program_Name: Education for Homeless Children and Youth
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
     Program_Name: English Language Acquisition State Grants
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Federal Family Education Loan (FFEL)
     Slug: null
@@ -1886,7 +1886,7 @@ Risks:
     Program_Name: Federal Pell Grant Program
     Slug: ed-federal-pell-grant-program
     Susceptible: 'Yes'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Federal Perkins Loan (Perkins)
     Slug: null
@@ -1896,17 +1896,17 @@ Risks:
     Program_Name: Federal Real Property Assistance Program
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Federal Supplemental Educational Opportunity Grant (FSEOG)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Federal Work-Study
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Fund for the Improvement of Postsecondary Education
     Slug: null
@@ -1931,7 +1931,7 @@ Risks:
     Program_Name: Grants for State Assessments and Related Activities
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2023'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Health Education Assistance Loan (HEAL)
     Slug: null
@@ -1941,7 +1941,7 @@ Risks:
     Program_Name: Helen Keller National Center for Youths and Adults Who Are Deaf-Blind
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Higher Education Institutional Aid
     Slug: null
@@ -1977,7 +1977,7 @@ Risks:
       (STEP) and Native American Language (NAL)
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2024'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Innovative Approaches to Literacy; Promise Neighborhoods; Full-Service
       Community Schools; and Congressionally Directed Spending for Elementary and
@@ -1994,7 +1994,7 @@ Risks:
     Program_Name: International Research and Studies
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Javits Gifted and Talented Students Education
     Slug: null
@@ -2034,7 +2034,7 @@ Risks:
     Program_Name: Minority Science and Engineering Improvement
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: National Resource Centers Program for Foreign Language and Area
       Studies or Foreign Language and International Studies Program and Foreign Language
@@ -2076,7 +2076,7 @@ Risks:
     Program_Name: Overseas Programs Special Bilateral Projects
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Personnel Compensation and Benefits
     Slug: null
@@ -2127,7 +2127,7 @@ Risks:
     Program_Name: Rehabilitation Services Service Projects
     Slug: null
     Susceptible: null
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Rehabilitation Services Vocational Rehabilitation Grants to States
     Slug: null
@@ -2230,7 +2230,7 @@ Risks:
     Program_Name: Strengthening Minority-Serving Institutions
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Student Support and Academic Enrichment Program
     Slug: null
@@ -2246,60 +2246,10 @@ Risks:
     Program_Name: Supporting Effective Educator Development Program
     Slug: null
     Susceptible: 'No'
-  - Fiscal_Year: '2025'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Supporting Effective Instruction State Grants (formerly Improving
       Teacher Quality State Grants)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 0
-    Program_Name: Teacher and School Leader Incentive Grants (formerly the Teacher
-      Incentive Fund)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2023'
-    MethodologyChanged: 0
-    Program_Name: Teacher Education Assistance for College and Higher Education Grant
-      (TEACH)
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 0
-    Program_Name: Teacher Quality Partnership Grants
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 0
-    Program_Name: Title I Grants to Local Educational Agencies
-    Slug: ed-title-i-grants-to-local-educational-agencies
-    Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 0
-    Program_Name: Title I State Agency Program for Neglected and Delinquent Children
-      and Youth
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2019'
-    MethodologyChanged: 0
-    Program_Name: Traditionally Underserved Populations
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2019'
-    MethodologyChanged: 0
-    Program_Name: Training Interpreters for Individuals who are Deaf and Individuals
-      who are Deaf-Blind
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2025'
-    MethodologyChanged: 0
-    Program_Name: Transition Programs for Students with Intellectual Disabilities
-      into Higher Education
-    Slug: null
-    Susceptible: 'No'
-  - Fiscal_Year: '2024'
-    MethodologyChanged: 0
-    Program_Name: Tribally Controlled Postsecondary Career and Technical Institutions
     Slug: null
     Susceptible: 'No'
   - Fiscal_Year: '2025'
@@ -2332,7 +2282,57 @@ Risks:
     Program_Name: TRIO Upward Bound
     Slug: null
     Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: Teacher Education Assistance for College and Higher Education Grant
+      (TEACH)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Teacher Quality Partnership Grants
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: Teacher and School Leader Incentive Grants (formerly the Teacher
+      Incentive Fund)
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
+    MethodologyChanged: 0
+    Program_Name: Title I Grants to Local Educational Agencies
+    Slug: ed-title-i-grants-to-local-educational-agencies
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Title I State Agency Program for Neglected and Delinquent Children
+      and Youth
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2019'
+    MethodologyChanged: 0
+    Program_Name: Traditionally Underserved Populations
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2019'
+    MethodologyChanged: 0
+    Program_Name: Training Interpreters for Individuals who are Deaf and Individuals
+      who are Deaf-Blind
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2025'
+    MethodologyChanged: 0
+    Program_Name: Transition Programs for Students with Intellectual Disabilities
+      into Higher Education
+    Slug: null
+    Susceptible: 'No'
   - Fiscal_Year: '2024'
+    MethodologyChanged: 0
+    Program_Name: Tribally Controlled Postsecondary Career and Technical Institutions
+    Slug: null
+    Susceptible: 'No'
+  - Fiscal_Year: '2026'
     MethodologyChanged: 0
     Program_Name: Twenty-First Century Community Learning Centers
     Slug: null
@@ -2348,90 +2348,109 @@ Risks:
     Slug: ed-william-d-ford-federal-direct-loan-program
     Susceptible: 'Yes'
   SubstantialChangesMade: 'No'
-Technically_Improper_Amounts: '[2672.17, 1408.98, 667.3199999999999, 850.59, 746.71]'
-Underpayment_Amounts: '[165.91, 164.800891, 256.753875, 277.90999999999997, 17.64]'
-Unknown_Amounts: '[8.36, 13776.829, 3.15, 16.97, 9.31]'
+Technically_Improper_Amounts: '[1408.98, 667.3199999999999, 850.59, 746.71, 635.36]'
+Underpayment_Amounts: '[164.800891, 256.753875, 277.90999999999997, 17.64, 20.93]'
+Unknown_Amounts: '[13776.829, 3.15, 16.97, 9.31, 7.85]'
 Unknown_Payments_Rate_Max: 7.4
 Unknown_Payments_Rate_Min: 0.0
-Unknown_Payments_Rates: '[0.0066029087800043304, 7.4031038181456585, 0.0014217786794312,
-  0.009206083023787606, 0.005013257130389003]'
+Unknown_Payments_Rates: '[7.4031038181456585, 0.0014217786794312, 0.009206083023787606,
+  0.005013257130389003, 0.006219376995895132]'
 Years_Available:
+- 2026
 - 2025
 - 2024
 - 2023
 - 2022
-- 2021
 detail_Additional_IP_Information: null
 detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
 detail_Compliance_Status: Compliant
-detail_DNP_Discussion: The Department of Education utilizes the Treasury's Do Not
-  Pay (DNP) system to verify and cross-check information across multiple databases,
-  ensuring that the Department avoids making improper payments. On a monthly basis,
-  the agency conducts checks for any matches to relevant data sources. To date, only
-  one match has been identified, which signaled a potential issue that necessitated
-  further investigation and corrective action, thereby preventing additional matches
-  from occurring.
+detail_DNP_Discussion: "During FY 2026, the Department strengthened its use of the\
+  \ Department of the Treasury’s Do Not Pay (DNP) services as part of its broader\
+  \ payment integrity and fraud risk management activities. The Department executed\
+  \ an agreement with Treasury to support expanded DNP services and continued monthly\
+  \ reviews of applicable DNP data sources to identify potential payment eligibility\
+  \ issues requiring further review. \n\nThe Department also implemented Treasury’s\
+  \ Type B Taxpayer Identification Number (TIN) testing, with testing beginning June\
+  \ 29, 2026, and the return of testing results scheduled to begin September 30, 2026.\
+  \ As part of implementation, the Department assessed affected payment processes,\
+  \ coordinated with Treasury on testing requirements, and addressed circumstances\
+  \ in which certain bulk payment files do not contain individual TINs. The Department\
+  \ also continued DNP Portal reviews and evaluated opportunities to further strengthen\
+  \ the use of DNP within its pre-payment and payment integrity processes. The Department\
+  \ utilizes both Continuous Monitoring and Batch Matching services to identify matches.\
+  \ In FY 2026, DNP screened 1.15M payments and effective August 1, 2026, Education\
+  \ began cancelling invoices that conclusively matched with DNP. 1,018 invoices were\
+  \ cancelled through the end of September as a result of screening activities. \n\
+  \nThese efforts strengthen the Department’s ability to identify potential payment\
+  \ eligibility concerns, investigate identified matches, and take appropriate action\
+  \ based on the results of DNP screening and other payment integrity controls."
 detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
-detail_DNP_Reduced: 'Yes'
+detail_DNP_Reduced: 'No'
 detail_DNP_Used: 'Yes'
 detail_Disposition_of_Funds: null
-detail_Executive_Summary: "Federal Student Aid's (FSA’s) Federal Pell Grant (Pell)\
-  \ and William D. Ford Direct Loan (Direct Loan) programs are considered Phase 2\
-  \ programs per OMB Circular A-123, Appendix C (“A-123C”). The major causes of improper\
-  \ payments (IP) and unknown payments (UP) in FY 2025 are related to documentation\
-  \ deficiencies, incorrect amount, and student withdrawal deficiencies. These root\
-  \ causes are consistent with those identified for prior year IP and UP estimates.\
-  \ FSA has developed corrective action plans to mitigate and prevent IPs and UPs\
-  \ that are within FSA’s control. For example, through the Student Aid and Borrower\
-  \ Eligibility (SABER) Initiative, FSA has implemented the Fostering Undergraduate\
-  \ Talent by Unlocking Resources for Education (FUTURE) Act and Free Application\
-  \ for Federal Student Aid (FAFSA) Simplification Act for the 2024-2025 FAFSA which\
-  \ streamlines and strengthens the collection of data used to determine eligibility\
-  \ for student financial assistance. IPs and UPs that are outside of FSA’s control\
-  \ are mainly attributed to challenges at institutions that are responsible for disbursing\
-  \ Pell and Direct Loan funds. FSA will continue to provide training to institutions\
-  \ through various avenues, such as the FSA Annual Conference, and perform various\
-  \ oversight activities to ensure institutions meet FSA requirements for institutional\
-  \ eligibility, financial responsibility, and administrative capability.  \n\nThe\
-  \ FY 2025 IP and UP rate for the Pell program is 1.07%, down from 2.64% in FY 2024.\
-  \ The decrease in the FY 2025 Pell estimate from FY 2024 is primarily due to the\
-  \ implementation of the authorities provided in the FUTURE Act which now allows\
-  \ FSA to collect federal tax information directly from the Internal Revenue Service\
-  \ (IRS), and therefore misreported income on the FAFSA is significantly reduced\
-  \ as the information is verified and directly collected from the IRS. This reduction\
-  \ is a significant win for the Pell Grant program as misreported income on the FAFSA\
-  \ has been the Pell Grant program's most significant root cause of improper payments\
-  \ in both rate and dollars since the implementation of its statistically valid Sampling\
-  \ and Estimation Methodology Plan (S&EMP) in FY 2019. The FY 2025 IP and UP rate\
-  \ for the Direct Loan program is 0.99%, up from 0.94% in FY 2024.  The increase\
-  \ in the FY 2025 Direct Loan estimate from FY 2024 is primarily due to an increase\
-  \ in IPs derived from compliance audit data.   \n\nThe Department also estimated\
-  \ the FY 2025 IP and UP rates for one non-FSA Phase 2 program: Education Stabilization\
-  \ Fund (ESF). The FY 2025 IP and UP rate for the ESF program is 0.004%. The ESF\
-  \ program experienced overpayments that were beyond the agency’s control, due to\
-  \ automatic rounding errors and inadequate expenditure data. These discrepancies\
-  \ occurred both within Excel and within other system-based processes. Preventing\
-  \ rounding within system-based processes is inherently challenging. When rounding\
-  \ occurs in a system and is subsequently recalculated in Excel, discrepancies can\
-  \ arise, resulting in minor differences in amounts. Consequently, it is difficult\
-  \ for states to prevent these rounding errors, which is why these errors are classified\
-  \ as beyond the agency’s control.  \n\nThe Department continues its efforts to collect\
-  \ confirmed IPs. Although the Department has determined that payment recapture audits\
-  \ would not be cost-effective for any of its programs and activities, the Department\
-  \ identifies and recovers IPs through other recovery mechanisms. The Department\
-  \ works with grantees and Title IV (FSA) program participants to resolve and recover\
-  \ amounts identified in compliance audits, OIG audits, and program reviews. Additionally,\
-  \ the Department analyzes the return of grant funds from recipients to determine\
-  \ whether they are due to IPs. When an IP is confirmed and deemed collectible, the\
-  \ Department establishes an account receivable and pursues collection. Additionally,\
-  \ the Department has discretion to decide not to collect IPs from grantees in cases\
-  \ where it determines that pursuing collection would cause more harm to the federal\
-  \ interest. \n\nFinally, through its improper payment risk assessments, the Department\
-  \ did not identify any new programs as high risk requiring an estimate. The Department\
-  \ continues to maintain PIIA compliance by emphasizing the prevention of improper\
-  \ payments. Excessive drawdowns can reveal grantee cash management issues, an area\
-  \ the Department’s grants management community continues to address through its\
-  \ technical assistance to grantees."
+detail_Executive_Summary: "The Department of Education maintains a comprehensive payment\
+  \ integrity program to prevent, identify, and recover improper payments (IPs) and\
+  \ unknown payments (UPs) in accordance with the Payment Integrity Information Act\
+  \ of 2019 (PIIA) and OMB Circular A-123, Appendix C. During FY 2026, the Department\
+  \ assessed payment integrity risks across its programs, estimated IP and UP rates\
+  \ for two Phase 2 programs, implemented corrective actions addressing identified\
+  \ root causes, strengthened the use of Treasury’s Do Not Pay services, and continued\
+  \ recovery and oversight activities. The FY 2026 risk assessments did not identify\
+  \ any additional programs requiring statistically valid IP and UP estimates. Additionally,\
+  \ the Department was found to be compliant with applicable payment integrity requirements\
+  \ in its most recent Office of Inspector General (OIG) audit. \n\nThe Department\
+  \ produced FY 2026 IP and UP estimates for two Federal Student Aid (FSA) programs:\
+  \ the Federal Pell Grant (Pell) Program and the William D. Ford Federal Direct Loan\
+  \ (Direct Loan) Program. The combined FY 2026 IP and UP rates were 0.35 percent\
+  \ for Pell, and 0.70 percent for Direct Loan, representing decreases from FY 2025\
+  \ rates of 1.07 percent and 0.99 percent, respectively. \n\nThe reduction in Pell's\
+  \ IP and UP rate was attributable in significant part to implementation of authorities\
+  \ provided under the Fostering Undergraduate Talent by Unlocking Resources for Education\
+  \ (FUTURE) Act, which enables federal tax information used to determine student\
+  \ aid eligibility to be obtained directly from the Internal Revenue Service. Direct\
+  \ access to this information reduced errors associated with income reported on the\
+  \ Free Application for Federal Student Aid (FAFSA), historically a significant source\
+  \ of Pell improper payments. A decrease in improper payments identified through\
+  \ compliance audit data also contributed to the lower Pell rate. Similarly, the\
+  \ reduction in the Direct Loan rate was primarily attributable to fewer improper\
+  \ payments identified through compliance audit data. \n\nThe principal causes of\
+  \ IPs and UPs identified for Pell and Direct Loan during FY 2026 included documentation\
+  \ and verification deficiencies, incorrect payment timing or amounts, and student\
+  \ withdrawal-related deficiencies. FSA continued implementing corrective actions\
+  \ addressing causes within its control, including improvements associated with the\
+  \ FUTURE Act and FAFSA Simplification Act. For errors arising from institutional\
+  \ administration of Title IV funds, FSA continued providing guidance, training,\
+  \ and oversight to promote compliance with institutional eligibility, financial\
+  \ responsibility, and administrative capability requirements. \n\nThe Department\
+  \ also strengthened preventive and detective controls during FY 2026 through expanded\
+  \ use of Treasury's DNP services. These efforts included executing an agreement\
+  \ with Treasury to support additional DNP capabilities and continuing monthly reviews\
+  \ against applicable DNP data sources. Treasury Type B Taxpayer Identification Number\
+  \ testing began on June 29, 2026, with testing results scheduled to begin September\
+  \ 30, 2026. The Department also monitored payment and grant activity for indicators\
+  \ of potential payment integrity risks, including excessive drawdowns and grantee\
+  \ cash-management issues, and provided technical assistance and oversight as appropriate.\
+  \ \n\nIn accordance with OMB Circular A-123, Appendix C, the Department assesses\
+  \ improper payment risks at least once every three years for programs and activities\
+  \ with annual outlays exceeding $10 million that do not report improper payment\
+  \ estimates. For FY 2026, the assessment review period covered October 1, 2024,\
+  \ through September 30, 2025. The Department completed risk assessments for 19 non-FSA\
+  \ grant programs, three administrative activities, and six FSA-managed programs.\
+  \ None were newly identified as susceptible to significant improper payments requiring\
+  \ statistically valid estimates. \n\nThe Department continued identifying and recovering\
+  \ confirmed improper payments through established recovery mechanisms. Although\
+  \ payment recapture audits were determined not to be cost-effective for the Department's\
+  \ programs and activities, recoveries continued through compliance audits, OIG audits,\
+  \ program reviews, grant fund returns, and other oversight activities. When an improper\
+  \ payment was confirmed and determined collectible, the Department established an\
+  \ account receivable and pursued recovery in accordance with applicable requirements.\
+  \ In limited circumstances, the Department may determine that collection is not\
+  \ in the federal government's best interest. \n\nOverall, the Department's FY 2026\
+  \ payment integrity efforts emphasized prevention, risk-based oversight, corrective\
+  \ action, and recovery. Information obtained through risk assessments, statistical\
+  \ estimates, DNP screening, audits, program reviews, and ongoing monitoring informed\
+  \ efforts to identify emerging risks, strengthen internal controls, and support\
+  \ continued compliance with PIIA and OMB Circular A-123, Appendix C."
 detail_OIG_Recommendations: null
 detail_Overpayment_Conditions_And_Methods: null
 detail_PIIA_Incentives: null
@@ -2459,7 +2478,7 @@ detail_Recovery_Not_Cost_Effective_Justification: The Department has determined 
 detail_Risks_Substantial_Changes_Made: 'No'
 layout: agency-specific
 permalink: agency/ED.html
-recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 443.54
-recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 430.79
+recovery_OP_Amt_Identified_outside_of_Payment_Recapture_Audits: 226.37
+recovery_OP_Amt_Recapture_outside_of_Payment_Recapture_Audits: 183.58
 recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---

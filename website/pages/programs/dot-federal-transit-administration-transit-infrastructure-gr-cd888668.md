@@ -235,15 +235,6 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Overpayments_Outside_Control_Amount: '506.4008568'
-    Overpayments_Outside_Control_Why: FTA's Transit Infrastructure Grants - COVID
-      Relief Funds are not administered at the Federal level and overpayments are
-      outside of FTA control when grant recipients make administrative errors. Grant
-      recipients must administer Federal transit funds within statutory requirements
-      and in accordance with FTA regulations. Grant recipients certify to FTA that
-      they have the ability and intention to meet these requirements. Whereas grant
-      recipients are responsible for the administration of federal assistance, FTA
-      is responsible, primarily through its regional offices, for ensuring compliance
-      with Federal requirements and proper use of Federal funds.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -433,15 +424,6 @@ Data_By_Year:
     Financial: 0.0
     Inability_to_Access_Data: 0.0
     Overpayments_Outside_Control_Amount: '151.512297'
-    Overpayments_Outside_Control_Why: Federal Transit Administration's (FTA) Transit
-      Infrastructure Grants - COVID Relief Fund overpayments are outside of FTA control
-      when grant recipients make administrative errors. Grant recipients must administer
-      Federal transit funds within statutory requirements and in accordance with FTA
-      regulations. Grant recipients certify to FTA that they have the ability and
-      intention to meet these requirements. Whereas grant recipients are responsible
-      for the administration of federal assistance, FTA is responsible, primarily
-      through its regional offices, for ensuring compliance with Federal requirements
-      and proper use of Federal funds.
   underpayments:
     Address_Location: 0.0
     Contractor_Provider_Status: 0.0
@@ -545,7 +527,7 @@ Data_By_Year:
     (mandated compliance reviews); State Management Reviews; Procurement System Reviews;
     and Financial Management Oversight Reviews.'
   IP_Unknown_Target_Rate: 0.001
-  Improper_Payments_Rate: 0.15843506970000001
+  Improper_Payments_Rate: 0.15843507
   Insufficient_Documentation_to_Determine: 0.0
   Margin_of_Error: '0.27'
   Non_Monetary_Loss_Amount: '0'
@@ -620,16 +602,8 @@ Data_By_Year:
     Failure_to_Access_Data: 0.0
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0.0'
-Description: 'In response to the COVID-19 pandemic, FTA received three emergency appropriations
-  to support the nation’s public transportation systems. The funding provided relief
-  to transit agencies for ongoing operations rather than traditional capital investments.
-  The primary root cause of the program’s improper payments is the timing when transit
-  operating expenses became eligible for reimbursement. New COVID funding eligibilities
-  did not align with the prior period accounting adjustments made during the testing
-  period such as: employee benefits and direct costs calculations, accruals, and payroll
-  reversals. Funds are not administered at the Federal level and overpayments are
-  outside of FTA control when grant recipients make administrative errors.  '
-Fiscal_Year: 2025
+Description: null
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: false
@@ -641,43 +615,42 @@ Phase_2_Program: 0
 Program_Name: Federal Transit Administration Transit Infrastructure Grants - COVID
   Relief Funds
 Scorecard_Links:
-- Link: assets/scorecards/Q2 2023/Federal Transit Administration Transit Infrastructure
-    Grants - COVID Relief Funds.pdf
-  QuarterYear: Q2 2023
-- Link: assets/scorecards/Q3 2023/Federal Transit Administration Transit Infrastructure
-    Grants - COVID Relief Funds.pdf
-  QuarterYear: Q3 2023
-- Link: assets/scorecards/Q4 2023/Federal Transit Administration Transit Infrastructure
-    Grants - COVID Relief Funds.pdf
-  QuarterYear: Q4 2023
-- Link: assets/scorecards/Q1 2024/Federal Transit Administration Transit Infrastructure
-    Grants - COVID Relief Funds.pdf
-  QuarterYear: Q1 2024
-- Link: assets/scorecards/Q2 2024/Federal Transit Administration Transit Infrastructure
-    Grants - COVID Relief Funds.pdf
-  QuarterYear: Q2 2024
-- Link: assets/scorecards/Q3 2024/Federal Transit Infrastructure Grants - COVID Relief
-    Funds.pdf
-  QuarterYear: Q3 2024
-- Link: assets/scorecards/Q4 2024/Federal Transit Administration Transit Infrastructure
-    Grants - COVID Relief Funds.pdf
-  QuarterYear: Q4 2024
-- Link: assets/scorecards/Q1 2025/Federal Transit Administration Transit Infrastructure
-    Grants - COVID Relief Funds.pdf
-  QuarterYear: Q1 2025
-- Link: assets/scorecards/Q2 2025/Federal Transit Administration Transit Infrastructure
-    Grants - COVID Relief Funds.pdf
-  QuarterYear: Q2 2025
-- Link: assets/scorecards/Q3 2025/Federal Transit Administration Transit Infrastructure
-    Grants - COVID Relief Funds.pdf
-  QuarterYear: Q3 2025
 - Link: assets/scorecards/Q4 2025/Federal Transit Administration Transit Infrastructure
     Grants - COVID Relief Funds.pdf
   QuarterYear: Q4 2025
+- Link: assets/scorecards/Q3 2025/Federal Transit Administration Transit Infrastructure
+    Grants - COVID Relief Funds.pdf
+  QuarterYear: Q3 2025
+- Link: assets/scorecards/Q2 2025/Federal Transit Administration Transit Infrastructure
+    Grants - COVID Relief Funds.pdf
+  QuarterYear: Q2 2025
+- Link: assets/scorecards/Q1 2025/Federal Transit Administration Transit Infrastructure
+    Grants - COVID Relief Funds.pdf
+  QuarterYear: Q1 2025
+- Link: assets/scorecards/Q4 2024/Federal Transit Administration Transit Infrastructure
+    Grants - COVID Relief Funds.pdf
+  QuarterYear: Q4 2024
+- Link: assets/scorecards/Q3 2024/Federal Transit Infrastructure Grants - COVID Relief
+    Funds.pdf
+  QuarterYear: Q3 2024
+- Link: assets/scorecards/Q2 2024/Federal Transit Administration Transit Infrastructure
+    Grants - COVID Relief Funds.pdf
+  QuarterYear: Q2 2024
+- Link: assets/scorecards/Q1 2024/Federal Transit Administration Transit Infrastructure
+    Grants - COVID Relief Funds.pdf
+  QuarterYear: Q1 2024
+- Link: assets/scorecards/Q4 2023/Federal Transit Administration Transit Infrastructure
+    Grants - COVID Relief Funds.pdf
+  QuarterYear: Q4 2023
+- Link: assets/scorecards/Q3 2023/Federal Transit Administration Transit Infrastructure
+    Grants - COVID Relief Funds.pdf
+  QuarterYear: Q3 2023
+- Link: assets/scorecards/Q2 2023/Federal Transit Administration Transit Infrastructure
+    Grants - COVID Relief Funds.pdf
+  QuarterYear: Q2 2023
 Technically_Improper_Amounts: '[0, 0, 0, 0]'
 Underpayment_Amounts: '[0, 0, 0.097751, 0]'
 Unknown_Amounts: '[0, 0, 0, 0]'
-fpi_link: https://fpi.omb.gov/program/20.507
 layout: program-specific
 permalink: program/dot-federal-transit-administration-transit-infrastructure-gr-cd888668
 ---

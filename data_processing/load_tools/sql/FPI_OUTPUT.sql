@@ -4,11 +4,11 @@ SELECT
 	[program_to_aln].[Agency] AS [agency],
 	-- this ensures that every program in the mapping is exported at least once
 	COALESCE([ip_data].[Fiscal_Year],?) AS [fiscal_year],
-	[ip_data].[Outlays] AS [outlays],
-	[ip_data].[IP_Amount] AS [improper_payment_amount],
+	CASE WHEN [ip_data].[Outlays] IS NULL THEN NULL ELSE rtrim(rtrim(format('%.10f', [ip_data].[Outlays]), '0'), '.') END AS [outlays],
+	CASE WHEN [ip_data].[IP_Amount] IS NULL THEN NULL ELSE rtrim(rtrim(format('%.10f', [ip_data].[IP_Amount]), '0'), '.') END AS [improper_payment_amount],
 	[ip_data].[Start_Date] AS [start_date],
 	[ip_data].[End_Date] AS [end_date],
-	[insufficient_documentation].[Amount] AS [insufficient_documentation_amount]
+	CASE WHEN [insufficient_documentation].[Amount] IS NULL THEN NULL ELSE rtrim(rtrim(format('%.10f', [insufficient_documentation].[Amount]), '0'), '.') END AS [insufficient_documentation_amount]
 FROM
     [program_to_aln]
 LEFT JOIN

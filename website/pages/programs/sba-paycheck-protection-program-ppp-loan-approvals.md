@@ -119,7 +119,7 @@ Data_By_Year:
     Inability_to_Access_Data: 0.0
     Underpayments_Amount: '0'
 Description: null
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Integrity_Results: false
 Hide_Program_Results: false
 Hide_Scorecard_Links: true
@@ -133,7 +133,6 @@ Scorecard_Links: []
 Technically_Improper_Amounts: '[0]'
 Underpayment_Amounts: '[0]'
 Unknown_Amounts: '[16497.713144]'
-fpi_link: https://fpi.omb.gov/program/59.073
 layout: program-specific
 permalink: program/sba-paycheck-protection-program-ppp-loan-approvals
 ---

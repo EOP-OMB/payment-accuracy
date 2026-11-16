@@ -1,12 +1,12 @@
 ---
 Agency: USIP
 Agency_Name: United States Institute of Peace
-Confirmed_Fraud: 0.0
+Confirmed_Fraud: null
 Eligibility_Themes: []
-Fiscal_Year: 2025
+Fiscal_Year: 2026
 Hide_Disposition_of_Funds: true
 Hide_Disposition_of_Funds_Table: true
-Hide_Do_Not_Pay: false
+Hide_Do_Not_Pay: true
 Hide_Eligibility_Criteria: true
 Hide_Integrity_Results: true
 Hide_PIIA2019: false
@@ -61,31 +61,8 @@ Unknown_Payments_Rate_Max: 0
 Unknown_Payments_Rate_Min: 0
 Unknown_Payments_Rates: '[]'
 Years_Available:
+- 2026
 - 2025
-detail_Additional_IP_Information: null
-detail_Aging_of_Outstanding_OP_Identified_Remaining_Unrecovered: null
-detail_Compliance_Status: Compliant
-detail_DNP_Discussion: USIP processes payments through our financial system through
-  GSA.
-detail_DNP_Frequency_Identify: My agency did not identify any incorrect information
-detail_DNP_Reduced: 'Yes'
-detail_DNP_Used: 'Yes'
-detail_Disposition_of_Funds: null
-detail_Executive_Summary: For this reporting period, The US Institute of Peace (USIP)
-  continued its commitment to safeguarding federal funds and ensuring payment accuracy
-  in compliance with the Payment Integrity Information Act of 2019. All of our vendors
-  are vetted prior to being set up in our financial system. We receive invoices from
-  our vendors which are reviewed and approved by USIP staff prior to payment being
-  issued.
-detail_OIG_Recommendations: null
-detail_Overpayment_Conditions_And_Methods: null
-detail_PIIA_Incentives: null
-detail_PIIA_Official: null
-detail_Recovery_Audits_Skipped: 'No'
-detail_Recovery_Justifications_Audits: null
-detail_Recovery_Not_Cost_Effective_Justification: null
-detail_Risks_Substantial_Changes_Made: null
 layout: agency-specific
 permalink: agency/USIP.html
-recovery_Recovery_Audit_Amount_Outstanding_Rate: 0.0
 ---
